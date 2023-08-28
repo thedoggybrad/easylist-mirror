@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202308281726
+! Version: 202308281735
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Aug 2023 17:26 UTC
+! Last modified: 28 Aug 2023 17:35 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -9633,6 +9633,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.contenedor_redes_sociales
 ##.content-footer-social
 ##.content-item-explicitShare
+##.content-share-article
 ##.content-share-col
 ##.content-share-wrap
 ##.content-social-distribution
@@ -35867,6 +35868,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||pubtech.ai^$third-party
 ||quantcast.mgr.consensu.org^$third-party
 ||raccogliereilconsenso.com^$third-party
+||recogerconsentimiento.com^$third-party
 ||registroconsensi.it^$third-party
 ||sammledenkonsens.com^$third-party
 ||scrookie.nl^$third-party
@@ -39320,6 +39322,7 @@ zicasso.com##div[class^="article-page-module--article__newsletter"]
 cpr.org##div[class^="newsArticleSignup_"]
 bramptonguardian.com,buzzfeed.com,buzzfeednews.com,coindesk.com,cpr.org,petmd.com,sciencenews.org,snexplores.org,zicasso.com##div[class^="newsletter"]
 engadget.com##div[data-component="NewsletterCard"]
+scmp.com##div[data-qa="NewsletterWidgetContainer-NewsletterWidget"]
 rootforamerica.com##div[id^="PopupOverLay_SF_"]
 thenation.com##div[id^="inline_cta_"]
 haaretz.com##div[id^="newsletter"]
@@ -42973,7 +42976,7 @@ carsharingi.ru,clipartsfree.net,nmsu.edu,tech-america.com,waracle.com##.bottom-0
 ! ! .bottom-0.relative
 onassis.org##.bottom-0.relative
 ! ! .bottom-0.fixed
-1password.com,actievandedag.nl,aksam.com.tr,aplikuj.pl,app.daily.dev,auf1.info,auf1.tv,auroracloud.dev,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bellevue-hamburg.de,bestsellers.hu,betapage.co,biljardihuolto.fi,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bsbfashion.com,bulldogjob.com,bulldogjob.pl,canal1.com.co,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,cryptomaan.eu,curiositystream.com,czepeku.com,deepsource.io,delio.com.pl,digi.no,discords.com,divvydiary.com,drank.nl,elvah.de,everifin.com,evolutionary-insights.com,fanzo.com,first-law.com,flakehub.com,focus-entmt.com,form3.tech,fvd.nl,gauss.hr,glideapps.com,goflink.com,greenmatch.co.uk,ground.news,hendy.co.uk,hrt.hr,hyte.com,ideo.com,institute.global,invezz.com,iotworldtoday.com,ipon.hu,jobicon.pracuj.pl,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,lounges.tv,matkakeisari.fi,mclarenstore.com,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,nationalprivacytest.org,nativebase.io,nbg.gov.ge,nexcess.net,nitronationworldtour.com,oko.press,opening-hours.today,ouraring.com,parqet.com,pazarama.com,perille.fi,prettylittlething.com,propello.bike,puma.com,qwertee.com,ranzijn.nl,raport.pse.pl,regiojet.at,regiojet.com,regiojethotels.at,regiojethotels.com,runmercury.com,shakuro.com,skyfi.com,skynet.ru,smartthingsfind.samsung.com,sportfondsenbadamsterdamoost.nl,spotlighttheatres.com,star.com.tr,stylesandpartners.com,tekninen.fi,teltonika-networks.com,thehappytoolbox.com,truthsocial.com,tu.no,tweetyai.com,twitchcon.com,uc.pt,unox.com,vegetology.com,wizzair.com##.bottom-0.fixed
+1password.com,actievandedag.nl,aksam.com.tr,aplikuj.pl,app.daily.dev,auf1.info,auf1.tv,auroracloud.dev,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bellevue-hamburg.de,bestsellers.hu,betapage.co,biljardihuolto.fi,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bsbfashion.com,bulldogjob.com,bulldogjob.pl,canal1.com.co,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,cryptomaan.eu,curiositystream.com,czepeku.com,deepsource.io,delio.com.pl,digi.no,discords.com,divvydiary.com,drank.nl,elvah.de,everifin.com,evolutionary-insights.com,fanzo.com,first-law.com,flakehub.com,focus-entmt.com,form3.tech,fvd.nl,gauss.hr,glideapps.com,goflink.com,greenmatch.co.uk,ground.news,hendy.co.uk,hrt.hr,hyte.com,ideo.com,institute.global,invezz.com,iotworldtoday.com,ipon.hu,jobicon.pracuj.pl,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,lounges.tv,matkakeisari.fi,mclarenstore.com,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,nationalprivacytest.org,nativebase.io,nbg.gov.ge,nexcess.net,nitronationworldtour.com,oko.press,opening-hours.today,ouraring.com,parqet.com,pazarama.com,perille.fi,prettylittlething.com,propello.bike,puma.com,qwertee.com,ranzijn.nl,raport.pse.pl,regiojet.at,regiojet.com,regiojethotels.at,regiojethotels.com,runmercury.com,shakuro.com,skyfi.com,skynet.ru,smartthingsfind.samsung.com,sportfondsenbadamsterdamoost.nl,spotlighttheatres.com,star.com.tr,stylesandpartners.com,tekninen.fi,teltonika-networks.com,thehappytoolbox.com,truthsocial.com,tu.no,tweetyai.com,twitchcon.com,uc.pt,unox.com,vegetology.com,wizzair.com,wyylde.com##.bottom-0.fixed
 ! ! .bottom-2
 argyle.com,artma-zaproszenia.pl,avif.io,lahella.fi##.bottom-2
 ! ! .bottom-6
@@ -44528,6 +44531,7 @@ semana.com##.footer-google-news
 a24.com,perfil.com##.footer-redes
 ara.cat##.footer-rrss
 elmostrador.cl##.gnews-container
+diariodecuyo.com.ar##.group-redes
 ultimominuto.news##.header__follow
 cnnespanol.cnn.com##.headerradio__social
 abc.es##.herramientas
@@ -44549,6 +44553,7 @@ biobiochile.cl##.post-social-container
 gamestorrents.fm##.principio_plugin
 crea-mexico.com,elobservador.com.uy,futbol.com.uy,futbolred.com,montevideo.com.uy,mvsnoticias.com,pantallazo.com.uy,telesurtv.net##.redes
 biobiochile.cl##.redes-container
+diariodecuyo.com.ar##.redes-left
 telesurtv.net##.redesHeader
 futbolred.com##.redes__articulo
 cadenaser.com,globovision.com##.rrss
