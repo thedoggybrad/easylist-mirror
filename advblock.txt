@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dwTj2+/nUP05HHOnzx48cg
-! Version: 202308281551
+! Checksum: aqBdI6OD7jbhkqmQPrglPw
+! Version: 202308281601
 ! Title: RU AdList
-! Last modified: 28 Aug 2023 15:51 UTC
+! Last modified: 28 Aug 2023 16:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15640,7 +15640,7 @@ med.vesti.ru##.sb-banner
 beauty.ua,edinstvennaya.ua,viva.ua##.sb-partners
 edinstvennaya.ua#?#.sb__section:-abp-has(> .sb-partners)
 agroinfo.kz##.sbanner
-gidonline.io##.sbins
+gidonline.io##.sbin:not([style])
 uaspectr.com##.sbr-slider > .pst-block > .pst-block-head
 tagilcity.ru##.sbs_p
 sportsdaily.ru##.schedule__bet-block
@@ -25895,8 +25895,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
