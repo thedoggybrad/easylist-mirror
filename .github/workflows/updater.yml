@@ -1,0 +1,247 @@
+name: Routine Sync of EasyList Mirror
+
+on:
+   workflow_dispatch:
+ 
+jobs:
+  sync_files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setting commit credentials
+        run: |
+          git config --global user.email "142152315+syncbot-easylistmirror@users.noreply.github.com "
+          git config --global user.name "syncbot-easylistmirror"
+
+      - name: Sync easylist.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/easylist.txt > easylist.txt
+          git add easylist.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylist.txt" || true
+          git push
+
+      - name: Sync easyprivacy.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/easyprivacy.txt > easyprivacy.txt
+          git add easyprivacy.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easyprivacy.txt" || true
+          git push
+
+      - name: Sync fanboy-cookiemonster.txt
+        run: |
+          curl -sSfL https://secure.fanboy.co.nz/fanboy-cookiemonster.txt > easycookie.txt
+          git add easycookie.txt
+          git diff-index --quiet HEAD || git commit -m "Sync fanboy-cookiemonster.txt" || true
+          git push
+
+      - name: Sync fanboy-social.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/fanboy-social.txt > fanboysocial.txt
+          git add fanboysocial.txt
+          git diff-index --quiet HEAD || git commit -m "Sync fanboy-social.txt" || true
+          git push
+
+      - name: Sync fanboy-annoyance.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/fanboy-annoyance.txt > fanboyannoyance.txt
+          git add fanboyannoyance.txt
+          git diff-index --quiet HEAD || git commit -m "Sync fanboy-annoyance.txt" || true
+          git push
+
+      - name: Sync antiadblockfilters.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/antiadblockfilters.txt > antiadblock.txt
+          git add antiadblock.txt
+          git diff-index --quiet HEAD || git commit -m "Sync antiadblockfilters.txt" || true
+          git push
+          
+      - name: Sync easylistgermany.txt
+        run: |
+          curl -sSfL https://easylist.to/easylistgermany/easylistgermany.txt > easylistgermany.txt
+          git add easylistgermany.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylistgermany.txt" || true
+          git push
+      - name: Sync easylistitaly.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistitaly.txt > easylistitaly.txt
+          git add easylistitaly.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylistitaly.txt" || true
+          git push
+
+      - name: Sync easylistdutch.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistdutch.txt > easylistdutch.txt
+          git add easylistdutch.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylistdutch.txt" || true
+          git push
+
+      - name: Sync liste_fr.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/liste_fr.txt > liste_fr.txt
+          git add liste_fr.txt
+          git diff-index --quiet HEAD || git commit -m "Sync liste_fr.txt" || true
+          git push
+
+      - name: Sync easylistchina.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistchina.txt > easylistchina.txt
+          git add easylistchina.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylistchina.txt" || true
+          git push
+
+      - name: Sync advblock.txt (RU AdList)
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/advblock.txt > advblock.txt
+          git add advblock.txt
+          git diff-index --quiet HEAD || git commit -m "Sync advblock.txt" || true
+          git push
+
+      - name: Sync adblock_bg.txt (Bulgarian)
+        run: |
+          curl -sSfL http://stanev.org/abp/adblock_bg.txt > adblock_bg.txt
+          git add adblock_bg.txt
+          git diff-index --quiet HEAD || git commit -m "Sync adblock_bg.txt" || true
+          git push
+
+      - name: Sync abpindo.txt
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt > abpindo.txt
+          git add abpindo.txt
+          git diff-index --quiet HEAD || git commit -m "Sync abpindo.txt" || true
+          git push
+
+      - name: Sync Liste_AR.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/Liste_AR.txt > Liste_AR.txt
+          git add Liste_AR.txt
+          git diff-index --quiet HEAD || git commit -m "Sync Liste_AR.txt" || true
+          git push
+
+      - name: Sync easylistczechandslovak.txt
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt > easylistczechandslovak.txt
+          git add easylistczechandslovak.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylistczechandslovak.txt" || true
+          git push
+
+      - name: Sync latvian-list.txt
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/Latvian-List/adblock-latvian/master/lists/latvian-list.txt > latvian-list.txt
+          git add latvian-list.txt
+          git diff-index --quiet HEAD || git commit -m "Sync latvian-list.txt" || true
+          git push
+
+      - name: Sync EasyListHebrew.txt
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt > EasyListHebrew.txt
+          git add EasyListHebrew.txt
+          git diff-index --quiet HEAD || git commit -m "Sync EasyListHebrew.txt" || true
+          git push
+
+      - name: Sync NordicFiltersABP-Inclusion.txt (Dandelion Nordic)
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersABP-Inclusion.txt > NordicFiltersABP-Inclusion.txt
+          git add NordicFiltersABP-Inclusion.txt
+          git diff-index --quiet HEAD || git commit -m "Sync NordicFiltersABP-Inclusion.txt" || true
+          git push
+
+      - name: Sync easylistlithuania.txt
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt > easylistlithuania.txt
+          git add easylistlithuania.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylistlithuania.txt" || true
+          git push
+
+      - name: Sync easylistspanish.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistspanish.txt > easylistspanish.txt
+          git add easylistspanish.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylistspanish.txt" || true
+          git push
+
+      - name: Sync easylistportuguese.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistportuguese.txt > easylistportuguese.txt
+          git add easylistportuguese.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylistportuguese.txt" || true
+          git push
+
+      - name: Sync abpvn.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/abpvn.txt > abpvn.txt
+          git add abpvn.txt
+          git diff-index --quiet HEAD || git commit -m "Sync abpvn.txt" || true
+          git push
+
+      - name: Sync easylistpolish.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistpolish.txt > easylistpolish.txt
+          git add easylistpolish.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylistpolish.txt" || true
+          git push
+
+      - name: Sync indianlist.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/indianlist.txt > indianlist.txt
+          git add indianlist.txt
+          git diff-index --quiet HEAD || git commit -m "Sync indianlist.txt" || true
+          git push
+
+      - name: Sync koreanlist.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/koreanlist.txt > koreanlist.txt
+          git add koreanlist.txt
+          git diff-index --quiet HEAD || git commit -m "Sync koreanlist.txt" || true
+          git push
+
+      - name: Sync rolist.txt
+        run: |
+          curl -sSfL https://www.zoso.ro/pages/rolist.txt > rolist.txt
+          git add rolist.txt
+          git diff-index --quiet HEAD || git commit -m "Sync rolist.txt" || true
+          git push
+
+      - name: Sync easyprivacy_nointernational.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easyprivacy_nointernational.txt > easyprivacy_nointernational.txt
+          git add easyprivacy_nointernational.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easyprivacy_nointernational.txt" || true
+          git push
+
+      - name: Sync easylist_noadult.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylist_noadult.txt > easylist_noadult.txt
+          git add easylist_noadult.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylist_noadult.txt" || true
+          git push
+
+      - name: Sync easylist_noelemhide.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylist_noelemhide.txt > easylist_noelemhide.txt
+          git add easylist_noelemhide.txt
+          git diff-index --quiet HEAD || git commit -m "Sync easylist_noelemhide.txt" || true
+          git push
+
+      - name: Sync fanboy-newsletter.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/fanboy-newsletter.txt > fanboy-newsletter.txt
+          git add fanboy-newsletter.txt
+          git diff-index --quiet HEAD || git commit -m "Sync fanboy-newsletter.txt" || true
+          git push
+
+      - name: Sync fanboy-sounds.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/fanboy-sounds.txt > fanboy-sounds.txt
+          git add fanboy-sounds.txt
+          git diff-index --quiet HEAD || git commit -m "Sync fanboy-sounds.txt" || true
+          git push
+          
+      - name: Sync abp-filters-anti-cv.txt (ABP anti-circumvention)
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt > abp-filters-anti-cv.txt
+          git add abp-filters-anti-cv.txt
+          git diff-index --quiet HEAD || git commit -m "Sync abp-filters-anti-cv.txt" || true
+          git push
