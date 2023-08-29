@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: eNrpAR4AxAGif5Y+3AjunQ
-! Version: 202308290920
+! Checksum: hqWPYBYuW51B2mCX/QZhrg
+! Version: 202308290931
 ! Title: EasyPrivacy without international filters
-! Last modified: 29 Aug 2023 09:20 UTC
+! Last modified: 29 Aug 2023 09:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1207,7 +1207,6 @@
 /fe/track/*
 /fe_logger?
 /figanalytics/*
-/finalizestats.
 /fingerprint.js
 /fingerprint.min.js
 /fingerprint2.js
@@ -1218,23 +1217,14 @@
 /firebase-performance-
 /firestats/*
 /firm_tracking.js
-/fit?analyticsSession=
-/fkounter/*
-/fkounter5/*
-/flcounter/*$script
-/flow_statistic.
+/fkounter/counter.js
+/fkounter5/counter.js
 /flushimpressions?
 /flv_tracking.
 /flying-analytics/*
 /footer-tracking.js
-/footer_tag_iframe.
 /footerpixel.gif?
 /foresee/*
-/fortvision-fb-web.
-/forumPixLog.
-/FoxAnalyticsExtension.
-/FoxBlueKaiPlugIn.
-/FoxComScore.
 /fp-3.3.6.min.js
 /fp/check.js
 /fp/clear.png
@@ -1248,13 +1238,11 @@
 /fp/top_fp.
 /fp2.compressed.js
 /fp_204?
-/fpc.pl?a=
 /fpc/cookie_js.php
 /fpcookie?
 /fpcount.exe
 /fprnt.min.js
 /fps/check.
-/fpTracker/*
 /fptrk.min.js
 /fpv2.js
 /freecgi/count.cgi?
@@ -1275,10 +1263,8 @@
 /ga-local.js
 /ga-multidomain.
 /ga-script.
-/ga-scroll-events-
-/ga-scroll-events.
+/ga-scroll-events.js
 /ga-se-async.js
-/ga-socialtracker.
 /ga-targets.js
 /ga-track-
 /ga-track.
@@ -1295,8 +1281,7 @@
 /ga1.js
 /ga2.js
 /ga_anonym.js
-/ga_cookie_
-/ga_dpc_youtube.
+/ga_cookie_track
 /ga_events.js
 /ga_external.
 /ga_footer.
@@ -1311,18 +1296,15 @@
 /ga_optimize.
 /ga_outgoinglinks.
 /ga_setup.js
-/ga_social.
-/ga_social_tracking_
-/ga_trace.
-/ga_tracker.
-/ga_tracking-
+/ga_social.js
+/ga_tracker.js
 /ga_tracking.
-/ga_tracklinks.
+/ga_tracklinks.js
 /gaaddons-
 /gaaddons.js
 /gaAnalytics.
-/gaclicktracking-
-/gaclicktracking.
+/gaclicktracking-universal.js
+/gaclicktracking.js
 /gaCustom.
 /gaEvents.js
 /gaEventTracking.
