@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GqtTQJNe/QfYE0Bd6pLifA
-! Version: 202308291741
+! Checksum: W/NmcSq5cl3CRGrnkLvcmA
+! Version: 202308291750
 ! Title: RU AdList
-! Last modified: 29 Aug 2023 17:41 UTC
+! Last modified: 29 Aug 2023 17:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16815,7 +16815,6 @@ gorobzor.ru##[href*="/link?to="]
 football.kulichki.net##[href*="/pari"]
 dotaguide.ru##[href*="://dotaguide.ru/go/"]
 anistar.org,astar.bz,online-star.org,online-stars.org##[href*="://r.advg.agency/"]
-hawk.live##[href*="://tiny.one/"]
 ogemorroe.com##[href*="=ogemorroe.com"]
 mmorpg.su##[href*="apygame.com/click"]
 local.com.ua##[href*="local.com.ua/banner"]
@@ -17108,6 +17107,7 @@ oterraria.ru##a[href*="://genshindrop.com/ref/"]
 pleogame.ru##a[href*="://go.pleogame.site/r/"]
 bwtorrents.ru##a[href*="://goo-gl.su/"]
 imageban.ru##a[href*="://gorodrabot.ru/"]
+hawk.live##a[href*="://hidude.click/"]
 dev.ua##a[href*="://klats-klats.com/"]
 anistar.org,astar.bz,online-star.org,online-stars.org##a[href*="://litmarket.ru/"]
 ok-tv.org##a[href*="://look-sport.net/"]
@@ -18141,8 +18141,6 @@ servernews.ru##div[class*="-banner"]
 moskva.fm,piter.fm##div[class*="-branding-"] > a[target="_blank"]
 doramatv.live,grouple.co,librebook.me,mintmanga.live,mose.live,readmanga.live,selflib.me,selfmanga.live##div[class*="-brnd"]
 kinoafisha.info##div[class*="-fix "][class$="as-desktop"]
-hawk.live##div[class*="-large"]
-hawk.live##div[class*="-medium"]
 sibnet.ru##div[class*="2023"][class*="root"]
 mmo13.ru##div[class*="300x600"]
 rg.ru##div[class*="Adfox"]
@@ -18182,7 +18180,6 @@ gazetaby.com,gazetaby.info,gazetaby.media##div[class*="block-articles-"][class*=
 mamaplus.md##div[class*="block-mplus"]
 soccer.ru##div[class*="block-new-desine-"][class*="-bookmakers"]
 ctv7.ru##div[class*="bnrs-block"]
-hawk.live##div[class*="bonus"]
 diabet-med.com##div[class*="boxzilla"]
 priluki.city##div[class*="bunner"]
 drom.ru,newsvl.ru,vl.ru##div[class*="candy"]
@@ -18414,6 +18411,7 @@ gisher.org##div[class^="gov"]
 pipdecor.ru##div[class^="hairw-"]
 hindcine.tv##div[class^="hind"]
 lolzteam.online##div[class^="homeBannersAds"]
+hawk.live##div[class^="inf-"]
 akipress.org##div[class^="inform_doska"]
 fakty.ua##div[class^="informer "]
 ura.news##div[class^="inpage_block-adv-"]
@@ -21034,7 +21032,7 @@ lada.kz/uploads/banners/
 ||haqqin.az/banners/
 ||hardstones.ru/js_content/
 ||hashflare.eu/banners/
-||hawk.live/images/info/
+||hawk.live/images/inf
 ||hcbarys.kz/banner_rotator/
 ||hcdn.online/engine/video/videojs-vast-vpaid-waterfall.
 ||hctorpedo.ru/files/$object
@@ -22974,7 +22972,7 @@ lada.kz/uploads/banners/
 ! Правила для ресурсов, которые их создатели сделали несовместимыми с адблоком
 !#if ext_abp
 ! запросы
-/^https?://(cyber|www)\.sports\.ru/*[/]*[/][^\s]{73,}/$script,domain=sports.ru
+/^https?://(cyber|www)\.sports\.ru/*[/]*[/][^\s]{70,}/$script,domain=sports.ru
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
 /^https?://24smi\.org/*[/]*[/][^\s]{80,}/$script,domain=24smi.org
 /^https?://[a-z0-9]+\.razlozhi\.ru\/[^\s]{45,}/$script,domain=razlozhi.ru
@@ -23259,6 +23257,7 @@ horo.mail.ru##div[data-module^="Slot.Mimic"]
 ! Дзен
 dzen.ru##.article-right-ad-block
 dzen.ru##.article__bottom-embed-wrapper > .ad-split-embed + div
+dzen.ru##.zen-ui-viewport-expansion__container:empty
 dzen.ru##.zenad-card-rtb
 dzen.ru##[data-name="video-in-combo-zen-container"]
 dzen.ru##div[data-name^="zen2"]
@@ -24054,7 +24053,7 @@ sports.ru##style:first-child ~ [class^="gift__"]
 sports.ru##.in-read-wrapper
 www.sports.ru##.poll__footer > .poll-share ~ div
 sports.ru##[data-content-piece="adfox"]
-sports.ru##[data-init-by-float]
+sports.ru##[data-init2-by-float]
 sports.ru##[data-refresh]
 sports.ru##[data-refresh] + div
 !
