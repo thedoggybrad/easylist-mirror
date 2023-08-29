@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W/NmcSq5cl3CRGrnkLvcmA
-! Version: 202308291750
+! Checksum: dkwhvqSNLCEV7hKrs29qoQ
+! Version: 202308291802
 ! Title: RU AdList
-! Last modified: 29 Aug 2023 17:50 UTC
+! Last modified: 29 Aug 2023 18:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12728,6 +12728,7 @@ fanfics.me##.FicHead.ContentTable > .left
 myshows.me#?#.Grid-in .GridItem:-abp-has(> div .show-item-kinopoisk)
 razvitierebenka.com#?#.HTML:-abp-has(> .widget-content > .adsbygoogle)
 myshows.me#?#.Home-section:-abp-has(> div .title [class*="-promo-kp__"])
+forbes.ru##.IQXal
 russiandc.com##.L
 iguides.ru##.LINKS_AFTER_ARTICLE
 meduza.io##.Layout-bannerTop
@@ -12756,7 +12757,6 @@ i.ua##.Wrap > .anons
 bmwclub.ru##.XenAdvShop
 cameralabs.org##.Yreklama
 novayagazeta.ru##._1ysoK
-forbes.ru##._3UJki
 yap.ru,yaplakal.com##.__axcode__
 gamestar.ru##.__b-popup1__
 vk.com##._ads_promoted_post_data_w
@@ -12803,7 +12803,7 @@ kirovnet.ru##.ad-forum-block
 3ddd.ru##.ad-width
 3dnews.kz,3dnews.ru##.ad.nomargins
 akniga.org,newsvideo.su##.ad1
-akniga.org,newsvideo.su##.ad2
+akniga.org,newsvideo.su,orda.kz##.ad2
 mk.tula.ru##.ad200x150
 mk.tula.ru##.ad200x300
 mk.tula.ru##.ad240x400
@@ -17931,6 +17931,7 @@ gotps3.ru##body > a[target="_blank"]
 hmn.ru##body > center > .px_blue_fon
 chinaspb350.ru##body > center > a[href="/aliexpress.php"]
 xxuy.ru##body > center > a[href] > img[alt]
+megapeer.ru,megapeer.vip##body > center > a[href][target="_blank"]:first-child
 samlib.ru##body > center > h3 + nobr + table[width="100%"]
 drevo.uaportal.com##body > center:first-of-type
 christianka.bratstvo.org##body > center:last-child
@@ -17941,6 +17942,7 @@ ingrus.net##body > div > .menu
 forchecking.ru##body > div > a[target="_blank"] > img
 forum.watch.ru##body > div > div[style*="overflow"]
 nadavi.com.ua,nadavi.ru##body > div > table[width="92%"]:not([class="top-region"])
+orda.kz##body > div.layer0
 coop-land.ru##body > div:not([id]):not([class]):empty
 boom365hd.com,sport365hd.com,sport365hd.net,whd365.pro##body > div:not([id]):not([class])[style*="z-index"]
 4725.ru##body > div:not([id]):not([class])[style^="position: relative;z-index:"]
