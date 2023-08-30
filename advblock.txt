@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2sbDaSBWNkd6HNVhY/pf1A
-! Version: 202308301240
+! Checksum: FnimI3pMneBnX4IVvjLHSg
+! Version: 202308301250
 ! Title: RU AdList
-! Last modified: 30 Aug 2023 12:40 UTC
+! Last modified: 30 Aug 2023 12:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22999,8 +22999,8 @@ pikabu.ru#?#.page-story__story > div:-abp-properties(display: block)
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 2ip.ua##.sidebar-nav
-pikabu.ru#?#.sidebar__inner > .sidebar-block:-abp-has([class]:-abp-properties(/min-height: 99px|min-height: [0-9]{3}px|min-height: [0-9]{1,}\./))
-pikabu.ru#?#.stories-feed__container > .story:-abp-has([class]:-abp-properties(/min-height: 99px|min-height: [0-9]{3}px|min-height: [0-9]{1,}\./))
+pikabu.ru#?#.sidebar__inner > .sidebar-block:-abp-has([class]:-abp-properties(min-height: calc(600px)))
+pikabu.ru#?#.stories-feed__container > .story:-abp-has([class]:-abp-properties(min-height: calc(300px)))
 dracon-zet.ru,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 pikabu.ru#?#aside > .sidebar-block:-abp-has(> div[id])
@@ -23008,7 +23008,7 @@ kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 cq.ru#?#div:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
-pikabu.ru##div[class]:first-child > p:first-child + div[class]:last-child div div
+pikabu.ru##div[class]:first-child > pre:first-child + div[class]:last-child div div
 rg.ru##div[id][class*="__"]:empty
 fontanka.ru#?#section div:-abp-properties(content: "Реклама")
 !#endif
@@ -25893,8 +25893,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
