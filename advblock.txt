@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3pyVLSQ4EtGiyjYD/yRoow
-! Version: 202308301420
+! Checksum: tt1crAi1tgAV9/B9BFgNAw
+! Version: 202308301431
 ! Title: RU AdList
-! Last modified: 30 Aug 2023 14:20 UTC
+! Last modified: 30 Aug 2023 14:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -682,7 +682,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||tops-blogs.ru^$popup
 ||ya-cdn.ru^$popup
 ||ya-distrib.ru^$popup
-||yandex.net^*/weboffer/$popup
+||yandex.net^*/weboffer/$document,popup
 ||yourlnk.ru^$popup
 ! - Попапы для фейков --------------------------------------------------------------------
 .infox.sg^$popup
@@ -1298,6 +1298,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##a[href*="://go.bundlebyte.net/r/"]
 ##a[href*="://go.click2bit.net/"]
 ##a[href*="://go.progfile.space/r/"]
+##a[href*="://gonewfiles.ru/"]
 ##a[href*="://gopremiumsoft.com/"]
 ##a[href*="://installpack.ru"]
 ##a[href*="://kinobud.site/"]
