@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /3Su7zfhnO7H3ZVZYpxBHQ
-! Version: 202308301651
+! Checksum: BoWxOAcwvBI7ys49RAKUFw
+! Version: 202308301701
 ! Title: RU AdList
-! Last modified: 30 Aug 2023 16:51 UTC
+! Last modified: 30 Aug 2023 17:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23009,7 +23009,7 @@ kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 cq.ru#?#div:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
-pikabu.ru##div[class]:first-child > pre:first-child + div[class]:last-child div div
+pikabu.ru##div[class]:first-child > span:first-child + div[class]:last-child div div
 rg.ru##div[id][class*="__"]:empty
 fontanka.ru#?#section div:-abp-properties(content: "Реклама")
 !#endif
