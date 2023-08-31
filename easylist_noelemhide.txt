@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TKRYKXaUW7Z77NRI88F19w
-! Version: 202308311301
+! Checksum: 7csOyCx2TKD1cn9SZgciHQ
+! Version: 202308311310
 ! Title: EasyList without element hiding rules
-! Last modified: 31 Aug 2023 13:01 UTC
+! Last modified: 31 Aug 2023 13:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -314,6 +314,7 @@
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*
 /ad/imp?
+/ad/index.
 /ad/leaderboard.
 /ad/player_
 /ad/popup.
@@ -947,6 +948,7 @@
 /adv_head.
 /adv_horiz.
 /adv_left_
+/adv_out.js
 /adv_teasers.js
 /adv_vert.js
 /advanced-ads-$domain=~wordpress.org
@@ -995,6 +997,7 @@
 /aff/banners/*
 /aff/images/*
 /aff_ad?$script
+/aff_banner/*
 /aff_banners/*
 /affad?
 /affads/*
@@ -1240,6 +1243,7 @@
 /cpx-ad.
 /cpxads.
 /css/ads-
+/css/adsense.
 /css/adv.
 /css/adz.
 /cube_ads/*
@@ -4792,6 +4796,7 @@ _800x80_
 ||ads.lemmatechnologies.com^
 ||ads.rd.linksynergy.com^
 ||ads1-adnow.com^
+||ads2-adnow.com^
 ||ads2550.bid^
 ||ads2ads.net^
 ||ads3-adnow.com^
@@ -21429,6 +21434,7 @@ _800x80_
 ||pc1ads.com^
 ||pc20160301.com^
 ||pc2ads.com^
+||pc2ads.ru^
 ||pc5ads.com^
 ||pcbuqpdytqanufu.xyz^
 ||pccasia.xyz^
@@ -39757,6 +39763,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||yourlust.com*/serve
 ||yourlust.com/assets/script.js
+||yourlust.com/js/scripts.js
 ||youtubelike.com/ftt2/
 ||yporn.tv/yp/yptv.php
 ||z0s9n.xhamster.com^
