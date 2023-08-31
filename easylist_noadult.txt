@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iHRB8luArZJNliIgQ0p1pg
-! Version: 202308311301
+! Checksum: ebrZekLWUnhelgOlTw37Bg
+! Version: 202308311310
 ! Title: EasyList without rules for adult sites
-! Last modified: 31 Aug 2023 13:01 UTC
+! Last modified: 31 Aug 2023 13:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -314,6 +314,7 @@
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*
 /ad/imp?
+/ad/index.
 /ad/leaderboard.
 /ad/player_
 /ad/popup.
@@ -947,6 +948,7 @@
 /adv_head.
 /adv_horiz.
 /adv_left_
+/adv_out.js
 /adv_teasers.js
 /adv_vert.js
 /advanced-ads-$domain=~wordpress.org
@@ -995,6 +997,7 @@
 /aff/banners/*
 /aff/images/*
 /aff_ad?$script
+/aff_banner/*
 /aff_banners/*
 /affad?
 /affads/*
@@ -1240,6 +1243,7 @@
 /cpx-ad.
 /cpxads.
 /css/ads-
+/css/adsense.
 /css/adv.
 /css/adz.
 /cube_ads/*
@@ -21018,6 +21022,7 @@ browsershots.org#@#.advert_area
 ||ads.lemmatechnologies.com^
 ||ads.rd.linksynergy.com^
 ||ads1-adnow.com^
+||ads2-adnow.com^
 ||ads2550.bid^
 ||ads2ads.net^
 ||ads3-adnow.com^
@@ -37655,6 +37660,7 @@ browsershots.org#@#.advert_area
 ||pc1ads.com^
 ||pc20160301.com^
 ||pc2ads.com^
+||pc2ads.ru^
 ||pc5ads.com^
 ||pcbuqpdytqanufu.xyz^
 ||pccasia.xyz^
@@ -55325,7 +55331,7 @@ namemc.com###skin_wrapper
 dafont.com###sky
 dailymail.co.uk###sky-right
 dailydooh.com###skysbar
-holiday-weather.com,w3schools.com,zerochan.net###skyscraper
+holiday-weather.com,omniglot.com,w3schools.com,zerochan.net###skyscraper
 jokes2go.com###skyscraperDiv
 nitrome.com###skyscraper_box
 nitrome.com###skyscraper_shadow
