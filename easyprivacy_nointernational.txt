@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JQDhBpY2AbrO7HJRVdrV9w
-! Version: 202308312040
+! Checksum: /H1hK+HOhzxBZdWzApxPcA
+! Version: 202308312050
 ! Title: EasyPrivacy without international filters
-! Last modified: 31 Aug 2023 20:40 UTC
+! Last modified: 31 Aug 2023 20:50 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10009,6 +10009,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrix.emagister.com^
 ||mikeneko.apollo.moe/js/script.js
 ||minutemediacdn.com/campaign-manager-client/
+||mircheigeshoa.com/prod/smi/fp.min.js
 ||mixpanel.com/track?
 ||mj-snowplow-static-js.s3.amazonaws.com^
 ||mkcms.com/stats.js
@@ -29984,6 +29985,7 @@ arketing.indianadunes.com^
 @@||lightning.bleacherreport.com^*/launch-$~third-party
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
+@@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
 @@||logging.apache.org^$~third-party
 @@||logo.clearbit.com^$image,third-party
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
