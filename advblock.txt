@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: V+4IerOBLjMA1JYPaezb+w
-! Version: 202308312111
+! Checksum: VvHeEQi3wAXqFA4QiAYsyw
+! Version: 202308312120
 ! Title: RU AdList
-! Last modified: 31 Aug 2023 21:11 UTC
+! Last modified: 31 Aug 2023 21:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22985,6 +22985,7 @@ lada.kz/uploads/banners/
 /^https?://www\.e1\.ru/*[/]*[/][^\s]{80,}/$script,xmlhttprequest,domain=www.e1.ru
 /^https?://www\.liveinternet\.ru/(?!utf\/|q\/js\/|js\/|4Ek/JS/diary/main/nav/regoradd.js|autosave.js|cgi-bin/rpls.fcgi?|ckeditor\/|ckfinder\/|main_new_1251.js|share/js/share.js|spell/spell.js|uploader\/|vbcode.js|vbcode_language.js)/$script,domain=www.liveinternet.ru
 /^https?://www\.liveinternet\.ru/*[/]*[/][^\s]{80,}/$script,xmlhttprequest,domain=www.liveinternet.ru
+://pikabu.ru/*/*/*/$script,xmlhttprequest
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=besthdwallpaper.com
 @@||s.zfctrack.net/z|$xmlhttprequest,domain=hvylya.net|kriminal.tv
 @@||s.zmctrack.net/z|$xmlhttprequest,domain=i.ua|ivona.ua|meteo.ua|panno4ka.net
