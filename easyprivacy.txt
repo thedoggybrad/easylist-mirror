@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202309020042
+! Version: 202309020048
 ! Title: EasyPrivacy
-! Last modified: 02 Sep 2023 00:42 UTC
+! Last modified: 02 Sep 2023 00:48 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -5749,6 +5749,7 @@ _mongo_stats/
 ||newrelic.com^$third-party
 ||newrrb.bid^$third-party
 ||nextstat.com^$third-party
+||nexx360.io^$third-party
 ||ngmco.net^$third-party
 ||nicequest.com^$third-party
 ||niftymaps.com^$third-party
@@ -13846,6 +13847,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lexa.realestate.com.au^
 ||lexology.com/pd.js
 ||libhunt.com/api/ahoy/event
+||librato-collector.genius.com^
 ||lightstep.medium.systems^*/reports
 ||link.kogan.com^
 ||link2.strawberrynet.com^$image
@@ -31801,6 +31803,7 @@ arketing.indianadunes.com^
 ||jobs.ch/api/v1/public/product/track/
 ||js.tag24.de/main.js
 ||leipziger-stadtplan.com/t.gif
+||llntrack.messe-duesseldorf.de^
 ||lokalwerben.t-online.de^
 ||metrics.n-tv.de^
 ||mlm-tracking-service.meinestadt.de^
@@ -31965,6 +31968,7 @@ arketing.indianadunes.com^
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
 ||lacentrale.fr/collect
+||lacentrale.fr/static/fragment-sentry/lc-sentry.js
 ||ldlc.com/V4px/js/ldlcmachine.js
 ||leboncoin.fr/rav-monitoring/
 ||lecho.be/fb2?
