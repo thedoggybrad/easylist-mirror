@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8/ggLMWhyaZVtbQmi3bxCg
-! Version: 202309021401
+! Checksum: 4VgmeMufMmsJSq3S5Si/4A
+! Version: 202309021410
 ! Title: EasyList China
-! Last modified: 02 Sep 2023 14:01 UTC
+! Last modified: 02 Sep 2023 14:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -16525,6 +16525,9 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$~third-party
 @@||adsense.woso.cn^$~third-party
+@@||demo.ama.pub^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=demo.ama.pub
+@@||adnxs.com/prebid/prebid.js$domain=demo.ama.pub
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
 @@||adservice.google.com/adsid/integrator.js$domain=logi.im
 @@||advert.kf5.com^
