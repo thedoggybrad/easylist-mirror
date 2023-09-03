@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jN8lG4oTxPzahGppLDOaFA
-! Version: 202309031010
+! Checksum: buiKckWv3ZywdARVguQIjw
+! Version: 202309031020
 ! Title: RU AdList
-! Last modified: 03 Sep 2023 10:10 UTC
+! Last modified: 03 Sep 2023 10:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23780,6 +23780,7 @@ lenta.ru,m.gazeta.ru###top-banner
 mail.rambler.ru##.Direct-root-hG
 gazeta.ru##._is_adfree
 championat.com##._live-fonbet
+lenta.ru#?#._longgrid:-abp-has(> [class*="info"] > [class*="_ad-title"])
 lenta.ru##._sticked > ._branded
 lenta.ru##._tinkoff
 rambler.ru##.article__banner
@@ -25900,8 +25901,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
