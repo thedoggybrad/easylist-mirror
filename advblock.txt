@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Df+KAZ4RVDKQAE1Dl5YQJw
-! Version: 202309032310
+! Checksum: xnB5lW00ZWAJLzNL7K+jEA
+! Version: 202309032320
 ! Title: RU AdList
-! Last modified: 03 Sep 2023 23:10 UTC
+! Last modified: 03 Sep 2023 23:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11545,6 +11545,7 @@ nm71.ru###az2
 xyu.tv###azartplay-bttn
 23met.ru###b-bottom
 23met.ru###b-top
+f1news.ru###b2-container
 meta.ua###b_meta_popup
 sport.ua###b_sport_240
 prestige-gaming.ru###back_brd
@@ -13160,6 +13161,7 @@ friday.ru##.b-mts-logo
 altapress.ru##.b-nav li > a:not([href^="/"]):not([href*="altapress"])
 bigmir.net##.b-net-preview
 104.ua##.b-obozrevatel-top
+f1news.ru##.b-other-news
 tvc.ru##.b-overlay__video > .b-overlay__aside
 unn.com.ua##.b-page-border > ul[style*="width: 600px"]
 tolknews.ru##.b-partners
@@ -16760,6 +16762,7 @@ cq.ru##[data-gtag-analytics*="bk-"]
 cq.ru##[data-gtag-analytics*="bookmaker"]
 cq.ru##[data-gtag-analytics*="odd"]
 vc.ru##[data-gtm*="ponsor"]
+banki.ru##[data-gtm-view*="view_calc_widget_content"]
 tulapressa.ru##[data-href*="://zen.yandex.ru/"]
 progrib.ru##[data-href*="adbl"]
 softonic.ru##[data-href*="offer_id="]
@@ -16995,8 +16998,7 @@ lol24.ee##a[class^="alex_bnr_"]
 maxpark.com,newsland.com##a[class^="b-branding__link_"]
 zloy-odessit.livejournal.com##a[class^="banne"][href][target="_blank"]
 the-village.ru##a[class^="base-BuyAdvLink-"]
-f1news.ru##a[class^="bg-robot-"]
-f1news.ru,newformat.info##a[class^="branding-"]
+newformat.info##a[class^="branding-"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[class^="ref-"][target="_blank"]
 vc.ru##a[class^="sber-"]
 cybersport.ru##a[class^="vkPlay"]
@@ -20517,6 +20519,7 @@ lada.kz/uploads/banners/
 ||cda.pl/xml_pool/*pool*.php$xmlhttprequest
 ||cdn-admx.segodnya.ua/
 ||cdn.anison.fm/images$object
+||cdn.banki.ru/*/widget-calculators$domain=banki.ru
 ||cdn.gravitec.net/styles/unbloc*.png
 ||cdn.hsmedia.ru/dist/maxim/Product.
 ||cdn.hsmedia.ru/scrooge-client/hsm-creative-manager$script
@@ -25901,8 +25904,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
