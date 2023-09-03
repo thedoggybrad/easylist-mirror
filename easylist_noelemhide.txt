@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EZ52SuUJy2FhVOSKWEUoGw
-! Version: 202309031101
+! Checksum: pJH80su41ZhtOfaRftmG6A
+! Version: 202309031110
 ! Title: EasyList without element hiding rules
-! Last modified: 03 Sep 2023 11:01 UTC
+! Last modified: 03 Sep 2023 11:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -23,7 +23,6 @@
 -ad-manager/$~stylesheet
 -ad-reload.
 -ad-right.
--ad-server/
 -ad-sidebar-
 -ad-sidebar.
 -ad-top.
@@ -318,7 +317,6 @@
 /ad/popup.
 /ad/random_
 /ad/rectangle.
-/ad/show.
 /ad/side_
 /ad/skin-
 /ad/skin_
@@ -417,10 +415,7 @@
 /ad_left_
 /ad_link.
 /ad_loader.
-/ad_manage.
-/ad_manager.
 /ad_manager/*
-/ad_mbox.
 /ad_medium_
 /ad_mobile.
 /ad_mobile_
@@ -431,7 +426,6 @@
 /ad_popup_
 /ad_pos=
 /ad_position=
-/ad_position_
 /ad_provider.
 /ad_rectangle_
 /ad_refresh.
@@ -489,7 +483,6 @@
 /adbreak_
 /adbrite.
 /adbucket.
-/adbureau.
 /adbutler-
 /adbutler.
 /adcache.
@@ -512,7 +505,6 @@
 /adclient-
 /adclient.
 /adclix.$~image
-/adcode_
 /adcommon?
 /adconfig.
 /adconfigproxy.
@@ -527,9 +519,6 @@
 /addyn|*|adtech;
 /adengage.
 /adengine.
-/adentry.
-/adevent.$domain=~adevent.com
-/adevents.$domain=~adevents.com|~adevents.com.au|~adevents.nl
 /adfallback.
 /adfeed.
 /adfeeds.
