@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: t8NYxRCqy06SYr8EDvMu9w
-! Version: 202309031020
+! Checksum: OqX/DOleq8E8jxu+brYBCQ
+! Version: 202309031030
 ! Title: EasyList without rules for adult sites
-! Last modified: 03 Sep 2023 10:20 UTC
+! Last modified: 03 Sep 2023 10:30 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -60227,6 +60227,7 @@ bing.com##a[href*="/aclick?ld="]
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||cdn.bidder.dev/clients/$script,domain=forces.net
 @@||chycor.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
+@@||clients.plex.tv/api/v2/ads/$~third-party
 @@||cloudfront.net/js/common/invoke.js
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|washingtonexaminer.com
