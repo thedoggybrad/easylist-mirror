@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ++znDnSSv0al+bS6bZ1M3g
-! Version: 202309031020
+! Checksum: zsVWSnc2B8JqEVqxqrwyuQ
+! Version: 202309031030
 ! Title: EasyList without element hiding rules
-! Last modified: 03 Sep 2023 10:20 UTC
+! Last modified: 03 Sep 2023 10:30 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -40364,6 +40364,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||cdn.bidder.dev/clients/$script,domain=forces.net
 @@||chycor.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
+@@||clients.plex.tv/api/v2/ads/$~third-party
 @@||cloudfront.net/js/common/invoke.js
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|washingtonexaminer.com
