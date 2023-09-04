@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hzoBRS9o+ImWEWx30/A1ww
-! Version: 202309040940
+! Checksum: hzlSxlMLwc4faBu77kc7SQ
+! Version: 202309041002
 ! Title: EasyPrivacy without international filters
-! Last modified: 04 Sep 2023 09:40 UTC
+! Last modified: 04 Sep 2023 10:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5479,7 +5479,6 @@ _mongo_stats/
 ||linksynergy.com^$third-party
 ||linkxchanger.com^$third-party
 ||listenlayer.com^$third-party
-||listrakbi.com^$third-party
 ||litix.io^$third-party
 ||livecount.fr^$third-party
 ||livesegmentservice.com^$third-party
@@ -9822,6 +9821,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linkwithin.com/pixel.png
 ||list-manage.com/track/
 ||list.fightforthefuture.org/mpss/o/*/o.gif
+||listrakbi.com/activity/
+||listrakbi.com/api/ActivityEvents/
 ||lit.connatix.com^
 ||literally-analytics.appspot.com^
 ||live-partner.com/tags?
@@ -12225,6 +12226,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srtb.msn.com^
 ||srv.plesk.com^
 ||ss.photospecialist.co.uk^
+||sstats.adobe.com^
 ||st.sawlive.tv^
 ||stackoverflow.com/_/client-timings
 ||stackshare.io/analytics.
@@ -29938,7 +29940,6 @@ arketing.indianadunes.com^
 @@||level.travel/tracker/tracker.js$script,~third-party
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
 @@||lightning.bleacherreport.com^*/launch-$~third-party
-@@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
 @@||logging.apache.org^$~third-party
