@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: DFfzzB2pICZTSnOTgLN2IQ
-! Version: 202309041350
+! Checksum: 636eOeOM3iohnCL4Xt+ABw
+! Version: 202309041401
 ! Title: EasyList Italy
-! Last modified: 04 Sep 2023 13:50 UTC
+! Last modified: 04 Sep 2023 14:01 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -4236,6 +4236,7 @@ assisisport.it,geronimo.news##.banners
 biancoebruno.it##.bannertop
 mondopadano.it##.bbanner
 calcionapoli1926.it,cittaceleste.it,corriere.it,derbyderbyderby.it,fantamagazine.com,fcinter1908.it,forzaroma.info,gazzetta.it,golssip.it,hellas1903.it,ilmilanista.it,ilposticipo.it,itasportpress.it,juvenews.eu,mediagol.it,mondoudinese.it,notiziecalciomercato.eu,numericalcio.it,padovasport.tv,pianetamilan.it,toronews.net,tuttobolognaweb.it,violanews.com##.bck-adv
+gazzetta.it##.betting-point-table
 bikeitalia.it##.bg-banner
 altoadige.it,giornaletrentino.it##.bg300x250
 lagazzettadelmezzogiorno.it##.bgbanner
@@ -7059,8 +7060,10 @@ radioluna.it#?#.feat-widget-wrap:-abp-has(div:-abp-contains(INFORMAZIONE REDAZIO
 sportando.basketball#?#.widget.widget_block:-abp-has(a[target="_blank"])
 !----------------Regole di esclusione per risolvere i problemi----------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_allowlist.txt ***
+@@||amazon-adsystem.com/aax2/apstag.js$script,domain=video.gazzetta.it
 @@||buonenotiziebologna.it/images/banners/logos/bnb/logo.png
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=agi.it|vrsicilia.it
+@@||components2.rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid7.33.0.js$script,domain=video.gazzetta.it
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=agi.it|video.gazzetta.it|vrsicilia.it
 @@||video.comingsoon.it/Adv/Box/$image,media
 !
 @@||ads.lfstmedia.com/getad?site=$script,domain=spaghetti-interactive.it
