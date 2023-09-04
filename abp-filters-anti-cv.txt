@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: /3VaffA9TPSDh00nvr6YXA
-! Version: 202309040801
+! Checksum: gF80xVSBqTXaYXfD/4o9gw
+! Version: 202309040810
 ! Title: ABP filters
-! Last modified: 04 Sep 2023 08:01 UTC
+! Last modified: 04 Sep 2023 08:10 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -1192,7 +1192,7 @@ indoxx1.show##img[src^="blob:https://indoxx1.show/"]
 gidonline.eu,dc-marvel.org,torrent-soft.net#$#abort-on-property-read atob
 ! MISC
 sm.news#$#abort-current-inline-script decodeURIComponent blocked
-7ogorod.ru,autonevod.ru,shtrafsud.ru,zazloo.ru#$#abort-on-property-read flat_pm_arr
+7ogorod.ru,autonevod.ru,shtrafsud.ru,tophallclub.ru,zazloo.ru#$#abort-on-property-read fpm_attr
 hitfm.ua,kissfm.ua,radiorelax.ua,radioroks.ua,rusradio.ua#$#abort-on-property-write prerole_length
 www.goha.ru,3dnews.ru,avtovzglyad.ru,baby.ru,dni.ru,kufar.by,ura.news#$#abort-on-property-read Ya
 myjane.ru,omskpress.ru,artfile.me,artfile.ru,astrakhan.ru,tambovnet.org#$#abort-on-property-read kav_cn
