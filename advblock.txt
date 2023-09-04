@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5nM4IHimHPVcnCF/OrExzw
-! Version: 202309041730
+! Checksum: W+5aF44v0x4ctiNVUYEAXQ
+! Version: 202309041740
 ! Title: RU AdList
-! Last modified: 04 Sep 2023 17:30 UTC
+! Last modified: 04 Sep 2023 17:40 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22977,7 +22977,8 @@ lada.kz/uploads/banners/
 !#if ext_abp
 ! запросы
 *://pikabu.ru/*/*/*/$rewrite=abp-resource:blank-js,domain=pikabu.ru
-/^https?://(cyber|www)\.sports\.ru/*[/]*[/][^\s]{70,}/$script,domain=sports.ru
+/^https?://(cyber|www)\.sports\.ru/*[/]*[/][^\s]{198,}/$xmlhttprequest,domain=sports.ru
+/^https?://(cyber|www)\.sports\.ru/*[/]*[/][^\s]{71,}/$script,domain=sports.ru
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
 /^https?://24smi\.org/*[/]*[/][^\s]{80,}/$script,domain=24smi.org
 /^https?://[a-z0-9]+\.razlozhi\.ru\/[^\s]{45,}/$script,domain=razlozhi.ru
@@ -24014,6 +24015,7 @@ sports.ru#?#[class]:-abp-has(> .aside-news-list__advert ~ a[href^="https://sprts
 sports.ru#?#[class]:-abp-has(> .aside-news-list__advert:-abp-contains(Реклама))
 sports.ru##[data-banner-id]
 sports.ru##[data-content-name="banner-dfp"]
+sports.ru##[data-control*="Videonow"]
 sports.ru##[data-control^="Aliens."]
 sports.ru##[data-control^="Banners."]
 sports.ru##[data-is-ad-poll] .bookmaker-info
@@ -24055,7 +24057,7 @@ sports.ru##style:first-child ~ [class^="gift__"]
 ||sports.ru/css/promo.
 ||sports.ru/desktop/aliens/
 ||sports.ru/desktop/special/*-slider/
-||sports.ru/embed/saudi-pro-league/ronaldo/best-assists/|$xmlhttprequest
+||sports.ru/embed/*/|$xmlhttprequest
 ||sports.ru^*/banners/
 ||taboola.com^$domain=sports.ru|tribuna.com
 ! обфускация
@@ -25904,8 +25906,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
