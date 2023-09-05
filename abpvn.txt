@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: U46evfy8ZQLZmd38Vir5Tw
-! Version: 202309050210
+! Checksum: eTEOlFxSUcRpg8KqnAMkqw
+! Version: 202309050220
 ! Title: ABPVN List
-! Last modified: 05 Sep 2023 02:10 UTC
+! Last modified: 05 Sep 2023 02:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 05 Sep 2023 09:09:27 UTC+7
+! Last modified: 05 Sep 2023 09:13:35 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -302,7 +302,7 @@
 ||s.lazada.vn^$popup,domain=boophim.net
 ||s.tainhaccho.vn/images/afl
 ||s3.amazonaws.com^$domain=phimdinhcao.net|phimdinhcao.com|phimlongtieng.net
-||saytruyenhay.com/storage/images/banner/$image
+||saytruyenmoi.com/storage/images/banner/$image
 ||scrap.ithongtin.com/api/aff$xmlhttprequest
 ||senpay.vn/widget/
 ||sggp.org.vn/*.ads
@@ -776,10 +776,10 @@ khoaiphim.com##.separator_mb
 khoaiphim.com##.separator_pc
 khoaiphim.com##.topbaner
 khoaiphim.com##.topbaner_mb
-khomuc9.fun##.button-ads-header
-khomuc9.fun##.main-carousel-wrapper
-khomuc9.fun##.top-bookies
-khomuc9.fun##.tvc-link-ads-full
+khomuc9.live##.button-ads-header
+khomuc9.live##.main-carousel-wrapper
+khomuc9.live##.top-bookies
+khomuc9.live##.tvc-link-ads-full
 khosinhvien.com##.bn-lg-sidebar
 kienthuc.net.vn##.sponsor-zone
 kienthucforex.com###ad_footer_top
@@ -1009,7 +1009,7 @@ sachmoi.net##[href^="https://gotrackecom.info"]
 saostar.vn###mobi-top
 saostar.vn###pc-top
 saostar.vn##.d-flex.justify-content-between>div>div.d-flex.justify-content-around.mt-4
-saytruyenhay.com,phimbo88vn.net,phimchat2.com##.ads_popup
+saytruyenmoi.com,phimbo88vn.net,phimchat2.com##.ads_popup
 sharecode.vn###myCarousel
 sharecode.vn##.banner-boder-zoom
 softonic.vn##.modal-di__button-wrapper
@@ -1351,7 +1351,7 @@ $third-party,script,domain=sexdiaryx.net
 /player/vast.js
 /wp-content/uploads/*.gif$image,domain=tuoi69vn.org|tuoinung.cc|tphimsex.club
 ||cdn.javbabe.net^$subdocument
-||discordapp.$image,domain=phym18.org|phim18vipa.com
+||discordapp.$image,domain=phym18.org|phim18vipb.com
 ||greenupload.com^*.gif$image,domain=thiendia1.com
 ||greenupload.com^*banner$image
 ||hentaivn.autos/qx/$subdocument
@@ -1394,7 +1394,7 @@ thiendia1.com##.my_nonresponsive_ads
 thiendia1.com##.my_responsive_ads
 thiendia1.com##.samBannerUnit
 thiendia1.com##.samTextUnit
-thiendia1.com,rphang.me,phim18vipa.com,phe3x.xyz,checkgaigoi.cc##.float-ck
+thiendia1.com,rphang.me,phim18vipb.com,phe3x.xyz,checkgaigoi.cc##.float-ck
 truyensextv.com###sticky-footer
 truyensextv.com,lxmanga.net##.sticky-footer
 tuoi69vn.org###bar_float_r
