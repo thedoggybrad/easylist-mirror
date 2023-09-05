@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vBIX6Er2g2hJWGyejXTviQ
-! Version: 202309051210
+! Checksum: zWJ3T0pGnTOm0vXz2WzdUg
+! Version: 202309051220
 ! Title: IndianList
-! Last modified: 05 Sep 2023 12:10 UTC
+! Last modified: 05 Sep 2023 12:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -34,6 +34,7 @@ _advt.jpg|
 ! *** indianlist:IndianList/adservers.txt ***
 ||admana.net$third-party
 ||admitad.com^$third-party,domain=hellonepalkorea.com
+||ads2publish.com^$third-party
 ||adsfry.com^$third-party
 ||adstudio.cloud^$third-party
 ||aj2031.online^$third-party
@@ -3601,6 +3602,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||pingara.com/storage/app/uploads/public/63e/9f6/32e/thumb_37842_352_0_0_0_crop.jpg
 ||pingara.com/storage/app/uploads/public/63f/43b/7d3/thumb_37964_352_0_0_0_crop.jpg
 ||pingara.com/storage/app/uploads/public/640/eb6/138/thumb_38347_352_0_0_0_crop.jpeg
+||pinimg.com^$domain=youth18.com
 ||pinkstea.com/wp-content/uploads/2019/03/Ni24News-.jpg
 ||pioneerhindi.com/storage/ads/
 ||pnews.co.in/wp-content/uploads/2020/02/anigif-1.gif
@@ -7905,7 +7907,8 @@ manikganj24.com##.wpb_content_element p[style*="SolaimanLipi"]
 hotnewsindia.com##.wpb_content_element span[style="color: #999999;"]
 indiaaajkal.in,newscrime24.com##.wpb_gallery
 cgbasket.in,keralatimes.com,shramjeevijournalist.com##.wpb_images_carousel
-poribortonersopoth.com,sangbaddiganta.com,ziotamil.in##.wpb_raw_code
+nayabangla.com,poribortonersopoth.com,sangbaddiganta.com,ziotamil.in##.wpb_raw_code
+nayabangla.com##.wpb_raw_code + .td_block_text_with_title
 khobor71.com##.wpb_raw_code img
 rajsattanews.com##.wpb_raw_html
 timestodays.com##.wpb_revslider_element
