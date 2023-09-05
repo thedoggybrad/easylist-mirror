@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XfL6RhCJAWg+dBmr56Z6ug
-! Version: 202309051020
+! Checksum: +tS2z6nUK6MQlvUK/Q2htw
+! Version: 202309051030
 ! Title: RU AdList
-! Last modified: 05 Sep 2023 10:20 UTC
+! Last modified: 05 Sep 2023 10:30 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22974,6 +22974,7 @@ lada.kz/uploads/banners/
 ! Правила для отдельных сайтов с разношерстными правилами или групп сайтов
 !
 ! Правила для ресурсов, которые их создатели сделали несовместимыми с адблоком
+forum.ruboard.ru##:not(my-obnaruzhili-blokirovshchik)
 !#if ext_abp
 ! запросы
 *://pikabu.ru/*/*/*/$rewrite=abp-resource:blank-js,domain=pikabu.ru
@@ -23015,9 +23016,9 @@ kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 cq.ru#?#div:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
-pikabu.ru##div[class]:first-child > div:not([class]):not([id]):first-child + div[class]:last-child div div
 pikabu.ru##div[class]:first-child > pre:first-child + div[class]:last-child div div
 pikabu.ru##div[class]:first-child > span:first-child + div[class]:last-child div div
+pikabu.ru##div[href]
 rg.ru##div[id][class*="__"]:empty
 fontanka.ru#?#section div:-abp-properties(content: "Реклама")
 !#endif
