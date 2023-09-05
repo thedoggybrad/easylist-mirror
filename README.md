@@ -1,4 +1,5 @@
 # EasyList Mirror (Unofficial)
+[![Routine Sync of EasyList Mirror (Scheduled)](https://github.com/thedoggybrad/easylist-mirror/actions/workflows/updater.yml/badge.svg)](https://github.com/thedoggybrad/easylist-mirror/actions/workflows/updater.yml)<br>
 An unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab.<br>
 This mirror includes all the affiliated both official and unofficial with EasyList.
 
