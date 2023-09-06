@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: d4i4gpyA+ckt/6UdUl5Zhg
-! Version: 202309061140
+! Checksum: i7sYrmnwaxnrmZh8E5j6mw
+! Version: 202309061150
 ! Title: IndianList
-! Last modified: 06 Sep 2023 11:40 UTC
+! Last modified: 06 Sep 2023 11:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -662,7 +662,7 @@ _advt.jpg|
 /adver$domain=uppatrika.com
 /advert/*$domain=mzamin.com
 /advertiesment/*$domain=theendnews.com
-/advertisement/*$domain=360malayalam.com
+/advertisement/*$domain=360malayalam.com|agaminews.com
 /Advertisement/*$domain=aloavanews24.com
 /advertisement/*$domain=amader-protidin.com|chhattisgarhaaj.com|damaulifm.org|digiana.com|mediavision.news|notebazar.com|satghoria.com
 /Advertisement/*$domain=aparajeobangla.com|banglarchokh.com.bd|nepalipaisa.com|odiaspotnews.in|shankhnaad.in
@@ -901,6 +901,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||adhorekhit.com/wp-content/uploads/2021/09/ad-news.jpg
 ||adhunikdaur.com/webdata/ranbhumiexpress.com/media/
 ||adnlive24.com/webdata/adnlive24.com/media/1547646966adn_live_add.JPG
+||agaminews.com/media/common/dr-neem
 ||agnisamachar.com/wp-content/uploads/2022/07/Aarati-simant.jpg
 ||agnisamachar.com/wp-content/uploads/2022/07/bhatvateni-scaled-1.jpg
 ||agnisamachar.com/wp-content/uploads/2022/07/masta.jpg
@@ -6239,7 +6240,7 @@ sabkuchgyan.com##.bs-listing-multi-tab + div
 patnalive.co.in##.bs-listing-single-tab + .bs-listing-listing-grid-1
 hindsagarplk.com##.bs-shortcode
 budaunamarprabhat.com##.bs-vc-block .wonderpluginslider-container
-ctnewsbd.com,kdnewslive.in,kollywoodvoice.com,lightnewsbd.com,prottashitoalo.com##.bsac
+ctnewsbd.com,joynewsbd.com,kdnewslive.in,kollywoodvoice.com,lightnewsbd.com,prottashitoalo.com##.bsac
 inbnews24.com##.bsac-container
 everestdainik.com##.bstyle-list ~ .post
 hirunews.lk##.btm-sticky
@@ -6606,7 +6607,7 @@ nepalpress.com##.gam-each-npad
 nepalviews.com##.gam-each-nvad
 news18.com##.global-storylist li[style^="height"]
 odishafast.co##.gmx-image
-joynewsbd.com,ourbiratnagar.net,rajdhanidaily.com##.gofollow
+ourbiratnagar.net,rajdhanidaily.com##.gofollow
 natunsomoy.net##.google-ads-banner
 faridabadnews.live##.googlepublisherads
 grandnews.in##.grand-after-content_2
@@ -6787,6 +6788,7 @@ khabarpahad.com##.khaba-widget
 khabarhub.com##.khabarhub-inner-ads
 khulasanewslive.in##.khulasanewslivewidget
 koyilandydiary.com##.koyil-widget
+joynewsbd.com##.ksrm_ads_bnr
 kannurnewsonline.com##.ktmjq
 kushinagarlive.com##.kushi-after-content
 prakashkhabar.com##.last_ads
@@ -6988,8 +6990,8 @@ nepalraftar.com##.no-bod > a
 narayanionline.com##.no-vigyapan-section
 narayanionline.com##.no-vigyapan-single
 nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
 onlinejalandhar.com#@#.np-header-ads-area
+bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -7907,7 +7909,7 @@ manikganj24.com##.wpb_content_element p[style*="SolaimanLipi"]
 hotnewsindia.com##.wpb_content_element span[style="color: #999999;"]
 indiaaajkal.in,newscrime24.com##.wpb_gallery
 cgbasket.in,keralatimes.com,shramjeevijournalist.com##.wpb_images_carousel
-nayabangla.com,poribortonersopoth.com,sangbaddiganta.com,ziotamil.in##.wpb_raw_code
+joynewsbd.com,nayabangla.com,poribortonersopoth.com,sangbaddiganta.com,ziotamil.in##.wpb_raw_code
 nayabangla.com##.wpb_raw_code + .td_block_text_with_title
 khobor71.com##.wpb_raw_code img
 rajsattanews.com##.wpb_raw_html
@@ -8023,7 +8025,7 @@ tamildaily.com##a[href*="cinefield.com"]
 janmadhyam.com##a[href*="click-add/"]
 cinereporters.com,dailyharyananews.com,kathir.news,manoranjannama.com,newsmoments.in,royalbulletin.in,samacharnama.com,sanjeevnitoday.com##a[href*="click.htm?"][target="_blank"]
 ntnews.com##a[href*="countryoven.com"]
-ambalanews24.com##a[href*="daraz.com.bd"]
+agaminews.com,ambalanews24.com##a[href*="daraz.com.bd"]
 deshdorpon.com##a[href*="daraz.com.bd/sepnil/"]
 loksangbad.com##a[href*="deshihost.com"]
 shikkhasongbad.com##a[href*="dreamlandhomemanagement"] img
