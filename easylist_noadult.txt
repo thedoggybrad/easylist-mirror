@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cDBaRFkzVMB02/TBlpPzMg
-! Version: 202309061630
+! Checksum: gH4qHl0nTxS1AZzywSwIPQ
+! Version: 202309061640
 ! Title: EasyList without rules for adult sites
-! Last modified: 06 Sep 2023 16:30 UTC
+! Last modified: 06 Sep 2023 16:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59766,6 +59766,7 @@ greatist.com##aside
 everydayrussianlanguage.com##aside img[src^="/wp-content/themes/edr/img/"]
 thefinancialbrand.com##aside[class][style*="cursor:"]
 geoguessr.com##aside[class^="ad_"]
+filecrypt.cc,filecrypt.co##button[onclick]:not([target="_blank"]):not([title="*.dlc Download"])
 psycom.net##center > .vh-quiz-qborder
 mangas-raw.com##center > div[style]
 greekreporter.com##center > p > [href]
