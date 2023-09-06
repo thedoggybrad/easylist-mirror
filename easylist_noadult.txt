@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wRBxKGVtskKyOfPu9BfpvQ
-! Version: 202309060340
+! Checksum: 47xulDsgQYZVxyJjSUxUZA
+! Version: 202309060350
 ! Title: EasyList without rules for adult sites
-! Last modified: 06 Sep 2023 03:40 UTC
+! Last modified: 06 Sep 2023 03:50 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -54289,6 +54289,7 @@ browsershots.org#@#.advert_area
 !----------------------Specific advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_specific_block.txt ***
 /asgg.php$domain=ghostbin.me|paste.fo
+/assets/bn/movie.jpg$image,domain=vidstream.pro
 ||0xtracker.com/assets/advertising/
 ||123.manga1001.top^
 ||123animehub.cc/final
