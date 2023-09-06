@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ps0aOGh5B7GixQTT4d/XKg
-! Version: 202309061930
+! Checksum: zXWqwfoJJYWicd6QLuR+Kw
+! Version: 202309061941
 ! Title: RU AdList
-! Last modified: 06 Sep 2023 19:30 UTC
+! Last modified: 06 Sep 2023 19:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1781,7 +1781,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /bannergzo/*
 /banners.mvc?
 /banners/*/*/0/index.$subdocument
-/banners/*_*x*?$domain=~asus.com|~challonge.com|~moto-store.com.ua
+/banners/*_*x*?$domain=~asus.com|~challonge.com|~etsy.com|~moto-store.com.ua
 /bannerz.$object
 /bazar_fast/*
 /bb/getcode?apiKey=$third-party,script
@@ -18630,6 +18630,7 @@ newsvl.ru##div[id][style="height: 120px;"]
 newsvl.ru##div[id][style="height: 80px;"]
 avtotachki.com##div[id][style="height:150px;"]
 avtotachki.com##div[id][style="height:350px;"]
+askentire.net##div[id][style="min-height:250px"]
 mind.ua##div[id][style="padding-bottom: 35px;"]
 mamba.ru##div[id][style="width: 320px; height: 100px;"]
 7days.ru##div[id][style="width: 970px; height: 250px;"]
@@ -19635,6 +19636,7 @@ rafkino.com##div[id^="MarketGid"]
 ||24smi.*/top/$csp=script-src
 ||24top.*/top/$csp=script-src
 ||an.yandex.ru/count/$csp=script-src
+||askentire.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.keycaptcha.com
 ||azbne.net^$csp=sandbox allow-same-origin;
 ||babla.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' date: ajax.googleapis.com *.bab.la *.cloudflare.net *.jsdelivr.net *.facebook.net *.twitter.com
 ||betnetmed.advertserve.com^$csp=sandbox allow-same-origin;
@@ -22999,6 +23001,7 @@ forum.ruboard.ru##:not(my-obnaruzhili-blokirovshchik)
 ||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! селекторы
 2ip.ua#?#.ipblockmap > div > div:-abp-properties(cursor: pointer)
+pikabu.ru#?#.page-story__before-comments div:-abp-properties(min-height: 250px)
 pikabu.ru#?#.page-story__story > div:-abp-properties(display: block)
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
@@ -23087,7 +23090,7 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
 2ip.io,2ip.ru#?#.narrow-column > style + div > div:-abp-has(a[target="_blank"])
 2ip.io,2ip.ru##.test-vpn
-2ip.io,2ip.ru##[href*="=?enck="]
+2ip.io,2ip.ru##a[href*="?phpsession"]
 2ip.io,2ip.ru##nav li a[target="_blank"]
 !
 ! Auto.ru
