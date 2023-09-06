@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qpMHNLl98jhlq2Im1FlNbw
-! Version: 202309061010
+! Checksum: AtcED8hm5Cb8AluUdaINGA
+! Version: 202309061020
 ! Title: RU AdList
-! Last modified: 06 Sep 2023 10:10 UTC
+! Last modified: 06 Sep 2023 10:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13505,7 +13505,6 @@ news29.ru##.blockOverlay.blockUI
 domik.ua##.blockProjects_stocksInNews
 sunsurv.ru##.blockRight
 aktobeinfo.kz##.block[id*="-banners-"]
-smartpress.by##.block__banner
 gooool.tv,gooool365.org##.block_d
 openssource.biz##.block_left
 chatadelic.net,db.chgk.info,dsvload.net,forzajuve.ru,gubkabob.net,moi-detsad.ru,podrobno.uz,prostomac.com,rap-text.ru,recensent.ru,seriatv.ru,volomy.ru##.block_links
@@ -14558,7 +14557,6 @@ appmo.org#?#.item:-abp-has(> script)
 appmo.org#?#.item:-abp-has([src*="/images/pek.png"])
 ketchuptv.ru##.itemFullText > center + div[style*="center"]
 games-torrent.net##.itemHeader noindex
-smartpress.by##.item_banner
 byrutdb.org##.itemdown_nottorent_sub
 mypresentation.ru##.items > .p-item ~ div[class][style]
 narutoplanet.ru##.items-leading
@@ -15730,6 +15728,7 @@ officelife.media##.side-section__banner-wrap
 transkarpatia.net##.side-widget > a[href][target="_blank"] > img:not([alt*="elegra"])
 siteua.org#?#.sideBlock:-abp-has(> .adsbygoogle)
 siteua.org#?#.sideBlock:-abp-has(> [id^="CNM"])
+smartpress.by##.side_banners
 diary.ru##.side_banners_box
 gorockop.ru##.side_block
 compromat.group#?#.side_block > .side_header:-abp-contains(Новости партнеров)
@@ -17133,7 +17132,6 @@ gearshout.net,prostomob.com,vsaduidoma.com##a[href*="://s.click.aliexpress.com/e
 point.md##a[href*="://sales.simpals.com/"][href*="banner"]
 moirebenok.ua##a[href*="://sgo.one/"]
 programmersforum.ru#?#a[href*="://slurm.club/"] ~ *:-abp-contains(https://)
-smartpress.by##a[href*="://smi2.ru"]
 sportliga.com##a[href*="://sportliga.com/bookmakers/"] ~ a
 595.ucoz.net##a[href*="://surfearner.me/"]
 595.ucoz.net##a[href*="://teaser.bz/"]
@@ -17734,8 +17732,6 @@ adhands.ru##a[onclick][href*="adhands.ru"]
 prestige-gaming.ru##a[onclick][target="_blank"]
 anistar.org,astar.bz,online-star.org,online-stars.org##a[onclick^="if(typeof yaCounter"]
 armtorg.ru##a[onclick^="setClickBanner"]
-smartpress.by##a[onclick^="ym("] > img
-smartpress.by##a[onclick^="ym("] > picture
 kinotorrs.me##a[oncontextmenu="return false;"]
 gamebomb.ru##a[onmouseup*="_trackEvent"]
 gmt-max.net##a[rel="nofollow"] > div[align="center"] > img
@@ -22283,7 +22279,7 @@ lada.kz/uploads/banners/
 ||small-games.info^*/dlufiler
 ||smart-lab.ru^*/adfox_
 ||smartphone.ua/inc/images/banners/
-||smartpress.by/upload^*banner
+||smartpress.by/include/ajax/getVidjet.php
 ||smi2.ru/data/
 ||smi2.tv/aa/$script,domain=smi2.ru
 ||smile-vkontakte.ru/rekl.jpg
@@ -25907,8 +25903,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
