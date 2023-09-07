@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7KvgptNv9rpnrLjuE83+aw
-! Version: 202309072030
+! Checksum: imKx/PyHXxitV3wc9497yQ
+! Version: 202309072040
 ! Title: EasyList Spanish
-! Last modified: 07 Sep 2023 20:30 UTC
+! Last modified: 07 Sep 2023 20:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -202,7 +202,6 @@ _pubted.
 ##.flex__publi
 ##.header-adds
 ##.mclics
-##.mod-ad-top
 ##.mod-roba
 ##.modPublicidad
 ##.myml-menu-navigation > .container-banner
@@ -1643,6 +1642,7 @@ ole.com.ar##.sc-905ccbfc-1
 ole.com.ar##.sc-905ccbfc-5
 ole.com.ar##.sc-905ccbfc-7
 sdpnoticias.com##.sdp-ad
+lasexta.com##.section-aside-roba
 cuevana.pro,pelispedia.la##.section-cpa
 meganoticias.cl##.section-dfp
 directoalpaladar.com,trendenciashombre.com,vidaextra.com,xataka.com##.section-native-container
@@ -1720,6 +1720,7 @@ vergnula.com##a[href^="https://www.primevideo.com/"][href*="tag="]
 espn.cl,espn.co.cr,espn.com.ar,espn.com.co,espn.com.do,espn.com.ec,espn.com.gt,espn.com.mx,espn.com.pa,espn.com.pe,espn.com.uy,espn.com.ve##a[href^="https://www.starplus.com"][href*="?cid="]
 promiedos.com.ar##a[href^="publicidad.php?"]
 darkstone.es##a[onclick^="return ad_redirect"]
+lasexta.com##aside[class^="mod-ad-"]
 elnueve.com.ar##div[class*="_site-banner-top_"]
 diariodecuyo.com.ar##div[class*="dfp-async"]
 americatv.com.pe##div[class^="AdsSlot_"]
@@ -1738,6 +1739,7 @@ eluniversal.com.mx##div[class^="itemgpt_"]
 liderendeportes.com##div[class^="lider-"]
 formulatv.com##div[class^="pub-"]
 purochocolate.life,tumascota.life##div[class^="tumas-"]
+lasexta.com##div[data-mod="ads"]
 tudn.com##div[data-widget-type="Advertisement"]
 eleconomista.es##div[id^="300x"]
 eleconomista.es##div[id^="728x"]
