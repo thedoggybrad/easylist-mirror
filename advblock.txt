@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qSbIgCdRaivOZFMcJM0IQA
-! Version: 202309071401
+! Checksum: CnSowdhCKjPTm0Y7nTXNCg
+! Version: 202309071410
 ! Title: RU AdList
-! Last modified: 07 Sep 2023 14:01 UTC
+! Last modified: 07 Sep 2023 14:10 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12937,6 +12937,7 @@ apostrophe.ua##.advertinline
 np.pl.ua,soft-i-kino.ru##.advertise
 kyiv.media##.advertise-section
 almodi.org,expres.online,fightnews.info,kun.uz,liveinternet.ru##.advertisement
+dzr.by##.advertisements
 diary.ru,fireman.club,pershij.com.ua,prostoprosport.ru,qrz.ru,segodnya.ua,track24.ru,ufanet.ru##.advertising
 podolsk.ru##.advertising > span.title
 online.zakon.kz##.advertising-action-timer
@@ -13960,6 +13961,7 @@ dovidka.biz.ua,forumua.org,xn---2--mddxunv8a2esa.xn--p1ai##.custom-html-widget
 topgir.com.ua##.custom-html-widget > a
 ukrnews24.net##.custom-html-widget > a[href] > img
 minsknews.by##.custom-html-widget > a[href][target="_blank"][rel="noopener noreferrer"]
+dzr.by##.custom-html-widget > a[target="_blanck"]
 topgir.com.ua##.custom-html-widget > div
 miasskiy.ru##.custom-html-widget > noindex
 goblins-online.ru##.custom-left-col-bottom
@@ -25910,8 +25912,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
