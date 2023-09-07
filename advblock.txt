@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: t+BRF54LDvsf/vc3ehckig
-! Version: 202309071120
+! Checksum: 31hG7nkLHcP4iluclzdTRA
+! Version: 202309071130
 ! Title: RU AdList
-! Last modified: 07 Sep 2023 11:20 UTC
+! Last modified: 07 Sep 2023 11:30 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -32,7 +32,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 /redirect/cpa/*$popup,domain=rt02.ru
 /wp-content/uploads/*$popup,domain=fenglish.site
 |http://li.ru/go?$popup,domain=fishki.net
-||ad.adriver.ru^$popup,domain=gamebomb.ru|terrikon.com
+||ad.adriver.ru^$popup,domain=gamebomb.ru
 ||admitad.com^$popup,domain=howdyho.net|izzylaif.com|onyxgame.com
 ||bit.ly^$popup,domain=rutor.org
 ||catcut.net^$popup,domain=mobile-4at-obshenie.chatovod.ru|mobile-chat-obshenie.jimdo.com
@@ -16419,6 +16419,7 @@ andro-news.com#?#.widget:-abp-has(> div > .av-block)
 liveresult.ru#?#.widget:-abp-has(a[href*="bookmaker"])
 liveresult.ru#?#.widget:-abp-has(a[href*="utm_campai"])
 storinka.com.ua,storinka.site##.widget:not([class$="hidden-xs"])
+sport-express.ua##.widgetBestBookmakers
 gazetavv.com##.widget_ad_unit
 i.ua##.widget_adv
 atlasprirodirossii.ru,hyperione.com,zazloo.ru##.widget_block
@@ -16689,6 +16690,7 @@ sr-week.ru##[class^="advt"]
 cpa.rip##[class^="bablo"]
 agronom.com.ua,buzulukday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##[class^="baner"]
 anime-bit.ru,goodgame.ru,kolo.news,sm.news##[class^="banner"]
+sport-express.ua##[class^="best_game"]
 autodmir.ru##[class^="block_tgb"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##[class^="bn-"]
 season.ru##[class^="bnnr_bx_"]
@@ -18457,6 +18459,7 @@ soft.sibnet.ru##div[class^="programm_block-ad"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##div[class^="r"][style*="height:"]
 glavred.info,glavred.net##div[class^="r"][style^="height"][style*="margin:"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbooks.studio,uchebnikfree.com,xn--80aaivjfyj3e.com##div[class^="r711"]
+radiobells.com##div[class^="radio_ads_"]
 rutube.ru##div[class^="rai_raichu-wrapper__advertWrapper"]
 mobiltelefon.ru##div[class^="rbanner"]
 newgdz.com##div[class^="rblok"]
@@ -21980,6 +21983,7 @@ lada.kz/uploads/banners/
 ||pro.berdyansk.biz/img/pic/$image
 ||pro100news.info/wp-content/uploads/$object
 ||procompsoft.ru/wp-content/cache/min/1/js/
+||procvetok.com/static/*/brand
 ||proelectro.ru/files/$object
 ||profootball.ua/images/banner/
 ||profootball.ua/images/parimatch/
@@ -22489,7 +22493,7 @@ lada.kz/uploads/banners/
 ||ternopillive.com/wp-content/uploads/*.mp4|
 ||ternopillive.com/wp-content/uploads/*/resp_
 ||ternopillive.com/wp-content/uploads/*/ternet.gif
-||terrikon.com/i/ad/
+||terrikon.com/i/*_branding.$image
 ||texnic.ru/al256/$image
 ||textarchive.ru/abnormal.php
 ||thailandproperty.tv/images/*_banner_
