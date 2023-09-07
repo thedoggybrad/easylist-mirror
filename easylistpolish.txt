@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ydXQpq1p410U1fC3JHjv6g
-! Version: 202309071440
+! Checksum: KgY2+F1jLerUeS3gR3MSRA
+! Version: 202309071450
 ! Title: EasyList Polish
-! Last modified: 07 Sep 2023 14:40 UTC
+! Last modified: 07 Sep 2023 14:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -133,6 +133,7 @@ mandarinodesign.eu,wirtualnyregion.pl#@#.reklama
 ^1Reklama^$domain=iturek.net
 ^2021banery^$domain=wysokomazowiecki24.pl
 ^2022baner^$domain=wysokomazowiecki24.pl
+^2023banery^$domain=wysokomazowiecki24.pl
 ^300^$domain=betglob.pl|betgol.pl|emecze.pl|epilka.pl|estadios.pl|kuszotv.pl|mecze24.pl|meczelive.tv|meczenazywo.tv|meczlive.pl|oddslivesport.com|worldofbookmakers.com
 ^468^$domain=worldofbookmakers.com
 ^728^$domain=betgol.pl|extragoals.com|mecze.com|oddslivesport.com
@@ -478,7 +479,7 @@ _reklamy^$domain=wiadomoscisasiedzkie.pl
 ||unitedtails.com^*^logo-RC.
 ||vetopedia.pl^*^newbanvetid.
 ||vetopedia.pl^*^vetid.
-||video.onnetwork.tv^$script,domain=ddtorun.pl|e-golub.info.pl|e-krajna.pl|ekutno.pl|extrawalcz.pl|fakty.nl|gle24.pl|gorlice24.pl|gostyn24.pl|gwe24.pl|itvszubin.pl|jastrowie24.pl|kolniak24.eu|myszkow365.pl|nrypin.pl|polski-tenis.pl|superchodziez.pl|terazlipno.pl|tygodnik.pl|tygodnikketrzynski.pl|uniejow.net.pl|zyciesiedleckie.pl
+||video.onnetwork.tv^$script,domain=abcjanikowo24.pl|ddtorun.pl|e-golub.info.pl|e-krajna.pl|ekstrasierpc.pl|ekutno.pl|extrawalcz.pl|fakty.nl|gle24.pl|gorlice24.pl|gostyn24.pl|gst24.pl|gwe24.pl|isanok.pl|itvszubin.pl|jastrowie24.pl|kolniak24.eu|myszkow365.pl|nrypin.pl|polski-tenis.pl|superchodziez.pl|terazlipno.pl|tygodnik.pl|tygodnikketrzynski.pl|uniejow.net.pl|zyciesiedleckie.pl
 ||w203.pl/autoczescionline24_
 ||w203.pl/sklep-motoryzacyjny-
 ||wadmargincling.com^$domain=anime-odcinki.pl
@@ -502,11 +503,6 @@ _reklamy^$domain=wiadomoscisasiedzkie.pl
 ||zniwiarz.topagrar.pl^$image,subdocument,domain=elita-magazyn.pl|profitechnika.pl|sadnowoczesny.pl|topagrar.pl|tygodnik-rolniczy.pl|warzywaiowoce.pl
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-||video.onnetwork.tv^$script,domain=gst24.pl
-||video.onnetwork.tv^$script,domain=abcjanikowo24.pl
-||video.onnetwork.tv^$script,domain=ekstrasierpc.pl
-||video.onnetwork.tv^$script,domain=isanok.pl
-^2023banery^$domain=wysokomazowiecki24.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -1144,6 +1140,8 @@ studio-mebli.eu##.banery__container
 instalacjebudowlane.pl##.banery_lewy_pasek
 24starogard.pl,300polityka.pl,3trzy3.pl,android.com.pl,bazarek.net.pl,bazarowo.pl,bezpiecznyrynekpracy.pl,dotabuff.com,e-kidsplanet.com,eksmagazyn.pl,esportnow.pl,eurobuildcee.com,forumkwiatowe.pl,glos.live,glosludu.cz,gryfice24.online,historia.org.pl,imagazine.pl,isbzdrowie.pl,kliknijwzdrowie.pl,legia.net,mazopolska.pl,meczyki.pl,megatiming.pl,meska-kuchnia.pl,naszekwatery.pl,nieruchomoscipodlaskie.pl,obligacje.pl,operatorzy.pl,optyczne.pl,podhale24.pl,podlasianin.com.pl,polskiautohandel.pl,probasket.pl,przewodnik-katolicki.pl,radiosud.pl,rehalab.eu,serwislokalny.com,sieplywa.pl,sjp.pwn.pl,tvciechanow.pl,typersi.pl##.banner
 android.com.pl##.banner--big
+faktypilskie.pl##.banner--placeholder
+faktypilskie.pl##.banner--programmatic
 koscianiak.pl##.banner--regular
 trojmiasto.pl##.banner-a
 metal-bud.eu##.banner-b2b
@@ -1209,7 +1207,7 @@ kalisz24.info.pl##.bdaia-e3-container
 fabrykasily.pl##.bg-link-left, .bg-link-right
 portalpszczelarski.pl##.biggDickus
 pcworld.pl##.bilbo_ad
-ddwloclawek.pl,itvszubin.pl,koscianiak.pl,naszraciborz.pl,portalzamojski.pl,sieradz.com.pl,teksty.org,traktorpool.pl,twojapogoda.pl##.billboard
+ddwloclawek.pl,faktypilskie.pl,itvszubin.pl,koscianiak.pl,naszraciborz.pl,portalzamojski.pl,sieradz.com.pl,teksty.org,traktorpool.pl,twojapogoda.pl##.billboard
 nowa-sprzedaz.pl##.block .auto-pr-block
 zinfo.pl##.block-ads-wrapper
 grojeckie24.pl##.block-image > .imageblock-image
