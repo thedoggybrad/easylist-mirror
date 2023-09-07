@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: mRcvBfvgbMJJvgeMRCwOqg
-! Version: 202309070750
+! Checksum: pjRrFNT5m5nuCwWbXkWoCg
+! Version: 202309070802
 ! Title: ABPVN List
-! Last modified: 07 Sep 2023 07:50 UTC
+! Last modified: 07 Sep 2023 08:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 07 Sep 2023 14:48:24 UTC+7
+! Last modified: 07 Sep 2023 14:52:18 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -273,9 +273,6 @@
 ||phimtm.herokuapp.com^*.gif
 ||phimtn.com/wp-content/themes/halimmovies/qc^*.gif
 ||phimyeuthich.com/ad-data/$image
-||phimz.vip/player-embed/assets/js/tvc.js
-||phimz.vip/tvc/$xmlhttprequest
-||phimz.vip/tvc/load.html$subdocument,~third-party
 ||photo-cms-anninhthudo.zadn.vn/Uploaded/2021/xtsmr/
 ||photo2.tinhte.vn/data/*.gif$image,domain=thapcam.net
 ||photo2.tinhte.vn/data/attachment-files/*banner
@@ -633,7 +630,7 @@ chap.vn##.my_responsive_add
 chap.vn##.titleBar + *
 chap.vn##[class1="my_responsive_add"]
 chillhay.xyz###preload-2
-chillphim.vip##.banner-pc.banner-preload
+chillphim.vip,zuiphim.com##.banner-preload
 chodansinh.net##.link-gold
 chodansinh.net##[id^="banner"]
 chotlo.me##div[id^="float"]
@@ -947,7 +944,7 @@ phimmoichill.cc###headerpcads
 phimmoichill.cc###mobiads
 phimmoichill.cc###pcads
 phimmoipro1.net##.container>.right-box
-phimmoipro1.net,xemphimchill.net,phimmoiaz.cc,hhninja1.tv,phimbocn.com,phimhoathinh3d.com,phimz.vip,phimmoiv2.com,hoathinhtq.tv,hhtq.vip,hhtqvietsub.top###catfish
+phimmoipro1.net,xemphimchill.net,phimmoiaz.cc,hhninja1.tv,phimbocn.com,phimhoathinh3d.com,phimmoiv2.com,hoathinhtq.tv,hhtq.vip,hhtqvietsub.top###catfish
 phimmoiv2.com,ophim.vip##.uniad-player + div[style]
 phimmoivn.pro##.sticky_bottom
 phimmoivn.pro,tvhayb.org,api.anime3s.com,tvhay2.net##.t_logo
@@ -960,12 +957,11 @@ phimnhua.com###catfish-banner
 phimnhua.com##.topless
 phimno4.xyz###ads_location
 phimno4.xyz##.block.ad
-phimno4.xyz,dailyphimz.com,phimbathu.one,hhtq.net,film365.in,phimz.vip,phimbocn.com,iphimchilla.com,dongphymz.com,motphim1.info,phimtn.com,motchill3.com###ads-preload
+phimno4.xyz,dailyphimz.com,phimbathu.one,hhtq.net,film365.in,phimbocn.com,iphimchilla.com,dongphymz.com,motphim1.info,phimtn.com,motchill3.com###ads-preload
 phimplay24h.com###itro_popup
 phimtn.com###float_content_right
 phimvietsub.co,gocphim.vip##.code-block
 phimyeuthich.com##.sticky-footer
-phimz.vip##div.separator
 phunumoi.net.vn,nhipcaudautu.vn##div[id^="ads_"]
 phuongtrinhhoahoc.com##.ads-bottom-margin
 phuongtrinhhoahoc.com##.ads_blocks_advice
@@ -1265,7 +1261,6 @@ zingnews.vn###site-header
 zingnews.vn##.znews-banner
 zingnews.vn,minhngoc.net.vn,vn-z.vn,kinhtedothi.vn##[id^="adv"]
 zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,antt.nguoiduatin.vn,kinhtenongthon.vn,taichinhdoanhnghiep.net.vn,thichxemphim1.net,mannhan2.live,xemphimviet1.net,ghienphim8.net,oj.husc.edu.vn##.banner
-zuiphim.com##.banner-preload
 ~livescore.com,~msn.com,~dm.de,~medium.com##.qc
 !---------------ABPVN White List--------------------
 @@/favicon.ico
