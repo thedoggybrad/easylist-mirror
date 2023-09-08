@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 40jm67h+kGpqEcokIzJSQg
-! Version: 202309081020
+! Checksum: Z4wXVXSaaQM/dKkQgOrxUg
+! Version: 202309081031
 ! Title: RU AdList
-! Last modified: 08 Sep 2023 10:20 UTC
+! Last modified: 08 Sep 2023 10:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -26027,7 +26027,7 @@ chemrise.ru##body > div[class*="ui-widget"]
 pastebin.com,primpogoda.ru##body > div[id]:not([class])[style="display: block;"]
 news24.in.ua##body > div[id][class]
 24pdd.ru#?#body > div[id][class]:-abp-has(> div[id][class] [class^="adblock"])
-gsm.in.ua##body > div[style*="none repeat scroll 0% 0%; display: block"]
+gsm.in.ua##body > div[style^="background:"][style*="display: block"]
 ritsatv.ru##body > marquee[style*="red"]
 motorpage.ru##body.noscroll::before
 qrz.ru#?#div[class]:-abp-has(> .inner > a[href="/help/adblock/"])
