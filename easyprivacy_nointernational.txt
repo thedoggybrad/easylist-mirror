@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: O584lwyDO88ZDnHBL29gcQ
-! Version: 202309080930
+! Checksum: e9WC4o2lRo/Vb/m9DlKA+w
+! Version: 202309080940
 ! Title: EasyPrivacy without international filters
-! Last modified: 08 Sep 2023 09:30 UTC
+! Last modified: 08 Sep 2023 09:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2536,7 +2536,6 @@
 /site_stats/*
 /site_tracking.
 /siteAnalytics-
-/siteAnalytics.
 /siteanalytics_
 /sitecatalist.js
 /sitecatalyst.js
@@ -9410,6 +9409,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||exacttarget.com^$~subdocument,third-party
 ||excite.ie/?click_in=
 ||exitintel.com/log/$third-party
+||expedia.com/static/default/default/scripts/siteAnalytics.js
 ||expedia.com/vaclog/
 ||experience.contextly.com^
 ||extole.io/core.js
