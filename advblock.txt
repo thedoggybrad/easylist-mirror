@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VdNHuoZnKRWC6auYFgupaQ
-! Version: 202309080930
+! Checksum: 3GQ/o2Hvk+8I2LGP5N/0Xw
+! Version: 202309080940
 ! Title: RU AdList
-! Last modified: 08 Sep 2023 09:30 UTC
+! Last modified: 08 Sep 2023 09:40 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1164,6 +1164,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##a[href*="//appt12mn.com/"]
 ##a[href*="//avertise.ru/"]
 ##a[href*="//bestonewos.com/"]
+##a[href*="//clickdome.online/"]
 ##a[href*="//dagamah.com/"]
 ##a[href*="//do-rod.com/"]
 ##a[href*="//ext-load.net"]
@@ -24089,19 +24090,19 @@ trackeroc.ga,trackeroc.info,trackeroc.ml,trackeroc.org,trackeroc.tk,ttrackeroc.r
 trackeroc.ga,trackeroc.info,trackeroc.ml,trackeroc.org,trackeroc.tk,ttrackeroc.ru##a[href*="sub/"] img
 !
 ! TurboBit и зеркала
-turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net###window-body > #formula
-turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net###window-body > #formula ~ *
-turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net###window-frame > #window-body > div
-turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net#?##window-frame > #window-body > p:-abp-contains(или)
-turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net###window-frame > #window-title
-turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net##.col-2
-turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net##.wrap > .download-type + div
-turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net##.wrap > .download-type ~ center
-/brinpopup.js$script,domain=turbobi.pw|turbobif.com|turbobit.net|turbobit.ru|turboobit.com|turbosit.net
-/pus/*$script,domain=turbobi.pw|turbobif.com|turbobit.net|turbobit.ru|turboobit.com|turbosit.net
-/ybrowser/frame.png|$image,domain=turbobi.pw|turbobif.com|turbobit.net|turbobit.ru|turboobit.com|turbosit.net
-turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net##a[href="/ybrowser/download"]
-turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net##center > a > img
+tourbobit.com,turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net###window-body > #formula
+tourbobit.com,turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net###window-body > #formula ~ *
+tourbobit.com,turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net###window-frame > #window-body > div
+tourbobit.com,turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net#?##window-frame > #window-body > p:-abp-contains(или)
+tourbobit.com,turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net###window-frame > #window-title
+tourbobit.com,turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net##.col-2
+tourbobit.com,turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net##.wrap > .download-type + div
+tourbobit.com,turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net##.wrap > .download-type ~ center
+/brinpopup.js$script,domain=tourbobit.com|turbobi.pw|turbobif.com|turbobit.net|turbobit.ru|turboobit.com|turbosit.net
+/pus/*$script,domain=tourbobit.com|turbobi.pw|turbobif.com|turbobit.net|turbobit.ru|turboobit.com|turbosit.net
+/ybrowser/frame.png|$image,domain=tourbobit.com|turbobi.pw|turbobif.com|turbobit.net|turbobit.ru|turboobit.com|turbosit.net
+tourbobit.com,turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net##a[href="/ybrowser/download"]
+tourbobit.com,turbobi.pw,turbobif.com,turbobit.net,turbobit.ru,turboobit.com,turbosit.net##center > a > img
 !
 ! Ukr.NET
 mail.ukr.net###left_banner
@@ -25913,8 +25914,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
@@ -26026,6 +26027,7 @@ chemrise.ru##body > div[class*="ui-widget"]
 pastebin.com,primpogoda.ru##body > div[id]:not([class])[style="display: block;"]
 news24.in.ua##body > div[id][class]
 24pdd.ru#?#body > div[id][class]:-abp-has(> div[id][class] [class^="adblock"])
+gsm.in.ua##body > div[style*="none repeat scroll 0% 0%; display: block"]
 ritsatv.ru##body > marquee[style*="red"]
 motorpage.ru##body.noscroll::before
 qrz.ru#?#div[class]:-abp-has(> .inner > a[href="/help/adblock/"])
