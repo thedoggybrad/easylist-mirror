@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qE3kWmJvNeIRBCo5Ymswbg
-! Version: 202309081750
+! Checksum: sZIAqo6RZFt6kfLaHcdLGA
+! Version: 202309081802
 ! Title: RU AdList
-! Last modified: 08 Sep 2023 17:50 UTC
+! Last modified: 08 Sep 2023 18:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12096,7 +12096,7 @@ westernfilm.ru###movie-right noindex > center
 youtube.com###movie_player > .ytp-cards-teaser
 inforuss.info,lentaruss.ru,smiruss.ru###msg_pop
 mediapapa.org###mv
-movienews.film,shotam.info###mvp-leader-wrap
+shotam.info###mvp-leader-wrap
 daily-inform.ru###mvp-post-bot-wrap
 internetsms.org###myCarousel
 doctorrouter.ru###myModal
@@ -16430,7 +16430,7 @@ atlasprirodirossii.ru,hyperione.com,zazloo.ru##.widget_block
 volyninfo.com##.widget_calendar ~ .widget_text ~ .widget_text
 rustaste.ru#?#.widget_categories:-abp-has(> div[align="center"] > img[src*="/aliban"])
 sdelalremont.ru##.widget_cb_widget
-100pdf.club,alladvices.ru,amorefilms.ru,analitikaua.net,aspekty.net,auto-portal.com.ua,avtotachki.com,borodina-protiv-buzovoj.ru,chas.cv.ua,cheb-live.ru,cryptodzen.com,dacha.help,dietdo.ru,ebanoe.it,electric-220.ru,erokomiksi.org,flytothesky.ru,gametrick.ru,glavradio.info,golos.te.ua,happymodern.ru,kazakh-zerno.net,koskomp.ru,lhealth.info,m-zh.ru,mi100.info,movienews.film,muwhi.ru,netsofta.net,new-s.com.ua,pravda.cn.ua,psiholog4you.ru,root-nation.com,rubrowsers.ru,sdelalremont.ru,sharknews.ru,simptomy-lechenie.net,smartmama.com.ua,ternopillive.com,tipsboard.ru,ua-news.in.ua,ua-report.info,vgolove.net,vizitnlo.ru,volyninfo.com,vseiski.ru,withcars.ru,zelenj.ru##.widget_custom_html
+100pdf.club,alladvices.ru,amorefilms.ru,analitikaua.net,aspekty.net,auto-portal.com.ua,avtotachki.com,borodina-protiv-buzovoj.ru,chas.cv.ua,cheb-live.ru,cryptodzen.com,dacha.help,dietdo.ru,ebanoe.it,electric-220.ru,erokomiksi.org,flytothesky.ru,gametrick.ru,glavradio.info,golos.te.ua,happymodern.ru,kazakh-zerno.net,koskomp.ru,lhealth.info,m-zh.ru,mi100.info,muwhi.ru,netsofta.net,new-s.com.ua,pravda.cn.ua,psiholog4you.ru,root-nation.com,rubrowsers.ru,sdelalremont.ru,sharknews.ru,simptomy-lechenie.net,smartmama.com.ua,ternopillive.com,tipsboard.ru,ua-news.in.ua,ua-report.info,vgolove.net,vizitnlo.ru,volyninfo.com,vseiski.ru,withcars.ru,zelenj.ru##.widget_custom_html
 femmie.ru##.widget_custom_html > .partners__heading ~ .custom-html-widget
 vsepredohraniteli.ru##.widget_custom_html ~ .widget_text
 profootball.ua#?#.widget_custom_html:-abp-contains(/^новости партн|^реклама/i)
@@ -18326,6 +18326,7 @@ multoigri.ru##div[class^="advertising-content-"]
 all-episodes.com##div[class^="advtss"]
 ekaraganda.kz##div[class^="aks-"]
 gamer.ru##div[class^="alarmalarm-banner"]
+shotam.info##div[class^="angwp_"]
 mesjachnye.com##div[class^="article-mvideo"] > div[style^="background:"]
 78.ru##div[class^="article-partners"]
 cybersport.ru#?#div[class^="asideWidgets_"] > .rounded-block:-abp-has(> [href*="bookmakers"])
@@ -23008,6 +23009,8 @@ forum.ruboard.ru##:not(my-obnaruzhili-blokirovshchik)
 ||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 ||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! селекторы
+pikabu.ru##.habsdk
+pikabu.ru##.habsdk ~ div
 2ip.ua#?#.ipblockmap > div > div:-abp-properties(cursor: pointer)
 pikabu.ru#?#.page-story__before-comments div:-abp-properties(min-height: 250px)
 pikabu.ru#?#.page-story__story > div:-abp-properties(display: block)
@@ -23018,15 +23021,16 @@ pikabu.ru#?#.sidebar__inner > .sidebar-block:-abp-has([class]:-abp-properties(mi
 pikabu.ru#?#.stories-feed__container > .story:-abp-has([class]:-abp-properties(min-height: calc(300px)))
 dracon-zet.ru,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
+pikabu.ru##[data-container="outer"]
+pikabu.ru##[data-name*="banner"]
 pikabu.ru#?#aside > .sidebar-block:-abp-has(> div[id])
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 cq.ru#?#div:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
-pikabu.ru##div[class]:first-child > pre:first-child + div[class]:last-child div div
-pikabu.ru##div[class]:first-child > span:first-child + div[class]:last-child div div
-pikabu.ru##div[href]
 rg.ru##div[id][class*="__"]:empty
+pikabu.ru##div[style*="important"] > div[style*="important"]
+pikabu.ru##div[style*="important"] > div[style*="important"] ~ div
 fontanka.ru#?#section div:-abp-properties(content: "Реклама")
 !#endif
 !
@@ -25914,8 +25918,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
