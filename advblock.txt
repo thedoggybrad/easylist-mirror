@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oKQ1r1N30nml0+ZYPiuvUg
-! Version: 202309101910
+! Checksum: SC2m8zAsSUEZf+2KZ72uig
+! Version: 202309101920
 ! Title: RU AdList
-! Last modified: 10 Sep 2023 19:10 UTC
+! Last modified: 10 Sep 2023 19:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6590,6 +6590,7 @@ _tizers.
 ||inferalton.com^
 ||info-app.ru^$third-party
 ||info-app2.ru^$third-party
+||info-app3.ru^$third-party
 ||info.howto-news.info^
 ||info33.info^$third-party
 ||info4park.ru^$third-party
@@ -19123,7 +19124,8 @@ finversia.ru,lr-club.com,mobile-review.com,pogoda.ru,severinform.ru,thg.ru##ifra
 allboxing.ru##iframe[src*="ad.allboxing.ru"]
 snitsya-son.ru##iframe[src*="adUrl"]
 novostroykin.ru##iframe[src*="adrai.novostroykin.ru/wow/go/"]
-anistar.org,astar.bz,livetv.sx,online-star.org,online-stars.org,tamboff.ru##iframe[src*="banner"]
+livetv.sx,tamboff.ru##iframe[src*="banner"]
+anistar.org,astar.bz,online-star.org,online-stars.org##iframe[src*="banner"]:not([src^="https://vk.com/widget_comments.php"])
 russian.fi##iframe[src*="banners.php"]
 forum.watch.ru##iframe[src*="clientscript/a_"]
 onlyf.ws##iframe[src*="gnezdo.ru"]
@@ -19985,7 +19987,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /js/*.js?$script,domain=all-sci.net|bib.social|economics.studio|economuch.com|finbook.news|lawbook.online|lawbooks.news|lib.sale|medinfo.live|myzooplanet.ru|pravo.studio|provse.news|psihologia.biz|sci-lib.biz|sci.house|scicenter.online|textbooks.studio|uchebnikfree.com|xn--80aaivjfyj3e.com
 /js/al/mrtarg.js$domain=vk.com|vk.ru
 /js/game_$domain=otxataba.net|xatab-repack.com|xatab-repack.org
-/js/init.js$script,~third-party,domain=assistentus.ru|dogovor-urist.ru|fzrf.su|gibdd-gai.ru|gibddru.info|kodeksy.com.ua|pasportnyjstol.ru|poliklinika-avto.ru|prestima.ru|pristav-russia.ru|prizivnika.net|prozhivem.com|regoperatory.ru|snn-mn.ru|tbti.ru|vozvrat-tovara.ru|xn--80abefftg5atkeine8j.xn--p1ai|xn--b1aasedeuba5ai.xn--p1ai|zakon-o-tishine.ru|zakonguru.com
+/js/init.js$script,~third-party,domain=assistentus.ru|dogovor-urist.ru|erikadmin.ru|fzrf.su|gibdd-gai.ru|gibddru.info|kodeksy.com.ua|pasportnyjstol.ru|poliklinika-avto.ru|prestima.ru|pristav-russia.ru|prizivnika.net|prozhivem.com|regoperatory.ru|snn-mn.ru|tbti.ru|vozvrat-tovara.ru|xn--80abefftg5atkeine8j.xn--p1ai|xn--b1aasedeuba5ai.xn--p1ai|zakon-o-tishine.ru|zakonguru.com
 /js/pop*.js$script,domain=superhumor.ru|voffka.com
 /js/script-*.*.js|$script,domain=divxplayer.ml|domonosok.tk|haes.tech|hcdn.online|hqq.to|hqq.tv|kinokrad.in.net|metaverseid.tk|player.cvary.org|porn-watch.ru|vidxhot.net
 /js/v.js$script,domain=superhumor.ru|voffka.com
@@ -23002,6 +23004,7 @@ forum.ruboard.ru##:not(my-obnaruzhili-blokirovshchik)
 ||2ip.ua/ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval'
 ||2ip.ua/ua/|$csp=script-src 'unsafe-inline' 'unsafe-eval'
 ||ritsatv.ru^$~document
+||vgtimes.ru/*/|$xmlhttprequest
 ! Liveinternet (ловушка для обфускации)
 /^https?://www\.liveinternet\.ru/(?!utf\/|q\/js\/|js\/|4Ek/JS/diary/main/nav/regoradd.js|autosave.js|cgi-bin/rpls.fcgi?|ckeditor\/|ckfinder\/|main_new_1251.js|share/js/share.js|spell/spell.js|uploader\/|vbcode.js|vbcode_language.js)/$script,domain=www.liveinternet.ru
 ||www.liveinternet.ru/community/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
