@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1zVe6GNLk6xDFPtagf1ufg
-! Version: 202309092340
+! Checksum: zLMicA+0HplFHDTashxCyg
+! Version: 202309092350
 ! Title: EasyPrivacy without international filters
-! Last modified: 09 Sep 2023 23:40 UTC
+! Last modified: 09 Sep 2023 23:50 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -29775,6 +29775,7 @@ arketing.indianadunes.com^
 @@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
 @@||bluecore.com/triggermail.js$script,domain=fcpeuro.com
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
+@@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||builder.lift.acquia.com/lift.js$script,domain=edwardjones.com
 @@||c.lytics.io/api/tag/$script,domain=time.com
