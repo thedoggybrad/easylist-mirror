@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AyL5blrev3kACjBfsFohpw
-! Version: 202309101510
+! Checksum: ilkD1ySJF98BwpNpMWNRVw
+! Version: 202309101520
 ! Title: EasyList without element hiding rules
-! Last modified: 10 Sep 2023 15:10 UTC
+! Last modified: 10 Sep 2023 15:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41211,6 +41211,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||cinema.pia.co.jp/img/ad/$image,~third-party
 @@||clj.valuecommerce.com/*/vcushion.min.js
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
+@@||copilog2.jp/*/webroot/ad_img/$domain=ikkaku.net
 @@||core.windows.net^*/annonser/$image,domain=kmauto.no
 @@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
 @@||daumcdn.net/adfit/static/ad.min.js$script,domain=daum.net
@@ -41234,6 +41235,8 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||hinagiku-u.ed.jp/wp54/wp-content/themes/hinagiku/images/$image,~third-party
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
 @@||iejima.org/ad-banner/$image,~third-party
+@@||ienohikari.net/ad/common/$~third-party
+@@||ienohikari.net/ad/img/$~third-party
 @@||img.rakudaclub.com/adv/$~third-party
 @@||jmedj.co.jp/files/$image,~third-party
 @@||jobs.bg/front_job_search.php$~third-party
