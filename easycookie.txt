@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: iJ2qfpu9LKpOnNzuO/n8FA
+! Checksum: LIT2eKpgRvwWGfeqo9c5RA
 ! Title: Easylist Cookie List
-! Updated: 2023-09-11 00:45 UTC
+! Updated: 2023-09-11 01:00 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -27,7 +27,6 @@
 -cookie-law-popup.
 -cookie-manager?
 -cookie-message.js
--cookie-msg-bar.
 -cookie-notice-
 -cookie-notice.
 -cookie-notice/
@@ -35,7 +34,6 @@
 -cookie-popup.
 -cookie-popup/
 -cookieconsent-
--CookieDisclaimer-
 -CookieInfo.
 -cookiePolicy.
 -cookies-disclaimer.
@@ -52,7 +50,6 @@
 -gdpr-min.
 -gdpr-popup.
 -gdpr-public.
--informativa-cookie.
 -popups-cookieplus/
 -privacy-cookie-
 -quantcast-cmp/
@@ -61,7 +58,6 @@
 .advertisingCookie.
 .consent-cookie.
 .cookie-law.$script
-.cookie-madeincima.
 .cookie-policy.
 .cookie.notice.
 .cookie.policy.
@@ -86,7 +82,6 @@
 /1_cookie.js
 /24cookiebar.js
 /?spu_action=*spu_load&
-/__cookie_js.php
 /__enzuzo-cookiebar.
 /_cookie_consentement.js
 /_cookielaw_mip.js
@@ -97,7 +92,6 @@
 /adsconsent.min.js
 /adscookies.js
 /adtoniq-messenger-$script,~third-party
-/agreements/cookie?
 /ajax/dataconsentcookies
 /ajw/gdpr/*
 /ajw_gdpr.
@@ -105,11 +99,11 @@
 /alertcookies.
 /am-cookie-ban/*
 /amasty/amgdpr/*
-/amCookieApproval.
+/amCookieApproval.min.js
 /amds-cookies.
 /amp-consent-
 /analytics-trackoutbound.js
-/analytics_cookie.
+/analytics_cookie.js
 /anclytic-ajax.
 /app.dsgvo.
 /approvazione-gdpr/*
@@ -121,9 +115,7 @@
 /avia-snippet-cookieconsent.js
 /avisCookies.
 /aviso_cookies.
-/avisopcgdpr.
 /avisos_legales/*
-/avvertenza-sui-cookies.
 /aw-cookie.
 /aws-cookie/*
 /b2c.cookie-
@@ -133,15 +125,12 @@
 /banner-cookies.
 /banner-lgpd.
 /banner_cookie.
-/banners/cnil-
 /barreCookie/*
 /bauer.cookies.
 /bb-cookies.
 /bc-cookie-consent
-/bCookiesMessage.
 /becookiebar.js
 /bgmp-gdpr.
-/bgon-cookies-
 /bica-cookie-alert/*
 /bluelabs-gdpr/*
 /borlabs-cookie/*$~script
@@ -156,7 +145,6 @@
 /cc_cookie.
 /ccm19.js
 /ccm19/*
-/cCookiesH.
 /ccpa/getPrivacyFlag?
 /ccpa/prod/*
 /cdcookie/*
@@ -167,7 +155,6 @@
 /checkCookieConsent/*
 /cipr-cookie-opt-out/*
 /cm-body.js
-/cmp-banner.js
 /cmp-init.
 /cmp-sp.js
 /cmp-v2/*
@@ -175,14 +162,11 @@
 /cmp.complete.bundle.js
 /cmp/cmp.js
 /cmp/cmp.min.js
-/cmp/cmpui-
 /cmp/consent-
 /cmp/int_cmp.
-/cmp/privacy_manager?
 /cmp/tmcookie.
 /cmp/tracking-opt-
 /cmp3p.js
-/cmp_consentStorage.
 /cmp_didomi.js
 /cmp_shim.js
 /cmpCookie.
@@ -191,7 +175,6 @@
 /cmpui-popup.js
 /cnil-banner/*
 /cnil-cookies_
-/cnil-min-
 /cnil.js
 /cnil.min.
 /cnil.preprod.
@@ -245,7 +228,7 @@
 /cookie-eu/*
 /cookie-footer-
 /cookie-gateway/*
-/Cookie-Hint.
+/cookie-hint.js
 /cookie-hinweis.
 /cookie-hinweis/*
 /cookie-info.
@@ -785,6 +768,7 @@
 /jquery.bpcookies.min.js
 /jquery.coo-kie.js
 /jquery.cookie-alert.js
+/jquery.cookie-madeincima.js
 /jquery.cookieaccept.js
 /jquery.cookieaccept.min.js
 /jquery.cookiebar.js
