@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: rJ8Pal+lNCqJgeETt7jAqQ
-! Version: 202309110130
+! Checksum: QPCzMHhit+KHD0oD3UJ2uQ
+! Version: 202309110140
 ! Title: ABPVN List
-! Last modified: 11 Sep 2023 01:30 UTC
+! Last modified: 11 Sep 2023 01:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 09 Sep 2023 22:30:25 UTC+7
+! Last modified: 11 Sep 2023 08:38:07 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -97,7 +97,7 @@
 ||cdn2-img.net^*.gif$image,domain=hhpanda.cc
 ||cdnjs.cloudflare.com/ajax/libs/devtools-detector/2.0.14/devtools-detector.min.js
 ||cdnwp.icu^*.gif$image
-||chillhay.xyz/guide/popup$script
+||chillhay.im/guide/popup$script
 ||chodansinh.net^*.gif
 ||chophien.com/imgadvert/
 ||chotlo.me^*gif
@@ -165,7 +165,7 @@
 ||images.vov.vn/Uploaded/QC/
 ||images1.violympic.vn/assets/images/*.gif
 ||images2-focus-opensocial.googleusercontent.com^*.gif$image,domain=anivn.club
-||images2-focus-opensocial.googleusercontent.com^*.gif$image,domain=chillhay.xyz|phimdinhcao.net|phimdinhcao.com|phimlongtieng.net
+||images2-focus-opensocial.googleusercontent.com^*.gif$image,domain=chillhay.im|phimdinhcao.net|phimdinhcao.com|phimlongtieng.net
 ||images2.imgbox.com^*.gif$image,domain=ocumoe.com
 ||img-portal-prod.s3.amazonaws.com/uploads/image/attachment/3380/HomeRandom2.gif
 ||img.blogtruyen.vn/sharex/$image
@@ -261,7 +261,7 @@
 ||phimlongtieng.net^*.xml$~third-party
 ||phimmoi4s.com/files/banner/$image
 ||phimmoi4s.com^*.gif
-||phimmoichill.cc^*gif
+||phimmoichill79.cc^*gif
 ||phimmoiv2.com^*.gif
 ||phimnet.vip/uploads/bn.jpg
 ||phimnet.vip/uploads/bn1.jpg
@@ -409,8 +409,8 @@
 ||vnmu.edu.vn^*.gif
 ||vov.vn/ads/show-ads^
 ||voz.vn/data/backgrounds/
-||vsc360.us/wp-content/themes/vuasanco/assets/scripts/scripts.js
-||vsc360.us^*.gif
+||vsc360.info/wp-content/themes/vuasanco/assets/scripts/scripts.js
+||vsc360.info^*.gif
 ||vuighe2.com/banner$image
 ||wikidichz.net/static/js/adx/$script
 ||wikisach.net/static/js/adx/$script
@@ -628,9 +628,9 @@ careerlink.vn##.top-right-col-ads
 chap.vn##.my_responsive_add
 chap.vn##.titleBar + *
 chap.vn##[class1="my_responsive_add"]
-chillhay.xyz###preload-2
-chillphim.vip##.block-bookmaker.block.most-view
-chillphim.vip,zuiphim.com##.banner-preload
+chillhay.im###preload-2
+chillphim1.com##.block-bookmaker.block.most-view
+chillphim1.com,zuiphim.com##.banner-preload
 chodansinh.net##.link-gold
 chodansinh.net##[id^="banner"]
 chotlo.me##div[id^="float"]
@@ -667,7 +667,7 @@ daominhha.net##.text-down
 designervn.net##.ads_zone
 dexuat.com###custom_html-7
 diadiem.com##.div_box_adv
-docbao.vn###div-ub-docbao
+docnhanh.vn###div-ub-docbao
 doisongphapluat.com##div.box-aside
 dongphim3s.net###footer_fixed_ads
 download.vn,gamevui.vn###ouibounce-modal
@@ -869,9 +869,9 @@ mitomv.tv,cakhiaz.net,veboz.live##.align-items-center.justify-content-between.d-
 mitomv.tv,cakhiaz.net,xoilac82.tv##.sub-menu.d-none.d-lg-flex
 mitub.net##.single-box
 mitub.net##[href^="//dooloust.net/"]
-motchill.info,motphimtv.vip###mp-adbk
-motchill.info,motphimtv.vip###mp-adx-b32
-motchill.info,motphimtv.vip,phimmoipro1.net,vkool2.net,phimmoichillg.net,ophim.vip##.mp-adz
+motchill.info,motphimtw.com###mp-adbk
+motchill.info,motphimtw.com###mp-adx-b32
+motchill.info,motphimtw.com,phimmoipro1.net,vkool2.net,phimmoichillg.net,ophim.vip##.mp-adz
 motphim1.info##.box_odds
 motphim1.info##.widget_custom_html.widget.widget_text
 mphim14.com,phimmoinay.tv##.adv_phim
@@ -908,7 +908,7 @@ phapluatplus.vn##div[style="text-align:center;margin-top:0px;margin-bottom:0px;"
 phim18zz.com##.catfishLoader
 phim18zz.com,mphimmoi.xyz##.pcCatfish
 phim202.com###itro_opaco
-phim33.us##div[data-value="1"]
+phim33.tv##div[data-value="1"]
 phimanimehd.net##.preload-backdrop
 phimanimehd.net,mphim14.com##.fixed_bottom
 phimbathu.one###catfish_content
@@ -938,11 +938,11 @@ phimmoi4s.com##.box_option
 phimmoi4s.com##.event_loader_e
 phimmoi4s.com##.fix_bottom
 phimmoi4s.com##.popup_center
-phimmoichill.cc###chilladv
-phimmoichill.cc###headermbads
-phimmoichill.cc###headerpcads
-phimmoichill.cc###mobiads
-phimmoichill.cc###pcads
+phimmoichill79.cc###chilladv
+phimmoichill79.cc###headermbads
+phimmoichill79.cc###headerpcads
+phimmoichill79.cc###mobiads
+phimmoichill79.cc###pcads
 phimmoipro1.net##.container>.right-box
 phimmoipro1.net,xemphimchill.net,phimmoiaz.cc,hhninja1.tv,phimbocn.com,phimhoathinh3d.com,phimmoiv2.com,hoathinhtq.tv,hhtq.vip,hhtqvietsub.top###catfish
 phimmoiv2.com,ophim.vip##.uniad-player + div[style]
@@ -1185,7 +1185,7 @@ viettelstore.vn###banner-dai-top
 vietyo.com##.row>div>center
 vkoolsss.net##.box-rating
 vkoolsss.net,subnhanhvl.cc,subnhanh.vip,tructiepdabong21.site,mitomv.tv###overlay
-vkoolsss.net,vuonhoalan.net,gunnylau360.net,mythethao.net,phimplay24h.com,kenhgamez.com,4rkinggame.com,phimno4.xyz,gunnymienphi.net,dailyphimz.com,phimhay.mobi,listnhacai1.com,phim33.us##.float-ck
+vkoolsss.net,vuonhoalan.net,gunnylau360.net,mythethao.net,phimplay24h.com,kenhgamez.com,4rkinggame.com,phimno4.xyz,gunnymienphi.net,dailyphimz.com,phimhay.mobi,listnhacai1.com,phim33.tv##.float-ck
 vndoc.com,download.com.vn,quantrimang.com,download.vn,gamevui.vn,khoahoc.tv,meta.vn##.adbox
 vnews.gov.vn##.banner-bottom-menu
 vnews.gov.vn##.popup-bg
