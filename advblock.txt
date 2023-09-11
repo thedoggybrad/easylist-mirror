@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h61vaW8yH60mYS6ed/OE/Q
-! Version: 202309111301
+! Checksum: XCQ2zQp82KTctDWtOlbQUA
+! Version: 202309111311
 ! Title: RU AdList
-! Last modified: 11 Sep 2023 13:01 UTC
+! Last modified: 11 Sep 2023 13:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19672,6 +19672,7 @@ rafkino.com##div[id^="MarketGid"]
 ||news-sphere.com^$csp=script-src
 ||nikopolnews.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.ua
 ||nsportal.ru/download/$csp=frame-src 'self'
+||ontvtime.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.googleapis.com *.googletagmanager.com *.gstatic.com *.ok.ru vk.com
 ||orbit-games.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: date: static.addtoany.com *.googletagmanager.com *.facebook.com *.keycaptcha.com
 ||psysovet24.ru^$csp=script-src 'self' * blob: data:
 ||runewslenta.com^$csp=sandbox allow-same-origin;
@@ -25922,8 +25923,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
@@ -26034,6 +26035,7 @@ chemrise.ru##body > div[class*="ui-widget"]
 pastebin.com,primpogoda.ru##body > div[id]:not([class])[style="display: block;"]
 news24.in.ua##body > div[id][class]
 24pdd.ru#?#body > div[id][class]:-abp-has(> div[id][class] [class^="adblock"])
+ontvtime.ru##body > div[style*="background-color:"][style*="z-index:"]
 gsm.in.ua##body > div[style^="background:"][style*="display: block"]
 ritsatv.ru##body > marquee[style*="red"]
 motorpage.ru##body.noscroll::before
