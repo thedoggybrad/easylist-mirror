@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: J+RQFbSiUxCsYrEp229+4Q
+! Checksum: NYlyUMJVicVki2gL8kpQuQ
 ! Title: Easylist Cookie List
-! Updated: 2023-09-11 02:00 UTC
+! Updated: 2023-09-11 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -264,8 +264,7 @@
 /cookie-popup?
 /cookie-privacy-
 /cookie-prompt.
-/cookie-reglement.
-/cookie-richtlinie.
+/cookie-richtlinie.js
 /cookie-service/*
 /cookie-terms.
 /cookie-though/*
@@ -298,7 +297,6 @@
 /cookie/support-
 /cookie/uccb-
 /cookie2.jsx
-/cookie_acceptance_
 /cookie_ack/*
 /cookie_ack_
 /cookie_agree.css
@@ -384,7 +382,6 @@
 /cookiecontrol.js
 /cookiecontroller.js
 /cookiecsnt2/*
-/cookiecu.
 /cookiecutter.js
 /cookieCutter.min.
 /cookiecuttr.
@@ -850,7 +847,6 @@
 /nsd-cookie-
 /o-cookielaw.
 /ob_rgpd/*
-/ocgcookie?
 /oil.*-RELEASE.min.js
 /oil/*-RELEASE.chunk.js
 /oiljs/*-RELEASE.min.js
@@ -884,7 +880,7 @@
 /pop_up_cookie.
 /popupConsent.
 /PopupCookie.
-/popupcookieinit.
+/popupcookieinit.js
 /popupcookies.
 /prettycookies.
 /privacy-banner.
@@ -945,7 +941,7 @@
 /script_cookie.
 /script_cookies.js
 /scripts/cookiebar
-/sdk-gdpr.
+/sdk-gdpr.min.js
 /sdk.privacy-center.
 /seopress-cookies.
 /SetConsentCookie.
@@ -1001,11 +997,9 @@
 /trustArcHelper.js
 /trwcookieconsent/*
 /ttgcookieconsent-
+/TWCCookies.js
 /TWCCookies/*
 /twcdisclaimer.js
-/twitter_cookies.
-/type-cookies.
-/ubmcookieconsent-
 /uc-cmp/loader.js
 /uecomscore_cmp.
 /uk-cookie-
@@ -1014,19 +1008,17 @@
 /unibo-cookies.
 /unitb-cmp.
 /usecookies.js
-/usocookies.
 /util/gdpr/*
 /vhs-assets-cookie-
 /w034CookieDirective.js
 /w4.cookiebar.
-/wa_consentUI.
 /wa_lib.js
 /Wamoco_CookieConsentUi/*
 /warnCookies.
-/we_use_cookies?
 /webflow-consent-manager
 /webtoffee-gdpr-cookie-consent/*
-/webtrekk_gdpr.
+/webtrekk_gdpr.js
+/webtrekk_gdpr.min.js
 /wecoma-lite.js
 /widget_cookieschecker.js
 /widget_privacy/*
@@ -1038,7 +1030,7 @@
 /wp-content/plugins/rodo
 /wp-content/plugins/zigcookie/*
 /wp-cookie-allow/*$script,stylesheet
-/wp-gdpr-
+/wp-gdpr-compliance/*
 /wp-tarteaucitron-
 /wpjslib-ecom.js
 /wpjslib-sgap.js
@@ -1047,9 +1039,7 @@
 /ws5_eucookie/*
 /wx-cookie-
 /x13eucookies/*
-/x_cookie_
 /XCookieConsent.
-/yello-cookie-
 /yobee-cmp.js
 /z7_cookiemanager.
 /zdconsent.
@@ -1066,7 +1056,6 @@ _cookie_cnil.
 _cookie_compliance.
 _cookie_consent.
 _cookie_consent/
-_Cookie_Directive-
 _cookie_hint.
 _cookie_info.
 _cookie_law.js
@@ -1075,9 +1064,7 @@ _cookie_notice-
 _cookie_notice.
 _cookie_optin/
 _cookie_policy.
-_cookie_policy_
 _cookie_popup.
-_cookie_utf8.
 _cookie_widget.
 _cookiebar.
 _cookiebar_
@@ -18999,7 +18986,7 @@ gorillas.io,simbrief.com###cookie-settings
 gezondheidsplein.nl###cookieForm
 sharphomeappliances.com###cookieModuleModal
 moringa.com###cookieNoticeSoww
-thegrocer.co.uk###cookiePolicy
+bdonline.co.uk,thegrocer.co.uk###cookiePolicy
 forbestravelguide.com###cookiePolicyWrap
 viavisolutions.com###cookieRibbon
 bulgarianproperties.com###cookie_bar_new
@@ -23727,7 +23714,7 @@ maistre.com.br##.aceite
 instituto-camoes.pt##.activebar-container
 lisbonaha.pt##.adp-popup-wrap
 hugocursos.com.br,jogatina.com##.alerta
-curitiba.pr.gov.br##.alertaCookies
+curitiba.pr.gov.br,inaciomartins.pr.gov.br##.alertaCookies
 try.com.br##.bZEgfH
 unopar.com.br##.banner-fixed-box
 jornaldeitapetininga.com.br,oanhanguera.com.br##.banner_rodape_informando_cookies
