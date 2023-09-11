@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dUxy/roGTby07YsJ5Dx1Mg
-! Version: 202309111031
+! Checksum: JnkkP1cKUgzDmtcBDQ1+kg
+! Version: 202309111040
 ! Title: RU AdList
-! Last modified: 11 Sep 2023 10:31 UTC
+! Last modified: 11 Sep 2023 10:40 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13771,7 +13771,7 @@ zamunda.ch,zamunda.net##.clickads
 glazey.info##.client
 literaguru.ru##.clinic-image
 gorodkiev.com.ua##.clr[style]
-ampercar.com,bolshoyulov.ru,femmie.ru,fuzzmusic.ru,gadgets-help.ru,gubdaily.ru,hersonweek.net,itbusiness.com.ua,kakbog.com,kovi.ru,nnews.com.ua,o-polze.com,pcminipro.ru,poravkrym.ru,villaved.ru,vsviti.com.ua##.code-block
+ampercar.com,bolshoyulov.ru,femmie.ru,fuzzmusic.ru,gadgets-help.ru,gubdaily.ru,hersonweek.net,itbusiness.com.ua,kakbog.com,kovi.ru,mmr.net.ua,nnews.com.ua,o-polze.com,pcminipro.ru,poravkrym.ru,villaved.ru,vsviti.com.ua##.code-block
 prozoro.net.ua##.code-block-34
 vsekamni.net#?#.code-block:-abp-has(> .content_rb)
 slivup.me##.code11
@@ -19659,6 +19659,7 @@ rafkino.com##div[id^="MarketGid"]
 ||exoclick.com^$csp=sandbox allow-same-origin;
 ||folltiz.site^$csp=script-src
 ||forum.ru-board.com/*.cgi?*=5&topic=51141$csp=img-src 'self' addons.mozilla.org raw.githubusercontent.com
+||forum.ruboard.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.google.com/recaptcha/ *.googletagmanager.com *.gstatic.com/recaptcha/ *.sendpulse.com *.threadloom.com
 ||gdz-ru.work/subscribe/$csp=sandbox allow-same-origin;
 ||hawk.live/$csp=sandbox allow-same-origin;
 ||idealmedia.io$csp=script-src
@@ -22983,7 +22984,6 @@ lada.kz/uploads/banners/
 ! Правила для отдельных сайтов с разношерстными правилами или групп сайтов
 !
 ! Правила для ресурсов, которые их создатели сделали несовместимыми с адблоком
-forum.ruboard.ru##:not(my-obnaruzhili-blokirovshchik)
 !#if ext_abp
 ! запросы
 *://pikabu.ru/*/*/*/$rewrite=abp-resource:blank-js,domain=pikabu.ru
@@ -25921,15 +25921,14 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
 dl2kq.de#@##sponsor_ad
 drahelas.ru#@#.forumAd
 era-igr.ru#@##adsense2
-forum.ruboard.ru#@##reklama
 forums.rusmedserv.com#@#img[width="728"][height="90"]
 green-way.com.ua#@#.adWrapper
 iphones.ru#@##sponsorText
