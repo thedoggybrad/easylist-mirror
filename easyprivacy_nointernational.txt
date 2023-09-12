@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: qZMZ5fSzMX5K2RAtsRNU2A
-! Version: 202309122110
+! Checksum: KYmq9mTfI89PtsBrVR0zkQ
+! Version: 202309122120
 ! Title: EasyPrivacy without international filters
-! Last modified: 12 Sep 2023 21:10 UTC
+! Last modified: 12 Sep 2023 21:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -34,7 +34,6 @@
 -click-tracker.
 -didomi.js
 -ga-tracker.
--ga-tracking/
 -gatracker.
 -geoIP.js
 -inview-tracker.
@@ -944,6 +943,7 @@
 /ecanalytics.js
 /ecap.min.js
 /ecblank.gif?
+/ecg-js-ga-tracking/*
 /ecom/status.jsp?
 /edAnalyticsWrapper.js
 /edata.js
