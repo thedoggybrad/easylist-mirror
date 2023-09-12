@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: TLOXZ/C9yD3VWKTCvT45Dg
-! Version: 202309120910
+! Checksum: UYBzT/U4QeZgGUu+47o22Q
+! Version: 202309120920
 ! Title: ABP filters
-! Last modified: 12 Sep 2023 09:10 UTC
+! Last modified: 12 Sep 2023 09:20 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -410,6 +410,7 @@ ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#
 ! #CV-737
 cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com
 ! #CV-1149
+etsy.com#$#hide-if-matches-xpath '//span[text()="vertisement" and "by"]/ancestor::a[contains(@class,"bc37")][contains(normalize-space()," ")][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com##a[href*="listing_page_ad_row"]
 ! #CV-1056
