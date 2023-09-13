@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aLzJLH8aSVw13aazW95mcA
-! Version: 202309132030
+! Checksum: JBsZ7FImYvstF2J0IcZLqQ
+! Version: 202309132040
 ! Title: EasyList Spanish
-! Last modified: 13 Sep 2023 20:30 UTC
+! Last modified: 13 Sep 2023 20:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1795,6 +1795,7 @@ cuencanews.es#?#td[class*="id_publi_"]:-abp-has(img[alt="publicidad"])
 elcomercio.pe#?##lateral:-abp-has(span:-abp-contains(Auspiciado por:))
 elespectador.com#?#.Block:-abp-has(.Title_section:-abp-contains(Contenido patrocinado))
 elespectador.com#?#.Card:-abp-has(.Card-Section.Section:-abp-contains(Contenido patrocinado))
+elpais.com.uy#?#.Page-above.loaded:-abp-has(div[class^="GoogleDfpAd"])
 eltiempo.com#?#.main-article-container-patr:-abp-has(.contenido-comercial)
 eltiempo.com#?#.main-article-container-patr:-abp-has(.mas-contenido:-abp-contains(Más Contenido))
 forocoches.com#?##sidebar > div > section:-abp-has(.fixed_adslot)
