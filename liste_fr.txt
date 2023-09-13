@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VvZsbA0ejCFmOoMTzJmy+Q
-! Version: 202309131851
+! Checksum: g+AxumIv7z4HVZEsASUFqQ
+! Version: 202309131901
 ! Title: Liste FR
-! Last modified: 13 Sep 2023 18:51 UTC
+! Last modified: 13 Sep 2023 19:01 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -16327,7 +16327,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||saucissonsexe.com/wp-content/uploads/*.gif
 ||sbx.pagesjaunes.fr^
 ||scan-manga.com/azmanga_
-||scan-manga.com/js/global_functions.js
 ||scifi-movies.com/images/site/promo/
 ||scoopnest.com/content_rb.php?
 ||script-pag.com/demo/fr/images/pub/
@@ -16821,6 +16820,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||slpubmedias.tf1.fr^$media,rewrite=abp-resource:blank-mp3,domain=tf1.fr
 ||static.6cloud.fr^*.mp4$media,rewrite=abp-resource:blank-mp3,domain=6play.fr
 ||tf1.fr/assets/js/build/lib/ad$rewrite=abp-resource:blank-js,domain=tf1.fr
+||vod.6cloud.fr/pub/*.mp4$media,rewrite=abp-resource:blank-mp3,domain=6play.fr
 !----------------------- Sites spécifiques popup -----------------!
 !
 ||1divx.co/*-film-$popup,~third-party
@@ -21819,6 +21819,7 @@ zataz.com#?#.custom-sidebar:-abp-has(h3:-abp-contains(/Partenaires|Publicité/))
 @@||www.bna.dz/media/djmediatools/cache/300x250-$image,~third-party
 @@||www.bouyguestelecom.fr^*/catalog/product/cache/*/image/300x600/$image,~third-party
 @@||www.les-terrains.com/images/chargement_en_cours.gif|$image,~third-party
+@@||yospace.com/csm/*.mpd^$xmlhttprequest,domain=6play.fr
 ! Liste blanche pour corriger le blocage strict
 @@||ab.9xbud.com/extract|$xmlhttprequest,domain=9xbuddy.xyz
 @@||ab.9xbud.com/token|$xmlhttprequest,domain=9xbuddy.xyz
