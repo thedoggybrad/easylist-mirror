@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: IxOrbxPSfUlTiIjCU0iO1g
+! Checksum: jq4UjtpSQg8kiyi/BBlJmw
 ! Title: Easylist Cookie List
-! Updated: 2023-09-13 02:00 UTC
+! Updated: 2023-09-13 01:30 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
-! Email: easylist@protonmail.com 
+! Email: easylist@protonmail.com
 ! Homepage: https://easylist.to/
 ! Forums: https://forums.lanik.us/
 !
@@ -338,7 +338,6 @@
 /cookiebar-
 /cookiebar.jquery.$script
 /cookiebar.js
-/cookiebar.min.js
 /cookiebar/*
 /cookiebar_$~stylesheet
 /cookiebox.
@@ -860,27 +859,31 @@
 /plugins/cookie-$~script,~stylesheet
 /plugins/gdpr/*
 /pm_assets/privacy/*$script
-/policy_cookie.js
-/policyaccept.js
-/politicacookies.js
-/pop_up_cookie.js
-/popupConsent.css
-/popupConsent.js
-/PopupCookie.js
+/policies/gdpr.
+/policy_cookie.
+/policy_cookieCMP.
+/policyaccept.
+/PoliticaCookies.
+/pop_up_cookie.
+/popupConsent.
+/PopupCookie.
 /popupcookieinit.js
-/popupcookies.js
-/prettycookies.js
-/privacy-banner.js
+/popupcookies.
+/prettycookies.
+/privacy-banner.
 /privacy-bar/*
 /privacy-consent-$script
-/privacy-cookie.js
+/privacy-cookie.
 /privacy-cookies.js
 /privacy-manager.js
 /privacy-modal.js
 /privacy-policy.js
-/privacy/cookie.js
-/privacy_cookie.js
+/privacy-templates.js?
+/privacy/bundle-modern.js
+/privacy/cookie.
+/privacy_cookie.
 /privacy_policy.js
+/privacy_popup?
 /privacychoices.js
 /privacycookie/*
 /privacyopt.js
@@ -907,31 +910,42 @@
 /rm-cookieconsent.js
 /rodo-agreement-popup/*
 /rodo-iframe?
+/rodo.js?pp_pr=
 /rodo.min.js
-/rodo/messages-jsonp
+/rodo/messages-
 /rodo/rodo.js
-/rodo_rmf.js
+/rodo_rmf.
+/rodo_script.
 /rodoinfo/*/remodal.js
 /Ronis_Cookie/*
 /roularta-gdpr.js
-/rtiCookieLaw.js
+/rtiCookieLaw.
 /s4s-privacy-module/*$script
-/script_cookie.js
+/script-rodo.
+/script_cookie.
 /script_cookies.js
-/scripts/cookiebar/*
+/scripts/cookiebar
 /sdk-gdpr.min.js
 /sdk.privacy-center.
-/seopress-cookies.min.js
-/SetConsentCookie.js
-/sf-tagomo-privacy.js
+/seopress-cookies.
+/SetConsentCookie.
+/SetCookieBanner.
+/setPrivacyCookie.
+/sf-tagomo-privacy.js$script
 /shapepress-dsgvo/*
 /sibbo-cmp-core.js
-/simpler-cookie-consent.umd.js
+/simpler-cookie-consent.
+/site-privacy-notification/*
+/sitenav/gdpr-
 /sizzlegdpr.snippet.min.js
 /skb-cookie/*
-/sm-oo-consent.js
-/smart-cookie-kit/*
-/smart-eu-cookies.min.js
+/sm-oo-consent-
+/sm-oo-consent.
+/sm-policy-banner.
+/smart-cookie-
+/smart-eu-cookies.
+/smarteucookiebanner.
+/snack-cmp_
 /snap-popup.js
 /sncmp.min.js
 /sni_cookie_privacy/*
