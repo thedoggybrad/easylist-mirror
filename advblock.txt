@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ff9v5HAU4sTHoX4mTMe64A
-! Version: 202309151501
+! Checksum: ydNkUStNUglpuvt/ZEsfRg
+! Version: 202309151510
 ! Title: RU AdList
-! Last modified: 15 Sep 2023 15:01 UTC
+! Last modified: 15 Sep 2023 15:10 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23026,6 +23026,7 @@ anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru##.sidebar-block div:not([class])[style="width: 100%;"]
 2ip.ua##.sidebar-nav
+pikabu.ru#?#.sidebar__inner > .sidebar-block:-abp-has([class]:-abp-properties(line-height: 0))
 pikabu.ru#?#.sidebar__inner > .sidebar-block:-abp-has([class]:-abp-properties(min-height: calc(600px)))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__left ~ .story__main > div:first-child)
 pikabu.ru#?#.stories-feed__container > .story:-abp-has([class]:-abp-properties(min-height: calc(300px)))
@@ -25929,8 +25930,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
