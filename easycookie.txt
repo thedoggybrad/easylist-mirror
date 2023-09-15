@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: az+NfYSH4qqEj2zQtyx7Iw
+! Checksum: AQkHkonqh9Ay3XDlwg1WmQ
 ! Title: Easylist Cookie List
-! Updated: 2023-09-15 03:20 UTC
+! Updated: 2023-09-15 02:20 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -46,6 +46,8 @@
 -gdpr-custom.
 -gdpr-min.
 -gdpr-popup.
+-gdpr-public.
+-popups-cookieplus/
 -privacy-cookie-
 -quantcast-cmp/
 -rodo.min.js
@@ -91,7 +93,6 @@
 /alertcookie.
 /alertcookies.
 /am-cookie-ban/*
-/am2-gdpr-public.js
 /amasty/amgdpr/*
 /amCookieApproval.min.js
 /amds-cookies.
@@ -131,9 +132,10 @@
 /build/js/it-cc.js
 /bundle-gdpr.min.js
 /c4s_cookie_notification/*
-/cbgCConsent.js
+/calls/cookie.
+/cbgCConsent.
 /cc-cookie-consent/*
-/cc_cookie.js
+/cc_cookie.
 /ccm19.js
 /ccm19/*
 /ccpa/getPrivacyFlag?
@@ -516,15 +518,17 @@
 /CookieWall/clb.js
 /cookiewall?
 /cookiewarn.js
-/cookiewarning-nosql.js
+/cookiewarning*.js
+/cookiewarning-nosql.
 /cookiewarning.
-/cookiewet.js
-/cookieWidget.js
+/cookiewarning?
+/cookiewet.
+/cookieWidget.
 /cookiewookie.js
 /cookpop.min.js
 /Cream_Cookiewall/*
 /css/gdpr.$~stylesheet
-/ct-ultimate-gdpr/*
+/cui-cookie-
 /cuk_core.js
 /cuk_core.min.js
 /custom/cookies.
@@ -770,7 +774,6 @@
 /loom_cookie/*
 /lssicookies/*
 /MarkupCookieConsent/*
-/master-popups-cookieplus/*
 /mb_cookies.js
 /mco-consent.js
 /mdv.cookie.
@@ -918,10 +921,12 @@
 /tealium-external/*
 /Team23_SimpleCookie/*
 /terms_of_service.js
-/tfcookie.js
-/thcookie.js
+/tfcookie.
+/thcookie.
 /tm.cookie.js
+/tnzcookie-
 /tnzcookie/*
+/toaster-checker.
 /top/gdpr_
 /toucanCookie.
 /tracking-opt-in.
