@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Cx9gk20okD1TvowOYeDKHQ
+! Checksum: 1lVwswpoEJKz0aMoSgMaCQ
 ! Title: Easylist Cookie List
-! Updated: 2023-09-15 01:20 UTC
+! Updated: 2023-09-15 01:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -38,9 +38,6 @@
 -cookiePolicy.
 -cookies-disclaimer.
 -cookies-notice/
--cookies-policy.
--cookies-policy/
--dsgvo-cookies/
 -eu-cookie/$script
 -eu-cookies/$script
 -gdpr-compliance/
@@ -127,10 +124,10 @@
 /banner-cookies.js
 /banner_cookie.js
 /barreCookie/*
-/bb-cookies.
-/bc-cookie-consent
+/bb-cookies.js
+/bc-cookie-consent/*
 /becookiebar.js
-/bgmp-gdpr.
+/bgmp-gdpr.js
 /bica-cookie-alert/*
 /bluelabs-gdpr/*
 /borlabs-cookie/*$~script
@@ -169,8 +166,7 @@
 /cmp3p.js
 /cmp_didomi.js
 /cmp_shim.js
-/cmpCookie.
-/cmpui-banner-
+/cmpCookie.js
 /cmpui-banner.js
 /cmpui-popup.js
 /cnil-banner/*
@@ -448,11 +444,11 @@
 /CookiePrompter-
 /cookies-anekis.js
 /cookies-banner$script
-/cookies-compliant.
-/cookies-consent.
-/cookies-directive.
-/cookies-disclaimer.
-/cookies-enabler.
+/cookies-consent.js
+/cookies-directive.js
+/cookies-disclaimer.js
+/cookies-enabler.js
+/cookies-enabler.min.js
 /cookies-eu-banner.js
 /cookies-footer-
 /cookies-for-comments/*
@@ -905,6 +901,7 @@
 /sg_cookie_optin/*
 /shapepress-dsgvo/*
 /sibbo-cmp-core.js
+/silverstripe-dsgvo-cookies/*
 /simpler-cookie-consent.umd.js
 /sizzlegdpr.snippet.min.js
 /skb-cookie/*
