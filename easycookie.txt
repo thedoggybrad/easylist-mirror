@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: az+NfYSH4qqEj2zQtyx7Iw
+! Checksum: 21NP86Ik8NJoiOAMl7SdKw
 ! Title: Easylist Cookie List
-! Updated: 2023-09-15 03:20 UTC
+! Updated: 2023-09-15 04:00 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
-! Email: easylist@protonmail.com 
+! Email: easylist@protonmail.com
 ! Homepage: https://easylist.to/
 ! Forums: https://forums.lanik.us/
 !
@@ -76,8 +76,9 @@
 .PrivacyDataNotice.
 /1_cookie.js
 /24cookiebar.js
-/?spu_action=*spu_load&
-/__enzuzo-cookiebar.
+/?spu_action=spu_load$xmlhttprequest
+/__enzuzo-cookiebar.js
+/_cookie_banner.js
 /_cookie_consentement.js
 /_cookieconsent.js
 /_cookielaw_mip.js
@@ -776,6 +777,7 @@
 /mdv.cookie.
 /mea-legal-consent.
 /mediamus-cookie.js
+/mekanismi_cookie_alert/*
 /messagingNoTcfApi.js
 /meWantCookies1.8.js
 /mfe-cookies/*
@@ -945,11 +947,10 @@
 /util/gdpr/*
 /vhs-assets-cookie-
 /w034CookieDirective.js
-/w4.cookiebar.
+/w4.cookiebar.js
 /wa_lib.js
 /Wamoco_CookieConsentUi/*
-/warnCookies.
-/webflow-consent-manager
+/warnCookies.js
 /webtoffee-gdpr-cookie-consent/*
 /webtrekk_gdpr.js
 /webtrekk_gdpr.min.js
@@ -978,12 +979,9 @@
 /z7_cookiemanager.
 /zdconsent.
 /zdprivacy.
-/zebra_cookie.
+/zebra_cookie.js
 /zgdpr.min.js
 ://ccm.*/app.js?
-_alert_cookie/
-_cookie_alert/
-_cookie_banner.
 _cookie_bar.
 _cookie_bar/
 _cookie_cnil.
@@ -18596,6 +18594,7 @@ _gdpr_cookie_
 ||dam.bbcchannels.com^*/outside-iframe.js
 ||duotonesports.com^*/public/ccm
 ||emerse.com/consent.js
+||famobi.com/assets/js/consent.js
 ||flaine.com/build/js/tarteaucitron/
 ||freedoflondon.com/Styles/dialog-popup/jquery-ui.js
 ||freetls.fastly.net/main/sd-cmp-$domain=spanishdict.com
@@ -20008,6 +20007,7 @@ quazel.com,veed.io##.fs-cc-banner3_component
 ooux.com##.fs-cc-banner3_component-2
 objectbay.com##.fs-cc-component
 f-secure.com##.fs-consent
+ssactivewear.com##.fs_cc-banner_component
 dorkingrfc.com##.fsi-layout-notices
 relishbistroseattle.com##.fsn-notifications
 evermotion.org##.full-overlay
