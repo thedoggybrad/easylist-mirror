@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309150217
+! Version: 202309150237
 ! Title: Fanboy's Annoyance List
-! Last modified: 15 Sep 2023 02:17 UTC
+! Last modified: 15 Sep 2023 02:37 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1422,8 +1422,6 @@ _twitter_follow.
 -gdpr-custom.
 -gdpr-min.
 -gdpr-popup.
--gdpr-public.
--popups-cookieplus/
 -privacy-cookie-
 -quantcast-cmp/
 -rodo.min.js
@@ -1469,6 +1467,7 @@ _twitter_follow.
 /alertcookie.
 /alertcookies.
 /am-cookie-ban/*
+/am2-gdpr-public.js
 /amasty/amgdpr/*
 /amCookieApproval.min.js
 /amds-cookies.
@@ -1507,11 +1506,10 @@ _twitter_follow.
 /branding/cb-scripts-
 /build/js/it-cc.js
 /bundle-gdpr.min.js
-/c4s_cookie_
-/calls/cookie.
-/cbgCConsent.
+/c4s_cookie_notification/*
+/cbgCConsent.js
 /cc-cookie-consent/*
-/cc_cookie.
+/cc_cookie.js
 /ccm19.js
 /ccm19/*
 /ccpa/getPrivacyFlag?
@@ -1898,13 +1896,13 @@ _twitter_follow.
 /cookiewarning-nosql.
 /cookiewarning.
 /cookiewarning?
-/cookiewet.
-/cookieWidget.
+/cookiewet.js
+/cookieWidget.js
 /cookiewookie.js
 /cookpop.min.js
 /Cream_Cookiewall/*
 /css/gdpr.$~stylesheet
-/cui-cookie-
+/ct-ultimate-gdpr/*
 /cuk_core.js
 /cuk_core.min.js
 /custom/cookies.
@@ -2150,6 +2148,7 @@ _twitter_follow.
 /loom_cookie/*
 /lssicookies/*
 /MarkupCookieConsent/*
+/master-popups-cookieplus/*
 /mb_cookies.js
 /mco-consent.js
 /mdv.cookie.
