@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: go7L7QzseQLUUQ+MSQVXsg
+! Checksum: 7TDvhQgNJlJ3n5+9WaPTVw
 ! Title: Easylist Cookie List
-! Updated: 2023-09-15 09:30 UTC
+! Updated: 2023-09-15 09:00 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -68,6 +68,7 @@
 .cookiesmessage.
 .cookiesPolicy.
 .EuCookieCompliance.min.js
+.gdpr-banner.
 .gdpr.js
 .gdpr.min
 .GdprCookieBanner.
@@ -635,9 +636,9 @@
 /gdpr.htm
 /gdpr.js
 /gdpr.min.
+/gdpr/*/loader.js
 /gdpr/assets/*$domain=~hartmanngruppe.net
-/gdpr/banner.js
-/gdpr/bundle.min.js
+/gdpr/bundle.
 /gdpr/cmp/*
 /gdpr/cookie-
 /gdpr/CookieConsent
@@ -24481,7 +24482,6 @@ ants.vn##.sg-popup-content
 !
 ! ---------- French ----------
 !
-||brsimg.com/gdpr/$domain=boursorama.com
 ||cmp.histoire-et-civilisations.com^
 ||consent.prismamedia.com^
 ||consentement.ouest-france.fr^
