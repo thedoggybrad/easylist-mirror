@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: PQPsTiyDgTJBN46524CU8A
-! Version: 202309150730
+! Checksum: kXjYm+bFiD6f0hVrEJTdaA
+! Version: 202309150740
 ! Title: ABPVN List
-! Last modified: 15 Sep 2023 07:30 UTC
+! Last modified: 15 Sep 2023 07:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 14 Sep 2023 16:09:38 UTC+7
+! Last modified: 15 Sep 2023 14:33:49 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -55,6 +55,7 @@
 /scdn.bongdadem.net/*.gif$domain=xoilac82.tv,image
 /storage.adpia.vn/$image
 /stores/ads_data/*
+/taichinhdoanhnghiep.net.vn/files/qc
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
 /vast.js$script,domain=api.anime3s.com|tvzinghd.com|ophimhay.com|player.4shares.live|animesub.me​
@@ -536,13 +537,13 @@
 90phut9.live##.item.item-betnow
 90phut9.live##.sv-link.btn-bet-top
 90phut9.live,banhkhuc6.com##.fade.show
-90phutv.tv###menu-main-menu > .menu-bongdainfo.menu-item.nav-item.tt-bdif
-90phutv.tv###menu-main-menu > .menu-cuoc-8xbet
-90phutv.tv###menu-main-menu > .menu-nha-cai-uy-tin.menu-item.nav-item.style-2 > .nav-link
+90phutv.tv###menu-main-menu>.menu-bongdainfo.menu-item.nav-item.tt-bdif
+90phutv.tv###menu-main-menu>.menu-cuoc-8xbet
+90phutv.tv###menu-main-menu>.menu-nha-cai-uy-tin.menu-item.nav-item.style-2>.nav-link
 90phutv.tv##.c-int.d-lg-none.d-block
 90phutv.tv##.col-xl-4
 90phutv.tv##.container>.row>.col-12
-90phutv.tv##.justify-content-center.d-flex > .btn-primary.btn
+90phutv.tv##.justify-content-center.d-flex>.btn-primary.btn
 90phutv.tv##.mt-1.d-lg-flex.d-none.sub-menu
 90phutv.tv##a.d-lg-none.d-block:nth-of-type(2)
 90phutv.tv##div#match-child-1.d-lg-none.d-flex.col-sm-6.col-lg-6.grid-matches__item:nth-of-type(4)
@@ -1024,6 +1025,7 @@ stockbiz.vn##.RightFloatBanner
 stockbiz.vn##.ads_top_left
 stream.tructiepnba.com##.truct-catfish
 stream.tructiepnba.com##.truct-widget
+taichinhdoanhnghiep.net.vn##.adv
 tamlinh247.com.vn##.ads-gg-top
 tamlinh247.com.vn##.container + .col-xs-12.content_wrap
 tamlinh247.com.vn##.content>.content>.content
@@ -1266,7 +1268,7 @@ zingnews.vn###Zingnews_SiteHeader
 zingnews.vn###site-header
 zingnews.vn##.znews-banner
 zingnews.vn,minhngoc.net.vn,vn-z.vn,kinhtedothi.vn##[id^="adv"]
-zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,antt.nguoiduatin.vn,kinhtenongthon.vn,taichinhdoanhnghiep.net.vn,thichxemphim1.net,mannhan2.live,xemphimviet1.net,ghienphim8.net,oj.husc.edu.vn##.banner
+zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,taichinhdoanhnghiep.net.vn,thichxemphim1.net,mannhan2.live,xemphimviet1.net,ghienphim8.net,oj.husc.edu.vn##.banner
 ~livescore.com,~msn.com,~dm.de,~medium.com##.qc
 !---------------ABPVN White List--------------------
 @@/favicon.ico
