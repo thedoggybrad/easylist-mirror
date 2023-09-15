@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: fg6Gv90+A4dfu+8cPHaZtw
+! Checksum: eTJeiWTRkcSr6xUvFCJ63w
 ! Title: Easylist Cookie List
-! Updated: 2023-09-15 02:00 UTC
+! Updated: 2023-09-15 02:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -46,8 +46,6 @@
 -gdpr-custom.
 -gdpr-min.
 -gdpr-popup.
--gdpr-public.
--popups-cookieplus/
 -privacy-cookie-
 -quantcast-cmp/
 -rodo.min.js
@@ -93,6 +91,7 @@
 /alertcookie.
 /alertcookies.
 /am-cookie-ban/*
+/am2-gdpr-public.js
 /amasty/amgdpr/*
 /amCookieApproval.min.js
 /amds-cookies.
@@ -131,11 +130,10 @@
 /branding/cb-scripts-
 /build/js/it-cc.js
 /bundle-gdpr.min.js
-/c4s_cookie_
-/calls/cookie.
-/cbgCConsent.
+/c4s_cookie_notification/*
+/cbgCConsent.js
 /cc-cookie-consent/*
-/cc_cookie.
+/cc_cookie.js
 /ccm19.js
 /ccm19/*
 /ccpa/getPrivacyFlag?
@@ -518,17 +516,15 @@
 /CookieWall/clb.js
 /cookiewall?
 /cookiewarn.js
-/cookiewarning*.js
-/cookiewarning-nosql.
+/cookiewarning-nosql.js
 /cookiewarning.
-/cookiewarning?
-/cookiewet.
-/cookieWidget.
+/cookiewet.js
+/cookieWidget.js
 /cookiewookie.js
 /cookpop.min.js
 /Cream_Cookiewall/*
 /css/gdpr.$~stylesheet
-/cui-cookie-
+/ct-ultimate-gdpr/*
 /cuk_core.js
 /cuk_core.min.js
 /custom/cookies.
@@ -774,6 +770,7 @@
 /loom_cookie/*
 /lssicookies/*
 /MarkupCookieConsent/*
+/master-popups-cookieplus/*
 /mb_cookies.js
 /mco-consent.js
 /mdv.cookie.
@@ -816,7 +813,6 @@
 /opendotcom-cookie/*
 /opnWidget.js
 /opt-in-select/cookie/*
-/optInCookieGdprSSR.
 /otBannerSdk.js
 /oupcookiepolicy_
 /pescookies.min.js
