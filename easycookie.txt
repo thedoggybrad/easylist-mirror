@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 21NP86Ik8NJoiOAMl7SdKw
+! Checksum: c7prwcMYDEpugIXY31owYQ
 ! Title: Easylist Cookie List
-! Updated: 2023-09-15 04:00 UTC
+! Updated: 2023-09-15 03:30 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -76,9 +76,8 @@
 .PrivacyDataNotice.
 /1_cookie.js
 /24cookiebar.js
-/?spu_action=spu_load$xmlhttprequest
-/__enzuzo-cookiebar.js
-/_cookie_banner.js
+/?spu_action=*spu_load&
+/__enzuzo-cookiebar.
 /_cookie_consentement.js
 /_cookieconsent.js
 /_cookielaw_mip.js
@@ -777,7 +776,6 @@
 /mdv.cookie.
 /mea-legal-consent.
 /mediamus-cookie.js
-/mekanismi_cookie_alert/*
 /messagingNoTcfApi.js
 /meWantCookies1.8.js
 /mfe-cookies/*
@@ -982,6 +980,9 @@
 /zebra_cookie.js
 /zgdpr.min.js
 ://ccm.*/app.js?
+_alert_cookie/
+_cookie_alert/
+_cookie_banner.
 _cookie_bar.
 _cookie_bar/
 _cookie_cnil.
@@ -18594,7 +18595,6 @@ _gdpr_cookie_
 ||dam.bbcchannels.com^*/outside-iframe.js
 ||duotonesports.com^*/public/ccm
 ||emerse.com/consent.js
-||famobi.com/assets/js/consent.js
 ||flaine.com/build/js/tarteaucitron/
 ||freedoflondon.com/Styles/dialog-popup/jquery-ui.js
 ||freetls.fastly.net/main/sd-cmp-$domain=spanishdict.com
