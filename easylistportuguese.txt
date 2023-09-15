@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +qPh2TLoCt9/YR4pVdK52A
-! Version: 202309152110
+! Checksum: zlfzJgkZtmGfUbL1B+nrkA
+! Version: 202309152120
 ! Title: EasyList Portuguese
-! Last modified: 15 Sep 2023 21:10 UTC
+! Last modified: 15 Sep 2023 21:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -228,6 +228,7 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||adsmaster.dev^
 !
 ||admasters.media^$third-party
+||adzep.com.br^$third-party
 ||cazamba.com^$third-party
 ||denakop.com^$third-party
 ||grumft.com^$third-party
@@ -813,6 +814,7 @@ dinheirorural.com.br,revistaplaneta.com.br##.css-liynyf
 brasilnaitalia.net##.custom_html-5
 esportetotal.club,futebolistasonline.club,loucasporcabelos.com.br,sabornutritivo.com,tudonoticias.net##.demand-supply
 flashscore.com.br,flashscore.pt##.detailLeaderboard
+olhardigital.com.br##.diagonal-strip
 hojeemdia.com.br##.dlbZKK
 jornaldocarro.estadao.com.br##.dunlop
 obutecodanet.ig.com.br##.elementor-element-25abeb1
@@ -824,6 +826,7 @@ obutecodanet.ig.com.br##.elementor-element-a6a8f53
 obutecodanet.ig.com.br##.elementor-element-d5820b2
 bestriders.com.br##.elementor-widget-image-carousel
 extra.globo.com##.especial-publicitario
+ecycle.com.br##.form-discard__sponsor
 autoentusiastas.com.br,cidadesnanet.com,fimdalinha.com.br,ocamera.com.br,radar64.com##.g
 exame.com##.gaOLck
 solutudo.com.br##.go_bnr_wr
@@ -924,6 +927,7 @@ ig.com.br##.publicidade
 infojobs.com.br,oantagonista.uol.com.br##.publicity
 publico.pt##.pubtxt
 superesportes.com.br##.retangulo
+noticiasaominuto.com##.rich-media
 grandepremio.com.br##.rodape_sticky
 sapo.pt##.sapoPub
 maisesports.com.br##.sc-af71c8f-3
@@ -970,11 +974,13 @@ purebreak.com.br##.wh_add--header
 uai.com.br##.widget_bouplay_wp_300px2
 spbrasil-2009.net##.widget_custom_html
 observatoriodeourofino.com.br##.widget_media_image
+bandab.com.br##.widget_publicidade
 personare.com.br##.wp-block-personare-advertising
 climatempo.com.br,tempoagora.uol.com.br##.wrapper-banner
 escolakids.uol.com.br,mundoeducacao.uol.com.br##.wrapper-bnr
 multinews.sapo.pt##.yxzmwgdi
 forum.zwame.pt##.zwame-side-spons
+metropoles.com##[class^="PublicidadesWrapper-"]
 jn.pt,ojogo.pt##[class^="t-pub-box-"]
 anitube.cx,automotivebusiness.com.br,calangodocerrado.net,noticiafamosos.com.br,portalmaquinasagricolas.com.br##[href*="bit.ly/"]
 tribunaonline.com.br##a[href^="/branded-content/"]
@@ -988,7 +994,6 @@ espn.com.br##a[href^="https://www.starplus.com"][href*="?cid="]
 migalhas.com.br##app-wt-servico-banner-v01
 pelando.com.br##div[aria-label="anúncio patrocinado"]
 radiojhero.com##div[class^="Ad_"]
-metropoles.com##div[class^="PublicidadesWrapper-"]
 diariorp.com.br,marriedgames.com.br##div[class^="angwp_"]
 mktesportivo.com##div[class^="mktes-"]
 tudoradio.com##div[class^="pub-"]
