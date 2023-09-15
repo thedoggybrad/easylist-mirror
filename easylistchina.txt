@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eNmVZXHzOu/LgCDw7EhRKw
-! Version: 202309151501
+! Checksum: BhaZYTnO5s9d4Ouf8zlaIw
+! Version: 202309151510
 ! Title: EasyList China
-! Last modified: 15 Sep 2023 15:01 UTC
+! Last modified: 15 Sep 2023 15:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -17199,8 +17199,8 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > div
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > div
+18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img + [style]
+jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img + [style]
 18comic.org,18comic.vip###guide-modal
 18comic.org,18comic.vip##.modal-backdrop
 18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
