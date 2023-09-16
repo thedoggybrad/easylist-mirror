@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309160404
+! Version: 202309160418
 ! Title: Fanboy's Annoyance List
-! Last modified: 16 Sep 2023 04:04 UTC
+! Last modified: 16 Sep 2023 04:18 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1407,8 +1407,6 @@ _twitter_follow.
 -cookie-notice/
 -cookie-policy.
 -cookie-popup.
--cookie-popup/
--cookieconsent-
 -CookieInfo.
 -cookiePolicy.
 -cookies-notice/
@@ -1459,6 +1457,7 @@ _twitter_follow.
 /ajax/gdpr-desc
 /alertcookie.
 /alertcookies.
+/all-cookieconsent-js.js
 /am-cookie-ban/*
 /am2-gdpr-public.js
 /amasty/amgdpr/*
@@ -1920,6 +1919,7 @@ _twitter_follow.
 /dx/cmpui.
 /dywc.js
 /easy-cookies-
+/easy-wp-cookie-popup/*
 /easycmp/index.
 /echonetcookie.
 /ecookie_check/*
@@ -41946,6 +41946,7 @@ beerwulf.com,islamicfinder.org##.reveal-overlay
 merlin.foyer.work##.rhc-banner
 mrgugu.com##.rhvQa
 ricola.com##.ricola-cookie-info
+haikuanimator.com##.rmq-d60b84d6
 southwestcoastpath.org.uk##.roar-body
 itinari.com##.root-8abb4
 itinari.com##.root-bca09
