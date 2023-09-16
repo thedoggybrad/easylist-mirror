@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309162229
+! Version: 202309162236
 ! Title: Fanboy's Annoyance List
-! Last modified: 16 Sep 2023 22:29 UTC
+! Last modified: 16 Sep 2023 22:36 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -13117,6 +13117,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.secondaryNav-social
 ##.secondarySahre
 ##.section-follow
+##.section-post-intro-share
 ##.section-sharebar
 ##.section-social
 ##.section_footer-social-links
@@ -21092,6 +21093,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookies-blok
 ###cookies-bot
 ###cookies-bottom
+###cookies-bottom-modal
 ###cookies-box
 ###cookies-box-inner
 ###cookies-box-outer-layer
@@ -44253,6 +44255,7 @@ r7.com##.header-social-network
 connectparts.com.br##.hover-compartilhar
 jota.info##.jota-actions
 jota.info##.jota-article__share
+uol.com.br##.jupiter-share
 exame.com##.kifGPa
 pinkluna.com.br##.lista-redes
 folhadelondrina.com.br##.mw-botaoGoogle
@@ -44662,6 +44665,7 @@ b9.com.br##.c-newslatter-box
 folhadelondrina.com.br##.form-email-container
 poder360.com.br##.form-subscribe
 infomoney.com.br##.im-cta
+uol.com.br##.jupiter-news-notice
 pcguia.pt##.lepopup-popup-container
 pcguia.pt##.lepopup-popup-overlay
 moneytimes.com.br##.mc-optin
@@ -46070,7 +46074,7 @@ trovanumeri.com###hid
 gustosaricerca.it###holdon-overlay
 mariangelaguido.it###icegram_message_10971
 mondoprofessionisti.it###informativaPrivacy
-105.net,capital.it,huffingtonpost.it,ilmessaggero.it,ilsecoloxix.it,lastampa.it,m2o.it,r101.it,radiomontecarlo.net,repubblica.it,unitedmusic.com,virginradio.it###iubenda-cs-banner
+105.net,capital.it,huffingtonpost.it,ilsecoloxix.it,lastampa.it,m2o.it,r101.it,radiomontecarlo.net,repubblica.it,unitedmusic.com,virginradio.it###iubenda-cs-banner
 vmmotori.it###ll_banner
 vmmotori.it###ll_info
 programmitv.it###mag
@@ -48538,6 +48542,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||iconfinder.com/data/icons/$~third-party
 @@||iconizer.net/files/*_social_$image
 @@||iconspedia.com/icon/$image,~third-party
+@@||ilmessaggero.it/modules/socialbar/socialbar.css?$~third-party
 @@||inscience.news/svc/getscript.aspx$script,~third-party
 @@||instagram.com/p/$subdocument,third-party
 @@||jsdelivr.net/npm/sharer.js
