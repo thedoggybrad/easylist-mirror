@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: DUOyTFxLD0JOz6g7FCKzmw
+! Checksum: tbKT8BntAwMwIvW5FE026Q
 ! Title: Easylist Cookie List
-! Updated: 2023-09-16 00:40 UTC
+! Updated: 2023-09-16 00:20 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -10,6 +10,7 @@
 ! Forums: https://forums.lanik.us/
 !
 -agree-cookies/
+-cnil-popup-
 -consent-banner-
 -consent-banner.
 -cookie-banner-$~image
@@ -87,7 +88,7 @@
 /am2-gdpr-public.js
 /amasty/amgdpr/*
 /amCookieApproval.min.js
-/amds-cookies.js
+/amds-cookies.
 /amp-consent-
 /analytics-trackoutbound.js
 /analytics_cookie.js
@@ -106,7 +107,7 @@
 /aw-cookie.
 /aws-cookie/*
 /b2c.cookie-
-/bandeau.cookie.js
+/bandeau-cookie.
 /bandeauCNIL/*
 /bandeaucookie.js
 /banner-cookies.js
@@ -156,10 +157,14 @@
 /cmpCookie.js
 /cmpui-banner.js
 /cmpui-popup.js
+/cnil-banner/*
+/cnil-cookies_
 /cnil.js
-/cnil.min.js
+/cnil.min.
+/cnil.preprod.
+/cnil_banner.
+/cnil_top.
 /coCookiesDisclaimer.
-/complianz.min.js
 /component-CookieConsent.
 /consent-banner-
 /consent-box.js
@@ -320,7 +325,6 @@
 /cookiebar.min.js
 /cookiebar/*
 /cookiebar_$~stylesheet
-/cookieblocker.min.css
 /cookiebox.
 /CookieBubble.
 /cookieCallout.
@@ -551,7 +555,6 @@
 /edcc.js
 /ee-cookies-min.
 /ElxtrConsent/*
-/emb-cnil-popup-rgpd.js
 /emea-cookie-
 /ena_cookies_
 /epaas.consentdrawer.
