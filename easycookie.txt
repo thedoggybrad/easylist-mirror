@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: SZMvvRqF7HgEVMv3Yb5lSw
+! Checksum: ztZ9y5ImXLhsAvMTBSjbDQ
 ! Title: Easylist Cookie List
-! Updated: 2023-09-16 05:20 UTC
+! Updated: 2023-09-16 04:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -321,9 +321,8 @@
 /cookieCallout.
 /cookiechecker/*
 /cookiechoice.js
-/cookiechoices-v3.js
-/cookiechoices.js
-/cookiechoices.min.js
+/cookiechoices-
+/cookiechoices.
 /cookiechoicesfic.js
 /cookiecode.dist.min.js
 /cookiecompliance.
@@ -377,9 +376,12 @@
 /cookielayer/*
 /cookielayover.
 /cookielegal.
+/cookieloi.
 /cookiemanagement.js
+/cookieMention.
 /cookiemessage.
 /cookiemessage_
+/cookieMetie.
 /cookieModal.
 /cookiemonster.js
 /cookiemonster.mg
@@ -790,6 +792,7 @@
 /onetrust/consent/*
 /onetrustConsent.js
 /onpc-rgpd/*
+/opendotcom-cookie/*
 /opnWidget.js
 /opt-in-select/cookie/*
 /otBannerSdk.js
@@ -884,10 +887,12 @@
 /sni_cookie_privacy/*
 /sp-config.min.js
 /spmsg20180522.js
-/super-cookie/swfobject/*
-/superCookie-min.js
+/streamify-gdpr.
+/super-cookie/*
+/superCookie-
 /SwagCookiePermission/*
 /syncCookie/*
+/syno_cookie_
 /tc_privacy/privacy.
 /tc_privacy/privacy_
 /tcf-cmp-resources/*
@@ -18629,7 +18634,6 @@ _gdpr_cookie_
 ||sourcepoint.thetakeout.com^
 ||storage-mart.com/sm-policy-banner.js
 ||stromnetz-hamburg.de/matomo/js/
-||synology.com/js/syno/syno_cookie_element.js
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|santander.pl|swisscom.ch
 ||umich.edu/apis/umcookieconsent/
 ||vandalism-sounds.com^*/notices.min.js
