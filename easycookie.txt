@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 25z/Rw8Fm0jQHnRwvdh2fg
+! Checksum: j1r43FkjoBGWuSjVXymWrw
 ! Title: Easylist Cookie List
-! Updated: 2023-09-16 07:00 UTC
+! Updated: 2023-09-16 07:30 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
-! Email: easylist@protonmail.com 
+! Email: easylist@protonmail.com
 ! Homepage: https://easylist.to/
 ! Forums: https://forums.lanik.us/
 !
@@ -60,6 +60,7 @@
 .gdpr.js
 .gdpr.min
 .PrivacyDataNotice.
+.uk-cookie-consent-js.js
 /1_cookie.js
 /24cookiebar.js
 /?spu_action=spu_load$xmlhttprequest
@@ -903,8 +904,6 @@
 /toucanCookie.
 /tracking-opt-in.
 /tracking-permission-dialog.js
-/tracking/get?
-/trackingProtection/*
 /trustArcHelper.js
 /trwcookieconsent/*
 /ttgcookieconsent-
@@ -912,9 +911,7 @@
 /TWCCookies/*
 /twcdisclaimer.js
 /uc-cmp/loader.js
-/uecomscore_cmp.
-/uk-cookie-
-/ukcookie.
+/ukcookie.js
 /um-gdpr.min.js
 /unibo-cookies.min.js
 /unitb-cmp.js
