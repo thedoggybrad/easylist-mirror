@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KVO8bMFiLj6iU35/6AyaQg
-! Version: 202309171220
+! Checksum: X4AVV/1Ycoasq9GZpWm0ow
+! Version: 202309171230
 ! Title: EasyList Spanish
-! Last modified: 17 Sep 2023 12:20 UTC
+! Last modified: 17 Sep 2023 12:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1463,6 +1463,7 @@ ciudad.com.ar,elcomercio.com,lmcipolletti.com,lmneuquen.com##.banner-wrapper
 diariodelaribera.net##.bannerColumnas
 eleconomista.es##.bannerInferior
 eleconomista.es##.bannerIntermedio
+clarin.com##.bannerTopHeader
 chilevision.cl##.banner_full
 elperiodicodeaqui.com##.banner_lat
 gasteizhoy.com##.bannerclick
@@ -1794,6 +1795,8 @@ laprensadecolorado.com,periodicoelsolpr.com##img[width="800"]
 c9n.com.py,elcomercio.com,repretel.com##ned-ad
 ! Advanced element hiding rules for Adblock Plus
 as.com#?#.s.s--v:-abp-has(span:-abp-contains(OFRECIDO POR))
+clarin.com#?#.column > div[class] > div[class^="sc-"]:-abp-has(div[class^="sc-"] > div[id^="div-gpt-ad"])
+clarin.com#?#div[class^="sc-"]:-abp-has(> div[id^="div-gpt-ad"])
 cuencanews.es#?#td[class*="id_publi_"]:-abp-has(img[alt="publicidad"])
 elcomercio.pe#?##lateral:-abp-has(span:-abp-contains(Auspiciado por:))
 elespectador.com#?#.Block:-abp-has(.Title_section:-abp-contains(Contenido patrocinado))
