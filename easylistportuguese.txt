@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p4UFc4MhRKKaaoalGkKdoQ
-! Version: 202309171330
+! Checksum: ldZ6w8c8N7X45AelGkF98A
+! Version: 202309171340
 ! Title: EasyList Portuguese
-! Last modified: 17 Sep 2023 13:30 UTC
+! Last modified: 17 Sep 2023 13:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1052,6 +1052,7 @@ mercadolivre.com.br#?#li.ui-search-layout__item:-abp-has(div.ui-search-item__pub
 noticiasaominuto.com#?#.article-thumb-block:-abp-has(.nm-custom-label-sponsor)
 noticiasaominuto.com#?#.article-thumb:-abp-has(.nm-custom-label-sponsor)
 omirante.pt#?#.fbox.swidgets-wrap.widget.widget_block.widget_media_image:-abp-has(figcaption)
+reclameaqui.com.br#?#div[class^="go"] > div[class^="go"]:-abp-has(> div[id^="div-gpt-ad"])
 tavernaderivia.com.br#?#.ig_widget:-abp-has(a[href^="https://amzn.to/"])
 tavernaderivia.com.br#?#.ig_widget:-abp-has(a[href^="https://www.amazon."][href*="tag="])
 !
