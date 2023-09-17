@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uMOsTrbrG+OJEpz8G5Q1GA
-! Version: 202309171930
+! Checksum: j/kS3Fr5Vat4bmkL/bc4OQ
+! Version: 202309171940
 ! Title: RU AdList
-! Last modified: 17 Sep 2023 19:30 UTC
+! Last modified: 17 Sep 2023 19:40 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23018,6 +23018,7 @@ forum.ruboard.ru##:not(my-obnaruzhili-blokirovshchik)
 ||vgtimes.ru/*/|$xmlhttprequest
 ! Liveinternet (ловушка для обфускации)
 /^https?://www\.liveinternet\.ru/(?!utf\/|q\/js\/|js\/|4Ek/JS/diary/main/nav/regoradd.js|autosave.js|cgi-bin/rpls.fcgi?|ckeditor\/|ckfinder\/|main_new_1251.js|share/js/share.js|spell/spell.js|uploader\/|vbcode.js|vbcode_language.js)/$script,domain=www.liveinternet.ru
+||liveinternet.ru/utf/lici.js?
 ||www.liveinternet.ru/community/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 ||www.liveinternet.ru/top/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/main_new_1251.js
 ||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
