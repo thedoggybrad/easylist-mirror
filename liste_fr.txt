@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: j4HaOl6U7u/HetGsj/sgUw
-! Version: 202309182040
+! Checksum: ecB/cA7hKHPBF99sd2NstA
+! Version: 202309182050
 ! Title: Liste FR
-! Last modified: 18 Sep 2023 20:40 UTC
+! Last modified: 18 Sep 2023 20:50 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -21877,12 +21877,13 @@ zataz.com#?#.custom-sidebar:-abp-has(h3:-abp-contains(/Partenaires|Publicité/))
 @@||xcdnpro.com/plugin/epay/$script,domain=cam4.com|cam4.fr
 @@||xcdnpro.com/web/js/$script,domain=cam4.com|cam4.fr
 @@||xcdnpro.com/web/v2/app/js/$script,domain=cam4.com|cam4.fr
-! reCAPTCHA + Google Drive Player + Chrome cast
+! reCAPTCHA + Google Drive Player + Chrome cast + YouTube
 @@||gstatic.com/*/cast_sender.js$script
 @@||gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js$script
 @@||gstatic.com/recaptcha/$subdocument,xmlhttprequest
 @@||recaptcha.net/recaptcha/$image,subdocument,xmlhttprequest
 @@||www.google.com/recaptcha/api2/$subdocument
+@@||youtube.com/iframe_api|$script
 ! Turnstile Captcha
 @@||challenges.cloudflare.com/turnstile/*/api.js?$script
 ! hCaptcha
