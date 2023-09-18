@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qssI2qBhOo/pMLK7JBDckg
-! Version: 202309181740
+! Checksum: EdQ7q11i0RiPtoH7rtTmIw
+! Version: 202309181751
 ! Title: EasyList Dutch
-! Last modified: 18 Sep 2023 17:40 UTC
+! Last modified: 18 Sep 2023 17:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -472,6 +472,7 @@ _advertentieleaderboardhome.
 ##.gesponsord_blokje_wrap
 ##.hoofdAd2
 ##.massarius-dfp-unit
+##a[href^="https://partner.bol.com/click/"]
 ##a[href^="https://xltube.nl/click/"]
 !
 ###advertentieblokjeid
@@ -1085,6 +1086,7 @@ indebuurt.nl##.widget-tabs--partner
 indebuurt.nl##.widget-tabs--partners
 autoblog.nl##.widget_ab_sidebar
 nieuws.nl##.widget_add_widget
+ecobioliving.eu##.widget_custom_html
 mannenstyle.nl##.widget_execphp
 riskcompliance.nl##.widget_itarget_banners
 ajaxreport.nl,feyenoordreport.nl,livestreamvandaag.be,psvreport.nl,voetbalsnafu.nl##.widget_links
