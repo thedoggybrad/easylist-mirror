@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: /zsokBEWgS01QcPRC3A5Hw
-! Version: 202309180802
+! Checksum: f8HlPo2W6f7SiJkEr3H7og
+! Version: 202309180810
 ! Title: ABP filters
-! Last modified: 18 Sep 2023 08:02 UTC
+! Last modified: 18 Sep 2023 08:10 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -1240,6 +1240,7 @@ rsload.net#$#abort-current-inline-script window.addEventListener load
 musify.club#$#abort-on-property-read get_ya_browser
 kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#$#abort-on-property-read google_jobrunner
 cq.ru#$#prevent-listener DOMContentLoaded 'banners'
+||cq.ru^$xmlhttprequest,header=cq-cache-bypassed
 shanson320.ru#$#abort-current-inline-script document.createElement atob
 coderlessons.com,facenews.ua,fixx.one,its-kids.ru,molitvy.guru,nizhny.ru,pro100hobbi.ru,publy.ru,samelectric.ru,svadba.expert,tehnobzor.ru,vibir.ru,100popugaev.ru#$#abort-on-property-read XMLHttpRequest
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
