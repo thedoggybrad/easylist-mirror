@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: UNwGuB7Qm8o9Nir/pWiJNQ
+! Checksum: BoRlORufbQGsxTlxfYzuVw
 ! Title: Easylist Cookie List
-! Updated: 2023-09-18 03:00 UTC
+! Updated: 2023-09-18 03:20 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -51,7 +51,6 @@
 .cookie.policy.
 .cookieconsent.
 .cookiecuttr.
-.cookieinfo2.
 .cookielaw.js
 .cookiepolicy.
 .cookiesdirective.js
@@ -159,7 +158,7 @@
 /consent-management/*
 /consent-manager.
 /consent-modal.js
-/consent-tracking-
+/consent-tracking-api.js
 /consent.min.js?
 /consent/cookie.js
 /consent/manager/*$script
@@ -352,9 +351,10 @@
 /cookiehinweis.
 /CookieInfo.
 /CookieInfo/*$~script
-/cookieInfofr.
-/cookieInformerBooklet_
-/cookiejar/*
+/cookieinfo2.min.js
+/cookieInfofr.js
+/cookiejar.js
+/cookiejar.min.js
 /cookiejs/*
 /cookielab/*
 /cookieLaw-vanilla.js
