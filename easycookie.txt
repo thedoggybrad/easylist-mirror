@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: y6FNZpWnLKRcX2IvRVAB1A
+! Checksum: Jw9HEbTGg3ol3nR8BOb1fA
 ! Title: Easylist Cookie List
-! Updated: 2023-09-18 06:20 UTC
+! Updated: 2023-09-18 07:00 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
-! Email: easylist@protonmail.com 
+! Email: easylist@protonmail.com
 ! Homepage: https://easylist.to/
 ! Forums: https://forums.lanik.us/
 !
@@ -36,8 +36,6 @@
 -cookies-notice/
 -eu-cookie/$script
 -eu-cookies/$script
--gdpr-compliance/
--gdpr-consents/
 -gdpr-cookie-$~script
 -gdpr-min.
 -gdpr-popup.
@@ -79,7 +77,6 @@
 /amundi-consent-disclaimer.js
 /analytics-trackoutbound.js
 /analytics_cookie.js
-/anclytic-ajax.
 /app.dsgvo.min.js
 /approvazione-gdpr/*
 /asesor-cookies-$~image
@@ -624,6 +621,8 @@
 /gdpr_notice.
 /gdpr_optout.
 /gdpr_plugin.
+/gdpr_popup.js
+/gdpr_popup.min.js
 /gdpr_s.
 /gdpr_status.
 /GDPRCard/*
@@ -756,6 +755,7 @@
 /neo-cookie-policy.js
 /newprivacypolicy.js
 /nibirumail.cookie.min.js
+/ninja-gdpr-compliance/assets/home/js/app.js
 /nl-cookie-law.js
 /nsd-cookie-banner.js
 /ob_rgpd/*
@@ -862,6 +862,7 @@
 /sni_cookie_privacy/*
 /sp-config.min.js
 /spmsg20180522.js
+/stm-gdpr-compliance/assets/js/scripts.js
 /super-cookie/swfobject/*
 /superCookie-min.js
 /SwagCookiePermission/*
@@ -890,6 +891,7 @@
 /usecookies.js
 /util/gdpr/*
 /vhs-assets-cookie-
+/vo-gdpr-compliance/Assets/js/front.min.js
 /w034CookieDirective.js
 /w4.cookiebar.js
 /wa_lib.js
@@ -911,6 +913,7 @@
 /wp-content/plugins/zigcookie/*
 /wp-cookie-allow/*$script,stylesheet
 /wp-gdpr-compliance/*
+/wp-gdpr-compliance/assets/js/front.min.js
 /wp-tarteaucitron-
 /wpjslib-ecom.js
 /wpjslib-sgap.js
