@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309180148
+! Version: 202309180320
 ! Title: Fanboy's Annoyance List
-! Last modified: 18 Sep 2023 01:48 UTC
+! Last modified: 18 Sep 2023 03:20 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1427,7 +1427,6 @@ _twitter_follow.
 .cookie.policy.
 .cookieconsent.
 .cookiecuttr.
-.cookieinfo2.
 .cookielaw.js
 .cookiepolicy.
 .cookiesdirective.js
@@ -1535,7 +1534,7 @@ _twitter_follow.
 /consent-management/*
 /consent-manager.
 /consent-modal.js
-/consent-tracking-
+/consent-tracking-api.js
 /consent.min.js?
 /consent/cookie.js
 /consent/manager/*$script
@@ -1728,9 +1727,10 @@ _twitter_follow.
 /cookiehinweis.
 /CookieInfo.
 /CookieInfo/*$~script
-/cookieInfofr.
-/cookieInformerBooklet_
-/cookiejar/*
+/cookieinfo2.min.js
+/cookieInfofr.js
+/cookiejar.js
+/cookiejar.min.js
 /cookiejs/*
 /cookielab/*
 /cookieLaw-vanilla.js
