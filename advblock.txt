@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mL1CGCM95uVkEZYnoAT9jg
-! Version: 202309191030
+! Checksum: kNV5pgHEUqMsO5+FfeK9lA
+! Version: 202309191040
 ! Title: RU AdList
-! Last modified: 19 Sep 2023 10:30 UTC
+! Last modified: 19 Sep 2023 10:40 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24048,6 +24048,7 @@ sports.ru#?#[class]:-abp-has(> .aside-news-list__advert:-abp-contains(Рекла
 sports.ru##[data-banner-id]
 sports.ru##[data-content-name="banner-dfp"]
 sports.ru##[data-control*="Videonow"]
+sports.ru##[data-control="adblock"]
 sports.ru##[data-control^="Aliens."]
 sports.ru##[data-control^="Banners."]
 sports.ru##[data-is-ad-poll] .bookmaker-info
@@ -25938,8 +25939,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
