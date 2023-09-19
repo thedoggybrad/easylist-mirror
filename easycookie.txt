@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: c8ovioBCR81wGStuqcX3GQ
+! Checksum: Ik0sg/r8/dt23Yev5NyIxg
 ! Title: Easylist Cookie List
-! Updated: 2023-09-19 01:30 UTC
+! Updated: 2023-09-19 01:45 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -99,11 +99,12 @@
 /banner_cookie.js
 /barreCookie/*
 /bb-cookies.js
-/bc-cookie-consent/*
+/bc-cookie-consent/assets/js/klaro-config.js
+/bc-cookie-consent/assets/js/klaro.js
 /becookiebar.js
 /bgmp-gdpr.js
-/bica-cookie-alert/*
-/bluelabs-gdpr/*
+/bica-cookie-alert/js/bica.min.js
+/bluelabs-gdpr.js
 /borlabs-cookie-prioritize.min.js
 /borlabs-cookie.min.js
 /borlabs-cookie/vendor-list.json
@@ -120,7 +121,6 @@
 /ccpa/prod/*
 /cdcookie/*
 /checkCookieConsent/*
-/cipr-cookie-opt-out/*
 /cm-body.js
 /cmp-init.js
 /cmp-loader.js
