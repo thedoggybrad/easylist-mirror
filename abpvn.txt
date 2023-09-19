@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: TSMqUqmij3ASLSKtFLUKRw
-! Version: 202309190150
+! Checksum: VbShuYl7h4GT3NaVQotmzg
+! Version: 202309190202
 ! Title: ABPVN List
-! Last modified: 19 Sep 2023 01:50 UTC
+! Last modified: 19 Sep 2023 02:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 19 Sep 2023 08:05:57 UTC+7
+! Last modified: 19 Sep 2023 08:59:53 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -40,7 +40,8 @@
 /core/*$script,domain=gamek.vn|genk.vn|kenh14.vn|cafef.vn
 /disable-devtool.min.js$script
 /giadinhonline.vn/files/qc/
-/i.imgur.com/*.gif$image,domain=tvzinghd.com|xoilac82.tv|keonhacai5.me|bongdainfoz.com|90phutv.tv|veboz.live|cakhiav.tv|plvb.xyz|mitomv.tv|motchillz.org|xemphimchill.net|xoilaczz.tv
+/i.imgur.com/$domain=xemphimchill.net
+/i.imgur.com/*.gif$image,domain=tvzinghd.com|xoilac82.tv|keonhacai5.me|bongdainfoz.com|90phutv.tv|veboz.live|cakhiav.tv|plvb.xyz|mitomv.tv|motchillz.org|xoilaczz.tv
 /mmo/*$xmlhttprequest,image,domain=phimnhanh2.com|phimmoi2.com|mephimnhat2.com|vuighe2.com|mehoathinh3.com
 /newchill/*gif$image
 /polyad.
@@ -685,7 +686,7 @@ dubaotiente.com##.ad-pin-right-bottom
 ebookbkmt.com##.top-right
 ecci.com.vn##.widget_media_image.widget
 ephoto360.com##.line-ads
-ephoto360.com,fimfast2.com,8phimmoi.net,thiepmung.com,mephimgi.net,phimmoiv2.com,motchillz.org,ophim.vip##.ad-container
+ephoto360.com,fimfast2.com,8phimmoi.net,thiepmung.com,mephimgi.net,phimmoiv2.com,motchillz.org,ophim.vip,xemphimchill.net##.ad-container
 eva.vn##.banr-Rt
 eva.vn##.banrpstn
 film365.in###ballon-right
@@ -918,8 +919,8 @@ phimbathu.one###catfish_content
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com###mobile_content_bottom
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com##.BanerTop100
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com##.adv-300-right
-phimdinhcao.net,phimlongtieng.net,phimdinhcao.com##.popUpBannerBox
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com,tenovi.net,truyentuan.com##.adpia_banner
+phimdinhcao.net,phimlongtieng.net,phimdinhcao.com,xemphimchill.net##.popUpBannerBox
 phimgigi.net###headwrap>.computer
 phimgigi.net###headwrap>.mobile
 phimgigi.net##.pc-catfix
