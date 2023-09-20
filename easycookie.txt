@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: hiuQFVmpgViIobvGEQk49A
+! Checksum: Zbntow+wTLVyesmtdsJ4fg
 ! Title: Easylist Cookie List
-! Updated: 2023-09-20 21:45 UTC
+! Updated: 2023-09-20 21:00 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -21,14 +21,23 @@
 -cookie-consent/$~script,domain=~django-cookie-consent.readthedocs.io
 -cookie-dialog.
 -cookie-filter/$script
+-cookie-form.lib.
 -cookie-law-popup.
+-cookie-manager?
+-cookie-message.js
 -cookie-notice-
 -cookie-notice.
+-cookie-notice/
 -cookie-policy.
 -cookie-popup.
+-CookieInfo.
+-cookiePolicy.
+-cookies-notice/
 -eu-cookie/$script
 -eu-cookies/$script
 -gdpr-cookie-$~script
+-gdpr-min.
+-gdpr-popup.
 -rodo.min.js
 .cookie-law.$script
 .cookielaw.js
@@ -367,23 +376,19 @@
 /cookienotice.
 /cookienotice/*$script
 /cookienotice/Js/*
-/cookienotif.js
-/cookieNotification.js
-/cookieNotification.min.js
+/cookienotif.
+/cookieNotification.
 /CookieNotification/*
-/CookieNotifier.js
-/CookieNotifier.min.js
+/CookieNotifier.
 /cookienotify-
 /cookieNSCconsent.
 /cookieok.js
 /cookieopt-min.js
-/cookieOverlay.js
-/cookieparty.config.php
-/cookieparty.min.js
+/cookieOverlay.
+/cookieparty.
 /cookieplugin/cookie.
 /cookiepolicy-
-/cookiepolicy.js
-/cookiepolicy.min.js
+/cookiepolicy.
 /cookiepolicy/*
 /cookiepolicy_
 /CookiePolicyAlert_
