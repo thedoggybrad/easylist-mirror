@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /OeJ0ESb7vlYRXMfSbza1Q
-! Version: 202309201840
+! Checksum: xg1pFOl/cSol6RLoKRhcAg
+! Version: 202309201850
 ! Title: EasyList Spanish
-! Last modified: 20 Sep 2023 18:40 UTC
+! Last modified: 20 Sep 2023 18:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1814,6 +1814,7 @@ mil21.es#?#td[class*="id_publi_"]:-abp-has(a[href^="https://www.amazon.es/"])
 olympusscans.com#?#.md\:col-span-2.w-full.h-60.flex-center.bg-gray-700.rounded-xl.relative:-abp-has(.empower-ad)
 photocall.tv#?#.dropdown:-abp-has(label:-abp-contains(VPN))
 portafolio.co#?#.sumario.secondary-article.play-inline:-abp-has(.contenido-patrocinado)
+semana.com#?#.section:-abp-has(.section-subtitle:-abp-contains(Contenido en colaboración))
 theobjective.com#?#.tno-article-block:-abp-has(span:-abp-contains(Branded content))
 yorokobu.es#?#.quicklink_w100:-abp-has(.publi-tag:-abp-contains(AD))
 !
