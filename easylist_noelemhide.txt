@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wRyfNS3+WKNMD/CafNVoWg
-! Version: 202309201001
+! Checksum: EbVVhnKkQ0l7oMY91l2Exg
+! Version: 202309201010
 ! Title: EasyList without element hiding rules
-! Last modified: 20 Sep 2023 10:01 UTC
+! Last modified: 20 Sep 2023 10:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41069,6 +41069,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.kbmax.com^$domain=adspipe.com
+@@||ads.pubmatic.com/adserver/js/$script,domain=zeebiz.com
 @@||ads.pubmatic.com/AdServer/js/pwtSync/$subdocument,domain=independent.co.uk
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
@@ -41303,6 +41304,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||yaytrade.com^*/chunks/pages/advert/$~third-party
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
 @@||z.moatads.com^$script,domain=standard.co.uk
+@@||zeebiz.com/ads/$image,~third-party
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
 ! Webcompat fixes (Avoid any potential filters being applied to non-ad domains)
 @@||challenges.cloudflare.com/turnstile/$script
