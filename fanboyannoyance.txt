@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309202120
+! Version: 202309202147
 ! Title: Fanboy's Annoyance List
-! Last modified: 20 Sep 2023 21:20 UTC
+! Last modified: 20 Sep 2023 21:47 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1397,23 +1397,14 @@ _twitter_follow.
 -cookie-consent/$~script,domain=~django-cookie-consent.readthedocs.io
 -cookie-dialog.
 -cookie-filter/$script
--cookie-form.lib.
 -cookie-law-popup.
--cookie-manager?
--cookie-message.js
 -cookie-notice-
 -cookie-notice.
--cookie-notice/
 -cookie-policy.
 -cookie-popup.
--CookieInfo.
--cookiePolicy.
--cookies-notice/
 -eu-cookie/$script
 -eu-cookies/$script
 -gdpr-cookie-$~script
--gdpr-min.
--gdpr-popup.
 -rodo.min.js
 .cookie-law.$script
 .cookielaw.js
@@ -1752,19 +1743,23 @@ _twitter_follow.
 /cookienotice.
 /cookienotice/*$script
 /cookienotice/Js/*
-/cookienotif.
-/cookieNotification.
+/cookienotif.js
+/cookieNotification.js
+/cookieNotification.min.js
 /CookieNotification/*
-/CookieNotifier.
+/CookieNotifier.js
+/CookieNotifier.min.js
 /cookienotify-
 /cookieNSCconsent.
 /cookieok.js
 /cookieopt-min.js
-/cookieOverlay.
-/cookieparty.
+/cookieOverlay.js
+/cookieparty.config.php
+/cookieparty.min.js
 /cookieplugin/cookie.
 /cookiepolicy-
-/cookiepolicy.
+/cookiepolicy.js
+/cookiepolicy.min.js
 /cookiepolicy/*
 /cookiepolicy_
 /CookiePolicyAlert_
@@ -2036,6 +2031,7 @@ _twitter_follow.
 /hi-cookie-
 /homepage-cookie-
 /hot-lgpd/*
+/hp-cookie-message.js
 /ht_cookielaw.js
 /hw-cookie-consent/*
 /i_CookieConsent.js
@@ -2146,6 +2142,7 @@ _twitter_follow.
 /ninja-gdpr-compliance/assets/home/js/app.js
 /nl-cookie-law.js
 /nsd-cookie-banner.js
+/nt-cookie-form.full.min.js
 /oil.*-RELEASE.min.js
 /oil/*-RELEASE.chunk.js
 /oiljs/*-RELEASE.min.js
@@ -2227,6 +2224,7 @@ _twitter_follow.
 /roularta-gdpr.js
 /rtiCookieLaw.js
 /s4s-privacy-module/*$script
+/sc-gdpr-popup.js
 /script_cookie.js
 /script_cookies.js
 /scripts/cookiebar/*
@@ -41116,6 +41114,7 @@ onthehub.com##.containerDefaultClass
 iconscout.com##.container_hP6iH
 uxcel.com##.cookie-banner-wrap
 surferseo.com##.cookie-banner_component
+markit.eu##.cookie-bar-m
 ninerocksgames.com##.cookie-bar_overlay__0y49X
 navigare-yachting.com##.cookie-box-popup
 allyouplay.com##.cookie-card_container
