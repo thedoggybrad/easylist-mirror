@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202309201228
+! Version: 202309201046
 ! Title: EasyPrivacy
-! Last modified: 20 Sep 2023 12:28 UTC
+! Last modified: 20 Sep 2023 10:46 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -417,12 +417,16 @@
 /api/ipv4check?
 /api/log-visit
 /api/log?
+/api/lt/ref?
+/api/metrics$other
 /api/pageactivity
 /api/pageview?
 /api/pagevisits
 /api/ping?$~xmlhttprequest
 /api/pixel?
 /api/stat?
+/api/statz
+/api/tracing?
 /api/track?guid
 /api/trk?
 /api/v1/firehose?_
@@ -434,8 +438,9 @@
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
-/api_ip_info.php
+/api_ip_info.
 /apilog?
+/apixel?
 /app-measurement?
 /appdynamics/adrum-
 /appGoogleTagManager-
@@ -448,19 +453,25 @@
 /aptrk.js
 /ard.png?
 /aria-web-telemetry-
+/arstat?
 /art/stats/*
+/article-tracking.js
 /article/count?
 /Article/ViewCount/*
 /article_counter.php?
 /article_hit.php?
-/articleOmnitureTracking.js
+/ArticleCounterLogger.
+/articleOmnitureTracking.
+/ArticleViewTracking/*
 /ASPixel.js
 /assets-cdonAnalytics.js
 /assets/beacons.js
 /assets/smarttag-$script
 /astrack.js
-/astracker.js
-/astracker/ast.php
+/astracker.
+/astracker/*
+/asyncggtracking.
+/async~sentry-
 /at-composer.js
 /at.gif?
 /atapixel.js
@@ -469,28 +480,39 @@
 /atrk.gif?
 /atrk.js
 /audience-extraction.js
+/audience-meter.
+/audience-science.
 /audience.gif?
 /audience.min.js
-/audienceScience.js
+/audience_science-
+/audience_science.
+/audience_science_
+/audienceScience.
 /autotrack.carbon.js
 /autotrack.custom.js
 /autotrack.custom.min.js
 /autotrack.js
 /autotrack.min.js
 /AutoTracker.js
+/avtstats.
+/aw-tracker.
+/awAnalytics.
 /awin?awc=$image
 /awp.log
 /awpys.log
+/aws-analytics.js
 /awstats.js
 /awstats_misc_tracker
 /azion-pulse.js
-/aztracker.js
+/aztrack.
+/aztracker.
 /b.banners.impress.
 /b.gif?
 /b/s/beacon
 /b/ss/*&aqe=
 /b/ss/*&events=
 /b/ss/*&ndh=
+/b/ss/*&pagename=
 /b/ss/*/JS-
 /b/ss?AQB=
 /b/stats?
@@ -499,14 +521,22 @@
 /banalytics.js
 /base/es5/bundle.js
 /base/es6/bundle.js
+/basesdc.js
+/basicMetricsTracking.
 /batch.gif?
 /batch/action/_:
-/baynote.js
-/bb-analytics-inline.min.js
+/baynote-$script
+/baynote.
+/baynote/*
+/baynote_
+/bb-analytics-
+/bc-track.
 /bc/clk?
 /bcn.gif?
 /bcsensor.js
+/bctrackers/*
 /bdg.gif?
+/beacon-cookie.
 /beacon.cgi?
 /beacon.gif?
 /beacon.js
