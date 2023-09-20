@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CJGvSkypu4D9Pj4Qd+9CYg
-! Version: 202309200920
+! Checksum: MeTSTYngYtsZVRzPoOLTqg
+! Version: 202309200931
 ! Title: RU AdList
-! Last modified: 20 Sep 2023 09:20 UTC
+! Last modified: 20 Sep 2023 09:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23934,6 +23934,7 @@ autonews.ru##.g-banner__columns
 rbc.ru,sportrbc.ru##.g-banner__news-footer > div[class="js-rbcslider-multi-news"]
 pro.rbc.ru##.header__partner
 sportrbc.ru##.js-header-online-container
+rbc.ru#?#.js-index-central-column > .js-index-doscroll:-abp-has([data-pixels-on-show*="adfox"])
 rbc.ru#?#.js-index-central-column > .js-index-doscroll:-abp-has([href*="://clck.ru/"])
 cash.rbc.ru##.js-one-office.premium
 rbc.ru##.js-video-player-ad-skip
