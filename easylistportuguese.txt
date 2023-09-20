@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OQ0+jhiMYlscHgOGIRji9Q
-! Version: 202309201601
+! Checksum: 7JEeCnnAN7Pw/rzYKW5bCA
+! Version: 202309201610
 ! Title: EasyList Portuguese
-! Last modified: 20 Sep 2023 16:01 UTC
+! Last modified: 20 Sep 2023 16:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -665,6 +665,7 @@ acheisudoeste.com.br###bannerflutuante
 vidadesuporte.com.br###block-10
 br.lexlatin.com###block-banneranimado
 br.lexlatin.com###block-views-block-banner-block-1
+oantagonista.com.br###container-publicity
 dramaclub.one###custom_html-2
 ahnegao.com.br,euriodetudo.com.br###custom_html-3
 euriodetudo.com.br###custom_html-5
@@ -675,7 +676,6 @@ tudoradio.com###fixedBannerTop
 ahnegao.com.br###global_topo
 dicio.com.br###gooad_palavra
 crusoe.com.br###gpt-leaderboard
-oantagonista.uol.com.br###gpt_box_sidebar
 meutimao.com.br###header_logo_barra
 ojogos.com.br###homepage-top-leaderboard
 dnoticias.pt###interstitial_pub
@@ -935,7 +935,7 @@ acordacidade.com.br##.publi-5
 brasilescola.uol.com.br##.publi-dir
 tempo.pt##.publicidad-pie
 ig.com.br,meiahora.com.br##.publicidade
-infojobs.com.br,oantagonista.uol.com.br##.publicity
+infojobs.com.br##.publicity
 publico.pt##.pubtxt
 superesportes.com.br##.retangulo
 noticiasaominuto.com##.rich-media
@@ -1061,6 +1061,7 @@ mercadolivre.com.br#?#.ui-recommendations-carousel-wrapper-ref:-abp-has(a[rel="n
 mercadolivre.com.br#?#li.ui-search-layout__item:-abp-has(div.ui-search-item__pub-container)
 noticiasaominuto.com#?#.article-thumb-block:-abp-has(.nm-custom-label-sponsor)
 noticiasaominuto.com#?#.article-thumb:-abp-has(.nm-custom-label-sponsor)
+oantagonista.com.br#?##cardfullblock.card.card-full.card-oa:-abp-has(.card-category:-abp-contains(Patrocinado))
 omirante.pt#?#.fbox.swidgets-wrap.widget.widget_block.widget_media_image:-abp-has(figcaption)
 reclameaqui.com.br#?#div[class*="h-[240px]"]:-abp-has(div[role="banner"])
 reclameaqui.com.br#?#div[class^="go"] > div[class^="go"]:-abp-has(> div[id^="div-gpt-ad"])
