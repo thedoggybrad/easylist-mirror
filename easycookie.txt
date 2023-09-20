@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: OMd3umTpTVNLbzuItLG8Iw
+! Checksum: X0Kuorp3le3sG3mio1ujtw
 ! Title: Easylist Cookie List
-! Updated: 2023-09-19 23:30 UTC
+! Updated: 2023-09-20 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -173,6 +173,7 @@
 /cookie-cnil/*
 /cookie-compliance.
 /cookie-consent-dialog.js
+/cookie-consent-dialogue.js
 /cookie-consent.js
 /cookie-consent.min.js
 /cookie-consent/*
@@ -498,6 +499,7 @@
 /didomi/ui-gdpr-fr.
 /disagreeCookie.
 /dist/cookie-consent.
+/dist/cookie-disclaimer-
 /dist/gdpr-$domain=~express.co.uk
 /divascookies_
 /diyscmp.min.js
@@ -823,6 +825,7 @@
 /rdm-daac-notice-public.js
 /real-cookie-banner/*
 /redandblue-cookies/*
+/retargetting/js/setcookie.js
 /rg-gdpr.js
 /rgpd.js
 /rgpd/discreto.min.js
@@ -9053,6 +9056,7 @@
 ###webwerk-cookies
 ###wehavecookies
 ###welcomebar-wrapper
+###welcomebar-wrapper-gdpr
 ###weusecookies
 ###wfPrivacyNotice
 ###wf_cookie_notice_wrapper
@@ -13485,6 +13489,7 @@
 ##.dCookiesAlert
 ##.d_co_box
 ##.daac-desktop-notice
+##.dagCookieDisclaimer
 ##.dah-consent-manager-overlay
 ##.dark.gdpr-settings
 ##.das-cookie
@@ -21339,7 +21344,7 @@ bka.de,cieplodlakrakowa.pl,compitoinclasse.org,kancelariamzm.pl,kpr.pl,libro.caf
 !! .privacy
 bodohavn.no,brieffreund-gesucht.de,directours.com,edzl.lv,emezeta.com,homey.com.tr,hstock.org,inforoom.com.ua,naegele.it,one.ua,rbc.ua,vikingtemizlik.com.tr##.privacy
 !! .privacy-policy
-alfred.com,amino.dk,gigaom.com,gq.com.au,hesapkurdu.com,hvylya.net,hyser.com.ua,hyser.ua,mta.tv,paymaster.ru,politeka.net,tupras.com.tr,ukrainci.com.ua,ukrainianwall.com,vocativ.com,znaj.ua,zumba.com##.privacy-policy
+alfred.com,amino.dk,gigaom.com,gq.com.au,henrilloyd.com,hesapkurdu.com,hvylya.net,hyser.com.ua,hyser.ua,mta.tv,paymaster.ru,politeka.net,tupras.com.tr,ukrainci.com.ua,ukrainianwall.com,vocativ.com,znaj.ua,zumba.com##.privacy-policy
 !! #privacy-policy
 104.ua,bostools.nl,iprbookshop.ru,wccaviation.com###privacy-policy
 !! cdk-overlay-container
