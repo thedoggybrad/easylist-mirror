@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7mNWBoHofO3sTPu/AYAZ3A
-! Version: 202309221550
+! Checksum: yhMCgn6oU79oYkXxF40F5A
+! Version: 202309221602
 ! Title: IndianList
-! Last modified: 22 Sep 2023 15:50 UTC
+! Last modified: 22 Sep 2023 16:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -710,6 +710,7 @@ _advt.jpg|
 @@||bangla.newsnextbd.com/wp-content/themes/News_SKLTECH/images/ads/Dhaka_Fisheries_Ad.jpg
 @@||bbarta24.net/templates/bbarta/images/main-logo.png
 @@||bdjahan.com^*/2020/01/add.jpg
+@@||blogger.googleusercontent.com/img/a/
 @@||blogger.googleusercontent.com/img/a/$domain=samacharkaka.in|sportsgaliyara.com|spyviewnews.in
 @@||bonikbarta.net^*/970x90-3-acc.gif
 @@||crimecapital.in/static/ad/*/colombia_v11.js
@@ -1368,6 +1369,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||blogspot.com^*/Mohammad%2BHassan%2BPG%2BCollege%2BJaunpur.jpg
 ||blogspot.com^*/Mount%2BLitera%2BZee%2BSchool%2BJaunpur%2B%25281%2529.jpg
 ||blogspot.com^*/output_lankann.gif$domain=pungudutivu.info
+||blogspot.com^*/panditji-samrat-perfumery.jpeg
 ||blogspot.com^*/poster.jpg
 ||blogspot.com^*/Prashashya%2BJems.jpg
 ||blogspot.com^*/Priti%2BGupta.jpg
@@ -4946,7 +4948,7 @@ gramsamachar.com###HTML29
 36kaakda.in,battinews.com,cnblive.com,insightchhattisgarh.in,kanaighatnews.com,kushiyaranews.com,thattungal.com,ukliveuttrakhand.com###HTML3
 gramsamachar.com,jaldhakanews.com,vbnews24.com###HTML30
 99samacharexpress.in,khabreaajtaklive.com,yerahajawab.in###HTML33
-36kaakda.in,99samacharexpress.in,battirepnews.com,chilahatiweb.com,cnblive.com,eluvannews.com,kanaighatnews.com,kolhapurlive.in,malwalive.com,media24media.com,mithimedia.in,nbcbangla.com###HTML4
+36kaakda.in,99samacharexpress.in,battirepnews.com,chilahatiweb.com,cnblive.com,eluvannews.com,kanaighatnews.com,kolhapurlive.in,malwalive.com,media24media.com,nbcbangla.com###HTML4
 tamilarul.net###HTML42
 36kaakda.in,99samacharexpress.in,abtakapakesath.com,battinews.com,chapainawabganjnews.com,eelanesan.com,malabarflash.com,media24media.com,nobojagorontv.com,tapnewsindia.com,topbharat.in,visarnews.com###HTML5
 gossip99.com,media24media.com,rashtrasamarpan.com,taazakhoj.com,topbharat.in###HTML6
@@ -6098,7 +6100,7 @@ jananesan.com##.advertisement_bar
 sangbadmail24.com##.advertisement_left_column
 sangbadmail24.com##.advertisement_right_column
 bdipo.com##.advertisements
-anugrahavision.com,cricketkhabara.com,keralavoter.com,upuklive.com,uttarakhandpost.com##.advertismentRow
+anugrahavision.com,cricketkhabara.com,keralavoter.com,newstm.in,upuklive.com,uttarakhandpost.com##.advertismentRow
 divaina.com##.advertisments
 sangbadprotidin.com##.advrts
 dainiksylhet.com##.advsingle
@@ -8700,6 +8702,7 @@ newscreation.in#?#.sppb-addon:-abp-has(.bannergroup)
 newsdesk24.com#?#.sidebar .widget_media_image:-abp-has(> :not(div))
 newsmoments.in#?#div[id^="AS_O_LHS_"] > div:-abp-has(> div > div > a > div > p:-abp-contains(Ad |))
 newspoint24.com#?#div[id^="AS_O_"] > div:-abp-has(> div > div > span[name="adchoicehtml"])
+newstm.in#?#div[id^="AS_O_"] div:-abp-has(> div > a> div h5:-abp-contains(Ad |) )
 newstodaynetwork.com#?#div[id^="AS_O_LHS"] > div:-abp-has(> div > div > a > h4:-abp-contains(Ad: ))
 newstodaynetwork.com#?#div[id^="AS_O_RHS"] > div:-abp-has(> div > div > div > p)
 nobat.com#?#div:-abp-has(> small:-abp-contains(Advertisement))
