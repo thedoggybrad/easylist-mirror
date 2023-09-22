@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202309222331
+! Version: 202309222344
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Sep 2023 23:31 UTC
+! Last modified: 22 Sep 2023 23:44 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1574,14 +1574,14 @@ _twitter_follow.
 /cookie-policy.min.js
 /cookie-policy/*
 /Cookie-popup-
-/cookie-popup.
+/cookie-popup.js
 /cookie-popup?
 /cookie-privacy-
 /cookie-prompt.js
 /cookie-richtlinie.js
 /cookie-service/*
 /cookie-terms.js
-/cookie-though/*
+/cookie-though.js
 /cookie-warning.js
 /cookie-widget/*
 /cookie.*/cm/*
@@ -35547,6 +35547,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||truendo.com^$third-party
 ||truyoproductionuscdn.truyo.com^
 ||uniconsent.mgr.consensu.org^*.cmp.js$third-party
+||unpkg.com/cookie-though
 ||usercentrics.eu^$third-party
 ||volksbund-cookie.de^$third-party
 ||webcache-eu.datareporter.eu^
@@ -35670,6 +35671,7 @@ dashboard.razorpay.com#@##credential_picker_container
 /wp-content/blog-plugins/wordads-classes/js/notice.bundle.js$script
 ||7plus.com.au/js/CookieNotice
 ||agicssecurity.com/Header/ajax/cookie.php
+||arfeconsultors.com/static/js/vendor/cookies-text-ca.js
 ||asus.com/js/*/alert-info.js
 ||banner.cookiescan.com^
 ||beckett.design/system/scripts/apc/apc.js
