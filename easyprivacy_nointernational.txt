@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: EU1jSsGNCUTmoA3MPLmXSQ
-! Version: 202309231110
+! Checksum: /AbZI+j9A51wW/mdq/ayzg
+! Version: 202309231120
 ! Title: EasyPrivacy without international filters
-! Last modified: 23 Sep 2023 11:10 UTC
+! Last modified: 23 Sep 2023 11:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -990,8 +990,10 @@
 /facebook_fbevents.js
 /facebook_pixel_3_1_2.js
 /facebookpixel.js
+/facebookproductad/views/js/pixel.
 /faciliti-tag.min.js
-/fb-pixel-scripts?
+/fairfax_tracking.js
+/fb-pixel-$script
 /fb-tracking.js
 /fb_pixel_page_view
 /fbanalytics.js
@@ -10237,6 +10239,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||session.timecommerce.net^
 ||sexhd.pics/x/x.js
 ||sezzle.com/v1/event/log
+||sfstatic.net/build/js/basicMetricsTracking.
 ||sftrack.searchforce.net^
 ||sgali-mcs.byteoversea.com^
 ||share-online.biz/affiliate/$third-party
