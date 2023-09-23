@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202309231031
+! Version: 202309231115
 ! Title: EasyPrivacy
-! Last modified: 23 Sep 2023 10:31 UTC
+! Last modified: 23 Sep 2023 11:15 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -993,8 +993,10 @@
 /facebook_fbevents.js
 /facebook_pixel_3_1_2.js
 /facebookpixel.js
+/facebookproductad/views/js/pixel.
 /faciliti-tag.min.js
-/fb-pixel-scripts?
+/fairfax_tracking.js
+/fb-pixel-$script
 /fb-tracking.js
 /fb_pixel_page_view
 /fbanalytics.js
@@ -11230,6 +11232,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||session.timecommerce.net^
 ||sexhd.pics/x/x.js
 ||sezzle.com/v1/event/log
+||sfstatic.net/build/js/basicMetricsTracking.
 ||sftrack.searchforce.net^
 ||sgali-mcs.byteoversea.com^
 ||share-online.biz/affiliate/$third-party
