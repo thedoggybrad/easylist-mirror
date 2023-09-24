@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3EIDkL2RpJn4Q/jUHGFiJA
-! Version: 202309242002
+! Checksum: aDoTRGAkQaWZpn7F2g7XEA
+! Version: 202309242010
 ! Title: RU AdList
-! Last modified: 24 Sep 2023 20:02 UTC
+! Last modified: 24 Sep 2023 20:10 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23372,10 +23372,7 @@ my.mail.ru##.ui-simple-block[class*="promo"]
 my.mail.ru##.ui-simple-block[class*="reklama"]
 my.mail.ru##[data-view^="SlotView.mimic"]
 my.mail.ru##div[class*="directhack"]
-my.mail.ru#?#div[class]:-abp-has(> * > * > * > [href*="an.yandex.ru"])
-my.mail.ru#?#div[class]:-abp-has(> * > * > [href*="an.yandex.ru"])
-my.mail.ru#?#div[class]:-abp-has(> * > [href*="an.yandex.ru"])
-my.mail.ru#?#div[class]:-abp-has(> [href*="an.yandex.ru"])
+my.mail.ru##div[class^="l-music__banner"]
 my.mail.ru##div[data-adq-id^="adqcontainer"]
 my.mail.ru##div[data-module^="Slot.Mimic"]
 ! Новости
@@ -25938,8 +25935,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
