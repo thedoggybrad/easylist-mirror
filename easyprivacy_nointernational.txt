@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JsbMtciRyNEtGOvuww5YNQ
-! Version: 202309242230
+! Checksum: hMTxj+WspcrNuYN8pSm7tA
+! Version: 202309242240
 ! Title: EasyPrivacy without international filters
-! Last modified: 24 Sep 2023 22:30 UTC
+! Last modified: 24 Sep 2023 22:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -312,6 +312,7 @@
 /analytics.*/ping/?
 /analytics.*/track
 /analytics.ad.
+/analytics.analytics/*
 /analytics.bundled.js
 /analytics.collect.
 /analytics.config.js
@@ -1268,6 +1269,7 @@
 /host-analyticsjs-local/*
 /hs_track.
 /hsc/trk/*
+/hubspot-ga-tracking.js
 /i.gif?
 /i.php?i=
 /i.png?id=
