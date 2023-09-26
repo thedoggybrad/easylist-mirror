@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lApRQ2eSih2ZPZdcAnOnKg
-! Version: 202309261402
+! Checksum: 3ApDs5V5sZ3+wGy0isoi/g
+! Version: 202309261411
 ! Title: RU AdList
-! Last modified: 26 Sep 2023 14:02 UTC
+! Last modified: 26 Sep 2023 14:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14562,6 +14562,7 @@ kovi.ru##.is-style-warning
 ura.news##.is_momenty
 story.neskromnie.ru##.iseeyou
 landlord.ua##.isfixed
+dev.ua#?#.island:-abp-has(> .adsbygoogle)
 dev.ua##.island[style^="padding: 2rem 0;"]
 business.ua##.islands--recommended
 carambatv.ru##.item-adv
