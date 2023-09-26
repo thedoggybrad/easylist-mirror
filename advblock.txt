@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bH9+hQ8YUmfDeLDutPkFsg
-! Version: 202309261002
+! Checksum: ZdHIrMufkuit39RqxE9YKA
+! Version: 202309261010
 ! Title: RU AdList
-! Last modified: 26 Sep 2023 10:02 UTC
+! Last modified: 26 Sep 2023 10:10 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12973,7 +12973,7 @@ muzland.es,muzland.info,muzland.ru##.agbordfull
 3mv.ru##.agregator_R
 synthira.ru##.ahuelguardd
 znaj.ua##.ai-placement
-cripo.com.ua,cursorinfo.co.il,gameout.ru,hyperione.com,mod-land.ru##.ai_widget
+cripo.com.ua,gameout.ru,hyperione.com,mod-land.ru##.ai_widget
 post-tracker.ru##.aimage
 p-p.com.ua##.ainfo-block[class*="b-"]
 drive.ru##.aio_banner
@@ -16752,7 +16752,6 @@ banki.ru##[data-adfox-container]
 vse42.ru##[data-adplace-inited]
 18000.com.ua##[data-ads]
 teknoblog.ru##[data-advadstrackid]
-cursorinfo.co.il##[data-ai]
 bryansknovosti.ru,novozybkov.su#?#[data-alias="Copyright"] .widget-area > .widget_text:not(:last-child):-abp-has(script)
 dtf.ru,vc.ru##[data-analytics*="native"]
 livejournal.com##[data-autoplay-dockable-video-mount]
@@ -18572,6 +18571,7 @@ ex-press.by##div[data-class-name="ads_engine"]
 kufar.by##div[data-container-id]
 gitarist05.jimdo.com##div[data-container="sidebar"] div[class*="j-imageSubtitle"]
 gitarist05.jimdo.com##div[data-container="sidebar"] div[class*="j-text"]
+cursorinfo.co.il##div[data-dest="placeholder"]
 oka.fm##div[data-element-id]
 tut.by##div[data-io-title="Новости компаний"]
 kinoafisha.info##div[data-modules="banner"]
@@ -23433,8 +23433,6 @@ pogoda.mail.ru##.js-popup_gallery .viewbox__side
 pogoda.mail.ru##.mailru-visibility-check
 pogoda.mail.ru##.mediaVertical
 pogoda.mail.ru##.p-directhack
-@@||r.mradx.net/img/7F/ACA6E4.jpg|$domain=pogoda.mail.ru
-@@||r.mradx.net/img/8A/57742B.jpg|$domain=pogoda.mail.ru
 pogoda.mail.ru##[data-view^="SlotView.mimic"]
 pogoda.mail.ru##div[article-item-type="conversionlink"]
 pogoda.mail.ru##div[class*="directhack"]
@@ -23562,7 +23560,6 @@ maps.mail.ru##img[width="200"][height="30"]
 ||pets.mail.ru/my/pets/add
 ||r.mail.ru/*=videoplayer$popup,domain=my.mail.ru
 ||r.mradx.net/*link1=$subdocument
-||r.mradx.net/img/*.jpg$image,domain=pogoda.mail.ru
 ||r.mradx.net/r/$script
 ||redatastore.ru^$csp=script-src
 ||sportmail.ru^*/BookmakersFooter/
