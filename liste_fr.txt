@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8IXNkoXsP9FAb4s6zLTIbg
-! Version: 202309272030
+! Checksum: /7vQ+kKGdQezIfRz5IbzqQ
+! Version: 202309272040
 ! Title: Liste FR
-! Last modified: 27 Sep 2023 20:30 UTC
+! Last modified: 27 Sep 2023 20:40 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -246,7 +246,7 @@
 .dz/ads/
 .dz/ads_
 .es/anuncios/
-.fr/*/ads/$domain=~lemde.fr|~yoopies.fr
+.fr/*/ads/$domain=~lemde.fr|~sellplus.fr|~yoopies.fr
 .fr/_adv/
 .fr/ads-
 .fr/ads/
@@ -16397,6 +16397,8 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||sofoot.com/img/sofoot_partenaires/
 ||soleilinvest.com/ima/prom/
 ||solimba.com/js/topbar.min.js
+||solutions-numeriques.com/wp-content/uploads/*-banniere-
+||solutions-numeriques.com/wp-content/uploads/*/habillage-
 ||soonnight.com/*_ban_partenaire/
 ||soonnight.com/intro.php?
 ||soonnight.com^*/bande_partenaires.png
@@ -20021,6 +20023,7 @@ ecranlarge.com###cgSidebarATF1
 wanarun.net###chaussuresCarousel
 sitedesmarques.com###check-also-box
 ruedesjoueurs.com###classmentMobile
+solutions-numeriques.com###clickable
 jetanimes.com###clickfakeplayer
 bricozone.be###clktable
 bricozone.be###clktableb
@@ -20494,7 +20497,7 @@ syskb.com##.bandeaupub
 cdmail.fr##.bandeauvert
 iphone4.fr,jeux-mmorpg.com##.baner
 bismirabbika.com,orientation-chabab.com##.bann
-01net.com,2conv.com,afrik-foot.com,afrik.com,afrikeco.com,expressio.fr,flvto.biz,flvtomp3.cc,glenatbd.com,hdnumerique.com,jizzbunker.com,journaldugeek.com,lautomarche.com,manga-news.com,medialot.fr,mesbagages.com,mob.org,orientation-chabab.com,photofiltres.fr,telquel.ma,textnow.com,trimag.fr,ventsdouest.com##.banner
+01net.com,2conv.com,afrik-foot.com,afrik.com,afrikeco.com,expressio.fr,flvto.biz,flvtomp3.cc,glenatbd.com,hdnumerique.com,jizzbunker.com,journaldugeek.com,lautomarche.com,manga-news.com,medialot.fr,mesbagages.com,mob.org,orientation-chabab.com,photofiltres.fr,solutions-numeriques.com,telquel.ma,textnow.com,trimag.fr,ventsdouest.com##.banner
 batiactu.com##.banner-background
 golem13.fr##.banner-halfpage
 jizzbunker.com##.banner-popup
@@ -21424,6 +21427,7 @@ bleachmx.fr##a[href^="https://www.leboncoin.fr/"]
 castorama.fr##a[href^="https://www.needhelp.com/projet.php?"]
 credit-agricole.fr##a[href^="https://www.onatousuncotefoot.fr/"]
 ouedkniss.com##a[href^="https://www.safex.dz/"]
+solutions-numeriques.com##a[href^="https://www.solutions-numeriques.com/r/?"]
 undernews.fr##a[href^="https://www.undernews.fr/redirect/"]
 mr-bricolage.fr##a[href^="https://www.velux.fr/campagnes/offre-jumo?utm_source="]
 braindamaged.fr##a[href^="index.php?adclick="]
@@ -21604,6 +21608,7 @@ dealabs.com##section[data-track*="widget_pirates_carousel"]
 virusphoto.com##table[width="300"][height="280"]
 societe.com##table[width="303"] > tbody > tr > td[valign="top"][height="260"]
 depannetonpc.net##td[align="left"][colspan="3"] > div[style="width:70%;"]
+solutions-numeriques.com##td[onclick^="window.open('https://www.solutions-numeriques.com/r/?"]
 people-looks.com##td[width="340"][height="265"][align="center"]
 people-looks.com##td[width="980"][height="40"][bgcolor="#FFFFFF"]
 ! Éléments (utilisé avec $generichide)
