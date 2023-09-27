@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: raZqGV257gGsOfXu9CoxRw
-! Version: 202309270931
+! Checksum: CAktPzOtJgFCSXdN1uHCTA
+! Version: 202309270940
 ! Title: RU AdList
-! Last modified: 27 Sep 2023 09:31 UTC
+! Last modified: 27 Sep 2023 09:40 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2914,7 +2914,7 @@ _tizers.
 ||kv.by/img/$object
 ||kvasu.net/*/$object
 ||kwork.ru/api/widget/$third-party
-||kwork.ru/js/$third-party,domain=~kwork.ru
+||kwork.ru/js/$third-party,domain=~kwork.ru|~kworks.ru
 ||l2top.ru^$third-party
 ||labirint.ru/design/partner/
 ||ladyshopping.ru^$third-party
@@ -16977,6 +16977,7 @@ radiodacha.ru##[summary="content_table"] > tbody > tr > td[height="90"]
 cdmail.ru,izcity.com##[title*="быстрый браузер!"] > img
 zx-pk.com##[title="Yandex Direct"]
 www.film.ru##[title="Яндекс Дзен"]
+forum.ruboard.ru##[vid_vpaut_pl]
 lost-abc.ru##[width="630"][height="90"]
 fcpug.ru##a + br
 fcpug.ru##a + br + br
@@ -22999,7 +23000,6 @@ lada.kz/uploads/banners/
 ! Правила для отдельных сайтов с разношерстными правилами или групп сайтов
 !
 ! Правила для ресурсов, которые их создатели сделали несовместимыми с адблоком
-forum.ruboard.ru##:not(my-obnaruzhili-blokirovshchik)
 !#if ext_abp
 ! запросы
 /^https?://(cyber|www)\.sports\.ru/*[/]*[/][^\s]{198,}/$xmlhttprequest,domain=sports.ru
@@ -25947,10 +25947,10 @@ daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
 dl2kq.de#@##sponsor_ad
 drahelas.ru#@#.forumAd
 era-igr.ru#@##adsense2
+forum.ruboard.ru,izi-invest.ru,mmo13.ru#@#div[id^="yandex_rtb"]
 forums.rusmedserv.com#@#img[width="728"][height="90"]
 green-way.com.ua#@#.adWrapper
 iphones.ru#@##sponsorText
-izi-invest.ru,mmo13.ru#@#div[id^="yandex_rtb"]
 kisameev.ru,myseria.pro,openssource.biz,zazloo.ru#@#.reklama
 liga.net#@##bottomAd
 mail.ru#@#.text-banner
