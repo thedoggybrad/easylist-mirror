@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P44LbMdRsFsmSrf1VkuXkQ
-! Version: 202310011910
+! Checksum: uy9YWkc9pCzFP7Ha0L2q3w
+! Version: 202310011920
 ! Title: RU AdList
-! Last modified: 01 Oct 2023 19:10 UTC
+! Last modified: 01 Oct 2023 19:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23017,7 +23017,7 @@ lada.kz/uploads/banners/
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=besthdwallpaper.com
 @@||s.zfctrack.net/z|$xmlhttprequest,domain=epravda.com.ua|eurointegration.com.ua|hvylya.net|inforesist.org|kriminal.tv
 @@||s.zhctrack.net/z|$xmlhttprequest,domain=epravda.com.ua|eurointegration.com.ua|inforesist.org
-@@||s.zmctrack.net/z|$xmlhttprequest,domain=allboxing.ru|i.ua|ivona.ua|meteo.ua|panno4ka.net
+@@||s.zmctrack.net/z|$xmlhttprequest,domain=i.ua|ivona.ua|meteo.ua|panno4ka.net
 @@||s.znctrack.net/z|$xmlhttprequest,domain=censor.net|gazeta.ua|i.ua|mail.ukr.net|meteofor.com.ua|tabloid.pravda.com.ua|viva.ua
 ||2ip.ua/ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval'
 ||2ip.ua/ua/|$csp=script-src 'unsafe-inline' 'unsafe-eval'
@@ -23632,30 +23632,18 @@ mirtesen.ru##[id^="unit_"]
 ##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
 !
 ! Одноклассники
-ok.ru#?##fourthColumnWrapper div:-abp-has(> div > div > div > img[src^="data:image"][alt])
-ok.ru#?##fourthColumnWrapper div:-abp-has(> div[style*="visibility: visible"])
-ok.ru###fourthColumnWrapper div[style*="visibility: visible"]
+ok.ru###hook_Block_AvatarPromoMenu
 ok.ru###hook_Block_ForthColumnTopBanner
 ok.ru###hook_Block_LeftColumnAdCustom
 ok.ru###hook_Block_TargetBanner
-ok.ru#?##leftColumn div:-abp-has(> div > div > div > img[src^="data:image"][alt])
-ok.ru#?##leftColumn div:-abp-has(> div[style*="visibility: visible"])
-ok.ru###leftColumn div[id][class][style=""]
-ok.ru###leftColumn div[style*="visibility: visible"]
 okminigames.mail.ru###ok-wrapper.container div[class][style="width: 100%;"]
 okminigames.mail.ru###ok-wrapper.container span.js-href
 ok.ru##.dialogWrapperBanner
 ok.ru##.exit-popup
-ok.ru#?#.feed-list > .feed-w:-abp-has(.feed_label:-abp-contains(Реклама))
-ok.ru#?#.feed-list > div[class]:-abp-has(div[data-type*="Banner"])
-ok.ru##.feed-list div[data-type*="Banner"]
+ok.ru#?#.feed-list > .feed-w:-abp-has(.feed-info-label:-abp-contains(Реклама))
 ok.ru##.forthTopAdv
 ok.ru##.html5-vpl_oklive-banner
-ok.ru##.js-banner-wrapper
-ok.ru#?#div:-abp-has(> .banner350)
-ok.ru##div[data-btype*="LinkBanner"]
-ok.ru##div[data-log-click*="LinkBanner"]
-ok.ru##div[debug-fid*="BANNER"]
+ok.ru##div[data-place*="BANNER"]
 ok.ru##div[id^="hook_Block_FrOln4thCol"]
 ! Очень однобокая реклама Хрома + очень часто просят удалить
 ok.ru##.update-browser_container
@@ -25565,6 +25553,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||s*.rotaban.ru/$script,domain=jeder.ru
 @@||s.trupornolabs.org/functions.js|$script,domain=trupornolabs.org
 @@||s.trupornolabs.org/ui/jquery.ui*.min.js|$script,domain=trupornolabs.org
+@@||s.zmctrack.net/z|$xmlhttprequest,domain=allboxing.ru
 @@||s0.2mdn.net/ads/studio/Enabler.js|$script,domain=fitnesspartner.ru
 @@||s5o.ru/common/css/teaser.css?
 @@||safecurr.g2afse.com/click?pid=*&offer$popup,domain=bestchange.ru
