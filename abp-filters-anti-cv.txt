@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ZRfTMTJI68fEJliRGgiNjw
-! Version: 202310030820
+! Checksum: XdfqvUchaWmVuqzq7yH77Q
+! Version: 202310030830
 ! Title: ABP filters
-! Last modified: 03 Oct 2023 08:20 UTC
+! Last modified: 03 Oct 2023 08:30 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1408,6 +1408,7 @@ baomoi.com#$#abort-on-property-write AdtimaBaomoi
 xoivo7.info,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
+phimvuihd.org#$#override-property-read urlAds ''
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,zo3x.lol,mrdhan.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net#$#abort-on-property-read open
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
