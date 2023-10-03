@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bs4znN65gn5GOQC956olIg
-! Version: 202310031450
+! Checksum: udRdhD9nDBXsQck7wXiODw
+! Version: 202310031502
 ! Title: RU AdList
-! Last modified: 03 Oct 2023 14:50 UTC
+! Last modified: 03 Oct 2023 15:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23127,7 +23127,7 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
 2ip.io,2ip.ru#?#.narrow-column > style + div > div:-abp-has(a[target="_blank"])
 2ip.io,2ip.ru##.test-vpn
-2ip.io,2ip.ru##a[href*="?phpsession"]
+2ip.io,2ip.ru##a[href*="phpsession="]
 2ip.io,2ip.ru##nav li a[target="_blank"]
 !
 ! Auto.ru
@@ -25933,8 +25933,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
