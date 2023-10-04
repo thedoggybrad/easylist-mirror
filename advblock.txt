@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kkLkXd0+28UYqj+JcJKSlQ
-! Version: 202310041410
+! Checksum: 4YwJDoapHA6KumEFdo+W1Q
+! Version: 202310041420
 ! Title: RU AdList
-! Last modified: 04 Oct 2023 14:10 UTC
+! Last modified: 04 Oct 2023 14:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17123,7 +17123,6 @@ programmersforum.ru#?#a[href*="://clck.ru/"] ~ *:-abp-contains(https://)
 kinobase.org##a[href*="://clcr.me/"]
 opennet.me,opennet.ru##a[href*="://click.opennet.ru/cgi-bin/"]
 newstudio.tv,player.rudub.co##a[href*="://cutter.li"]
-cybersport.ru##a[href*="://cybersport.ru/a/"]
 fast-torrent.tv##a[href*="://fast-torrent.tv/gomed.php"]
 smartmama.com.ua,virus-stop.com.ua##a[href*="://flavovir.ua"] > img
 oterraria.ru##a[href*="://genshindrop.com/ref/"]
@@ -17219,6 +17218,7 @@ book-briefly.ru##a[href*="clickfrm.com"]
 sport.ua##a[href*="clickstats.fun"]
 bloknot-khersona.ks.ua,osnovu-ved.ru##a[href*="cookery-on-every-day.ru"]
 gamedayz.net##a[href*="csgo.life"]
+cybersport.ru##a[href*="cybersport.ru/a/"]
 softportal.com##a[href*="driverpack-solution"]
 gurutestov.ru##a[href*="ecvator."]
 komapz.net##a[href*="epidems.net"]
@@ -19683,6 +19683,7 @@ rafkino.com##div[id^="MarketGid"]
 ||hawk.live/$csp=sandbox allow-same-origin;
 ||idealmedia.io$csp=script-src
 ||inforesist.org^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.net *.io *.jquery.com *.keycaptcha.com *.ru *.twitter.com *.ua
+||kurs.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.bemobile.ua *.cloudflare.com *.cloudfront.net *.highcharts.com *.googleapis.com apis.google.com *.googletagmanager.com *.gstatic.com *.io *.jquery.com *.jivosite.com *.keycaptcha.com *.net *.twitter.com vk.com yastatic.net *.yandex.ru
 ||lentapronews.com^$csp=script-src
 ||life.pravda.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.net *.io *.jquery.com *.keycaptcha.com *.ru *.twitter.com *.ua
 ||lis-gor.com/$csp=sandbox allow-same-origin;
@@ -25934,8 +25935,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
@@ -26047,7 +26048,7 @@ chemrise.ru##body > div[class*="ui-widget"]
 pastebin.com,primpogoda.ru##body > div[id]:not([class])[style="display: block;"]
 news24.in.ua##body > div[id][class]
 24pdd.ru#?#body > div[id][class]:-abp-has(> div[id][class] [class^="adblock"])
-ontvtime.ru##body > div[style*="background-color:"][style*="z-index:"]
+kurs.com.ua,ontvtime.ru##body > div[style*="background-color:"][style*="z-index:"]
 gsm.in.ua##body > div[style^="background:"][style*="display: block"]
 ritsatv.ru##body > marquee[style*="red"]
 motorpage.ru##body.noscroll::before
