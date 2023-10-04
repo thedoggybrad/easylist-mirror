@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RX+o24+cd4BuKN8JlH21Gg
-! Version: 202310040230
+! Checksum: NBxYTKBpjtmw2lmpC+ihvA
+! Version: 202310040240
 ! Title: Liste FR
-! Last modified: 04 Oct 2023 02:30 UTC
+! Last modified: 04 Oct 2023 02:40 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -15856,6 +15856,10 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||lesechos.fr/promo-solutions/
 ||lesimprimantes3d.fr/partenaires/
 ||lesmobiles.com/habillage/
+||lesmobiles.com/img/mobile-banners/
+||lesmobiles.com/img/popins/
+||lesmobiles.com/img/skins/
+||lesmobiles.com/img/slidebars/
 ||lesnumeriques.com/habillages/
 ||lesoirdalgerie.com/articles/*/dzauto.swf
 ||lespac.com/1/banners/
@@ -20218,7 +20222,7 @@ lessentiel.lu###min_rectangle
 jeu.video###mobile_clic
 w0rld.tv###modal
 le-buzz.fr###modal_chrome
-edcom.fr###modals-container
+edcom.fr,lesmobiles.com###modals-container
 challenges.fr###moneytag-INARTICLE-ATF
 aujourdhui-en-france.fr,leparisien.fr###moteur-billetterie
 zdnet.fr###mpuBottom
@@ -20693,6 +20697,7 @@ howtofix.guide##.eds-animate
 tsa-algerie.com##.ekk-footer-ad-wrapper
 maison-et-domotique.com##.elementor-widget-heading
 maison-et-domotique.com##.elementor-widget-post_carousel_mod
+lesmobiles.com##.emplacement__popin
 batiactu.com##.emploi
 femmeactuelle.fr##.encartAstro
 xboxygen.com##.eneba
@@ -21136,6 +21141,7 @@ fifa.com##.sponsors-section
 msn.com##.sponsorship
 flvto.biz##.square-ads
 msn.com##.startpage > div.refreshbody[style^="top:"]
+lesmobiles.com##.stickyBestOffer
 msn.com##.stripecontainer[data-section-id="stripe.msstore"]
 imobie.fr##.support_guide_download_upper
 lepetiteconomiste.com##.sw-banner
@@ -21222,6 +21228,7 @@ boulistenaute.com##.xo-banner-ad-footer
 lapresse.ca##.xtra
 lepetiteconomiste.com##.zoom
 alloforfait.fr##.zpart
+lesmobiles.com##[action^="/regieV.php?"]
 fdesouche.com##[class$="-link"]
 ccm.net,commentcamarche.com,commentcamarche.net##[class$="_adsense"]
 amazon.fr##[class*="-advertising-"]
