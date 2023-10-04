@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IxB0TdVsT6fEo8ios0MEbA
-! Version: 202310041550
+! Checksum: NLEGRuRFuL4Y3dbzRe74RA
+! Version: 202310041602
 ! Title: EasyList Polish
-! Last modified: 04 Oct 2023 15:50 UTC
+! Last modified: 04 Oct 2023 16:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -566,8 +566,13 @@ infomare.pl###baneranim
 portalrolniczy.info###baners
 archispace.pl,hodowle.eu,instalki.pl,lubin.pl###banner
 krs-online.com.pl###banner + div
-testynaojcostwo.pl###banner-17,#banner-9
-genetyczne.pl###banner-6,#banner-20,#banner-21,#banner-23,#banner-24
+testynaojcostwo.pl###banner-17
+genetyczne.pl###banner-20
+genetyczne.pl###banner-21
+genetyczne.pl###banner-23
+genetyczne.pl###banner-24
+genetyczne.pl###banner-6
+testynaojcostwo.pl###banner-9
 lagardere-tr.pl###banner-hds
 lagardere-tr.pl###banner-hds-background
 mierzeja.com###banner-popup
@@ -630,8 +635,8 @@ mhmkuchnie.eu###custom_html-2 a[target="_blank"]
 wiescipolickie.pl###custom_html-22
 belekaj.eu,e-szczuczyn.pl,izabrze.pl,terazgrodkow24.pl###custom_html-3
 msmobile.pl###custom_html-5
-nowezyciepabianic.pl###custom_html-6
-zyciezamoscia.pl###custom_html-6,#custom_html-8
+nowezyciepabianic.pl,zyciezamoscia.pl###custom_html-6
+zyciezamoscia.pl###custom_html-8
 portalprzemyski.pl###custom_html-9
 karnickie.info###custom_post_widget-2
 waw4free.pl###detal_top
@@ -750,7 +755,7 @@ informator-stolicy.pl###pm_gora
 bialystokonline.pl###polecamy
 rekomendowanefirmy.pl###polecamy-box-2
 betonline.net.pl,wyspiarzniebieski.pl###popup
-zpierwszegotloczenia.pl###popup-ad, .modal-backdrop
+zpierwszegotloczenia.pl###popup-ad
 infoilawa.pl###popup-wrapper
 mapa.szukacz.pl,szukacz.pl###popupContainer
 zmianywzyciu.pl###popup_facebook
@@ -1078,7 +1083,8 @@ gazetarumska.pl##.articleBottom-ads
 24wspolnota.pl##.article__ad-special
 eska.pl,muratorplus.pl,radioplus.pl,urzadzamy.pl##.article__placement
 parenting.pl##.article__textbox
-neonet.pl##.as-wallpaper_right, .as-wallpaper_left
+neonet.pl##.as-wallpaper_left
+neonet.pl##.as-wallpaper_right
 posbud.com.pl##.as_marquee0
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,gazetakrakowska.pl,gazetalubuska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gs24.pl,kurierlubelski.pl,naszahistoria.pl,nowiny24.pl,pomorska.pl,poranny.pl,strefaagro.pl,stronakobiet.pl,stronakuchni.pl##.atomsAdsCellModel
 dziennikzachodni.pl##.atomsPromotionsBanner__link
@@ -1195,7 +1201,8 @@ komercyjne.pl##.bb-ad-outer
 infokonin.pl,wolanie.info##.bc_random_banner
 cowkrakowie.pl##.bdaia-ad-container
 kalisz24.info.pl##.bdaia-e3-container
-fabrykasily.pl##.bg-link-left, .bg-link-right
+fabrykasily.pl##.bg-link-left
+fabrykasily.pl##.bg-link-right
 portalpszczelarski.pl##.biggDickus
 pcworld.pl##.bilbo_ad
 ddtorun.pl,ddwloclawek.pl,faktypilskie.pl,itvszubin.pl,koronowo.net.pl,koscianiak.pl,naszraciborz.pl,portalzamojski.pl,sieradz.com.pl,teksty.org,traktorpool.pl,twojapogoda.pl,zyciesiedleckie.pl##.billboard
@@ -1272,7 +1279,8 @@ meczyki.pl##.container > div[data-area-id]
 malagacf.pl##.container a[href="/go/sts"]
 4programmers.net##.container-fluid > a > img[width="728"][height="91"]
 wiadomoscihandlowe.pl##.container-topads
-comparic.pl##.container16,.container11
+comparic.pl##.container11
+comparic.pl##.container16
 comparic.pl##.containerRectangle
 lublin112.pl##.container[style="min-height: 325px"]
 flashscore.pl##.container__bannerZone
@@ -1533,6 +1541,7 @@ fsd24.pl,tvnakarte.eu##.mod-banners
 bobrowniki.tv##.mod_banners_bottom_banners
 next.gazeta.pl##.mod_sponsoredArticle
 softonic.pl##.modal-ad-exit-intent
+zpierwszegotloczenia.pl##.modal-backdrop
 podrywaj.org##.modal_wrapper
 instalki.pl##.module-adv
 krosno112.pl##.module-ct img[width="280"]
@@ -1743,8 +1752,9 @@ weszlo.com##.single-side-column .ad-placeholder-bg
 dzierzgon-twojemiasto.pl##.site-branding
 codziennypoznan.pl##.site-header .elementor-shortcode
 twojskaryszew.pl##.site-header .np-header-ads-area
-proshop.pl##.site-left-banner, .site-right-banner
+proshop.pl##.site-left-banner
 filmawka.pl##.site-news__ads
+proshop.pl##.site-right-banner
 wroclawiak.pl##.site-right-re
 joemonster.org##.sky-wrapper
 starachowicki.eu##.slick-slide
@@ -1821,8 +1831,8 @@ starosadeckie.info##.the-slider ~ div[style^="overflow: hidden"]
 bialogardinfo.pl##.theiaStickySidebar .g-dyn
 odkryjpomorze.pl##.ticker-container
 wpolityce.pl##.tile--ad-tile
-cosiedzieje.tv,expresskaszebe.pl,gostynin24.pl,malbork1.pl,nasztomaszow.pl,truso.tv,tuolawa.pl,tvmaster.eu,tvpolice.com.pl,tvsudecka.pl,tygodnik-krapkowicki.pl,zachodniopomorska.tv##.tipad_tag
-kk24.pl##.tipad_tag + a, .tipad_tag
+cosiedzieje.tv,expresskaszebe.pl,gostynin24.pl,kk24.pl,malbork1.pl,nasztomaszow.pl,truso.tv,tuolawa.pl,tvmaster.eu,tvpolice.com.pl,tvsudecka.pl,tygodnik-krapkowicki.pl,zachodniopomorska.tv##.tipad_tag
+kk24.pl##.tipad_tag + a
 transfermarkt.pl##.tm-header > div > img[src$=".gif"]
 meblarskapolska.pl##.tm-promt-image
 egzotycznaturystyka.pl,franchising.pl,lubliniec.info,pulsmiasta.tv##.top-banner
@@ -1874,8 +1884,9 @@ transfermarkt.pl##.werbung-billboard
 womenshealth.pl##.wh-optad
 esportnow.pl##.widget
 infokatowice.pl##.widget-1 p
-gloskrakowa.pl##.widget-2,.widget-4
+gloskrakowa.pl##.widget-2
 gazetawielkopolska.pl,prudnik24.pl##.widget-3
+gloskrakowa.pl##.widget-4
 lsw24.pl##.widget-ad-image
 lokalna24.pl##.widget-advert_centralplacement
 faktykaliskie.info,lokalna24.pl,nasztomaszow.pl,slowopodlasia.pl,zachodniopomorska.tv##.widget-advert_placement
@@ -2168,6 +2179,7 @@ bobrowniki.tv##a[href^="http://slaskieplyty.pl"]
 e-grajewo.pl##a[href^="http://spoldzielcza1.pl"]
 gazeta-mosina.pl##a[href^="http://swierkowyzakatek.pl"]
 zakliczyninfo.pl##a[href^="http://tk-beton.pl/"]
+24gliwice.pl##a[href^="http://www.24gliwice.pl/r/counter-baners.php"]
 super-polska.pl##a[href^="http://www.anf.pl/"]
 chwaszczyno.pl##a[href^="http://www.autoczescionline24.pl/"]
 walbrzyszek.com##a[href^="http://www.czesciauto24.pl"]
