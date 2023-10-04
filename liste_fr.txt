@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NBxYTKBpjtmw2lmpC+ihvA
-! Version: 202310040240
+! Checksum: oS1sBoVbznLx13JPx6FEog
+! Version: 202310040250
 ! Title: Liste FR
-! Last modified: 04 Oct 2023 02:40 UTC
+! Last modified: 04 Oct 2023 02:50 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -963,6 +963,7 @@
 /advertising-core/*
 /AdvertisingBanners/*
 /advertisingView?
+/advertisting-placeholder-
 /adx-dir-
 /adx-instream.
 /adx.js
@@ -15024,6 +15025,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||capital.fr^*/boutons-pub-header/
 ||careerbuilder.fr/lts/jobstreamintl.aspx?
 ||carrefoune.com^$script
+||carrefour.fr/api/v1/recommendations?
 ||carrefour.fr/js-ssr/footer-partner-banner.
 ||carrosseriemagazine.com/image/carrosserie/pub/
 ||casavie.com/images/index_logo.gif
@@ -18352,6 +18354,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.advertising-box
 ##.advertising-box-full
 ##.advertising-item-bottom
+##.advertising-placeholder-recommendation
 ##.advertisingLeft
 ##.advhead
 ##.advid
