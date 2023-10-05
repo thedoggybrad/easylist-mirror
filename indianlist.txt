@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uABQpHOKTTZSECpBlBknyw
-! Version: 202310051301
+! Checksum: iUrZpJmSjlLpnaae+hU0Ew
+! Version: 202310051310
 ! Title: IndianList
-! Last modified: 05 Oct 2023 13:01 UTC
+! Last modified: 05 Oct 2023 13:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -726,7 +726,6 @@ _advt.jpg|
 @@||i.imgur.com/h29ptDV.jpg
 @@||i2inews.in/images/advertisement/adv0158100001643868498.jpeg
 @@||i2inews.in/images/advertisement/adv0360869001643674034.jpg
-@@||image.lanka4.com/promotion/2023/03/lanka4-header.gif
 @@||images.merolagani.com//content/bigyapan/21e82634-bb94-4f0b-9f26-b3b0dccf1d1c.gif
 @@||images.merolagani.com//content/bigyapan/3614f561-42c2-429f-8424-d0a8d10bfb56.gif
 @@||images.merolagani.com//content/bigyapan/53f9e1f4-59de-4cd5-9ae0-c98a139a0068.gif
@@ -739,6 +738,7 @@ _advt.jpg|
 @@||keralasabdam.in/assets/advertisement/WhatsApp%20Image%202023-03-29%20at%2012.25.00%20PM(1)74.jpeg
 @@||khabarmukam.com/images/advertisement/1694522411-Bidhytut.PNG
 @@||lakshmipur71.com/uploads/ad_image/PicsArt_11-16-08_58_412.jpg
+@@||lanka4.com/images/promotion/2023/03/lanka4-header.gif
 @@||mediapunjab.biz/admin/dashboard/images/poster/1537217477Darbar-sahib-live.jpg
 @@||mediapunjab.biz/admin/dashboard/images/poster/1537284846konto.jpg
 @@||mediapunjab.biz/admin/dashboard/images/poster/1562539603major_singh_mann_jatha_08072019.jpg
@@ -2253,7 +2253,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||ilsheypar.com/wp-content/uploads/2020/04/cyberworldit_advertisement.gif
 ||ilsheypar.com/wp-content/uploads/2020/07/Add-Mayor-Faridgong.jpg
 ||ilsheypar.com/wp-content/uploads/2020/07/Untitled-2.jpg
-||image.lanka4.com/promotion/
 ||imageshack.com^$third-party,domain=karaitivunews.com
 ||img.dekhapadhi.de/uploads/bigyaapan/
 ||img.janatasamachar.de/uploads/bigyaapan/61692900.png
@@ -2723,6 +2722,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||lalitpurfastnews.com/wp-content/uploads/2020/08/IMG-20200804-WA0014-300x103.jpg
 ||lalmohannews24.com/wp-content/uploads/2017/11/buy-website-bangladesh-300x163.jpg
 ||lalsabuj71.com/wp-content/uploads/2020/06/ad-
+||lanka4.com/images/promotion/
 ||lankadaily.com/images/banners/2017/her.JPG
 ||lankadeepa.lk/assets/uploads/advr_3891e0f04c.jpg
 ||lankadeepa.lk^*/advr_880ca80979.jpg
@@ -6290,6 +6290,7 @@ dhanamonline.com##.c-ad-container
 himachalnownews.com##.c_ad
 canvasmagazine.com.bd##.canvas-slider
 munaadi.com##.card-body > center > img
+lanka4.com##.card.text-center
 aloavanews24.com,cgwebnews.in,indiasamachar24.com,malayalamtodayonline.com,thefollowup.in##.carousel
 eimuhurte.com##.carousel:not(#carouselExampleIndicators4)
 editiontoday.in,panchayattantra24.com##.carouselbanner
@@ -6454,7 +6455,6 @@ dailysharebazar.com##.e3lan300_600-widget
 krishideepam.in##.eaa-ad
 uukmanews.com##.each-side-ads > a
 hmtvlive.com##.ed-first
-lanka4.com##.eds-link
 manoramaonline.com##.el-banner-main-logo
 aajkijandhara.com##.elementor-col-33 .elementor-section
 hamdardmediagroup.com##.elementor-col-50 .elementor-widget-image .attachment-large
@@ -6796,7 +6796,6 @@ janaaastha.com##.inline__bigyapaan
 ctgsangbad.com.bd##.inlineads
 mannarkkadlive.com##.inner-add
 chatonay71news.com##.inner-ads
-lanka4.com##.inner-eds-box
 nepalpati.com##.inner-page-ful-ad-btm
 malabarflash.com##.inner-post-ads
 laxminews24x7.com##.inner-wrapper .e3lan-below_header
@@ -6846,6 +6845,7 @@ jayhosh.com##.leaderboard-wrapper
 setvnews24.com##.leadnews .widget_area
 sharebazarnews.com##.lef-sidebar-ads
 thebengalitimes.com##.lefr-box
+lanka4.com##.left .aside-wrapper
 bankura24x7.com,haribhoomi.com,hmtvlive.com,swadeshnews.in,thejasnews.com,tv5news.in##.left_level_ad
 tnilive.com##.lefta
 lekalionline.com##.lekali_online_adv
@@ -8247,6 +8247,7 @@ chaukastoli.com,grenonews.com,hellobikaner.in,newsvariant.com,rajsattanews.com##
 jagatprahari.com##aside.widget_text:not(#text-25):not(#text-27)
 thepublicworld.com##aside.widget_text:not(#text-49):not(#text-51)
 bhalukanews.com##aside:not(#text-33):not(#text-47) img[alt="ads"]
+asomiyapratidin.in#?#[style*="min-height"]:-abp-has(> div[class*="ad-slot-"])
 asr24.news#?#.card:-abp-has(> .card-header:-abp-contains(Advertisment))
 atalhind.com#?#div:-abp-has(> div > p >.adsbygoogle)
 atalsamachar.com#?#div[id^="AS_O_LHS"] > div:-abp-has(a[href*="paid.outbrain.com"])
@@ -8308,7 +8309,7 @@ otvkhabar.in##div[class$="-ad"]
 chakrikhobor.com##div[class$="-ads"]
 keralaexpress.com##div[class$="-adv"]
 odishareporter.in##div[class$="0-ad"]
-asomiyapratidin.in,metrovaartha.com,sathyadeepam.org##div[class*=" ad-slot-"]
+metrovaartha.com,sathyadeepam.org##div[class*=" ad-slot-"]
 unitednripost.com##div[class*=" ads_"]
 dishadaily.com##div[class*="-ad-"]
 news18.com##div[class*="Header_inner_ad"]
