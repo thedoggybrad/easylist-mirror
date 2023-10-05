@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bu2gpKHT5cMAZqFjIUfIwA
-! Version: 202310051601
+! Checksum: jOxKmnayWWYDS0fHXbWrkg
+! Version: 202310051610
 ! Title: RU AdList
-! Last modified: 05 Oct 2023 16:01 UTC
+! Last modified: 05 Oct 2023 16:10 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12734,7 +12734,7 @@ euro2016.cc##.DmWidget
 vk.com##.EcommFeedItemsBlock
 nulled.cc##.EstBS-bnContent
 fanfics.me##.FicHead.ContentTable > .left
-myshows.me#?#.Grid-in .GridItem:-abp-has(> div .show-item-kinopoisk)
+myshows.me#?#.Grid-in .GridItem:-abp-has(> div [class*="-kinopoisk"])
 razvitierebenka.com#?#.HTML:-abp-has(> .widget-content > .adsbygoogle)
 myshows.me#?#.Home-section:-abp-has(> div .title [class*="-promo-kp__"])
 forbes.ru##.IQXal
@@ -17041,7 +17041,7 @@ pirate-party.ru,piratemedia.net##a[href*=".sim-networks.com/index.php?pid="]
 ctc-rnd.ru##a[href*=".space"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[href*=".vkplay.ru"]
 wintorrents.ru##a[href*=".wintorrents.ru"]
-1tv.ru,drive.ru,f1news.ru,gamemag.ru,kinonews.ru,kinorium.com,livejournal.com,onlinestreams.ru,pikabu.ru,pluggedin.ru,sovsport.ru,trinixy.ru,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
+1tv.ru,drive.ru,f1news.ru,gamemag.ru,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,sovsport.ru,trinixy.ru,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
 dks.com.ua,enovosty.com,expert.in.ua,galas.te.ua,galinfo.com.ua,nbnews.com.ua,plitkar.com.ua,rivnepost.rv.ua,tenews.org.ua,ukrnews24.net,varta1.com.ua##a[href*="//besplatka.ua"]
 360tv.ru,avtonovostidnya.ru,coop-land.ru,energyfm.ru,gdeichto.ru,kommersant.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,mydecor.ru,mywebpc.ru,new-magazine.ru,penzainform.ru,peterburg2.ru,pnz.ru,regnum.ru,rutube.ru,sm.news,sportsdaily.ru,syzran-small.ru,teleprogramma.pro,thegirl.ru,tsargrad.tv,tulapressa.ru,u-f.ru,ura.news,utyug.info,vz.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,zaks.ru,zr.ru##a[href*="//dzen.ru/"]
 beatmake.ru##a[href*="//go.acstat.com/"]
@@ -23477,11 +23477,11 @@ sportmail.ru##div[article-item-type="conversionlink"]
 sportmail.ru##div[class][style^="transform: translate3d"]:not(.viewbox__slides) > div:first-child
 sportmail.ru##div[data-closewrap-container]
 sportmail.ru##tr > .daynews__spring
-! Финансы
-finance.mail.ru##.js-fixed-panel > .box
-finance.mail.ru##div[data-closewrap-container]
-finance.mail.ru##div[data-logger="partnerNews"]
-finance.mail.ru##div[data-rb-slot]
+! Финансы и фокус
+finance.mail.ru,vfokuse.mail.ru##.js-fixed-panel > .box
+finance.mail.ru,vfokuse.mail.ru##div[data-closewrap-container]
+finance.mail.ru,vfokuse.mail.ru##div[data-logger="partnerNews"]
+finance.mail.ru,vfokuse.mail.ru##div[data-rb-slot]
 ! Хай-тек
 hi-tech.mail.ru##.box[class*=" rb_"]
 hi-tech.mail.ru##.js-banner
@@ -25932,8 +25932,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
@@ -25983,6 +25983,7 @@ rbkgames.com###norris-detector
 lektsii.org,megaobuchalka.ru,studopedia.com.ua,studopedia.net,studopedia.org,studopedia.ru,studopedia.su###opaco,#popup
 culture.ru###page-error-modal
 forum.niiot.net###some_ad_block_key_popup
+myshows.me##.DetectAdBlock
 usemind.org##.a-top
 dfm.ru,hitfm.ru,maximum.ru,montecarlo.ru,rusradio.ru##.ad-blocked-message
 ogorod.ru##.adblock_popup_warning
