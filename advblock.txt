@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RYEHpXgVhDOjcodrrj4cyA
-! Version: 202310050940
+! Checksum: 8POpMXnDN796My7LGQFhgg
+! Version: 202310050950
 ! Title: RU AdList
-! Last modified: 05 Oct 2023 09:40 UTC
+! Last modified: 05 Oct 2023 09:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12180,8 +12180,6 @@ tapochek.net###page_header td[width="230"] + td
 www.inbox.lt,www.inbox.lv###page_middle
 vk.com,vk.ru#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_marked_as_ads)
 vk.com,vk.ru#?##page_wall_posts > div[id^="post-"]:-abp-has(> ._post_content > .PostHeader > .PostHeaderInfo > .PostHeaderSubtitle > .PostHeaderSubtitle__item:-abp-contains(/Community ad|Реклама |Рэклама | жарнама/))
-dtf.ru,vc.ru###page_wrapper > :not(.page):not(.l-page):not(.page--error):not(.messenger):not(.subsite_head):not(.table):not(.ui-tabs):not([air-module]):not(.hashtag_head):not(.feed_header):not(.bookmarks):not(.bookmarks-feed):not(.l-island-round):not(.account-menu--fullpage)
-dtf.ru,vc.ru###page_wrapper > a
 radiokot.ru#?##pagecontent > .tablebg:-abp-has(.postauthor:-abp-contains(Реклама))
 rf-cheats.ru###pagenav_menu + center ~ center
 talkers.ru###pagenav_menu ~ center
@@ -12717,7 +12715,7 @@ www.aviasales.by,www.aviasales.kg,www.aviasales.kz,www.aviasales.md,www.aviasale
 cq.ru##.--ligastavok
 knigavuhe.org##.-adfb
 onedivision.ru##.-hidden-adv
-new.dtf.ru##.ALMGcspq
+dtf.ru,new.dtf.ru##.ALMGcspq
 ua-ix.biz##.Advertising
 meduza.io##.App-bannerBottom
 meduza.io##.App-bannerTop
@@ -15148,7 +15146,6 @@ uralweb.ru##.padspo
 opensharing.org##.page :not(#container-top) > blockquote
 pravda.ru##.page > .header
 audit-it.ru##.page > .header > .col_r
-dtf.ru,vc.ru##.page > a[href^="http"]
 3ppc.net##.page > div > center > noindex
 cyberforum.ru#?#.page > div[align="left"] > table[style^="margin: 3px 0px"]:-abp-has(script)
 mydiv.net##.page-banner__wrapper
@@ -15602,7 +15599,7 @@ root-nation.com##.rn-widget
 in-english.club##.roll_autoplay_ads
 novgorod.ru##.root > .bigb
 matematikalegko.ru##.rotac_reklama
-new.dtf.ru,officepackage.info##.rotator
+dtf.ru,officepackage.info##.rotator
 milknet.ru##.rotator-wrap
 bestradio.fm##.row .panel-danger
 5-tv.ru##.row > .col3.positionRelative
@@ -17971,7 +17968,6 @@ realnoevremya.ru##body > div:not([id]):not([class])[style^="width: 350px;"]
 remake.net.ru,zarlit.com##body > div[align="center"]
 gamesisart.ru##body > div[align="left"][style^="position: fixed;"]
 siver.com.ua##body > div[align="right"] > span
-dtf.ru##body > div[class$="-promo-popover"]
 999.md,delo.ua,nevasport.ru##body > div[class*="branding"]
 asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##body > div[class*="f"][class*="x"]:not([id])
 progipertoniyu.ru##body > div[class*="modal"]
@@ -18114,6 +18110,7 @@ fragrantica.ru#?#div:-abp-has(> a[href^="/goto.php"])
 serveradmin.ru#?#div:-abp-has(> a[href^="https://serveradmin.ru/devops"])
 serveradmin.ru#?#div:-abp-has(> a[href^="https://serveradmin.ru/otus"])
 point.md#?#div:-abp-has(> article > div > a[href*="/business/"])
+dtf.ru#?#div:-abp-has(> div > [class^="skeleton-"] ~ [class^="skeleton-"])
 photoshop-besplatno.org#?#div:-abp-has(> div > [href*="bit.ly"])
 nonameno.com#?#div:-abp-has(> div > [href*="dex.browser"])
 rusprofile.ru,tvin.su#?#div:-abp-has(> div > [id^="adfox_"])
