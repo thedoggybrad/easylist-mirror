@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: gHqCCjyL+UP/W5ia4WF9yg
-! Version: 202310050410
+! Checksum: JHMGUyMIQBFGe2ynMzi7Pg
+! Version: 202310050420
 ! Title: ABPVN List
-! Last modified: 05 Oct 2023 04:10 UTC
+! Last modified: 05 Oct 2023 04:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 05 Oct 2023 10:33:21 UTC+7
+! Last modified: 05 Oct 2023 11:18:33 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -115,6 +115,7 @@
 ||datcang.vn/images/khicon.jpg
 ||dinhnghia.vn^*.gif
 ||ducvietonline.de/*banner$image
+||dztruyen.com$csp=script-src 'self' 'unsafe-inline'
 ||ff.imacdn.com^$image,media
 ||file1.dangcongsan.vn^*.gif$image
 ||film365.in/Theme/js/popup-bt.js
@@ -473,6 +474,7 @@
 ||genieesspv.jp^$third-party
 ||genmonet.com^
 ||grubsnuchale.com^
+||grunoaph.net^
 ||hizopforkajf.com^
 ||hoosgowhandbow.com^
 ||hqq.to^$popup
@@ -480,8 +482,10 @@
 ||imad24.com^
 ||img.yeuketqua.net^
 ||ionigravida.com^
+||koolawet.net^
 ||lenthyblent.com^
 ||link.cado.pro^
+||m2e6t0d57rudx9y0edn8xhaw5fh8awjxla25cz8s0zwj5auc7ahw1far3x8d.com^
 ||mairbeets.com^
 ||meta.vn^$third-party
 ||moldingruching.com^
@@ -513,6 +517,7 @@
 ||vilinswell.com^
 ||vipads.live^
 ||xenosmussal.com^
+||xqhwhsqxxoh.xyz^
 !---------------Element Hiding--------------
 ###banner-top
 ###mobileCatfish
