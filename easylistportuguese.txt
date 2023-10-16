@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HtjK/Mxg75cngQDcjTiYSw
-! Version: 202310060631
+! Checksum: vpHooqVcK9PckOpDXKN+3w
+! Version: 202310160951
 ! Title: EasyList Portuguese
-! Last modified: 06 Oct 2023 06:31 UTC
+! Last modified: 16 Oct 2023 09:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -869,6 +869,7 @@ iol.pt,meo.pt##.iol-comercial-placement
 uol.com.br##.itemAds
 jornaldocarro.estadao.com.br##.jc-saiba-mais
 trabalhabrasil.com.br##.jg__ads
+trabalhabrasil.com.br##.jg__ads__full
 nextpit.com.br##.jobbioapp
 vivareal.com.br##.js-advertising
 adorocinema.com##.js-emergence-countdown
@@ -1012,10 +1013,12 @@ climatempo.com.br,tempoagora.uol.com.br##.wrapper-banner
 escolakids.uol.com.br,mundoeducacao.uol.com.br##.wrapper-bnr
 multinews.sapo.pt##.yxzmwgdi
 forum.zwame.pt##.zwame-side-spons
+trabalhabrasil.com.br##[asp-add-nonce]
 gazetadopovo.com.br##[class*="style_card-ads-brended-content"]
 forum.techtudo.globo.com##[class^="Advertisingstyles_"]
 metropoles.com##[class^="PublicidadesWrapper-"]
 jn.pt,ojogo.pt##[class^="t-pub-box-"]
+trabalhabrasil.com.br##[data-pg-ad]
 anitube.cx,automotivebusiness.com.br,calangodocerrado.net,noticiafamosos.com.br,portalmaquinasagricolas.com.br##[href*="bit.ly/"]
 tribunaonline.com.br##a[href^="/branded-content/"]
 myfilmestorrent.net##a[href^="/free.php?"]
