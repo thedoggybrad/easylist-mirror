@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: aHmAjNQeyj/lMXpNpBvKuw
-! Version: 202310161620
+! Checksum: 7cfjB1onfXc+4RdOCztamQ
+! Version: 202310161630
 ! Title: ABP filters
-! Last modified: 16 Oct 2023 16:20 UTC
+! Last modified: 16 Oct 2023 16:30 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -785,7 +785,7 @@ onscreens.me#$#abort-on-property-read localStorage; abort-on-property-read asgPo
 manga1000.top#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 ling-online.com#$#abort-current-inline-script document.documentElement JSON.parse
 hortonanderfarom.blogspot.com#$#override-property-read setTimeout noopFunc
-*$popup,third-party,domain=strtapeadblocker.art|strtapeadblock.me|mreader.co
+*$popup,third-party,domain=kimcartoon.li|kisscartoon.com|mreader.co|strtapeadblock.me|strtapeadblocker.art
 userload.co#$#abort-current-inline-script $ Math.random
 tubeload.co#$#abort-on-property-write BetterJsPop
 hotleak.vip#$#abort-on-property-read advertising
@@ -1187,7 +1187,7 @@ filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
 ||razlozhi.ru^$script,header=report-to
-avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
+avtovzglyad.ru,dni.ru,baby.ru,doramatv.live,selflib.me#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
 ||liveinternet.ru^$xmlhttprequest,header=Uniformat-Product-Type
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
