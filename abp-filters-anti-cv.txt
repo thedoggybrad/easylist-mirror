@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: CRUand81Xb6HYQHG1dYKgw
-! Version: 202310171431
+! Checksum: 8kYNW4o8u0oeJsZViUfZjA
+! Version: 202310171440
 ! Title: ABP filters
-! Last modified: 17 Oct 2023 14:31 UTC
+! Last modified: 17 Oct 2023 14:40 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -936,7 +936,7 @@ simply-hentai.com#$#hide-if-matches-xpath './/div[contains(@style,"pointer")]/pa
 xgroovy.com#$#hide-if-matches-xpath './/div[@class and @style]/div[@class][@id]/div[@class]/ancestor-or-self::div[@class][contains(@style,"order")][1]'; hide-if-matches-xpath './/a[@real-href][@onmouseup]//div[@style]/ancestor::div[@class][2]';
 xgroovy.com#$#abort-on-property-write exoAdSubId; abort-on-property-write AdProvider;
 ||tubesafari.com/*/new_popunder.js$domain=tubesafari.com
-tubesafari.com#$#debug; override-property-read initialize_page noopFunc
+tubesafari.com#$#override-property-read initialize_page noopFunc
 ||older-women-porn.com/black-credit-71cc^$domain=older-women-porn.com
 lesbian8.com,older-women-porn.com,pimpandhost.com,silkengirl.net#$#prevent-listener getexoloader; abort-on-property-read ExoLoader; abort-on-property-read ExoLoader.addZone; abort-on-property-read ExoLoader.serve;
 pimpandhost.com##div[class$="aablock_yes"]
