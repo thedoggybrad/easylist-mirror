@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: 5wQu9tQIu+HA+j6Ehh8j+A
-! Version: 202310171440
+! Checksum: lhn7lygbjdGh8y7uowNBIw
+! Version: 202310171450
 ! Title: ABPVN List
-! Last modified: 17 Oct 2023 14:40 UTC
+! Last modified: 17 Oct 2023 14:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 17 Oct 2023 15:08:41 UTC+7
+! Last modified: 17 Oct 2023 21:40:11 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -35,7 +35,7 @@
 /adv/*$image,domain=bongdaso66.net|bongdaso12.com
 /assets/themes/js/ads$script,domain=phim18zz.com
 /banner-ads.
-/banner/*.gif,domain=~tvphapluat.vn
+/banner/*.gif$domain=~tvphapluat.vn
 /blueserving.
 /core/*$script,domain=gamek.vn|genk.vn|kenh14.vn|cafef.vn
 /disable-devtool.min.js$script
