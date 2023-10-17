@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 319b7r1VpXnDikUKuW3RSQ
-! Version: 202310170610
+! Checksum: 0+RujM47qozI76fc5XO8WQ
+! Version: 202310170620
 ! Title: EasyPrivacy without international filters
-! Last modified: 17 Oct 2023 06:10 UTC
+! Last modified: 17 Oct 2023 06:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -29799,6 +29799,7 @@ arketing.indianadunes.com^
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
 @@||glookup.info/api/json/$domain=grabify.link
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
+@@||gsuite.tools/js/gtag.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
