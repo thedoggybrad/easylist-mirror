@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VMYTNE6uaalt+Nzhipzf9w
-! Version: 202310171020
+! Checksum: imLse4fQFDH8a7dELij3FA
+! Version: 202310171031
 ! Title: RU AdList
-! Last modified: 17 Oct 2023 10:20 UTC
+! Last modified: 17 Oct 2023 10:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16087,7 +16087,6 @@ root-nation.com##.td-stretch-content
 newsmsk.com##.td_only_right td[height="300"]
 ladylib.net##.td_poisk[style*="background:#f5f0e8;"]
 yaizakon.com.ua#?#.tdc-content-wrap > .tdc-row:-abp-has(> div > div > .wpb_wrapper > div > style ~ h4 > span:-abp-contains(/наши партнеры/i))
-root-nation.com##.tdi_89
 pravda.if.ua##.tds-button > a[href="https://pravda.if.ua/zamovyty-reklamu/"]
 tehnoyug.com##.tdsAd
 hardstones.ru,omaske.ru,potolokspec.ru,selok.ru##.teaser
@@ -18050,6 +18049,7 @@ www.google.com,www.google.ru##body > table[style="border: 1px solid #369"]
 christianka.bratstvo.org##body > table[width="99%"] + p[align="center"]
 payeer-gift.ru##body div .banner
 om1.ru##body div[class*="-branding"]
+root-nation.com##body.home #tdi_89
 prodota.ru##body:not([class*="ipsApp"]):not([data-role="externalEmbed"]) > :not(.main):not(iframe)
 livetvstream.pro,me##body[bgcolor] > #adbtm
 livetvstream.pro,me##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
