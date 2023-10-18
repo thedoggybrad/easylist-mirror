@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310182330
+! Version: 202310182353
 ! Title: Fanboy's Annoyance List
-! Last modified: 18 Oct 2023 23:30 UTC
+! Last modified: 18 Oct 2023 23:53 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -25458,6 +25458,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###zoneCookie
 ###zone_cookie
 ###zp-footer-cookiesettings-overlay
+###zpcookie-banner
 ###zse-cookie-container
 ###zsmsg-policy
 ###zw_cookie_law_short_info
@@ -44485,6 +44486,7 @@ kommersant.ru##.network
 avtoradio.ru##.ok
 kinoland.biz##.page__share
 rambler.ru##.share__list > *
+aif.ru##.sharing_item
 caravan.kz##.sm-list
 academic.ru##.smm
 latuaitalia.ru##.sn
@@ -44865,6 +44867,8 @@ kudika.ro##.subscribers-area
 ! Russian
 kommersant.uk##.article-subscribe
 tonkosti.ru##.journal-subscribe
+aif.ru##.overlay
+aif.ru##.subscribe_popup
 aif.ru##.subscribe_wid
 kommersant.uk##.subscription-form
 ! Serbian
