@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6vCHTBqD9xnYmskZ62gbtg
-! Version: 202310180940
+! Checksum: ZzvgQmk0pkShH9dzAz3c/g
+! Version: 202310180950
 ! Title: RU AdList
-! Last modified: 18 Oct 2023 09:40 UTC
+! Last modified: 18 Oct 2023 09:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16084,7 +16084,6 @@ dontimes.news#?#.td-post-content > p:-abp-has(> i > [onclick^="yaCounter"])
 yaizakon.com.ua#?#.td-post-content > p:-abp-has(> ins)
 dialogs.org.ua##.td-ss-main-content > div[style="margin-top: 40px;"] ~ *
 mister-blister.com##.td-ss-main-sidebar
-root-nation.com##.td-stretch-content
 newsmsk.com##.td_only_right td[height="300"]
 ladylib.net##.td_poisk[style*="background:#f5f0e8;"]
 yaizakon.com.ua#?#.tdc-content-wrap > .tdc-row:-abp-has(> div > div > .wpb_wrapper > div > style ~ h4 > span:-abp-contains(/наши партнеры/i))
@@ -18545,6 +18544,7 @@ zr.ru#?#div[class^="styled__Suspendable"]:-abp-has([data-relap-id])
 life.ru##div[class^="styles_fullWidthContainer"][class*=" indentRules_marginTop"]
 moyareklama.by,moyareklama.ru##div[class^="super_context"]
 pythonru.com##div[class^="td-"][class*="-rec "]
+root-nation.com##div[class^="td-header"] .td-stretch-content
 glavpost.com,ittour.com.ua,meta.ua,prohondroz.ru##div[class^="teaser"]
 dlltop.ru##div[class^="tm-article-banner"]
 odeve.ru##div[class^="toneBlock"]
@@ -23313,6 +23313,7 @@ horo.mail.ru##div[class*="directhack"]
 horo.mail.ru##div[class^="p-branding"]
 horo.mail.ru##div[class^="rb_"]
 horo.mail.ru##div[data-adq-id]
+horo.mail.ru##div[data-closewrap-container]
 horo.mail.ru##div[data-module^="Slot.Mimic"]
 ! Дзен
 dzen.ru##.article-right-ad-block
@@ -23370,6 +23371,7 @@ lady.mail.ru##.sticky-springs__item
 @@||lady.mail.ru^$generichide
 lady.mail.ru##div[article-item-type="conversionlink"]
 lady.mail.ru##div[class*=" rb_"]
+lady.mail.ru##div[class*="rb-slot"]
 lady.mail.ru##tr > .daynews__spring
 ! Love
 love.mail.ru##.TopBannerSlot
@@ -23519,7 +23521,7 @@ dom.mail.ru##.cols__inner > .root-Article ~ .margin_top_20
 light.mail.ru##.direct_septima
 games.mail.ru##.informer
 games.mail.ru##.js-aab_target
-dom.mail.ru##.js-fixed-panel > .box
+dom.mail.ru,tv.mail.ru##.js-fixed-panel > .box
 tv.mail.ru##.js-popup_banner
 tv.mail.ru##.js-slot__content:empty
 minigames.mail.ru##.left-advert-block
@@ -23580,6 +23582,7 @@ maps.mail.ru##img[width="200"][height="30"]
 ||pets.mail.ru/my/pets/add
 ||r.mail.ru/*=videoplayer$popup,domain=my.mail.ru
 ||r.mradx.net/*link1=$subdocument
+||r.mradx.net/img/2A/32531E.jpg
 ||r.mradx.net/r/$script
 ||redatastore.ru^$csp=script-src
 ||sportmail.ru^*/BookmakersFooter/
@@ -25948,8 +25951,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
