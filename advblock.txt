@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hA52LNdgVc5bSclSJgRrbw
-! Version: 202310181531
+! Checksum: s5x4TnVKiwAmkwsPpHDtdQ
+! Version: 202310181540
 ! Title: RU AdList
-! Last modified: 18 Oct 2023 15:31 UTC
+! Last modified: 18 Oct 2023 15:40 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11439,7 +11439,6 @@ zakarpattya.net.ua###B4
 poiskvps.ru###BlueA
 anime-free.one###Comm
 tutu.ru###DBdesktopBillboard
-softportal.com###EcpXfLZX
 rp5.am,rp5.by,rp5.co.nz,rp5.co.uk,rp5.kz,rp5.lt,rp5.lv,rp5.md,rp5.ru###FheaderContent > #archiveString ~ div[id]:not([class]):not([id="forecastShort"])
 nday.te.ua###Flash
 7days.ru###GPM_7days_D_Top
@@ -19042,6 +19041,7 @@ smart-lab.ru##div[style^="min-height: 250px;"][style*="font-size: 0;"]
 liveposts.ru##div[style^="min-height: 700px;"]
 open3dmodel.com##div[style^="min-height:"][style$="px;"]
 point.md##div[style^="min-height:"][style*="250px"]
+softportal.com##div[style^="min-height:28"]
 1pnz.ru##div[style^="position: relative; width: 230px; height: 400px"]
 lostfilmstv.com##div[style^="promo"]
 kinonews.ru##div[style^="text-align:"][style*="center;"][style*="height:"]
@@ -22358,7 +22358,7 @@ lada.kz/uploads/banners/
 ||soft.sibnet.ru/dist/js/ya-pack_banners.js
 ||soft4xp.ru/rss_news.php
 ||softoroom.net/2pclick/
-||softportal.com/*_*.html|$xmlhttprequest,domain=softportal.com
+||softportal.com/*.html|$xmlhttprequest,domain=softportal.com
 ||softportal.com/img/qwer.
 ||softportal.com/img/tlmn.
 ||softportal.com/js/download_counter.js
@@ -25953,8 +25953,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
