@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2OKpPNYXkNgRuZt3YSobeQ
-! Version: 202310192010
+! Checksum: 0ZZffXPK/QZ1UD+E0nv/Aw
+! Version: 202310192020
 ! Title: RU AdList
-! Last modified: 19 Oct 2023 20:10 UTC
+! Last modified: 19 Oct 2023 20:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12790,8 +12790,6 @@ anekdot.ru##.a_mh250
 sharij.net##.a_top
 altapress.ru##.a_top_place
 obyava.ua##.ab-block
-game-tournaments.com##.abg
-game-tournaments.com##.ablive
 sd.ua##.ablock
 cont.ws##.ablock_side
 healthinfo.ua##.abox
@@ -16551,6 +16549,7 @@ macilove.com##.ya-candy
 infox.ru##.ya-invite-block
 u-f.ru##.ya-news
 bestpersons.ru##.ya-partner_ads-up > *
+game-tournaments.com##.yaadstracker
 softportal.com##.yablock
 obsuzhday.com##.yad
 mytor.info##.yamin
@@ -17504,7 +17503,7 @@ mix.tj##a[href^="/engine/"]
 cyclone-soft.com,gameshake.ru,hide-info.pro##a[href^="/engine/dude/index/leech_out.php"]
 maw.ru##a[href^="/ent.php"]
 sportnet.live##a[href^="/fon"]
-gdetoedet.ru,loadtorrentfilm.com,torrentikofilm.com,uzum.tv##a[href^="/go"]
+game-tournaments.com,gdetoedet.ru,loadtorrentfilm.com,torrentikofilm.com,uzum.tv##a[href^="/go"]
 poisk-ru.ru##a[href^="/go"][href*=".php"]
 cyberpedia.su,infopedia.su,lektsii.org,megaobuchalka.ru,studopedia.info,studopedia.net,studopedia.org,studopedia.ru,studopedia.su##a[href^="/go"][href*=".php"][target="_blank"]
 bdsmplaneta.com##a[href^="/go.php"]
@@ -20966,7 +20965,7 @@ lada.kz/uploads/banners/
 ||fvhm.ru^$object
 ||fwdcdn.com/frame/partners/
 ||fwdcdn.com/img/partners/$domain=sinoptik.ua
-||game-tournaments.com/media/b/
+||game-tournaments.com/media/a/
 ||game2day.ru//uploads/Images/1920X1080.jpg
 ||gamebomb.ru/images/sma.
 ||gameinside.ua^*/branding$image
@@ -25956,8 +25955,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
