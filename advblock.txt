@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UedONZCPAzMgnFBz4U1Qig
-! Version: 202310191610
+! Checksum: 5Ive16b1KzT5/6ZV4nly1g
+! Version: 202310191620
 ! Title: RU AdList
-! Last modified: 19 Oct 2023 16:10 UTC
+! Last modified: 19 Oct 2023 16:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14106,6 +14106,7 @@ proglazki.com##.entry-content > table[border]
 zhzh.com.ua,zhzh.info#?#.entry-galery:-abp-has(> .entry-galery-title:-abp-contains(/полезное объявление|горячие новости/i))
 livejournal.com##.entry-wrap-promo
 irc.lv##.entry.b-form + .entry
+livejournal.com##.eplayer-time-to-ad
 espanarusa.com##.er-banner
 cpa.rip##.eriuue-content
 rating-avto.ru##.erm-sidebar-part.hs-shadow[id] > .textwidget
@@ -16765,7 +16766,6 @@ vse42.ru##[data-adplace-inited]
 teknoblog.ru##[data-advadstrackid]
 bryansknovosti.ru,novozybkov.su#?#[data-alias="Copyright"] .widget-area > .widget_text:not(:last-child):-abp-has(script)
 dtf.ru,vc.ru##[data-analytics*="native"]
-livejournal.com##[data-autoplay-dockable-video-mount]
 buhonline.ru,zakon.ru##[data-banner-id]
 focus.ua,sovets.net,tvtver.ru##[data-banner]
 tophotels.ru##[data-bh]
@@ -16926,6 +16926,7 @@ nashamama.com#?#[itemprop="articleBody"] > p:-abp-contains(/ТЬСЯ ТАКОЖ/
 fedpress.ru##[itemtype*="://schema.org/NewsArticle"] .article-box + div[style="padding: 10px"]
 itsider.com.ua,mmr.net.ua,obozvrn.ru,rama.com.ua,subbota.ua,youtebem.com##[itemtype="https://schema.org/WPAdBlock"]
 cheezu.ru##[jello-component="yamarket"]
+livejournal.com##[lj0sale0autoplay0dockable0video0mount]
 egamersworld.com##[name="odds"]
 car.ru,floristics.info##[onclick*="//zen.yandex.ru/"]
 myshows.me##[onclick*=":hd.kinopoisk.ru"]
@@ -18308,6 +18309,7 @@ dorognoe.ru,europaplus.ru,radio7.ru,retrofm.ru##div[class][data-element*="BANNER
 mk.ru,prnt.sc##div[class][style*="important"]
 rlocman.ru##div[class][style="background-color:#fcfcee;padding:10px"]
 puzzleheap.ru##div[class][style^="height:"][id]:empty
+livejournal.com#?#div[class][style^="height:"][style*="background-color: black; position: relative;"]:-abp-has([src*="docking"][src*="eaglecdn"])
 vse42.ru##div[class][style^="min-height:"][style*="display: flex; width: 100%"]
 news.pn##div[class][style^="width:"][style$="300px;"]
 news.finance.ua##div[class^="Advertising"]
@@ -19946,6 +19948,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /*aHR0c$third-party,domain=fenglish.site|ling-online.com|www.mp4upload.com
 /*banner*.php|$subdocument,domain=anistar.org|astar.bz|online-star.org|online-stars.org
 /*baxter*/olx*.min.js$domain=olx.kz|olx.ua|olx.uz
+/*docking*eaglecdn$subdocument,domain=livejournal.com
 /*vue-chunk.booster.$script,domain=dtf.ru|vc.ru
 /75tr_*_edge.js$domain=xn----7sbaegss0bebjcb2g.xn--p1ai
 /?ads_service=$domain=namba.kg|namba.kz
@@ -22469,7 +22472,7 @@ lada.kz/uploads/banners/
 ||streamapps.ru^$script
 ||streamguard.cc^*.js|$script
 ||strikes.ru/steamtrade_net$image
-||strm.yandex.ru^$domain=1tv.ru|karaoke.ru|mediavitrina.ru
+||strm.yandex.ru^$domain=1tv.ru|karaoke.ru|livejournal.com|mediavitrina.ru
 ||stroitel-lab.ru/js_content/
 ||stroy-podskazka.ru/adfallback/
 ||stroy.ykt.ru/themes/default/js/owlcarousel/
@@ -23013,6 +23016,7 @@ lada.kz/uploads/banners/
 !
 ! Rewrite rules
 !#if ext_abp
+||livejournal.com/video/check?recordId=$xmlhttprequest,rewrite=abp-resource:blank-text,domain=livejournal.com
 ||s-cdn.org/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||s-club.tv/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||ts.kg/olol*.mp4$rewrite=abp-resource:blank-mp4,domain=ts.kg
@@ -25953,8 +25957,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
