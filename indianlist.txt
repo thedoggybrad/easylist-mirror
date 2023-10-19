@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oq8conllpgRDaEcHSSzapg
-! Version: 202310191210
+! Checksum: f/K3AxVY2V0ujyG7WaBkww
+! Version: 202310191220
 ! Title: IndianList
-! Last modified: 19 Oct 2023 12:10 UTC
+! Last modified: 19 Oct 2023 12:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4400,6 +4400,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||tamilenews.com^*/encl_bookshelf
 ||tamilkurinji.net/images_/Side%20dish-300x250.jpg
 ||tamilmanam.net/v3_images/harvard_tamil_chair.png
+||tamilnews.cc/uploads/ads/
 ||tamilolli.com/images/kannaa.jpg
 ||tamilolli.com/images/rami.jpg
 ||tamilolli.com/images/tamildesam.jpg
@@ -5110,7 +5111,7 @@ aajkijandhara.com,nwnews24.com###block-13
 asomkhobor.com,ghaziabad365.com,sachetonbarta.com.bd###block-14
 peptechtime.com###block-142
 khabardarinews.com###block-15
-sajhamanch.com,smartindiadial.com,telugumalli.com###block-16
+mediyaan.com,sajhamanch.com,smartindiadial.com,telugumalli.com###block-16
 ojasvitimes.in,telugumalli.com###block-17
 24hrnews.in###block-178
 khabarok.com###block-18
@@ -8859,6 +8860,7 @@ suprovatsydney.com.au#?#.box_header:-abp-contains(Advertising)
 khabarhikhabar.com##table[style^="width: 100%; background-color: rgb(255, 238, 0);"]
 krantikarisanket.in##table[width="300"][bgcolor="#F0F0F0"]
 bihardootnews.com##tagdiv
+tamilnews.cc#?#.main-menu ~ .container div:-abp-has(> a > img[src*="/uploads/ads/"])
 tamizhakam.com#?#p:-abp-contains(Advertisement)
 tarunbharat.com#?#.a-wrap:-abp-has(div[id^="div-gpt-ad"])
 telugugateway.com#?#div:-abp-has(> ins.adsbygoogle)
