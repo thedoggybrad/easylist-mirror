@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202310200044
+! Version: 202310200054
 ! Title: EasyPrivacy
-! Last modified: 20 Oct 2023 00:44 UTC
+! Last modified: 20 Oct 2023 00:54 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1333,6 +1333,7 @@
 /iperceptions/*
 /iperceptions_
 /ips-invite.iperceptions.com/*
+/iterable/track/*
 /itgdtracksdk.
 /itmdp_code.
 /ivw/SP/*$image,script
@@ -9633,6 +9634,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||awe.sm/conversions/
 ||aweber.com/form/displays.htm?$image
 ||awesome.section.io^
+||awswaf.com^*/report
 ||awswaf.com^*/telemetry
 ||ax.babe.today^
 ||axislogger.appspot.com^
