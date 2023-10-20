@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Fesaw3XaTOfkS+Pwo53h1A
-! Version: 202310200110
+! Checksum: crl9/b2vVxQxqBq15MJUjA
+! Version: 202310200120
 ! Title: EasyPrivacy without international filters
-! Last modified: 20 Oct 2023 01:10 UTC
+! Last modified: 20 Oct 2023 01:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -937,6 +937,7 @@
 /event/visit?
 /event?event_id=
 /event?eventType=
+/event?s=$ping
 /event_log/*
 /event_logger
 /event_logging/*
