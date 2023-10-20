@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: dJvqxbz5kxLVyIlkXdZ5LA
-! Version: 202310200910
+! Checksum: uz/oNGakxFchOaJcseb71w
+! Version: 202310200920
 ! Title: ABPVN List
-! Last modified: 20 Oct 2023 09:10 UTC
+! Last modified: 20 Oct 2023 09:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 20 Oct 2023 13:43:59 UTC+7
+! Last modified: 20 Oct 2023 16:09:44 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -532,7 +532,6 @@
 ||vilinswell.com^
 ||vipads.live^
 ||xenosmussal.com^
-||xqhwhsqxxoh.xyz^
 !---------------Element Hiding--------------
 ###ads-preload
 ###banner-top
@@ -1395,7 +1394,7 @@ vndoc.com#@#.showads
 !------ ABPVN Adult block -------
 $third-party,script,domain=sexdiaryx.us
 /player/vast.js
-/wp-content/uploads/*.gif$image,domain=tuoi69.pro|tuoinung.cc|tphimsex.club
+/wp-content/uploads/*.gif$image,domain=tuoi69.pro|tuoinung.cc
 ||cdn.adxcontent.com^
 ||cdn.javbabe.net^$subdocument
 ||cliphot69.biz$csp=script-src 'self' 'unsafe-inline'
