@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: +j9Z2MuliDtOgo4MJ+C8kA
+! Checksum: 3Lox52+UGAcZ4WVb2HGDIg
 ! Title: Easylist Cookie List
-! Updated: 2023-10-20 04:00 UTC
+! Updated: 2023-10-20 04:45 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -114,6 +114,7 @@
 /ccpa/prod/*
 /cdcookie/*
 /checkCookieConsent/*
+/ckpl-webc.min.js
 /cm-body.js
 /cmp-init.js
 /cmp-loader.js
@@ -726,7 +727,8 @@
 /keksikysely.min.js
 /kixsimpletrack/*
 /klaro-cookieconsent/*
-/klaro-no-css.$~script
+/klaro-no-css.js
+/klaro-no-translations-no-css.js
 /klaro-styles.min.
 /leyCookies.js
 /lgdpscript.min.js
@@ -21015,6 +21017,8 @@ favoptic.de,favoptic.dk,favoptic.fi,favoptic.no##.cookie_consent_alert
 landal.at,landal.be,landal.ch,landal.co.uk,landal.com,landal.de,landal.dk,landal.no##consent-slide-in-component
 !! traventia.*
 traventia.es,traventia.fr##.CookiesBanner_PostionBanner__Yh_Dm
+!! msmode.*
+msmode.be,msmode.de,msmode.es,msmode.lu,msmode.nl##.modal-background
 !! mtbiker.*
 mtbiker.cz,mtbiker.de,mtbiker.hu,mtbiker.shop,mtbiker.sk###biscuitModal
 !! lovehoney.com
