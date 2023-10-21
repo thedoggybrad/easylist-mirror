@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202310210101
+! Version: 202310210109
 ! Title: EasyPrivacy
-! Last modified: 21 Oct 2023 01:01 UTC
+! Last modified: 21 Oct 2023 01:09 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2076,6 +2076,7 @@
 /pvcounter/*
 /pvcounter?
 /PvCountUp.action
+/pvevents.gif?
 /pvmax.js
 /pvnoju.js
 /px.gif?
@@ -12999,11 +13000,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.prom.ua^
 ||webvitals.luxnet.ua^
 ! Vietnamese
+||accesstrade.vn/js/trackingtag/
 ||analytics.yomedia.vn^
 ||countervov.emitech.vn^
 ||f-emc.ngsp.gov.vn^
 ||fpt.shop/fa_tracking.js
 ||px.dmp.zaloapp.com^
+||st-a.cdp.asia^
 ||tracking.aita.gov.vn^
 ||tracking3.vnncdn.net^
 ||za.zalo.me^
@@ -31917,6 +31920,7 @@ arketing.indianadunes.com^
 ||analytics.cnblogs.com^
 ||analytics.oceanengine.com^
 ||analytics.shop.hisense.com^
+||api.ea3w.com/hits.js
 ||apilog-web.acfun.cn^
 ||apiwmda.58.com.cn^
 ||applog.yiche.com^
@@ -31973,6 +31977,7 @@ arketing.indianadunes.com^
 ||jcm.jd.com^$script,third-party
 ||jcmonitor.xcar.com.cn^
 ||jiayuan.com^*/pv.js
+||js.ea3w.com/pv.js
 ||kn007.net/snmp.php
 ||le.com/op/
 ||log.aliyuncs.com^
@@ -32131,6 +32136,7 @@ arketing.indianadunes.com^
 ||zhihu.com/collector/
 ||zhihu.com/zbst/events/
 ||zio.xcar.com.cn^
+||zol-img.com.cn^*/logger.js
 ||zongheng.com^*/logger.min.js
 ||zz.bdstatic.com^
 ! Croatian
