@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6RChmNDMGPYpYnxD0cb+HQ
-! Version: 202310210930
+! Checksum: TmmN5A+NHWgxmQCjrHXYIg
+! Version: 202310210940
 ! Title: RU AdList
-! Last modified: 21 Oct 2023 09:30 UTC
+! Last modified: 21 Oct 2023 09:40 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17873,6 +17873,7 @@ repetit-center.ru##aside > a[href][onclick="return !window.open(this.href)"]
 fontanka.ru#?#aside > div:-abp-has(> [id^="adv_"])
 point.md#?#aside > div:-abp-has(> a[href*="utm_campai"])
 fontanka.ru#?#aside > div:-abp-has(> div > [id^="adv_"])
+shazoo.ru#?#aside > div:-abp-has(> iframe[src*="://goodgame.ru/html/embed-player/"])
 bitcryptonews.ru#?#aside > div:-abp-has(script)
 www.fontanka.ru##aside > div:not([id]):not([class])
 point.md#?#aside > div[class]:-abp-has(> div > [id*="adsense"])
@@ -25772,7 +25773,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@/js/advert.js$~third-party
 @@/js/prebid-ads.js|$script,domain=2rezka.ru|hdrezka.by|key-hub.eu|old-games.ru
 @@/js/siropu/am/ads.min.js$script,~third-party,domain=customgames.ru|fantasticcraft.ru
-@@/jspopunder.js|$script,~third-party,domain=game4you.top|games-pc.top|innal.top|naylo.top|rustorka.com|rustorka.net|rustorka.top|rustorkacom.lib
+@@/layerad.js|$script,~third-party,domain=game4you.top|games-pc.top|innal.top|naylo.top|rustorka.com|rustorka.net|rustorka.top|rustorkacom.lib
 @@/pagead2.$domain=axd.semestr.ru|d-mod.ru|elsyst.gnomio.com|htmlweb.ru|math.semestr.ru|minimalsy.xyz|mysmsbox.ru|ph4.ru|profatom.ru|pvpru.com|sitecoder.blogspot.ru|slushat-tekst-pesni.ru|sovremennoepravo.ru|survarium.pro|temp-mail.org|tests24.ru|trialkeys.ru|tvfeed.in|www.inoreader.com
 @@/player/player_ads.html$subdocument,domain=720video.me|bessporno.me|camsclips.biz|ebalovo.adult|ebalovo.porn|ebalovo.pro|lenkino.adult|pbembed.me|porno365.bingo|pornobit.mobi|pornobomba.click|pornobomba.vip|pornoham.me|pornomoll.red|porntn.com|private-records.com|ru-xvideos.me|russkoe21.com
 @@/templates/*/adblock/adframe.*.js$script,~third-party,domain=filmisub.com|kinofen.net
@@ -25955,8 +25956,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
