@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OhfGudDmx0gpBsnOIieCMA
-! Version: 202310211330
+! Checksum: sM9d7QMRHWtwNXdlXzl8WA
+! Version: 202310211340
 ! Title: RU AdList
-! Last modified: 21 Oct 2023 13:30 UTC
+! Last modified: 21 Oct 2023 13:40 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13534,8 +13534,8 @@ wotspeak.org##.blockmainkv
 turkru.tv##.blockreclam
 unvan.az##.blockreklam
 poltavaforum.com##.blocksubhead.righttb + a[style^="z-index:1000;"]
-superhumor.ru,voffka.com#?#.blog > .blogbody:-abp-has([href*="utm_"])
 wotsite.net##.blog-cat > .box[style^="height:"]
+superhumor.ru,voffka.com#?#.blogbody:-abp-has([href*="utm_"])
 zakon.ru##.blogtbg
 papillomy.com##.blok1
 omastopatii.ru##.blopr
@@ -17131,7 +17131,6 @@ kinobase.org##a[href*="://clcr.me/"]
 opennet.me,opennet.ru##a[href*="://click.opennet.ru/cgi-bin/"]
 newstudio.tv,player.rudub.co##a[href*="://cutter.li"]
 fast-torrent.tv##a[href*="://fast-torrent.tv/gomed.php"]
-superhumor.ru,voffka.com##a[href*="://feipiter.com/"]
 smartmama.com.ua,virus-stop.com.ua##a[href*="://flavovir.ua"] > img
 oterraria.ru##a[href*="://genshindrop.com/ref/"]
 pleogame.ru##a[href*="://go.pleogame.site/r/"]
@@ -17236,6 +17235,7 @@ forum.amit.ru##a[href*="evroremont.amit.ru"]
 ilenta.com,lelang.ru,rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org,shopping.nv.ua##a[href*="fas.st/"]
 pwcats.info##a[href*="fastrader.ru"]
 sport.ua,vringe.com##a[href*="favbet"][target="_blank"]
+superhumor.ru,voffka.com##a[href*="feipiter."]
 godendo.ru##a[href*="firmpage.ru"]
 allhockey.ru,soccer365-1.xyz,soccer365.ru,sovsport.ru##a[href*="fonbet.ru"]
 juventus.ru##a[href*="football-shopping.ru"]
@@ -25956,8 +25956,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
