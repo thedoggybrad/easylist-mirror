@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: foUG0DWAMwf7OtCJKCLmRg
-! Version: 202310232231
+! Checksum: VMo+bY/kwTaP2bYAMtmkLw
+! Version: 202310232241
 ! Title: EasyPrivacy without international filters
-! Last modified: 23 Oct 2023 22:31 UTC
+! Last modified: 23 Oct 2023 22:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1001,6 +1001,7 @@
 /freecgi/count.cgi?
 /friendbuy.min.js
 /frontend-gtag.min.js
+/frontend-metrics/*
 /frontend-sentry-
 /fsrscripts/*
 /fusion/lucid/data/*
@@ -1808,6 +1809,7 @@
 /performancetimer.js
 /perimeterx/*$domain=~github.com|~github.io
 /permalink-tracker.html?
+/permutiveIdGenerator.js
 /pf?pid=
 /pg_pixel?
 /pgtracking.
