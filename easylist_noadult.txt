@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UHcEwoznPIr4E8J2A6Kn+w
-! Version: 202310231031
+! Checksum: 6f7kVcdgENfqCyIoSDDQ+A
+! Version: 202310231041
 ! Title: EasyList without rules for adult sites
-! Last modified: 23 Oct 2023 10:31 UTC
+! Last modified: 23 Oct 2023 10:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -57944,6 +57944,7 @@ beincrypto.com##.ad-post-right-sidebar-1
 beincrypto.com##.ad-post-right-sidebar-2
 atlasobscura.com##.ad-site-top-full-width
 nationalreview.com##.ad-skeleton
+accesswdun.com##.ad-slider-block
 cnn.com##.ad-slot-header__wrapper
 cointelegraph.com##.ad-slot_NjPAE
 oann.com##.ad-slot__ad-label
@@ -58715,6 +58716,7 @@ infowars.com##.css-1upmbem
 ladbible.com##.css-1v521fz
 infowars.com##.css-1vj1npn
 healthline.com,medicalnewstoday.com##.css-1wm8u43
+gamingbible.com##.css-1z9hhh
 stylist.co.uk##.css-8me5ln
 eviemagazine.com##.css-9n98hk
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css-bs95eu
@@ -58724,6 +58726,7 @@ nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css
 eviemagazine.com##.css-re7z9l
 stylist.co.uk##.css-rybqcx
 healthline.com##.css-umsscj
+unilad.com##.css-zmf6il
 unmineablesbest.com##.ct_ipd728x90
 comparitech.com##.ct_popup_modal
 techspot.com##.cta
@@ -61236,6 +61239,7 @@ minecraft-schematics.com##a[href^="https://www.pingperfect.com/aff.php?"]
 provideocoalition.com##a[href^="https://www.provideocoalition.com/ghost/"]
 foxcincinnati.com##a[href^="https://www.safeauto.com"]
 sportscardforum.com##a[href^="https://www.sportscardforum.com/rbs_banner.php?"]
+accesswdun.com##a[href^="https://tinyurl.com"] > img
 foxcincinnati.com,warm98.com##a[href^="https://www.waltzbusiness.com/"]
 ynetnews.com##a[href^="https://www.xplorer.co.il/"]
 yugatech.com##a[href^="https://yugatech.ph/"]
@@ -61296,7 +61300,7 @@ issuu.com##div[class*="adPlacement"]
 issuu.com##div[class*="adSkyscraper"]
 justthenews.com##div[class*="block-simple-blockad-"]
 dallasnews.com##div[class*="features-ads"]
-ladbible.com,unilad.co.uk##div[class*="margin-Advert"]
+gamingbible.com,ladbible.com,unilad.co.uk,unilad.com##div[class*="margin-Advert"]
 apkcombo.com##div[class*="revamp-ads"]
 cryptoslate.com,newsbtc.com##div[class*="sticky-header"]
 politico.com##div[class*="styles_supercube_"]
@@ -61387,6 +61391,7 @@ walmart.ca##div[data-automation^="HookLogicCarousel"]
 reddit.com##div[data-before-content="advertisement"]
 theverge.com##div[data-concert]
 bedbathandbeyond.com##div[data-cta="plpSponsoredProductClick"]
+gamingbible.com,unilad.com##div[data-cypress^="sticky-header"]
 analyticsindiamag.com##div[data-elementor-type="header"] > section.elementor-section-boxed
 wayfair.com##div[data-enzyme-id="WssBannerContainer"]
 qwant.com##div[data-monitoring="adsWebSerpOk"]
