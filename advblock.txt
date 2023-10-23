@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +boX4Szv+1xn7F2SG0VrWQ
-! Version: 202310231240
+! Checksum: hTYbbxQF3qYaDESxLIByUw
+! Version: 202310231251
 ! Title: RU AdList
-! Last modified: 23 Oct 2023 12:40 UTC
+! Last modified: 23 Oct 2023 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14653,7 +14653,6 @@ champion.com.ua#?#.l-col > .widget__title:-abp-contains(/ партн/) ~ .listin
 www.tut.by##.l-main > .b-top + .b-top
 kazanutlary.ru##.l-mainAdArea
 cy-pr.com##.l-navigation-i > noindex
-asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##.l-t-f
 obogrevguru.ru,termogurus.ru##.l2
 38mama.ru##.lad
 investing.com##.largeBannerCloser
@@ -15642,7 +15641,6 @@ rubukkit.org##.rubadv-top-in
 tut.by##.rubric-brand
 medside.ru##.rusfond-block
 amurmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,priamurmedia.ru,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,stavropol.media,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##.s-banner
-asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##.s-p-b
 stroy.ykt.ru##.s-slider
 map.cn.ua##.sModuleContent
 latifundist.com##.sa_widget
@@ -17986,6 +17984,8 @@ realnoevremya.ru##body > div:not([id]):not([class])[style^="width: 350px;"]
 remake.net.ru,zarlit.com##body > div[align="center"]
 gamesisart.ru##body > div[align="left"][style^="position: fixed;"]
 siver.com.ua##body > div[align="right"] > span
+asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##body > div[class$="-p"]
+asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##body > div[class*="-p"]:empty
 999.md,delo.ua,nevasport.ru##body > div[class*="branding"]
 progipertoniyu.ru##body > div[class*="modal"]
 votrube.ru##body > div[class]:last-of-type
@@ -22003,7 +22003,7 @@ lada.kz/uploads/banners/
 ||poufe.ru/promo/
 ||poultryukraine.com/data/image/banners/
 ||povarenok.ru/*/*project$stylesheet
-||povarenok.ru/*/sp.$stylesheet
+||povarenok.ru/css/*/sp$stylesheet
 ||povarenok.ru/i/*/*.jpg
 ||powerwaver.cc^*.js|$script
 ||pozdrav.ru/img/banners/
@@ -25958,8 +25958,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
