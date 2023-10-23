@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iWc913mwv+K0AZqKsbaJpQ
-! Version: 202310231150
+! Checksum: 5M8/ckghiSLxx+HBbhf5CA
+! Version: 202310231202
 ! Title: RU AdList
-! Last modified: 23 Oct 2023 11:50 UTC
+! Last modified: 23 Oct 2023 12:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2994,6 +2994,7 @@ _tizers.
 ||market.yandex.ru/widget$third-party
 ||master-push.com^$third-party
 ||match-center.playmaker24.ru/$third-party
+||match.org.ru^$third-party
 ||maxdps.ru^$third-party
 ||maxtrust.ru^$third-party
 ||mayka.kz^$third-party
@@ -15397,6 +15398,7 @@ psy-music.ru##.psyTopBanner
 znak.com##.pub-box
 ura.news##.publication-c4
 gdetoedet.ru##.pull-right > [class] ~ [class]
+game-tournaments.com##.pull-right > noindex
 ru-torrent.org##.pupolar_month
 parnuxi.biz##.pw-rkl-section
 qip.ru##.q_banner
@@ -23039,7 +23041,7 @@ lada.kz/uploads/banners/
 /^https?://www\.e1\.ru/*[/]*[/][^\s]{80,}/$script,xmlhttprequest,domain=www.e1.ru
 ://pikabu.ru/$csp=script-src 'self' * 'unsafe-inline' data:
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=besthdwallpaper.com
-@@||s.zfctrack.net/z|$xmlhttprequest,domain=epravda.com.ua|eurointegration.com.ua|hvylya.net|inforesist.org|kriminal.tv
+@@||s.zfctrack.net/z|$xmlhttprequest,domain=epravda.com.ua|eurointegration.com.ua|hvylya.net|inforesist.org|kriminal.tv|real-vin.com
 @@||s.zhctrack.net/z|$xmlhttprequest,domain=epravda.com.ua|eurointegration.com.ua|inforesist.org
 @@||s.zmctrack.net/z|$xmlhttprequest,domain=i.ua|ivona.ua|meteo.ua|panno4ka.net
 @@||s.znctrack.net/z|$xmlhttprequest,domain=censor.net|gazeta.ua|i.ua|mail.ukr.net|meteofor.com.ua|tabloid.pravda.com.ua|viva.ua
@@ -25957,8 +25959,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
