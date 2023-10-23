@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202310232237
+! Version: 202310232247
 ! Title: EasyPrivacy
-! Last modified: 23 Oct 2023 22:37 UTC
+! Last modified: 23 Oct 2023 22:47 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1004,6 +1004,7 @@
 /freecgi/count.cgi?
 /friendbuy.min.js
 /frontend-gtag.min.js
+/frontend-metrics/*
 /frontend-sentry-
 /fsrscripts/*
 /fusion/lucid/data/*
@@ -1811,6 +1812,7 @@
 /performancetimer.js
 /perimeterx/*$domain=~github.com|~github.io
 /permalink-tracker.html?
+/permutiveIdGenerator.js
 /pf?pid=
 /pg_pixel?
 /pgtracking.
@@ -13142,6 +13144,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
 ||channel.io^*/events
+||chatfuel.com/cf-analytics/
 ||chatroll.com/t.gif
 ||chickadvisor.com/js/detect.min.js
 ||cidrap.umn.edu/core/modules/statistics
