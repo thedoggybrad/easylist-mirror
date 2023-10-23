@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202310230645
+! Version: 202310230823
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Oct 2023 06:45 UTC
+! Last modified: 23 Oct 2023 08:23 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -37136,7 +37136,7 @@ docs.github.com##[aria-label="Scroll to top"]
 tbsnews.net###___tbspushdiv
 redbull.com###bottom-notifications
 thehindu.com,thehindubusinessline.com###gsi_overlay
-deepl.com###headlessui-portal-root
+deepl.com###headlessui-dialog-8
 masrawy.com,yallakora.com###izooto-optin
 kizi.com###kizi-popover-dialog
 tdtube.net###main-fixed
@@ -37664,6 +37664,7 @@ beforeitsnews.com###fancybox-wrap
 miningweekly.com,polity.org.za###fde_bar
 thefederalistpapers.org###firefly-poll-container
 breathedreamgo.com###fluentform_6
+openspeedtest.com###footBox3
 independent.co.uk###footerPrompt
 engineeringnews.co.za###footerbar
 ripleys.com###form_newsletter-blog
@@ -37852,6 +37853,7 @@ arynews.tv###text-43
 powerlineblog.com,propertywheel.co.za###text-6
 itmunch.com,pqube.co.uk###text-8
 theplaylist.net###text-9
+theanalyst.com###the_analyst_subscribe_widget-2
 techinformed.com###ti-subscribe-form
 armradio.am###tie-newsletter-3
 nashvillescene.com###tncms-region-article_bottom
@@ -38966,6 +38968,7 @@ cafemom.com##.subscribe-enter-done
 euroweeklynews.com##.subscribe-for-news
 memri.org##.subscribe-for-updates
 allthings.how,armageddonexpo.com,businesstech.co.za,itsfoss.com,jurist.org,pandotrip.com,pissdaily.com,rigzone.com##.subscribe-form
+theanalyst.com##.subscribe-form-footer
 bongino.com##.subscribe-form-home
 thefinancialbrand.com##.subscribe-free
 superwatchman.com##.subscribe-header
@@ -39304,6 +39307,9 @@ news.artnet.com##.theme-newsletter-signup
 ! #include fanboy_newsletter_specific_uBO.txt
 ! *** easylist:fanboy-addon/fanboy_newsletter_specific_ABP.txt ***
 ! fanboy_newsletter_specific_ABP.txt
+! Sorted alphabetically by the domain
+cmswire.com#?#section:-abp-has(.footer__join-us-form)
+engadget.com#?#.rwd-outer-container:-abp-has(.newsletter-footer)
 headphonesty.com#?#div:-abp-has(> form[action*="subscribe"])
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
 artistdirect.com###FollowBut
@@ -39355,6 +39361,7 @@ memuplay.com###fixed-share
 notquitenigella.com###floatingfacebook
 empoweringparents.com,tvmaze.com###follow
 phillyvoice.com###follow_social
+openspeedtest.com###footBox2
 atlasobscura.com###footer-social-list
 aimp.ru###footer_counter
 cybermap.kaspersky.com###footer_social_channels
@@ -39688,6 +39695,7 @@ goingawesomeplaces.com##.footer-widgets
 cfl.ca##.footer1
 loewe.tv##.footerIcons
 imagecollect.com##.footerLinks_03
+theanalyst.com##.footer__bottom--social-links
 scientificamerican.com##.footer__followus-text
 newrepublic.com##.footer__middleRow
 infoq.com##.footer__social-wrap
