@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hoady9uGFo15LfockfOe0g
-! Version: 202310230820
+! Checksum: HNAaTxb7LeV0+yElydoAOQ
+! Version: 202310230831
 ! Title: EasyList without element hiding rules
-! Last modified: 23 Oct 2023 08:20 UTC
+! Last modified: 23 Oct 2023 08:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -40867,7 +40867,7 @@ _800x80_
 ||startpage.com/sp/cdn/*/TotalAdBlockAdultWidget.js
 ||static.fastpic.org^$subdocument
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
-||steamanalyst.com/steem/delivery/
+||steamanalyst.com/steeem/delivery/
 ||strcloud.club/mainstream
 ||streamoupload.*/api/spots/$script
 ||streams.tv/js/slidingbanner.js
@@ -42476,6 +42476,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||ads.midwayusa.com^$popup
 @@||ads.pinterest.com^$popup
 @@||ads.shopee.*/$popup
+@@||ads.snapchat.com^$popup
 @@||ads.spotify.com^$popup
 @@||ads.taboola.com^$popup
 @@||ads.twitter.com^$popup
