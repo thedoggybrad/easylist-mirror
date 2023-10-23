@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lvv/NQlqTHftfCbGfCtBOA
-! Version: 202310230820
+! Checksum: 45ZNTA+oyfEmb6wiKNmGeA
+! Version: 202310230831
 ! Title: EasyList without rules for adult sites
-! Last modified: 23 Oct 2023 08:20 UTC
+! Last modified: 23 Oct 2023 08:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -56229,7 +56229,7 @@ browsershots.org#@#.advert_area
 ||startpage.com/sp/cdn/*/TotalAdBlockAdultWidget.js
 ||static.fastpic.org^$subdocument
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
-||steamanalyst.com/steem/delivery/
+||steamanalyst.com/steeem/delivery/
 ||strcloud.club/mainstream
 ||streamoupload.*/api/spots/$script
 ||streams.tv/js/slidingbanner.js
@@ -57406,6 +57406,7 @@ msguides.com###right-bottom-camp
 comicbookrealm.com###right-rail > .module
 purewow.com###right-rail-ad
 gogetaroomie.com###right-space
+openspeedtest.com###rightArea
 medicaldialogues.in###right_level_8
 numista.com###right_pub
 yardbarker.com###right_top_sticky
@@ -57605,6 +57606,7 @@ globalwaterintel.com###top-banner-image
 independent.co.uk,the-independent.com###top-banner-wrapper
 missingremote.com###top-bar
 returnyoutubedislike.com###top-donors
+openspeedtest.com###top-lb
 capetownmagazine.com###top-leader-wrapper
 austinchronicle.com,carmag.co.za,thegazette.com###top-leaderboard
 gogetaroomie.com###top-space
@@ -61070,6 +61072,7 @@ cbn.com##[style="display:block !important; min-height:90px;"]
 fandomwire.com##[style="height: 120px; width: 100%; margin: 5px auto; display: block; clear: both; text-align: center;"]
 guides.wp-bullet.com##[style="height: 288px;"]
 tenforums.com##[style="height:280px;"]
+kingmodapk.net##[style="height:300px"]
 geekzone.co.nz##[style="height:90px"]
 realitytvworld.com##[style="margin: 5px 0px 5px; display: inline-block; text-align: center; height: 250;"]
 timesnownews.com##[style="min-height: 181px;"]
@@ -62521,6 +62524,7 @@ bing.com##a[href*="/aclick?ld="]
 @@||ads.midwayusa.com^$popup
 @@||ads.pinterest.com^$popup
 @@||ads.shopee.*/$popup
+@@||ads.snapchat.com^$popup
 @@||ads.spotify.com^$popup
 @@||ads.taboola.com^$popup
 @@||ads.twitter.com^$popup
