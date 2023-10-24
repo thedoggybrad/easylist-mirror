@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9IsfdzzP17dtJikymNfl/A
-! Version: 202310241202
+! Checksum: PAEVnsmMi28lNP45czuAUA
+! Version: 202310241210
 ! Title: RU AdList
-! Last modified: 24 Oct 2023 12:02 UTC
+! Last modified: 24 Oct 2023 12:10 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15862,6 +15862,7 @@ solncewonews.ru##.sidebar_list > .widget_text:not(#text-4):not(#text-89)
 solncewonews.ru##.sidebar_list > [id*="custom_html"]
 minecraft-files.ru##.sidebar_rek
 burdastyle.ru##.sidebar_top > .mobile-hide
+autocentre.ua##.sidebar_upper
 jlady.ru##.sidebarinner
 lubbook.org##.sidebarleft > aside
 kinorai.net##.sidebarsB > .sidebar1
@@ -16096,6 +16097,7 @@ mebelminsk.by,nashbryansk.ru##.teasers
 rufox.ru##.teasers_list
 gg.xooxo.cc##.telegram__wraper
 ex-press.by#?#.template:-abp-has(> .template-content > .template-block > div > script)
+progroshi.news##.temporary_banner
 kg-portal.ru##.ten_banner_center
 kg-portal.ru##.ten_footer_wrap
 korzik.net##.text > div[style^="min-height:"]
@@ -16759,7 +16761,7 @@ buhonline.ru##[class^=sideBanner]
 ficbook.net##[data-ab-test-id]
 realist.online,zn.ua##[data-action="banners"]
 ps4.in.ua##[data-ad-slot]
-buhgalter911.com,unian.info,unian.net,unian.ua##[data-ad]
+buhgalter911.com,tsn.ua,unian.info,unian.net,unian.ua##[data-ad]
 banki.ru##[data-adfox-container]
 vse42.ru##[data-adplace-inited]
 18000.com.ua##[data-ads]
@@ -18350,6 +18352,7 @@ inforesist.org##div[class^="adslot"]
 ubr.ua##div[class^="adubr"]
 fc-zenit.ru#?#div[class^="adv-"]:-abp-has(> div[id^="adfox_"])
 lb.ua##div[class^="adv-banner"]
+sport24.ua##div[class^="adv-wrapper"]
 kasparov.ru##div[class^="advCell"]
 kommersant.ru##div[class^="adv_"]
 allsportlinks.com##div[class^="adver_"]
@@ -19702,6 +19705,7 @@ rafkino.com##div[id^="MarketGid"]
 ||hawk.live/$csp=sandbox allow-same-origin;
 ||icon-icons.com/ru/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.googleapis.com apis.google.com  *.googletagmanager.com *.google.com/recaptcha/ *.gstatic.com *.icon-icons.com *.jquery.com *.net
 ||idealmedia.io$csp=script-src
+||ilenta.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: apis.google.com cse.google.com *.google.com/cse/  *.shareaholic.net *.disqus.com *.disquscdn.com *.io *.net *.ua
 ||inforesist.org^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.net *.io *.jquery.com *.keycaptcha.com *.ru *.twitter.com *.ua
 ||kurs.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.bemobile.ua *.cloudflare.com *.cloudfront.net *.highcharts.com *.googleapis.com apis.google.com *.googletagmanager.com *.gstatic.com *.io *.jquery.com *.jivosite.com *.keycaptcha.com *.net *.twitter.com vk.com yastatic.net *.yandex.ru
 ||lentapronews.com^$csp=script-src
@@ -24738,7 +24742,7 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 /plugins/wordpress-popup/*$~stylesheet,domain=o-nedvizhke.ru
 /plusonet$script,domain=bigcinema-hd.tv|electorat.info|gipnomag.ru|ironfriends.ru
 /proxy/check/popup/$script,domain=xn--90adear.xn--p1ai
-/pum-site-scripts.js$domain=belsat.eu|hariola.com
+/pum-site-scripts.js$domain=belsat.eu|hariola.com|v-variant.com.ua
 /smart-facebook-page-like-overlay-pro/$domain=coocook.me
 /sociallocker-$domain=samiysok.com|sshut.ru|videokaif.ru
 /templates/vser-light/images/social.gif$domain=novoruskino.net|ruskinonovoe.net
@@ -26029,7 +26033,7 @@ bidbaits.ru##.cover-msg
 tarkov-market.com##.disable-adblock
 amedia.online##.errror
 internetsms.org##.fade[class^="modal"]
-moyens.net,pimpletv.ru,pravda.com.ua,tales.org.ua,zazloo.ru##.fc-ab-root
+ilenta.com,moyens.net,pimpletv.ru,pravda.com.ua,tales.org.ua,ukranews.com,zazloo.ru##.fc-ab-root
 hdkinoteatr.com##.fixedBg
 hdkino.biz##.full-news td[bgcolor]
 trupornolabs.org##.header > .red
