@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jMxp0S3PbjIPqonL0EVEYA
-! Version: 202310242310
+! Checksum: I6INtvfi3/J01Socb/P/Dg
+! Version: 202310242320
 ! Title: EasyList without rules for adult sites
-! Last modified: 24 Oct 2023 23:10 UTC
+! Last modified: 24 Oct 2023 23:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -61868,6 +61868,7 @@ youtube.com##ytm-promoted-sparkles-web-renderer
 ! Site Specific filters (used with $generichide)
 thefreedictionary.com###Content_CA_AD_0_BC
 thefreedictionary.com###Content_CA_AD_1_BC
+instapundit.com###adspace_top > .widget-ad__content
 sonichits.com###bottom_ad
 sonichits.com###divStickyRight
 spanishdict.com###removeAdsSidebar
@@ -62291,6 +62292,7 @@ bing.com##a[href*="/aclick?ld="]
 @@||gitlab.com^$generichide
 @@||hbomax.com^$generichide
 @@||icloud.com^$generichide
+@@||instapundit.com^$generichide
 @@||jsfiddle.net^$generichide
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
