@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oIqww1ZVUzPpWVtDQnV9cg
-! Version: 202310241750
+! Checksum: 2/0aDTGJ65kJK/yyPXBmxA
+! Version: 202310241801
 ! Title: RU AdList
-! Last modified: 24 Oct 2023 17:50 UTC
+! Last modified: 24 Oct 2023 18:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13499,6 +13499,7 @@ sntch.com##.block-superwidget
 konstruktortestov.ru#?#.block-test:-abp-has(#marketAttractive)
 konstruktortestov.ru#?#.block-test:-abp-has(#vid_vpaut_div)
 konstruktortestov.ru#?#.block-test:-abp-has(> [id^="yandex_rtb"])
+vitatv.com.ua##.block-type-advertising
 velvet.by##.block-velcompany
 bogmedia.org,filmozavr.com,filmozavr.net##.block-video > .table
 processer.media##.block-wrap-da
@@ -19703,16 +19704,17 @@ rafkino.com##div[id^="MarketGid"]
 ||forum.ruboard.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.google.com/recaptcha/ *.googletagmanager.com *.gstatic.com/recaptcha/ *.sendpulse.com *.threadloom.com
 ||gdz-ru.work/subscribe/$csp=sandbox allow-same-origin;
 ||hawk.live/$csp=sandbox allow-same-origin;
-||icon-icons.com/ru/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.googleapis.com apis.google.com  *.googletagmanager.com *.google.com/recaptcha/ *.gstatic.com *.icon-icons.com *.jquery.com *.net
+||icon-icons.com/ru/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.googleapis.com apis.google.com  *.googletagmanager.com *.google.com/recaptcha/ *.gstatic.com *.icon-icons.com *.jquery.com *.io *.net *.org
 ||idealmedia.io$csp=script-src
-||ilenta.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: apis.google.com cse.google.com *.google.com/cse/  *.shareaholic.net *.disqus.com *.disquscdn.com *.io *.net *.ua
-||inforesist.org^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.net *.io *.jquery.com *.keycaptcha.com *.ru *.twitter.com *.ua
-||kurs.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.bemobile.ua *.cloudflare.com *.cloudfront.net *.highcharts.com *.googleapis.com apis.google.com *.googletagmanager.com *.gstatic.com *.io *.jquery.com *.jivosite.com *.keycaptcha.com *.net *.twitter.com vk.com yastatic.net *.yandex.ru
+||ilenta.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: apis.google.com cse.google.com *.google.com/cse/  *.shareaholic.net *.disqus.com *.disquscdn.com *.io *.net *.org *.ua
+||inforesist.org^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.jquery.com *.keycaptcha.com *.twitter.com *.io *.net *.org *.ru *.ua
+||kurs.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.bemobile.ua *.cloudflare.com *.cloudfront.net *.highcharts.com *.googleapis.com apis.google.com *.googletagmanager.com *.gstatic.com *.jquery.com *.jivosite.com *.keycaptcha.com *.twitter.com vk.com *.io *.net *.org *.ru *.ua
 ||lentapronews.com^$csp=script-src
-||life.pravda.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.net *.io *.jquery.com *.keycaptcha.com *.ru *.twitter.com *.ua
+||life.pravda.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.jquery.com *.keycaptcha.com *.twitter.com *.io *.net *.org *.ru *.ua
 ||lis-gor.com/$csp=sandbox allow-same-origin;
 ||modfix.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:
 ||modsfire.com/download/*/$csp=script-src 'unsafe-eval' data:
+||nbnews.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.io *.net *.org *.ua
 ||news-sphere.com^$csp=script-src
 ||nikopolnews.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.ua
 ||nsportal.ru/download/$csp=frame-src 'self'
@@ -19726,12 +19728,13 @@ rafkino.com##div[id^="MarketGid"]
 ||statusklic.info^$csp=sandbox allow-same-origin;
 ||syndication.exosrv.com^$csp=sandbox allow-same-origin;
 ||t1mcapp.com^$csp=script-src
-||tabloid.pravda.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.net *.io *.jquery.com *.keycaptcha.com *.ru *.twitter.com *.ua
+||tabloid.pravda.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.jquery.com *.keycaptcha.com *.twitter.com *.io *.net *.org *.ru *.ua
 ||tdsclicks2.ru^$csp=script-src
+||tribun.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: static.addtoany.com *.googletagmanager.com *.io *.net *.org *.ua
 ||utarget.ru^$csp=sandbox allow-same-origin;
 ||utarget.ru^$csp=script-src
 ||vazhno.ru^$csp=script-src 'self'
-||vikna.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.net *.io *.jquery.com *.keycaptcha.com *.ru *.twitter.com *.ua
+||vikna.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.jquery.com *.keycaptcha.com *.twitter.com *.io *.net *.org *.ru *.ua
 ||wallpapershome.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:
 ||www.liveinternet.ru/|$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' i.li.ru
 ||www.ukr.net^$csp=frame-src 'self' *.ukr.net *.sinoptik.ua kinoafisha.ua *.twitter.com *.google.com
@@ -23065,7 +23068,7 @@ pikabu.ru#?#.page-story__story > div:-abp-properties(display: block)
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru##.sidebar-block div:not([class])[style="width: 100%;"]
-pikabu.ru#?#.sidebar__inner > .sidebar-block:-abp-has([class]:-abp-properties(line-height: 0))
+pikabu.ru#?#.sidebar__inner > .sidebar-block:-abp-has([class]:-abp-properties(line-height: calc(0)))
 pikabu.ru#?#.sidebar__inner > .sidebar-block:-abp-has([class]:-abp-properties(min-height: calc(600px)))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__left ~ .story__main:last-child > div:first-child)
 pikabu.ru#?#.stories-feed__container > .story:-abp-has([class]:-abp-properties(min-height: calc(300px)))
@@ -23083,6 +23086,8 @@ pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
 pikabu.ru##div[href]
 rg.ru##div[id][class*="__"]:empty
 pikabu.ru##div[style*="important;"]
+pikabu.ru##p[href]
+pikabu.ru##p[href] ~ div
 fontanka.ru#?#section div:-abp-properties(content: "Реклама")
 !#endif
 !
