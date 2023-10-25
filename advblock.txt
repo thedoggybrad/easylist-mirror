@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gmpBrFbh+TM7sdVOoiIZMA
-! Version: 202310251526
+! Checksum: dVJ3YC67ycWuxAQz4fBClQ
+! Version: 202310251544
 ! Title: RU AdList
-! Last modified: 25 Oct 2023 15:26 UTC
+! Last modified: 25 Oct 2023 15:44 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1302,6 +1302,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##a[href*="://go.progfile.space/r/"]
 ##a[href*="://gonewfiles.ru/"]
 ##a[href*="://gopremiumsoft.com/"]
+##a[href*="://hypmag.ru/search/pereh.php"]
 ##a[href*="://installpack.ru"]
 ##a[href*="://kinobud.site/"]
 ##a[href*="://landingtracker.com/"]
@@ -2813,6 +2814,7 @@ _tizers.
 ||hotinga.ru^
 ||hsm5azph84.com^$third-party
 ||hypernews.ru^
+||hypmag.ru^$third-party
 ||hypo.ufanet.ru^$image
 ||i.j2j.ru^
 ||i.sdska.ru^*/sdb.js?
@@ -3610,6 +3612,7 @@ _tizers.
 ||ulitka.ru/logo$image
 ||umatno.ru/mm/
 ||unattepush.com^$third-party
+||unionlab.ru^$third-party
 ||uniq-ip.com/via/np?
 ||unlockers.ru^$third-party
 ||uptracker.ru^$third-party
@@ -12097,6 +12100,8 @@ thevidosss.ru###mess_box
 forumhouse.ru###messageList > [id^="post-"] ~ .message:not([id^="post-"])
 meta.ua###meta_market_bottom
 donday-aksay.ru,donday-novocherkassk.ru,donday-shakhty.ru,donday-taganrog.ru,donday.ru,volga-day.ru###mgid
+oper.ru#?##middle > .thumbnails:-abp-has(> ins a[href*="//wink."])
+oper.ru#?##middle > dd:-abp-has(> .body > a[href*="//wink."])
 stadion.uz###middle_section > div[style^="float:"]
 k-agent.ru###middletbl_r_in > a[href="http://www.sushivenik.ru"]
 tort.fm###min-banners-block
@@ -12700,7 +12705,6 @@ oper.ru###wrapper > #bglink
 motorpuls.ru###wrapper > #header
 metodsilva.ru###wrapper > .fma-bg
 mezha.media###wrapper > a[href][target="_blank"]
-oper.ru###wrapper > div:not([id])[style^="position: absolute;"]
 rasfokus.ru,waralbum.ru###wrapper > noindex
 myzcloud.me###wrapperBillboardScroll
 newsko.ru###xtest-videoad
@@ -18093,6 +18097,7 @@ dating.trans-admirer.com##center > b:nth-of-type(3)
 allmmorpg.ru##center > div > a[rel*="nofollow"][target="_blank"]
 hack-tool.org##center > div > noindex
 sibmail.com##center > div[style*="200px;"]
+lunno.ru,motolife24.ru##center > div[style="font-size:14px;background:#FFFACD;"]
 youtext.ru##center > font > div[style*="#FFCC66;"]
 trserial.net.ua##center > ins ~ *
 gizmod.ru##center > noindex
@@ -18107,6 +18112,8 @@ world-art.ru##center > table[width="1000"][height="250"]
 iobit.com,megatrest.ru,ripik.net,sofirus.ru,softa-mnogo.ru,xakeroker.ws##center a > img
 7days-ua.com,customgames.ru,eucargologistic.com#?#center:-abp-has(> .adsbygoogle)
 post-tracker.ru##center[style*="margin-top"]
+oper.ru##dd > .body > center ~ *
+oper.ru##dd > .body font > a[target="_blank"]
 nova-wings.ru##div > #yaMarket ~ table[width="100%"]
 grad.ua##div > .comments ~ .blok_header_title
 parnuxi.com#?#div > .mainmenu:-abp-has(> a[href*="pornolavka.pw"])
@@ -20980,6 +20987,7 @@ lada.kz/uploads/banners/
 ||freezpic.ru^*/code.js
 ||fresher.ru/js/ajax-banner.js
 ||from-ua.com^*/trafmag$subdocument
+||frontend.vh.yandex.ru/player/*=gamepage:$subdocument,domain=lunno.ru|motolife24.ru
 ||fsell.biz/images/$object
 ||fu.gk43.ru/media/
 ||fullgames.ru^$object
@@ -21622,6 +21630,7 @@ lada.kz/uploads/banners/
 ||moskva.fm^*/promo/
 ||most3.ykt.ru/vast/$xmlhttprequest,domain=joker.ykt.ru
 ||moto.kiev.ua/forum/banners/
+||motolife24.ru/search/shop.php$subdocument
 ||motoliga-nn.ru/images/partnership/
 ||motonews.ru/ad/
 ||motorelax.ru/forum/banners/
@@ -24263,7 +24272,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 ||yastatic.net/*/rsya-tag-users/
 ||yastatic.net/daas/
 ! Прочее
-rasp.yandex.by,rasp.yandex.kz,rasp.yandex.ru,rasp.yandex.uz##.SearchSegments__blablacar
+rasp.yandex.by,rasp.yandex.kz,rasp.yandex.ru,rasp.yandex.uz##.Direct
 rasp.yandex.by,rasp.yandex.kz,rasp.yandex.ru,rasp.yandex.uz#?#.SearchSegments__row:-abp-has([class*="banner"])
 rasp.yandex.by,rasp.yandex.kz,rasp.yandex.ru,rasp.yandex.uz#?#.SearchSegments__row:-abp-has([id*="banner"])
 rasp.yandex.by,rasp.yandex.kz,rasp.yandex.ru,rasp.yandex.uz##.ThreadLayout__topDirect
@@ -25974,8 +25983,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
