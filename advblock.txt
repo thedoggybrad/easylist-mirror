@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Lp2tJbhi5ox6IZnaVeIaNA
-! Version: 202310251010
+! Checksum: H/wy6xc8CkOSH7Bp9RhRSQ
+! Version: 202310251020
 ! Title: RU AdList
-! Last modified: 25 Oct 2023 10:10 UTC
+! Last modified: 25 Oct 2023 10:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6221,6 +6221,7 @@ _tizers.
 ||gotriki.com^$third-party
 ||gottittothin.ru^$third-party
 ||gotunekst.ru^$third-party
+||gotvvk.com^$third-party
 ||gover.bid^$third-party
 ||gowapgo.com^$third-party
 ||goyetteconnelly.bid^$third-party
@@ -16087,6 +16088,7 @@ molbuk.ua##.td-for-blocks div[style="margin-bottom: 5px;"] > noindex
 molbuk.ua#?#.td-for-other > div:first-child[style] ~ .s-block:not([style]):not(:last-child)
 mediasat.info##.td-g-rec
 root-nation.com#?#.td-is-sticky > .wpb_wrapper > div:-abp-has(.td-a-rec)
+root-nation.com#?#.td-is-sticky > .wpb_wrapper > div:-abp-has(.wpb_wrapper:empty)
 poradumo.com.ua##.td-main-sidebar .widget_text
 fainaidea.com##.td-menu-background
 dontimes.news#?#.td-post-content > p:-abp-has(> i > [onclick^="yaCounter"])
@@ -25972,8 +25974,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
