@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: mqIYT4NWHi8yrPJ0X2vxWw
-! Version: 202310251102
+! Checksum: Gj4kfeKZOHFp50YW3iE3Cg
+! Version: 202310251110
 ! Title: EasyPrivacy without international filters
-! Last modified: 25 Oct 2023 11:02 UTC
+! Last modified: 25 Oct 2023 11:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -694,8 +694,7 @@
 /collect?type=
 /collect?v=
 /collect_data.php?
-/collect_stat.
-/collector/beacon
+/collect_stat.js
 /collector/hit?
 /collector/pageview
 /collector/v1/event
@@ -708,24 +707,21 @@
 /common/ga.js
 /common/tracker.js
 /compile/AppMeasurement.
-/comscore-js-
 /comscore-min.js
 /comscore?
 /comscore_beacon/*
 /comscore_pageview
-/comscorebeacon.
 /confiant.js
 /configuration-stat.js
 /contentiq.js
-/conversion_async.
+/conversion_async.js
 /convertro.js
 /cookie.gif?
 /cookie_ga.js
-/cookieAnalytics.
+/cookieAnalytics.js
 /cookieId.htm
 /cookies/render?
-/cookietag?
-/coopcommerce-pixel.
+/coopcommerce-pixel.js
 /coradiant.js
 /core-tracking.js
 /coretracking.php?
@@ -740,7 +736,7 @@
 /count.png?
 /count/count.cgi?
 /count?pid=
-/count_js.
+/count_js.php
 /counter-js.php
 /Counter.ashx?
 /counter.asp?
@@ -867,7 +863,6 @@
 /elqidg.js
 /elqimg.js
 /elqscr.js
-/elqtrk.
 /elt.gif?
 /eluminate?
 /email/track/*$image
@@ -1640,28 +1635,19 @@
 /opinionlab.js
 /optiextension.dll?$script
 /optimizelyjs/*
-/optimost-
-/optimost.
-/Optimost/*
 /optimost_
 /optmzly/*
 /ossleads_analytics.js
 /ot_e404.gif?
 /OtAutoBlock.js
 /ouibounce.min.js
-/ovstats.
 /ow_analytics.
 /owa.Analytics.m.js
 /owa.tracker-combined-min.js
-/ox-trackings.
-/ox_stats.
 /oxAnalytics.
-/oxtracker.
 /p.gif?
-/packaged-js/trackers.
-/packed.analytics.
 /page-addviews?
-/page-analytics.
+/page-analytics.js
 /page-events/trackclick/*
 /page-track.
 /page-view.gif?
@@ -1674,17 +1660,13 @@
 /page_imp;
 /page_monitor_log?
 /page_perf_log
-/pageaction/trackEvent
 /pagead/conversion_
 /PageCount.php?
 /pageCounter.adp?
 /pagedot.gif?
-/pageeventcounter;
 /PageHit.ashx
-/PageHitPixel.
 /pagehits/*
 /pagelogger/connector.php?
-/pageloggerobyx.
 /pagestat/*
 /pagestat?
 /PageStatistics/*
