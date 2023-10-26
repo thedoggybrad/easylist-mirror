@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F4SinFUujdvViV9kT2pBow
-! Version: 202310260640
+! Checksum: IwF84Bp4kBJfvsGALtZW0Q
+! Version: 202310260650
 ! Title: EasyList Polish
-! Last modified: 26 Oct 2023 06:40 UTC
+! Last modified: 26 Oct 2023 06:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -503,6 +503,7 @@ _reklamy^$domain=wiadomoscisasiedzkie.pl
 ||zniwiarz.topagrar.pl^$image,subdocument,domain=elita-magazyn.pl|profitechnika.pl|sadnowoczesny.pl|topagrar.pl|tygodnik-rolniczy.pl|warzywaiowoce.pl
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=nowysztum.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2558,6 +2559,14 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+magazynzuzel.pl##.banner--regular
+tyna.info.pl##.banner--regular
+nrypin.pl##.banner--regular
+czasbrodnicy.pl##.banner--regular
+rydzyna24.pl##.banner--regular
+naszpruszcz.pl##.banner--regular
+magazynregionalny.pl##.banner--regular
+bilgoraj.com.pl##.banner--regular
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
