@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ArZqyVkLxAD2xGaJodFByQ
-! Version: 202310272250
+! Checksum: 60eAm6bh5Cy+aEpZmJg6sg
+! Version: 202310272301
 ! Title: EasyList without rules for adult sites
-! Last modified: 27 Oct 2023 22:50 UTC
+! Last modified: 27 Oct 2023 23:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -60760,7 +60760,6 @@ chron.com,seattlepi.com##[data-block-type="ad"]
 theblaze.com##[data-category="SPONSORED"]
 gab.com##[data-comment="gab-ad-comment"]
 curbed.com##[data-concert="prelude"]
-yahoo.com##[data-content="Advertisement"]
 axios.com##[data-cy="injected-promo"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
 ginx.tv##[data-ez-ph-id]
@@ -61641,6 +61640,8 @@ booking.com##.sr-motivate-messages
 ##.section-subheader > .section-hotel-prices-header
 ! yahoo
 yahoo.com###Horizon-ad
+yahoo.com###Lead-0-Ad-Proxy
+yahoo.com###adsStream
 yahoo.com###defaultLREC
 finance.yahoo.com###mrt-node-Lead-0-Ad
 sports.yahoo.com###mrt-node-Lead-1-Ad
@@ -61660,6 +61661,7 @@ yahoo.com###sda-MON
 yahoo.com###sda-WFPAD
 mail.yahoo.com###slot_LREC
 yahoo.com###viewer-LDRB
+yahoo.com###viewer-LREC2
 yahoo.com###viewer-LREC2-iframe
 yahoo.com##.Feedback
 finance.yahoo.com##.ad-lrec3
@@ -61680,7 +61682,9 @@ yahoo.com##.searchCenterTopAds
 yahoo.com##.sys_shopleguide
 yahoo.com##.viewer-sda-container
 groupon.com##[data-bhc$="sponsored_carousel"]
+yahoo.com##[data-content="Advertisement"]
 mail.yahoo.com##[data-test-id^="pencil-ad"]
+yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##a[data-test-id="large-image-ad"]
