@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: okQJmdZ/hBOie0Bp8Ix+MA
-! Version: 202310271521
+! Checksum: +FPch15KFR8LDGrJ/njNsg
+! Version: 202310271531
 ! Title: RU AdList
-! Last modified: 27 Oct 2023 15:21 UTC
+! Last modified: 27 Oct 2023 15:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18163,7 +18163,7 @@ silver.ru#?#div:-abp-has(> div[id^="M"][id*="Composite"])
 fontanka.ru#?#div:-abp-has(> div[id^="div-gpt-ad-"])
 koolinar.ru#?#div:-abp-has(> header ~ a[href][rel="sponsored"])
 gdzguru.com#?#div:-abp-has(> img[src*="ops."])
-rp5.am,rp5.by,rp5.co.nz,rp5.co.uk,rp5.kz,rp5.lt,rp5.lv,rp5.md,rp5.ru#?#div:-abp-has(> ins)
+computer76.ru,rp5.am,rp5.by,rp5.co.nz,rp5.co.uk,rp5.kz,rp5.lt,rp5.lv,rp5.md,rp5.ru#?#div:-abp-has(> ins)
 doramatv.live#?#div:-abp-has(> noindex > script)
 fragrantica.ru#?#div:-abp-has(> sup)
 football.kulichki.net#?#div:-abp-has(> table > tbody a[href*="kulichki.com/advert"])
@@ -19338,7 +19338,7 @@ sarafannoeradio.org##img[width="829"][height="90"]
 demiart.ru##img[width="900"][height="100"]
 post-tracker.ru##img[width^="8"][height^="3"][src$=".gif"]
 gizmod.ru##index > .entry
-audiotag.info,enovosty.com,epravda.com.ua,eurointegration.com.ua,finget.ru,fraza.com,inforesist.org,ostro.org,real-vin.com,stravy.net,videoredaktor.ru,volyninfo.com##ins
+audiotag.info,computer76.ru,enovosty.com,epravda.com.ua,eurointegration.com.ua,finget.ru,fraza.com,inforesist.org,ostro.org,real-vin.com,stravy.net,videoredaktor.ru,volyninfo.com##ins
 peugeot-club.net,vjazhi.ru##ins[style^="display:inline"]
 stopgame.ru#?#li:-abp-has(> [href="https://zen.yandex.ru/stopgame"])
 argumenti.ru#?#li:-abp-has(> span:-abp-contains(Новости партнеров))
@@ -20180,7 +20180,6 @@ lada.kz/uploads/banners/
 ||24stoma.ru/rkm/
 ||24video.cc/
 ||2baksa.ws^$script
-||2baksa.ws^$subdocument,domain=2baksa.ws|nowa.cc
 ||2ch.*/banners/$domain=2ch.hk|2ch.life
 ||2d.windows-8.ru
 ||2ip.ua/images/keyweb.
@@ -21793,7 +21792,6 @@ lada.kz/uploads/banners/
 ||novostroev.ru/ajax/tgb.
 ||now.ru/branding/
 ||now.ru^*/promo/
-||nowa.cc^$subdocument,domain=2baksa.ws|nowa.cc
 ||nowfilms.ru^*/kazino/
 ||nr2.ru/pict/banners/
 ||nrj.ua/uploads/advertising/
@@ -25527,7 +25525,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||ngads.com/crossdomain.xml|$domain=kongregate.com
 @@||ngads.com/gateway_$object,domain=kongregate.com
 @@||now.ru/www/delivery/fc.php?
-@@||nowa.cc/admincp/index.php$domain=nowa.cc
 @@||ntv.ru/promo/packager/ts/*/md5/*_hd_reklama_$image,xmlhttprequest,domain=ntv.ru
 @@||numbers.md/static/$script,domain=999.md
 @@||objavlenija.respublika.cz/templates/jrespublika*_clr_ads/$stylesheet,domain=objavlenija.respublika.cz
