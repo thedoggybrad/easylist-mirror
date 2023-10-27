@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: s4ILLN2NSNszrNgXtbiJdA
-! Version: 202310270102
+! Checksum: /9g/MDeA4RJMdyiHrTxVYA
+! Version: 202310270110
 ! Title: ABPVN List
-! Last modified: 27 Oct 2023 01:02 UTC
+! Last modified: 27 Oct 2023 01:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 26 Oct 2023 20:06:29 UTC+7
+! Last modified: 27 Oct 2023 08:04:28 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -260,6 +260,7 @@
 ||phimchat2.com^*.gif
 ||phimchillg.net/banner$image
 ||phimchillg.net/videoi9/$media,rewrite=abp-resource:blank-mp3,domain=phimchillg.net
+||phimcuon.com^*.gif$image
 ||phimdinhcao.com^*.xml$~third-party
 ||phimdinhcao.net^*.xml$~third-party
 ||phimgichill.net/player/dk.jpg
@@ -948,6 +949,7 @@ phim202.com###itro_opaco
 phim33.tv##div[data-value="1"]
 phimbathu.one###catfish_content
 phimbom.net###ads-catfish
+phimcuon.com##.show.ads-sticky
 phimdacap.tv##[data-clm="ccccc2"]
 phimdacap.tv##[data-id="ap3poapup"]
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com###mobile_content_bottom
