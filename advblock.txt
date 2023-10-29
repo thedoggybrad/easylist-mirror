@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wN4r+yigFhX/xlQwb8Dr6Q
-! Version: 202310291351
+! Checksum: mONXDsA1aQsAOP8ffZNhbw
+! Version: 202310291401
 ! Title: RU AdList
-! Last modified: 29 Oct 2023 13:51 UTC
+! Last modified: 29 Oct 2023 14:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23939,6 +23939,7 @@ quto.ru#?#div:-abp-has(> div + [id^="rnet_"])
 autorambler.ru,rambler.ru,sport.rambler.ru#?#div:-abp-has(> div > [data-rnet])
 rambler.ru#?#div:-abp-has(> div > [id^="adfox-"] + div > div:only-child)
 mail.rambler.ru##div[class*="Ad-direct"]
+lenta.ru##div[class*="goodnews"][class*=" "]
 lenta.ru##div[class="board _winline"]
 mail.rambler.ru##div[class^="Ad-root"]
 daily.afisha.ru##div[class^="AdTechWidget_Container"]
@@ -24032,6 +24033,7 @@ utro.ru##div[class^="partners-block"]
 cnews.ru##div[id^="div-gpt-ad-"]
 ||cnews.ru/inc/banners/
 ||rbk.ru/*/_mtsFloorAida.js
+||rbk.ru/*/_renderAggregator.js
 ||rbk.ru/*_videoCommercial.
 ||rbk.ru^*/_yaDirect.js
 ||utro.ru/*/banners/
@@ -25989,8 +25991,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
