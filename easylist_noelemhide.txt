@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Uhzdp6TaNg+7ryknXLpvAg
-! Version: 202310291110
+! Checksum: JtMXt/p2BXPvzy9DirftvA
+! Version: 202310291120
 ! Title: EasyList without element hiding rules
-! Last modified: 29 Oct 2023 11:10 UTC
+! Last modified: 29 Oct 2023 11:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -38668,7 +38668,6 @@ _800x80_
 ||ad.22betpartners.com^
 ||ad.about.co.kr^
 ||ad.bitmedia.io^
-||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.edugram.com^
 ||ad.kubiccomps.icu^
 ||ad.mail.ru/static/admanhtml/
@@ -38709,7 +38708,6 @@ _800x80_
 ||allsportsflix.
 ||amazonaws.com/campaigns-ad/
 ||amazonaws.com/mailcache.appinthestore.com/
-||amazonaws.com^$domain=downloadpirate.com|hexupload.net|krunkercentral.com|uploadhaven.com
 ||an.yandex.ru^$domain=~e.mail.ru
 ||any.gs/visitScript/
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xmlhttprequest
@@ -38780,9 +38778,7 @@ _800x80_
 ||clicknplay.to/api/spots/
 ||cloud.setupad.com^
 ||cloudbet.com/ad/
-||cloudfront.net/ads/$domain=wdwmagic.com
 ||cloudfront.net/js/script_tag/new/sca_affiliate_
-||cloudfront.net^*/sponsors/$domain=pbs.org
 ||coinmama.com/assets/img/banners/
 ||commercial.daznservices.com^
 ||contentexchange.me/widget/$third-party
@@ -38939,7 +38935,6 @@ _800x80_
 ||onnetwork.tv/widget/
 ||ooproxy.azurewebsites.net^$xmlhttprequest,domain=imasdk.googleapis.com
 ||orangebuddies.nl/image/banners/
-||outbrain.com^$domain=bgr.com|buzzfeed.com|tvline.com
 ||outbrainimg.com/transform/$media,third-party
 ||ow.pubmatic.com^
 ||p.jwpcdn.com/player/plugins/vast/
@@ -39045,7 +39040,6 @@ _800x80_
 ||static.tradetracker.net^$third-party
 ||storage.googleapis.com/adtags/
 ||storage.googleapis.com/ba_utils/stab.js
-||storage.googleapis.com/cdn.newsfirst.lk/advertisements/$domain=newsfirst.lk
 ||stunserver.net/frun.js
 ||sunflowerbright104.io/sdk.js
 ||supply.upjers.com^
@@ -39054,7 +39048,6 @@ _800x80_
 ||sweeva.com/images/banner250.gif
 ||syndicate.payloadz.com^
 ||taboola.com/vpaid/
-||taboola.com^$domain=independent.co.uk|outlook.live.com|technobuffalo.com
 ||tag.regieci.com^
 ||takefile.link/promo/$third-party
 ||targeting.vdo.ai^
@@ -39098,7 +39091,6 @@ _800x80_
 ||weby.aaas.org^
 ||whatismyipaddress.cyou/assets/images/ip-banner.png
 ||wheelify.cartzy.com^
-||widenetworks.net^$domain=flysat.com
 ||widget.engageya.com/engageya_loader.js
 ||widget.golfscape.com^
 ||widget.searchschoolsnetwork.com^
@@ -39110,7 +39102,6 @@ _800x80_
 ||widgets.outbrain.com^*/widget.js
 ||widgets.progrids.com^
 ||widgets.tree.com^
-||windows.net/banners/$domain=hortidaily.com
 ||wistia.com/assets/external/googleAds.js
 ||wowtcgloot.com/share/?d=$third-party
 ||wp.com/assets.sheetmusicplus.com/banner/
@@ -40372,6 +40363,7 @@ _800x80_
 ||4f.to/spns/
 ||aboutmyarea.co.uk/images/imgstore/
 ||ad.animehub.ac^
+||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.imp.joins.com^
 ||ad.itweb.co.za^
 ||ad.khan.co.kr^
@@ -40398,6 +40390,7 @@ _800x80_
 ||amazon.com/aan/$subdocument
 ||amazonaws.com/cdn.mobverify.com
 ||amazonaws.com/jsstore/$domain=babylonbee.com
+||amazonaws.com^$domain=downloadpirate.com|hexupload.net|krunkercentral.com|uploadhaven.com
 ||amcdn.co.za/scripts/javascript/dfp.js
 ||americanlookout.com////
 ||americanlookout.com/29-wE/
@@ -40453,9 +40446,11 @@ _800x80_
 ||celebstoner.com/assets/images/img/sidebar/$image
 ||centent.stemplay.cc^
 ||clarksvilleonline.com/cols/
+||cloudfront.net/ads/$domain=wdwmagic.com
 ||cloudfront.net/j/wsj-prod.js$domain=wsj.com
 ||cloudfront.net/transcode/storyTeller/$media,domain=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.br|amazon.com.mx|amazon.com.tr|amazon.de|amazon.eg|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.nl|amazon.pl|amazon.sa|amazon.se|amazon.sg
 ||cloudfront.net^$domain=titantv.com
+||cloudfront.net^*/sponsors/$domain=pbs.org
 ||coincheck.com/images/affiliates/
 ||coingolive.com/assets/img/partners/
 ||coins4days.com/*_ext_iframe/
@@ -40705,6 +40700,7 @@ _800x80_
 ||oontent.powzers.lol^
 ||openstack.org/api/public/v1/sponsored-projects?
 ||optics.org/banners/
+||outbrain.com^$domain=bgr.com|buzzfeed.com|tvline.com
 ||outlookads.live.com^
 ||outputter.io/uploads/$subdocument
 ||ownedcore.com/forums/ocpbanners/
@@ -40793,6 +40789,7 @@ _800x80_
 ||static.fastpic.org^$subdocument
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
 ||steamanalyst.com/steeem/delivery/
+||storage.googleapis.com/cdn.newsfirst.lk/advertisements/$domain=newsfirst.lk
 ||strcloud.club/mainstream
 ||streamoupload.*/api/spots/$script
 ||streams.tv/js/slidingbanner.js
@@ -40805,6 +40802,7 @@ _800x80_
 ||survivalblog.com/marketplace/
 ||szm.com/reklama
 ||taadd.com/files/js/site_skin.js
+||taboola.com^$domain=independent.co.uk|outlook.live.com|technobuffalo.com
 ||tampermonkey.net/s.js
 ||techgeek365.com/advertisements/
 ||techonthenet.com/javascript/pb.js
@@ -40856,7 +40854,9 @@ _800x80_
 ||webcamtests.com/MyShowroom/view.php?
 ||webstick.blog/images/images-ads/
 ||welovemanga.one/uploads/bannerv.gif
+||widenetworks.net^$domain=flysat.com
 ||wikihow.com/x/zscsucgm?
+||windows.net/banners/$domain=hortidaily.com
 ||wonkychickens.org/data/statics/s2g/$domain=torrentgalaxy.to
 ||worldofmods.com/wompush-init.js
 ||wqah.com/images/banners/
