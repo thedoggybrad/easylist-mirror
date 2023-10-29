@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +q8Jt4UR8I3/+sijk2WmTg
-! Version: 202310291451
+! Checksum: 7uJn4lBAYSfldHeA4YpG8w
+! Version: 202310291502
 ! Title: RU AdList
-! Last modified: 29 Oct 2023 14:51 UTC
+! Last modified: 29 Oct 2023 15:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1101,6 +1101,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##[data-la-refresh-timeout]
 ##[data-la-show-block-id]
 ##[data-la-show-id]
+##[data-link*="//sub"][data-link*="bubblesmedia."]
 ##[data-link*="//ufiler-pro2.ru"]
 ##[data-link*="/sb/clk/"]
 ##[data-link*="://topclicks.club/"]
@@ -13941,6 +13942,7 @@ i2hard.ru##.content__col-left
 fishki.net#?#.content__sub-heading:-abp-contains(Новости партнёров)
 putin-news.ru##.content_adv
 kriminal.tv,marpravda.ru##.content_banner
+kino-teatr.ru#?#.content_block > .page_content_block:-abp-has(> div[style] [id*="_dobro"])
 kino-teatr.ru##.content_block > div[class*="_text_white"]
 noob-club.ru##.content_cactus
 yaminecraft.ru##.content_f > div > center
@@ -16890,6 +16892,7 @@ xyu.tv##[id$="AdsAfterVideo"]
 cools.biz,cools.dj,get-tune.cc,intermusic.name,iplayer.info,ipleer.fm,k1news.ru,kolesa.kz,market4game.ru,mp3cc.biz,mp3iq.com,vmuzice.me,yellowpages.uz##[id*="Banner"]
 espreso.tv##[id*="ScriptRoot"]:not(.news-block-magick)
 liveinternet.ru,livejournal.com##[id*="_R-A-"]
+kino-teatr.ru##[id*="_dobro"]
 makler.md##[id*="_wideBann"]
 liveangarsk.ru##[id*="abovecontent"]
 floomby.ru##[id*="adsPlace"]
@@ -25991,8 +25994,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
