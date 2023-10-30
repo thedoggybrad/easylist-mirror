@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TdPmBydqbajlxZcjivub0A
-! Version: 202310301421
+! Checksum: eS8UgG9ALudYezOr/j8Dmw
+! Version: 202310301431
 ! Title: RU AdList
-! Last modified: 30 Oct 2023 14:21 UTC
+! Last modified: 30 Oct 2023 14:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23958,7 +23958,7 @@ gazeta.ru##div[id^="b_24smi_"]
 m.gazeta.ru##div[id^="ban-content-mobile"]
 gazeta.ru##div[id^="native"]
 quto.ru##div[id^="partner_news_"]
-gazeta.ru,lenta.ru,wmj.ru##div[id^="rnet_"]
+gazeta.ru,lenta.ru,rambler.ru,wmj.ru##div[id^="rnet_"]
 motor.ru##div[id^="rnet_id_"] ~ div[style^="margin-top:"] + div
 rambler.ru##div[style^="display:"][style*="none"] + div[style^="width:"][style*="100%;"][style*="height:"][style*="315px"]:empty
 lenta.ru##iframe[src*="://audiosalute.lenta.ru/"]
