@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UDJb3odaLO2bpEm3ME4xBg
-! Version: 202310302141
+! Checksum: skOKM4JnKnjd1AbyAfGxTA
+! Version: 202310302150
 ! Title: EasyList Dutch
-! Last modified: 30 Oct 2023 21:41 UTC
+! Last modified: 30 Oct 2023 21:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -773,6 +773,7 @@ deblueskrant.nl,nieuweoogst.nl##.banner-wrap
 autowereld.nl,sexjobs.nl##.banner-wrapper
 motocrossplanet.nl##.banner540
 rtvdordrecht.nl##.bannerContainer
+tostrams.nl##.banner__articleside
 tpo.nl##.banner__true
 iexprofs.nl##.banner__wrap
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##.banner_image
@@ -790,7 +791,8 @@ vi.nl##.betting-provider-row
 bieos-omroep.nl##.bieos-widget
 autosport.nl##.bigbanner
 gamer.nl,rtlnieuws.nl##.billboard
-iex.nl##.billboardwrap
+iex.nl,tostrams.nl##.billboardwrap
+tostrams.nl##.billboardwrap-bottom
 iex.nl##.billboardwrapdown
 cryptosjop.nl##.bitvavo-widget
 livios.be##.block-leaderboard
@@ -1234,6 +1236,7 @@ rtlnieuws.nl#?#.autoscalable-block-wrapper:-abp-has(.entity-block-title:-abp-con
 srnieuws.com#?#.mb-10.p-10.card-view:-abp-has(a[target="_blank"][rel="noopener"])
 streamwijzer.be#?#.wp-block-group__inner-container:-abp-has(a[rel="noreferrer noopener"][target="_blank"])
 tijd.be#?#.o-hpgrid__row-tijdconnect:-abp-has(h2:-abp-contains(Gesponsorde inhoud))
+tostrams.nl#?#section.network:-abp-has(.contentheader.contentheader--network:-abp-contains(Gesponsorde links))
 tvgids.nl#?#.square-item:-abp-has( > .banner)
 tweakers.net#?#:-abp-properties(content: "Advertentie";)
 vi.nl#?#.c-articles-list__item.c-articles-list__item--highlight:-abp-has(.c-tag.c-articles-list__label:-abp-contains(Advertorial))
