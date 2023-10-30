@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202310300217
+! Version: 202310300229
 ! Title: EasyPrivacy
-! Last modified: 30 Oct 2023 02:17 UTC
+! Last modified: 30 Oct 2023 02:29 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -498,7 +498,8 @@
 /boomerang/beacon
 /boomLogger.
 /boomr.js
-/boost_stats.
+/boost-sd-analytic.js
+/boost_stats.php
 /bootstrap/metrics.
 /botd.gif?
 /bower_components/fp/fp.js
@@ -3370,6 +3371,7 @@ _mongo_stats/
 ||lsdm.co^
 ||maggieeatstheangel.com^
 ||matheranalytics.com^
+||maxepv.com^
 ||maxtrafixx.tech^
 ||mb-tracking.com^
 ||mcangelus.com^
