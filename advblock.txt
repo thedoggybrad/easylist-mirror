@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BCtGwSGkJ3kGU1BYpDIPvA
-! Version: 202310301510
+! Checksum: l+iPi8f4KgoHZZvhnnnFPw
+! Version: 202310301523
 ! Title: RU AdList
-! Last modified: 30 Oct 2023 15:10 UTC
+! Last modified: 30 Oct 2023 15:23 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1131,9 +1131,8 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##[id^="newPortal_informer_"]
 ##[id^="relap-custom-iframe-rec"]
 ##[id^="unit_"] > a[href*="://mirtesen.ru"]
-##[id^="unit_"] > a[href*="://smi2.net"]
-##[id^="unit_"] > a[href*="://smi2.ru"]
 ##[id^="unit_"] > a[href*="://vrf.ru"]
+##[id^="unit_"] > a[href*="smi2."]
 ##[onclick*=".twkv.ru"]
 ##[onclick*="//msetup.pro/"]
 ##[onclick*="/sb/clk/"]
@@ -25995,8 +25994,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
