@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y6wiEYY+UmeZ/Fb5CNt4Sw
-! Version: 202310302141
+! Checksum: ZG+k1hN/xhV249yuE9YF/w
+! Version: 202310302150
 ! Title: RU AdList
-! Last modified: 30 Oct 2023 21:41 UTC
+! Last modified: 30 Oct 2023 21:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13453,6 +13453,7 @@ agronom.top##.bg-gray
 myfin.by##.bg-light-blue
 eurolab.ua,gdetraffic.com,novaposhta.ua,penza-press.ru,tveda.ru##.bg-link
 socportal.info##.bg-logo-ads
+asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##.bg-sp
 websdr.space#?#.bg-websdr:-abp-has(> .card-body > div > [id] > div[id^="yandex_rtb"])
 mobiltelefon.ru##.bg_banner
 redirekt.info##.bg_header_right > .soft
@@ -14173,6 +14174,7 @@ www.pesticidy.ru##.fix
 alvin-almazov.ru##.fix_block
 e-sant.ru##.fixday
 sims3pack.ru##.fixed-block
+asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##.fixed-link
 agroportal.ua##.fixedBanner
 agroportal.ua##.fixedBlock
 avtoblog.ua##.fixedBrand
@@ -18010,8 +18012,6 @@ realnoevremya.ru##body > div:not([id]):not([class])[style^="width: 350px;"]
 remake.net.ru,zarlit.com##body > div[align="center"]
 gamesisart.ru##body > div[align="left"][style^="position: fixed;"]
 siver.com.ua##body > div[align="right"] > span
-asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##body > div[class$="-p"]
-asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##body > div[class*="-p"]:empty
 999.md,delo.ua,nevasport.ru##body > div[class*="branding"]
 progipertoniyu.ru##body > div[class*="modal"]
 votrube.ru##body > div[class]:last-of-type
@@ -22033,7 +22033,7 @@ lada.kz/uploads/banners/
 ||poufe.ru/promo/
 ||poultryukraine.com/data/image/banners/
 ||povarenok.ru/*/*project$stylesheet
-||povarenok.ru/css/*/sp$stylesheet
+||povarenok.ru/css/*/s$stylesheet
 ||povarenok.ru/i/*/*.jpg
 ||powerwaver.cc^*.js|$script
 ||pozdrav.ru/img/banners/
@@ -23942,6 +23942,7 @@ letidor.ru,quto.ru##article a[href^="https://zen.yandex.ru/"]
 championat.com##div.banner[class*=" "]
 autorambler.ru,rambler.ru,sport.rambler.ru#?#div:-abp-has(> div > [data-rnet])
 rambler.ru#?#div:-abp-has(> div > [id^="adfox-"] + div > div:only-child)
+quto.ru#?#div:-abp-has(> div[style] + [id^="rnet_"])
 mail.rambler.ru##div[class*="Ad-direct"]
 lenta.ru##div[class*="goodnews"][class*=" "]
 lenta.ru##div[class="board _winline"]
