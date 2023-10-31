@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ImQ59M/N1aYX1wperSNziA
-! Version: 202310311202
+! Checksum: dJ5G/rNgcrsVV8ftqCh3Zw
+! Version: 202310311210
 ! Title: RU AdList
-! Last modified: 31 Oct 2023 12:02 UTC
+! Last modified: 31 Oct 2023 12:10 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19715,6 +19715,7 @@ rafkino.com##div[id^="MarketGid"]
 ||azbne.net^$csp=sandbox allow-same-origin;
 ||babla.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' date: ajax.googleapis.com *.bab.la *.cloudflare.net *.jsdelivr.net *.facebook.net *.twitter.com
 ||betnetmed.advertserve.com^$csp=sandbox allow-same-origin;
+||cardiagram.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.dev *.io *.net *.org *.ru *.ua
 ||crossout.net/*free?*&r=$csp=sandbox allow-same-origin;
 ||d3ward.github.io/toolz/adblock$csp=connect-src 'self'
 ||drive.google.com/file/d/1VmzdhLB_-DcnBtUbKfQPnNvsEp_2gnsy/$csp=script-src
