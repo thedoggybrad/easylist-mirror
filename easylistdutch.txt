@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y/XP5DLw3brpF5gyABZh+A
-! Version: 202310311511
+! Checksum: flMQnCHa6fiaGN51+GBq9A
+! Version: 202310311520
 ! Title: EasyList Dutch
-! Last modified: 31 Oct 2023 15:11 UTC
+! Last modified: 31 Oct 2023 15:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1256,9 +1256,9 @@ vi.nl#?#.c-articles-list__item.c-articles-list__item--highlight:-abp-has(.c-tag.
 voetbalcentraal.nl#?#.blok:-abp-has(h3:-abp-contains(Partners))
 weer.nl#?#.shadow-lvl-2:-abp-has(a[href^="https://www.voordeeluitjes.nl/"])
 welingelichtekringen.nl#?#.post:-abp-has(a[href*="/partnerposting/"])
-wielerflits.nl#?#.list-group-item:-abp-has(span:-abp-contains(Ad))
-wielerflits.nl#?#.w-100.p-3:-abp-has(span:-abp-contains(Ad))
-wielerflits.nl#?#.widget:-abp-has(.wf_headline:-abp-contains(Wielerdeals))
+wielerflits.nl#?#.widget-container:-abp-has(.h3.mb-4:-abp-contains(Wielerdeals))
+wielerflits.nl#?#li.list-item.list-item-aside:-abp-has(.badge:-abp-contains(Ad))
+wielerflits.nl#?#li.list-item.list-item-default:-abp-has(span:-abp-contains(Ad))
 wkdarts.nl#?#.wpb_wrapper:-abp-has(div:-abp-contains(#advertentie))
 !--------Uitzonderingen (verbergregels)--------!
 ! *** easylistdutch/hide_whitelist.txt ***
