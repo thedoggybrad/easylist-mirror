@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W87eH+kCy58rRSBPKtAx+g
-! Version: 202310311102
+! Checksum: 9bwJ/pfclKXehOAiGQqHbg
+! Version: 202310311110
 ! Title: IndianList
-! Last modified: 31 Oct 2023 11:02 UTC
+! Last modified: 31 Oct 2023 11:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -845,7 +845,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||aajkaal.in/images/eid.jpg
 ||aajkaal.in/images/madhu.jpg
 ||aajkaal.in/images/stat.jpg
-||aajkaaldaily.com/images/topADS-GIF.gif
+||aajkaaldaily.com/customUploads/advertise/
 ||aajkadinnews.com/admin/add/
 ||aajkalsamachar.com/wp-content/uploads/2020/11/arun5-300x180.jpg
 ||aajkalsamachar.com/wp-content/uploads/2020/11/nnshami-1-300x225.jpg
@@ -7398,7 +7398,7 @@ bankalive.net,lovedevbhoomi.com,narsingdirbani.com##.stream-item-inline-post
 capitalvoice.in,eastcoastdaily.com,kadwaghut.com,kelanchaltimes.com,livequicknews.in,mbkhabar.com,natunbarta.com,nepaltvonline.com,thetimesofchhattisgarh.com,tismedia.in##.stream-item-mag
 bhartianews.com,haqeeqattoday.com,news20live.com,rajdhanitimescg.in,tamilveedhi.com##.stream-item-top
 airanewsnetwork.com,bengallive.in,natunbarta.com,newschutney.com,newsnasha.com,pahar24.com,rudrakshnews.com,satyagrahnews.in,thetadkanews.com,tistanews24.com##.stream-item-top-wrapper
-aamaadmi.in,aapkimedia.com,akjnews.com,allindianews.me,apnahimachalapnishaan.in,asha.news,bastarflame.in,bundelkhandsamachar.com,chandinarsomoy.com,charotarnoavaj.com,crimejasoos.in,ehapuruday.com,glimeindianews.in,globalecampus.com,hamarahimachal.com,highwaychannel.in,hinditechy.com,hindsat.in,indiaprimenews.in,jantaconnect.com,keralabhooshanam.com,livequicknews.in,livereadernews.com,massnews.online,mbkhabar.com,mpcgexpress.com,nationupdate.in,natunbarta.com,nayalook.com,newsd5.in,newslive24x7.com,newssow.com,panchagarhonline.com,pokharanews.com,prabudhajanata.online,pudhari.news,punjabbaani.com,punjabiakhbaar.ca,rewariupdate.com,rig24.in,sangbadkonika.com,shekhawatilive.com,siddhamaruthuvam.in,sonprabhat.live,telegramnews24.com,thehindkeshari.in,thepublicnews.live,thetadkanews.com,thetimesofchhattisgarh.com,vaanishreenews.com,vinayavani.com,voiceofmedia.lk,webmorcha.com,wegwannews.com##.stream-item-widget
+aamaadmi.in,aapkimedia.com,akjnews.com,allindianews.me,apnahimachalapnishaan.in,asha.news,bastarflame.in,bombaysamachar.com,bundelkhandsamachar.com,chandinarsomoy.com,charotarnoavaj.com,crimejasoos.in,ehapuruday.com,glimeindianews.in,globalecampus.com,hamarahimachal.com,highwaychannel.in,hinditechy.com,hindsat.in,indiaprimenews.in,jantaconnect.com,keralabhooshanam.com,livequicknews.in,livereadernews.com,massnews.online,mbkhabar.com,mpcgexpress.com,nationupdate.in,natunbarta.com,nayalook.com,newsd5.in,newslive24x7.com,newssow.com,panchagarhonline.com,pokharanews.com,prabudhajanata.online,pudhari.news,punjabbaani.com,punjabiakhbaar.ca,rewariupdate.com,rig24.in,sangbadkonika.com,shekhawatilive.com,siddhamaruthuvam.in,sonprabhat.live,telegramnews24.com,thehindkeshari.in,thepublicnews.live,thetadkanews.com,thetimesofchhattisgarh.com,vaanishreenews.com,vinayavani.com,voiceofmedia.lk,webmorcha.com,wegwannews.com##.stream-item-widget
 aapabhitak.tv,abhitaknewsuk.in##.stream-item-widget-content
 airanewsnetwork.com##.stream-item-widget:not(#stream-item-widget-3)
 scgnews.in##.stream-item-widget:not(#stream-item-widget-5):not(#stream-item-widget-3)
@@ -8199,6 +8199,7 @@ srujananedu.com##a[title="Sidebar ad-1"]
 aadarshhimachal.com#?#.wpb_wrapper:-abp-has(> h5:-abp-contains(Ads))
 aajbikel.com#?#div.colombiaonesuccess div:-abp-has(> div > div > a>div > p)
 aajbikel.com#?#div.colombiaonesuccess div:-abp-has(> div > div > a>h2 + h4)
+aajkaaldaily.com#?#div.col-lg-3:-abp-has(> ins.adsbygoogle)
 aapkikhabar.com#?#[id^="custom"]:-abp-has(> a:-abp-contains(Government Ad))
 aapkikhabar.com#?#div[id^="AS_O_"] div:-abp-has(> div > div > a> div h5:-abp-contains(Ad |) )
 aapkikhabar.com#?#div[id^="AS_O_LHS"] div:-abp-has(> div > span > a[rel*="sponsored"] )
