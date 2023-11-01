@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OJSdEIJyQuIThW43KgWtog
-! Version: 202311010211
+! Checksum: nzCb0Ib/04okIwbQprsPrA
+! Version: 202311010220
 ! Title: EasyList without rules for adult sites
-! Last modified: 01 Nov 2023 02:11 UTC
+! Last modified: 01 Nov 2023 02:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -303,6 +303,7 @@
 /admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.opera.com|~admanager.roku.com
 /admanager/*$~object,domain=~blog.google|~konograma.com
 /admgr.
+/admitad.js
 /adModule.
 /ADNet/*
 /adnet2.
@@ -26776,6 +26777,7 @@ browsershots.org#@#.advert_area
 ||dmnprx.com^
 ||dmopqjaswvmvopm.com^
 ||dmowvblljmkqx.com^
+||dmrtx.com^
 ||dmsrlnssynhqhl.com^
 ||dmvbdfblevxvx.com^
 ||dmvporebntt.com^
