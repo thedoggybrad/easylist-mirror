@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202311010102
+! Version: 202311010104
 ! Title: EasyPrivacy
-! Last modified: 01 Nov 2023 01:02 UTC
+! Last modified: 01 Nov 2023 01:04 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -249,6 +249,7 @@
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
+/analytics-prod.js
 /analytics-reporter/*
 /analytics-sdk.
 /analytics-secure.js
@@ -290,7 +291,8 @@
 /analytics/track_event/*
 /analytics/tracker.js
 /analytics/trackers?
-/Analytics/visit.jsp
+/analytics/visit.jsp
+/analytics/visit.php
 /analytics?http_referer
 /analytics?token=
 /analytics_events.js
