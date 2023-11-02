@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BwLcy7u61n8FLz7Dta4YNQ
-! Version: 202311022121
+! Checksum: 6bGp9vA/kv2zmJUqQf6TWQ
+! Version: 202311022131
 ! Title: EasyList Italy
-! Last modified: 02 Nov 2023 21:21 UTC
+! Last modified: 02 Nov 2023 21:31 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -693,6 +693,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ! *** easylistitaly:easylistitaly/easylistitaly_thirdparty.txt ***
 ||advx.esprimo.com^
 ||affiliatetxt.nextmediaweb.com^
+||api.vivisail.com^$domain=italiavela.it
 ||autoxy.it/js/combine/lead_banner_min.js$third-party
 ||bannerpress.bps.plap.it^
 ||blogspot.com^*/GM-COMPUTER-LOGO.gif$domain=siciliaunonews.com
@@ -716,8 +717,10 @@ la7.it#@#div[id^="rtbuzz_"]
 ||jooble.org/css/images/logos/jooble_$third-party
 ||postimg.cc^$domain=napolimagazine.com|settecalcio.it|toscanagol.it
 ||sorgentenatura.it/data/img/Banner_$third-party
+||tcccdn.com^*/banner/
 ||venerota.it/lcn_jpg.php$third-party
 ||viaggiare.columbusassicurazioni.it^$third-party
+||viralize.tv/display/$script,domain=teleborsa.it
 ||windows.net^*/Banner/$domain=divisionecalcioa5.it
 !
 ||24hassistance.com^*/banner_$third-party
@@ -738,7 +741,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||aimon.it/banner_
 ||alpitour.it/widget/$third-party
 ||andreafranzoso.com/banner/
-||api.vivisail.com^$domain=italiavela.it
 ||artera.it/banners.php?
 ||atomikecn.nohup.it^$third-party
 ||autocrocetta.com^$domain=quotidianocanavese.it
@@ -922,7 +924,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||stgy.it/images/skin/
 ||supercalcioextra.com^$domain=laprevisione.it
 ||tamtamsrl.it/dreamteam/banner/
-||tcccdn.com^*/banner/
 ||tccstatic.com^*/banner/
 ||tccstatic.com^*/skin/
 ||teetee.eu^$subdocument,third-party
@@ -938,7 +939,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||uplink.aruba.it^$third-party
 ||uzi.it/b/
 ||viagogo.it/feeds/widget.ashx?*&affiliateid=$subdocument
-||viralize.tv/display/$script,domain=teleborsa.it
 ||visitbritainshop.com^$image,third-party
 ||vistosulweb.com/almanacco/
 ||vitaquotidiana.com^$third-party
@@ -958,8 +958,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||wp.com/www.ionoleggioauto.com/banner-$third-party
 ||wp.com/www.rovato.it/*/bannercasa.gif
 ||yoox.it/view.aspx?$subdocument,third-party
-||youtube.com/embed/6NpU5MhmUtg$domain=lapalestra.it
-||youtube.com/embed/f5YM1v4F32c$domain=investomagazine.com
 ! *** easylistitaly:easylistitaly/easylistitaly_thirdparty_popup.txt ***
 ||adserver.incontrierotici.it^$popup
 ||affiliazioniads.snai.it^$popup,third-party
@@ -1302,6 +1300,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||italia-informa.com^*/banner/
 ||italia.fm^*/leaseweb.gif
 ||italiagol.it/js/allinone_bannerWithPlaylist.js
+||italiavela.it/banner/
 ||italpress.com/wp-content/uploads/*/SKIN_
 ||italpress.com/wp-content/uploads/2021/03/intesa-logo.png
 ||kustom-world.it/images/banners/
@@ -1655,9 +1654,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||internapoli.it^*/banner-
 ||invaligia.com/images/ani1_MV.gif
 ||invaligia.com/images/YousosBanner.png
-||investomagazine.com^*/comba.jpg
-||investomagazine.com^*/lp.jpg
-||investomagazine.com^*/sito2.jpg
 ||inviaggiodasola.com^*/banner3_
 ||ioamolasicilia.com^*/TOUR-PALERMO-
 ||ioarte.org/img/banner/
@@ -1697,7 +1693,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||italianiedimburgo.com^*/trova-il-tuo-tirocinio-a-edimburgo.jpg
 ||italianiedimburgo.com^*/vuoi-imparare-l-inglese-a-edimburgo.jpg
 ||italiasette.it^*-336x280-
-||italiavela.it/banner/
 ||italynews.it^*/logo5.jpg
 ||itinerariodiviaggio.com/img/partner/
 ||itvonline.news^*-300x250.
@@ -1833,7 +1828,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||lanuovabq.it^*/20210426-caterina-da-siena-con-sconto-50.gif
 ||lanuovacalabria.it^*/banner/
 ||lanuovaecologia.it^*/SMS-1200x60-
-||lapalestra.it^*/owheel-
 ||lapressa.it/imgs/partners/
 ||lapressa.it/sponsors/
 ||laprimapagina.it^*/banner729x90.
@@ -3574,7 +3568,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||stgy.ovh/~shared/images/d_a/
 ||today.it/~shared/cgi-bin/d_a/
 !
-/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$~media,third-party,domain=altadefinizione-01.info|altadefinizione.immo|altd.uno|animeforce.it|cb01.taxi|cineblog01.hair|cineblog01.sale|cineblog01.taxi|cineblog01.trade|eurekaddl.cfd|eurekaddl.lol|eurekaddl.mom|eurostreaming.cc|eurostreaming.pics|eurostreaming.rodeo|eurostreaming.sbs|eurostreaming.voyage|guardaserie01.click|ilgeniodellostreaming.live|nuovoindirizzo.com|pepperlive.info
+/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$~media,third-party,domain=eurostreaming.rodeo|eurostreaming.sbs|eurostreaming.voyage|guardaserie01.click|ilgeniodellostreaming.live|nuovoindirizzo.com|pepperlive.info
 !
 /^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$image,script,subdocument,domain=amatorialeporno.it|amoreporno.com|clipdisesso.com|culonudo.com|granditetteporno.it|listasitiporno.it|matrignaporno.it|matureporno.it|milfporno.it|peneporno.com|porno-anale.it|porno-gay.it|porno-hardcore.it|porno-lesbica.it|pornoadolescente.it|pornoamica.com|pornocategorie.com|pornoculi.com|pornomatura.it|pornotreno.com|scopateitaliane.com|scopateitaliane.it|sessoromantico.com|videoporno-gratis.it
 ! *** easylistitaly:easylistitaly/easylistitaly_specific_block_popup.txt ***
@@ -3989,7 +3983,7 @@ crotoneok.it##.croto-widget
 corriere.ca##.ct-code-block
 fitri.it##.custom-cont-banner
 meteofinanza.com##.custom-cta-container
-blogdellamusica.eu,carpicalcio.it,fashionandroid.com,gazzettinodelchianti.it##.custom-html-widget
+blogdellamusica.eu,carpicalcio.it,fashionandroid.com,gazzettinodelchianti.it,investomagazine.com##.custom-html-widget
 calciostyle.it##.d-block
 diretta.it,flashscore.it##.detailLeaderboard
 0766news.it,umbriaon.it##.dfad
@@ -4059,7 +4053,7 @@ palermofc.com##.footer_int
 forbes.it##.forbes-ads-skin-container
 quattroruote.it##.fullBanner
 dozenblogs.com##.fw-block-image-parent
-algheroeco.com,almanaccocalciotoscano.it,amicodelpopolo.it,anteprima24.it,assinews.it,battipaglia1929.it,benessereconomico.it,bitquotidiano.it,bolognaindiretta.it,borsainside.com,buoncalcioatutti.it,calabriareportage.it,calciofvg.live,canale2.com,castelvetranoselinunte.it,centropagina.it,corriereal.info,corrieresalentino.it,dronezine.it,elettricomagazine.it,financecommunity.it,gdonews.it,giornaleadige.it,giornaledellabirra.it,giornaledellavela.com,ilfattonisseno.it,ilgiornaledellabellezza.it,ilgiornaledelmolise.it,ilsicilia.it,lacasainordine.it,lagazzettamarittima.it,lameziaterme.it,lapiazzaweb.it,laquilablog.it,lavocedeltrentino.it,lavocedibolzano.it,lavoceditalia.com,madoniepress.it,meteofinanza.com,milanodabere.it,modenaindiretta.it,monrealepress.it,picenonews24.it,pugliapress.org,radioluna.it,rietinvetrina.it,sanitainsicilia.it,siciliammare.it,siciliarurale.eu,sportmagazinetrentino.it,unicoebello.it,verdeazzurronotizie.it,vesuvianonews.it,vesuviolive.it,webmarte.tv##.g
+algheroeco.com,almanaccocalciotoscano.it,amicodelpopolo.it,anteprima24.it,assinews.it,battipaglia1929.it,benessereconomico.it,bitquotidiano.it,bolognaindiretta.it,borsainside.com,buoncalcioatutti.it,calabriareportage.it,calciofvg.live,canale2.com,castelvetranoselinunte.it,centropagina.it,corriereal.info,corrieresalentino.it,dronezine.it,elettricomagazine.it,financecommunity.it,gdonews.it,giornaleadige.it,giornaledellabirra.it,giornaledellavela.com,ilfattonisseno.it,ilgiornaledellabellezza.it,ilgiornaledelmolise.it,ilsicilia.it,lacasainordine.it,lagazzettamarittima.it,lameziaterme.it,lapalestra.it,lapiazzaweb.it,laquilablog.it,lavocedeltrentino.it,lavocedibolzano.it,lavoceditalia.com,madoniepress.it,meteofinanza.com,milanodabere.it,modenaindiretta.it,monrealepress.it,picenonews24.it,pugliapress.org,radioluna.it,rietinvetrina.it,sanitainsicilia.it,siciliammare.it,siciliarurale.eu,sportmagazinetrentino.it,unicoebello.it,verdeazzurronotizie.it,vesuvianonews.it,vesuviolive.it,webmarte.tv##.g
 diretta.it,flashscore.it##.gamble
 1001giochi.it##.game-leaderboard
 asgiana.com,calciolecco1912.com##.gdlr-banner-item-wrapper
@@ -4306,6 +4300,7 @@ catanista.com##.w-100
 radioluna.it,sora24.it##.wallpaper-link
 lantidiplomatico.it,maremmanews.it,oddslot.it##.widget-banner
 supertennis.tv##.widget-banner-container
+italiavela.it##.widget.f300x524
 ilgolfonline.it##.widget_black_studio_tinymce
 grossetosport.com,scrivolibero.it,trivenetogoal.it##.widget_block
 androidblog.it,aroundtheworld.pro,assisisport.it,berlinomagazine.com,bollicinevip.com,canalesassuolo.it,carteprepagate.org,circuitoturismo.it,corriereal.info,corrieredelmolise.com,corrierequotidiano.it,dauniacom.it,dayitalianews.com,europacalcio.it,expartibus.it,fantascientificast.com,forestalinews.it,gonews.it,ibizaa.it,ifood.it,ilclandestinogiornale.italiasera.it,ilprimatonazionale.it,immaginaviaggiare.it,italianotizie.online,italyandmore.it,lameziaterme.it,leggopassword.it,mangiabevigodi.it,momentidicalcio.com,napolisera.it,newsfood.com,newtuscia.it,padovagoal.it,quotidianopiemontese.it,scrivolibero.it,sportando.basketball,stadiotardini.it,startmag.it,trivenetogoal.it,tusciatimes.eu,tuttotek.it,umbria.webcam##.widget_custom_html
@@ -6095,7 +6090,6 @@ esportsonline.it##.widget-above-header
 montecarloliving.com##.widget-asd
 agrifoodtoday.it,agrigentonotizie.it,anconatoday.it,arezzonotizie.it,avellinotoday.it,baritoday.it,bolognatoday.it,bresciatoday.it,brindisireport.it,casertanews.it,cataniatoday.it,cesenatoday.it,chietitoday.it,firenzetoday.it,foggiatoday.it,forlitoday.it,genovatoday.it,ilpescara.it,ilpiacenza.it,latinatoday.it,lecceprima.it,leccotoday.it,livornotoday.it,milanotoday.it,modenatoday.it,monzatoday.it,napolitoday.it,novaratoday.it,padovaoggi.it,palermotoday.it,parmatoday.it,perugiatoday.it,pisatoday.it,quicomo.it,ravennatoday.it,riminitoday.it,romagnaoggi.it,romatoday.it,salernotoday.it,sondriotoday.it,sportpiacenza.it,today.it,torinotoday.it,trentotoday.it,trevisotoday.it,triesteprima.it,udinetoday.it,veneziatoday.it,veronasera.it,vicenzatoday.it##.widget-moovit
 gelocal.it,ilsecoloxix.it,lastampa.it,repubblica.it##.widget-sponsor--container
-italiavela.it##.widget.f300x524
 bici-pieghevole.info,caniegatti.info,ciaogreen.it,infotelematico.com,londra.today,migliorecrema.com,miglioripc.it,notiziarte.com,salutemoderna.it##.widget_aawp_widget_bestseller
 bici-pieghevole.info,infotelematico.com,newsly.it,stampante-3d.net,tuttoesselunga.com##.widget_aawp_widget_box
 yoga-magazine.it##.widget_alobaidirandombannerswidget
