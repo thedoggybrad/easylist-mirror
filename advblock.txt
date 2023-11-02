@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2ONZAOkca3eDygq244uOxA
-! Version: 202311021341
+! Checksum: 3U7AA9gJKjj8dcS9OZHpfA
+! Version: 202311021350
 ! Title: RU AdList
-! Last modified: 02 Nov 2023 13:41 UTC
+! Last modified: 02 Nov 2023 13:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11612,6 +11612,7 @@ medialeaks.ru###billboard-atf
 ndscalc.ru###bkbanner
 cyberinfo.ru###bl_05
 chelnyclub.ru###bl_top_reklama
+poezdato.net,poizdato.net###bla
 chuvyr.ru###blackfire
 fastpic.org###bleft
 ketchuptv.ru###blink
@@ -14701,7 +14702,7 @@ omskinform.ru##.left_col_top ~ *
 forexsystemsru.com##.left_ff a[href*="/fortrader.org/"]
 ua.today##.left_mob > .title
 cc-fan.tv,cn-fan.tv,fox-fan.tv,nf-fan.tv##.left_panel_shop
-poezdato.net##.left_side
+poezdato.net,poizdato.net##.left_side
 daily-inform.ru##.left_sidebar
 kalugacity.ru##.leftb
 guland.com.ua##.leftbar a[href][target="_blank"] > img[src*="/image/banner/"]
@@ -16908,6 +16909,7 @@ rabota.kharkov.ua##[id^="banner_"]
 sheensay.ru##[id^="beget"]
 geonavigator.ge,navigator.az##[id^="bg_banner_link"]
 kirovnet.ru##[id^="bg_link_"]
+poezdato.net,poizdato.net##[id^="blabla_tr"]
 imgfiles.ru##[id^="bn"] > *
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##[id^="bn-"]
 thisisus.ru##[id^="bn_"]
@@ -19694,6 +19696,7 @@ rafkino.com##div[id^="MarketGid"]
 ! CSP and Header filters
 .infox.sg^$csp=script-src
 /gateway/aHR0c$csp=script-src
+://poizdato.net/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.dev *.io *.net *.org *.ru *.ua
 |http*//fastpic.org/$csp=frame-src 'self'
 |http*//fastpic.org/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fastpic.org
 ||24smi-*/top/$csp=script-src
@@ -19733,6 +19736,7 @@ rafkino.com##div[id^="MarketGid"]
 ||nsportal.ru/download/$csp=frame-src 'self'
 ||ontvtime.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.googleapis.com *.googletagmanager.com *.gstatic.com *.ok.ru vk.com
 ||orbit-games.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: date: static.addtoany.com *.googletagmanager.com *.facebook.com *.keycaptcha.com
+||poezdato.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.dev *.io *.net *.org *.ru *.ua
 ||psysovet24.ru^$csp=script-src 'self' * blob: data:
 ||runewslenta.com^$csp=sandbox allow-same-origin;
 ||skam.online^$csp=script-src 'self' * 'unsafe-eval' data:
@@ -21984,7 +21988,6 @@ lada.kz/uploads/banners/
 ||pobedagame.sibnet.ru^$domain=~pobedagame.sibnet.ru
 ||podfm.ru/content/promo/
 ||podfm.ru/images/branding/
-||poezdato.net/js/carsc.js
 ||poezone.ru/poepoints/
 ||poglyad.te.ua/wp-content/uploads/
 ||pogoda.by/promo
@@ -25988,8 +25991,8 @@ aqa.ru#@#div[id^="div-gpt-ad-"]
 au-ok.com#@##banner_adsense
 avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
-buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.textad
+buildplayer.com,bxfilm.org,embedstorage.net,filmets.life,megogo-film.biz#@#.TextAd
 chelseafc.com,shrlink.top#@#.ad-banner
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
