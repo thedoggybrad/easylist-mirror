@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8EKz/A3ZELNrE/E7YnUAsA
-! Version: 202311020140
+! Checksum: GTOhMlN3CUaEcpO6sle5aQ
+! Version: 202311020150
 ! Title: EasyPrivacy without international filters
-! Last modified: 02 Nov 2023 01:40 UTC
+! Last modified: 02 Nov 2023 01:50 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -13,10 +13,7 @@
 !
 !-----------------General tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_general.txt ***
-&action=confection_send_data&
 &action=js_stats&
-&action=js_stats_
-&callback=hitStats_
 &ev=PageView&
 &event=view&
 &EventType=DataDealImpression&
@@ -29336,6 +29333,7 @@ arketing.indianadunes.com^
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
+@@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
