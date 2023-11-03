@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uXSAisjLgy6qElH1HwXvWw
-! Version: 202311030011
+! Checksum: hrUcNkIfyl/XFZXCF69hjQ
+! Version: 202311030020
 ! Title: EasyList without element hiding rules
-! Last modified: 03 Nov 2023 00:11 UTC
+! Last modified: 03 Nov 2023 00:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -38825,6 +38825,7 @@ _800x80_
 ||adfoc.us^$script,third-party
 ||adform.net/banners/$third-party
 ||adform.net/serving/$third-party
+||adinplay-venatus.workers.dev^
 ||adncdnend.azureedge.net^
 ||adrackpush.azurewebsites.net^
 ||ads-yallo-production.imgix.net^
@@ -38896,6 +38897,7 @@ _800x80_
 ||bluepromocode.com/images/widgets/
 ||bookingdragon.com^$subdocument,third-party
 ||br.coe777.com^
+||bs-adserver.b-cdn.net^
 ||btcnews.one/adsbanner_
 ||btguard.com/images/
 ||btr.domywife.com^
