@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202311022353
+! Version: 202311022357
 ! Title: Fanboy's Annoyance List
-! Last modified: 02 Nov 2023 23:53 UTC
+! Last modified: 02 Nov 2023 23:57 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -44706,10 +44706,16 @@ boutirmall.com##.subscription-section
 ! Danish
 samvirke.dk##.block-sam-newsletter-popup
 ! Dutch
+iexgeld.nl###ctl00_Newsletter_UpdateForm
+belegger.nl###ctl00_ctl00_NewsletterFooter_UpdateForm
+iex.nl###ctl00_ctl00_footer_newsletter_UpdateForm
+tostrams.nl###ctl00_ctl00_newsletter_UpdateForm
+tostrams.nl###ctl00_newsletter_UpdateForm
 boerenbusiness.nl##.aanmelden
 sport247.be##.article-detail-nieuwsbrief
 hpdetijd.nl##.block-cta__subscribe
 frankwatching.com##.container-fullwidth-subscription
+tvgids.nl##.footer__subscription
 beursduivel.be,iexprofs.nl##.js-blocknwlsub
 gezondheidsnet.nl##.nieuwsbrief
 eurogamer.nl##.signup-promo
@@ -45869,6 +45875,7 @@ dnzb.nl##.chJfPB
 werkenbijunica.nl##.ckOuter
 sportlink.nl##.cl_cookie_notice_container
 wehkamp.nl##.color-invert.font-size-small
+freo.nl##.component--freo-cookielevel
 tvgids.nl##.consent-backdrop
 allradio.nl,neonspellen.nl##.consent-overlay
 seat.nl##.consent-wall-overlay
@@ -47733,6 +47740,7 @@ ants.vn##.sg-popup-content
 ||cookies.nos.nl^
 ||cookies.ster.nl^
 ||tmgonlinemedia.nl/cc$script
+||voorkeuren.tvgids.nl^
 ! 
 ! ---------- Finnish ----------
 ! 
