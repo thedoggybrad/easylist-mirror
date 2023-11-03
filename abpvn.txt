@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: XOw/DxMSnf7hY3NBqG8qrw
-! Version: 202311030902
+! Checksum: 8iiwgjtv70E0G/Bham6nrQ
+! Version: 202311030910
 ! Title: ABPVN List
-! Last modified: 03 Nov 2023 09:02 UTC
+! Last modified: 03 Nov 2023 09:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 03 Nov 2023 15:22:19 UTC+7
+! Last modified: 03 Nov 2023 16:09:15 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -530,6 +530,7 @@
 ||vilinswell.com^
 ||vipads.live^
 ||xenosmussal.com^
+||zaloweb.vn^
 !---------------Element Hiding--------------
 ###ads-preload
 ###banner-top
@@ -1354,6 +1355,7 @@ zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,taichinhdoanhnghiep.net.vn,
 @@||xahoingaynay.com.vn/upload/20989/20200817/Asset_2_8x_9596af5d4e.png$~third-party
 @@||yhocdata.com/ext/d1/assets/js/ads-prebid.js
 @@||yhocdata.com/ext/d1/public/js/prebid-ads.js
+@@||yopo.vn/js/SyrWyua/adsheader.js
 @@||z-na.amazon-adsystem.com^$domain=azrom.net
 !--------Element Hiding Exception--------------
 @@||azrom.net$generichide
@@ -1378,6 +1380,7 @@ zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,taichinhdoanhnghiep.net.vn,
 @@||traderviet.org$generichide
 @@||truongblogger.top$generichide
 @@||web1s.asia$generichide
+@@||yopo.vn$generichide
 duytan.edu.vn#@##adbox
 game24h.vn#@#.adsbyvli
 ios.codevn.net#@#div[id*="ScriptRoot"]
