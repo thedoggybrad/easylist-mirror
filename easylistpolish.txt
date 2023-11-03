@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3ZbGbKdNduwuxB3weT73xA
-! Version: 202311030550
+! Checksum: QwEODJ4jZdhTzbLEvaCw0A
+! Version: 202311030602
 ! Title: EasyList Polish
-! Last modified: 03 Nov 2023 05:50 UTC
+! Last modified: 03 Nov 2023 06:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1213,7 +1213,6 @@ wprost.pl##.box-list-item-recommendation-content-stream
 polska-zbrojna.pl##.box.withTopMargin > a[href*="/advertclick/"]
 folk24.pl##.boxAdvert
 flashscore.pl,wynikinazywo.pl##.boxOverContent__banner
-wroclaw.pl##.boxVerticalBanner
 mylomza.pl##.box__container iframe
 cnc.info.pl##.box_bok
 24kurier.pl##.box_reklama
@@ -2576,24 +2575,17 @@ filmy69.pl#?#li.videoblock:-abp-has(script[src^="https://a.realsrv.com/"])
 @@^banery/2^$domain=sportgniezno.pl
 @@^reklamy^$domain=csbydgoszcz.pl|selgros24.pl
 @@||api.samiswoi24.pl/advert?
-@@||egarwolin.pl^*^inline__1_576.
 @@||gfx.wiadomosci.radiozet.pl/extension/adverts/design/standard/javascript/adverts/Quantcast/Quantcast.js
 @@||googleapis.com^*^ima3.js|$domain=radiozet.pl
-@@||gorzow24.pl^*^im_91.
 @@||gostynin24.pl^*^banners/owsik^
-@@||iochota.pl^*^inline__1_2083.$image,domain=iochota.pl
-@@||ivrozbiorpolski.pl^*_donate_
 @@||kazimierzdolny24.pl^*^reklama_box.gif
-@@||legitymizm.org^*^gabis-
 @@||liveads.pl^$domain=liveads.pl
 @@||market.bia24.pl/R2|
 @@||maszwolne.pl^*^pages/mini^
 @@||myao.adocean.pl^*^ado.js|$domain=radiozet.pl
 @@||ppr.pl^*^banners^*ppr.
 @@||radiozet.pl/extension/adverts/design/standard/templates/esi/adv/quantcastIframe.html
-@@||samoloty.pl^*^lgp2.
 @@||szbk.pl^$generichide
-@@||team29er.pl^*^fr234a.
 @@||walbrzych24.com/upload/upload/Bannery_HTML/polityka/index.html|$document,subdocument,domain=walbrzych24.com
 ! *** easylistpolish:easylistpolish/easylistpolish_whitelist_dimensions.txt ***
 ! *** easylistpolish:easylistpolish/easylistpolish_whitelist_popup.txt ***
