@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HEvVhB+YTDXn7d+oDR3hpA
-! Version: 202311031420
+! Checksum: +j1PnOcwLDy84ewMP6O6rA
+! Version: 202311031431
 ! Title: EasyList Italy
-! Last modified: 03 Nov 2023 14:20 UTC
+! Last modified: 03 Nov 2023 14:31 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -721,6 +721,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||venerota.it/lcn_jpg.php$third-party
 ||viaggiare.columbusassicurazioni.it^$third-party
 ||viralize.tv/display/$script,domain=teleborsa.it
+||widgets.skyscanner.net^$domain=thailandiapertutti.it
 ||windows.net^*/Banner/$domain=divisionecalcioa5.it
 !
 ||24hassistance.com^*/banner_$third-party
@@ -754,7 +755,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||bit.ly^$domain=manfredonianews.it
 ||blogspot.com^$image,domain=blog.libero.it|newscronaca.myblog.it
 ||book.terravision.eu^$domain=mylondra.it|viaggiallafinedelmondo.it
-||booking.com^$subdocument,domain=canturino.com|cosafarea.it|cosafarei.it|cosavederemadrid.it|costieraamalfitana.com|fortementein.com|guida-polinesia.com|guidaviaggi.org|guide-europe.info|immaginaviaggiare.it|ioamolasicilia.com|iopartodasola.it|irenedisumma.com|italiasearch.it|italy.biella.it|italy.catania.it|italy.firenze.it|italy.grosseto.it|italy.milano.it|italy.novara.it|italy.vicenza.it|machupicchuperu.it|maremma.name|milleunadonna.it|monacodibaviera.org|napolike.it|nonchiamatemiturista.it|nonniavventura.it|notizie.tiscali.it|oktoberfest-monaco.it|panannablogdiviaggi.com|positivitrip.com|quattroruote.it|scorcidimondo.it|sport.tiscali.it|taj-mahal.it|thailandiapertutti.it|tipintravel.com|travelstales.it|travelwithbrothers.com|tuttobaviera.it|vadoingiappone.it|verona.net|viacolviaggio.it|viaggi-lowcost.info|viaggi-nel-tempo.com|viaggiadipiu.it|viaggiallafinedelmondo.it|viaggiascrittori.com|viaggieuropa.com|vivasicilia.com|vocedelverbopartire.com
+||booking.com^$subdocument,domain=canturino.com|cosafarea.it|cosafarei.it|cosavederemadrid.it|costieraamalfitana.com|fortementein.com|guida-polinesia.com|guidaviaggi.org|guide-europe.info|immaginaviaggiare.it|ioamolasicilia.com|iopartodasola.it|irenedisumma.com|italiasearch.it|italy.biella.it|italy.catania.it|italy.firenze.it|italy.grosseto.it|italy.milano.it|italy.novara.it|italy.vicenza.it|machupicchuperu.it|maremma.name|milleunadonna.it|monacodibaviera.org|napolike.it|nonchiamatemiturista.it|nonniavventura.it|notizie.tiscali.it|oktoberfest-monaco.it|panannablogdiviaggi.com|positivitrip.com|quattroruote.it|scorcidimondo.it|sport.tiscali.it|taj-mahal.it|tipintravel.com|travelstales.it|travelwithbrothers.com|tuttobaviera.it|vadoingiappone.it|verona.net|viacolviaggio.it|viaggi-lowcost.info|viaggi-nel-tempo.com|viaggiadipiu.it|viaggiallafinedelmondo.it|viaggiascrittori.com|viaggieuropa.com|vivasicilia.com|vocedelverbopartire.com
 ||campeggi.com/img/takeover/
 ||careerjet.it/partners/
 ||cartomanzia.it/dimmi.gif
@@ -950,7 +951,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||widget.promoqui.it^
 ||widgets.bookaway.com^$third-party
 ||widgets.shop.moda.it^
-||widgets.skyscanner.net^$domain=thailandiapertutti.it
 ||wp.com/docs.macrolibrarsi.it/*/banner_$third-party
 ||wp.com/it.jooble.org/css/images/logos/jooble_135x110.png
 ||wp.com/macrolibrarsi.s3.amazonaws.com/*/banner_$third-party
@@ -1414,6 +1414,9 @@ la7.it#@#div[id^="rtbuzz_"]
 ||wp.com^*/banner/$domain=buongiornoslovacchia.sk
 ||xtremehardware.com/instant-gaming.png
 ||yuvideos.com/banner/
+!
+/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$script,third-party,xmlhttprequest,domain=calcio.re|guardaserie01.click|pepperlive.info
+/^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$script,third-party,xmlhttprequest,domain=ilgeniodellostreaming.zone
 ! (/sw.js)
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,domain=pornototale.com
 !
@@ -3568,8 +3571,6 @@ la7.it#@#div[id^="rtbuzz_"]
 ||stgy.ovh/~shared/images/d_a/
 ||today.it/~shared/cgi-bin/d_a/
 !
-/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$~media,third-party,domain=eurostreaming.rodeo|eurostreaming.sbs|eurostreaming.voyage|guardaserie01.click|ilgeniodellostreaming.live|nuovoindirizzo.com|pepperlive.info
-!
 /^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$image,script,subdocument,domain=amatorialeporno.it|amoreporno.com|clipdisesso.com|culonudo.com|granditetteporno.it|listasitiporno.it|matrignaporno.it|matureporno.it|milfporno.it|peneporno.com|porno-anale.it|porno-gay.it|porno-hardcore.it|porno-lesbica.it|pornoadolescente.it|pornoamica.com|pornocategorie.com|pornoculi.com|pornomatura.it|pornotreno.com|scopateitaliane.com|scopateitaliane.it|sessoromantico.com|videoporno-gratis.it
 ! *** easylistitaly:easylistitaly/easylistitaly_specific_block_popup.txt ***
 ||avmagazine.it/advertise/$popup
@@ -4303,7 +4304,7 @@ supertennis.tv##.widget-banner-container
 italiavela.it##.widget.f300x524
 ilgolfonline.it##.widget_black_studio_tinymce
 grossetosport.com,scrivolibero.it,trivenetogoal.it##.widget_block
-androidblog.it,aroundtheworld.pro,assisisport.it,berlinomagazine.com,bollicinevip.com,canalesassuolo.it,carteprepagate.org,circuitoturismo.it,corriereal.info,corrieredelmolise.com,corrierequotidiano.it,dauniacom.it,dayitalianews.com,europacalcio.it,expartibus.it,fantascientificast.com,forestalinews.it,gonews.it,ibizaa.it,ifood.it,ilclandestinogiornale.italiasera.it,ilprimatonazionale.it,immaginaviaggiare.it,italianotizie.online,italyandmore.it,lameziaterme.it,leggopassword.it,mangiabevigodi.it,momentidicalcio.com,napolisera.it,newsfood.com,newtuscia.it,padovagoal.it,quotidianopiemontese.it,scrivolibero.it,sportando.basketball,stadiotardini.it,startmag.it,trivenetogoal.it,tusciatimes.eu,tuttotek.it,umbria.webcam##.widget_custom_html
+androidblog.it,aroundtheworld.pro,assisisport.it,berlinomagazine.com,bollicinevip.com,canalesassuolo.it,carteprepagate.org,circuitoturismo.it,corriereal.info,corrieredelmolise.com,corrierequotidiano.it,dauniacom.it,dayitalianews.com,europacalcio.it,expartibus.it,fantascientificast.com,forestalinews.it,gonews.it,ibizaa.it,ifood.it,ilclandestinogiornale.italiasera.it,ilprimatonazionale.it,immaginaviaggiare.it,italianotizie.online,italyandmore.it,lameziaterme.it,leggopassword.it,mangiabevigodi.it,momentidicalcio.com,napolisera.it,newsfood.com,newtuscia.it,padovagoal.it,quotidianopiemontese.it,scrivolibero.it,sportando.basketball,stadiotardini.it,startmag.it,thailandiapertutti.it,trivenetogoal.it,tusciatimes.eu,tuttotek.it,umbria.webcam##.widget_custom_html
 padovagoal.it##.widget_cyclone-slider-widget
 padovagoal.it##.widget_execphp
 secolo-trentino.com##.widget_media_gallery
@@ -4479,7 +4480,7 @@ napolimagazine.com##img[width="160"]
 civatenews.com,radiogold.tv,valnews.it##img[width="240"]
 animalidacompagnia.it,ascolinews.it,cartabiancanews.com,ciclonet.it,cronacaflegrea.it,radiogold.tv##img[width="250"]
 radiortm.it##img[width="256"]
-2anews.it,alessandria24.com,altissimoceto.it,altropensiero.net,ambientebio.it,bitquotidiano.it,borderline24.com,business24tv.it,calabria7.it,calabriatv.it,campaniapress.it,carteprepagate.org,chefperpassione.it,circusf1.com,clubdoria46.it,comunicalo.it,concorsi-letterari.it,confinelive.it,corriereelorino.it,cosenzachannel.it,dentrosalerno.it,domanidoveandiamo.it,gazzettinodelgolfo.it,guidaviaggi.it,iamnaples.it,ideefesta.it,ilclandestinogiornale.italiasera.it,ilcorriere.net,ilgiornaledelticino.ch,ilgiornaledisalerno.it,ladriatico.info,lapresse.it,lattemiele.com,macitynet.it,malpensa24.it,newtuscia.it,notiziariofinanziario.com,nuovabrianza.it,orvieto24.it,pordenoneoggi.it,radiolaquila1.it,radiortm.it,scrivolibero.it,sienanews.it,sportchianti.it,startmag.it,tgnewstv.it,todinforma.it,ufficistampanazionali.it,veneziaorientale.news,vercellinotizie.it,xtremehardware.com##img[width="300"]
+2anews.it,alessandria24.com,altissimoceto.it,altropensiero.net,ambientebio.it,bitquotidiano.it,borderline24.com,business24tv.it,calabria7.it,calabriatv.it,campaniapress.it,carteprepagate.org,chefperpassione.it,circusf1.com,clubdoria46.it,comunicalo.it,concorsi-letterari.it,confinelive.it,corriereelorino.it,cosenzachannel.it,dentrosalerno.it,domanidoveandiamo.it,gazzettinodelgolfo.it,guidaviaggi.it,iamnaples.it,ideefesta.it,ilclandestinogiornale.italiasera.it,ilcorriere.net,ilgiornaledelticino.ch,ilgiornaledisalerno.it,ladriatico.info,lapresse.it,lattemiele.com,macitynet.it,malpensa24.it,newtuscia.it,notiziariofinanziario.com,nuovabrianza.it,orvieto24.it,pordenoneoggi.it,radiolaquila1.it,radiortm.it,scrivolibero.it,sienanews.it,sportchianti.it,startmag.it,tgnewstv.it,thailandiapertutti.it,todinforma.it,ufficistampanazionali.it,veneziaorientale.news,vercellinotizie.it,xtremehardware.com##img[width="300"]
 ideawebtv.it##img[width="310"]
 ilsalvagente.it##img[width="320"]
 nuovabrianza.it##img[width="324"]
@@ -4648,11 +4649,11 @@ mobileblogger.it,pistoiasport.com,sassarioggi.it###custom_html-1
 casafacile24.com###custom_html-10
 criptovalute24.com,indiscreto.org,radiorossonera.it,trnews.it###custom_html-11
 ilgiornaledeiveronesi.it,nonsoloturisti.it###custom_html-18
-auguri.gratis,calciohellas.it,calciorosanero.it,card.it,ilgiornaledeimarinai.it,iopartodasola.it,metallus.it,sportnews.eu,thailandiapertutti.it###custom_html-2
+auguri.gratis,calciohellas.it,calciorosanero.it,card.it,ilgiornaledeimarinai.it,iopartodasola.it,metallus.it,sportnews.eu###custom_html-2
 alground.com,calcioatalanta.it,calciofere.it,calciogrifo.it,calciolecce.it,calciomercatonews.com,forzaparma.it,labaricalcio.it,nonniavventura.it,quizlab.it,resetitaliablog.altervista.org,siamolaroma.it,sololalazio.it,tifocosenza.it,tifosipalermo.it,torremaggiore.com,trapanigranata.it###custom_html-3
 calciocasteddu.it,cucinaresenzamenate.it,destinazioneusa.com,floinviaggio.com,guidaconsumatore.com,laprevisione.it,peopleforplanet.it,pianetablunews.it,stranieriinitalia.it,topragazze.it,travelwithbrothers.com,tuttogossipnews.it###custom_html-4
-1x2-calcio.com,innaturale.com,melarossa.it,sportcafe24.com,thailandiapertutti.it,travelwithbrothers.com,tuttogossipnews.it###custom_html-5
-1x2-calcio.com,calciomercatonews.com,indiscreto.org,nonsprecare.it,paladins.it,pentanewslivorno.it,thailandiapertutti.it,torremaggiore.com###custom_html-6
+1x2-calcio.com,innaturale.com,melarossa.it,sportcafe24.com,travelwithbrothers.com,tuttogossipnews.it###custom_html-5
+1x2-calcio.com,calciomercatonews.com,indiscreto.org,nonsprecare.it,paladins.it,pentanewslivorno.it,torremaggiore.com###custom_html-6
 luoghidavedere.it,melarossa.it,pistoiasport.com,putignanonews.it,topragazze.it,torremaggiore.com###custom_html-7
 trueriders.it,vitaminanews.it###custom_html-8
 indiscreto.org,nerdando.com,viaggiallafinedelmondo.it###custom_html-9
