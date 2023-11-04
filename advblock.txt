@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OVm/zkc8aS58D0+mobsfQA
-! Version: 202311042010
+! Checksum: lOJBlzXt9/Nm3CsWNu5VFA
+! Version: 202311042020
 ! Title: RU AdList
-! Last modified: 04 Nov 2023 20:10 UTC
+! Last modified: 04 Nov 2023 20:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -8330,7 +8330,7 @@ _tizers.
 ||parthenophobia.me^$third-party
 ||parthetwo.ru^$third-party
 ||partner-earning.com^$third-party
-||partnercoll.github.io^$third-party,domain=~gidonline.fun|~multfilms.online|~onlinek.net
+||partnercoll.github.io^$third-party,domain=~gidonline.fun|~multfilms.online
 ||partnerearn.net^$third-party
 ||partnerna5.ru^$third-party
 ||partners.ru.com^$third-party
@@ -18113,7 +18113,6 @@ oper.ru##dd > .body font > a[target="_blank"]
 nova-wings.ru##div > #yaMarket ~ table[width="100%"]
 grad.ua##div > .comments ~ .blok_header_title
 parnuxi.com#?#div > .mainmenu:-abp-has(> a[href*="pornolavka.pw"])
-kinogo.cc##div > .mimiserblock_bn
 vokrug.tv#?#div > center:-abp-has(> [href^="https://zen.yandex.ru/"])
 mail.google.com##div.ae5
 mport.ua##div.b-widgets
@@ -18526,7 +18525,6 @@ newsler.ru,xittv.net##div[class^="rec-"]
 radioprofusion.com##div[class^="reclama_"]
 the-geek.ru##div[class^="recpost"]
 brovary.net.ua,neboleem.net,zhenskij-sajt-katerina.ru##div[class^="rek"]
-kinogo.cc,onlinek.net##div[class^="rek_top"]
 torrents3d.ru##div[class^="rekl_index"]
 noteru.com,uzl71.ru##div[class^="reklama"]
 cyberleninka.ru##div[class^="relap-"]
@@ -23123,7 +23121,7 @@ inferno.games,mediagetguru.ru,torent-igruha.com,torrent-music.ru,torrent-soft.ne
 !
 @@||4736.in/vpaid/?id=*&roll=ab0&ab=1|$third-party,xmlhttprequest
 @@||4736.in/vpaid/?id=*&roll=ab0|$third-party,xmlhttprequest
-!||kinogram.best^$third-party,domain=~kinogo.cc|~magnatov.net|~the-office.su|~zetflix.pro|~zetflix.top
+!||kinogram.best^$third-party,domain=~magnatov.net|~the-office.su|~zetflix.pro|~zetflix.top
 ||cdn.jsdelivr.net/npm/cdn4script*.js|$third-party,script
 ||cosmolot24.com.ua/?refcode=$popup
 ||kosmo.link^$popup
