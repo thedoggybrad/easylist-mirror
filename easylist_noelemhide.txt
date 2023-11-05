@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xhUf+Gfc1peVg5OzudhNqA
-! Version: 202311051211
+! Checksum: NiDSl84onYF/DEmF5zQL4w
+! Version: 202311051220
 ! Title: EasyList without element hiding rules
-! Last modified: 05 Nov 2023 12:11 UTC
+! Last modified: 05 Nov 2023 12:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -626,7 +626,7 @@
 /annonser.
 /api-ads.
 /api.ad.
-/api.ads.$domain=~ads.instacart.com
+/api.ads.$domain=~ads.instacart.com|~www.ads.com
 /Api/Ad.
 /api/ads/*
 /api/ads?
@@ -11072,6 +11072,7 @@ _800x80_
 ||e51710f24a.com^
 ||e55629740f.com^
 ||e55b290040.com^
+||e59f087ae4.com^
 ||e5asyhilodice.com^
 ||e5bb7a50f5.com^
 ||e6400a77fa.com^
@@ -24024,6 +24025,7 @@ _800x80_
 ||qksrv1.com^
 ||qksz.net^
 ||qkyktywuvh.com^
+||qkyliljavzci.com^
 ||qlfqkjluvz.com^
 ||qlnccjattetsoq.com^
 ||qlspx.com^
