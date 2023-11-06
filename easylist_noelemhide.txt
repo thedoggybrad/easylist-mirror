@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 45PFT7HggPoevQOPxeguPQ
-! Version: 202311061120
+! Checksum: 7gukl6sbiFMOllLHvKyFXg
+! Version: 202311061131
 ! Title: EasyList without element hiding rules
-! Last modified: 06 Nov 2023 11:20 UTC
+! Last modified: 06 Nov 2023 11:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -40792,7 +40792,7 @@ _800x80_
 ! firework
 ||fireworkapi1.com^$domain=boldsky.com
 ! In-page video advertising.
-||anyclip.com^$script,third-party
+||anyclip.com^$script,third-party,domain=~dictionary.com
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
