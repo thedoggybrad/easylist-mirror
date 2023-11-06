@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W4pAwRj6MrVeKBsOvqTNgw
-! Version: 202311061431
+! Checksum: 9kpgGT74uh5usqOOrej2yQ
+! Version: 202311061441
 ! Title: EasyList without element hiding rules
-! Last modified: 06 Nov 2023 14:31 UTC
+! Last modified: 06 Nov 2023 14:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -40792,7 +40792,7 @@ _800x80_
 ! firework
 ||fireworkapi1.com^$domain=boldsky.com
 ! In-page video advertising.
-||anyclip.com^$script,third-party,domain=~dictionary.com
+||anyclip.com^$script,third-party
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
@@ -41872,7 +41872,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.aniview.com/script/$script,domain=odysee.com
-@@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com
+@@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|dictionary.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||player.ex.co/player/$script,domain=theautopian.com
 @@||player.odycdn.com/api/$xmlhttprequest,domain=odysee.com
