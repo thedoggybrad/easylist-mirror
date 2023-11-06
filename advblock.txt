@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pXzlBEuXpX61uufCaKKvmA
-! Version: 202311060641
+! Checksum: W2bsVr6PqcSgw6cHkX0/RA
+! Version: 202311060651
 ! Title: RU AdList
-! Last modified: 06 Nov 2023 06:41 UTC
+! Last modified: 06 Nov 2023 06:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23952,6 +23952,7 @@ rambler.ru##div[style^="display:"][style*="none"] + div[style^="width:"][style*=
 lenta.ru##iframe[src*="://audiosalute.lenta.ru/"]
 ||audiosalute.lenta.ru/
 ||championat.com/embed/custom.css
+||icdn.lenta.ru/b/
 ||img.championat.com/brand/
 ||plista.com^$domain=wmj.ru
 ||rambler.ru/*/okko-metrics
@@ -24244,6 +24245,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.sidebar-view div[style*="!important"]:
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.spec-adv
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.stat_pixel_yes[onclick][class*="_layout_"][class*="_format_"]
 /portal/ntp/banner?$domain=yandex.by|yandex.kz|yandex.ru|yandex.uz
+@@://ya.ru/*/search$generichide
 @@://ya.ru/search/?$generichide
 @@://yandex.*/safe/win/$generichide
 @@://yandex.*/search/?$generichide
