@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HhN5TvyA/69s1HHGL5LCzA
-! Version: 202311072020
+! Checksum: s9ZNPw+TdgBRlbAr2eYrgw
+! Version: 202311072031
 ! Title: EasyList Italy
-! Last modified: 07 Nov 2023 20:20 UTC
+! Last modified: 07 Nov 2023 20:31 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -111,7 +111,15 @@ _sito/adv/
 ###adk_spalla-middle
 ###adk_spalla-top
 ###adv_nativa
+###eadv-aside
+###eadv-aside-2
+###eadv-aside-3
 ###eadv-billboard
+###eadv-bottom
+###eadv-in-content
+###eadv-in-content-2
+###eadv-in-content-3
+###eadv-related
 ###rcsad_TopLeft_container
 ###video-evo-player.player_evolution
 ###yobee-top-page
@@ -123,6 +131,10 @@ _sito/adv/
 ##.adv-gptslot
 ##.banner-adv
 ##.box_adv_cliccaofferta
+##.eadv-aside
+##.eadv-bottom
+##.eadv-in-content
+##.eadv-related
 ##.footer-adv
 ##.partial-static-adv
 ##.partial-sticky-adv
@@ -4220,6 +4232,7 @@ clientiesperti.it,computer-acquisti.com,corrieregiallorosso.com,domanidoveandiam
 alqamah.it##.widget_xyz_insert_php_widget
 bresciasat.it##.workspace__block--sponsor
 24live.it,areamediapress.it##.wp-block-image
+lacittanews.it##.wp-block-stackable-image
 radiomarte.it##.wpb_revslider_element
 nuovabrianza.it##.wpb_video_widget
 etvmarche.it##.wpcp-carousel-section
@@ -4421,6 +4434,7 @@ borderline24.com##img[width="720"]
 agendapolitica.it,altissimoceto.it,bottadiculo.it,faretennis.com,glianni80.com,guidaviaggi.it,ilgiornaledisalerno.it,italyandmore.it##img[width="728"]
 ilgiornaledisalerno.it##img[width="794"]
 ilgiornaledisalerno.it##img[width="800"]
+lacittanews.it##img[width="900"]
 signorbet.news##img[width="930"]
 armiusate.it##img[width="970"]
 archiportale.com##td[style="height:278px; background-color:#E8E8E6; cursor:pointer;position:relative;z-index:95;padding:40px 0 18px"]
