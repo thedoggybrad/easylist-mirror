@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gWYPZR+o8s+4ohpxf35TWA
-! Version: 202311071901
+! Checksum: aB0TGV0Hjs1j85JKQapHDA
+! Version: 202311071910
 ! Title: RU AdList
-! Last modified: 07 Nov 2023 19:01 UTC
+! Last modified: 07 Nov 2023 19:10 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23103,7 +23103,7 @@ cq.ru#?#div:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
 pikabu.ru##div[href]
 rg.ru##div[id][class*="__"]:empty
-pikabu.ru##div[style*="important;"]
+pikabu.ru##div[style*="important;"][style*="width:"][style*="height:"]
 pikabu.ru##p[href]
 pikabu.ru##p[href] ~ div
 fontanka.ru#?#section div:-abp-properties(content: "Реклама")
@@ -23177,7 +23177,7 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
 2ip.io,2ip.ru#?#.narrow-column > style + div > div:-abp-has(a[target="_blank"])
 2ip.io,2ip.ru##.test-vpn
-2ip.io,2ip.ru##a[href*="?area="]
+2ip.io,2ip.ru##a[href*="/?url="]
 2ip.io,2ip.ru##nav li a[target="_blank"]
 !
 ! Auto.ru
