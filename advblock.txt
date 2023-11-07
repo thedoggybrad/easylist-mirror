@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LQxIhLYf62m9CEhb8l5hqw
-! Version: 202311071241
+! Checksum: H8gzMQG96XjVXyuRYxyUew
+! Version: 202311071250
 ! Title: RU AdList
-! Last modified: 07 Nov 2023 12:41 UTC
+! Last modified: 07 Nov 2023 12:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4748,6 +4748,7 @@ _tizers.
 ||btloader.com^$third-party
 ||buawdshes.ru^$third-party
 ||bubblenik.com^$third-party
+||bubblesmedia.net^$third-party
 ||buckridge.link^$third-party
 ||budaicius.com^$third-party
 ||budrem.club^$third-party
@@ -11508,7 +11509,6 @@ click.alfabank.ru###advise
 1plus1tv.tv,latino-serialo.tv,latinochka.ru,loveserial.net,mundo-latino.ru###advm_close
 1plus1tv.tv,latino-serialo.tv,latinochka.ru,loveserial.net,mundo-latino.ru###advm_vvk
 muzmo.cc###advmusic_banner
-zagonka.net,zagonka.tv,zagonko.org,zogonka.org###afoot
 androidphone.su###after_ask_helpful
 cqham.ru###after_first_post_yadirect
 muzland.es,muzland.info,muzland.ru###agbordid
@@ -11933,7 +11933,7 @@ radidomapro.ru###header_partenaire
 pesiq.ru###header_right_cell
 gzt-sv.ru###headerq
 chess-samara.ru###headlineAdv
-zagonka.net,zagonka.tv,zagonko.org,zogonka.org###hfsn
+zagonk.com,zagonka.net,zagonka.tv,zagonko.org,zagonkop.gb.net,zogonka.org###hfsn
 wbprx.com###hidemead
 intvua.com###hit_pr
 vecdn.pw###holdon
@@ -12657,7 +12657,6 @@ video.sibnet.ru###vjs-overlayclip-container-box
 nagon.net###vk_up_table
 galya.ru###vp_main_520
 stolica.ru###vst_mvideo
-zagonka.net,zagonka.tv,zagonko.org,zogonka.org###vstt > div
 multiurok.ru###vue-bubble
 delfi.lt###wallpaper
 zh24.com###warning
@@ -13594,7 +13593,6 @@ egamersworld.com##.bookmaker_panel > .entry > .thumb
 alvin-almazov.ru,meta.ua##.bookmakers
 sportarena.com##.bookrating
 simhost.org##.booster
-zagonka.net,zagonka.tv,zagonko.org,zogonka.org##.bord > #play_video ~ a
 vikna.tv#?#.border-top:-abp-has(> [id*="ScriptRoot"])
 kulturologia.ru#?#.bordered:-abp-has(> center > .adsbygoogle)
 kulturologia.ru#?#.bordered:-abp-has(> center > [id^="yandex_rtb"])
@@ -20081,7 +20079,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /pub/banners/*$domain=channel4it.com|glavcom.ua|gordonua.com|weukraine.tv
 /pwabuilder-sw.js$domain=filmozavr.com|filmozavr.net
 /rek.js$domain=ebooks.skin
-/rek/*$domain=zagonk.com|zagonka.net|zagonka.tv|zagonko.org|zogonka.org
 /reva.js$domain=kino-hit-online.com
 /rkl_$domain=b17.ru
 /rklm/*$domain=kirovnet.ru
@@ -20128,7 +20125,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /xvideo.js$domain=anivisual.net|trupornolabs.org|uniondht.org|xxxadulttorrent.org
 /yandex.b.js$script,domain=krossava.ru
 /z.js?$script,domain=all-sci.net|bib.social|economics.studio|economuch.com|finbook.news|lawbook.online|lawbooks.news|lib.sale|medinfo.live|myzooplanet.ru|pravo.studio|provse.news|psihologia.biz|sci-lib.biz|sci.house|scicenter.online|textbooks.studio|uchebnikfree.com|xn--80aaivjfyj3e.com
-/z.mp3|$domain=zagonk.com|zagonka.net|zagonka.tv|zagonko.org|zogonka.org
+/z.mp3|$domain=zagonk.com|zagonka.net|zagonka.tv|zagonko.org|zagonkop.gb.net|zogonka.org
 /zvooq.css$domain=moskva.fm|piter.fm
 =http%3A%2F%2Fazaza.torent-telik.
 =js/api/w*.js$~third-party,domain=itc.ua|mezha.media|mychooz.com
