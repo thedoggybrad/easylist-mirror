@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: iPFguL5XUBLzKQGfmToWzQ
-! Version: 202311081521
+! Checksum: 1JO4C261+28x3e/ArNt5Ag
+! Version: 202311081541
 ! Title: ABP filters
-! Last modified: 08 Nov 2023 15:21 UTC
+! Last modified: 08 Nov 2023 15:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2889,3 +2889,14 @@ nettruyenus.net#$#abort-on-property-read sp
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
 ! FD-4039
 @@||dzen.ru/partner2/mailru-morda|$xmlhttprequest,domain=mail.ru
+! *** abp-filters-anti-cv:distribution/abp-filters-core.txt ***
+! Filters to be used by core products
+! #CV-782
+www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
+www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
+! Fallback
+www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event button.ytp-ad-skip-button$delay=0
+||googlevideo.com/videoplayback?*&ctier=L&$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
+@@||googlevideo.com/videoplayback?*&pfa=*$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
+@@||googlevideo.com/videoplayback?*yt_live_broadcast&$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
+@@||googlevideo.com/videoplayback?*yt_premiere_broadcast&$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
