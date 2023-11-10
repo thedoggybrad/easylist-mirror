@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: aAL3tdWwdEM4WlSEMrrsag
-! Version: 202311101511
+! Checksum: aTYyFXO0QZewbsUNECXpBQ
+! Version: 202311101520
 ! Title: ABP filters
-! Last modified: 10 Nov 2023 15:11 UTC
+! Last modified: 10 Nov 2023 15:20 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -917,7 +917,7 @@ animeunity.cc#$#abort-on-property-read zfgstorage; abort-current-inline-script d
 aniwatch.to#$#abort-current-inline-script XMLHttpRequest
 asura.gg#$#hide-if-matches-xpath './/div[@language]/video[@src]/ancestor::div[@style]/parent::div[@id="tip_text_content"]/ancestor::div[@style][@id][1]'
 dl-protect.link#$#abort-current-inline-script addEventListener DOMContentLoaded; hide-if-matches-xpath './/a[@style="cursor: pointer;"]/img[@src][@onmouseover]/ancestor::center/parent::div[1]/ancestor::div[@class="row"]'
-aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'a[class][target]' 'span[class][style^="background-color"]'
+aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'a[class][target]' '*[class][style^="background-color"]'
 9animetv.to#$#hide-if-matches-xpath './/div[@class][contains(@style,"pointer-events")]/ancestor-or-self::div[1]'; hide-if-matches-xpath './/a[@href][@rel]/img[@alt="AniLab"][@style]/ancestor-or-self::div[@class][contains(@style,"margin: 1rem")]';
 marketwatch.com#$#hide-if-matches-xpath './/img/following-sibling::span[contains(text(),"Ad Block")]/ancestor::div/ancestor::div[string-length(@class) >26]'; hide-if-matches-xpath './/div[@style][@class][@data-dianomi-context-id]//img[@style]/following::iframe[@style][contains(@title,"Dianomi ad")]/ancestor::div[string-length(@class) >26][1]';
 xanimu.com#$#hide-if-matches-xpath './/a[contains(@href,"zlinkb.com")]/parent::*/ancestor::div[contains(@class,"col")][1]'
