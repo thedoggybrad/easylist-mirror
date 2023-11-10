@@ -1,5 +1,5 @@
 [Adblock Plus 3.1]
-! Checksum: AbI7rfsqUnL1TGULEpFZpQ
+! Checksum: 9Uu8UXYWdl4PuJUxZKMuMQ
 ! Version: 202311101441
 ! Title: ABP filters
 ! Last modified: 10 Nov 2023 14:41 UTC
@@ -2888,11 +2888,5 @@ nettruyenus.net#$#abort-on-property-read sp
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
 ! FD-4039
 @@||dzen.ru/partner2/mailru-morda|$xmlhttprequest,domain=mail.ru
-! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
-! Filters to be used by distribution partners
-! #CV-782
-www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
-www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
-www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
-! Fallback
-www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event button.ytp-ad-skip-button$delay=0
+! *** abp-filters-anti-cv:distribution/abp-filters-core.txt ***
+! Filters to be used by core products
