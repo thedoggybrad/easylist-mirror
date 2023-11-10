@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: hGKrArRXyd9WfeNLE9H0OQ
-! Version: 202311101331
+! Checksum: Yy0ktssyCoF2m0l/4zUaxQ
+! Version: 202311101341
 ! Title: ABPVN List
-! Last modified: 10 Nov 2023 13:31 UTC
+! Last modified: 10 Nov 2023 13:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 10 Nov 2023 17:20:57 UTC+7
+! Last modified: 10 Nov 2023 20:33:11 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -1445,8 +1445,8 @@ $third-party,script,domain=sexdiaryx.us
 !---------- ABPVN Adult Element Hide ---------------
 ##iframe[src^="https://media.vivaclix.com/js/ifr.html?"]
 cliphot69.biz###custom_html-42
-cliphotvn.2tenz.top###video_player ~ div[id]
 cliphotvn.2tenz.top##div[style^="position:fixed;inset:0px;z-index:100000;"]
+cliphotvn.2tenz.top,hls.playerfb.xyz###video_player ~ div[id]
 cliphotvn.pro,mobiblog.lol,cliphot69.biz,phevkl.biz##.float-ck-center-lt
 filemoon.sx##body>[style*="position: fixed;"]
 gaingon18.com###iklan-atas-wrapper
