@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202311121029
+! Version: 202311120902
 ! Title: Fanboy's Annoyance List
-! Last modified: 12 Nov 2023 10:29 UTC
+! Last modified: 12 Nov 2023 09:02 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1387,6 +1387,7 @@ _twitter_follow.
 /bandeaucookie.js
 /banner-cookies.js
 /banner_cookie.js
+/barreCookie/*
 /bb-cookies.js
 /bc-cookie-consent/assets/js/klaro-config.js
 /bc-cookie-consent/assets/js/klaro.js
@@ -1398,7 +1399,7 @@ _twitter_follow.
 /borlabs-cookie.min.js
 /borlabs-cookie/vendor-list.json
 /branding/cb-scripts-
-/bs5-cookie-consent/js/cookie.js
+/bs5-cookie-consent/*
 /build/js/it-cc.js
 /bundle-gdpr.min.js
 /c4s_cookie_notification/*
@@ -1435,13 +1436,13 @@ _twitter_follow.
 /cms_cookies_acceptance/cookie_policies-
 /cnil.js
 /cnil.min.js
-/common-cookie-bar.min.js
 /complianz.min.js
 /consent-banner-
 /consent-box.js
+/consent-dialog.
 /consent-layer-loader.js
-/consent-manager.js
-/consent-manager.min.js
+/consent-management/*
+/consent-manager.
 /consent-modal.js
 /consent-tracking-api.js
 /consent.min.js?
@@ -1453,21 +1454,21 @@ _twitter_follow.
 /consentbar/consent-bar.min.js
 /consentcookie.js
 /consentcookie.min.js
+/ConsentTracking-
 /coockiealert.js
 /coockieconsent.js
 /cookie-accept.js
-/cookie-alert.js
-/cookie-alert.min.js
-/cookie-banner.js
-/cookie-banner.min.js
-/cookie-banner/*
+/cookie-alert.
+/cookie-approval.
+/cookie-banner$domain=~github.com
+/cookie-bar-
 /cookie-bar.js
 /cookie-bar.min.js
+/cookie-bundle-
 /cookie-check.js
-/cookie-choices.js
-/cookie-cnil.js
-/cookie-compliance.js
-/cookie-compliance.min.js
+/cookie-choices.
+/cookie-cnil/*
+/cookie-compliance.
 /cookie-consent-dialog.js
 /cookie-consent-dialogue.js
 /cookie-consent-lib.js
@@ -1489,6 +1490,7 @@ _twitter_follow.
 /cookie-information.min.js
 /cookie-law.js
 /cookie-layer.js
+/cookie-manager.
 /cookie-manager/*$domain=~github.com
 /cookie-master.js
 /cookie-message.js
@@ -1497,12 +1499,10 @@ _twitter_follow.
 /cookie-module/*
 /cookie-monster/production/*
 /cookie-notice-
-/cookie-notice.js
-/cookie-notice.min.js
-/cookie-notice/js/front.min.js
+/cookie-notice.
+/cookie-notice/*$~stylesheet
 /cookie-notif.js
-/cookie-notification.js
-/cookie-notification.min.js
+/cookie-notification
 /cookie-option.js
 /cookie-overlay-pl.js
 /cookie-policy.css
@@ -1567,9 +1567,8 @@ _twitter_follow.
 /cookie_policy/ack.js
 /cookie_warning.js
 /cookie_ws.js
-/cookieaccept.js
-/cookieaccept.min.js
-/cookieaccept.php
+/cookieaccept.
+/CookieAccept/*
 /cookieacceptance.js
 /cookieacceptance.min.js
 /cookieAgree.js
@@ -1604,9 +1603,9 @@ _twitter_follow.
 /cookiechoices.min.js
 /cookiechoicesfic.js
 /cookiecode.dist.min.js
-/cookiecompliance.js
-/cookiecompliancy.js
-/cookiecompliancy.min.js
+/cookiecompliance.
+/cookiecompliance/*$script
+/cookiecompliancy.
 /cookieConsent-$script
 /cookieconsent.bundle.js
 /cookieconsent.js
@@ -1614,9 +1613,10 @@ _twitter_follow.
 /cookieconsent.min.js
 /cookieconsent/*
 /cookieconsent?
-/cookieconsent_.min.js
-/cookieconsentbar.js
-/cookieconsentpopup.js
+/cookieconsent_
+/cookieconsentbar.
+/cookieConsentDialog.
+/cookieconsentpopup.
 /cookieconsentpub/*
 /CookieConsentTracking-
 /cookiecontrol-
@@ -1625,16 +1625,14 @@ _twitter_follow.
 /cookiecsnt2/*
 /cookiecutter.js
 /cookieCutter.min.
-/cookiecuttr.css
-/cookiecuttr.js
+/cookiecuttr.
 /cookiecuttr/*
 /cookied.js
 /cookiedirective*.js
 /cookiedisclaimer.css
 /cookiedisclaimer.js
 /cookiedisclaimer.min.css
-/cookiedisclosure.js
-/cookiedisclosure/core.js
+/cookiedisclosure.
 /cookiedisclosure/inpage_v2.js
 /cookieDSVGo.min.js
 /cookiefly/frontend/*
@@ -1652,6 +1650,7 @@ _twitter_follow.
 /cookiejar.js
 /cookiejar.min.js
 /cookiejs.js
+/cookielab/*
 /cookieLaw-vanilla.js
 /cookielaw.js
 /cookielaw.min.js
@@ -1661,26 +1660,24 @@ _twitter_follow.
 /CookieLawProduct/resources/generatejs
 /cookielay.js
 /cookielayer.js
+/cookielayer/*
 /cookielayover-min.js
 /cookielayover.js
-/cookielegal.js
+/cookielegal.
 /cookiemanagement.js
-/cookiemessage.js
-/cookieMessage.min.js
+/cookiemessage.
 /cookiemessage_
 /cookieModal.
 /cookiemonster.js
 /cookiemonster.mg
 /cookieMonster.min.js
-/cookiemsg.js
-/cookiemsg.min.js
+/cookiemsg.
 /cookieMunchr.min.js
-/cookienote.css
-/cookienote.js
-/cookienotice-bootstrap.js
-/cookienotice.build.js
-/cookienotice.js
-/cookienotice.min.js
+/cookienote/*
+/cookienotice-
+/cookienotice.
+/cookienotice/*$script
+/cookienotice/Js/*
 /cookienotif.js
 /cookieNotification.js
 /cookieNotification.min.js
@@ -2079,7 +2076,6 @@ _twitter_follow.
 /os19ccm/public/index.php/*
 /osb_consent.min.js
 /otBannerSdk.js
-/oxcookienote.min.js
 /pescookies.min.js
 /pgcookies.min.js
 /pgdpr.min.js
@@ -47839,7 +47835,6 @@ ants.vn##.sg-popup-content
 ||cmp.tori.fi^
 ||cookielaw.org/scripttemplates/*/assets/*.json$xmlhttprequest,domain=elisa.fi
 ||cookielaw.org/scripttemplates/*/assets/otCommonStyles.css$xmlhttprequest,domain=elisa.fi
-||elisa.fi/consent-management/
 ||gravitocdn.blob.core.windows.net/lightcmp/$script,domain=veho.fi
 ||jimms.fi/Scripts/jimmsconsent.min.js$script,domain=jimms.fi
 ||krookmedia.fi/wp-content/plugins/cookie-law-info/$script,domain=krookmedia.fi
