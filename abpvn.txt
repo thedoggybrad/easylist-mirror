@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: qzIKxqXH96JMVcQ1nybWVQ
-! Version: 202311130410
+! Checksum: sohg0sMWtGY/BEvkc6ao6Q
+! Version: 202311130420
 ! Title: ABPVN List
-! Last modified: 13 Nov 2023 04:10 UTC
+! Last modified: 13 Nov 2023 04:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 13 Nov 2023 10:17:42 UTC+7
+! Last modified: 13 Nov 2023 11:19:35 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -104,7 +104,6 @@
 ||cdnjs.cloudflare.com/ajax/libs/devtools-detector/2.0.14/devtools-detector.min.js
 ||cdnwp.icu^*.gif$image
 ||cf.shopee.vn^$image,domain=animevietsub.fan
-||chillhay.org/guide/popup$script
 ||chodansinh.net^*.gif
 ||chophien.com/imgadvert/
 ||chotlo.me^*gif
@@ -175,7 +174,7 @@
 ||images.tuyensinh247.com^*banner-
 ||images.vov.vn/Uploaded/QC/
 ||images1.violympic.vn/assets/images/*.gif
-||images2-focus-opensocial.googleusercontent.com^*.gif$image,domain=chillhay.org|phimdinhcao.net|phimdinhcao.com|phimlongtieng.net|anivn.club
+||images2-focus-opensocial.googleusercontent.com^*.gif$image,domain=phimdinhcao.net|phimdinhcao.com|phimlongtieng.net|anivn.club
 ||images2.imgbox.com^*.gif$image,domain=ocumoe.com
 ||img-portal-prod.s3.amazonaws.com/uploads/image/attachment/3380/HomeRandom2.gif
 ||img.blogtruyen.vn/sharex/$image
@@ -557,7 +556,6 @@
 4rkinggame.com##.float-ck1
 4rkinggame.com##.module_ahlaejaba
 90phut9.live###app-web + .container[style="margin-bottom: 30px"]
-90phut9.live##.box-content .text-center[style]
 90phut9.live##.item.item-betnow
 90phut9.live##.sv-link.btn-bet-top
 90phut9.live,xoilac14.org##.fade.show
@@ -569,7 +567,6 @@
 90phutx.tv##.justify-content-center.d-flex>.btn-primary.btn
 90phutx.tv##.mt-1.d-lg-flex.d-none.sub-menu
 90phutx.tv##a.d-lg-none.d-block:nth-of-type(2)
-a3manga.info##.single-video
 ahaphimz.com,vkoolsss.net,vphims.net##.catfish-ck
 anime47.com###qc_clgt
 animehay.city###middle-box-screen
@@ -649,7 +646,6 @@ careerlink.vn##.top-right-col-ads
 chap.vn##.my_responsive_add
 chap.vn##.titleBar + *
 chap.vn##[class1="my_responsive_add"]
-chillhay.org###preload-2
 chillphim1.com##.block-bookmaker.block.most-view
 chillphim1.com,zuiphim.com##.banner-preload
 chodansinh.net##.link-gold
@@ -1187,7 +1183,7 @@ vebo8.link,vebo4.org,vebotv.net##.box-host
 vebo8.link,xoilac14.org##.ft-box
 vebo8.link,xoilac14.org,90phut9.live,thapcam.live,thapcam.live,vebo4.org,vebotv.net###m-bet
 vebo8.link,xoilac14.org,90phut9.live,vebo4.org,vebotv.net##div[class*="size-"]
-vebo8.link,xoilac14.org,vebo4.org,vebotv.net##.ibs-bet
+vebo8.link,xoilac14.org,vebo4.org,vebotv.net,90phut9.live##.ibs-bet
 vebot.live##.btno-group.d-none.d-lg-flex
 vebot.live##.container>.mt-1
 vebot.live##.container>.mt-3
