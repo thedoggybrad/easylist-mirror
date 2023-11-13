@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: 3ERkF+uSUWoZHKZ3iE0QwA
-! Version: 202311130750
+! Checksum: /B7sG8gneze/pQzbCFpW7g
+! Version: 202311130802
 ! Title: ABPVN List
-! Last modified: 13 Nov 2023 07:50 UTC
+! Last modified: 13 Nov 2023 08:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 13 Nov 2023 13:58:19 UTC+7
+! Last modified: 13 Nov 2023 14:50:16 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -60,7 +60,7 @@
 /taichinhdoanhnghiep.net.vn/files/qc
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /v/*/vast.js$script,domain=~cdn2.kenhvn2.com
-/vast.js$script,domain=api.anime3s.com|tvzinghd.com|ophimhay.com|player.4shares.live|animesub.me|animevietsub.boctem.com
+/vast.js$script,domain=api.anime3s.com|tvzinghd.com|ophimhay.com|player.4shares.live|animevietsub.boctem.com
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js$domain=~jut.su|~earthcam.com
 ||123nhadatviet.com/Media/CK/banners/
@@ -562,21 +562,20 @@
 90phutx.tv###menu-main-menu>.menu-bongdainfo.menu-item.nav-item.tt-bdif
 90phutx.tv###menu-main-menu>.menu-nha-cai-uy-tin.menu-item.nav-item.style-2>.nav-link
 90phutx.tv##.c-int.d-lg-none.d-block
-90phutx.tv##.col-xl-4
 90phutx.tv##.container>.row>.col-12
 90phutx.tv##.justify-content-center.d-flex>.btn-primary.btn
+90phutx.tv##.matches__item--footer
 90phutx.tv##.mt-1.d-lg-flex.d-none.sub-menu
 90phutx.tv##a.d-lg-none.d-block:nth-of-type(2)
 ahaphimz.com,vkoolsss.net,vphims.net##.catfish-ck
 anime47.com###qc_clgt
-animehay.city###middle-box-screen
 animehay.city##div[style^="position: fixed; bottom: 0px;"]
 animet.net###menubentrai
 animet.net##.gnartyx-offads
 animet.net,animetvn2.com###fbox-background
 animet.net,animetvn2.com##.gnarty-offads
 animetvn2.com###mobile-ads
-animevietsub.boctem.com,fimfast.pro,phimdinhcao.net,phimlongtieng.net,phimdinhcao.com,phimmoipro2.net,phimtn.com,motchillz.org,anivn.club,phimhoathinh3d.com,mephimgi.net,vkool2.net,hoathinhtq.tv,hhhtq.net,xemphimchill.net,animesub.me###popup-giua-man-hinh
+animevietsub.boctem.com,fimfast.pro,phimdinhcao.net,phimlongtieng.net,phimdinhcao.com,phimmoipro2.net,phimtn.com,motchillz.org,anivn.club,phimhoathinh3d.com,mephimgi.net,vkool2.net,hoathinhtq.tv,hhhtq.net,xemphimchill.net###popup-giua-man-hinh
 animevietsub.fan###invideo_wrapper
 animevietsub.fan##.Ads
 animevietsub.fan##.mobile-catfixx
@@ -639,8 +638,8 @@ cakhia20.com,cakhia25.live,cakhia22.live,rakhoi9.live,rakhoi10.live,caheo7.tv,li
 cakhia7.vip##.container.mt-1.d-none.d-lg-block
 cakhia7.vip##.menu-item-object-custom
 cakhia7.vip##a.rlw-extra-i.py-3.flex-grow-1
-cakhia7.vip,90phutx.tv,mitomb.tv,90phut9.live##.modal-backdrop.show
-cakhia7.vip,90phutx.tv,mitomb.tv,vebo4.org,vebotv.net##.show.fade.modal
+cakhia7.vip,mitomb.tv,90phut9.live##.modal-backdrop.show
+cakhia7.vip,mitomb.tv,vebo4.org,vebotv.net##.show.fade.modal
 cakhia7.vip,xoilac89.tv,mitomb.tv,90phutx.tv,vebot.live##.marquee-container
 careerlink.vn##.top-right-col-ads
 chap.vn##.my_responsive_add
@@ -996,7 +995,7 @@ phimtuoitho.tv##.movies-list-wrap>center
 phimvietsub.co,gocphimvn.net##.code-block
 phimvietsub.pro##.sticky_bottom
 phimvietsub.pro,tvhayt.org,api.anime3s.com,tvhay2.net##.t_logo
-phimvuihd.org,vietphims.tv,hh3dhay.com,phimtn.com,khoaiphim.com,chillhayy.online,phimhay.in,animesub.me,hdphim18.net,phimhay.mobi,phimtuoitho.tv,phimmois.org##.float-ck-center-lt
+phimvuihd.org,vietphims.tv,hh3dhay.com,phimtn.com,khoaiphim.com,chillhayy.online,phimhay.in,hdphim18.net,phimhay.mobi,phimtuoitho.tv,phimmois.org##.float-ck-center-lt
 phimyeuthichz.com##.sticky-footer
 phunumoi.net.vn,nhipcaudautu.vn##div[id^="ads_"]
 phuongtrinhhoahoc.com##.ads-bottom-margin
@@ -1079,7 +1078,7 @@ thanhnien.vn##zone
 thanhtra.com.vn###Adsv
 thanhtra.com.vn##.right-banner>a[title]
 thapcam.live##.mct_-bet-bot
-thapcam.live,xoilaczn.tv,vebot.live,90phutx.tv,mitomb.tv##.btn-odds
+thapcam.live,xoilaczn.tv,vebot.live,mitomb.tv##.btn-odds
 thethao12h.me##.ad599div
 thethao12h.me##.bets-now-button
 thethao12h.me##.bets-now-ct
