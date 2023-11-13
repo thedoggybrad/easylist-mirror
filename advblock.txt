@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EIztCpGy+9wNa0j9Zlg44A
-! Version: 202311131131
+! Checksum: iujLgc3qF6veLoJfaU+Wew
+! Version: 202311131141
 ! Title: RU AdList
-! Last modified: 13 Nov 2023 11:31 UTC
+! Last modified: 13 Nov 2023 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11530,6 +11530,7 @@ arminfo.info,pogoda.by###animation_container
 thequestion.ru###answers div[style*="overflow:hidden"]
 komedra.com###apext
 zaycev.net###app > .spa-wrapper ~ div
+scores24.live###app > div > .js-fixed-sensor + div
 xsport.ua###archive-video-player
 ecology.md###article > .right-block
 thg.ru#?##article > div[style="width: 1000%; float: left;"]:-abp-has(> .img_preview > img[src*="/adcode/"])
@@ -16219,6 +16220,7 @@ orakul.ru##.top-news
 abw.by,tut.by##.top-offer
 rugrad.eu##.top-promo
 pavlodar.news,pavon.kz##.top-promo-view
+euro-football.ru##.top-rates
 autosport.com.ru##.top-sidebar-banner
 fcenter.ru##.top-site-an
 anti-malware.ru##.top-text-block
@@ -17141,6 +17143,7 @@ docfilms.info##a[href*="/search?"][href*="pid="]
 scores24.live##a[href*="/sportbooks"]
 chezasite.com##a[href*="/stat/click-"][target="_blank"]
 ant-top.ru##a[href*="/teasers/"]
+scores24.live##a[href*="/tvsv/"]
 muzofond.fm##a[href*="/zvuk_transfer?"]
 filmisub.com##a[href*="728x90"]
 0day.kiev.ua##a[href*="://1001gagarin-stat2.com/"]
@@ -17549,7 +17552,6 @@ infomir59.ru,milknews.ru##a[href^="/netcat/modules/banner/"][target="_blank"]
 sdamgia.ru##a[href^="/o"][target="_blank"]
 dota2.ru##a[href^="/plain/"]
 worldoftanksgame.ru##a[href^="/play-"] > img
-scores24.live##a[href^="/promo/"]
 myparcels.ru##a[href^="/r.php"]
 sixinch.org##a[href^="/red"]
 oryol.ru##a[href^="/redir.php"][target="_blank"] > img[src*="banner"]
@@ -22303,8 +22305,7 @@ lada.kz/uploads/banners/
 ||sbup.com/scripts/dom_hos.js
 ||scask.ru/images/fx4you.
 ||scicenter.online^$subdocument
-||scores24.live/manual/bookmakers/
-||scores24.live/promo/
+||scores24.live/tvsv/
 ||screenlist.ru/ads.js
 ||screenpost.ru^*.php$script
 ||scripts.pogodnik.com/public/js/a_detector.js
