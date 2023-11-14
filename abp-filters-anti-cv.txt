@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 73T0HWdQ55OahhIpxBbmMA
-! Version: 202311141141
+! Checksum: Uez7z6883gNqGH0zmALduQ
+! Version: 202311141150
 ! Title: ABP filters
-! Last modified: 14 Nov 2023 11:41 UTC
+! Last modified: 14 Nov 2023 11:50 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1427,7 +1427,7 @@ asksiirleri.org#$#abort-current-inline-script Math zfgloaded
 netflix-izle.com#$#override-property-read reklam_1 undefined; override-property-read reklamsayisi undefined; override-property-read reklam_1_saniye null; override-property-read reklam_1_gecsaniye null;
 ! *** abp-filters-anti-cv:vietnamese.txt ***
 ! MISC
-blog.abit.vn#$#abort-on-property-read document.cookie
+blog.abit.vn#$#simulate-mouse-event '#ads_popup .close$continue,delay=500'
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 90phut6.live#$#abort-current-inline-script $ overlay;abort-current-inline-script setTimeout overlay
 aoe.vn#$#abort-on-property-read parseInt
@@ -1447,6 +1447,7 @@ xoivo1.online,vaoroi13.online#$#override-property-read adsPlayer '';override-pro
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
+thapcam.live#$#simulate-mouse-event '#modalasd$continue,delay=300'
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net,animet.net,anh.moe#$#abort-on-property-read open
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
