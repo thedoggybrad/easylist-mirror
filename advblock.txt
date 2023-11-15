@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KQvZdYeg2rK0sXXaYdOLpQ
-! Version: 202311151001
+! Checksum: 4jh+J4mLR9ONHTS31UOKdw
+! Version: 202311151010
 ! Title: RU AdList
-! Last modified: 15 Nov 2023 10:01 UTC
+! Last modified: 15 Nov 2023 10:10 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15942,6 +15942,7 @@ expert.ru##.soc-line ~ hr
 ukrlib.com.ua##.social-box-item
 pay-day.ru,pnz.ru,podolyaka.com,podolyaka.ru,tvcenter.ru##.social-button--yandexzen
 nevnov.ru##.social-container
+ukrinform.ua##.socialBlockSlide
 samlab.ws##.soft-day:not(:first-child) > .box
 soft.sibnet.ru##.softmain_content__newprogram_tabs + .softmain_content__newprogram_content > .softmain_content__newprogram_content_item:first-child
 moiprogrammy.net##.softobase-client-promo
@@ -17178,7 +17179,7 @@ second.by,tut.by##a[href*="://reklama.tut.by/"]
 alphapedia.ru##a[href*="://rfnd.io/"]
 robloro.ru##a[href*="://robloro.ru/reklama"]
 1istochnik.ru##a[href*="://rostoknadache.ru"] > img
-gearshout.net,prostomob.com,vsaduidoma.com##a[href*="://s.click.aliexpress.com/e/"]
+prostomob.com##a[href*="://s.zbanx.com/r/"]
 point.md##a[href*="://sales.simpals.com/"][href*="banner"]
 moirebenok.ua##a[href*="://sgo.one/"]
 programmersforum.ru#?#a[href*="://slurm.club/"] ~ *:-abp-contains(https://)
