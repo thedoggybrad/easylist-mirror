@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: g1U2b7DmLieiRi88akPR6g
-! Version: 202311161121
+! Checksum: ms+E3Lbg4DU5KwpGcT3K7A
+! Version: 202311161131
 ! Title: RU AdList
-! Last modified: 16 Nov 2023 11:21 UTC
+! Last modified: 16 Nov 2023 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23087,6 +23087,7 @@ lada.kz/uploads/banners/
 ! селекторы
 pikabu.ru#?#.page-story__before-comments div:-abp-has([class]:-abp-properties(line-height: calc(0px)))
 pikabu.ru#?#.page-story__before-comments div:-abp-properties(min-height: 249px)
+pikabu.ru##.page-story__before-comments div[style=""]
 pikabu.ru#?#.page-story__before-comments:-abp-has(> [id]:first-child)
 pikabu.ru#?#.page-story__story > div:-abp-properties(display: block)
 anidub.vip,anidubonline.com##.plyr__menu
@@ -23107,11 +23108,13 @@ pikabu.ru,sdamgia.ru##[data-name="partial-container"]
 pikabu.ru#?#aside > .sidebar-block:-abp-has(> div[id])
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
+sdamgia.ru##center > div[id][style]
 cq.ru#?#div:-abp-properties(content: "Реклама")
-pikabu.ru,sdamgia.ru##div:first-child > div:first-child:empty + style + div
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
+sdamgia.ru##div[class^="google_ad_left"]
 pikabu.ru##div[href]
 rg.ru##div[id][class*="__"]:empty
+sdamgia.ru##div[id^="yandex_vario"]
 pikabu.ru##div[style*="important;"][style*="width:"][style*="height:"]
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 pikabu.ru##p[href]
