@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5BgfVDALRF5byIuseQQByA
-! Version: 202311161231
+! Checksum: vpjrJF9v6qEdBVTcXECRBQ
+! Version: 202311161241
 ! Title: IndianList
-! Last modified: 16 Nov 2023 12:31 UTC
+! Last modified: 16 Nov 2023 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6239,6 +6239,7 @@ patnalive.co.in##.bs-listing-single-tab + .bs-listing-listing-grid-1
 hindsagarplk.com##.bs-shortcode
 budaunamarprabhat.com##.bs-vc-block .wonderpluginslider-container
 ctnewsbd.com,joynewsbd.com,kdnewslive.in,kollywoodvoice.com,lightnewsbd.com,prottashitoalo.com##.bsac
+positiveindia.net.in##.bsac img:not([src*="1-1.jpg"])
 inbnews24.com##.bsac-container
 everestdainik.com##.bstyle-list ~ .post
 hirunews.lk##.btm-sticky
@@ -7735,6 +7736,7 @@ crimediarybd.com##.widget-body > p img
 samakalikamalayalam.com##.widget-container-130
 kannadaprabha.com##.widget-container-188
 dinamani.com##.widget-container-439 > div:not(#section_content_check_14080)
+dailyinshort.com##.widget-header
 kusenews.com##.widget-header > img
 daunnenews.com##.widget-shortcode:not(#custom_html-12)
 e24bollywood.com##.widget-sidebar img
@@ -8575,6 +8577,7 @@ samajbad.tv##figure.wpb_wrapper
 indiareportertoday.com##figure[id^="attachment"]
 filmybuzz.com#?#.container-fluid div:-abp-has(> h2:-abp-contains(Ads))
 mediapoint24.com,westerntimesnews.in##footer .widget_media_image
+dailyinshort.com##footer > center img
 capitallivenews.com##footer ~ ul.images
 garavigujarat.biz#?#.wpb_raw_html:-abp-has(.adsbymahimeta)
 ghatail.com#?#.mb-3:-abp-has(> div > ins.adsbygoogle)
