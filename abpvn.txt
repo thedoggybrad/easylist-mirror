@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: qyUMfTRewKiCtsayKA0plA
-! Version: 202311161010
+! Checksum: JxFk89CdvSFxVpN9zdlTLw
+! Version: 202311161031
 ! Title: ABPVN List
-! Last modified: 16 Nov 2023 10:10 UTC
+! Last modified: 16 Nov 2023 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 16 Nov 2023 10:49:36 UTC+7
+! Last modified: 16 Nov 2023 17:23:49 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -87,7 +87,7 @@
 ||bf.333xbet.com/18881999/video888.mp4$domain=phimhaytv.info,rewrite=abp-resource:blank-mp3
 ||bf.333xbet.com^$media,third-party,domain=~phimhaytv.info
 ||blog.abit.vn/wp-content/uploads/2020/05/abit_$image
-||blogger.googleusercontent.com^$image,domain=animevip.tv
+||blogger.googleusercontent.com^$image,domain=animevip.tv|hhninja1.tv
 ||blogtruyen.vn^*.gif$image
 ||bonbanh.com/ad/
 ||bongdadem.net^*.gif
@@ -1441,7 +1441,7 @@ $third-party,script,domain=sexdiaryx.us
 ||vailonxx.com/wp-content/themes/vtube/js/ads.js$script
 ||vl3x.vip/ads/$script
 ||vn1.yeusex.cc^*.gif$image
-||web10.sexphim1.com^*.gif$image
+||web11.sexphim1.com^*.gif$image
 ||yr.fopbandido.com^
 !---------- ABPVN Adult Element Hide ---------------
 ##iframe[src^="https://media.vivaclix.com/js/ifr.html?"]
@@ -1488,7 +1488,7 @@ sexviet1.vip,vn1.yeusex.cc##.preload
 sieudamtv.com###pc-preload-modal
 sieudamtv.com###popup
 sieudamtv.com##.quang-cao
-sieudamtv.com,web10.sexphim1.com##.float-ck
+sieudamtv.com,web11.sexphim1.com##.float-ck
 sieukhung.name##.adspopupgiua
 sieukhung.name##.adspopupleft
 sieukhung.name##.adspopupright
@@ -1522,4 +1522,4 @@ vlxx.xxx,javtopxx.com##.ads
 vlxyz.tv##.xx-ads
 vn.javbabe.net##.b-player
 vn.phym18.org##div#bnads
-web10.sexphim1.com##.code-block-4
+web11.sexphim1.com##.code-block-4
