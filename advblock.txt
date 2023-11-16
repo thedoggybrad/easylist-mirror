@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uoviXhKRI1fMY/8lb+t7qw
-! Version: 202311161101
+! Checksum: qNJV6OFL7c8/yJegqLk16A
+! Version: 202311161110
 ! Title: RU AdList
-! Last modified: 16 Nov 2023 11:01 UTC
+! Last modified: 16 Nov 2023 11:10 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1297,6 +1297,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##a[href*="://landingtracker.com/"]
 ##a[href*="://lapina.best/"]
 ##a[href*="://lapina.xyz/"]
+##a[href*="://lobar.site/r/"]
 ##a[href*="://loderkkis.ru"]
 ##a[href*="://manysoftlink.ru/"]
 ~mediasyndicate.ru##a[href*="://mediasyndicate.ru"][href*="banner"]
@@ -17310,7 +17311,6 @@ freetp.org,freetp.ru##a[href*="nacked_tits_bot"]
 halyavin.ru,internethalyava.ru##a[href*="nanokleber-original.com"]
 4esnok.by,actualnews.org,argumenti.ru,argumentiru.com,belta.by,brestcity.com,business-gazeta.ru,carsweek.ru,dailystorm.ru,dni.ru,doctorpiter.ru,eadaily.com,elle.ru,fontanka.ru,inosmi.ru,interfax-russia.ru,interfax.ru,itzine.ru,ixbt.com,iz.ru,kanobu.ru,kaskad.tv,marieclaire.ru,maximonline.ru,metaratings.ru,mir24.tv,mydecor.ru,nashe.ru,neg.by,novostivl.ru,nsn.fm,osnmedia.ru,osnova.news,parents.ru,playmaker24.ru,primpress.ru,prufy.ru,psychologies.ru,radiojazzfm.ru,radioultra.ru,realnoevremya.ru,realt.by,rockfm.ru,shraibikus.com,sm.news,smolensk-i.ru,sport-interfax.ru,srnsk.ru,svpressa.ru,thegirl.ru,tolknews.ru,topdaynews.ru,transport-news.ru,trmzk.ru,tsargrad.tv,tvcenter.ru,ukraina.ru,vk-smi.ru,vokrugsveta.ru,wday.ru,woman.ru,www.sport.ru##a[href*="news"][href*="favid"]
 minecraft-inside.ru##a[href*="nfemo.com/click"]
-rutor-games.info##a[href*="o-compe.ru"]
 liveresult.ru##a[href*="odds"]
 puerrtto.livejournal.com##a[href*="offer"][target="_blank"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[href*="offer_id="]
@@ -19715,6 +19715,7 @@ rafkino.com##div[id^="MarketGid"]
 ||driverpaksolution.ru^$csp=sandbox allow-same-origin;
 ||ex.24smi.info^$csp=script-src
 ||exoclick.com^$csp=sandbox allow-same-origin;
+||findhow.org^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: cse.google.com *.google.com/cse/ *.googleapis.com *.googletagmanager.com translate.google.com *.dev *.io *.net *.org
 ||folltiz.site^$csp=script-src
 ||forum.ru-board.com/*.cgi?*=5&topic=51141$csp=img-src 'self' addons.mozilla.org raw.githubusercontent.com
 ||forum.ruboard.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.google.com/recaptcha/ *.googletagmanager.com *.gstatic.com/recaptcha/ *.sendpulse.com *.threadloom.com
