@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XZbZR6gh25TOQKJcevRjZA
-! Version: 202311180230
+! Checksum: O4asE1TuuN48NSp5rAnNmg
+! Version: 202311180240
 ! Title: KoreanList
-! Last modified: 18 Nov 2023 02:30 UTC
+! Last modified: 18 Nov 2023 02:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=111
 ! Licence: https://easylist.to/pages/licence.html
@@ -123,6 +123,7 @@ devstory.ibksplatform.com#@#.vertical-ads
 ||pr-adimage.newscloud.or.kr^$image
 ||bananamall.co.kr/banner^$image,third-party
 ||ads-partners.coupang.com^$script,third-party
+||ads-partners.coupang.com/widgets.html^$subdocument,third-party
 ||i.imgur.com^$image,domain=manamoa31.net
 ||i.imgur.com^$image,domain=buzztoon156.com
 ||adclicks.devpia.com^$subdocument
