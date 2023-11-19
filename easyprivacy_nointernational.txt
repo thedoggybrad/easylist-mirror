@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: t+fGza+KtgzmhTWNHLb/Ew
-! Version: 202311190741
+! Checksum: W1a3+AncuUAmImkbX1A1Fg
+! Version: 202311190751
 ! Title: EasyPrivacy without international filters
-! Last modified: 19 Nov 2023 07:41 UTC
+! Last modified: 19 Nov 2023 07:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -313,6 +313,7 @@
 /api/ipv4check?
 /api/log-visit
 /api/log?
+/api/metrics/collect
 /api/pageactivity
 /api/pageview?
 /api/pagevisits
@@ -11015,6 +11016,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dd.nytimes.com^
 ||dealnews.com/lw/ul.php
 ||deepl.com/web/statistics
+||deepnote.com/api/track
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
 ||deliver.ptgncdn.com^
 ||deliveroo.com^*/events
@@ -11541,6 +11543,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||pendo.scopus.com/data/ptm.gif
 ||perf.mouser.com^
+||perplexity.ai/api/$xmlhttprequest
 ||perr.hola.org^
 ||pf.newegg.com^
 ||ph.thenextweb.com^
@@ -11812,6 +11815,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.av.st^
 ||t.birchlane.com^
 ||t.dailymail.co.uk^
+||t.deepnote.com^
 ||t.freelancer.com^
 ||t.imgur.com^
 ||t.indeed.com^
