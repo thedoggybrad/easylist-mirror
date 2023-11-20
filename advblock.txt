@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2kN/1q+bIpNnlGkphSL2Gg
-! Version: 202311201751
+! Checksum: 3QcAgGgRVyOleua9TunSIQ
+! Version: 202311201801
 ! Title: RU AdList
-! Last modified: 20 Nov 2023 17:51 UTC
+! Last modified: 20 Nov 2023 18:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -21033,7 +21033,7 @@ lada.kz/uploads/banners/
 ||gdzputina.me/*.swf
 ||gecid.com/data/branding/
 ||gecid.com/inc/getBanIf.
-||gecid.com/script/gecid23.js
+||gecid.com/script/gecid2$script
 ||gemius.pl^$domain=meteo.ua|olx.ua
 ||gen.jut.su/templates/school/video-js-additional/im_my.js
 ||genjutsu.ru/kadam/
@@ -22399,9 +22399,9 @@ lada.kz/uploads/banners/
 ||soft.sibnet.ru/dist/js/ya-pack_banners.js
 ||soft4xp.ru/rss_news.php
 ||softoroom.net/2pclick/
-||softportal.com/*.abc$xmlhttprequest,domain=softportal.com
 ||softportal.com/*.html|$xmlhttprequest,domain=softportal.com
 ||softportal.com/*.htm|$xmlhttprequest,domain=softportal.com
+||softportal.com/*.xyz$xmlhttprequest,domain=softportal.com
 ||softportal.com/img/qwer.
 ||softportal.com/img/tlmn.
 ||softportal.com/js/download_counter.js
@@ -23094,30 +23094,26 @@ lada.kz/uploads/banners/
 ||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
 ||pikabu.ru/ajax/?key=$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/ajax/?x=$xmlhttprequest,domain=pikabu.ru
 ! селекторы
-pikabu.ru#?#.page-story__pre-comments div:-abp-properties(min-height: 248px)
-pikabu.ru##.page-story__pre-comments div[style=""]
-pikabu.ru#?#.page-story__story > div:-abp-properties(display: block)
-pikabu.ru##.page-story__story ~ .page-story__story
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
+pikabu.ru#?#.sidebar-block div:-abp-properties(/min-height: calc\([569]{2}[0-9]{1}/)
 pikabu.ru##.sidebar-block_vacancies ~ div[class^="sidebar-block "]:not(.sidebar-block_border)
-pikabu.ru#?#.sidebar__inner > .sidebar-block div:-abp-properties(min-height: calc(600px))
 pikabu.ru##.sidebar__inner > .sidebar-block div[style=""]
-pikabu.ru#?#.sidebar__inner > .sidebar-block:-abp-has(> div > div:not([id]):not([class]))
-pikabu.ru##.stories-feed__container > .story[data-rating] ~ .story:not([data-rating])
+pikabu.ru##.stories-feed__container > .story[data-text-length] ~ .story:not([data-text-length])
 dracon-zet.ru,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
-pikabu.ru##a[href][class] > div > div
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 sdamgia.ru##center > div[id][style]
 cq.ru#?#div:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
 sdamgia.ru##div[class^="google_ad_left"]
-pikabu.ru##div[data-ad-id]
+pikabu.ru#?#div[class^="page-story__"] div:-abp-properties(/min-height: [245]{2}[0-9]{1}/)
+pikabu.ru##div[class^="page-story__"] div[style=""]
 sdamgia.ru##div[data-name="adWrapper"]
 rg.ru##div[id][class*="__"]:empty
 sdamgia.ru##div[id^="yandex_vario"]
@@ -25454,6 +25450,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||hawk.ru/media/banners/$domain=hawk.ru
 @@||hcsibir.ru/uploads/advert/$image,domain=hcsibir.ru
 @@||holder.com.ua^$media,xmlhttprequest,domain=i.ua
+@@||home-club.com.ua/content/images/other/468x60-white.png|$image,domain=home-club.com.ua
 @@||hypercomments.com/widget/$script,domain=godzfilm.net|hdkino.biz
 @@||iledebeaute.ru^$domain=iledebeaute.ru
 @@||image.zn.ua/media/images/300x250/$image,domain=zn.ua
