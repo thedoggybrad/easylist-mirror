@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7bSxMAFzWKUrVR4Wa4oYMQ
-! Version: 202311211510
+! Checksum: rGKOZD+bv9SFnugYU6JZTw
+! Version: 202311211520
 ! Title: EasyList Polish
-! Last modified: 21 Nov 2023 15:10 UTC
+! Last modified: 21 Nov 2023 15:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -476,7 +476,7 @@ _reklamy^$domain=wiadomoscisasiedzkie.pl
 ||unitedtails.com^*^logo-RC.
 ||vetopedia.pl^*^newbanvetid.
 ||vetopedia.pl^*^vetid.
-||video.onnetwork.tv^$script,domain=abcjanikowo24.pl|bialobrzegi24.net|bielskirynek.pl|czasbrodnicy.pl|ddtorun.pl|dziennikhistoryczny.pl|e-chelmno.pl|e-golub.info.pl|e-krajna.pl|e-lubon.pl|ekstrasierpc.pl|ekutno.pl|esopot.pl|extrawalcz.pl|fakty.nl|gle24.pl|glospowiatusredzkiego.pl|glossokolowa.pl|gorlice24.pl|gostyn24.pl|gst24.pl|gwe24.pl|haloursynow.pl|hej.slupsk.pl|infoskierniewice.pl|isanok.pl|itvszubin.pl|jastrowie24.pl|jura365.pl|kolniak24.eu|koscianiak.pl|kutno.net.pl|legio24.pl|magazynzuzel.pl|modnymagazyn.pl|motomagazyn.com|myglogow.pl|mypolkowice.pl|myszkow365.pl|naszpruszcz.pl|nowysztum.pl|nrypin.pl|pakosc24.pl|pleszew24.info|police24.pl|polski-tenis.pl|prawobrzeze24.pl|pulstygodnia.pl|radzyninfo.pl|rydzyna24.pl|slu24.pl|superchodziez.pl|szemud24.pl|terazlipno.pl|terazstrzelno.pl|tukutno.pl|tusochaczew.pl|tygodnik.pl|tygodnikketrzynski.pl|tyna.info.pl|uniejow.net.pl|wybudujemy.com.pl|zawiercie365.pl|ziemiagorowska.pl|zlomzy.pl|zyciesiedleckie.pl
+||video.onnetwork.tv^$script,domain=abcjanikowo24.pl|bialobrzegi24.net|bielskirynek.pl|czasbrodnicy.pl|ddtorun.pl|dziennikhistoryczny.pl|e-chelmno.pl|e-golub.info.pl|e-krajna.pl|e-lubon.pl|ejarocin.pl|ekstrasierpc.pl|ekutno.pl|esopot.pl|extrawalcz.pl|fakty.nl|faktyct.pl|gle24.pl|glospowiatusredzkiego.pl|glossokolowa.pl|gorlice24.pl|gostyn24.pl|gst24.pl|gwe24.pl|haloursynow.pl|hej.slupsk.pl|infoskierniewice.pl|isanok.pl|iszczecinek.pl|itvszubin.pl|jastrowie24.pl|jura365.pl|kolniak24.eu|koscianiak.pl|kutno.net.pl|legio24.pl|magazynzuzel.pl|miastko24.pl|modnymagazyn.pl|motomagazyn.com|myglogow.pl|mypolkowice.pl|myszkow365.pl|naszpruszcz.pl|nowysztum.pl|nrypin.pl|pakosc24.pl|pleszew24.info|police24.pl|polski-tenis.pl|prawobrzeze24.pl|pulsciechanowa.pl|pulstygodnia.pl|radzyninfo.pl|rydzyna24.pl|rzeczkrotoszynska.pl|slu24.pl|superchodziez.pl|szemud24.pl|terazlipno.pl|terazstrzelno.pl|tukutno.pl|tusochaczew.pl|tygodnik.pl|tygodnikketrzynski.pl|tyna.info.pl|uniejow.net.pl|wybudujemy.com.pl|zawiercie365.pl|ziemiagorowska.pl|zlomzy.pl|zyciesiedleckie.pl
 ||w203.pl/autoczescionline24_
 ||w203.pl/sklep-motoryzacyjny-
 ||wadmargincling.com^$domain=anime-odcinki.pl
@@ -500,12 +500,6 @@ _reklamy^$domain=wiadomoscisasiedzkie.pl
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-||video.onnetwork.tv^$script,domain=faktyct.pl
-||video.onnetwork.tv^$script,domain=iszczecinek.pl
-||video.onnetwork.tv^$script,domain=pulsciechanowa.pl
-||video.onnetwork.tv^$script,domain=miastko24.pl
-||video.onnetwork.tv^$script,domain=ejarocin.pl
-||video.onnetwork.tv^$script,domain=rzeczkrotoszynska.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2358,7 +2352,6 @@ dts24.pl##div[class^="gjhn-single ajhn-"]
 petronews.pl##div[class^="gloto-single aloto-"]
 temi.pl##div[class^="gtmi-dyn atmi-"]
 b1.pl##div[class^="header_"]
-tulegnica.pl##div[class^="l-box l-box--"] img[height="250"]
 zszywka.pl##div[class^="pin-advert"]
 transfermarkt.pl##div[class^="werbung"]
 se.pl##div[class^="zpr_inside"]
