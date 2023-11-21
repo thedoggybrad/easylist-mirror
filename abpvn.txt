@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: 2xqBKGC83VjOMpN+JoFFUw
-! Version: 202311210440
+! Checksum: p1Z2X8RJ1XW53R+7d/Sxtw
+! Version: 202311210451
 ! Title: ABPVN List
-! Last modified: 21 Nov 2023 04:40 UTC
+! Last modified: 21 Nov 2023 04:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 21 Nov 2023 11:24:09 UTC+7
+! Last modified: 21 Nov 2023 11:46:54 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -167,7 +167,7 @@
 ||img-portal-prod.s3.amazonaws.com/uploads/image/attachment/3380/HomeRandom2.gif
 ||img.blogtruyen.vn/sharex/$image
 ||img.dothi.net^*.gif
-||img.dtruyen.com/login-ads-desktop.gif
+||img.dtruyen.com/login-ads-desktop.gif$domain=dtruyen.com
 ||img.ketqua9.net^*.gif
 ||img.upanh.tv^*.gif$domain=phimhay.mobi
 ||img.vietcetera.com^*banner$image
@@ -666,10 +666,7 @@ doisongphapluat.com##div.box-aside
 dongphim3s.net,dongchill.tv,bichill.one###footer_fixed_ads
 download.vn,gamevui.vn###ouibounce-modal
 download.vn,gamevui.vn##div[id^="adsbg"]
-dtruyen.com###content>div[align="right"]
 dtruyen.com###login-ads
-dtruyen.com###playerDailymotion
-dtruyen.com##.video-player
 dtruyen.com##.wt-ads
 dtruyen.com##.wt-ads2
 dubaotiente.com##.ad-pin-right-bottom
