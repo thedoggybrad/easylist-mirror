@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: 3R8n3B0r+XfiwBZD6tJdIQ
-! Version: 202311210840
+! Checksum: 59zgIIYu9okns6M75AmN5A
+! Version: 202311210902
 ! Title: ABPVN List
-! Last modified: 21 Nov 2023 08:40 UTC
+! Last modified: 21 Nov 2023 09:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 21 Nov 2023 15:06:58 UTC+7
+! Last modified: 21 Nov 2023 15:44:51 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -117,7 +117,6 @@
 ||gamenoob.net/wp-content/plugins/convertplug/modules/modal/assets/js/modal.min.js
 ||gamenoob.net/wp-content/plugins/simple-banner/simple-banner.js
 ||gamenoob.net^*.gif
-||gameviet.mobi^*.gif
 ||ghienphim8.net/client_assets/images/
 ||ghienphim8.net/client_assets/js/minijumb.js
 ||gianhangsach.com^*.gif$image
@@ -706,8 +705,6 @@ gamenoob.net##.cp-modal-popup-container
 gamenoob.net##.simple-banner
 gametv.vn##.ads-right1
 gametv.vn##.adv-row
-gameviet.mobi,photoshoponlinemienphi.com##.sgpb-popup-dialog-main-div-wrapper
-gameviet.mobi,photoshoponlinemienphi.com##.sgpb-popup-overlay
 gamevui.vn##.adx-zone
 gamevui.vn##.underlay
 gavang1.link###btn-skip
@@ -981,6 +978,8 @@ phimvietsub.pro##.sticky_bottom
 phimvietsub.pro,tvhayt.org,tvhay2.net##.t_logo
 phimvuihd.org,vietphims.tv,hh3dhay.com,phimtn.com,khoaiphim.com,phimhay.in,hdphim18.net,phimhay.mobi,phimtuoitho.tv,phimmois.org##.float-ck-center-lt
 phimyeuthichz.com##.sticky-footer
+photoshoponlinemienphi.com##.sgpb-popup-dialog-main-div-wrapper
+photoshoponlinemienphi.com##.sgpb-popup-overlay
 phunumoi.net.vn,nhipcaudautu.vn##div[id^="ads_"]
 phuongtrinhhoahoc.com##.ads-bottom-margin
 phuongtrinhhoahoc.com##.ads_blocks_advice
