@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Vo72DP8Z20t8ktcj3ZDA3w
-! Version: 202311210802
+! Checksum: TDwKo6FlL7KBrzpz74QASA
+! Version: 202311210810
 ! Title: EasyList Polish
-! Last modified: 21 Nov 2023 08:02 UTC
+! Last modified: 21 Nov 2023 08:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -503,6 +503,12 @@ _reklamy^$domain=wiadomoscisasiedzkie.pl
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=faktyct.pl
+||video.onnetwork.tv^$script,domain=iszczecinek.pl
+||video.onnetwork.tv^$script,domain=pulsciechanowa.pl
+||video.onnetwork.tv^$script,domain=miastko24.pl
+||video.onnetwork.tv^$script,domain=ejarocin.pl
+||video.onnetwork.tv^$script,domain=rzeczkrotoszynska.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
