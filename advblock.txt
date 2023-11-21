@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: g9y9hxqk7y4pR/FeMuUszg
-! Version: 202311211351
+! Checksum: IZVw2+yRutpIXRrdcEK2Fg
+! Version: 202311211401
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Nov 2023 13:51 UTC
+! Last modified: 21 Nov 2023 14:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24086,6 +24086,7 @@ cyber.sports.ru##.match-teaser__betting-bar
 sports.ru#?#.material-list__item:-abp-has(> .content-label:-abp-contains(/Реклама|Pеклама/))
 sports.ru##.middle-banner-place
 sports.ru##.nav-list__widget-wrapper .promo-block
+sports.ru##.navigation-top__specials + div:empty,.navigation-top__specials
 sports.ru##.news-item__content > p > strong > a[rel="nofollow"]
 sports.ru##.one-card[data-img_desktop^="https://dumpster.cdn.sports.ru/"]
 sports.ru##.page-layout:empty
@@ -24156,7 +24157,6 @@ sports.ru##style:first-child ~ [class^="gift__"]
 ||senoval.sports.ru/snatch-checker/
 ||sports.ru/css/promo.
 ||sports.ru/desktop/special/*-slider/
-||sports.ru/storage/img/configs/menu_promo/
 ||sports.ru^*/banners/
 ||taboola.com^$domain=sports.ru|tribuna.com
 ! обфускация
