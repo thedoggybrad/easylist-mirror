@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IUDNeAe6HMSouajTTHfEgw
-! Version: 202311221131
+! Checksum: 2Jyf0qRpcmTxKjvSC0O+5g
+! Version: 202311221141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Nov 2023 11:31 UTC
+! Last modified: 22 Nov 2023 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23085,7 +23085,6 @@ lada.kz/uploads/banners/
 @@||s.znctrack.net/z|$xmlhttprequest,domain=censor.net|gazeta.ua|i.ua|mail.ukr.net|meteofor.com.ua|tabloid.pravda.com.ua|viva.ua
 ||imgfrost.net^$third-party
 ||ritsatv.ru^$~document
-||vgtimes.ru/*/|$xmlhttprequest
 ! Liveinternet (ловушка для обфускации)
 /^https?://www\.liveinternet\.ru/(?!utf\/|q\/js\/|js\/|4Ek/JS/diary/main/nav/regoradd.js|autosave.js|cgi-bin/rpls.fcgi?|ckeditor\/|ckfinder\/|main_new_1251.js|share/js/share.js|spell/spell.js|uploader\/|vbcode.js|vbcode_language.js)/$script,domain=www.liveinternet.ru
 ||liveinternet.ru/utf/lici.js?
