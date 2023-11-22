@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KRYtmhl4xZqh2uVJ7dnyhA
-! Version: 202311220921
+! Checksum: j56/zZFB67gJeS70Ds3xGQ
+! Version: 202311220930
 ! Title: EasyList without element hiding rules
-! Last modified: 22 Nov 2023 09:21 UTC
+! Last modified: 22 Nov 2023 09:30 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -174,7 +174,6 @@
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*
 /ad/imp?
-/ad/index.
 /ad/leaderboard.
 /ad/player_
 /ad/popup.
@@ -635,7 +634,6 @@
 /arcads.js
 /asrv/campaign/*
 /asset/ad/*
-/assets/ad/*
 /assets/ads/*$~image,domain=~outlook.live.com
 /asyncjs.php
 /asyncspc.php
@@ -42052,7 +42050,6 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg$~third-party
 @@||brave.com/static-assets/$image,~third-party
 @@||britannica.com/mendel-resources/3-52/js/libs/prebid4.$script,~third-party
-@@||canadianlisted.com^*/ad/index.css$stylesheet,~third-party
 @@||capitolbroadcasting.blueconic.net^$image,script,xmlhttprequest,domain=wral.com
 @@||carandclassic.co.uk/images/free_advert/$image,~third-party
 @@||cbsi.com/dist/optanon.js$script,domain=cbsnews.com|zdnet.com
@@ -42215,7 +42212,6 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
 @@||thetvdb.com/banners/$image,domain=tvtime.com
-@@||thingiverse.com/assets/ad/$image,~third-party
 @@||thisiswaldo.com/static/js/$script,domain=bestiefy.com
 @@||townhall.com/resources/dist/js/prebid-pjmedia.js$script,domain=pjmedia.com
 @@||tractorshed.com/photoads/upload/$~third-party
