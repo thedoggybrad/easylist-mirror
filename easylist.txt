@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202311221358
+! Version: 202311221407
 ! Title: EasyList
-! Last modified: 22 Nov 2023 13:58 UTC
+! Last modified: 22 Nov 2023 14:07 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -58581,6 +58581,7 @@ linuxinsider.com###colorbox
 smbc-comics.com###comicright > div[style]
 mirror.co.uk,themirror.com###comments-standalone-mpu
 kotaku.com,qz.com###commerce-inset-wrapper
+seatguru.com###comparePrices
 cpuid.com###console_log
 miniwebtool.com###contain300-1
 miniwebtool.com###contain300-2
@@ -63723,6 +63724,7 @@ coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
 coolors.co#?#a:-abp-has(div:last-child:-abp-contains(Hide))
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(>h4.block-title>span:-abp-contains(Visit Our Sponsors))
 countdown.co.nz#?#cdx-card:-abp-has(product-badge-list)
+cruisecritic.co.uk#?#div[role="group"]:-abp-contains(Sponsored)
 deadspin.com#?#section:-abp-has(a[href^="https://theinventory.com"])
 dearbornmarket.com,fairwaymarket.com,gourmetgarage.com,priceritemarketplace.com,shoprite.com,thefreshgrocer.com#?#div[class^="ColListing"]:-abp-has(div[data-testid^="Sponsored"])
 deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
