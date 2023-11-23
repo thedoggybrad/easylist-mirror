@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /ChPrbFEBDzL1y5PtrscmA
-! Version: 202311231131
+! Checksum: SOb4KQHAjPOD6Hi2UsywdQ
+! Version: 202311231140
 ! Title: EasyList without element hiding rules
-! Last modified: 23 Nov 2023 11:31 UTC
+! Last modified: 23 Nov 2023 11:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41996,6 +41996,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 !---------------------------------Allowlists----------------------------------!
 ! *** easylist:easylist/easylist_allowlist.txt ***
+@@||delivery-cdn-cf.adswizz.com/adswizz/js/SynchroClient*.js$script,domain=tunein.com
+@@||synchrobox.adswizz.com/register2.php$script,domain=tunein.com
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|techrepublic.com|zdnet.com
 @@||4cdn.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||4channel.org/adv/$image,xmlhttprequest,domain=4channel.org
