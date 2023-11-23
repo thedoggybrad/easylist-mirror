@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8JbyDlfy0SaCjF1BTQXmPQ
-! Version: 202311231210
+! Checksum: e+32QMph2vmq77eyfxcJKw
+! Version: 202311231220
 ! Title: EasyList without element hiding rules
-! Last modified: 23 Nov 2023 12:10 UTC
+! Last modified: 23 Nov 2023 12:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41996,8 +41996,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 !---------------------------------Allowlists----------------------------------!
 ! *** easylist:easylist/easylist_allowlist.txt ***
-@@||delivery-cdn-cf.adswizz.com/adswizz/js/SynchroClient*.js$script,domain=tunein.com
-@@||synchrobox.adswizz.com/register2.php$script,domain=tunein.com
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|techrepublic.com|zdnet.com
 @@||4cdn.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||4channel.org/adv/$image,xmlhttprequest,domain=4channel.org
@@ -42089,6 +42087,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||crackle.com/vendor/AdManager.js$script,~third-party
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
 @@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
+@@||delivery-cdn-cf.adswizz.com/adswizz/js/SynchroClient*.js$script,domain=tunein.com
 @@||discretemath.org/ads/
 @@||discretemath.org^$image,stylesheet
 @@||disqus.com/embed/comments/$subdocument
@@ -42230,6 +42229,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||summitracing.com/global/images/bannerads/
 @@||sundaysportclassifieds.com/ads/$image,~third-party
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
+@@||synchrobox.adswizz.com/register2.php$script,domain=tunein.com
 @@||tcbk.com/application/files/4316/7521/1922/Q1-23-CD-Promo-Banner-Ad.png^$~third-party
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
