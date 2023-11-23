@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0tMC0J1UEvJWD4uzHzsJXg
-! Version: 202311230951
+! Checksum: ZlIN1Ud9J+NErmJL1H2znA
+! Version: 202311231002
 ! Title: EasyList without rules for adult sites
-! Last modified: 23 Nov 2023 09:51 UTC
+! Last modified: 23 Nov 2023 10:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -61653,6 +61653,7 @@ linustechtips.com##div[data-role="sidebarAd"]
 aliexpress.com,aliexpress.us##div[data-spm="seoads"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
 investing.com##div[data-test="ad-slot-visible"]
+twitter.com##div[data-testid="cellInnerDiv"] > div > div[class] > div[class][data-testid="placementTracking"]
 twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div[data-testid^="sponsored-product"]
