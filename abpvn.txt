@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: rU3IxsYXRtJDiEjFmIUoRA
-! Version: 202311240250
+! Checksum: EQLYmX+OkA/iYcpwd30tJQ
+! Version: 202311240302
 ! Title: ABPVN List
-! Last modified: 24 Nov 2023 02:50 UTC
+! Last modified: 24 Nov 2023 03:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 24 Nov 2023 09:45:31 UTC+7
+! Last modified: 24 Nov 2023 09:53:55 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -94,7 +94,7 @@
 ||bp.blogspot.com/*banner$image,domain=~aowvn.org|~umu.pink
 ||cdn.pixfuture.com/adb-media/adb_detect_pixfuture.js$domain=saigonbao.com
 ||cdn.thehinh.com^$image,domain=khoedep.vn
-||cdn.thichxemphim1.net/wp-content/themes/halimmovies-child/jscm.min.js
+||cdn.thichxemphim1.net/wp-content/themes/halimmovies-child/jscm.min.js$domain=thichxemphim1.net
 ||cdn.webhoctienganh.com/asset/home/img/banner/$image,domain=webhoctienganh.com
 ||cdn2-img.net^*.gif$image,domain=hhpanda.cc|dongchill.tv|biphim.io|subnhanh.im|subnhanhvl.co|bichill.one
 ||cf.shopee.vn^$image,domain=animevietsub.fan
@@ -1066,6 +1066,7 @@ thethao247.vn##div[data-id="2"]
 thethaovanhoa.vn##.ads_660x90
 thethaovanhoa.vn##[class^="ads_"]
 thichxemphim1.net##.fixed-bottom
+thichxemphim1.net##.popup-banners
 thitruongtaichinhtiente.vn##.c-banner-item
 thitruongtaichinhtiente.vn,congly.vn##.c-banner
 thoctv.com##.add-logo-ads
