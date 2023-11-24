@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ZsKfP0LfvRT8XqIwkuH+9Q
-! Version: 202311240120
+! Checksum: HHpjvd+kL5ZPskA2lWZk6A
+! Version: 202311240131
 ! Title: EasyPrivacy without international filters
-! Last modified: 24 Nov 2023 01:20 UTC
+! Last modified: 24 Nov 2023 01:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1392,6 +1392,7 @@
 /madAnalytics.js
 /magento/page-visit?
 /magento2.js
+/magpie.js
 /marfeelanalytics.js
 /marketing-analytics.js
 /martypixel?
@@ -8304,7 +8305,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ati-host.net/event?
 ||atlassian.net/rest/collectors/$third-party
 ||atom-data.io/session/latest/track.html?$third-party
-||attn.tv/impression?
+||attn.tv/tag/
 ||attn.tv^*/dtag.js
 ||attributiontrackingga.googlecode.com^
 ||auctiva.com/Default.aspx?query
@@ -8345,14 +8346,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||baidu.com/push.js
 ||bamgrid.com/dust$domain=~disneyplus.com
 ||bamgrid.com/telemetry
-||bango.net/exid/*.gif?
-||bango.net/id/*.gif?
-||baqend.com/v1/rum/$third-party
+||baqend.com/v1/rum/
 ||barium.cheezdev.com^
 ||basis.net/assets/up.js
 ||bat.bing.com^
 ||bazaarvoice.com/sid.gif
-||bazaarvoice.com^*/magpie.js
 ||bc.geocities.
 ||bc.marfeelcache.com^
 ||bc0a.com/api/
