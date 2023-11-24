@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202311240225
+! Version: 202311240238
 ! Title: EasyPrivacy
-! Last modified: 24 Nov 2023 02:25 UTC
+! Last modified: 24 Nov 2023 02:38 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -4100,6 +4100,7 @@ _mongo_stats/
 ||dc-storm.com^$third-party
 ||dcmn.com^$third-party
 ||ddm.io^$third-party
+||deadlinefunnel.com^$third-party
 ||debugbear.com^$third-party
 ||decdna.net^$third-party
 ||decibelinsight.net^$third-party
@@ -9446,11 +9447,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn-channels-pixel.ex.co^
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
 ||cdn.usefathom.com^
-||cdn3.net/pixe/
 ||cdnjs.work/metrics.js
 ||cdnma.com/apps/capture.js
 ||cdnplanet.com/static/rum/rum.js
-||centerix.ru^*/count.msl?
 ||ceros.com/a?data
 ||cf.overblog.com^
 ||cfmediaview.com/API/MV_Visit.ashx
@@ -9460,13 +9459,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||channelexco.com/events
 ||chargebee.com/api/internal/track_info_error
 ||check.ddos-guard.net^$third-party
-||check.deadlinefunnel.com^$third-party
 ||checkout.com/logger/
 ||checkout.com/logging
-||choicestream.com^*/pixel/
-||chtah.com/a/*/spacer-0.gif$third-party
-||chtah.com^*/1x1.gif
-||chtah.net/a/*/spacer-0.gif$third-party
 ||cimage.adobe.com^
 ||circonus.com/hit?
 ||citygridmedia.com/tracker/
