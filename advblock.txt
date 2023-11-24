@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IKp9o0xWHywWI6cWewluew
-! Version: 202311241202
+! Checksum: xUhWA50KPt1C8e7ZcqZnXg
+! Version: 202311241211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Nov 2023 12:02 UTC
+! Last modified: 24 Nov 2023 12:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23111,9 +23111,9 @@ sdamgia.ru##center > div[id][style]
 cq.ru#?#div:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
 pikabu.ru#?#div[class*="page-story__"] div:-abp-properties(/min-height: [02345]{2}[0-9]{1}/)
+pikabu.ru##div[class*="page-story__"] div[style=""]
 pikabu.ru##div[class*="sidebar-block_vacancies"] ~ div[class^="sidebar-block "]:not(.sidebar-block_border)
 sdamgia.ru##div[class^="google_ad_left"]
-pikabu.ru##div[class^="page-story__"] div[style=""]
 sdamgia.ru##div[data-name="adWrapper"]
 rg.ru##div[id][class*="__"]:empty
 sdamgia.ru##div[id^="yandex_vario"]
