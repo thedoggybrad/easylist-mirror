@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dc/bI2CyQHQCqHw6LG/U+g
-! Version: 202311260551
+! Checksum: IZurf2iG+ryPoBRkuM2Iqg
+! Version: 202311260602
 ! Title: IndianList
-! Last modified: 26 Nov 2023 05:51 UTC
+! Last modified: 26 Nov 2023 06:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5714,6 +5714,7 @@ breakingaajtaknews.com,goodmorningnation.com,khabarbhartiindia.com,medicallife.i
 dnnnews24x7.com###widget-sidebar-0 ~ div:not(#widget-sidebar-14)
 atalstambh.com,bharatvarshnews18.com,goodmorningnation.com,hakikatnews.com,khabarmantri.com,mpkhabar.com,news4indiatv.com,rajnewsupdate.com,tv24live.com###widget-sidebar-1
 breakingaajtaknews.com,newindia24.in,news4indiatv.com,sameera.co.in###widget-sidebar-2
+mp1news.com###widget-sidebar-2 ~ .widget:not(#widget-sidebar-14)
 atalstambh.com,breakingaajtaknews.com,mpkhabar.com###widget-sidebar-3
 beauronews.com,khabarpradesh.com,newindia24.in###widget-sidebar-4
 gujaratvaibhav.com###widget4
@@ -6473,7 +6474,7 @@ ts29.in##.elementor-video
 khabriyanews.com##.elementor-widget-heading
 joharlive.com,todaypostlive.com##.elementor-widget-html
 zoombangla.com##.elementor-widget-html img
-abbiharnews.com,asianprimetime.com,bisshobarta24.com,citywatchnews.com,filmistreet.com,hamdardtv.com,kannadanewsnow.com,khabarwithcover.com,knanayapathram.com,livelokvani.com,mahendranagarpost.com,namasteandhra.com,nationone.tv,news1india.in,newscrime24.com,newsganga.com,polkholonline.com,realtamilnews.com,sitakundabarta.com,tarunbharat.com,thurannakathu.com,timetvusa.com,topnewskerala.com,ulipur.com,updatepunjab.com,voiceofmountains.com,zoombangla.com##.elementor-widget-image
+abbiharnews.com,asianprimetime.com,bisshobarta24.com,citywatchnews.com,filmistreet.com,hamdardtv.com,jalauntimes.com,kannadanewsnow.com,khabarwithcover.com,knanayapathram.com,livelokvani.com,mahendranagarpost.com,namasteandhra.com,nationone.tv,news1india.in,newscrime24.com,newsganga.com,polkholonline.com,realtamilnews.com,sitakundabarta.com,tarunbharat.com,thurannakathu.com,timetvusa.com,topnewskerala.com,ulipur.com,updatepunjab.com,voiceofmountains.com,zoombangla.com##.elementor-widget-image
 aafnokura.com,thinakaran.lk##.elementor-widget-image .size-full
 simanapari.com##.elementor-widget-image .size-full:not([src*="simanapari-1.png"])
 thecolomboexpress.com##.elementor-widget-image .size-large:not(.wp-image-61263)
@@ -6695,7 +6696,7 @@ jandarshannews.com##.header-nav-main.nav-right
 dinajpur24.com##.header-promo
 alochitokantho.com.bd##.header-promotion
 a2zsamachar.com,azadsandesh.com,bikashnews.com,chattogramersomoy.com,chitwanpress.com,himnewspost.com,malayalamnewstimes.com,nainitalsamachar.org,nepalsandesh.com,newsviewspost.com,peoplenews.lk,reporterseye.com,theprobashi.com##.header-right
-headline24x7.com,khabarduniya.com,mp1news.com##.header-right-adv
+headline24x7.com,khabarduniya.com##.header-right-adv
 newsway.in##.header-right-widgets
 newssanjal.com##.header-second-adv
 sylhetprothidin24.com##.header-section .header_ad_banner
@@ -7349,7 +7350,7 @@ dainik4media.com##.slick-slide
 jagratilahar.com##.slider img:not([src*="1595764637"])
 newsbritant.com##.slider-ad1
 telugutimes.net##.slider-below-ads
-bundelkhandvoice.com,crimekhabar.live,dhenkanalupdate.com,frontline24.com,gnewsindia.com,jalauntimes.com,khabarchalisa.com,rajdhanitimescg.in,republicbharatnews24.com,tnnews24.in##.slider-pro
+bundelkhandvoice.com,crimekhabar.live,dhenkanalupdate.com,frontline24.com,gnewsindia.com,khabarchalisa.com,rajdhanitimescg.in,republicbharatnews24.com,tnnews24.in##.slider-pro
 avnpost.com##.slider-section
 bharathalchal.com,bhilwarahalchal.com,houseplan.lk,samajkihalchal.com##.slider2
 digitalnewslive.com##.slider_2
@@ -8685,6 +8686,7 @@ indiasamachar24.com#?#.widget:-abp-has(.widget-title > h4:-abp-contains(Google A
 indiatimes.com#?#div:-abp-has(> div[data-native-ad])
 indiatv.in#?#.ad:-abp-has(> div:first-child)
 indocanadiantimes.com#?#.block-title span:-abp-contains(Sponsored Ads)
+jalauntimessite.wordpress.com#?#.widget-title:-abp-contains(Advertisment)
 janadeshexpress.in#?#section.widget_text:-abp-has(div > h4.widget-title:-abp-contains(Advertisment))
 janamtv.com#?#div:-abp-has(> .jeg_block_title > span:-abp-contains(ADVT))
 janprahar.com#?#div:-abp-has(> ins)
