@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0OamB+sbaA8uuqxvOdYH7g
-! Version: 202311271321
+! Checksum: 00H9Tgi/g7m2r6lGG9E4MQ
+! Version: 202311271331
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Nov 2023 13:21 UTC
+! Last modified: 27 Nov 2023 13:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22661,6 +22661,7 @@ lada.kz/uploads/banners/
 ||trello-attachments.s3.amazonaws.com$image,domain=puerrtto.livejournal.com
 ||trinixy.ru^*/branding
 ||trishurupa.ru/*banner/*.gif
+||trk.mail.ru^$subdocument,domain=zoneofgames.ru
 ||trkr.stop1c.ru/
 ||tropica.ru/img/b/
 ||truba.com/i/brand/
@@ -23320,7 +23321,7 @@ lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,s
 ! Mail.ru
 ! Скрытие по-разделам
 ! Главная
-~3igames.mail.ru,~auto.mail.ru,~biz.mail.ru,~bonus.mail.ru,~calendar.mail.ru,~cloud.mail.ru,~deti.mail.ru,~dobro.mail.ru,~e.mail.ru,~esports.mail.ru,~games.mail.ru,~gibdd.mail.ru,~go.mail.ru,~health.mail.ru,~help.mail.ru,~hi-tech.mail.ru,~horo.mail.ru,~kino.mail.ru,~lady.mail.ru,~love.mail.ru,mail.ru,~mailblog.mail.ru,~mcs.mail.ru,~minigames.mail.ru,~my.mail.ru,~news.mail.ru,~o2.mail.ru,~octavius.mail.ru,~okminigames.mail.ru,~otvet.mail.ru,~pets.mail.ru,~pogoda.mail.ru,~top.mail.ru,~touch.mail.ru,~tv.mail.ru##div[class*="main-col"] .tgb-wrapper
+~3igames.mail.ru,~auto.mail.ru,~biz.mail.ru,~bonus.mail.ru,~calendar.mail.ru,~cloud.mail.ru,~deti.mail.ru,~dobro.mail.ru,~e.mail.ru,~esports.mail.ru,~games.mail.ru,~gibdd.mail.ru,~health.mail.ru,~help.mail.ru,~hi-tech.mail.ru,~horo.mail.ru,~kino.mail.ru,~lady.mail.ru,~love.mail.ru,mail.ru,~mailblog.mail.ru,~mcs.mail.ru,~minigames.mail.ru,~my.mail.ru,~news.mail.ru,~o2.mail.ru,~octavius.mail.ru,~okminigames.mail.ru,~otvet.mail.ru,~pets.mail.ru,~pogoda.mail.ru,~top.mail.ru,~touch.mail.ru,~tv.mail.ru##div[class*="main-col"] .tgb-wrapper
 ! Auto
 auto.mail.ru#?#.article__item > p:-abp-contains(/P.S.+(ОСАГО|каско)/i)
 auto.mail.ru##.article__item_conversionlink
@@ -23615,12 +23616,11 @@ maps.mail.ru##img[width="200"][height="30"]
 ||imgsmail.ru/js/onair2.$script
 ||imgsmail.ru/r/my/brands/
 ||imgsmail.ru^*/mrg-context_
-||likemore-go.imgsmail.ru/widget.js$script,domain=go.mail.ru
 ||mail.ru/img/promo/
 ||mail.ru/js/common/vendor/
 ||mail.ru^*/rbBanner.js
 ||mamba.ru/images/*/promo/
-||market.yandex.ru/widget/$script,domain=go.mail.ru|hi-tech.mail.ru
+||market.yandex.ru/widget/$script,domain=hi-tech.mail.ru
 ||memytonsfor.ru^$csp=script-src
 ||minigames.imgsmail.ru/swf/stock/
 ||mradx.net/img/$object,subdocument
@@ -23633,7 +23633,6 @@ maps.mail.ru##img[width="200"][height="30"]
 ||r.mradx.net/r/$script
 ||redatastore.ru^$csp=script-src
 ||sportmail.ru^*/BookmakersFooter/
-||stepan-fe.go.mail.ru^$domain=go.mail.ru
 ||tv.mail.ru/popup_banner/
 !
 ! Metaratings
@@ -25879,7 +25878,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||gaua.hit.gemius.pl/gemiuslib.js$domain=1plus1.video|unian.info|unian.net|unian.ua
 @@||gemius.pl/gplayer.js|$script,domain=1plus1.video|unian.info|unian.net|unian.ua
 @@||gig.md^*/reklama/$domain=gig.md
-@@||go.mail.ru^*/adptest$script,domain=go.mail.ru
 @@||googleads.g.doubleclick.net/$xmlhttprequest,domain=2es.work|asteriatm.ru|barsportbar.com|cdnneedtv.ru|cdnpotok.com|cdntelesee.com|cdntvpotok.com|channels247.net|chepok.xyz|domatv.net|fuzzmusic.ru|goool7.ws|hdone.net|hdru.net|hindcine.tv|kipolino.site|klplayer.website|phys-kids.com|pokaz.me|rxtv.github.io|sovetromantica.com|sport7.biz|sportbar.biz|sportbarchik88.com|sporting77.com|src.media-base.co|starserial.ru|sudya-dredd.ru
 @@||googleadservices.com/pagead/conversion.js$script,domain=rzn.info
 @@||googlesyndication.com/pagead/images/$domain=spruto.tv
