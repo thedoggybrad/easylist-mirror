@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sH3Dk8b9LkiRdJN4cV5W9A
-! Version: 202311271511
+! Checksum: 4Om1LwrH/uRl3agwR61ZZA
+! Version: 202311271521
 ! Title: EasyList Polish
-! Last modified: 27 Nov 2023 15:11 UTC
+! Last modified: 27 Nov 2023 15:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -771,7 +771,6 @@ polemi.co.uk###reklama7
 elka.pl###reklamaGooglePrawa336Last
 forumbranzowe.com###reklama_2
 gada.pl###reklama_gazetowa
-anime-odcinki.pl###reklama_lewa
 anime-odcinki.pl###reklama_prawa
 stoczniowcy.pl###reklama_top
 dostawczakiem.pl###reklamowkaTop
@@ -993,6 +992,7 @@ zeglarski.info##.ads-block-right
 lubimyczytac.pl##.ads-body
 kierunekchemia.pl,kierunekenergetyka.pl##.ads-box-inverted
 esanok.pl,ustrzyki24.pl##.ads-s
+ifrancja.fr##.ads-single-container
 rankinglekarzy.pl##.ads-slot
 kamienskie.info##.ads-subpage
 nowezyciepabianic.pl##.ads480
@@ -1911,6 +1911,7 @@ kuriersuwalski.pl,panoramakutna.pl,thinkapple.pl##[class="g g-1"]
 lokalna24.pl,tvsudecka.pl,tygodnik-krapkowicki.pl##[class="text-center my-3 container"]
 prostozopolskiego.pl,tygodnikkrag.pl##[class^="a-single a-"]
 legionisci.com##[class^="adslot_news-banner"]
+ibemowo.pl,ibielany.pl,iochota.pl,iursus.pl,iursynow.pl,iwawer.pl,iwesola.pl,iwilanow.pl##[class^="adv__"]
 ekoszalin.pl##[class^="advert"]
 radiozw.com.pl##[class^="angwp_"]
 interia.pl##[class^="article-body__ad-"]
@@ -2511,15 +2512,6 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-ifrancja.fr##.ads-single-container
-iwawer.pl##[class^="adv__"]
-ibielany.pl##[class^="adv__"]
-ibemowo.pl##[class^="adv__"]
-iursus.pl##[class^="adv__"]
-iochota.pl##[class^="adv__"]
-iursynow.pl##[class^="adv__"]
-iwilanow.pl##[class^="adv__"]
-iwesola.pl##[class^="adv__"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
