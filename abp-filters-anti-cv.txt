@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Jo5vQL7asZ+fzjzX6QxTXg
-! Version: 202311291151
+! Checksum: BzDXP+KbZas73Li6lFR1Tw
+! Version: 202311291201
 ! Title: ABP filters
-! Last modified: 29 Nov 2023 11:51 UTC
+! Last modified: 29 Nov 2023 12:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -647,7 +647,8 @@ music.youtube.com,youtubekids.com#$#json-prune '0.playerResponse.adPlacements 0.
 music.youtube.com,youtubekids.com#$#override-property-read playerResponse.adPlacements undefined;
 music.youtube.com,youtubekids.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 ! Fallback
-www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event button.ytp-ad-skip-button$delay=0
+www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button$delay=0'
+www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 ! #CV-897
 agronews.ua,aegeanews.gr,batterypoweronline.com,brezovycukr.cz,centrocommercialevulcano.com,cieonline.co.uk,commsbusiness.co.uk,dailygrindonline.net,davincidiamondsslot.net,delo.bg,dynastyseries.com,fabmx1.com,fat-bike.com,fmj.co.uk,localemagazine.com,loveourweddingmag.com,metaforespress.gr,myvalley.it,niestatystyczny.pl,primapaginamarsala.it,ringelnatz.net,schoolsweek.co.uk,sikkenscolore.it,sportbet.gr,stadtstudenten.de,stagemilk.com,tautasdziesmas.lv,thetoneking.com,toplickevesti.com,zeroradio.co.uk#$#abort-on-property-read wpsite_clickable_data
 /wpsite-background-takeover*/js/wpsite_clickable.js$script,domain=agronews.ua|aegeanews.gr|batterypoweronline.com|brezovycukr.cz|centrocommercialevulcano.com|cieonline.co.uk|commsbusiness.co.uk|dailygrindonline.net|davincidiamondsslot.net|delo.bg|dynastyseries.com|fabmx1.com|fat-bike.com|fmj.co.uk|localemagazine.com|loveourweddingmag.com|metaforespress.gr|myvalley.it|niestatystyczny.pl|primapaginamarsala.it|ringelnatz.net|schoolsweek.co.uk|sikkenscolore.it|sportbet.gr|stadtstudenten.de|stagemilk.com|tautasdziesmas.lv|thetoneking.com|toplickevesti.com|zeroradio.co.uk
@@ -1439,6 +1440,7 @@ yandex.com.tr#$#hide-if-contains reklam li.serp-item 'li.serp-item div.label'
 asksiirleri.org#$#abort-current-inline-script Math zfgloaded
 ! MISC
 netflix-izle.com#$#override-property-read reklam_1 undefined; override-property-read reklamsayisi undefined; override-property-read reklam_1_saniye null; override-property-read reklam_1_gecsaniye null;
+dtarihi.com#$#simulate-mouse-event 'xpath(.//div[@class][contains(@style,"display: block;")][@id]//following-sibling::div[@class]/div[contains(@class," ")][1])$delay=0'
 ! *** abp-filters-anti-cv:vietnamese.txt ***
 ! MISC
 blog.abit.vn#$#simulate-mouse-event '#ads_popup .close$continue,delay=500'
@@ -2905,4 +2907,5 @@ www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 ! Fallback
-www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event button.ytp-ad-skip-button$delay=0
+www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button$delay=0'
+www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
