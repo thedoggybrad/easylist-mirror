@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4GmqSmEpz7JSH2b+Jxuo9g
-! Version: 202311291041
+! Checksum: TjGyTEkHGWCVnicq5p/lvw
+! Version: 202311291050
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Nov 2023 10:41 UTC
+! Last modified: 29 Nov 2023 10:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1036,6 +1036,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##.merc_title_2
 ##.modul-search
 ##.module-one-search
+##.mov_ads
 ##.mts_ad_widget
 ##.mtt-adhesion-container
 ##.mywidget__col > .mywidget__link_advert
@@ -23369,6 +23370,8 @@ dzen.ru##.article__bottom-embed-wrapper > .ad-split-embed + div
 dzen.ru##.zen-ui-viewport-expansion__container:empty
 dzen.ru##.zenad-card-rtb
 dzen.ru##[data-name="video-in-combo-zen-container"]
+dzen.ru##div[class^="advert-panel"]
+dzen.ru#?#div[class^="grid__row-"]:-abp-has(> div[class^="video-card-ad"])
 dzen.ru##div[data-name^="zen2"]
 ! Дети
 deti.mail.ru##.cols__inner > .box
