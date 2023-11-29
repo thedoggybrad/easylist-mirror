@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202311290136
+! Version: 202311290148
 ! Title: Fanboy's Anti-Newsletter List
-! Last modified: 29 Nov 2023 01:36 UTC
+! Last modified: 29 Nov 2023 01:48 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -841,7 +841,7 @@
 ##.essb-subscribe-form-content
 ##.et_bloom_flyin
 ##.et_newsletter_widget
-##.et_pb_newsletter
+##.et_pb_newsletter:not(.et_pb_login)
 ##.expert-newslater
 ##.f-newsletter
 ##.fancy-inpost-newsletter
@@ -2461,6 +2461,7 @@ bucketlistjourney.net,goodnewsnetwork.org,guru99.com##.af-form-wrapper
 techspree.net##.after-post
 insidermedia.com##.alert
 uinterview.com##.alert-discreet
+averagelinuxuser.com##.alertbar
 algemeiner.com##.alg_subscribe_cont
 voiceofsandiego.org##.amp-wp-be55f39
 moneysavingexpert.com##.analytics-tiplistbox
@@ -4132,6 +4133,7 @@ moonpalacecancun.com#@#.footer-newsletter
 jamesclear.com,wpamaze.com#@#.formkit-form.seva-form
 axios.com#@#.is-newsletter
 varma.fi#@#.needsclick[aria-label][style]
+uol.com.br#@#.newsletter-article
 oetker.de#@#.newsletter-component
 sourceforge.net#@#.psp_newsletter_subscribe
 doctorofcredit.com#@#.wpdiscuz-subscribe-bar
