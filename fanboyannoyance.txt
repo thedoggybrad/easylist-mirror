@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202311282345
+! Version: 202311282353
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Nov 2023 23:45 UTC
+! Last modified: 28 Nov 2023 23:53 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -51,11 +51,13 @@
 /wpmu-lib/js/wpmu-ui.3.min.js
 ! Anti-Rightclick/copy/devtools
 /antirightclick.js
+/block-console.js
 /block-right-click.js
 /browserDetection/jquery.reject.js
 /console-ban.min.js
 /console-blocker/app-detect.js
 /detect.dev.js
+/devtools-detect.js
 /disable-devtool.js
 /disable-devtool.min.js
 /disable-right-click-images/script.js
@@ -34331,6 +34333,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||jobs.thejobnetwork.com^$third-party
 ||jobvite.com/widget20.js$third-party
 ||js.brow.si^$third-party
+||jsdelivr.net/npm/disable-devtool
 ||judge.me^$third-party
 ||jugglu.com^$third-party
 ||justanswer.com^$third-party
