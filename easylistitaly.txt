@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hYxVEc8TbIyc0sWksriEag
-! Version: 202311301720
+! Checksum: yIVPruaYF9VxZZtUT6wTfQ
+! Version: 202311301731
 ! Title: EasyList Italy
-! Last modified: 30 Nov 2023 17:20 UTC
+! Last modified: 30 Nov 2023 17:31 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -3026,7 +3026,6 @@ dererker.it##.bxslider
 corrieredellumbria.it,corrierediarezzo.it,corrieredisiena.it##.bxsliderAdv
 empolifc.com##.c-footer__sponsors-container
 trento2018.it##.callExclusive
-tuttoandroid.net##.card
 campanialike.com##.cardSponsorColonnaDestra
 assisieventi.it,lavocedelpalio.it##.carousel
 fiorentina.news##.carousel-layout
@@ -5516,7 +5515,7 @@ pharmacyscanner.it#?#article:-abp-has(.featured + .spons-post)
 radioluna.it#?#.feat-widget-wrap:-abp-has(div:-abp-contains(INFORMAZIONE REDAZIONALE))
 sportando.basketball#?#.widget.widget_block:-abp-has(a[target="_blank"])
 technofashion.it#?#.td_block_wrap:-abp-has(span:-abp-contains(Advertorial))
-tuttoandroid.net#?#article[id^="post-"]:-abp-has(span:-abp-contains(Adv))
+tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 !----------------Regole di esclusione per risolvere i problemi----------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_allowlist.txt ***
 @@||amazon-adsystem.com/aax2/apstag.js$domain=formulapassion.it
