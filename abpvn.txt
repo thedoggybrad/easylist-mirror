@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: TIadcFbBUWPoh45CL96Ntg
-! Version: 202311301231
+! Checksum: 8FiF9RTNVxqr2kRdBU/6JQ
+! Version: 202311301241
 ! Title: ABPVN List
-! Last modified: 30 Nov 2023 12:31 UTC
+! Last modified: 30 Nov 2023 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 30 Nov 2023 16:22:55 UTC+7
+! Last modified: 30 Nov 2023 19:36:40 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -992,6 +992,7 @@ plvb.xyz##.odds-button
 plvb.xyz##.odds-button2
 protruyen.xyz##.click-ads
 protruyen.xyz##.click-ads ~ p
+protruyen.xyz##.overlay-close
 protruyen.xyz##div.mrb10
 qdnd.vn##.box-banner
 qthang.net##.ad-script
@@ -1382,6 +1383,7 @@ $third-party,script,domain=sexdiaryx.us
 ||cliphotvn.pro^*.gif$image
 ||discordapp.$image,domain=phym18.org|phim18vipb.com
 ||greenupload.com^*.gif$image,domain=thiendia1.net
+||greenupload.com^*ad-$image,domain=thiendia1.net
 ||greenupload.com^*banner$image
 ||hentaivn.autos/qx/$subdocument
 ||i.ibb.co^$image,domain=thiendia1.net
