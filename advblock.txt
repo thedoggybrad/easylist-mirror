@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DGx1eQhaiM+tgJkXT0GWQw
-! Version: 202311301150
+! Checksum: +kN3uyfKCJyJztKg3NPcaw
+! Version: 202311301202
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Nov 2023 11:50 UTC
+! Last modified: 30 Nov 2023 12:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23108,6 +23108,7 @@ anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru#?#.sidebar-block div:-abp-properties(/min-height: calc.[0569]{2}[0-9]{1}|min-height: calc.42|min-height: calc.43/)
 pikabu.ru##.sidebar__inner > .sidebar-block div[style=""]
 pikabu.ru#?#.stories-feed__container > .story div:-abp-properties(min-height: calc(300px))
+pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main > div > div[style=""])
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main > div:nth-child(4))
 dracon-zet.ru,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
