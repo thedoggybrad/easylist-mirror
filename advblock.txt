@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pevNRZlR4m8C2k4eifXumQ
-! Version: 202312020951
+! Checksum: aAiQ+4lQitdLGGM0bpNJBw
+! Version: 202312021002
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Dec 2023 09:51 UTC
+! Last modified: 02 Dec 2023 10:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18003,6 +18003,7 @@ realnoevremya.ru##body > div:not([id]):not([class])[style^="width: 350px;"]
 remake.net.ru,zarlit.com##body > div[align="center"]
 gamesisart.ru##body > div[align="left"][style^="position: fixed;"]
 siver.com.ua##body > div[align="right"] > span
+povarenok.ru##body > div[class*="23"]
 999.md,delo.ua,nevasport.ru##body > div[class*="branding"]
 progipertoniyu.ru##body > div[class*="modal"]
 votrube.ru##body > div[class]:last-of-type
@@ -20160,6 +20161,7 @@ lada.kz/uploads/banners/
 ||1000ukg.kz/uploads/banner/
 ||101.ru/static/js/library/mills/
 ||101.ru^*smi$subdocument
+||101kofemashina.ru/jura$image
 ||101kofemashina.ru/nivona/$image
 ||13min.ru/wp-content/*/popups/
 ||13rus.ru/*/$object
@@ -25806,7 +25808,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@/js/advert.js$~third-party
 @@/js/prebid-ads.js|$script,domain=2rezka.ru|hdrezka.by|key-hub.eu|old-games.ru
 @@/js/siropu/am/ads.min.js$script,~third-party,domain=customgames.ru|fantasticcraft.ru
-@@/leftad.js|$script,~third-party,domain=game4you.top|games-pc.top|innal.top|naylo.top|rustorka.com|rustorka.net|rustorka.top|rustorkacom.lib
+@@/leaderad.js|$script,~third-party,domain=game4you.top|games-pc.top|innal.top|naylo.top|rustorka.com|rustorka.net|rustorka.top|rustorkacom.lib
 @@/pagead2.$domain=axd.semestr.ru|d-mod.ru|elsyst.gnomio.com|htmlweb.ru|math.semestr.ru|minimalsy.xyz|mysmsbox.ru|ph4.ru|profatom.ru|pvpru.com|sitecoder.blogspot.ru|slushat-tekst-pesni.ru|sovremennoepravo.ru|survarium.pro|temp-mail.org|trialkeys.ru|tvfeed.in|www.inoreader.com
 @@/player/player_ads.html$subdocument,domain=720video.me|bessporno.me|camsclips.biz|ebalovo.adult|ebalovo.porn|ebalovo.pro|lenkino.adult|pbembed.me|porno365.bingo|pornobit.mobi|pornobomba.click|pornobomba.vip|pornoham.me|pornomoll.red|porntn.com|private-records.com|ru-xvideos.me|russkoe21.com
 @@/templates/*/adblock/adframe.*.js$script,~third-party,domain=filmisub.com|kinofen.net
