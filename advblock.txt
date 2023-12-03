@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: l31Y34T0vfvKryPQweRvqQ
-! Version: 202312031851
+! Checksum: GkKlWMcBEK1xB4WOq7h0rA
+! Version: 202312031901
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Dec 2023 18:51 UTC
+! Last modified: 03 Dec 2023 19:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23975,7 +23975,7 @@ lenta.ru##iframe[src*="icdn.lenta.ru"][src*="banner"]
 ||trafffgen.rambler.ru^
 ||winline.rambler.ru/
 ! Непонятные пустые места, новый и старый дизайн
-rambler.ru#?#.commercial-branding aside:-abp-has(div[id^="adfox-"])
+autorambler.ru,rambler.ru#?#.commercial-branding aside:-abp-has(div[id^="adfox-"])
 rambler.ru#?#.commercial-branding div[class]:-abp-has(> div[class] > div[id^="adfox-"]:only-child)
 rambler.ru#?#article ~ article ~ div[class]:-abp-has(div > div[class][style="display: none !important;"])
 rambler.ru#?#article ~ article ~ div[class]:-abp-has(div > div[class^="banner--native-partner--"])
