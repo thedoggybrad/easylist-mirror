@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202312030347
+! Version: 202312030357
 ! Title: EasyPrivacy
-! Last modified: 03 Dec 2023 03:47 UTC
+! Last modified: 03 Dec 2023 03:57 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3210,6 +3210,7 @@ _mongo_stats/
 ||e1e.io^
 ||eagle-insight.com^
 ||easycompute.systems^
+||ecn-ldr.de^
 ||ed-sys.net^
 ||efreecode.com^
 ||egoi.site^
@@ -3325,6 +3326,7 @@ _mongo_stats/
 ||mediamathrdrt.com^
 ||mirabelanalytics.com^
 ||mitour.de^
+||mitself.net^
 ||ml-sys.xyz^
 ||mm-api.agency^
 ||mobildev.in^
@@ -7680,6 +7682,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sillyscrew.com^
 ||simplesidewalk.com^
 ||simplisticstem.com^
+||simulateswing.com^
 ||sincerebuffalo.com^
 ||sincereseashore.com^
 ||sinceresubstance.com^
@@ -11814,6 +11817,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.audionow.de^
 ||analytics.cnd-motionmedia.de^$third-party
 ||analytics.gameforge.de^
+||analytics.idfnet.net^
 ||analytics.loop-cloud.de^$third-party
 ||analytics.media-proweb.de^
 ||analytics.praetor.im^$third-party
@@ -13787,6 +13791,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.wayfair.com^
 ||saa.insideedition.com^
 ||samsung.com/us/web/internal/logger
+||sapphire-api.target.com^
 ||sciencechannel.com/events/
 ||scloud.online/stat/
 ||scoot.co.uk/ajax/log_
@@ -13965,6 +13970,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tapewithadblock.org/stat/
 ||taplytics-umami.grubhub.com^
 ||target-us.samsung.com^
+||target.com/consumers/v1/ingest/web/eventstream?
+||target.com/consumers/v1/ttms/events?
+||target.com/rum_analytics/
+||target.com/telemetry_data/
 ||target.nationwide.com^
 ||target.nejm.org^
 ||targeting.washpost.nile.works^
