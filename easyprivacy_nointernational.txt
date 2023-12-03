@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: b6kxAukEkE9S+aAS/4JTDQ
-! Version: 202312030351
+! Checksum: 43X4kgDmcJXPugicb39h1g
+! Version: 202312030402
 ! Title: EasyPrivacy without international filters
-! Last modified: 03 Dec 2023 03:51 UTC
+! Last modified: 03 Dec 2023 04:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3207,6 +3207,7 @@ _mongo_stats/
 ||e1e.io^
 ||eagle-insight.com^
 ||easycompute.systems^
+||ecn-ldr.de^
 ||ed-sys.net^
 ||efreecode.com^
 ||egoi.site^
@@ -3322,6 +3323,7 @@ _mongo_stats/
 ||mediamathrdrt.com^
 ||mirabelanalytics.com^
 ||mitour.de^
+||mitself.net^
 ||ml-sys.xyz^
 ||mm-api.agency^
 ||mobildev.in^
@@ -7677,6 +7679,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sillyscrew.com^
 ||simplesidewalk.com^
 ||simplisticstem.com^
+||simulateswing.com^
 ||sincerebuffalo.com^
 ||sincereseashore.com^
 ||sinceresubstance.com^
@@ -11793,6 +11796,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.wayfair.com^
 ||saa.insideedition.com^
 ||samsung.com/us/web/internal/logger
+||sapphire-api.target.com^
 ||sciencechannel.com/events/
 ||scloud.online/stat/
 ||scoot.co.uk/ajax/log_
@@ -11971,6 +11975,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tapewithadblock.org/stat/
 ||taplytics-umami.grubhub.com^
 ||target-us.samsung.com^
+||target.com/consumers/v1/ingest/web/eventstream?
+||target.com/consumers/v1/ttms/events?
+||target.com/rum_analytics/
+||target.com/telemetry_data/
 ||target.nationwide.com^
 ||target.nejm.org^
 ||targeting.washpost.nile.works^
@@ -12080,7 +12088,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tumblr.com/pop/js/modern/sentry-
 ||tumblr.com/services/bblog
 ||tunein.com/api/v1/log/
-||turbobit.*/js/analytics/
+||turbobit.*/fdUserFingerprintToken.js
 ||tweakers.net/ajax/$ping
 ||twitter.com/1.1/attribution
 ||twitter.com/1.1/jot
