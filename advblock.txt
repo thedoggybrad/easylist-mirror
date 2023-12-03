@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WiuR8bMhVqcyfNjpnNOC4A
-! Version: 202312031450
+! Checksum: DOdV7fVzVcHcZnNF/hZEww
+! Version: 202312031502
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Dec 2023 14:50 UTC
+! Last modified: 03 Dec 2023 15:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23263,7 +23263,7 @@ kp.kg,kp.kz,kp.md,kp.ru#?#body > #app [data-gtm-el="content-body"] ~ div > div:-
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-has(> div:first-child + div > div:first-child > div:first-child + section > div > div > script[data-key])
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:last-child:-abp-has(> div > div > div ~ section > div > [id^="unit_"])
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div[class]:-abp-has(> a[draggable="false"][href^="https://zen.yandex.ru/"])
-kp.kg,kp.kz,kp.md,kp.ru##div[data-name]
+kp.kg,kp.kz,kp.md,kp.ru##div[data-name]:not(.buttonContainer)
 ! спецпроекты, типа отдых в россии
 kp.ru##.inner-layout > div[style*="250px"]
 kp.ru##.kpad
