@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uwlkAj/apM3B0/0Xgpaz9A
-! Version: 202312030320
+! Checksum: dtZdtVV4A+jYAg+Sytsdxw
+! Version: 202312030331
 ! Title: EasyList without rules for adult sites
-! Last modified: 03 Dec 2023 03:20 UTC
+! Last modified: 03 Dec 2023 03:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -56228,6 +56228,8 @@ browsershots.org#@#.advert_area
 ||positivehealth.com/img/original/TopicbannerAvatar/
 ||povvldeo.lol/js/fpu3/
 ||prebid-server.newsbreak.com^
+||presearch.com/affiliates|$xmlhttprequest
+||presearch.com/coupons|$xmlhttprequest
 ||pressablecdn.com/wp-content/uploads/Site-Skin_update.gif$domain=bikebiz.com
 ||prewarcar.com/*-banners/
 ||prod-sponsoredads.mkt.zappos.com^
@@ -60596,6 +60598,7 @@ saltwire.com##.sw-banner
 swimswam.com##.swimswam-acf
 khmertimeskh.com##.swiper-container-horizontal
 khmertimeskh.com##.swiper-wrapper
+presearch.com##.sx-top-bar-products
 patriotnationpress.com##.t2ampmgy
 sbenny.com##.t3-masthead
 emoneyspace.com##.t_a_c
