@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yyiTZjHDhgGQ93kQwXQFNA
-! Version: 202312031820
+! Checksum: EptuRtSyXD+IeoyCLktTBA
+! Version: 202312031831
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Dec 2023 18:20 UTC
+! Last modified: 03 Dec 2023 18:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23190,8 +23190,9 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
 2ip.io,2ip.ru#?#.narrow-column > style + div > div:-abp-has(a[target="_blank"])
 2ip.io,2ip.ru##.test-vpn
-2ip.io,2ip.ru##a[href*="/?"][href*="="]
-2ip.io,2ip.ru##nav li a[target="_blank"]
+2ip.io,2ip.ru##a[href*="/?"][href*="="][class]
+2ip.io,2ip.ru##a[href*="/?"][href*="=="][target="_blank"]
+2ip.io,2ip.ru##nav li a[rel="nofollow"]
 !
 ! Auto.ru
 auto.ru##.BankCardForm
