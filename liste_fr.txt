@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Mo0fgiOVqCq9qd+VL7ELKg
-! Version: 202312031950
+! Checksum: PTF7F1wpmc0AKePf3gStDg
+! Version: 202312032002
 ! Title: Liste FR
-! Last modified: 03 Dec 2023 19:50 UTC
+! Last modified: 03 Dec 2023 20:02 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -534,6 +534,8 @@
 /ad-eu-east-
 /ad-eu-west-
 /ad-footer.
+/ad-inserter-pro/*
+/ad-inserter/*
 /ad-market/*
 /ad-netc-
 /ad-networks/*
@@ -21926,6 +21928,7 @@ korben.info#?#div[class*="sous-article"]:-abp-has(a[href^="http://amzn.to/"])
 latribune.fr#?#.article-wrapper:-abp-has(.subheading:-abp-contains(Partenaire))
 latribune.fr#?#.homepage-section.supplement-section:-abp-has(span:-abp-contains(Partenaires))
 lebigdata.fr#?#.elementor-widget-wrap:-abp-has(a[href^="http://clickmetertracking.com/"])
+leboncoin.fr#?#.undefined:-abp-contains(Sponsorisé)
 leboncoin.fr#?#a[data-test-id]:-abp-has([class]:-abp-contains(/À la une|Sponsorisé|Urgent/))
 lemonde.fr#?#.area--ops:-abp-has(p:-abp-contains(Contenus partenaires))
 lemonde.fr#?#.bd__bloc:-abp-has(.bd__header:-abp-contains(Barnebys.fr))
