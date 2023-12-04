@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202312041119
+! Version: 202312041054
 ! Title: EasyPrivacy
-! Last modified: 04 Dec 2023 11:19 UTC
+! Last modified: 04 Dec 2023 10:54 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1964,6 +1964,7 @@
 /setTDUID.do?
 /sfCounter/*
 /sgtracker.js
+/shareCounts.
 /shared/sentry/*
 /sherlock.gif?
 /shinystat.cgi
@@ -1975,14 +1976,19 @@
 /showcounter.$domain=~showcounter.com
 /showhits.php?
 /shreddit/perfMetrics
-/silveregg/js/cookie_lib.js
+/si-tracking.
+/sidtracker.
+/sikcomscore_
+/silveregg_cookie?
+/silveregg_tracking.
 /simple_reach.js
 /simtracker.min.js
+/siq-analytics.
 /site_counter?
-/site_statistics.js
-/site_stats.js
+/site_statistics.
+/site_stats.
 /site_stats/*
-/site_tracking.js
+/site_tracking.
 /siteAnalytics-
 /siteanalytics_
 /sitecatalist.js
@@ -1996,11 +2002,15 @@
 /sitestats.gif?
 /sitetrek.js
 /sizes.gif?*=
-/skype-analytics.js
+/skstats-
+/skstats_
+/skype-analytics.
+/slimstat/*
 /sluurpy_track.js
-/smart-pixel.min.js
+/smart-pixel.min.
 /smartpixel-1.js
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
+/smartrack/*
 /smartserve-
 /smarttag-prod.
 /smartTag.bundle.
@@ -2020,11 +2030,12 @@
 /socialtracking.min.js
 /softclick.js
 /solarcode.js
+/sometrics/*
 /somni.js
 /somtag/loader/*
 /somtag/logs/*
 /sophus.js
-/sophus3/logging.js
+/sophus3/*
 /sophus3_logging.js
 /sp-2.0.0.min.js
 /sp_analytics.js
@@ -2173,7 +2184,6 @@
 /stp.gif?
 /stracking.js
 /sTrackStats.
-/sTrackStats.js
 /strak.php?t=
 /stream/log.html?
 /streamsense.min.js
