@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: UfqmZYu+28f8egKpvFPx2w
-! Version: 202312041020
+! Checksum: t758F6Ptygte1N1NEZJf5A
+! Version: 202312041030
 ! Title: EasyPrivacy without international filters
-! Last modified: 04 Dec 2023 10:20 UTC
+! Last modified: 04 Dec 2023 10:30 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -232,6 +232,7 @@
 /analytics-ingestion/*
 /analytics-ingress-
 /analytics-js/*
+/analytics-library.js
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
@@ -338,8 +339,8 @@
 /AppMeasurement.js
 /AppMeasurement.min.js
 /AppMeasurement2.js
-/AppMeasurement_Module_
-/AppMeasurementCustom.
+/AppMeasurement_Module_ActivityMap.min.js
+/AppMeasurementCustom.min.js
 /aptrk.js
 /ard.png?
 /aria-web-telemetry-
