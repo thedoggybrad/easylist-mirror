@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202312042239
+! Version: 202312042256
 ! Title: EasyPrivacy
-! Last modified: 04 Dec 2023 22:39 UTC
+! Last modified: 04 Dec 2023 22:56 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2219,6 +2219,7 @@
 /talpa-analytics-
 /TargetAnalyticsAPI-
 /tc_analytics.
+/tc_imp.gif?
 /tccl.min.js
 /tck/gif/*
 /teal-comscore-
@@ -3404,6 +3405,7 @@ _mongo_stats/
 ||techpump.com^
 ||test.vast^
 ||testingmetriksbre.ru^
+||thatmonkeybites3.com^
 ||the-ozone-project.com^
 ||thefontzone.com^
 ||tkrconnector.com^
@@ -14166,6 +14168,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yahoo.com/_td_api/beacon/
 ||yahoo.com/beacon/
 ||yahoo.com/beacon?
+||yahoo.com/pageview?
 ||yahoo.net/pixel.gif
 ||yandex.*/clck/$~ping
 ||yandex.*/count/
@@ -31431,6 +31434,7 @@ arketing.indianadunes.com^
 ! -----------------International individual tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_specific_international.txt ***
 ! German
+||20min.ch/ana/
 ||agnes.waz.de^
 ||analytics.adliners.de^
 ||analytics.daasrv.net^
