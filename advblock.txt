@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9NEfN273EOH5GEU87xNllg
-! Version: 202312041740
+! Checksum: mQF8EbCPqyaM5OihMK5jHA
+! Version: 202312041750
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Dec 2023 17:40 UTC
+! Last modified: 04 Dec 2023 17:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23107,7 +23107,7 @@ www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:
 sdamgia.ru##center > div[id][style]
 cq.ru#?#div:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
-pikabu.ru#?#div[class*="page-story__"] div:-abp-properties(/min-height: calc./)
+pikabu.ru#?#div[class*="page-story__"] div:-abp-properties(/min-height: [02345]{2}[0-9]{1}|min-height: calc./)
 pikabu.ru##div[class*="page-story__"] div[style=""]
 sdamgia.ru##div[class^="google_ad_left"]
 pikabu.ru##div[class^="sidebar-block "] ~ .sidebar-block_border ~ .sidebar-block_border ~ div[class^="sidebar-block "]:not(.sidebar-block_border)
@@ -24263,7 +24263,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.stat_pixel_yes[onclick][class*="_layou
 yandex.by,yandex.kz,yandex.ru,yandex.uz##a[href*="//ads.adfox.ru/"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
-dzen.ru##div[class*="_widget-"] div[class]:not([id]) > div[id]:not([class])
+dzen.ru##div[class*="_widget-"] > div > div:not([class*="geoblock"]):not([class*="widget"])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 ||awaps.yandex.
 ||bs-meta.yandex.$script,xmlhttprequest
