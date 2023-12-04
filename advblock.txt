@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zXB77+I4H+SiutW+1Vjq4A
-! Version: 202312041340
+! Checksum: 5e3ESq4i8Jb7yWYk3RQrWQ
+! Version: 202312041350
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Dec 2023 13:40 UTC
+! Last modified: 04 Dec 2023 13:50 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23096,9 +23096,9 @@ lada.kz/uploads/banners/
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
-pikabu.ru#?#.sidebar-block div:-abp-properties(/min-height: calc.[0569]{2}[0-9]{1}|min-height: calc.+.rem/)
+pikabu.ru#?#.sidebar-block div:-abp-properties(/min-height: calc.[0569]{2}[0-9]{1}|min-height: calc.+.em/)
 pikabu.ru##.sidebar__inner > .sidebar-block div[style=""]
-pikabu.ru##.stories-feed__container > .story[data-editable] ~ .story:not([data-editable])
+pikabu.ru#?#.stories-feed__container > .story:-abp-has(> script:-abp-contains(/context":"http:$/))
 dracon-zet.ru,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 sdamgia.ru##[data-container]
