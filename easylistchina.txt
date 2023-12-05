@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rvGJ6ztGxPIT3turVErNNA
-! Version: 202312051521
+! Checksum: 4yFKgJXi+K5nLJCzpL3wfQ
+! Version: 202312051530
 ! Title: EasyList China
-! Last modified: 05 Dec 2023 15:21 UTC
+! Last modified: 05 Dec 2023 15:30 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10534,6 +10534,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||4gamers.com.tw/site/api/aols/media?
+||caoav.net/img/*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 423down.com##.entry > P[style^="font-size"] > A[href*="/go."]
@@ -16122,6 +16123,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@||ads.lingxing.com^$~third-party
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
