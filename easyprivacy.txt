@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202312052156
+! Version: 202312052227
 ! Title: EasyPrivacy
-! Last modified: 05 Dec 2023 21:56 UTC
+! Last modified: 05 Dec 2023 22:27 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -171,7 +171,7 @@
 /adstats.php
 /adstrack.js
 /adtracking.asmx
-/adtrk/*
+/adtrk/tr.gif
 /advstats.js
 /aff_i?offer_id=
 /aff_land?referrer
@@ -524,7 +524,7 @@
 /cgi/trk.js
 /chartbeat.js
 /chartbeat.min.js
-/chcounter/*
+/chcounter/counter.php
 /check.php?referrer=
 /chicken.gif?*=
 /cklink.gif?
@@ -536,23 +536,17 @@
 /click_stats.js
 /click_track.js
 /click_tracking.js
-/clickability-
-/clickability/*
-/clickcount.
-/clickcount/*
+/clickcount.asp
+/clickcount.js
+/clickcount.php
 /clickctrl.js
-/clickdimensions-
+/clickdimensions-2.js
 /clickheat.js
-/clickheat^
-/clicklog.
-/clicklog/*
+/clicklog.js
 /clicklog4pc.js
-/clickLogger?
 /clickm.js
 /clickmap.js
 /clickpathmedia.js
-/clickrecord.php?
-/clicks/servlet/*
 /clickscript.js
 /clickstats.php
 /clickstream.aspx?
@@ -578,10 +572,9 @@
 /cms.gif?
 /cms/stats/*
 /cmslog.dll?
-/cn-fe-stats/*
 /cn-track?
 /cnstats.js
-/cnstats/*
+/cnstats/cntg.php
 /cnt-combined.php?
 /cnt.aspx?
 /cnt.cgi?
@@ -669,7 +662,6 @@
 /counter.cgi/*
 /counter.cgi?
 /counter.js.php
-/counter.php?chcounter_mode=
 /counter.php?width=
 /counter.pl?
 /counter/acnt.php?
@@ -12118,6 +12110,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ixigua.com/at/log/
 ||js.letvcdn.com/js/*/stats/
 ||js.static.m1905.cn/pingd.js
+||log-api.cli.im^
 ||log.hiiir.com^
 ||log.qvb.qcloud.com^
 ||log.tagtic.cn^
@@ -31786,6 +31779,7 @@ arketing.indianadunes.com^
 ||cherry.le.com^
 ||clewm.net/public/cli_analytics.js$domain=cli.im
 ||click.gamersky.com^
+||clickcount.cnool.net^
 ||count.candou.com^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
