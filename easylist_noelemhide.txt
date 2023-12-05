@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IJiRF9gCSNJGcrSX3UKbpQ
-! Version: 202312050002
+! Checksum: J95rdfhFeU219Gc1eEphYQ
+! Version: 202312050010
 ! Title: EasyList without element hiding rules
-! Last modified: 05 Dec 2023 00:02 UTC
+! Last modified: 05 Dec 2023 00:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -42213,7 +42213,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||lastpass.com/images/ads/$image,~third-party
 @@||letocard.fr/wp-content/uploads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
-@@||live.primis.tech/live/$script,domain=eurogamer.net|vg247.com
+@@||live.primis.tech^$script,domain=eurogamer.net|vg247.com|xxlmag.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
@@ -42385,6 +42385,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||tidal.com^$generichide
 @@||tv.youtube.com^$generichide
 @@||web.archive.org^$generichide
+@@||www.youtube.com^$generichide
 ! @@||web.basemark.com^$generichide
 @@||web.telegram.org^$generichide
 @@||whatsapp.com^$generichide
