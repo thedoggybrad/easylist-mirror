@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: K61qmxoAl4h/SiFaf+w8QA
-! Version: 202312051241
+! Checksum: 31UJMmBul2QLpu/eY/ozKQ
+! Version: 202312051251
 ! Title: EasyList China
-! Last modified: 05 Dec 2023 12:41 UTC
+! Last modified: 05 Dec 2023 12:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2453,6 +2453,7 @@ newduba.cn###jq_youxi
 ||vbzrkme.xyz^
 ||jltolz.xyz^
 ||haokanshipin.com^
+||uiszwh.icu^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -16848,7 +16849,7 @@ guailie.com#@#.google-ad
 18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
