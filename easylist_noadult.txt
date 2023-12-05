@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H/aUQ7VqMlTsWnNtr7wasw
-! Version: 202312050002
+! Checksum: Vq9p6bPsrugczcvcbMv0sA
+! Version: 202312050010
 ! Title: EasyList without rules for adult sites
-! Last modified: 05 Dec 2023 00:02 UTC
+! Last modified: 05 Dec 2023 00:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18467,6 +18467,7 @@ walkingclub.org.uk#@#.ad_div
 admanager.line.biz#@#.ad_frame
 modelhorseblab.com#@#.ad_global_header
 myhouseabroad.com,njuskalo.hr,starbuy.sk.data10.websupport.sk#@#.ad_item
+muzines.co.uk#@#.ad_main
 huffingtonpost.co.uk#@#.ad_spot
 kpanews.co.kr#@#.ad_top
 genshinimpactcalculator.com#@#.adban
@@ -62491,7 +62492,7 @@ bing.com##div[class="ins_exp vsp"]
 @@||lastpass.com/images/ads/$image,~third-party
 @@||letocard.fr/wp-content/uploads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
-@@||live.primis.tech/live/$script,domain=eurogamer.net|vg247.com
+@@||live.primis.tech^$script,domain=eurogamer.net|vg247.com|xxlmag.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
@@ -62663,6 +62664,7 @@ bing.com##div[class="ins_exp vsp"]
 @@||tidal.com^$generichide
 @@||tv.youtube.com^$generichide
 @@||web.archive.org^$generichide
+@@||www.youtube.com^$generichide
 ! @@||web.basemark.com^$generichide
 @@||web.telegram.org^$generichide
 @@||whatsapp.com^$generichide
