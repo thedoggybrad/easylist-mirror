@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /KFRW6KRsBJGtLtxIGRT+g
-! Version: 202312062101
+! Checksum: HWVs7yl9B3BgJFw2m9dUJQ
+! Version: 202312062110
 ! Title: Liste FR
-! Last modified: 06 Dec 2023 21:01 UTC
+! Last modified: 06 Dec 2023 21:10 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -21930,6 +21930,8 @@ frandroid.com##.is-big-rook.is-big-rookh.is-hidden-mobile
 20min.ch#?#.clusterTop:-abp-has(.teaser:-abp-has(h3:-abp-contains(Paid Post)))
 2ememain.be#?#.hz-Listing--list-item:-abp-has(.hz-Listing-priority:-abp-contains(Pub au top))
 algerie-eco.com#?#.td_block_wrap:-abp-has(.block-title:-abp-contains(sponsorisés))
+aliexpress.com#?#._2FypS:-abp-has(._1rKqn:-abp-contains(/AD|Annonce|إعلان/))
+aliexpress.com#?#.search-item-card-wrapper-gallery:-abp-has([class^="multi--ax"]:-abp-contains(/AD|Annonce|إعلان/))
 allocine.fr#?#.news-card:-abp-contains(Sponsorisé)
 allocine.fr#?#.video-card-trailer:-abp-has([class*="sponso"])
 allocine.fr#?#.video-card:-abp-has([class*="sponso"])
