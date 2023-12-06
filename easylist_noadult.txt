@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aHPgOcrFfntqI1IvAjmTBg
-! Version: 202312061151
+! Checksum: FGIQxH6vGrRL6QCLC1fDkw
+! Version: 202312061202
 ! Title: EasyList without rules for adult sites
-! Last modified: 06 Dec 2023 11:51 UTC
+! Last modified: 06 Dec 2023 12:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -54961,6 +54961,7 @@ browsershots.org#@#.advert_area
 ||shink.in/js/script.js
 ||shopmyshelf.us^$third-party
 ||shorte.st/link-converter.min.js
+||signup.asurion.com^$subdocument
 ||siteground.com/img/affiliate/
 ||siteground.com/img/banners/
 ||skimresources.com^$script,subdocument,third-party
@@ -58822,6 +58823,8 @@ zdnet.com##.c-adDisplay_container_incontent-all-top
 tuko.co.ke##.c-adv
 legit.ng##.c-adv--video-placeholder
 cnet.com##.c-asurionBottomBanner
+cnet.com##.c-asurionInteractiveBanner
+cnet.com##.c-asurionInteractiveBanner_wrapper
 newstalkzb.co.nz##.c-background
 elnacional.cat##.c-banner
 truck1.eu##.c-banners
