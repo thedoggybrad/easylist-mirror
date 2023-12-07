@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AIycRRlNZzevSMSaQnbeqw
-! Version: 202312071002
+! Checksum: al8shZFnMvN8/YCSSKhERw
+! Version: 202312071011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Dec 2023 10:02 UTC
+! Last modified: 07 Dec 2023 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18000,6 +18000,7 @@ forchecking.ru##body > div > a[target="_blank"] > img
 forum.watch.ru##body > div > div[style*="overflow"]
 nadavi.com.ua,nadavi.ru##body > div > table[width="92%"]:not([class="top-region"])
 orda.kz##body > div.layer0
+povarenok.ru##body > div:empty + div
 coop-land.ru##body > div:not([id]):not([class]):empty
 boom365hd.com,sport365hd.com,sport365hd.net,whd365.pro##body > div:not([id]):not([class])[style*="z-index"]
 4725.ru##body > div:not([id]):not([class])[style^="position: relative;z-index:"]
@@ -18007,7 +18008,6 @@ realnoevremya.ru##body > div:not([id]):not([class])[style^="width: 350px;"]
 remake.net.ru,zarlit.com##body > div[align="center"]
 gamesisart.ru##body > div[align="left"][style^="position: fixed;"]
 siver.com.ua##body > div[align="right"] > span
-povarenok.ru##body > div[class*="23"]
 999.md,delo.ua,nevasport.ru##body > div[class*="branding"]
 progipertoniyu.ru##body > div[class*="modal"]
 votrube.ru##body > div[class]:last-of-type
@@ -22033,6 +22033,7 @@ lada.kz/uploads/banners/
 ||potokcdn.com/shalun/qwerty.js
 ||poufe.ru/promo/
 ||poultryukraine.com/data/image/banners/
+||povarenok.ru/*bakers$image
 ||povarenok.ru/css/*/sp.css$stylesheet
 ||povarenok.ru/css/*1.css$stylesheet
 ||povarenok.ru/i/*/*.jpg
