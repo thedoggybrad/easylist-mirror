@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ITWax0ZLd+6tISl5QS0EBw
-! Version: 202312072150
+! Checksum: 9je04y+5ojzQ++wba1fo4A
+! Version: 202312072202
 ! Title: EasyList without element hiding rules
-! Last modified: 07 Dec 2023 21:50 UTC
+! Last modified: 07 Dec 2023 22:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41872,7 +41872,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||phonerotica.com/resources/img/banners/
 ||pics-x.com/api/get_ad/
 ||picshick.com/b9ng.js
-||pimpandhost.com/mikakoko/
+||pimpandhost.com^$subdocument
 ||pisshamster.com/prerolls/
 ||pleasuregirl.net/bload
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
@@ -42300,7 +42300,6 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.aniview.com/script/$script,domain=odysee.com
-@@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=dictionary.com|video.timeout.com|video.venturebeat.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||player.ex.co/player/$script,domain=theautopian.com
 @@||player.odycdn.com/api/$xmlhttprequest,domain=odysee.com
@@ -42551,6 +42550,8 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io|game.goo.ne.jp
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
+!! anyclip.com (non-invideo ads only)
+@@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com|video.venturebeat.com
 ! Non-English
 @@/banner/ad/*$image,domain=achaloto.com
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
