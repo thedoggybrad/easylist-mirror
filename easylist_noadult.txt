@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Im4ps9J9R70J/1ggTFRSGw
-! Version: 202312072150
+! Checksum: SWW03Zo777P2XJFu3L92fg
+! Version: 202312072202
 ! Title: EasyList without rules for adult sites
-! Last modified: 07 Dec 2023 21:50 UTC
+! Last modified: 07 Dec 2023 22:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -62581,7 +62581,6 @@ bing.com##div[class="ins_exp vsp"]
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.aniview.com/script/$script,domain=odysee.com
-@@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=dictionary.com|video.timeout.com|video.venturebeat.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||player.ex.co/player/$script,domain=theautopian.com
 @@||player.odycdn.com/api/$xmlhttprequest,domain=odysee.com
@@ -62832,6 +62831,8 @@ bing.com##div[class="ins_exp vsp"]
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io|game.goo.ne.jp
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
+!! anyclip.com (non-invideo ads only)
+@@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com|video.venturebeat.com
 ! Non-English
 @@/banner/ad/*$image,domain=achaloto.com
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
