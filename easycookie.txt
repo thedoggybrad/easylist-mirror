@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: LOl1QjN8xbyEs4txsn8U2g
+! Checksum: WsLw38pywXoxlmQqxIA6uQ
 ! Title: Easylist Cookie List
-! Updated: 2023-12-07 03:00 UTC
+! Updated: 2023-12-07 02:20 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -20856,9 +20856,13 @@ oneclickcover.com##[data-v-5f675fc8]
 reddit.com##[reddit-cookie-banner]
 stuffthatworks.health##[role="alertdialog"]
 academy.com##[role="complementary"]
-forbesafrica.com##[style*="position: fixed; left: 0px; top: 0px;"]
+forbesafrica.com,segment-anything.com##[style*="position: fixed; left: 0px; top: 0px;"]
+calendardate.com##[style="background-image: none;"]
 jabref.org##[style^="background-color: rgb(24, 28, 31);"]
+visnos.com##[style^="font-size: 20px; text-align: center;"]
+fotmob.com,nilohealth.com,sketch.metademolab.com##[style^="position: fixed; left: 0px;"]
 tascaly.com##[style^="position: fixed; left: 3%; right: 3%;"]
+wedely.com##[style^="width: 100%; display: block; font-size: 15px;"]
 goodboy.ninja##[style^="width: 100%; height: 100%; position: fixed;"]
 excelviewer.herokuapp.com##[style^="z-index:90000000; position: fixed;"]
 acretrader.com##acre-cookie-consent
