@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: siZ9CFX854Iq40rogyrwKg
-! Version: 202312081820
+! Checksum: QX8dPRwK/BQ6bbtmHexRQA
+! Version: 202312081830
 ! Title: EasyList Spanish
-! Last modified: 08 Dec 2023 18:20 UTC
+! Last modified: 08 Dec 2023 18:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1268,7 +1268,6 @@ $popup,third-party,domain=embedsito.com|fembad.net|fembed.com|feurl.com|hqq.to|h
 ||foxcdn.me^$popup,domain=telerium.digital
 ||geniusdexchange.com^$popup,domain=jac-tv.com
 ||nonestolesantes.com^$popup
-||notube.net/p/^$popup
 ||pelishouse.me/descargas/$popup
 ||pepeliculas.org/mira-video1^$popup
 ||pornmediaxxx.net^$popup
@@ -1817,7 +1816,6 @@ c9n.com.py,elcomercio.com,repretel.com##ned-ad
 ! Advanced element hiding rules for Adblock Plus
 as.com#?#.s.s--v:-abp-has(span:-abp-contains(OFRECIDO POR))
 clarin.com#?#.column > div[class] > div[class^="sc-"]:-abp-has(div[class^="sc-"] > div[id^="div-gpt-ad"])
-prensa.com#?#div.border-l-box:-abp-has(a[href="https://bit.ly/canon-mamá"])
 clarin.com#?#div[class^="sc-"]:-abp-has(> div[id^="div-gpt-ad"])
 cuencanews.es#?#td[class*="id_publi_"]:-abp-has(img[alt="publicidad"])
 elcomercio.pe#?##lateral:-abp-has(span:-abp-contains(Auspiciado por:))
@@ -1836,6 +1834,7 @@ mil21.es#?#td[class*="id_publi_"]:-abp-has(a[href^="https://www.amazon.es/"])
 olympusscans.com#?#.md\:col-span-2.w-full.h-60.flex-center.bg-gray-700.rounded-xl.relative:-abp-has(.empower-ad)
 photocall.tv#?#.dropdown:-abp-has(label:-abp-contains(VPN))
 portafolio.co#?#.sumario.secondary-article.play-inline:-abp-has(.contenido-patrocinado)
+prensa.com#?#div.border-l-box:-abp-has(a[href="https://bit.ly/canon-mamá"])
 semana.com#?#.section:-abp-has(.section-subtitle:-abp-contains(Contenido en colaboración))
 theobjective.com#?#.tno-article-block:-abp-has(span:-abp-contains(Branded content))
 yorokobu.es#?#.quicklink_w100:-abp-has(.publi-tag:-abp-contains(AD))
