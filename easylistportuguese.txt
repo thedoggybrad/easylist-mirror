@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mjPUmRG9LqXvzgcSQt1dEg
-! Version: 202312101650
+! Checksum: 8XG7+7bRpM4CtFNbcuy+jg
+! Version: 202312101702
 ! Title: EasyList Portuguese
-! Last modified: 10 Dec 2023 16:50 UTC
+! Last modified: 10 Dec 2023 17:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -229,6 +229,7 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||nsn-server.xyz^
 ||solution-solutions.com^
 ||tech-solution-blog.com^
+||tradertimerz.media^
 !
 ||admasters.media^$third-party
 ||adzep.com.br^$third-party
@@ -238,6 +239,7 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||igaming-service.io^$third-party
 ||joinads.me^$third-party
 ||juicebarads.com^$third-party
+||nobeta.com.br^$third-party
 ||premiumads.com.br^$third-party
 ||sendwebpush.com^$third-party
 ||simpleads.com.br^$third-party
@@ -497,7 +499,7 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||zerozero.pt/images/takeover/
 ||zwame.pt/comparador/
 !
-/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$third-party,xmlhttprequest,domain=3thepiratefilmes.in|allappinc.store|aniflv.net|animescx.com.br|animexnovel.com|anitube.biz|betteranime.net|cinevisionv5.app|doramogo.com|dramafansubs.net|dramaken.com|file4go.net|filmeflix.app|filmehdonline.site|gemadoff.com.br|listadeanimes.com|megafilmeshd50.com|myfilmestorrent.net|netcine.to|pifansubs.org|sfapi.xyz|suatela.net|tdmsubs.com|thepiratefilmeshd.in|torrentdosfilmeshd4.net|tyflex.net
+/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$third-party,xmlhttprequest,domain=3thepiratefilmes.in|allappinc.store|aniflv.net|animescx.com.br|animexnovel.com|anitube.biz|betteranime.net|cinevisionv5.app|doramogo.com|dramafansubs.net|dramaken.com|encurtandourl.com|file4go.net|filmeflix.app|filmehdonline.site|gemadoff.com.br|listadeanimes.com|megafilmeshd50.com|myfilmestorrent.net|netcine.to|pifansubs.org|sfapi.xyz|suatela.net|tdmsubs.com|thepiratefilmeshd.in|torrentdosfilmeshd4.net|tyflex.net
 /^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$third-party,xmlhttprequest,domain=animesup.cx|appmj.xyz|digitaltorrentdownload.com.br|gofilmes.me|superfilmes.cx|torrentdosfilmes.to|warezcdn.com
 !
 /files/publicity/*$domain=diarioaveiro.pt|diariocoimbra.pt
@@ -811,8 +813,8 @@ loucasporcabelos.com.br##.blue
 brasilnaitalia.net##.bookingaff
 sabado.pt##.boost_activate
 escolhaviajar.com##.bos_searchbox_widget_class
-peperi.com.br##.box-anuncio
 agazeta.com.br##.box--patrocinado
+peperi.com.br##.box-anuncio
 correiobraziliense.com.br##.box-content-read-more
 guiademidia.com.br##.box-publi1
 guiademidia.com.br##.box-publi2
@@ -1113,7 +1115,6 @@ carrefour.com.br#?#.sc-bczRLJ:-abp-contains(Publicidade)
 carrefour.com.br#?#.vtex-flex-layout-0-x-flexColChild:-abp-contains(Publicidade)
 climatempo.com.br#?#.card.-no-bottom._flex._space-between._align-center:-abp-contains( Cupons de desconto)
 climatempo.com.br#?#.card.-no-bottom._flex._space-between._align-center:-abp-contains( Cupons de desconto) + div > .card-coupons
-saocarlosagora.com.br#?#.container_16:-abp-contains(Vitrine)
 correioweb.com.br#?#.post--hardnews.call-uai:-abp-has(a:-abp-contains(CONTEÚDO PATROCINADO))
 infomoney.com.br#?#.row.m-0.py-3.border-t:-abp-has(.hl-hat:-abp-contains(Conteúdo))
 jornaldigitalcanela.com.br#?#div:-abp-has(> .jorna-adlabel)
@@ -1126,6 +1127,7 @@ oantagonista.com.br#?##cardfullblock.card.card-full.card-oa:-abp-has(.card-categ
 omirante.pt#?#.fbox.swidgets-wrap.widget.widget_block.widget_media_image:-abp-has(figcaption)
 reclameaqui.com.br#?#div[class*="h-[240px]"]:-abp-has(div[role="banner"])
 reclameaqui.com.br#?#div[class^="go"] > div[class^="go"]:-abp-has(> div[id^="div-gpt-ad"])
+saocarlosagora.com.br#?#.container_16:-abp-contains(Vitrine)
 tavernaderivia.com.br#?#.ig_widget:-abp-has(a[href^="https://amzn.to/"])
 tavernaderivia.com.br#?#.ig_widget:-abp-has(a[href^="https://www.amazon."][href*="tag="])
 !
