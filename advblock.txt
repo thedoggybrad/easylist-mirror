@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: a80iy0ZO+NlUn2VPWmJhsw
-! Version: 202312101810
+! Checksum: q0nfAsKGZKMzVIO3u02BtQ
+! Version: 202312101820
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Dec 2023 18:10 UTC
+! Last modified: 10 Dec 2023 18:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7405,6 +7405,7 @@ _tizers.
 ||main-tcod.com^$third-party
 ||mainclc.com^
 ||mainews.ru^
+||mainotter.com^$third-party
 ||maisyy.com^$third-party
 ||major-inpp-code.com^$third-party
 ||major-t-code.com^$third-party
@@ -8626,6 +8627,7 @@ _tizers.
 ||puipui.ru^$third-party
 ||pukchpok.online^$third-party
 ||purecash.ru^$third-party
+||purestairs.com^$third-party
 ||purige.ru^$third-party
 ||push.exchange^$third-party
 ||pushadv.biz^$third-party
@@ -9517,7 +9519,6 @@ _tizers.
 ||strannosty.ru^$third-party
 ||streamingcastle.me^$third-party
 ||streetuptowind.com.com^$third-party
-||streetuptowind.com^$third-party
 ||striere.com^
 ||striete.com^
 ||striglusor.com^$third-party
@@ -9525,6 +9526,7 @@ _tizers.
 ||strucewe.info^$third-party
 ||sts-bts-td.ru^$third-party
 ||stsdv.com^$third-party
+||stteeruptowind.com^$third-party
 ||stumtererum.com^$third-party
 ||styleload.ru^$third-party
 ||su2lgyoeucscn.ru^$third-party
@@ -15566,7 +15568,6 @@ anistar.org,astar.bz,online-star.org,online-stars.org##.right-panel-bottom > .fa
 gorod48.ru#?#.right-side > .reading:-abp-has(> div > #MediaMetricsInject)
 playboyrussia.com##.right-side > .sticky
 sochinyashka.ru##.right-sidebar > .block
-vshkole.com##.right-sidebar > div > div[style^="margin-bottom: 20px; height:"]
 censor.net##.right-sidebar div[style^="width: 300px; height: "]
 censor.net#?#.right-sidebar__title_without_border:-abp-has(> div[style^="width: 300px; height: "])
 sport.ua##.right-top__banner
@@ -20002,7 +20003,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /ad*.tutu.ru^*_*.php|
 /adata/*$domain=pindosoff.net|pornosvideo.info|pornovkisku.com|teplomontag.net
 /add.php|$xmlhttprequest,domain=domonosok.tk|haes.tech|hqq.to|hqq.tv|porn-watch.ru|vidxhot.net
-/ads/advise/*$domain=2gis.by|2gis.kz|2gis.ru
 /afrsasync*.js$script,domain=auto.vesti.ru|gubernia.com
 /ajax/hitsadv.php?$domain=newsomsk.ru|omskregion.info
 /api*iframe$subdocument,domain=get-tune.cc|intermusic.name|iplayer.info|ipleer.fm|mp3cc.biz|mp3iq.com
@@ -20195,6 +20195,7 @@ lada.kz/uploads/banners/
 ||2baksa.ws^$script
 ||2ch.*/banners/$domain=2ch.hk|2ch.life
 ||2d.windows-8.ru
+||2gis.*/ads/advise/
 ||2ip.ua/images/keyweb.
 ||2ip.ua/images/support_ukraine.png
 ||2ip.ua/images/war.png
