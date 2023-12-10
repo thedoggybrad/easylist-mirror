@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7+g0bX+08d49v6/zA8L9eA
-! Version: 202312101010
+! Checksum: gzH2pyOcQdFaRU3a01v+Hg
+! Version: 202312101020
 ! Title: EasyList without rules for adult sites
-! Last modified: 10 Dec 2023 10:10 UTC
+! Last modified: 10 Dec 2023 10:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -61708,7 +61708,9 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###content > ytd-ad-slot-renderer
 youtube.com###contents.style-scope.ytd-search-pyv-renderer
 youtube.com###items > ytd-ad-slot-renderer
+youtube.com###main > #banner.ytd-merch-shelf-renderer
 youtube.com###related > div#player-ads
+youtube.com###scroll-container > #items.ytd-merch-shelf-renderer
 youtube.com##.ytp-chrome-top-buttons > .ytp-cards-teaser
 m.youtube.com##lazy-list > ad-slot-renderer
 youtube.com##ytd-ad-slot-renderer.style-scope.ytd-item-section-renderer
