@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: u7sJL3Ee37RnLO+8o1kKpg
-! Version: 202312110741
+! Checksum: ahvWZVnpEs9svzvI3XSP0Q
+! Version: 202312110750
 ! Title: ABPVN List
-! Last modified: 11 Dec 2023 07:41 UTC
+! Last modified: 11 Dec 2023 07:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 11 Dec 2023 14:33:52 UTC+7
+! Last modified: 11 Dec 2023 14:49:57 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -155,8 +155,7 @@
 ||iamcdn.net/players/playera.dmins.js
 ||iamcdn.net/players/playhydraxs.min.js
 ||igg-games.com^*.gif
-||images.asianbookie.com/vwin/
-||images.tuyensinh247.com^*banner-
+||images.asianbookie.com^*.gif$image,domain=asianbookie.coms
 ||images.vov.vn/Uploaded/QC/
 ||images1.violympic.vn/assets/images/*.gif
 ||images2-focus-opensocial.googleusercontent.com^*.gif$image,domain=phimdinhcao.net|phimdinhcao.com|phimlongtieng.net|anivn.club
@@ -567,6 +566,7 @@ animevietsub.fan##.mobile-catfixx
 animevietsub.fan##div[style^="position: fixed; top: 60px"]
 animevietsub.fan,gianhangsach.com##.pc-catfixx
 anivn.club###quang-cao
+asianbookie.com##a[href^="/cgi-bin/to.cgi"]
 asideway.com##.popup-container
 audiotruyenfull.com##.ai-close-fit
 autodaily.vn,xehay.vn###banner3double
