@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3LAYgkSmRtffLmAM35Fxvg
-! Version: 202312111051
+! Checksum: mns6ygxlQtbRw7gIhYH43w
+! Version: 202312111102
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Dec 2023 10:51 UTC
+! Last modified: 11 Dec 2023 11:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23886,7 +23886,6 @@ lenta.ru##.b-board__brand-logo
 lenta.ru##.b-board__coef
 lenta.ru##.b-header-inner__banner
 gazeta.ru##.b_telegram
-gazeta.ru##.b_yaflow
 gazeta.ru,lenta.ru,quto.ru##.banner
 rambler.ru##.banner--container
 championat.com##.banner-parallax
@@ -23908,7 +23907,6 @@ gazeta.ru##.m_banner
 sport.rambler.ru##.match-center__partners
 lenta.ru##.okko
 rambler.ru##.okko-banner__container
-gazeta.ru##.p2:empty
 championat.com##.partners-content
 championat.com##.plista-block
 championat.com##.recommender-block + .banner + div
@@ -23968,9 +23966,9 @@ rambler.ru##div[data-marker-observer]
 ferra.ru,letidor.ru,moslenta.ru,motor.ru,passion.ru,quto.ru,secretmag.ru,wmj.ru##div[data-render-state] > div[style*="min-height:"]
 ferra.expert##div[data-render-state][style*="min-height:"]
 rambler.ru##div[data-rnet]
+gazeta.ru##div[id^="_g_exchange_"]
 gazeta.ru##div[id^="b_24smi_"]
 m.gazeta.ru##div[id^="ban-content-mobile"]
-gazeta.ru##div[id^="native"]
 quto.ru##div[id^="partner_news_"]
 gazeta.ru,lenta.ru,rambler.ru,wmj.ru##div[id^="rnet_"]
 motor.ru##div[id^="rnet_id_"] ~ div[style^="margin-top:"] + div
