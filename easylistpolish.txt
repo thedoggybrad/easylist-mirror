@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VwOtpPyZ5C9tamMpYv/nNw
-! Version: 202312110810
+! Checksum: wMoU5v0PPsVuJUcjnQK5fQ
+! Version: 202312110820
 ! Title: EasyList Polish
-! Last modified: 11 Dec 2023 08:10 UTC
+! Last modified: 11 Dec 2023 08:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -152,7 +152,6 @@ mandarinodesign.eu,wirtualnyregion.pl#@#.reklama
 ^areklamy^$domain=e-lokalne.pl
 ^artykul%20kierunek^$domain=otouczelnie.pl
 ^ban^$domain=kopaczka.pl
-^ban_$domain=pogoda.nl
 ^bananer^$domain=sportowebeskidy.pl
 ^baner%$domain=podlasie24.pl
 ^baner-$domain=allebiznes.pl|centrumdruku3d.pl|cksport.pl|cowkrakowie.pl|cowwilanowie.pl|crypto-trader.pl|echokamienia.pl|firmy.meblarstwo.eu|genetyczne.pl|gloskoninski.pl|gorydlaciebie.pl|hi-fi.com.pl|iloveslubice.pl|infokatowice.pl|infokonin.pl|infomalopolska.pl|jazdaprawna.pl|kaszuby24.pl|kk24.pl|limanowianin.in|linia.com.pl|luzyce.info|magazynvip.pl|materialybudowlane.info.pl|mazopolska.pl|miastokobiet.pl|mysnet.pl|naszosie.pl|naszsrem.pl|niezaleznemediapodlasia.pl|obiektysakralne.pl|ostrodanews.pl|oswiecim112.pl|oto-samochody.pl|plotkibiznesowe.pl|polskacanada.com|portalkujawski.pl|portalwolow.pl|powrotroberta.pl|przeglad-sejnenski.pl|przewodnicywedkarscy.pl|radomsport.pl|regionalna.pl|rynekinwestycji.pl|sochaczewianin.pl|starosadeckie.info|szczecinek.com|tarnobrzeskie.eu|tv28.pl|tvbraniewo24.pl|twojaslupca.pl|tygodnik-rolniczy.pl|tygodnikkrag.pl|tygodnikpiski.pl|tylkotorun.pl|tyna.info.pl|whitemad.pl|wiadomosci.com|wiecbork112.pl|wirtualnelegionowo.pl|wirtualnemazowsze24.pl|wirtualnynowydwor.pl|wolanie.info|zw.pl|zwrotnikraka.pl|zyciezamoscia.pl
@@ -405,7 +404,6 @@ _reklamy^$domain=wiadomoscisasiedzkie.pl
 ||plonsk24.pl^*^img_72^
 ||poczta-online.com^*^globkurier.
 ||podhale24.pl/uploads/r^
-||pogoda.nl^*^header3_1_black.
 ||poland.us^*^katalog^
 ||polonia-peterborough.uk^*^studio-fotograficzne-
 ||polskielupki.pl^*^*consulting.
@@ -509,6 +507,8 @@ _reklamy^$domain=wiadomoscisasiedzkie.pl
 ||video.onnetwork.tv^$script,domain=gwarek.com.pl
 ||video.onnetwork.tv^$script,domain=wpu24.pl
 ||video.onnetwork.tv^$script,domain=pulsgminy.pl
+||video.onnetwork.tv^$script,domain=lowiczanin.info
+||video.onnetwork.tv^$script,domain=e-wabrzezno.info.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
