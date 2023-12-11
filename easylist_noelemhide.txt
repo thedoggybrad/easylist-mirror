@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pSQVH8M8pdU60frKCI2uQA
-! Version: 202312112302
+! Checksum: y0Pl1qosiGgKJ1Y2tMB+LQ
+! Version: 202312112311
 ! Title: EasyList without element hiding rules
-! Last modified: 11 Dec 2023 23:02 UTC
+! Last modified: 11 Dec 2023 23:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -509,6 +509,7 @@
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
 /adunit/track-view
 /adunits.
+/adunits/bcid?
 /adUnitsBreakpoints.
 /adUnitsData.
 /adutil.
