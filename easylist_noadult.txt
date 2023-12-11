@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fvH2QFP9L4ArJY1p57ABFg
-! Version: 202312111210
+! Checksum: xmb9yLZ1bZ2nQ8Io2N/1HQ
+! Version: 202312111220
 ! Title: EasyList without rules for adult sites
-! Last modified: 11 Dec 2023 12:10 UTC
+! Last modified: 11 Dec 2023 12:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -50441,6 +50441,7 @@ browsershots.org#@#.advert_area
 ||adxpartner.com^$popup
 ||adxprtz.com^$popup
 ||adzblockersentinel.net^$popup
+||adzerk.net^$popup
 ||adzshield.info^$popup
 ||aeeg5idiuenbi7erger.com^$popup
 ||afcpatrk.com^$popup
@@ -55595,6 +55596,8 @@ browsershots.org#@#.advert_area
 ||aveherald.com/images/banners/
 ||b.cdnst.net/javascript/amazon.js$script,domain=speedtest.net
 ||b.w3techs.com^
+||backgrounds.wetransfer.net$image
+||backgrounds.wetransfer.net/*.mp4$media
 ||bahamaslocal.com/img/banners/
 ||bbci.co.uk/plugins/dfpAdsHTML/
 ||beap.gemini.yahoo.com^
@@ -60573,6 +60576,7 @@ androidpolice.com##.w-pencil-banner
 wsj.com##.w27771
 userscript.zone##.w300
 swimcompetitive.com##.waldo-display-unit
+wetransfer.com##.wallpaper
 goodfon.com##.wallpapers__banner240
 dailymail.co.uk,thisismoney.co.uk##.watermark
 watson.ch##.watson-ad
@@ -61556,6 +61560,7 @@ rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgpro
 titantv.com##tr.gridRow > td > [id] > div:first-child
 morningagclips.com##ul.logo-nav
 greyhound-data.com##ul.ppts
+backgrounds.wetransfer.net##we-wallpaper
 ! firework
 ndtv.com,ndtv.in##[class^="firework"]
 ndtv.com,ndtv.in##[id^="firework"]
