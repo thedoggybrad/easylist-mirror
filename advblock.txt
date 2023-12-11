@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LAhd4+brx3qEIwPaYpDWkA
-! Version: 202312111040
+! Checksum: 3LAYgkSmRtffLmAM35Fxvg
+! Version: 202312111051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Dec 2023 10:40 UTC
+! Last modified: 11 Dec 2023 10:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19749,6 +19749,7 @@ rafkino.com##div[id^="MarketGid"]
 ||nsportal.ru/download/$csp=frame-src 'self'
 ||ontvtime.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.googleapis.com *.googletagmanager.com *.gstatic.com *.ok.ru vk.com
 ||orbit-games.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: date: static.addtoany.com *.googletagmanager.com *.facebook.com *.keycaptcha.com
+||perpendicular.pro^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.google.com/recaptcha/ *.googletagmanager.com *.gstatic.com/recaptcha/ *.net *.org
 ||poezdato.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.dev *.io *.net *.org *.ru *.ua
 ||psysovet24.ru^$csp=script-src 'self' * blob: data:
 ||runewslenta.com^$csp=sandbox allow-same-origin;
