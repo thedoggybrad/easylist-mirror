@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZfN7VwUsrbZ0dASZv14D+Q
-! Version: 202312110802
+! Checksum: VwOtpPyZ5C9tamMpYv/nNw
+! Version: 202312110810
 ! Title: EasyList Polish
-! Last modified: 11 Dec 2023 08:02 UTC
+! Last modified: 11 Dec 2023 08:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -502,6 +502,13 @@ _reklamy^$domain=wiadomoscisasiedzkie.pl
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=ibytow.pl
+||video.onnetwork.tv^$script,domain=roztocze.net
+||video.onnetwork.tv^$script,domain=terazgabin.pl
+||video.onnetwork.tv^$script,domain=dziendobrypomorze.pl
+||video.onnetwork.tv^$script,domain=gwarek.com.pl
+||video.onnetwork.tv^$script,domain=wpu24.pl
+||video.onnetwork.tv^$script,domain=pulsgminy.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2515,6 +2522,10 @@ dziendobrypomorze.pl##[class*="banner--"]
 gwarek.com.pl##[class*="banner--"]
 wpu24.pl##[class*="banner--"]
 pulsgminy.pl##[class*="banner--"]
+hej.rzeszow.pl##[class*="banner--"]
+lowiczanin.info##[class*="banner--"]
+e-wabrzezno.info.pl##[class*="banner--"]
+e-golub.info.pl##[class*="banner--"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
