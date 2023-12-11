@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mnNHMsvxezKv6IjJeW6V6g
-! Version: 202312111210
+! Checksum: dG06i5+nAjt7ksdDKTh6Uw
+! Version: 202312111220
 ! Title: EasyList without element hiding rules
-! Last modified: 11 Dec 2023 12:10 UTC
+! Last modified: 11 Dec 2023 12:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -34124,6 +34124,7 @@ _800x80_
 ||adxpartner.com^$popup
 ||adxprtz.com^$popup
 ||adzblockersentinel.net^$popup
+||adzerk.net^$popup
 ||adzshield.info^$popup
 ||aeeg5idiuenbi7erger.com^$popup
 ||afcpatrk.com^$popup
@@ -40187,6 +40188,8 @@ _800x80_
 ||aveherald.com/images/banners/
 ||b.cdnst.net/javascript/amazon.js$script,domain=speedtest.net
 ||b.w3techs.com^
+||backgrounds.wetransfer.net$image
+||backgrounds.wetransfer.net/*.mp4$media
 ||bahamaslocal.com/img/banners/
 ||bbci.co.uk/plugins/dfpAdsHTML/
 ||beap.gemini.yahoo.com^
