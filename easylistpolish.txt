@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: V3/4UQ3jZnhTJuBbjrXhIA
-! Version: 202312120750
+! Checksum: +WGAPHUN3TRjgfzcqC6qsA
+! Version: 202312120801
 ! Title: EasyList Polish
-! Last modified: 12 Dec 2023 07:50 UTC
+! Last modified: 12 Dec 2023 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2505,8 +2505,11 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-24wroclaw.pl##[style="min-height: 350px;"]
+24wroclaw.pl##[style="min-height: 350px;"], [style="min-height: 500px;"]
 24wroclaw.pl##[class="card card--low card--box"]
+kurierpodlaski.pl##[style="min-height: 350px;"], [style="min-height: 500px;"]
+kurierpodlaski.pl##.adv
+kurierpodlaski.pl##[class*="ad--"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
