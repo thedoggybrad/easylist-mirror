@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ululJmfBIdJP8B9Bl1bw3w
-! Version: 202312121110
+! Checksum: 0VVz3GJ2S83weuF+q5/0cQ
+! Version: 202312121120
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Dec 2023 11:10 UTC
+! Last modified: 12 Dec 2023 11:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23107,10 +23107,10 @@ lada.kz/uploads/banners/
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
-pikabu.ru#?#.sidebar-block div:-abp-properties(/min-height: calc.[0569]{2}[0-9]{1}|min-height: calc.+.em|min-height: [0-9].lh/)
+pikabu.ru#?#.sidebar-block div:-abp-properties(/min-height: calc.[0569]{2}[0-9]{1}|min-height: calc.+.em|min-height: .+.lh/)
 pikabu.ru##.sidebar__inner > .sidebar-block div[style=""]
 pikabu.ru##.sidebar__inner > .sidebar-block:not(.sidebar-block_border)
-pikabu.ru#?#.stories-feed__container > .story:-abp-has(> script:-abp-contains(/[a-z]$/))
+pikabu.ru#?#.stories-feed__container > .story:-abp-has(> script:-abp-contains(//[a-z]$|\s$/))
 dracon-zet.ru,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 pikabu.ru##[data-block-name]
