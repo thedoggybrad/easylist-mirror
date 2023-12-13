@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +UtyRjmOE6AQsOeXGHJzgA
-! Version: 202312131631
+! Checksum: ZbHrsRp99Z+wU+ad7kxSDw
+! Version: 202312131641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Dec 2023 16:31 UTC
+! Last modified: 13 Dec 2023 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12092,7 +12092,6 @@ shans.com.ua###mainNav > .titleBlue ~ .titleBlue
 shans.com.ua###mainNav > div[style="margin-bottom:20px;"]
 argumenti.ru###main_adv
 forum.hdtv.ru,zadonbass.org###main_banner
-soccer365.com.ua,soccer365.ru###main_container > div[style^="position:"][style*="position:absolute"]
 file-tracker.net###main_content + td[width="240px"]
 forum.tradelikeapro.ru###main_content_section > table > tbody > tr > td:nth-of-type(2)
 rugrad.eu###main_right_col > .section:not(.section_blogs)
@@ -13160,6 +13159,7 @@ siliconrus.com##.b-bks
 inter.ua##.b-block > table[class]
 sibdepo.ru##.b-block--banner
 ixbt.com##.b-block__parterslist
+news.liga.net##.b-blocks
 sobaka.ru##.b-body-brand-banner
 sobaka.ru##.b-body-sidebar__banners
 hata.by##.b-card__sale
@@ -17090,7 +17090,7 @@ rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[href*=".vkpl
 wintorrents.ru##a[href*=".wintorrents.ru"]
 1tv.ru,drive.ru,f1news.ru,gamemag.ru,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,sovsport.ru,spletnik.ru,trinixy.ru,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
 dks.com.ua,enovosty.com,expert.in.ua,galas.te.ua,galinfo.com.ua,nbnews.com.ua,plitkar.com.ua,rivnepost.rv.ua,tenews.org.ua,ukrnews24.net,varta1.com.ua##a[href*="//besplatka.ua"]
-360tv.ru,avtonovostidnya.ru,coop-land.ru,energyfm.ru,gdeichto.ru,kommersant.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,mydecor.ru,mywebpc.ru,new-magazine.ru,penzainform.ru,peterburg2.ru,pnz.ru,regnum.ru,rutube.ru,sm.news,sportsdaily.ru,super.ru,syzran-small.ru,teleprogramma.pro,thegirl.ru,tsargrad.tv,tulapressa.ru,u-f.ru,ura.news,utyug.info,vz.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,zaks.ru,zr.ru##a[href*="//dzen.ru/"]
+360tv.ru,avtonovostidnya.ru,coop-land.ru,energyfm.ru,gdeichto.ru,kommersant.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,mydecor.ru,mywebpc.ru,new-magazine.ru,news.ru,penzainform.ru,peterburg2.ru,pnz.ru,regnum.ru,rutube.ru,sm.news,sportsdaily.ru,super.ru,syzran-small.ru,teleprogramma.pro,thegirl.ru,tsargrad.tv,tulapressa.ru,u-f.ru,ura.news,utyug.info,vz.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,zaks.ru,zr.ru##a[href*="//dzen.ru/"]
 beatmake.ru##a[href*="//go.acstat.com/"]
 porno-island.site##a[href*="//goo.su/"]
 animevost.tv,senpai.cc##a[href*="//inlnk.ru/"]
@@ -19001,7 +19001,6 @@ liveresult.ru##div[style="font-size:18px; font-weight:bold;margin-bottom:10px;"]
 astrohelper.ru##div[style="height: 120px;"]
 glavred.info,glavred.net##div[style="height: 400px"]
 kirov-portal.ru##div[style="height: 90px; font-size: 1px; line-height: 1px;"]
-soccer365.com.ua,soccer365.ru##div[style="height:200px"]
 unews.pro##div[style="height:20px;"]:empty
 autonevod.ru##div[style="height:250px"]
 unian.info,unian.net,unian.ua##div[style="height:260px;clear:both;"]
@@ -19083,6 +19082,7 @@ liveposts.ru##div[style^="min-height: 700px;"]
 open3dmodel.com##div[style^="min-height:"][style$="px;"]
 point.md##div[style^="min-height:"][style*="250px"]
 1pnz.ru##div[style^="position: relative; width: 230px; height: 400px"]
+soccer365.com.ua,soccer365.ru##div[style^="position:"][style*="height:90px"]
 lostfilmstv.com##div[style^="promo"]
 kinonews.ru##div[style^="text-align:"][style*="center;"][style*="height:"]
 wallegend.net##div[style^="text-align:center;line-height:0;display:block;height:"]
@@ -19718,6 +19718,7 @@ rafkino.com##div[id^="MarketGid"]
 ||agroter.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.io *.net *.org *.ru *.ua
 ||an.yandex.ru/count/$csp=script-src
 ||askentire.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.keycaptcha.com
+||autonews.co.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.io *.net *.org *.ru *.ua
 ||azbne.net^$csp=sandbox allow-same-origin;
 ||babla.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' date: ajax.googleapis.com *.bab.la *.cloudflare.net *.jsdelivr.net *.facebook.net *.twitter.com
 ||betnetmed.advertserve.com^$csp=sandbox allow-same-origin;
@@ -22321,6 +22322,7 @@ lada.kz/uploads/banners/
 ||scask.ru/images/fx4you.
 ||scicenter.online^$subdocument
 ||scores24.live/tvsv/
+||scr365.net/a/$domain=soccer365.com.ua|soccer365.ru
 ||screenlist.ru/ads.js
 ||screenpost.ru^*.php$script
 ||scripts.pogodnik.com/public/js/a_detector.js
