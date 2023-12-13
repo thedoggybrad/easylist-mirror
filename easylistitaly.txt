@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1DEkztcjQIHel6X55Cuk+w
-! Version: 202312131721
+! Checksum: W2UfQE26icB6oEeSrWUK8w
+! Version: 202312131731
 ! Title: EasyList Italy
-! Last modified: 13 Dec 2023 17:21 UTC
+! Last modified: 13 Dec 2023 17:31 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -536,6 +536,10 @@ _sito/adv/
 ##a[href^="https://www.centoxcento.net/?track="]
 ##a[href^="https://www.dazn.com/"][href*="?utm_source=affiliate"]
 ! *** easylistitaly:easylistitaly/easylistitaly_allowlist_general_hide.txt ***
+unionesarda.it#@#.leftAds
+unionesarda.it#@#.rightAds
+unionesarda.it#@#.topAds
+!
 corr.it#@##adv-Top
 repubblica.it#@##advtop
 subito.it#@##body_ad
@@ -3432,6 +3436,7 @@ infooggi.it##.zero-margins.w-dyn-items.w-row
 canale58.com##.zox-widget-ad
 acffiorentina.com,acmilan.com##[class^="Partners_"]
 acffiorentina.com##[class^="Sponsors_"]
+unionesarda.it##[data-revive-zoneid]
 casertasette.com##[href^="banners.php?"]
 djmagitalia.com##[href^="http://www.djpoint.net/"]
 narnionline.com,ternieprovincia.com##a[class="banner_174"]
@@ -3498,6 +3503,12 @@ horecanews.it,quotidianodellumbria.it,radioradio.it,umbriasettegiorni.it,vending
 cilentochannel.com##div[class^="cilen-"]
 qdpnews.it##div[class^="qdpne-"]
 alqamah.it##div[class^="unit-zona-"]
+unionesarda.it##div[data-name^="Banner SEC"]
+unionesarda.it##div[data-name^="RCS FRAME"]
+unionesarda.it##div[data-name^="RCS_BOTTOM_"]
+unionesarda.it##div[data-name^="US_BANNER_"]
+unionesarda.it##div[data-name^="US_MEDIUM_RECTANGLE_"]
+unionesarda.it##div[data-name^="US_SKYBANNER_"]
 gnoccatravels.com##div[id*="b-nner"]
 acquariocomefare.com##div[id^="acqua-"]
 romait.it##div[id^="ad"]
