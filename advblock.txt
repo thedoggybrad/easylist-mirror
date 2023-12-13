@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LoTKJ+u11jjcx6nLZMcp3w
-! Version: 202312131811
+! Checksum: dVEA+8dGbB+ARyicgBgxYw
+! Version: 202312131821
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Dec 2023 18:11 UTC
+! Last modified: 13 Dec 2023 18:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19189,6 +19189,7 @@ fapl.ru##iframe[src*="/upload/fapl_"]
 gazeta.uz##iframe[src*="/www/delivery/"]
 s-platoon.ru##iframe[src*="://s-platoon.ru/forfon/"]
 ekovolga.com,imenie-home.ru,news-tape.ru,vamrecipes.ru##iframe[src*="://vamproducts.ru/"]
+shazoo.ru##iframe[src*="://vkplay.live/"]
 yk.kz##iframe[src*="://yk.kz/"][src$="/"]
 protdt.ru##iframe[src*="ADVERT"]
 finversia.ru,lr-club.com,mobile-review.com,pogoda.ru,severinform.ru,thg.ru##iframe[src*="ad.adriver.ru"]
@@ -22843,7 +22844,7 @@ lada.kz/uploads/banners/
 ||vk.com/dist/web/aliexpress_feed_recommendations_carousel.
 ||vk.com/js/al/aes_light.js$script,domain=~vk.com
 ||vkaznu.ru^*.php$script
-||vkplay.live/app/embed/$domain=playground.ru|zoneofgames.ru
+||vkplay.live/app/embed/$domain=playground.ru|shazoo.ru|zoneofgames.ru
 ||vkurske.com/banners/
 ||vl.ru/eda/*/widget/$script,domain=drom.ru
 ||vl.ru/widgets/drom.js$script,domain=forums.drom.ru
