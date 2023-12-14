@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: nL2HT65Eb8s31GtrWBdthQ
-! Version: 202312140121
+! Checksum: ZUXDdYSCokxi2q6rzdpUyw
+! Version: 202312140131
 ! Title: EasyPrivacy without international filters
-! Last modified: 14 Dec 2023 01:21 UTC
+! Last modified: 14 Dec 2023 01:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -309,6 +309,7 @@
 /api-insights/log?
 /api/0/stats
 /api/adplogger/*
+/api/async.php?t=user&m=pagehits&
 /api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
@@ -5091,6 +5092,7 @@ omni.soundestlink.com$image
 ||pixelinteractivemedia.com^$third-party
 ||pixelpop.co^$third-party
 ||pixelrevenue.com^$third-party
+||pixeltracker.co^$third-party
 ||pixfuture.com^$third-party
 ||pjatr.com^$third-party
 ||pjtra.com^$third-party
@@ -9936,6 +9938,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||snapkit.com/v1/sdk/metrics/
 ||snaps.vidiemi.com^$third-party
 ||snowplow.swm.digital^
+||snowplowjs.darwin.cx^
 ||soccer.ru/counter/
 ||socialannex.com/c-sale-track/$script
 ||solutions.invocacdn.com^
