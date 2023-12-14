@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202312140139
+! Version: 202312140130
 ! Title: EasyPrivacy
-! Last modified: 14 Dec 2023 01:39 UTC
+! Last modified: 14 Dec 2023 01:30 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -69,6 +69,7 @@
 .php?tracking=
 .sharecounter.$third-party
 .skimlinks.js
+.snowplowanalytics.$domain=~snowplowanalytics.com
 .stats?action=
 .svc/?tracking_id=
 .v4.analytics.
@@ -622,7 +623,6 @@
 /collector/v1/event
 /collector?report=
 /collectsysteminfo?
-/com.snowplowanalytics.snowplow/*
 /com_joomlawatch/img.php
 /common/analytics.js
 /common/ga.js
