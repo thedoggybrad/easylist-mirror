@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lYWecKaJcN6vbvssbVdEwA
-! Version: 202312140831
+! Checksum: SXNWx3I6LmDPyZcjyYM27w
+! Version: 202312140841
 ! Title: IndianList
-! Last modified: 14 Dec 2023 08:31 UTC
+! Last modified: 14 Dec 2023 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4731,6 +4731,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||visionnepaltv.com^*/Ads-Vision.jpg
 ||vnewsbd.com/wp-content/uploads/2022/08/grihayan
 ||vnewsbd.com/wp-content/uploads/2022/08/orf-
+||voiceasian.news/biggapon/
 ||voiceofbihar.in/wp-content/uploads/2020/09/IMG-20200910-WA0048.jpg
 ||voiceofchandpur.com/wp-content/uploads/2018/11/c-1
 ||voiceofchandpur.com/wp-content/uploads/2018/11/c-3
@@ -8593,6 +8594,7 @@ atalsamachar.com,woneminute.com##div[id^="showAS_O_BEL"]
 metrojournalonline.com,newzfast.com,samayduniya.com##div[id^="showAS_O_BEL_"]
 shrinaradmedia.com##div[id^="shrin-"]
 sitamarhilive.in##div[id^="sitam-"]
+kairalinewsonline.com##div[id^="slideshow"]
 suddione.com##div[id^="suddi-"]:not(.suddi-before-content_3)
 tejastoday.com##div[id^="tdi_112_"]
 tejastoday.com##div[id^="tdi_55_"]
@@ -8732,6 +8734,7 @@ newsnow24.com##img[src*="/banner/"]
 lalsobujerkontho.com##img[src*="Modhomoti-"]
 shivshahilive.com##img[src*="WhatsApp-Image-2021-08-16-at-3.07.30-PM"]
 shivshahilive.com##img[src*="WhatsApp-Image-2021-08-19-at-2.46.04-PM"]
+voiceasian.news##img[src*="ad_files"]
 hindustannewsexpress.com##img[src*="c-force/booking/"]
 reportsindia.in##img[src*="gftr"]
 wijeya.lk##img[target]
@@ -8882,6 +8885,7 @@ swarnimbharatnews.com##span[style^="color: red;"]
 spnewsbd.com#?#div:-abp-has(> p > ins.adsbygoogle)
 suprovatsydney.com.au#?#.box_header:-abp-contains(Advertising)
 khabarhikhabar.com##table[style^="width: 100%; background-color: rgb(255, 238, 0);"]
+voiceasian.news##table[width="1000"]:not([cellpadding])
 bihardootnews.com##tagdiv
 tamilnews.cc#?#.main-menu ~ .container div:-abp-has(> a > img[src*="/uploads/ads/"])
 tamizhakam.com#?#p:-abp-contains(Advertisement)
@@ -8918,5 +8922,6 @@ varchasvnews.com#?#.heading:-abp-has(> span:-abp-contains(Advt))
 vijaykarnataka.com#?#div:-abp-has(> div[data-native-ad])
 visionnewsservice.in#?#.sidebar-widget > h2:-abp-contains(Advertisement)
 viznews.in#?#div:-abp-has(> .heading > span:-abp-contains(Advertisement))
+voiceasian.news#?#table[height="100"]:-abp-has(> tbody > tr[bgcolor])
 yuvaharyana.com#?#div[id^="AS_O_LHS"] > div:-abp-has(> div > a>div > h5:-abp-contains(Ad |))
 !-----------------------Whitelists to fix broken sites------------------------!
