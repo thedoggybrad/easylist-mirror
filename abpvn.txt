@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: O7xL7KTkZ5YsxyPSOOqB+A
-! Version: 202312140341
+! Checksum: 7SsM8Ayz0G/Ck0Wwnnn4xA
+! Version: 202312140351
 ! Title: ABPVN List
-! Last modified: 14 Dec 2023 03:41 UTC
+! Last modified: 14 Dec 2023 03:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 13 Dec 2023 14:37:44 UTC+7
+! Last modified: 14 Dec 2023 10:47:22 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -159,12 +159,8 @@
 ||images1.violympic.vn/violympic/images/upload/banner$image,domain=violympic.vn
 ||images2-focus-opensocial.googleusercontent.com^*.gif$image,domain=phimdinhcao.net|phimdinhcao.com|phimlongtieng.net|anivn.club
 ||images2.imgbox.com^*.gif$image,domain=ocumoe.com
-||img.dothi.net^*.gif
 ||img.dtruyen.com/login-ads-desktop.gif$domain=dtruyen.com
-||img.ketqua9.net^*.gif
-||img.upanh.tv^*.gif$domain=xemhay24h.com
-||img.upanh.tv^*.gif$image,domain=phimtuoitho.tv
-||img.vietcetera.com^*banner$image
+||img.upanh.tv^*.gif$image,domain=phimtuoitho.tv|xemhay24h.com
 ||img1.oto.com.vn/2021/02/23/mER5FXHc/1140-140-px-1-a753.jpg
 ||img_bongdalu.thscore.fun^*.gif
 ||imgyn.imageshh.com^*.gif$image,domain=mphim14.com|hhchina.tv
@@ -1404,8 +1400,8 @@ $third-party,script,domain=sexdiaryx.us
 ||i9zk5f8szj4x8saj5wcks8acja5sk1dz8stjs2g8isdcn6ejxn8zsr5xjs5h.com^
 ||img.av3x.net/upload/av3x.net/banners/$domain=phimsexhay669.co
 ||img.congdongmassage.com/banner/$image
-||img.nguonc.com/public/images/Film/bet/$image
-||img.nguonc.com^*.gif
+||img.nguonc.com/public/images/Film/bet/$image,domain=xxx.yeusex.cc
+||img.nguonc.com^*.gif$domain=sexviet1.vip
 ||javhay.media/theme/custom.int.js
 ||javtopxx.com/public/images/banner/$image
 ||kgfjrb711.com^
