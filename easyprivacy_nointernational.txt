@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ZUXDdYSCokxi2q6rzdpUyw
-! Version: 202312140131
+! Checksum: dAiW7eLT0do2TpwkRxuFTQ
+! Version: 202312140141
 ! Title: EasyPrivacy without international filters
-! Last modified: 14 Dec 2023 01:31 UTC
+! Last modified: 14 Dec 2023 01:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -66,7 +66,6 @@
 .php?tracking=
 .sharecounter.$third-party
 .skimlinks.js
-.snowplowanalytics.$domain=~snowplowanalytics.com
 .stats?action=
 .svc/?tracking_id=
 .v4.analytics.
@@ -620,6 +619,7 @@
 /collector/v1/event
 /collector?report=
 /collectsysteminfo?
+/com.snowplowanalytics.snowplow/*
 /com_joomlawatch/img.php
 /common/analytics.js
 /common/ga.js
@@ -5093,6 +5093,7 @@ omni.soundestlink.com$image
 ||pixelpop.co^$third-party
 ||pixelrevenue.com^$third-party
 ||pixeltracker.co^$third-party
+||pixeltracker.im^$third-party
 ||pixfuture.com^$third-party
 ||pjatr.com^$third-party
 ||pjtra.com^$third-party
