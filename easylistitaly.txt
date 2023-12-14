@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 9FOd3EUI17bUfApSxRcNDQ
-! Version: 202312141541
+! Checksum: XF1pHl9E0S9UAO98UjrlHw
+! Version: 202312141551
 ! Title: EasyList Italy
-! Last modified: 14 Dec 2023 15:41 UTC
+! Last modified: 14 Dec 2023 15:51 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -3004,6 +3004,7 @@ laverita.info##.gmp-repeating-ads
 sentieriselvaggi.it##.google-banners
 goriziaoggi.news##.goriz-widget
 teamworld.it##.gpt-sticky
+cittafuture.quotidiano.net##.gs_carousel_swiper
 sorrisi.com##.gtv-trigger-elevator
 corrieredicarmagnola.it##.h-text4.h-text
 boatindustry.it,boatsnews.it,pescare.news##.habillage
@@ -3018,6 +3019,7 @@ nuovosud.it##.header-banner-wrapper
 nauticareport.it##.header-centerbar-ad
 genovaquotidiana.com##.header-image-wrap
 vercellioggi.it##.header-images
+cittafuture.quotidiano.net,luce.lanazione.it##.header-slider
 veronavolley.it##.header-title-sponsor
 startmag.it##.headofpage
 internazionale.it##.hentry--banner
@@ -3460,9 +3462,11 @@ medicalexcellencetv.it##div[class*="medic-"]
 romaedintorninotizie.it##div[class*="romae-"]
 tmnotizie.com##div[class*="tmnot-"]
 zonalocale.it##div[class*="zonal-"]
+ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[class^="Ad_"]
 sslazio.it##div[class^="Footer_footerSponsorItem_"]
 tuttoandroid.net##div[class^="OfferteCarousel"]
 gizchina.it,gufo.it,laleggepertutti.it##div[class^="__lxG__"]
+ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[class^="ads_"]
 horecanews.it,quotidianodellumbria.it,radioradio.it,umbriasettegiorni.it,vendingnews.it,vitaincamper.it##div[class^="angwp_"]
 cilentochannel.com##div[class^="cilen-"]
 qdpnews.it##div[class^="qdpne-"]
@@ -3551,6 +3555,7 @@ gta-expert.it##div[style="width:732px; height:105px"]
 thegamesmachine.it##div[style="width:970px;height:250px;margin: 0 auto 5px;"]
 torresette.news##div[style^="height: 250px !important;"]
 iltempo.it##div[style^="height:90px; width:728px;"]
+ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[style^="min-height: 250px;"]
 voglioviverecosi.com##div[style^="min-height: 90px;"]
 tuttasalute.net,vitadamamma.com##div[style^="min-height:250px"]
 livornopress.it##div[style^="min-height:300px;"]
@@ -3775,7 +3780,6 @@ dilei.it,quifinanza.it,siviaggia.it###cont-wallpaper
 latinaoggi.eu###container-skin-top
 tltonline.it###content-footer-section
 pordenonecalcio.com###content-section-3
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net###contentRefact > div
 parlandodisport.it###custom-background-link
 mobileblogger.it,pistoiasport.com,sassarioggi.it###custom_html-1
 casafacile24.com###custom_html-10
@@ -4311,7 +4315,6 @@ buonaporno.com##.default__interest-block
 economyup.it,techcompany360.it,trovit.it##.dfp
 blastingnews.com##.dfp-mobile-leadeboard
 likesx.com##.dgdom
-quotidiano.net##.discount-block
 cuneodice.it,genovadice.it,italiadice.it,torinodice.it##.div_banner
 rpiunews.it##.djslider-loader
 ridble.com##.dn
@@ -4385,14 +4388,12 @@ sportytrader.it##.go-to-bonus
 3bmeteo.com##.gpt_top
 studiouniversal.it##.grf-widget
 ludomedia.it##.grigliaPbi
-cittafuture.quotidiano.net##.gs_carousel_swiper
 354353.com##.guanggadsadswqew
 cinqueterre5.com##.gyg-list
 ricetta.it##.h728-up-home
 filmporno.it,filmpornoitaliano.org##.happy-inside-player
 comesifasefaidate.it,fantacalcio.it,lagenziadiviaggi.it,nocerinalive.it##.header-banner
 calciomercato.com##.header-banner__container
-cittafuture.quotidiano.net,luce.lanazione.it##.header-slider
 computersm.com##.header-top
 quotidianolacitta.it##.headerbanner_autoslides
 mammafelice.it##.headerright
@@ -4441,7 +4442,6 @@ blastingnews.com##.leaderboard-article
 italiangourmet.it##.leaderboard-col
 simonandthestars.it##.leaderboard-container
 huffingtonpost.it##.leaderboard-flex-placeholder
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##.leaderboard-or-skin-container
 lafune.eu##.left-banner-block
 fotografareindigitale.com##.lepopup-element
 fotografareindigitale.com##.lepopup-popup-overlay
@@ -4464,7 +4464,6 @@ hceppan.it##.mainSponsor
 irpinianews.it##.master-slider-parent
 ecoo.it##.masterhead-container-column
 eurochampions.it,genoanews1893.it,lalaziosiamonoi.it,perugia24.net,pianetabasket.com,tuttofrosinone.com,tuttonocerina.com,tuttoturris.com,tuttoveneziasport.it##.masthead
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##.masthead-container
 screenweek.it##.matches-container
 automoto.it##.mawrap
 moto.it##.mawrap.aside-grow
@@ -4799,7 +4798,6 @@ videos.mrpornogratis.it##.vjs-producer
 austria-facile.com,giappone.cc,irlanda.cc,statiuniti.cc,svezia.cc,ungheria.tv##.voli
 ilsoftware.it##.w_banner
 lavorincasa.it##.wallpaper-1
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##.watermark-adv
 onlinesiracusa.it##.wds_slider_cont
 secerchicasa.it##.weblink_items.grid
 spettegolando.it##.wf-widget-container
@@ -4934,9 +4932,7 @@ autoscout24.it##div[class^="AdContentBanner"]
 homegate.ch##div[class^="AdSlotContainer_"]
 autoscout24.it##div[class^="AdTop"]
 corrieredellosport.it,tuttosport.com##div[class^="AdUnit_"]
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[class^="Ad_"]
 ciociariaoggi.it,latinaoggi.eu##div[class^="a-p1-banner-"]
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[class^="ads_"]
 ideericette.it##div[class^="astra-advanced-hook-"]
 ftaonline.com##div[class^="banner-"]
 punto-informatico.it##div[class^="blz_btn_"]
@@ -4956,7 +4952,6 @@ lavorincasa.it##div[class^="wpb-bacheca-aziende"]
 lavorincasa.it##div[class^="wrapper-banner-"]
 tiscali.it##div[data-fkey]
 rockol.it##div[data-track]
-quotidiano.net##div[data-wt-name="widget-prodotti-migliori"]
 ebay.it##div[id^="ad_html_"]
 bellacanzone.it##div[id^="adv"]
 aleteia.org##div[id^="article-desk-after-header-ad_"]
@@ -5156,15 +5151,10 @@ esportsweb.it,tuttocagliari.net##div[style="width:970px; height: auto; min-heigh
 adessoin.tv##div[style="width:970px; height:250px; margin:20px auto; float:left;"]
 milannews.it,politicanews.it##div[style="width:970px; min-height: 250px;"]
 lavorareallestero.it##div[style^="height:280px; width:357px;"]
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[style^="min-height: 250px;"]
 mbnews.it,oroscopoastra.com##div[style^="width: 300px; height: 250px;"]
 gelocal.it##div[style^="width: 300px;height: 80px;border:"]
 ilfogliodellarte.it##div[style^="width:250px; height:250px;"]
 tvserial.it##div[style^="width:300px;height:100px;"]
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[width="300"]
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[width="320"]
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[width="728"]
-ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[width="990"]
 zibaldoneweb.it##iframe[style="width: 120px; height: 240px;"]
 floinviaggio.com##iframe[style="width:300px; height:250px; border: none"]
 terzobinario.it##img[alt*="banner"]
@@ -5182,7 +5172,7 @@ primaradio.net##img[width="225"][height="225"]
 onemag.it,sulpanaro.net,turismovacanza.net##img[width="250"][height="250"]
 24live.it,abruzzoweb.it,alimentando.info,calciofoggia.it,formula1news.it,gamersarsenal.it,gazzettadelmediterraneo.it,ierioggidomani.it,lafune.eu,larampa.it,link24.it,nextstopreggio.it,nocerinalive.it,ondanews.it,radiompa.com,sicilianews24.it##img[width="300"]
 ilmiocaneleggenda.it,ilmiogattoeleggenda.it,vocedimantova.it##img[width="300"][height="100"]
-conoscimilano.it,cybersecitalia.it,ecoseven.net,eurofestivalnews.com,fxfacile.it,grandenapoli.it,ilgiorno.it,ilpisasiamonoi.it,ilrestodelcarlino.it,lagoleada.it,lanazione.it,latelanera.com,legavolley.it,londraweb.com,metallirari.com,nintendon.it,notizie-venezia.com,quotidiano.net,quotidianonapoli.it,radiocastelluccio.com,radiogammastereo.it,ragionierieprevidenza.it,senzabarcode.it,siciliareport.it,sportavellino.it,sportface.it,tennismarche.net,terrazzofacile.it,turismovacanza.net,veronaoggi.it##img[width="300"][height="250"]
+conoscimilano.it,cybersecitalia.it,ecoseven.net,eurofestivalnews.com,fxfacile.it,grandenapoli.it,ilpisasiamonoi.itlagoleada.it,latelanera.com,legavolley.it,londraweb.com,metallirari.com,nintendon.it,notizie-venezia.com,quotidianonapoli.it,radiocastelluccio.com,radiogammastereo.it,ragionierieprevidenza.it,senzabarcode.it,siciliareport.it,sportavellino.it,sportface.it,tennismarche.net,terrazzofacile.it,turismovacanza.net,veronaoggi.it##img[width="300"][height="250"]
 foggiatv.tv,ilgazzettinometropolitano.it,ofcs.it##img[width="300"][height="300"]
 uspontedera.it##img[width="300"][height="60"]
 gestoricarburanti.it,tradingmania.it##img[width="300"][height="600"]
