@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bgdQwJcwaSKwoUY70BMang
-! Version: 202312141402
+! Checksum: IgDjIk/s//plku8Nd5FNgw
+! Version: 202312141411
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Dec 2023 14:02 UTC
+! Last modified: 14 Dec 2023 14:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13890,6 +13890,7 @@ mskins.net#?#.container > .row > .col:-abp-has(> .card script)
 fbsearch.ru##.container > .row > .text-center
 imageban.ru#?#.container > .row > div:-abp-has(> [src*="cdn-rtb.sape.ru"])
 dictat.net##.container > .sidebar
+bazr.ru##.container > .wrapper > .row > .grid_4
 solncevo.info##.container > a[href*="utm_campai"] ~ a[href][target="_blank"]
 saratovnews.ru##.container > div > object
 imagenizr.net##.container > div[id^="adblock-"] ~ .row
@@ -15726,7 +15727,6 @@ tele.ru#?#.section-heading:-abp-has(> .h-text:-abp-contains(Новости па�
 bidbaits.ru##.section-marked
 ivanovonews.ru##.section-marketing-block
 gorvesti.ru,xn--b1ats.xn--80asehdb##.section-r-top
-kg-portal.ru#?#.section-related:-abp-has(> a[href="/////"])
 game.segodnya.ua##.section-spr
 sobesednik.ru#?#.section:-abp-has(> .navbar > .flex-center > p:-abp-contains(Новости партнеров))
 aramil.city#?#.sectionColumn:-abp-has(> .subTitle:-abp-contains(/реклама/i))
@@ -16990,6 +16990,7 @@ treebuna.info,vprognoze.ru##[src*="/banners/"]
 168.ru##[src*="/files/banners/"]
 gorvesti.ru,xn--b1ats.xn--80asehdb##[src*="/files/rk/"]
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##[src*="/frontend/assets/advert/"]
+bazr.ru##[src*="/global/banner/"]
 fakty.ua##[src*="/images/banners/"]
 allrefrs.ru##[src*="/imgr/"]
 gecid.com##[src*="/inc/getBanIf."]
@@ -20517,6 +20518,7 @@ lada.kz/uploads/banners/
 ||bashskazki.ru/assets/modules/easyadvertising/
 ||batpic.com/p/
 ||bazonserver.site/bazon/index.xml
+||bazr.ru/videocontent/global/banner/
 ||bb.pln24.ru/
 ||bbcont.ru/avtorealnost.html
 ||bddo.ru/uploads/*_ban_
