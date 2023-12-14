@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: u4b9GnztRzIudcSP9jyxnQ
-! Version: 202312140702
+! Checksum: hFVhZzSfGs9+RnJq2jiHEQ
+! Version: 202312140711
 ! Title: IndianList
-! Last modified: 14 Dec 2023 07:02 UTC
+! Last modified: 14 Dec 2023 07:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3285,7 +3285,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||news4live.com/wp-content/uploads/2023/01/IMG-20230105-WA0005
 ||news4live.com/wp-content/uploads/2023/02/IMG-20230227-WA0008
 ||news4nation.com/Media/parcha/
-||news71online.com/wp-content/uploads/2020/12/ekushnews-ad-293x100-1-1.jpg.webp
+||news71online.com^*/ekushnews-ad-
 ||newsaayog.com/wp-content/uploads/0001-1024x855
 ||newsaayog.com/wp-content/uploads/Ad-News-Aayog-1024x1024
 ||newsaayog.com/wp-content/uploads/WhatsApp-Image-2021-11-04-at-2.52.34-PM-1
@@ -8269,6 +8269,7 @@ aayomail.com#?#.text-center:-abp-has(> a >img[src*="/ads/"])
 abcnews.media#?#.widget_custom_html:-abp-has(> div > div > h3:-abp-contains(Advertisement))
 dainikjharkhand.com,jaunpur24.com,pressmirchi.com##adnblock
 ajkalerkhobor.com#?#div:-abp-has(> ins.adsbygoogle)
+ammanealing.org#?#.wpb_wrapper:-abp-has(> div > .sc_item_title:-abp-contains(Advertisement))
 andhrajyothy.com#?#div:-abp-has(> div[id*="-ad-"])
 angulonline.com#?#.elementor-widget-heading:-abp-has(> div > h2:-abp-contains(Sponsored))
 chakrapath.com##app-ad-control-header
