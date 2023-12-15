@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: IPXrCmBNh3xufiyosTfz+Q
-! Version: 202312150251
+! Checksum: MAv0vX+FtDoVBfl8wR4low
+! Version: 202312150302
 ! Title: ABPVN List
-! Last modified: 15 Dec 2023 02:51 UTC
+! Last modified: 15 Dec 2023 03:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 15 Dec 2023 09:26:04 UTC+7
+! Last modified: 15 Dec 2023 09:57:09 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -168,7 +168,6 @@
 ||kienthuc.net.vn/*.ads
 ||kienviet.net/*banner
 ||kienviet.net^*.gif
-||kimquy.com/image/mekong_home.png$image
 ||laodong.vn/*QuangcaoOnline
 ||laptopvang.com^$subdocument,domain=maclife.io
 ||laptrinhvb.net/uploads/Banner.gif$image
@@ -770,7 +769,6 @@ khomuc9.live##.top-bookies
 khomuc9.live##.tvc-link-ads-full
 kienthuc.net.vn##.sponsor-zone
 kienthucykhoa.edu.vn###widget-12
-kienviet.net##.banner-sidebar
 lacaigi.com##.anhbn-qc
 laptrinhcanban.com##.ezo_ad
 laptrinhcanban.com##.ezoic-ad
@@ -1316,7 +1314,7 @@ znews.vn##.znews-banner
 @@||media1.admicro.vn/cms/$script,domain=tuoitre.vn
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cafenau.com
 @@||pagead2.googlesyndication.com^$domain=azrom.net|khohieu.com
-@@||pagead2.googlesyndication.com^$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.org|sum.vn|truyenaudiocv.org|khuchotot.com|laptrinhx.com|1shortlink.com|sachiepvien.net|thelanb.com|nguyentinhblog.com|cungthi.online|lehait.net|nhacsong.pro|kientruc360.info|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|gocmod.com|tromcap.com|dafontvn.com|gvnvh18.com|sesenblog.com|filess.us|xaydungplus.com|nguonhd.net|anhdep24.com|sub1s.com|nguontv.biz|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|ios.codevn.net|traffic1s.com|audiotruyenfull.com|minhpc.com|vongquaymayman.one|toilaquantri.com|diendancauduong.com|note1s.com|covemarkets.com|taisachonthi.com|mifirm.net|link1s.com|anonyviet.com|motchillw.net|nguonphim.biz|4g.tintuc247.top|linkvip.io|web1s.asia|vanhoatamlinh.com|kiemlua.com|tailieungon.com|khotailieuonthi247.com|tailieuvang.com|phimlongtieng.net|ipacrack.com
+@@||pagead2.googlesyndication.com^$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.org|sum.vn|truyenaudiocv.org|khuchotot.com|laptrinhx.com|1shortlink.com|sachiepvien.net|thelanb.com|nguyentinhblog.com|cungthi.online|lehait.net|nhacsong.pro|kientruc360.info|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|gocmod.com|tromcap.com|dafontvn.com|gvnvh18.com|sesenblog.com|filess.us|xaydungplus.com|nguonhd.net|anhdep24.com|sub1s.com|nguontv.biz|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|ios.codevn.net|traffic1s.com|audiotruyenfull.com|minhpc.com|vongquaymayman.one|toilaquantri.com|diendancauduong.com|note1s.com|covemarkets.com|taisachonthi.com|mifirm.net|link1s.com|anonyviet.com|motchillw.net|nguonphim.biz|4g.tintuc247.top|linkvip.io|web1s.asia|vanhoatamlinh.com|kiemlua.com|tailieungon.com|khotailieuonthi247.com|tailieuvang.com|phimlongtieng.net|ipacrack.com|duan24h.net
 @@||player.sohatv.vn/resource/$script,domain=cafef.vn|gamek.vn|genk.vn|kenh14.vn
 @@||propellerads.com/wp-content/themes/propeller/assets/js/app.min.js$domain=linkneverdie.net
 @@||quangcao.tuoitre.vn/customer/banner/2020/V/Vietlot/mb$subdocument
@@ -1342,6 +1340,7 @@ znews.vn##.znews-banner
 @@||dafontvn.com$generichide
 @@||dantri.com.vn$generichide
 @@||dieutri.vn$generichide
+@@||duan24h.net$generichide
 @@||forum.gocmod.com$generichide
 @@||giavang.net$generichide
 @@||itudong.com$generichide
