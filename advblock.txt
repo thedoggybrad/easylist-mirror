@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JFeXM+KmAREaA9qAEUUUWw
-! Version: 202312151051
+! Checksum: YawwQ2MHnSFxFXVw2ppR2Q
+! Version: 202312151102
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Dec 2023 10:51 UTC
+! Last modified: 15 Dec 2023 11:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17919,6 +17919,7 @@ point.md#?#aside > div[class]:-abp-has(> div > [id*="adsense"])
 audit-it.ru##aside > div[class][style^="margin-bottom"]
 hibiny.ru##aside > div[class^="margintop"]
 finbalance.com.ua##aside > div[style] > a[href^="http"]:not([href*="finbalance.com.ua"])
+shazoo.ru##aside > iframe[src*="://vkplay.live/"] + p[style]
 bitcryptonews.ru##aside > noindex
 jooble.org##aside > section[class^="ad"]
 stankiexpert.ru##aside a[id][href][target="_blank"]
