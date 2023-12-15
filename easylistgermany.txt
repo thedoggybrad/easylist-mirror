@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202312141944
+! Version: 202312151635
 ! Title: EasyList Germany
-! Last modified: 14 Dec 2023 19:44 UTC
+! Last modified: 15 Dec 2023 16:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1715,6 +1715,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||godmode-trader.de/img/partner/
 ||gofeminin.de/home4/skin/*_*/home.css|
 ||goldesel.sx/img/b3f2784f11449ba054835ce14db00d7611.jpg
+||goldpreis.de/ajax/revs.php?
 ||golem.de/_img/200923-syseleven-kubernetes.jpg
 ||golfmagazin.de/content/uploads/*/banner_
 ||googlewatchblog.de/apt.png
@@ -2746,6 +2747,7 @@ pokewiki.de,timeanddate.de###ad1
 pokewiki.de###ad2
 pokewiki.de###ad3
 myboerse.bz,thinkpad-forum.de###ad_global_below_navbar
+goldpreis.de###ad_gsbuch
 kreuzwort-raetsel.net###ad_ic_1
 kreuzwort-raetsel.net###ad_ic_2
 1und1.de,gmx.net,web.de###adc1
@@ -5138,6 +5140,7 @@ gamestar.de#?#.content-item-small:-abp-has(h3:-abp-contains(Anzeige))
 gamestar.de#?#.contentnewsitem-box .box-reload .news-list:-abp-has(span.media-heading:-abp-contains([Anzeige]))
 gamestar.de#?#.contentnewsitem-box .box-reload > div:-abp-has(.news-list span.media-heading:-abp-contains([Anzeige])) + hr
 gesundheit.de#?#.box.img_link:-abp-has(.advertorial_hint)
+gewinn.com#?#.article-latest.article-layout-0 > .row:-abp-has(.advertorial-icon)
 giga.de#?#.alice-teaser-list-item:-abp-has(.alice-teaser-meta-text:-abp-contains(Anzeige))
 gofeminin.de#?#.af-block-native:-abp-contains(Anzeige)
 gofeminin.de#?#.af-block-native:-abp-contains(Sponsored Post)
