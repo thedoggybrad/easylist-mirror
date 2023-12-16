@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tw89AO69WfpFQLJ3hZgQ8A
-! Version: 202312161651
+! Checksum: DgnIAop36voG0NyfRRIqAQ
+! Version: 202312161702
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Dec 2023 16:51 UTC
+! Last modified: 16 Dec 2023 17:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17000,6 +17000,7 @@ kuban24.tv##[src*="/uploads/banners/"]
 bidbaits.ru##[src*="/uploads/commerce/"]
 73online.ru##[src*="://73online.ru/advert/"]
 happymodern.ru##[src*="://pagead2.googlesyndication.com/"]
+hi-fi-forum.net##[src*="_partners/"]
 arminfo.info##[src*="banners/"]
 gorod.cn.ua##[src*="gorod.cn.ua/image/upload/"]
 shans.com.ua##[src*="images/banners"]:not([src="images/banners/lin.gif"])
@@ -19504,6 +19505,7 @@ pogoda.ru##table + table[align="center"][summary] > tbody > tr:first-child > th:
 nowa.cc#?#table > tbody > .alt2:-abp-has(> td:-abp-contains(/реклама/i))
 yakpravylno.com##table > tbody > tr
 electrik.info##table > tbody > tr > td[valign="top"][align="left"][width="200"]
+hi-fi-forum.net##table > tbody > tr > td[width="210"][valign="top"]
 kazus.ru##table > tbody > tr > td[width="728"]
 opensharing.org#?#table.bblock:-abp-has([src*="/wizit/"])
 propogodu.ru##table.weather + noindex
@@ -21158,6 +21160,7 @@ lada.kz/uploads/banners/
 ||herbaldoc.ru/scripts/zamven.js
 ||hhcdn.ru/nposter/
 ||hhcdn.ru^*.banners.
+||hi-fi-forum.net^*_partners/
 ||hi-fi.ru/*branding/
 ||hi-fi.ru/bitrix/images/
 ||hi-fi.ru/js/bidding.js
