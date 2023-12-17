@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZatwiEvpT0CDNqjYoyHFvQ
-! Version: 202312171002
+! Checksum: vghhib3og28QvFyVYlyCng
+! Version: 202312171011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Dec 2023 10:02 UTC
+! Last modified: 17 Dec 2023 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14065,6 +14065,7 @@ mv.org.ua##.divider
 bookre.org##.dl_link ~ [class]:not(div)
 bookre.org##.dl_link ~ div[align="center"]
 comss.ru#?#.dlblock:-abp-has([href*=".drp.su/"])
+appstorrent.ru##.dle_b_ad_block
 a7d.com.ua##.dle_b_big_header
 lrepacks.net##.dle_b_yandex
 dreamprogs.net##.dlogo td[align="center"]
@@ -20422,6 +20423,7 @@ lada.kz/uploads/banners/
 ||appleinsider.ru/wp-content/themes/*/branding$image
 ||apps24.org/images/2019/Android-Games-2019.jpg
 ||apps24.org/images/2019/yandex_browser.jpg
+||appstorrent.ru/uploads/ad/
 ||appstudio.org/banners/
 ||apress-barmen.ru^$domain=pulscen.ru
 ||aqa.ru^*/moemgorod.html$subdocument
