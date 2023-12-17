@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: akkdO8MacdsnaFqPUzS1SA
-! Version: 202312171631
+! Checksum: lM48pt23eOV4rFS4M1iLjQ
+! Version: 202312171641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Dec 2023 16:31 UTC
+! Last modified: 17 Dec 2023 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11320,6 +11320,7 @@ _verified.php?code=*&server=runetki.com
 ||mega-pics-money.ru^
 ||money4leads.biz^
 ||mosblog24.ru^
+||msetup-partners.com^$third-party
 ||msetup.pro^
 ||mytrk.xyz^
 ||mytvblogs.ru^
@@ -17211,6 +17212,7 @@ moirebenok.ua##a[href*="://sgo.one/"]
 programmersforum.ru#?#a[href*="://slurm.club/"] ~ *:-abp-contains(https://)
 sportliga.com##a[href*="://sportliga.com/bookmakers/"] ~ a
 595.ucoz.net##a[href*="://surfearner.me/"]
+rutor-game.info##a[href*="://surl.li/"]
 595.ucoz.net##a[href*="://teaser.bz/"]
 mezha.media##a[href*="://telemart.ua/"]
 itc.ua#?#a[href*="://telemart.ua/"]:-abp-has(> span > strong)
@@ -25115,7 +25117,6 @@ bamper.by,bazar.bike,biblionika.info#@#.adds-wrapper
 kvartirant.by#@#.adinfo
 insignia-mebel.ru#@#.ads-bg
 kvartirant.by#@#.ads-box
-surl.li#@#.ads-card
 roshlam.ru#@#.ads-content
 insignia-mebel.ru#@#.ads-footer
 reklama-sev.com.ua#@#.ads-holder
