@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: bQTabCfDW3vUcYI+Quo5cw
+! Checksum: 6sTTehnwVLwi0FsIOhFXPg
 ! Title: Easylist Cookie List
-! Updated: 2023-12-17 02:45 UTC
+! Updated: 2023-12-17 03:45 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -894,6 +894,7 @@
 /unibo-cookies.min.js
 /unitb-cmp.js
 /usecookies.js
+/usercentrics/cmp.js
 /util/gdpr/geo_v1.js
 /util/gdpr/geo_v3.js
 /vhs-assets-cookie-consent-init.js
@@ -20944,6 +20945,8 @@ roninwear.com,roninwear.de,roninwear.fi,roninwear.fr,roninwear.hu,roninwear.it,r
 aperitif.no,byggmesteren.as,cosmosmagazine.com,estatenyheter.no,forskning.no,forsvaretsforum.no,journalisten.no,khrono.no,m24.no,sciencenordic.com,sciencenorway.no##.adn-message
 !! #cknt
 1med.tv,mediasphera.ru,waldorf-expertenservice.de###cknt
+!! .cookie-consent-container
+cv.ee,cv.lv,cvonline.lt##.cookie-consent-container
 !! .cc-window-wrapper
 brothers-graphics.com,dryrobe.com,dxracer-germany.de,lockcard.de##.cc-window-wrapper
 !! .swal2-container
@@ -21001,7 +21004,7 @@ freshcart.se,ninelife.no,store.pw.live##.FeatureBar_root___INU8
 !! .v-overlay
 abnt.org.br,adressen.schober.de,andyguitar.co.uk,bimedis.ru,ichbindeinauto.de,mp.cz,order.fiveguys.fr,promotionbasis.de,rypsv.scot,trustpid.com##.v-overlay
 !! .cky-consent-container
-abels.co.uk,beebeeboard.com,cetpenedes.cat,eurooptions.co.uk##.cky-consent-container
+abels.co.uk,beebeeboard.com,cetpenedes.cat,cvonline.varbamisteenused.ee,eurooptions.co.uk##.cky-consent-container
 !! Cookie_
 appmetrica.yandex.comm,sook.space##[class^="Cookie_"]
 !! .cookie123-popup
@@ -21310,6 +21313,8 @@ pkprintprof.ru,themodernhouse.com,wildberries.by##.modal--cookie
 marathonphotos.live,witbee.com##div[id*="_modal_outer_"]
 !! #rgpd
 brokerdefense.net,cfmradio.fr,cmm.fr,espace-competition.com,fareneit.fr,fermeturegarage.com,fmauto.fr,freemaths.fr,ic4.fr,restaurantdieppe.fr,sensationlarge.com,sonomix.ch,ville-eu.fr,voyagesdenis.com###rgpd
+!! .vd-message-wrapper
+dirbam.lt,otsintood.ee,visidarbi.lv,zaposlitev.net##.vd-message-wrapper
 !! #axeptio_overlay
 fleursdedragees.com,lacellesaintcloud.fr,metiers-proprete.com###axeptio_overlay
 !! .cookie_holder
@@ -24651,6 +24656,7 @@ ants.vn##.sg-popup-content
 ||cmp.vizus.cz^
 ||consent.t-mobile.cz^
 ||h.seznam.cz/js/cmp2/scmp-int.js$domain=en.mapy.cz
+||me9ddf.moebelix.cz^
 !
 ! ---------- Danish ----------
 !
