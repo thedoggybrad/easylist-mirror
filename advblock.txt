@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c4ZiAnfO0aPnWeR3cNUE8g
-! Version: 202312181222
+! Checksum: /dp5DeFOIwVfSXKeMOFsAA
+! Version: 202312181232
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Dec 2023 12:22 UTC
+! Last modified: 18 Dec 2023 12:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12258,7 +12258,6 @@ vizyt.com###popup_block
 prodengi.kz###popup_prod
 hereinteresting.ru,terev.ru###popupwindow
 invisiblebra.ru,iv-modelist.ru,nakrutiperiscope.ru,nrbiz.ru,pervoevtoroe.ru,starlinemedia.ru,tv-mari.ru###popwindow
-forum.flprog.ru###pos-sidebar
 manutd.ru###positioner > div[style="height:30px;"]
 aptekamos.ru###post-data-adv
 wysiwygwebbuilder.ru###post_ads
@@ -17045,6 +17044,7 @@ btcsec.com##a > img[style*="height:100px;"]
 rin.ru##a > img[width="120"][height$="0"][src^="/images/"]
 ariom.ru##a > img[width="160"][height="120"]
 forzajuve.ru,omskregion.info##a > img[width="240"][height="400"]
+news24.in.ua,novosti24.kyiv.ua##a video
 tort.fm##a#bg
 gorodrabot.ru##a.additional-earnings-banner-snippet:not([href*="gorodrabot.ru/"])
 gameinside.ua##a.banner
@@ -17078,6 +17078,7 @@ rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[class^="ref-
 vc.ru##a[class^="sber-"]
 cybersport.ru##a[class^="vkPlay"]
 agronews.ua,agroreview.com##a[data-bid]
+tulapressa.ru##a[data-href*="//dzen.ru/"]
 bombardir.ru##a[data-href*="://bmbrdr.ru/"]
 ixbt.com##a[data-menuitem="honor"]
 grippua.com.ua##a[data-wpel-link="external"][target][rel*="nofollow"] > img
@@ -18098,6 +18099,7 @@ christianka.bratstvo.org##body > table[width="99%"] + p[align="center"]
 payeer-gift.ru##body div .banner
 om1.ru##body div[class*="-branding"]
 root-nation.com##body.home .tdc-content-wrap div[id^="tdi_"] > .tdc-row-content-vert-center
+forum.flprog.ru##body.section-index .sidebar
 livetvstream.pro,me##body[bgcolor] > #adbtm
 livetvstream.pro,me##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
 livetvstream.pro,me##body[bgcolor] > div[id^="iframe-container"]
@@ -20157,6 +20159,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /wp-content/plugins/custom-blocks/*$domain=alladvices.ru|boleznikrovi.com|diabet-med.com|oprostatit.ru|parazity.com|rodinkam.net|sdelalremont.ru|sustav.info|uroki-pitaniya.ru
 /wp-content/plugins/wbounce/*$domain=glaza.guru
 /wp-content/uploads/*-dpi_news$image,domain=itechua.com|uamotors.com.ua
+/wp-content/uploads/*.mp4|$~third-party,domain=news24.in.ua|novosti24.kyiv.ua
 /wp-content/uploads/*/elitstroj*.$image,domain=vb.by
 /wp-content/uploads/*/kurery*.$image,domain=vb.by
 /wp-content/uploads/*/med.$image,domain=vb.by
@@ -22703,7 +22706,6 @@ lada.kz/uploads/banners/
 ||tt-cup.com/static/clients/$image
 ||tuchkatv.ru/rotator/
 ||tulapressa.ru/get_adv.
-||tulapressa.ru/wp-content/uploads/*.mp4
 ||tulapressa.ru/wp-content/uploads/part-blocks/
 ||tumix.ru/*/banners/
 ||turbo.az/banners/
@@ -23132,6 +23134,7 @@ pikabu.ru#?#.sidebar-block div:-abp-properties(/min-height: 200px|min-height: ca
 pikabu.ru##.sidebar-block_border[style*="transparent"]
 pikabu.ru##.sidebar__inner > .sidebar-block div[style=""]
 pikabu.ru##.sidebar__inner > .sidebar-block:not(.sidebar-block_border)
+pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main > div:first-child + div)
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> .story__main > div:only-child)
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> script:-abp-contains(/[a-z]$|[a-z].{1,3}$|\s$|:$|:.{1,20}$/))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> script:empty)
@@ -24957,7 +24960,6 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 @@||ferr-um.ucoz.ru^$generichide
 @@||festyy.com^$generichide
 @@||ficbook.net^$generichide
-@@||forum.flprog.ru^$generichide
 @@||forum.vorota.de^$generichide
 @@||forums.overclockers.ru^$generichide
 @@||freelansim.ru/users/sign_in|$generichide
