@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E0a/V+Wlze+suqgUdHwvjg
-! Version: 202312191651
+! Checksum: 7rAkKkqEOX4BCfJ8sEUIcg
+! Version: 202312191702
 ! Title: EasyList Polish
-! Last modified: 19 Dec 2023 16:51 UTC
+! Last modified: 19 Dec 2023 17:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1068,6 +1068,7 @@ telepolis.pl##.b_750
 echogorzowa.pl##.ba
 wiocha.pl##.babanner
 aptekagemini.pl,gemini.pl##.background-advertisement
+resetoff.pl##.background-cloud-reseton
 terazprudnik.pl##.backstretch > img.td-backstretch
 tech360.pl##.ban
 koty24.pl##.ban-71
@@ -1936,6 +1937,7 @@ allegro.pl##[data-box-name="Container PPC Offers"]
 allegro.pl##[data-box-name^="Ads"]
 allegro.pl##[data-role="opbox-expandable-advertisement"]
 24gliwice.pl##[href^="https://www.24gliwice.pl/r/"]
+resetoff.pl##[id$="reklamy"]:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(b):not(strong)
 pultusk.news##[id*="metaslider_container_"]
 urania.edu.pl##[id*="reklama"]
 zyciebytomskie.pl##[id^="ad"]
