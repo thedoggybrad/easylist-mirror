@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 5HUI4I1pVuH+CRXsuA9ZLA
-! Version: 202312191441
+! Checksum: dvTDOO2Ot0aTvfg5Xc/lMQ
+! Version: 202312191451
 ! Title: ABP filters
-! Last modified: 19 Dec 2023 14:41 UTC
+! Last modified: 19 Dec 2023 14:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1144,6 +1144,8 @@ delfi.lt#$#hide-if-matches-xpath './/h3[@class]/a[@href]/ancestor::div[contains(
 delfi.lt#$#hide-if-matches-xpath './/a[contains(@href,"youtube.com")]/img[@alt]/ancestor-or-self::div[@class="row"]'
 ||adform.net/banners/scripts/adx.js$domain=delfi.lt,rewrite=abp-resource:blank-js
 delfi.lt##[style*="/samsung"]
+delfi.lt#$#hide-if-matches-xpath './/a[@href][contains(@style,"100%")]/parent::*[@style][1]'; hide-if-matches-xpath './/div[contains(text(),"Užsakomasis")]/parent::div[contains(@class,"U-display")]/ancestor::article[1]';
+delfi.lt#$#simulate-mouse-event 'xpath(.//*[@style]/a[contains(@href,"javascript")])$delay=10'
 ! MISC
 15min.lt#$#hide-if-matches-xpath '//div[@class][@style]/img[string-length(@src) >=180]/ancestor::div[@class][1]'
 ! *** abp-filters-anti-cv:nordic.txt ***
