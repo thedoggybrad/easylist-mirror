@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E3VXtzf5MQTCbejWnbtSVA
-! Version: 202312191621
+! Checksum: 1otkgeASzpgSX0kePz40GQ
+! Version: 202312191631
 ! Title: EasyList Polish
-! Last modified: 19 Dec 2023 16:21 UTC
+! Last modified: 19 Dec 2023 16:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -218,6 +218,7 @@ mandarinodesign.eu,wirtualnyregion.pl#@#.reklama
 ^reklamy_baner^$domain=wirtualnygarwolin.pl
 ^rekrek^$domain=moj-sen.net
 ^rotator^$domain=gorzowianin.com|lubuskie24.pl
+^sam-pro-images^$domain=mojaswidnica.pl
 ^statystyk_box.$domain=bajery.pl
 ^therapy.$domain=tvklodzka.pl
 ^vbanner^$domain=extraswiecie.pl
@@ -496,7 +497,6 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-^sam-pro-images^$domain=mojaswidnica.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -976,7 +976,7 @@ panoramakutna.pl##.adnotacja
 tvn.pl,tvn24.pl##.ado-placeholder
 national-geographic.pl##.adrWrapper
 zwierciadlo.pl##.adrek
-24wspolnota.pl,3dwpraktyce.pl,bialasiedzieje.pl,ddbelchatow.pl,fdb.pl,hurtidetal.pl,kodeksymezoamerykanskie.eu,korso.pl,korso24.pl,lublin24.pl,pieniny24.pl,portalplock.pl,rapduma.pl,synonimiczny.pl,tulodz.pl,wpr24.pl##.ads
+24wspolnota.pl,3dwpraktyce.pl,bialasiedzieje.pl,ddbelchatow.pl,fdb.pl,hurtidetal.pl,klodzko24.eu,kodeksymezoamerykanskie.eu,korso.pl,korso24.pl,lublin24.pl,pieniny24.pl,portalplock.pl,rapduma.pl,synonimiczny.pl,tulodz.pl,wpr24.pl##.ads
 kutno.net.pl##.ads .slides
 wyborcza.biz,wyborcza.pl##.ads--splint
 zeglarski.info##.ads-block-right
@@ -993,6 +993,7 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 livescore.in##.ads__text
 terazgostynin.pl##.ads__top
 24wspolnota.pl,gostynska.pl,jarocinska.pl,krotoszynska.pl,magazynona.pl,rawicz24.pl,zpleszewa.pl,zwielkopolski24.pl##.ads__wrapper
+doba.pl##.ads_row
 pl.hospitalby.com##.adsense
 koty.pl,psy.pl##.adsenseAd
 bp24.pl,cgm.pl,debica24.eu,egarwolin.pl,ekspresjaroslawski.pl,goral.info.pl,historykon.pl,itvpiaseczno.pl,kartuzy.info,kurierpodlaski.pl,lowicz24.eu,mtv24.tv,nowawrzesnia.pl,pogonszczecin.pl,powiatowa.info,tp.com.pl,vegespot.pl,zlotowskie.pl##.adv
@@ -1397,6 +1398,7 @@ tubalecznej.pl##.img-fluid
 6krokow.pl##.img_rkl
 autoline.com.pl##.index-bns
 pl.gearbest.com##.indexBk
+klodzkieinfo.pl##.infoimage_cont
 dziennik.pl##.infor-ad
 katowice24.info##.inner
 franchising.pl##.innerTopBanner
@@ -1748,6 +1750,7 @@ dzisiajwgliwicach.pl,gazetaregionalna.com##.td-a-rec a
 netkonkret.pl##.td-a-rec-id-custom-spot
 24klodzko.pl##.td-a-rec-id-header
 koscianiak.pl##.td-adspot-title
+24klodzko.pl##.td-adspot-title + div
 probasket.pl##.td-all-devices
 jagodnik.pl##.td-all-devices > a[target="_blank"]:not([href*="jagodnik.pl"])
 lwowecki.info##.td-all-devices2
@@ -1885,7 +1888,7 @@ telewizjatvt.pl##[class$="-advads_ad_widget"]
 purepc.pl##[class$="reklama"]
 kurierpodlaski.pl##[class*="ad--"]
 tvpolice.com.pl,zycieolsztyna.pl##[class*="advert-"]
-abcjanikowo24.pl,bialobrzegi24.net,bielskirynek.pl,brodnica365.pl,chelmza365.pl,chocianow.com.pl,ciechocinek.biz,ddtorun.pl,dziendobrypomorze.pl,dziennikhistoryczny.pl,e-chelmno.pl,e-golub.info.pl,e-krajna.pl,e-lubon.pl,e-wabrzezno.info.pl,ejarocin.pl,ekstrasierpc.pl,ekutno.pl,esopot.pl,expresskaszubski.pl,extrawalcz.pl,fakty.nl,faktyct.pl,faktypilskie.pl,gle24.pl,glospowiatusredzkiego.pl,glossokolowa.pl,gniewkowo.eu,gorlice24.pl,gostyn24.pl,grudziadz365.pl,gst24.pl,gwarek.com.pl,gwe24.pl,gwio.pl,hej.mielec.pl,hej.rzeszow.pl,hej.slupsk.pl,ibytow.pl,infomogilno24.pl,infoskierniewice.pl,ipoddebice.pl,isanok.pl,iszczecinek.pl,itvszubin.pl,jastrowie24.pl,jura365.pl,ki24.info,kolniak24.eu,koronowo.net.pl,koscianiak.pl,legio24.pl,leszno24.pl,lowiczanin.info,miastko24.pl,modnymagazyn.pl,mojakruszwica.pl,motomagazyn.com,myglogow.pl,mypolkowice.pl,myszkow365.pl,naszradziejow.pl,nizanskie.info,nowysztum.pl,pakosc24.pl,pleszew24.info,plonskwsieci.pl,police24.pl,portalsremski.pl,prawobrzeze24.pl,pulsciechanowa.pl,pulsgminy.pl,radzyninfo.pl,roztocze.net,rzeczkrotoszynska.pl,slu24.pl,spotradomsko.pl,superchodziez.pl,swiecie24.pl,szemud24.pl,terazgabin.pl,terazlipno.pl,terazstrzelno.pl,tukutno.pl,tusochaczew.pl,tygodnik.pl,uniejow.net.pl,wiescimiedzychodzkie.pl,wpu24.pl,wybudujemy.com.pl,zawiercie365.pl,ziemiagorowska.pl,zlomzy.pl,zyciesiedleckie.pl##[class*="banner--"]
+abcjanikowo24.pl,bialobrzegi24.net,bielskirynek.pl,brodnica365.pl,chelmza365.pl,chocianow.com.pl,ciechocinek.biz,czasbrodnicy.pl,ddtorun.pl,dziendobrypomorze.pl,dziennikhistoryczny.pl,e-chelmno.pl,e-golub.info.pl,e-krajna.pl,e-lubon.pl,e-wabrzezno.info.pl,ejarocin.pl,ekstrasierpc.pl,ekutno.pl,esopot.pl,expresskaszubski.pl,extrawalcz.pl,fakty.nl,faktyct.pl,faktypilskie.pl,gle24.pl,glospowiatusredzkiego.pl,glossokolowa.pl,gniewkowo.eu,gorlice24.pl,gostyn24.pl,grudziadz365.pl,gst24.pl,gwarek.com.pl,gwe24.pl,gwio.pl,hej.mielec.pl,hej.rzeszow.pl,hej.slupsk.pl,ibytow.pl,infomogilno24.pl,infoskierniewice.pl,ipoddebice.pl,isanok.pl,iszczecinek.pl,itvszubin.pl,jastrowie24.pl,jura365.pl,ki24.info,kolniak24.eu,koronowo.net.pl,koscianiak.pl,legio24.pl,leszno24.pl,lowiczanin.info,magazynzuzel.pl,miastko24.pl,modnymagazyn.pl,mojakruszwica.pl,motomagazyn.com,myglogow.pl,mypolkowice.pl,myszkow365.pl,naszradziejow.pl,nizanskie.info,nowysztum.pl,nrypin.pl,pakosc24.pl,pleszew24.info,plonskwsieci.pl,police24.pl,portalsremski.pl,prawobrzeze24.pl,pulsciechanowa.pl,pulsgminy.pl,radzyninfo.pl,roztocze.net,rydzyna24.pl,rzeczkrotoszynska.pl,slu24.pl,spotradomsko.pl,superchodziez.pl,swiecie24.pl,szemud24.pl,terazgabin.pl,terazlipno.pl,terazstrzelno.pl,tukutno.pl,tusochaczew.pl,tygodnik.pl,tyna.info.pl,uniejow.net.pl,wiescimiedzychodzkie.pl,wpu24.pl,wybudujemy.com.pl,zawiercie365.pl,ziemiagorowska.pl,zlomzy.pl,zyciesiedleckie.pl##[class*="banner--"]
 leba24.info##[class*="code-block-"]
 topagrar.pl##[class*="container--break-"]
 polukr.net##[class*="e3lan-"]
@@ -2272,7 +2275,6 @@ jaw.pl##aside.td_block_template_1 img
 przegladwolski.pl##aside.widget_media_image
 rrs24.net##aside[id^="ai_widget-"]
 lubaczow.tv##aside[id^="custom_html-"]
-e-dobrydom.pl##aside[id^="custom_html-"] > div > a > img
 petportal.pl##aside[id^="media_image-"]
 golfpl.com##aside[id^="text-"] a > img
 kryptowaluty.info.pl##aside[id^="text-"] a[target="_blank"] > img
@@ -2502,15 +2504,6 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-magazynzuzel.pl##[class*="banner--"]
-tyna.info.pl##[class*="banner--"]
-nrypin.pl##[class*="banner--"]
-czasbrodnicy.pl##[class*="banner--"]
-rydzyna24.pl##[class*="banner--"]
-doba.pl##.ads_row
-klodzko24.eu##.ads
-24klodzko.pl##.td-adspot-title + div
-klodzkieinfo.pl##.infoimage_cont
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
