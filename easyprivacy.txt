@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202312190151
+! Version: 202312190200
 ! Title: EasyPrivacy
-! Last modified: 19 Dec 2023 01:51 UTC
+! Last modified: 19 Dec 2023 02:00 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -9402,6 +9402,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||azureedge.net/javascripts/Tracking.
 ||azureedge.net/track
 ||azureedge.net^*/fnix.js
+||azurewaf.microsoft.com/event?
 ||azurewebsites.net/api/views?
 ||azurewebsites.net/TrackView/
 ||azurewebsites.net^*/telemetry.js
@@ -13155,6 +13156,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||darkreader.org/elements/backers-
 ||data.allstate.com^
 ||data.guide.photobucket.com^
+||data.torry.io^
 ||data.webullfintech.com/event/
 ||data.younow.com^
 ||datadoghq.com/assets/dd-browser-logs-rum.js
@@ -14006,6 +14008,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tahoe.com/imp
 ||taiwanplus.com/api/video/startVideo
 ||tao.barstoolsports.com^
+||tapeantiads.com/stat/
 ||tapeblocker.com/stat/
 ||tapenoads.com/stat/
 ||tapewithadblock.com/stat/
