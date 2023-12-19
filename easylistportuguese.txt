@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QKyDCJQG2G4I9n+UexA4QA
-! Version: 202312191811
+! Checksum: ugNunL4Ms85/gH2ZJ4O8TQ
+! Version: 202312191821
 ! Title: EasyList Portuguese
-! Last modified: 19 Dec 2023 18:11 UTC
+! Last modified: 19 Dec 2023 18:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1012,6 +1012,7 @@ cbn.globoradio.globo.com##.sticky-container
 diariodistrito.pt,g37.com.br,portaldosreceptores.org##.stream-item
 diariodistrito.pt##.stream-item-widget
 infomoney.com.br##.subject_Branded
+defatoonline.com.br##.swal2-container
 dinheirovivo.pt##.t-am-sponsored
 dn.pt##.t-pubbox-ct-1
 tsf.pt##.t-pubbox-mrec-1
@@ -1060,6 +1061,7 @@ gazetafm.com.br##a[href*="/patrocinado/"]
 tribunaonline.com.br##a[href^="/branded-content/"]
 myfilmestorrent.net##a[href^="/free.php?"]
 pointdosxd.blogspot.com##a[href^="http://mefode.net/"]
+defatoonline.com.br##a[href^="https://casino.sportingbet.com/"]
 guimah.com##a[href^="https://ibest.vote/"]
 sakuraanimes.com##a[href^="https://juba-get.com/"]
 zerozero.pt##a[href^="https://online.placard.pt/"]
@@ -1124,6 +1126,7 @@ carrefour.com.br#?#.vtex-flex-layout-0-x-flexColChild:-abp-contains(Publicidade)
 climatempo.com.br#?#.card.-no-bottom._flex._space-between._align-center:-abp-contains( Cupons de desconto)
 climatempo.com.br#?#.card.-no-bottom._flex._space-between._align-center:-abp-contains( Cupons de desconto) + div > .card-coupons
 correioweb.com.br#?#.post--hardnews.call-uai:-abp-has(a:-abp-contains(CONTEÚDO PATROCINADO))
+defatoonline.com.br#?#.noticias-horizontal:-abp-has(h3:-abp-contains(Patrocinado))
 infomoney.com.br#?#.row.m-0.py-3.border-t:-abp-has(.hl-hat:-abp-contains(Conteúdo))
 jornaldigitalcanela.com.br#?#div:-abp-has(> .jorna-adlabel)
 jornaldigitalcanela.com.br#?#div:-abp-has(> .td-adspot-title)
