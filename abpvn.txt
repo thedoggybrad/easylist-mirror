@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: jc6D4rx5CDiFUoeFctoCvw
-! Version: 202312200721
+! Checksum: bisXCZleLihkhwdy2mOOPg
+! Version: 202312200731
 ! Title: ABPVN List
-! Last modified: 20 Dec 2023 07:21 UTC
+! Last modified: 20 Dec 2023 07:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 20 Dec 2023 14:16:10 UTC+7
+! Last modified: 20 Dec 2023 14:28:25 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -79,6 +79,7 @@
 ||animehay.city^*.gif
 ||animet.net^*.gif
 ||anivn.club^*.gif
+||asecdn.w88media.com/VN/250x250-VN.gif$domain=mythethao.net
 ||asideway.com$csp=script-src 'self' 'unsafe-inline' https: http:
 ||audiotruyenfull.com/wp-content/litespeed/js/50fd459c3e3682fa267485de709d7f83.js
 ||audiotruyenfull.com^*.gif$image
@@ -123,6 +124,7 @@
 ||forum.idichvuseo.com/images/quang-cao
 ||fshare.vn/lib/jwplayer/jwplayer.js
 ||fuhuzz.com/content/rest?t=ads_config$xmlhttprequest
+||fun6668.com/Banner/$domain=mythethao.net
 ||gamedoithuong.org^*.gif$image
 ||gamenoob.net/wp-content/plugins/convertplug/modules/modal/assets/js/modal.min.js
 ||gamenoob.net/wp-content/plugins/simple-banner/simple-banner.js
@@ -187,8 +189,6 @@
 ||nettruyenco.vn/public/assets/images/picart_others.png$image
 ||nettruyenx.com/assets/videos/don_lg.mp4
 ||ngaytho.me^*.gif
-||nghenhinvietnam.vn/*banner$script
-||nghenhinvietnam.vn/data/*.ads
 ||nguontv.biz^*.gif$image
 ||nhaccuatui.com/ajax/ads
 ||nhadatvang.vn/images/$third-party
@@ -863,7 +863,7 @@ mythethao.net##.banner_top
 nettruyenus.com,nhattruyenup.com,nhattruyenmin.com,nhattruyenplus.com##.container div:not(.top)>div.mrb5.mrt5.text-center>a
 nettruyenus.com,nhattruyenup.com,nhattruyenmin.com,nhattruyenplus.com##.mrb5.text-center.container
 nettruyenx.com##.my-banner
-ngaytho.me###accordion
+ngaytho.me###.body_wrapper1
 nhaccuatui.com###IMAPointernctPlayer
 nhaccuatui.com###PL_R01
 nhaccuatui.com###PL_R02
@@ -907,7 +907,7 @@ phimgichill.net,ophimhdvn3.net##mb_catfish_1xbet
 phimgichill.net,ophimhdvn3.net##mobile-catfix
 phimgichill.net,ophimhdvn3.net##preload-11bet
 phimgichill.net,ophimhdvn3.net##sobet-ads-right
-phimgichill.net,ophimhdvn3.net,vietnamplus.vn,kienthuc.net.vn,saostar.vn,huphimtv.com,bongda24h.vn,vieclam123.net,cungthi.online,appvn.com,linkerpt.com,tinnhac.com,antt.vn,film365.in,mphimmoi1.xyz,xemphimvuis.com,xemphimviet1.net,ghienphim8.net,nhadautu.vn,soikeo365.net##.ads
+phimgichill.net,ophimhdvn3.net,vietnamplus.vn,kienthuc.net.vn,saostar.vn,huphimtv.com,bongda24h.vn,vieclam123.net,cungthi.online,appvn.com,linkerpt.com,tinnhac.com,antt.vn,film365.in,mphimmoi1.xyz,xemphimvuis.com,xemphimviet1.net,ghienphim8.net,nhadautu.vn,soikeo365.net,nghenhinvietnam.vn##.ads
 phimhaymoi.com##.popmake
 phimhaytv.info##.fixed
 phimlongtieng.com,phimlongtieng.net###mobile_content_top
