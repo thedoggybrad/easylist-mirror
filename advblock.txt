@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OH9nrCY7vP+uhilOEqyRAA
-! Version: 202312201731
+! Checksum: acZzg7V5khV/MwqLc2spGw
+! Version: 202312201741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Dec 2023 17:31 UTC
+! Last modified: 20 Dec 2023 17:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16144,7 +16144,7 @@ auto62rus.ru#?#.text-center:-abp-contains(/ДВИГАТЕЛЬ ТОРГОВЛИ|�
 gagadget.com#?#.text-center:-abp-has(> [style="min-height: 249px;"])
 gdz4you.com#?#.text-center:-abp-has(script)
 horrorzone.ru##.text_block_widget_video
-az-priroda.ru,bisnesideya.ru,dialogs.org.ua,doctorrouter.ru,dv-gazeta.info,edu-lib.net,farmamir.ru,halyavapliz.ru,kopilohka.ru,lifeinvest.com.ua,marketer.ua,medfactor.com.ua,medicalanswers.com.ua,medicalanswers.site,mods-fs.net,ruskweb.ru,samogonpil.ru,ua-vestnik.com,woman24.kyiv.ua,x-kuzov.ru,yroki-kompa.ru,zhenskiy.kyiv.ua##.textwidget
+az-priroda.ru,bisnesideya.ru,dialogs.org.ua,doctorrouter.ru,dv-gazeta.info,edu-lib.net,farmamir.ru,halyavapliz.ru,kopilohka.ru,lifeinvest.com.ua,marketer.ua,medfactor.com.ua,medicalanswers.com.ua,medicalanswers.site,mods-fs.net,ruskweb.ru,samogonpil.ru,ua-vestnik.com,uapress.kyiv.ua,woman24.kyiv.ua,x-kuzov.ru,yroki-kompa.ru,zhenskiy.kyiv.ua##.textwidget
 news.center4.me##.textwidget > a[href]
 publy.ru,story-house.ru##.textwidget > a[href][target="_blank"]
 rating-avto.ru##.textwidget > a[href^="http://www.masmotors.ru"]
@@ -17045,7 +17045,7 @@ btcsec.com##a > img[style*="height:100px;"]
 rin.ru##a > img[width="120"][height$="0"][src^="/images/"]
 ariom.ru##a > img[width="160"][height="120"]
 forzajuve.ru,omskregion.info##a > img[width="240"][height="400"]
-news24.in.ua,novosti24.kyiv.ua##a video
+news24.in.ua,novosti24.kyiv.ua,uapress.kyiv.ua##a video
 tort.fm##a#bg
 gorodrabot.ru##a.additional-earnings-banner-snippet:not([href*="gorodrabot.ru/"])
 gameinside.ua##a.banner
@@ -19781,6 +19781,7 @@ rafkino.com##div[id^="MarketGid"]
 ||tabloid.pravda.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.jquery.com *.keycaptcha.com *.twitter.com *.io *.net *.org *.ru *.ua
 ||tdsclicks2.ru^$csp=script-src
 ||tribun.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: static.addtoany.com *.googletagmanager.com *.io *.net *.org *.ua
+||uapress.kyiv.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.instagram.com *.tiktok.com *.twitter.com *.dev *.io *.net *.org *.ru *.ua
 ||utarget.ru^$csp=sandbox allow-same-origin;
 ||utarget.ru^$csp=script-src
 ||vazhno.ru^$csp=script-src 'self'
@@ -20157,7 +20158,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /wp-content/plugins/custom-blocks/*$domain=alladvices.ru|boleznikrovi.com|diabet-med.com|oprostatit.ru|parazity.com|rodinkam.net|sdelalremont.ru|sustav.info|uroki-pitaniya.ru
 /wp-content/plugins/wbounce/*$domain=glaza.guru
 /wp-content/uploads/*-dpi_news$image,domain=itechua.com|uamotors.com.ua
-/wp-content/uploads/*.mp4|$~third-party,domain=news24.in.ua|novosti24.kyiv.ua
+/wp-content/uploads/*.mp4|$~third-party,domain=news24.in.ua|novosti24.kyiv.ua|uapress.kyiv.ua
 /wp-content/uploads/*/elitstroj*.$image,domain=vb.by
 /wp-content/uploads/*/kurery*.$image,domain=vb.by
 /wp-content/uploads/*/med.$image,domain=vb.by
