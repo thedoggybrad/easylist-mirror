@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9CSqThnrrSQxK/eIdyRIaw
-! Version: 202312200750
+! Checksum: r57xzdcpTa9hfv4MJaJPsw
+! Version: 202312200803
 ! Title: EasyList Polish
-! Last modified: 20 Dec 2023 07:50 UTC
+! Last modified: 20 Dec 2023 08:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -44,7 +44,7 @@
 ! *** easylistpolish:easylistpolish/easylistpolish_whitelist_general_hide.txt ***
 mbank.pl#@#.adv-container
 app.freshmail.com#@#.advertisement-content
-mandarinodesign.eu,wirtualnyregion.pl#@#.reklama
+mandarinodesign.eu#@#.reklama
 !---------------------------Third-party advertisers---------------------------!
 ! *** easylistpolish:easylistpolish/easylistpolish_adservers.txt ***
 ||ad-work.pl^$third-party
@@ -1661,7 +1661,6 @@ mojanorwegia.pl##.row.single > a[target="_blank"]
 liderbudowlany.pl##.rozwijany
 wirtualnygarwolin.pl##.rstboxes
 epiotrkow.pl##.rtop
-studentnews.pl##.s_dodatkowa font[size="5"]
 zyciemyszkowa.pl##.sad
 erawa.pl,lwowecki.info,zebrra.tv##.sam-container
 nizanskie.info,sompolno24.pl,tarnowska.pl,wkikole.pl##.santa-main-wrapper
@@ -2512,6 +2511,12 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+naszpruszcz.pl##[class*="banner--"]
+magazynregionalny.pl##[class*="banner--"]
+bilgoraj.com.pl##[class*="banner--"]
+pulstygodnia.pl##[class*="banner--"]
+wdrawskupomorskim.pl##[class*="banner--"]
+tygodnikketrzynski.pl##[class*="banner--"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
