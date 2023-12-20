@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: s04Hi73TtOim2Kx3fgN/Ig
-! Version: 202312201231
+! Checksum: onCrU1D/DI6WxHVKlLU/aA
+! Version: 202312201241
 ! Title: EasyList China
-! Last modified: 20 Dec 2023 12:31 UTC
+! Last modified: 20 Dec 2023 12:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -16097,7 +16097,7 @@ mongoing.com#?#.widget_custom_html:-abp-has(> .custom-html-widget > a[href^="htt
 mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
 mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
-mydrivers.com#?#li:-abp-has(>.titl+.t:-abp-contains(广告))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广告))
 nicotv.biz,nicotv.club,nicotv.me##nav + .ff-bg > .slide
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
