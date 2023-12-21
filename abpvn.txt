@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: YWcTKYNUVufYXQysq8swmA
-! Version: 202312210651
+! Checksum: o7iBzgN+cEjWLEN1zQZxPg
+! Version: 202312210702
 ! Title: ABPVN List
-! Last modified: 21 Dec 2023 06:51 UTC
+! Last modified: 21 Dec 2023 07:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 21 Dec 2023 13:48:49 UTC+7
+! Last modified: 21 Dec 2023 13:57:30 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -58,7 +58,7 @@
 /quangcao/*
 /root/ads/*
 /sbbanner.com
-/storage.adpia.vn/$image
+/storage.adpia.vn/$image,script
 /stores/ads_data/*
 /taichinhdoanhnghiep.net.vn/files/qc
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
@@ -161,7 +161,6 @@
 ||images.asianbookie.com^*.gif$image,domain=asianbookie.com
 ||images1.violympic.vn/violympic/images/upload/banner$image,domain=violympic.vn
 ||images2-focus-opensocial.googleusercontent.com^*.gif$image,domain=phimdinhcao.net|phimdinhcao.com|phimlongtieng.net|anivn.club
-||images2.imgbox.com^*.gif$image,domain=ocumoe.com
 ||img.dtruyen.com/login-ads-desktop.gif$domain=dtruyen.com
 ||img.upanh.tv^*.gif$image,domain=phimtuoitho.tv|xemhay24h.com
 ||imgyn.imageshh.com^*.gif$image,domain=mphim14.com|hhchina.tv
@@ -197,7 +196,6 @@
 ||nhipcaudautu.vn/*gafin$script
 ||nhipcaudautu.vn/Media/*.gif
 ||notepad.vn/media/images/like68.jpg
-||onecms.vn/*banner$image
 ||ophimhd.vip/download
 ||ophimhd.vip/upload
 ||ophimmoi.com/storage/files/qc/$image,domain=phimmoizz.org
@@ -1322,6 +1320,7 @@ znews.vn##.znews-banner
 @@||link1s.com$generichide
 @@||misskon.com$generichide
 @@||molympiad.net$generichide
+@@||note1s.com$generichide
 @@||romgoc.net$generichide
 @@||tailieungon.com$generichide
 @@||tailieuvang.com$generichide
