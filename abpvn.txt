@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: o8Tl8tgP4RMuiLzxkXFiVQ
-! Version: 202312210731
+! Checksum: ucV9PjunZlrLEzu0m/fdmw
+! Version: 202312210740
 ! Title: ABPVN List
-! Last modified: 21 Dec 2023 07:31 UTC
+! Last modified: 21 Dec 2023 07:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 21 Dec 2023 14:07:03 UTC+7
+! Last modified: 21 Dec 2023 14:38:01 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -200,7 +200,6 @@
 ||ophimhd.vip/upload
 ||ophimmoi.com/storage/files/qc/$image,domain=phimmoizz.org
 ||p.thoctv.com^*.gif$image
-||phimbocn.com/player-embed/assets/js/tvc.js
 ||phimchat2.com/public/*.mp4$domain=phimchat2.com,rewrite=abp-resource:blank-mp3
 ||phimchat2.com/public/images/banner/$image
 ||phimchat2.com^*.gif
@@ -537,6 +536,7 @@ baomoi.com#?#[id="__next"]>div:-abp-has(#BaoMoi_Masthead)
 baonga.com##.monkey-content-duoicanbiet
 baonga.com##.monkey-section-tinnoibat
 baonga.com##div.monkey-qc
+bestx.stream###video_player + div[id]
 biphim.io###top_oddd
 biphim.io,biphims.co,biphims.cc##.banner-sticky-footer-wrapper
 blog.abit.vn##.button-dangkyngay
@@ -951,8 +951,6 @@ phuongtrinhhoahoc.com##.ads-bottom-margin
 phuongtrinhhoahoc.com##.ads_blocks_advice
 phuongtrinhhoahoc.com##.bs-callout[style="min-height: 400px; margin-top:0px;"]
 phuongtrinhhoahoc.com,tructiepbongda29.com,thanhnien.vn##.top-banner
-player.phimbocn.com##div[style^="position:fixed;inset:0px;z-index:100000;"]
-player.phimbocn.com,bestx.stream###video_player + div[id]
 plvb.xyz##.odds-button
 plvb.xyz##.odds-button2
 protruyen.fun##.close-button
