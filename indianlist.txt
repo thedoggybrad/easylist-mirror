@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FlWSvcgKGBJYfSBzWYT7oQ
-! Version: 202312211602
+! Checksum: FawV5768RrNdIvklPzLBFQ
+! Version: 202312211611
 ! Title: IndianList
-! Last modified: 21 Dec 2023 16:02 UTC
+! Last modified: 21 Dec 2023 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -690,7 +690,7 @@ _advt.jpg|
 /block_$image,domain=ntvtelugu.com
 /blocks/block_$domain=aajtakmedia.net|aankhennews24.com|bhavtarini.com|encounterindia.in|firstbharat.in|firstrajasthan.com|gexpressnews.com|hindustankhabar.com|islamonweb.net|just36news.com|newsexpress24.com|pickthekhoj.in|polkholindia.com|postcardbd.com|purvikranti.com|sansaninews.com|vartanews.com
 /bn/add/*$domain=24updatenews.com
-/can//cde/*$domain=aajbikel.com|aapninews.in|atalsamachar.com|blivenews.com|chandaulisamachar.com|cityandolan.com|cricketkhabara.com|crimecapital.in|dalhousiehulchul.com|devpath.in|doonhorizon.in|fashionnewsera.com|heraldspot.com|hrbreakingnews.com|indiatimesgroup.com|jansandeshonline.com|k9media.live|keralaonlinenews.com|keralavoter.com|livevns.news|loginkerala.com|metrojournalonline.com|mirrortoday.in|news38times.com|newshaat.com|newspoint24.com|newzfast.com|odiagossip.com|rajasthankhabre.com|realitynews.in|rewanewsmedia.com|rochakkhabare.com|saharasamachar.com|samayduniya.com|thechopal.com|thedesiawaaz.com|theexpose.in|thehindutimes.in|theonlinepost.in|toptamilnews.com|ttncinema.com|upuklive.com|utkalpratidin.com|woneminute.com
+/can//cde/*$domain=aajbikel.com|aapninews.in|atalsamachar.com|blivenews.com|chandaulisamachar.com|cityandolan.com|cricketkhabara.com|crimecapital.in|dalhousiehulchul.com|devpath.in|doonhorizon.in|fashionnewsera.com|heraldspot.com|hrbreakingnews.com|indiatimesgroup.com|jansandeshonline.com|k9media.live|keralaonlinenews.com|keralavoter.com|livevns.news|loginkerala.com|metrojournalonline.com|mirrortoday.in|news38times.com|newshaat.com|newspoint24.com|newzfast.com|odiagossip.com|odiascraps.info|rajasthankhabre.com|realitynews.in|rewanewsmedia.com|rochakkhabare.com|saharasamachar.com|samayduniya.com|thechopal.com|thedesiawaaz.com|theexpose.in|thehindutimes.in|theonlinepost.in|toptamilnews.com|ttncinema.com|upuklive.com|utkalpratidin.com|woneminute.com
 /images/ads/*$domain=newsnextbd.com
 /new-banner$domain=khabronsekhabar.com
 /offers/*$image,domain=priyo.com
@@ -4870,6 +4870,7 @@ arerajdarshan.com###FullWidthWidget-Top
 metrojournalonline.com###HP_O_LHS_1 > div:nth-child(2)
 atalsamachar.com###HP_O_LHS_7 > div:nth-child(-n+10)
 samayduniya.com###HP_O_LHS_7 > div:nth-child(-n+2)
+odiascraps.info###HP_O_LHS_7 > div:nth-child(-n+5)
 actionnews.in,adrasaka.com,balotranewstrack.com,ceylonmuslim.com,hamaramahanagar.in,kanaighatnews.com,kathiravan.com,khantinews.blogspot.com,lankamurasu.com,localmarathi.in,marudharabharti.com,rajsamachar.com,sahibganjnews.com,tapnewsindia.com,topbharat.in,unmaikal.com###HTML1
 kasargodvartha.com###HTML1 a[href*="facebook.com/kasargodvartha/"] img
 bhopalsamachar.com,chilahatiweb.com,cnblive.com,ezhomelive.com,hadapsarexpress.com,jaldhakanews.com,media24media.com,sahityarachana.com###HTML10
@@ -8508,6 +8509,7 @@ telugu.boldsky.com,telugu.drivespark.com,telugu.filmibeat.com,telugu.goodreturns
 banglatribune.com##div[id*="BT_Inner_"]
 thereport24.com##div[id*="_300x250"]
 deshvani.in##div[id*="_webads"]
+odiascraps.info##div[id="showAS_O_BEL_0"]
 heraldspot.com##div[id^="AS_O_"] > div:nth-child(-n+10)
 chandaulisamachar.com##div[id^="AS_O_LHS"] > div:nth-child(-n+10)
 aapninews.in,anugrahavision.com,devpath.in,keralaonlinenews.com,keralavoter.com,newshaat.com,samachartoday.co.in,woneminute.com##div[id^="AS_O_LHS_"] > div:nth-child(-n+10)
@@ -8813,6 +8815,8 @@ newstm.in#?#div[id^="AS_O_"] div:-abp-has(> div > a> div h5:-abp-contains(Ad |) 
 newstodaynetwork.com#?#div[id^="AS_O_LHS"] > div:-abp-has(> div > div > a > h4:-abp-contains(Ad: ))
 newstodaynetwork.com#?#div[id^="AS_O_RHS"] > div:-abp-has(> div > div > div > p)
 nobat.com#?#div:-abp-has(> small:-abp-contains(Advertisement))
+odiascraps.info#?#div[id*="_O_"] > div:-abp-has(> div > div > a>div > h4 > span:-abp-contains(Ad:))
+odiascraps.info#?#div[id*="_O_"] > div:-abp-has(> div > div > a>div > p:-abp-contains(Ad:))
 onstimes.com#?#div.row:-abp-has(> .col-md12 > .margin-top > img.attachment-full)
 overlook.co.in#?#section.widget_block:-abp-has(> p > ins)
 horizonhind.com##p[class="fontBold"]
