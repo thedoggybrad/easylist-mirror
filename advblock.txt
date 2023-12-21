@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fFO3TENINFqR+LJm3Gtzzw
-! Version: 202312211041
+! Checksum: 0GN9uUBZUsAUC3E1aSjLGg
+! Version: 202312211051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Dec 2023 10:41 UTC
+! Last modified: 21 Dec 2023 10:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -9476,6 +9476,7 @@ _tizers.
 ||srtzq.com^$third-party
 ||srv1.tlt.ru^$domain=~srv1.tlt.ru
 ||srv43.ru^$third-party
+||srvd2204.com^$third-party
 ||ssd7.ru^$third-party
 ||ssliivuqpm.ru^$third-party
 ||ssso.ru^$third-party
@@ -10418,6 +10419,7 @@ _tizers.
 ||vogozaq.ru^$third-party
 ||vogozara.ru^$third-party
 ||vogozita.com^
+||voidnetwork.cloud^$third-party
 ||voiledu.com^$third-party
 ||voilek.com^$third-party
 ||vokayatus.com^$third-party
@@ -15061,6 +15063,7 @@ zaxid.net##.news-list-col > .news-list
 onliner.by##.news-media__preview > a > img[src$=".png"]
 1plus1.ua##.news-partners-add
 onliner.by##.news-promo
+armyinform.com.ua##.news-section_items > li.link > a[target="_blank"] > img
 onliner.by##.news-text > * > a[href^="https://catalog.onliner.by/"][href*="utm_"]
 onliner.by##.news-text > .news-media a[href^="https://catalog.onliner.by/"]
 onliner.by##.news-tidings__item.js-closable
@@ -20446,6 +20449,7 @@ lada.kz/uploads/banners/
 ||arminfo.info/banners/
 ||armtorg.ru/uploads/shows/$image
 ||army.lv/banners/
+||armyinform.com.ua/wp-content/uploads/*/banner-
 ||aromatmasla.ru/gaamjs/
 ||aromatmasla.ru/scripts/zamven.js
 ||aromatmasla.ru/vk-vs-pl/ya-wsplivayu.js
@@ -26156,6 +26160,7 @@ gsm.in.ua##body > div[style^="background:"][style*="display: block"]
 ritsatv.ru##body > marquee[style*="red"]
 motorpage.ru##body.noscroll::before
 qrz.ru#?#div[class]:-abp-has(> .inner > a[href="/help/adblock/"])
+vkplay.live##div[class^="AdBlockAlert_root"]
 pronetblog.by##div[class^="adsensepost"]
 2baksa.ws##div[class^="ant"][class*="block"]
 hitsovet.ru,mod-wot.ru##div[class^="chp_ads_block"]
