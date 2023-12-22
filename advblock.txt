@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2n89nh6MNTPcf6jlU/8z3A
-! Version: 202312221121
+! Checksum: mu0HCmyHk9KUzNd+yc28kA
+! Version: 202312221131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Dec 2023 11:21 UTC
+! Last modified: 22 Dec 2023 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16793,7 +16793,7 @@ sportsdaily.ru##[class^="timetable__bet"]
 moyskelet.ru,obrazovaka.ru##[class^="tizdiv"]
 interfax.ru,sport-interfax.ru##[class^="toplogo__idea"]
 volynnews.com##[class^="view_back"]
-povarenok.ru,stranamam.ru##[class^="vigvam"]
+asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##[class^="vigvam"]
 guitarplayer.ru##[class^="windowbg"] > noindex
 sports.kz##[class^="xbet"]
 buhonline.ru##[class^=sideBanner]
@@ -20795,6 +20795,7 @@ lada.kz/uploads/banners/
 ||did5.ru/images/banner
 ||diets.guru/js/fixads.js
 ||diets.guru/teaser/
+||diets.ru/i/rb/
 ||digiboo.ru/bnrs/
 ||digiseller.ru^$domain=keysportal.com
 ||dir.dok911.ru/
@@ -23100,6 +23101,9 @@ lada.kz/uploads/banners/
 ! -----------------------------------------------------------------------------
 ! *** advblock/specific_special.txt ***
 ! Правила для отдельных сайтов с разношерстными правилами или групп сайтов
+!
+! Правила для ресурсов, добавленные в связи с рецидивом экзотических решений
+4pda.to#?#html[style] a[target="_blank"]:-abp-has(> img)
 !
 ! Правила для ресурсов, которые их создатели сделали несовместимыми с адблоком
 !#if ext_abp
