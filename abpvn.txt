@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: 8CHTI8w3ZcQig7lJbARDDA
-! Version: 202312220111
+! Checksum: LR2o7oXevsN00EVWVV8Amg
+! Version: 202312220121
 ! Title: ABPVN List
-! Last modified: 22 Dec 2023 01:11 UTC
+! Last modified: 22 Dec 2023 01:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 21 Dec 2023 16:44:13 UTC+7
+! Last modified: 22 Dec 2023 08:17:30 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -99,6 +99,7 @@
 ||boophim.net^*.gif$image
 ||bp.blogspot.com$image,domain=timdaily.vn|xemtivi4k.com
 ||bp.blogspot.com/*banner$image,domain=~aowvn.org|~umu.pink
+||bs_89fa1fc0.tapchibitcoin.care/sdk.js$script,domain=tapchibitcoin.io
 ||cdn.pixfuture.com/adb-media/adb_detect_pixfuture.js$domain=saigonbao.com
 ||cdn.thehinh.com^$image,domain=khoedep.vn
 ||cdn.thichxemphim1.net/wp-content/themes/halimmovies-child/jscm.min.js$domain=thichxemphim1.net
@@ -998,6 +999,9 @@ tamlinh247.com.vn##.ads-gg-top
 tamlinh247.com.vn##.container + .col-xs-12.content_wrap
 tamlinh247.com.vn##.content>.content>.content
 tamlinh247.com.vn##.wrap-single>.pagination.text-center
+tapchibitcoin.io##.header-fix-ads
+tapchibitcoin.io##.lepopup-popup-container
+tapchibitcoin.io##.lepopup-popup-overlay
 tapchikientruc.com.vn##._ning_outer
 tctruyen.com,tctruyen.net##.no-auto-popup
 tctruyen.com,tctruyen.net##.qc-adskeeper
