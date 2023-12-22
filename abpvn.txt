@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: FenEPnJ5N9+NPH6/KvhorA
-! Version: 202312220931
+! Checksum: IA2YMD1fSJ9o9Odq/DK7eA
+! Version: 202312220941
 ! Title: ABPVN List
-! Last modified: 22 Dec 2023 09:31 UTC
+! Last modified: 22 Dec 2023 09:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 22 Dec 2023 16:29:53 UTC+7
+! Last modified: 22 Dec 2023 16:39:01 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -203,7 +203,6 @@
 ||p.thoctv.com^*.gif$image
 ||phimcuon.com^*.gif$image
 ||phimhay.in^*.gif
-||phimhaymoi.com^*.gif$image
 ||phimhaythuyetminh.live$csp=script-src 'self' 'unsafe-inline'
 ||phimhaytv.info/images$media,domain=phimhaytv.info,rewrite=abp-resource:blank-mp3
 ||phimhaytv.info^*.gif
@@ -374,7 +373,6 @@
 ||xahoingaynay.com.vn/upload/$image
 ||xc.1357668.com^*.gif$domain=7mvn2.com
 ||xehay.vn/public/html5/ads/
-||xemhay24h.com/pop/shopee.js
 ||xemphim365vn.net/public/*.mp4$domain=xemphim365vn.net,rewrite=abp-resource:blank-mp3
 ||xemphim365vn.net/public/banner/$image
 ||xevathethao.vn/wp-content/uploads/banner
@@ -397,6 +395,7 @@
 ||adtima-static.zascdn.me^
 ||adtima.vn^$third-party
 ||adtimaserver.vn^
+||affordedseasick.com^
 ||aj1047.online^
 ||aj1559.online^
 ||aj2393.online^
@@ -895,7 +894,7 @@ phimgichill.net,ophimhdvn3.net###pc-catfix
 phimgichill.net,ophimhdvn3.net##.lightbox-player-pc
 phimgichill.net,ophimhdvn3.net##div[id^="preload-"]
 phimgichill.net,ophimhdvn3.net##mobile-catfix
-phimhaymoi.com##.popmake
+phimhaymoii.com##a[target="_blank"][rel="nofollow noopener"]
 phimhaytv.info,congthucvatly.com##.fixed
 phimlongtieng.com,phimlongtieng.net###mobile_content_top
 phimlongtieng.com,phimlongtieng.net###p-GMH
