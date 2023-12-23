@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pEORvP+TXAek+Vi1Llj1Rw
-! Version: 202312232321
+! Checksum: 86uNeOlVAh97PBDPJoShAg
+! Version: 202312232331
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Dec 2023 23:21 UTC
+! Last modified: 23 Dec 2023 23:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4050,6 +4050,7 @@ _tizers.
 ||ad.vo-media.ru^$third-party
 ||ad1.ru^$third-party
 ||ad1game.ru^$third-party
+||ad2the.net^$third-party
 ||ad4sell.com^$third-party
 ||adb01.pro^$third-party
 ||adbean.ru^$third-party
@@ -6097,6 +6098,7 @@ _tizers.
 ||get-ads.ru^$third-party
 ||get-hit.ru^$third-party
 ||get1xzone.com^$third-party
+||get2.fun^$third-party
 ||getelem.ru^$third-party
 ||getgale.info^$third-party
 ||getinstant.website^$third-party
@@ -23237,7 +23239,7 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 ! ##.b-player a[href*="aHR0c"]
 ! ##.b-seriesupdate__block_list_item[data-url=""]
 ! блокировки
-/point/?method=video_link&xl=$xmlhttprequest
+/point/?method=video_lin*&xl=$xmlhttprequest
 ||static.*ezka.*/i/def_$image
 ||static.*ezka.*/i/promo/
 !||static.*ezka.*/templates/hdrezka/images/slava.
