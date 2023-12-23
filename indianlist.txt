@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5zm14dkVgml5+lfehQxLmw
-! Version: 202312231202
+! Checksum: 5NbtcdEfm7k/dTdHL4cCyA
+! Version: 202312231211
 ! Title: IndianList
-! Last modified: 23 Dec 2023 12:02 UTC
+! Last modified: 23 Dec 2023 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -927,6 +927,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||ajkersonargaon.com/wp-content/uploads/2020/07/60.jpg
 ||ajsamachar.com/wp-content/uploads/2020/04/0de714a2180b24abd2fc67dbbe2fa912.gif
 ||akhonsamoy.com/wp-content/uploads/2020/05/al-ac-1.jpg
+||akilanews.com/assets/advertise/
 ||aktnews.com/mynewsadmin/img/add/add1603208498.jpeg
 ||al-ihsan.net/assets/img/zakat1.gif
 ||alertchhattisgarh.com/wp-content/uploads/2022/10/1665389184268_copy_671x434.jpg
@@ -4860,7 +4861,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||zoftcdn.com^*/blueocean.jpg
 ||zoftcdn.com^*/citysun.jpg
 ||zoftcdn.com^*/vesta.jpg
-||akilanews.com/assets/advertise/
 !------------------------Specific element hiding rules------------------------!
 ! *** indianlist:IndianList/specific_hide.txt ***
 livebihar24news.com###AD_FLOAT
@@ -6600,7 +6600,6 @@ metrojournalonline.com##.extraList
 enlightnews.com##.extra_ad
 parichaya.com##.exv-image
 channelionline.com##.eyli
-lankasri.com##.f-single
 dakhal.net##.fadInleft_ads
 eisamay.com##.fbnad
 bbc24news.com,bholabani.com,chtmedia24.com##.featad
@@ -6923,6 +6922,7 @@ nationalpowernews.com##.long_ads1
 postpati.com##.long_adv
 bholabani.com##.longad
 newsdoor.net##.lrads
+lankasri.com##.lsb-blurb-sections
 metrojournalonline.com##.m-116
 chopaltv.com##.m-280
 71sangbad.com##.m_none > a[target="_blank"]
@@ -7080,8 +7080,8 @@ nepalraftar.com##.no-bod > a
 narayanionline.com##.no-vigyapan-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
 abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
+bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -7480,7 +7480,7 @@ awajnews.com##.supsystic-slider-wrapper
 notebook.today##.t-out-span
 bangladeshglobal.com##.tab01 > .row
 adhunikdaur.com##.tab_265top_left
-sandesh.com##.taboola
+livehindustan.com,sandesh.com##.taboola
 news18.com##.taboola_setting
 xxx-indian-porn.com##.tac
 kamdhenupost.com##.tagdiv-type .td-fix-index img
@@ -7676,7 +7676,6 @@ pchelpcenterbd.com##.title_below_ads
 krishideepam.in##.tm-adv-header
 janprahar.com##.to-be-async-loaded-ad
 dishadaily.com##.to-be-async-loaded-ad#after_related_post
-lankasri.com##.today-eds-wrap
 news4nation.com##.top iframe
 anweshanam.com##.top-ad-d
 bigkhabar.com##.top-add
@@ -8141,7 +8140,6 @@ sagartvnews.com##a[class^="myadsply"]
 bangladeshonline24.com##a[href*=".ac.bd"]
 divaina.lk##a[href*=".daraz.lk"] img
 mymensinghpratidin.com##a[href*="/ad-2/"]
-lankasri.com##a[href*="/adpage"]
 newsajako.com##a[href*="/newspaper-ads/"] img
 somoynews.tv##a[href*="?ref="]
 bartabangla.com##a[href*="BandhoB"]
@@ -8420,6 +8418,7 @@ prothomalo.com##div[class*="m__ads"]
 navjivanindia.com##div[class*="m__dfp"]
 deshdoot.com##div[class*="m_ad-slot"]
 nainilive.com##div[class*="naini-"]
+akilanews.com##div[class*="pannel-banner"]
 meddlingmedia.com##div[class*="pubadban"]
 sachkitop.com##div[class*="sachk-"]
 angultv.com,todaypati.com##div[class*="sgpb-"]
@@ -8937,5 +8936,4 @@ visionnewsservice.in#?#.sidebar-widget > h2:-abp-contains(Advertisement)
 viznews.in#?#div:-abp-has(> .heading > span:-abp-contains(Advertisement))
 voiceasian.news#?#table[height="100"]:-abp-has(> tbody > tr[bgcolor])
 yuvaharyana.com#?#div[id^="AS_O_LHS"] > div:-abp-has(> div > a>div > h5:-abp-contains(Ad |))
-akilanews.com##div[class*="pannel-banner"]
 !-----------------------Whitelists to fix broken sites------------------------!
