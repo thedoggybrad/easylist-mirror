@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8QUiRvPNxXupclOBeLjDeQ
-! Version: 202312231151
+! Checksum: 5zm14dkVgml5+lfehQxLmw
+! Version: 202312231202
 ! Title: IndianList
-! Last modified: 23 Dec 2023 11:51 UTC
+! Last modified: 23 Dec 2023 12:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4860,6 +4860,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||zoftcdn.com^*/blueocean.jpg
 ||zoftcdn.com^*/citysun.jpg
 ||zoftcdn.com^*/vesta.jpg
+||akilanews.com/assets/advertise/
 !------------------------Specific element hiding rules------------------------!
 ! *** indianlist:IndianList/specific_hide.txt ***
 livebihar24news.com###AD_FLOAT
@@ -6804,7 +6805,7 @@ tarunchhattisgarhkorba.com##.hustle-popup
 blackoutnews.in##.hustle-ui
 mediabharti.net##.icici
 thereport24.com##.idlc
-bengali.indianexpress.com##.ie-network-taboola
+bengali.indianexpress.com,jansatta.com##.ie-network-taboola
 60secondsnow.com##.iframe-ads-block
 ujyaaloonline.com##.iframe-container
 iftamil.com##.iftam-content
@@ -7079,8 +7080,8 @@ nepalraftar.com##.no-bod > a
 narayanionline.com##.no-vigyapan-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -8936,4 +8937,5 @@ visionnewsservice.in#?#.sidebar-widget > h2:-abp-contains(Advertisement)
 viznews.in#?#div:-abp-has(> .heading > span:-abp-contains(Advertisement))
 voiceasian.news#?#table[height="100"]:-abp-has(> tbody > tr[bgcolor])
 yuvaharyana.com#?#div[id^="AS_O_LHS"] > div:-abp-has(> div > a>div > h5:-abp-contains(Ad |))
+akilanews.com##div[class*="pannel-banner"]
 !-----------------------Whitelists to fix broken sites------------------------!
