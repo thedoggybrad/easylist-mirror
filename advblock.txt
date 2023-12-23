@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Qn4iTQww3rzZaRi/Zk8e0A
-! Version: 202312231511
+! Checksum: wD+P7BzFEUvVM3Y7xDPBHQ
+! Version: 202312231520
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Dec 2023 15:11 UTC
+! Last modified: 23 Dec 2023 15:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1533,7 +1533,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##a[onclick*="offergate-amigo"]
 ~reklamka.ru.net##a[onclick*="reklamka.ru.net"]
 ##a[onclick*="trtkp.ru"]
-me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table #links_block ~ table
+me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table table[bgcolor="#dbdbdb"] td[bgcolor="#fafafa"]
 me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][bgcolor]
 ~vk.com,~vk.ru##div[class*="notifier_baloon_"]
 ##div[class*="relap"][class*="-rec-item"]
