@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hLOZ9oLz0zmVFBBt/9+K3A
-! Version: 202312251321
+! Checksum: UckUaYZCHSz4A/n5hAPxyg
+! Version: 202312251331
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Dec 2023 13:21 UTC
+! Last modified: 25 Dec 2023 13:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6690,7 +6690,6 @@ _tizers.
 ||irvizem.ru^$third-party
 ||is1njb3.ru^$third-party
 ||isbnyzpunkx.com^$third-party
-||ishowyoufuture.com^$third-party
 ||isinodo.ru^$third-party
 ||islamclick.ru^
 ||ismcxv.com^$third-party
@@ -11791,6 +11790,7 @@ alldonors.ru###content_r_box
 youtube.com#?##contents > ytd-rich-item-renderer:-abp-has(> #content > ytd-display-ad-renderer)
 ucrazy.ru###crazy-content > div:not([id]):not([class])[style^="background-color:"]
 zzap.ru###ctl00_TopPanel_LangPanel > .top
+liveball.cc,liveball.uno###custom_brand
 oterraria.ru###custom_html-14
 binary-forum.com###da-slider
 pingvinoff.net###daos
@@ -13622,7 +13622,6 @@ etextlib.ru##.book_bl > div[style]:not([id]):not([class])
 litlib.net##.book_ltrs
 drinks.ua##.booking
 ccoins.ru##.bookingaff
-meta.ua##.bookmaker
 bombardir.ru##.bookmaker-container
 egamersworld.com##.bookmaker_panel > .entry > .thumb
 alvin-almazov.ru,meta.ua##.bookmakers
@@ -18458,7 +18457,7 @@ delovoymir.biz##div[class^="bnmd_"]
 finversia.ru##div[class^="bnr-"]
 forum.sibmama.info,forum.sibmama.ru##div[class^="bnrb"]
 pohudet.org##div[class^="bodyclick"]
-xsport.ua##div[class^="bookmaker"]
+meta.ua,xsport.ua##div[class^="bookmaker"]
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai#?#div[class^="boxFormWrapper"]:-abp-has(> div[class^="link"] a[href*="/images/reklama/"])
 kerch.fm##div[class^="bp_"][class*="-block"]
 medicina.ua##div[class^="brand_"]
