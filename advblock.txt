@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZLYMW0KeCeiu/EFTlnuIJA
-! Version: 202312251311
+! Checksum: hLOZ9oLz0zmVFBBt/9+K3A
+! Version: 202312251321
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Dec 2023 13:11 UTC
+! Last modified: 25 Dec 2023 13:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11744,7 +11744,7 @@ doska.fi###container + center
 kirovnet.ru###container > #top
 fapreactor.com,pornreactor.cc###container > :not(#page) a[target^="_"]
 otzyvua.net###container > div.otzyv_box_float[id^="review_"] ~ .otzyv_box_float:not([id^="review_"] )
-oper.ru###container > div[style]
+oper.ru###container > div[style] > a[href][target="_blank"]
 sql-tutorial.ru###container > div[style] > script + style ~ ul
 agilerussia.ru###container > style + ul[class]
 minfin.com.ua###container-deposit
@@ -13622,7 +13622,7 @@ etextlib.ru##.book_bl > div[style]:not([id]):not([class])
 litlib.net##.book_ltrs
 drinks.ua##.booking
 ccoins.ru##.bookingaff
-meta.ua,xsport.ua##.bookmaker
+meta.ua##.bookmaker
 bombardir.ru##.bookmaker-container
 egamersworld.com##.bookmaker_panel > .entry > .thumb
 alvin-almazov.ru,meta.ua##.bookmakers
@@ -16636,6 +16636,7 @@ zx-pk.ru##.yui-sidebar > [id^="widgetlist_column"] > li:nth-child(-n+2)
 moika78.ru,nevasport.ru##.yz
 livesport.ru##.z_picard_card_d
 livecars.ru##.z_wow_aftertxt
+zab.ru,zab.tv##.zab-news > article.zab-news__item ~ div:not(.zab-news__item)
 newsru.co.il##.zahav
 newsru.co.il##.zahav_inner
 gidonline.eu##.zbin
@@ -17221,7 +17222,6 @@ moirebenok.ua##a[href*="://sgo.one/"]
 programmersforum.ru#?#a[href*="://slurm.club/"] ~ *:-abp-contains(https://)
 sportliga.com##a[href*="://sportliga.com/bookmakers/"] ~ a
 595.ucoz.net##a[href*="://surfearner.me/"]
-rutor-game.info##a[href*="://surl.li/"]
 595.ucoz.net##a[href*="://teaser.bz/"]
 mezha.media##a[href*="://telemart.ua/"]
 itc.ua#?#a[href*="://telemart.ua/"]:-abp-has(> span > strong)
@@ -18458,6 +18458,7 @@ delovoymir.biz##div[class^="bnmd_"]
 finversia.ru##div[class^="bnr-"]
 forum.sibmama.info,forum.sibmama.ru##div[class^="bnrb"]
 pohudet.org##div[class^="bodyclick"]
+xsport.ua##div[class^="bookmaker"]
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai#?#div[class^="boxFormWrapper"]:-abp-has(> div[class^="link"] a[href*="/images/reklama/"])
 kerch.fm##div[class^="bp_"][class*="-block"]
 medicina.ua##div[class^="brand_"]
@@ -20097,6 +20098,8 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /jquery.cookie.min.js|$script,domain=buzulukday.ru|cknow.ru|nsday.ru|orenday.ru|perevolockday.ru|saltday.ru|sorochinskday.ru
 /jquerymin*.js|$domain=5.45.79.91|cdnstreamfree.com|cdnstreamlive.com|cdntelesee.com|cdntvnet.com|erotixtv.com|ok-tv.org|only-tv.org|potokcdn.com|tivix.co|tvforfamily.net|tvizorcdn.ru
 /js/*.js?$script,domain=all-sci.net|bib.social|economics.studio|economuch.com|finbook.news|lawbook.online|lawbooks.news|lib.sale|medinfo.live|myzooplanet.ru|pravo.studio|provse.news|psihologia.biz|sci-lib.biz|sci.house|scicenter.online|textbooks.studio|uchebnikfree.com|xn--80aaivjfyj3e.com
+/js/_b.$script,domain=zab.ru|zab.tv
+/js/_y.$script,domain=zab.ru|zab.tv
 /js/al/mrtarg.js$domain=vk.com|vk.ru
 /js/game_$domain=otxataba.net|xatab-repack.com|xatab-repack.org
 /js/init.js$script,~third-party,domain=assistentus.ru|dogovor-urist.ru|erikadmin.ru|fzrf.su|gibdd-gai.ru|gibddru.info|kodeksy.com.ua|moepravo.guru|pasportnyjstol.ru|poliklinika-avto.ru|prestima.ru|pristav-russia.ru|prizivnika.net|prozhivem.com|regoperatory.ru|snn-mn.ru|tbti.ru|vozvrat-tovara.ru|xn--80abefftg5atkeine8j.xn--p1ai|xn--b1aasedeuba5ai.xn--p1ai|zakon-o-tishine.ru|zakonguru.com
@@ -23111,9 +23114,6 @@ lada.kz/uploads/banners/
 ! *** advblock/specific_special.txt ***
 ! Правила для отдельных сайтов с разношерстными правилами или групп сайтов
 !
-! Правила для ресурсов, добавленные в связи с рецидивом экзотических решений
-4pda.to#?#html[style] a[target="_blank"]:-abp-has(> img)
-!
 ! Правила для ресурсов, которые их создатели сделали несовместимыми с адблоком
 !#if ext_abp
 ! запросы
@@ -23185,7 +23185,7 @@ fontanka.ru#?#section div:-abp-properties(content: "Реклама")
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-inferno.games,mediagetguru.ru,torent-igruha.com,torrent-music.ru,torrent-soft.net,torrent-word.ru,torrentigo.net,torrentigruha.org,torrentsoft.net,where-game.ru##:not(this-site-promotes-malware)
+inferno.games,mediagetguru.ru,rutor-game.info,torent-igruha.com,torrent-music.ru,torrent-soft.net,torrent-word.ru,torrentigo.net,torrentigruha.org,torrentsoft.net,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru
