@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2EFMDkV5OwMxWLex7cPa9w
-! Version: 202312251202
+! Checksum: W1oVudrrz5jHllLPt9AQ+g
+! Version: 202312251211
 ! Title: IndianList
-! Last modified: 25 Dec 2023 12:02 UTC
+! Last modified: 25 Dec 2023 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -703,6 +703,7 @@ _advt.jpg|
 ?final*.gif|$domain=narayanionline.com
 @@-advertisement.$domain=newswaves.org
 @@/ad/live-$domain=abnews24bd.com
+@@/content/ads/*$domain=dailykesari.com
 @@favicon.ico|
 @@||abhiyandaily.com/advertisements/abhiyan-viber.gif
 @@||anweshanam.com/static/ad/commons/js/3445/colombia_v11.js
@@ -1696,7 +1697,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||dailykaljoyi.com^*/web-banner-
 ||dailykaratoa.com/embed/
 ||dailykaratoa.com/public/images/inserted/image_
-||dailykesari.com^*/TMV-add-
 ||dailykhoborbarisal24.com/wp-content/uploads/2018/11/buy-website-bangladesh.jpg
 ||dailykhoborbarisal24.com/wp-content/uploads/2020/03/Untitled-2-copy-1$image
 ||dailykhoborbarisal24.com/wp-content/uploads/2020/07/goru-700x426.jpg
@@ -6736,6 +6736,7 @@ manoramaonline.com##.header-sponser-left
 nepalbritain.com##.header-top-details-right
 dailyreportbd.com##.header-top-right
 ausamachar.com##.header-widget-region
+dailykesari.com##.headerHt
 talashbangla.com##.header__add
 corporatesangbad.com,dailysobujbarta.com,htvpunjabi.com,indootimes.com.au,lankasudar.com,newsallbangladesh.com,ravivardelhi.com,shramjeevijournalist.com,tamilstar.com##.header__banner
 barnanmedia.com##.header__top .d-lg-block
@@ -6976,7 +6977,7 @@ punjabvarta.com##.metaslider:not(#metaslider-id-1999)
 shasansandesh.in##.mg-headwidget .code-block
 himachalmedia.co##.mg-headwidget .pull-right
 todayindia.com##.mg-nav-widget-area .pull-right
-rojdin.in##.mh-header-widget-2
+marathisrushti.com,rojdin.in##.mh-header-widget-2
 janjoshnews.in,uniquesamay.com##.mh-sidebar .widget_media_image
 punjabtimesusa.com##.mh-widget-col-1 .widget_media_image
 newsdeskkannada.com##.mid-adv .row
@@ -7080,8 +7081,8 @@ nepalraftar.com##.no-bod > a
 narayanionline.com##.no-vigyapan-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
