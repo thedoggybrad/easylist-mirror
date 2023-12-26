@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: Ict9qfE72xze5g0bC8xJQQ
-! Version: 202312260851
+! Checksum: BMbDXNwDt06Ev4A4A7789w
+! Version: 202312260902
 ! Title: ABPVN List
-! Last modified: 26 Dec 2023 08:51 UTC
+! Last modified: 26 Dec 2023 09:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 26 Dec 2023 15:48:07 UTC+7
+! Last modified: 26 Dec 2023 15:57:54 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -231,11 +231,9 @@
 ||r2.plvb.xyz^*.gif$image,domain=xoilacztv.net
 ||raovat3s.com/clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js
 ||raovatdidong.vn/images/$domain=muabanraovat.com
-||realty.vn/FileManager/Banner/$image
 ||reatimes.vn/*banner$image
 ||reatimes.vn/ads/$image
 ||s.lazada.vn^$popup,domain=boophim.net
-||s.tainhaccho.vn/images/afl
 ||s2.truyentot.com^*.gif$image,domain=hhtq.vip
 ||scrap.ithongtin.com/api/aff$xmlhttprequest
 ||senpay.vn/widget/
@@ -923,7 +921,7 @@ phimno4.xyz##.block.ad
 phimplay24h.com###itro_popup
 phimtuoitho.tv##[href^="https://www.toprevenuegate.com/q7rbxxz1v"]
 phimvietsub.pro##.sticky_bottom
-phimvietsub.pro,tvhayh.org,tvhay2.net##.t_logo
+phimvietsub.pro,tvhayh.org,tvhay2.net,api.anime3s.com##.t_logo
 phimvuihd.org,vietphims.tv,hh3dhay.com,phimtn.com,khoaiphim.com,phimhay.in,hdphim18.net,xemhay24h.com,phimtuoitho.tv,xem8z.com,motchillzz.in##.float-ck-center-lt
 phimyeuthichz.com##.sticky-footer
 phimyeuthichz.com,boophim.net,chillphimmoiz.org##.preload-banner
@@ -941,9 +939,6 @@ qdnd.vn##.box-banner
 qthang.net##.ad-script
 qthang.net##.elementor-widget-container>.widget_custom_html
 quantrimang.com###adrighttop
-realty.vn##.banner-ads-home
-realty.vn##.banner-in
-realty.vn##.warp-banner-vip
 reatimes.vn##div[class^="adv-"]
 romgoc.net,giavang.net,tailieungon.com,tailieuvang.com,cungthi.online##.adsbygoogle
 rung.vn##.ads-970x280
