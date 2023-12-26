@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: /FN9D23T4OaxQdspllumJw
-! Version: 202312260841
+! Checksum: Ict9qfE72xze5g0bC8xJQQ
+! Version: 202312260851
 ! Title: ABPVN List
-! Last modified: 26 Dec 2023 08:41 UTC
+! Last modified: 26 Dec 2023 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 26 Dec 2023 15:40:23 UTC+7
+! Last modified: 26 Dec 2023 15:48:07 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -230,7 +230,7 @@
 ||quoracdn.net^$image,domain=phimbocn.com
 ||r2.plvb.xyz^*.gif$image,domain=xoilacztv.net
 ||raovat3s.com/clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js
-||raovatdidong.vn/images/$third-party
+||raovatdidong.vn/images/$domain=muabanraovat.com
 ||realty.vn/FileManager/Banner/$image
 ||reatimes.vn/*banner$image
 ||reatimes.vn/ads/$image
@@ -580,7 +580,7 @@ congan.com.vn###subiz_wrapper
 congan.com.vn##.ad-embed
 congluan.vn##.box_ads_d
 congthucvatly.com##.mb-4>[style="min-height: 350px;"]
-contuhoc.com##a[rel="noopener noreferrer"]
+contuhoc.com,www5.cbox.ws##a[rel="noopener noreferrer"]
 cryptoviet.com##.widget-wrap.widget_text
 daklak24h.com.vn##.features-r
 dantri.com.vn###bannerMasthead
@@ -929,6 +929,7 @@ phimyeuthichz.com##.sticky-footer
 phimyeuthichz.com,boophim.net,chillphimmoiz.org##.preload-banner
 phunumoi.net.vn,nhipcaudautu.vn##div[id^="ads_"]
 phuongtrinhhoahoc.com##.shadow-card + .mt-2
+pl-rk.livefb.xyz##.danh-sach-phia-duoi
 plvb.xyz##.odds-button
 plvb.xyz##.odds-button2
 protruyen.fun##.close-button
