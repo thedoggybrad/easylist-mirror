@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: m/gAhGWSTMKZUqSqERPfTA
-! Version: 202312270411
+! Checksum: 4qkfQrUA4c9S8xBvwkvcaA
+! Version: 202312270421
 ! Title: ABPVN List
-! Last modified: 27 Dec 2023 04:11 UTC
+! Last modified: 27 Dec 2023 04:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 27 Dec 2023 11:09:12 UTC+7
+! Last modified: 27 Dec 2023 11:12:48 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -252,8 +252,7 @@
 ||st.nhattruyenup.com^*.gif$image,domain=nhattruyenup.com
 ||static.cdnno.com/storage/lazada/$image,domain=metruyencv.net
 ||static.sppdc.xyz/js/jwplayer_v5/vast.js$script,domain=phimdacap.tv
-||static.truyenchu.com.vn/banner/
-||static.ybox.vn^*.gif
+||static.ybox.vn^*.gif$domain=ybox.vn
 ||stc02bc54661548.cloud.anycastapnic.com^*.gif$domain=gavang1.link
 ||stockbiz.vn/AdsBanners/
 ||storage.fshare.vn/images/$third-party,domain=~qthang.net
