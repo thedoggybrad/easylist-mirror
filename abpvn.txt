@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: sCB2L8M78gqmgCdgVx/qXQ
-! Version: 202312270351
+! Checksum: LUkbzfZ8BtCHjEG474ocpg
+! Version: 202312270403
 ! Title: ABPVN List
-! Last modified: 27 Dec 2023 03:51 UTC
+! Last modified: 27 Dec 2023 04:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 27 Dec 2023 10:49:49 UTC+7
+! Last modified: 27 Dec 2023 10:56:04 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -247,11 +247,9 @@
 ||sohuutritue.net.vn/files/qc/
 ||soikeo365.net^*.gif
 ||soikeoz.net^*.gif
-||st.nettruyenus.com^*.gif$image
-||st.nhattruyenplus.com^*.gif$image
-||st.nhattruyenup.com^*.gif$image
-||stablehost.com/images/banner
-||startalk.vn/images/Ru-ban-them-vui-mb.jpg
+||st.nettruyenus.com^*.gif$image,domain=nettruyenus.com
+||st.nhattruyenplus.com^*.gif$image,domain=nhattruyenplus.com
+||st.nhattruyenup.com^*.gif$image,domain=nhattruyenup.com
 ||static-znews.zadn.vn/banner
 ||static.bongda24h.vn/medias/*.gif
 ||static.cdnno.com/storage/lazada/$image
@@ -955,7 +953,6 @@ soikeo365.net##.top-nha-cai
 soikeoz.net,tvhayh.org,protruyen.xyz,phimmoinay.tv,phimtho.net,tutientruyen.xyz,chillhay-net.pro,protruyen.fun###popup_banner_beta
 sport5.vn,afamily.vn##.afw-topbanner
 ssplay.net,zophim.net###_AM_POPUP_FRAME
-startalk.vn##.ads-general-banner
 stockbiz.vn##.LeftFloatBanner
 stockbiz.vn##.RightFloatBanner
 stockbiz.vn##.ads_top_left
