@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HbWb3aCQ3XdlwNAJZ/77Fg
-! Version: 202312272251
+! Checksum: p4obJsC6mGkwkkqD7XdN/Q
+! Version: 202312272302
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Dec 2023 22:51 UTC
+! Last modified: 27 Dec 2023 23:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5686,7 +5686,6 @@ _tizers.
 ||erate.co.il^$third-party
 ||erbwebs.com^$third-party
 ||erileni.ru^$third-party
-||erling.online^$third-party
 ||ernozi.ru^$third-party
 ||ernser.org^$third-party
 ||ero.ru^$third-party,domain=~vpets.ru
@@ -23114,7 +23113,6 @@ lada.kz/uploads/banners/
 !
 ! Rewrite rules
 !#if ext_abp
-||livejournal.com/video/check?recordId=$xmlhttprequest,rewrite=abp-resource:blank-text,domain=livejournal.com
 ||s-cdn.org/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||s-club.tv/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||ts.kg/olol*.mp4$rewrite=abp-resource:blank-mp4,domain=ts.kg
