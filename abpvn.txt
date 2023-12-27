@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: fpoafRrTOKbUxQHa7j+s/A
-! Version: 202312270331
+! Checksum: vcT8w6ocAjPNcVw5fkCqmw
+! Version: 202312270341
 ! Title: ABPVN List
-! Last modified: 27 Dec 2023 03:31 UTC
+! Last modified: 27 Dec 2023 03:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 27 Dec 2023 10:14:03 UTC+7
+! Last modified: 27 Dec 2023 10:39:25 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -237,8 +237,7 @@
 ||reatimes.vn/ads/$image
 ||s.lazada.vn^$popup,domain=boophim.net
 ||s2.truyentot.com^*.gif$image,domain=hhtq.vip
-||scrap.ithongtin.com/api/aff$xmlhttprequest
-||senpay.vn/widget/
+||scrap.ithongtin.com/api/aff$xmlhttprequest,domain=ithongtin.com
 ||sggp.org.vn/*.ads
 ||sggp.org.vn/*banner
 ||sharecode.vn/FilesUpload/su-kien/
@@ -253,7 +252,6 @@
 ||soikeoz.net^*.gif
 ||sosanhnha.com/assets/banner/
 ||sponsor.imacdn.com/aff/
-||st.getsitecontrol.com^$script,domain=sachmoi.net
 ||st.nettruyenus.com^*.gif$image
 ||st.nhattruyenplus.com^*.gif$image
 ||st.nhattruyenup.com^*.gif$image
@@ -944,6 +942,7 @@ quantrimang.com###adrighttop
 reatimes.vn##div[class^="adv-"]
 romgoc.net,giavang.net,tailieungon.com,tailieuvang.com,cungthi.online##.adsbygoogle
 rung.vn##.ads-970x280
+sachmoi.net##.boxzilla-bottom-right-container
 sachmoi.net##[href^="https://gotrackecom.info"]
 saostar.vn###mobi-top
 saostar.vn###pc-top
