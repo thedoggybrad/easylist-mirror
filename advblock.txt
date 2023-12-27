@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IERsfDNJwd+aJP5KSzPJLA
-! Version: 202312271541
+! Checksum: 4V/XqUKtmJxkf4Y28yRm/A
+! Version: 202312271551
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Dec 2023 15:41 UTC
+! Last modified: 27 Dec 2023 15:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2369,6 +2369,7 @@ _tizers.
 ||affiliate.vsemayki.ru^$third-party
 ||afishamedia.net/*banner.$third-party
 ||afishamedia.net/*branding.$third-party
+||aflt.*.ya.ru/widgets/$third-party
 ||aforextrading.com^$third-party
 ||agava.ru/b/
 ||agentbilet.com/sites/$third-party
@@ -16504,6 +16505,7 @@ sdelalremont.ru##.widget_cb_widget
 100pdf.club,alladvices.ru,amorefilms.ru,analitikaua.net,aspekty.net,auto-portal.com.ua,avtotachki.com,borodina-protiv-buzovoj.ru,chas.cv.ua,cheb-live.ru,cryptodzen.com,dacha.help,dietdo.ru,ebanoe.it,electric-220.ru,erokomiksi.org,flytothesky.ru,gametrick.ru,glavradio.info,golos.te.ua,happymodern.ru,kazakh-zerno.net,koskomp.ru,lhealth.info,m-zh.ru,mi100.info,muwhi.ru,netsofta.net,new-s.com.ua,pravda.cn.ua,psiholog4you.ru,root-nation.com,rubrowsers.ru,sdelalremont.ru,sharknews.ru,simptomy-lechenie.net,smartmama.com.ua,ternopillive.com,tipsboard.ru,ua-news.in.ua,ua-report.info,vgolove.net,vizitnlo.ru,volyninfo.com,vseiski.ru,withcars.ru,zelenj.ru##.widget_custom_html
 femmie.ru##.widget_custom_html > .partners__heading ~ .custom-html-widget
 vsepredohraniteli.ru##.widget_custom_html ~ .widget_text
+aeslib.ru##.widget_custom_html.FixedWidget__fixed_widget
 profootball.ua#?#.widget_custom_html:-abp-contains(/^новости партн|^реклама/i)
 125region.ru#?#.widget_custom_html:-abp-has(> .textwidget > #MediaMetricsInject)
 grippua.com.ua#?#.widget_custom_html:-abp-has([data-wpel-link="external"])
@@ -19800,6 +19802,7 @@ rafkino.com##div[id^="MarketGid"]
 ||vazhno.ru^$csp=script-src 'self'
 ||vesti-ua.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.googletagmanager.com *.io *.net *.org *.ru *.ua
 ||vikna.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.jquery.com *.keycaptcha.com *.twitter.com *.io *.net *.org *.ru *.ua
+||vkazivka.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.io *.net *.org *.ru *.ua
 ||wallpapershome.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:
 ||www.liveinternet.ru/|$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' i.li.ru
 ||www.ukr.net^$csp=frame-src 'self' *.ukr.net *.sinoptik.ua kinoafisha.ua *.twitter.com *.google.com
@@ -20172,6 +20175,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /wp-admin/admin-ajax.php|$xmlhttprequest,domain=avtozakony.ru|clubwindows.ru|commix.ru|moy-instrument.ru|mr-build.ru|pensioneram.info|prizvanie.su|vise.im
 /wp-content/plugins/*/wpsite_clickable.js$domain=agronews.ua|agroreview.com|growhow.in.ua
 /wp-content/plugins/custom-blocks/*$domain=alladvices.ru|boleznikrovi.com|diabet-med.com|oprostatit.ru|parazity.com|rodinkam.net|sdelalremont.ru|sustav.info|uroki-pitaniya.ru
+/wp-content/plugins/my-popup/$domain=ogorodnik-sadovod.ru
 /wp-content/plugins/wbounce/*$domain=glaza.guru
 /wp-content/uploads/*-dpi_news$image,domain=itechua.com|uamotors.com.ua
 /wp-content/uploads/*.mp4|$~third-party,domain=news24.in.ua|novosti24.kyiv.ua|uapress.kyiv.ua
@@ -24817,7 +24821,6 @@ noworries.news##div[class*="remodal"]
 muzofon.com##div[class*="simplemodal"]
 5sfer.com##div[class^="charlotte-"]
 ufacitynews.ru##div[class^="mfp-"]
-aeslib.ru,vkazivka.com##div[class^="mypopup"]
 simplewine.ru##div[class^="popup"]
 agroter.com.ua,lvnews.org.ua,oblast-te.com.ua,pasy.media,pb-news.info,te.ua,tenews.org.ua,ternopillive.com##div[class^="remodal"]
 asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##div[class^="snow"]
@@ -24853,7 +24856,6 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 /wp-content/*/remodal.$stylesheet,~third-party,domain=pasy.media
 /wp-content/plugins/*jqModal$script,stylesheet,domain=akvus35.ru|lenovo-smart.ru
 /wp-content/plugins/f-seo-social/*
-/wp-content/plugins/my-popup/$domain=aeslib.ru
 /wp-content/plugins/popup$domain=paragraf.net.ua
 /wp-content/plugins/popup-builder/*$domain=grippua.com.ua|kompensacii.ru|lizasenglish.ru
 /wp-content/plugins/smart-facebook-page-like$domain=gazeta-severny.ru|morediva.ru|vseprynosti.ru
