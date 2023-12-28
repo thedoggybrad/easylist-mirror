@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: WAYgERZ0MK+hHf89olz+KA
+! Checksum: e8hvHj92G9JucXUGAInYyQ
 ! Title: Easylist Cookie List
-! Updated: 2023-12-28 12:00 UTC
+! Updated: 2023-12-28 11:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -21705,25 +21705,81 @@ globalblue.com,globalblue.ru##.gbnew-cookie-bar
 ! Include ubO specific
 !#include easylist_cookie_specific_uBO.txt
 !------------------------Specific ABP/uBO rules ------------------------!
-<html>
-	<head>
-		<script>
-			var forwardingUrl = "/page/bouncy.php?&bpae=GbhGdrsmokxzDnNEMK6w%2FRH%2F1zqk2BRlqS0qNqgtFHp%2FCdZnLjVVWIRxnXutQ%2F27rAVSEGsk%2BneBZYwobiF5yE5DaztD3QkZc5oFyMzRou8qW1XLYBRZ9pGF5V7JDbNaooBjQvwya%2BjBP22k%2FAboiLWnPKiI18L562pbpkI4t73J%2Ftb0qbgOHJvAqTqzGtITlxb8%2F5%2Fm0k5jMU0iD3fJN2wyLlYMnYx%2BzkcUistp1AmjrKtQhTV621IZ3XxHMTT4PmBxkqY9f8ZiaCxAWfpzWAlZQuDurYCrKRaolm%2F%2BLciGYpZOJLI1VnRhwSw1HsB9rg4sc2SpU49SG4eHt%2FJdN2qoN%2BbGCmSiix3%2FKFxGOnpZLpTlu8jdbMYKDfqzms6xr69zTOwWt9z5jOGF&redirectType=js";
-			var destinationUrl = "/page/bouncy.php?&bpae=GbhGdrsmokxzDnNEMK6w%2FRH%2F1zqk2BRlqS0qNqgtFHp%2FCdZnLjVVWIRxnXutQ%2F27rAVSEGsk%2BneBZYwobiF5yE5DaztD3QkZc5oFyMzRou8qW1XLYBRZ9pGF5V7JDbNaooBjQvwya%2BjBP22k%2FAboiLWnPKiI18L562pbpkI4t73J%2Ftb0qbgOHJvAqTqzGtITlxb8%2F5%2Fm0k5jMU0iD3fJN2wyLlYMnYx%2BzkcUistp1AmjrKtQhTV621IZ3XxHMTT4PmBxkqY9f8ZiaCxAWfpzWAlZQuDurYCrKRaolm%2F%2BLciGYpZOJLI1VnRhwSw1HsB9rg4sc2SpU49SG4eHt%2FJdN2qoN%2BbGCmSiix3%2FKFxGOnpZLpTlu8jdbMYKDfqzms6xr69zTOwWt9z5jOGF&redirectType=meta";
-			var addDetection = true;
-			if (addDetection) {
-				var inIframe = window.self !== window.top;
-				forwardingUrl += "&inIframe=" + inIframe;
-				var inPopUp = (window.opener !== undefined && window.opener !== null && window.opener !== window);
-				forwardingUrl += "&inPopUp=" + inPopUp;
-			}
-			window.location.replace(forwardingUrl);
-		</script>
-		<noscript>
-			<meta http-equiv="refresh" content="1;url=/page/bouncy.php?&bpae=GbhGdrsmokxzDnNEMK6w%2FRH%2F1zqk2BRlqS0qNqgtFHp%2FCdZnLjVVWIRxnXutQ%2F27rAVSEGsk%2BneBZYwobiF5yE5DaztD3QkZc5oFyMzRou8qW1XLYBRZ9pGF5V7JDbNaooBjQvwya%2BjBP22k%2FAboiLWnPKiI18L562pbpkI4t73J%2Ftb0qbgOHJvAqTqzGtITlxb8%2F5%2Fm0k5jMU0iD3fJN2wyLlYMnYx%2BzkcUistp1AmjrKtQhTV621IZ3XxHMTT4PmBxkqY9f8ZiaCxAWfpzWAlZQuDurYCrKRaolm%2F%2BLciGYpZOJLI1VnRhwSw1HsB9rg4sc2SpU49SG4eHt%2FJdN2qoN%2BbGCmSiix3%2FKFxGOnpZLpTlu8jdbMYKDfqzms6xr69zTOwWt9z5jOGF&redirectType=meta" />
-		</noscript>
-	</head>
-</html>!------------------------Rules for international sites------------------------!
+! ABP-specific fixes
+!#if ext_abp
+minhaconexao.com.br#?#section[id][class]:-abp-has(:scope > div[class] > button[class][onclick^="onClickCookiesBannerWeb"])
+! Scripts
+eduface.ru,edumsko.ru#@#.cookies_popup
+podleze-piekielko.pl#$#abort-on-property-read cookieman
+! ABP Specific Excemptions
+epolisbari.com#@##COOKIEmodal
+garten-reiter.de#@##CookieMessage
+epolisbari.com#@##accept_cookie
+clever-zoeger.de,datakauppa.fi#@##cliSettingsPopup
+homify.ae,homify.ca,homify.cl,homify.co.id,homify.co.kr,homify.co.th,homify.co.uk,homify.co.za,homify.com,homify.com.ar,homify.com.br,homify.com.co,homify.com.eg,homify.com.mx,homify.com.my,homify.com.tr,homify.com.ve,homify.de,homify.es,homify.fr,homify.hk,homify.in,homify.it,homify.jp,homify.nl,homify.pe,homify.pk,homify.pl,homify.pt,homify.ru,homify.sa,homify.sg,homify.tw,homify.ua,homify.vn#@##cookie-banner
+airam.fi,biotechusa.hu,hscollective.org#@##cookie-consent
+analog.com,zorgzaam010.nl#@##cookie-consent-container
+okazik.pl#@##cookie-dialog
+clever-zoeger.de,datakauppa.fi,ddz24.eu,fantasyfootballgeek.co.uk,management30.com#@##cookie-law-info-bar
+dehn.at,dehn.de,dehn.fr,dehn.hu,dehn.it,desitek.dk#@##cookie-layer
+ibercuba.com#@##cookie-policy
+pricewise.nl#@##cookieBar
+mustijamirri.fi#@##cookie_consent
+akaanseutu.fi,alueviesti.fi,kiuruvesilehti.fi,lempaala.ideapark.fi,lvs.fi,olutposti.fi,orivedensanomat.fi,pirkkalainen.fi,pirmediat.fi,radiosun.fi,shl.fi,urjalansanomat.fi,ylojarvenuutiset.fi#@##cookie_disclaimer
+bafin.de#@##cookiebanner
+cdenv.be#@##cookieconsent-banner
+d-power-modellbau.com,modellbau-metz.com,mustijamirri.fi#@##cookieform
+qastack.com.de#@##cookies-accept
+qastack.com.de#@##cookies-consent
+laboratoire-cellmade.fr#@##cookiesInfo
+laboratoire-cellmade.fr#@##cookiesPop
+britishairways.com#@##ensModalWrapper[role]
+britishairways.com#@##ensNotifyBanner
+n26.com#@##gdpr-notice
+pathe.nl#@##js-cookie-popup
+beko.com,thetrainline.com#@##onetrust-banner-sdk
+beko.com,thetrainline.com#@##onetrust-consent-sdk
+repostuj.pl#@##rodo-modal
+lg.com#@#.active.cookie-banner
+hscollective.org#@#.cookie-consent-background
+dovoba.de#@#.cookie-consent-v2
+epolisbari.com#@#.cookie-text
+bynco.com#@#.cookie-wall-container
+mustijamirri.fi#@#.cookie_check
+mustijamirri.fi#@#.cookie_info
+garten-reiter.de#@#.cookiemessage
+auto-doc.be,auto-doc.ch,auto-doc.ie,auto-doc.pt,autodoc.be,autodoc.bg,autodoc.co.no,autodoc.cz,autodoc.dk,autodoc.ee,autodoc.fi,autodoc.gr,autodoc.hu,autodoc.lt,autodoc.lu,autodoc.lv,autodoc.nl,autodoc.pl,autodoc.si,autodoc.sk,autodoc24.ch,autodoc24.ro#@#.cookies-popup
+ibercuba.com#@#.cookies-warning
+bbva.be,bbva.es,bbva.fr,bbva.it,bbva.pt,bbvauk.com#@#.cookies.alert--full
+britishairways.com#@#.ensNotifyBanner
+lg.com#@#.eprivacy-cookie
+diffusioneshop.com#@#.gdpr-consent-tabs
+diffusioneshop.com#@#.gdpr-consent-tabs-v2
+monolithdesign.it#@#.gdprModal--visible
+diffusioneshop.com,monolithdesign.it#@#.gdprModal__placeholder
+pathe.nl#@#.notification--cookie
+thetrainline.com#@#.onetrust-pc-dark-filter
+yourstorebox.com#@#.react-cookie-law-dialog
+wetransfer.com#@#.welcome--cookies
+britishairways.com#@#[aria-label="Consent Banner"]
+ibercuba.com#@#div#__tealiumGDPRecModal
+d-power-modellbau.com,enesco.co.uk,modellbau-metz.com,raildude.com,steinmetz-baldauf.de,wentronic.com,wentronic.pl#@#div#cookie-modal
+defencediscountservice.co.uk,roxy-denmark.dk,roxy-ireland.ie,roxy-store.se,roxy-uk.co.uk,roxy.fi,roxy.fr#@#div#cookie-popup
+nelson.nl#@#div#cookieConsentModal
+britishairways.com,cdenv.be,homify.ae,homify.ca,homify.cl,homify.co.id,homify.co.kr,homify.co.th,homify.co.uk,homify.co.za,homify.com,homify.com.ar,homify.com.br,homify.com.co,homify.com.eg,homify.com.mx,homify.com.my,homify.com.tr,homify.com.ve,homify.de,homify.es,homify.fr,homify.hk,homify.in,homify.it,homify.jp,homify.nl,homify.pe,homify.pk,homify.pl,homify.pt,homify.ru,homify.sa,homify.sg,homify.tw,homify.ua,homify.vn,lg.com#@#div.cookie-banner
+boehringer.net#@#div.cookie-consent
+nelson.nl#@#div.cookie-consent-modal
+metro-tr.com,metro.at,metro.bg,metro.de,metro.fr,metro.hu,metro.rs,metro.sk#@#div.cookie-container
+metro-tr.com,metro.at,metro.bg,metro.de,metro.fr,metro.hu,metro.rs,metro.sk#@#div.cookie-disclaimer
+lg.com#@#div.cookie-eu
+dehn.at,dehn.de,dehn.fr,dehn.hu,dehn.it,desitek.dk#@#div.cookie-layer
+d-power-modellbau.com,modellbau-metz.com,zorgzaam010.nl#@#div.cookie-notice
+zorgzaam010.nl#@#div.cookie-notice-wrapper
+win2day.at#@#div.cookie-notification
+flyuia.com,roxy-denmark.dk,roxy-ireland.ie,roxy-store.se,roxy-uk.co.uk,roxy.fi,roxy.fr#@#div.cookie-popup
+cdenv.be#@#div.cookieconsent
+!#endif
+!------------------------Rules for international sites------------------------!
 !
 ! ---------- German ----------
 !
