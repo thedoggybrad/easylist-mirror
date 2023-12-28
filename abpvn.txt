@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: JJO8OS4ODlfkTRnE9xP8/g
-! Version: 202312280111
+! Checksum: /YwFUv3gbxQPo5wfAe9hIA
+! Version: 202312280121
 ! Title: ABPVN List
-! Last modified: 28 Dec 2023 01:11 UTC
+! Last modified: 28 Dec 2023 01:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 28 Dec 2023 08:08:33 UTC+7
+! Last modified: 28 Dec 2023 08:18:18 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -134,7 +134,6 @@
 ||ghienphim9.net/client_assets/images/
 ||ghienphim9.net/client_assets/js/minijumb.js
 ||ght.kernh41.com^$script,domain=sstruyen.vn
-||gianhangsach.com^*.gif$image
 ||giatot7.com/popunder8.min.js$domain=xemphim.sbs
 ||gocphimk.net^*.gif
 ||googleusercontent.com^$domain=hhtqvietsub.top|phimplay24h.com
@@ -272,6 +271,7 @@
 ||thietkeweb9999.com/data/upload/Banner
 ||thoigian.com.vn/mFiles/N/06/$image
 ||thoigian.com.vn^*.gif
+||thongtintruyen.com^*.gif$image
 ||thuocbietduoc.com.vn/adv/
 ||thuongtruong.com.vn/DATA/IMAGES/
 ||thuthuattienich.com/wp-content/uploads/*banner
@@ -448,7 +448,7 @@
 ##[class^="adHTML"]
 ##[href^="http://www.sbbanner.com/"]
 ##[id^="bn_bottom_fixed_"]
-123nhadatviet.net,123nhadatviet.com,tuoitrenews.vn,tuoitre.vn,bongda365g.com##.banner-top
+123nhadatviet.net,123nhadatviet.com,tuoitrenews.vn,tuoitre.vn##.banner-top
 24h.com.vn###background_bg_link
 24h.com.vn###subRightAbove
 24h.com.vn##.module3
@@ -477,7 +477,7 @@ animevietsub.fan###invideo_wrapper
 animevietsub.fan##.Ads
 animevietsub.fan##.mobile-catfixx
 animevietsub.fan##div[style^="position: fixed; top: 60px"]
-animevietsub.fan,gianhangsach.com##.pc-catfixx
+animevietsub.fan,thongtintruyen.com##.pc-catfixx
 anivn.club###quang-cao
 asianbookie.com##a[href^="/cgi-bin/to.cgi"]
 asideway.com##.popup-container
@@ -509,19 +509,13 @@ bongda21h.co###backgroundPopupp
 bongda21h.co###popupContact
 bongda21h.co###wap_bottombannerr
 bongda21h.co##.grid-match[style]
-bongda365.asia,keoso.club,soikeoz.net,bongdatructuyen28.com##.banners
-bongda365g.com##.aHrefAff
-bongda365g.com##.adsInPlayer
-bongda365g.com##.bet-list
-bongda365g.com##.buttonFabet
-bongda365g.com##.top-bet-list
+bongda365.asia,keoso.club,soikeoz.net##.banners
 bongdainfoz.com##.oddsCompany
 bongdalu6.com##div[id^="AdLayer"]
 bongdalu6.com##div[id^="ad_"]
 bongdaso66.net###right_float
 bongdaso66.net##[id$="float_banner"]
 bongdaso66.net,tvso1.com,blog.abit.vn##[class*="_banner"]
-bongdatructuyen28.com##.menu-mobile.hot-menu
 boophim.net##.head--banner
 boophim.net,chillphimmoiz.org##.expand-static-banner
 boophim.net,chillphimmoiz.org##.static-banner
@@ -624,6 +618,7 @@ gametv.vn##.adv-row
 gamevui.vn##.adx-zone
 gamevui.vn##.underlay
 gavang1.link###btn-skip
+gavang1.link##.css-9n99h9
 gavang1.link##.css-ylxsn9.MuiStack-root
 gavang1.link##.vjs-banner-bar
 gavang1.link##[href="https://8xbet259.com/"]
@@ -632,7 +627,6 @@ ghienphim9.net##.parent.special
 ghienphim9.net,phimmoi.io##.partner-me
 giadinhonline.vn,congluan.vn,nongnghiep.vn##.exp_qc_share
 giadinhonline.vn,ducvietonline.de,vietnamnet.vn,nongnghiep.vn,dubaotiente.com,bongda.com.vn,taichinhdoanhnghiep.net.vn##.adv
-gianhangsach.com##.pc_catfix_adv
 giaoducthoidai.vn###qcRight
 giaoducthoidai.vn##.banner-advertisements
 gocphimk.net##.other-ads-container
@@ -736,7 +730,7 @@ live.rakhoi7.live##.button-in-player-box
 live.rakhoi7.live##.footer-button-sign-in.hide-desk
 live.rakhoi7.live##.hide-desk.wrap-content>.wrap-btn-action
 live.rakhoi7.live##.menu-right-slide
-live.rakhoi7.live,play.vnupload.net,ssplay.net,vebo8.link,mephimtv.net,api.anime3s.com,motchillz.org,xoilac14.org,tvhayh.org,watch.ezyproxy.com,bongda365g.com,p.thoctv.com,hdphim18.net##.jw-logo
+live.rakhoi7.live,play.vnupload.net,ssplay.net,vebo8.link,mephimtv.net,api.anime3s.com,motchillz.org,xoilac14.org,tvhayh.org,watch.ezyproxy.com,p.thoctv.com,hdphim18.net##.jw-logo
 live.rakhoi7.live,tructiep.cakhia54.tv,xem.cakhia17.com,tructiep.caheo18.tv##.btn-betting
 live.rakhoi7.live,tructiep.cakhia54.tv,xem.cakhia17.com,tructiep.caheo18.tv##.datCuocBTN
 live.rakhoi7.live,tructiep.cakhia54.tv,xem.cakhia17.com,tructiep.caheo18.tv##.modelAds
@@ -981,6 +975,7 @@ thitruongtaichinhtiente.vn##.c-banner-item
 thitruongtaichinhtiente.vn,congly.vn##.c-banner
 thoctv.com##.add-logo-ads
 thoidai.com.vn,petrotimes.vn##.__ads_click
+thongtintruyen.com##.pc_catfix_adv
 thuongtruong.com.vn###BannerAdv
 thuthuatjb.com##.stream-item
 thuthuattienich.com###footer-widget-area
