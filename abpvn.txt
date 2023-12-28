@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: plT3146sZYhreKHKe0Zb5Q
-! Version: 202312280841
+! Checksum: Gbh0MTvKHitdErEKr74YtA
+! Version: 202312280851
 ! Title: ABPVN List
-! Last modified: 28 Dec 2023 08:41 UTC
+! Last modified: 28 Dec 2023 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 28 Dec 2023 15:38:19 UTC+7
+! Last modified: 28 Dec 2023 15:49:09 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -266,12 +266,9 @@
 ||tepbac.com/upload/advertiment/
 ||thanhnien.vn^*.ads
 ||thanhtra.com.vn/data/images/*host$image
-||thietkeweb9999.com/data/upload/Banner
 ||thoigian.com.vn/mFiles/N/06/$image
 ||thoigian.com.vn^*.gif
 ||thongtintruyen.com^*.gif$image
-||thuocbietduoc.com.vn/adv/
-||thuongtruong.com.vn/DATA/IMAGES/
 ||thuthuattienich.com/wp-content/uploads/*banner
 ||thuysanvietnam.com.vn^*.gif
 ||tiendientu.org/wp-content/uploads/2021/05/binance$image
@@ -304,7 +301,6 @@
 ||tuyensinhso.vn/images/banners/*.gif$image,~third-party
 ||tvhayb.net^*gif$image
 ||tvhayh.org^*.gif
-||txp-storage.sgp1.cdn.digitaloceanspaces.com^*.gif$domain=thichxemphim1.net
 ||uniad.$third-party
 ||upload.bongda365.asia//banner/
 ||upload.cc^*.gif$image,domain=zuiphim.com
@@ -332,6 +328,8 @@
 ||vsc30.com^*.gif
 ||vuighe2.com/banner$image
 ||wikisach.net/static/js/adx/$script
+||www.thuocbietduoc.com.vn/adv/
+||www.thuocbietduoc.com.vn/aqc/$image
 ||xahoingaynay.com.vn/upload/$image
 ||xc.1357668.com^*.gif$domain=7mvn2.com
 ||xehay.vn/public/html5/ads/
@@ -1127,6 +1125,7 @@ webhoctienganh.com##.button-action-float-banner
 webphim2.com##.adsphim-mobile-popup
 webthethao.vn##.wrapper-adv
 webtretho.com##.wtt-ads
+www.thuocbietduoc.com.vn###neo-right-ads
 xehay.vn###banner1ab
 xehay.vn###banner2ab
 xem.tructiepnba.com##.truct-catfish
