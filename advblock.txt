@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GRpISAHhXWKYClu6O0Q7NQ
-! Version: 202312281402
+! Checksum: /pyG4uHQOrAQCxKdTSZNew
+! Version: 202312281411
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Dec 2023 14:02 UTC
+! Last modified: 28 Dec 2023 14:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13759,7 +13759,6 @@ vsplanet.net##.c-left > .block ~ *
 play.tv3.lt,tv3play.skaties.lv##.c-player__wrapper > #freewheel
 dsnews.ua##.c-r
 tsn.ua#?#.c-section > .l-row > .l-col:-abp-has(> [data-ad-container])
-shuba.life##.c-section-slider--article
 5-tv.ru##.cFadeDark
 tomat-pomidor.com##.cPost + script + center
 sravni.ru##.calculator-branded-button
@@ -17011,6 +17010,7 @@ fakty.ua##[src*="/images/banners/"]
 allrefrs.ru##[src*="/imgr/"]
 gecid.com##[src*="/inc/getBanIf."]
 arenda.az##[src*="/public/banner/"]
+promin.cv.ua##[src*="/uploads/banner"]
 kuban24.tv##[src*="/uploads/banners/"]
 bidbaits.ru##[src*="/uploads/commerce/"]
 73online.ru##[src*="://73online.ru/advert/"]
@@ -17055,7 +17055,7 @@ btcsec.com##a > img[style*="height:100px;"]
 rin.ru##a > img[width="120"][height$="0"][src^="/images/"]
 ariom.ru##a > img[width="160"][height="120"]
 forzajuve.ru,omskregion.info##a > img[width="240"][height="400"]
-news24.in.ua,novosti24.kyiv.ua,uapress.kyiv.ua##a video
+news24.in.ua,novosti24.kyiv.ua,tenews.org.ua,ua-novosti.info,uapress.kyiv.ua##a video
 tort.fm##a#bg
 gorodrabot.ru##a.additional-earnings-banner-snippet:not([href*="gorodrabot.ru/"])
 gameinside.ua##a.banner
@@ -17834,7 +17834,6 @@ lu4ok.ws##a[rel="nofollow"][target="_blank"][href^="http://lu4ok.ws/go/?"]
 mebelminsk.by##a[rel="nofollow"][target="_new"][href^="/ref&url="]
 pcprogs.net##a[rel="nofollow,noindex"]
 culturemeter.od.ua##a[rel="noopener nofollow sponsored"]
-promin.cv.ua##a[rel="sponsored"]
 i2r.ru##a[style*="/banner."]
 nya.sh##a[style*="/imgs/a/"]
 gtorrent.club,gtorrent.ru##a[style*="color:"] > span
@@ -19490,6 +19489,7 @@ eanews.ru#?#section > section:-abp-has(> [class^="styled__AdvLink-sc-"])
 fontanka.ru#?#section article div:has(> div:first-child > [id^="adv_"])
 fontanka.ru#?#section article ~ div div:-abp-has(> div > [id^="adv_"])
 fontanka.ru#?#section article ~ div:-abp-has(> [id^="adv_"])
+shuba.life##section.c-post__full .overflow-hidden
 internet-technologies.ru##section[class*="related"]
 www.fontanka.ru##section[class] > div:not([class]) > div:first-child + div + div > div:first-child
 www.fontanka.ru##section[class] > div:not([class]) > div:first-child > div:first-child + div > noindex + div + div > div:first-child + div + div
@@ -19792,10 +19792,12 @@ rafkino.com##div[id^="MarketGid"]
 ||smartmama.com.ua^$csp=media-src 'none'
 ||smotret.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:
 ||statusklic.info^$csp=sandbox allow-same-origin;
+||sundries.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.io *.net *.org *.ru *.ua
 ||syndication.exosrv.com^$csp=sandbox allow-same-origin;
 ||t1mcapp.com^$csp=script-src
 ||tabloid.pravda.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.jquery.com *.keycaptcha.com *.twitter.com *.io *.net *.org *.ru *.ua
 ||tdsclicks2.ru^$csp=script-src
+||tenews.org.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.googletagmanager.com cse.google.com *.google.com/cse/ *.jquery.com *.sendpulse.com *.sharethis.com *.io *.net *.org *.ru *.ua
 ||tribun.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: static.addtoany.com *.googletagmanager.com *.io *.net *.org *.ua
 ||uapress.kyiv.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.instagram.com *.tiktok.com *.twitter.com *.dev *.io *.net *.org *.ru *.ua
 ||utarget.ru^$csp=sandbox allow-same-origin;
@@ -20179,7 +20181,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /wp-content/plugins/my-popup/$domain=ogorodnik-sadovod.ru
 /wp-content/plugins/wbounce/*$domain=glaza.guru
 /wp-content/uploads/*-dpi_news$image,domain=itechua.com|uamotors.com.ua
-/wp-content/uploads/*.mp4|$~third-party,domain=news24.in.ua|novosti24.kyiv.ua|uapress.kyiv.ua
+/wp-content/uploads/*.mp4|$~third-party,domain=news24.in.ua|novosti24.kyiv.ua|ua-novosti.info|uapress.kyiv.ua
 /wp-content/uploads/*/elitstroj*.$image,domain=vb.by
 /wp-content/uploads/*/kurery*.$image,domain=vb.by
 /wp-content/uploads/*/med.$image,domain=vb.by
@@ -22138,6 +22140,7 @@ lada.kz/uploads/banners/
 ||projectbase.ru^$script
 ||prologic.su/b/
 ||prom.x-lime.net^
+||promin.cv.ua/uploads/banner
 ||promo.boomtime.lv/
 ||promo.livelib.ru/
 ||promodeejay.net/branding/
@@ -22397,6 +22400,7 @@ lada.kz/uploads/banners/
 ||sexgamesbox.com/images/
 ||sexoporno.su^*/sam-pro-
 ||sfera.fm/assets/media/bannery/
+||sfstatic.net/build/js/chunk~propclick-js-main-js
 ||shaiba.kz//images/bg/
 ||shaiba.kz/images/bg/
 ||shaiba.kz/images/imprt_imgs/
