@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hCrKoK467YWKr0HxaQ370w
-! Version: 202312281031
+! Checksum: RRoOPcSCRXdfv29aIiowdA
+! Version: 202312281041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Dec 2023 10:31 UTC
+! Last modified: 28 Dec 2023 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18067,6 +18067,8 @@ thailandproperty.tv##body > div[style*="1240px"]
 forum.raskraska.com##body > div[style*="2000"]
 raes.tech,sbfull.com,wigistream.to##body > div[style*="2147483647"]
 nagon.net##body > div[style*="cursor: pointer;"]
+povarenok.ru##body > div[style*="fixed"]
+povarenok.ru##body > div[style*="fixed"] + div
 pay-day.ru##body > div[style*="fixed"]:not([id]):not([class])
 ykt.ru##body > div[style*="height:"][style*="180px"]
 delfi.lt##body > div[style*="height:"][style*="z-index:"]
@@ -22088,6 +22090,7 @@ lada.kz/uploads/banners/
 ||poufe.ru/promo/
 ||poultryukraine.com/data/image/banners/
 ||povarenok.ru/*bakers$image
+||povarenok.ru/css/*/media.$stylesheet
 ||povarenok.ru/css/*/sp$stylesheet
 ||povarenok.ru/css/*1.css$stylesheet
 ||povarenok.ru/css/*project$stylesheet
@@ -24337,7 +24340,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.stat_pixel_yes[onclick][class*="_layou
 yandex.by,yandex.kz,yandex.ru,yandex.uz##a[href*="//ads.adfox.ru/"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
-dzen.ru##div[class*="_widet-"] > div > div:not([class*="geoblock"]):not([class*="widget"])
+dzen.ru##div[class*="_widget-"] > div > div:not([class*="geoblock"]):not([class*="widget"])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 ||awaps.yandex.
 ||bs-meta.yandex.$script,xmlhttprequest
