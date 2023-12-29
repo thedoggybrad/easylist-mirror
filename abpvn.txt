@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: 2oUpcu1C0PI/3M6jFNd4jg
-! Version: 202312290111
+! Checksum: EcRp4Ocsg9qqA/a2faKk9A
+! Version: 202312290121
 ! Title: ABPVN List
-! Last modified: 29 Dec 2023 01:11 UTC
+! Last modified: 29 Dec 2023 01:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 28 Dec 2023 16:27:48 UTC+7
+! Last modified: 29 Dec 2023 08:13:00 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -245,9 +245,9 @@
 ||sohuutritue.net.vn/files/qc/
 ||soikeo365.net^*.gif
 ||soikeoz.net^*.gif
-||st.nettruyenus.com^*.gif$image,domain=nettruyenus.com
 ||st.nhattruyenplus.com^*.gif$image,domain=nhattruyenplus.com
 ||st.nhattruyenup.com^*.gif$image,domain=nhattruyenup.com
+||st.www.nettruyenbing.com^*.gif$image,domain=www.nettruyenbing.com
 ||static.cdnno.com/storage/lazada/$image,domain=metruyencv.net
 ||static.sppdc.xyz/js/jwplayer_v5/vast.js$script,domain=phimdacap.tv
 ||static.ybox.vn^*.gif$domain=ybox.vn
@@ -500,7 +500,7 @@ blogtruyen.vn##.qc-inner
 blogtruyen.vn##div.qc_TC_Chap_Middle
 blogtruyen.vn##div[id^="qc_M_"]
 blogtruyen.vn##div[style*="position: fixed;"]
-boctem.com,fimfast.pro,phimlongtieng.net,phimdinhcao.com,vuaphimmoi.net,motchillz.org,anivn.club,phimhoathinh3d.com,vkooll.net,hoathinhtq.tv,hhhtq.net,xemphimchill.xyz,247phim.cc,hh3d.tv###popup-giua-man-hinh
+boctem.com,fimfast.pro,phimlongtieng.net,phimdinhcao.com,www2.vuaphimmoi1.net,motchillz.org,anivn.club,phimhoathinh3d.com,vkooll.net,hoathinhtq.tv,hhhtq.net,xemphimchill.xyz,247phim.cc,hh3d.tv###popup-giua-man-hinh
 bongda.com.vn##.top_page
 bongda12h365.com##.list-dat-cuoc
 bongda21h.co###backgroundPopupp
@@ -815,8 +815,6 @@ myeva.vn###adop_bfd
 myeva.vn##.adsbypubpower
 myeva.vn##ins[class*="adsby"]
 mythethao.net##.banner_top
-nettruyenus.com,nhattruyenup.com,nhattruyenplus.com##.container div:not(.top)>div.mrb5.mrt5.text-center>a
-nettruyenus.com,nhattruyenup.com,nhattruyenplus.com##.mrb5.text-center.container
 nettruyenx.com##.my-banner
 ngaytho.me##.body_wrapper1
 nhaccuatui.com###IMAPointernctPlayer
@@ -1122,6 +1120,8 @@ webhoctienganh.com##.button-action-float-banner
 webphim2.com##.adsphim-mobile-popup
 webthethao.vn##.wrapper-adv
 webtretho.com##.wtt-ads
+www.nettruyenbing.com,nhattruyenup.com,nhattruyenplus.com##.container div:not(.top)>div.mrb5.mrt5.text-center>a
+www.nettruyenbing.com,nhattruyenup.com,nhattruyenplus.com##.mrb5.text-center.container
 www.thuocbietduoc.com.vn###neo-right-ads
 xehay.vn###banner1ab
 xehay.vn###banner2ab
