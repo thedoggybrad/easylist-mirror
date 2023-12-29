@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WswQ/bkXmF6iZ9NMYVdWIA
-! Version: 202312291731
+! Checksum: RVeVuPu6JUiI8RvS1yFClQ
+! Version: 202312291741
 ! Title: KoreanList
-! Last modified: 29 Dec 2023 17:31 UTC
+! Last modified: 29 Dec 2023 17:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=111
 ! Licence: https://easylist.to/pages/licence.html
@@ -606,6 +606,7 @@ devstory.ibksplatform.com#@#.vertical-ads
 ||7mimg.7m.com.cn^$image,domain=7mkr.com
 ||loader.fmkorea.com^
 ||linklove*.com/data/file^$image
+||ssl.pstatic.net/adimg3.search/adpost/js^$script,domain=m.humoruniv.com
 ! *** koreanlist:KoreanList/koreanlist_specific_block_popup.txt ***
 /slots.php?site=*$popup
 ||foodbank.co.kr/bannerpop/popup$popup
@@ -613,6 +614,10 @@ devstory.ibksplatform.com#@#.vertical-ads
 ! *** koreanlist:KoreanList/koreanlist_specific_hide.txt ***
 tvreport.co.kr##.tvreport-gsm-video-ad
 humoruniv.com##a[href^="https://shopping-m.ggeal.com"]
+m.humoruniv.com###choo_pds_notice_boom_div
+m.humoruniv.com###choo_center_boom_div
+m.humoruniv.com###choo_read_top_boom_div
+m.humoruniv.com##.gbt1#d3
 veritas.kr##.s-bn
 mimint.co.kr##.ad
 kcsnews.co.kr##[class^="rightad"]
