@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 02nNvI7sIgN46zzFgniKHQ
-! Version: 202312301550
+! Checksum: d0VBGJW3hibWNFbv6ONunA
+! Version: 202312301602
 ! Title: EasyList without element hiding rules
-! Last modified: 30 Dec 2023 15:50 UTC
+! Last modified: 30 Dec 2023 16:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -696,6 +696,7 @@
 /clickads/*
 /clicksor.$domain=~clicksor.com
 /cms_ads.js
+/code/https-v2.js?uid=
 /code/native.js?h=$script
 /code/pops.js?h=$script
 /code/silent.js?h=$script
@@ -1620,6 +1621,8 @@
 ://affiliates2.$third-party
 ://banner.$third-party
 ://banners.$third-party
+://news-*/process.js?id=$third-party
+://news-*/v2-sw.js$third-party
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 =half-page-ad&
 ?ab=1&zoneid=
@@ -20397,10 +20400,13 @@ _800x80_
 ||newrtbbid.com^
 ||news-back.org^
 ||news-bigefu.com^
+||news-bobeho.com^
+||news-butoto.com^
 ||news-buzz.cc^
 ||news-central.org^
 ||news-headlines.co^
 ||news-host.net^
+||news-losaji.com^
 ||news-muheji.com^
 ||news-place1.xyz^
 ||news-portals1.xyz^
