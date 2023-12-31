@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bZQH1xIb2LDrBomkiFKsSQ
-! Version: 202312310931
+! Checksum: LJ9TJfg0Ddq0s0PeAo5vaA
+! Version: 202312310940
 ! Title: EasyList without element hiding rules
-! Last modified: 31 Dec 2023 09:31 UTC
+! Last modified: 31 Dec 2023 09:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -42691,7 +42691,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||akamaized.net^*.stream/$domain=naver.com
 @@||akamaized.net^*/playlist.m3u8?$domain=naver.com
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
-@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|sportbible.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||aniview.com/api/$script,domain=gamingbible.co.uk|ladbible.com
 @@||antlionaudio.com/cdn/shop/*/assets/fastclick.min.js$~third-party
@@ -42830,7 +42830,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
 @@||media.kijiji.ca/api/$image,~third-party
 @@||mediaalpha.com/js/serve.js$domain=goseek.com
-@@||micro.rubiconproject.com/prebid/dynamic/$script,domain=gamingbible.co.uk|ladbible.com
+@@||micro.rubiconproject.com/prebid/dynamic/$script,xmlhttprequest,domain=gamingbible.co.uk|ladbible.com|sportbible.com
 @@||motortrader.com.my/advert/$image,~third-party
 @@||mtouch.facebook.com/ads/api/preview/$domain=business.facebook.com
 @@||newscgp.com/prod/prebid/nyp/pb.js$domain=nypost.com
