@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202401010729
+! Version: 202401010808
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Jan 2024 07:29 UTC
+! Last modified: 01 Jan 2024 08:08 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2148,7 +2148,9 @@ _twitter_follow.
 ###message-purchased.wn-background-template-type-2
 ###message-purchased.wn-extended
 ##.cbSalesPopContainer
+##.ck-sp-app-wrapper
 ##.fomo-notification-container
+##.js-pn.payment-notification
 ##.noti-container-main
 ##.wpcsn-notification-inner
 ##.yo-notification
@@ -34441,6 +34443,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ! Someone also bought fomo popups
 /wp-content/plugins/woocommerce-notification/*
 ||api.postscript.io/v2/public/popups/
+||app.actionfeed.net/app/popup.js
 ||goldendev.win/shopify/show-recent-orders/
 ||load.fomo.com^$third-party
 ! 3rd-party sounds
@@ -41109,6 +41112,7 @@ c-magazine.com##.css__oiassf
 national-lottery.co.uk##.cu_k_modal_main_box
 unitedpets.com##.cupjma
 hisense.co.uk##.curtain
+glamwize.com##.customcookie--banermain
 tannoy.com##.cv2-wrapper
 careerswales.gov.wales##.cw-cookies-policy-banner
 tonies.com##.cwJWme
