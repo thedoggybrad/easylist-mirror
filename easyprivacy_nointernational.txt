@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: P7hisAdgclceTC2VTVcFWQ
-! Version: 202401021931
+! Checksum: Ix9q0pvohVeS5SWQzxaUIg
+! Version: 202401021941
 ! Title: EasyPrivacy without international filters
-! Last modified: 02 Jan 2024 19:31 UTC
+! Last modified: 02 Jan 2024 19:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -29558,6 +29558,7 @@ arketing.indianadunes.com^
 @@||att.com/ui/services_co_myatt_common/$script,~third-party
 @@||att.tv^*/VisitorAPI.js$script,~third-party
 @@||autocomplete.clearbit.com^$xmlhttprequest,domain=dzone.com
+@@||awswaf.com/*/telemetry$domain=platform.ledn.io
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||azureedge.net^*/analytics/eventtracking.js$script,domain=crimemapping.com
 @@||bam.nr-data.net^$script,domain=kapwing.com
