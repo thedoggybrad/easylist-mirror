@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NpoV3pWFZGsbUN01VT/7wQ
-! Version: 202401031602
+! Checksum: HEMY5/YKw1p/hvjNGs77Hg
+! Version: 202401031611
 ! Title: EasyList Portuguese
-! Last modified: 03 Jan 2024 16:02 UTC
+! Last modified: 03 Jan 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -701,7 +701,6 @@ exame.com###native-home-5
 exame.com###noticias_relacionadas_pos_1
 tvonline.sx###over-link
 chikianimation.com###overplay
-noticiasaominuto.com###pnm-popout-section
 contaspoupanca.pt###pop-up-dp
 correiodolago.com.br###pop1
 correiodolago.com.br###pop2
@@ -952,7 +951,6 @@ mundoeducacao.uol.com.br##.pb_inner_content
 meutimao.com.br##.pbmt
 portalpopline.com.br##.plads_container
 iol.pt##.plista
-noticiasaominuto.com##.pop-out-content
 fiis.com.br##.popup-background
 statusinvest.com.br##.popup-fixed
 jornaldocarro.estadao.com.br##.portal-sponsor
@@ -984,7 +982,7 @@ acordacidade.com.br##.publi-4
 acordacidade.com.br##.publi-5
 brasilescola.uol.com.br##.publi-dir
 tempo.pt##.publicidad-pie
-exclusivo.com.br,ig.com.br,meiahora.com.br##.publicidade
+exclusivo.com.br,ig.com.br,meiahora.com.br,omirante.pt##.publicidade
 exclusivo.com.br##.publicidade3
 infojobs.com.br##.publicity
 radioxinguaraam.com.br##.pubtotal1
@@ -1119,28 +1117,29 @@ futebolatino.lance.com.br##img[width="320"][height="50"]
 atoananet.com.br,culturadoria.com.br,politicosdosuldabahia.com.br##img[width="728"]
 futebolatino.lance.com.br##img[width="940"][height="150"]
 anitube.biz,investmentmanagement.click##ins[style*="width:300px;height:250px;"]
+! :has()
+tavernaderivia.com.br##.ig_widget:has(a[href^="https://amzn.to/"])
+tavernaderivia.com.br##.ig_widget:has(a[href^="https://www.amazon."][href*="tag="])
+mercadolivre.com.br##.ui-recommendations-carousel-wrapper-ref:has(a[rel="nofollow, sponsored"])
+reclameaqui.com.br##div[class*="h-[240px]"]:has(div[role="banner"])
+reclameaqui.com.br##div[class^="go"]:has( > div > div[id^="div-gpt-ad"])
+mercadolivre.com.br##li.ui-search-layout__item:has(div.ui-search-item__pub-container)
 ! Advanced element hiding rules for Adblock Plus
+anacao.cv#?##caixapub:-abp-has(div > h3:-abp-contains(PUB))
+arnolds.com.br#?#center:-abp-has(p:-abp-contains(Publicidade))
 buzzfeed.com.br#?#.standard-post.display-box.post-link-effect:-abp-has(.post-disclaimer:-abp-contains(Promovido por))
 carrefour.com.br#?#.sc-bczRLJ:-abp-contains(Publicidade)
 carrefour.com.br#?#.vtex-flex-layout-0-x-flexColChild:-abp-contains(Publicidade)
 climatempo.com.br#?#.card.-no-bottom._flex._space-between._align-center:-abp-contains( Cupons de desconto)
 climatempo.com.br#?#.card.-no-bottom._flex._space-between._align-center:-abp-contains( Cupons de desconto) + div > .card-coupons
+comidasimples.com.br,pescariasa.com.br#?#[id^="custom_html-"]:-abp-has(h2:-abp-contains(Publicidade))
 correioweb.com.br#?#.post--hardnews.call-uai:-abp-has(a:-abp-contains(CONTEÚDO PATROCINADO))
 defatoonline.com.br#?#.noticias-horizontal:-abp-has(h3:-abp-contains(Patrocinado))
+em.com.br#?#.col-md-12.hidden-xs:-abp-has(small:-abp-contains(Publicidade))
 infomoney.com.br#?#.row.m-0.py-3.border-t:-abp-has(.hl-hat:-abp-contains(Conteúdo))
-jornaldigitalcanela.com.br#?#div:-abp-has(> .jorna-adlabel)
-jornaldigitalcanela.com.br#?#div:-abp-has(> .td-adspot-title)
-mercadolivre.com.br#?#.ui-recommendations-carousel-wrapper-ref:-abp-has(a[rel="nofollow, sponsored"])
-mercadolivre.com.br#?#li.ui-search-layout__item:-abp-has(div.ui-search-item__pub-container)
-noticiasaominuto.com#?#.article-thumb-block:-abp-has(.nm-custom-label-sponsor)
-noticiasaominuto.com#?#.article-thumb:-abp-has(.nm-custom-label-sponsor)
 oantagonista.com.br#?##cardfullblock.card.card-full.card-oa:-abp-has(.card-category:-abp-contains(Patrocinado))
-omirante.pt#?#.fbox.swidgets-wrap.widget.widget_block.widget_media_image:-abp-has(figcaption)
-reclameaqui.com.br#?#div[class*="h-[240px]"]:-abp-has(div[role="banner"])
-reclameaqui.com.br#?#div[class^="go"] > div[class^="go"]:-abp-has(> div[id^="div-gpt-ad"])
 saocarlosagora.com.br#?#.container_16:-abp-contains(Vitrine)
-tavernaderivia.com.br#?#.ig_widget:-abp-has(a[href^="https://amzn.to/"])
-tavernaderivia.com.br#?#.ig_widget:-abp-has(a[href^="https://www.amazon."][href*="tag="])
+tribogamer.com#?#a:-abp-has(div > div > small:-abp-contains(Publicitário))
 !
 polibiobraga.blogspot.com###HTML10
 polibiobraga.blogspot.com###HTML6
@@ -1187,7 +1186,6 @@ guiadasemana.com.br###header
 diariodominho.pt###hidethis2
 vagas.com.br###homeLogos
 evasoes.pt,womenshealth.pt###inread
-pobre.tv###launcherBg
 anacao.cv###leader-wrap
 fatosdesconhecidos.com.br###leaderboard-header
 fatosdesconhecidos.com.br###leaderboard-post-header
@@ -1225,7 +1223,6 @@ tiinside.com.br##.ad1
 brasil247.com##.adBackground
 eutesalvo.com##.adHome
 eutesalvo.com##.adMedium
-pobre.tv##.adasd
 em.com.br,gaz.com.br,grandepremio.com.br,infoescola.com,novojornal.co.ao,record.pt##.ads
 uol.com.br##.ads-billboard
 peperi.com.br##.ads-inicial-lg-md-sm
@@ -1381,7 +1378,6 @@ terra.com.br##[data-app-name="app.svaAd"]
 standvirtual.com##[data-testid="featured-dealer"]
 standvirtual.com##[data-testid="horizontal-top-ads"]
 revistabula.com##[href^="https://amzn.to/"]
-pobre.tv##[href^="https://btt-pt.devitold.com/"]
 cointimes.com.br##[href^="https://cointimes.com.br/linkout/"]
 uol.com.br##[href^="https://pagbank.onelink.me/"]
 tenhomaisdiscosqueamigos.com##[href^="https://tmd.qa/"][target="_blank"]
@@ -1404,13 +1400,7 @@ netvasco.com.br##a[href^="https://bit.ly/Netvasco-Banner"]
 diariodominho.pt##a[href^="https://www.diariodominho.pt/linkout/"]
 clicrdc.com.br##a[onclick*="{'event_category': 'Adverts'"]
 fabiorobertonoticias.com.br##a[target="_blank"] > img[src^="https://i.imgur.com/"]
-acientistaagricola.pt#?#div[id^="media_image"]:-abp-has(>div:-abp-contains(Pub))
 caras.uol.com.br##amp-fx-flying-carpet
-arnolds.com.br#?#center:-abp-has(p:-abp-contains(Publicidade))
-buceteiro.com#?#li:-abp-has(#thumb-6110)
-anacao.cv#?##caixapub:-abp-has(div > h3:-abp-contains(PUB))
-comidasimples.com.br,pescariasa.com.br#?#[id^="custom_html-"]:-abp-has(h2:-abp-contains(Publicidade))
-uol.com.br##div.cardAd
 reportermt.com.br##div[class$="box-banner"]
 fimdalinha.com.br##div[class*="banner-"]
 noticiasdecoimbra.pt##div[class*="cp_id_"]
@@ -1458,24 +1448,18 @@ brasilescola.uol.com.br##div[style="width: 100%; height: 250px;"]
 brasilescola.uol.com.br##div[style="width: 300px; height: 591px;"]
 brasilescola.uol.com.br##div[style="width: 300px; height: 600px;"]
 agoravale.com.br##div[style^="background:#FFF"]
-em.com.br#?#small:-abp-contains(Publicidade)
 megafilmeshd50.com##iframe[style*="z-index: 2147483647"]
 inglesnoteclado.com.br##img[alt="anúncio"]
 portalarauto.com.br##img[alt^="PUBLICIDADE"]
 animesgratisbr.biz##img[title^="Assistir Hentai"]
 revistaquem.globo.com##li[data-item-type="advertising"]
 multicanais.fans##p > [href="https://1.1.1.1/"]
-pobre.tv#?#b:-abp-contains(bet)
-pobre.tv#?#span:-abp-contains(BÓNUS DE BOAS VINDAS)
 portal.meusdividendos.com##section[class$="advertising"]
 tecnoblog.net##section[id^="ad-superbanner-"]
 betnabola.com.br##section[id^="bouplay_wp_"]
 revistaencontro.com.br##small.txt-no-serif
 astrologiaenlinea.com##td[width="728"][height="90"]
 fabiorobertonoticias.com.br##td[width="750"]
-tribogamer.com#?#a:-abp-has(div > div > small:-abp-contains(Publicitário))
-||i0.wp.com/portalextremoz.com.br/wp-content/uploads/2021/11/
-||portalextremoz.com.br/wp-content/uploads/2021/11/
 ! *** easylistportuguese:easylistportuguese_adult/adult_specific_hide.txt ***
 travestisvip.com.br###bnrVideosTravestis
 garotaporno.com,pornodoido.com###overlay-video
@@ -1491,6 +1475,7 @@ aifode.com##.bannerSite
 classificadosxbr.com##.bannergroup
 cnnamador.com,pornocaseiro.vlog.br,xvideos9.com,xvideosincesto.com##.banners
 cnnamador.com##.banners__list
+hqdesexo.com##.boxpub
 pornomineiro.com##.clma12d04
 boafoda.com##.co_sponsor
 sexosas.com##.content-footer-holder
@@ -1537,14 +1522,16 @@ gruposputaria.blog.br##img[height="300"]
 eoquetemprahj.com,hentaihome.net,lapkjogos.com,lapkzone.com,mclass.com,naoconto.com,tia-tanaka.com,xvideosws.com##img[width="300"]
 safadasnaweb.com.br##img[width="300px"][height="250px"]
 quadrinhoseroticos.com.br##ul[class^="aneTemaRe1"]
+! :has()
+cnnamador.com##.cards__item--videos:has(span.flag--banner)
+buceteiro.com##.list > ul > li:has(.ads)
+sonovinhasbr.com##.post:has(a[href^="https://canalvegas.com/"])
+hqdesexo.com##.thumb:has(.ads)
+meuscontoseroticos.com##:has( > a > div > div > span.thumb-ads)
+meuscontoseroticos.com##:has( > div.contoConteudo > div.conto-thumb > a[rel^="nofollow"])
 ! Advanced element hiding rules for Adblock Plus
-buceteiro.com#?#.border:-abp-has(.ads)
-cnnamador.com#?#.cards__item--videos:-abp-has(span.flag--banner)
-hqdesexo.com#?#.thumb:-abp-has(.ads)
-meuscontoseroticos.com#?#.ane-relacionado-conteudo:-abp-has(.thumb-ads)
 pornotube.blog.br#?#.video-conteudo:-abp-has(.selo:-abp-contains(ADS)) > .video-desc
 sexprime.xxx#?#.thumb-block:-abp-has(.thumb-adlert:-abp-contains(ADS))
-videosdesuavizinha.com#?#.post.last:-abp-has(a[href^="https://grupoxxx.com/"])
 !
 nudelas.com###adstopo
 minhamulher.com###arquivop
@@ -1581,14 +1568,8 @@ bandeiradois.blog.br##a[href^="https://www.californiatv.com.br"]
 pornomineiro.com##a[href^="https://www.guiaadulto.com"]
 naoconto.com##a[href^="https://www.vivalocal.com"]
 meuscontoseroticos.com##a[rel^="nofollow"]
-hdpornpics.net#?#.money:-abp-has(.century:-abp-contains(ADS))
 tsumino.com##li > [href^="https://erogames.com"]
 nudelas.com##li[id^="njads_single_widget-"]
-meuscontoseroticos.com#?#:-abp-has(> a > div > div > span.thumb-ads)
-meuscontoseroticos.com#?#:-abp-has(> div.contoConteudo > div.conto-thumb > a[rel^="nofollow"])
-porno16.com#?#.thumb-block:-abp-has([data-ads="1"])
-sonovinhasbr.com#?#.post:-abp-has(a[href^="https://canalvegas.com/"])
-xvidios.xxx#?#.thumbBlock:-abp-has(a[href^="https://pagamento.xpague.com/"])
 !-----------------------Allowlists to fix broken sites------------------------!
 ! *** easylistportuguese:easylistportuguese/easylistportuguese_allowlist.txt ***
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=abola.pt
