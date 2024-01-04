@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ji/l3yQm77gUhle21xrh0Q
-! Version: 202401040911
+! Checksum: bAvRGZWR+Ayc4J6Pu7SJAw
+! Version: 202401040921
 ! Title: EasyList Polish
-! Last modified: 04 Jan 2024 09:11 UTC
+! Last modified: 04 Jan 2024 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -499,6 +499,7 @@ supernowosci24.pl##[id^="r-"]
 ||video.onnetwork.tv^$script,domain=ki24.info
 ||video.onnetwork.tv^$script,domain=koronowo.net.pl
 ||video.onnetwork.tv^$script,domain=swiecie24.pl
+||video.onnetwork.tv^$script,domain=mojakruszwica.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2505,6 +2506,8 @@ wp.pl#?#IMG:-abp-properties(position: relative;)
 mylomza.pl##.adv
 comparic.pl##.artyu-single
 gostynin24.pl##.widget-advert_placement
+panoramaplock.pl##[class*="banner--"]
+seniorbb.pl##[class*="banner--"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
