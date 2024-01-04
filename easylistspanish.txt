@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 64mKaPn0dpm315+JFolMqA
-! Version: 202401041651
+! Checksum: BNUBHFLnaw11++W5/nKTog
+! Version: 202401041702
 ! Title: EasyList Spanish
-! Last modified: 04 Jan 2024 16:51 UTC
+! Last modified: 04 Jan 2024 17:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -717,6 +717,7 @@ hitfm.es#@#.publi
 ||d1r08wok4169a5.cloudfront.net^
 ||grupnaciodigital.cat/redaccio/publicitat/
 ||ibb.co^$domain=horadeopinion.com.ar
+||iframes.reyesdelchollo.com^$third-party
 ||kisa-link.blok.link^$third-party
 ||nacash.net^$domain=ahoraeg.com
 ||news.grm.cl^
@@ -779,6 +780,7 @@ hitfm.es#@#.publi
 ||elperiodico.cl/wp-content/uploads/*/banner-
 ||emol.cl/emol50/js/publicidadsetup/
 ||es.zenit.org/banners/
+||gamestorrents.fm/433b.png
 ||habimg.com/hab_banners/$domain=habitaclia.com
 ||inmanga.com/ads/
 ||lasamericasnews.com/images/avisos/
@@ -1456,6 +1458,7 @@ iprofesional.com##.banner-horizontal
 elnuevogeorgia.com##.banner-img
 diariodecuyo.com.ar##.banner-lanusse
 a24.com,diariouno.com.ar,lared.am,puntal.com.ar##.banner-libre
+25digital.com.ar##.banner-promotions-wrapper
 clarin.com##.banner-right
 anbariloche.com.ar,anroca.com.ar,elcordillerano.com.ar,noticiasnet.com.ar##.banner-simple
 eltrecetv.com.ar##.banner-swap
@@ -1500,7 +1503,7 @@ elpais.com##.c.c-pfb.c--m
 diariobitcoin.com##.clickout-banner-regular_native_box
 vivanolamag.com##.client-logo-slider
 eltiempo.es##.cls-publi-height
-bembibredigital.com,comedera.com,mejoresmodsminecraft.site,valoraanalitik.com,washingtonhispanic.com##.code-block
+bembibredigital.com,comedera.com,finofilipino.org,mejoresmodsminecraft.site,tresubresdobles.com,valoraanalitik.com,washingtonhispanic.com##.code-block
 elrellano.com##.code-block-1
 elrellano.com##.code-block-18
 elrellano.com##.code-block-4
@@ -1519,6 +1522,7 @@ autopista.es##.containerBanner
 theclinic.cl##.contenedor-auspicio
 futbolred.com##.contenedor-logo-patrocinador
 eldebate.com##.content-add
+prensa.com##.countdown-container
 eluniversal.com.mx##.coupons__container
 debate.com.mx,elimparcial.com##.coverless
 meteored.cl,meteored.com.ar,meteored.mx,tiempo.com##.creatividad
@@ -1585,6 +1589,7 @@ esdiario.com##.media-ajust-tablet-publi-top
 abc.es##.mega-superior
 marie-claire.es,muyhistoria.es,muyinteresante.es,muynegociosyeconomia.es##.megaBanner
 lleida.com,meteored.cl,meteored.com.ar,meteored.mx,modaes.com,tiempo.com##.megabanner
+25digital.com.ar##.metaslider
 meteored.com.py##.meteored-ads
 caracol.com.co,wradio.com.co##.mh266-100
 lexlatin.com##.mibanner
@@ -1598,7 +1603,7 @@ elobservador.com.uy##.modulo_publi
 coches.net##.mt-AdvertisingRoadblock-top
 coches.net##.mt-Display--top
 gamezfull.com##.myButton
-hortanoticias.com##.n2-section-smartslider
+elsolnoticias.com.ar,hortanoticias.com##.n2-section-smartslider
 europa-agricola.es,via-mobilis.es##.native
 elcomercio.com##.ned-ad-dynamic
 eldiario.es,infolibre.es##.news-sponsored-content
@@ -1617,10 +1622,12 @@ valoraanalitik.com##.pauta
 canalrcn.com##.pauta-barra-media
 futbolred.com##.pauta-bk
 valoraanalitik.com##.pauta-cuad
+portafolio.co##.pauta__billboard
 todomecanica.com,vgrecipes.com##.pbl
 otakustv.com##.pestana_footer
 cronista.com##.piecesponsor
 cronista.com##.piecesponsor2
+laboyanos.com##.piki-ads
 publinews.gt##.posttakeoverlink
 cronica.com.ar##.pre-home-banner-box
 prensa.com##.productos
@@ -1680,6 +1687,7 @@ exitosanoticias.pe##.statics_module
 bernabeudigital.com##.sticky-container[style="height:600px;"]
 elindependiente.com##.sub_header
 elrellano.com##.tag-enlace-de-afiliados
+prensa.com##.tagPublicidad
 publinews.gt##.takeoverlink
 bavaronews.com,diariolaprensa.cl,elmundotoday.com,elperiodicousa.com,guineainfomarket.com,horajaen.com,lagdeguinea.com,noticiasuno.com,pcpro.es,periodismo.com,udlaspalmas.net##.td-a-rec
 elsolnews.com##.tdi_132
@@ -1687,6 +1695,7 @@ udlaspalmas.net##.tdi_22
 ffcv.es##.testimonials-partners
 marcadegol.com##.textwidget a[href^="https://ar.puma.com/"]
 adnradio.cl,cnnchile.com,futuro360.com##.the-banner
+prensa.com##.titulares-iframe
 noticias.mitelefe.com##.tlf-ad
 theobjective.com##.tno-blocks-banner-horizontal
 nickelodeonplus.online##.topads-wrap
@@ -1712,8 +1721,8 @@ weedmagazine.net##.widget_aawp_widget_new_releases
 elciudadanoweb.com##.widget_apsa_campaign
 grupormultimedio.com,horadeopinion.com.ar##.widget_custom_html
 rumbonews.com##.widget_media_gallery
-claridadpuertorico.com,cronicasnews.com,elnuevogeorgia.com,gacetinmadrid.com,laprensadecolorado.com,noticiasenlineacr.com,noticiasformosa.com.ar,webelpuente.com##.widget_media_image
-horadeopinion.com.ar##.widget_metaslider_widget
+claridadpuertorico.com,cronicasnews.com,elnuevogeorgia.com,elsolnoticias.com.ar,gacetinmadrid.com,laprensadecolorado.com,noticiasenlineacr.com,noticiasformosa.com.ar,webelpuente.com##.widget_media_image
+25digital.com.ar,horadeopinion.com.ar##.widget_metaslider_widget
 elperiodista.cl##.widget_owjnimg
 elespecial.com##.widget_simpleimage
 latinopinionbaltimore.com##.widget_sp_image
@@ -2839,8 +2848,10 @@ muyzorras.com##a[href^="https://landings.videochatprovider.com/"]
 pajilleros.com##a[href^="https://www.amateur.tv/"]
 muyzorras.com##a[href^="https://www.fuegocams.com/"]
 muycerditas.com##a[href^="https://www.platanomelon.com/?rfsn="]
+videospornogratisx.net##img[width="300"]
 ! Advanced element hiding rules for Adblock Plus
 muyzorras.com#?#.c.d1:-abp-has(div:-abp-contains(Más cosas interesantes))
+videospornogratisx.net#?#.block:-abp-has(>h3:-abp-contains(WEBCAM PORNO XXX))
 !
 slumi.com###anuncio_pancarta_campaign
 donlgbt.com###banner-superior
