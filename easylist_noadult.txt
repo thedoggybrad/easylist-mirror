@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CiW/uw9s7isYBfS5/KpiTQ
-! Version: 202401042221
+! Checksum: gTEnPLvYpbEgYwc4/vS4yg
+! Version: 202401042231
 ! Title: EasyList without rules for adult sites
-! Last modified: 04 Jan 2024 22:21 UTC
+! Last modified: 04 Jan 2024 22:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -21410,6 +21410,7 @@ browsershots.org#@#.advert_area
 ||aplainmpatoio.com^
 ||apleasantsit.xyz^
 ||aplentytwo.com^
+||apnpr.com^
 ||apnttuttej.com^
 ||apocarpdogdom.com^
 ||apochaeunanime.com^
@@ -63196,6 +63197,7 @@ yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##a[data-test-id="large-image-ad"]
+mail.yahoo.com##article[aria-labelledby*="-pencil-ad-"]
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[class*="gemini-ad"]
 yahoo.com##div[data-beacon] > div[class*="streamBoxShadow"]
