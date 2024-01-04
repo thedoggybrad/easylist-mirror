@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6p8lFpY2PWPZcSG2WwSLaA
-! Version: 202401040903
+! Checksum: ji/l3yQm77gUhle21xrh0Q
+! Version: 202401040911
 ! Title: EasyList Polish
-! Last modified: 04 Jan 2024 09:03 UTC
+! Last modified: 04 Jan 2024 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -496,6 +496,9 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=ki24.info
+||video.onnetwork.tv^$script,domain=koronowo.net.pl
+||video.onnetwork.tv^$script,domain=swiecie24.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
