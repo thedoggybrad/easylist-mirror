@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 6cIPsQA+vnD3ISoHHkeSCA
-! Version: 202401050821
+! Checksum: yM/wO5K/SQC+ya2RIVSmHg
+! Version: 202401050831
 ! Title: ABP filters
-! Last modified: 05 Jan 2024 08:21 UTC
+! Last modified: 05 Jan 2024 08:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1496,10 +1496,10 @@ xnxx-sex-videos.com#$#override-property-read user_out false
 truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
-truyentuan.com#$#abort-current-inline-script $ btpop
+truyentuanop.com#$#abort-current-inline-script $ btpop
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-xoilac86.net#$#abort-on-property-read adsRedirectPopups
+xoilac96.net#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
