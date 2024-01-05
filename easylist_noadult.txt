@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ez5JFdlK1xNSuGv7ViBZtQ
-! Version: 202401051751
+! Checksum: LsVMy7iOKdoPfPYy92Ecgg
+! Version: 202401051802
 ! Title: EasyList without rules for adult sites
-! Last modified: 05 Jan 2024 17:51 UTC
+! Last modified: 05 Jan 2024 18:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -62640,6 +62640,7 @@ kitguru.net##a[id^="href-ad-"]
 tetris.com##a[onclick*="open"]
 himovies.to,home-barista.com,rarpc.co,warecracks.com,washingtontimes.com##a[onclick]
 onetransistor.eu##a[onclick][target="_blank"]
+1001tracklists.com##a[onclick^="lTrInt"]
 earlygame.com,i711.com##a[rel*="sponsored"]
 amishamerica.com,flixtor.video##a[rel="nofollow"] > img
 gab.com##a[rel="noopener"][target="_blank"][href^="https://grow.gab.com/go/"]
