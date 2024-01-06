@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: N/RnWwvLDWzpbY9ed1KcLg
-! Version: 202401061402
+! Checksum: 12/gKhz9cyABEuUGKY502Q
+! Version: 202401061411
 ! Title: EasyList without rules for adult sites
-! Last modified: 06 Jan 2024 14:02 UTC
+! Last modified: 06 Jan 2024 14:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -63149,6 +63149,7 @@ wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="Desig
 wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
 wish.com##div[class^="WishExpressProductsRow__FeedTileColumnWrapper-"]:has(div[class^="FeedTile__ProductBoostLabelWrapper-"])
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
+goal.com##div[class^="open-web-ad_"]
 walmart.ca##div[data-automation="product"]:has(div[data-automation="sponsored-indicator-wrapper"])
 cargurus.com##div[data-cg-ft="car-blade"]:has(div[data-cg-ft="sponsored-listing-badge"])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
