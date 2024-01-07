@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WsE//YcCe1WvN40xj/rcgQ
-! Version: 202401071140
+! Checksum: c9qUdsnajvpkSPS9Y2S6xw
+! Version: 202401071151
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Jan 2024 11:40 UTC
+! Last modified: 07 Jan 2024 11:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3274,6 +3274,7 @@ _tizers.
 ||push-money.ru^$third-party
 ||push-plus.net^$third-party
 ||push-pro.net^$third-party
+||push-sender.com^$third-party
 ||pushcentr.com^$third-party
 ||pusheds.info^$third-party
 ||pushelf.info^$third-party
@@ -12530,6 +12531,7 @@ dom-sonnik.ru,gadania-na-lubov.ru###sliding-bar
 zaxid.net###slotPromoinformer300x250
 sprashivalka.com###slot_central
 news29.ru###slyWindow
+mignews.com###smart_banner
 tyndex.ru###snippetprice
 animestars.ru###snow
 onlinetambov.ru###socAds
@@ -14009,6 +14011,7 @@ ok-tv.org##.custom > noindex
 vp.donetsk.ua##.custom > p > a
 vp.donetsk.ua##.custom > p > img
 dacha.help,dev.ua,orchardo.ru,udermis.ru,uroki-pitaniya.ru,vipidei.com##.custom-block
+mignews.com##.custom-height-250
 dovidka.biz.ua,forumua.org,xn---2--mddxunv8a2esa.xn--p1ai##.custom-html-widget
 topgir.com.ua##.custom-html-widget > a
 ukrnews24.net##.custom-html-widget > a[href] > img
@@ -19150,7 +19153,7 @@ primpogoda.ru#?#h4:-abp-contains(Смотрите также)
 nsn.fm#?#h4:-abp-contains(партнеры)
 helpsetup.ru##h5#center
 popcake.tv#?#h5:-abp-contains(Новости партнёров)
-mignews.com#?#h6:-abp-contains(/новости партнеров/i)
+mignews.com#?#h6:-abp-contains(/новости партнеров|знакомства/i)
 dachnye-sovety.ru#?#h6:-abp-contains(РЕКОМЕНДУЕМ ПОЧИТАТЬ:)
 ozon.ru##header + [data-replace-layout-path] > div[class]:not([data-widget]):first-child
 ozon.ru##header + [data-replace-layout-path] > div[style*="min-height:"]
@@ -20808,6 +20811,7 @@ lada.kz/uploads/banners/
 ||depositfiles.com/images/zillya/
 ||dermatitanet.ru/template/js/script.js
 ||design-for.net/uploads/banner/$image
+||detaly.co.il^$domain=mignews.com
 ||dgrad-host.com/banner.$domain=rootden.ru
 ||diary.ru^*/diaryDefault728x90.
 ||did5.ru/images/banner
@@ -21634,6 +21638,7 @@ lada.kz/uploads/banners/
 ||mgorod.kz/wp-content/*/js/slick/
 ||mibius.com.ua/banner
 ||michurinsk.ru/bn/show/$script
+||mignews.com/static/js/feed_parser.min.js
 ||milknet.ru/rotatorfiles/
 ||minecraft-gold-new.ru/offer/
 ||minfin.com.ua^*/banners$script
@@ -21978,6 +21983,7 @@ lada.kz/uploads/banners/
 ||partner.uhty-multy.ru/
 ||partnerkin.com/uploads/branding/
 ||partnerkin.com/uploads/sources/*/index.html|$subdocument
+||partners.walla.co.il^$domain=mignews.com
 ||passus.ru/test-widget/
 ||patria.md/i/partners/
 ||patrioty.org.ua/*.json|$xmlhttprequest
