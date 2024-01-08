@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KSD+/++2f2UDlhLyxWP8aA
-! Version: 202401080911
+! Checksum: Fa0ST+8XEdU1GtDefahbag
+! Version: 202401080921
 ! Title: EasyList Polish
-! Last modified: 08 Jan 2024 09:11 UTC
+! Last modified: 08 Jan 2024 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -494,6 +494,8 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=panoramaplock.pl
+||video.onnetwork.tv^$script,domain=seniorbb.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2501,6 +2503,8 @@ seniorbb.pl##.new-toplayer
 sportsinwinter.pl##.new-toplayer
 panoramaplock.pl##.new-toplayer
 ziemiagorowska.pl##.new-toplayer
+tukutno.pl##.new-toplayer
+gryfinska.pl###ad--bill-top
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
