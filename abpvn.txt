@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: 8r2CIpCQsfv7nAjV95mkAA
-! Version: 202401080051
+! Checksum: v3tNI7bYwk03IDOziJzbkw
+! Version: 202401080102
 ! Title: ABPVN List
-! Last modified: 08 Jan 2024 00:51 UTC
+! Last modified: 08 Jan 2024 01:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 07 Jan 2024 17:51:33 UTC+7
+! Last modified: 08 Jan 2024 07:53:52 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -133,7 +133,7 @@
 ||gamenoob.net^*.gif
 ||ghienphim9.net/client_assets/images/
 ||ghienphim9.net/client_assets/js/minijumb.js
-||ght.kernh41.com^$script,domain=sstruyen.vn
+||ght.kernh41.com^$script,third-party
 ||giatot7.com/popunder8.min.js$domain=www.xemphim1.top
 ||gocphimk.net^*.gif
 ||googleusercontent.com^$domain=hhtqvietsub.top|phimplay24h.com
@@ -256,6 +256,7 @@
 ||subnhanh.tw/js/ads_xx.js
 ||subnhanhvl.co/js/ads_xx.js
 ||suckhoelamdep.vn^*.gif$image
+||tailieuvnu.com/wp-content/uploads/2022/12/28/shopee-2*.png$image
 ||tamlinh247.com.vn/link_anh2023/$image
 ||taoanhdep.com$csp=script-src 'self' 'unsafe-inline' data: https:
 ||tapchikientruc.com.vn/wp-content/uploads/angwp/items
@@ -959,6 +960,7 @@ toithuthuat.com##.pum
 topthuthuat.com,canhrau.com##.widget.widget_text
 toptruyenne.com,doctruyen3qmoi.com,anime47.com##.advertisement
 toquoc.vn,baoxaydung.com.vn,tienphong.vn,taichinhdoanhnghiep.net.vn,thichxemphim1.net,xemphimviet1.net,ghienphim9.net,oj.husc.edu.vn,megalink.vip##.banner
+tracnghiem.net##.sbAdv
 traderviet.org##.homePageAds
 trithuc24h.com.vn##.columns-widget .col-right
 tructiep.cakhia54.tv,tructiep.cakhia14.com,tructiep.caheo18.tv##.container-banner
