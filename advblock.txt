@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QJxilh4bzf5JIiv2zlkKKA
-! Version: 202401081402
+! Checksum: tquRJEVhmsKaNsWXpy48Ng
+! Version: 202401081411
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Jan 2024 14:02 UTC
+! Last modified: 08 Jan 2024 14:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11879,8 +11879,8 @@ mmoglobus.ru###floating
 diets.ru###fly-container
 mozgotvet.com###fly_mozg
 shram.kiev.ua###flydiv
-softoroom.net###fo_cblock2 > .row2 > table ~ div[align="center"]
-softoroom.net###fo_cblock3
+softoroom.net,softoroom.org###fo_cblock2 > .row2 > table ~ div[align="center"]
+softoroom.net,softoroom.org###fo_cblock3
 smolensk-auto.ru,smolensk-auto.site###fo_Партнеры
 smolensk-auto.ru,smolensk-auto.site###fo_Пресса
 cherkassy-sport.com###fon
@@ -17900,7 +17900,7 @@ kurs.com.ua##aside .advertising
 tverlife.ru##aside .custom-html-widget > a[rel="noopener"] > img
 ironfriends.ru#?#aside .widget:-abp-has(> .widget-container [class^="nadavi"])
 ironfriends.ru#?#aside .widget:-abp-has(> .widget-container [id^="ya_"])
-gzt-sv.ru,muz-teoretik.ru,telik.top##aside .widget_custom_html
+gzt-sv.ru,iptv.org.ua,muz-teoretik.ru,telik.top,tva.org.ua##aside .widget_custom_html
 office-guru.ru##aside .widget_text
 businessua.com##aside > #vedomosti_block:nth-child(-n+9)
 showgid.tv##aside > .banner + .title
@@ -21845,7 +21845,7 @@ lada.kz/uploads/banners/
 ||notebook-center.ru/market/
 ||notebookcheck*/fileadmin/_processed_/_$image
 ||notube.net^*sw.js|$script
-||novaposhta.ua^*/img/banner_
+||novaposhta.ua^*/banners/
 ||novomoskov.ru/img/
 ||novorus.info/banner/
 ||novostimira.*?v=$script
@@ -22462,7 +22462,8 @@ lada.kz/uploads/banners/
 ||soft.oszone.net/img/mediaget$image
 ||soft.sibnet.ru/dist/js/ya-pack_banners.js
 ||soft4xp.ru/rss_news.php
-||softoroom.net/2pclick/
+||softoroom.org/geobin/go.php
+||softoroom.org/image/yandexbr.
 ||softportal.com/*.html|$xmlhttprequest,domain=softportal.com
 ||softportal.com/img/qwer.
 ||softportal.com/img/tlmn.
