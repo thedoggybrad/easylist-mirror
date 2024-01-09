@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ngqr3clzfrhh/swtuhZFYw
-! Version: 202401092011
+! Checksum: 5r6TUpkRXE15G1ilBR+5fA
+! Version: 202401092021
 ! Title: EasyList Dutch
-! Last modified: 09 Jan 2024 20:11 UTC
+! Last modified: 09 Jan 2024 20:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -62,6 +62,7 @@ _advertentieleaderboardhome.
 ||affiliateprogramma.eu^$third-party
 ||believe-the-hype.be^$third-party
 ||botndm.nl^$third-party
+||cashpartners.eu^$third-party
 ||crnsgngrpj.nl^
 ||dntblckmpls.nl^
 ||ds1.nl^$third-party
@@ -74,6 +75,7 @@ _advertentieleaderboardhome.
 ||optoutadvertising.com^$third-party
 ||sponsorkliks.com^$third-party
 ||static-dscn.net^$third-party
+||tools-affil2.com^$third-party
 ||tools.islive.nl^$third-party
 ||travelads.be^$third-party
 ||viadata.store^
@@ -200,6 +202,7 @@ _advertentieleaderboardhome.
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keuken-ontwerp-aan-huis.jpg
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukenplaats.jpg
 ||golf.be/files/BannerImage/
+||gratissextube.be/banners/
 ||greenkeeper.nl/upload/banners/
 ||greenkeeper.nl/upload/relaties/
 ||halstadcentraal.nl/images/banners/
@@ -433,6 +436,7 @@ _advertentieleaderboardhome.
 /^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$image,script,subdocument,domain=hetepornoclips.com|pornwereld.com
 !--------Popups (derden)--------!
 ! *** easylistdutch/block_third_party_popup.txt ***
+||2k19.nl^$popup
 ||go2.go2cloud.org^$popup
 !--------Popups--------!
 ! *** easylistdutch/block_first_party_popup.txt ***
@@ -481,6 +485,7 @@ _advertentieleaderboardhome.
 ##.hoofdAd2
 ##.massarius-dfp-unit
 ##a[href^="https://go2.go2cloud.org/"]
+##a[href^="https://www.2k19.nl/"]
 ##a[href^="https://www.flirtadvertenties.nl/direct-sexdating/"]
 ##a[href^="https://xltube.nl/click/"]
 !
@@ -702,6 +707,7 @@ escort46.nl###top_image_div
 hollandskroonnieuws.nl,radio-minerva.be,wieringernieuws.nl###topbanner
 voetbal-vandaag.nl###topbox
 hotradiohits.nl###tpl_banners
+gratissextube.be###tracking-url
 tweakers.net###true
 omroepalmere.nl###widget_carousel_slider-3
 culturescope.nl###widget_sp_image-2
@@ -787,6 +793,7 @@ dolcevia.com##.banner-style
 maarkelsnieuws.nl##.banner-widget
 deblueskrant.nl,nieuweoogst.nl##.banner-wrap
 autowereld.nl,sexjobs.nl##.banner-wrapper
+opwindend.net##.banner468x60
 motocrossplanet.nl##.banner540
 rtvdordrecht.nl##.bannerContainer
 iexprofs.nl##.banner__article
