@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oDZdJgGWz0l8qciS7HKwEg
-! Version: 202401090002
+! Checksum: lCE/H124t1eHG8NWFS4fhA
+! Version: 202401090011
 ! Title: EasyList without rules for adult sites
-! Last modified: 09 Jan 2024 00:02 UTC
+! Last modified: 09 Jan 2024 00:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -63675,6 +63675,7 @@ bing.com##div[class="ins_exp vsp"]
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||einthusan.tv/prebid.js$script,~third-party
+@@||embed.ex.co^$xmlhttprequest,domain=espncricinfo.com
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||experienceleague.adobe.com^$~third-party
 @@||explainxkcd.com/wiki/images/$image,~third-party
