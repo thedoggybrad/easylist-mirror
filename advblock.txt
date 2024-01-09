@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tcIbjXdlldrDfiyX9hISEQ
-! Version: 202401091351
+! Checksum: sBbRBI3kgW0aX3GxPwoHbQ
+! Version: 202401091402
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Jan 2024 13:51 UTC
+! Last modified: 09 Jan 2024 14:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1944,6 +1944,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /lhzbsrfkjf/js/*$third-party,script
 /linkexchange/*
 /load-promo/*
+/mapsview/gomaps5.js$third-party
 /marketgid_$domain=~marketgid.com
 /marketplace.asp?
 /media/banners/*
@@ -1989,6 +1990,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /rbt_banner/*
 /rcl/all/*
 /rcl/ban/*
+/reader/filezone.js$third-party
 /redirect/cpa/*
 /redtram.$domain=~redtram.com
 /reklama6.
@@ -6631,6 +6633,7 @@ _tizers.
 ||informplel.ru^$third-party
 ||infortractor.site^$third-party
 ||inforuss.site^$third-party
+||infostuet.com^$third-party
 ||infowarship.com^$third-party
 ||infowarship.pages.dev^$third-party
 ||inghe.biz^$third-party
@@ -21730,6 +21733,8 @@ lada.kz/uploads/banners/
 ||mskd.ru/img/*x*_
 ||mt5.com^*/popup/popup.js
 ||mu-kgt.ru/*/widget/contract/
+||mult-porno.*/front/js/unwanted.js
+||mult-porno.*/front/js/vads.js
 ||multik-online.net/trotator/
 ||multiwork.org^$subdocument,domain=allbest.ru
 ||multmer.org^$object
@@ -22403,6 +22408,8 @@ lada.kz/uploads/banners/
 ||severstalclub.ru/pic/bimages/
 ||sevnews.info^*/adv_banners/
 ||sevnews.info^*/flash/
+||sex-studentki.*/front/js/unwanted.js
+||sex-studentki.*/front/js/vads.js
 ||sexgamesbox.com/images/
 ||sexoporno.su^*/sam-pro-
 ||sfera.fm/assets/media/bannery/
