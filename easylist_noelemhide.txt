@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tDn9uofyfqYyjgDo//e7eA
-! Version: 202401090002
+! Checksum: XSoF/MAgbHwFsH1xVqL3EA
+! Version: 202401090011
 ! Title: EasyList without element hiding rules
-! Last modified: 09 Jan 2024 00:02 UTC
+! Last modified: 09 Jan 2024 00:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -43116,6 +43116,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||einthusan.tv/prebid.js$script,~third-party
+@@||embed.ex.co^$xmlhttprequest,domain=espncricinfo.com
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||experienceleague.adobe.com^$~third-party
 @@||explainxkcd.com/wiki/images/$image,~third-party
