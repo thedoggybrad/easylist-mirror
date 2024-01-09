@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PMIpYHYvxOLutwwYEhfgeQ
-! Version: 202401091611
+! Checksum: rLLx915ir11VCcgcRK+wcA
+! Version: 202401091621
 ! Title: IndianList
-! Last modified: 09 Jan 2024 16:11 UTC
+! Last modified: 09 Jan 2024 16:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -683,8 +683,8 @@ _advt.jpg|
 /banner-$domain=navakal.in
 /banner/*$domain=arthparkash.com|firlive.com|jogsanjogtimes.com|kanvkanv.com|keralafinance.com|khabor.com|laksam.com|nbs24.org|tamil.com|thereport24.com
 /banners/*$domain=bajroshakti.com|digiana.com|karobardaily.com|tamil.srilankamirror.com|tcvonline.co.in|thaiveedu.com
-/bigyaapan/*$domain=godawarinews.com|khelpati.com|lumbinitimes.com|nayadainiki.com|nepalipublic.com|nepalsamaya.com|newsgriha.com|ninglashainionline.com|setopati.com|swasthyakhabar.com
-/bigyaapan^$domain=baahrakhari.com|kalikanews.com|khulaasa.com|nepalitwa.com|nepallive.com|shilapatra.com
+/bigyaapan/*$domain=baahrakhari.com|godawarinews.com|khelpati.com|lumbinitimes.com|nayadainiki.com|nepalipublic.com|nepalsamaya.com|newsgriha.com|ninglashainionline.com|setopati.com|swasthyakhabar.com
+/bigyaapan^$domain=kalikanews.com|khulaasa.com|nepalitwa.com|nepallive.com|shilapatra.com
 /bigyapan/*$domain=himalkhabar.com|khelpati.com|merolagani.com
 /block_$image,domain=ntvtelugu.com
 /blocks/block_$domain=aajtakmedia.net|aankhennews24.com|bhavtarini.com|encounterindia.in|firstbharat.in|firstrajasthan.com|gexpressnews.com|hindustankhabar.com|islamonweb.net|just36news.com|newsexpress24.com|pickthekhoj.in|polkholindia.com|postcardbd.com|purvikranti.com|sansaninews.com|vartanews.com
@@ -6225,8 +6225,8 @@ capitallivenews.com##.bignews_slider
 mediapunjab.com##.bigposter
 janatapati.com##.bigyaapan
 himalkhabar.com,nayadainiki.com,sajhapost.com##.bigyaapan-box
-baahrakhari.com,himalkhabar.com##.bigyaapan-item
-dekhapadhi.com,sajhapost.com##.bigyaapan-section
+himalkhabar.com##.bigyaapan-item
+baahrakhari.com,dekhapadhi.com,sajhapost.com##.bigyaapan-section
 janaaastha.com##.bigyapaan
 merofilm.com##.bigyapaan__section
 janaaastha.com##.bigyapaan__section img:not([src*="election_result.jpg"])
@@ -6433,7 +6433,6 @@ kholakagojbd.com,poriborton.com##.desktop-ad-nilsagor
 argusnews.in##.desktop-square-ad
 bikashnews.com##.desktop_main_news_banner
 nayabishwo.com##.detail-ad-holder
-baahrakhari.com##.detail-bigyapan
 khabardabali.com##.detail-right-ad img:not([src*="unicode_converter.jpg"])
 ekusheysangbad.com##.details-big-banner
 citynewsdhaka.com,ekusheysangbad.com##.details-page-side-banner
@@ -7072,8 +7071,8 @@ nepalraftar.com##.no-bod > a
 narayanionline.com##.no-vigyapan-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -7255,7 +7254,6 @@ rastriyakhabar.com##.side-ads-wrapper
 gayanews.in##.side-bar > .widget:nth-child(2)
 ayodhyasamachar.com##.side-bar center > embed
 ekuruvi.com##.side-bar-big-ads
-baahrakhari.com##.side-bigyaapan
 gournadi24.com##.side-indent .wgs-ads:first-child
 allnewsbharat.com,provatnews.com##.sideAdd
 gramnagarbarta.com##.sideAds_bg
@@ -7401,7 +7399,6 @@ rashtranayaknews.com##.small-adv
 reportersnepal.com##.small-arthik-widget
 agaminews.com##.small-banner-2
 sonalinews.com##.small-side-banner-wrapper
-hamrokhelkud.com##.small_space_wrapper
 dailydhaka24.com,inews.zoombangla.com,kannadanewsnow.com,theriyuma.com##.smartmag-widget-codes
 nittaa.com##.smashwords-widget
 banglalive.com##.sny-ads-panel
