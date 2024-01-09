@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: j2aR9ItYibruY9r1KLTmqg
-! Version: 202401090921
+! Checksum: ooLmsZwPSa0OyCGuCUBd5A
+! Version: 202401090931
 ! Title: EasyList Polish
-! Last modified: 09 Jan 2024 09:21 UTC
+! Last modified: 09 Jan 2024 09:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -494,6 +494,8 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=spotradomsko.pl
+||video.onnetwork.tv^$script,domain=gwio.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2496,6 +2498,11 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+ibytow.pl##.new-toplayer
+dziendobrypomorze.pl##.new-toplayer
+gwarek.com.pl##.new-toplayer
+wpu24.pl##.new-toplayer
+spotradomsko.pl##.new-toplayer
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
