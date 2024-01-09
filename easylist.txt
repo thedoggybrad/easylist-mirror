@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202401091204
+! Version: 202401091124
 ! Title: EasyList
-! Last modified: 09 Jan 2024 12:04 UTC
+! Last modified: 09 Jan 2024 11:24 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -34714,7 +34714,6 @@ browsershots.org#@#.advert_area
 ||lirateblister.com^
 ||lirdooch.xyz^
 ||lispingwraths.space^
-||list-ads.com^
 ||listeraislatory.site^
 ||listfulhymnals.website^
 ||listguineaelementary.com^
@@ -66465,6 +66464,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@://192.168.0.1$generichide
 @@://192.168.1.1$generichide
 @@://localhost:$generichide
+@@||ad-maven.com^$generichide
 @@||ads.microsoft.com^$generichide
 @@||apple.com^$generichide
 @@||bitbucket.org^$generichide
