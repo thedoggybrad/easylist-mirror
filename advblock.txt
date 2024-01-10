@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wb7vJlFAcXj7S8Osa4UHhQ
-! Version: 202401100751
+! Checksum: mPfRAksng6vo4A8UzC922A
+! Version: 202401100802
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jan 2024 07:51 UTC
+! Last modified: 10 Jan 2024 08:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17790,7 +17790,6 @@ altai4u.com##a[href^="https://play.google.com/store/apps/details?id="]
 allboxing.ru,lifenews.ru,topwar.ru##a[href^="https://relap.io/"][data-ad-link]
 softodrom.ru##a[href^="https://rosecatalog.ru"]
 shazoo.ru##a[href^="https://shazoo.ru/click/"]
-qaru.site##a[href^="https://studwork.org"]
 biqle.org##a[href^="https://theporndude.com/"]
 triskirun.ru##a[href^="https://triskirun.ru/golink/"]
 brestcity.com##a[href^="https://tutvisa.by/"]
@@ -19743,6 +19742,7 @@ rafkino.com##div[id^="MarketGid"]
 ||24smi.*/top/$csp=script-src
 ||24top.*/top/$csp=script-src
 ||agroter.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.io *.net *.org *.ru *.ua
+||alensat.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.googleapis.com *.google.com/recaptcha/ *.gstatic.com/recaptcha/ translate.google.com *.dev *.io *.net *.org
 ||an.yandex.ru/count/$csp=script-src
 ||askentire.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.keycaptcha.com
 ||autonews.co.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.io *.net *.org *.ru *.ua
