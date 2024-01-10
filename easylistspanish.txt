@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9xhdh3Wdf+6NTO8DAFkfSQ
-! Version: 202401101831
+! Checksum: WCO74qBlxM0/j/pnYS3OZg
+! Version: 202401101841
 ! Title: EasyList Spanish
-! Last modified: 10 Jan 2024 18:31 UTC
+! Last modified: 10 Jan 2024 18:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1364,6 +1364,8 @@ hola.com###div-hola-slot-robapaginas
 mangatigre.net###dl-banner-300-250
 elnacional.com###en_nd_home_flat_2
 elnacional.com###en_nd_home_flat_3
+elmercurio.com.ec###fancybox-overlay
+elmercurio.com.ec###fancybox-wrap
 futbolme.com###headeradd
 periodismokosher.com.ar###key2sticky
 excelsior.com.mx###leaderboard0
@@ -1678,6 +1680,8 @@ meganoticias.cl##.section-dfp
 directoalpaladar.com,trendenciashombre.com,vidaextra.com,xataka.com##.section-native-container
 depor.com##.separator__sponsored
 seriesturcas.gratis##.serie-optimanetwork
+lagaceta.com.ec##.sgpb-popup-dialog-main-div-wrapper
+lagaceta.com.ec##.sgpb-popup-overlay
 emporda.info##.sk--branded-content
 informacion.es##.sk--offered-by
 informacion.es##.sk--project-with-logo
@@ -1695,7 +1699,7 @@ elindependiente.com##.sub_header
 elrellano.com##.tag-enlace-de-afiliados
 prensa.com##.tagPublicidad
 publinews.gt##.takeoverlink
-bavaronews.com,diariolaprensa.cl,elmundotoday.com,elperiodicousa.com,guineainfomarket.com,horajaen.com,lagdeguinea.com,noticiasuno.com,pcpro.es,periodismo.com,udlaspalmas.net##.td-a-rec
+bavaronews.com,diariolaprensa.cl,elmercurio.com.ec,elmundotoday.com,elperiodicousa.com,guineainfomarket.com,horajaen.com,lagdeguinea.com,noticiasuno.com,pcpro.es,periodismo.com,udlaspalmas.net##.td-a-rec
 elsolnews.com##.tdi_132
 udlaspalmas.net##.tdi_22
 ffcv.es##.testimonials-partners
@@ -1720,6 +1724,7 @@ ahoraeg.com##.vc_custom_1676190182392
 ideal.es,laverdad.es,leonoticias.com##.voc-home-branded-naked
 animalpolitico.com##.w-full.min-h-\[100px\].pt-\[48px\]
 naiz.eus##.w-openx-banners
+ppelverdadero.com.ec##.widget.HTML
 lanacion.com.ec##.widget.widget_text
 tudn.com##.widget[data-widget-type="ListWidget"]
 beermagazine.net,recetasdepan.net##.widget_aawp_widget_bestseller
@@ -1795,6 +1800,7 @@ cannabis420.cl##div[id^="canna-"]
 debosaber.cl##div[id^="debos-"]
 diariosanrafael.com.ar##div[id^="dsr-"]
 durosa4pesetas.com##div[id^="duros-"]
+elmercurio.com.ec##div[id^="elmer-"]
 enteratelatino.org##div[id^="enter-"]
 generacionxbox.com##div[id^="gener-"]
 weedmagazine.net##div[id^="weedm-"]
@@ -1842,6 +1848,7 @@ marcadegol.com##img[width="750"]
 laprensadecolorado.com,periodicoelsolpr.com##img[width="800"]
 mundo724.com#?#.et_pb_column:-abp-has(p:-abp-contains(Publicidad))
 c9n.com.py,elcomercio.com,repretel.com##ned-ad
+lagaceta.com.ec##rs-slides
 ! :has()
 forocoches.com###sidebar > div > section:has(.fixed_adslot)
 elpais.com.uy##.Page-above.loaded:has(div[class^="GoogleDfpAd"])
