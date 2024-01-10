@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ws28EQSx4aflZy90nRlRNg
-! Version: 202401101451
+! Checksum: qSMuOJ4Ik5LgCLJqpiBjnQ
+! Version: 202401101502
 ! Title: IndianList
-! Last modified: 10 Jan 2024 14:51 UTC
+! Last modified: 10 Jan 2024 15:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6688,7 +6688,7 @@ bdbarrta24.com##.h_ads
 sunbd24.com##.h_ads a:not([href*="sunbd24.com"])
 myfirstshow.com##.hb-img
 haribhoomi.com##.hbm-320-50-ad
-alokitobarisal.com##.hdr_banner
+alokitobarisal.com,swadeshsangbad.com##.hdr_banner
 dailysports24.com##.head-banner
 alivenews.co.in##.head-main-ad
 vgnews.in##.headAdExBlock
@@ -7073,8 +7073,8 @@ nepalraftar.com##.no-bod > a
 narayanionline.com##.no-vigyapan-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -8137,7 +8137,6 @@ thaiveedu.com##a.vc_single_image-wrapper:not([href*="thaiveedu.com"])
 prothomalo.com##a[class*="_ad_wrapper__"]
 sagartvnews.com##a[class^="myadsply"]
 bangladeshonline24.com##a[href*=".ac.bd"]
-divaina.lk##a[href*=".daraz.lk"] img
 mymensinghpratidin.com##a[href*="/ad-2/"]
 hamrobiratnagar.com##a[href*="/ads/"]
 newsajako.com##a[href*="/newspaper-ads/"] img
@@ -8157,6 +8156,7 @@ hindilok.com##a[href*="astrosage.com"]
 pannagam.com##a[href*="baluasiaadd"]
 bartamanbangladesh24.com,tritiyamatra.com##a[href*="bdinfobiz.com/pos-software"]
 gkprashnuttar.com##a[href*="bit.ly"]
+divaina.lk##a[href*="bit.ly"] img
 lankadeepa.lk##a[href*="bit.ly/44036s6"] img
 varthabharati.in##a[href*="bitmangalore.edu.in"]
 prothomalo.com##a[href*="bkash.com"]
