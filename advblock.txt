@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: C47hgVn1MjZIR0Yqyns4Zw
-! Version: 202401101541
+! Checksum: byd1mdwcGEFUkFA20M5GSA
+! Version: 202401101551
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jan 2024 15:41 UTC
+! Last modified: 10 Jan 2024 15:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12728,6 +12728,7 @@ hv-info.ru###wrapheader > table[width="100%"]
 oper.ru###wrapper > #bglink
 motorpuls.ru###wrapper > #header
 metodsilva.ru###wrapper > .fma-bg
+gagadget.com###wrapper > .l-container_wide[style*="min-height:"]
 rasfokus.ru,waralbum.ru###wrapper > noindex
 myzcloud.me###wrapperBillboardScroll
 newsko.ru###xtest-videoad
@@ -17007,6 +17008,7 @@ treebuna.info,vprognoze.ru##[src*="/banners/"]
 gorvesti.ru,xn--b1ats.xn--80asehdb##[src*="/files/rk/"]
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##[src*="/frontend/assets/advert/"]
 bazr.ru##[src*="/global/banner/"]
+ilenta.com##[src*="/images/banner/"]
 fakty.ua##[src*="/images/banners/"]
 allrefrs.ru##[src*="/imgr/"]
 gecid.com##[src*="/inc/getBanIf."]
@@ -19022,7 +19024,6 @@ vellisa.ru##div[style="display: inline-block;"] a[href]
 nnovosti.info##div[style="display:none"]
 novostivmire.com##div[style="float: none; margin:0px;"]
 gizmod.ru##div[style="float:left;width:344px;height:295px;"]
-ilenta.com##div[style="float:right; margin-bottom:10px; width:320px; height:65px;"]
 forum.china-iphone.ru##div[style="float:right; margin-right: 5px;"]
 lleo.me##div[style="font-size:11px; margin: 0 2px 0 2px;"]
 liveresult.ru##div[style="font-size:18px; font-weight:bold;margin-bottom:10px;"]
@@ -19040,7 +19041,6 @@ joker.ykt.ru#?#div[style="margin-left:21px;"]:-abp-has(.opros:-abp-contains(Ре
 gazetavv.com##div[style="margin-top:5px;height:90px;"]
 gamebomb.ru##div[style="margin: 10px auto; width: 970px; height: 250px"]
 intv.com##div[style="margin: 10px; text-align: center;"]
-ilenta.com##div[style="margin:5px 0px; width:620px; height:350px"]
 holm.ru##div[style="max-height:250px"]
 gagadget.com##div[style="min-height: 249px;"]
 meteopost.com##div[style="min-height: 300px;"]
@@ -19111,7 +19111,7 @@ liveposts.ru##div[style^="min-height: 700px;"]
 open3dmodel.com##div[style^="min-height:"][style$="px;"]
 point.md##div[style^="min-height:"][style*="250px"]
 1pnz.ru##div[style^="position: relative; width: 230px; height: 400px"]
-soccer365.com.ua,soccer365.ru##div[style^="position:"][style*="height:90px"]
+soccer365.com.ua,soccer365.ru##div[style^="position:"][style*="height:"][style*="90px"]
 lostfilmstv.com##div[style^="promo"]
 kinonews.ru##div[style^="text-align:"][style*="center;"][style*="height:"]
 wallegend.net##div[style^="text-align:center;line-height:0;display:block;height:"]
@@ -21255,6 +21255,7 @@ lada.kz/uploads/banners/
 ||ihead.ru/offers/
 ||ikinokz.net/bannr.js
 ||ikinokz.net/ikino.js
+||ilenta.com/images/banner/
 ||ilibrary.ru/js/adplacements
 ||im.tagilcity.ru^*?mt=
 ||image.jimcdn.com^$image,domain=optimistt.ru
