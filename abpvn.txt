@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: D+/eNaDuUDJis8bqRdYdYQ
-! Version: 202401110911
+! Checksum: 5HSIR7yh18xx+CpAS8DvTw
+! Version: 202401110921
 ! Title: ABPVN List
-! Last modified: 11 Jan 2024 09:11 UTC
+! Last modified: 11 Jan 2024 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 11 Jan 2024 16:03:52 UTC+7
+! Last modified: 11 Jan 2024 16:17:51 UTC+7
 !
 ! ABPVN List filter
 ! Copyright: ABPVN
@@ -204,7 +204,7 @@
 ||p.thoctv.com^*.gif$image
 ||phetruyen.pro/storage/images/banner/$image
 ||phimcuon.com^*.gif$image
-||phimgichill.net$csp=script-src 'self' 'unsafe-inline' http
+||phimgichill.net$csp=script-src 'self' 'unsafe-inline' http: https:
 ||phimhay.in^*.gif
 ||phimhaythuyetminh.live$csp=script-src 'self' 'unsafe-inline'
 ||phimhaytv.info^*.gif
