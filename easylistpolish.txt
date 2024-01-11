@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fEyqB/NLuhJvKAOIDHxS5w
-! Version: 202401110811
+! Checksum: +xgLBgwFbWL6aaIo5166+g
+! Version: 202401110821
 ! Title: EasyList Polish
-! Last modified: 11 Jan 2024 08:11 UTC
+! Last modified: 11 Jan 2024 08:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -494,6 +494,9 @@ supernowosci24.pl##[id^="r-"]
 ||video.onnetwork.tv^$script,domain=chocianow.com.pl
 ||video.onnetwork.tv^$script,domain=naszradziejow.pl
 ||video.onnetwork.tv^$script,domain=wiescimiedzychodzkie.pl
+||video.onnetwork.tv^$script,domain=brodnica365.pl
+||video.onnetwork.tv^$script,domain=chelmza365.pl
+||video.onnetwork.tv^$script,domain=leszno24.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2498,6 +2501,8 @@ vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 plonskwsieci.pl##.new-toplayer
+wrzesnia.info.pl##.new-toplayer
+haloursynow.pl##.new-toplayer
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
