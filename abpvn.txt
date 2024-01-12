@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: wqJ3bbTHmL+BlIu1bR6aJQ
-! Version: 202401120403
+! Checksum: GM3H27KWE/ynKf8t7h+8CQ
+! Version: 202401120411
 ! Title: ABPVN List
-! Last modified: 12 Jan 2024 04:03 UTC
+! Last modified: 12 Jan 2024 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 12 Jan 2024 10:49:27 UTC+7
-! Diff-Path: patches/20240112104927.patch#abpvn
+! Last modified: 12 Jan 2024 11:10:23 UTC+7
+! Diff-Path: patches/20240112111023.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -292,7 +292,7 @@
 ||tuyensinh247.com/$image,third-party
 ||tuyensinhso.vn/images/banners/*.gif$image,~third-party
 ||uniad.$third-party
-||upload.bongda365.asia//banner/$domain=bongda365.asia
+||upload.bongda365.news//banner/$domain=bongda365.news
 ||upload.cc^*.gif$image,domain=zuiphim.com
 ||vesotantai.com/upload/photo/$image
 ||vidian.wiki/images/*.gif
@@ -480,7 +480,7 @@ bongda21h.me###backgroundPopupp
 bongda21h.me###popupContact
 bongda21h.me###wap_bottombannerr
 bongda21h.me##.grid-match[style]
-bongda365.asia,keoso.co,soikeoz.co##.banners
+bongda365.news,keoso.co,soikeoz.co##.banners
 bongdainfoz.net##.oddsCompany
 bongdalu6.com##div[id^="AdLayer"]
 bongdalu6.com##div[id^="ad_"]
@@ -1243,7 +1243,7 @@ $third-party,script,domain=sexdiaryx.us
 ||cdn.javbabe.net^$subdocument
 ||cliphot69.biz$csp=script-src 'self' 'unsafe-inline'
 ||cliphotvn.vip^*.gif$image
-||cloufdlare.com/ads/vn1.html$subdocument,domain=sexdotz.net
+||cloufdlare.com/ads/vn1.html$subdocument,domain=sex.phe.to
 ||discordapp.$image,domain=phym18.org|phim18vipb.com
 ||greenupload.com^*.gif$image,domain=thiendia1.cc
 ||greenupload.com^*ad-$image,domain=thiendia1.cc
@@ -1275,7 +1275,7 @@ $third-party,script,domain=sexdiaryx.us
 ||quoracdn.net^$image,domain=vlxx.xxx|vlxyz.tv|sieudamtv.me
 ||rphang.online^*.gif
 ||sayhentai.fun/assets/js/ads.js
-||sex.lenlut.net/themes/js/main.js$script
+||sex1.lenlut.net/themes/js/main.js$script
 ||sexdiaryx.us$csp=script-src 'self' 'unsafe-eval'
 ||sieukhung.name^*.gif$image
 ||truyen18.xyz/media/abc/$image
@@ -1319,7 +1319,6 @@ lxmanga.net##.preload-banner
 phevkl.co###mp-preload-popup-overlay
 phevkl.co##.separator
 phim.heo69.top##.catfix
-phim.sexabc.pro,sex.ngonvcl.pro,phim2.sex24h.pro##.quangcaomobile
 phim18hd.biz,phim18vn.biz,phim18hd.me##.cash-fish
 phim18hd.biz,phim18vn.biz,phim18hd.me##.cash-fish-pc
 phim18hd.biz,phim18vn.biz,phim18hd.me##.preload-pc
@@ -1335,8 +1334,9 @@ rphang.co##.bbMediaWrapper-inner>.samCodeUnit
 rphang.co##.js-replyNewMessageContainer.block-body>div.samCodeUnit>.samItem
 rphang.co##.p-footer
 rphang.co##.samVideoOverlay
-sexdotz.net###divExoLayerWrapper
-sexdotz.net##.sdzhead
+sex.phe.to###divExoLayerWrapper
+sex.phe.to##.sdzhead
+sexdacbiets.pro,sex.ngonvcl.pro,phim2.sex24h.pro##.quangcaomobile
 sexhay2024.com###tut4ktream_idAdLink
 sieudamtv.me###pc-preload-modal
 sieudamtv.me###popup
