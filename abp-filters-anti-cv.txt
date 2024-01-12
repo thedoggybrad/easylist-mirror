@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: BMjOtODwR4l7IlyJ0NAX2A
-! Version: 202401120851
+! Checksum: ggddgOP+RpQHvd/Rcg8WsA
+! Version: 202401120903
 ! Title: ABP filters
-! Last modified: 12 Jan 2024 08:51 UTC
+! Last modified: 12 Jan 2024 09:03 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1489,7 +1489,7 @@ phimvuihd.org#$#override-property-read urlAds ''
 thapcam2.live#$#simulate-mouse-event '#modalasd$continue,delay=300'
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 ! Popup/Popunder/Clickunder
-fembed.com,femax20.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net,animet.net,anh.moe#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.com,viettoons.tv,vinaurl.net,animet.net,anh.moe#$#abort-on-property-read open
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
 truyen2u.net#$#abort-current-inline-script eval
 thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
@@ -1499,7 +1499,7 @@ xnxx-sex-videos.com#$#override-property-read user_out false
 truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
-truyentuanop.com#$#abort-current-inline-script $ btpop
+truyentuanopm.com#$#abort-current-inline-script $ btpop
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
 xoilac96.net#$#abort-on-property-read adsRedirectPopups
