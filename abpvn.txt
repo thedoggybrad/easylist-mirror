@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: GM3H27KWE/ynKf8t7h+8CQ
-! Version: 202401120411
+! Checksum: O1rfjBzJhvh/UoKGMtj36Q
+! Version: 202401120421
 ! Title: ABPVN List
-! Last modified: 12 Jan 2024 04:11 UTC
+! Last modified: 12 Jan 2024 04:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 12 Jan 2024 11:10:23 UTC+7
-! Diff-Path: patches/20240112111023.patch#abpvn
+! Last modified: 12 Jan 2024 11:12:21 UTC+7
+! Diff-Path: patches/20240112111221.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -860,11 +860,11 @@ phuongtrinhhoahoc.com##.shadow-card + .mt-2
 pl-rk.livefb.xyz##.danh-sach-phia-duoi
 plvb.xyz##.odds-button
 plvb.xyz##.odds-button2
-protruyen.fun##.click-ads ~ p
-protruyen.fun##.overlay-close
-protruyen.fun##div.mrb10
-protruyen.fun,protruyen2.fun##.click-ads
+protruyen2.fun##.click-ads ~ p
 protruyen2.fun##.close-button
+protruyen2.fun##.overlay-close
+protruyen2.fun##div.mrb10
+protruyen2.fun,protruyen2.fun##.click-ads
 qdnd.vn##.box-banner
 qthang.net##.ad-script
 qthang.net##.elementor-widget-container>.widget_custom_html
@@ -887,7 +887,7 @@ soikeo365.net###desktopPopupBanner
 soikeo365.net##.ads-floatingads
 soikeo365.net##.banner-item
 soikeo365.net##.top-nha-cai
-soikeoz.co,tvhayh.org,protruyen.fun,phimmoinay.tv,phimtho.net,tutientruyen2.xyz,chillhay-net.pro,protruyen2.fun###popup_banner_beta
+soikeoz.co,tvhayh.org,protruyen2.fun,phimmoinay.tv,phimtho.net,tutientruyen3.xyz,chillhay-net.pro,protruyen2.fun###popup_banner_beta
 sport5.vn,afamily.vn##.afw-topbanner
 ssplay.net,zophim.net###_AM_POPUP_FRAME
 subnhanhvl.co,subnhanh.app,subnhanh.bio###xs-addd0
@@ -1047,7 +1047,7 @@ vietq.vn##section.mar20:nth-of-type(4)
 viettelstore.vn###banner-dai-bottom
 viettelstore.vn###banner-dai-top
 vkoolsss.net##.box-rating
-vkoolsss.net,subnhanhvl.co,subnhanh.app,subnhanh.bio,tructiepdabong5.co,tutientruyen2.xyz###overlay
+vkoolsss.net,subnhanhvl.co,subnhanh.app,subnhanh.bio,tructiepdabong5.co,tutientruyen3.xyz###overlay
 vkoolsss.net,vuonhoalan.net,gunnylau360.net,mythethao.net,phimplay24h.com,kenhgamelau.com,phimno4.xyz,gunnymienphi.net,dailyphimz.com,xemhay24h.com,listnhacai1.com,phim33.tv,247phim.cc,vkooll.net,vungtv.us##.float-ck
 vndoc.com,download.com.vn,quantrimang.com,download.vn,gamevui.vn,khoahoc.tv,meta.vn##.adbox
 vnews.gov.vn##.banner-bottom-menu
@@ -1234,7 +1234,7 @@ vndoc.com#@#.showads
 !------ ABPVN Adult block -------
 $third-party,script,domain=sexdiaryx.us
 /player/vast.js
-/wp-content/uploads/*.gif$image,domain=tuoi69z.pro|tuoinung.cc|tphimsex.club|phevkl.co
+/wp-content/uploads/*.gif$image,domain=tuoi69z.pro|tuoinung.cc|teletiengviet.com|phevkl.co
 @@||pagead2.googlesyndication.com^$domain=gaingon18.com
 ||ads.6789live.com^$image
 ||blogger.googleusercontent.com^*.gif$image,domain=gvnvh18.com
@@ -1336,7 +1336,7 @@ rphang.co##.p-footer
 rphang.co##.samVideoOverlay
 sex.phe.to###divExoLayerWrapper
 sex.phe.to##.sdzhead
-sexdacbiets.pro,sex.ngonvcl.pro,phim2.sex24h.pro##.quangcaomobile
+sexdacbiets.pro,sex.ngonvcl.pro,sex.xemphimhay.pro##.quangcaomobile
 sexhay2024.com###tut4ktream_idAdLink
 sieudamtv.me###pc-preload-modal
 sieudamtv.me###popup
