@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: O1rfjBzJhvh/UoKGMtj36Q
-! Version: 202401120421
+! Checksum: sMb1JUym7oMSfiD8elP5XQ
+! Version: 202401120431
 ! Title: ABPVN List
-! Last modified: 12 Jan 2024 04:21 UTC
+! Last modified: 12 Jan 2024 04:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 12 Jan 2024 11:12:21 UTC+7
-! Diff-Path: patches/20240112111221.patch#abpvn
+! Last modified: 12 Jan 2024 11:24:44 UTC+7
+! Diff-Path: patches/20240112112444.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -109,8 +109,8 @@
 ||cdn.webhoctienganh.com/asset/home/img/banner/$image,domain=webhoctienganh.com
 ||cdn2-img.net^*.gif$image,domain=hhpanda.co|dongchill.tv|biphim.io|subnhanh.app|subnhanh.bio|subnhanhvl.co|bichill.one|dongphim3s.net
 ||cf.shopee.vn^$image,domain=animevietsub.io
-||chillhay.pro/ads/$image
-||chillhay.pro/guide/popup.tt-f.js
+||chillhay.me/ads/$image
+||chillhay.me/guide/popup.tt-f.js
 ||chillphimmoiz.org/assets/*.gif$image
 ||chillphimmoiz.org/assets/js/popup.js
 ||chodansinh.net^*.gif
