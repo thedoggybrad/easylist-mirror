@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /VHyvnKV6S7hHhcxW4blNw
-! Version: 202401141241
+! Checksum: HY5nXCAy6vzhXbnnvQaBRg
+! Version: 202401141251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Jan 2024 12:41 UTC
+! Last modified: 14 Jan 2024 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12052,6 +12052,7 @@ oper.ru#?##left li:-abp-has(a[href*="//wink."])
 oper.ru#?##left li:-abp-has(a[href*="://opershop.ru"])
 rabota.kharkov.ua###left-banners
 questtime.net###left-bot
+3dnews.kz,3dnews.ru###left-sidebar > .sidebar-chunk.mid:not(.strong)
 gk-press.if.ua###left-sidebar > .widget_text
 mosgorzdrav.ru###left_banners > a[href="http://sod.mos.ru"]
 pesni-tut.com###left_block > div:not([id]):not([class])
