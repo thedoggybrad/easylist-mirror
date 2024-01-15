@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: 9qhc7CylO0NbFsqZrtlx9w
-! Version: 202401150211
+! Checksum: wRB13UygD/6XphvOk9Y5cg
+! Version: 202401150221
 ! Title: ABPVN List
-! Last modified: 15 Jan 2024 02:11 UTC
+! Last modified: 15 Jan 2024 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 15 Jan 2024 07:59:14 UTC+7
-! Diff-Path: patches/20240115075914.patch#abpvn
+! Last modified: 15 Jan 2024 09:20:33 UTC+7
+! Diff-Path: patches/20240115092033.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -461,7 +461,7 @@ bantincongnghe.net##[href*="cellphones.com.vn"]
 baodauthau.vn,mmo4me.com##div[class*="ads"]
 baohaugiang.com.vn##.top-header
 baomoi.com###BaoMoi_HalfPage
-baomoi.com#?#[id="__next"]>div:-abp-has(#BaoMoi_Masthead)
+baomoi.com##[id="__next"]>div:has(#BaoMoi_Masthead)
 baonga.com##.monkey-content-duoicanbiet
 baonga.com##.monkey-section-tinnoibat
 baonga.com##div.monkey-qc
@@ -639,8 +639,8 @@ hoc24.vn###modal-ads-olm
 hoidap247.com##.ads-home-feed
 homedy.com##.left-slider
 hosocongty.vn##.advertTop
+hosocongty.vn##.hsdn>li:has(.adsbygoogle)
 hosocongty.vn##.module_plugins
-hosocongty.vn#?#.hsdn>li:-abp-has(.adsbygoogle)
 hotruyen.com##.text-center.adsense
 huphimtv.com##.banner-bot-mobile
 huphimtv.com##.banner-top-mobile
@@ -688,7 +688,7 @@ lichvannien365.com##div[style="width: 100%; min-height: 240px; text-align: cente
 lichvannien365.com##div[style="width: 100%; min-height: 90px; text-align: center;"]
 lichvannien365.com##div[style="width: 100%;text-align: center;min-height: 280px;"]
 link1s.com###link-view>center:nth-of-type(1)
-linkerpt.com#?#[id^="bdaia-widget-html"]:-abp-has(.widget-inner>[href*="premiumvns.com"])
+linkerpt.com##[id^="bdaia-widget-html"]:has(.widget-inner>[href*="premiumvns.com"])
 linkneverdie.net##.info-footer:nth-child(4)
 listnhacai1.com##.dwpb-action
 listnhacai1.com##.fixtop
@@ -902,8 +902,8 @@ tapchibitcoin.io##.lepopup-popup-overlay
 tapchikientruc.com.vn##._ning_outer
 tctruyen.com,tctruyen.net,abtruyen.com##.no-auto-popup
 tctruyen.com,tctruyen.net,abtruyen.com##.qc-adskeeper
-techrum.vn#?#.block:-abp-has(.block-container>.block-body>a[href])
-techrum.vn#?#.block:-abp-has(.block-container>.block-body>ins)
+techrum.vn##.block:has(.block-container>.block-body>a[href])
+techrum.vn##.block:has(.block-container>.block-body>ins)
 tenovi.net###ad_balloon
 thanhnien.vn##.asd-headt
 thanhnien.vn##.detail-tab>.container
@@ -1261,7 +1261,7 @@ $third-party,script,domain=sexdiaryx.us
 ||greenupload.com^*banner$image
 ||hentaivn.lol/qx/$subdocument
 ||i.ibb.co^$image,domain=thiendia1.cc
-||i.imgur.com^$image,domain=phym18.org|phim18hd.biz|phim18vn.biz|phim18hd.me|xamvn.dog
+||i.imgur.com^$image,domain=phym18.org|phim18hd.top|phim18vn.biz|phim18hd.me|xamvn.dog
 ||i2.wp.com/hentaivnmoi.net/*banner
 ||i9zk5f8szj4x8saj5wcks8acja5sk1dz8stjs2g8isdcn6ejxn8zsr5xjs5h.com^
 ||img.av3x.net/upload/av3x.net/banners/$domain=phimsexhay669.co
@@ -1332,10 +1332,10 @@ lxmanga.net##.preload-banner
 phevkl.co###mp-preload-popup-overlay
 phevkl.co##.separator
 phim.heo69.top##.catfix
-phim18hd.biz,phim18vn.biz,phim18hd.me##.cash-fish
-phim18hd.biz,phim18vn.biz,phim18hd.me##.cash-fish-pc
-phim18hd.biz,phim18vn.biz,phim18hd.me##.preload-pc
-phim18hd.biz,phim18vn.biz,phim18hd.me##.top-mobile-banner
+phim18hd.top,phim18vn.biz,phim18hd.me##.cash-fish
+phim18hd.top,phim18vn.biz,phim18hd.me##.cash-fish-pc
+phim18hd.top,phim18vn.biz,phim18hd.me##.preload-pc
+phim18hd.top,phim18vn.biz,phim18hd.me##.top-mobile-banner
 phimsexhay669.co##.v4j-header>a[target="_blank"]
 phym18.org###backgroundPopupp
 phym18.org###popupContact
