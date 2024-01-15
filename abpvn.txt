@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: RL0J+nxhkJSHYJ18H+VbfA
-! Version: 202401151331
+! Checksum: L7P3P5iUy94teV75CHywVg
+! Version: 202401151341
 ! Title: ABPVN List
-! Last modified: 15 Jan 2024 13:31 UTC
+! Last modified: 15 Jan 2024 13:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 15 Jan 2024 19:38:42 UTC+7
-! Diff-Path: patches/20240115193842.patch#abpvn
+! Last modified: 15 Jan 2024 13:37:24 UTC+7
+! Diff-Path: patches/20240115133724.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1241,6 +1241,7 @@ $third-party,script,domain=sexdiaryx.us
 ||ads.6789live.com^$image
 ||blogger.googleusercontent.com^*.gif$image,domain=gvnvh18.com
 ||buomtv.tv/palivn/ad/$image
+||cdn-01.w3img.com^*.gif$image,domain=javhd.tech
 ||cdn.adxcontent.com^
 ||cdn.javbabe.net^$subdocument
 ||cliphot69.vin$csp=script-src 'self' 'unsafe-inline'
@@ -1279,7 +1280,7 @@ $third-party,script,domain=sexdiaryx.us
 ||sayhentai.fun/assets/js/ads.js
 ||sex1.lenlut.net/themes/js/main.js$script
 ||sexdiaryx.us$csp=script-src 'self' 'unsafe-eval'
-||sexsub.online^*.gif$image,domain=tuoi69.tv
+||sexsub.online^*.gif$image,domain=tuoi69.tv|javhay.cam
 ||sieukhung.site^*.gif$image
 ||top1sex.club/theme/custom.int.js
 ||truyen18.xyz/media/abc/$image
@@ -1314,6 +1315,7 @@ hentaivn.lol##.qx_135
 javhay.cam##.v4j-header>center
 javhd.shop,sex.vlxx.studio,sex.heovl.online##.hd-tube-desktop
 javhd.shop,sex.vlxx.studio,sex.heovl.online##.hd-tube-mobile
+javhd.tech###AgeModal
 javtiful.com###latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 javtiful.com##.v3sb-box
 javtopxx.com##.cat-fish.a-play
