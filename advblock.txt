@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Il03nAgltdcmfUmDx4GvVQ
-! Version: 202401151350
+! Checksum: vozqSGVwoQDRCLMu6v30mQ
+! Version: 202401151401
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Jan 2024 13:50 UTC
+! Last modified: 15 Jan 2024 14:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11604,7 +11604,7 @@ online.ua###ban_news_r
 cxem.net###ban_pod
 forum.cxem.net###ban_podv
 sport.ua###bann-240
-beholder.pro,cafe.imgradio.ru,chilla.imgradio.ru,cripo.com.ua,deti.imgradio.ru,etver.ru,fergananews.com,fresh.imgradio.ru,funk.imgradio.ru,infobank.by,link.ac,live-gol.net,liveangarsk.ru,lm-games.com,only-soft.org,ping-admin.ru,premiership.ru,qupier.org,radio.megaradio.pro,radio.ruhit.pro,readbookz.com,retrohit.pro,rurock.imgradio.ru,urod.ru,voxpopuli.kz,xtreme.ws###banner
+beholder.pro,cafe.imgradio.ru,chilla.imgradio.ru,cripo.com.ua,deti.imgradio.ru,etver.ru,fergananews.com,fresh.imgradio.ru,funk.imgradio.ru,infobank.by,link.ac,live-gol.net,liveangarsk.ru,lm-games.com,ping-admin.ru,premiership.ru,qupier.org,radio.megaradio.pro,radio.ruhit.pro,readbookz.com,retrohit.pro,rurock.imgradio.ru,urod.ru,voxpopuli.kz,xtreme.ws###banner
 gamexp.ru###banner-slider
 get-tune.net,mirmmo.ru,oneprogs.ru###banner-top
 pn.com.ua###banner-top-stretching
@@ -13135,7 +13135,6 @@ wotspeak.org##.asn
 ua-football.com#?#.asside:-abp-has(> .topBook)
 specials.goha.ru##.asus_prm
 tapochek.net##.attach > tbody > tr:not([class]) > td[width="100%"][class="attachheader"][align="center"]
-only-soft.org##.attach.bordered.med > tbody > tr.tCenter:last-child
 igrovaya.org##.attachment a[href*="aHR0c"][target="_blank"]
 au.ru##.au-candy
 au.ru##.au-prime-page-desktop-banner
@@ -18141,7 +18140,6 @@ anypictures.ru,pixcloud.ru##center > a[href]:not([href="//www.liveinternet.ru/cl
 mehanik.games,tes-game.ru##center > a[href][rel="nofollow"] > img
 aggromusic.ru,fullpcgame.ru,gidonline.fun,gig-games.net,hentaiz.org,megosales.com,pes-files.ru,torrent-song.ru,torrents-soft.net,yaebus.net##center > a[href][target="_blank"] > img
 root-nation.com##center > a[href][target="_blank"] img
-only-soft.org##center > a[rel="nofollow"] > img
 molchun.ru##center > a[rel="nofollow"][target="_blank"] > img
 samopoznanie.ru##center > a[style][href][target="_blank"]
 inmoment.ru,megaonlines.net##center > a[target="_blank"]
@@ -19317,6 +19315,7 @@ manutd.ru##img[src*="/images/pari/"]
 upl.ua##img[src*="/images/puma_"]
 forbes.kz##img[src*="/images/sponsors/"]
 upl.ua##img[src*="/images/vbet_"]
+only-soft.org##img[src*="/images/vk_"]
 exdex.ru##img[src*="/img/ab/"]
 zmi.ck.ua##img[src*="/img/andora"]
 chelseablues.ru##img[src*="/img/banners/"]
@@ -19527,7 +19526,6 @@ sp.mamask.ru##span[id^="banner"]
 dota2.ru##span[id^="zone"]
 buhoblik.org.ua,flagma.ua##span[onclick*="banner"]
 ruinformer.com##span[onclick]:not([onclick*="ruinformer"]) > img[src*="banner"]
-only-soft.org##span[onclick^="return dumb();"]
 banker.ua##span[onclick^="window.open"][style*="cursor:"]
 mnogo-krolikov.ru##span[style*="background: #ffe348"]
 snow-motion.ru##span[style="cursor: pointer;"][onclick]:not([onclick*="snow-motion.ru"])
@@ -21945,8 +21943,7 @@ lada.kz/uploads/banners/
 ||onlinestreams.ru/images/branding.
 ||onlinestreams.ru/images/liga
 ||onlinestreams.ru/liga/
-||only-soft.org/*.php$script
-||only-soft.org/images/468*.
+||only-soft.org/images/vk_
 ||onlysport.tv/assets/banners/
 ||onporn.fun/img/asd/tm.js
 ||ont.by/api/promo/
