@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PmNdnm9FQJ2NG6Dm1uqLnw
-! Version: 202401161641
+! Checksum: MhQ9KyP6TRro0ARnxqa+3g
+! Version: 202401161651
 ! Title: EasyList Polish
-! Last modified: 16 Jan 2024 16:41 UTC
+! Last modified: 16 Jan 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -443,6 +443,7 @@ supernowosci24.pl##[id^="r-"]
 ||sterta.pl^$domain=linkologia.pl
 ||sterta.pl^$image,domain=olsztyn.com.pl
 ||stoczniowcy.pl^*^jds.
+||studentnews.pl/b.php$script,domain=avrupadaokuma.eu|bachelor.undergraduatestudy.eu|distancelearningstudy.eu|dlamaturzysty.info|dlaucznia.info|doctoralstudy.eu|dualstudies.eu|edubaza.pl|estudarnaeuropa.eu|estudiareneuropa.eu|etudiereneurope.eu|gramatyka-angielska.info|kierunki-studiow.info|kursy-zawodowe.kwalifikacjezawodowe.info|kursyjezykowe.biz|kursyonline.info|kursysemestralne.pl|master.postgraduatestudy.eu|mba-studies.eu|ochschulen.studiumineuropa.eu|organizacjestudenckie.pl|pracaikariera.pl|rektorzy.pl|studenckamarka.pl|studenckamoda.pl|studentka.pl|studentnews.eu|studentnews.pl|studiadoktoranckie.info|studiainzynierskie.info|studialicencjackie.info|studiamagisterskie.info|studiamba.info|studianiestacjonarne.info|studiaonline.info|studiastacjonarne.info|studiaweuropie.eu|studies-in-english.pl|studies-in-europe.eu|studies-in-poland.pl|studiumveurope.eu|szkolyjezykowe.info|tanulmanyokeuropaban.eu|universita.studiareineuropa.eu|wameryce.info|weuropie.info
 ||sychar.org^*^tolle-
 ||syrena.nekla.eu^*-agraf-
 ||systempartnerski.pl^$subdocument,domain=icyfrowypolsat.pl
@@ -490,7 +491,6 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-||studentnews.pl/b.php$script,domain=avrupadaokuma.eu|bachelor.undergraduatestudy.eu|distancelearningstudy.eu|dlamaturzysty.info|dlaucznia.info|doctoralstudy.eu|dualstudies.eu|edubaza.pl|estudarnaeuropa.eu|estudiareneuropa.eu|etudiereneurope.eu|gramatyka-angielska.info|kierunki-studiow.info|kursy-zawodowe.kwalifikacjezawodowe.info|kursyjezykowe.biz|kursyonline.info|kursysemestralne.pl|master.postgraduatestudy.eu|mba-studies.eu|ochschulen.studiumineuropa.eu|organizacjestudenckie.pl|pracaikariera.pl|rektorzy.pl|studenckamarka.pl|studenckamoda.pl|studentka.pl|studentnews.eu|studiadoktoranckie.info|studiainzynierskie.info|studialicencjackie.info|studiamagisterskie.info|studiamba.info|studianiestacjonarne.info|studiaonline.info|studiastacjonarne.info|studiaweuropie.eu|studies-in-english.pl|studies-in-europe.eu|studies-in-poland.pl|studiumveurope.eu|szkolyjezykowe.info|tanulmanyokeuropaban.eu|universita.studiareineuropa.eu|wameryce.info|weuropie.info|studentnews.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -1500,7 +1500,7 @@ mdhmyslowice.pl##.nav a[rel="noopener noreferrer"]
 fcinter.pl##.nav__sponsor__list
 budosfera.eu,budowlanematerialy.eu,budownictwo.co,fight24.pl,forumfirm.eu,kuchniosfera.pl,meblarskapolska.pl,meblarstwo.eu,meblosfera.pl,narzedziapolska.pl,obrabiarkidodrewna.eu,stolarkabudowlana.eu,tapicerstwo.co,tkaninyobiciowe.eu##.navbar-ad-section
 bankier.pl##.nbAdv
-abcjanikowo24.pl,dziendobrypomorze.pl,ekstrasierpc.pl,extrawalcz.pl,grudziadz365.pl,gst24.pl,gwarek.com.pl,haloursynow.pl,ibytow.pl,isanok.pl,jastrowie24.pl,mojakruszwica.pl,panoramaplock.pl,plonskwsieci.pl,seniorbb.pl,sportsinwinter.pl,spotradomsko.pl,tukutno.pl,wpu24.pl,wrzesnia.info.pl,ziemiagorowska.pl##.new-toplayer
+abcjanikowo24.pl,dziendobrypomorze.pl,ekstrasierpc.pl,extrawalcz.pl,grudziadz365.pl,gst24.pl,gwarek.com.pl,haloursynow.pl,ibytow.pl,isanok.pl,jastrowie24.pl,mojakruszwica.pl,panoramaplock.pl,pleszew24.info,plonskwsieci.pl,powiatrawicki.info,seniorbb.pl,sportsinwinter.pl,spotradomsko.pl,tukutno.pl,wpu24.pl,wrzesnia.info.pl,ziemiagorowska.pl##.new-toplayer
 spidersweb.pl##.newAd
 mojanorwegia.pl##.newLayerBack
 mojanorwegia.pl##.newLayerOuter
@@ -1602,6 +1602,7 @@ infoarchitekta.pl##.rek_baner
 4trucks.pl##.rekl
 panoramakutna.pl##.rekl + center
 autofakty.pl##.rekl_text
+polska-morska.pl##.reklama + p
 glosmordoru.pl##.reklama-banner
 24tp.pl##.reklama-box
 24tp.pl##.reklama-box-newsy
@@ -2172,7 +2173,6 @@ angielskieespresso.pl##a[href^="https://m.lvbetpartners.pl/Redirect.aspx?mid=120
 angielskieespresso.pl##a[href^="https://m.lvbetpartners.pl/Redirect.aspx?mid=121"]
 tenis24.eu##a[href^="https://m.lvbetpartners.pl/Redirect.aspx?mid=37&"]
 pfmrc.eu##a[href^="https://modele.sklep.pl/swiateczno-noworoczne-"]
-naszstrzegom.pl##a[href^="https://naszstrzegom.pl/sad/"]
 tvklodzka.pl##a[href^="https://ng.pl/"]
 tuolawa.pl##a[href^="https://odszkodowaniaolawa.pl/"]
 gloswroclawia.pl##a[href^="https://oh-my-wear.com/"]
@@ -2496,9 +2496,6 @@ wp.pl##span[id^="dynacrems-adv"]
 vampirediaries.pl##td[onclick^="window.location"]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-polska-morska.pl##.reklama + p
-powiatrawicki.info##.new-toplayer
-pleszew24.info##.new-toplayer
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
