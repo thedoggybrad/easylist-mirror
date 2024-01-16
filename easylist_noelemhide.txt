@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wnBgdpaHJmKId2T5TLFz0A
-! Version: 202401161251
+! Checksum: 81BexRhSg+5TAiZoR/nC+Q
+! Version: 202401161301
 ! Title: EasyList without element hiding rules
-! Last modified: 16 Jan 2024 12:51 UTC
+! Last modified: 16 Jan 2024 13:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -40435,6 +40435,7 @@ _800x80_
 ||jwpcdn.com/player/*/googima.js
 ||jwpcdn.com/player/plugins/bidding/
 ||jwpcdn.com/player/plugins/googima/
+||k8s-adserver-adserver-4b35ec6a1d-815734624.us-east-1.elb.amazonaws.com^
 ||karma.mdpcdn.com^
 ||keep2share.cc/images/i/$third-party
 ||kontera.com/javascript/lib/KonaLibInline.js
@@ -42579,6 +42580,7 @@ _800x80_
 ||g.ibtimes.sg/sys/js/minified-video.js
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph|philstarlife.com
 ||go.trvdp.com^
+||gpv.ex.co^$third-party
 ||jwpcdn.com^$script,domain=bgr.com|decider.com|dexerto.com|zimbio.com
 ||jwplayer.com^$domain=americansongwriter.com|dexerto.com|gamesradar.com|ginx.tv|infoworld.com|kiplinger.com|soulbounce.com|spokesman-recorder.com|tennis.com|thestreet.com|tomshardware.com|variety.com|videogames.si.com|whathifi.com
 ||live.primis.tech^$third-party
@@ -43477,7 +43479,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||cdn.adsninja.ca^$domain=xda-developers.com
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||cdn.bidder.dev/clients/$script,domain=forces.net
-@@||cdn.ex.co^$domain=theautopian.com
+@@||cdn.ex.co^$domain=si.com|theautopian.com
 @@||cdn.wgchrrammzv.com/prod/ajc/loader.min.js$domain=journal-news.com
 @@||chycor.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
 @@||clients.plex.tv/api/v2/ads/$~third-party
