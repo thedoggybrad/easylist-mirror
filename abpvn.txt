@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: gx+6UkCLU+7ivnKrRlryyQ
-! Version: 202401181351
+! Checksum: VyQRMYXGvFmqJURoBKk63Q
+! Version: 202401181401
 ! Title: ABPVN List
-! Last modified: 18 Jan 2024 13:51 UTC
+! Last modified: 18 Jan 2024 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 18 Jan 2024 16:59:18 UTC+7
-! Diff-Path: patches/20240118165918.patch#abpvn
+! Last modified: 18 Jan 2024 20:53:49 UTC+7
+! Diff-Path: patches/20240118205348.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1269,6 +1269,7 @@ $third-party,script,domain=sexdiaryx.us
 ||mysdy.mangaxyz.fr^*.gif$image,domain=damconuong.net
 ||phimsexsub.to/wp-admin/admin-ajax.php?action=htmlcountry_get_data
 ||phimsexsub.to^*.gif$image
+||phimsexsub.xyz/css/pss.webp$image,domain=nhentaivn.com
 ||phym18.net/static/js/adlia.js
 ||pk910324e.com^$domain=javtiful.com
 ||quatvn.pro/ads.js$script
@@ -1319,6 +1320,10 @@ javtopxx.com##.overlay
 lxmanga.net##.ads-wrapper
 lxmanga.net##.preload-backdrop
 lxmanga.net##.preload-banner
+nhentaivn.com###backgroundPopupp
+nhentaivn.com###popupContact
+nhentaivn.com###popup_fi
+nhentaivn.com###wap_bottombanner
 phevkl.co###mp-preload-popup-overlay
 phevkl.co##.separator
 phim.heo69.top##.catfix
