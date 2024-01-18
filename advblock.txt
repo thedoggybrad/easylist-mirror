@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7hbzNu0yIZFpbnrgGe1/jQ
-! Version: 202401181641
+! Checksum: MdPGlM144m7xM9syKvk+ig
+! Version: 202401181651
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Jan 2024 16:41 UTC
+! Last modified: 18 Jan 2024 16:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17211,7 +17211,6 @@ asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,relook.ru,stranamam.ru##a[
 bombardir.ru##a[href*="://bmbrdr.ru/"]
 programmersforum.ru#?#a[href*="://clck.ru/"] ~ *:-abp-contains(https://)
 kinobase.org##a[href*="://clcr.me/"]
-opennet.me,opennet.ru##a[href*="://click.opennet.ru/cgi-bin/"]
 newstudio.tv,player.rudub.net##a[href*="://cutter.li"]
 fast-torrent.tv##a[href*="://fast-torrent.tv/gomed.php"]
 spys.one##a[href*="://fineproxy.org/"]
@@ -23459,6 +23458,7 @@ dzen.ru##div[data-name^="zen2"]
 deti.mail.ru##.cols__inner > .box
 deti.mail.ru##.rb
 @@||deti.mail.ru^$generichide
+deti.mail.ru##div[data-closewrap-container]
 deti.mail.ru##div[data-qa="Box"]
 deti.mail.ru##tr > .daynews__spring
 ! Здоровье
