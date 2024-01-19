@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: NawWmTqjTPbvVslgn/9QHw
-! Version: 202401190111
+! Checksum: +cx/IKwuJgFyDtqrMhM6Pw
+! Version: 202401190121
 ! Title: ABPVN List
-! Last modified: 19 Jan 2024 01:11 UTC
+! Last modified: 19 Jan 2024 01:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 18 Jan 2024 21:06:15 UTC+7
-! Diff-Path: patches/20240118210614.patch#abpvn
+! Last modified: 19 Jan 2024 08:19:11 UTC+7
+! Diff-Path: patches/20240119081911.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1272,7 +1272,7 @@ $third-party,script,domain=sexdiaryx.us
 ||phimsexsub.xyz/css/pss.webp$image,domain=nhentaivn.com
 ||phym18.net/static/js/adlia.js
 ||pk910324e.com^$domain=javtiful.com
-||quatvn.pro/ads.js$script
+||quatvn.info/ads.js$script
 ||quoracdn.net^$image,domain=vlxx.xxx|vlxyz.tv|sieudamtv.me
 ||rphang.online^*.gif
 ||sayhentai.fun/assets/js/ads.js
@@ -1291,7 +1291,7 @@ $third-party,script,domain=sexdiaryx.us
 ||vl3x.vip/ads/$script
 ||vn.sexviet1.net^*.gif$image
 ||vn3.yeusex.cc^*.gif$image
-||web28.sexphim1.com^*.gif$image
+||web29.sexphim1.com^*.gif$image
 ||yr.fopbandido.com^
 !---------- ABPVN Adult Element Hide ---------------
 ##iframe[src^="https://media.vivaclix.com/js/ifr.html?"]
@@ -1361,7 +1361,7 @@ thiendia2.net##.my_nonresponsive_ads
 thiendia2.net##.my_responsive_ads
 thiendia2.net##.samBannerUnit
 thiendia2.net##.samTextUnit
-thiendia2.net,rphang.co,phim18vipb.com,checkgaigoi.site,sieudamtv.me,web28.sexphim1.com##.float-ck
+thiendia2.net,rphang.co,phim18vipb.com,checkgaigoi.site,sieudamtv.me,web29.sexphim1.com##.float-ck
 truyen18.xyz##.a-header
 truyen18.xyz##.apu
 truyen18.xyz##.header
@@ -1390,6 +1390,6 @@ vlxyz.tv##.xx-ads
 vn.javbabe.net##.b-player
 vn.phym18.net##div#bnads
 vn.sexviet1.net,vn3.yeusex.cc##.preload
-web28.sexphim1.com##.code-block-4
+web29.sexphim1.com##.code-block-4
+ww1.sexnhanh.co##.alldiv ~ div[class]
 www.gaingon18.me###iklan-atas-wrapper
-xem.sexnhanh.co##.alldiv ~ div[class]
