@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: flqwsE++jmDnhffToAIyuQ
-! Version: 202401191040
+! Checksum: Kqzdk6wsJrWF9jHNoGQLEg
+! Version: 202401191051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Jan 2024 10:40 UTC
+! Last modified: 19 Jan 2024 10:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1913,7 +1913,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /inc/angular.js$third-party,script
 /inc/banner_zone/*
 /inc/brand.css?
-/informer.js$domain=~finfront.ru|~mignews.com|~topvisor.com|~topvisor.dev
+/informer.js$domain=~finfront.ru|~mignews.com|~topvisor.com|~topvisor.dev|~weatherwidget.org
 /informer.php?
 /informer/script.php?id=
 /informer?*&callback=__smi
@@ -16393,6 +16393,7 @@ val.ua##.val-sidebar
 loveradio.ru##.vbanners
 upl.ua##.vbet-mid
 myshave.ru##.vbmenu_popup + div[align="center"]:not([id]):not([class])
+d-russia.ru#?#.vc_column_inner > .vc_column-inner:-abp-has(.g-single > [id^="yandex_rtb_"])
 bizua.org,podruzke.ru#?#.vce-related-box:-abp-has(> .main-box-inside script)
 ixbt.com##.vcont
 l2db.ru##.vda
@@ -16522,7 +16523,7 @@ atlasprirodirossii.ru,hyperione.com,sho.org.ua,zazloo.ru##.widget_block
 volyninfo.com##.widget_calendar ~ .widget_text ~ .widget_text
 rustaste.ru#?#.widget_categories:-abp-has(> div[align="center"] > img[src*="/aliban"])
 sdelalremont.ru##.widget_cb_widget
-100pdf.club,alladvices.ru,amorefilms.ru,analitikaua.net,aspekty.net,auto-portal.com.ua,avtotachki.com,borodina-protiv-buzovoj.ru,chas.cv.ua,cheb-live.ru,cryptodzen.com,dacha.help,dietdo.ru,ebanoe.it,electric-220.ru,erokomiksi.org,flytothesky.ru,gametrick.ru,glavradio.info,golos.te.ua,happymodern.ru,kazakh-zerno.net,koskomp.ru,lhealth.info,m-zh.ru,mi100.info,muwhi.ru,netsofta.net,new-s.com.ua,pravda.cn.ua,psiholog4you.ru,root-nation.com,rubrowsers.ru,sdelalremont.ru,sharknews.ru,simptomy-lechenie.net,smartmama.com.ua,ternopillive.com,tipsboard.ru,ua-news.in.ua,ua-report.info,vgolove.net,vizitnlo.ru,volyninfo.com,vseiski.ru,withcars.ru,zelenj.ru##.widget_custom_html
+100pdf.club,alladvices.ru,amorefilms.ru,analitikaua.net,aspekty.net,auto-portal.com.ua,avtotachki.com,borodina-protiv-buzovoj.ru,chas.cv.ua,cheb-live.ru,cryptodzen.com,dacha.help,dietdo.ru,ebanoe.it,electric-220.ru,erokomiksi.org,flytothesky.ru,gametrick.ru,glavradio.info,golos.te.ua,happymodern.ru,kazakh-zerno.net,koskomp.ru,lhealth.info,m-zh.ru,mi100.info,muwhi.ru,netsofta.net,new-s.com.ua,pravda.cn.ua,psiholog4you.ru,root-nation.com,rubrowsers.ru,sdelalremont.ru,sharknews.ru,simptomy-lechenie.net,smartmama.com.ua,ternopillive.com,tipsboard.ru,ua-news.in.ua,ua-report.info,vgolove.net,vizitnlo.ru,volyninfo.com,vseiski.ru,withcars.ru,wona.com.ua,zelenj.ru##.widget_custom_html
 femmie.ru##.widget_custom_html > .partners__heading ~ .custom-html-widget
 vsepredohraniteli.ru##.widget_custom_html ~ .widget_text
 aeslib.ru##.widget_custom_html.FixedWidget__fixed_widget
@@ -18122,7 +18123,6 @@ www.google.com,www.google.ru##body > table[style="border: 1px solid #369"]
 christianka.bratstvo.org##body > table[width="99%"] + p[align="center"]
 payeer-gift.ru##body div .banner
 om1.ru##body div[class*="-branding"]
-root-nation.com##body.home .tdc-content-wrap div[id^="tdi_"] > .tdc_zone > .tdc-row:first-of-type + .tdc-row
 forum.flprog.ru##body.section-index .sidebar
 livetvstream.pro,me##body[bgcolor] > #adbtm
 livetvstream.pro,me##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
@@ -24313,6 +24313,7 @@ ukr.net##.lazy-load-banner
 yandex.by,yandex.kz,yandex.ru,yandex.uz###banner.b-banner__content
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.Ad > .Ad-Container ~ .Ad-Spinner
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.AdvRsya-Slot
+dzen.ru##.adv-skeleton___main
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-spec-adv
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-yabrowser-promo
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.container__banner
@@ -24352,7 +24353,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.stat_pixel_yes[onclick][class*="_layou
 yandex.by,yandex.kz,yandex.ru,yandex.uz##a[href*="//ads.adfox.ru/"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
-dzen.ru##div[class*="-widget_"][class*=" "] > div > div:not([class*="geoblock"]):not([class*="widget"])
+dzen.ru##div[class*="_wigdet-"] > div[class*="container"] > div ~ div
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 ||awaps.yandex.
 ||bs-meta.yandex.$script,xmlhttprequest
