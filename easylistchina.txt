@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qC3OnrNdgSBaA1y4ETEwMQ
-! Version: 202401200321
+! Checksum: UY0saEY5/aTZvHr0PabFuw
+! Version: 202401200331
 ! Title: EasyList China
-! Last modified: 20 Jan 2024 03:21 UTC
+! Last modified: 20 Jan 2024 03:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -3173,6 +3173,9 @@ newduba.cn###jq_youxi
 ||jingalbundles.com^
 ||acsegt86.shop^
 ||hulichuang.mobi^
+||zfp32.buzz^
+##a[href*="/hgcoolaa.top"]
+##a[href*="/hgcool360.top"]
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -11261,6 +11264,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||winwin7.com/statics/js/user/xz.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -11764,7 +11768,7 @@ ebiotrade.com###dlBoxs
 docin.com###docindex_ad
 udn.com###doctop
 niutuku.com###downAD1
-xiazai.zol.com.cn###downBoxGaosu > a
+zol.com.cn###downBoxGaosu + a
 downmsn.com###downShow_tellDownload
 qiannao.com###downTb + div
 sm.cn###download-uc
