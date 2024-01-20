@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x9FTO5dCA4kyBabUEpZWtw
-! Version: 202401201711
+! Checksum: c2vWyDqpciH8qWQsMZdTug
+! Version: 202401201720
 ! Title: EasyList without element hiding rules
-! Last modified: 20 Jan 2024 17:11 UTC
+! Last modified: 20 Jan 2024 17:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1626,6 +1626,7 @@
 ://news-*/process.js?id=$third-party
 ://news-*/v2-sw.js$third-party
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
+://pt.*?psid=$third-party
 =half-page-ad&
 ?ab=1&zoneid=
 ?adspot_
@@ -8056,6 +8057,7 @@ _800x80_
 ||cdwbjlmpyqtv.com^
 ||cdwehdnnprdntse.com^
 ||cdwmpt.com^
+||cdwmtt.com^
 ||ce2c208e9f.com^
 ||ceamtaaprhha.xyz^
 ||ceasechampagneparade.com^
@@ -24511,6 +24513,7 @@ _800x80_
 ||ptawe.com^
 ||ptawehex.net^
 ||ptawhood.net^
+||ptcdwm.com^
 ||ptdinxchgxu.com^
 ||ptechait.com^
 ||ptecmooz.net^
@@ -40758,6 +40761,7 @@ _800x80_
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
 ||static.ifruplink.net/static_src/mc-banner/
+||static.prd.datawars.io/static/promo/
 ||static.sunmedia.tv/integrations/
 ||static.tradetracker.net^$third-party
 ||storage.googleapis.com/adtags/
