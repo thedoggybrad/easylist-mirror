@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ELrO5TERuVdLqY8RqO9jWQ
-! Version: 202401220851
+! Checksum: KdZbs6LFcAEG59REYEqRGQ
+! Version: 202401220901
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Jan 2024 08:51 UTC
+! Last modified: 22 Jan 2024 09:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13885,7 +13885,6 @@ www.sport.ru##.column-right > h5.hdr2
 travelask.ru##.column-sidebar__ads
 porngames.su##.column.last.mini > p
 alser.kz##.columnBanner
-russian.rt.com#?#.column__row_article-page_right:-abp-has(script)
 russian.rt.com##.column__row_article-page_right:empty
 transinfo.by##.column_banner-wrap
 cartoonka.art,multmania.club##.com2com > .text ~ span
@@ -15605,6 +15604,7 @@ chis-chernomorsk.com.ua##.right-col > .mob1
 lostfilm.hdkino.biz##.right-col > .right-block-title
 fion.ru##.right-column .bx-wrapper
 fion.ru##.right-column .select-content[style="margin:9px auto;"]
+russian.rt.com#?#.right-column > .aside-block:-abp-has(script)
 wkino4.net##.right-full > noindex
 f1analytic.com#?#.right-indent > .wrapper-box:-abp-has(> div > .boxTitle:-abp-contains(/реклама/i))
 1kr.ua##.right-inner > .right-social ~ .right-social
@@ -16257,6 +16257,7 @@ pronovostroy.ru##.top-banner-slider
 kazan.32top.ru##.top-banner__container
 kinoplex.ru##.top-banners
 dynamomania.com##.top-banners-area
+nnews.com.ua##.top-bar-ads
 key-test.ru,kurs.if.ua##.top-block
 liga.net##.top-bnr
 fight.ru##.top-bookmakers-widget
@@ -19771,6 +19772,7 @@ rafkino.com##div[id^="MarketGid"]
 ||elegantwoman.kyiv.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.dev *.io *.net *.org *.ru *.ua
 ||ex.24smi.info^$csp=script-src
 ||exoclick.com^$csp=sandbox allow-same-origin;
+||farposst.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: cse.google.com *.google.com/cse/ *.dev *.io *.net *.org *.ru *.ua
 ||findhow.org^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: cse.google.com *.google.com/cse/ *.googleapis.com *.googletagmanager.com translate.google.com *.dev *.io *.net *.org
 ||folltiz.site^$csp=script-src
 ||forum.ru-board.com/*.cgi?*=5&topic=51141$csp=img-src 'self' addons.mozilla.org raw.githubusercontent.com
@@ -26022,6 +26024,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||rem-tv.net^*/advert.js|$script,domain=rem-tv.net
 @@||remont-aud.net/pubads.ads.js|$script,domain=remont-aud.net
 @@||revdepo.com/static/advertisement.js|$script,domain=audioz.download|mac-torrent-download.net
+@@||richads.com/$xmlhttprequest,domain=cc-fan.tv|cn-fan.tv|fox-fan.tv|nf-fan.tv
 @@||ringside24.com/static/js/advert-min.js|$script,domain=ringside24.com
 @@||ru-skript.ru/templates/ruhacker/images/*logo.png
 @@||s-cdn.sportbox.ru^*/adfox.$script,domain=matchtv.ru|news.sportbox.ru
@@ -26045,7 +26048,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||static.wi-fi.ru/banners/maximatelecom/advert/adblock.js$domain=wi-fi.ru
 @@||static.wi-fi.ru/mtt/banners/libs/*/all.js|$script,domain=karaoke.ru
 @@||staticmv.mediavitrina.ru^*.gif$image,domain=player.mediavitrina.ru|staticmv.mediavitrina.ru
-@@||statika.mpsuadv.ru/$xmlhttprequest,domain=cc-fan.tv|cn-fan.tv|fox-fan.tv|nf-fan.tv
 @@||streamguard.cc/assets/$script,domain=streamguard.cc
 @@||tab.reformal.ru^$image,domain=audioskazki.net
 @@||textovod.com/images/ads.png|$image,domain=textovod.com
@@ -26217,7 +26219,7 @@ chaynikam.info##div[id^="mdl_ctnr_"]
 zazloo.ru##div[style="background: darkorange; padding: 10px;"]
 rt02.ru##img[alt*="реклам"]
 ritsatv.ru##img[src*="/as/"]
-cc-fan.tv,cn-fan.tv,fox-fan.tv,nf-fan.tv##img[src*="bj42b3k2b4jv234hg2"]
+cc-fan.tv,cn-fan.tv,fox-fan.tv,nf-fan.tv##img[src*="bjb23m4b2j4b2"]
 onliner.by##img[src="https://content.onliner.by/news/1100x5616/eb7d2f564b229c0da9f39ec11eb7d529.png"]
 d3ward.github.io##main > ._bg-red
 au-ok.com##p[style="border:3px solid #C1FF0A;background-color:#d5d5d1;padding:10px;"]
