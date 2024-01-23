@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: nPXJWUqz2v8l0MIa5qQ/4w
+! Checksum: zQXPrrkwAjzlHcmdIUHimg
 ! Title: Easylist Cookie List
-! Updated: 2024-01-23 04:15 UTC
+! Updated: 2024-01-23 03:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3825,6 +3825,7 @@
 ###cookieLine
 ###cookieLoad
 ###cookieMainPanel
+###cookieManagement
 ###cookieMandate
 ###cookieMelding
 ###cookieMeldung
@@ -17800,6 +17801,7 @@
 ##aside.cookie-popup
 ##div#ACClayerBackground
 ##div#ACCsmallCookieLayer
+##div#__tealiumGDPRcpPrefs
 ##div#__tealiumGDPRecModal
 ##div#accept-cookie
 ##div#accept-cookie-container
@@ -18033,6 +18035,7 @@
 ##div.cookie__backdrop
 ##div.cookie__compliance
 ##div.cookie__disclaimer
+##div.cookie__info
 ##div.cookie__layer
 ##div.cookie__notice
 ##div.cookie__popup
