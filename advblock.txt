@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qychUfdvEKGzRTSMBj0cXA
-! Version: 202401231841
+! Checksum: crSS3/tjqqVHa9s4jOHb7w
+! Version: 202401231851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jan 2024 18:41 UTC
+! Last modified: 23 Jan 2024 18:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15643,7 +15643,7 @@ raskraska.com##.right_column > noindex
 otzyvua.net##.right_column_one > div[class^="mainblock h"]
 karavan.tver.ru##.right_con > :not(.city_paper)
 glavpost.ua##.right_content noindex
-ritsatv.ru##.right_panel > div
+ritsatv.ru##.right_panel
 prisnilos.su##.right_side
 sotovik.ru##.right_zone > #banner
 best-antidepressanty.ru##.rightbann
@@ -23159,6 +23159,7 @@ lada.kz/uploads/banners/
 @@||s.znctrack.net/z|$xmlhttprequest,domain=censor.net|gazeta.ua|i.ua|mail.ukr.net|meteofor.com.ua|tabloid.pravda.com.ua|viva.ua
 ||imgfrost.net^$third-party
 ||ritsatv.ru^$csp=script-src
+||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
 ! Liveinternet (ловушка для обфускации)
 /^https?://www\.liveinternet\.ru/(?!utf\/|q\/js\/|js\/|4Ek/JS/diary/main/nav/regoradd.js|autosave.js|cgi-bin/rpls.fcgi?|ckeditor\/|ckfinder\/|main_new_1251.js|share/js/share.js|spell/spell.js|uploader\/|vbcode.js|vbcode_language.js)/$script,domain=www.liveinternet.ru
