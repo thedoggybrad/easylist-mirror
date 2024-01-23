@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qMPMToY2RaGQ+kMLSz2SLQ
-! Version: 202401231151
+! Checksum: RAOfdwwTr3ot8brX6CvlBg
+! Version: 202401231201
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Jan 2024 11:51 UTC
+! Last modified: 23 Jan 2024 12:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13571,6 +13571,7 @@ znaikak.ru##.blockLinks
 news29.ru##.blockOverlay.blockUI
 domik.ua##.blockProjects_stocksInNews
 sunsurv.ru##.blockRight
+programma-peredach.com##.blockSns
 aktobeinfo.kz##.block[id*="-banners-"]
 gooool.tv,gooool365.org##.block_d
 openssource.biz##.block_left
@@ -15642,7 +15643,7 @@ raskraska.com##.right_column > noindex
 otzyvua.net##.right_column_one > div[class^="mainblock h"]
 karavan.tver.ru##.right_con > :not(.city_paper)
 glavpost.ua##.right_content noindex
-ritsatv.ru##.right_panel
+ritsatv.ru##.right_panel > div
 prisnilos.su##.right_side
 sotovik.ru##.right_zone > #banner
 best-antidepressanty.ru##.rightbann
@@ -16494,6 +16495,7 @@ shopinfo.com.ua##.widget-group-no-name .sidebarAdvertising
 shopinfo.com.ua#?#.widget-group-no-name:-abp-has(.sidebarAdvertising)
 tv.i.ua##.widget-news_premium
 maanimo.com##.widget-offers
+nur.kz##.widget-parimatch-wrapper
 bibliofond.ru##.widget-pomogi
 au-ok.com#?#.widget-sidebar:-abp-has(> div .adsbygoogle)
 au-ok.com#?#.widget-sidebar:-abp-has(> div > [id^="adfox_"])
@@ -23156,6 +23158,7 @@ lada.kz/uploads/banners/
 @@||s.zmctrack.net/z|$xmlhttprequest,domain=i.ua|ivona.ua|meteo.ua|panno4ka.net
 @@||s.znctrack.net/z|$xmlhttprequest,domain=censor.net|gazeta.ua|i.ua|mail.ukr.net|meteofor.com.ua|tabloid.pravda.com.ua|viva.ua
 ||imgfrost.net^$third-party
+||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$~document
 ! Liveinternet (ловушка для обфускации)
 /^https?://www\.liveinternet\.ru/(?!utf\/|q\/js\/|js\/|4Ek/JS/diary/main/nav/regoradd.js|autosave.js|cgi-bin/rpls.fcgi?|ckeditor\/|ckfinder\/|main_new_1251.js|share/js/share.js|spell/spell.js|uploader\/|vbcode.js|vbcode_language.js)/$script,domain=www.liveinternet.ru
@@ -25066,7 +25069,7 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 @@||rafkino.com^$generichide
 @@||raskraska.com^$generichide
 @@||redcyt.com/player.php^$generichide
-@@||ritsatv.ru/player/$generichide
+@@||ritsatv.ru^$generichide
 @@||riwkus.pro^$generichide
 @@||root-nation.com^$generichide
 @@||rozetked.me/login|$generichide
@@ -25688,7 +25691,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||reklama.studio^$domain=garantmedia.com
 @@||reklamavarteme.ru^*/reklama/$domain=reklamavarteme.ru
 @@||renault.ru/_beta/banner_system/banner.php$domain=renault.ru
-@@||ritsatv.ru/*.js|$script,~third-party
 @@||rock-online.ru/thema/rock/images/baner_$~third-party
 @@||roshlam.ru/adverts/$xmlhttprequest,domain=roshlam.ru
 @@||rostcars.ru/css/advertisement.css$~third-party
@@ -26117,7 +26119,6 @@ zhurnaly.biz#@#.item-ads
 ! - hide & block
 pornhub.com###abAlert
 d3ward.github.io###ad_ctd
-ritsatv.ru###blockingMessage
 tvvse.my1.ru###cont-i > span[style*="color:red"]
 fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,filmpotok.ru,kinomuch.ru,nebeda.net,pickfilm.ru,veleto.ru,vixim.ru###container > center:nth-child(-n+3)
 d3ward.github.io###cts_test
@@ -26211,7 +26212,6 @@ informator.ua#?#div[id^="brid-player"] ~ p:-abp-contains(AdBlock)
 chaynikam.info##div[id^="mdl_ctnr_"]
 zazloo.ru##div[style="background: darkorange; padding: 10px;"]
 rt02.ru##img[alt*="реклам"]
-ritsatv.ru##img[src*="/as/"]
 onliner.by##img[src="https://content.onliner.by/news/1100x5616/eb7d2f564b229c0da9f39ec11eb7d529.png"]
 d3ward.github.io##main > ._bg-red
 au-ok.com##p[style="border:3px solid #C1FF0A;background-color:#d5d5d1;padding:10px;"]
@@ -26223,7 +26223,6 @@ au-ok.com##p[style="border:3px solid #C1FF0A;background-color:#d5d5d1;padding:10
 ||itcrowd.top/templates/yootheme/block.js
 ||moi-detsad.ru/wp-content/cache/autoptimize/js/autoptimize_*.js
 ||pcnews.ru/js/blockadblock.js
-||ritsatv.ru/as/$image
 ||ritsatv.ru^*adblock$image
 ||root-server.ru/wp-content/plugins/*/js/custom.js
 ||rybolov.ee/forum/Themes/RealPopup/
