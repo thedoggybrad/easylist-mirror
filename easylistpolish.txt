@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wu0a3YkY2yLwsvfVCKJLzg
-! Version: 202401230831
+! Checksum: KmY69GtHzRF1I/seP0NQSQ
+! Version: 202401230841
 ! Title: EasyList Polish
-! Last modified: 23 Jan 2024 08:31 UTC
+! Last modified: 23 Jan 2024 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -489,6 +489,8 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=rawicz24.pl
+||video.onnetwork.tv^$script,domain=zwielkopolski24.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2487,6 +2489,7 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+ddb24.pl###ad--bill-top
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
