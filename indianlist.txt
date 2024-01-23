@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Djr4OaZ++6DEd9/2100FmA
-! Version: 202401230721
+! Checksum: p+JyYQzGJDoC3N3UnHRyKA
+! Version: 202401230731
 ! Title: IndianList
-! Last modified: 23 Jan 2024 07:21 UTC
+! Last modified: 23 Jan 2024 07:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2201,8 +2201,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||hariyarexpress.com/wp-content/uploads/2023/11/IMG_20231107_101307
 ||hawkerbd.com^*/s_ad_
 ||hazarikapratidin.com/ad/
-||headline24x7.com//ws/headline24x7com/news/202302/1.JPG
-||headline24x7.com//ws/headline24x7com/news/202302/2.JPG
 ||headlines24.in/mynewsadmin/img/add/
 ||hellobikaner.com/wp-content/uploads/2019/04/websity-logo
 ||hellobikaner.com/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-16-at-11.46.09.jpeg
@@ -8079,6 +8077,7 @@ boolokam.com##.wpcnt
 news127.com,thesurgicalnews.in##.wpcp-carousel-wrapper
 modernnewsindia.com##.wpwbs_banners
 ekagaj.com##.wrapper-box
+headline24x7.com##.ws-block img:not([src*="headline24.jpg"])
 shabdsaransh.com##.ws-block img:only-child
 sansanilive.com##.ws-block video
 aajkasamay.com##.ws-block-body > a[href=""]
