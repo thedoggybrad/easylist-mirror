@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZYfQGsRFwTX6AYoxQQ4iPA
-! Version: 202401240801
+! Checksum: zg0C+LVKjlDn6ag2qV2qHA
+! Version: 202401240811
 ! Title: IndianList
-! Last modified: 24 Jan 2024 08:01 UTC
+! Last modified: 24 Jan 2024 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3605,7 +3605,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||pothujanam.com/images/banners/KARIKKAKOM_ADV_
 ||ppbd.news/assets/gallery/nondini/300%20x%20250.gif
 ||pplnews.in/wp-content/uploads/2020/07/PPL-News-4.png
-||prabhatkhabar.com^*/kashmir_vastraylaya.gif
 ||prabhatmantra.com/admin/Ishtehaar/
 ||prabhatpheri.com.np/wp-content/uploads/2023/09/banepa-mahotsav
 ||prabhatpheri.com.np/wp-content/uploads/2023/09/News-Paper-
@@ -8816,6 +8815,7 @@ patrika.com#?#div[style]:-abp-has(> div[id^="gpt_ads_"])
 pingara.com#?#.block-title-4:-abp-has(> h4 > span:-abp-contains(Advertisements))
 pksnews24.com#?#div.primary-sidebar-widget:-abp-has(> div > span:-abp-contains(Advertisement))
 pksnews24.com#?#div[data-adid]:-abp-has(> p:-abp-contains(Advertisement))
+prabhatkhabar.com#?#div:-abp-has(> div[id^="div-gpt-ad-"])
 promisenews24.com#?#.safe_life:-abp-has(> .textwidget)
 prothomalo.com#?#div:-abp-has(> .dfp-ad-unit)
 rajasthankhabre.com.mostreadiframe[title~="ad"]
