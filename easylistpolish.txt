@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2JnRpKB4zTnnhJIUNNMUdg
-! Version: 202401240911
+! Checksum: gumkIQd5RP8h1hkVqV41FQ
+! Version: 202401240921
 ! Title: EasyList Polish
-! Last modified: 24 Jan 2024 09:11 UTC
+! Last modified: 24 Jan 2024 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -120,7 +120,6 @@ mandarinodesign.eu#@#.reklama
 -banner1.$domain=tu.swinoujscie.pl
 -banner_$domain=kaszuby24.pl
 -bannery-$domain=bogaty.men|zarobmy.se
--bener-$domain=tapicerstwo.co|tkaninyobiciowe.eu
 -fb-baner-$domain=starosadeckie.info
 -reklama-$domain=bithub.pl|chelmski.eu|firmy.meblarstwo.eu|golub-cgd.pl|kurekmazurski.pl|nasz-glos.com|ostrodanews.pl|przedsiebiorczepodlasie.pl|radomszczanska.pl|starosadeckie.info|tkaninyobiciowe.eu|tv-pelplin.pl
 -reklama.$domain=flarrow.pl|gazeta-mosina.pl|gazetatrybunalska.pl|mojewronki.pl|ostrodanews.pl|pionki24.pl|popradio.pl|przysucha.informator-lokalny.pl|sochaczewianin.pl|tu.swinoujscie.pl
@@ -488,6 +487,7 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^banners^$domain=po-bandzie.com.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2489,6 +2489,7 @@ wp.pl#?#IMG:-abp-properties(position: relative;)
 tyna.info.pl##.new-toplayer
 rydzyna24.pl##.new-toplayer
 magazynzuzel.pl##.new-toplayer
+koscianiak.pl##.new-toplayer
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
