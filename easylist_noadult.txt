@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sFNVZ3OdGzBorKvACA81/A
-! Version: 202401241601
+! Checksum: zk2Rt6yJSfBQQ13u9HCtuA
+! Version: 202401241611
 ! Title: EasyList without rules for adult sites
-! Last modified: 24 Jan 2024 16:01 UTC
+! Last modified: 24 Jan 2024 16:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -51360,6 +51360,7 @@ browsershots.org#@#.advert_area
 ||zzuzishy.com^
 ! $document blocks
 ||adservice.google.$document
+||bestunfollow.com^$document
 ||bet365.com/*?affiliate=$document
 ||dianomi.com^$document
 ||maquiags.com^$document
@@ -51367,6 +51368,7 @@ browsershots.org#@#.advert_area
 ||popcash.net^$document
 ||popmyads.com^$document
 ||vpn-offers.org^$document
+||xstalkx.ru^$document
 ! Third-party
 ||123date.me^$third-party
 ||152media.com^$third-party
