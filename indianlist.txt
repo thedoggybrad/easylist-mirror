@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UEeS4IXwhLVUNy6MrI1qOQ
-! Version: 202401250600
+! Checksum: s8orsDk6TcI+XTZyLmB+Ag
+! Version: 202401250611
 ! Title: IndianList
-! Last modified: 25 Jan 2024 06:00 UTC
+! Last modified: 25 Jan 2024 06:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -663,7 +663,7 @@ _advt.jpg|
 /advert/*$domain=mzamin.com
 /advertiesment/*$domain=theendnews.com
 /advertise/*$domain=kapurinews.com
-/advertisement/*$domain=360malayalam.com|agaminews.com
+/advertisement/*$domain=360malayalam.com|aarthiknews.com|agaminews.com
 /Advertisement/*$domain=aloavanews24.com
 /advertisement/*$domain=amader-protidin.com|chhattisgarhaaj.com|damaulifm.org|digiana.com|mediavision.news|notebazar.com|satghoria.com
 /Advertisement/*$domain=aparajeobangla.com|banglarchokh.com.bd|nepalipaisa.com|odiaspotnews.in|shankhnaad.in
@@ -4018,7 +4018,9 @@ perfection-ias-upsc$domain=nextbihar.com
 ||sawalnepal.com/wp-content/uploads/2020/10/am-dental
 ||sawalnepal.com/wp-content/uploads/2021/03/NT-APP-1220x120-1.gif
 ||sawalnepal.com/wp-content/uploads/2021/03/think-oli-1-768x432.png
+||secureserver.net/wp-content/uploads/2017/06/Keshav-Dai-$domain=dhadingnews.com
 ||secureserver.net/wp-content/uploads/2023/05/netrawati-destop-Bungchung
+||secureserver.net/wp-content/uploads/2023/12/Kushal-desktop-New$domain=dhadingnews.com
 ||secureserver.net^*/ad.jpg
 ||secureservercdn.net/160.153.137.14/28c.946.myftpupload.com/wp-content/uploads/2019/08/Rotti-Shop-New1$image
 ||secureservercdn.net/160.153.138.105/sma.5f8.myftpupload.com/wp-content/uploads/2022/06/IMG-20220613-WA0017-
@@ -7051,8 +7053,8 @@ nepalraftar.com##.no-bod > a
 narayanionline.com##.no-vigyapan-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
 abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
+bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -7106,6 +7108,7 @@ hamdardtv.com##.plyr
 business-standard.com##.podcastads
 rtvonline.com##.point-table-container a[href*="MamaNoodles_"]
 jamalpurlive.com##.popbox
+dhadingnews.com##.popmake-content
 dhangadhikhabar.com##.popover-ad
 ranchiexpress.com##.popular-section.pt-50
 bharatiyadigitalnews.in##.popup
@@ -7826,6 +7829,7 @@ dailydishari.com##.widget_area:not(.widget_text)
 rsnewslive.com##.widget_awaken_medium_rectangle_ad
 amarsandesh.com##.widget_beside_slider
 nepalbritain.com##.widget_black-studio-tinymce
+dhadingnews.com##.widget_black_studio_tinymce
 24webnews.com,36garhi.com,a2znewsup.com,avikaluttarakhand.com,azchavattomonline.com,bharatsarathi.com,dainikchhattisgarhwatch.com,insightonlinenews.in,khabareducation.com,khabredinraat.com,nammakudlanews.com,newsaroma.com,odishatime.com,rashtrasamvad.com,samastipurlive.com,scgnews.in,thetruths.in,upaajtak.com##.widget_block
 dailyfaridpurkantho.com##.widget_block img
 newszon.in##.widget_block:not(#block-10)
@@ -8236,9 +8240,8 @@ pavilion.com.bd##a[onclick*="GPMonthlyPromo"]
 indiatimes.com##a[onclick*="eskcl/click.htm"]:not([onclick*="&u=https%3A%2F%2Feisamay.indiatimes.com"])
 telugu.samayam.com##a[onclick*="tgsctp/click.htm?"]:not([onclick*="https%3A%2F%2Ftelugu.samayam.com"])
 haryanaekhabar.com##a[rel*="sponsored"]
-dhadingnews.com##a[rel*="wp-att"]
 sylheterjanapad.tv##a[target="_blank"] > img
-aarthiknews.com,abitfar.com,bizmandu.com,notunalo24.com,shubhoprotidin24.com,weeklybangladeshusa.com##a[target="_blank"] img
+abitfar.com,bizmandu.com,notunalo24.com,shubhoprotidin24.com,weeklybangladeshusa.com##a[target="_blank"] img
 hollywoodkhabar.com##a[target="_blank"] img:not([src*="Screenshot_2022-11-22_at_10_43_32_PM.png"])
 bankingkhabar.com##a[target="_blank"] img:not([src*="icons"])
 bharatiyadigitalnews.in##a[target="_blank"] img:only-child
