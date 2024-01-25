@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: YAy69xuX+lKMlmI/ZlBpxw
+! Checksum: DhKOufHeCG0ZxTNp5NVydg
 ! Title: Easylist Cookie List
-! Updated: 2024-01-25 09:40 UTC
+! Updated: 2024-01-25 10:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -132,6 +132,7 @@
 /cmp.complete.bundle.js
 /cmp/cmp.js
 /cmp/cmp.min.js
+/cmp/consentui3/*
 /cmp3p.js
 /cmp_didomi.js
 /cmp_puk.js
@@ -19433,7 +19434,7 @@ cloudup.com##.a8c-cookie-banner
 norm.store##.above-pages-container > .animation-container
 nicequest.com##.ac
 presta-module.com##.acbBackdrop
-greenfields.eu##.accept-alert
+greenfields.eu,toraytac.com##.accept-alert
 nwslsoccer.com##.accept-cookies-snackbar
 plugins.jetbrains.com##.acceptance-popup
 ibuypower.com##.acceptcookie_contain__JVvcU
@@ -19505,6 +19506,7 @@ leo.org##.as-oil
 scinapse.io##.asUhxHVGRjM9QNWMLelO5
 icelandair.com##.assets_container__3EEp3
 subaru.com##.at-banner-container
+atptour.com##.atp_cookie-message
 scandalbeauties.com##.attention-msg
 welcometothejungle.com##.axeptio_mount
 hush-uk.com##.b-header-message
@@ -21143,7 +21145,7 @@ sandberg.es,sandberg.fr,sandberg.world###privalert-container
 !! .message-footer-panel
 mojehobby.pl,super-hobby.at,super-hobby.be,super-hobby.co.uk,super-hobby.com,super-hobby.de,super-hobby.es,super-hobby.fr,super-hobby.it,super-hobby.lv,super-hobby.pt,super-hobby.rs##.message-footer-panel
 !! .fixed-bottom
-atproperties.com,autotrader.com,coingecko.com,disponivel.com,dogruhaber.com.tr,equisys.com,excellent-hemd.de,farmers.com,fordblueadvantage.com,g2g.com,gateway.one,getmailbird.com,ilkha.com,innn.it,jsonquerytool.com,lobaevarms.com,modoko.com.tr,muze.gen.tr,parklot.pl,plantnet.org,remove.bg,rotadooeste.com.br,shroomers.app,skokka.com,speisebaron.de,susicka.cz,tjsc.jus.br,unscreen.com,wallpaperdirect.com##.fixed-bottom
+atproperties.com,autotrader.com,coingecko.com,disponivel.com,dogruhaber.com.tr,equisys.com,excellent-hemd.de,farmers.com,fordblueadvantage.com,g2g.com,gateway.one,getmailbird.com,ilkha.com,innn.it,jsonquerytool.com,lacsc.be,lobaevarms.com,modoko.com.tr,muze.gen.tr,parklot.pl,plantnet.org,remove.bg,rotadooeste.com.br,shroomers.app,skokka.com,speisebaron.de,susicka.cz,tjsc.jus.br,unscreen.com,wallpaperdirect.com##.fixed-bottom
 !! .navbar-fixed-bottom
 atomizer.gr,biblio.co.uk,comfortclick.com,discountoffice.nl,nowemiasteczko.pl,ornox.fr,polimarky.pl##.navbar-fixed-bottom
 !! .banner
@@ -21375,7 +21377,7 @@ decovarrubias.es,q10gestion.com###sliding-popup-cookies
 !! .qc-cmp2-container
 centrometeoitaliano.it,in.gr,oraridiapertura24.it,order-order.com##.qc-cmp2-container
 !! .cookie-consent
-congeo.nl,forcepoint.com,geeksforgeeks.org,insightsengineering.github.io,merosch.nl,niaiu.pl,peoplematters.in,plmxpert.nl,sodutch.nl,vinkkoeltechniek.com,werkenbijversluis.nl##.cookie-consent
+abconcerts.be,congeo.nl,forcepoint.com,geeksforgeeks.org,insightsengineering.github.io,merosch.nl,niaiu.pl,peoplematters.in,plmxpert.nl,sodutch.nl,vinkkoeltechniek.com,werkenbijversluis.nl##.cookie-consent
 !! cookiesConsentModal
 latitudeandlongitude.net###cookiesConsentModal
 !! #my-ctc-widget
@@ -21563,6 +21565,8 @@ cinobo.com,jdslabs.com,lukso.network,platform.stability.ai,simtex.io,skyline-emu
 dr-anns.com,lightyear.one,vecer.com##.bottom-8
 !! .bottom-4
 desenio.se,justo.ca,moises.ai,my.openbb.co,promobit.com.br,remnote.com,shuttle.rs,stableaudio.com,thecycle.game,urlcast.io##.bottom-4
+!! .bottom-40
+netnoticias.mx##.bottom-40
 !! .bottom-3
 accu-components.com,accu.co.uk,knock.app##.bottom-3
 !! .bottom-16
@@ -21940,6 +21944,7 @@ sweez.ch###cookiesBanner_background
 sweez.ch###cookiesBanner_wrapper
 wieisdemol.be###cover-div
 ewtc.de###cp
+creopard.de###creocook
 ruegenwalder.de###csdialogbd
 ruegenwalder.de###csdialogmd2
 rentalens.ch###dabar
@@ -22312,6 +22317,7 @@ erotik.com##.swinger-consent
 blitzrechner.de##.sygnal24-gdpr-modal-wrap
 dav-summit-club.de##.theme-cookie-hint
 trixxo-arena.be##.ts-header-message
+joydivision.de##.tx-bwscookie
 verwaltung.bund.de##.u-flash-message
 sparwelt.de##.ui-notification
 die-fliesenwelt.de,elektro-thielmann.de##.ui-pnotify
@@ -23799,6 +23805,7 @@ biznes2biznes.com##.stickynote2
 buki.org.pl##.styles_show__3i6kx
 anstar.edu.pl##.tarnow-cookies-wrapper
 kurnik.pl##.tcell
+proracing24.com##.tcookie
 parking-serwis.pl##.top
 omegasoft.pl##.ui-widget-content
 optyczne.pl##.w3-modal
