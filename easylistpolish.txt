@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Dp3xlUQMrSIdUbUbWQ0tzQ
-! Version: 202401250501
+! Checksum: Z+lyMavYCRtZ4E2vM+N6eQ
+! Version: 202401250511
 ! Title: EasyList Polish
-! Last modified: 25 Jan 2024 05:01 UTC
+! Last modified: 25 Jan 2024 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -111,7 +111,6 @@ mandarinodesign.eu#@#.reklama
 -ad-$domain=tuhiszpania.pl
 -baner-$domain=budownictwo.co|firmy.meblarstwo.eu|ipulawy.pl|meblarskapolska.pl|meblosfera.pl|obiektysakralne.pl|panoramakutna.pl|sadownictwo.com.pl|slupca.pl|sochaczewianin.pl|tkaninyobiciowe.eu|tygodnikpiski.pl
 -baner.$domain=blogprezesa.pl|crypto-trader.pl|ipulawy.pl|napoli24h.pl|przeclaw24.pl|wirtualnyzgierz.pl|wolanie.info
--baner728.$domain=nieruchomosci-komercyjne.info
 -baner_$domain=nolesnica.pl|polska-morska.pl
 -banery-$domain=automotivesuppliers.pl
 -banery^$domain=przeclaw24.pl
@@ -1080,7 +1079,6 @@ zlotoryjska.pl##.baner_pod_menu_1190x125px
 glas-hit.pl##.baner_przedni
 elblag.net##.banera1
 lakiernictwo.net##.banert
-nieruchomosci-komercyjne.info##.banery2
 janosik.info##.baneryLewe
 studio-mebli.eu##.banery__container
 instalacjebudowlane.pl##.banery_lewy_pasek
@@ -2487,6 +2485,10 @@ wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 kurierlubelski.pl##[class="atomsListingArticleTileWithSeparatedLink component"]
 to.com.pl##[class="atomsListingArticleTileWithSeparatedLink component"]
+nowosci.com.pl##[class="atomsListingArticleTileWithSeparatedLink component"]
+nowiny24.pl##[class="atomsListingArticleTileWithSeparatedLink component"]
+nto.pl##[class="atomsListingArticleTileWithSeparatedLink component"]
+poranny.pl##[class="atomsListingArticleTileWithSeparatedLink component"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
