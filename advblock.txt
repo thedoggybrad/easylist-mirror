@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eZlZmZDGdxA/oNDkwwGfuA
-! Version: 202401260911
+! Checksum: SEBQlEgUEYFDeXxHkBJcjw
+! Version: 202401260921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Jan 2024 09:11 UTC
+! Last modified: 26 Jan 2024 09:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13189,7 +13189,7 @@ siliconrus.com##.b-bks
 inter.ua##.b-block > table[class]
 sibdepo.ru##.b-block--banner
 ixbt.com##.b-block__parterslist
-news.liga.net##.b-blocks
+liga.net##.b-blocks
 sobaka.ru##.b-body-brand-banner
 sobaka.ru##.b-body-sidebar__banners
 hata.by##.b-card__sale
@@ -26009,7 +26009,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||player.*.com/prebidlink/*.js|$script,domain=tsn.ua
 @@||player.3tv.im^$script,stylesheet,domain=player.3tv.im
 @@||player.adtelligent.com/static/player.$script,stylesheet,domain=ictv.ua|inter.ua|k1.ua|novy.tv|ntn.ua|player.starlight.digital|stb.ua|teleportal.ua|vringe.com|xsport.ua
-@@||premium.adwile.com/$xmlhttprequest,domain=cc-fan.tv|cn-fan.tv|fox-fan.tv|nf-fan.tv
 @@||print-post.com^*.js$script,domain=print-post.com
 @@||pubads.g.doubleclick.net/gampad/ads?sz=$xmlhttprequest,domain=olympics.1tv.ru
 @@||pvpru.com/css/banners/300$domain=pvpru.com
