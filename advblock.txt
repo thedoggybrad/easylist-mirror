@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iqZjS09oRGy1rt8GdRpInQ
-! Version: 202401261051
+! Checksum: LU3/Ob0Mefbm4HcJoz4dRQ
+! Version: 202401261101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Jan 2024 10:51 UTC
+! Last modified: 26 Jan 2024 11:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24030,6 +24030,7 @@ championat.com##a[href*="fon.bet/"]
 ~mail.rambler.ru,~nova.rambler.ru,rambler.ru,www.afisha.ru##a[href*="okko.tv"]
 letidor.ru,quto.ru##article a[href^="https://zen.yandex.ru/"]
 championat.com##div.banner[class*=" "]
+finance.rambler.ru#?#div:-abp-has(> a[href*="?erid="])
 autorambler.ru,rambler.ru,sport.rambler.ru#?#div:-abp-has(> div > [data-rnet])
 rambler.ru#?#div:-abp-has(> div > [id^="adfox-"] + div > div:only-child)
 quto.ru#?#div:-abp-has(> div[style] + [id^="rnet_"])
