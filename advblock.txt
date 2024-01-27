@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +gdYaTfjFFu6b1g+l2ySRg
-! Version: 202401270931
+! Checksum: ZyLlyp4ZtWy8/QF8ipQfFg
+! Version: 202401270941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Jan 2024 09:31 UTC
+! Last modified: 27 Jan 2024 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1059,6 +1059,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##.serp-adv__banner
 ##.serp-block_type_market-offers
 ##.shareaholic-ad
+##.smi24__informer
 ##.sp_search2_table
 ##.sp_search3_table
 ##.sp_search_table
@@ -1572,6 +1573,7 @@ me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][
 ##div[id^="cpa_rotator_block"]
 ##div[id^="criteo-"][style]
 ##div[id^="gnezdo_ru_"]
+##div[id^="infox_"]
 ##div[id^="itizergroup_"]
 ##div[id^="join_informer_"]
 ##div[id^="news_2xclick_ru_"]
@@ -15986,7 +15988,6 @@ proufu.ru##.smi
 factroom.ru##.smi2
 mel.fm##.smi2-news-container
 kurgan.ru##.smi24
-banki.loans##.smi24__informer
 31tv.ru##.smi24_tisers
 csharpprogramming.ru##.smile
 season-var.net##.smotrite
@@ -18882,7 +18883,6 @@ newsomsk.ru,omskregion.info##div[id^="hitsadv"]
 ru-an.info##div[id^="hme_ad_news"]
 isport.ua,korrespondent.net##div[id^="holder_"]
 fanfics.me##div[id^="inform_top_"]
-govoritmoskva.ru,mockva.ru##div[id^="infox_"]
 forum.littleone.ru##div[id^="inpage_"]
 glav.su##div[id^="js-hb-t-"]
 tkaninfo.ru##div[id^="kazandrey"]
@@ -24005,7 +24005,6 @@ secretmag.ru##.sideColumn div[style^="padding-bottom:"]
 motor.ru##.sideColumn form + div[style] + div
 motor.ru##.sideColumn form + div[style] ~ div .heading:not(.header)
 moslenta.ru##.sideColumn form ~ div
-gazeta.ru##.smi24__informer
 rambler.ru##.traffic-blocks[class*="intresting"]
 lenta.ru##.yandex-games
 @@||rambler.ru/i/icons/icon-comment.svg?$image,domain=rambler.ru
@@ -24024,6 +24023,7 @@ rambler.ru##[data-news_media-desktop*="rnet_widget"]
 rambler.ru##[data-special*=":okko:"]
 www.afisha.ru##[data-test="LINK OKKO-BUTTON"]
 sport.rambler.ru##[href^="https://www.fonbet.ru/"]
+letidor.ru,moslenta.ru,passion.ru,quto.ru##[id^="unit_"]
 wmj.ru##[qaid="topic"] ~ div a[href^="https://zen.yandex.ru/"]
 championat.com##a[href*="fon.bet/"]
 ~mail.rambler.ru,~nova.rambler.ru,rambler.ru##a[href*="okko.sport"]
