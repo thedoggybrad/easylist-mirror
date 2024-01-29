@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cpeyrh5glE8I6d+pTZZvUw
-! Version: 202401290831
+! Checksum: aUvBSNZSqGvdG6D+ImtHIQ
+! Version: 202401290841
 ! Title: EasyList Polish
-! Last modified: 29 Jan 2024 08:31 UTC
+! Last modified: 29 Jan 2024 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -117,7 +117,6 @@ mandarinodesign.eu#@#.reklama
 -banner-$domain=erp-view.pl|forbot.pl|iknurow.pl|itvpiaseczno.pl|linia.com.pl|longevitas.pl|mlecznepodroze.pl|motocykle125.pl|olawa24.pl|pokonajlysienie.com|swiatczytnikow.pl|swiatoze.pl|techsetter.pl|tenisbydawid.pl|tkaninyobiciowe.eu|tucholanin.pl|uavo.com.pl|wirlandii.pl|ww-model.pl|zycieczestochowy.pl
 -banner.$domain=nowepomorze.pl
 -banner1.$domain=tu.swinoujscie.pl
--banner_$domain=kaszuby24.pl
 -bannery-$domain=bogaty.men|zarobmy.se
 -fb-baner-$domain=starosadeckie.info
 -reklama-$domain=bithub.pl|chelmski.eu|firmy.meblarstwo.eu|golub-cgd.pl|kurekmazurski.pl|nasz-glos.com|ostrodanews.pl|przedsiebiorczepodlasie.pl|radomszczanska.pl|starosadeckie.info|tkaninyobiciowe.eu|tv-pelplin.pl
@@ -2484,6 +2483,11 @@ wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 gazetarogozinska.pl##[class*="banner--"]
 szemud24.pl##.new-toplayer
+dziennikhistoryczny.pl##.new-toplayer
+bialobrzegi24.net##.new-toplayer
+mypolkowice.pl##.new-toplayer
+nowysztum.pl##.new-toplayer
+naszpruszcz.pl##.new-toplayer
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
