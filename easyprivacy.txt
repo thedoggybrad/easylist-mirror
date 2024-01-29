@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202401291139
+! Version: 202401291152
 ! Title: EasyPrivacy
-! Last modified: 29 Jan 2024 11:39 UTC
+! Last modified: 29 Jan 2024 11:52 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -12558,6 +12558,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rtg-adroute.focas.jp^
 ||s.dc-tag.jp^
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
+||sales-crowd.jp/js/sc-web-access-analysis.js
 ||sankei-digital.co.jp/log?
 ||sankei.co.jp/js/privacy/sando.js
 ||script-sh.d2cdm.jp^
@@ -43610,7 +43611,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ! ! OtAutoBlock.js
 @@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com|uphold.com
 ! ! cxense.com/document/search?
-@@||cxense.com/document/search?$domain=ntv.co.jp
+@@||cxense.com/document/search?
 ! ! cxense.com/public/widget/
 @@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|savonsanomat.fi|shueisha.co.jp|tn.com.ar|wsj.com
 ! ! cxense.com/cx.cce.js
