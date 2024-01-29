@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: Hx/eq92zOrGAB9cBeM2Wig
-! Version: 202401290151
+! Checksum: esG2nehnGsAIJ4BWmVf5VQ
+! Version: 202401290200
 ! Title: ABPVN List
-! Last modified: 29 Jan 2024 01:51 UTC
+! Last modified: 29 Jan 2024 02:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 29 Jan 2024 08:23:03 UTC+7
-! Diff-Path: patches/20240129082303956.patch#abpvn
+! Last modified: 29 Jan 2024 09:00:22 UTC+7
+! Diff-Path: patches/20240129090022928.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -509,7 +509,6 @@ download.vn,gamevui.vn###ouibounce-modal
 download.vn,gamevui.vn##div[id^="adsbg"]
 dubaotiente.com##.ad-pin-right-bottom
 ebookbkmt.com##.top-right
-ecci.com.vn##.widget_media_image.widget
 ephoto360.com##.line-ads
 ephoto360.com,thiepmung.com,motchillz.org,ophimhd.vip,xemphimchill.xyz,phimmoi.win,247phim.cc,hotphim.cc##.ad-container
 eva.vn##.banr-Rt
@@ -1142,7 +1141,6 @@ znews.vn##.znews-banner
 @@||www.tiengnhatdongian.com$generichide
 @@||yhocdata.com$generichide
 @@||yopovn.com$generichide
-duytan.edu.vn#@##adbox
 game24h.vn#@#.adsbyvli
 ios.codevn.net#@#div[id*="ScriptRoot"]
 ios.codevn.net,ipacrack.com#@#ins.adsbygoogle
@@ -1293,8 +1291,7 @@ truyen18.xyz##.apu
 truyen18.xyz##.header
 truyenhentaivn.com###catfish
 truyenhentaivn.com##.wppopups-whole
-truyensextv.com,lxmanga.net,truyensextv.org,truyensextv.com##.sticky-footer
-truyensextv.com,truyensextv.com###sticky-footer
+truyensextv.com,lxmanga.net,truyensextv.org##.sticky-footer
 tuoi69.tv##.v4j-header.v4j-content
 tuoi69z.pro###bar_float_r
 tuoi69z.pro##.quangcaomb
