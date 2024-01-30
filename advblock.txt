@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bZDUbL7GVHOgkGIkQGcOkA
-! Version: 202401301851
+! Checksum: LegScrVaIOaHG9aFYYLn1Q
+! Version: 202401301901
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Jan 2024 18:51 UTC
+! Last modified: 30 Jan 2024 19:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15657,6 +15657,7 @@ biqle.org,biqle.ru##.rightbar > div[style^="width"]
 bookskeeper.ru##.rightcol
 kino-archive.ru#?#.rightcol > div:-abp-has(a[href][target="_blank"])
 1001-dollar.com##.rightpanel
+autosoftos.com#?#.rightside > .block:-abp-has(> .dcont > div > ins )
 smotriserial.me##.rightslide
 kinonews.ru##.rightzagolup
 m-live.tv##.rk1,.rk2,.rk3,.rk4,.rk5
@@ -19757,6 +19758,7 @@ rafkino.com##div[id^="MarketGid"]
 ||an.yandex.ru/count/$csp=script-src
 ||askentire.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.keycaptcha.com
 ||autonews.co.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.io *.net *.org *.ru *.ua
+||autosoftos.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.google.com/recaptcha/ *.gstatic.com/recaptcha/ *.dev *.io *.net *.org *.ru
 ||azbne.net^$csp=sandbox allow-same-origin;
 ||babla.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' date: ajax.googleapis.com *.bab.la *.cloudflare.net *.jsdelivr.net *.facebook.net *.twitter.com
 ||betnetmed.advertserve.com^$csp=sandbox allow-same-origin;
