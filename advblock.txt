@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: V1L/fIv75r8nb5zxO7baHw
-! Version: 202401300901
+! Checksum: kalyHjG/HewW+xouf4FJDg
+! Version: 202401300911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Jan 2024 09:01 UTC
+! Last modified: 30 Jan 2024 09:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23173,8 +23173,8 @@ lada.kz/uploads/banners/
 ! Pikabu (ловушка для обфускации)
 ||pikabu.ru/ajax/?*&*key=$xmlhttprequest,domain=pikabu.ru
 ||pikabu.ru/ajax/?*&__$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/ajax/?*=%5B$xmlhttprequest,domain=pikabu.ru
 ||pikabu.ru/ajax/?*=*key=$xmlhttprequest,domain=pikabu.ru
-||pikabu.ru/ajax/?*fb=$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
