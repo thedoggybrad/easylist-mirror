@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aaeQhQrta+gHBH8fIMkqTw
-! Version: 202401301841
+! Checksum: bZDUbL7GVHOgkGIkQGcOkA
+! Version: 202401301851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Jan 2024 18:41 UTC
+! Last modified: 30 Jan 2024 18:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22933,7 +22933,7 @@ lada.kz/uploads/banners/
 ||voxpopuli.kz/pub/banners/img/
 ||voxpopuli.kz/userfiles/branding/
 ||vozmi.net/img/*150x250
-||vp.rambler.ru/player/*/player.html#docking$domain=livejournal.com|rambler.ru|~vp.rambler.ru
+||vp.rambler.ru/player/*/player.html#docking$domain=livejournal.com
 ||vplate.ru/bundles/adblock-checker-js
 ||vremya-sovetov.ru/rek
 ||vrgames.by^*/banners/
@@ -24035,7 +24035,6 @@ championat.com##div.banner[class*=" "]
 finance.rambler.ru#?#div:-abp-has(> a[href*="?erid="])
 autorambler.ru,rambler.ru,sport.rambler.ru#?#div:-abp-has(> div > [data-rnet])
 rambler.ru#?#div:-abp-has(> div > [id^="adfox-"] + div > div:only-child)
-rambler.ru#?#div:-abp-has(> div > div[id^="adfox-"] ~ div [id^="cluster-video-ad"])
 quto.ru#?#div:-abp-has(> div[style] + [id^="rnet_"])
 mail.rambler.ru##div[class*="Ad-direct"]
 lenta.ru##div[class*="goodnews"][class*=" "]
