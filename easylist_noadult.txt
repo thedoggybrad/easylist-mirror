@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pM087jL1WY3aD/LgQ2Xp8A
-! Version: 202401310041
+! Checksum: zAwsqe1QB0zETPv8O8DKtw
+! Version: 202401310051
 ! Title: EasyList without rules for adult sites
-! Last modified: 31 Jan 2024 00:41 UTC
+! Last modified: 31 Jan 2024 00:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -169,6 +169,7 @@
 /ad/img/*
 /ad/imp?
 /ad/leaderboard.
+/ad/load_ad?
 /ad/player_
 /ad/popup.
 /ad/skin-
@@ -916,13 +917,8 @@
 /inline_ad_
 /inline_ads.
 /InlineAds.
-/inlineads/*
-/inner-ads-
-/inner-ads/*
-/innerads.
-/insertAd.
-/insertads.
-/internAds.
+/insertads.js
+/internAds.css
 /Javascripts/SBA-
 /jquery-ads.
 /jquery.ad.
@@ -952,19 +948,10 @@
 /layerad-
 /layerad.
 /layerads_
-/layout/ads/*
 /lazy-ads.
-/lazy-ads@
-/lazyad-
-/lazyad.
+/lazyad-loader.js
+/lazyad-loader.min.js
 /lazyload.ads?
-/leader_ad.
-/leaderad.
-/Leaderboard-Ads-
-/leaderboardad.
-/leaderboardads.
-/left-ads.
-/left_ad_
 /left_ads.
 /leftad.
 /leftad_
@@ -975,23 +962,16 @@
 /lijitads.
 /linkad2.
 /linkads.
-/linkadv.
-/linkadv_
-/liveads.
 /livejasmin.$domain=~livejasmin.com
 /livejasmin2.
 /livejasmin_
 /livejasminpopupunder.
-/load_ad?
-/local-ad.
-/localads.$domain=~localads.cab
+/localads.aspx
 /log_ad?
-/logoads.
+/logoads.jpg
+/logoads.png
 /lserver/*
 /mads.php?
-/main/ad/*
-/main_ad/*
-/mainad.$domain=~mainad.ru
 /maven/am.js
 /mbads?
 /mcad.php
@@ -1016,10 +996,9 @@
 /modules/ad_
 /modules/ads/*
 /moneyball/ads/*
-/mpuad.
-/MPUAd/*
+/MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
-/mysimpleads/*
+/mysimpleads/mysa_output.php
 /nad_exo.
 /native-ad-
 /native-ads-
