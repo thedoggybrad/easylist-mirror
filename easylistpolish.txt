@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: anlbK5jwMkrt0jGCJ2aQ6g
-! Version: 202402010801
+! Checksum: stCf+Yb3dSbycjFy04Lryg
+! Version: 202402010811
 ! Title: EasyList Polish
-! Last modified: 01 Feb 2024 08:01 UTC
+! Last modified: 01 Feb 2024 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -473,6 +473,8 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^banners^$domain=zambrowiacy.pl
+-baner.$domain=tkn24.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2479,6 +2481,8 @@ lowiczanin.info##.new-toplayer
 myglogow.pl##.new-toplayer
 extraswiecie.pl##[class^="g g-"]
 rudaslaska.com.pl##.m-ads-revive__zone
+zory.com.pl##.m-ads-revive__zone
+konecki24.pl###ad--bill-top
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
