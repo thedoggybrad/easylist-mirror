@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +ukp5fZuQSolBupfoPhI2Q
-! Version: 202402011051
+! Checksum: vxRSZ/kXsFwb7UgBsu7cww
+! Version: 202402011101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Feb 2024 10:51 UTC
+! Last modified: 01 Feb 2024 11:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23176,7 +23176,7 @@ lada.kz/uploads/banners/
 ||pikabu.ru/ajax/?*&*key=$xmlhttprequest,domain=pikabu.ru
 ||pikabu.ru/ajax/?*&__$xmlhttprequest,domain=pikabu.ru
 ||pikabu.ru/ajax/?*=*key=$xmlhttprequest,domain=pikabu.ru
-||pikabu.ru/ajax/?abkey=$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/ajax/?abbkey=$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
@@ -24341,7 +24341,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.stat_pixel_yes[onclick][class*="_layou
 yandex.by,yandex.kz,yandex.ru,yandex.uz##a[href*="//ads.adfox.ru/"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
-dzen.ru##div[class*="wltjed__container"] > div[class*="wltjed__"] ~ div
+dzen.ru##div[class*="witjed__container"] > div[class*="witjed__"] ~ div
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 ||awaps.yandex.
 ||bs-meta.yandex.$script,xmlhttprequest
