@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uR/8w6fhpxBCYRPzAh6h9g
-! Version: 202402020741
+! Checksum: oinqErHCXG76H/Mpn04P1w
+! Version: 202402020751
 ! Title: EasyList Polish
-! Last modified: 02 Feb 2024 07:41 UTC
+! Last modified: 02 Feb 2024 07:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -469,6 +469,7 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=korso.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2480,6 +2481,12 @@ leszno24.pl##.new-toplayer
 ipoddebice.pl##.new-toplayer
 faktyct.pl##.new-toplayer
 ejarocin.pl##.new-toplayer
+zlomzy.pl##.new-toplayer
+radzyninfo.pl##.new-toplayer
+zawiercie365.pl##.new-toplayer
+myszkow365.pl##.new-toplayer
+glospowiatusredzkiego.pl##.new-toplayer
+orzesze.com.pl##.m-ads-revive__zone
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
