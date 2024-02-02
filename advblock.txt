@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5DuKHsdE3fjv9IVrzOxZtQ
-! Version: 202402021011
+! Checksum: DcLWR1wNTTZkYhUee7s2Kg
+! Version: 202402021021
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Feb 2024 10:11 UTC
+! Last modified: 02 Feb 2024 10:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5095,6 +5095,7 @@ _tizers.
 ||contactsin.mobi^
 ||contactsin.ru^
 ||contema.ru^$third-party
+||contemo.ru^$third-party
 ||contentika.com^$third-party
 ||conteresse.com^
 ||conteresso.com^
@@ -26105,7 +26106,7 @@ mods-club.ru##body > [id]:not([class]):not([iframe]):not(#main-bg)
 24pdd.kz##body > [id][class*=" "]:not([style])
 itbusiness.com.ua,zmoe.ru##body > div:not([id]):not([class])
 chemrise.ru##body > div[class*="ui-widget"]
-pastebin.com,primpogoda.ru##body > div[id]:not([class])[style="display: block;"]
+anime-free.ru,pastebin.com,primpogoda.ru##body > div[id]:not([class])[style="display: block;"]
 fashion2news.com,hotallnews.today,news24.in.ua,newspad.ru##body > div[id][class]
 24pdd.ru#?#body > div[id][class]:-abp-has(> div[id][class] [class^="adblock"])
 kurs.com.ua,ontvtime.ru##body > div[style*="background-color:"][style*="z-index:"]
