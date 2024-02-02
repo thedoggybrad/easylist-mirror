@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k0biR94s/Xa2IMP2gVDLkA
-! Version: 202402020911
+! Checksum: SOgF/WqlYC7xw5lslvSzsQ
+! Version: 202402020921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Feb 2024 09:11 UTC
+! Last modified: 02 Feb 2024 09:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13988,7 +13988,6 @@ rus-urologiya.ru##.cpa_top
 promtu.ru##.cpablcok
 agro-biz.ru,ecology-of.ru##.cpatop
 cq.ru#?#.cq-content > h2:-abp-contains(/ставки/i)
-cq.ru##.cq-smi2
 starhit.ru,woman.ru##.creative
 elle.ru,maximonline.ru,parents.ru,vokrugsveta.ru,wday.ru##.creative-container._vb-2
 pogoda.com##.creatividad
@@ -14155,7 +14154,6 @@ diets.guru,newsyou.info,pohudet.org##.exitblock
 korabel.ru##.ext_link_img
 russian.rt.com##.external-widget
 carsweek.ru##.extra
-cq.ru##.f-line__item--bk
 superjob.ru#?#.f-test-search-result-item:-abp-has(> div > div .f-test-link-Podrobnee)
 superjob.ru#?#.f-test-search-result-item:-abp-has(> div li div:empty:first-child + div:empty)
 1777.ru##.f80
@@ -15378,7 +15376,6 @@ svoimirykami.club##.posts__adv
 infotechnica.ru##.ppoibrorzf
 professionali.ru##.pr-banner-wrap
 newkaliningrad.ru##.pr-side-240
-cq.ru##.pr-wi__right
 megaresheba.ru##.preloading
 isport.ua##.premium-desk
 wowhead.com##.premium-promo-row
@@ -16690,7 +16687,6 @@ exnews.org##[class$="bbody"]
 news.tj##[class$="bsnack"]
 kino-archive.ru#?#[class$="title"]:-abp-contains(/предложения/i)
 cq.ru##[class*="-odd"]
-cq.ru##[class*="-promo"]
 oboz.ua##[class*="Banner"]
 libsib.ru##[class*="_a24"]
 cq.ru##[class*="_book"]
@@ -16829,9 +16825,6 @@ briefly.ru##[data-disclaimer*="Реклама"]
 basaru.net.ru,lexxs.us,superkarate.ru,topfile.tj,weblance.com.ua##[data-dlebclicks]
 gdetraffic.com##[data-gcat="ads"]
 gamer-info.com##[data-gmimplid]
-cq.ru##[data-gtag-analytics*="bk-"]
-cq.ru##[data-gtag-analytics*="bookmaker"]
-cq.ru##[data-gtag-analytics*="odd"]
 vc.ru##[data-gtm*="ponsor"]
 banki.ru##[data-gtm-view*="view_calc_widget_content"]
 tulapressa.ru##[data-href*="://zen.yandex.ru/"]
@@ -17147,6 +17140,7 @@ sportliga.com##a[href*="/c.php?"]
 tvoymalysh.com.ua##a[href*="/cgi-bin/click"]
 forum.sibmama.info,forum.sibmama.ru##a[href*="/cl.php?b"]
 ixbt.games,smb.ixbt.com##a[href*="/click/branding/"]
+cq.ru##a[href*="/cq67er/"]
 podolyaka.com,podolyaka.ru##a[href*="/dzen/"]
 liveinternet.ru##a[href*="/fastvk.com/"]
 litlib.net##a[href*="/feisovet/"]
@@ -23125,7 +23119,7 @@ lada.kz/uploads/banners/
 ||pikabu.ru/ajax/?*&*key=$xmlhttprequest,domain=pikabu.ru
 ||pikabu.ru/ajax/?*&__$xmlhttprequest,domain=pikabu.ru
 ||pikabu.ru/ajax/?*=*key=$xmlhttprequest,domain=pikabu.ru
-||pikabu.ru/ajax/?adakey=$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/ajax/?adabkey=$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
@@ -24285,10 +24279,11 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.stat_pixel_yes[onclick][class*="_layou
 @@://yandex.*/search$generichide
 @@://yandex.ru/|$generichide
 @@||yandex.ru/ads/system/adsdk.js|$script,domain=yandex.ru
+dzen.ru##[class*="floours"] div[id][class^="feed"] [class*="wrapper"][aria-label] ~ article:not([aria-label])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##a[href*="//ads.adfox.ru/"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
-dzen.ru##div[class*="vidjed__container"] > div[class*="vidjed__"] ~ div
+dzen.ru##div[class*="widjed__container"] > div[class*="widjed__"] ~ div
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 ||awaps.yandex.
 ||bs-meta.yandex.$script,xmlhttprequest
