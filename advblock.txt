@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x335AQnEPzUN+MS+vsMdSQ
-! Version: 202402021531
+! Checksum: NMxT6ivCmIQfWNi1K8J3yA
+! Version: 202402021541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Feb 2024 15:31 UTC
+! Last modified: 02 Feb 2024 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12680,7 +12680,7 @@ delovoy-kirov.ru###uzhanina
 heregirl.ru,ledilana.ru###vgtrk_bottom
 virusinfo.info###vi_ad
 virusinfo.info###vi_adlink
-dofilms.ru,hlamer.ru###video-container .overlay_video
+hlamer.ru,otfilm.ru###video-container .overlay_video
 ivi.ru###video-flack
 videonews.club###video_bootom
 enter.az###videorekframe
@@ -20110,7 +20110,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /service/display/|$script,domain=povarenok.ru|stranamam.ru
 /site/showbanner/*$domain=latifundist.com
 /sm\.news/[^\s]{80,}/$script,domain=sm.news
-/stargate*.$image,popup,xmlhttprequest,domain=dofilms.ru|hlamer.ru
+/stargate*.$image,popup,xmlhttprequest,domain=hlamer.ru|otfilm.ru
 /static/banners/*$domain=gagadget.com|maxpark.com|vse-sto.com.ua
 /static/js/build/adidas.min.js$domain=auto43.ru|dom43.ru|gorodkirov.ru|job43.ru
 /storage/banners/*$domain=1sn.ru|banki.loans|sportliga.com
