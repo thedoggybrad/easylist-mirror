@@ -1,13 +1,20 @@
+[Adblock Plus 2.0]
+! Checksum: 4J/M3Z2r1ExydIbp0XTj+g
+! Version: 202402031321
+! Title: ROList
+! Last modified: 03 Feb 2024 13:21 UTC
+! Expires: 1 days (update frequency)
+! Homepage: https://www.zoso.ro/rolist/
+!
+! ROList subscription
+!
+! *** rolist:rolist.txt ***
 [Adblock]
-! Title: ROLIST - Romanian Adblock List
 ! Original list, by Menetz, was handed over to Zoso to host and maintain.
 ! A complementary list, with more strict items, is here https://zoso.ro/pages/rolist2.txt
-! Expires: 2 days
 ! License: http://creativecommons.org/licenses/by/3.0/
-! Homepage: https://zoso.ro/rolist/
 ! Email: mail@zoso.ro
 ! Last modified: 25 OCT 2023 06:00 UTC
-
 !hosts
 ||01.creativecdn.com^
 ||2mdn.net^
@@ -126,12 +133,10 @@
 ||worldgravity.com^
 ||zontera.com^
 ||zopim.com^
-
 !wildcard hosts
 ||arbocontext.ro^
 ||einformatii.ro/content/website
 ||img.2parale.ro/system/paperclip/banner_pictures
-
 !words
 /ads/*
 /bannere/*
@@ -139,7 +144,6 @@
 /reclame/*
 /simple-pull-quote/*
 /plugins/convertplug/*
-
 !CSS
 ##DIV[id*="reclama"]
 info##DIV[class="banda-sticky-mini"]
@@ -152,7 +156,6 @@ ro##DIV[class="banda-sticky-mini"]
 ro##DIV[class="banda-sticky-vp"]
 ro##IFRAME[id^="ETARGET"]
 ro##trafic
-	
 !Whitelist
 @@||googletagmanager.com/gtm.js?id=GTM-TKS335$script,domain=emag.ro
 @@||grgs.ro/1/i/icons/favicon.ico$image,domain=www.pcgarage.ro
@@ -174,7 +177,6 @@ carrefour.ro#@#[href*="/promo"]
 revista22.ro##IMG[src*="banner"]
 ro#@#DIV[id="onetrust-banner-sdk"]
 ro#@#DIV[id="onetrust-consent-sdk"]
-
 !porcarii
 ||7iasi.ro/wp-content/uploads/pub/2023/Marius_b.png$image
 ||7iasi.ro/wp-content/uploads/pub/2023/Marius_b.png$image
@@ -290,7 +292,6 @@ ro#@#DIV[id="onetrust-consent-sdk"]
 ||zf.ro/images/orange/zf_live_2023_orange_footer.jpg$image
 ||gsp.ro/usr/widgets/289399/superbet-ucl.jpg$image
 ||cdn.slots.baxter.olx.org/autovit/_assets/video/autovit_content_video.mp4$media
-
 !div rules
 ##a[href^="https://www.welthaus.ro/"][target="_blank"]
 ##div[id^="mg-bottom-20.strawberry-ad-card"]
