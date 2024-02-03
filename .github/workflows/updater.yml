@@ -199,7 +199,7 @@ jobs:
 
       - name: Sync rolist.txt
         run: |
-          curl -sSfL https://www.zoso.ro/pages/rolist.txt > rolist.txt
+          curl -sSfL https://easylist-downloads.adblockplus.org/rolist.txt > rolist.txt
           git add rolist.txt
           git diff-index --quiet HEAD || git commit -m "Sync rolist.txt" || true
           git push
