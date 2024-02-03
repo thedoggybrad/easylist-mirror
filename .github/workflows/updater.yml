@@ -108,7 +108,7 @@ jobs:
 
       - name: Sync abpindo.txt
         run: |
-          curl -sSfL https://raw.githubusercontent.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt > abpindo.txt
+          curl -sSfL https://easylist-downloads.adblockplus.org/abpindo.txt > abpindo.txt
           git add abpindo.txt
           git diff-index --quiet HEAD || git commit -m "Sync abpindo.txt" || true
           git push
