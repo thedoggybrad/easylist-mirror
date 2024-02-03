@@ -150,7 +150,7 @@ jobs:
 
       - name: Sync easylistlithuania.txt
         run: |
-          curl -sSfL https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt > easylistlithuania.txt
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistlithuania.txt > easylistlithuania.txt
           git add easylistlithuania.txt
           git diff-index --quiet HEAD || git commit -m "Sync easylistlithuania.txt" || true
           git push
