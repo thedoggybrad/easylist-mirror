@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5PfLCMfBJbktUUZsJtIxGA
-! Version: 202402031331
+! Checksum: OdHV3VNmDZJZDmgKlCikZg
+! Version: 202402031341
 ! Title: EasyList without element hiding rules
-! Last modified: 03 Feb 2024 13:31 UTC
+! Last modified: 03 Feb 2024 13:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -44622,6 +44622,8 @@ $script,stylesheet,third-party,xmlhttprequest,domain=up-4ever.net
 @@||up4ever.download^$domain=up-4ever.net
 ! hitomi.la/rule34hentai.net
 $script,third-party,domain=hitomi.la|rule34hentai.net
+@@||ajax.googleapis.com^$script,domain=rule34hentai.net
+@@||cloudflare.com^$script,domain=rule34hentai.net
 ! urlcash.net
 |http://$script,xmlhttprequest,domain=urlcash.net
 |https://$script,xmlhttprequest,domain=urlcash.net
