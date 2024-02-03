@@ -143,7 +143,7 @@ jobs:
 
       - name: Sync NordicFiltersABP-Inclusion.txt (Dandelion Nordic)
         run: |
-          curl -sSfL https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersABP-Inclusion.txt > NordicFiltersABP-Inclusion.txt
+          curl -sSfL https://easylist-downloads.adblockplus.org/dandelion_sprouts_nordic_filters%2Beasylist.txt > NordicFiltersABP-Inclusion.txt
           git add NordicFiltersABP-Inclusion.txt
           git diff-index --quiet HEAD || git commit -m "Sync NordicFiltersABP-Inclusion.txt" || true
           git push
