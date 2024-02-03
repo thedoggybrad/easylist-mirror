@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vWDKe6+Qa+KCv4cbqYSkjQ
-! Version: 202402031351
+! Checksum: U8o+gFJHtfcFrNf5KxyIBg
+! Version: 202402031401
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Feb 2024 13:51 UTC
+! Last modified: 03 Feb 2024 14:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12275,7 +12275,6 @@ cpainform.ru###pr_top
 delovoy-kirov.ru###preveav
 legends.ru###pricerbig
 bloknot-khersona.ks.ua,osnovu-ved.ru###primary .textwidget noindex
-hi-tech.ua#?##primary > a[href="/article/"] ~ .single-post:-abp-has(.adsbygoogle)
 dimonvideo.ru#?##primary > article:-abp-has(> .panel > .panel-heading > [href="/reklama.php"])
 ain.ua###prjctrHightlights
 bankiros.ru###product-best
@@ -15911,7 +15910,7 @@ podillyanews.com##.similar-news
 novostiua.net##.simple-banner
 kurs.if.ua##.simple-top-block
 novadoba.com.ua##.single-bottom-advertising-block
-hi-tech.ua#?#.single-post:-abp-has(> div > .sam-pro-container)
+hi-tech.ua#?#.single-post:-abp-has(.sam-pro-container)
 usionline.com##.single-sidebar__banners
 mockva.ru##.single-teasers
 dnpr.com.ua##.single-widgets > p[style="font-size:1.25rem"]
@@ -16898,6 +16897,7 @@ nntt.org##[href^="http://numbuster.com"]
 nntt.org##[href^="http://www.cenam.net"]
 game2day.ru##[href^="https://p2d.ru/"]
 divxplayer.ml,haes.tech,hcdn.online,hqq.tv,metaverseid.tk,player.cvary.org##[href^="https://t.me/"]
+upload.ee##[href^="https://www.upload.ee/home.php"]
 forum.ru-board.com##[href^="postings.cgi?action=edit&forum=5&topic=51141"]:not([href$="postno=1"]) ~ .post img:not([src*="://forum.ru-board.com/board/"])
 virpl.ru##[id$="-banner"]
 xyu.tv##[id$="AdsAfterVideo"]
