@@ -129,7 +129,7 @@ jobs:
 
       - name: Sync latvian-list.txt
         run: |
-          curl -sSfL https://raw.githubusercontent.com/Latvian-List/adblock-latvian/master/lists/latvian-list.txt > latvian-list.txt
+          curl -sSfL https://easylist-downloads.adblockplus.org/latvianlist.txt > latvian-list.txt
           git add latvian-list.txt
           git diff-index --quiet HEAD || git commit -m "Sync latvian-list.txt" || true
           git push
