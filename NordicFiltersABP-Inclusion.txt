@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gPnLVxluBBK6HnW36Ham9w
-! Version: 202402051411
+! Checksum: WdXI2i3tvLG9nXIRGjyWWA
+! Version: 202402051421
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 05 Feb 2024 14:11 UTC
+! Last modified: 05 Feb 2024 14:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -75725,6 +75725,7 @@ scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="o
 porndoe.com##.video-item:has(a.video-item-link[ng-native-click])
 jav4tv.com##aside:has(.ads_300_250)
 youporn.com##aside:has(a.ad-remove)
+rule34.paheal.net##section[id$="main"] > .blockbody:has(> div[align="center"] > ins)
 !! Advanced element hiding rules
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
