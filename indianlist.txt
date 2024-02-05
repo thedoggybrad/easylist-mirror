@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OU5CrgNDC/1n1pADf1QUpg
-! Version: 202402051101
+! Checksum: 8kGPOp9uuaGkkH3lnpfkHw
+! Version: 202402051110
 ! Title: IndianList
-! Last modified: 05 Feb 2024 11:01 UTC
+! Last modified: 05 Feb 2024 11:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1580,6 +1580,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||cinepati.com/upload/0023-08-2790d9abd1c813175c698b8e6d147a5f.jpg
 ||cinesnacks.net/wp-content/uploads/2023/08/a56a930.jpg
 ||citizenlive.news/wp-content/uploads/2022/08/IMG-20220813-WA0182
+||cityliveindia.com/ads/
 ||citymirrors.in/wp-content/uploads/2020/08/manoj.jpg
 ||citynewsexpress.com^$third-party,domain=ghazipuraajkal.com
 ||citywatchnews.com/wp-content/uploads/2020/09/patidar
@@ -5823,6 +5824,7 @@ awamileaguetimes.com,lokaantar.com##.ad-banner
 cs24bd.com,primenewsbd.com##.ad-box
 punjabkesari.com##.ad-box-300
 dailykaratoa.com,dainikshiksha.com,ichowk.in,news18.com,saralpatrika.com##.ad-container
+cityliveindia.com##.ad-div
 mediaoneonline.com##.ad-gap-sm
 business-standard.com##.ad-height-desktop
 ekagaj.com,newsroomme.com##.ad-img
@@ -7933,6 +7935,7 @@ anubhaviaankhennews.com##.widget_text p
 ctgdailynews24.com,dainikparibarton.com##.widget_text.widget_area
 jaihindtimes.in##.widget_text:not(#custom_html-7)
 khabareducation.com##.widget_text:not(#text-15)
+thefourthmirror.com##.widget_text:not(#text-2)
 ceylonradio.co.uk##.widget_text:not(#text-24)
 sandeshnow.com##.widget_text:not(#text-6)
 akashjatra.com##.widget_tibwky
@@ -8336,6 +8339,7 @@ champarantoday.in#?#.sidebar-widget:-abp-has(> .widget-head > .title:-abp-contai
 chatonay71news.com#?#.widget_recent_entries:-abp-contains(ads)
 chhattisgarhaaj.com#?#.main--sidebar .widget:-abp-has(> div.ad--widget-no)
 cityandolan.com#?#div[data-slot="460008"] div:-abp-has(> div > div > a > div > h6:-abp-contains(Ad |))
+cityliveindia.com#?#div:-abp-has(> .main-heading:-abp-contains(Advertizement))
 countrynewstoday.com#?#.td-block-title > span:-abp-contains(Advertisement)
 crimediarybd.com#?#.sidebar-widget:-abp-has(> .widget-body > p:only-child )
 dailybahadur.com#?#.textwidget:-abp-has(> p > ins.adsbygoogle)
