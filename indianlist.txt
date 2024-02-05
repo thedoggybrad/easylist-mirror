@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: N0Lb4lQR8gMh02S6D5Tcqw
-! Version: 202402051121
+! Checksum: DCAYyTR1PzyGNusc8mnKQA
+! Version: 202402051131
 ! Title: IndianList
-! Last modified: 05 Feb 2024 11:21 UTC
+! Last modified: 05 Feb 2024 11:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -672,7 +672,7 @@ _advt.jpg|
 /Advertisement/*$domain=aparajeobangla.com|banglarchokh.com.bd|nepalipaisa.com|odiaspotnews.in|shankhnaad.in
 /advertisement/*$domain=bizshala.com|keralasabdam.in|nanaonline.in|newsabhiyan.com|srijannews.com|swatantraawaz.com|tatkalnews.com
 /Advertisement/*$domain=ekushey-tv.com|womeneye24.com
-/advertisement/*$domain=khabarmukam.com|newuthayan.com|sportsmail24.com|thannambikkai.org|yugvartanews.com
+/advertisement/*$domain=khabarmukam.com|newuthayan.com|sportsmail24.com|thannambikkai.org|udghoshdaily.com|yugvartanews.com
 /advertisementBanners/*$domain=keralaexpress.com
 /advertisements/*$domain=abhiyandaily.com|banglakatha.com.au|dailydhakareport.com|indiasamachar24.com|janachasotimes.com|kashilive.com|lalmonibarta.com|nepalipatra.com|nepalkhabar.com
 /advertisments/*$domain=parchhayin.com
@@ -781,6 +781,7 @@ _advt.jpg|
 @@||ttinews.in//add/grp991d912445.jpg
 @@||ttinews.in//add/grpacb55f9af7.png
 @@||udayanadu.com/images/ads/$domain=udayanadu.com
+@@||udghoshdaily.com/images/advertisement/2023/737943fc784e2ee0d887fd195c843e87.gif
 @@||wp.com^*/728X90pxHealth-Banner-Notice-e1575655446543.jpg
 @@||youngvarta.com/uploads/blocks/block_5e8dae57e47c1.JPG
 @@||youngvarta.com/uploads/blocks/block_5f056e0ef2e59.gif
@@ -5392,7 +5393,7 @@ onlinekhabar.com###ok18-roadblock-wrap
 outlookhindi.com###olh-rhs1
 saaravita.lk###openModal1
 patnalive.co.in###oppopo
-crickethimalaya.com,musickhabar.com,udghoshdaily.com###ouibounce-modal
+crickethimalaya.com,musickhabar.com###ouibounce-modal
 ratantimes.com###owl-demo1
 importmirror.com###p-vila
 muzaffarpurwow.com###panel-134-5-1-0
@@ -6437,6 +6438,7 @@ prajavani.net##.dk_only
 thodkyaat.com##.dmp
 newspr.live##.dns-caption-below
 gulfmalayaly.com##.do-space
+nepalpatra.com##.don
 doolnews.com##.dool-ad
 doolnews.com##.doolgad
 dailyajkershomoy.com##.down_social_display_ad
@@ -6487,7 +6489,6 @@ simanapari.com##.elementor-widget-image .size-full:not([src*="simanapari-1.png"]
 thecolomboexpress.com##.elementor-widget-image .size-large:not(.wp-image-61263)
 bhartiyakhabar.in##.elementor-widget-image figure
 pokharacity.com##.elementor-widget-image img:not([src*="About-pokhara"])
-udghoshdaily.com##.elementor-widget-image img:not([src*="Purna-Khop.jpg"]):not([src*="Novel_corona_AD-"])
 benkiyabale.com##.elementor-widget-image img:not([src*="bbtv-logo"])
 newsflash24bd.com##.elementor-widget-image img:not([src*="logo-en.png"])
 udupixpress.com##.elementor-widget-image img:not([src*="new-logo.png"])
@@ -7063,8 +7064,8 @@ narayanionline.com##.no-vigyapan-section
 sagarmatha.tv##.no-vigyapan-sidebar-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -7165,7 +7166,7 @@ farwesttimesdaily.com##.promo__col
 farwesttimesdaily.com##.promotional__col
 publictv.in##.pt-adv
 janayugomonline.com##.pum
-cinemapressclub.com##.pum-content
+cinemapressclub.com,nepalpostdaily.com##.pum-content
 punjabnewslive.co.in##.punja-after-content_14
 thedailycampus.com##.purplepatch
 purvanchalpost.com##.purva-widget
