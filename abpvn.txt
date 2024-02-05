@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: wji74KQ8YllO7Q8LTDl2ng
-! Version: 202402051201
+! Checksum: /mIahJRQdOpQsQK2APozjg
+! Version: 202402051211
 ! Title: ABPVN List
-! Last modified: 05 Feb 2024 12:01 UTC
+! Last modified: 05 Feb 2024 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 05 Feb 2024 17:24:24 UTC+7
-! Diff-Path: patches/20240205172424194.patch#abpvn
+! Last modified: 05 Feb 2024 19:02:38 UTC+7
+! Diff-Path: patches/20240205190238951.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -578,7 +578,7 @@ keoso.co##.widget-sidebar-block
 ketqua247vn.club,keoso.co##.ads-container
 ketqua3.net##.baloon
 ketqua3.net##.col-sm-10.kqcenter
-ketqua3.net,ketqua3.net##.kqbackground.vien ~ a[target="_blank"]
+ketqua3.net##.kqbackground.vien ~ a[target="_blank"]
 ketqua3.net,nghean24h.vn,xem.tructiepnba.com,phimmoi4s.com,biphim.biz,vidian.wiki,truyenchu.com.vn,vbfast.xyz,xemtivi4k.com,abtruyen.com##a[rel="nofollow"]
 khiphach.vip###qc-kpgame
 kienthuc.net.vn##.sponsor-zone
