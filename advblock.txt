@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WvJZwT51SqA9792uTLbVCg
-! Version: 202402061041
+! Checksum: l11UVi+Dnl9ZMgW5/ErUhQ
+! Version: 202402061051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Feb 2024 10:41 UTC
+! Last modified: 06 Feb 2024 10:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3479,7 +3479,7 @@ _tizers.
 ||statcontent.ru^$third-party
 ||static.fortfs.com/images/bnrs/$third-party
 ||static.leadia.ru/widget/$third-party
-||static.localrent.com/widget/$third-party
+||static.localrent.com/widget/$third-party,domain=~localrent.pl
 ||static.myrentacar.com/widget/$third-party
 ||static.terrhq.ru^
 ||stavkiprognozy.ru^$third-party
@@ -23147,6 +23147,7 @@ sdamgia.ru##div[id^="yandex_vario"]
 pikabu.ru##div[style*="important;"][style*="width:"][style*="height:"]
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 pikabu.ru##div[style^="width: 300px; height:"]
+liveinternet.ru##style + div > div > div > div > div a[target="__blank"]
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
