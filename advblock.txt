@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HnTVZ6IH0ZbX13vgH9vPfQ
-! Version: 202402061401
+! Checksum: TDkz2E1jRPypIXXl9sXAPA
+! Version: 202402061411
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Feb 2024 14:01 UTC
+! Last modified: 06 Feb 2024 14:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11679,7 +11679,6 @@ anti-malware.ru,brd24.com,minizal.net,onyxgame.com,otxataba.net,xatab-repack.com
 videoprobki.com###brand-adv-left
 videoprobki.com###brand-adv-right
 voxpopuli.kz###brand_logo
-gidonline.eu###brand_vad
 altapress.ru,klopotenko.com###branding
 rufootballtv.org###branding > a[href]
 foto.ua###branding-bg-pickit
@@ -19502,7 +19501,6 @@ x360-club.org##table[background="themes/xbox/images/hhead.jpg"]
 samlib.ru##table[border][style^="border: solid #8e5373"][style$="margin-bottom: 3px;"]
 kinoblog.tv#?#table[height="300"]:-abp-has(div[class^="adfinity_block_"])
 goroskop.org##table[height="90"]
-picplus.ru##table[height][bgcolor="#e9e9e9"]
 ru.gg##table[id^="ad-"]
 cyberforum.ru#?#table[id^="post"] ~ div[style^="margin: 3px 0px"]:-abp-has([id^="yandex_rtb"])
 cyberforum.ru##table[id^="post"] ~ div[style^="margin: 3px 0px"][style*="display"]
@@ -19637,7 +19635,6 @@ crazyatomicgames.com,xxx-igra.com,yaldagames.com##td[width="300"] + td[valign="t
 crazyatomicgames.com,xxx-igra.com,yaldagames.com##td[width="300"] + td[valign="top"] > noindex ~ noindex
 crazyatomicgames.com,xxx-igra.com,yaldagames.com##td[width="300"] > div[class^="c"]
 crazyatomicgames.com,xxx-igra.com,yaldagames.com##td[width="300"] > noindex
-picplus.ru##td[width="300"][bgcolor="#e9e9e9"]
 unibytes.com##td[width="33%"]
 liveday.ru##td[width="367"] > noindex + table[width="367"]
 cool-archive.ru##td[width="556"] > :not(#dle-content)
@@ -21059,7 +21056,6 @@ lada.kz/uploads/banners/
 ||getalbums.ru^$object
 ||ggscore.com/media/b/
 ||giclub.tv/index.php?action=downloads;sa=downfile&id=
-||gidonline.eu^*/gidonline.js
 ||gig-torrent.ru/templates/GTR/images/bn
 ||gigantporno.com/wk.php
 ||gimp.nas2.net/img/rek/
