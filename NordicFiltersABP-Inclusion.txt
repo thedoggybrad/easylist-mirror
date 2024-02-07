@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Vt5eA+tpkU9ZuD7WAhrOPQ
-! Version: 202402071101
+! Checksum: bYIJ+7MXKqzbgo/t2OrVjw
+! Version: 202402071111
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Feb 2024 11:01 UTC
+! Last modified: 07 Feb 2024 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -14099,6 +14099,7 @@ _800x80_
 ##.Footer_1-ad-holder
 ##.GRVAd
 ##.GRVMpuWrapper
+##.GRVMultiVideo
 ##.Gallery-Content-BottomAd
 ##.GeminiAdItem
 ##.GeminiNativeAd
@@ -60303,6 +60304,7 @@ browsershots.org#@#.advert_area
 ||gripdownload.co^$third-party
 ||groovinads.com^$third-party
 ||growadvertising.com^$third-party
+||grv.media^$third-party
 ||grvmedia.com^$third-party
 ||guitaralliance.com^$third-party
 ||gumgum.com^$third-party
@@ -70775,6 +70777,7 @@ files.im##.btn-success
 sbenny.com##.btnDownload5
 pollunit.com##.btn[href$="?feature=ads"]
 youloveit.com##.btop
+lifestyleasia.com##.btt-top-add-section
 business-standard.com##.budgetWrapper
 businessmirror.com.ph##.busin-after-content
 businessmirror.com.ph##.busin-before-content
@@ -71933,6 +71936,7 @@ dfir.training##.moduleid-347
 dfir.training##.moduleid-358
 beckershospitalreview.com##.moduletable > .becker_doubleclick
 dailymail.co.uk##.mol-fe-vouchercodes-redesign
+manofmany.com##.mom-ads__inner
 tiresandparts.net##.mom-e3lan
 monsoonjournal.com##.mom-e3lanat-wrap
 mondoweiss.net##.mondo-ads-widget
