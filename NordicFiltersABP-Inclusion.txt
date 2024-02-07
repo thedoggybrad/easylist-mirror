@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: In1Sb60ZPAnA88FNjow/0A
-! Version: 202402071251
+! Checksum: Bw1R3GvW80xx8foSTqEeGA
+! Version: 202402071301
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Feb 2024 12:51 UTC
+! Last modified: 07 Feb 2024 13:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -67443,6 +67443,7 @@ browsershots.org#@#.advert_area
 ||blsnet.com/plugins/advertising/getad/
 ||blue.ktla.com^
 ||bontent.powzers.lol^
+||booking.com/flexiproduct.html?product=banner$domain=happywayfarer.com
 ||bordeaux.futurecdn.net^
 ||borneobulletin.com.bn/wp-content/banners/
 ||boxing-social.com^*/takeover/
@@ -67727,6 +67728,7 @@ browsershots.org#@#.advert_area
 ||nemosa.co.za/images/mad_ad.png
 ||newkerala.com/banners/amazon
 ||newsnow.co.uk/pharos.js
+||nexvelar.b-cdn.net/videoplayback_.mp4
 ||nontent.powzers.lol^
 ||norwaypost.no/images/banners/
 ||nrl.com/siteassets/sponsorship/
@@ -67771,6 +67773,7 @@ browsershots.org#@#.advert_area
 ||prebid-server.newsbreak.com^
 ||presearch.com/affiliates|$xmlhttprequest
 ||presearch.com/coupons|$xmlhttprequest
+||presearch.com/tiles^
 ||pressablecdn.com/wp-content/uploads/Site-Skin_update.gif$domain=bikebiz.com
 ||prewarcar.com/*-banners/
 ||prod-sponsoredads.mkt.zappos.com^
@@ -71091,6 +71094,7 @@ investing.com##.dfp-native
 investing.com##.dfpVideo
 yts.mx##.dfskieurjkc23a
 dailyfx.com##.dfx-article__sidebar
+dollargeneral.com##.dgsponsoredcarousel
 kiplinger.com##.dianomi_gallery_wrapper
 kmplayer.com##.dim-layer
 coingape.com##.diplay-m-ad
@@ -71099,6 +71103,7 @@ disk.yandex.com,disk.yandex.ru##.direct-public__sticky-box
 notes.io##.directMessageBanner
 premiumtimesng.com##.directcampaign
 oneindia.com##.discounts-head
+happywayfarer.com##.disclosure
 audiokarma.org##.discussionListItem > center
 apkcombo.com##.diseanmevrtt
 airmail.news,govevents.com,protipster.com##.display
@@ -73722,6 +73727,7 @@ tld-list.com##div.row > .text-center > .ib
 forward.com##div.sticky-container:first-child
 newegg.com##div.swiper-slide[data-sponsored-catalyst]
 inverse.com##div.zz
+presearch.com##div[\:class*="AdClass"]
 boxing-social.com##div[ad-slot]
 liverpoolway.co.uk##div[align="center"] > a[href]
 informer.com##div[align="center"][style="margin:10px"]
@@ -73988,6 +73994,7 @@ imgbabes.com##div[style^="width:604px;"]
 interglot.com,sodapdf.com,stopmalvertising.com##div[style^="width:728px;"]
 tvtv.us##div[style^="z-index: 1100; position: fixed;"]
 ebay.com##div[title="ADVERTISEMENT"]
+presearch.com##div[x-show*="_ad_click"]
 adblock-tester.com##embed[width="240"]
 teslaoracle.com##figure.aligncenter
 groupon.com##figure[data-clickurl^="https://api.groupon.com/sponsored/"]
@@ -74123,6 +74130,7 @@ asda.com##.co-item:has(.co-item__sponsored-label)
 theautopian.com##.code-block:has(.htlad-InContent)
 templateshub.net##.col-lg-4.col-md-6:has(> div.singel-course)
 costco.com##.col-xs-12:has([data-bi-placement^="Criteo_Product_Display"])
+dollargeneral.com##.dg-product-card:has(.dg-product-card__sponsored[style="display: block;"])
 limetorrents.lol##.downloadareabig:has([title^="Anâ€Œonâ€Œymous Download"])
 tripsonabbeyroad.com##.e-con-inner:has(tp-cascoon)
 protrumpnews.com##.enhanced-text-widget:has(span.pre-announcement)
@@ -74291,6 +74299,7 @@ pubs.rsc.org###journal-info > .text--centered
 forums.whathifi.com###jwplayer-container-div
 mentalfloss.com###mm-player-placeholder-large-screen
 bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
+bar-planb.com,hakibavuong.com###player_dev
 realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
