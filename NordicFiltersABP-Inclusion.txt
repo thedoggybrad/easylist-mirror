@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XnyAkcqmlWTbz9iuh4uyvg
-! Version: 202402070311
+! Checksum: 5M5nshOgynNQ2QUj9oDqDg
+! Version: 202402070320
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Feb 2024 03:11 UTC
+! Last modified: 07 Feb 2024 03:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1677,7 +1677,7 @@ abcnyheter.no##div[class^=AdSlot__]
 vinavisen.dk##.banner
 dust2.dk##.target-concept
 jyllands-posten.dk,finans.dk##div[class*=banner-container]
-borsen.dk##div[class*=col]:has(.native-teaser)
+borsen.dk##div[class*=col]:has(> .native-teaser)
 jyllands-posten.dk##section[id^=commercial]
 bt.no##p ~ div[class^=hyperion-css-]:has(> div[id*=-ad- i])
 viralomania.com##.sidebar > div[id^=block-]
