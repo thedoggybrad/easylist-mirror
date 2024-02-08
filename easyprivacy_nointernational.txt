@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 9YpEvLMA1BbvDEHXuTuK1Q
-! Version: 202402080231
+! Checksum: qJhquu12KZzzGtKgJ3j4Dw
+! Version: 202402080240
 ! Title: EasyPrivacy without international filters
-! Last modified: 08 Feb 2024 02:31 UTC
+! Last modified: 08 Feb 2024 02:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -35236,7 +35236,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||img.foodspring.nl^
 ||img.foodspring.se^
 ||img.sparkasse-koelnbonn.de^
+||info.allango.net^
 ||info.deltapublishing.co.uk^
+||info.genialklick.ch^
 ||info.klett-sprachen.de^
 ||intelligence.officialwesthamstore.com^
 ||is.lg.com^
@@ -35359,6 +35361,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||wbtrkk.teufel.de^
 ||wbtrkk.teufelaudio.at^
 ||wbtrkk.teufelaudio.be^
+||wbtrkk.teufelaudio.co.uk^
 ||wbtrkk.teufelaudio.com^
 ||wbtrkk.teufelaudio.es^
 ||wbtrkk.teufelaudio.fr^
@@ -35373,11 +35376,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||web.campaign.miriade.com^
 ||web.campaign.v73.it^
 ||web.collisionservices.com^
+||web.communications.amouage.com^
 ||web.comunicazioni.iol.it^
 ||web.crm.beps.it^
 ||web.diebayerische.de^
 ||web.e.aldermore.co.uk^
 ||web.e.bolts.co.uk^
+||web.e.compositesales.co.uk^
 ||web.e.drainagepipe.co.uk^
 ||web.e.guttersupplies.co.uk^
 ||web.e.panmacmillan.com^
@@ -35385,6 +35390,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||web.e.professionalbuildingsupplies.co.uk^
 ||web.e.pvccladding.com^
 ||web.email.farrow-ball.com^
+||web.email.pizzaexpress.com^
 ||web.email.pmtonline.co.uk^
 ||web.email.principality.co.uk^
 ||web.email.superga.co.uk^
@@ -35403,6 +35409,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||web.jana-shoes.com^
 ||web.mail.parmalat.it^
 ||web.mail.proximaati.com^
+||web.mailing.morawa.at^
 ||web.mailing.storz-bickel.com^
 ||web.mailing.vapormed.com^
 ||web.mapp.docpeter.it^
