@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: M+vccwaCqRKfjMpCyHjjIA
-! Version: 202402072351
+! Checksum: Q743IxMp+DmAkBZEb8XD7w
+! Version: 202402080001
 ! Title: EasyPrivacy without international filters
-! Last modified: 07 Feb 2024 23:51 UTC
+! Last modified: 08 Feb 2024 00:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -22,7 +22,6 @@
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &refer=http$script
 &t=pageview&
--adobe-analytics.
 -adobe-analytics/
 -adobeDatalayer_bridge.js
 -click-tracker.
@@ -44,7 +43,6 @@
 .com/stats.aspx?
 .com/track?$~object
 .content_tracking.js
-.de/h.gif?
 .de/l.gif?
 .eloqua.js
 .EventTracking.
@@ -489,7 +487,6 @@
 /cache_warmer/track/*
 /cached-scripts/analytics.js
 /caixinlog.js
-/call-tracking.js
 /call.tracker.js
 /callbacks/stats?
 /capture_client.js
@@ -550,7 +547,6 @@
 /clicklog.js
 /clicklog4pc.js
 /clickm.js
-/clickmap.js
 /clickpathmedia.js
 /clickscript.js
 /clickstats.php
@@ -1027,10 +1023,8 @@
 /global_analytics/s_code.js
 /global_tracking.js
 /goAnalytics.js
-/google-analyticator/external-tracking.min.js
 /google-nielsen-analytics.js
 /google/analytics.js
-/google/autotrack.custom.js
 /google/autotrack.js
 /google_analitycs.js
 /google_analytics3_v2.js
@@ -1559,7 +1553,6 @@
 /page_analytics.js
 /page_counter.js
 /page_perf_log?
-/pagead/conversion_async.js
 /PageCount.php?
 /pageCounter.adp?
 /pagedot.gif?
@@ -1825,10 +1818,8 @@
 /retarget_pixel.php
 /retargeting-pixels.php
 /revinit.js
-/revtracking/revinit.js
 /rgea.min.js
 /risk_fp_log?
-/riveted.js
 /riveted.min.js
 /rivraddon.js
 /rkrt_tracker-viajs.php
@@ -2114,7 +2105,6 @@
 /stats/v2/visit?
 /stats/visitors
 /stats/welcome.php?
-/stats/xtcore.
 /stats?aid=
 /stats?blog_
 /stats?callback=
@@ -2300,7 +2290,6 @@
 /TrackClick.
 /trackClickEvent.js
 /trackconversion?
-/tracker.do?
 /tracker.ga.
 /tracker.gif?
 /tracker/?key=
@@ -2336,7 +2325,6 @@
 /tracking/trackpageview
 /tracking/user_sync_widget?
 /tracking/views/*
-/tracking/xtcore.js
 /tracking202/static/landing.php
 /Tracking?id=
 /tracking?referrer
@@ -2356,7 +2344,6 @@
 /trackingheader.js
 /trackingImpression/*
 /trackingp.gif
-/trackingPixel.
 /trackingpixel.php
 /TrackingPixel/*
 /trackingTools.
@@ -2473,7 +2460,6 @@
 /vendor/analytics.js
 /vendor/analytics/*
 /vendor/cedexis/*
-/vendor/xtcore.js
 /vestigo/v1/measure
 /vglnk.js
 /vgwort/*
@@ -3533,7 +3519,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1tbj6eaenapdy.cloudfront.net^
 ||d2fuc4clr7gvcn.cloudfront.net/track.js
 ||d2pt12ct4kmq21.cloudfront.net^
-||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js
 ||d2wa5sea6guof0.cloudfront.net^
 ||d3vebqdofhigrn.cloudfront.net^
 ||dadi.technology^$third-party
@@ -4795,8 +4780,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stylitics.com/api/engagements
 ||su.pr/hosted_js$third-party
 ||sulia.com/papi/sulia_partner.js/$third-party
-||sundaysky.com/sst.gif?
-||sundaysky.com/vop/$third-party
 ||sunlightmetrics.b-cdn.net^
 ||sunset.com/tia/
 ||survey.interquest.com^
@@ -5275,7 +5258,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yimg.com/wi/ytc.js
 ||yottaa.com/rapid.min.js
 ||yottaa.net/log-jh
-||youborafds01.com/data?
 ||zapcdn.space/zapret.js
 ||zendesk.com/frontendevents/pv?
 ||zengenti.com/tags/
@@ -5426,7 +5408,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dzgwautxzdtn9.cloudfront.net^
 ! optimizely.com
 ||optimizely.com/client_storage/
-||optimizely.com/js/geo
 ||optimizely.com/log
 ||optimizely.com/public/
 ! firebase
@@ -6236,7 +6217,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lastminute.com/s/hdp/hotel-details/api/metrics
 ||lastpass.com/lpapi/content/pixels
 ||lastpass.com/m.php/proxy_tracker
-||ledger-enquirer.com/lz-isbnoyo/pdp.gif?
 ||lego.com/api/dl-event-ingest
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
@@ -6305,7 +6285,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcs.tiktokv.us^
 ||mcs.us.tiktokv.com^
 ||medium.com/_/batch
-||medium.com/_/clientele/reports/performance/
 ||meduza.io/stat/
 ||megaplay.cc/cdn-cgi/trace
 ||mensjournal.com/.bootscripts/analytics.min.js
@@ -6423,7 +6402,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.sfx.ms/is/invis.gif
 ||pac.thescottishsun.co.uk^
 ||pac.thesun.co.uk^
-||pagesix.com/blaize/datalayer
 ||pappagallu.onefootball.com^
 ||pardot.com/pd.js
 ||paypal.com/credit-presentment/log
@@ -8809,6 +8787,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! *** easylist:easyprivacy/easyprivacy_specific_cname_plausible.txt ***
 ! easyprivacy_specific_cname_plausible.txt
 ! plausible.io cname (https://plausible.io/docs/custom-domain)
+! Removed:
+! ||stats.trimbles.ie^
+! ||stats.suenicholls.com^
 ||custom.plausible.io^
 !
 ! Company name: Plausible Analytics https://github.com/AdguardTeam/cname-trackers/blob/master/data/trackers/plausible-analytics.txt
@@ -9689,7 +9670,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stats.strawberry.rocks^
 ||stats.studypages.com^
 ||stats.sublimesecurity.com^
-||stats.suenicholls.com^
 ||stats.suggestedit.com^
 ||stats.suniboy.com^
 ||stats.suominaikidoacademy.com^
@@ -9729,7 +9709,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||stats.trenntoi.de^
 ||stats.tresor.one^
 ||stats.trigo.at^
-||stats.trimbles.ie^
 ||stats.trussed.dev^
 ||stats.tubecalculator.co.uk^
 ||stats.twhl.xyz^
@@ -9832,6 +9811,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! easyprivacy_specific_cname_at-internet.txt
 !
 ! at-o.net https://github.com/AdguardTeam/cname-trackers/blob/master/data/trackers/at-internet-(formerly-xiti).txt
+! Removed due to dubes
+! www.strawberry.basf.com
 !
 ||71efe2183b8663ad5bf9d7a9320aeb48.leboncoin.fr^
 ||a.20minutes.fr^
@@ -9948,7 +9929,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||wvvw.infomigrants.net^
 ||wvvw.mc-doualiya.com^
 ||wvvw.rfi.fr^
-||www.strawberry.basf.com^
 ||y1.arte.tv^
 ||zagrabiti.viessmann.hr^
 ||zaventemdijleland.viessmann.be^
@@ -9960,6 +9940,17 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !
 ! Company name: Adobe Experience Cloud (formerly Omniture)
 ! removed: *.tt.omtrdc.net (dube of EP)
+! remove dube: wa.sugarandjade.com
+! ||wa.pjplace.com^
+! ||wa.gymboree.com^
+! ||wa.childrensplace.com^
+! ||tgt.maep.ibm.com^
+! ||target-us.samsung.com
+! ||sstats.adobe.com^
+! ||smetrics.couponcabin.com^
+! ||saa.insideedition.com
+! ||telemetry.goodlifefitness.com^
+! ||adobedc.demdex.net^
 !
 ||1ps6e7sort397gy9.edge46.testandtarget.omniture.com^
 ||20.edge46.testandtarget.omniture.com^
@@ -10172,7 +10163,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||adobeanalytics.serveone.co.kr^
 ||adobeanalytics.teksystems.com^
 ||adobeanalytics.vice.com^
-||adobedc.demdex.net^
 ||adobeedge.morganstanley.com^
 ||adobeedge.my.gov.au^
 ||adobes.marugame-seimen.com^
@@ -12903,7 +12893,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||saa.gamespot.com^
 ||saa.giantbomb.com^
 ||saa.globalspec.com^
-||saa.insideedition.com^
 ||saa.irvinecompanyapartments.com^
 ||saa.last.fm^
 ||saa.maxpreps.com^
@@ -13896,7 +13885,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||smetrics.countryfinancial.com^
 ||smetrics.countryfinancialsecurityblog.com^
 ||smetrics.countrypassport.com^
-||smetrics.couponcabin.com^
 ||smetrics.cox.com^
 ||smetrics.cpaaustralia.com.au^
 ||smetrics.cpsenergy.com^
@@ -15926,7 +15914,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||sstat.detelefoongids.nl^
 ||sstat.spreadex.com^
 ||sstatistikk.telenor.no^
-||sstats.adobe.com^
 ||sstats.airfarewatchdog.com^
 ||sstats.alfa.com^
 ||sstats.allure.com^
@@ -16439,7 +16426,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tags.esri.rw^
 ||target-omtrdc.deka.de^
 ||target-test.cisco.com^
-||target-us.samsung.com^
 ||target.accenture.com^
 ||target.acpny.com^
 ||target.afrique.pwc.com^
@@ -16579,7 +16565,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||telemetry.boxt.co.uk^
 ||telemetry.chrobinson.com^
 ||telemetry.dematic.com^
-||telemetry.goodlifefitness.com^
 ||telemetry.marketscope.com^
 ||telemetry.moveworks.com^
 ||telemetry.navispherecarrier.com^
@@ -16588,7 +16573,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tenilstats.turner.com^
 ||test-landing-page-122122.email-disney.cjm.adobe.com^
 ||testtarget.jeep.com^
-||tgt.maep.ibm.com^
 ||tmetrics.hdfcbank.com^
 ||tmetrics.webex.com^
 ||tms.53.com^
@@ -16690,23 +16674,19 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||wa.baltimoreravens.com^
 ||wa.bol.com^
 ||wa.castorama.fr^
-||wa.childrensplace.com^
 ||wa.dailymail.co.uk^
 ||wa.devolksbank.nl^
 ||wa.eonline.com^
 ||wa.gifts.com^
-||wa.gymboree.com^
 ||wa.localworld.co.uk^
 ||wa.metro.co.uk^
 ||wa.ncr.com^
 ||wa.nxp.com^
 ||wa.personalcreations.com^
-||wa.pjplace.com^
 ||wa.postnl.nl^
 ||wa.spring-gds.com^
 ||wa.st.com^
 ||wa.stubhub.com^
-||wa.sugarandjade.com^
 ||wa.t-mobile.nl^
 ||wa.vodafone.cz^
 ||wa.vodafone.de^
@@ -16855,6 +16835,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! Disabled:
 ! ||go.fvtc.edu^
 ! ||hfd.bridgetowermedia.com^
+! ||marketing.bluekai.com^
 !
 ||12build.actonservice.com^
 ||2.ed.west.com^
@@ -19700,7 +19681,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||marketing.bluebox.net^
 ||marketing.bluebusiness.com^
 ||marketing.bluefcu.com^
-||marketing.bluekai.com^
 ||marketing.bluemarblepayroll.com^
 ||marketing.bluvue.com^
 ||marketing.bmlwealth.net^
@@ -29801,6 +29781,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! *** easylist:easyprivacy/easyprivacy_specific_cname_keyade.txt ***
 ! easyprivacy_specific_cname_keyade.txt
 ! Company name: Keyade https://github.com/AdguardTeam/cname-trackers/blob/master/data/trackers/keyade.txt
+! removed dubed in EP
+!  ||ka.ilius.net^
 !
 ! k.keyade.com disguised trackers
 !
@@ -29822,7 +29804,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||k.voyageursdumonde.ca^
 ||k.voyageursdumonde.ch^
 ||k.voyageursdumonde.fr^
-||ka.ilius.net^
 ||keyade.alltricks.fr^
 ||keyade.ooreka.fr^
 ||keyade.uniqlo.com^
@@ -29836,6 +29817,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! easyprivacy_specific_cname_lead-forensics.txt
 ! Company name: Lead Forensics https://github.com/AdguardTeam/cname-trackers/blob/master/data/trackers/lead-forensics.txt
 !
+! Removed dubes
+! ||fp.measure.office.com^
+! ||secure.venture-365-inspired.com^
 !
 ||adssp.dunia.ae^
 ||android-analytics-prodhome1.mysoluto.com^
@@ -30108,7 +30092,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||secure.tube6sour.com^
 ||secure.tula9mari.com^
 ||secure.vane3alga.com^
-||secure.venture-365-inspired.com^
 ||secure.venture-enterprising.com^
 ||secure.venture365office.com^
 ||secure.vice4beek.com^
