@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /qoo3ExwBmo67IQ9hKL4jg
-! Version: 202402092111
+! Checksum: AfHHzWiPutNsLUuZ9ydN/g
+! Version: 202402092120
 ! Title: EasyList Lithuania
-! Last modified: 09 Feb 2024 21:11 UTC
+! Last modified: 09 Feb 2024 21:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/EasyList-Lithuania/easylist_lithuania
 !
@@ -674,6 +674,7 @@ simpsonaionline.net##+js(aopr, canRunAds)
 37.16.75.37##+js(nowoif)
 lkl.lt##.partner-item:upward(.bg-gray-100)
 15min.lt##.wrapper:style(margin-top: 0 !important)
+15min.lt##+js(aopr, _renderAdblock)
 ! ——— Narrow blocking rules ———
 /images/banners/*$domain=dumblas.com|onlyoffice.com|viskasvestuvems.eu
 /lt/davise/*$domain=torrent.ai|torrent.lt
