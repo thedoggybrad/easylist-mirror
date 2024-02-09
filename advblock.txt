@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MxLYWI6DdJWGaqTLYjo5AQ
-! Version: 202402092211
+! Checksum: z3lBnWjjYFXCkGNT8lJAMQ
+! Version: 202402092221
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Feb 2024 22:11 UTC
+! Last modified: 09 Feb 2024 22:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16103,6 +16103,7 @@ wmforum.2bb.ru##.tclcon > table[height="31"]
 oren.ru##.td-ad-background-link
 hs-manacost.ru,oren.ru##.td-banner-wrap-full
 allmmorpg.ru##.td-bnr-wrap-full
+vsviti.com.ua##.td-fix-index > a[href][target="_blank"]
 ani-mania.com##.td-for-blocks > .left-block[style]
 molbuk.ua##.td-for-blocks div[style="margin-bottom: 5px;"] > noindex
 molbuk.ua#?#.td-for-other > div:first-child[style] ~ .s-block:not([style]):not(:last-child)
@@ -23209,7 +23210,6 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
 2ip.io,2ip.ru#?#.narrow-column > style + div > div:-abp-has(a[target="_blank"])
 2ip.io,2ip.ru##.test-vpn
-2ip.io,2ip.ru##nav li a[onclick]
 !
 ! Auto.ru
 auto.ru##.BankCardForm
@@ -25796,12 +25796,12 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@/banner.jpg?ad_height=300&adzone=100&adserver=1&adType=32|$image
 @@/blockadblock.$script,domain=5urokov.ru|starblast.io
 @@/common/ad.$script,domain=dnevnik.ru|mosreg.ru
-@@/footerad.js|$script,~third-party,domain=game4you.top|games-pc.top|innal.top|naylo.top|rustorka.com|rustorka.net|rustorka.top|rustorkacom.lib
 @@/game-ads.js|$script,domain=files.vitalitygames.com
 @@/js/advert.js$~third-party
 @@/js/siropu/am/ads.min.js$script,~third-party,domain=customgames.ru|fantasticcraft.ru
 @@/pagead2.$domain=axd.semestr.ru|d-mod.ru|elsyst.gnomio.com|htmlweb.ru|math.semestr.ru|minimalsy.xyz|mysmsbox.ru|ph4.ru|profatom.ru|pvpru.com|sitecoder.blogspot.ru|slushat-tekst-pesni.ru|sovremennoepravo.ru|survarium.pro|temp-mail.org|trialkeys.ru|tvfeed.in|www.inoreader.com
 @@/player/player_ads.html$subdocument,domain=720video.me|bessporno.me|camsclips.biz|ebalovo.adult|ebalovo.porn|ebalovo.pro|lenkino.adult|pbembed.me|porno365.bingo|pornobit.mobi|pornobomba.click|pornobomba.vip|pornoham.me|pornomoll.red|porntn.com|private-records.com|ru-xvideos.me|russkoe21.com
+@@/pop_ads.js|$script,~third-party,domain=game4you.top|games-pc.top|innal.top|naylo.top|rustorka.com|rustorka.net|rustorka.top|rustorkacom.lib
 @@/templates/*/adblock/adframe.*.js$script,~third-party,domain=filmisub.com|kinofen.net
 @@||ad.mail.ru/adp/$xmlhttprequest,domain=pets.mail.ru
 @@||ad1.sibnet.ru/adriver.core.2.min.js|$script,domain=sibnet.ru
@@ -25827,6 +25827,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||an.yandex.ru/system/context.js|$domain=auto.ru|glav.su|onlinelpu.ru|ryfma.com
 @@||an.yandex.ru/system/context.js|$xmlhttprequest,domain=api-video.khl.ru
 @@||ansedo.com/js/*.js|$script,domain=ansedo.com
+@@||apad2.top/*.js|$script,domain=apad2.top
 @@||ava-avto.ru^$image,domain=ava-avto.ru
 @@||awaps.yandex.net^$script,domain=delovoe.tv|lentv24.ru|piter.tv|smexo.tv
 @@||balashover.ru/ads/www/delivery/ajs.php$script,domain=balashover.ru
