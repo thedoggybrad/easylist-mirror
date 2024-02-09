@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8pOuGZc+LoAeCNfinR9aYg
-! Version: 202402091451
+! Checksum: FmlDjWIru26E3hr4HSYI4g
+! Version: 202402091501
 ! Title: EasyList without element hiding rules
-! Last modified: 09 Feb 2024 14:51 UTC
+! Last modified: 09 Feb 2024 15:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -45003,7 +45003,9 @@ $webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepir
 @@||thepiratebay.*/static/js/scriptaculous.js$domain=thepiratebay.org
 @@||thepiratebay.org/*.php$csp,~third-party
 @@||thepiratebay.org/static/main.js$script,~third-party
-@@||torrindex.net^$image,script,stylesheet,domain=thepiratebay.org
+@@||torrindex.net/images/*.gif$domain=thepiratebay.org
+@@||torrindex.net/images/*.jpg$domain=thepiratebay.org
+@@||torrindex.net^$script,stylesheet,domain=thepiratebay.org
 ||thepirate-bay3.org/banner_
 ||thepiratebay.$script,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org
 ||thepiratebay.*/static/$subdocument
