@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: RVzrfczMtMRb2rB2h4E6gw
-! Version: 202402091231
+! Checksum: 78Rcsg85AyzAofTU9A6RLg
+! Version: 202402091241
 ! Title: ABPVN List
-! Last modified: 09 Feb 2024 12:31 UTC
+! Last modified: 09 Feb 2024 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 09 Feb 2024 19:13:16 UTC+7
-! Diff-Path: patches/20240209191316796.patch#abpvn
+! Last modified: 09 Feb 2024 19:33:31 UTC+7
+! Diff-Path: patches/20240209193331503.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1012,9 +1012,14 @@ xosodaiphat.com##.banner-adv-wrapper2
 xosodaiphat.com##.item-qc1
 xskt.com.vn,vieclam.tv###bnc0
 ycongnghe.com##.google-auto-placed
+ycongnghe.com##.td-container > div.td-pb-row > .td-pb-span12
 ycongnghe.com##.td-container-wrap.td-logo-wrap-full.td-banner-wrap-full
 ycongnghe.com##.td-crumb-container
 ycongnghe.com##.td_block_template_1.tdi_11.td-g-rec-id-sidebar.td-g-rec-id-sidebar
+ycongnghe.com##.td_block_template_1.tdi_28.td-g-rec-id-custom_ad_1.td-g-rec
+ycongnghe.com##.td_block_template_1.tdi_30.td-g-rec-id-sidebar.td-g-rec
+ycongnghe.com##.td_block_template_1.tdi_4.td-g-rec-id-custom_ad_1.td-g-rec
+ycongnghe.com##.td_block_template_1.tdi_6.td-g-rec-id-sidebar.td-g-rec
 ycongnghe.com##.td_block_template_1.tdi_9.td-g-rec-id-custom_ad_1.td-g-rec
 yeah1.com##.Float_ads
 yeah1.com##.container_top[style="line-height:0;"]
@@ -1050,7 +1055,7 @@ zophim.net###_AM_POPUP_FRAME
 @@||media1.admicro.vn/cms/$script,domain=tuoitre.vn
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cafenau.com
 @@||pagead2.googlesyndication.com^$domain=azrom.net|khohieu.com
-@@||pagead2.googlesyndication.com^$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|letrongdai.vn|romgoc.net|traderviet.org|sum.vn|truyenaudiocv.org|khuchotot.com|1shortlink.com|thelanb.com|cungthi.online|lehait.net|nhacsong.pro|kientruc360.info|giavang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|gocmod.com|tromcap.com|dafontvn.com|gvnvh18.com|sesenblog.com|filess.us|xaydungplus.com|nguonhd.net|anhdep24.com|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|ios.codevn.net|traffic1s.com|audiotruyenfull.com|minhpc.com|vongquaymayman.one|toilaquantri.com|diendancauduong.com|note1s.com|covemarkets.com|taisachonthi.com|mifirm.net|link1s.com|anonyviet.com|nguonphim.one|4g.tintuc247.top|linkvip.io|web1s.asia|vanhoatamlinh.com|kiemlua.com|tailieungon.com|khotailieuonthi247.com|tailieuvang.com|phimlongtieng.net|ipacrack.com|duan24h.net|www.iosviet.com|hoctoan123.com|xem3.gavang1.net|yhocdata.com
+@@||pagead2.googlesyndication.com^$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|letrongdai.vn|romgoc.net|traderviet.org|sum.vn|truyenaudiocv.org|khuchotot.com|1shortlink.com|thelanb.com|cungthi.online|lehait.net|nhacsong.pro|kientruc360.info|giavang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|gocmod.com|tromcap.com|dafontvn.com|gvnvh18.com|sesenblog.com|filess.us|xaydungplus.com|nguonhd.net|anhdep24.com|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|ios.codevn.net|traffic1s.com|audiotruyenfull.com|minhpc.com|vongquaymayman.one|toilaquantri.com|diendancauduong.com|note1s.com|covemarkets.com|taisachonthi.com|mifirm.net|link1s.com|anonyviet.com|nguonphim.one|4g.tintuc247.top|linkvip.io|web1s.asia|vanhoatamlinh.com|kiemlua.com|tailieungon.com|khotailieuonthi247.com|tailieuvang.com|phimlongtieng.net|ipacrack.com|duan24h.net|www.iosviet.com|hoctoan123.com|xem3.gavang1.net|yhocdata.com|ycongnghe.com
 @@||player.sohatv.vn/resource/$script,domain=cafef.vn|gamek.vn|genk.vn|kenh14.vn
 @@||stackjava.com/wp-content/uploads/*logo-250x250.png
 @@||static.amcdn.vn/tka/cdn.js$script,domain=genk.vn
@@ -1090,11 +1095,12 @@ zophim.net###_AM_POPUP_FRAME
 @@||web1s.asia$generichide
 @@||windowslite.net$generichide
 @@||www.tiengnhatdongian.com$generichide
+@@||ycongnghe.com$generichide
 @@||yhocdata.com$generichide
 @@||yopovn.com$generichide
 game24h.vn#@#.adsbyvli
 ios.codevn.net#@#div[id*="ScriptRoot"]
-ios.codevn.net,ipacrack.com,ycongnghe.com#@#.adsbygoogle
+ios.codevn.net,ipacrack.com#@#.adsbygoogle
 ket-noi.com#@##adcontent
 nhipcaudautu.vn#@#.ads_top
 phimvn2.org#@#.advertiser
@@ -1105,7 +1111,6 @@ timvanban.vn#@##ad-slot
 tratu.soha.vn#@#.adheader
 truyenaudiocv.org#@#.ads-large
 vndoc.com#@#.showads
-ycongnghe.com#@#.adsbox
 !------ ABPVN Adult block -------
 $third-party,script,domain=sexdiaryx.pro
 /player/vast.js
