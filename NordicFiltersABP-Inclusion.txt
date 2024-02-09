@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mzoT/m6z096G//rBIcOUsw
-! Version: 202402091451
+! Checksum: NDObW5NMKoN1F6H1dZb0WQ
+! Version: 202402091501
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Feb 2024 14:51 UTC
+! Last modified: 09 Feb 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -68298,7 +68298,9 @@ $webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepir
 @@||thepiratebay.*/static/js/scriptaculous.js$domain=thepiratebay.org
 @@||thepiratebay.org/*.php$csp,~third-party
 @@||thepiratebay.org/static/main.js$script,~third-party
-@@||torrindex.net^$image,script,stylesheet,domain=thepiratebay.org
+@@||torrindex.net/images/*.gif$domain=thepiratebay.org
+@@||torrindex.net/images/*.jpg$domain=thepiratebay.org
+@@||torrindex.net^$script,stylesheet,domain=thepiratebay.org
 ||thepirate-bay3.org/banner_
 ||thepiratebay.$script,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org
 ||thepiratebay.*/static/$subdocument
