@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: c4bJTCuxv1aup/Rh91V3og
-! Version: 202402111201
+! Checksum: kX6kbfe7ZeMY6s1PesREIw
+! Version: 202402111211
 ! Title: ABPVN List
-! Last modified: 11 Feb 2024 12:01 UTC
+! Last modified: 11 Feb 2024 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 11 Feb 2024 00:02:04 UTC+7
-! Diff-Path: patches/20240211000204551.patch#abpvn
+! Last modified: 11 Feb 2024 19:02:17 UTC+7
+! Diff-Path: patches/20240211190217965.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -270,7 +270,7 @@
 ||vnmu.edu.vn^*.gif
 ||vod02bc25882576.cloud.anycastapnic.com/8xBET_480p.mp4$domain=xem3.gavang1.net
 ||vov.vn/ads/show-ads
-||vsc36.com/wp-content/themes/vuasanco/assets/scripts/scripts.js
+||vsc37.com/wp-content/themes/vuasanco/assets/scripts/scripts.js
 ||wikisach.net/static/js/adx/$script
 ||www.bongdalu6.com^*.gif
 ||www.thuocbietduoc.com.vn/adv/
@@ -728,7 +728,7 @@ phimhaytv.info,congthucvatly.com,phuongtrinhhoahoc.com##.fixed
 phimlongtieng.com,phimlongtieng.net###mobile_content_top
 phimlongtieng.com,phimlongtieng.net###p-GMH
 phimmoi.win###hide_catfish
-phimmoi.win,vungtv.us,xemphimhdcc.com###container-ads
+phimmoi.win,vungtv.us,phimhdc.com###container-ads
 phimmoi4s.com##.box_option
 phimmoichillm.net###pm_quangcao
 phimnhua.com###catfish-banner
@@ -949,7 +949,7 @@ voh.com.vn##.Advs_adv-components__1nBNS.Advs_adv-300x250__2eyhC.Advs_no-content_
 voh.com.vn##.HotTagGlobal_fixed-height__1f50i
 voz.vn##.v-element>.v-responsive
 voz.vn##div.message--post
-vsc36.com##a.news__item--action:nth-of-type(2)
+vsc37.com##a.news__item--action:nth-of-type(2)
 vtc.vn##.sys-ads
 vtipster.net##div[class*="qca"]
 vtruyen.com###article>.pt-3.text-centers
@@ -1263,6 +1263,8 @@ vlxx.xxx##.catfish-top
 vlxx.xxx##.ff-banner
 vlxx.xxx##div.banner-catfish-bottom
 vlxx.xxx,javtopxx.com##.ads
+vlxxhot.com###ab_ctl
+vlxxhot.com##.bannerads
 vlxyz.vc##.xx-ads
 vn.javbabe.net##.b-player
 vn.phym18.one##div#bnads
@@ -1274,8 +1276,6 @@ www.buomtv.app##.llnefd1
 www.buomtv.app##.lpp0nsn
 www.buomtv.app##.luq51lg.a13wihj
 www.gaingon18.me###iklan-atas-wrapper
-xvideosaz.com###ab_ctl
-xvideosaz.com##.bannerads
 xxx.phe.to###divExoLayerWrapper
 xxx.phe.to##.sdzhead
 youtubeporn.pro##div[style^="position:fixed;inset:0px;z-index:100000;"]
