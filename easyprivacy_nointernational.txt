@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: T67mKHN/D728fRm7LADzdg
-! Version: 202402102350
+! Checksum: Th6/+99e0XctK1ntiHAmgg
+! Version: 202402102340
 ! Title: EasyPrivacy without international filters
-! Last modified: 10 Feb 2024 23:50 UTC
+! Last modified: 10 Feb 2024 23:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3810,6 +3810,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geo.gorillanation.com^
 ||geo.mezr.com^
 ||geo.ngtv.io^
+||geo.q5media.net^
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
 ||geo.thehindu.com^
 ||geobar.ziffdavisinternational.com^
@@ -5114,6 +5115,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||usizy.com/external/pageview
 ||utils.global-e.com/set?
 ||utt.pm/utm/
+||v-h.tv/pixel/
 ||v.shopify.com^
 ||va.tawk.to/log
 ||validate.onecount.net^$image
@@ -5295,6 +5297,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d191y0yd6d0jy4.cloudfront.net^
 ||d196fri2z18sm.cloudfront.net^
 ||d1af033869koo7.cloudfront.net^
+||d1clfvuu2240eh.cloudfront.net^
 ||d1cr9zxt7u0sgu.cloudfront.net^
 ||d1f0tbk1v3e25u.cloudfront.net^
 ||d1f1eryiqyjs0r.cloudfront.net^*/track.
@@ -6018,6 +6021,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fortune.com/comscore-json/
 ||foursquare.com/v2/private/logactions
 ||foxsports.com.au/akam/
+||fp.heavybit.com^
 ||fp.measure.office.com^
 ||fpa-cdn.adweek.com^
 ||fpa-cdn.arstechnica.com^
@@ -6625,6 +6629,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.tildacdn.com^
 ||stat.turb.pw^
 ||stat.vulkanvegas.com^
+||stategg.cdngeek.com^
 ||statista.com/data/ptm.gif
 ||statistics.streamdav.com^
 ||stats-jobstreet-sg-en-prod.supercharge-srp.co^$domain=jobstreet.com.sg
@@ -6878,6 +6883,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vanityfair.com/user-context?referrer
 ||video.mobile.yahoo.com/log|$xmlhttprequest
 ||views.arabnews.com^
+||views.asura.gg^
 ||views.asurascans.com^
 ||vimeo.com/ablincoln/
 ||vimeocdn.com/js_opt/logging_combined.min.js
@@ -7202,6 +7208,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||gvmomuqjv1.swyftx.com^
 ||hht8m6w8mnug.quine.sh^
 ||ilkk97e98lvg.www.sidsplumbing.ie^
+||ipz51x.kvest.ee^
 ||ivrnfvlcgubm.www.cefirates.com^
 ||iwl2d7pa4yx1.www.logology.co^
 ||ixa9ill0f7bg.grundbuch.zentraler-antragsservice.com^
