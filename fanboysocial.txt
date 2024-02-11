@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202402110934
+! Version: 202402110945
 ! Title: Fanboy's Social Blocking List
-! Last modified: 11 Feb 2024 09:34 UTC
+! Last modified: 11 Feb 2024 09:45 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -12197,9 +12197,7 @@ _twitter_follow.
 ##a[data-share="popup"]
 ##a[href^="fb-messenger://share/?"]
 ##a[href^="fb-messenger://share?link="]
-##a[href^="http://pinterest.com/pin/create/bookmarklet/"]
-##a[href^="http://pinterest.com/pin/create/button/"]
-##a[href^="http://pinterest.com/pin/create/link/"]
+##a[href^="http://pinterest.com/pin/create/"]
 ##a[href^="http://reddit.com/submit"]
 ##a[href^="http://service.weibo.com/share/share.php?url="]
 ##a[href^="http://twitthis.com/twit?url"]
@@ -13643,6 +13641,7 @@ tomshardware.fr##.widget-toms-widget-google-news
 pramgnet.com###Share
 algerie-radio.com###block-block-11
 tunisiatv.tn,watania1.tn###block-block-5
+almesryoon.com##.FollowUsOn
 elmogaz.com##.SocialNetworks
 mc-doualiya.com##.actions
 androydi.com##.author-tw
