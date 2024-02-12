@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202402121749
+! Version: 202402121758
 ! Title: EasyList Germany
-! Last modified: 12 Feb 2024 17:49 UTC
+! Last modified: 12 Feb 2024 17:58 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1944,9 +1944,12 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||motorrad2000.de/wp-content/uploads/*/0801_motorrad2000_bueffel_animation.gif
 ||motorrad2000.de/wp-content/uploads/*/8fa952cba73b0d4fbf043e9be45cb366.gif
 ||motorrad2000.de/wp-content/uploads/*/b67500ab7a18a07b9ef79e89bd077568.gif
+||motorradundreisen.de/banner/
+||motorradundreisen.de/engine/count_banner_image/
 ||motorradundreisen.de^*/banner/
 ||movie-share.one/images/banners/
 ||msecnd.net/endpoint/shipment/$domain=merkurist.de
+||msh-online.de/_daten/banner/
 ||mtb-news.de/news/wp-content/plugins/mtbn-ads/
 ||mtb-news.de/news/wp-content/uploads/*/takeover-
 ||mtb-news.de/news/wp-content/uploads/*/Takeover_
@@ -2039,6 +2042,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||oxmoxhh.de/wp-content/uploads/*/hotspring-
 ||pacific-blue.ch/banner/
 ||parcello.org/wp-content/uploads/*/amazon-$image
+||parfumo.de/affi/
 ||partner.schalke04.de^
 ||partyamt.de/images/b/
 ||paules-pc-forum.de/images/buch/
@@ -2047,6 +2051,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||pcgamesdatabase.de/images/bt_orderamazon.jpg
 ||pcgameshardware.de/tsimg/topbanner/
 ||pear.focus.de^
+||pedelecforum.de/forum/styles/pedelec/direkt/
 ||pesterlloyd.net/assets/images/autogen/Betway-Casino-300x400.jpg
 ||pfaffenhofen-today.de/images/banners/
 ||pfalz-echo.de/wp-content/uploads/*-Banner-
@@ -2928,8 +2933,8 @@ swiss-divers.ch###execphp-3
 fremdwort.de###ezisgib
 bundesliga-streams.net###fcnbox
 uhrforum.de###fh-div
-autoextrem.de,roboter-forum.com,skodacommunity.de,toyota-forum.de,uhrforum.de###fh-inside-bottom
-autoextrem.de,skodacommunity.de,toyota-forum.de,usp-forum.de,win-10-forum.de,winboard.org###fh-outside-top
+autoextrem.de,pedelecforum.de,roboter-forum.com,skodacommunity.de,toyota-forum.de,uhrforum.de###fh-inside-bottom
+autoextrem.de,pedelecforum.de,skodacommunity.de,toyota-forum.de,usp-forum.de,win-10-forum.de,winboard.org###fh-outside-top
 rewe.de###flagship_productlist
 spreeblick.com###flattr > a
 spreeblick.com###flattr > p
@@ -3077,9 +3082,9 @@ nydus.org###ny_banner
 nydus.org###nyba
 nydus.org###nybanner
 nydus.org###nydus_org_970x300_billboard_responsive
+pedelecforum.de###oc24-direkt
 autoexperience.de,flugzeugforum.de,gs-forum.eu,uhrforum.de,xbox-passion.de###oc24-div
 elektrikforen.de###oc24_container_top
-pedelecforum.de###oc24-direkt
 dasoertliche.de###oetb_entryAd
 yasni.de###offer
 planetradio.de###omsRectangleChannel
@@ -3106,6 +3111,7 @@ efahrer.chip.de###partner-nav
 cash.ch###partner-teaser-links
 fundresearch.de###partnerCentersLogoBar
 volleyball-bundesliga.de###partnerLinks
+pedelecforum.de###pedelecforum\.de_mpu_bot
 tiervermittlung.de###petsexpert
 photovoltaikforum.com###pf_incontent_2
 belgieninfo.net###pis_posts_in_sidebar-6
@@ -3805,7 +3811,7 @@ bunte.de##.fe-channel-item--promo
 ff-bz.com##.ff-ba
 autoextrem.de,skodacommunity.de,toyota-forum.de,usp-forum.de##.fh-inside-post
 autoextrem.de##.fh-sidebar
-toyota-forum.de##.fh-sidebar-top
+pedelecforum.de,toyota-forum.de##.fh-sidebar-top
 toyota-forum.de##.fh-sidebar.block > .block-container
 zeitpunkt.ch##.field--name-field-werbebild
 trvlcounter.de##.first_slot
@@ -4238,7 +4244,6 @@ newzs.de##.shopWidget
 pornoente.tv,pornohirsch.net,pornolisa.com,pornotanja.com##.sice-300x250
 xdate.ch##.side-ads
 german-porno-deutsch.info##.sidebar
-parfumo.de##.sidebar_a
 ploetzblog.de##.sidebar > .imglinks
 rheiderland.de##.sidebar-addbox
 giga.de##.sidebar-btn-affiliate[rel="nofollow noopener sponsored"]
@@ -4246,6 +4251,7 @@ austriansoccerboard.at##.sidebar-partner
 kreativfieber.de##.sidebar-right > #text-11
 kreativfieber.de##.sidebar-right > #text-6
 explora.ch##.sidebar-sponsor-outlay
+parfumo.de##.sidebar_a
 flugmodell-magazin.de,trucks-and-details.de##.sidebar_partners
 der-farang.com##.sideboard_conatainer
 automatentest.de##.sideinfo
