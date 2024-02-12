@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: il506oNbn2/lqi/Vd6ireA
-! Version: 202402121111
+! Checksum: SVx91HNUxn2wipQPre2KHw
+! Version: 202402121121
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Feb 2024 11:11 UTC
+! Last modified: 12 Feb 2024 11:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13062,6 +13062,7 @@ viva.ua##.article-partners
 4mama.ua,tvoymalysh.com.ua##.article-partners-news
 vedomosti.ru##.article-recommendation
 wotsite.net#?#.article-right > div:-abp-contains(Реклама)
+industry-hunter.com##.article-single .bg-light
 games.24tv.ua#?#.article-text > .insert:-abp-has(a[rel*="sponsored"])
 korrespondent.net#?#.article:-abp-has(> .article__title > a > .advertising)
 espreso.tv##.articleContent > .recomendation_list + h2.block-title
@@ -14827,7 +14828,8 @@ info.sibnet.ru##.main-header-middle > div
 namba.kz##.main-links > [style*="background"]
 ru-minecraft.ru##.main-news2 > div[style^="position: fixed;"][style*="left:"]
 industry-hunter.com##.main-page .card-body > a[target="_blank"]
-industry-hunter.com##.main-page > .container:first-child > .row > div + div ~ div
+industry-hunter.com##.main-page > .container > .row > div + div ~ div
+industry-hunter.com##.main-page > .container > div[class^="text-black"]
 vashdosug.ru##.main-page-banner-container
 glavred.info,glavred.net##.main-partners
 protdt.ru##.main-post-content > p[style] > strong
@@ -21222,7 +21224,7 @@ lada.kz/uploads/banners/
 ||imhonet.ru/img/dumm/*-promo.
 ||imoneyforum.ru/files/00
 ||imtw.ru/public/js/*banner
-||industry-hunter.com/uploads/banners/
+||industry-hunter.com/*banners/
 ||inetsovety.ru/bannerbro/
 ||info.sibnet.ru/img/weather/*/background.
 ||info.sibnet.ru/legacy//static_templates$image
