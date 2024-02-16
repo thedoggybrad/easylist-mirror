@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8g6HiA8yRkWoze4FatVYxA
-! Version: 202402162141
+! Checksum: dmBdYFBb1T8h3OtNF+ZxxQ
+! Version: 202402162151
 ! Title: EasyList without rules for adult sites
-! Last modified: 16 Feb 2024 21:41 UTC
+! Last modified: 16 Feb 2024 21:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17481,7 +17481,7 @@ _800x80_
 ##[data-desktop-ad-id]
 ##[data-dynamic-ads]
 ##[data-ez-name]
-##[data-freestar-ad]
+##[data-freestar-ad]:not(:empty)
 ##[data-id^="div-gpt-ad"]
 ##[data-m-ad-id]
 ##[data-mobile-ad-id]
@@ -19347,6 +19347,7 @@ browsershots.org#@#.advert_area
 ||a-b-c-d.xyz^
 ||a-mo.net^
 ||a-waiting.com^
+||a.pub.network^
 ||a00s.net^
 ||a06bbd98194c252.com^
 ||a11k.com^
@@ -42927,7 +42928,6 @@ browsershots.org#@#.advert_area
 ||pu1.biz^
 ||pu3.biz^
 ||pu5hk1n2020.com^
-||pub.network^
 ||pubacca5mc.com^
 ||pubaka5.com^
 ||pubceremony.com^
