@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nleaq4I2XMZz6kRWuKBIsw
-! Version: 202402160011
+! Checksum: 4Y8UV7H8pg9BZEDF0/5Ntg
+! Version: 202402160021
 ! Title: EasyList without rules for adult sites
-! Last modified: 16 Feb 2024 00:11 UTC
+! Last modified: 16 Feb 2024 00:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -903,7 +903,6 @@
 /js.ng/channel_
 /js.ng/pagepos=
 /js/floatadv.js
-/js/ppu.$script
 /js3caf.js
 /jsad.php
 /jsAds-1.4.min.js
@@ -17653,6 +17652,7 @@ _800x80_
 ##a[href^="https://go.hpyjmp.com"]
 ##a[href^="https://go.hpyrdr.com/"]
 ##a[href^="https://go.markets.com/visit/?bta="]
+##a[href^="https://go.mnaspm.com/"]
 ##a[href^="https://go.skinstrip.net"][href*="?campaignId="]
 ##a[href^="https://go.strpjmp.com/"]
 ##a[href^="https://go.tmrjmp.com"]
@@ -59980,9 +59980,9 @@ browsershots.org#@#.advert_area
 ||yield.app^*utm_source=$popup
 !----------------------Specific advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_specific_block.txt ***
-/asgg.php$domain=ghostbin.me|paste.fo
 /assets/bn/movie.jpg$image,domain=vidstream.pro
 /resolver/api/resolve/v3/config/?$xmlhttprequest,domain=msn.com
+asgg.php$domain=ghostbin.me|paste.fo
 ||0xtracker.com/assets/advertising/
 ||123.manga1001.top^
 ||123animehub.cc/final
@@ -60134,6 +60134,7 @@ browsershots.org#@#.advert_area
 ||domaintyper.com/Images/dotsitehead.png
 ||dominicantoday.com/wp-content/themes/dominicantoday/banners/
 ||dontent.powzers.lol^
+||dontent.powzerz.lol^
 ||draftkings.bbgi.com^$subdocument
 ||drive.com.au/ads/
 ||duplichecker.com/csds/
@@ -60221,6 +60222,7 @@ browsershots.org#@#.advert_area
 ||hltv.org/staticimg/*?ixlib=
 ||holyfamilyradio.org/banners/
 ||homeschoolmath.net/a/
+||hontent.powzers.lol^
 ||horizonsunlimited.com/alogos/
 ||hortidaily.com/b/
 ||hostsearch.com/creative/
@@ -60873,6 +60875,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||csgfst.com^$popup,domain=hltv.org
 ||csgofast.cash^$popup,domain=hltv.org
 ||csgofastx.com/?clickid=$popup,domain=hltv.org
+||dontent.powzerz.lol^$popup
 ||eentent.streampiay.me^$popup
 ||facebook.com/ads/ig_redirect/$popup,domain=instagram.com
 ||fentent.streampiay.fun^$popup
@@ -62765,6 +62768,7 @@ charlieintel.com,dexerto.com##.bg-neutral-grey.justify-center
 businessinsider.in##.bg-slate-100
 wccftech.com##.bg-square
 wccftech.com##.bg-square-mobile
+ewn.co.za##.bg-surface-03.text-content-secondary.space-y-\[0\.1875rem\].p-spacing-s.flex.flex-col.w-max.mx-auto
 wccftech.com##.bg-vertical
 copyprogramming.com##.bg-yellow-400
 overclock3d.net##.bglink
@@ -65157,6 +65161,8 @@ militarywatchmagazine.com##.v-size--x-small.theme--light
 zillow.com##.vPTHT
 osuskins.net##.vad-container
 lasvegassun.com##.varWrapper
+salaamedia.com##.vc_custom_1527667859885
+salaamedia.com##.vc_custom_1527841947209
 businessday.ng##.vc_custom_1627979893469
 progamerage.com##.vc_separator
 battlefordsnow.com,cfjctoday.com,everythinggp.com,filmdaily.co,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.vc_single_image-wrapper
