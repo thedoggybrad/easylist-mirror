@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wh1v0YIKrmtu14ehnQ2Pzw
-! Version: 202402161251
+! Checksum: a0OIFnCWMp91IcTS8lZrlQ
+! Version: 202402161301
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Feb 2024 12:51 UTC
+! Last modified: 16 Feb 2024 13:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23688,12 +23688,10 @@ sp.ngs.ru##.sp-toppromo
 45.ru,93.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru##[data-creative]
 116.ru,14.ru,161.ru,164.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,proizhevsk.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru##[data-placement]
 116.ru,45.ru,59.ru,93.ru,ngs42.ru,ngs55.ru,v1.ru##[data-status]
-chita.ru,ngs.ru##[data-test*="header"][data-test*="sticky"] a[target="_blank"] > img
-chita.ru,ngs.ru#?#[data-test*="header"][data-test*="sticky"] div:-abp-has(> a[target="_blank"] > img)
-ngs.ru#?#[data-test*="header"][data-test*="sticky"] div:-abp-has(> span[role="button"])
 116.ru,72.ru,e1.ru,ngs55.ru##[data-test="sticky-header"] > div > div > div > div:first-child:not([data-test])
 www.e1.ru#?#[data-vr-contentbox="Новость в левой колонке"]:-abp-has(> div ~ div ~ div)
 116.ru,14.ru,161.ru,164.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,proizhevsk.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,voronezh1.ru##a[href*="://auto.ru"][href*="utm_"]
+ngs.ru,www.e1.ru##div[data-test="header-sticky"] > div > section ~ div
 e1.ru##li[class="e1-nav__item _auto"]
 ! запросы
 /static/js/build/autoreloadBanner.js$domain=116.ru|14.ru|161.ru|164.ru|178.ru|26.ru|29.ru|35.ru|43.ru|45.ru|48.ru|51.ru|53.ru|56.ru|59.ru|60.ru|62.ru|63.ru|68.ru|71.ru|72.ru|74.ru|76.ru|86.ru|89.ru|93.ru|chita.ru|e1.ru|ircity.ru|mgorsk.ru|msk1.ru|ngs.ru|ngs22.ru|ngs24.ru|ngs42.ru|ngs55.ru|ngs70.ru|nn.ru|proizhevsk.ru|sochi1.ru|sterlitamak1.ru|tolyatty.ru|ufa1.ru|v1.ru|voronezh1.ru
@@ -23710,8 +23708,6 @@ e1.ru##li[class="e1-nav__item _auto"]
 e1.ru##[class*=" undefi"]
 www.e1.ru#?#[itemprop] > div:-abp-has(> div > [id*="ad"])
 www.e1.ru#?#[itemprop] > div:-abp-has(> div > [id*="inline"])
-www.e1.ru##a[href*="://prinzip.su/"]
-www.e1.ru#?#div:-abp-has(> a[href*="://prinzip.su/"])
 www.e1.ru#?#section:-abp-has(> div[class]:empty + div[class]:empty + div[class]:empty + div[class]:empty)
 ||naydex.net^$domain=e1.ru
 ! баннер в хидере мобильной версии
