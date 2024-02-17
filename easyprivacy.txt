@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202402171327
+! Version: 202402171355
 ! Title: EasyPrivacy
-! Last modified: 17 Feb 2024 13:27 UTC
+! Last modified: 17 Feb 2024 13:55 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1061,6 +1061,7 @@
 /gtag.min.js
 /GTag/general_tracker.js
 /gtag/js?
+/gtm-data-layer-$script
 /gtm-listeners.js
 /gtm-suite.js
 /gtm.js
@@ -2664,6 +2665,7 @@
 ://collector.*/event
 ://elqtrk.
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtm.*.js?id=GTM-
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
@@ -49344,6 +49346,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||game-i.daa.jp/skin/analytics.php
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js
+||gtm.diamond.jp^
 ||hatarako.net/api/recommend/analyze_logger
 ||i2i.jp/bin/
 ||img.syosetu.org/js/c_
