@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: iuv4mSQz8al5w5cEeVRZJA
-! Version: 202402171421
+! Checksum: fltju95IHDrRtWRyiAeLvg
+! Version: 202402171431
 ! Title: EasyPrivacy without international filters
-! Last modified: 17 Feb 2024 14:21 UTC
+! Last modified: 17 Feb 2024 14:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -50,6 +50,7 @@
 .gif?Log=
 .jp/pv?
 .jp/static/js/track.js
+.js?id=GTM-
 .lms-analytics/
 .net/l.gif?
 .no/app/aas/a
@@ -2662,7 +2663,6 @@
 ://collector.*/event
 ://elqtrk.
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
-://gtm.*.js?id=GTM-
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
