@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HOJtOTxvx4m+awh57L4s6w
-! Version: 202402192320
+! Checksum: mzZDa2soSwyiKxUU/PGv/g
+! Version: 202402192331
 ! Title: EasyList without rules for adult sites
-! Last modified: 19 Feb 2024 23:20 UTC
+! Last modified: 19 Feb 2024 23:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -66568,6 +66568,7 @@ bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
 timesnownews.com##div:has(> .bggrayAd)
 skyscanner.com,skyscanner.net##div:has(> a[data-testid="inline-brand-banner"])
 outlook.live.com##div:has(> div > div.fbAdLink)
+tripadvisor.com##div:has(> div > div[class="ui_column ovNFo is-3"])
 tripadvisor.com##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
