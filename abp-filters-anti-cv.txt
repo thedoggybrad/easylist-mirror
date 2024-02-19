@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: pK0Km+I3AZ2UpbFBcehuVQ
-! Version: 202402190901
+! Checksum: ZVNgEd6qIn15T4cpsgd4iA
+! Version: 202402190911
 ! Title: ABP filters
-! Last modified: 19 Feb 2024 09:01 UTC
+! Last modified: 19 Feb 2024 09:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -816,6 +816,7 @@ gaytxxx.com,transtxxx.com,txxx.com#$#abort-on-property-read jwplayer.utils.Timer
 ||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
 9hentai.to#$#prevent-listener click saveLastEvent
 sendspace.com#$#abort-on-property-read runad false
+engvideo.net,ling-online.net#$#abort-current-inline-script document.documentElement break;case
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -1367,7 +1368,6 @@ rutor.org#$#abort-on-property-read Light.Popup
 bez-smenki.ru#$#abort-current-inline-script $ showPopupextra
 partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
 comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaContextCb
-engvideo.net,ling-online.net#$#abort-current-inline-script document.documentElement break;case
 ! Video ads
 yastatic.net#$#abort-on-property-read Object.prototype.vast
 ! #CV-547
