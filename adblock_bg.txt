@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: PvAD450U3os//pN/kym9qw
+! Checksum: SA6Ve21LUeorY3zhjud4cw
 ! Title: Bulgarian adblock list
 ! Homepage: https://stanev.org/abp
 ! Expires: 5 days
@@ -59,6 +59,7 @@ advertere.zamunda.net/www/images/
 ||agroplovdiv.bg/wp-content/uploads/2018/07/logo_new1.jpg
 ||agroplovdiv.bg/wp-content/uploads/2021/04/AGRIA_METEOR_300-X-250px_01_2021.gif
 ||agroplovdiv.bg/wp-content/uploads/2021/04/picasion.com_41c8f37f15db14f1d01cedd75c6d1d65.gif
+||agroplovdiv.bg/wp-content/uploads/2024/02/TREZIN_AGRIA_300-X-250_02_2024.gif
 ||agroplovdiv.bg/wp-content/uploads/*/baner*
 ||alarmanews.com/wp-content/uploads/2013/11/toptravel.jpg
 ||alarmanews.com/wp-content/uploads/2014/04/%D0%9B%D0%BE%D0%B3%D0%BE%D0%B0%D0%BB%D0%B0%D1%80%D0%BC%D0%B0.jpg
@@ -229,8 +230,6 @@ cdn.plus500.com/Media/Banners/
 ||frognews.bg/images/adv/
 ||frognews.bg/media/rekl/
 ||ftech-bg.com/images/*banner*
-||gabarko.eu/wp-content/uploads/2022/03/$image
-||gabarko.eu/wp-content/uploads/2023/12/$image
 ||gabrovonews.bg/wp-content/themes/gabrovonews/images/banners/
 ||gabrovonews.bg/wp-content/uploads/2016/07/krasota.jpg
 ||gabrovonews.bg/wp-content/uploads/2016/08/coco.jpg
@@ -333,7 +332,6 @@ media.winbetaffiliates.bg/uploads/
 ||medicalbg.com/freenet
 ||mobile.bg/images/brands/
 ||mobilebulgaria.com/uploads/banners/
-||monitor.bg/web/files/plakats/
 ||montana-dnes.com/baners/
 ||moreto.net/i/*330x72*
 ||moreto.net/i/branding/*
@@ -447,7 +445,6 @@ r*.dir.bg/js_myads.php
 ||renault-bg.com/smf/bn/
 ||renault-bg.com/smf/bnn
 ||reset.bg/images/banners/
-||rezervacia.bg/banners
 ||rezervaciq.com/img/banners
 ||rodopinews.com/images/banners/
 ||rositza.com/wp-content/uploads/2019/03/vidimalogo.jpg
@@ -739,8 +736,6 @@ cross.bg##.adv
 cross.bg##.bannerWraper
 dariknews.bg###colorbox
 dartsnews.bg##.imgNoBorder[style="float: left; background-color: lightgray; width: 300px; height: 250px; margin: 14px 0px 14px 8px"]
-data-bg.org###aff-popup-banner
-data-bg.org###topbar
 dev.bg###media_image-2
 dev.bg###media_image-3
 dev.bg###media_image-4
@@ -779,18 +774,25 @@ filternews.bg##.td_block_wrap.td-a-rec.td-a-rec-id-custom-spot.td-a-rec-img.tdi_
 filternews.bg##.td_block_wrap.td-a-rec.td-a-rec-id-custom-spot.td-a-rec-img.tdi_242.td_block_template_10
 filternews.bg##.vc_column.tdi_30.wpb_column.vc_column_container.tdc-column.td-pb-span12
 flash-igri.com##.box-pink
+forum.framar.bg##div.bnr.forum_r_box:nth-of-type(1)
+forum.framar.bg##div.bnr.forum_r_box:nth-of-type(2)
+framar.bg##.c.box.column.banner-box.js-banner-box
 framar.bg###facebox_games_mess
 framar.bg###popup-ad
 frognews.bg##.article-after-comments-ad
 frognews.bg##.article-after-text-ad
 frognews.bg##.article-before-donate-ads
 frognews.bg##.boxw100.advleft
+frognews.bg##.business-ads
+frognews.bg##div[class$="area-ad"]
 frognews.bg##div[style="padding-bottom:15px;"]
+frognews.bg##div.topfrog-ads-blk-hl.wide
 frognews.bg##.etarget_middle_after
 frognews.bg##.etarget_right_top
 frognews.bg###h_adv
 frognews.bg##.h_adv.ad-elm
 frognews.bg##.health-ad-blk
+frognews.bg##.health-ads-blk.wide
 frognews.bg##.innewads
 frognews.bg##.inside-area-right-bottom-ad
 frognews.bg##.inside-area-right-middle-ad
@@ -802,6 +804,8 @@ frognews.bg##.topfrog-ads-blk
 frognews.bg##.top-news-area-ad
 frognews.bg##.top-news-area-ad.brc
 gabarko.eu##.clean-gallery-side-widget.clean-gallery-box.widget.gabar-widget
+gabarko.eu##img[src="https://www.gabarko.eu/wp-content/uploads/2022/03/po-profesia-drevar-4.jpg"]
+gabarko.eu##img[src="https://www.gabarko.eu/wp-content/uploads/2023/12/1015643.jpg"]
 gbg.bg##.adv.adwise
 gbg.bg##DIV[style="margin: 0 0 20px; height: 250px; width: 300px;"]
 gbg.bg###hotOffBg
@@ -868,7 +872,6 @@ mikrotik-bg.net##.customContent
 money.bg##.banner
 money.bg###gpt-banner-1-desktop
 money.bg##.mny-header-banner
-monitor.bg##.grid__item.grid__item--w-100.plakat
 moreto.net##DIV[style="width: 462px; padding:3px; margin: 10px 0px 0px 0px; min-height: 60px; border: #dddddd solid 1px;"]
 moreto.net##DIV[style="width: 466px; height:58px; overflow:hidden; border: #dddddd solid 1px;"]
 myonvideo.com###topbar
@@ -897,7 +900,7 @@ novinite.bg##.banner640
 odit.info###b300
 offnews.bg##.ads-25
 offnews.bg##.ads-60-r
-olx.bg##.baxter-placeholder--ad--baxter-right-first
+olx.bg###baxter-right-first
 pari.bg##.bannerbox
 petel.bg##.ads-caption
 petel.bg###banner_right_bottom
@@ -912,6 +915,9 @@ peter.and.bilyana.net##div[style="padding-top:30px;padding-bottom:30px;"]
 photo-forum.net###banner_top
 photo-forum.net###header_img_right
 pik.bg###brand
+pik.bg##div.left.connected-news-wrap:nth-of-type(2) > .left.connected-news
+pik.bg##[href^="https://record.winbetaffiliates.com/"]
+pik.bg###indexTopRightBox > div.center.w100.left.banners_300x250
 pirinsko.com##.slidingBanners
 plevenzapleven.bg###mainscollertd
 plovdiv24.bg###flygrabo
@@ -963,11 +969,14 @@ struma.com##DIV[style="margin-bottom:10px"]
 struma.com##.Footer
 subsmania.info##.blogname
 subs.sab.bz###adv
+subs.sab.bz##.mediain
 subsunacs.net##IMG:first-child:last-child
 svejo.net###hot_offers
 ticketpro.bg###baners_top
 topnovini.bg###block-panels-mini-leaderboard-banners
+tribune.bg##.google_adds.google_adds728x90.left-content-banner.google_adds-footer
 tribune.bg##.main-widget.google_adds.google_adds300x250
+tribune.bg##.main-widget.google_adds.google_adds300x600
 troyan21.com###HTML2.widget.HTML
 trud.bg##A[href*="mediamall.bg"]
 try.bg##.g300x600single
