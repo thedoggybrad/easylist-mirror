@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: eeZmufvRDH9jdonK4AekLg
-! Version: 202402211700
+! Checksum: wazZmYaOtmsx125NnRHU+Q
+! Version: 202402211711
 ! Title: ABPVN List
-! Last modified: 21 Feb 2024 17:00 UTC
+! Last modified: 21 Feb 2024 17:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 21 Feb 2024 22:12:15 UTC+7
-! Diff-Path: patches/20240221221215736.patch#abpvn
+! Last modified: 22 Feb 2024 00:01:53 UTC+7
+! Diff-Path: patches/20240222000153043.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1105,7 +1105,7 @@ tratu.soha.vn#@#.adheader
 truyenaudiocv.org#@#.ads-large
 vndoc.com#@#.showads
 !------ ABPVN Adult block -------
-$third-party,script,domain=sexdiaryx.pro
+$third-party,script,domain=sexdiaryx.tv
 /player/vast.js
 /wp-content/uploads/*.gif$image,domain=tuoi69.name|tuoinung.cc|teletiengviet.com|phevkl.us
 @@||pagead2.googlesyndication.com^$domain=www.gaingon18.me
@@ -1153,7 +1153,7 @@ $third-party,script,domain=sexdiaryx.pro
 ||rphang.online^*.gif
 ||sayhentai.club/assets/js/ads.js
 ||sayhentai.club/storage/images/banner/$image
-||sexdiaryx.pro$csp=script-src 'self' 'unsafe-eval'
+||sexdiaryx.tv$csp=script-src 'self' 'unsafe-eval'
 ||sexsub.online^*.gif$image,domain=tuoi69.red|javhay.in|sexsub.online
 ||sieukhung.today^*.gif$image
 ||top1sex.club/theme/custom.int.js
