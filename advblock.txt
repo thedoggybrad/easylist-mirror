@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1LqRi8SSA7TfNwL0diorNQ
-! Version: 202402221651
+! Checksum: QEJFMM1D27FFbH1teRKLwA
+! Version: 202402221701
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Feb 2024 16:51 UTC
+! Last modified: 22 Feb 2024 17:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12746,7 +12746,7 @@ kidstaff.com.ua##.absk
 digger.ru##.acid
 pb.wtf,piratbit.fun,piratbit.org,piratbit.pw,piratbit.top,vidak.icu##.active[style^="height: 35px;font-size: 16px; background: #F5F1E"][style$="padding-top: 8px;"]
 alvin-almazov.ru##.active_bet
-agravery.com,babla.ru,dumskaya.net,filehippo.com,geekmir.ru,ifun.ru,inform-ua.info,kinda.media,klops.ru,liga.net,lookmeet.tv,mmovote.ru,myshared.ru,news.pn,obsuzhday.com,pik.net.ua,primpogoda.ru,prostopleer.com,regmarkets.ru,riavrn.ru,tut.by,ukranews.com,vgolos.ua,vogue.ru,vz.ru,zaks.ru##.ad
+agravery.com,babla.ru,clickthis.blog,dumskaya.net,filehippo.com,geekmir.ru,ifun.ru,inform-ua.info,kinda.media,klops.ru,liga.net,lookmeet.tv,mmovote.ru,myshared.ru,news.pn,obsuzhday.com,pik.net.ua,primpogoda.ru,prostopleer.com,regmarkets.ru,riavrn.ru,tut.by,ukranews.com,vgolos.ua,vogue.ru,vz.ru,zaks.ru##.ad
 versii.com##.ad ~ noindex
 gta5-mods.com##.ad-above-mod-dl-btn
 online.zakon.kz,zaycev.fm##.ad-banner
@@ -17747,6 +17747,7 @@ gtorrent.club,gtorrent.ru##a[style*="color:"] > span
 prankota.com##a[target="_blank"] + br, a[target="_blank"] + hr
 athlete.ru,kotomatrix.ru,megasoft.3dn.ru,probiysk.ru##a[target="_blank"] > img
 satsis.info##a[target="_blank"] > img[alt]
+clickthis.blog##a[target="_blank"] > img[src*="/outbyte/"]
 rewalls.com##a[target="_blank"] > img[src^="/"]
 lib.rus.ec,posters.ec##a[target="_blank"] > img[src^="http://lib.rus.ec/sites/default/files/"]
 erudition.ru##a[target="_blank"] > img[src^="http://www.erudition.ru/images/"]
@@ -19632,6 +19633,7 @@ rafkino.com##div[id^="MarketGid"]
 ||babla.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' date: ajax.googleapis.com *.bab.la *.cloudflare.net *.jsdelivr.net *.facebook.net *.twitter.com
 ||betnetmed.advertserve.com^$csp=sandbox allow-same-origin;
 ||cardiagram.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.dev *.io *.net *.org *.ru *.ua
+||clickthis.blog^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.reddit.com *.twitter.com *.wp.com *.io *.net *.org
 ||crossout.net/*free?*&r=$csp=sandbox allow-same-origin;
 ||d3ward.github.io/toolz/adblock$csp=connect-src 'self'
 ||drive.google.com/file/d/1VmzdhLB_-DcnBtUbKfQPnNvsEp_2gnsy/$csp=script-src
@@ -23067,6 +23069,7 @@ liveinternet.ru,pikabu.ru,sdamgia.ru##div[data-name="adWrapper"]
 pikabu.ru##div[href]
 rg.ru##div[id][class*="__"]:empty
 sdamgia.ru##div[id^="yandex_vario"]
+liveinternet.ru##div[style*="!important; "]
 pikabu.ru##div[style*="important;"][style*="width:"][style*="height:"]
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 pikabu.ru##div[style^="width: 300px; height:"]
