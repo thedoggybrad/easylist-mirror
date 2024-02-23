@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Qai9mJ3SyuO/Bf2m33zT4Q
-! Version: 202402230941
+! Checksum: SbxCmWEHVTso/s6nLCN4BQ
+! Version: 202402230951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Feb 2024 09:41 UTC
+! Last modified: 23 Feb 2024 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -38,7 +38,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||gemius.pl^$popup,domain=terrikon.com
 ||getitbit.net/ads/$popup
 ||goo.gl^$popup,domain=aces.gg|gamegpu.com|skachat-igri-besplatno.info|torrents-game.net|vsofte.biz
-||hidemy.name^$third-party,popup
 ||joker.win/*&offer_id=$popup
 ||m.acestream.net/plan/select?popup=noads$popup
 ||mama.land^$popup,domain=comments.ua
@@ -23143,9 +23142,14 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 !
 ! 2ip.ru и 2ip.io
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
-2ip.io,2ip.ru#?#.narrow-column > style ~ div > div:-abp-has(a[style^="color:"])
-2ip.io,2ip.ru##.st-ad
-2ip.io,2ip.ru##.test-vpn
+2ip.io,2ip.ru##a[href*="://fineproxy.org"]
+||go.onelink.me^$popup,domain=2ip.io|2ip.ru
+! блокировки, добавленнные из-за агрессивного обхода адблока на 2ip.ru и 2ip.io ~>
+||fineproxy.org^$third-party,popup
+||finevpn.org^$third-party,popup
+||hidemn.org^$third-party,popup
+||hidemy.name^$third-party,popup
+||proxyelite.info^$third-party,popup
 !
 ! Auto.ru
 auto.ru##.BankCardForm
