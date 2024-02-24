@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cQ0+NKSdYdowOzTmCD/mRg
-! Version: 202402241241
+! Checksum: WHeS2uyBZu+nQRpCwN622w
+! Version: 202402241251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Feb 2024 12:41 UTC
+! Last modified: 24 Feb 2024 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23137,7 +23137,9 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 ##body.has-brand .b-content__main > div[style^="height: 250px; overflow: hidden;"]
 !
 ! 2ip.ru и 2ip.io
+2ip.io,2ip.ru##.ad-test-vpn
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
+2ip.io,2ip.ru#?#.narrow-column > style ~ div > div:-abp-has(a[style^="color:"])
 2ip.io,2ip.ru##a[href*="://fineproxy.org"]
 ||go.onelink.me^$popup,domain=2ip.io|2ip.ru
 ! блокировки, добавленнные из-за агрессивного обхода адблока на 2ip.ru и 2ip.io ~>
