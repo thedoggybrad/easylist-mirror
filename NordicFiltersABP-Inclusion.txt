@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YGRdccAdxMxl4pKbeimdhw
-! Version: 202402240041
+! Checksum: jMaJTQ3dJwA6LRsiTmSidw
+! Version: 202402240051
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 24 Feb 2024 00:41 UTC
+! Last modified: 24 Feb 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1933,7 +1933,7 @@ _980banner_
 ! https://www.aftenposten.no/sport/fotball/i/QoP7KA/spansk-fotballstreik-fortsetter (26/12/2023)
 ! e24.no (Mid-December 2023)
 ##div[class^=advertory- i]
-##div[class*=" advertory-" i]
+##div[class*=" advertory-" i][class*=board i]
 ! 🇳🇴/🇩🇰: ——— Sporingsfiler ———
 ! 🇳🇴🏞: ——— Sporingsfilar ———
 ! ❄: ——— Guorrafiilaid ———
@@ -5633,7 +5633,7 @@ zeromagazine.nu##div[id^=ads]
 @@||doubleclick.net/tag/js/gpt.js$domain=feber.se
 feber.se##.maxetise
 ! Description: Finnish adblock list
-! Last modified: Fri, 16 Feb 2024 12:54:12 +0000
+! Last modified: Fri, 23 Feb 2024 23:59:52 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -7093,10 +7093,6 @@ tori.fi##.appnexus-container
 @@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|kauppalehti.fi|mediuutiset.fi|mikrobitti.fi|talouselama.fi|tekniikkatalous.fi|tivi.fi|uusisuomi.fi
 ! Unbreak Danske Bank login when using "Dandelion Sprout's Annoying Banners and Overlays List" and "Staying On The Phone Browser"
 danskebank.fi#@#.app-banner:not(html, body)
-! Cookie dialog won't open when clicking "evästeasetukset" from a video
-! Example: https://www.vrtranspoint.fi/fi/vr-transpoint/linked/artikkeli/jattimuuntaja-matkasi-halki-suomen-301120201145/
-@@||/cookie-consent.min.js$script,domain=www.vrtranspoint.fi
-www.vrtranspoint.fi#@#div#cookie-popup
 ! https://www.nettiauto.com/advSearch.php
 www.nettiauto.com#@##adv
 ! Unbreak Omaposti's service (EasyList – Chat Widgets)
@@ -70698,7 +70694,7 @@ techrepublic.com###leader-plus-top
 ugstandard.com###leader-wrap
 techgeek365.com###leader-wrapper
 wsvn.com###leader_1
-12tomatoes.com,allwomenstalk.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,news.tvguide.co.uk,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,thedrinknation.com,theserverside.com###leaderboard
+12tomatoes.com,allwomenstalk.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,news.tvguide.co.uk,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,penny-arcade.com,publishersweekly.com,skysports.com,thedrinknation.com,theserverside.com###leaderboard
 open.spotify.com###leaderboard-ad-element
 vocm.com###leaderboard-area
 bbc.com###leaderboard-aside-content
@@ -71998,7 +71994,6 @@ autocar.co.uk##.block-autocar-ads-mpu1
 thescore1260.com##.block-content > a[href*="sweetdealscumulus.com"]
 indysmix.com,wzpl.com##.block-content > a[href^="https://sweetjack.com/local"]
 webbikeworld.com##.block-da
-stuff.tv##.block-hcm-external-blocks
 mondoweiss.net##.block-head-c
 newsweek.com##.block-ibtmedia-dfp
 endocrineweb.com,practicalpainmanagement.com##.block-oas
@@ -72118,8 +72113,10 @@ insurancejournal.com##.bzn
 coingraph.us##.c
 insidebitcoins.com##.c-FloatingPrompt
 globalnews.ca##.c-ad
+stuff.tv##.c-ad--leftpageskin
 stuff.tv##.c-ad--mpu-bottom
 stuff.tv##.c-ad--mpu-top
+stuff.tv##.c-ad--rightpageskin
 globalnews.ca##.c-adChoices
 zdnet.com##.c-adDisplay_container_incontent-all-top
 legit.ng,tuko.co.ke##.c-adv
@@ -72131,6 +72128,7 @@ newstalkzb.co.nz##.c-background
 elnacional.cat##.c-banner
 truck1.eu##.c-banners
 euronews.com##.c-card-sponsor
+stuff.tv##.c-freestar-video-ad__container
 thehustle.co##.c-layout--trends
 download.cnet.com##.c-pageFrontDoor_adWrapper
 download.cnet.com##.c-pageProductDetail-sidebarAd
