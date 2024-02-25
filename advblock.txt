@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9Lub7Bm9Ns0ZlquaL4U6dQ
-! Version: 202402252131
+! Checksum: eX4ZYLlPv6T9g3j223wZZA
+! Version: 202402252141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Feb 2024 21:31 UTC
+! Last modified: 25 Feb 2024 21:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -75,6 +75,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 /?utm_medium*&click_id=$popup
 /ad/popup/*$popup
 /adv_clk_redirect.php?$popup
+/bens/vinos.js$popup
 /click/body.php?id=*&hash=$popup
 /clicks/*==.php$popup
 /code/click.php?id=$popup
@@ -6075,6 +6076,7 @@ _tizers.
 ||get-hit.ru^$third-party
 ||get1xzone.com^$third-party
 ||get2.fun^$third-party
+||getads.ru^$third-party
 ||getelem.ru^$third-party
 ||getgale.info^$third-party
 ||getmygeo.com^$third-party
@@ -18005,6 +18007,7 @@ www.google.com,www.google.ru##body > table[style="border: 1px solid #369"]
 christianka.bratstvo.org##body > table[width="99%"] + p[align="center"]
 payeer-gift.ru##body div .banner
 om1.ru##body div[class*="-branding"]
+anifap.com,anitokyo.org,anitokyo.tv##body.playerCode > div[style^="position: absolute;"][onclick]
 forum.flprog.ru##body.section-index .sidebar
 livetvstream.pro,me##body[bgcolor] > #adbtm
 livetvstream.pro,me##body[bgcolor] > div[id="ads"][style^="position: absolute;"]
