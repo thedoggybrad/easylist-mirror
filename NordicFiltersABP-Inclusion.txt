@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yJgivmUm2jDsmCe7efgqVQ
-! Version: 202402260721
+! Checksum: +BOqbY4qAIMdXk0CCNUTKw
+! Version: 202402260731
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 26 Feb 2024 07:21 UTC
+! Last modified: 26 Feb 2024 07:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -20,7 +20,7 @@
 ! 🇫🇮: Tämä lista kattaa suomen-, ruotsin-, norjan-, tanskan-, islannin- ja saamenkieliset verkkosivustot. Tämä lista ei poista sivustoilla olevia mainoseston torjujia, koska Adblock Plus ei salli sellaista sisäänrakennetuissa listoissaan. Lisätietoja, yksityiskohtia, hyödyllisiä työkaluja ja muita tekemiäni listoja löytyy täältä: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#suomi
 ! Description: 🇬🇧: This list covers websites for Norway, Denmark, Iceland, Danish territories, Schleswig-Holstein's Danish minority, the Sami indigenous population, Sweden, and Finland. This list version does not contain anti-anti-adblocking, due to how such entries are not allowed in lists that are included in Adblock Plus. For more information, details, helpful tools, and other lists that I've made, visit https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 ! Wish to help translate more category titles to Nordic languages 🇩🇰 🇮🇸 🇳🇴🏞 🇫🇴 🇬🇱 ❄? https://crowdin.com/project/dandelion-sprout-nordic-filter
-! If you wish to remove cookie banners from Nordic websites, check out https://www.i-dont-care-about-cookies.eu/
+! If you wish to remove cookie banners from Nordic websites, check out https://filters.adtidy.org/windows/filters/18.txt
 ! February-July 2024 — Users of ABP in Firefox ESR v115.x, Tor Browser, Waterfox, and SeaMonkey, MUST go to about:config → layout.css.has-selector.enabled, and set it to «true», in order for this list to work correctly. ESR 128.0 will fix this.
 ! 🇳🇴/🇩🇰: ——— Reklamer ———
 ! 🇳🇴🏞: ——— Reklamar ———
@@ -1998,6 +1998,10 @@ www.dr.dk#@#[href*=".smartadserver.com"]
 ! 🇳🇴: Får Discovery+ sin påloggingsside til å vises riktig
 ! 🇬🇧: Makes Discovery+'s login page show up properly
 @@||mparticle.com^*/login$domain=discoveryplus.no|discoveryplus.dk
+! https://github.com/easylist/easylist/issues/18542 (These entries are here to stay, regardless of the report's outcome.)
+@@||medlemskap.*.no/$~third-party
+@@||bestill.help.no^$~third-party
+@@||ask.antalis.no^$~third-party
 ! ★★★ Caused by «Fanboy's Social Blocking List», if I recall correctly ★★★
 krom.is#@#.share-container
 @@/images/*youtube.jpg$domain=realityportalen.dk
