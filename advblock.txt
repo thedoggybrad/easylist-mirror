@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H9JzkVOwIe7cPttdWIUC3g
-! Version: 202402261511
+! Checksum: byw7MT6mb31MOyX/9z7AFQ
+! Version: 202402261521
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Feb 2024 15:11 UTC
+! Last modified: 26 Feb 2024 15:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2152,6 +2152,7 @@ _tizers.
 ||cdn.*.agency/libs/b.js|$third-party,script
 ||cdn.*.com/libs/b.js|$third-party,script
 ||com/?pu=$third-party,script
+||com/?pus=$third-party,script
 ||com/bgout.php?id=$third-party,script
 ||com/bout.php?id=$third-party,script
 ||com/js/check_blocks.js|$third-party
@@ -2204,6 +2205,7 @@ _tizers.
 ||services/init.js$third-party,script
 ||site/*/*/|$third-party,script
 ||site/?pu=$third-party,script
+||site/?pus=$third-party,script
 ||space/*/*/|$third-party,script
 ||space/jscl/$third-party,script
 ||tech/*/*/|$third-party,script
@@ -4715,9 +4717,10 @@ _tizers.
 ||brndrm.com^
 ||bro2.biz^$third-party
 ||broklam.com^$third-party
+||brolink*s.site^$third-party
 ||bromusic1s.site^$third-party
 ||bropush.site^$third-party
-||broworker1s.com^$third-party
+||broworker*s.com^$third-party
 ||browser-livetv.ru^$third-party
 ||browser-onelike.ru^$third-party
 ||browser-onlytv.ru^$third-party
@@ -7498,6 +7501,7 @@ _tizers.
 ||meelba.com^$third-party
 ||meemdo.net^$third-party
 ||meemobi.ru^$third-party
+||meet-buddy.com^$third-party
 ||meetandfuckgames-rus.ru^$third-party
 ||mega-bc.info^$third-party
 ||mega-leech.net^$third-party
@@ -20701,7 +20705,7 @@ lada.kz/uploads/banners/
 ||diets.guru/teaser/
 ||diets.ru/i/rb/
 ||digiboo.ru/bnrs/
-||digiseller.ru^$domain=keysportal.com
+||digiseller.ru^$domain=keysportal.com|kluchikipro.ru
 ||dir.dok911.ru/
 ||dir.wigeo.ru/
 ||divan-tut.ru/promo
@@ -21248,6 +21252,7 @@ lada.kz/uploads/banners/
 ||kerch.com.ru/IMG/HotNews/kn_internet.
 ||kerch.com.ru/Pictures/Banners/
 ||kerchinfo.com/uploads/img_ban/
+||keysportal.com/yandex$image
 ||kg-portal.ru/banned/
 ||kg-portal.ru/brandbook/
 ||kg-portal.ru^*/bg.jpg|
