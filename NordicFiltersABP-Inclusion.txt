@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jzZFPvcn9LmeM26rs9rgBA
-! Version: 202402261631
+! Checksum: T5OHJlC5xHz/PJskpO6abQ
+! Version: 202402261641
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 26 Feb 2024 16:31 UTC
+! Last modified: 26 Feb 2024 16:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1344,6 +1344,7 @@ digi.no##div[class*=ads-wrapper]
 digi.no##.banner
 digi.no,tu.no##div[id^=row-]:has(.banner)
 medier24.no##.ad-toppbanner-article
+digi.no,tu.no##.mx-auto > div:empty:first-of-type
 meremobil.dk##.a-single
 meremobil.dk###header > div:has(div[id*=gpt-ad-])
 midjan.is##.widget[class*=bs-hidden-xs]:not([id*=thumbnail])
