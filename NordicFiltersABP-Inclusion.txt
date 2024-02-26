@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: N2gpwq22JnePRtrnTW5OmQ
-! Version: 202402260101
+! Checksum: 4Ofi1D0WSW2VLABjKfDJ4g
+! Version: 202402260111
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 26 Feb 2024 01:01 UTC
+! Last modified: 26 Feb 2024 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -77231,9 +77231,9 @@ pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 hentaicomics.pro##.single-portfolio:has(.xxx-banner)
 scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="overflow: hidden;"])
 porndoe.com##.video-item:has(a.video-item-link[ng-native-click])
-pornhub.com##.video-wrapper > .original.clear.hd:has(.adsbytrafficjunky)
 jav4tv.com##aside:has(.ads_300_250)
 youporn.com##aside:has(a.ad-remove)
+pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
 rule34.paheal.net##section[id$="main"] > .blockbody:has(> div[align="center"] > ins)
 !! Advanced element hiding rules
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
