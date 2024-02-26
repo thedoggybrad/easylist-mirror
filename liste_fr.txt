@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7eASeBnMOLk9tqfRZETRPg
-! Version: 202402260541
+! Checksum: BDzxdFCgb7vvEZu1pD5mqg
+! Version: 202402260551
 ! Title: Liste FR
-! Last modified: 26 Feb 2024 05:41 UTC
+! Last modified: 26 Feb 2024 05:51 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -18245,6 +18245,7 @@ frandroid.com##.is-big-rook.is-big-rookh.is-hidden-mobile
 ##iframe[style="border: 0; width: 728px; height: 110px;"]
 ##iframe[style="border: 0; width: 970px; height: 110px;"]
 ! Filtres de propriété CSS pour Adblock Plus
+zebulon.fr##.penci-feed:has(a[href*="/sponso-"])
 1fr1.net,3oloum.com,7olm.org,ahladalil.com,ahlamontada.com,alamontada.com,arabepro.com,banouta.net,easyforumpro.com,fcmulhousefans.com,forum2jeux.com,forumactif.com,forumactif.fr,forumactif.org,forumalgerie.net,forumpro.fr,forums-actifs.com,galoppourlavie.org,gid3an.com,jordanforum.net,lebonforum.com,manager-fifa.com,orizzontescuolaforum.net,own0.com,passionmilitaria.com,sorcieremonique.com,superforum.fr,syriaforums.net,walkingdead-rpg.com,yoo7.com,ze-43eme.com#?#.post:-abp-has(.postprofile:-abp-contains(Contenu sponsorisé))
 20min.ch#?#.clusterTop:-abp-has(.teaser:-abp-has(h3:-abp-contains(Paid Post)))
 2ememain.be#?#.hz-Listing--list-item:-abp-has(.hz-Listing-priority:-abp-contains(Pub au top))
@@ -18364,7 +18365,6 @@ voyageforum.com#?#div[style*="width: 300px"]:-abp-has(.adsbygoogle)
 voyageforum.com#?#table[class="post"]:-abp-has(tbody:-abp-contains(/annonces|annonceurs/))
 voyageforum.com#?#table[style="width: 300px;"]:-abp-has(a)
 zataz.com#?#.custom-sidebar:-abp-has(h3:-abp-contains(/Partenaires|Publicité/))
-zebulon.fr#?#.penci-feed:has(a[href*="/sponso-"])
 ! facebook.com
 ||facebook.com/ajax/qm/
 ||facebook.com/tr/
