@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DaA7a8Z/Npe2OgOJ2DAE2A
-! Version: 202402271621
+! Checksum: 08Cu2+jhSTPgMGChoHu0SA
+! Version: 202402271631
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Feb 2024 16:21 UTC
+! Last modified: 27 Feb 2024 16:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14883,6 +14883,7 @@ www.zakon.kz##.mob_hide[style*="min-height:"]
 servers-rust.ru##.mob_quad_banner
 ixbt.com##.mobadv
 ixbt.com##.mobb
+zaxid.net##.mobile-branding-wrapper
 bankua.com.ua##.mod-custom
 love-sims.ru##.mod-custom3[style]
 newdaynews.ru##.mod-floatbann
@@ -16870,6 +16871,7 @@ nefrolab.ru##[id^="cmdgebh"]
 forexsystemsru.com##[id^="collapseobj_forumbit"] .alt1Active > div[style="float:right"]
 funmult.ru##[id^="icqwin_"]
 popcornnews.ru##[id^="illumination"]
+24tv.ua,zaxid.net##[id^="mobileBrandingPlace"]
 floradoma.com##[id^="my1kil_"]
 hitvk.mobi##[id^="n-rek-"]
 tech-choice.net##[id^="nadavi"]
@@ -18791,7 +18793,6 @@ maxikarta.ru##div[id^="mega_rt_"]
 meta.ua##div[id^="meta_banner_"]
 espreso.tv,tv.meta.ua##div[id^="meta_news_block"]
 phantastike.ru##div[id^="mindmachine"]
-24tv.ua,zaxid.net##div[id^="mobileBrandingPlace"]
 animevost.org,animevost.top,vost.pw#?#div[id^="moduleLeft"]:-abp-has(iframe)
 novyjgod.com##div[id^="nazar"]
 kritika24.ru##div[id^="nenadod_"]
