@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wGfDwC/2Dgpbp/L5LnJrBQ
-! Version: 202402271011
+! Checksum: qFv1uayjBK+JVeyqo2MNgQ
+! Version: 202402271021
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 27 Feb 2024 10:11 UTC
+! Last modified: 27 Feb 2024 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -77318,6 +77318,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||letocard.fr/wp-content/uploads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
 @@||live.primis.tech^$script,domain=eurogamer.net|klaq.com|loudwire.com|screencrush.com|vg247.com|xxlmag.com
+@@||live.primis.tech^$xmlhttprequest,domain=xxlmag.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
