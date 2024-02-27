@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wOxwKEvHk/jeYumwjJMyGQ
-! Version: 202402270811
+! Checksum: 8idf2L0VgXvnP3ZlEXkvzg
+! Version: 202402270821
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 27 Feb 2024 08:11 UTC
+! Last modified: 27 Feb 2024 08:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -71514,6 +71514,8 @@ moneycontrol.com##.add-spot
 media4growth.com##.add-text
 brandingmag.com##.add-wrap
 ndtv.com##.add-wrp
+newindian.in##.add160x600
+newindian.in##.add160x600-right
 muslimobserver.com##.add2
 projectorcentral.com##.addDiv2
 projectorcentral.com##.addDiv3
@@ -72352,6 +72354,7 @@ sgcarmart##.dealer_banner
 slashdot.org##.deals-wrapper
 defiantamerica.com##.defia-widget
 nettv4u.com##.desk_only
+newindian.in##.deskad
 cardealermagazine.co.uk##.desktop
 livesoccertv.com##.desktop-ad-container
 rok.guide##.desktop-promo-banner
@@ -73693,6 +73696,7 @@ latimes.com,sandiegouniontribune.com##.revcontent
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##.revenue-display
 grammar.yourdictionary.com##.revenue-placeholder
 hindustantimes.com##.rgtAdSection
+newindian.in##.rhs-ad2
 indianexpress.com##.rhs-banner-carousel
 cnbctv18.com##.rhs-home-second-ad
 firstpost.com##.rhs-tp-ad
@@ -75447,6 +75451,7 @@ bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 imgur.com##.Grid-column > div[style^="height:"]:has(.Post-item-external-ad)
+imgur.com##.Post-item:has(.Post-item-external-ad)
 outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
 haveibeenpwned.com##.actionsBar:has(.why1Password)
