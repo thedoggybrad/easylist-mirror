@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Xt4QeynWWXBq2jw2QSae6A
-! Version: 202402280021
+! Checksum: kdx0Ov5RMl0qj82ngqv9UQ
+! Version: 202402280031
 ! Title: EasyList without element hiding rules
-! Last modified: 28 Feb 2024 00:21 UTC
+! Last modified: 28 Feb 2024 00:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -45621,7 +45621,6 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||hotstar.com^*/midroll?
 ||hotstar.com^*/preroll?
 ||howtogeek.com/emv2/
-||howtogermany.com/images/bnr-
 ||i-tech.com.au/media/wysiwyg/banner/
 ||iamcdn.net/players/custom-banner.js
 ||iamcdn.net/players/playhydraxs.min.js$domain=player-cdn.com
@@ -45726,8 +45725,6 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||mp3fiber.com/*ml.jpg
 ||mpgh.net/idsx2/
 ||mrskin.com^$script,third-party,domain=~mrskincdn.com
-||musicatorrents.com^*/license.
-||musicatorrents.com^*/script.
 ||musicstreetjournal.com/banner/
 ||myabandonware.com/media/img/gog/
 ||myanimelist.net/c/i/images/event/
@@ -46079,12 +46076,6 @@ $script,third-party,xmlhttprequest,domain=govid.co
 @@||hwcdn.net^$domain=canyoublockit.com
 |http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=canyoublockit.com
 |https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=canyoublockit.com
-! shink
-@@||ajax.googleapis.com/ajax/libs/$script,domain=shink.me|shon.xyz
-@@||cloudflare.com/ajax/$stylesheet,domain=shink.me|shon.xyz
-@@||maxcdn.bootstrapcdn.com^$stylesheet,domain=shink.me|shon.xyz
-|http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=shink.me|shon.xyz
-|https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=shink.me|shon.xyz
 ! up-4ever.com
 $script,stylesheet,third-party,xmlhttprequest,domain=up-4ever.net
 @@||ajax.googleapis.com^$script,domain=up-4ever.net
