@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202402272018
+! Version: 202402291550
 ! Title: EasyList Germany
-! Last modified: 27 Feb 2024 20:18 UTC
+! Last modified: 29 Feb 2024 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1456,6 +1456,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 ||casinowelt.com/images/spinit.jpg
 ||cathkathcatt.ch^*/banner-
 ||cathkathcatt.ch^*/banner_
+||ccstatic.toggo.de/cc-static-files/bumper-video/Toggolino_WT_$media
 ||chartsurfer.de/getthead.php?
 ||cherry.ch/images/banner/
 ||chip-secured-download.de/tmp/free-service-hotline.png$domain=chip.de
@@ -4056,7 +4057,7 @@ mtb-news.de##.mtbnews-forum__in-thread
 mtb-news.de##.mtbnews-forum__mobile-top
 mtb-news.de##.mtbnews-mobile-sticky
 mtb-news.de##.mtbnews-top
-mtb-news.de##.mtbnewsAdBillboardContainer
+mtb-news.de,rennrad-news.de##.mtbnewsAdBillboardContainer
 tutti.ch##.mui-style-17xiqz7
 tutti.ch##.mui-style-z954cu
 diebildschirmzeitung.de##.n2-ss-slider-3
@@ -4745,7 +4746,7 @@ berliner-zeitung.de##div[class^="article_billboard-"]
 experten.de##div[class^="c-ad-exper-"]
 costanachrichten.com##div[class^="lp_track_"]
 morecore.de##div[class^="morec-"]
-emtb-news.de,mtb-news.de##div[class^="mtbnews-ad-container"]
+emtb-news.de,mtb-news.de,rennrad-news.de##div[class^="mtbnews-ad-container"]
 berliner-kurier.de,berliner-zeitung.de##div[class^="outbrain_"]
 via-ferrata.de##div[class^="overlay-"]
 grenzecho.net##div[class^="pane-dpipub-"]
@@ -5303,6 +5304,7 @@ zentrum-der-gesundheit.de#?#span:-abp-contains(/ANZ|EIGE/) + div
 ! *** easylistgermany:easylistgermany/easylistgermany_allowlist.txt ***
 @@||a.bf-ad.net/adengine/chip/adengine.js$xmlhttprequest,domain=chip.de
 @@||acdn.adnxs.com/ast/ast.js$script,domain=finanzen.ch
+@@||ad-ipd.sxp.smartclip.net/select?type=vast$xmlhttprequest,domain=toggo.de
 @@||adform.net/adfserve/?bn=$script,domain=rewe.de
 @@||adform.net/adx/$script,domain=rewe.de
 @@||adform.net/banners/$domain=rewe.de|telekom.de
