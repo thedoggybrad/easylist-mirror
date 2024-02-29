@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202402291057
+! Version: 202402291105
 ! Title: EasyPrivacy
-! Last modified: 29 Feb 2024 10:57 UTC
+! Last modified: 29 Feb 2024 11:05 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3014,6 +3014,7 @@ _WebVitalsReporter_
 /t.yesware.com/t/*$image
 /T/OFC4/*$image
 /track/open.php?
+/track/open/*$image
 /track/open?
 /tracking.fanbridge.com/*
 /tracking.srv2.de/op/*$image
@@ -3546,6 +3547,7 @@ omni.soundestlink.com$image
 ||aimediagroup.com^$third-party
 ||air2s.com^$third-party
 ||airbrake.io^$third-party
+||airlogak.com^$third-party
 ||airpr.com^$third-party
 ||airserve.net^$third-party
 ||aivalabs.com^$third-party
@@ -49384,6 +49386,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||amazonaws.com/ai-img/aia.js
 ||ameba.jp/cookie/
 ||ameblo.jp/accesslog/
+||analysis.aws.locondo.jp^
 ||analytics.castel.jp^
 ||analytics.cocolog-nifty.com^
 ||analytics.ikyu.com^
