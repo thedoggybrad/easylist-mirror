@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FnmpBDL89Rk5+o1tBv+TrA
-! Version: 202403011701
+! Checksum: O2cL0TEepD7LSgl2RZS6WQ
+! Version: 202403011711
 ! Title: EasyList Spanish
-! Last modified: 01 Mar 2024 17:01 UTC
+! Last modified: 01 Mar 2024 17:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -103,6 +103,7 @@ _pubted.
 ##a[href^="https://go.betobet.online/"]
 ##a[href^="https://startgaming.net/tienda/"][href*="?offer_id="]
 ##a[href^="https://vario.tv/?offer_id="]
+##a[href^="https://vario.tv/?raf="]
 !
 ###PubMiddle1
 ###PubMiddle2
@@ -729,6 +730,7 @@ hitfm.es#@#.publi
 ||tinyurl.com^$domain=seriesly.top
 ||trafico.prensaiberica.es^
 ||triggy-banners.web.app^
+||vario.tv/play.gif
 ||wp.pl/bidder/usersync?
 !
 ||economicos.cl/widgets/$third-party
@@ -804,6 +806,7 @@ hitfm.es#@#.publi
 ||novachaco.com/avisos/
 ||pelispop.info/EkBG80SP.js
 ||pescare.com.ar/wp-content/uploads/*/Grupo-
+||playdede.us/1_1.gif
 ||pordede.click/assets/img/suscripcion.png
 ||redtarapaca.com^*/ahorrocorp.jpg
 ||ripollesdigital.cat/imatges/ripollesdigital.cat/ginys/
@@ -1398,6 +1401,7 @@ qmusica.tv###promoSept19B
 promiedos.com.ar###pub728
 fronteradigital.com.ve###publicidad-2
 talcualdigital.com###publicidad-slider
+pelisplushd.nz###publiperro
 record.com.mx###region-preface-second
 diariodeteruel.es###rightbanner
 canalrcn.com,noticiasrcn.com###rp1-compuesto
