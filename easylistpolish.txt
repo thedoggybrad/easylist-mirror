@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: quXmtc4FbBElo8jk7NJn1Q
-! Version: 202403010841
+! Checksum: YrdUpF8eizJS9B99OzcT3A
+! Version: 202403010851
 ! Title: EasyList Polish
-! Last modified: 01 Mar 2024 08:41 UTC
+! Last modified: 01 Mar 2024 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -118,7 +118,7 @@ mandarinodesign.eu#@#.reklama
 -bannery-$domain=bogaty.men|zarobmy.se
 -fb-baner-$domain=starosadeckie.info
 -reklama-$domain=bithub.pl|chelmski.eu|firmy.meblarstwo.eu|golub-cgd.pl|kurekmazurski.pl|nasz-glos.com|ostrodanews.pl|przedsiebiorczepodlasie.pl|radomszczanska.pl|starosadeckie.info|tkaninyobiciowe.eu|tv-pelplin.pl
--reklama.$domain=flarrow.pl|gazeta-mosina.pl|gazetatrybunalska.pl|mojewronki.pl|ostrodanews.pl|pionki24.pl|popradio.pl|przysucha.informator-lokalny.pl|sochaczewianin.pl|tu.swinoujscie.pl
+-reklama.$domain=gazeta-mosina.pl|gazetatrybunalska.pl|mojewronki.pl|ostrodanews.pl|pionki24.pl|popradio.pl|przysucha.informator-lokalny.pl|sochaczewianin.pl|tu.swinoujscie.pl
 -reklama_$domain=noworudzianin.pl
 -reklamy-$domain=tu.swinoujscie.pl
 -reklamy^$domain=kurekmazurski.pl
@@ -2067,9 +2067,6 @@ portalplock.pl##a[href="https://www.ucando.pl/k/hamulce/U02"]
 biokurier.pl##a[href="https://www.worldfood.pl/?utm_source=banner&utm_medium=biokurier&utm_campaign=WFP2024"]
 angolia.co.uk##a[href="https://www.zaklad-pogrzebowy-uk.co.uk/"]
 angolia.co.uk##a[href="https://zbiorka.uk/"]
-tomaszowiak.net##a[href="infusions/weblinks/weblinks.php?weblink_id=106"]
-tomaszowiak.net##a[href="infusions/weblinks/weblinks.php?weblink_id=113"]
-tomaszowiak.net##a[href="infusions/weblinks/weblinks.php?weblink_id=115"]
 chelmski.eu##a[href="naszchelm.eu"]
 blogbukmacherski.pl##a[href="sts"]
 mojprzewodnik.pl##a[href="www.finans.pl"]
@@ -2461,6 +2458,10 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+lowicz24.eu##.c-content__adv + div
+lowicz24.eu##.l-news__more
+lowicz24.eu##[class="card  card--box"]
+lowicz24.eu##[class="card card--low card--box"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
