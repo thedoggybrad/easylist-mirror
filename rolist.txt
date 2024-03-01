@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UlU0LrFpjeEvf0CKE5EzIw
-! Version: 202403010651
+! Checksum: 4c8QjQ5MkC6+dh2ZvzJLbg
+! Version: 202403010701
 ! Title: ROList
-! Last modified: 01 Mar 2024 06:51 UTC
+! Last modified: 01 Mar 2024 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://www.zoso.ro/rolist/
 !
@@ -14,7 +14,7 @@
 ! A complementary list, with more strict items, is here https://zoso.ro/pages/rolist2.txt
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: mail@zoso.ro
-! Last modified: 16FEB 2024 06:00 UTC
+! Last modified: 01MAR 2024 06:00 UTC
 !hosts
 ||01.creativecdn.com^
 ||2mdn.net^
@@ -364,7 +364,7 @@ europafm.ro##.pt-2.single-post.section
 europafm.ro##.song.slide
 evenimentul.ro##TD[width="160"]
 evz.ro##.row.catbottom
-emag.ro##.page-section:has([data-tracking-alias^="sponsored_products"])
+emag.ro##.page-section:has(.js-recommendation-carousel[data-tracking-alias^="sponsored_products"])
 executari.com##.promohide
 fanatik.ro###strawberry_feeds_manager_positions_widget-2
 fanatik.ro##.mg-bottom-20.articles--links.articles
