@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jShl4Y1uR1u+NHVameMMbw
-! Version: 202403011531
+! Checksum: Mj5PxZcH+CCRPZ4VKf6frw
+! Version: 202403011541
 ! Title: EasyList Polish
-! Last modified: 01 Mar 2024 15:31 UTC
+! Last modified: 01 Mar 2024 15:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -173,7 +173,6 @@ mandarinodesign.eu#@#.reklama
 ^cms_banery^$domain=architekturaibiznes.pl
 ^edytom.$domain=legitymizm.org
 ^grafika2^$domain=tsk24.pl
-^homepage-banners^$domain=otomoto.pl
 ^img_bannery^$domain=piszanin.pl
 ^ims^$domain=gorzow24.pl
 ^inline__1_$domain=24jgora.pl|24wroclaw.pl|bbfan.pl|ciechanowinaczej.pl|e-kg.pl|egarwolin.pl|eprzasnysz.pl|gpr24.pl|ibemowo.pl|ibialoleka.pl|ibielany.pl|imokotow.pl|inowroclaw.info.pl|iochota.pl|iotwock.info|itargowek.pl|iursus.pl|iursynow.pl|iwawer.pl|iwilanow.pl|iwola.pl|izoliborz.pl|kurierpodlaski.pl|nowagazeta.pl|nwloclawek.pl|ototorun.pl|sejny.net|sucha24.pl|tudeblin.pl|tulegnica.pl|turyki.pl|twojradom.pl|wio.waw.pl|zambrow.org|zycie.pila.pl|zyciekalisza.pl
@@ -432,6 +431,7 @@ portalpszczelarski.pl###AdBig
 spottedskarzysko.pl###BoxColTop
 spottedstarachowice.pl###BoxColTop .box
 spottedskarzysko.pl,spottedstarachowice.pl###BoxColTop2
+mgsm.pl###CardBuyIn
 techmaniachd.pl###HTML1
 wikirose.pl###HTML14
 wikirose.pl###HTML15
@@ -1120,10 +1120,12 @@ mamotoja.pl,party.pl,wizaz.pl##.c-ad-placement
 bieganieuskrzydla.pl##.c-advertaisment
 naszahuta.pl##.c-banners
 bbfan.pl,ciechanowinaczej.pl,dobroni.pl,e-kg.pl,eprzasnysz.pl,inowroclaw.info.pl,iotwock.info,izabelin24.pl,izyrardow.pl,jaworzno.biz,kartuzy.info,konecki24.pl,koscierski.info,profitnes.pl,pultusk24.pl,szczecinek.com,terazostroleka.pl,tugrodzisk.pl,tulegnica.pl,turyki.pl,twojradom.pl,wabrzezno-cwa.pl,zyciekalisza.pl##.c-content__adv
+lowicz24.eu##.c-content__adv + div
 mamotoja.pl##.c-ecomm-widget
 izabelin24.pl##.c-gallery__bilboard-ad
 wysokieobcasy.pl##.c1
 tp.com.pl##.card--box
+mgsm.pl##.card-widget-prices__container
 sportrelacje.pl##.card.my-4 img[src^="https://i.imgur.com"]
 allaboutlife.pl##.carrie-ad-block
 24opole.pl##.cd
@@ -1347,7 +1349,7 @@ baby-shower.pl##.kwadratowa2
 izabelin24.pl##.l-box--100
 goral.info.pl##.l-box--25
 debica24.eu##.l-box--99
-egarwolin.pl,goral.info.pl,pilaonline.pl##.l-news__more
+egarwolin.pl,goral.info.pl,lowicz24.eu,pilaonline.pl##.l-news__more
 transfermarkt.pl##.large-4 > div > img[src$=".gif"]
 radiorodzina.pl##.left-large-ad
 dziennikpowiatowy.pl,gazetamyszkowska.pl,koscierzyna24.info,narew.info,olesnica24.com,portalwloclawek.pl,radiosochaczew.pl,tv.starachowice.pl,wirtualnesuwalki.pl,zycieolsztyna.pl##.legal-notice
@@ -1803,10 +1805,12 @@ turek.net.pl##[class*="l-banners-"]
 tuwroclaw.com##[class*="w2g-wrapper__slot_"]
 rmf24.pl##[class="ad adsBilbordArticle"]
 kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,poranny.pl,telemagazyn.pl,to.com.pl##[class="atomsListingArticleTileWithSeparatedLink component"]
-24wroclaw.pl,pilaonline.pl##[class="card card--low card--box"]
+lowicz24.eu##[class="card  card--box"]
+24wroclaw.pl,lowicz24.eu,pilaonline.pl##[class="card card--low card--box"]
 forbes.pl##[class="container ad"]
 gostynin.info##[class="container-out background-accent p-m p-xl@m"]
 kuriersuwalski.pl,panoramakutna.pl,thinkapple.pl##[class="g g-1"]
+mgsm.pl##[class="large-12 medium-12 columns"]
 studentnews.pl##[class="r_cala s_calosc_iko_4"] + div
 gostynin24.pl,lokalna24.pl,tvsudecka.pl,tygodnik-krapkowicki.pl##[class="text-center my-3 container"]
 prostozopolskiego.pl,tygodnikkrag.pl##[class^="a-single a-"]
@@ -1854,6 +1858,7 @@ plotek.pl##[id^="banC"]
 www-wykop-pl.translate.goog,wykop.pl##[id^="banner_top_"]
 24starogard.pl##[id^="bannerlistwidget-"]
 sucha24.pl##[id^="bills_in_rotation_"]
+mgsm.pl##[id^="comments-leadebaord"]
 telewizja.lukow.pl##[id^="frontpage-area_g_"]
 24gliwice.pl##[id^="gliwi-grid-"]
 swiatkoni.pl##[id^="klikacz"]
@@ -2458,14 +2463,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-lowicz24.eu##.c-content__adv + div
-lowicz24.eu##.l-news__more
-lowicz24.eu##[class="card  card--box"]
-lowicz24.eu##[class="card card--low card--box"]
-mgsm.pl##[class="large-12 medium-12 columns"]
-mgsm.pl##[id^="comments-leadebaord"]
-mgsm.pl##.card-widget-prices__container
-mgsm.pl###CardBuyIn
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
