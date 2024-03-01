@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IDgqezQ1L3atvawItQdEAw
-! Version: 202403011521
+! Checksum: siVD7bj5oWXnBD3XC44FXw
+! Version: 202403011531
 ! Title: EasyList without rules for adult sites
-! Last modified: 01 Mar 2024 15:21 UTC
+! Last modified: 01 Mar 2024 15:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -61708,6 +61708,7 @@ offidocs.com###adbottomoffidocs
 4qrcode.com###addContainer
 odditycentral.com###add_160x600
 lifenews.com###adds
+seowebstat.com###adhead-block
 englishclub.com###adhed
 freepik.com###adobe-pagination-mkt-copy
 onworks.net###adonworksbot
@@ -66667,6 +66668,7 @@ greatandhra.com##div[class^="add"]
 ndtv.com##div[class^="add_"]
 india.com,ntdeals.net,psdeals.net,xbdeals.net##div[class^="ads-"]
 dnaindia.com##div[class^="ads-box"]
+247solitaire.com,247spades.com##div[class^="aspace-"]
 stakingrewards.com##div[class^="assetFilters_desktop-banner_"]
 releasestv.com##div[class^="astra-advanced-hook-"]
 onlineradiobox.com##div[class^="banner-"]
@@ -67056,6 +67058,7 @@ twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 psychcentral.com##aside:has([data-empty])
 vidplay.lol##body > div > div[class][style]:has(> div > div > a[target="_blank"])
 countdown.co.nz##cdx-card:has(product-badge-list)
+creepypasta.com##center:has(+ #ad-container-1)
 skyscanner.com,skyscanner.net##div > a:has(div[class^="DefaultBanner_sponsorshipRow"])
 inverse.com##div > p + div:has(amp-ad)
 bailagentnetwork.com##div.box-bottom:has(a[rel="noopener nofollow"])
