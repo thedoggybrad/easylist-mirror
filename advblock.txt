@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qCpPwW9FflKr3Q71S/zuyA
-! Version: 202403021231
+! Checksum: TV3Ww0DKBDgVHuN15gou8g
+! Version: 202403021240
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Mar 2024 12:31 UTC
+! Last modified: 02 Mar 2024 12:40 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12717,6 +12717,7 @@ startgamer.ru##.SG-fixed-block
 siddgames.ru##.TeraPromo
 i.ua##.TopBanner730
 onlineguru.ru##.V3-wrap-big
+auto.ru##.VertisAds
 google.by,google.com,google.com.ua,google.kz,google.ru#?#.VkpGBb:-abp-has(.gghBu)
 i.ua##.Wrap > .anons
 bmwclub.ru##.XenAdvShop
@@ -16799,7 +16800,6 @@ slukh.media##[data-vc-parallax]
 nv.ua##[data-vr-zone="Баннер"]
 ozon.ru##[data-widget="advBanner"]
 ozon.ru##[data-widget="advVideoBanner"]
-ozon.ru#?#[data-widget="freshIsland"]:-abp-has(> div > [data-widget="banner"])
 ozon.ru#?#[data-widget="freshIsland"]:-abp-has(> div > [data-widget="objectBannerList"])
 pravda.cn.ua##[data-widget_type="image.default"]
 photos-models.com##[gnezdo_container_id]
@@ -16952,6 +16952,7 @@ tltgorod.ru##[style*="tltgorod.ru/Pics/ban/"]
 4pda.to#?#[style=";background-image:none!important;background-color:transparent!important"] [style=";background-image:none!important;background-color:transparent!important"] > *:-abp-has(a[href][target="_blank"][style="display:none!important"])
 anirem.org##[style="background:#2f2d38; margin:10px;"]
 molbuk.ua##[style^="height: 200px; left"][style*="position: absolute"]
+auto.ru##[style^="height:"][style*="250px"]:empty
 point.md#?#[style^="position:"] div[class]:-abp-has(.point-ads)
 point.md#?#[style^="position:"] div[class]:-abp-has(> a[href*="utm_campai"])
 penzainform.ru##[style^="width: 140px; height: 280px;"]
@@ -17038,7 +17039,7 @@ adult-images.ru,imgbum.ru,screenpost.ru,xpicture.ru##a[href*="//parnuxi.biz"]
 syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai##a[href*="//pulse.mail.ru/"]
 kommersant.ru##a[href*="//rusfond.ru"]
 kinoafisha.info,oper.ru##a[href*="//wink."]
-1777.ru,1istochnik.ru,7days.ru,actualnews.org,allboxing.ru,amurmedia.ru,argumenti.ru,atas.info,autosaratov.ru,autosport.com.ru,av.by,baby.ru,bel.ru,belkagomel.by,bidbaits.ru,carsweek.ru,chitamedia.su,chukotkamedia.ru,cq.ru,ctc.ru,deita.ru,eaomedia.ru,eva.ru,finam.ru,fishki.net,fontanka.ru,food.ru,friday.ru,interface31.ru,irkutskmedia.ru,iz.ru,izhlife.ru,kaifolog.net,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,lipetskmedia.ru,magadanmedia.ru,mel.fm,mk.ru,nakhodka.media,nashe.ru,new-magazine.ru,noob-club.ru,nsn.fm,om1.ru,osnmedia.ru,politrussia.com,povarenok.ru,priamurmedia.ru,primamedia.ru,prufy.ru,radiojazzfm.ru,radioultra.ru,realt.by,riamo.ru,rockfm.ru,russian.rt.com,rusvesna.su,sakhalinmedia.ru,sevastopolmedia.ru,sm.news,smolensk-i.ru,smotrim.ru,sovets.net,sovets24.ru,sravni.ru,starhit.ru,stavropol.media,study.ru,svpressa.ru,takiedela.ru,teleport2001.ru,topnews.ru,tv2.today,ukraina.ru,ulanmedia.ru,ussurmedia.ru,vm.ru,vsezdorovo.com,www.kolesa.ru,yakutiamedia.ru,zaycev.net##a[href*="//zen.yandex.ru/"]
+1777.ru,1istochnik.ru,7days.ru,actualnews.org,allboxing.ru,amurmedia.ru,argumenti.ru,atas.info,auto.ru,autosaratov.ru,autosport.com.ru,av.by,baby.ru,bel.ru,belkagomel.by,bidbaits.ru,carsweek.ru,chitamedia.su,chukotkamedia.ru,cq.ru,ctc.ru,deita.ru,eaomedia.ru,eva.ru,finam.ru,fishki.net,fontanka.ru,food.ru,friday.ru,interface31.ru,irkutskmedia.ru,iz.ru,izhlife.ru,kaifolog.net,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,lipetskmedia.ru,magadanmedia.ru,mel.fm,mk.ru,nakhodka.media,nashe.ru,new-magazine.ru,noob-club.ru,nsn.fm,om1.ru,osnmedia.ru,politrussia.com,povarenok.ru,priamurmedia.ru,primamedia.ru,prufy.ru,radiojazzfm.ru,radioultra.ru,realt.by,riamo.ru,rockfm.ru,russian.rt.com,rusvesna.su,sakhalinmedia.ru,sevastopolmedia.ru,sm.news,smolensk-i.ru,smotrim.ru,sovets.net,sovets24.ru,sravni.ru,starhit.ru,stavropol.media,study.ru,svpressa.ru,takiedela.ru,teleport2001.ru,topnews.ru,tv2.today,ukraina.ru,ulanmedia.ru,ussurmedia.ru,vm.ru,vsezdorovo.com,www.kolesa.ru,yakutiamedia.ru,zaycev.net##a[href*="//zen.yandex.ru/"]
 kritka.su,zserials.cc##a[href*="/1b.yt"]
 zserials.cc##a[href*="/1w.tf"]
 c-sgo.ru,sportliga.com##a[href*="/1xstavka"]
@@ -18282,6 +18283,7 @@ puzzleheap.ru##div[class][style^="height:"][id]:empty
 livejournal.com#?#div[class][style^="height:"][style*="background-color: black; position: relative;"]:-abp-has([src*="docking"][src*="eaglecdn"])
 vse42.ru##div[class][style^="min-height:"][style*="display: flex; width: 100%"]
 news.pn##div[class][style^="width:"][style$="300px;"]
+auto.ru##div[class^="AdWithFixedHeight"]
 news.finance.ua##div[class^="Advertising"]
 kaktus.kg,kaktus.media,sportsdaily.ru##div[class^="Banner"]
 360tv.ru##div[class^="Banners_skeleton_"]
@@ -20380,6 +20382,7 @@ lada.kz/uploads/banners/
 ||audiopoisk.narod.ru/alexsoft.swf
 ||author24.ru^$third-party,domain=litsoch.ru
 ||auto.ria.com/images/branding/banner/
+||auto.ru/wwwboards/img/banner_
 ||auto62rus.ru/img/Mnogo3D.
 ||autogener.ru/img/abp/
 ||autoinfo24.ru/upload/images/banner
@@ -23155,30 +23158,6 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 ||hidemy.name^$third-party,popup
 ||proxyelite.info^$third-party,popup
 !
-! Auto.ru
-auto.ru##.BankCardForm
-auto.ru##.CardOfferBodyAdPlaceCb
-auto.ru##.CarouselOffersEmptyItem
-auto.ru##.CarouselOffersEmptyItemExp
-auto.ru##.ImageGalleryFullscreenVertical__ad
-auto.ru##.IndexCarouselEmptyItem
-auto.ru##.IndexWatchedOffer__empty
-auto.ru##.Journal__content > [class]:not([href])
-auto.ru##.ListingCarouselItemEmpty
-auto.ru##.RelatedDealersItemEmpty
-auto.ru##.ReviewZenPromo
-auto.ru##.TaxiDriverOffer-module__container
-auto.ru##.VertisAds
-auto.ru##.fotorama__nav > [style="display: inline;"]
-auto.ru##:not(div)[class][style*="height:"][style*="display:block !important"]
-@@://auto.ru/$generichide
-auto.ru##[style^="height:"][style*="250px"]:empty
-auto.ru##a[href^="https://auto.ru/promo/osago/"]
-auto.ru##div[class$="__container"] > div[class$="__line_3"] > div[class$="__line_3_right"] > :not(div):not(a) > :not(div):not(a)
-auto.ru##div[name="credit"]
-auto.ru##vertisads-catalog-special
-||auto.ru/wwwboards/img/banner_
-!
 ! Avito
 www.avito.ru##div[class^="advert-"]
 www.avito.ru##div[class^="items-ads-"]
@@ -24803,6 +24782,7 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 !
 ! - Секция для ресурсов, в отношению которых действуют Generic-опции
 @@://auth.nuzhnapomosh.ru/$generichide
+@@://auto.ru/$generichide
 @@||7days2die.info^$generichide
 @@||adult-images.ru^$generichide
 @@||alexstuff.ru^$generichide
@@ -25412,7 +25392,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||mangalbbq.ru/upload/$image,domain=mangalbbq.ru
 @@||map.cn.ua/media/*/tur/
 @@||maxcdn.bootstrapcdn.com^$script,domain=gwss.ru|lgotivam.ru|rvb.ru|vsedeserti.ru
-@@||mc.yandex.ru/metrika/tag.js$domain=auto.ru|lk.rt.ru|rutube.ru|shokoladki.ru
+@@||mc.yandex.ru/metrika/tag.js$domain=lk.rt.ru|rutube.ru|shokoladki.ru
 @@||mc.yandex.ru^$domain=gosuslugi.ru|mos.ru|mosreg.ru|nalog.lk|nalog.ru|trudvsem.ru
 @@||media.ndv.ru/banners^$domain=ndv.ru
 @@||medianetworkinternational.com/js/advertisement.js$script,domain=realstream.space|sport247.live|sport365.live
@@ -25750,11 +25730,10 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||alipromo.com/cdn/js/advertiser.js|$script,domain=epn.bz
 @@||am15.net/ab-detector/ads.js
 @@||amc-club.ru^*/advertbanner.js|$script,domain=amc-club.ru
-@@||an.yandex.ru/mapuid/yandex/$image,domain=auto.ru
 @@||an.yandex.ru/meta/$xmlhttprequest,domain=examenpdd.com
 @@||an.yandex.ru/resource/context_static_r_*.js|$domain=otzovik.com
 @@||an.yandex.ru/system/context.js$domain=awaps.yandex.net|ctc.ru|otzovik.com|www.rusprofile.ru
-@@||an.yandex.ru/system/context.js|$domain=auto.ru|glav.su|onlinelpu.ru|ryfma.com
+@@||an.yandex.ru/system/context.js|$domain=glav.su|onlinelpu.ru|ryfma.com
 @@||an.yandex.ru/system/context.js|$xmlhttprequest,domain=api-video.khl.ru
 @@||ansedo.com/js/*.js|$script,domain=ansedo.com
 @@||ava-avto.ru^$image,domain=ava-avto.ru
@@ -25809,7 +25788,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||liverail.com^*/admanager.swf|$domain=own3d.tv
 @@||loves.zlovemother.com^$elemhide
 @@||mastergrad.com/public/js/ads.min.js$script,domain=mastergrad.com
-@@||mc.yandex.ru/metrika/watch.js$script,domain=101.ru|auto.ru|doska.tamboff.ru|oformi-foto.ru|sherlock.store|shok102.ru
+@@||mc.yandex.ru/metrika/watch.js$script,domain=101.ru|doska.tamboff.ru|oformi-foto.ru|sherlock.store|shok102.ru
 @@||medialand.ru/code$script,domain=cnews.ru
 @@||mover.uz/www/serving/adb.js|$script,domain=mover.uz
 @@||moviki.ru/embed/$elemhide
@@ -25894,7 +25873,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||xksqb.com/native.$script,domain=gwss.ru
 @@||xn--b1ajehof.xn--80asehdb^$script,domain=xn--b1ajehof.xn--80asehdb
 @@||yandex.ru/ads/system/adsdk.js$script,domain=aniboom.one|gisher.org|karaoke.ru|kino.tricolor.tv|limehd.tv|litehd.tv|m24.ru|peers.tv|player.mediavitrina.ru|russia-tv.online
-@@||yandex.ru/ads/system/context.js|$domain=auto.ru|examenpdd.com|forum.qrz.ru|yvid.ru
+@@||yandex.ru/ads/system/context.js|$domain=examenpdd.com|forum.qrz.ru|yvid.ru
 @@||yandex.ru/ads/system/context.js|$script,domain=tvzvezda.ru
 @@||yandex.ru/ads/system/context.js|$xmlhttprequest,domain=reshu.by|reshuent.kz|reshuolymp.ru|sdamgia.ru|sports.ru|strategium.ru
 @@||yarik-sat.com/reklama/*.js|$script,domain=yarik-sat.com
