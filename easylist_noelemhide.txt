@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PMOaiPWSdTBM5x8c69fF8A
-! Version: 202403030621
+! Checksum: 5zTyByGVsoCnuOV9d1f1og
+! Version: 202403030631
 ! Title: EasyList without element hiding rules
-! Last modified: 03 Mar 2024 06:21 UTC
+! Last modified: 03 Mar 2024 06:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -13,7 +13,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_general_block.txt ***
-&sadbl=1&abtg=1
+&sadbl=1$third-party
 -ad-300x600-
 -ad-458x80.
 -ad-bottom-
