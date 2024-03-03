@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: o8YGda2nFF098cs5yKIHVA
-! Version: 202403030901
+! Checksum: MdPzarRK3z12jTX/fYPsPg
+! Version: 202403030911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Mar 2024 09:01 UTC
+! Last modified: 03 Mar 2024 09:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15279,6 +15279,7 @@ apnews.com.ua##.post__bottom-banner
 dermatitanet.ru##.post__entry > div[style^="background"]
 apnews.com.ua##.post__partners-news
 talkwebber.ru##.post_block ~ table
+game4you.top,games-pc.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##.post_body > center > a[target="_blank"]
 nastroy.net##.post_liked
 vk.com,vk.ru##.post_marked_as_ads
 imtw.ru##.post_pole_post
@@ -23048,7 +23049,7 @@ pikabu.ru#?#.stories-feed__container > .story:-abp-has(> script:empty)
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: calc.29.px/))
 dracon-zet.ru,fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
-android-mafia.com,apad2.top,game4you.top,games-pc.top,monna2.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
+android-mafia.com,game4you.top,games-pc.top,monna2.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 pikabu.ru##[data-block-name]
 liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
@@ -23074,7 +23075,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-inferno.games,mediagetguru.ru,only-soft.org,rutor-game.info,rutor-games.ru,rutorgame.info,rutorgames.ru,torent-igruha.com,torrent-music.ru,torrent-soft.net,torrent-word.ru,torrentigo.net,torrentigruha.org,torrentsoft.net,where-game.ru##:not(this-site-promotes-malware)
+apad2.top,inferno.games,mediagetguru.ru,only-soft.org,rutor-game.info,rutor-games.ru,rutorgame.info,rutorgames.ru,torent-igruha.com,torrent-music.ru,torrent-soft.net,torrent-word.ru,torrentigo.net,torrentigruha.org,torrentsoft.net,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru
