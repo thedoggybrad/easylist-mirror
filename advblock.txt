@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MdPzarRK3z12jTX/fYPsPg
-! Version: 202403030911
+! Checksum: NKqUuJX3QkngGXZa1DxWqA
+! Version: 202403030921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Mar 2024 09:11 UTC
+! Last modified: 03 Mar 2024 09:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22942,7 +22942,8 @@ lada.kz/uploads/banners/
 ||you-anime.ru/vg/
 ||youhack.ru^$object
 ||youtube-nocookie.com^$domain=proporno.org
-||youtube.com/embed/$domain=168.ru|4put.ru|androeed.ru|anime-365.ru|compendium.su|fbsearch.ru|geomap.com.ua|hdrabbit.ru|kinotochka.co|kinotochka.me|lostpix.com|multitran.com|newstudio-online.tv|sbornik-music.ru|sinonim.org|smotret-anime.online|subject.com.ua|ukrlit.net|zarlit.com
+||youtube.com/embed/$domain=4put.ru|androeed.ru|anime-365.ru|compendium.su|fbsearch.ru|geomap.com.ua|hdrabbit.ru|kinotochka.co|kinotochka.me|lostpix.com|multitran.com|newstudio-online.tv|sbornik-music.ru|sinonim.org|smotret-anime.online|subject.com.ua|ukrlit.net|zarlit.com
+||youtube.com/embed/?enablejsapi=$domain=168.ru
 ||youtube.com^*modestbranding$subdocument,domain=moevideo.net|penzainform.ru|playreplay.me|playreplay.net|playvideolink.com|thesame.tv|videochart.net
 ||yp.ru/content/Banners/
 ||yp.ru/content/Slider/
@@ -23049,7 +23050,7 @@ pikabu.ru#?#.stories-feed__container > .story:-abp-has(> script:empty)
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: calc.29.px/))
 dracon-zet.ru,fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
-android-mafia.com,game4you.top,games-pc.top,monna2.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
+android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 pikabu.ru##[data-block-name]
 liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
@@ -23075,7 +23076,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-apad2.top,inferno.games,mediagetguru.ru,only-soft.org,rutor-game.info,rutor-games.ru,rutorgame.info,rutorgames.ru,torent-igruha.com,torrent-music.ru,torrent-soft.net,torrent-word.ru,torrentigo.net,torrentigruha.org,torrentsoft.net,where-game.ru##:not(this-site-promotes-malware)
+apad2.top,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-game.info,rutor-games.ru,rutorgame.info,rutorgames.ru,torent-igruha.com,torrent-music.ru,torrent-soft.net,torrent-word.ru,torrentigo.net,torrentigruha.org,torrentsoft.net,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru
@@ -23144,6 +23145,8 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
 2ip.io,2ip.ru#?#.narrow-column > style ~ div > div:-abp-has(a[style^="color:"])
 2ip.io,2ip.ru##a[href*="://fineproxy.org"]
+2ip.io,2ip.ru##a[href*="://finevpn.org"]
+2ip.io,2ip.ru##a[href*="://proxyelite.info"]
 ||go.onelink.me^$popup,domain=2ip.io|2ip.ru
 ! блокировки, добавленнные из-за агрессивного обхода адблока на 2ip.ru и 2ip.io ~>
 ||fineproxy.org^$third-party,popup
