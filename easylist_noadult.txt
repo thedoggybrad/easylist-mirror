@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vhrAFoSwSut8vEvlXLoI5A
-! Version: 202403042101
+! Checksum: gw7Jefd+Bp616fWIUMR8qA
+! Version: 202403042111
 ! Title: EasyList without rules for adult sites
-! Last modified: 04 Mar 2024 21:01 UTC
+! Last modified: 04 Mar 2024 21:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -67314,6 +67314,7 @@ nex-software.com##.toolinfo:has(a[href$="/reimage"])
 twitter.com##.tweet:has(.promo)
 wowcher.co.uk##.two-by-two-deal:has(a[href*="src=sponsored_search_"])
 cheaptickets.com,ebookers.com,expedia.com,hotels.com,orbitz.com,travelocity.com,wotif.com##.uitk-card:has(.uitk-badge-sponsored)
+forums.socialmediagirls.com##.uix_nodeList > div[class="block"]:has([href^="/link-forums/"])
 duckduckgo.com##.vertical-section-divider:has(span.badge--ad-wrap)
 neonheightsservers.com##.well:has(ins.adsbygoogle)
 9to5linux.com##.widget:has([href$=".php"])
