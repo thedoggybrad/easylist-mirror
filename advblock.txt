@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0SiiBCEj85UzjuX4H/D4MQ
-! Version: 202403041731
+! Checksum: 3WmvP8yDdDCSbrLYXuIzcw
+! Version: 202403041741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Mar 2024 17:31 UTC
+! Last modified: 04 Mar 2024 17:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -37,6 +37,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||com/?id=*&t=direct^$popup
 ||gemius.pl^$popup,domain=terrikon.com
 ||getitbit.net/ads/$popup
+||go.onelink.me^$popup,domain=2ip.io|2ip.ru|2ip.ua
 ||goo.gl^$popup,domain=aces.gg|gamegpu.com|skachat-igri-besplatno.info|torrents-game.net|vsofte.biz
 ||joker.win/*&offer_id=$popup
 ||m.acestream.net/plan/select?popup=noads$popup
@@ -14509,7 +14510,7 @@ besplatnyeprogrammy.ru##.ip-motto
 besplatnyeprogrammy.ru##.ip-motto + table > tbody > tr:last-child > td:not(:last-child)
 besplatnyeprogrammy.ru##.ip-motto + table > tbody > tr:not(:last-child)
 besplatnyeprogrammy.ru##.ip-motto + table > thead
-2ip.ua##.ipblockmap > div > .ipv6 + div
+2ip.ua##.ipblockmap > div > .ip ~ .ip + div
 slivup.biz##.ipsA1d
 zismo.biz##.ipsAd123
 zismo.biz##.ipsAd123 + div[align="center"]
@@ -23149,10 +23150,10 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 2ip.io,2ip.ru##a[href*="://fineproxy.org"]
 2ip.io,2ip.ru##a[href*="://finevpn.org"]
 2ip.io,2ip.ru##a[href*="://proxyelite.info"]
-||go.onelink.me^$popup,domain=2ip.io|2ip.ru
-! блокировки, добавленнные из-за агрессивного обхода адблока на 2ip.ru и 2ip.io ~>
+! блокировки, добавленнные из-за агрессивного обхода адблока на 2ip.ru, 2ip.io, 2ip.ua ~>
 ||fineproxy.org^$third-party,popup
 ||finevpn.org^$third-party,popup
+||hide.mn^$third-party,popup
 ||hidemn.org^$third-party,popup
 ||hidemy.name^$third-party,popup
 ||proxyelite.info^$third-party,popup
