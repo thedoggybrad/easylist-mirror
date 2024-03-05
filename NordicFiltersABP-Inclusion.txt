@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b87EZTU8DKEvnuwAfCk3vQ
-! Version: 202403051811
+! Checksum: nBVcPssCUW5uzDZ8ac0m4g
+! Version: 202403051821
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 05 Mar 2024 18:11 UTC
+! Last modified: 05 Mar 2024 18:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1703,6 +1703,7 @@ elbil24.no##.carousel-container + div:not(.carousel-container):has([class*=ad])
 digi.no##.col-span-12:not([class*=" "]):has(> :is([class$=" "],[class*=_class],:not([class*=" "])))
 digi.no##.hidden[class*=" lg:flex"]
 vg.no##.advert
+alletilbudsaviser.co.no##div[class*=banner i]
 ! — — — — —
 ! 🇳🇴: Oppføringer med spesielle omstendigheter
 ! 🇬🇧: Entries with special circumstances
@@ -5638,7 +5639,7 @@ zeromagazine.nu##div[id^=ads]
 @@||doubleclick.net/tag/js/gpt.js$domain=feber.se
 feber.se##.maxetise
 ! Description: Finnish adblock list
-! Last modified: Fri, 23 Feb 2024 23:59:52 +0000
+! Last modified: Sat, 02 Mar 2024 13:23:10 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -5903,6 +5904,7 @@ ehandel.fi###div-leeadsFullpageAd
 ehandel.fi##.article-ad-container
 ehandel.fi##.commercial-row
 ehandel.fi,tvmatsit.com##.annons
+ei-toimi.fi##div[style="min-height:300px;"]
 elmotv.com##.affilistaukset
 elmotv.com##.leovegas
 elmotv.com##[class^=mstila]
@@ -6772,7 +6774,9 @@ verkkouutiset.fi##article.rp-lift.featured-post
 verkkouutiset.fi##section[id^="front-page-parade"]
 verkkouutiset.fi##section[id^="front_page_parade"]
 verkkouutiset.fi#?#.elementor-motion-effects-parent:has(.strossle-sidebar)
+verkkouutiset.fi#?#.elementor-widget-shortcode:has(#QADY)
 verkkouutiset.fi#?#.elementor-widget-shortcode:has(.vu-adlabel)
+verkkouutiset.fi#?#.elementor-widget-shortcode:has([data-ad-unit-id])
 verkkouutiset.fi#?#article.featured-post:has-text(Mainos)
 vertaa.fi##[id|=gpt-slot-billboard]
 vertaa.fi#?#li[class^=cg-][data-role=items-list-item]:has(> div > [id^=gpt-slot-results-][id*=rectangle])
@@ -32883,6 +32887,7 @@ browsershots.org#@#.advert_area
 ||crninkvhariuh.com^
 ||croakconfirmedget.com^
 ||crockerycrowdedincidentally.com^
+||crockuncomfortable.com^
 ||crocopop.com^
 ||crooth.com^
 ||croplake.com^
@@ -42888,6 +42893,7 @@ browsershots.org#@#.advert_area
 ||ladbrokesaffiliates.com.au^
 ||ladnet.co^
 ||ladnova.info^
+||ladrecaidroo.com^
 ||ladsabs.com^
 ||ladsans.com^
 ||ladsats.com^
@@ -44027,6 +44033,7 @@ browsershots.org#@#.advert_area
 ||lycopuscris.com^
 ||lycoty.com^
 ||lydebbqcuam.com^
+||lydiacorneredreflect.com^
 ||lyemiatteffulrf.xyz^
 ||lyemmayrabawe.top^
 ||lyemmayrabzew.top^
@@ -59349,6 +59356,7 @@ browsershots.org#@#.advert_area
 ||xdvorqmcxpyvy.com^
 ||xdvsijtlhr.com^
 ||xdycqcoefditwj.com^
+||xdypuudfxmecd.com
 ||xebadu.com^
 ||xefefetgxnh.com^
 ||xegluwate.com^
@@ -60133,6 +60141,7 @@ browsershots.org#@#.advert_area
 ||zelllwrite.com^
 ||zelqytckpgzwag.com^
 ||zelrasty.net^
+||zelsaips.com^
 ||zemewitted.com^
 ||zemteksu.xyz^
 ||zemydreamsa.info^
@@ -62731,6 +62740,7 @@ browsershots.org#@#.advert_area
 ||crjpgate.com^$popup
 ||crjpingate.com^$popup
 ||crjugate.com^$popup
+||crockuncomfortable.com^$popup
 ||crt.livejasmin.com^$popup
 ||cryorganichash.com^$popup
 ||crystal-blocker.com^$popup
@@ -63083,6 +63093,7 @@ browsershots.org#@#.advert_area
 ||feedfinder23.info^$popup
 ||feedyourheadmag.com
 ||feelingstoriesplumb.com^$popup
+||feelsoftgood.info^$popup
 ||feignthat.com^$popup
 ||felingual.com^$popup
 ||felipby.live^$popup
@@ -63726,6 +63737,7 @@ browsershots.org#@#.advert_area
 ||l4meet.com^$popup
 ||lacquerreddeform.com^$popup
 ||ladiesforyou.net^$popup
+||ladrecaidroo.com^$popup
 ||ladyphapty.com^$popup
 ||lalofilters.website^$popup
 ||lanesusanne.com^$popup
