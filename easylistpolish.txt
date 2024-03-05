@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: o3kWLzg/RbjOuPxWfqZdmA
-! Version: 202403051440
+! Checksum: DCpQUoqAVsjzuGMjguTcnw
+! Version: 202403051451
 ! Title: EasyList Polish
-! Last modified: 05 Mar 2024 14:40 UTC
+! Last modified: 05 Mar 2024 14:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1844,6 +1844,7 @@ allegro.pl##[data-box-name*="advertising"]
 allegro.pl##[data-box-name="Container PPC Offers"]
 allegro.pl##[data-box-name^="Ads"]
 allegro.pl##[data-role="opbox-expandable-advertisement"]
+otomoto.pl##[data-testid="underlying_banner"]
 24gliwice.pl##[href^="https://www.24gliwice.pl/r/"]
 resetoff.pl##[id$="reklamy"]:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(b):not(strong)
 pilaonline.pl##[id*="bill"]
@@ -1880,6 +1881,7 @@ eplastics.pl##[id^="toppartner"]
 beatcoin.pl##[id^="trx_addons_widget_banner-"]
 infoprzasnysz.com##[itemtype$="WPAdBlock"]
 elektroda.pl##[onclick*="'Click'"]
+otomoto.pl##[role="banner"]
 24wroclaw.pl,kurierpodlaski.pl##[style="min-height: 350px;"]
 24wroclaw.pl,kurierpodlaski.pl##[style="min-height: 500px;"]
 tvwlodawa.pl##a + a > img[width="300"]
