@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nbO5lA2hD+A8hRbKuGBXYQ
-! Version: 202403061701
+! Checksum: 27NKYNoNNQhzLeWNIpGELg
+! Version: 202403061711
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 06 Mar 2024 17:01 UTC
+! Last modified: 06 Mar 2024 17:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -73760,6 +73760,7 @@ winscp.net##.promo-block
 forums.minecraftforge.net,nextdoor.com,uploadvr.com##.promo-container
 texasmonthly.com##.promo-in-body
 texasmonthly.com##.promo-inline
+spin.com##.promo-lead
 coveteur.com##.promo-placeholder
 ecaytrade.com##.promo-processed
 texasmonthly.com##.promo-topper
@@ -75396,6 +75397,8 @@ qwant.com##div[data-testid="homeTrendsContainer"] a[href^="https://api.qwant.com
 qwant.com##div[data-testid="pam.container"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
 sitepoint.com##div[data-unit-code]
+spin.com##div[id*="-promo-lead-"]
+spin.com##div[id*="-promo-mrec-"]
 chrome-stats.com##div[id*="billboard_responsive"]
 thenewspaper.gr##div[id*="thene-"]
 diskingdom.com##div[id="diski-"]
