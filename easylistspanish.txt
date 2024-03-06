@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 40uLSIyfD/D1tkN9XN7xxw
-! Version: 202403062201
+! Checksum: mowfDNTwY/GMrvOB/HTDGQ
+! Version: 202403062211
 ! Title: EasyList Spanish
-! Last modified: 06 Mar 2024 22:01 UTC
+! Last modified: 06 Mar 2024 22:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15,6 +15,7 @@
 !-----------------------General advert blocking filters-----------------------!
 ! *** easylistspanish:easylistspanish/easylistspanish_general_block.txt ***
 /banner-publicidad-
+/static/vast_1win.xml$xmlhttprequest
 !
 /234x60.php
 /adsdino.
@@ -816,6 +817,7 @@ hitfm.es#@#.publi
 ||ripollesdigital.cat/imatges/ripollesdigital.cat/ginys/
 ||spanishcorrector.com/cnc/
 ||static.publinews.gt/*/Skin-
+||streamsito.com/static/vast_
 ||studiofutbol.com.ec/tabla2021/images/banner-copa-300x90.jpg
 ||tcccdn.com^*/banner/
 ||upcloud.alfabeta.net/zonas.js
