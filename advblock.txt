@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xYe1VJNen1oUAb0c/JoeDQ
-! Version: 202403061901
+! Checksum: 2NtPCg9iAACadqUdaJVj8Q
+! Version: 202403061911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Mar 2024 19:01 UTC
+! Last modified: 06 Mar 2024 19:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18716,7 +18716,7 @@ o-polze.com##div[id^="bablo_"]
 probusiness.by,tut.by##div[id^="banObject"]
 ua-electro.com##div[id^="banadd"]
 radioroks.ua##div[id^="baner"]
-advizzer.com,bragazeta.ru,cataclysmdda.ru,chehov-vid.ru,conversion.im,ekaraganda.kz,ereport.ru,euro-football.ru,floraprice.ru,gameguru.ru,go64.ru,grinkod.spb.ru,igrixl.ru,kp40.ru,kramatorsk.info,lada.kz,mirnov.ru,mix.tj,musicmp3spb.org,musicwars.ru,news29.ru,ptzgovorit.ru,servers-samp.ru,sovets.net,sport.ua,sports.kz,tayga.info,tparser.org,uaprom.info,vesti.ua,vidal.ru##div[id^="banner"]
+advizzer.com,bragazeta.ru,cataclysmdda.ru,chehov-vid.ru,conversion.im,coollib.net,ekaraganda.kz,ereport.ru,euro-football.ru,floraprice.ru,gameguru.ru,go64.ru,grinkod.spb.ru,igrixl.ru,kp40.ru,kramatorsk.info,lada.kz,mirnov.ru,mix.tj,musicmp3spb.org,musicwars.ru,news29.ru,ptzgovorit.ru,servers-samp.ru,sovets.net,sport.ua,sports.kz,tayga.info,tparser.org,uaprom.info,vesti.ua,vidal.ru##div[id^="banner"]
 ivona.ua,rabota66.ru##div[id^="banner-place-"]
 pitbit.ru##div[id^="banner-right-inside"]
 015.by##div[id^="banner-slider-"]
@@ -19645,6 +19645,7 @@ rafkino.com##div[id^="MarketGid"]
 ||betnetmed.advertserve.com^$csp=sandbox allow-same-origin;
 ||cardiagram.com.ua^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.dev *.io *.net *.org *.ru *.ua
 ||clickthis.blog^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.reddit.com *.twitter.com *.wp.com *.io *.net *.org
+||coollib.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.dev *.io *.net *.org *.ru
 ||crossout.net/*free?*&r=$csp=sandbox allow-same-origin;
 ||d3ward.github.io/toolz/adblock$csp=connect-src 'self'
 ||drive.google.com/file/d/1VmzdhLB_-DcnBtUbKfQPnNvsEp_2gnsy/$csp=script-src
