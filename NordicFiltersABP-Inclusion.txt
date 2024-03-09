@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YABMEOP3hqMVUErlcsJVmg
-! Version: 202403090531
+! Checksum: vB0q9kX+ArfrR1U7dtemyA
+! Version: 202403090551
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Mar 2024 05:31 UTC
+! Last modified: 09 Mar 2024 05:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -77782,12 +77782,14 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@://192.168.0.1$generichide
 @@://192.168.1.1$generichide
 @@://localhost:$generichide
+@@||accounts.google.com^$generichide
 @@||ads.microsoft.com^$generichide
 @@||apple.com^$generichide
 @@||bitbucket.org^$generichide
 @@||builder.io^$generichide
 @@||calendar.google.com^$generichide
 @@||cbs.com^$generichide
+@@||cdpn.io^$generichide
 @@||cloud.google.com^$generichide
 @@||codepen.io^$generichide
 @@||codesandbox.io^$generichide
@@ -77813,6 +77815,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
 @@||max.com^$generichide
+@@||meet.google.com^$generichide
 @@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
