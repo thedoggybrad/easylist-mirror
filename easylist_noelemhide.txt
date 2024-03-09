@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M9p9fC/CmLvLxKvkTceezg
-! Version: 202403090551
+! Checksum: TokzG0P066Bv7Bzyi1OcqA
+! Version: 202403090601
 ! Title: EasyList without element hiding rules
-! Last modified: 09 Mar 2024 05:51 UTC
+! Last modified: 09 Mar 2024 06:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -47542,9 +47542,10 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||search.brave.com/search$xmlhttprequest
 @@||ui.ads.microsoft.com^$~third-party
 ! Webcompat Generichide fixes (Avoid any potential filters being applied to non-ad domains)
+@@://10.0.0.$generichide
+@@://10.1.1.$generichide
 @@://127.0.0.1$generichide
-@@://192.168.0.1$generichide
-@@://192.168.1.1$generichide
+@@://192.168.$generichide
 @@://localhost:$generichide
 @@||accounts.google.com^$generichide
 @@||ads.microsoft.com^$generichide
