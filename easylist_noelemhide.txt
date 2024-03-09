@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: is1FwUHFIldPh8NVJAmK8A
-! Version: 202403090531
+! Checksum: M9p9fC/CmLvLxKvkTceezg
+! Version: 202403090551
 ! Title: EasyList without element hiding rules
-! Last modified: 09 Mar 2024 05:31 UTC
+! Last modified: 09 Mar 2024 05:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -47546,12 +47546,14 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@://192.168.0.1$generichide
 @@://192.168.1.1$generichide
 @@://localhost:$generichide
+@@||accounts.google.com^$generichide
 @@||ads.microsoft.com^$generichide
 @@||apple.com^$generichide
 @@||bitbucket.org^$generichide
 @@||builder.io^$generichide
 @@||calendar.google.com^$generichide
 @@||cbs.com^$generichide
+@@||cdpn.io^$generichide
 @@||cloud.google.com^$generichide
 @@||codepen.io^$generichide
 @@||codesandbox.io^$generichide
@@ -47577,6 +47579,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
 @@||max.com^$generichide
+@@||meet.google.com^$generichide
 @@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
