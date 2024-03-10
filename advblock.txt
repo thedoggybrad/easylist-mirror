@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v2xgEkDOctG26UThP0i/fw
-! Version: 202403101931
+! Checksum: GjeC+go2EoAYCcYAn99Dcw
+! Version: 202403101941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Mar 2024 19:31 UTC
+! Last modified: 10 Mar 2024 19:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18295,6 +18295,7 @@ kaktus.kg,kaktus.media,sportsdaily.ru##div[class^="Banner"]
 comedy-radio.ru,radioromantika.ru,relax-fm.ru,veseloeradio.ru##div[class^="D_"][class*="x"]
 rg.ru##div[class^="EditorialPageArticleAside_item"][style^="height:"]
 apteka.ru##div[class^="Eshop"]
+beta.newsru.co.il##div[class^="HP_"]
 igromania.ru,kanobu.ru##div[class^="HeadingPage_most_discussed"]
 www.sibnet.ru##div[class^="Info_sidebar_"] a[class^="Informer_root_"]
 igromania.ru,kanobu.ru##div[class^="MaterialSubscription_root_"]
@@ -18841,6 +18842,7 @@ argumenti.ru##div[id^="rtb_"]
 vnitkah.ru##div[id^="ruk_"]
 matiz-club.com##div[id^="sape_links"]
 ne-kurim.ru##div[id^="sbs"]
+beta.newsru.co.il##div[id^="section_"]
 sibnet.ru##div[id^="sibAd_"]
 mazepa.to#?#div[id^="sidebar"] > .ipsSideBlock:-abp-has(> h3:-abp-contains(еклам))
 photofuneditor.com#?#div[id^="sidebar"] div[id^="sidebar"]:-abp-has(div > [src*="pagead2."])
@@ -21703,6 +21705,8 @@ lada.kz/uploads/banners/
 ||newsmaker.md^*/banners/
 ||newsomsk.ru/design/new/js/banner_new.js
 ||newsroom.kh.ua/wp-content/uploads/tiny_
+||newsru.co.il/scripts/ad_
+||newsru.co.il/scripts/main_ad.
 ||newstudio.tv/menu.swf
 ||newsua.ru/images/banner/
 ||nezhatin.com.ua/*.html$subdocument
