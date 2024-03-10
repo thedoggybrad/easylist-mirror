@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jdqC3zxuAeli0QJ/ltzwAA
-! Version: 202403102021
+! Checksum: KSzQdFTdyL9Y/Ozy2FbJaQ
+! Version: 202403102031
 ! Title: Adblock Warning Removal List
-! Last modified: 10 Mar 2024 20:21 UTC
+! Last modified: 10 Mar 2024 20:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/antiadblockfilters
 ! Licence: https://easylist.to/pages/licence.html
@@ -75,6 +75,9 @@ koolhydraatarmerecepten.info##body > [style^="z-index: 1000000; "]
 ||tristoshink.online/libs/check.js
 ||venea.net/web/ab_message?
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
+! Third-party servers
+||content-settings.com^$third-party
+||site-config.com^$third-party
 ! Admiral antiadb
 ||absorbingcorn.com^$third-party
 ||acceptableauthority.com^$third-party
