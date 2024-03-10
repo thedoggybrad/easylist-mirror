@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p7cfDdy3EYRjzegiCHkQVw
-! Version: 202403101851
+! Checksum: sR9WWS7+WbRE3ScqJLWjzg
+! Version: 202403101901
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Mar 2024 18:51 UTC
+! Last modified: 10 Mar 2024 19:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -37,7 +37,6 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||com/?id=*&t=direct^$popup
 ||gemius.pl^$popup,domain=terrikon.com
 ||getitbit.net/ads/$popup
-||go.onelink.me^$popup,domain=2ip.io|2ip.ru|2ip.ua
 ||goo.gl^$popup,domain=aces.gg|gamegpu.com|skachat-igri-besplatno.info|torrents-game.net|vsofte.biz
 ||joker.win/*&offer_id=$popup
 ||m.acestream.net/plan/select?popup=noads$popup
@@ -46,6 +45,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||mp3albomov.net^$popup,domain=lossless-galaxy.ru
 ||namba.kg^$popup,domain=namba.kg
 ||namba.tj^$popup,domain=namba.tj
+||onelink.me^$popup,domain=2ip.io|2ip.ru|2ip.ua
 ||otus.ru/*utm_$third-party,popup
 ||playground.ru/*/promo/$popup
 ||topofgames.com^*?path=$popup
