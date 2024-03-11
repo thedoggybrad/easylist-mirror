@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HbSIr1NHyIWYE4B571Bfyg
-! Version: 202403111821
+! Checksum: s9Dn6CSDp1uX3eBzOIATNQ
+! Version: 202403111831
 ! Title: Liste FR
-! Last modified: 11 Mar 2024 18:21 UTC
+! Last modified: 11 Mar 2024 18:31 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -4094,7 +4094,6 @@ _siteunder/$popup
 ||surfactif.fr^$third-party
 ||svonm.com^$third-party
 ||swingers-match.com^$third-party
-||systeme.io^$~image,third-party,domain=~coaching4u.fr
 ||t4b.tv^$third-party
 ||t4btv.com^$third-party
 ||tag101.com^$third-party
@@ -19047,8 +19046,6 @@ zataz.com#?#.custom-sidebar:-abp-has(h3:-abp-contains(/Partenaires|Publicité/))
 @@||static.meilleur-mobile.com/images-product/logos-marchands/sprite_logosMarchands_120x60.png|$image
 @@||static.s-sfr.fr/resources/custom/adsl/
 @@||syndication.twitter.com/tweets.json?*&ids=*&lang=*&suppress_response_codes=$script
-@@||systeme.io/public/*/show?source=*-iframe-$subdocument
-@@||systeme.io/public/remote/page/*.js|$script
 @@||thepiratebay.org/description.php?id=$popup,~third-party
 @@||videos-pub.ftv-publicite.fr/player/ad2play.js$domain=tv5mondeplus.com
 @@||weborama.fr/wbo_performance.js$domain=pmu.fr
