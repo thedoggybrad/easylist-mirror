@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 84IQmTVqjsK+fcW2gLqdFg
-! Version: 202403120811
+! Checksum: 8ImLCjFaA4X7P3883hderA
+! Version: 202403120821
 ! Title: EasyList Polish
-! Last modified: 12 Mar 2024 08:11 UTC
+! Last modified: 12 Mar 2024 08:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2468,6 +2468,27 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+dziennikpowiatowy.pl###toplayer
+dziennikpowiatowy.pl###top_1
+dziennikpowiatowy.pl##.tipad_tag
+dziennikpowiatowy.pl##.tipad_tag + picture
+dziennikpowiatowy.pl##[class="text-center my-3 container"]
+faktykaliskie.info##.tipad_tag
+faktykaliskie.info##[class="text-center my-3 container"]
+halorzeszow.pl##.tipad_tag
+halorzeszow.pl##[class="text-center my-3 container"]
+kronikatygodnia.pl##.tipad_tag
+kronikatygodnia.pl##.tipad_tag + a
+kronikatygodnia.pl##.tipad_tag + picture
+kronikatygodnia.pl##[class="text-center my-3 container"]
+podkarpackahistoria.pl###inside_1
+podkarpackahistoria.pl##.tipad_tag
+podkarpackahistoria.pl##[class="text-center my-3 container"]
+radiotczew.pl##.tipad_tag
+radiotczew.pl##[class*="-advert_"]
+radiotczew.pl##[class="text-center my-3 container"]
+tvsudecka.pl##.tipad_tag + a
+tvsudecka.pl##[class*="-advert_"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
