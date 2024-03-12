@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 74M3uJFPe9dkLACdpTLZZg
-! Version: 202403120831
+! Checksum: BalPomK1nDpEqzY17a+Blg
+! Version: 202403120841
 ! Title: ABP filters
-! Last modified: 12 Mar 2024 08:31 UTC
+! Last modified: 12 Mar 2024 08:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1340,7 +1340,6 @@ sdamgia.ru#$#abort-on-property-read Object.prototype.getRenderToElement
 liveball.cc,liveball.uno#$#abort-on-property-read ABNS
 zab.ru#$#abort-on-property-read document.body.style
 volley.ru#$#override-property-read Object.prototype.preroll null
-positiverecords.ru#$#abort-current-inline-script document.querySelector ad-google
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
@@ -1484,7 +1483,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 truyentuan.xyz#$#abort-current-inline-script $ btpop
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-fcbarcelonaclan.com#$#abort-on-property-read adsRedirectPopups
+etellekt.com#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
