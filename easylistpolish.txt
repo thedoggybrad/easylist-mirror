@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: svOnh3CVBGJLmR8pAT/KzA
-! Version: 202403130911
+! Checksum: 0C52Xc9LfmZnWnuK0Hm8hg
+! Version: 202403130921
 ! Title: EasyList Polish
-! Last modified: 13 Mar 2024 09:11 UTC
+! Last modified: 13 Mar 2024 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1352,7 +1352,7 @@ eostroleka.pl##.loading-ajax-ads
 e-grajewo.pl##.logos-container
 hfc.com.pl##.lozad
 lubiehrubie.pl##.lubie-widget
-orzesze.com.pl,rudaslaska.com.pl,sosnowiecki.pl,zory.com.pl##.m-ads-revive__zone
+orzesze.com.pl,rudaslaska.com.pl,sosnowiecki.pl,zory.com.pl##[class^="m-ads-"]
 jarmark.com.pl##.mMaterialRotator
 beskidnews.pl,wirtualnyregion.eu##.main-slider
 gazetanowodworska.com##.mainSlider
@@ -2472,6 +2472,8 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+mojmikolow.pl##[class^="m-ads-"]
+swiony.pl##[class^="m-ads-"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
