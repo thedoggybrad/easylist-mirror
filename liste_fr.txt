@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0YThz7FQ4TDIWtTB5F3Y6w
-! Version: 202403131851
+! Checksum: ok6sRA6mgrsWTzt6SVK83g
+! Version: 202403131901
 ! Title: Liste FR
-! Last modified: 13 Mar 2024 18:51 UTC
+! Last modified: 13 Mar 2024 19:01 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -12299,6 +12299,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||distrowatch.com/images/k/
 ||djelfa.info/logo/
 ||dknews-dz.com/themes/frontend/images/desigual.jpg
+||dl-protect.link/assets/images/dd
 ||dl-protect.link/assets/images/dl
 ||dl-protect.link/assets/images/st
 ||dlive.pagesjaunes.fr^
@@ -16771,6 +16772,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##a[href^="https://click.hooligapps.com/?pid="]
 ##a[href^="https://clickadilla.com/?"]
 ##a[href^="https://clk.pvnsolutions.com/"]
+##a[href^="https://dl-protect.link/request-access-url?"]
 ##a[href^="https://dl-protect.link/request-direct-url?"]
 ##a[href^="https://dl11a.club/"]
 ##a[href^="https://download.uphost.click/?"]
@@ -18752,7 +18754,7 @@ dzgeek.com#?#li + .postbit:-abp-has(img[src$="/avatars/partenaire.png"])
 ebay.fr#?#.sresult:-abp-has(.promoted-lv)
 ebay.fr#?#[id^="nume_html_"]:-abp-has(.mfe-card-group:-abp-has(.mfe-card-group-title:-abp-contains(sponsorisées)))
 ebay.fr#?#[id^="nume_html_"]:-abp-has(.mfe-header:-abp-has(.mfe-pull-left:-abp-contains(sponsorisés)))
-extreme-down.art,extreme-down.moe,extreme-down.site,free-telecharger.lol,gktorrents.org,t911.tv,torrent9.cm,torrent9.fm,torrent911.ws#?#a:-abp-contains(/ANONYME|Anonyme|anonyme|PREMIUM|Premium|RAPIDE|Rapide|Usenet|VPN|Vpn/)
+extreme-down.art,extreme-down.moe,free-telecharger.lol,gktorrents.org,t911.tv,torrent9.cm,torrent9.fm,torrent911.ws#?#a:-abp-contains(/ANONYME|Anonyme|anonyme|PREMIUM|Premium|RAPIDE|Rapide|Usenet|VPN|Vpn/)
 femmeactuelle.fr#?#.specialCard:-abp-has(a[href^="https://cosmoeus.fr/"])
 flaticon.com#?#.soul-p:-abp-has(.footer-sponsor)
 forumconstruire.com#?#.post_simple:-abp-has(.postsimple_pseudo:-abp-contains(/Auto-promo|Autopromo/))
