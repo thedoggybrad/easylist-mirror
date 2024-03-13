@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QSo+0ENmUvF9J3jS75ZqWg
-! Version: 202403131701
+! Checksum: lNtUa5S70JZk/7aUiwWJNQ
+! Version: 202403131711
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Mar 2024 17:01 UTC
+! Last modified: 13 Mar 2024 17:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1444,6 +1444,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##a[href*="muz-loader.site"]
 ##a[href*="navaxudoru.com"]
 ##a[href*="netcrys.com"]
+##a[href*="news"][href*="favid"]
 ~news-network.ru##a[href*="news-network.ru"][target="_blank"]
 ##a[href*="news-sphere.com"]
 ~newsnetwork.ru##a[href*="newsnetwork.ru"][target="_blank"]
@@ -2186,7 +2187,7 @@ _tizers.
 ||ru/ban/$domain=~chita-game.ru|~zabgame.ru
 ||ru/banner.$domain=~allplanets.ru|~gibdd-gai.ru|~knigilub.ru|~megafon.ru|~rsa.su
 ||ru/banner/$domain=~autodoc.ru|~befree.ru|~matematikalegko.ru|~newdaynews.ru|~rfs.ru|~smotriuchis.ru|~svka.ru|~utkonos.ru
-||ru/banners/$domain=~animespirit.ru|~cheese-cake.ru|~citilink.ru|~departamentar.ucoz.ru|~e96.ru|~irad.ru|~killot.ru|~mrtexpert.ru|~onlime.ru|~regnum.ru|~rosbank.ru|~toptracker.ru|~webnames.ru|~wildberries.ru|~zalivalka.ru
+||ru/banners/$domain=~animespirit.ru|~cheese-cake.ru|~citilink.ru|~departamentar.ucoz.ru|~e96.ru|~irad.ru|~killot.ru|~mrtexpert.ru|~onlime.ru|~rosbank.ru|~toptracker.ru|~webnames.ru|~wildberries.ru|~zalivalka.ru
 ||ru/bpoint/bnr/
 ||ru/code/yaoffer/$third-party
 ||ru/i/banner/
@@ -4092,6 +4093,7 @@ _tizers.
 ||adnetpartner.com^$third-party
 ||adoffer.pro^$third-party
 ||adp4wb.ru^$third-party
+||adplay.ru^$third-party
 ||adplus.io^$third-party
 ||adpool.bet^$third-party
 ||adpremium.ru^$third-party
@@ -13699,7 +13701,6 @@ vedomosti.ru##.card-banner-tgb
 odinelectric.ru##.card-container
 vkfaces.com#?#.card-separator__title:-abp-contains(реклама)
 pronovostroy.ru##.card-special-gallery--topic
-regnum.ru##.card-with-adv
 solidarnost.org##.card-yandex
 1tv.ru##.card.promo
 rudub.xyz##.card__description__adv
@@ -15331,6 +15332,7 @@ allmoldova.com,audit-it.ru,gdeposylka.ru,infomir59.ru,pavlodar.news,pavon.kz,ren
 roskomsvoboda.org##.promo-banner
 expertcen.ru##.promo-block
 habr.com##.promo-block_courses
+regnum.ru##.promo-card-small
 vechirniy.kyiv.ua##.promo-inner > .container > a[href="https://vechirniy.kyiv.ua/reklama/"]
 vechirniy.kyiv.ua#?#.promo-inner > .container:-abp-has(> .media:only-child)
 vechirniy.kyiv.ua#?#.promo-inner > .container:-abp-has(> a[href*="://bit.ly/"])
@@ -17269,7 +17271,6 @@ bigbangtv.ru,new-team.org,onlysimpsons.ru,swip.su,vskazketv.com##a[href*="myprin
 site-do.ru##a[href*="myrusakov.ru"]
 freetp.org,freetp.ru##a[href*="nacked_tits_bot"]
 halyavin.ru,internethalyava.ru##a[href*="nanokleber-original.com"]
-4esnok.by,actualnews.org,argumenti.ru,argumentiru.com,belta.by,brestcity.com,business-gazeta.ru,carsweek.ru,dailystorm.ru,dni.ru,dni24.com,doctorpiter.ru,eadaily.com,elle.ru,fontanka.ru,inosmi.ru,interfax-russia.ru,interfax.ru,itzine.ru,ixbt.com,iz.ru,izhlife.ru,kanobu.ru,kaskad.tv,marieclaire.ru,maximonline.ru,metaratings.ru,mir24.tv,mk.ru,mydecor.ru,nashe.ru,neg.by,novostivl.ru,nsn.fm,osnmedia.ru,osnova.news,parents.ru,playmaker24.ru,primpress.ru,prufy.ru,psychologies.ru,radiojazzfm.ru,radioultra.ru,realnoevremya.ru,realt.by,rockfm.ru,shraibikus.com,sm.news,smolensk-i.ru,sport-interfax.ru,srnsk.ru,svpressa.ru,thegirl.ru,tolknews.ru,topdaynews.ru,transport-news.ru,trmzk.ru,tsargrad.tv,tvcenter.ru,ukraina.ru,vk-smi.ru,vokrugsveta.ru,wday.ru,woman.ru,www.sport.ru##a[href*="news"][href*="favid"]
 minecraft-inside.ru##a[href*="nfemo.com/click"]
 liveresult.ru##a[href*="odds"]
 puerrtto.livejournal.com##a[href*="offer"][target="_blank"]
@@ -18126,6 +18127,7 @@ sport24.ru##div[aria-expanded="false"]
 rg.ru##div[aria-label="Дзен"]
 1743.ru,gts.tv,ntsk.ru,orki.ru,orsk.ru##div[bs_id]
 notebookcheck-ru.com##div[class$=" "][style="display: inherit ;"]
+regnum.ru##div[class$=" feed-item"]
 znak.com##div[class$="-ads"]
 bhf.su##div[class$="-bannerContent"]
 proufu.ru#?#div[class$="-main"]:-abp-has(> p:-abp-contains(Новости партнеров))
@@ -23963,6 +23965,7 @@ gdespaces.com,gdespaces.net,google-cloud.services,spac.me,spac.run,spac.wtf,spac
 sports.ru###top-ad
 sports.ru###top-banner-place
 sports.ru##.ad
+sports.ru##.columns__alt-column .frame
 sports.ru##.comment-ads
 sports.ru##.comments-list__ad-item
 sports.ru##.fonbet-teaser
