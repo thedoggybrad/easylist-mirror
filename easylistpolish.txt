@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jDoOdiJyVMY83lobPKXc1Q
-! Version: 202403140811
+! Checksum: N9ovQe1axg8YYxUpjjMjHg
+! Version: 202403140821
 ! Title: EasyList Polish
-! Last modified: 14 Mar 2024 08:11 UTC
+! Last modified: 14 Mar 2024 08:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2472,6 +2472,8 @@ wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 nowinykrapkowickie.pl##[class*="banner--"]
 pakosc24.pl##.blix
+muno.pl##.sectionTopAd
+muno.pl##[id^="slot_"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
