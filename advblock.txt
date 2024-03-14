@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v9RXvk0/QbMB221wQaq8jQ
-! Version: 202403141521
+! Checksum: RnqS55ZT3PRKqJLdLFHFSw
+! Version: 202403141531
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Mar 2024 15:21 UTC
+! Last modified: 14 Mar 2024 15:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1099,6 +1099,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##[data-link*="/sb/clk/"]
 ##[data-link*="://topclicks.club/"]
 ##[data-link*="://ubar-pro"]
+##[data-membrana-container]
 ##[data-url*="://installpack.net"]
 ##[href*=".drp.su/"]
 ##[href*="//loadbrowser.ru/"]
