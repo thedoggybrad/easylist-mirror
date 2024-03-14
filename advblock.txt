@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 488otedBWvBQ+pkIFSuldQ
-! Version: 202403141511
+! Checksum: v9RXvk0/QbMB221wQaq8jQ
+! Version: 202403141521
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Mar 2024 15:11 UTC
+! Last modified: 14 Mar 2024 15:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11431,7 +11431,7 @@ newsroom24.ru###_prizmaNE
 w98008mo.beget.tech###a_center
 znaj.ua###above-header
 sbp-program.ru###activee
-balticlivecam.com###ad
+balticlivecam.com,speedtest.org.ua###ad
 gazeta.ua###ad-730
 pons.com###ad-medrec__first
 1000.menu###ad-recipe-bottom
@@ -14919,6 +14919,7 @@ hd-720.biz##.movie-full > noindex
 emu-land.net##.mreklama
 ru.motorsport.com##.ms-article-content > div[style^="overflow: hidden; padding-top:"]
 ru.motorsport.com##.ms-side-items--with-banner
+multitest.ua##.mt_adv_block
 bigmir.net##.mtbottom_priceua
 7days.ru##.mtop
 omskpress.ru##.mts__block
@@ -22376,6 +22377,7 @@ lada.kz/uploads/banners/
 ||spbit.ru/b_images/
 ||special.matchtv.ru/feeds/
 ||specials*.servicecdn.ru/$domain=dtf.ru|vc.ru
+||speedtest.org.ua/pirate
 ||spimages.glavmore.ru/r0/
 ||spletnica-tv.com^*images/brand.
 ||spletnik.ru/_$subdocument,xmlhttprequest
