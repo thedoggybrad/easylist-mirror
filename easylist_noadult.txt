@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: y3HZdj/8TIqO09vPYtaJAQ
-! Version: 202403150851
+! Checksum: hF0F/qVp7+rARVPrkraa+A
+! Version: 202403150901
 ! Title: EasyList without rules for adult sites
-! Last modified: 15 Mar 2024 08:51 UTC
+! Last modified: 15 Mar 2024 09:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18164,6 +18164,7 @@ grist.org,ing.dk,version2.dk#@#.advertorial
 stjornartidindi.is#@#.adverttext
 staircase.pl#@#.adwords
 consumerist.com#@#.after-post-ad
+clickorlando.com#@#.anyClipWrapper
 dailymail.co.uk,thisismoney.co.uk#@#.article-advert
 deluxemusic.tv#@#.article_ad
 adeam.com#@#.atf-wrapper
@@ -62089,7 +62090,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ! firework
 ||fireworkapi1.com^$domain=boldsky.com
 ! In-page video advertising.
-||anyclip.com^$third-party,domain=~dictionary.com|~heute.at|~video.timeout.com
+||anyclip.com^$third-party,domain=~clickorlando.com|~dictionary.com|~heute.at|~video.timeout.com
 ||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
