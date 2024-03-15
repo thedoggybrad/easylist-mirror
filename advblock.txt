@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: naz5vSzJaHWXG1eid288Rw
-! Version: 202403150731
+! Checksum: l1hcYX5aGPcF+OQ9n9XgqQ
+! Version: 202403150741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Mar 2024 07:31 UTC
+! Last modified: 15 Mar 2024 07:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12763,6 +12763,7 @@ agravery.com,babla.ru,clickthis.blog,dumskaya.net,filehippo.com,geekmir.ru,ifun.
 versii.com##.ad ~ noindex
 gta5-mods.com##.ad-above-mod-dl-btn
 online.zakon.kz,zaycev.fm##.ad-banner
+newsinfo.ru##.ad-before
 novochag.ru##.ad-block
 it-here.ru##.ad-bottom-dc
 moskva.fm,piter.fm##.ad-branding-block
@@ -17041,7 +17042,7 @@ rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[href*=".vkpl
 wintorrents.ru##a[href*=".wintorrents.ru"]
 1tv.ru,drive.ru,f1news.ru,gamemag.ru,kinoafisha.info,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,spletnik.ru,trinixy.ru,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
 dks.com.ua,enovosty.com,expert.in.ua,galas.te.ua,galinfo.com.ua,nbnews.com.ua,plitkar.com.ua,rivnepost.rv.ua,tenews.org.ua,ukrnews24.net,varta1.com.ua##a[href*="//besplatka.ua"]
-360tv.ru,avtonovostidnya.ru,avtovzglyad.ru,bst.bratsk.ru,coop-land.ru,energyfm.ru,fonmod.com,fontanka.ru,gdeichto.ru,ixbt.com,kommersant.ru,metronews.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,mydecor.ru,mywebpc.ru,naked-science.ru,new-magazine.ru,news.ru,oper.ru,penzainform.ru,peterburg2.ru,pnz.ru,regnum.news,regnum.ru,rifey.ru,rusnext.ru,russian.rt.com,rutube.ru,sm.news,sovsport.ru,sport-express.ru,sportsdaily.ru,super.ru,syzran-small.ru,teleprogramma.pro,thegirl.ru,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,ura.news,utyug.info,vz.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,zaks.ru,zr.ru##a[href*="//dzen.ru/"]
+360tv.ru,avtonovostidnya.ru,avtovzglyad.ru,bst.bratsk.ru,coop-land.ru,energyfm.ru,fonmod.com,fontanka.ru,gdeichto.ru,ixbt.com,kommersant.ru,metronews.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,mydecor.ru,mywebpc.ru,naked-science.ru,new-magazine.ru,news.ru,nsn.fm,oper.ru,penzainform.ru,peterburg2.ru,pnz.ru,regnum.news,regnum.ru,rifey.ru,rusnext.ru,russian.rt.com,rutube.ru,sm.news,sovsport.ru,sport-express.ru,sportsdaily.ru,super.ru,syzran-small.ru,teleprogramma.pro,thegirl.ru,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,ura.news,utyug.info,vz.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,zaks.ru,zr.ru##a[href*="//dzen.ru/"]
 beatmake.ru##a[href*="//go.acstat.com/"]
 porno-island.site##a[href*="//goo.su/"]
 animevost.tv,senpai.cc##a[href*="//inlnk.ru/"]
@@ -23823,6 +23824,8 @@ rambler.ru##.finance__banner
 rambler.ru##.finance__partners
 rambler.ru##.gallery__item--banner
 lenta.ru##.header__twenty-ideas
+lenta.ru##.js-erid
+lenta.ru##.js-header-right > div:first-child:not([class*="goodnews"])
 lenta.ru##.layout::before
 championat.com##.livetable-bar__bonus
 gazeta.ru##.m_banner
