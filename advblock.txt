@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sx3DAAMZxOp+jFVZJ+odFg
-! Version: 202403161901
+! Checksum: IgOCdaD0j9eBmgci4Z9WfQ
+! Version: 202403161911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Mar 2024 19:01 UTC
+! Last modified: 16 Mar 2024 19:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6884,6 +6884,7 @@ _tizers.
 ||kak-bit.ru^$third-party
 ||kakanas.ru^$third-party
 ||kalistanasobachke.ru^$third-party
+||kaloev.site^$third-party
 ||kamradamnaradost.ru^$third-party
 ||kan.kanoner.com^
 ||kan.karpovka.net^
@@ -12256,7 +12257,7 @@ funlog.ru###rfunlog
 google.by,google.com,google.com.ua,google.kz,google.ru###rhs_block .xpdopen div[data-ved] > .mod:not([data-attrid])
 pozdrav.ru,viknaodessa.od.ua###right
 sergeistrelec.name###right > .bl0 ~ .bl0:not(:nth-last-child(-n+2))
-filmitorrent.net###right > .colorstrip
+filmitorrent.net,utorr.cc###right > .colorstrip
 n71.ru###right > .nofloat
 sun-news.ru###right > .sideblock > :not(#vk_groups):not(.fb-page)
 torrentfilmi.co#?##right > [class*="block"]:-abp-has(> .rec)
@@ -12586,7 +12587,7 @@ arhangel.ru###topr
 animenfo.com###topright
 xtreme.ws###torrent_77_info
 filmitorrent.site###torrents ~ center
-filmitorrent.net###torrents ~ div[align="center"]
+filmitorrent.net,utorr.cc###torrents ~ div[align="center"]
 3mp3.ru###trance
 starve.io###trevda
 alphapedia.ru###tt
