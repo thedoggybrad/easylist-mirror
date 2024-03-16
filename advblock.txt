@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Yf4m//5Pb0X29oGnFcjmRQ
-! Version: 202403160711
+! Checksum: LbkTV2WRGbxe8TM55aDRMw
+! Version: 202403160721
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Mar 2024 07:11 UTC
+! Last modified: 16 Mar 2024 07:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11645,6 +11645,7 @@ tverigrad.ru###center_column ~ div div > img[src]
 kerch.fm###center_left > .informer
 rabota.kharkov.ua###central > table > tbody > tr > .noprint
 finget.ru###chart_a
+game4you.top,games-pc.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib###checkCookie
 vk.com###chrome_bar_content
 okrain.net.ua###citata
 thg.ru###clnk_main
@@ -17971,6 +17972,7 @@ fapreactor.com,pornreactor.cc##body > div[id^="inter"]
 steampass.ru##body > div[id^="ips_"]
 pornolomka.com.ru##body > div[id^="pw"]
 emuzic.ru##body > div[onclick^="window.open"]
+game4you.top,games-pc.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##body > div[style*="10000px"]
 thailandproperty.tv##body > div[style*="1240px"]
 forum.raskraska.com##body > div[style*="2000"]
 raes.tech,sbfull.com,wigistream.to##body > div[style*="2147483647"]
@@ -25695,7 +25697,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,excelvideo.ru,kompasvideo.ru,photoshopvideo.ru,print-post.com,solidworksvideo.ru,wordvideo.ru#@##reklama
 720video.me,bessporno.me,camsclips.biz,ebalovo.adult,ebalovo.porn,ebalovo.pro,lenkino.adult,pbembed.me,porno365.bingo,pornobit.mobi,pornobomba.click,pornobomba.vip,pornoham.me,pornomoll.red,porntn.com,private-records.com,ru-xvideos.me,russkoe21.com#@#.ads-iframe
 @@$xmlhttprequest,domain=player.3tv.im
-@@/(clickunder|footerad|layerad|lazyad|leaderad|leftad|linkad|pop_ad|prerollad|printad|pubads|under)/$script,~third-party,domain=game4you.top|games-pc.top|innal.top|naylo.top|rustorka.com|rustorka.net|rustorka.top|rustorkacom.lib
+@@/(clickunder|footerad|layerad|lazyad|leaderad|leftad|linkad|pop_ad|prerollad|printad|pubads|pushdownad|under)/$script,~third-party,domain=game4you.top|games-pc.top|innal.top|naylo.top|rustorka.com|rustorka.net|rustorka.top|rustorkacom.lib
 @@/adblock_detector.js$script,domain=forum.trainzup.net
 @@/advert.$script,domain=adhands.ru|azeroth.su|feech.org|joinfo.ua|kopikot.ru|ksimart.com|ksimart.ml|kupidonia.ru|na-ladoni.su|pesikot.org|pwcats.info|shopotam.ru|spravkarf.ru|svidomitov.net|tsj.ru|tverigrad.ru|veedi.com|wotskill.ru
 @@/advertise.js|$domain=rewbux.com|school-tea.ru
