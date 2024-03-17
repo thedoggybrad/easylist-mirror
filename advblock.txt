@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Mkvy68tbaHWKJTmeMxy1mw
-! Version: 202403171401
+! Checksum: fsTO9bBYYOG2lKdm/9tORQ
+! Version: 202403171411
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Mar 2024 14:01 UTC
+! Last modified: 17 Mar 2024 14:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11854,7 +11854,6 @@ tomat-pomidor.com###guseff_top
 bdf.ms###gxFooterBanner
 viknaodessa.od.ua###half_right
 webtun.com###hbanner
-megatorrents.org###head > table[width="100%"]
 sd.ua###head--area
 zastroyschiki39.ru###head-banner
 volyninfo.com###head-content
@@ -12042,7 +12041,6 @@ readytospeak.ru###masthead
 dou.ua###max-header-adv-id
 mega-tracker.net###mb_top_space
 colorforum.ru###mbanners
-torrent5.net###mc-right > div[class="full-text"]
 coap.kz###mc_baner
 softodrom.ru###menu p[align="center"] > b
 streamzone.org###menuLeft
@@ -12110,6 +12108,7 @@ soccer365.com.ua,soccer365.ru###odds
 youtube.com###offer-module
 russian.rt.com###offers
 kupidonia.ru###offers-right
+animejoy.ru###offreklama
 sdamgia.ru###old_school > .App > br
 onlinemschool.com###oms_center_block div[id][style*="text-align:"] > a
 zenit-fk.ru###online-bookmakers
@@ -12544,7 +12543,6 @@ yap.ru,yaplakal.com###top-line > div > a[href][onclick*="open_popup"]
 cont.ws###top-page-ads
 37.ru###top-pannel
 dyvys.info###top-random-banner
-animelend.info###top-view-post
 sudakonline.info###top45
 spbit.ru###top4banners
 sudakonline.info###top6out
@@ -13375,8 +13373,6 @@ partnerkin.com##.bar_bnr_wrap
 moto.com.ua##.baright
 pulscen.ru##.barmen-item
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##.base-post-divider ~ a[href][target="_blank"] > img
-animelend.info#?#.base:-abp-has(.r-r:-abp-has(script:-abp-contains(/^bbs_/)))
-animelend.info#?#.base:-abp-has(.r-r:-abp-has(script[src]:not([src*="/templates/"])))
 animemobi.ru##.basecont
 zh24.com##.baseer > .heading
 animevost.org,animevost.top,vost.pw##.batre
@@ -14595,7 +14591,6 @@ igromania.ru,kanobu.ru##.knb-sidebar_top
 topfile.tj##.knopka
 osvita.ua##.kom
 aqua-therm.ru##.kp-top-banner
-megatorrents.org##.ksAvd
 old.kurs.com.ru##.kursInformer #head-content
 old.kurs.com.ru##.kursInformer #ref
 xn--80ady2a0c.xn--p1ai##.l-a-fly
@@ -15593,7 +15588,6 @@ websdr.space#?#.row[style="display: block;"]:-abp-has(iframe)
 www.eg.ru##.row[style="margin-top: 30px;"]
 nikcenter.org#?#.row[style^="padding-"]:-abp-has(> .nchead > .ncheading:-abp-contains(/^партн/i))
 epravda.com.ua,eurointegration.com.ua##.rpad script[src*="orbit.lun.ua"] + span
-animelend.info##.rr
 thesame.tv##.rs-promo
 ekovolga.com,imenie-home.ru,news-tape.ru,vamrecipes.ru##.rstbox
 zamena-podshipnikov.ru##.rstboxes
@@ -20294,9 +20288,6 @@ lada.kz/uploads/banners/
 ||animedub.ru/uploads/switips.
 ||animegid.online/zpushhha.js
 ||animejapan.tv/pic/background.
-||animejoy.ru/uploads/imba/
-||animelend.info/bs/
-||animelend.info/templates/animelend/images/bs/bg$image
 ||animemaga.ru/img/*_1000_120_
 ||animemaga.ru^*/blog/layers/
 ||animemobi.ru/templates/animemobi/images/rek-
@@ -21481,7 +21472,6 @@ lada.kz/uploads/banners/
 ||megaimg.ru/clixundex.js
 ||megalyrics.ru/uploads/branding/
 ||megaseed.kz^$domain=uniongang.net|uniongang.org
-||megatorrents.*/forum/$object
 ||megatyumen.ru/static/img/banner$image
 ||mehanik.games/yadx.
 ||melt.ru/images/cms/_*0*_/
@@ -22559,6 +22549,7 @@ lada.kz/uploads/banners/
 ||torrent-ideal.ru/*best/
 ||torrent-igri.com/banner/
 ||torrent-igruha.ru/templates/flat-cinema/js/script.js
+||torrent5.net/blu.$image
 ||torrenther.com^*.php|$script
 ||torrentiko.net/templates/*banner$image
 ||torrentinka.me/templates/Default/images/prestol
@@ -25475,7 +25466,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||radiodacha.ru/adclick/$popup,domain=radiodacha.ru
 @@||radioradio.ru/fckfiles/images/baner_$image,~third-party
 @@||rbk.ru^*/resized/$image,domain=autonews.ru
-@@||rcdn.pro^$xmlhttprequest,domain=animelend.info
 @@||recaptcha.net/recaptcha/$subdocument
 @@||recreativ.ru/rcode.$script,domain=kapriz.tv
 @@||reklam.ru^$domain=reklam.ru
@@ -25572,7 +25562,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||transitcard.ru/resources/js/informer.js|$domain=locator.transitcard.ru
 @@||triolan.com^*upload/banners/$domain=triolan.com
 @@||tripit.com/js/components/popover.js?$domain=tripit.com
-@@||trustjs.net/*.js|$xmlhttprequest,domain=animelend.info
 @@||tsargrad-livehls.cdnvideo.ru^$xmlhttprequest,domain=tsargrad.tv
 @@||turcentr.by/images/baner$image,domain=turcentr.by
 @@||tut.by/*/ads1/*/params.php?uid=$object,domain=tut.by
