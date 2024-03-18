@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: G5sUhXBZr5RBxR1YeX/3ZA
-! Version: 202403180301
+! Checksum: c1RHT5XjW30h/mPa/dzWEQ
+! Version: 202403180311
 ! Title: EasyPrivacy without international filters
-! Last modified: 18 Mar 2024 03:01 UTC
+! Last modified: 18 Mar 2024 03:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -117,6 +117,7 @@
 /_stat/log_
 /_tracking/*
 /_vercel/insights/script.js
+/_vercel/speed-insights/script.js
 /_visitcount?
 /a.gif?
 /a/performance_timing/*
@@ -6166,6 +6167,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gumtree.com.au/tracking/
 ||gurgle.pcmag.com^
 ||gurgle.spiceworks.com^
+||hacksplaining.com/track
 ||hankookilbo.com/service/kt/trk.js$script,domain=koreatimes.co.kr
 ||harryrosen.com/analytics/
 ||health-metrics-api.setapp.com^
