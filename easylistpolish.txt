@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aA5MIlJgZR1Kp0ydxtiHkw
-! Version: 202403180921
+! Checksum: uhD1obb+87n7Bv2dgSyymg
+! Version: 202403180931
 ! Title: EasyList Polish
-! Last modified: 18 Mar 2024 09:21 UTC
+! Last modified: 18 Mar 2024 09:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -392,6 +392,7 @@ supernowosci24.pl##[id^="r-"]
 ||zw.pl/ads/
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+_baner_$domain=panoramakutna.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -504,7 +505,6 @@ bilgorajska.pl,gada.pl,zamojska.pl###box_r
 badaniaprenatalne.pl###caption-attachment-19570
 szpileczki.pl###carousel-example-generic
 zycieczestochowy.pl###carousel-slideadw
-katowice-airport.com###carwash-banner-c
 nsix.pl###cc-banner-iframe
 czarymary.pl###checkWidthFullMain1
 centrummedyczne-przyjazna.pl###column
@@ -2473,6 +2473,7 @@ slu24##.new-toplayer
 ziemiagorowska.pl##.blix
 e-sochaczew.pl###ad--bill-top
 cieszyn.news##div[data-ads-id]
+bilgoraj.com.pl##.new-toplayer
 nowinykrapkowickie.pl##.blix
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
