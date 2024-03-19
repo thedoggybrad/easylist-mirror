@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YeLaRX7+gHD6NW48VolqhQ
-! Version: 202403192301
+! Checksum: rzpGcnMzYetJMaXEDrI3Pg
+! Version: 202403192311
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 19 Mar 2024 23:01 UTC
+! Last modified: 19 Mar 2024 23:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8139,20 +8139,10 @@ srk.fi#@##CookielawBanner
 /nwm-fcn.min.js
 /nwm-pw2.min.js
 /nxst-advertising/dist/htlbid-advertising.min.js
-/oas-config.
-/oas_ad.
-/oas_ad_
-/oas_ads.
-/oascentral.$~object
-/oascentral/*
-/oasconfig/*
-/oiopub-direct/*$~stylesheet
-/oncc-ad.
-/openads.
+/oiopub-direct/js.php
+/oncc-ad.js
+/openads.js
 /openads/*
-/overlay-ad.
-/overlay_ad_
-/overlayads.
 /owa.MessageAdList.
 /p2/ads/*
 /p2ads/*
@@ -8176,7 +8166,6 @@ srk.fi#@##CookielawBanner
 /pagepeel.
 /pagepeel/*
 /pagepeelpro.js
-/parking_caf_
 /partner-ad-
 /Partner_Ad/*
 /partner_ads/*
@@ -8707,6 +8696,7 @@ srk.fi#@##CookielawBanner
 ://banners.$third-party
 ://news-*/process.js?id=$third-party
 ://news-*/v2-sw.js$third-party
+://oascentral.
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://pt.*?psid=$third-party
 =half-page-ad&
