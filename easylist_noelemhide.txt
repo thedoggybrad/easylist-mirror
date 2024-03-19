@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2dE+bZLLL84JZ4ltgsLXug
-! Version: 202403192301
+! Checksum: MDgWheKEd/ML3Tu38Otd2Q
+! Version: 202403192311
 ! Title: EasyList without element hiding rules
-! Last modified: 19 Mar 2024 23:01 UTC
+! Last modified: 19 Mar 2024 23:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -984,20 +984,10 @@
 /nwm-fcn.min.js
 /nwm-pw2.min.js
 /nxst-advertising/dist/htlbid-advertising.min.js
-/oas-config.
-/oas_ad.
-/oas_ad_
-/oas_ads.
-/oascentral.$~object
-/oascentral/*
-/oasconfig/*
-/oiopub-direct/*$~stylesheet
-/oncc-ad.
-/openads.
+/oiopub-direct/js.php
+/oncc-ad.js
+/openads.js
 /openads/*
-/overlay-ad.
-/overlay_ad_
-/overlayads.
 /owa.MessageAdList.
 /p2/ads/*
 /p2ads/*
@@ -1021,7 +1011,6 @@
 /pagepeel.
 /pagepeel/*
 /pagepeelpro.js
-/parking_caf_
 /partner-ad-
 /Partner_Ad/*
 /partner_ads/*
@@ -1552,6 +1541,7 @@
 ://banners.$third-party
 ://news-*/process.js?id=$third-party
 ://news-*/v2-sw.js$third-party
+://oascentral.
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://pt.*?psid=$third-party
 =half-page-ad&
