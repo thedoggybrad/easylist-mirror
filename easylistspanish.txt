@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xhea0n0HpThgk0L4vp9/VA
-! Version: 202403191611
+! Checksum: Bz3ZUqJ6lp33dWgnlGuy9g
+! Version: 202403191631
 ! Title: EasyList Spanish
-! Last modified: 19 Mar 2024 16:11 UTC
+! Last modified: 19 Mar 2024 16:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -14,6 +14,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 ! *** easylistspanish:easylistspanish/easylistspanish_general_block.txt ***
+/assets/vast_1win.xml$xmlhttprequest
 /banner-publicidad-
 /player/vast_1win.xml$xmlhttprequest
 /static/vast_1win.xml$xmlhttprequest
@@ -751,6 +752,7 @@ hitfm.es#@#.publi
 ||promociones.betsala.com^$popup,third-party
 ||significadoconcepto.com^$popup
 ||t.co^$popup,domain=cinecalidad.run
+||tracking.actualidad.es^$popup
 !
 ||badshores.com/*^publisher_code$popup,third-party
 ||foxcdn.me/*.htm^$popup,third-party
@@ -810,10 +812,11 @@ hitfm.es#@#.publi
 ||pelispop.info/EkBG80SP.js
 ||pescare.com.ar/wp-content/uploads/*/Grupo-
 ||playdede.us/1_1.gif
-||player.cuevana.biz/player/vast_
-||player.cuevana3.eu/player/vast_
-||player.gnula.nu/player/vast_
-||player.repelis24.life/player/vast_
+||player.cuevana.biz/assets/vast_
+||player.cuevana3.eu/assets/vast_
+||player.cuevana8.com/assets/vast_
+||player.gnula.nu/assets/vast_
+||player.repelis24.life/assets/vast_
 ||pordede.click/assets/img/suscripcion.png
 ||redtarapaca.com^*/ahorrocorp.jpg
 ||ripollesdigital.cat/imatges/ripollesdigital.cat/ginys/
