@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pDW3criICqV1oO5uXCDBGw
-! Version: 202403191131
+! Checksum: 5iuwtb3C0rwpcBAed8e4Ew
+! Version: 202403191141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Mar 2024 11:31 UTC
+! Last modified: 19 Mar 2024 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22994,7 +22994,6 @@ lada.kz/uploads/banners/
 @@||s.zmctrack.net/z|$xmlhttprequest,domain=i.ua|ivona.ua|meteo.ua|panno4ka.net
 @@||s.znctrack.net/z|$xmlhttprequest,domain=censor.net|gazeta.ua|i.ua|mail.ukr.net|meteofor.com.ua|tabloid.pravda.com.ua|viva.ua
 ||imgfrost.net^$third-party
-||positiverecords.ru^$csp=script-src
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23018,7 +23017,7 @@ pikabu.ru#?#.stories-feed__container > .story div:-abp-properties(/min-height: .
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> div > header[class*=" "])
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: calc.29.px/))
-dracon-zet.ru,fonmod.com,positiverecords.ru,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
+dracon-zet.ru,fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 pikabu.ru##[data-block-name]
 liveinternet.ru,sdamgia.ru##[data-container]
