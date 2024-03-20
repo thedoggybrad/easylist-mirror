@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Gccs5x12pWqZWftxtsB/mg
-! Version: 202403201911
+! Checksum: pCFsZQilu35ZGfD0OmxT7g
+! Version: 202403201921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Mar 2024 19:11 UTC
+! Last modified: 20 Mar 2024 19:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23472,6 +23472,7 @@ mail.ru#?#[data-mywidget-id^="myWidgetItem_"]:-abp-has(.m-mywidget__disclaimer:-
 tv.mail.ru##[data-rb]
 minigames.mail.ru,okminigames.mail.ru#?#[href^="https://minigames.imgsmail.ru/static/css/social-likes."] ~ div[class]:-abp-has([href*="/info/adblock"])
 mail.ru,sportmail.ru##a[href*="news-sphere.com"]
+mail.ru#?#aside div[style^="min-height:"][data-hideorder]:first-child:-abp-has(> [data-rb-slot])
 dom.mail.ru##div[article-item-type="conversionlink"]
 ~e.mail.ru,mail.ru,~octavius.mail.ru##div[class*="rb-slot_plug"]
 tv.mail.ru##div[class][id^="mailru"]
