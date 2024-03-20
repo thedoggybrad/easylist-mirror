@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LesK4gTYU81DaP9z7aBsOA
-! Version: 202403202211
+! Checksum: fvUIl0jPSJlM1HAymci7pg
+! Version: 202403202221
 ! Title: EasyList Italy
-! Last modified: 20 Mar 2024 22:11 UTC
+! Last modified: 20 Mar 2024 22:21 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -1131,6 +1131,8 @@ la7.it#@#div[id^="rtbuzz_"]
 ||benesserecorpomente.it/wp-content/uploads/*/banner-
 ||beneventocalcio.club/partners/
 ||beneventocalcio.it/images/banners/
+||beneventonews24.it/wp-content/themes/weben-news/assets/images/skins/
+||beneventonews24.it/wp-content/themes/weben-news/assets/images/sponsors/
 ||biancoebruno.it/images/banner/
 ||bicisupermarket.it/images/vintage.jpg
 ||biella24.files.wordpress.com/2019/10/fondo-autoland-biella24.jpg
@@ -2211,6 +2213,7 @@ doppiozero.com###block-views-block-banner-inserzionisti-block-banner-box-inser
 doppiozero.com###block-views-block-banner-inserzionisti-block-banner-box-inserz-2
 doppiozero.com###block-views-block-banner-inserzionisti-block-banner-box-inserzionisti
 ecodelchisone.it###block-views-homepage-block-sponsored
+beneventonews24.it###bnnews-skinned
 diretta.it,flashscore.it###box-over-content-a
 rollingstone.it###box-wolf
 alqamah.it###bp-sf-container
@@ -3183,7 +3186,7 @@ betitaliaweb.it##.space-organizations-home-8-widget
 betitaliaweb.it##.space-shortcode-wrap-ins
 ilfattoquotidiano.it##.special
 comingsoon.it##.sponPro
-bolzano-bozen.it,calciofvg.live,catanista.com,feralpisalo.it,girovagandointrentino.it,ioarte.org,legab.it,torinometeo.org##.sponsor
+beneventonews24.it,bolzano-bozen.it,calciofvg.live,catanista.com,feralpisalo.it,girovagandointrentino.it,ioarte.org,legab.it,torinometeo.org##.sponsor
 cagliarilivemagazine.it##.sponsor-associati
 luinonotizie.it##.sponsor-background-big
 assoallenatori.it##.sponsor-container
@@ -3578,7 +3581,7 @@ gonews.it##div[style^="width:600px;"]
 earone.it##div[style^="width:968px;min-height:300px;"]
 spaziogames.it##div[wire\:id]
 calcioline.com##figure[style="width:300px;"]
-amalfinews.it,cetaranews.it,ilportico.it,ilvescovado.it,liratv.it,occhisusalerno.it,positanonotizie.it,ravellonotizie.it##header > div > div > span
+amalfinews.it,cetaranews.it,ilportico.it,ilvescovado.it,liratv.it,occhisusalerno.it,positanonotizie.it,ravellonotizie.it##header > div > p > span > a
 leggopassword.it##img[alt*="Banner"]
 powerhockey.info##img[alt="Banner"]
 videomediterraneo.it##img[alt="DESPAR"]
@@ -3678,7 +3681,7 @@ corriereelorino.it##p > img
 sportevai.it##p[style="margin-top: 25px; border: 1px solid #0D8600; padding: 10px; font-weight: bold; text-align: center; font-size: 12px;"]
 sportevai.it##p[style="margin-top: 30px; border: 1px solid #0D8600; padding: 10px; font-weight: bold; text-align: center;"]
 paganinotizie.it##rs-slides
-amalfinews.it,cetaranews.it,ilportico.it,ilvescovado.it,liratv.it,occhisusalerno.it,positanonotizie.it,ravellonotizie.it##section > div > div > span
+amalfinews.it,cetaranews.it,ilportico.it,ilvescovado.it,liratv.it,occhisusalerno.it,positanonotizie.it,ravellonotizie.it##section > div > p > span > a
 luce.lanazione.it##span[class^="Partner_"]
 archiportale.com##td[style="height:278px; background-color:#E8E8E6; cursor:pointer;position:relative;z-index:95;padding:40px 0 18px"]
 elbanotizie.it##td[style="width: 160px;"]
@@ -4542,7 +4545,6 @@ vivitelese.it##.tdi_72
 cronachedi.it##.tdi_82
 periodicodaily.com##.tdi_9
 telesud.it##.teles-header-banner
-positanonews.it##.testata
 tempostretto.it##.testo > .hidden-sm.hidden-xs
 attualita.it,ilfattoalimentare.it,pianetadonne.blog##.theiaStickySidebar
 comesifasefaidate.it##.ticker
@@ -4562,7 +4564,6 @@ adirai.it##.top-sidebar
 adirai.it##.top-sidebar600
 bresciacalcio.it,olbiacalcio.com##.top-sponsor-hp
 bresciacalciofemminile.it##.top-sponsor-new
-positanonews.it##.top-testata
 robacinese.it##.top_offers
 travel365.it##.toparticle
 mammainviaggio.it##.topbar
