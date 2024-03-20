@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H+/QUmlhqlJpXNaQxjCC6A
-! Version: 202403200011
+! Checksum: 8xdX480pzq3MazGgLg+f3w
+! Version: 202403200031
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 20 Mar 2024 00:11 UTC
+! Last modified: 20 Mar 2024 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7774,6 +7774,7 @@ srk.fi#@##CookielawBanner
 /ban728.html
 /ban728.php
 /ban728x90.
+/banman/ad.aspx
 /banner-ad-
 /banner-ad.$~script
 /banner-ad/*
@@ -8118,22 +8119,16 @@ srk.fi#@##CookielawBanner
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
-/nad_exo.
-/native-ad-
-/native-ads-
-/native_ad/*
 /nativead.
 /nativead/*
-/nativeads.
+/nativeads-v2.js
+/nativeads.js
 /nativeads/*
 /nativebanner/ane-native-banner.js
-/nb/frot_lod.
+/nb/frot_lod.js
 /neverblock/*
 /new/floatadv.js
-/newad.
-/newad?
-/newads.
-/newaff/float
+/ntv.json?key=
 /nugg.min.js
 /Nuggad?
 /nwm-fcn.min.js
@@ -8652,13 +8647,14 @@ srk.fi#@##CookielawBanner
 /wp-content/uploads/useful_banner_manager_banners/*
 /wp-popup-scheduler/*
 /wp-srv/ad/*
-/wp_pro_ad_system/*
-/wpadgu-
+/wp_pro_ad_system/templates/*
+/wpadgu-adblock.js
+/wpadgu-clicks.js
+/wpadgu-frontend.js
 /wpbanners_show.php
-/wppas.
-/wppas/*
-/wppas_
-/wpx-bannerize_
+/wppas.min.css
+/wppas.min.js
+/wpxbz-theme.js
 /wrapper/ads/*
 /www/ad/*
 /www/ad_
@@ -8667,12 +8663,8 @@ srk.fi#@##CookielawBanner
 /www/deliverx/*
 /www/delivery/*
 /www/js/ad/*
-/wwwad.
-/wwwads.
 /xads.php
-/xadvertisement.
-/xclicks.
-/xpopunder.
+/xpopunder.js
 /xpopup.js
 /yhs/ads?
 /yume_ad_library_
@@ -8771,11 +8763,6 @@ _bannerads_
 _bottom_ads.
 _bottom_ads_
 _commonAD.
-_companionad.
-_content_ad.
-_custom_ad.
-_custom_ad_
-_externalad.
 _footer_ad_
 _google_ads.
 _gpt_ads.
@@ -8805,7 +8792,6 @@ _small_ad.
 _square_ad.
 _sticky_ad.
 _StickyAd.
-_survey_ad_
 _text_ads.
 _textads.
 _top_ad.
