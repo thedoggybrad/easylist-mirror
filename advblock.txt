@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: laGRoxDH1FeUi5OmvQ/waA
-! Version: 202403211312
+! Checksum: 6xBFLft9sS0QUmpAwpqMMg
+! Version: 202403211321
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Mar 2024 13:12 UTC
+! Last modified: 21 Mar 2024 13:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15343,6 +15343,7 @@ ura.news##.publication-c4
 gdetoedet.ru##.pull-right > [class] ~ [class]
 game-tournaments.com##.pull-right > noindex
 parnuxi.biz##.pw-rkl-section
+crackstatus.net#?#.px-nav-dropdown-menu > .px-nav-item:-abp-has(> a > #uLogin)
 qip.ru##.q_banner
 qip.ru##.q_teaser
 allohalive.com,aniqit.com,anivod.com,doefiratv.net,kinoxam.ru,kodik.biz,kodik.cc,kodik.info,kodikdb.com,u-cdn.org,u-cdn.top,u-play.pro,u-stream.in,video.animejoy.ru,video.doramatv.su##.qp_adsnum
@@ -22969,6 +22970,7 @@ lada.kz/uploads/banners/
 @@||s.zhctrack.net/z|$xmlhttprequest,domain=epravda.com.ua|eurointegration.com.ua|gorod.dp.ua|inforesist.org
 @@||s.zmctrack.net/z|$xmlhttprequest,domain=i.ua|ivona.ua|meteo.ua|panno4ka.net
 @@||s.znctrack.net/z|$xmlhttprequest,domain=censor.net|gazeta.ua|i.ua|mail.ukr.net|meteofor.com.ua|tabloid.pravda.com.ua|viva.ua
+||crackstatus.net^$csp=script-src
 ||imgfrost.net^$third-party
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
@@ -22993,7 +22995,7 @@ pikabu.ru#?#.stories-feed__container > .story div:-abp-properties(/min-height: .
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> div > header[class*=" "])
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: calc.29.px/))
-dracon-zet.ru,fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
+crackstatus.net,dracon-zet.ru,fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 pikabu.ru##[data-block-name]
 liveinternet.ru,sdamgia.ru##[data-container]
