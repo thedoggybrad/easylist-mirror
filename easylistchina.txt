@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Shw7YVOul9TPCl2RaPlYYQ
-! Version: 202403220941
+! Checksum: N4juPniRMohaarV4bGngNQ
+! Version: 202403220951
 ! Title: EasyList China
-! Last modified: 22 Mar 2024 09:41 UTC
+! Last modified: 22 Mar 2024 09:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2097,6 +2097,7 @@ newduba.cn###jq_youxi
 ||oxvlxwz.xyz^
 ||wingsurf.cn^
 ||dataryon.com^
+##a[href*=".mamsou.com/"]
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -14466,7 +14467,6 @@ firefoxchina.cn##.module-banner
 meiyida01.com,myd666.tv##.module-blocklist
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
-ppys66.com##.module-items > a[target="_blank"]
 netfly.lol##.module-tglist
 i.maxthon.cn##.module.tools-main[data-s-n="bottom"]
 html-js.com##.module[style="padding:0;"]
@@ -16059,7 +16059,6 @@ ditu.so.com##div[class^="index-adflag-"] + a
 5iyq.com##div[class^="index_ad"]
 ifeng.com##div[class^="index_topBox_"]
 ifeng.com##div[class^="index_top_box_"]
-ppys66.com##div[class^="is_"]
 ifeng.com##div[class^="middleAd"]
 boce.com##div[class^="money"]
 nextapple.com##div[class^="na-ad-"]
