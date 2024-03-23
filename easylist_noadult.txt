@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SiM0NgQSuO71rp+bJ1g0xg
-! Version: 202403231500
+! Checksum: h0zGGHl3sjVAiEs3qPJ03g
+! Version: 202403231511
 ! Title: EasyList without rules for adult sites
-! Last modified: 23 Mar 2024 15:00 UTC
+! Last modified: 23 Mar 2024 15:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -63626,6 +63626,7 @@ bostonglobe.com###sticky_container.width_full
 eurogamer.net,rockpapershotgun.com,vg247.com###sticky_leaderboard
 lethbridgeherald.com###stickybox
 medicinehatnews.com###stickyleaderboard
+timesnownews.com,zoomtventertainment.com###stky
 sun-sentinel.com###stnWrapperDiv
 westernjournal.com###stnvideo
 rawstory.com###story-top-ad
@@ -64430,7 +64431,7 @@ animalcrossingworld.com##.at-sidebar-1
 guidingtech.com##.at1
 guidingtech.com##.at2
 fedex.com##.atTile1
-timesnownews.com##.atfAdContainer
+timesnownews.com,zoomtventertainment.com##.atfAdContainer
 atptour.com##.atp_ad
 miragenews.com##.attachment-wt450_250
 audiobacon.net##.audio-widget.et_pb_widget
@@ -68088,7 +68089,7 @@ costco.ca##div.product:has(.criteo-sponsored)
 thebay.com##div.product:has(div.citrus-sponsored)
 healthyrex.com##div.textwidget:has(a[rel="nofollow sponsored"])
 bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
-timesnownews.com##div:has(> .bggrayAd)
+timesnownews.com,zoomtventertainment.com##div:has(> .bggrayAd)
 skyscanner.com,skyscanner.net##div:has(> a[data-testid="inline-brand-banner"])
 outlook.live.com##div:has(> div > div.fbAdLink)
 tripadvisor.com##div:has(> div > div[class="ui_column ovNFo is-3"])
