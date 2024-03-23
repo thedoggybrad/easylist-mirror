@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JZ68TohZPP6TQEA+jVp41w
-! Version: 202403222351
+! Checksum: g4BYDjRpVzbIJVFCvvCx4Q
+! Version: 202403230001
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 22 Mar 2024 23:51 UTC
+! Last modified: 23 Mar 2024 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7830,6 +7830,8 @@ srk.fi#@##CookielawBanner
 /css/adv.
 /curveball/ads/*
 /custom_ads.js
+/d3.php?x=
+/data-file_123.js
 /deliverad/fc.js
 /delivery.ads.
 /delivery.php?zone=
@@ -7840,15 +7842,12 @@ srk.fi#@##CookielawBanner
 /delivery/lg.php
 /delivery_ads/*
 /dfp.min.js$third-party
-/dfp/head/*
 /dfp_async.js
 /dfpNew.min.js
 /didna_config.js
 /direct.hd?n=
 /discourse-adplugin-
-/display-ad/*
 /display-ads/*
-/displayad.$~script
 /displayad/*
 /displayad?
 /displayAdFrame.
@@ -7858,9 +7857,7 @@ srk.fi#@##CookielawBanner
 /doubleclick.aspx
 /doubleclick.min
 /doublepimp2.js
-/download-ad.
 /drsup-admanager-ajax.js
-/dynamic-ads/*
 /dynamic/ads/*
 /dynamic_ads/*
 /DynamicAd/*
@@ -8027,11 +8024,7 @@ srk.fi#@##CookielawBanner
 /jspopunder.js
 /jspopunder.min.js
 /keyade.js
-/keyword_ad.
-/layer-ad.
-/layer-ads.
-/layerad-
-/layerad.
+/layerad.js
 /lazyad-loader.js
 /lazyad-loader.min.js
 /lazyload.ads?
@@ -8041,8 +8034,6 @@ srk.fi#@##CookielawBanner
 /leftads.
 /legion-advertising-atlasastro/*
 /li.blogtrottr.com/imp?
-/lijit-ad-
-/lijitads.
 /link?z=$subdocument
 /linkad2.
 /linkads.
@@ -8294,10 +8285,8 @@ srk.fi#@##CookielawBanner
 /resources/ad.
 /resources/ads/*
 /resources/ads_
-/responsive-ads.
 /responsive/ad_
-/responsive_ads.
-/revcontent.
+/responsive_ads.js
 /right-ad-
 /right_ad.
 /right_ad_
@@ -8316,10 +8305,6 @@ srk.fi#@##CookielawBanner
 /script/nasu.js$third-party
 /script/nrsu.js$third-party
 /script/nwsu.js$third-party
-/script/oas/*
-/script/suurl4.php?$third-party
-/script/suv5.js$third-party
-/script/ut.js?cb=$third-party
 /script/wait.php?*=$xmlhttprequest
 /scripts/afc/*
 /scripts/chatur.js
@@ -8460,6 +8445,7 @@ srk.fi#@##CookielawBanner
 /stickyads.
 /story_ad.
 /style_ad.css
+/suurl4.php?
 /suurl5.php
 /suv4.js
 /suv5.js
@@ -8482,6 +8468,7 @@ srk.fi#@##CookielawBanner
 /top_ads.
 /triadshow.asp
 /ttj?id=
+/ut.js?cb=
 /utx?cb=$third-party
 /v1/ads/*
 /v2/a/pop/*
