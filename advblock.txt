@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BoASVbpLZvT2qzJgNsbb+Q
-! Version: 202403230931
+! Checksum: 2UWA3DvD80qx/e3OLWWJKA
+! Version: 202403230951
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Mar 2024 09:31 UTC
+! Last modified: 23 Mar 2024 09:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -10065,7 +10065,7 @@ _tizers.
 ||ulclick.ru^$third-party
 ||uldmare.com^$third-party
 ||ulenr.top^$third-party
-||ulogin.ru^$third-party
+||ulogin.ru^
 ||ultrapay.net^
 ||ulyvjty4rd.com^$third-party
 ||umagnet.ru^$third-party
@@ -22969,11 +22969,11 @@ lada.kz/uploads/banners/
 @@||s.zhctrack.net/z|$xmlhttprequest,domain=epravda.com.ua|eurointegration.com.ua|gorod.dp.ua|inforesist.org
 @@||s.zmctrack.net/z|$xmlhttprequest,domain=i.ua|ivona.ua|meteo.ua|panno4ka.net
 @@||s.znctrack.net/z|$xmlhttprequest,domain=censor.net|gazeta.ua|i.ua|mail.ukr.net|meteofor.com.ua|tabloid.pravda.com.ua|viva.ua
-||crackstatus.net^$csp=script-src
 ||imgfrost.net^$third-party
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
+||tragtorr.in^$csp=script-src
 ! Liveinternet (ловушка для обфускации)
 ||liveinternet.ru/utf/lici.js?
 !/^https?://www\.liveinternet\.ru/(?!utf\/|q\/js\/|js\/|4Ek/JS/diary/main/nav/regoradd.js|autosave.js|cgi-bin/rpls.fcgi?|ckeditor\/|ckfinder\/|main_new_1251.js|share/js/share.js|spell/spell.js|uploader\/|vbcode.js|vbcode_language.js)/$script,domain=www.liveinternet.ru
@@ -22994,7 +22994,7 @@ pikabu.ru#?#.stories-feed__container > .story div:-abp-properties(/min-height: .
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> div > header[class*=" "])
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: calc.29.px/))
-crackstatus.net,dracon-zet.ru,fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
+dracon-zet.ru,fonmod.com,ritsatv.ru,tragtorr.in##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 pikabu.ru##[data-block-name]
 liveinternet.ru,sdamgia.ru##[data-container]
