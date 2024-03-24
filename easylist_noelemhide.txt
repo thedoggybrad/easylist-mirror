@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vf+xFE9/37YHncpESbEQjA
-! Version: 202403240150
+! Checksum: 7LcNyhdnfNmBsAit97NRqg
+! Version: 202403240201
 ! Title: EasyList without element hiding rules
-! Last modified: 24 Mar 2024 01:50 UTC
+! Last modified: 24 Mar 2024 02:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -84,11 +84,9 @@
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
-.com/adz/
-.com/api/posts?token=$third-party
-.com/peeltr.js
 .com/sc/*?n=$script,third-party
 .com/ss/ad/
+.com/watch.*.js?key=
 .cz/adv/
 .cz/affil/
 .cz/bannery/
@@ -1005,6 +1003,7 @@
 /peelad/*
 /peelads/*
 /peeltl.js
+/peeltr.js
 /pfe/current/*
 /php/ad/*
 /phpads/*
