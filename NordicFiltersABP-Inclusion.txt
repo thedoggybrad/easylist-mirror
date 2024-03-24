@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nt65RMQ3ObO6xm69qMoU+w
-! Version: 202403241031
+! Checksum: QYVxVMtxp/SvO5Gl8iV6Tg
+! Version: 202403241041
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 24 Mar 2024 10:31 UTC
+! Last modified: 24 Mar 2024 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7204,6 +7204,8 @@ srk.fi#@##CookielawBanner
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
+.com/api/posts?token=$third-party
+.com/peeltr.js
 .com/sc/*?n=$script,third-party
 .com/ss/ad/
 .com/watch.*.js?key=
@@ -8123,7 +8125,6 @@ srk.fi#@##CookielawBanner
 /peelad/*
 /peelads/*
 /peeltl.js
-/peeltr.js
 /pfe/current/*
 /php/ad/*
 /phpads/*
