@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kwug6dKaKyfMr+8wteNPEw
-! Version: 202403250831
+! Checksum: /iXFocyHNskel4FSD3G+8w
+! Version: 202403250841
 ! Title: EasyList Polish
-! Last modified: 25 Mar 2024 08:31 UTC
+! Last modified: 25 Mar 2024 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -204,10 +204,9 @@ _banerek.$domain=plytkiceramiczne.info.pl
 _banerowy^$domain=nowywyszkowiak.pl
 _banner.$domain=polacywewloszech.com|swiatmetali.eu
 _banner_$domain=chemiaibiznes.com.pl|cire.pl|cksport.pl|dzisiajwgliwicach.pl|e-pingpong.pl|forumfajerwerki.pl|itwiz.pl|jagodnik.pl|juliarozumek.pl|katalogprzedsiebiorstw.pl|kb.pl|kuriergarwolinski.pl|nowy-sacz.info|pionki24.pl|polishexpress.co.uk|poradnikhandlowca.com.pl|przewodnicywedkarscy.pl|starosadeckie.info|stolarkabudowlana.eu|swarzedz24.pl|tygodnik-rolniczy.pl|wydawca.com.pl
-_reklama.$domain=radomsport.pl|staraoliwa.pl
+_reklama.$domain=radomsport.pl
 _reklama^$domain=tarnowiak.pl
 supernowosci24.pl##[id^="r-"]
-||24opole.pl/dimg^
 ||3.fwcdn.pl^*^welcomeMain.$script,domain=filmweb.com
 ||4media.com^$domain=lokalna24.pl
 ||ad.polskiprzemysl.com.pl^
@@ -2471,6 +2470,32 @@ wp.pl#?#IMG:-abp-properties(position: relative;)
 police24.pl##.new-toplayer
 e-golub.info.pl##.blix
 iloveslubice.pl##.ilove-2023-glowna-przed-zawartoscia-top
+24kato.pl##.banner_top
+24kato.pl##a[href*="/ad-manager/ads"]
+24zaglebie.pl##.banner_top
+24zaglebie.pl##a[href*="/ad-manager/ads"]
+bytomski.pl###welcomeScreeningAd
+chorzowski.pl###welcomeScreeningAd
+chorzowski.pl##.banner_top
+chorzowski.pl##a[href*="/ad-manager/ads"]
+glivice.pl##.banner_top
+glivice.pl##a[href*="/ad-manager/ads"]
+ngs24.pl##.banner_top
+ngs24.pl##a[href*="/ad-manager/ads"]
+nowinytyskie.pl##.banner_top
+nowinytyskie.pl##a[href*="/ad-manager/ads"]
+piekary.info###welcomeScreeningAd
+piekary.info##.banner_top
+piekary.info##a[href*="/ad-manager/ads"]
+rudzianin.pl##.banner_top
+rudzianin.pl##a[href*="/ad-manager/ads"]
+slazag.pl##a[href*="/ad-manager/ads"]
+tarnowskiegory.info##.banner_top
+tarnowskiegory.info##a[href*="/ad-manager/ads"]
+twojknurow.pl##.banner_top
+twojknurow.pl##a[href*="/ad-manager/ads"]
+zabrzenews.pl##.banner_top
+zabrzenews.pl##a[href*="/ad-manager/ads"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
