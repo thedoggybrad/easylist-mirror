@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p3l7Umn40vPjVdK6aPj7ow
-! Version: 202403251021
+! Checksum: C/aPgi4NigzQCcXqkjLGFw
+! Version: 202403251031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Mar 2024 10:21 UTC
+! Last modified: 25 Mar 2024 10:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23434,7 +23434,6 @@ hi-tech.mail.ru##div[data-qa="Box"]
 hi-tech.mail.ru##div[data-rb-slot]
 ! Разное
 ~e.mail.ru,mail.ru,sportmail.ru##.article__item_slot
-dom.mail.ru##.cols__inner > .root-Article ~ .margin_top_20
 light.mail.ru##.direct_septima
 dom.mail.ru,tv.mail.ru##.js-fixed-panel > .box
 tv.mail.ru##.js-popup_banner
@@ -23457,7 +23456,6 @@ mail.ru#?#aside div[style^="min-height:"][data-hideorder]:first-child:-abp-has(>
 dom.mail.ru##div[article-item-type="conversionlink"]
 ~e.mail.ru,mail.ru,~octavius.mail.ru##div[class*="rb-slot_plug"]
 tv.mail.ru##div[class][id^="mailru"]
-dom.mail.ru##div[data-qa="ArticlesList"] > [data-qa="ArticleThumb"] ~ :not([data-qa="ArticleThumb"] )
 minigames.mail.ru##div[id^="slot"][id*="sitezone"]
 maps.mail.ru##img[width="200"][height="30"]
 !
