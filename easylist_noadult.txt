@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZMwWqKSYf1I7rvNAbdQmng
-! Version: 202403252021
+! Checksum: Ne4IUfCbafAwoOIO2H0Xuw
+! Version: 202403252031
 ! Title: EasyList without rules for adult sites
-! Last modified: 25 Mar 2024 20:21 UTC
+! Last modified: 25 Mar 2024 20:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -68372,6 +68372,7 @@ thebay.com##div.product:has(div.citrus-sponsored)
 healthyrex.com##div.textwidget:has(a[rel="nofollow sponsored"])
 bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
 timesnownews.com,zoomtventertainment.com##div:has(> .bggrayAd)
+doordash.com##div:has(> a[data-anchor-id="SponsoredStoreCard"])
 skyscanner.com,skyscanner.net##div:has(> a[data-testid="inline-brand-banner"])
 outlook.live.com##div:has(> div > div.fbAdLink)
 tripadvisor.com##div:has(> div > div[class="ui_column ovNFo is-3"])
