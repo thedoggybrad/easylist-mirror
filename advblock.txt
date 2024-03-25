@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k9v5/2q7u8FT1rSLaBqihw
-! Version: 202403251731
+! Checksum: hSZtFkdN3J/8KMuVg4YLYg
+! Version: 202403251741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Mar 2024 17:31 UTC
+! Last modified: 25 Mar 2024 17:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -48,6 +48,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||onelink.me^$popup,domain=2ip.io|2ip.ru|2ip.ua
 ||otus.ru/*utm_$third-party,popup
 ||playground.ru/*/promo/$popup
+||rusvpn.com^$popup,domain=tornado.3dn.ru
 ||topofgames.com^*?path=$popup
 ||torrentum.ru^$popup
 ||trashbox.ru/r.php?$popup
@@ -9969,6 +9970,7 @@ _tizers.
 ||trunderka.ru^$third-party
 ||truned.com^$third-party
 ||trunex.info^$third-party
+||trusthalloween.com^$third-party
 ||trustjs.net^$third-party
 ||trustrevievvs.info^$third-party
 ||trxxh.com^$third-party
@@ -13492,6 +13494,7 @@ mgorod.kz##.bn-slider
 kinoplex.ru##.bn-top10
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.bn-topic
 v102.ru##.bn-w100
+pkrc.ru##.bn-wrapperWrithwhasd
 eadaily.com##.bn_news_incut
 facenews.ua##.bnblock
 1istochnik.ru##.bnbox
@@ -15603,6 +15606,7 @@ med.vesti.ru##.sb-banner
 beauty.ua,edinstvennaya.ua,viva.ua##.sb-partners
 edinstvennaya.ua#?#.sb__section:-abp-has(> .sb-partners)
 agroinfo.kz##.sbanner
+tornado.3dn.ru#?#.sblock:-abp-has(> .b_title > .ins:-abp-contains(Реклама))
 uaspectr.com##.sbr-slider > .pst-block > .pst-block-head
 tagilcity.ru##.sbs_p
 sportsdaily.ru##.schedule__bet-block
@@ -15811,7 +15815,6 @@ siver.com.ua#?#.sidebox > .sidetitle:-abp-has(> span:-abp-contains(/купуй|�
 krolmen.ru#?#.sidebox:-abp-has(.adsbygoogle)
 modsgaming.ru#?#.sidebox:-abp-has(> .inner > .adsbygoogle)
 pidru4nik.com#?#.sidebox:-abp-has(> div[id^="bn_"])
-torm-egan.ru##.sidebox[style="height: 420px;"]
 voenhronika.ru##.sideboxrek
 ng.ru##.sideitem
 healthystyle.info##.sigo
@@ -19780,7 +19783,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 .online-griffiny.ru^$script,domain=online-griffiny.ru
 .online-multy.ru^$script,domain=online-multy.ru
 .online-south-park.ru^$script,domain=online-south-park.ru
-.onlinestargate.ru^$script
 .otravlen.ru^$script,domain=otravlen.ru
 .parnuha.net^$script
 .pawno-info.ru^$script,domain=pawno-info.ru
@@ -21533,7 +21535,6 @@ lada.kz/uploads/banners/
 ||mp3co.co/adv
 ||mp3no.com/adv
 ||mp3rington.ru/adv_
-||mp4android.ru/img/banner
 ||mp4upload.com/images/hdblue.png
 ||mpclub.vip/files/*.js?$script
 ||mport.ua/?_tpl=r_banner
@@ -22498,6 +22499,7 @@ lada.kz/uploads/banners/
 ||topvideo.tj/media/branding/
 ||topvideo.tj/media/catfish/
 ||topwar.ru/bg/
+||tornado.3dn.ru/*/bg-vpn.$image
 ||torrent-chic.ru/2019/
 ||torrent-games.*/templatetgnew/images/background
 ||torrent-ideal.ru/*best/
@@ -24371,7 +24373,7 @@ cheb.ru,cheboksary.ws,kugesi.ru,na-svyazi.ru##a[href*="/ad.adriver."]
 /.s/src/crit_image.js
 /src/u_*.js|$script,~third-party
 /src/ucounter*.js$script
-/widget/?_=$~third-party,xmlhttprequest,domain=3dn.ru|a-point.info|addfiles.ru|all-for-kompa.ru|asia-tv.su|at.ua|autosimgames.ru|chernobyl-soul.com|clan.su|cliphq.ru|coop-lands.ru|db-energo.ru|devdrivers.ru|do.am|dtva-it-rus.gq|elegos.ru|elektronika56.ru|elektrosat.ru|f-igri.ru|fon-ki.com|for-gsm.ru|free-dream.ru|ftechedu.ru|fukushima-news.ru|gals.md|gamesdendy.ru|giginfo.ru|gloria-cedric.ru|goldformat.ru|greenflash.su|hero-empire.com|igrul-ka.ru|jetvis.ru|krasnickij.ru|krolmen.ru|megaclips.net|mod-rus.ru|moy.su|mp3songs.ru|mp4android.ru|my1.ru|narod.ru|newgames.com.ua|novospasskoe-city.ru|obschestvo-9999.gq|omsimclub.ru|online-supernatural.ru|onlinestargate.ru|only-paper.ru|others.name|pidru4nik.com|pkrc.ru|play-force.ru|pokatushki-pmr.ru|pro-zakupki.ru|project-ss.ru|psxworld.ru|radiodom.org|rocketdockfree.ru|sdr-deluxe.com|skidrowcrack.ru|soft-game.net|stalker-gsc.ru|stalker-zone.info|stalkermods.ru|svadbatomsk.ru|tes-game.ru|torfiles.ru|torm-egan.ru|torrent-file.top|ucoz.club|ucoz.com|ucoz.net|ucoz.org|ucoz.ru|ucoz.ua|usite.pro|vodopads.ru|vsthouse.ru|warcraftda.ru|xakevsoft.ru|xn--80aeshkkbdj.xn--p1ai|yaminecraft.ru|zona-stalkera.ru
+/widget/?_=$~third-party,xmlhttprequest,domain=3dn.ru|a-point.info|addfiles.ru|all-for-kompa.ru|asia-tv.su|at.ua|autosimgames.ru|clan.su|db-energo.ru|devdrivers.ru|do.am|elegos.ru|elektronika56.ru|elektrosat.ru|f-igri.ru|fon-ki.com|for-gsm.ru|free-dream.ru|ftechedu.ru|fukushima-news.ru|gals.md|gloria-cedric.ru|goldformat.ru|greenflash.su|igrul-ka.ru|krasnickij.ru|krolmen.ru|megaclips.net|moy.su|my1.ru|narod.ru|newgames.com.ua|novospasskoe-city.ru|omsimclub.ru|online-supernatural.ru|only-paper.ru|others.name|pidru4nik.com|pkrc.ru|play-force.ru|pokatushki-pmr.ru|pro-zakupki.ru|project-ss.ru|psxworld.ru|radiodom.org|rocketdockfree.ru|sdr-deluxe.com|soft-game.net|stalker-gsc.ru|stalker-zone.info|stalkermods.ru|svadbatomsk.ru|tes-game.ru|torfiles.ru|ucoz.club|ucoz.com|ucoz.net|ucoz.org|ucoz.ru|ucoz.ua|usite.pro|vodopads.ru|vsthouse.ru|xakevsoft.ru|xn--80aeshkkbdj.xn--p1ai|yaminecraft.ru|zona-stalkera.ru
 1xikk.world,1xool.world##*
 ||1xikk.world^
 ||1xikk.world^$popup
