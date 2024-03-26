@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ECK4TMSaauJMzbBlxoNbaA
-! Version: 202403261441
+! Checksum: gFUP2KOBhYhaqNRKEYxuQQ
+! Version: 202403261451
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Mar 2024 14:41 UTC
+! Last modified: 26 Mar 2024 14:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16117,7 +16117,6 @@ donday-aksay.ru,donday-novocherkassk.ru,donday-shakhty.ru,donday-taganrog.ru,don
 kursk-izvestia.ru##.today_cbr
 lovitut.ru##.toneBlock
 urod.ru##.toolbarContent > .toolbarLink
-era-igr.ru##.top
 khersondaily.com##.top--banner
 igroutka.ru##.top-adapt
 finatica.com##.top-admitadv
@@ -25651,8 +25650,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 !#detect.bookmark
 !
 101.ru,motogp-news.ru#@##advert-1
-3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,era-igr.ru,excelvideo.ru,goloskarpat.info,kompasvideo.ru,linux.org,photoshopvideo.ru,radio-online.com.ua,solidworksvideo.ru,videoredaktor.r,wordvideo.ru#@#ins.adsbygoogle
-3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,excelvideo.ru,kompasvideo.ru,photoshopvideo.ru,print-post.com,solidworksvideo.ru,wordvideo.ru#@##reklama
 720video.me,bessporno.me,camsclips.biz,ebalovo.adult,ebalovo.porn,ebalovo.pro,lenkino.adult,pbembed.me,porno365.bingo,pornobit.mobi,pornobomba.click,pornobomba.vip,pornoham.me,pornomoll.red,porntn.com,private-records.com,ru-xvideos.me,russkoe21.com#@#.ads-iframe
 @@$xmlhttprequest,domain=player.3tv.im
 @@/(clickunder|footerad|layerad|lazyad|leaderad|leftad|linkad|pop_ad|prerollad|printad|pubads|pushdownad|under)/$script,~third-party,domain=game4you.top|games-pc.top|innal.top|naylo.top|rustorka.com|rustorka.net|rustorka.top|rustorkacom.lib
@@ -25759,7 +25756,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||online.ua/adsence.js|$domain=online.ua
 @@||opel-omega.ru^*?adType=$script,domain=opel-omega.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=open3dmodel.com|videoredaktor.ru
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=3dsmaxvideo.ru|595.ucoz.net|adult-images.ru|anypictures.ru|archicadvideo.ru|autocadvideo.ru|blogging-techies.com|botrix.live|coreldrawvideo.ru|crast.net|daz3d.ru|di.fm|electric-house.ru|excelvideo.ru|fcportables.com|forums.rusmedserv.com|freeopenvpn.org|ikigaitest.com|imgbum.ru|investing.com|izi-invest.ru|kompasvideo.ru|kvadratmetr.uz|mod-wot.ru|nv.ua|oligarx.uz|otzovik.com|ozlib.com|parnuxi.biz|photoshopvideo.ru|pixcloud.ru|radio-archive.ru|radioromantika.ru|solidworksvideo.ru|stroi-help.ru|tarkov-market.com|tehnar.net.ua|tehnobzor.ru|tehnografi.com|tests24.su|tubeload.co|videoredaktor.ru|wordvideo.ru|xpicture.ru|yvid.ru
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=595.ucoz.net|adult-images.ru|anypictures.ru|blogging-techies.com|botrix.live|crast.net|daz3d.ru|di.fm|electric-house.ru|fcportables.com|forums.rusmedserv.com|freeopenvpn.org|ikigaitest.com|imgbum.ru|investing.com|izi-invest.ru|kvadratmetr.uz|mod-wot.ru|nv.ua|oligarx.uz|otzovik.com|ozlib.com|parnuxi.biz|pixcloud.ru|radio-archive.ru|radioromantika.ru|stroi-help.ru|tarkov-market.com|tehnar.net.ua|tehnobzor.ru|tehnografi.com|tests24.su|tubeload.co|videoredaktor.ru|xpicture.ru|yvid.ru
 @@||patents.su/assets/themes/patents/js/main/$script,domain=patents.su
 @@||peers.tv/cnplayer/imasdk/$domain=peers.tv
 @@||persey.if.ua/images/attention.jpg$image,domain=persey.if.ua
@@ -25848,8 +25845,8 @@ daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
 daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
 dl2kq.de#@##sponsor_ad
 drahelas.ru#@#.forumAd
-era-igr.ru#@##adsense2
 forums.rusmedserv.com#@#img[width="728"][height="90"]
+goloskarpat.info,linux.org,radio-online.com.ua,videoredaktor.ru#@#ins.adsbygoogle
 green-way.com.ua#@#.adWrapper
 iphones.ru#@##sponsorText
 izi-invest.ru,ruboard.website#@#div[id^="yandex_rtb"]
@@ -25865,6 +25862,7 @@ minigames.mail.ru#@#.js-banner
 mks.space#@#.ads_banner
 newnavitel.blogspot.com#@##AdSense1
 num-words.com#@#.advert-banner
+print-post.com#@##reklama
 pvpru.com#@##ad_global_above_footer
 rap-me.online#@#.adv-banner
 tests24.su#@##header-ad
@@ -25933,6 +25931,8 @@ spletnik.ru##.z-adblock-message
 /fck-ab-code.js$domain=the-office.su
 /ggl/*$script,~third-party,domain=lektsii.org|megaobuchalka.ru|mydocx.ru|studopedia.com.ua|studopedia.net|studopedia.org|studopedia.ru|studopedia.su
 /javascript_adblockdetector/*$script,domain=baku365.com
+/js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
+/js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /simple-adblock-detector/*$domain=vologdahistory.ru
 /static/libs/adetector/*$domain=cigarexpert.ru|swizz.ru|ulnar.ru|uxxa.ru
 @@||ddnk.advertur.ru/*/loader.js|$script
