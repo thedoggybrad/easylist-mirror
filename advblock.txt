@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 52/ZiBDB441KiGheDedQxA
-! Version: 202403261531
+! Checksum: VZ8f62Z49sAmzdK25SEyVw
+! Version: 202403261541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Mar 2024 15:31 UTC
+! Last modified: 26 Mar 2024 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1656,6 +1656,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 .braun634.com^
 .com/next.html?$third-party,script
 .com/resources/draw_script.js$third-party,script
+.com/services/?id=$third-party,script
 .com/vinos.js?$third-party,script
 .gold/next.html?$third-party,script
 .htm?href=*&tm_mode=
@@ -6039,6 +6040,7 @@ _tizers.
 ||gateway-04.com^
 ||gatgirl.com^
 ||gatorr.ru^$third-party
+||gaveasword.com^$third-party
 ||gawxf.com^$third-party
 ||gbaseby.ru^$third-party
 ||gbedccihjeajhchcaea.ru^
@@ -25603,6 +25605,8 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||x5.ru/assets/Branding/$script,stylesheet,domain=x5.ru
 @@||xn----dtbhbabqpbg4blhey9ej3h.xn--p1ai^*_300x250.$image,domain=xn----dtbhbabqpbg4blhey9ej3h.xn--p1ai
 @@||xn--74-6kcaj3c0aikq.xn--p1ai/images/adv-$image,domain=xn--74-6kcaj3c0aikq.xn--p1ai
+@@||xporn.in/*.m3u8|$xmlhttprequest,domain=tre.zorox.sex
+@@||xporn.in/*.ts|$xmlhttprequest,domain=tre.zorox.sex
 @@||xvet.ru^*_600x180.$image,domain=xvet.ru
 @@||yaberemenna.info/openx/www/delivery/ai.php?filename=$domain=yaberemenna.info
 @@||yaberemenna.info/openx/www/delivery/ajs.php?zoneid=7&$domain=yaberemenna.info
