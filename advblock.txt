@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VJMnQj/6D4wpZy5juUjRMg
-! Version: 202403261411
+! Checksum: L+tHleKqHmsNmwosOia5UA
+! Version: 202403261421
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Mar 2024 14:11 UTC
+! Last modified: 26 Mar 2024 14:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16399,7 +16399,7 @@ sport-express.ua##.widgetBestBookmakers
 gazetavv.com##.widget_ad_unit
 i.ua##.widget_adv
 versii.if.ua##.widget_ajax_text
-atlasprirodirossii.ru,hyperione.com,sho.org.ua,zazloo.ru##.widget_block
+atlasprirodirossii.ru,hyperione.com,portaltele.com.ua,sho.org.ua,zazloo.ru##.widget_block
 volyninfo.com##.widget_calendar ~ .widget_text ~ .widget_text
 rustaste.ru#?#.widget_categories:-abp-has(> div[align="center"] > img[src*="/aliban"])
 sdelalremont.ru##.widget_cb_widget
@@ -16430,7 +16430,7 @@ portall.zp.ua##.widget_rekl
 tula-football.ru##.widget_rss
 tea-online.ru##.widget_sslwidget
 analitikaua.net,aspekty.net,ua-report.info##.widget_super_rss_reader
-1000iodinsovet.ru,2info2.ru,4esnok.by,agrimpasa.com,alau.kz,alkogolu.net,atlasprirodirossii.ru,belattra.ru,bizua.org,boxvideotv.ru,brunet-ka.ru,calend.online,cherepah.ru,chirik.info,chudesniesovetiki.site,clubwindows.ru,domashnie-zagotovki.ru,domashniecvety.ru,erokomiksi.com,excelprost.ru,free-news.su,galas.te.ua,geomedia.top,giantessa.ru,golbis.com,golovnie-boli.com,hitagro.ru,hronika.info,htmlhook.ru,hyperione.com,inforpost.com,kopomko.com,koroleffsov.ru,krashevseh.ru,kulemet.com,legkopolezno.ru,lightstories.site,macosinfo.com,makeupkey.ru,mamabook.com.ua,meganovosti.net,mezha.media,miformat.info,nagadala.com,nash-sekret.ru,newsrank.ru,newssky.com.ua,northern-newspaper.ru,ofigeno.ru,ogribax.ru,ovetryanke.ru,paratechnik.ru,podarok.video,podruzke.ru,portable-rus.ru,portaltele.com.ua,portalvirtualreality.ru,prostolinux.ru,putin-today.ru,pzik.ru,rainbowsky.ru,roza2012.net.ua,ru-mir.net,ruslo.info,sci-fi-news.ru,sich.zp.ua,snelwilcox.com,srnsk.ru,strana-it.ru,svoitabachok.ru,trmzk.ru,udobreniya.net,ustanovkaos.ru,ventilationpro.ru,walaw.ru,yconsult.ru##.widget_text
+1000iodinsovet.ru,2info2.ru,4esnok.by,agrimpasa.com,alau.kz,alkogolu.net,atlasprirodirossii.ru,belattra.ru,bizua.org,boxvideotv.ru,brunet-ka.ru,calend.online,cherepah.ru,chirik.info,chudesniesovetiki.site,clubwindows.ru,domashnie-zagotovki.ru,domashniecvety.ru,erokomiksi.com,excelprost.ru,free-news.su,galas.te.ua,geomedia.top,giantessa.ru,golbis.com,golovnie-boli.com,hitagro.ru,hronika.info,htmlhook.ru,hyperione.com,inforpost.com,kopomko.com,koroleffsov.ru,krashevseh.ru,kulemet.com,legkopolezno.ru,lightstories.site,macosinfo.com,makeupkey.ru,mamabook.com.ua,meganovosti.net,mezha.media,miformat.info,nagadala.com,nash-sekret.ru,newsrank.ru,newssky.com.ua,northern-newspaper.ru,ofigeno.ru,ogribax.ru,ovetryanke.ru,paratechnik.ru,podarok.video,podruzke.ru,portable-rus.ru,portalvirtualreality.ru,prostolinux.ru,putin-today.ru,pzik.ru,rainbowsky.ru,roza2012.net.ua,ru-mir.net,ruslo.info,sci-fi-news.ru,sich.zp.ua,snelwilcox.com,srnsk.ru,strana-it.ru,svoitabachok.ru,trmzk.ru,udobreniya.net,ustanovkaos.ru,ventilationpro.ru,walaw.ru,yconsult.ru##.widget_text
 expert-dacha.pro##.widget_text > .widget-top
 zaruba.fun#?#.widget_text:-abp-has(#kwork-widget)
 bookzvuk.ru#?#.widget_text:-abp-has(.medicinetizer)
@@ -22969,6 +22969,7 @@ lada.kz/uploads/banners/
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
+||tragtorr.in^$csp=script-src
 ! Liveinternet (ловушка для обфускации)
 ||liveinternet.ru/utf/lici.js?
 !/^https?://www\.liveinternet\.ru/(?!utf\/|q\/js\/|js\/|4Ek/JS/diary/main/nav/regoradd.js|autosave.js|cgi-bin/rpls.fcgi?|ckeditor\/|ckfinder\/|main_new_1251.js|share/js/share.js|spell/spell.js|uploader\/|vbcode.js|vbcode_language.js)/$script,domain=www.liveinternet.ru
@@ -22989,7 +22990,7 @@ pikabu.ru#?#.stories-feed__container > .story div:-abp-properties(/min-height: .
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(> div > header[class*=" "])
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: calc.29.px/))
-dracon-zet.ru,fonmod.com,positiverecords.ru,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
+dracon-zet.ru,fonmod.com,positiverecords.ru,ritsatv.ru,tragtorr.in##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 pikabu.ru##[data-block-name]
 liveinternet.ru,sdamgia.ru##[data-container]
@@ -23013,8 +23014,6 @@ sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 pikabu.ru##div[style^="width: 300px; height:"]
 liveinternet.ru##style + div > div > div > div > div a
 !#endif
-tragtorr.in##:not(my-obnaruzhili-blokirovshchik)
-||tragtorr.in^$csp=script-src
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
 apad2.top,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-game.info,rutor-games.ru,rutorgame.info,rutorgames.ru,torent-igruha.com,torrent-music.ru,torrent-soft.net,torrent-word.ru,torrentigo.net,torrentigruha.org,torrentsoft.net,where-game.ru##:not(this-site-promotes-malware)
@@ -25908,6 +25907,7 @@ reallanguage.club##.bgAdd
 guidesgame.ru##.box-warning
 a-russia.ru##.bsac
 tsn.ua##.c-aside__port
+tragtorr.in##.center > .theiaStickySidebar > .stroka
 bidbaits.ru##.cover-msg
 tarkov-market.com##.disable-adblock
 internetsms.org##.fade[class^="modal"]
