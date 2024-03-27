@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: L2iwt5DxWAFhIh5pv6uDJA
-! Version: 202403271601
+! Checksum: oZBvtkcree8NOz4EEwKrXw
+! Version: 202403271611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Mar 2024 16:01 UTC
+! Last modified: 27 Mar 2024 16:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -26,6 +26,7 @@
 ! *** advblock/popup.txt ***
 ! - Частные правила -----------------------------------------------------------
 $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|cdnpotok.com|cdntvpotok.com|freescreens.ru|imgbase.ru|imgcach.ru|imgclick.ru|kolikbolik.top|oneliketv.com|payforpic.ru|picclick.ru|picclock.ru|picforall.ru|protonvideo.to|telecdn.net|tv-assia.org
+$third-party,popup,domain=2ip.ru
 &utm_campaign=$popup,domain=itc.ua|sc2tv.ru|www.film.ru
 /*utm_$popup,domain=stratege.ru
 /go.php$popup,domain=piratca.net
@@ -23081,7 +23082,6 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 2ip.io,2ip.ru##a[href*="://finevpn.org"]
 2ip.io,2ip.ru##a[href*="://proxyelite.info"]
 ! блокировки, добавленнные из-за агрессивного обхода адблока на 2ip.ru, 2ip.io, 2ip.ua ~>
-||erenta.ru^$third-party,popup
 ||fineproxy.org^$third-party,popup
 ||finevpn.org^$third-party,popup
 ||hide.mn^$third-party,popup
