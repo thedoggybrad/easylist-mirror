@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: 8nvTW81BkT3ch5FvKKykxw
-! Version: 202403270500
+! Checksum: sw7s5POVzQU/jUGConJ5sg
+! Version: 202403270510
 ! Title: ABPVN List
-! Last modified: 27 Mar 2024 05:00 UTC
+! Last modified: 27 Mar 2024 05:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 26 Mar 2024 09:37:00 UTC+7
-! Diff-Path: patches/20240326093700456.patch#abpvn
+! Last modified: 27 Mar 2024 12:05:04 UTC+7
+! Diff-Path: patches/20240327120504503.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -258,6 +258,7 @@ phimmoisz.net/wp-content/themes/movies/js/adpm4u.js$script,~third-party
 ||tructiep.vn/website/adv/
 ||tructiep24h.co^*.gif
 ||trumtruyen.vn^*.gif$image
+||truyen4u.vip$csp=script-src 'self' 'unsafe-inline'
 ||truyenconect.com/uploads/*-truyenconect_com-*.
 ||truyentuan.xyz/wp-content/banners
 ||truyentuan.xyz/wp-content/themes/nos/js/pop-before.js
@@ -286,7 +287,6 @@ phimmoisz.net/wp-content/themes/movies/js/adpm4u.js$script,~third-party
 ||xc.1357668.com^*.gif$domain=7mvn2.com
 ||xmedia.antt.vn/upload/*.gif$image,domain=antt.vn
 ||zcine.net^*.gif$image
-||ztruyen.net$csp=script-src 'self' 'unsafe-inline'
 ||zunia.vn/ads.html$subdocument,domain=tracnghiem.net
 ! ---------- Ad domain ----------
 ||adflex.vn^$third-party
