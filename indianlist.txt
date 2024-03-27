@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: geOnZeQqSvFQoqy1LxbBwQ
-! Version: 202403271051
+! Checksum: ZuH7dDCYICkA+VX+KYJGog
+! Version: 202403271101
 ! Title: IndianList
-! Last modified: 27 Mar 2024 10:51 UTC
+! Last modified: 27 Mar 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -837,7 +837,6 @@ ad.jpg|$domain=bslnews24.com
 Ad_.png?$domain=bangladeshonline24.com
 ads.jpg|$domain=meherpurnews.com
 adsss.jpg|$domain=gzpnews.com
-ADVT.jpg|$domain=bhilaitimes.com
 Banner_File.jpeg|*$domain=indiaheadlinenews.com
 blocks/block_$domain=hindustansamay.com|hindustanvarta.com|livenewsxpress.com|nattuvartha.news|poorvanchalmedia.com|sirajganjexpress.com
 home_right_add$domain=dtvbangla.com
@@ -1311,11 +1310,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||bhartianews.com/wp-content/uploads/2019/07/banner-2.jpg
 ||bhaskarenews.com/wp-content/uploads/2020/10/001-1$image
 ||bhavanidvd.com$domain=tupaki.com
-||bhilaitimes.com/wp-content/uploads/2022/08/ADVRT_iPhone-14-Pro-
-||bhilaitimes.com/wp-content/uploads/2022/09/MOTION_
-||bhilaitimes.com/wp-content/uploads/2022/11/index-4-
-||bhilaitimes.com/wp-content/uploads/2022/12/image-46
-||bhilaitimes.com/wp-content/uploads/2022/12/Mac-Fam-
 ||bhilwarahalchal.com/upload/ads/
 ||bhilwarahalchal.com/upload/slider/1735-2024-03-09.webp
 ||bhilwarasamwad.com/asse/ads/fx/detailright.gif
@@ -2314,7 +2308,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||i2.wp.com^*/amader-Budhbar-300x90.gif$domain=amaderbudhbar.com
 ||i2inews.in/images/advertisement/
 ||i57.tinypic.com/30uwyyq.jpg$domain=tamilolli.com
-||ibb.co^$domain=bhilaitimes.com|nayabharat.live
+||ibb.co^$domain=nayabharat.live
 ||ibb.co^$third-party,domain=shahzadpursangbad.com
 ||ibn24x7news.com^*/diwali-ad-
 ||ibnsinahealthcare.com^$third-party,domain=priyoshomoy.com
@@ -6510,6 +6504,7 @@ today24.in##.entry-content img.alignleft
 today24.in##.entry-content img.alignright
 jeewanaadhar.com##.entry-content img.size-full
 newswatch.co.in##.entry-content img:only-child
+bhilaitimes.com##.entry-content img[src*="advt"]
 kundapraa.com##.entry-content p > a > img:not([src*="whatsapp-group.jpg"])
 thepoliticsagain.com##.entry-content p > img
 newskadaba.com##.entry-content p img
@@ -6915,7 +6910,7 @@ filmistreet.com##.mb-hidden img.center
 divyamarathi.bhaskar.com##.mb_ads_title
 ctgsangbad24.com##.mcyd
 vasistatoday.in##.mega-wrap .main-ads-pikihome
-lalitpurfastnews.com##.metaslider
+bhilaitimes.com,lalitpurfastnews.com##.metaslider
 punjabvarta.com##.metaslider:not(#metaslider-id-1999)
 shasansandesh.in##.mg-headwidget .code-block
 himachalmedia.co##.mg-headwidget .pull-right
