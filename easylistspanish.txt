@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: izKkWjidTDAydukMkwg30w
-! Version: 202403281851
+! Checksum: Fyrxn/lwHuVWNWtFlLzFwg
+! Version: 202403281901
 ! Title: EasyList Spanish
-! Last modified: 28 Mar 2024 18:51 UTC
+! Last modified: 28 Mar 2024 19:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -103,6 +103,7 @@ _pubted.
 ##.voc-advertising
 ##.voc-article--sponsored
 ##.voc-sponsored
+##a[href^="https://ad.soicos.com/"]
 ##a[href^="https://go.betobet.online/"]
 ##a[href^="https://startgaming.net/tienda/"][href*="?offer_id="]
 ##a[href^="https://vario.tv/?offer_id="]
@@ -338,6 +339,7 @@ hitfm.es#@#.publi
 !---------------------------Third-party advertisers---------------------------!
 ! *** easylistspanish:easylistspanish/easylistspanish_adservers.txt ***
 !
+||0-02.net^
 ||adzonestatic.com^
 ||pahtfi.tech^
 ||palibzh.tech^
