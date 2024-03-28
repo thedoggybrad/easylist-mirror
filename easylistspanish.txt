@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LpSA9qrWteFfbA8k+6K7iw
-! Version: 202403281501
+! Checksum: euvndrqo1/mH5SdRDnfVfQ
+! Version: 202403281511
 ! Title: EasyList Spanish
-! Last modified: 28 Mar 2024 15:01 UTC
+! Last modified: 28 Mar 2024 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -774,6 +774,7 @@ hitfm.es#@#.publi
 ||agencianova.com/avisos/
 ||aica.org/imagenes/pubs/
 ||albaceteabierto.es/anuncios/
+||api.servicesdtk2.cl/v1/count/banners$domain=autosusados.cl
 ||arquimaster.com.ar/banners/
 ||arquimaster.com.ar/Images/banners.htm
 ||artesacro.org/imagenes/baner_
@@ -825,6 +826,7 @@ hitfm.es#@#.publi
 ||ripollesdigital.cat/imatges/ripollesdigital.cat/ginys/
 ||spanishcorrector.com/cnc/
 ||static.publinews.gt/*/Skin-
+||storage.googleapis.com/foto_autosusados/banners/$domain=autosusados.cl
 ||streamsito.com/static/vast_
 ||studiofutbol.com.ec/tabla2021/images/banner-copa-300x90.jpg
 ||tcccdn.com^*/banner/
@@ -1446,6 +1448,7 @@ andaluciainformacion.es,informacionalcalalareal.es,informacionpuentegenil.es,inf
 andaluciainformacion.es,informacionalcalalareal.es,informacionpuentegenil.es,informacionsanfernando.es,sanlucarinformacion.es,vivaalmeria.es,vivaalmunecar.es,vivaantequera.es,vivaarcos.es,vivabarbate.es,vivabenalmadena.es,vivacadiz.es,vivacampodegibraltar.es,vivachiclana.es,vivaconil.es,vivacordoba.es,vivaelpuerto.es,vivaestepona.es,vivagalicia.tv,vivagranada.es,vivahuelva.es,vivajaen.es,vivajerez.es,vivamalaga.net,vivamarbella.es,vivapunta.es,vivarota.es,vivasevilla.es,vivatorremolinos.es,vivavalencia.net,vivavejer.es,vivavelezmalaga.es##.BNR-DER
 elpais.com.uy##.List-sponsor
 ccma.cat##.M-publicitat
+autosusados.cl##.OtherPages_othersection__Ad_Ae
 elpais.com.uy##.PromoFeat
 elchapuzasinformatico.com##.__lxG__multi
 ahoraeg.com,analitica.com,aurora-israel.co.il,aviacionline.com,elperiodicodelaenergia.com,elsiglo.com.ve,latinopinionbaltimore.com,teleamazonas.com##.a-single
@@ -1854,6 +1857,7 @@ carrefour.es##[id*="-sponsored_products-"]
 grantorrent.zip##[onclick^="AbrirEnlaceStar('"]
 cinelibreonline.com##a > img[alt^="Ganar"]
 manomano.es##a[class*="sponsoredProductCard"]
+autosusados.cl##a[class^="Banner_"]
 kissfm.es##a[href*="/linkout/"]
 pelisplus.lat,washingtonhispanic.com##a[href*="://bit.ly/"]
 elrellano.com##a[href*="https://urbanous.com/tienda/tazas/eo-eeeeooo/"]
@@ -1882,6 +1886,8 @@ lasexta.com##aside[class^="mod-ad-"]
 elnueve.com.ar##div[class*="_site-banner-top_"]
 diariodecuyo.com.ar##div[class*="dfp-async"]
 americatv.com.pe##div[class^="AdsSlot_"]
+autosusados.cl##div[class^="Autofact_"]
+autosusados.cl##div[class^="InterestingSection_"]
 businessinsider.es,computerhoy.com,hobbyconsolas.com##div[class^="ad-slot_"]
 elperiodic.com##div[class^="adcont_"]
 bemad.es,cuatro.com,divinity.es,energytv.es,factoriadeficcion.com,mtmad.es,niusdiario.es,telecinco.es,uppers.es,yasss.es##div[class^="adsGroupTop"]
