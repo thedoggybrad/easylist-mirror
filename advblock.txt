@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ToKj++A8wORckhQ9kau59g
-! Version: 202403281411
+! Checksum: i+/SQstOoG0gGAUjpZCmKQ
+! Version: 202403281421
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Mar 2024 14:11 UTC
+! Last modified: 28 Mar 2024 14:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18047,7 +18047,7 @@ okna.ua#?#div:-abp-has(> div[id][data-url])
 silver.ru#?#div:-abp-has(> div[id^="M"][id*="Composite"])
 koolinar.ru#?#div:-abp-has(> header ~ a[href][rel="sponsored"])
 gdzguru.com#?#div:-abp-has(> img[src*="ops."])
-computer76.ru,rp5.am,rp5.by,rp5.co.nz,rp5.co.uk,rp5.kz,rp5.md,rp5.ru#?#div:-abp-has(> ins)
+computer76.ru,rp5.am,rp5.by,rp5.co.nz,rp5.co.uk,rp5.kz,rp5.md,rp5.ru,videoredaktor.ru#?#div:-abp-has(> ins)
 doramatv.live#?#div:-abp-has(> noindex > script)
 fragrantica.ru#?#div:-abp-has(> sup)
 football.kulichki.net#?#div:-abp-has(> table > tbody a[href*="kulichki.com/advert"])
@@ -23402,6 +23402,7 @@ sportmail.ru##.sub-news-list_rightcoll
 @@||sportmail.ru^$generichide
 sportmail.ru##a[href="/bookmakers/"]
 sportmail.ru##div[article-item-type="conversionlink"]
+sportmail.ru##div[class*="rb-slot"]
 sportmail.ru##div[class][style^="transform: translate3d"]:not(.viewbox__slides) > div:first-child
 sportmail.ru##div[data-closewrap-container]
 sportmail.ru##div[data-logger="partnerNews"]
@@ -25738,8 +25739,8 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||olegon.ru/ads/$script,domain=olegon.ru
 @@||online.ua/adsence.js|$domain=online.ua
 @@||opel-omega.ru^*?adType=$script,domain=opel-omega.ru
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=open3dmodel.com|videoredaktor.ru
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=595.ucoz.net|adult-images.ru|anypictures.ru|blogging-techies.com|botrix.live|crast.net|daz3d.ru|di.fm|electric-house.ru|fcportables.com|forums.rusmedserv.com|freeopenvpn.org|ikigaitest.com|imgbum.ru|investing.com|izi-invest.ru|kvadratmetr.uz|mod-wot.ru|nv.ua|oligarx.uz|otzovik.com|ozlib.com|parnuxi.biz|pixcloud.ru|radio-archive.ru|radioromantika.ru|stroi-help.ru|tarkov-market.com|tehnar.net.ua|tehnobzor.ru|tehnografi.com|tests24.su|tubeload.co|videoredaktor.ru|xpicture.ru|yvid.ru
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=open3dmodel.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=595.ucoz.net|adult-images.ru|anypictures.ru|blogging-techies.com|botrix.live|crast.net|daz3d.ru|di.fm|electric-house.ru|fcportables.com|forums.rusmedserv.com|freeopenvpn.org|ikigaitest.com|imgbum.ru|investing.com|izi-invest.ru|kvadratmetr.uz|mod-wot.ru|nv.ua|oligarx.uz|otzovik.com|ozlib.com|parnuxi.biz|pixcloud.ru|radio-archive.ru|radioromantika.ru|stroi-help.ru|tarkov-market.com|tehnar.net.ua|tehnobzor.ru|tehnografi.com|tests24.su|tubeload.co|xpicture.ru|yvid.ru
 @@||patents.su/assets/themes/patents/js/main/$script,domain=patents.su
 @@||peers.tv/cnplayer/imasdk/$domain=peers.tv
 @@||persey.if.ua/images/attention.jpg$image,domain=persey.if.ua
@@ -25829,7 +25830,6 @@ daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
 dl2kq.de#@##sponsor_ad
 drahelas.ru#@#.forumAd
 forums.rusmedserv.com#@#img[width="728"][height="90"]
-goloskarpat.info,linux.org,radio-online.com.ua,videoredaktor.ru#@#ins.adsbygoogle
 green-way.com.ua#@#.adWrapper
 iphones.ru#@##sponsorText
 izi-invest.ru,ruboard.website#@#div[id^="yandex_rtb"]
@@ -25851,7 +25851,6 @@ rap-me.online#@#.adv-banner
 tests24.su#@##header-ad
 textstudio.co#@#.adsbyyahoo
 tnt-online.ru#@#div[id^="adfox_"]
-videoredaktor.ru#@#.adsBlock
 zhurnaly.biz#@#.ad-block
 zhurnaly.biz#@#.item-ads
 !
