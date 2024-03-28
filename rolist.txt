@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6qH3rgvKrO5pva4tNepO8Q
-! Version: 202403281621
+! Checksum: o8gmfAhBcig8ysbIdNK1Bw
+! Version: 202403281630
 ! Title: ROList
-! Last modified: 28 Mar 2024 16:21 UTC
+! Last modified: 28 Mar 2024 16:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://www.zoso.ro/rolist/
 !
@@ -14,7 +14,7 @@
 ! A complementary list, with more strict items, is here https://zoso.ro/pages/rolist2.txt
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: mail@zoso.ro
-! Last modified: 13MAR 2024 06:00 UTC
+! Last modified: 28MAR 2024 18:00 UTC
 !hosts
 ||01.creativecdn.com^
 ||2mdn.net^
@@ -174,6 +174,7 @@ ro##trafic
 altex.ro,telekom.ro,apan-topselection.ro,promozone.ro,emag.ro#@#[href*="/promo"]
 azimur.ro#@#[href*="/promo"]
 carrefour.ro#@#[href*="/promo"]
+knn.ro#@#DIV[class="banner"]
 revista22.ro##IMG[src*="banner"]
 ro#@#DIV[id="onetrust-banner-sdk"]
 ro#@#DIV[id="onetrust-consent-sdk"]
