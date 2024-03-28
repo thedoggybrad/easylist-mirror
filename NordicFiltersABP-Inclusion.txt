@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8JuMfGPW57Qw4u8dlicWzQ
-! Version: 202403281201
+! Checksum: zWjd3bY4Xbe92Tim8mu0Kg
+! Version: 202403281211
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 28 Mar 2024 12:01 UTC
+! Last modified: 28 Mar 2024 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -24773,7 +24773,7 @@ _800x80_
 ! Invideo advert: gizmodo.com,avclub.com,qz.com,lifehacker.com,theroot.com
 ##.js_related-stories-inset
 ! element specific
-##ins.adsbygoogle
+##ins.adsbygoogle[data-ad-slot]
 ! (NSFW) club-rileyreid.com,clubmiamalkova.com,lanarhoades.mypornstarblogs.com
 ###mgb-container > #mgb
 ! https://github.com/easylist/easylist/pull/11962
@@ -33324,6 +33324,7 @@ browsershots.org#@#.advert_area
 ||cspchemung.guru^
 ||cspdimfa.com^
 ||csqgebok.com^
+||csqtsjm.com^
 ||csrmohcym.com^
 ||csrrxwd.com^
 ||csscloudstorage.com^
@@ -38379,6 +38380,7 @@ browsershots.org#@#.advert_area
 ||fykjhzjyjvx.com^
 ||fymgkjtee.com^
 ||fyszjsybkgnwn.com^
+||fytaopeurb.com^
 ||fyvdxqufaxkli.com^
 ||fzdpvjatkwpg.com^
 ||fzfcrqlwph.com^
