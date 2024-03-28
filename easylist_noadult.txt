@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5yqN/9IFYYEARR2z9rTfqA
-! Version: 202403280110
+! Checksum: 8N63I86xE0ga7JFmrRklkg
+! Version: 202403280121
 ! Title: EasyList without rules for adult sites
-! Last modified: 28 Mar 2024 01:10 UTC
+! Last modified: 28 Mar 2024 01:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17492,6 +17492,7 @@ _800x80_
 ##a[href^="https://prf.hn/click/"][href*="/camref:"] > img
 ##a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img
 ##a[href^="https://pubads.g.doubleclick.net/"]
+##a[href^="https://quotationfirearmrevision.com/"]
 ##a[href^="https://s.optzsrv.com/"]
 ##a[href^="https://safesurfingtoday.com/"][href*="?skip="]
 ##a[href^="https://serve.awmdelivery.com/"]
@@ -69839,7 +69840,7 @@ checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak
 @@|data:text^$popup,domain=box.com|clker.com|labcorp.com
 @@||accounts.google.com^$popup
 @@||ad.doubleclick.net/clk*&destinationURL=$popup
-@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|creditcard.com.au|debitcards.com.au|findershopping.com.au|finder.com|finder.com.au|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be|whatphone.com.au
+@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|creditcard.com.au|debitcards.com.au|finder.com|finder.com.au|findershopping.com.au|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be|whatphone.com.au
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
 @@||ads.doordash.com^$popup
