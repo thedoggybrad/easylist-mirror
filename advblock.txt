@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c2cQ5a7izbnac1YF/QKMHQ
-! Version: 202403281111
+! Checksum: 7VpxN271v4a34ZwRteJMhA
+! Version: 202403281121
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Mar 2024 11:11 UTC
+! Last modified: 28 Mar 2024 11:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11860,7 +11860,7 @@ arigato.tv###header[style] #header:not([style])
 zaxid.net###header_advt-wrapper
 tr.anidub.com###header_b
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru###header_baner
-od-news.com###header_banner
+od-news.com,sudostroenie.info###header_banner
 megalyrics.ru###header_bottom
 sitepartners.ru###header_center
 radidomapro.ru###header_partenaire
@@ -16893,7 +16893,7 @@ gorod.cn.ua##[src*="gorod.cn.ua/image/upload/"]
 shans.com.ua##[src*="images/banners"]:not([src="images/banners/lin.gif"])
 7themes.su##[src*="promo_res"]
 sibnet.ru##[src*="sibnet.ru/iframe-wink"]
-forum.zoneofgames.ru,shazoo.ru##[src*="trk.mail.ru/"]
+forum.zoneofgames.ru##[src*="trk.mail.ru/"]
 clubsandero.ru##[src="//an.yandex.ru/system/context.js"] ~ iframe
 rutor.org.ru##[src="/download32.png"]
 linux.org.ru##[src^="/adv/"]
@@ -18091,6 +18091,7 @@ doramatv.live,grouple.co,librebook.me,mintmanga.live,mose.live,readmanga.live,se
 kinoafisha.info##div[class*="-fix "][class$="as-desktop"]
 sibnet.ru##div[class*="2023"][class*="root"]
 mmo13.ru##div[class*="300x600"]
+gazetametro.ru##div[class*="AdBox"]
 rg.ru##div[class*="Adfox"]
 food.ru,korabel.ru,market4game.ru##div[class*="Banner"]
 zhukvesti.ru##div[class*="Banners"]
@@ -18357,6 +18358,7 @@ onfillm.club##div[class^="dolmraz"]
 vip-mods.ru#?#div[class^="down-page"]:-abp-has(> .file-active) > .timer
 vip-mods.ru##div[class^="down-page"][style="display: block; width: 100%; height: auto; text-align: center;"]
 torrent-xatab.net##div[class^="download-rek"]
+sudostroenie.info##div[class^="erid"]
 screenpost.ru##div[class^="featured"]
 vk.com,vk.ru#?#div[class^="feed_row "] > div[id^="feed_repost-"]:-abp-has(.wall_marked_as_ads)
 vk.com,vk.ru#?#div[class^="feed_row "] > div[id^="post-"]:-abp-has(.wall_marked_as_ads)
@@ -20890,6 +20892,7 @@ lada.kz/uploads/banners/
 ||gastri.ru/wp-content/uploads/
 ||gay.ru/a2/
 ||gazetabalakovo.ru/wp-content/uploads/*/rek.$image
+||gazetametro.ru/commercial/banners/
 ||gcmsite.ru/img/nostromo-x.jpg
 ||gde.ru/img/*320x1
 ||gdz-putina.info/*.swf
@@ -22515,7 +22518,7 @@ lada.kz/uploads/banners/
 ||trello-attachments.s3.amazonaws.com$image,domain=puerrtto.livejournal.com
 ||trinixy.ru^*/branding
 ||trishurupa.ru/*banner/*.gif
-||trk.mail.ru^$subdocument,domain=shazoo.ru|zoneofgames.ru
+||trk.mail.ru^$subdocument,domain=zoneofgames.ru
 ||trkr.stop1c.ru/
 ||tropica.ru/img/b/
 ||truba.com/i/brand/
@@ -22688,7 +22691,6 @@ lada.kz/uploads/banners/
 ||vk.com/dist/web/aliexpress_feed_recommendations_carousel.
 ||vk.com/js/al/aes_light.js$script,domain=~vk.com
 ||vkaznu.ru^*.php$script
-||vkplay.live/app/embed/$domain=playground.ru
 ||vkurske.com/banners/
 ||vl.ru/eda/*/widget/$script,domain=drom.ru
 ||vl.ru/widgets/drom.js$script,domain=forums.drom.ru
@@ -25943,7 +25945,7 @@ gsm.in.ua##body > div[style^="background:"][style*="display: block"]
 ritsatv.ru##body > marquee[style*="red"]
 motorpage.ru##body.noscroll::before
 qrz.ru#?#div[class]:-abp-has(> .inner > a[href="/help/adblock/"])
-vkplay.live##div[class^="AdBlockAlert_root"]
+vkplay.ru##div[class^="AdBlockAlert_root"]
 pronetblog.by##div[class^="adsensepost"]
 2baksa.ws##div[class^="ant"][class*="block"]
 hitsovet.ru,mod-wot.ru##div[class^="chp_ads_block"]
