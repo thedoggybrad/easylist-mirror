@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XPmnVQKh1tJ4hvIwRX2tFA
-! Version: 202403291031
+! Checksum: aC4NdoK56geaGcWi+G4PDg
+! Version: 202403291041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Mar 2024 10:31 UTC
+! Last modified: 29 Mar 2024 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19565,6 +19565,7 @@ rafkino.com##div[id^="MarketGid"]
 ://poizdato.net/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.dev *.io *.net *.org *.ru *.ua
 |http*//fastpic.org/$csp=frame-src 'self'
 |http*//fastpic.org/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fastpic.org
+||24click.*/top/$csp=script-src
 ||24smi-*/top/$csp=script-src
 ||24smi.*/top/$csp=script-src
 ||24top.*/top/$csp=script-src
