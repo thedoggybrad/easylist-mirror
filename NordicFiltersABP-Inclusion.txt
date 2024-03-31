@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZP0dctcfY9byLK4N8mAmig
-! Version: 202403311011
+! Checksum: BjQ3Ah3VeRZXS/FuC3GeWA
+! Version: 202403311021
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 31 Mar 2024 10:11 UTC
+! Last modified: 31 Mar 2024 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1144,6 +1144,8 @@ fcbarcelona.dk##.bluebox:has(div[id^=cncpt-rec])
 fjellforum.no##.ipsWidget:has([style*="width:300px;height:90px"])
 nakenprat.com###sidebar
 travelmarket.no##.pages-container__element:has([class*=banner])
+lorenskogkino.no,filmweb.no,~www.filmweb.no##div[data-debuglabel]
+www.filmweb.no##*:has(> * > div[class^=adnun])
 ! — — — — — — — — —
 ! 🇳🇴: Oppføringer for minst 3 nettsteder
 ! 🇬🇧: Entries for at least 3 websites
