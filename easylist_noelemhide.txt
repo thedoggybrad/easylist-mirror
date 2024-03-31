@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dOBV4873+zfvLr/Ctp1Yxg
-! Version: 202403311111
+! Checksum: JibNKN/W7rYA9JvosIrwcg
+! Version: 202403311120
 ! Title: EasyList without element hiding rules
-! Last modified: 31 Mar 2024 11:11 UTC
+! Last modified: 31 Mar 2024 11:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -242,7 +242,7 @@
 /adasset/*$~script
 /adasync.
 /adbanner2.
-/adbanners/*
+/adbanners/*$image
 /adbottom.
 /adbox.
 /adcall?
@@ -275,7 +275,6 @@
 /adhelper.js
 /adiframe|*|adtech;
 /adimage.
-/adimage/*
 /adimages.
 /adj.php?
 /adjs.php
@@ -521,7 +520,6 @@
 /advscript.js
 /advtBanner.
 /adwidget_
-/adwidgets/*
 /adx2.
 /adx_exo_
 /adz/js/*
@@ -563,7 +561,6 @@
 /api.ad.
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /Api/Ad.
-/api/ads/*
 /api/ads?
 /api/v1/ad/*
 /apopwin.js
@@ -47928,6 +47925,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||blsnet.com/plugins/advertising/getad/
 ||blue.ktla.com^
 ||bontent.powzers.lol^
+||bookforum.com/api/ads/
 ||booking.com/flexiproduct.html?product=banner$domain=happywayfarer.com
 ||bordeaux.futurecdn.net^
 ||borneobulletin.com.bn/wp-content/banners/
