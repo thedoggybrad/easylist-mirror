@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EJ49wXH5VGdKr8/tfO9jkw
-! Version: 202404011911
+! Checksum: UzN2lUAGJrRHLoMvFt2Y4A
+! Version: 202404011931
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Apr 2024 19:11 UTC
+! Last modified: 01 Apr 2024 19:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19550,11 +19550,13 @@ anivisual.net,apptractor.ru,browserleaks.com,ficbook.net,forum.vorota.de,kg-port
 sitecoder.blogspot.ru##.adsbygoogle > *
 gtavicecity.ru##.article-ads
 postila.ru##.masonry-brick.ads
+vikna.tv##.pip-video-wrapper
 zoom.cnews.ru##.promo_block
 root-nation.com##.td-a-ad
 root-nation.com##.td-a-rec
 rafkino.com##.ytp-ad-progress-list
 rafkino.com##div[id^="MarketGid"]
+vikna.tv##div[id^="div-gpt-ad-"]
 ! -----------------------------------------------------------------------------
 ! *** advblock/specific_block.txt ***
 ! CSP and Header filters
@@ -19634,7 +19636,6 @@ rafkino.com##div[id^="MarketGid"]
 ||utarget.ru^$csp=script-src
 ||vazhno.ru^$csp=script-src 'self'
 ||vesti-ua.net^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.googletagmanager.com *.io *.net *.org *.ru *.ua
-||vikna.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.amazonaws.com *.cloudflare.com apis.google.com cse.google.com www.google.com *.google.com/complete/ *.googleapis.com *.googletagmanager.com *.instagram.com *.jquery.com *.keycaptcha.com *.twitter.com *.io *.net *.org *.ru *.ua
 ||vkazivka.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.googletagmanager.com *.io *.net *.org *.ru *.ua
 ||wallpapershome.ru^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:
 ||www.liveinternet.ru/|$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' i.li.ru
@@ -24859,6 +24860,7 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 @@||users.1tv.ru/cmnts/$generichide
 @@||vacancies.club^$generichide
 @@||video.showmeshowtv.ru^$generichide
+@@||vikna.tv^$generichide
 @@||vk.com/share.php$generichide
 @@||vsthouse.ru^$generichide
 @@||webcaster.pro^$generichide
