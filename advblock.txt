@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UzN2lUAGJrRHLoMvFt2Y4A
-! Version: 202404011931
+! Checksum: jFdtvXzk/xpb3cj+OEoJFA
+! Version: 202404011941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Apr 2024 19:31 UTC
+! Last modified: 01 Apr 2024 19:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15971,6 +15971,7 @@ playmaker24.ru##.subscrite-widget:first-child
 klops.ru##.supercover-banner-header
 bilshe.com#?#.svejnov:-abp-has(> h2 > b:-abp-contains(/^Інші/))
 games-porno.net##.swfgame_banners
+ictv.ua#?#.swiper-slide:-abp-has(> a[href*="utm_campai"])
 moniheal.com##.swiper-wrapper > a:not([href*="moniheal.com/"])
 tonkosti.ru##.sys-sky
 tv2.today##.t-aside-banners
@@ -19556,7 +19557,7 @@ root-nation.com##.td-a-ad
 root-nation.com##.td-a-rec
 rafkino.com##.ytp-ad-progress-list
 rafkino.com##div[id^="MarketGid"]
-vikna.tv##div[id^="div-gpt-ad-"]
+ictv.ua,vikna.tv##div[id^="div-gpt-ad-"]
 ! -----------------------------------------------------------------------------
 ! *** advblock/specific_block.txt ***
 ! CSP and Header filters
@@ -24778,6 +24779,7 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 @@||hh.ru/account/$generichide
 @@||hlamer.ru/create-account|$generichide
 @@||html-template.ru^$generichide
+@@||ictv.ua^$generichide
 @@||imgbum.ru^$generichide
 @@||in-trend.biz^$generichide
 @@||inforline.com.ua^$generichide
