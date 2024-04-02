@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5lvJ6np9KDpAMo64EEqELQ
-! Version: 202404021051
+! Checksum: ip5lZApT259PKEm9n23Y4g
+! Version: 202404021101
 ! Title: EasyList Polish
-! Last modified: 02 Apr 2024 10:51 UTC
+! Last modified: 02 Apr 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -388,7 +388,6 @@ supernowosci24.pl##[id^="r-"]
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
 ||appboxes.co/wp-content/uploads/nagam/$domain=nagieamatorki.net
-||erot.pl^$script,domain=sexi.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block_popup.txt ***
 !------------------------Specific element hiding rules------------------------!
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_hide.txt ***
@@ -2491,6 +2490,7 @@ polskiepornole.pl,pornoman.pl##.squareWrapper
 sexeo.pl##a[href^="http://beztabu.com"]
 filmy69.pl#?#li.videoblock:-abp-has(iframe[id][src*="/www/delivery/"])
 filmy69.pl#?#li.videoblock:-abp-has(script[src^="https://a.realsrv.com/"])
+pornoonline.com.pl##[class^="bannery"]
 !-----------------------Whitelists to fix broken sites------------------------!
 ! *** easylistpolish:easylistpolish/easylistpolish_whitelist.txt ***
 @@.adrotate.$domain=mh24.pl
