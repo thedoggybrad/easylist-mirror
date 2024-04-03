@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: K9vm8buf9ElFA9d63au79Q
-! Version: 202404031211
+! Checksum: iLmSwvgss2dQazSAoVPy1g
+! Version: 202404031221
 ! Title: EasyList without rules for adult sites
-! Last modified: 03 Apr 2024 12:11 UTC
+! Last modified: 03 Apr 2024 12:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17964,6 +17964,7 @@ naver.com#@#.head_ad
 infosecurity-magazine.com#@#.header-ad-row
 mobiili.fi#@#.header_ad
 iedrc.org#@#.home-ad
+tpc.googlesyndication.com#@#.img_ad
 thelincolnite.co.uk#@#.inline-ad
 elektro.info.pl,mashingup.jp#@#.is-sponsored
 vukajlija.com#@#.large-advert
@@ -70116,7 +70117,8 @@ checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
 @@||tdn.da-services.ch/libs/prebid8.$script,domain=20min.ch
 @@||tenki.jp/storage/static-images/top-ad/
-@@||tpc.googlesyndication.com/archive/simgad/$image,domain=adstransparency.google.com
+@@||tpc.googlesyndication.com/archive/$image,subdocument,xmlhttprequest,domain=adstransparency.google.com
+@@||tpc.googlesyndication.com/archive/sadbundle/$image,domain=tpc.googlesyndication.com
 @@||tpc.googlesyndication.com/pagead/js/$domain=googleads.g.doubleclick.net
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||trj.valuecommerce.com/vcushion.js
