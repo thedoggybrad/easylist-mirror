@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rWtvBbprn0Rkz2kIUcK7wQ
-! Version: 202404042041
+! Checksum: Th3jwivTWwby8116ZGfMjg
+! Version: 202404042051
 ! Title: EasyList without rules for adult sites
-! Last modified: 04 Apr 2024 20:41 UTC
+! Last modified: 04 Apr 2024 20:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -26648,8 +26648,8 @@ browsershots.org#@#.advert_area
 ||decemberaccordingly.com^
 ||decencyjessiebloom.com^
 ||decencysoothe.com^
-||decentpatent.com^
 ||decenthat.com^
+||decentpatent.com^
 ||decentpension.com^
 ||deceptionhastyejection.com^
 ||decibaraglare.com^
@@ -69131,6 +69131,7 @@ meijer.com##.product-grid__product:has(.product-tile__sponsored)
 maxi.ca##.product-tile-group__list__item:has([data-track-products-array*="sponsored"])
 ksl.com##.queue:has(.sponsored)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
+laravel-news.com##.relative:has([wire\:key="article-ad-card"])
 metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 metager.org##.result:has(a[href^="https://r.search.yahoo.com/"])
 qwant.com##.result__ext > div:has([data-testid="adResult"])
