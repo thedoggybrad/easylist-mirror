@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hLhGMow+FsaHWs4jx1fdmA
-! Version: 202404041031
+! Checksum: kLUC3fVOe0fMTD1BRAWgeA
+! Version: 202404041040
 ! Title: EasyList without rules for adult sites
-! Last modified: 04 Apr 2024 10:31 UTC
+! Last modified: 04 Apr 2024 10:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17907,9 +17907,9 @@ javbix.com#@#.adsleft
 xda-developers.com#@#.adsninja-ad-zone
 cutepdf-editor.com#@#.adtable
 gigazine.net#@#.adtag
-adamtheautomator.com,mediaite.com,packhacker.com#@#.adthrive
-mediaite.com,packhacker.com#@#.adthrive-content
-mediaite.com,packhacker.com#@#.adthrive-video-player
+adamtheautomator.com,mediaite.com,packhacker.com,packinsider.com#@#.adthrive
+mediaite.com,packhacker.com,packinsider.com#@#.adthrive-content
+mediaite.com,packhacker.com,packinsider.com#@#.adthrive-video-player
 kmsv.jp#@#.adtitle
 brandexperience-group.com#@#.adv-banner
 dobro.systems#@#.adv-box
@@ -69601,9 +69601,9 @@ checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 @@||adm.fwmrm.net^*/videoadrenderer.$object,domain=cnbc.com|go.com|nbc.com|nbcnews.com
 @@||adnxs.com/ast/ast.js$domain=zone.msn.com
-@@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com
-@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|mediaite.com|packhacker.com
-@@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com
+@@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
+@@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.kbmax.com^$domain=adspipe.com
 @@||ads.pubmatic.com/adserver/js/$script,domain=zeebiz.com
