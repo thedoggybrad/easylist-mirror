@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4yFgc7ff+IbRuRsMvMdFoQ
-! Version: 202404041031
+! Checksum: Mlzy1l27TbWP5tXz6X6yRA
+! Version: 202404041041
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 04 Apr 2024 10:31 UTC
+! Last modified: 04 Apr 2024 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -25029,9 +25029,9 @@ javbix.com#@#.adsleft
 xda-developers.com#@#.adsninja-ad-zone
 cutepdf-editor.com#@#.adtable
 gigazine.net#@#.adtag
-adamtheautomator.com,mediaite.com,packhacker.com#@#.adthrive
-mediaite.com,packhacker.com#@#.adthrive-content
-mediaite.com,packhacker.com#@#.adthrive-video-player
+adamtheautomator.com,mediaite.com,packhacker.com,packinsider.com#@#.adthrive
+mediaite.com,packhacker.com,packinsider.com#@#.adthrive-content
+mediaite.com,packhacker.com,packinsider.com#@#.adthrive-video-player
 kmsv.jp#@#.adtitle
 brandexperience-group.com#@#.adv-banner
 dobro.systems#@#.adv-box
@@ -79442,9 +79442,9 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 @@||adm.fwmrm.net^*/videoadrenderer.$object,domain=cnbc.com|go.com|nbc.com|nbcnews.com
 @@||adnxs.com/ast/ast.js$domain=zone.msn.com
-@@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com
-@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|mediaite.com|packhacker.com
-@@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com
+@@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
+@@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.kbmax.com^$domain=adspipe.com
 @@||ads.pubmatic.com/adserver/js/$script,domain=zeebiz.com
