@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: lWaQHMwj1U/sXqO7I7Q0UQ
-! Version: 202404051241
+! Checksum: 6MJgZoT+c6PvUW7khvzc7g
+! Version: 202404051251
 ! Title: Latvian List
-! Last modified: 05 Apr 2024 12:41 UTC
+! Last modified: 05 Apr 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=99-latvian-list
 !
 ! Latvian List subscription
 !
 ! *** adblock-latvian:lists/latvian-list.txt ***
-! Last modified: 2024-03-20 14:37 UTC
+! Last modified: 2024-04-05 12:41 UTC
 ! Licence: CC BY-SA 4.0  https://creativecommons.org/licenses/by-sa/4.0/
 !
 ! Lūdzu paziņojiet par nebloķētām reklāmām vai problēmām vienā no šiem veidiem:
@@ -102,6 +102,7 @@
 ||runabildes.lv^*/itro-popup/
 ||runabildes.lv^*/ondo_tapete.jpg
 ||runabildes.lv^*/wpsite-background-takeover/$script
+||salidzini.lv/fallback_
 ||semicom.lv/admin/files/$object
 ||serveris.lv/images/Baners/
 ||signe.lv/userfiles/image/main%20page%20banners/
@@ -372,10 +373,13 @@ rigaslaiks.lv###ctl00_divAd1
 runabildes.lv##div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
 salidzini.lv###AM_bottom
 salidzini.lv###AM_giga
+salidzini.lv###AM_giga_main
 salidzini.lv###AM_mobile_1
 salidzini.lv###AM_scroll_row
 salidzini.lv###AM_tower_div
+salidzini.lv###AM_tower_sub
 salidzini.lv##.item_link[href^="/rekred.php"]
+salidzini.lv##.item_link[href^="/rekred1click"]
 salidzini.lv##[id^="media_place"]
 skaties.lv##[id^="_fw_frame_"]
 spoki.tvnet.lv###spec_head
