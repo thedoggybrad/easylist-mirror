@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XDNL60XACk9tiYzLQnV1mQ
-! Version: 202404050731
+! Checksum: f0EXVHzR9pDkOQvby0fYXw
+! Version: 202404050741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Apr 2024 07:31 UTC
+! Last modified: 05 Apr 2024 07:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24194,13 +24194,11 @@ dzen.ru##div[class^="dzen-mobile__"] > div[id$="-fullscreen"]
 dzen.ru##div[class^="dzen-mobile__topContentBackgroundBottom"]
 dzen.ru##div[style*=" !important; "][style$=" !important;"]
 ! переходы
-&yclid=$popup,domain=dzen.ru
-&yhic=$popup,domain=dzen.ru
-&yhid=$popup,domain=dzen.ru
 =mytarget$popup,domain=dzen.ru
-?yclid=$popup,domain=dzen.ru
-?yhic=$popup,domain=dzen.ru
-?yhid=$popup,domain=dzen.ru
+yclid=$popup,domain=dzen.ru
+yclyd=$popup,domain=dzen.ru
+yhic=$popup,domain=dzen.ru
+yhid=$popup,domain=dzen.ru
 ||t.mail.ru/redir/$popup,domain=dzen.ru
 !
 ! Сайты Блокнота
