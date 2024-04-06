@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202404062007
+! Version: 202404062037
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Apr 2024 20:07 UTC
+! Last modified: 06 Apr 2024 20:37 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -41889,7 +41889,7 @@ jeffs.com,scandinaviansoul.com##.rstboxes
 hangseng.com##.rwd-header-cookie-section
 pdl.co.nz##.s-notification
 sanitas.com##.sanitas-cookie-alert-container
-rk.com##.sc-1ldgmug-0.cKplIS
+bangbros.com,rk.com##.sc-1ldgmug-0.cKplIS
 radio-canada.ca##.sc-1qvf4hb-0
 northflank.com##.sc-3f37244c-0.jMKrJw
 smiteproleague.com##.sc-EHOje
@@ -43240,6 +43240,8 @@ stol.it##div[class^="UpScroll_"]
 ||avis-verifies.com^$third-party
 ||boosterblog.com/ban/$third-party
 ||carrefour.fr/footer-sticky-banner?
+||francetvinfo.fr/assets/common/twig/templates/app-install-banner/
+||francetvinfo.fr/assets/components/shared/alert-info/alert-info-
 ||manga-sanctuary.com/include/ajax/popup_actu.php
 ||onaregarde-pourvous.com/api/$third-party
 ||out.be/widgets/$third-party
@@ -43959,6 +43961,7 @@ homap.fr##.share_content_button
 rtl.fr##.shared-logo
 boursedirect.fr##.slide-share
 phonandroid.com##.social-networks
+francetvinfo.fr##.social-zone__wrapper
 pix-geeks.com##.social_icons
 planetebd.com##.social_network
 20minutes.fr##.socialbar
@@ -44811,6 +44814,7 @@ auto-moto.com##.bloc-netitmail
 paruvendu.fr##.bp14_recevoirannonces
 lesmobiles.com##.c-homepage__newsletter-block
 casting.fr##.casting-card-subscribe-newsletter
+francetvinfo.fr##.content-banner-nl
 justgeek.fr##.cs-entry__subscribe
 doctissimo.fr##.doc-newsletter-banner-wrapper
 pcastuces.com##.inscriptionmail
