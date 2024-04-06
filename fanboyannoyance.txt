@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202404062037
+! Version: 202404062043
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Apr 2024 20:37 UTC
+! Last modified: 06 Apr 2024 20:43 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2193,12 +2193,15 @@ _twitter_follow.
 ###taboola-below-article-thumbnails
 ###taboola-below-article-thumbnails-2
 ###taboola-below-disco-board
+###taboola-below-homepage-thumbnails-2
+###taboola-below-homepage-thumbnails-3
 ###taboola-below-main-column
 ###taboola-belowarticle
 ###taboola-bottom
 ###taboola-bottom-main-column
 ###taboola-div
 ###taboola-homepage-thumbnails
+###taboola-homepage-thumbnails-desktop
 ###taboola-horizontal-toolbar
 ###taboola-in-feed-thumbnails
 ###taboola-mid-main-column-thumbnails
@@ -2216,6 +2219,7 @@ _twitter_follow.
 ##.divider-taboola
 ##.js-taboola
 ##.m-article-taboola
+##.slottaboola
 ##.taboola
 ##.taboola-banner
 ##.taboola-bottom-adunit
@@ -34067,6 +34071,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||sendtonews.com/player/sidebar.php?$third-party
 ! *** easylist:fanboy-addon/fanboy_notifications_thirdparty.txt ***
 ! fanboy_notifications_thirdparty.txt
+! ||staq-cdn.com/grow/$third-party
 ||api-push.com^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
@@ -34095,6 +34100,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||notification-time.com^$third-party
 ||notification.tubecup.net^
 ||notifications.ltd^$third-party
+||notifstation.com^$third-party
 ||notix.io^$third-party
 ||ntvsw.com^$third-party
 ||partishion.com^$third-party
@@ -34164,7 +34170,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ||signaly.co^$third-party
 ||snrcdn.net^$third-party
 ||spacepush.ru^$third-party
-! ||staq-cdn.com/grow/$third-party
 ||system-notify.app^$third-party
 ||topswp.com^$third-party
 ||unative.com^$third-party
@@ -43247,6 +43252,7 @@ stol.it##div[class^="UpScroll_"]
 ||out.be/widgets/$third-party
 ||sibforms.com^$domain=logiciels.pro
 ||societe-des-avis-garantis.fr/wp-content/*/widgets/$third-party
+||static.lpnt.fr/static/js/*/taboola2023.js
 ||tout-sur-le-web.com^$third-party
 ! 
 ! ---------- French Site Specific Hiding Rules ----------
@@ -44800,6 +44806,7 @@ pfister.ch##[class^="style__NewsletterPopupComponent"]
 jeuxvideo-live.com###Newsletters
 lamanchelibre.fr###articleFormNL
 comment-economiser.fr###bloc_newsletter_bas
+lalanguefrancaise.com###bottom_navbar
 fourchette-et-bikini.fr###newsletter-container + #legal-terms
 comment-economiser.fr###newsletter_box
 pcastuces.com###newsletter_descri
@@ -44832,6 +44839,7 @@ mayottehebdo.com##.spu-box
 loractu.fr##.subscribe-nl
 aciafrique.org##.subscribe-post
 vert.eco##.vert-subscribe-aside
+lalanguefrancaise.com##.track-reminder
 maison-travaux.fr##.widget-first
 mayottehebdo.com##aside.widget_custom_html
 rtl.be##box-newsletters
