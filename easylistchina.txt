@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rvuN+50Ep3EP/aoWNNZrSQ
-! Version: 202404070101
+! Checksum: HiMyLXnLOZVLF0lRtwrFcA
+! Version: 202404070111
 ! Title: EasyList China
-! Last modified: 07 Apr 2024 01:01 UTC
+! Last modified: 07 Apr 2024 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2275,6 +2275,7 @@ newduba.cn###jq_youxi
 ||obgekjz.icu^
 ||atzhcjv.xyz^
 ||m6j37.xyz^
+##A[href*=".68hantang.com"]
 ||zopuqv.icu^
 ||zsjpi.cn^
 ||zttuvj.xyz^
@@ -17397,6 +17398,7 @@ guailie.com#@#.google-ad
 !#7
 !#8
 !#91porny.com
+91porny.org###main > div[id^="rd"]
 jiuse.io###main > div[id^="rd"]
 ###playerJsvLayer.jsv-layer
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
