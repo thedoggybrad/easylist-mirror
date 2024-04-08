@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: A28EkIXpdT26VUewtDw0DA
-! Version: 202404081001
+! Checksum: QXBsz2iBbnahlsSsGAEj6A
+! Version: 202404081011
 ! Title: EasyList without rules for adult sites
-! Last modified: 08 Apr 2024 10:01 UTC
+! Last modified: 08 Apr 2024 10:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -63863,6 +63863,7 @@ neatorama.com###Neatorama_300x250_300x600_160x600_BTF
 neatorama.com###Neatorama_300x250_336x280_320x50_Incontent_1
 mainichi.jp###PC-english-rec1
 kohls.com###PDP_monetization_HL
+kohls.com###PMP_monetization_HL
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
 snwa.com###PolicyNotice
@@ -69202,6 +69203,7 @@ neonheightsservers.com##.well:has(ins.adsbygoogle)
 freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing_tag"])
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
+tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
 cargurus.com##[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
 olx.bg,olx.com.br,olx.kz,olx.pl,olx.pt,olx.ro,olx.ua,olx.uz##[data-cy="l-card"]:has([data-testid="adCard-featured"])
@@ -69230,6 +69232,7 @@ bailagentnetwork.com##div.box-bottom:has(a[rel="noopener nofollow"])
 outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
 costco.ca##div.product:has(.criteo-sponsored)
 thebay.com##div.product:has(div.citrus-sponsored)
+meijer.com##div.slick-slide:has(.product-tile__sponsored)
 healthyrex.com##div.textwidget:has(a[rel="nofollow sponsored"])
 bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
 timesnownews.com,zoomtventertainment.com##div:has(> .bggrayAd)
@@ -69271,6 +69274,7 @@ nex-software.com##h4:has(a[href$="/reimage"])
 walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
+kohls.com##li.products_grid:has(p.piq-sponsored)
 streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
 autotrader.co.uk##li:has(section[data-testid="trader-seller-listing"] > span[data-testid="FEATURED_LISTING"])
 autotrader.co.uk##li:has(section[data-testid="trader-seller-listing"] > span[data-testid="PROMOTED_LISTING"])
