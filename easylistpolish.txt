@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NNyoyrCCZrSW8DyZjJFJSA
-! Version: 202404090641
+! Checksum: wwt1rQ1gQmXFYdKP56bb4w
+! Version: 202404090651
 ! Title: EasyList Polish
-! Last modified: 09 Apr 2024 06:41 UTC
+! Last modified: 09 Apr 2024 06:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -380,6 +380,7 @@ supernowosci24.pl##[id^="r-"]
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+-reklama-$domain=tenismagazyn.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -779,7 +780,7 @@ mazovia24.pl##.ROTcarousel
 e-telecom.pl,sklep-militarny.com.pl##.Reklamy
 starachowicka.pl##.SzBBB
 starachowicka.pl##.SzBBB163
-esopot.pl,grudziadz365.pl,gwio.pl,hej.mielec.pl,kolniak24.eu,miastko24.pl,mojakruszwica.pl,myszkow365.pl,naszradziejow.pl,nizanskie.info,pakosc24.pl,plonskwsieci.pl,portalsremski.pl,pulsciechanowa.pl,pulsgminy.pl,sompolno24.pl,tarnowska.pl,tygodnik.pl,uniejow.net.pl,wkikole.pl,wpu24.pl##.TOPNewsB
+esopot.pl,grudziadz365.pl,gwio.pl,hej.mielec.pl,kolniak24.eu,miastko24.pl,mojakruszwica.pl,myszkow365.pl,naszradziejow.pl,nizanskie.info,pakosc24.pl,plonskwsieci.pl,portalsremski.pl,pulsciechanowa.pl,pulsgminy.pl,sompolno24.pl,tarnowska.pl,tygodnik.pl,uniejow.net.pl,wkikole.pl##.TOPNewsB
 lwowecki.info##.TwoInRowCentered
 networkmagazyn.pl##.XadvTop
 kartuzy.info##._ad_loaded
@@ -2477,6 +2478,7 @@ wp.pl#?#IMG:-abp-properties(position: relative;)
 mojaleczyca.pl##.ads
 magazynzuzel.pl##[id^="ceneoaffcontainer"]
 e-lubon.pl##.blix
+gpr24.pl###ad--bill-top
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
