@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: +Jzh+ECwf1DlQNKugvZjTw
-! Version: 202404091341
+! Checksum: dHaMD6XJblHD2YaZiPuXgQ
+! Version: 202404091351
 ! Title: ABP filters
-! Last modified: 09 Apr 2024 13:41 UTC
+! Last modified: 09 Apr 2024 13:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -965,6 +965,7 @@ freshsexvideos.com,sexvideos.rodeo,xxxvideo.link,ixxx.onl,xvideosx.one,xxxpor.or
 porntrex.com#$#abort-on-property-write preventDefault
 lscomic.com#$#abort-on-property-read window.advanced_ads_ready;abort-on-property-write window.advanced_ads_ready_queue;
 aniwatchtv.to#$#abort-current-inline-script document.createElement /break|case/
+||hltv.org^$popup,domain=hltv.org
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -1121,8 +1122,11 @@ justwatch.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-pill")]/div[co
 247spades.com,247solitaire.com#$#override-property-read games247.ads.loadBanner300x250 undefined
 ||*.6ec7e42994.com/*.js^$script,domain=lscomic.com
 ||*.e437040a9a.com/api/senddata?^$xmlhttprequest,domain=porntrex.com
+||js.onclckmn.com/*.js^$script,domain=porntrex.com
 crazygames.com#$#hide-if-matches-xpath './/div[@class][contains(.,"Advertisement") and contains (@style,"width")]/parent::div[1]'
 crazyshit.com#$#abort-on-property-read window.cs.ads
+rakuten.com###second_promo
+rakuten.com#$#hide-if-contains-visible-text /Sponsorisée/ 'div[class*="flex-row"]' 'div[class*="flex"]>span[class*="sponsoredTag"]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
