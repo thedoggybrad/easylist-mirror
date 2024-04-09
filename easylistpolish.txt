@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sPT99YYXr3cCO7FVk82KCw
-! Version: 202404091651
+! Checksum: OIagOdbE675A8ABmkbJpvA
+! Version: 202404091701
 ! Title: EasyList Polish
-! Last modified: 09 Apr 2024 16:51 UTC
+! Last modified: 09 Apr 2024 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -117,7 +117,7 @@ mandarinodesign.eu#@#.reklama
 -banner1.$domain=tu.swinoujscie.pl
 -bannery-$domain=bogaty.men|zarobmy.se
 -fb-baner-$domain=starosadeckie.info
--reklama-$domain=bithub.pl|chelmski.eu|firmy.meblarstwo.eu|golub-cgd.pl|kurekmazurski.pl|nasz-glos.com|ostrodanews.pl|przedsiebiorczepodlasie.pl|radomszczanska.pl|starosadeckie.info|tkaninyobiciowe.eu|tv-pelplin.pl
+-reklama-$domain=bithub.pl|chelmski.eu|firmy.meblarstwo.eu|golub-cgd.pl|kurekmazurski.pl|nasz-glos.com|ostrodanews.pl|przedsiebiorczepodlasie.pl|radomszczanska.pl|starosadeckie.info|tenismagazyn.pl|tkaninyobiciowe.eu|tv-pelplin.pl
 -reklama.$domain=gazeta-mosina.pl|gazetatrybunalska.pl|mojewronki.pl|ostrodanews.pl|pionki24.pl|popradio.pl|przysucha.informator-lokalny.pl|sochaczewianin.pl|tu.swinoujscie.pl
 -reklama_$domain=noworudzianin.pl
 -reklamy-$domain=tu.swinoujscie.pl
@@ -380,7 +380,6 @@ supernowosci24.pl##[id^="r-"]
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
--reklama-$domain=tenismagazyn.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -401,7 +400,7 @@ kobiety-kobietom.com###ReklamaRightBox
 8tvr.pl###SmallAds
 smak-zdrowia.blogspot.com###Text9
 ekorodzice.pl###a_d_billboard
-bbfan.pl,ciechanowinaczej.pl,ddb24.pl,e-sochaczew.pl,egarwolin.pl,goral.info.pl,gryfinska.pl,ibemowo.pl,ibialoleka.pl,ibielany.pl,imokotow.pl,iochota.pl,ipragapolnoc.pl,ipragapoludnie.pl,irembertow.pl,isrodmiescie.pl,itargowek.pl,iursus.pl,iursynow.pl,iwawer.pl,iwesola.pl,iwilanow.pl,iwola.pl,izoliborz.pl,kartuzy.info,konecki24.pl,mylomza.pl,nolesnica.pl,nowagazeta.pl,pulsgdanska.pl,szczecinek.com,tulegnica.pl,zambrow.org,zlotowskie.pl###ad--bill-top
+bbfan.pl,ciechanowinaczej.pl,ddb24.pl,e-sochaczew.pl,egarwolin.pl,goral.info.pl,gpr24.pl,gryfinska.pl,ibemowo.pl,ibialoleka.pl,ibielany.pl,imokotow.pl,iochota.pl,ipragapolnoc.pl,ipragapoludnie.pl,irembertow.pl,isrodmiescie.pl,itargowek.pl,iursus.pl,iursynow.pl,iwawer.pl,iwesola.pl,iwilanow.pl,iwola.pl,izoliborz.pl,kartuzy.info,konecki24.pl,mylomza.pl,nolesnica.pl,nowagazeta.pl,pulsgdanska.pl,szczecinek.com,tulegnica.pl,zambrow.org,zlotowskie.pl###ad--bill-top
 szczecinek.com###ad--bill-top + .grid__row
 24wroclaw.pl###ad--bill-top + div
 fiatklubpolska.pl###ad_global_below_navbar
@@ -858,7 +857,7 @@ panoramakutna.pl##.adnotacja
 tvn.pl,tvn24.pl##.ado-placeholder
 national-geographic.pl##.adrWrapper
 zwierciadlo.pl##.adrek
-24wspolnota.pl,3dwpraktyce.pl,bialasiedzieje.pl,ddbelchatow.pl,fdb.pl,hurtidetal.pl,klodzko24.eu,kodeksymezoamerykanskie.eu,korso.pl,korso24.pl,lublin24.pl,pieniny24.pl,portalplock.pl,rapduma.pl,synonimiczny.pl,tulodz.pl,wpr24.pl##.ads
+24wspolnota.pl,3dwpraktyce.pl,bialasiedzieje.pl,ddbelchatow.pl,fdb.pl,hurtidetal.pl,klodzko24.eu,kodeksymezoamerykanskie.eu,korso.pl,korso24.pl,lublin24.pl,mojaleczyca.pl,pieniny24.pl,portalplock.pl,rapduma.pl,synonimiczny.pl,tulodz.pl,wpr24.pl##.ads
 kutno.net.pl##.ads .slides
 wyborcza.biz,wyborcza.pl##.ads--splint
 zeglarski.info##.ads-block-right
@@ -931,6 +930,7 @@ a6klub.pl##.arek
 niskaemisja.ekoscan.pl##.art-slider
 iswinoujscie.pl##.article ~ .ads
 pomponik.pl##.article-body__ad-gora-srodek
+nowinytyskie.pl##.article-first-paragraph
 naekranie.pl##.article-header [style^=" width: 375"]
 24wspolnota.pl##.article__ad-special
 eska.pl,eskarock.pl,muratordom.pl,muratorplus.pl,poradnikzdrowie.pl,radioplus.pl,urzadzamy.pl,voxfm.pl##.article__placement
@@ -1046,7 +1046,7 @@ portalpszczelarski.pl##.biggDickus
 pcworld.pl##.bilbo_ad
 4trucks.pl##.bilbord
 ddtorun.pl,ddwloclawek.pl,faktypilskie.pl,itvszubin.pl,koronowo.net.pl,koscianiak.pl,naszraciborz.pl,portalzamojski.pl,sieradz.com.pl,teksty.org,traktorpool.pl,twojapogoda.pl,zyciesiedleckie.pl##.billboard
-ciechocinek.biz,ddtorun.pl,dziendobrypomorze.pl,e-golub.info.pl,esopot.pl,faktypilskie.pl,gazetarogozinska.pl,glospowiatusredzkiego.pl,infomogilno24.pl,ipoddebice.pl,ki24.info,koronowo.net.pl,myszkow365.pl,naszpruszcz.pl,nowinykrapkowickie.pl,ostrodaflesz.pl,pakosc24.pl,panoramaplock.pl,pleszew24.info,powiatrawicki.info,prawobrzeze24.pl,pulsciechanowa.pl,pulsgminy.pl,radzyninfo.pl,swiecie24.pl,szemud24.pl,tygodnik.pl,ziemiagorowska.pl,zlomzy.pl##.blix
+ciechocinek.biz,ddtorun.pl,dziendobrypomorze.pl,e-golub.info.pl,e-lubon.pl,esopot.pl,faktypilskie.pl,gazetarogozinska.pl,glospowiatusredzkiego.pl,infomogilno24.pl,ipoddebice.pl,ki24.info,koronowo.net.pl,myszkow365.pl,naszpruszcz.pl,nowinykrapkowickie.pl,ostrodaflesz.pl,pakosc24.pl,panoramaplock.pl,pleszew24.info,powiatrawicki.info,prawobrzeze24.pl,pulsciechanowa.pl,pulsgminy.pl,radzyninfo.pl,swiecie24.pl,szemud24.pl,tygodnik.pl,ziemiagorowska.pl,zlomzy.pl##.blix
 nowa-sprzedaz.pl##.block .auto-pr-block
 grojeckie24.pl##.block-image > .imageblock-image
 terazpasy.pl##.block-type-1-polecane
@@ -1858,6 +1858,7 @@ eostroleka.pl##[id^="baner_A_"]
 www-wykop-pl.translate.goog,wykop.pl##[id^="banner_top_"]
 24starogard.pl##[id^="bannerlistwidget-"]
 sucha24.pl##[id^="bills_in_rotation_"]
+magazynzuzel.pl##[id^="ceneoaffcontainer"]
 mgsm.pl##[id^="comments-leadebaord"]
 telewizja.lukow.pl##[id^="frontpage-area_g_"]
 24gliwice.pl##[id^="gliwi-grid-"]
@@ -2475,10 +2476,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-mojaleczyca.pl##.ads
-magazynzuzel.pl##[id^="ceneoaffcontainer"]
-e-lubon.pl##.blix
-gpr24.pl###ad--bill-top
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
