@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vg7BWmDL0iBq9GxJScChsA
-! Version: 202404110701
+! Checksum: MSzg3rjdlbykzWBgxPConw
+! Version: 202404110721
 ! Title: EasyList Polish
-! Last modified: 11 Apr 2024 07:01 UTC
+! Last modified: 11 Apr 2024 07:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -380,6 +380,8 @@ supernowosci24.pl##[id^="r-"]
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||tenismagazyn.pl^*^porsche-d
+^banner_$domain=wiadomoscizaglebia.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2477,6 +2479,12 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+superchodziez.pl##.blix
+itvszubin.pl##.blix
+gorlice24.pl##.blix
+iloveslubice.pl##[class^="ilove-2023-wpisy-po-"]
+terazgostynin.pl##.ads
+dziennikzwiazkowy.com##.bsaProItems
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
