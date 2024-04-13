@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tfYDbCn0BYR9X6v2DX+q2Q
-! Version: 202404130541
+! Checksum: L4SbRmrlArMXyCOozsJkkg
+! Version: 202404130551
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 13 Apr 2024 05:41 UTC
+! Last modified: 13 Apr 2024 05:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -72164,6 +72164,9 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=vidoza.co|vidoza.net
 @@||ajax.googleapis.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
 @@||cdn.vidoza.co/js/$script,domain=vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
+! megaup.net
+$image,script,third-party,xmlhttprequest,domain=megaup.net
+@@||challenges.cloudflare.com^$domain=download.megaup.net
 ! govid.co
 $script,third-party,xmlhttprequest,domain=govid.co
 @@||ajax.googleapis.com/ajax/libs/$script,domain=govid.co
