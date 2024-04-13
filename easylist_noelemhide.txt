@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bODStdLEC7At5+mzcKYegQ
-! Version: 202404130541
+! Checksum: v71qxUw3w4vnsMjnj1Pfww
+! Version: 202404130551
 ! Title: EasyList without element hiding rules
-! Last modified: 13 Apr 2024 05:41 UTC
+! Last modified: 13 Apr 2024 05:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -49048,6 +49048,9 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=vidoza.co|vidoza.net
 @@||ajax.googleapis.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
 @@||cdn.vidoza.co/js/$script,domain=vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
+! megaup.net
+$image,script,third-party,xmlhttprequest,domain=megaup.net
+@@||challenges.cloudflare.com^$domain=download.megaup.net
 ! govid.co
 $script,third-party,xmlhttprequest,domain=govid.co
 @@||ajax.googleapis.com/ajax/libs/$script,domain=govid.co
