@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202404141134
+! Version: 202404141140
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Apr 2024 11:34 UTC
+! Last modified: 14 Apr 2024 11:40 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -34767,6 +34767,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ||google.com^*/friendconnect.js
 ||jobs.mobilemarketingreads.com^
 ||js.dhresource.com/survey/$domain=dhgate.com
+||kastatic.org/images/donate/$domain=khanacademy.org
+||khanacademy.org/api/internal/graphql/getActiveDonationAsks
 ||neighbourly.co.nz/stuff/
 ||newegg.com/newegg/survey/
 ||planelogger.com/Content/Images/avitop6.gif
@@ -35928,6 +35930,7 @@ scribd.com##div[data-testid="bottom-right-mrec"]
 scribd.com##div[data-testid="sticky-wrapper"]
 softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
+khanacademy.org###donate-banner
 ! Paging overlays (previous/next page)
 archdaily.com###article-navigation
 yourstory.com###article_ribbon_bar
@@ -44816,6 +44819,7 @@ lorientlejour.com##.newsletter-box-container
 leparisien.fr##.nl-article-card
 mariefrance.fr##.nl-social
 homap.fr##.nlregister
+senetic.fr##.nwsBlock
 capital.fr##.pmcInsert
 traxmag.com##.push-subscribe-newsletter-wrapper
 hostinger.fr##.registration-banner__bg
