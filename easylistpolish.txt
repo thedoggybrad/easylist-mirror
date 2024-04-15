@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HbifSMFRPv0zi5xfeUzz2Q
-! Version: 202404151251
+! Checksum: jCDvSisNsio4g4krM7ul9A
+! Version: 202404151311
 ! Title: EasyList Polish
-! Last modified: 15 Apr 2024 12:51 UTC
+! Last modified: 15 Apr 2024 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -406,8 +406,8 @@ szczecinek.com###ad--bill-top + .grid__row
 24wroclaw.pl###ad--bill-top + div
 fiatklubpolska.pl###ad_global_below_navbar
 zycieczestochowy.pl###ad_hype_container
-glamour.pl,kobieta.pl###adl-placement-0-container
-national-geographic.pl,polki.pl,wizaz.pl###adl-placement-0-wrapper
+glamour.pl###adl-placement-0-container
+national-geographic.pl,polki.pl###adl-placement-0-wrapper
 zwolen24.pl###adocr
 swieradowzdroj.pl###ads
 tygodnikszczytno.pl###advBox
@@ -780,7 +780,7 @@ mazovia24.pl##.ROTcarousel
 e-telecom.pl,sklep-militarny.com.pl##.Reklamy
 starachowicka.pl##.SzBBB
 starachowicka.pl##.SzBBB163
-esopot.pl,grudziadz365.pl,gwio.pl,hej.mielec.pl,kolniak24.eu,miastko24.pl,mojakruszwica.pl,myszkow365.pl,naszradziejow.pl,nizanskie.info,pakosc24.pl,plonskwsieci.pl,portalsremski.pl,pulsciechanowa.pl,pulsgminy.pl,sompolno24.pl##.TOPNewsB
+esopot.pl,grudziadz365.pl,gwio.pl,hej.mielec.pl,kolniak24.eu,miastko24.pl,mojakruszwica.pl,myszkow365.pl,naszradziejow.pl,nizanskie.info,pakosc24.pl,plonskwsieci.pl,portalsremski.pl,pulsciechanowa.pl,pulsgminy.pl##.TOPNewsB
 lwowecki.info##.TwoInRowCentered
 networkmagazyn.pl##.XadvTop
 kartuzy.info##._ad_loaded
@@ -2480,6 +2480,11 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+gwe24.pl##.blix
+gostyn24.pl##.blix
+gle24.pl##.blix
+ng24.ie##.container br + a
+jaslo4u.pl##a[title="reklama"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
