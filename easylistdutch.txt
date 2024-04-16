@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5eMYK2PC/3RXdb6mOmdOKQ
-! Version: 202404161511
+! Checksum: wYhX6l/BtaLfMzA4C4e80Q
+! Version: 202404161521
 ! Title: EasyList Dutch
-! Last modified: 16 Apr 2024 15:11 UTC
+! Last modified: 16 Apr 2024 15:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1284,10 +1284,12 @@ feijenoordnieuws.nl##.cv-table-left > a:not([target="_blank"]):not([rel="nofollo
 autobahn.eu#?#.d-none.d-md-block.mb-3:-abp-has(a[target="_blank"][rel="noopener"])
 buienradar.nl#?#.linklist:-abp-has(h1:-abp-contains(Lekker Dichtbij Deals))
 businessinsider.nl#?#.widget_custom_html:-abp-has(h2:-abp-contains(Beter Beleggen))
+mediamarkt.be,mediamarkt.nl#?#[data-index-number]:-abp-contains(Gesponsord)##div[data-test="mms-product-card"]:has(div[data-test="mms-plp-sponsored"])
 geenstijl.nl#?#.article.row.no-image:-abp-has(.row.compost-warn:-abp-contains(- ingezonden mededeling -))
 hardware.info#?#:-abp-properties(content: "Advertentie";)
 linda.nl#?#.article-column_article:-abp-has(.category-label_label:-abp-contains(Advertorial))
 linda.nl#?#.article-row_article:-abp-has(.article-row_category.category-label_label:-abp-contains(Advertorial))
+mediamarkt.be,mediamarkt.nl#?#[data-index-number]:-abp-contains(Gesponsord)
 mnm.be#?#.grid-item.grid-item-pebble:-abp-has(#pebble-label:-abp-contains(Advertentie))
 nieuwsopbeeld.nl#?#.td_module_wrap:-abp-has(.td-post-category:-abp-contains(Gesponsord))
 rtlnieuws.nl#?#.autoscalable-block-wrapper:-abp-has(.entity-block-title:-abp-contains(Van onze partners))
