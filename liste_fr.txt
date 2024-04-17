@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /hAtZZWLWK4TTLJIIi+1ZQ
-! Version: 202404170601
+! Checksum: Loh6h/06Sidu8/lKeL9i1Q
+! Version: 202404170611
 ! Title: Liste FR
-! Last modified: 17 Apr 2024 06:01 UTC
+! Last modified: 17 Apr 2024 06:11 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -20373,6 +20373,7 @@ linfoweb.com#?#tbody:-abp-has(i:-abp-contains(sponsorisé))
 macommune.info#?#.box_article:-abp-has(.is-text-publi-infos)
 macommune.info#?#.widget_article:-abp-has(.title_widget:-abp-contains(/PUBLI INFO|Publi-info/))
 maison-islam.com#?#aside:-abp-has(.widget-title:-abp-contains(Publicité))
+mediamarkt.be#?#[data-index-number]:-abp-contains(Sponsorisé)
 multiup.io#?#.panel-featured-success:has([alt="Usennet.nl"])
 narcity.com#?#.article-thumbnail:-abp-has(a:-abp-contains(/Sponsored|sponsorisé/))
 nextinpact.com#?#.us-bas-ctr:-abp-has(a[href^="https://www.cybertek.fr/"])
