@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7fPTypCFHRG3wFd5yBE/Vg
-! Version: 202404172250
+! Checksum: D1oSCvEpBphVD/RT8qpeiA
+! Version: 202404172301
 ! Title: EasyList without rules for adult sites
-! Last modified: 17 Apr 2024 22:50 UTC
+! Last modified: 17 Apr 2024 23:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17129,6 +17129,7 @@ _800x80_
 ##a[href^="https://startgaming.net/tienda/" i]
 ##a[href^="https://static.fleshlight.com/images/banners/"]
 ##a[href^="https://streamate.com/landing/click/"]
+##a[href^="https://svb-analytics.trackerrr.com/"]
 ##a[href^="https://syndication.dynsrvtbg.com/"]
 ##a[href^="https://syndication.exoclick.com/"]
 ##a[href^="https://syndication.optimizesrv.com/"]
@@ -51585,6 +51586,7 @@ browsershots.org#@#.advert_area
 ||tracker-tds2.site^
 ||tracker19875.space^
 ||tracker2.space^
+||trackerrr.com^
 ||trackeverything.co^
 ||trackingmembers.com^
 ||trackingrouter.com^
@@ -61861,6 +61863,7 @@ browsershots.org#@#.advert_area
 ||tracker-tds.info^$popup
 ||tracker19875.space^$popup
 ||tracker2.space^$popup
+||trackerrr.com^$popup
 ||trackerx.ru^$popup
 ||trackeverything.co^$popup
 ||trackingrouter.com^$popup
@@ -69906,6 +69909,7 @@ dailydooh.com##[id^="rectdiv"]
 daily-choices.com##[id^="sticky_"]
 wuxiaworld.site##[id^="wuxia-"]
 grabcad.com##[ng-if="model.asense"]
+survivopedia.com##[onclick="recordClick("]
 filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 transfermarkt.co.uk##[referrerpolicy]
 appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,thefinancialbrand.com,tld-list.com##[rel*="sponsored"]
