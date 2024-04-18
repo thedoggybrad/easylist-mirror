@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Yv0wACBzAZFqr1pq7phgDA
-! Version: 202404181101
+! Checksum: 8M8eYNjm34Z2gIi8+XbDxA
+! Version: 202404181111
 ! Title: EasyList Dutch
-! Last modified: 18 Apr 2024 11:01 UTC
+! Last modified: 18 Apr 2024 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1017,6 +1017,7 @@ twentefans.nl##.powered-by-footer
 fhm500.nl##.powered_by_page
 fhm500.nl##.powered_by_profile
 marktplaats.nl##.premium-content
+blokker.nl##.product-tile__column--criteo
 fhm500.nl##.profileh_tabac
 dtvnieuws.nl,omroephorstaandemaas.nl,omroepvenlo.nl,roulettefm.nl,rtvstichtsevecht.nl,wos.nl##.prom
 openingsurengids.be##.promSB
@@ -1288,6 +1289,8 @@ autobahn.eu#?#.d-none.d-md-block.mb-3:-abp-has(a[target="_blank"][rel="noopener"
 buienradar.nl#?#.linklist:-abp-has(h1:-abp-contains(Lekker Dichtbij Deals))
 businessinsider.nl#?#.widget_custom_html:-abp-has(h2:-abp-contains(Beter Beleggen))
 mediamarkt.be,mediamarkt.nl#?#[data-index-number]:-abp-contains(Gesponsord)##div[data-test="mms-product-card"]:has(div[data-test="mms-plp-sponsored"])
+fonq.nl#?#[data-cy="plp-tile-container"]:-abp-contains(Gesponsord)
+fonq.nl#?#li:-abp-contains(Gesponsord)
 geenstijl.nl#?#.article.row.no-image:-abp-has(.row.compost-warn:-abp-contains(- ingezonden mededeling -))
 hardware.info#?#:-abp-properties(content: "Advertentie";)
 linda.nl#?#.article-column_article:-abp-has(.category-label_label:-abp-contains(Advertorial))
