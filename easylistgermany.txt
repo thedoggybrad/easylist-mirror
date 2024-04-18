@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202404171649
+! Version: 202404181038
 ! Title: EasyList Germany
-! Last modified: 17 Apr 2024 16:49 UTC
+! Last modified: 18 Apr 2024 10:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5236,6 +5236,7 @@ windowspro.de##.view-idcontent:has(a[href^="/sponsored/"])
 gebrauchtwagenberater.de##.wp-block-group:has(.wp-block-button__link)
 berlinstadtservice.de##.wrap-col.box4:has(a[href^="https://www.awin1.com/"])
 zeit.de##.zett-teaser-trio:has(.zett-teaser-trio__kicker--ad-anzeige)
+flaconi.de##[data-product-list-id]:has([data-badge-type="sponsored"])
 ariva.de##a.background-red-bright:has(span.anzeige)
 shop-apotheke.com##article.o-CompactProductListItem:has(a[href^="https://retail-api.sa-tech.de/api/"])
 finanzen.net##article.page-content__item:has(img[alt="UBS"])
@@ -5260,6 +5261,7 @@ mein-mmo.de##li.article:has([data-type="sponsored"])
 jameda.de##li:has([data-testid="advertisementSign-flag"])
 baur.de##li:has(a[href^="https://b.fr3.eu.criteo.com/rm?"])
 golem.de##li[data-article-id]:has(.icon-addy)
+rewe.de#?#.rs-qa-product:-abp-contains(Gesponsert)
 mein-mmo.de##section.post:has([data-type="sponsored"])
 finanznachrichten.de##tr:has(span.sprite.h-w-c)
 wallstreet-online.de##tr:has(td > .float-end > span[title="Anzeige"])
