@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EOSOFgex6AxJqtmi81O5mQ
-! Version: 202404200621
+! Checksum: vxBpUE4rzEg4Gvo8pF+aQw
+! Version: 202404200631
 ! Title: ABPindo
-! Last modified: 20 Apr 2024 06:21 UTC
+! Last modified: 20 Apr 2024 06:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 20 Apr 2024 00:17 UTC
+! Last modified: 20 Apr 2024 06:22 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 ! 
 ! Please report any unblocked adverts or problems
@@ -595,6 +595,7 @@ anichin.top,kimcilonly.site,kiryuu.id,subindojav.cc##+js(nowoif)
 okezone.com##+js(rc, content-wrap)
 tipsgaptek.com,tipskerja.com##+js(refresh-defuser)
 almaftuchin.com##+js(rmnt, script, adblock)
+wisatalova.com##+js(rmnt, script, hargamenu)
 gramedia.com##+js(rmnt, script, replaceState, condition, shope.ee)
 carisinyal.com##+js(rmnt, script, showModal)
 ! *** abpindo:src/advert/allowlist.txt ***
@@ -645,6 +646,7 @@ carisinyal.com##+js(rmnt, script, showModal)
 @@||pubads.g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=kompas.com
 @@||radarlombok.co.id^$generichide
 @@||razorlink.us^$generichide
+@@||rbreezy.xyz/nativeads-v2.js$script,~third-party
 @@||riauonline.co.id^$generichide
 @@||ryuukoi.web.id^$generichide
 @@||sanjayaops.com^$generichide
@@ -1644,8 +1646,9 @@ dwa21.org##[class*="banner"]
 pojokmanga.org##[class*="popmake"]
 kurina.vip##[class="sc__wrp"]
 jalantikus.com##[class^="ad-"][class*="-container"]
+kompas.tv##[class^="ads-"]
 nontonanimeid.org##[class^="adspost"]
-kompas.tv##[class^=ads-]
+wisatalova.com##[class^="wisat-"]
 neonime.net##[data-src^="https://neonime.net/wp-content/"]:xpath(..)
 mudah.my##[data-testid^="featured-ads"]
 nontoncinema.org##[href$="/referral/nontoncinema"]
@@ -5389,6 +5392,7 @@ leon.bet#@#[href$="/slots"]
 ##[href^="https://jamet138c.me/"]
 ##[href^="https://jayaabadi.pro/"]
 ##[href^="https://menang123-eksis.com"]
+##[href^="https://pinoyslots.ph/"]
 ##[href^="https://playbook-88.site/"]
 ##[href^="https://playbook88hoki.com/"]
 ##[href^="https://ramaibola.com/"]
