@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QOjycK/wN+ov8t1Uc+SIoA
-! Version: 202404201241
+! Checksum: hWxZsmCGQdR2nJ9hLHD0Rg
+! Version: 202404201301
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Apr 2024 12:41 UTC
+! Last modified: 20 Apr 2024 13:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13477,7 +13477,6 @@ isport.ua##.block_top_banner
 armourbook.com#?#.blocklite:-abp-has(> div > [class]:-abp-contains(Реклама))
 pogodavtomske.ru#?#.blockm:-abp-has(> #sela)
 wotspeak.org##.blockmainkv
-turkru.tv##.blockreclam
 unvan.az##.blockreklam
 poltavaforum.com##.blocksubhead.righttb + a[style^="z-index:1000;"]
 wotsite.net##.blog-cat > .box[style^="height:"]
@@ -13828,6 +13827,7 @@ papillomy.com##.content .custom-block
 igra.life#?#.content > #info:nth-of-type(1):-abp-has(> .textos)
 list-org.com#?#.content > .card ~ div:-abp-has(> center > [id^="adfox_"])
 mos.news##.content > .comment-block[style^="margin"]
+seasonvar.one#?#.content > .content-wrap:-abp-has(.pgs-head:-abp-contains(Интересное))
 theins.ru#?#.content > .homepage_widget:-abp-has(.adsbygoogle)
 www.i.ua##.content > .news > div > #news_cont ~ [class]
 poimel.live##.content > .text-block.form-wrap
