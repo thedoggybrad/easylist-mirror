@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P05cmulDNNX+jqvrgQnpbA
-! Version: 202404200011
+! Checksum: ZNmPBypfdWlWeieKY3WBWA
+! Version: 202404200021
 ! Title: ABPindo
-! Last modified: 20 Apr 2024 00:11 UTC
+! Last modified: 20 Apr 2024 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 17 Apr 2024 14:57 UTC
+! Last modified: 20 Apr 2024 00:17 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 ! 
 ! Please report any unblocked adverts or problems
@@ -654,9 +654,7 @@ carisinyal.com##+js(rmnt, script, showModal)
 @@||suarankri.me^$generichide
 @@||tokusatsuindo.com^$generichide
 ! ABP-specific allowlist for network filters
-! #if ext_abp
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=193.142.147.230|ainzscans.net|igobokep.cam|siimanga.cyou
-! #endif
 ! Allowlist for element hiding filters
 woof.tube#@#.adsbox
 datasekolah.co.id,eramuslim.com,mangalist.org,maulandaru.com#@#.adsbygoogle
@@ -1085,6 +1083,7 @@ cinemaindo.web.id,layarkaca21.com,layarkaca21.net,layarkaca21.web.id,lk21.org###
 cinema-indo.com,nonton21.net,nontonmovie.web.id###hbanner:nth-of-type(1)
 bioskopkeren.beauty,bioskopkeren.bond,bioskopkeren.sbs###headads
 indosiar.com###headerbanner
+destinasiwisatamu.blogspot.com###headlineatas
 jenismac.com###hello
 indoxxi.top,indoxxi.tv###home-bnner-content
 indoxxi.top###home-bnner2-content
@@ -5385,6 +5384,7 @@ leon.bet#@#[href$="/slots"]
 ##[href^="http://vn.adnetworks.top/"]
 ##[href^="http://www.eraplay88vip.asia/"]
 ##[href^="https://akslot.io/"]
+##[href^="https://betkk2.com/"]
 ##[href^="https://h5.rp777car.com/"]
 ##[href^="https://jamet138c.me/"]
 ##[href^="https://jayaabadi.pro/"]
@@ -7985,6 +7985,7 @@ leon.bet#@#[href$="/slots"]
 ##a[href^="https://zetapoker99.com"]
 ##a[href^="https://zeuspkv.com"]
 ##img[alt="ASIA77" i]
+##img[alt="BETKK" i]
 ##img[alt="DEWACASH" i]
 ##img[alt="DEWACASINO" i]
 ##img[alt="EraPlay88" i]
