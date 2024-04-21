@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JpS701njDxPdHwVMUrioMQ
-! Version: 202404210901
+! Checksum: mTYkMvsnavRh9m9wLViOsQ
+! Version: 202404210911
 ! Title: EasyList Polish
-! Last modified: 21 Apr 2024 09:01 UTC
+! Last modified: 21 Apr 2024 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -537,7 +537,6 @@ spliff.pl###gkRight
 niedziela.nl,piekarnieonline.pl###gk_banner
 weranda.pl###gl_slot
 popularnie.pl###gold-header
-szukacz.pl###googleContainer
 motocykle125.pl###gp-fixed-padding + center
 motocykle125.pl###gp-footer-area
 przegladkoninski.pl###head_advertise
@@ -780,7 +779,7 @@ mazovia24.pl##.ROTcarousel
 e-telecom.pl,sklep-militarny.com.pl##.Reklamy
 starachowicka.pl##.SzBBB
 starachowicka.pl##.SzBBB163
-esopot.pl,grudziadz365.pl,gwio.pl,hej.mielec.pl,kolniak24.eu,miastko24.pl,mojakruszwica.pl,myszkow365.pl,naszradziejow.pl,nizanskie.info,pakosc24.pl##.TOPNewsB
+esopot.pl,grudziadz365.pl,gwio.pl,hej.mielec.pl,kolniak24.eu,miastko24.pl,mojakruszwica.pl,myszkow365.pl,naszradziejow.pl,nizanskie.info##.TOPNewsB
 lwowecki.info##.TwoInRowCentered
 networkmagazyn.pl##.XadvTop
 kartuzy.info##._ad_loaded
@@ -2487,6 +2486,9 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+gwio.pl##.blix
+naszradziejow.pl##.blix
+hej.mielec.pl##.blix
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
