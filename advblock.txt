@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ogj1mqs2nGU1mrzzcdrqgw
-! Version: 202404210731
+! Checksum: AZ27a9Ltlh4XEXMpAwMfMg
+! Version: 202404210741
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Apr 2024 07:31 UTC
+! Last modified: 21 Apr 2024 07:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22937,6 +22937,7 @@ lada.kz/uploads/banners/
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
+||soyztreid.website^$popup
 ! Liveinternet (ловушка для обфускации)
 ||liveinternet.ru/utf/lici.js?
 !/^https?://www\.liveinternet\.ru/(?!utf\/|q\/js\/|js\/|4Ek/JS/diary/main/nav/regoradd.js|autosave.js|cgi-bin/rpls.fcgi?|ckeditor\/|ckfinder\/|main_new_1251.js|share/js/share.js|spell/spell.js|uploader\/|vbcode.js|vbcode_language.js)/$script,domain=www.liveinternet.ru
