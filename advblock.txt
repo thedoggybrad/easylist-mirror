@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hMow7JuIvpxovJdcYXQw5g
-! Version: 202404221841
+! Checksum: b6d48cDWt4MhzNAb6RXZZg
+! Version: 202404221851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Apr 2024 18:41 UTC
+! Last modified: 22 Apr 2024 18:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22985,7 +22985,7 @@ pikabu.ru##div[style^="width: 300px; height:"]
 liveinternet.ru##style + div > div > div > div > div a
 !#endif
 soyztreid.website##:not(my-obnaruzhili-blokirovshchik)
-||liferoom.net^*.html$third-party,popup
+||liferoom.net^*.$third-party,popup
 ||soyztreid.website^$csp=script-src
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
