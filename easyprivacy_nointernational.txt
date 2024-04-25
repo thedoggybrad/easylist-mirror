@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: QgVWsH5bWcncY5uStvOVbQ
-! Version: 202404251141
+! Checksum: nIjVqA9tXFVs7YO5TdKVvQ
+! Version: 202404251151
 ! Title: EasyPrivacy without international filters
-! Last modified: 25 Apr 2024 11:41 UTC
+! Last modified: 25 Apr 2024 11:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2728,8 +2728,6 @@ _WebVitalsReporter_
 /usage/ReportEvent?
 ! hellofresh / greenchef / everyplate
 /otlp/traces
-! Pinterest
-/_/trace/trace/*
 ! real time web analytics
 /rrweb-script.js
 /rrweb.js
@@ -6522,6 +6520,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pingback.issuu.com^
 ||pingo.staticmoly.me^
 ||pinkvilla.com/comscore_response.php
+||pinterest.com/_/_/$xmlhttprequest
 ||pixel.archive.
 ||pixel.archivecaslytosk.onion^
 ||pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion^
