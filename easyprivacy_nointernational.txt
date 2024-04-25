@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: AmayYtCB0DaNGi8+E1B4dg
-! Version: 202404251131
+! Checksum: QgVWsH5bWcncY5uStvOVbQ
+! Version: 202404251141
 ! Title: EasyPrivacy without international filters
-! Last modified: 25 Apr 2024 11:31 UTC
+! Last modified: 25 Apr 2024 11:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2716,9 +2716,6 @@ _WebVitalsReporter_
 /ls.php?t=
 /track.php?domain=
 /track.php?toggle=
-! pinterest.*
-/ContextLogResource/*
-/statslogresource/*
 ! Amazon
 /ajax/counter?ctr=
 /batch/1/OE/*
@@ -2751,11 +2748,6 @@ _WebVitalsReporter_
 /blink-sw.js
 /PushexSDK.js
 /pushly-sdk.min.js
-! propertyguru fingerprinting
-/pg*.js?PID=$xmlhttprequest
-! Akamai fingerprinting
-! https://publicwww.com/websites/%22_cf.push%22/
-! /^https?:\/\/.*\/(public|resources|static|assets)\/([a-f0-9]){28,30}$/$script,~third-party,xmlhttprequest,domain=~cand.li
 ! Admiral
 /admiral.js
 /js/admiral-
