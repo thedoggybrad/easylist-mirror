@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f24f6H22HxauWOyfZX19FQ
-! Version: 202404251901
+! Checksum: f/TtQJ0ThW7xXvpf1NCpTw
+! Version: 202404251911
 ! Title: EasyList without element hiding rules
-! Last modified: 25 Apr 2024 19:01 UTC
+! Last modified: 25 Apr 2024 19:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -51209,6 +51209,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||www.google.com/ads/preferences/$image,script,subdocument
 @@||yaytrade.com^*/chunks/pages/advert/$~third-party
+@@||yieldlove.com/v2/yieldlove.js$script,domain=whatismyip.com
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
 @@||z.moatads.com^$script,domain=standard.co.uk
 @@||zeebiz.com/ads/$image,~third-party
