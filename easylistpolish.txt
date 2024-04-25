@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tgpK4uC9PnyNTGWMopGZzw
-! Version: 202404250701
+! Checksum: o5NgS/E8vFx4sG9qxcs38A
+! Version: 202404250711
 ! Title: EasyList Polish
-! Last modified: 25 Apr 2024 07:01 UTC
+! Last modified: 25 Apr 2024 07:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -778,7 +778,7 @@ mazovia24.pl##.ROTcarousel
 e-telecom.pl,sklep-militarny.com.pl##.Reklamy
 starachowicka.pl##.SzBBB
 starachowicka.pl##.SzBBB163
-esopot.pl,grudziadz365.pl,gwio.pl,hej.mielec.pl,kolniak24.eu,miastko24.pl,mojakruszwica.pl,myszkow365.pl,naszradziejow.pl##.TOPNewsB
+esopot.pl,grudziadz365.pl,gwio.pl,hej.mielec.pl,kolniak24.eu,miastko24.pl,mojakruszwica.pl,myszkow365.pl##.TOPNewsB
 lwowecki.info##.TwoInRowCentered
 networkmagazyn.pl##.XadvTop
 kartuzy.info##._ad_loaded
@@ -2487,6 +2487,9 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+portalsremski.pl##.blix
+leszno24.pl##.blix
+faktyct.pl##.blix
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
@@ -2525,7 +2528,7 @@ filmy69.pl#?#li.videoblock:-abp-has(script[src^="https://a.realsrv.com/"])
 @@||walbrzych24.com/upload/upload/Bannery_HTML/polityka/index.html|$document,subdocument,domain=walbrzych24.com
 ! *** easylistpolish:easylistpolish/easylistpolish_whitelist_dimensions.txt ***
 ! *** easylistpolish:easylistpolish/easylistpolish_whitelist_popup.txt ***
-@@://adv.$popup,domain=abczdrowie.pl|autokult.pl|echirurgia.pl|fotoblogia.pl|gadzetomania.pl|jejswiat.pl|kafeteria.pl|kardiolo.pl|komorkomania.pl|kowbojki.pl|luxlux.pl|medycyna24.pl|money.pl|nerwica.com|o2.pl|open.fm|parenting.pl|pinger.pl|planowo.pl|pogodnie.pl|pudelek.pl|pudelek.tv|pytamy.pl|samosia.pl|smog.pl|snobka.pl|wp.pl
+@@://adv.$popup,domain=abczdrowie.pl|autokult.pl|echirurgia.pl|fotoblogia.pl|gadzetomania.pl|kafeteria.pl|kardiolo.pl|komorkomania.pl|kowbojki.pl|luxlux.pl|medycyna24.pl|money.pl|nerwica.com|o2.pl|open.fm|parenting.pl|pinger.pl|planowo.pl|pogodnie.pl|pudelek.pl|pudelek.tv|pytamy.pl|samosia.pl|smog.pl|snobka.pl|wp.pl
 @@||allegro.pl^$popup,domain=animezone.pl
 ! *** easylistpolish:easylistpolish_adult/adult_allowlist.txt ***
 ! *** easylistpolish:easylistpolish_adult/adult_allowlist_popup.txt ***
