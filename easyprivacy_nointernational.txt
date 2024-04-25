@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GW2fkBE2g2eTFk8Mwajd8w
-! Version: 202404251221
+! Checksum: ESHhxQIUjRET+eMQ09nEqA
+! Version: 202404251231
 ! Title: EasyPrivacy without international filters
-! Last modified: 25 Apr 2024 12:21 UTC
+! Last modified: 25 Apr 2024 12:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2760,8 +2760,6 @@ _WebVitalsReporter_
 &pagegroup=*&url=$script
 /ajax/eulerian/*
 /eulerian.js
-! clicktripz
-/r/ucb.js$script,~third-party
 ! google tracking
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
