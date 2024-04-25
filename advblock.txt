@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cZbGPwZfZ+WAsa9gzrKumA
-! Version: 202404250551
+! Checksum: g9vfWI8eYA0ZWVTibysqyw
+! Version: 202404250601
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Apr 2024 05:51 UTC
+! Last modified: 25 Apr 2024 06:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19341,6 +19341,7 @@ car72.ru##section > .container-fluid > div[style^="width:"][style$="%"]
 stopgame.ru#?#section > div[class^="_content-wrapper_"]:-abp-has(> div > a[href^="/watch"]) ~ div[class^="_content"] a[href^="/to?http"]
 eanews.ru#?#section > section:-abp-has(> [class^="styled__AdvLink-sc-"])
 shuba.life##section.c-post__full > [style="overflow: hidden;"]
+tengrinews.kz#?#section:-abp-has(> .ya-news)
 internet-technologies.ru##section[class*="related"]
 igromania.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_isFirst"] ~ [class^="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] [class^="TextContent_text"] > p:-abp-contains(/^Реклама:/))
 kanobu.ru#?#section[class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > [class^="MaterialItemPage_materialSection"]:-abp-has(> .knb-grid-container > [data-io-article-url] a[href="/tags/partnyorskij-material/"])
