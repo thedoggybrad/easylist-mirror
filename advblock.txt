@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EHW8R4Be22hrgpK+C6cebw
-! Version: 202404261711
+! Checksum: eQ8a8uRAVg44eyw8Vs13MQ
+! Version: 202404261721
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Apr 2024 17:11 UTC
+! Last modified: 26 Apr 2024 17:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12765,7 +12765,6 @@ yk-news.kz##.adBanner
 fototelegraf.ru##.adOnPostBtwImg
 ngp-ua.info##.ad_260_px
 ninemanga.com##.ad_728_90_page
-youpic.su##.ad_block2
 twizz.ru##.ad_block_inner
 portalvirtualreality.ru##.ad_block_widget
 infectus.ru##.ad_customs
@@ -17289,7 +17288,7 @@ htmlhook.ru##a[href*="regru.net"] > img
 radidomapro.ru##a[href*="report.capinfopro.ru/"][target="_blank"]
 rabota24online.ru##a[href*="rich-birds.org"]
 rosrabota.ru##a[href*="rosrabota.ru/delivery/"] > img
-uniondht.org,youpic.su##a[href*="rutor."]
+uniondht.org##a[href*="rutor."]:not([href*=".rutor.org/"])
 fotoinform.net##a[href*="shop.vmayke.org"]
 1track.ru##a[href*="smarty.sale"]
 gorvesti.ru,pravda.ru,sovsekretno.ru,tverigrad.ru##a[href*="smi2.net/"]
@@ -20005,7 +20004,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /wp-content/uploads/*/kurery*.$image,domain=vb.by
 /wp-content/uploads/*/med.$image,domain=vb.by
 /www/base/*&cb=$domain=namba.kg|namba.tj
-/xvideo.js$domain=anivisual.net|trupornolabs.org|uniondht.org|xxxadulttorrent.org
 /yandex.b.js$script,domain=krossava.ru
 /z.js?$script,domain=all-sci.net|bib.social|economics.studio|economuch.com|finbook.news|lawbook.online|lawbooks.news|lib.sale|medinfo.live|myzooplanet.ru|pravo.studio|provse.news|psihologia.biz|sci-lib.biz|sci.house|scicenter.online|textbooks.studio|uchebnikfree.com|xn--80aaivjfyj3e.com
 /z.mp3|$domain=zagonk.com|zagonka.net|zagonka.tv|zagonko.org|zagonkop.gb.net|zogonka.org
@@ -25902,6 +25900,7 @@ playground.ru##.mezzanine > .mezzanine-center > div:not([class])
 forum.niiot.net##.modal
 2x2tv.ru##.owl-wrapper-outer .slideAlt
 clan-soprano.ru##.popupBlock
+uniondht.org##.post_body > div[style="color:red;font-size:25px;"]
 kodik.info##.second-message
 radioromantika.ru##.showMessageAdBlock
 kg-portal.ru##.social_login > .ulogin ~ .caution
