@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202404272243
+! Version: 202404272254
 ! Title: EasyPrivacy
-! Last modified: 27 Apr 2024 22:43 UTC
+! Last modified: 27 Apr 2024 22:54 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1705,6 +1705,7 @@
 /plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
 /plugins/wordfence/visitor.php?
+/plugins/wp-vgwort/*
 /pmc-cxense.js
 /pointeur.gif?
 /pomegranate.js
@@ -8335,6 +8336,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wecount4u.com^$third-party
 ||welt-der-links.de^$third-party
 ||wipe.de^$~script,third-party
+||wp-worthy.de^$third-party
 ||xcounter.ch^$third-party
 ||xhit.com^$third-party
 ||xplosion.de^$third-party
@@ -49112,6 +49114,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||leipziger-stadtplan.com/t.gif
 ||llntrack.messe-duesseldorf.de^
 ||lokalwerben.t-online.de^
+||mat.ukraine-nachrichten.de^
 ||metrics.n-tv.de^
 ||mlm-tracking-service.meinestadt.de^
 ||moviepilot.de/assets/autotrack-
