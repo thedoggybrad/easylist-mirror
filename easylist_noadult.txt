@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: McHK5wgJH/7H8x5xyAz9+g
-! Version: 202404272301
+! Checksum: VVlFp2jxl0xN04k503kjRQ
+! Version: 202404272311
 ! Title: EasyList without rules for adult sites
-! Last modified: 27 Apr 2024 23:01 UTC
+! Last modified: 27 Apr 2024 23:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -67126,6 +67126,7 @@ empireonline.com##.article_adContainer--filled__vtAYe
 pianu.com##.article_add
 empireonline.com##.article_billboard__X_edx
 ubergizmo.com##.article_card_promoted
+indiatimes.com##.article_first_ad
 wikiwand.com##.article_footerStickyAd__wvdui
 news18.com##.article_mad
 wikiwand.com##.article_sectionAd__rMyBc
@@ -70625,6 +70626,7 @@ spin.com##div[id*="-promo-mrec-"]
 chrome-stats.com##div[id*="billboard_responsive"]
 thenewspaper.gr##div[id*="thene-"]
 diskingdom.com##div[id="diski-"]
+thewire.in##div[id^="ATD_"]
 geeksforgeeks.org##div[id^="GFG_AD_"]
 kisshentai.net,onworks.net##div[id^="ad"]
 songlyrics.com##div[id^="ad-absolute-160"]
@@ -70670,6 +70672,8 @@ nashfm100.com##div[onclick*="https://deucepub.com/"]
 forums.pcsx2.net##div[onclick^="MyAdvertisements."]
 ezgif.com##div[style$="min-height:90px;display:block"]
 kuncomic.com##div[style*="height: 2"][style*="text-align: center"]
+news18.com##div[style*="min-height"][style*="background"]
+news18.com##div[style*="min-height"][style*="justify-content:center;"]
 news18.com##div[style*="min-height: 250px"]
 footballtransfers.com##div[style*="min-height: 250px;"]
 news18.com##div[style*="min-height: 527px"]
@@ -70802,6 +70806,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shred
 tempostorm.com##side-banners
 smartprix.com##sm-dap
 nativeplanet.com##span[class^="oiad-txt"]
+thewire.in##span[style*="background: rgb(232, 233, 237); text-align: center;"]
 fxempire.com##span[style="user-select:none"]
 torlock.com##table.hidden-xs
 realitytvworld.com##table[border="0"][align="left"]
