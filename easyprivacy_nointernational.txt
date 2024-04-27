@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4vE3E4mZK2Y7M0OwkxI9dw
-! Version: 202404272231
+! Checksum: KTx+hbJsmfOU6MvSB2rZxg
+! Version: 202404272241
 ! Title: EasyPrivacy without international filters
-! Last modified: 27 Apr 2024 22:31 UTC
+! Last modified: 27 Apr 2024 22:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5099,6 +5099,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trustarc.com/log?
 ||trustcommander.net/iab-tcfapi/
 ||trustedform.com/trustedform.js?provide_referrer
+||trustmary.io/agg-event
 ||trustpilot.com/stats/
 ||trx-cdn.zip.co^
 ||trx.zip.co^
@@ -41878,6 +41879,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||signalshares.com/webtrends.min.js$script,~third-party
 @@||simcotools.app/assets/adsense-*.js$~third-party
+@@||simpleanalyticsexternal.com^$script,domain=inleo.io
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||sohotheatre.com^*/PageView.js$~third-party
