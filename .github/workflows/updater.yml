@@ -32,7 +32,7 @@ jobs:
 
       - name: Sync fanboy-cookiemonster.txt
         run: |
-          curl -sSfL https://easylist-downloads.adblockplus.org/fanboy-cookiemonster.txt > easycookie.txt
+          curl -sSfL https://secure.fanboy.co.nz/fanboy-cookiemonster.txt > easycookie.txt
           git add easycookie.txt
           git diff-index --quiet HEAD || git commit -m "Sync fanboy-cookiemonster.txt" || true
           git push
