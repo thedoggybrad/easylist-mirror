@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: pVWveGzH7COt+cKec649HA
-! Version: 202404291121
+! Checksum: vnuWjJYqjWOMdjLUc66ncA
+! Version: 202404291131
 ! Title: ABP filters
-! Last modified: 29 Apr 2024 11:21 UTC
+! Last modified: 29 Apr 2024 11:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -961,7 +961,7 @@ eporner.com#$#override-property-read exo99HL3903jjdxtrnLoad null; abort-on-prope
 freshsexvideos.com,sexvideos.rodeo,xxxvideo.link,ixxx.onl,xvideosx.one,xxxpor.org,xmxx.live#$#cookie-remover tgpOut; abort-current-inline-script document.querySelectorAll popMagic; override-property-read setTimeout noopFunc;
 porntrex.com#$#abort-on-property-write preventDefault
 lscomic.com#$#abort-on-property-read window.advanced_ads_ready;abort-on-property-write window.advanced_ads_ready_queue;
-aniwatchtv.to#$#abort-current-inline-script document.createElement /break|case/
+aniwatchtv.to,kunmanga.com#$#abort-current-inline-script document.createElement /break|case/
 hltv.org#$#abort-on-property-read window.open
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
