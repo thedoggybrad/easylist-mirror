@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GuLdATJMrHBKjz33/NN3Fg
-! Version: 202404291111
+! Checksum: 04UAJNq1robnonX83QvyDg
+! Version: 202404291121
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Apr 2024 11:11 UTC
+! Last modified: 29 Apr 2024 11:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13520,7 +13520,6 @@ zagorod.spb.ru##.bnrobject
 akak.ru##.bnrs
 sexvideobaza.net##.bns-bl
 orki.ru##.bnz_horizontal
-rusfootball.info##.board_side > noindex
 staforceteam.ru##.boardlistInner[style="background-image: url(/logo/Standart/TemaLine2.png); background-repeat: repeat-y"]
 primpogoda.ru##.bober
 newsru.com##.body-page-right-column > div[align="center"]
@@ -15526,7 +15525,7 @@ seetv.tv##.right_bar > .reklama_b
 elbruso.ru##.right_col > div[style^="margin-top"]
 noob-club.ru##.right_col_bamboo
 cofp.ru#?#.right_coll > .moduletable:-abp-has(> h3:-abp-contains(Рекламные ссылки))
-fanday.net##.right_colum > section:first-child > .colum_widget_block_header
+fanday.net##.right_colum > section:first-child
 egamersworld.com##.right_column > .bets + .side_bookmakers
 raskraska.com##.right_column > noindex
 otzyvua.net##.right_column_one > div[class^="mainblock h"]
@@ -15598,7 +15597,6 @@ medside.ru##.rusfond-block
 stroy.ykt.ru##.s-slider
 map.cn.ua##.sModuleContent
 latifundist.com##.sa_widget
-fanday.net##.sadfd
 sport-express.ua##.sadse
 nastroyvse.ru#?#.saitbar_bock:-abp-has(.mpwidget)
 autosakhcom.ru,sakh.com,sakh.name##.sakhui-b
@@ -16182,8 +16180,6 @@ autodmir.ru##.top_banner_hidder
 artofcare.ru,forum.fonarevka.ru,twogarin.info##.top_banners
 simhost.org##.top_bg > a
 greenpost.ua##.top_blogger_banner
-fanday.net##.top_bookmaker_w
-fanday.net##.top_bookmaker_w ~ .colum_widget_block_fl
 pressball.by##.top_brand
 tut.by##.top_brand_links
 delovoigorod.ru##.top_bun
@@ -16875,7 +16871,7 @@ radidomapro.ru##[id^="zone_pub"]
 sm.news##[itemprop="articleBody"] > [id][class]:empty
 nashamama.com#?#[itemprop="articleBody"] > p:-abp-contains(/ТЬСЯ ТАКОЖ/i)
 fedpress.ru##[itemtype*="://schema.org/NewsArticle"] .article-box + div[style="padding: 10px"]
-itsider.com.ua,mmr.net.ua,obozvrn.ru,rama.com.ua,subbota.ua,youtebem.com##[itemtype="https://schema.org/WPAdBlock"]
+itsider.com.ua,mmr.net.ua,obozvrn.ru,rama.com.ua,rusfootball.info,subbota.ua,youtebem.com##[itemtype="https://schema.org/WPAdBlock"]
 cheezu.ru##[jello-component="yamarket"]
 livejournal.com##[lj0sale0autoplay0dockable0video0mount]
 egamersworld.com##[name="odds"]
@@ -20733,7 +20729,6 @@ lada.kz/uploads/banners/
 ||factroom.ru/brands/
 ||fairtop.in/image/upload/
 ||fakty.ua/js/_d.js
-||fanday.net/img/sadfd/
 ||fans-fcsm.ru/block.js
 ||fapl.ru/upload/fapl_$subdocument
 ||faspiic.ru/js/go_re.js
