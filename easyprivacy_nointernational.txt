@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: y7mz/+SeI7QwUw1aVneT0Q
-! Version: 202404302111
+! Checksum: 742r9XRy4c76eETXGY1FWA
+! Version: 202404302121
 ! Title: EasyPrivacy without international filters
-! Last modified: 30 Apr 2024 21:11 UTC
+! Last modified: 30 Apr 2024 21:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41768,9 +41768,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
 @@||kaptcha.com/collect/sdk?$domain=palmettostatearmory.com|wyze.com
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
-@@||kilimall.co.ke/sensorsdata.min.js$~third-party
 @@||kilimall.co.tz/sensorsdata.min.js$~third-party
-@@||kilimall.com&*/js/sensorsdata.min.js$script,domain=kilimall.co.ke
+@@||kilimall.com*/js/sensorsdata.min.js$script,domain=kilimall.co.ke
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
