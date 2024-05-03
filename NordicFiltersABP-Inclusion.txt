@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: trcnoabii8PEekqo35KX0w
-! Version: 202405030031
+! Checksum: 7t/pcmTvHRt2mhMX3odY7A
+! Version: 202405030041
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 May 2024 00:31 UTC
+! Last modified: 03 May 2024 00:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7289,7 +7289,6 @@ srk.fi#@##CookielawBanner
 /ad.min.
 /ad/a.aspx?
 /ad/banners/*
-/ad/common_
 /ad/dfp/*
 /ad/err?
 /ad/getban?
@@ -7327,7 +7326,7 @@ srk.fi#@##CookielawBanner
 /ad_header.js
 /ad_home.js
 /ad_images/*
-/ad_img/*
+/ad_img/*$image
 /ad_label_
 /ad_left.
 /ad_manager/*
@@ -7419,7 +7418,7 @@ srk.fi#@##CookielawBanner
 /ads/300.
 /ads/acctid=
 /ads/banner-
-/ads/banners/*
+/ads/banners/*$image
 /ads/bottom.
 /ads/bottom/*
 /ads/cbr.
@@ -7469,7 +7468,6 @@ srk.fi#@##CookielawBanner
 /ads/v2/*
 /ads/video/*
 /ads/view.php
-/ads/view/*
 /ads/www/*
 /ads/xtcore.
 /ads/yahoo/*
@@ -7572,7 +7570,7 @@ srk.fi#@##CookielawBanner
 /adv_2.
 /adv_468.
 /adv_468_
-/adv_ads_
+/adv_ads_v3/relatedAds/*
 /adv_banner_
 /adv_box_
 /adv_out.js
@@ -7680,12 +7678,10 @@ srk.fi#@##CookielawBanner
 /banner.asp?$third-party
 /banner.cgi?
 /banner.php
-/banner/ad/*
 /banner/ad_
 /banner/ads/*
 /banner/affiliate/*
 /banner/html/zone?zid=
-/banner/sponsor_
 /banner/sponsors.
 /banner_468.
 /banner_ad_
@@ -7962,7 +7958,6 @@ srk.fi#@##CookielawBanner
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
 /nativead.
-/nativead/*
 /nativeads-v2.js
 /nativeads.js
 /nativeads/*
@@ -8007,7 +8002,6 @@ srk.fi#@##CookielawBanner
 /partner-ad-
 /Partner_Ad/*
 /partner_ads/*
-/partner_ads_
 /partnerad.
 /partnerads/*
 /partnerads_
@@ -8306,14 +8300,13 @@ srk.fi#@##CookielawBanner
 /videoads/*
 /videojs.ads-
 /videojs.sda.js
-/view/ad/*
+/view/ad/*$subdocument
 /view/ads/*
 /view_banner.php
 /viewad.asp
 /viewad.php
 /virtuagirl/*
 /virtuagirlhd.
-/virtualgirl/*
 /web/ads/*
 /web_ads/*
 /webads.htm
@@ -8376,7 +8369,6 @@ srk.fi#@##CookielawBanner
 /xpopup.js
 /yhs/ads?
 /yume_ad_library_
-/zanox/banner/*
 /zcredirect?
 /zcvisitor/*
 /zergnet_ad/*
@@ -8691,7 +8683,7 @@ _prebid8.
 /adblock_logger.
 /adblockdetect.
 /adblockdetection.
-/adBlockDetector/*
+/adBlockDetector/*$script
 /adblocker-leader.
 /adBlockerTrack_
 /adblockkiller.
