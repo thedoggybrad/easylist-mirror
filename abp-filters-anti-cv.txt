@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: iPgaGkaCCL6pWysdnJYeGA
-! Version: 202405031631
+! Checksum: gI5SHPOTaUxARMRpgk1y5g
+! Version: 202405031641
 ! Title: ABP filters
-! Last modified: 03 May 2024 16:31 UTC
+! Last modified: 03 May 2024 16:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -780,6 +780,7 @@ topwwnews.com#$#abort-on-property-read localStorage
 ! #CV-697
 thetrendspotter.net,theavtimes.com#$#abort-on-property-read advads_passive_ads
 ! #CV-782
+music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 ! Fallback
 youtube.com##div #main-container.style-scope.ytd-promoted-video-renderer
 youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
