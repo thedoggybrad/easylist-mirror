@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vR8YI+ueaWdD3d/cLz4EUQ
-! Version: 202405051211
+! Checksum: FAWoSiHgyQ+39PMvQjKo4A
+! Version: 202405051221
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 05 May 2024 12:11 UTC
+! Last modified: 05 May 2024 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -78814,6 +78814,7 @@ dailydooh.com##[id^="rectdiv"]
 daily-choices.com##[id^="sticky_"]
 wuxiaworld.site##[id^="wuxia-"]
 grabcad.com##[ng-if="model.asense"]
+buzzheavier.com##[onclick="downloadAd()"]
 survivopedia.com##[onclick="recordClick("]
 filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 transfermarkt.co.uk##[referrerpolicy]
