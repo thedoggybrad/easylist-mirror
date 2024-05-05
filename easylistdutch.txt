@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: paPjF6rgFg7V5rI3cQk2UQ
-! Version: 202405051330
+! Checksum: Fhg68I/GfaveVVFn6lz+ZA
+! Version: 202405051341
 ! Title: EasyList Dutch
-! Last modified: 05 May 2024 13:30 UTC
+! Last modified: 05 May 2024 13:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1298,7 +1298,7 @@ feijenoordnieuws.nl##.cv-table-left > a:not([target="_blank"]):not([rel="nofollo
 autobahn.eu#?#.d-none.d-md-block.mb-3:-abp-has(a[target="_blank"][rel="noopener"])
 buienradar.nl#?#.linklist:-abp-has(h1:-abp-contains(Lekker Dichtbij Deals))
 businessinsider.nl#?#.widget_custom_html:-abp-has(h2:-abp-contains(Beter Beleggen))
-mediamarkt.be,mediamarkt.nl#?#[data-index-number]:-abp-contains(Gesponsord)##div[data-test="mms-product-card"]:has(div[data-test="mms-plp-sponsored"])
+mediamarkt.be,mediamarkt.nl##div[data-test="mms-product-card"]:has(div[data-test="mms-plp-sponsored"])
 fonq.nl#?#[data-cy="plp-tile-container"]:-abp-contains(Gesponsord)
 fonq.nl#?#li:-abp-contains(Gesponsord)
 geenstijl.nl#?#.article.row.no-image:-abp-has(.row.compost-warn:-abp-contains(- ingezonden mededeling -))
