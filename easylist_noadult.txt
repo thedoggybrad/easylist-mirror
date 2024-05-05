@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ODrce8w2C+5+1MpeI9Vh5w
-! Version: 202405050521
+! Checksum: YEIVe73prDstu5L9asTL+Q
+! Version: 202405050531
 ! Title: EasyList without rules for adult sites
-! Last modified: 05 May 2024 05:21 UTC
+! Last modified: 05 May 2024 05:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -337,7 +337,6 @@
 /ads/sponsor
 /ads/square-
 /ads/square.
-/ads/taboola/*
 /ads/top-
 /ads/top.
 /ads/tracker/*
@@ -529,7 +528,7 @@
 /app/manga/themes/*/ads/pop.js
 /apu.php?
 /arcads.js
-/asset/ad/*
+/asset/ad/*$image
 /assets/ads/*$~image,domain=~outlook.live.com
 /asyncjs.php
 /asyncspc.php
@@ -624,7 +623,7 @@
 /css/ads-
 /css/adsense.
 /css/adv.
-/curveball/ads/*
+/curveball/ads/*$image
 /custom_ads.js
 /data-file_123.js
 /deliverad/fc.js
@@ -653,7 +652,6 @@
 /dynamicad?
 /easyazon-
 /ec5bcb7487ff.js
-/embed/ad/*
 /embed_ad.php
 /ero-ads_
 /ero.htm
@@ -765,7 +763,7 @@
 /index_ad/*
 /index_ads.js
 /infinity.js.aspx?
-/inhouse_ads/*
+/inhouse_ads/*$image
 /inlineads.aspx
 /insertads.js
 /internAds.css
@@ -955,8 +953,7 @@
 /prism_ad/*$script
 /processing/impressions.asp?
 /production/ad-
-/production/ads/*
-/promo/ad_
+/production/ads/*$script
 /promo/ads/*
 /promo/affiframe.
 /PromosAds/*
@@ -1038,7 +1035,6 @@
 /select_adv?
 /servead/request/*
 /serveads.php
-/service/ad/*
 /service/ads/*
 /service/adv/*
 /servlet/view/*
@@ -1091,14 +1087,12 @@
 /sponsor-links.html
 /sponsorad.jpg
 /sponsorad.png
-/sponsorads/*
 /sponsorbanners/*
 /sponsored-links-
 /sponsored-links.
 /sponsored-links/*
 /sponsored-widget
 /sponsored_ad.
-/sponsored_ad/*
 /sponsored_ads/*
 /sponsored_link.
 /sponsored_links_
@@ -1484,6 +1478,7 @@ _widget_ad.
 /gpt_and_prebid/*
 /pbjsandwich-
 /pbjsandwich.
+/plugins/prebidjs/*
 /porpoiseant/*
 /prebid-js-
 /prebid-min-
@@ -1505,7 +1500,6 @@ _widget_ad.
 /prebid_$script,third-party
 /prebid_v4.
 /prebidAdcall.
-/prebidjs/*
 /prebidLibrary.
 /prebidlink/*
 /prodprebidheader-
