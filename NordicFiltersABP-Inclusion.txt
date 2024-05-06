@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uZd8mvTg6lquBTnm1kRM0Q
-! Version: 202405060351
+! Checksum: XAoNh7b1i3zwirgAWVl+HQ
+! Version: 202405060401
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 06 May 2024 03:51 UTC
+! Last modified: 06 May 2024 04:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7292,7 +7292,6 @@ srk.fi#@##CookielawBanner
 /ad/dfp/*
 /ad/err?
 /ad/getban?
-/ad/html/*
 /ad/image/*
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
@@ -7301,7 +7300,6 @@ srk.fi#@##CookielawBanner
 /ad/popup.
 /ad/skin-
 /ad/skin_
-/ad/sponsors/*
 /ad/view/*
 /ad300.jpg
 /ad300.js
@@ -7458,6 +7456,7 @@ srk.fi#@##CookielawBanner
 /ads/sponsor
 /ads/square-
 /ads/square.
+/ads/targeted|
 /ads/top-
 /ads/top.
 /ads/tracker/*
@@ -7855,7 +7854,6 @@ srk.fi#@##CookielawBanner
 /hserver/channel=
 /hserver/site=
 /ht.js?site_
-/html/ad/*
 /html/ads/*
 /image/ad/*
 /image/ads/*
@@ -7869,7 +7867,7 @@ srk.fi#@##CookielawBanner
 /images/adv/*
 /images/adz/*
 /images2/Ads/*$image
-/img/ad/*$image
+/img/ad/*$~xmlhttprequest
 /img/aff/*
 /img_ad/*
 /in/show/?mid=$third-party
@@ -7880,7 +7878,7 @@ srk.fi#@##CookielawBanner
 /index-ad.jpg
 /index-ad.js
 /index-ad.png
-/index_ad/*
+/index_ad/*$image
 /index_ads.js
 /infinity.js.aspx?
 /inhouse_ads/*$image
@@ -7967,7 +7965,6 @@ srk.fi#@##CookielawBanner
 /oncc-ad.js
 /openads.js
 /owa.MessageAdList.
-/p2/ads/*
 /p8network.js
 /p?zoneId=
 /page-ads-
@@ -8055,7 +8052,6 @@ srk.fi#@##CookielawBanner
 /popunder7.min.js
 /popunder?
 /popunderjs/*
-/popunders/*
 /popup-domination/*$~stylesheet
 /popup2.js
 /popup3.js
@@ -8064,6 +8060,7 @@ srk.fi#@##CookielawBanner
 /popup_code.php
 /popupads.js
 /popupunder.js
+/prbt/v1/ads/?
 /prebid-video.js
 /prehead/ads_detect.js
 /prerollad.
@@ -8077,8 +8074,8 @@ srk.fi#@##CookielawBanner
 /PromosAds/*
 /promotools.
 /proxyadcall?
-/public/ad/*
-/public/ads/*
+/public/ad/*$image
+/public/ads/*$image
 /publicidad.$~object,~stylesheet
 /publicidad/*
 /publicidad_$~stylesheet
@@ -8112,7 +8109,7 @@ srk.fi#@##CookielawBanner
 /ren.gif?
 /report_ad.js
 /resources/ads/*
-/responsive/ad_
+/responsive/ad_$subdocument
 /responsive_ads.js
 /right-ad-
 /right_ad.
@@ -8188,7 +8185,7 @@ srk.fi#@##CookielawBanner
 /skyadright.
 /skyscraper_ad_
 /skyscraperad.
-/slide_in_ads_
+/slide_in_ads_close.gif
 /slider_ad.js
 /sliderad.js
 /small_ad.
@@ -8252,7 +8249,6 @@ srk.fi#@##CookielawBanner
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
-/v1/ads/*
 /v2/a/pop/*
 /v2/a/push/js/*
 /v3/ads/*
