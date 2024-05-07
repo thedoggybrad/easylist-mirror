@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ki2AErPWSmV7HiFnmYe/oQ
-! Version: 202405071741
+! Checksum: JwYEiTg9N9UxShkpVL98bA
+! Version: 202405071751
 ! Title: EasyList Portuguese
-! Last modified: 07 May 2024 17:41 UTC
+! Last modified: 07 May 2024 17:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -416,6 +416,8 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||ad.lomadee.com^$third-party
 ||ad.lomadee.fun^
 ||azioncdn.net/ads_videos/$domain=letras.mus.br
+||cworks.cloud/fileadmin/scripts/r7AdControl.js$domain=tnh1.com.br
+||cworks.cloud/fileadmin/scripts/r7PubliDesktop.js$domain=tnh1.com.br
 ||dino.com.br/widget/$third-party
 ||formulanegocioonline.digital/marca-trafego/$third-party
 ||go.hotmart.com^$third-party
@@ -1048,6 +1050,7 @@ maisesports.com.br##.sc-af71c8f-3
 solutudo.com.br##.section-banner-arroba
 cointelegraph.com.br##.sidebar__promo-button
 97news.com.br##.sidebar_widget_banner
+tnh1.com.br##.single-publicidade
 diarioimobiliario.pt##.singlePub
 slatual.com.br##.slider_banner_sidebar
 jornalcidademg.com.br##.slides
