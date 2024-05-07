@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wDXcAnRbqC9Y68Ckb+wUCg
-! Version: 202405070500
+! Checksum: hJlgXOlnC9xpgMMr6/1e1A
+! Version: 202405070511
 ! Title: EasyList Polish
-! Last modified: 07 May 2024 05:00 UTC
+! Last modified: 07 May 2024 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -142,7 +142,6 @@ app.freshmail.com#@#.advertisement-content
 ^areklamy^$domain=e-lokalne.pl
 ^ban^$domain=kopaczka.pl
 ^bananer^$domain=sportowebeskidy.pl
-^baner%$domain=podkarpackahistoria.pl
 ^baner-$domain=allebiznes.pl|centrumdruku3d.pl|cksport.pl|cowkrakowie.pl|cowwilanowie.pl|crypto-trader.pl|echokamienia.pl|firmy.meblarstwo.eu|genetyczne.pl|gloskoninski.pl|gorydlaciebie.pl|hi-fi.com.pl|iloveslubice.pl|infokatowice.pl|infokonin.pl|infomalopolska.pl|jazdaprawna.pl|kaszuby24.pl|kk24.pl|limanowianin.in|linia.com.pl|luzyce.info|magazynvip.pl|materialybudowlane.info.pl|mazopolska.pl|miastokobiet.pl|mysnet.pl|naszosie.pl|naszsrem.pl|niezaleznemediapodlasia.pl|obiektysakralne.pl|ostrodanews.pl|oswiecim112.pl|oto-samochody.pl|plotkibiznesowe.pl|polskacanada.com|portalkujawski.pl|portalwolow.pl|powrotroberta.pl|przeglad-sejnenski.pl|przewodnicywedkarscy.pl|radomsport.pl|regionalna.pl|rynekinwestycji.pl|sochaczewianin.pl|starosadeckie.info|szczecinek.com|tarnobrzeskie.eu|tv28.pl|tvbraniewo24.pl|twojaslupca.pl|tygodnik-rolniczy.pl|tygodnikkrag.pl|tygodnikpiski.pl|tylkotorun.pl|tyna.info.pl|whitemad.pl|wiadomosci.com|wiecbork112.pl|wirtualnelegionowo.pl|wirtualnemazowsze24.pl|wirtualnynowydwor.pl|wolanie.info|zkaszub.info|zwrotnikraka.pl|zyciezamoscia.pl
 ^baner^$domain=bielsko.info|biif.pl|bukowinatatrzanska.pl|chojnice.com|enowiny.pl|info.stargard.pl|ipon.pl|lubliniec.info|megacennik.eu|mojreprap.pl|nowiny.rybnik.pl|pfm.pl|progressforpoland.com|progressforpoland.org|przyjaznawarszawa.pl|pszczyna.tv|sennik-mistyczny.pl|sportslaski.pl|tarnowskiegory24.info|tygodnik-krapkowicki.info|zw.pl
 ^baner_$domain=7dni.pila.pl|archeton.pl|asystentbhp.pl|bloog.pl|chcemybycrodzicami.pl|chelsea24news.pl|chemiaibiznes.com.pl|chorzowianin.pl|cksport.pl|czestochowskie24.pl|dzierzgon-twojemiasto.pl|e-pingpong.pl|extra.info.pl|forumfajerwerki.pl|fresh-market.pl|futbolfejs.pl|gazetacz.com.pl|gazetagazeta.com|gazetka.be|gielda-koni.com.pl|glogow-info.pl|glosmordoru.pl|grapplerinfo.pl|info.stargard.pl|infofordon.pl|infokatowice.pl|jaw.pl|jazdaprawna.pl|kurier-kolski.pl|kurierostrowski.pl|kurierzamojski.pl|legitymizm.org|lexus-forum.pl|magazynregionalny.pl|materialybudowlane.info.pl|meteoprog.pl|miedzyzdroje.tv|mojeniemcy.de|nakolei.pl|nanarty.info|nowawrzesnia.pl|podgorze.pl|podlaskieagro.pl|polacywewloszech.com|poligonowewiesci.pl|portalkosmiczny.pl|przemyskie.info|przewodnicywedkarscy.pl|ptvr.pl|radiopiekary.pl|radioradom.pl|radomsport.pl|rdn.pl|regionalna.pl|sad24.pl|sporteuro.pl|sweetwedding.pl|swiatoze.pl|swidnik.pl|tc.ciechanow.pl|thinkapple.pl|tvostrow.pl|tw-24.pl|tygodnik-krapkowicki.info|tygodnik-rolniczy.pl|tygodnikmakowski.pl|tygodnikprzasnyski.com.pl|urodaizdrowie.pl|vwgolf.pl|wdrawskupomorskim.pl|wiadomosci.rii.pl|wiatriwoda.pl|widzewtomy.net|wieliczkacity.pl|wirtualnelegionowo.pl|wirtualnynowydwor.pl|zapytam.com|zkaszub.info|zpazurem.pl|zyciezamoscia.pl
@@ -506,7 +505,6 @@ waw4free.pl###detal_top
 deepl.com###dl_app_banner_popup
 tcz.pl###dynamic-load
 tcz.pl###dynamic-loading
-slowotrojmiasta.pl###efaro-widget
 hrubieszow.info###endo_wrc_widget-2
 goniecpolski.nl###execphp-2
 chemiabudowlana.info###fadeinbox
@@ -2490,6 +2488,7 @@ wp.pl#?#IMG:-abp-properties(position: relative;)
 wpu24.pl##.blix
 hej.rzeszow.pl##.blix
 lowiczanin.info##.blix
+polska-morska.pl##a[href^="https://www.lotto.pl/"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
