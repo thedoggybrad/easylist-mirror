@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405070100
+! Version: 202405070105
 ! Title: Fanboy's Social Blocking List
-! Last modified: 07 May 2024 01:00 UTC
+! Last modified: 07 May 2024 01:05 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -10807,6 +10807,7 @@ _twitter_follow.
 ##.tru_youtube
 ##.ts-facebook_like
 ##.ts-share-bar
+##.ts-social
 ##.ts-socials
 ##.tsocial
 ##.tsso_likeshare_box
@@ -12835,7 +12836,7 @@ byjus.com,homemark.co.za,malaymail.com,maxabout.com,news24.com,politico.eu,thepo
 ! ! .share-links
 ansa.it,cryptopotato.com,eff.org,ewn.co.za,hannity.com,jurist.org,lagaceta.com.ec,menselijklichaam.nl,miragenews.com,mobilesyrup.com,mole24.it,sampdoria.it,upcomingvinyl.com,vivercomsaude.site##.share-links
 ! ! .share-buttons
-adressa.no,alwatanvoice.com,apk4free.org,auto-moto.com,bank.gov.ua,criminaljusticedegreehub.com,datingscammer.info,design-milk.com,diariolasamericas.com,diariouno.com.ar,exputer.com,ff-bz.com,gamosaurus.com,hardwaretimes.com,investigativepost.org,letrap.com.ar,mediaplaynews.com,metro.co.uk,nbcbayarea.com,nbcboston.com,nbcchicago.com,nbcconnecticut.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com,necn.com,olhardigital.com.br,pastebin.pl,psychologies.com,psychologytoday.com,robbreport.com,spy.com,telemundo20.com,telemundo31.com,telemundo33.com,telemundo40.com,telemundo47.com,telemundo48elpaso.com,telemundo49.com,telemundo51.com,telemundo52.com,telemundo62.com,telemundoareadelabahia.com,telemundoarizona.com,telemundochicago.com,telemundodallas.com,telemundodenver.com,telemundofresno.com,telemundohouston.com,telemundolasvegas.com,telemundonuevainglaterra.com,telemundonuevomexico.com,telemundopr.com,telemundosanantonio.com,telemundoutah.com,telemundowashingtondc.com,tenor.com,thecradle.co,vlaamskijken.nl##.share-buttons
+adressa.no,alwatanvoice.com,animecenterbr.com,apk4free.org,auto-moto.com,bank.gov.ua,criminaljusticedegreehub.com,datingscammer.info,design-milk.com,diariolasamericas.com,diariouno.com.ar,exputer.com,ff-bz.com,gamosaurus.com,hardwaretimes.com,investigativepost.org,letrap.com.ar,mediaplaynews.com,metro.co.uk,nbcbayarea.com,nbcboston.com,nbcchicago.com,nbcconnecticut.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com,necn.com,olhardigital.com.br,pastebin.pl,psychologies.com,psychologytoday.com,robbreport.com,spy.com,telemundo20.com,telemundo31.com,telemundo33.com,telemundo40.com,telemundo47.com,telemundo48elpaso.com,telemundo49.com,telemundo51.com,telemundo52.com,telemundo62.com,telemundoareadelabahia.com,telemundoarizona.com,telemundochicago.com,telemundodallas.com,telemundodenver.com,telemundofresno.com,telemundohouston.com,telemundolasvegas.com,telemundonuevainglaterra.com,telemundonuevomexico.com,telemundopr.com,telemundosanantonio.com,telemundoutah.com,telemundowashingtondc.com,tenor.com,thecradle.co,vlaamskijken.nl##.share-buttons
 ! ! .ActionBar
 10news.com,aboutamazon.co.uk,aboutamazon.com,aboutamazon.de,aboutamazon.it,adn40.mx,chronicle.com,deseret.com,iowapublicradio.org,ktvq.com,laist.com,nepm.org,suntimes.com,tvazteca.com,vanidades.com,washingtonexaminer.com,wgbh.org##.ActionBar
 ! ! .social
@@ -13576,7 +13577,9 @@ estudokids.com.br##.compartilhe
 globo.com##.container-card-follow-me
 gazetaweb.com##.content-share
 meiahora.com.br##.content-shares
+jovempan.com.br##.cta-model
 superesportes.com.br##.docs
+supertvaovivo.co##.entry-share-link
 poder360.com.br##.fixed-list
 portalrapmais.com##.flex.gap-2.justify-center.border-b.border-\[\#ebebeb\].mb-3\.5.pb-3\.5
 oantagonista.com.br##.footer-content__social
@@ -13599,6 +13602,7 @@ suno.com.br##.newsContent__article__meta__socials
 noticiasaominuto.com##.nm-fb-share
 noataque.com.br##.noticia-share
 recordeuropa.com##.partilha
+cmjornal.pt##.partilhas
 mercadowebminas.com.br##.post-sharing-menu
 jornaldocomercio.com,tvcultura.com.br##.redes
 portaldozacarias.com.br##.redes-socias-noticia
@@ -13614,8 +13618,10 @@ esquerdaonline.com.br##.social-icons-colunist
 esquerdaonline.com.br##.social-icons-post
 redebrasilatual.com.br##.social-wrapper
 cnnbrasil.com.br##.social__footer
+record.pt##.social_stick
 meiobit.com##.socialfloating
 nsctotal.com.br##.sociallink
+cmjornal.pt##.subscrever_whatsapp
 jn.pt##.t-article-footer-bar-1
 dinheirovivo.pt,tsf.pt##.t-f-bar-apps
 terra.com.br##.t360-sharebar__wrapper
