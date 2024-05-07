@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tadPBglBYDibidWpAs6Idw
-! Version: 202405070030
+! Checksum: FaLQIUsbPub7fMofOxCR2g
+! Version: 202405070041
 ! Title: EasyList without rules for adult sites
-! Last modified: 07 May 2024 00:30 UTC
+! Last modified: 07 May 2024 00:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -70900,6 +70900,7 @@ independent.co.uk##.bXYFQI.dAHemH
 haveibeenpwned.com##.bodyGradient > :has(.why1Password)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
 slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
+homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
 tvinsider.com#@#.cnx-player-wrapper
 asda.com##.co-item:has(.co-item__sponsored-label)
