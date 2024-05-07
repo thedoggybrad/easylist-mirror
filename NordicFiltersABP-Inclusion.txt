@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Bjhd6xS7jkH7QKGHyFiBOg
-! Version: 202405070641
+! Checksum: AzFheBAiaLKOuDZnaEQJ3A
+! Version: 202405070651
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 May 2024 06:41 UTC
+! Last modified: 07 May 2024 06:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -23965,6 +23965,7 @@ _800x80_
 ! shopee.cl,shopee.cn,shopee.co.id,shopee.co.th.. https://github.com/easylist/easylist/pull/16659
 ##.shopee-search-user-brief
 ! Ads for parked domains https://github.com/easylist/easylist/commit/f96a71b82c
+##a[href*="&maxads="]
 ##a[href*=".cfm?domain="][href*="&fp="]
 ! CitrusAd
 ##.CitrusBannerWrapper--enollj
@@ -64467,6 +64468,7 @@ browsershots.org#@#.advert_area
 ||ahvclick.com^$third-party
 ||aim4media.com^$third-party
 ||ainsyndication.com^$third-party
+||airfind.com^$third-party
 ||akavita.com^$third-party
 ||aklamator.com^$third-party
 ||alienhub.xyz^$third-party
