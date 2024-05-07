@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mBz0IUWqwSpozX82nS/eow
-! Version: 202405071001
+! Checksum: M/VIZSB552K5u6+XXHvphQ
+! Version: 202405071011
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 May 2024 10:01 UTC
+! Last modified: 07 May 2024 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7292,7 +7292,7 @@ srk.fi#@##CookielawBanner
 /ad/dfp/*
 /ad/err?
 /ad/getban?
-/ad/image/*
+/ad/image/*$image
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
 /ad/imp?
@@ -7591,7 +7591,6 @@ srk.fi#@##CookielawBanner
 /advertisingWebRenderer.min.js
 /advertisment-
 /advertisment/*$~image
-/advertisment_
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
 /adverts_
@@ -7607,7 +7606,7 @@ srk.fi#@##CookielawBanner
 /aff-ads.
 /aff/ads_
 /aff/banners/*
-/aff/images/*
+/aff/images/*$image
 /aff_ad?$script
 /aff_banner/*
 /aff_banners/*
@@ -7680,7 +7679,6 @@ srk.fi#@##CookielawBanner
 /banner/html/zone?zid=
 /banner/sponsors.
 /banner_468.
-/banner_ad_
 /banner_ads/*
 /banner_ads_
 /bannerad.
@@ -7789,7 +7787,6 @@ srk.fi#@##CookielawBanner
 /exports/tour_20/*
 /extban/*/creatives/*
 /external/ad.
-/external/ad/*
 /external/ads/*
 /external_ad?
 /external_ads.
@@ -7804,7 +7801,6 @@ srk.fi#@##CookielawBanner
 /fload.js
 /float-ads/*
 /float_ad.js
-/floatad_
 /floatads.
 /floating-ad-
 /floatingad.js
@@ -7825,7 +7821,6 @@ srk.fi#@##CookielawBanner
 /forum/ads_
 /fro_lo.js
 /froloa.js
-/frontend/ads/*
 /frontend_loader.js
 /ftt2/js.php
 /funcript*.php?pub=
@@ -7855,9 +7850,8 @@ srk.fi#@##CookielawBanner
 /hserver/site=
 /ht.js?site_
 /html/ads/*
-/image/ad/*
+/image/ad/*$image
 /image/ads/*
-/image/ads_
 /image/affiliate/*
 /image_ads/*
 /imageads/*
@@ -8003,7 +7997,7 @@ srk.fi#@##CookielawBanner
 /pfe/current/*
 /php/ad/*
 /phpads/*
-/phpadsnew/*
+/phpadsnew/*$image,script
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
@@ -8267,7 +8261,6 @@ srk.fi#@##CookielawBanner
 /video-ads-player.
 /video-js-ads.
 /video.ads.
-/video/ad/*
 /video/ads/*
 /video_ad.
 /video_ad_
@@ -72589,6 +72582,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||eevblog.com/images/comm/$image
 ||elil.cc/pdev/
 ||elil.cc/reqe.js
+||elpais.com.co/js/frontend/ads/
 ||emoneyspace.com/b.php
 ||engagesrvr.filefactory.com^
 ||engine.fxempire.com^
@@ -72753,6 +72747,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||kta.etherscan.com^
 ||lagacetanewspaper.com/wp-content/uploads/banners/
 ||lasentinel.net/static/img/promos/
+||latestlaws.com/frontend/ads/
 ||lespagesjaunesafrique.com/bandeaux/
 ||lifehack.org/Tm73FWA1STxF.js
 ||linkedin.com/tscp-serving/
