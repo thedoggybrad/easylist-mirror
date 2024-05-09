@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mlR2WThWjc8wqoZoo4q4bw
-! Version: 202405091421
+! Checksum: GwKnG8jpdGBu2h6t9uShhA
+! Version: 202405091431
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 May 2024 14:21 UTC
+! Last modified: 09 May 2024 14:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7490,7 +7490,7 @@ srk.fi#@##CookielawBanner
 /ads_footer.
 /ads_frame.
 /ads_iframe.
-/ads_image/*
+/ads_image/*$image
 /ads_images/*
 /adsAPI.js
 /adsbanner-
@@ -7569,7 +7569,7 @@ srk.fi#@##CookielawBanner
 /advert?
 /advertbanner.
 /advertising/banner_
-/advertising/banners/*
+/advertising/banners/*$image
 /advertisingWebRenderer.min.js
 /advertisment-
 /advertisment/*$~image
@@ -7793,7 +7793,6 @@ srk.fi#@##CookielawBanner
 /footerads.
 /footerads/*
 /forum/ads/*
-/forum/ads_
 /fro_lo.js
 /froloa.js
 /frontend_loader.js
@@ -7837,7 +7836,7 @@ srk.fi#@##CookielawBanner
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
 /img/aff/*
-/img_ad/*
+/img_ad/*$image,domain=~daily.co.jp|~ehonnavi.net
 /in/show/?mid=$third-party
 /include/ad/*
 /include/ad_
@@ -7903,7 +7902,6 @@ srk.fi#@##CookielawBanner
 /mnpw3.js
 /mobile-ad.
 /mobile_ad.
-/mobile_ad/*
 /mobileads.
 /mod_pagepeel_banner/*
 /module-ads-html-$script
@@ -8032,7 +8030,6 @@ srk.fi#@##CookielawBanner
 /production/ads/*$script
 /promo/ads/*
 /promo/affiframe.
-/PromosAds/*
 /promotools.
 /proxyadcall?
 /public/ad/*$image
@@ -8129,7 +8126,7 @@ srk.fi#@##CookielawBanner
 /sidebar-ad-
 /sidebar_ad.jpg
 /sidebar_ad.png
-/sidebar_ads/*
+/sidebar_ads/*$~xmlhttprequest
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
 /size=*/random=*/viewid=
@@ -8207,7 +8204,6 @@ srk.fi#@##CookielawBanner
 /ut.js?cb=
 /utx?cb=$third-party
 /v2/a/push/js/*
-/v3/ads/*
 /v3/ads?
 /v5/ads/*
 /v7/ads/*
