@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: z6U2zeURtSa5JXgsX9hGzg
-! Version: 202405090841
+! Checksum: XCZ0c1/dYo+bb/iicnML2g
+! Version: 202405090851
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 May 2024 08:41 UTC
+! Last modified: 09 May 2024 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7269,6 +7269,7 @@ srk.fi#@##CookielawBanner
 /a/display.php?$script
 /ab_fl.js$script
 /ablck/frolod.js
+/AC_OETags.js
 /ad--unit.htm
 /ad-125.
 /ad-468-
@@ -7306,7 +7307,7 @@ srk.fi#@##CookielawBanner
 /ad?type=
 /ad_728.jpg
 /ad_728.js
-/ad_banner/*
+/ad_banner/*$image,domain=~ccf.com.cn
 /ad_bottom.jpg
 /ad_bottom.js
 /ad_break?
@@ -7482,7 +7483,6 @@ srk.fi#@##CookielawBanner
 /ads_160_
 /ads_300.
 /ads_300_
-/ads_728_
 /ads_and_amp/*
 /ads_assets/*
 /ads_banners/*
@@ -7510,7 +7510,6 @@ srk.fi#@##CookielawBanner
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver1.
 /adserver2.
-/adserver2/*
 /adserver3.
 /adserver?
 /adserving.
@@ -7595,15 +7594,15 @@ srk.fi#@##CookielawBanner
 /aff/banners/*
 /aff/images/*$image
 /aff_ad?$script
-/aff_banner/*
-/aff_banners/*
+/aff_banner/*$image
+/aff_banners/*$image
 /affad?
 /affads/*
 /affbanner/*
 /affbanners/*
 /affiliate/ad/*$image
 /affiliate/ads/*$image
-/affiliate/banner/*
+/affiliate/banner/*$image
 /affiliate/banners/*$image
 /affiliateads/*
 /affiliates/banner
@@ -7695,7 +7694,6 @@ srk.fi#@##CookielawBanner
 /bsa-pro-scripteo/frontend/js/script.js
 /btag.min.js$third-party
 /buysellads.js
-/call/pubif/*
 /call/pubj/*
 /callAdserver?
 /cgi-bin/ad/*
@@ -7716,7 +7714,6 @@ srk.fi#@##CookielawBanner
 /common_ad.js
 /concert_ads-
 /content-ads.js
-/content/ad/*
 /content/ads/*$~xmlhttprequest
 /core-ads.js
 /couponAd.php
@@ -7961,7 +7958,6 @@ srk.fi#@##CookielawBanner
 /pageear.js
 /pageear/*
 /pagepeel.
-/pagepeel/*
 /pagepeelpro.js
 /partner-ad-
 /partner_ads/*
@@ -7978,7 +7974,6 @@ srk.fi#@##CookielawBanner
 /peelad/*
 /peelads/*
 /pfe/current/*
-/php/ad/*
 /phpads/*
 /phpadsnew/*$image,script
 /phpbb_ads/*
