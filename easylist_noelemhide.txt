@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Kle9Cvv69lyAKrpj5aG5ag
-! Version: 202405091421
+! Checksum: UpqviqYy+anjw94YY+ToDA
+! Version: 202405091431
 ! Title: EasyList without element hiding rules
-! Last modified: 09 May 2024 14:21 UTC
+! Last modified: 09 May 2024 14:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -369,7 +369,7 @@
 /ads_footer.
 /ads_frame.
 /ads_iframe.
-/ads_image/*
+/ads_image/*$image
 /ads_images/*
 /adsAPI.js
 /adsbanner-
@@ -448,7 +448,7 @@
 /advert?
 /advertbanner.
 /advertising/banner_
-/advertising/banners/*
+/advertising/banners/*$image
 /advertisingWebRenderer.min.js
 /advertisment-
 /advertisment/*$~image
@@ -672,7 +672,6 @@
 /footerads.
 /footerads/*
 /forum/ads/*
-/forum/ads_
 /fro_lo.js
 /froloa.js
 /frontend_loader.js
@@ -716,7 +715,7 @@
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
 /img/aff/*
-/img_ad/*
+/img_ad/*$image,domain=~daily.co.jp|~ehonnavi.net
 /in/show/?mid=$third-party
 /include/ad/*
 /include/ad_
@@ -782,7 +781,6 @@
 /mnpw3.js
 /mobile-ad.
 /mobile_ad.
-/mobile_ad/*
 /mobileads.
 /mod_pagepeel_banner/*
 /module-ads-html-$script
@@ -911,7 +909,6 @@
 /production/ads/*$script
 /promo/ads/*
 /promo/affiframe.
-/PromosAds/*
 /promotools.
 /proxyadcall?
 /public/ad/*$image
@@ -1008,7 +1005,7 @@
 /sidebar-ad-
 /sidebar_ad.jpg
 /sidebar_ad.png
-/sidebar_ads/*
+/sidebar_ads/*$~xmlhttprequest
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
 /size=*/random=*/viewid=
@@ -1086,7 +1083,6 @@
 /ut.js?cb=
 /utx?cb=$third-party
 /v2/a/push/js/*
-/v3/ads/*
 /v3/ads?
 /v5/ads/*
 /v7/ads/*
