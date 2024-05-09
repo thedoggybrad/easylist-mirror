@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BYbfFwnEBEtENVKo9M8J+Q
-! Version: 202405090951
+! Checksum: TM7GwzO3U8rPeRltiHa85Q
+! Version: 202405091001
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 May 2024 09:51 UTC
+! Last modified: 09 May 2024 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7263,7 +7263,7 @@ srk.fi#@##CookielawBanner
 /?view=ad
 /_adslot/*
 /_xa/ads?
-/_xa/ads_
+/_xa/ads_batch?
 /a-ads.$third-party
 /a/?ad=
 /a/display.php?$script
@@ -7454,7 +7454,6 @@ srk.fi#@##CookielawBanner
 /ads/targeted|
 /ads/top-
 /ads/top.
-/ads/tracker/*
 /ads/tso
 /ads/v/*
 /ads/v2/*
@@ -7469,7 +7468,6 @@ srk.fi#@##CookielawBanner
 /ads4.
 /ads468.
 /ads468x60.
-/ads468x60_
 /ads728.
 /ads728x90.
 /ads?apid
@@ -7483,7 +7481,6 @@ srk.fi#@##CookielawBanner
 /ads_160_
 /ads_300.
 /ads_300_
-/ads_and_amp/*
 /ads_assets/*
 /ads_banners/*
 /ads_bg.
@@ -7513,7 +7510,7 @@ srk.fi#@##CookielawBanner
 /adserver3.
 /adserver?
 /adserving.
-/adserv|*|adtech;
+/adsforwp-front.min.css
 /adsheader.
 /adsimage/*
 /adsimages/*
@@ -7974,7 +7971,7 @@ srk.fi#@##CookielawBanner
 /peelad/*
 /peelads/*
 /pfe/current/*
-/phpads/*
+/phpads/adx.js
 /phpadsnew/*$image,script
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
@@ -8004,7 +8001,6 @@ srk.fi#@##CookielawBanner
 /plugins/mts-wp-in-post-ads/*
 /plugins/page-cornr-
 /plugins/popunderpro/*
-/plugins/thirstyaffiliates/*
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
@@ -8049,7 +8045,7 @@ srk.fi#@##CookielawBanner
 /publicidad/*
 /publicidad_$~stylesheet
 /publicidade.
-/publicidade/*
+/publicidade/*$~xmlhttprequest
 /publicidades/*$~xmlhttprequest
 /puff_ad?
 /punder.php
@@ -8181,7 +8177,7 @@ srk.fi#@##CookielawBanner
 /sponsoredlinks.
 /sponsoredlinks/*
 /sponsoredlinks?
-/sponsors/ads/*
+/sponsors/ads/*$image
 /squaread.jpg
 /squaread.js
 /static.ad.
@@ -8214,7 +8210,6 @@ srk.fi#@##CookielawBanner
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
-/v2/a/pop/*
 /v2/a/push/js/*
 /v3/ads/*
 /v3/ads?
@@ -8248,7 +8243,7 @@ srk.fi#@##CookielawBanner
 /viewad.php
 /virtuagirlhd.
 /web/ads/*
-/web_ads/*
+/web_ads/*$image
 /webads.htm
 /webads.jpg
 /webads.js
@@ -8280,6 +8275,7 @@ srk.fi#@##CookielawBanner
 /wp-content/plugins/platinumpopup/*
 /wp-content/plugins/popad/*
 /wp-content/plugins/the-moneytizer/*
+/wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-ad-guru/*
 /wp-content/plugins/wp-super-popup-pro/*
@@ -8296,7 +8292,6 @@ srk.fi#@##CookielawBanner
 /wppas.min.js
 /wpxbz-theme.js
 /wrapper/ads/*
-/www/ad_
 /www/deliver/*
 /www/deliverx/*
 /www/delivery/*
@@ -76292,6 +76287,7 @@ fastestvpns.com##.custom-banner
 dexscreener.com##.custom-d7ztiy
 addictivetips.com,coinweek.com,news365.co.za,simscommunity.info##.custom-html-widget
 patriotnewsfeed.com##.custom-html-widget [href] > [src]
+thestudentroom.co.uk##.custom-jucdap
 breakingnews.ie##.custom-mpu-container
 ehitavada.com##.custom-popup
 fandomwire.com##.customad
