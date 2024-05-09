@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nkk428ZiEPzWvSHYCqC9Bw
-! Version: 202405090951
+! Checksum: 5V+Hc+Hclq6ZqzDqyZmpOg
+! Version: 202405091001
 ! Title: EasyList without rules for adult sites
-! Last modified: 09 May 2024 09:51 UTC
+! Last modified: 09 May 2024 10:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -142,7 +142,7 @@
 /?view=ad
 /_adslot/*
 /_xa/ads?
-/_xa/ads_
+/_xa/ads_batch?
 /a-ads.$third-party
 /a/?ad=
 /a/display.php?$script
@@ -333,7 +333,6 @@
 /ads/targeted|
 /ads/top-
 /ads/top.
-/ads/tracker/*
 /ads/tso
 /ads/v/*
 /ads/v2/*
@@ -348,7 +347,6 @@
 /ads4.
 /ads468.
 /ads468x60.
-/ads468x60_
 /ads728.
 /ads728x90.
 /ads?apid
@@ -362,7 +360,6 @@
 /ads_160_
 /ads_300.
 /ads_300_
-/ads_and_amp/*
 /ads_assets/*
 /ads_banners/*
 /ads_bg.
@@ -392,7 +389,7 @@
 /adserver3.
 /adserver?
 /adserving.
-/adserv|*|adtech;
+/adsforwp-front.min.css
 /adsheader.
 /adsimage/*
 /adsimages/*
@@ -853,7 +850,7 @@
 /peelad/*
 /peelads/*
 /pfe/current/*
-/phpads/*
+/phpads/adx.js
 /phpadsnew/*$image,script
 /phpbb_ads/*
 /pioneersuspectedjury.com/*
@@ -883,7 +880,6 @@
 /plugins/mts-wp-in-post-ads/*
 /plugins/page-cornr-
 /plugins/popunderpro/*
-/plugins/thirstyaffiliates/*
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
@@ -928,7 +924,7 @@
 /publicidad/*
 /publicidad_$~stylesheet
 /publicidade.
-/publicidade/*
+/publicidade/*$~xmlhttprequest
 /publicidades/*$~xmlhttprequest
 /puff_ad?
 /punder.php
@@ -1060,7 +1056,7 @@
 /sponsoredlinks.
 /sponsoredlinks/*
 /sponsoredlinks?
-/sponsors/ads/*
+/sponsors/ads/*$image
 /squaread.jpg
 /squaread.js
 /static.ad.
@@ -1093,7 +1089,6 @@
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
-/v2/a/pop/*
 /v2/a/push/js/*
 /v3/ads/*
 /v3/ads?
@@ -1127,7 +1122,7 @@
 /viewad.php
 /virtuagirlhd.
 /web/ads/*
-/web_ads/*
+/web_ads/*$image
 /webads.htm
 /webads.jpg
 /webads.js
@@ -1159,6 +1154,7 @@
 /wp-content/plugins/platinumpopup/*
 /wp-content/plugins/popad/*
 /wp-content/plugins/the-moneytizer/*
+/wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-ad-guru/*
 /wp-content/plugins/wp-super-popup-pro/*
@@ -1175,7 +1171,6 @@
 /wppas.min.js
 /wpxbz-theme.js
 /wrapper/ads/*
-/www/ad_
 /www/deliver/*
 /www/deliverx/*
 /www/delivery/*
@@ -67692,6 +67687,7 @@ fastestvpns.com##.custom-banner
 dexscreener.com##.custom-d7ztiy
 addictivetips.com,coinweek.com,news365.co.za,simscommunity.info##.custom-html-widget
 patriotnewsfeed.com##.custom-html-widget [href] > [src]
+thestudentroom.co.uk##.custom-jucdap
 breakingnews.ie##.custom-mpu-container
 ehitavada.com##.custom-popup
 fandomwire.com##.customad
