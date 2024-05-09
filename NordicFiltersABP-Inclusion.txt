@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LHkQMXwS/ci9nx9s+suIOw
-! Version: 202405090431
+! Checksum: ZZjhjvi7/36Tg/luTckhJQ
+! Version: 202405090441
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 May 2024 04:31 UTC
+! Last modified: 09 May 2024 04:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7471,7 +7471,6 @@ srk.fi#@##CookielawBanner
 /ads468x60_
 /ads728.
 /ads728x90.
-/ads728x90_
 /ads?apid
 /ads?callback
 /ads?client=
@@ -7533,7 +7532,6 @@ srk.fi#@##CookielawBanner
 /adsservice.
 /adstracking.
 /adstream.
-/adstream_
 /adswrapper.
 /ads~adsize~
 /adtech;
@@ -7603,8 +7601,8 @@ srk.fi#@##CookielawBanner
 /affads/*
 /affbanner/*
 /affbanners/*
-/affiliate/ad/*
-/affiliate/ads/*
+/affiliate/ad/*$image
+/affiliate/ads/*$image
 /affiliate/banner/*
 /affiliate/banners/*$image
 /affiliateads/*
@@ -7664,7 +7662,7 @@ srk.fi#@##CookielawBanner
 /banner.php
 /banner/ad_
 /banner/ads/*
-/banner/affiliate/*
+/banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
 /banner_468.
@@ -7930,7 +7928,7 @@ srk.fi#@##CookielawBanner
 /nativead.
 /nativeads-v2.js
 /nativeads.js
-/nativeads/*
+/nativeads/script/*
 /nativebanner/ane-native-banner.js
 /nb/frot_lod.js
 /neverblock/*
@@ -8067,7 +8065,7 @@ srk.fi#@##CookielawBanner
 /railad.jpg
 /RdmAdFeed.js
 /rdrr/renderer.js
-/realmedia/ads/*
+/RealMedia/ads/adstream_
 /redirect/?spot_id=
 /redirect?tid=
 /reklam.$domain=~github.com|~reklam.com.tr
@@ -8227,7 +8225,6 @@ srk.fi#@##CookielawBanner
 /v3/ads?
 /v5/ads/*
 /v7/ads/*
-/v9/adv/*
 /valnet-header-ads.
 /vast/?zid=
 /velvet_stack_cmp.js
@@ -8254,7 +8251,6 @@ srk.fi#@##CookielawBanner
 /view_banner.php
 /viewad.asp
 /viewad.php
-/virtuagirl/*
 /virtuagirlhd.
 /web/ads/*
 /web_ads/*
@@ -8306,7 +8302,6 @@ srk.fi#@##CookielawBanner
 /wpxbz-theme.js
 /wrapper/ads/*
 /www/ad_
-/www/ads/*
 /www/deliver/*
 /www/deliverx/*
 /www/delivery/*
