@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PlMb7yAnHQQjzStQ2hYwZQ
-! Version: 202405101011
+! Checksum: HJC6kDmZlacEPI4ofAyhGQ
+! Version: 202405101020
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 10 May 2024 10:11 UTC
+! Last modified: 10 May 2024 10:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7292,7 +7292,7 @@ srk.fi#@##CookielawBanner
 /ad/err?
 /ad/getban?
 /ad/image/*$image
-/ad/images/*$domain=~studiocalling.it
+/ad/images/*$image,domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
 /ad/imp?
 /ad/load_ad?
@@ -7417,7 +7417,6 @@ srk.fi#@##CookielawBanner
 /ads/bottom/*
 /ads/cbr.
 /ads/delivery.
-/ads/display/*
 /ads/footer.
 /ads/ga-audiences?
 /ads/gam_prebid-
@@ -7459,7 +7458,6 @@ srk.fi#@##CookielawBanner
 /ads/video/*
 /ads/view.php
 /ads/xtcore.
-/ads/yahoo/*
 /ads1.
 /ads160.
 /ads3.
@@ -7591,7 +7589,6 @@ srk.fi#@##CookielawBanner
 /aff_banners/*$image
 /affad?
 /affads/*
-/affbanner/*
 /affbanners/*
 /affiliate/ad/*$image
 /affiliate/ads/*$image
@@ -7672,7 +7669,7 @@ srk.fi#@##CookielawBanner
 /banners/adv/*
 /banners/adv_
 /banners/aff.
-/banners/affil/*
+/banners/affil/*$image
 /banners/affiliate/*$image
 /banners/ffadult/*
 /bannersAds_
@@ -7821,14 +7818,13 @@ srk.fi#@##CookielawBanner
 /hserver/site=
 /ht.js?site_
 /image/ad/*$image
-/image/ads/*
+/image/ads/*$image,domain=~edatop.com
 /image/affiliate/*
 /image_ads/*
 /imageads/*
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/adv/*
 /images/adz/*
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
@@ -7914,7 +7910,7 @@ srk.fi#@##CookielawBanner
 /nativead.
 /nativeads-v2.js
 /nativeads.js
-/nativeads/script/*
+/nativeads/script/*$script
 /nativebanner/ane-native-banner.js
 /nb/frot_lod.js
 /neverblock/*
@@ -7952,14 +7948,13 @@ srk.fi#@##CookielawBanner
 /partnerad.
 /partnerads/*
 /partneradwidget.
-/partnerbanner.
-/partnerbanner/*
+/partnerbanner.$domain=~toltech.cn
 /partners/ads/*
 /pcad.js?
 /peel.php?
 /peel_ads/*
 /peelad/*
-/peelads/*
+/peelads/*$script
 /pfe/current/*
 /phpads/adx.js
 /phpadsnew/*$image,script
@@ -8201,7 +8196,6 @@ srk.fi#@##CookielawBanner
 /utx?cb=$third-party
 /v2/a/push/js/*
 /v3/ads?
-/v5/ads/*
 /v7/ads/*
 /valnet-header-ads.
 /vast/?zid=
@@ -8242,7 +8236,6 @@ srk.fi#@##CookielawBanner
 /welcome_ad.js
 /widget-advert?
 /widget/ads.
-/widget/ads/*
 /wordpress-ads-plug-in/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
