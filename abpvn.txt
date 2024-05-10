@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: Wlc6A2ARC62Y3SquVipodA
-! Version: 202405100501
+! Checksum: cUd2fZ1Ewa+mj0wPUru4mw
+! Version: 202405100511
 ! Title: ABPVN List
-! Last modified: 10 May 2024 05:01 UTC
+! Last modified: 10 May 2024 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 10 May 2024 09:16:32 UTC+7
-! Diff-Path: patches/20240510091632927.patch#abpvn
+! Last modified: 10 May 2024 12:04:27 UTC+7
+! Diff-Path: patches/20240510120427694.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -217,7 +217,6 @@
 ||sohuutritue.net.vn/files/qc/
 ||soikeo365.net^*.gif
 ||soikeoz.vip^*.gif
-||st.nhattruyenup.com^*.gif$image,domain=nhattruyenup.com
 ||static.cdnno.com/storage/lazada/$image,domain=metruyencv.net
 ||static.cdnno.com/storage/topbox/*.webp$image,domain=metruyencv.com
 ||static.ybox.vn^*.gif$domain=ybox.vn
@@ -772,7 +771,6 @@ socolivebongda.net###backgroundPopupp
 socolivebongda.net###popupContact
 socolivebongda.net###wap_bottombannerr
 socolivebongda.net##.grid-match[style]
-softonic.vn##.sam-slot
 soha.vn,gamek.vn##[id^="admzone"]
 soikeo365.net##.ads-floatingads
 soikeo365.net##.banner-item
