@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1Q0A62EM8eptt6hK1oAL+A
-! Version: 202405101310
+! Checksum: 0mwUY3pki8N0FonHer//Lg
+! Version: 202405101320
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 May 2024 13:10 UTC
+! Last modified: 10 May 2024 13:20 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12207,7 +12207,6 @@ forums.heroesofnewerth.com###purchase_pref
 slitherio.club###pwindow
 slitherio.club###pwrap
 soft-i-kino.ru###pxsnazzy
-electric-house.ru#?##qr_posts > .forabg:-abp-has(> .inner > div [href="https://www.electric-house.ru/stop_rek.htm"])
 delovoigorod.ru###r
 duster-clubs.ru###r-colonka > .f-block ~ .f-block ~ .f-block
 mundolatino.org.ua#?##r-colonka > .f-block:-abp-has(.b-topa:-abp-contains(/интересные блоки|еклама/i))
@@ -12782,7 +12781,6 @@ autotraveler.ru##.ad_yad
 autogeek.com.ua##.adace-slideup-slot-wrap
 gamer-mods.ru##.adaptiv
 vmo24.ru##.adaptive_banners
-stroi-help.ru##.adaptive_image_2000
 dni.ru##.adaurum
 allinfo.kz,leroymerlin-jeb.ru##.adb
 beon.ru##.adbg
@@ -13028,7 +13026,7 @@ pik.net.ua##.aside__advertising
 1plus1.ua##.aside__banner-container
 tsargrad.tv##.aside__fly
 kinoafisha.info##.aside_item
-electric-house.ru,stroi-help.ru#?#.asideblock > div:-abp-has(.icon > dt > span:-abp-contains(/Интересные новости|Предложения|Смотрите также/))
+electric-house.ru#?#.asideblock > div:-abp-has(.icon > dt > span:-abp-contains(/Интересные новости|Предложения|Смотрите также/))
 wotspeak.org##.asn
 enovosty.com##.asp-widget-ads
 ua-football.com#?#.asside:-abp-has(> .topBook)
@@ -13756,8 +13754,6 @@ probiysk.ru##.col-md-3 > center > img[style]
 poiskm.me##.col-md-4 > .mynavblock ~ div
 gotoroad.ru##.col-md-4 noindex
 g-list.ru##.col-md-4.text-center
-electric-house.ru#?#.col-md-8 > span:-abp-contains(/Рекомендуем|Это интересно/)
-electric-house.ru#?#.col-md-8 > span:-abp-contains(/Рекомендуем|Это интересно/) ~ table
 koko.by##.col-partner-offers
 anekdot.ru##.col-right > .block
 daxshat.site##.col-right > .side-box > a[href^="http:"][target="_blank"]
@@ -14179,7 +14175,6 @@ baby.ru##.format_video_comment
 only-paper.ru##.forum-section .main > div[align="center"]
 rybalka.com##.forum_buttons
 poiskvps.ru##.forumbg.forumbg-table[style*="background-color:#00A857"]
-stroi-help.ru##.forumbg_star[style="margin-top:5px"]
 pb.wtf,piratbit.fun,piratbit.org,piratbit.pw,piratbit.top,vidak.icu##.forumline > * > style + .tCenter
 nnmclub.to##.forumline > tbody > tr > td.spaceRow > center
 sysadmins.ru##.forumline > tbody > tr > td[valign="middle"] > a[href] > img
@@ -15079,7 +15074,6 @@ karavan.tver.ru##.otstup
 stroy-telo.com##.ououou
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##.our-news ~ a[href][target="_blank"] > img
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##.our-news ~ img[src]
-stroi-help.ru##.out1
 24smi.org#?#.out__inner > div:-abp-has(> div > .title:-abp-contains(Читайте также))
 electric-house.ru##.out_new
 uniongang.net,uniongang.org##.outer > br
@@ -15089,7 +15083,6 @@ mirf.ru##.outer_outer
 avtoradio.ru,energyfm.ru##.outreach
 tv-assia.org##.ovdiv
 domkad.ru##.over-rsi
-stroi-help.ru##.over_hid
 bstudy.net,ozlib.com,studbooks.net,studme.org,studref.com,studwood.net,vuzlit.com,xstud.org##.overheader
 krastown.com##.overlay_wrap
 truba.com##.overvideo
@@ -15911,10 +15904,7 @@ hi.dn.ua,slavinfo.dn.ua##.sp-module-content > div[class=""][style=""]
 forum.taxiservice.com.ua##.sp_block script[src*="pagead2."] ~ a
 kinofilm.co##.sp_darkvids
 theins.ru##.spacer_400
-stroi-help.ru#?#.span4 > .block_name_pink:-abp-contains(Реклама)
-stroi-help.ru#?#.span4 > .block_name_pink:-abp-contains(Реклама) + .sidebar_block
 pornogam.tv#?#.span4:-abp-has(.thumbnail > a[href*="/asd/"])
-stroi-help.ru#?#.span8 > div:-abp-has(> h4:-abp-contains(Удивительное))
 matematikalegko.ru##.spanlink[onclick*="biorepet-ufa.ru"]
 matematikalegko.ru##.spanlink[onclick*="e-autopay.com"]
 matematikalegko.ru##.spanlink[onclick*="foxford"]
@@ -19468,6 +19458,7 @@ poiskvps.ru##td[align="left"][valign="top"] > noindex
 bestgardener.ru##td[align="left"][valign="top"][class^="t"]
 liveinternet.ru##td[align="left"][valign="top"][width="150"] > iframe[height="840"]
 meddaily.ru##td[align="right"] > .structure-right:not([id])
+forums.rusmedserv.com##td[align="right"] > b > a[href][target="_blank"]
 divx-kino.ru##td[align="right"] a[href][target="_blank"]
 imgbum.ru,xpicture.ru##td[align][valign="top"] > div[align="center"] > table
 www.ruhim.ru##td[background*="banner"]
@@ -19482,7 +19473,6 @@ ruskino.ru##td[height="90"][bgcolor]
 livetv.sx##td[height^="9"][bgcolor]
 shophelp.ru##td[id][valign="top"][width="300"] > table.tborder[width="100%"]
 poufe.ru##td[onclick*="cntr.php?ban_id="]
-stroi-help.ru##td[rowspan="2"] > [style^="width:100%; background-color:#FFFFFF; border:solid 2px #ccc; border-radius:12px"]
 armadaboard.com##td[style*="theme_orig"] > table
 nntt.org##td[style*="url(/images/"]
 travelgps.com.ua##td[style="width:170px;vertical-align:top;"]
@@ -24745,7 +24735,6 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 @@||cnews.ru^$generichide
 @@||desktophut.ru^$generichide
 @@||doefiratv.net/start/$generichide
-@@||electric-house.ru^$generichide
 @@||electro-sila.ru^$generichide
 @@||elsyst.gnomio.com^$generichide
 @@||examenpdd.com^$generichide
@@ -24839,7 +24828,6 @@ agrarii-razom.com.ua##div[id^="user-to-register"]
 @@||stalker-mods.clan.su^$generichide
 @@||stalker-mods.su^$generichide
 @@||stopgame.ru/users/$generichide
-@@||stroi-help.ru^$generichide
 @@||studizba.com^$generichide
 @@||tehnar.net.ua^$generichide
 @@||tmbw.ru^$generichide
@@ -25731,7 +25719,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||olegon.ru/ads/$script,domain=olegon.ru
 @@||online.ua/adsence.js|$domain=online.ua
 @@||opel-omega.ru^*?adType=$script,domain=opel-omega.ru
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=595.ucoz.net|adult-images.ru|anypictures.ru|blogging-techies.com|botrix.live|crast.net|daz3d.ru|di.fm|electric-house.ru|fcportables.com|forums.rusmedserv.com|freeopenvpn.org|ikigaitest.com|imgbum.ru|investing.com|izi-invest.ru|kvadratmetr.uz|mod-wot.ru|nv.ua|oligarx.uz|otzovik.com|ozlib.com|parnuxi.biz|pixcloud.ru|radio-archive.ru|radioromantika.ru|stroi-help.ru|tarkov-market.com|tehnar.net.ua|tehnobzor.ru|tehnografi.com|tests24.su|tubeload.co|xpicture.ru|yvid.ru
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=595.ucoz.net|adult-images.ru|anypictures.ru|blogging-techies.com|botrix.live|crast.net|daz3d.ru|di.fm|fcportables.com|freeopenvpn.org|ikigaitest.com|imgbum.ru|investing.com|izi-invest.ru|kvadratmetr.uz|mod-wot.ru|nv.ua|oligarx.uz|otzovik.com|ozlib.com|parnuxi.biz|pixcloud.ru|radio-archive.ru|radioromantika.ru|tarkov-market.com|tehnar.net.ua|tehnobzor.ru|tehnografi.com|tests24.su|tubeload.co|xpicture.ru|yvid.ru
 @@||patents.su/assets/themes/patents/js/main/$script,domain=patents.su
 @@||peers.tv/cnplayer/imasdk/$domain=peers.tv
 @@||persey.if.ua/images/attention.jpg$image,domain=persey.if.ua
@@ -25815,11 +25803,10 @@ avtodoc24.ru#@#.Ad-Container
 avtodoc24.ru#@#.sidebar-ad
 buhgalter.com.ua,buhgalter911.com,factor.ua#@#.bottom-ad
 chelseafc.com,shrlink.top#@#.ad-banner
-daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.AdSense
-daz3d.ru,forums.rusmedserv.com,trialkeys.ru#@#.advblock
+daz3d.ru,trialkeys.ru#@#.AdSense
+daz3d.ru,trialkeys.ru#@#.advblock
 dl2kq.de#@##sponsor_ad
 drahelas.ru#@#.forumAd
-forums.rusmedserv.com#@#img[width="728"][height="90"]
 green-way.com.ua#@#.adWrapper
 iphones.ru#@##sponsorText
 izi-invest.ru,ruboard.website#@#div[id^="yandex_rtb"]
@@ -25865,6 +25852,7 @@ dfm.ru,hitfm.ru,maximum.ru,montecarlo.ru,rusradio.ru##.ad-blocked-message
 ogorod.ru##.adblock_popup_warning
 wowjp.net##.adblocker-notification
 pes-files.ru##.alert-blue
+electric-house.ru##.alert_warn
 stylenews.ru##.alm-btn-wrap
 7days2die.info#?#.articleContent > p:-abp-has(> span + strong[style])
 7days2die.info##.articleContent > p[style="display: block!important; text-align: center;"]
@@ -25891,6 +25879,7 @@ forum.niiot.net##.modal
 2x2tv.ru##.owl-wrapper-outer .slideAlt
 clan-soprano.ru##.popupBlock
 uniondht.org##.post_body > div[style="color:red;font-size:25px;"]
+electric-house.ru#?#.rules:-abp-has(> p > [src="/img/no_ad.png"])
 kodik.info##.second-message
 radioromantika.ru##.showMessageAdBlock
 kg-portal.ru##.social_login > .ulogin ~ .caution
@@ -25948,6 +25937,7 @@ d3ward.github.io##main > ._bg-red
 au-ok.com##p[style="border:3px solid #C1FF0A;background-color:#d5d5d1;padding:10px;"]
 ||anivisual.net/back/scss.js
 ||csgohelp.ru/assets/app/js/checkIn.js
+||electric-house.ru/forum/script_el.js
 ||fanforum.ru/uploads/set_resources_$script
 ||howdyho.net/media/js/main-pn5-ru.js
 ||in-english.club/statistic/my.js
