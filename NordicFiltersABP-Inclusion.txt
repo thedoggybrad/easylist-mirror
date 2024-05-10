@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Rj0hl1JCnt6L36KVhP6TgQ
-! Version: 202405101710
+! Checksum: FWZHLIlefySQAzMGVW/Q2A
+! Version: 202405101720
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 10 May 2024 17:10 UTC
+! Last modified: 10 May 2024 17:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7298,7 +7298,6 @@ srk.fi#@##CookielawBanner
 /ad/load_ad?
 /ad/popup.
 /ad/skin-
-/ad/view/*
 /ad300.jpg
 /ad300.js
 /ad300.png
@@ -7420,7 +7419,7 @@ srk.fi#@##CookielawBanner
 /ads/ga-audiences?
 /ads/gam_prebid-
 /ads/header.
-/ads/image/*
+/ads/image/*$image
 /ads/images/*$image,domain=~eoffcn.com
 /ads/img/*
 /ads/index-
@@ -7453,7 +7452,7 @@ srk.fi#@##CookielawBanner
 /ads/top.
 /ads/tso
 /ads/v2/*
-/ads/video/*
+/ads/video/controller.php
 /ads/view.php
 /ads/xtcore.
 /ads1.
@@ -7580,7 +7579,7 @@ srk.fi#@##CookielawBanner
 /adz/js/adz.
 /adzones.js
 /aff-ads.
-/aff/banners/*
+/aff/banners/*$image
 /aff/images/*$image
 /aff_ad?$script
 /aff_banner/*$image
@@ -7592,7 +7591,7 @@ srk.fi#@##CookielawBanner
 /affiliate/ads/*$image
 /affiliate/banner/*$image
 /affiliate/banners/*$image
-/affiliateads/*
+/affiliateads/*$image
 /affiliates/banner
 /afr.php?
 /afx_prid/*$script
@@ -7664,7 +7663,6 @@ srk.fi#@##CookielawBanner
 /banners/ads-
 /banners/ads.
 /banners/adv/*$~xmlhttprequest
-/banners/adv_
 /banners/aff.
 /banners/affil/*$image
 /banners/affiliate/*$image
@@ -7893,13 +7891,13 @@ srk.fi#@##CookielawBanner
 /mobile-ad.
 /mobile_ad.
 /mobileads.
+/mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /mod_pagepeel_banner/*
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
 /modules/ad/*
 /modules/ads/*
-/modules/mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
@@ -7949,7 +7947,7 @@ srk.fi#@##CookielawBanner
 /peel.php?
 /peel_ads/*
 /peelads/*$script
-/pfe/current/*
+/pfe/current/*$third-party
 /phpads/adx.js
 /phpadsnew/*$image,script
 /phpbb_ads/*
@@ -7965,7 +7963,7 @@ srk.fi#@##CookielawBanner
 /plugin/ad/*
 /plugins/ad-invalid-click-protector/*$script
 /plugins/adrotate-pro/*
-/plugins/adrotate/library/*
+/plugins/adrotate/*$script
 /plugins/ads-
 /plugins/ads/*
 /plugins/adsanity-
@@ -8120,7 +8118,6 @@ srk.fi#@##CookielawBanner
 /skin3/ads/*
 /skin_ad-
 /skinad.
-/skins/ads/*
 /skyadright.
 /skyscraper_ad_
 /skyscraperad.
@@ -80992,7 +80989,7 @@ hentaiprn.com,whipp3d.com##.widget_block
 arcjav.com,hotcelebshome.com,jav.guru,javcrave.com,pussycatxx.com##.widget_custom_html
 gifsauce.com##.widget_live
 totsantcugat.info##.widget_meta.widget.col-sm-3
-hentaiblue.com##.widget_text
+hentaiblue.com,pornifyme.com##.widget_text
 xhamster.com##.wio-p
 xhamster.com##.wio-pcam-thumb
 xhamster.com##.wio-psp-b
