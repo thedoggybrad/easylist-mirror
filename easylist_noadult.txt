@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JJl5It7YPhlk1Jj/4N/NsQ
-! Version: 202405111551
+! Checksum: ydtpxT++kMxBHsgXCB0iNg
+! Version: 202405111611
 ! Title: EasyList without rules for adult sites
-! Last modified: 11 May 2024 15:51 UTC
+! Last modified: 11 May 2024 16:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -698,7 +698,6 @@
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/adz/*
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
 /img/aff/*
@@ -765,13 +764,12 @@
 /media_ads/*$image
 /mgid.html
 /microad.js
-/min/ads/*
 /mnpw3.js
 /mobile-ad.
 /mobile_ad.
 /mobileads.
 /mod_ijoomla_adagency_zone/*$~xmlhttprequest
-/mod_pagepeel_banner/*
+/mod_pagepeel_banner/*$image,script
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
@@ -812,7 +810,7 @@
 /pagead/lvz?
 /pagead/osd.
 /pageear.js
-/pageear/*
+/pageear/*$script
 /pagepeel.
 /pagepeelpro.js
 /partner-ad-
@@ -829,7 +827,7 @@
 /pfe/current/*$third-party
 /phpads/adx.js
 /phpadsnew/*$image,script
-/phpbb_ads/*
+/phpbb_ads/*$~xmlhttprequest
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
@@ -844,7 +842,7 @@
 /plugins/adrotate-pro/*
 /plugins/adrotate/*$script
 /plugins/ads-
-/plugins/ads/*
+/plugins/ads/*$~xmlhttprequest
 /plugins/adsanity-
 /plugins/advanced-ads/*$domain=~wordpress.org
 /plugins/ane-banners-entre-links/*
@@ -968,7 +966,6 @@
 /select_adv?
 /servead/request/*$script,subdocument
 /serveads.php
-/service/ads/*
 /servlet/view/*$script
 /set_adcode?
 /sft-prebid.js
@@ -994,7 +991,6 @@
 /skin-ad_
 /skin/ad/*
 /skin/adv/*
-/skin3/ads/*
 /skin_ad-
 /skinad.
 /skyadright.
@@ -1023,12 +1019,10 @@
 /sponsored-links/*
 /sponsored-widget
 /sponsored_ad.
-/sponsored_ads/*
 /sponsored_link.
 /sponsored_links_
 /sponsored_text.
 /sponsoredlinks.
-/sponsoredlinks/*
 /sponsoredlinks?
 /sponsors/ads/*$image
 /squaread.jpg
@@ -64295,6 +64289,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||4f.to/spns/
 ||abcnews.com/assets/js/adCallOverride.js
 ||aboutmyarea.co.uk/images/imgstore/
+||absoluteanime.com/!bin/skin3/ads/
 ||ad.animehub.ac^
 ||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.imp.joins.com^
