@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E3tFg0aN/ZXVmv3eVC4mPA
-! Version: 202405111230
+! Checksum: N53yGK8+K2EJuVkxsp9f4Q
+! Version: 202405111241
 ! Title: IndianList
-! Last modified: 11 May 2024 12:30 UTC
+! Last modified: 11 May 2024 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4469,6 +4469,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||thenewshimachal.com^*/Contact-for-Hydro-Turbines.jpg
 ||thenewshimachal.com^*/hpht-.jpg
 ||thenewsqube.com/wp-content/uploads/2023/01/1000-600-lal-compressed.jpg
+||thenewswords.in/images/banner
 ||thenrinews.com/wp-content/uploads/2019/05/a6f00a8c-d9bf-4486-9b3f-a28d2d90aa31.jpg
 ||thepoliticsagain.com^*/dr-uttam
 ||thepublictoday.com/wp-content/uploads/2021/07/jansewa-hospital.gif
@@ -4970,7 +4971,7 @@ samrudhaodisha.com###block-137
 asomkhobor.com,ghaziabad365.com,sachetonbarta.com.bd###block-14
 peptechtime.com###block-142
 cinemapressclub.com###block-15
-mediyaan.com,sajhamanch.com,smartindiadial.com,telugumalli.com###block-16
+mediyaan.com,sajhamanch.com,satyamevtv.com,smartindiadial.com,telugumalli.com###block-16
 ojasvitimes.in,telugumalli.com###block-17
 24hrnews.in###block-178
 khabarok.com###block-18
@@ -5703,7 +5704,6 @@ cvoice24.com,womeneye24.com##.DContentAdd
 mohanagarnews.com##.DHeaderAdd
 ajkermymensingh.com##.DHeaderBanner
 dailyjalalabad.com##.DetailsContent .textwidget
-satyamevtv.com##.Eod_right
 bhadas4media.com##.FooterAdArea .wp-block-image
 starkhabre.com##.FrameAdvt1
 banglanewsca.com##.Front-page-Right-Side-Ad
@@ -7047,8 +7047,8 @@ narayanionline.com##.no-vigyapan-section
 sagarmatha.tv##.no-vigyapan-sidebar-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
 abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
+bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -8106,6 +8106,7 @@ news71bangla.tv##.yvdo
 corporatesangbad.com##.zeen-da-wrap
 probashibangla.tv##.zja
 thesabera.com##.zox-post-ad-wrap
+satyamevtv.com##:has(> .metaslider)
 agrilife24.com##:not(#sp-component-area) > #sp--wrapper
 tollywood.net##[alt*=" ad"]
 tamilvanakkam.com##[alt="Short Term Rental - Toronto"]
@@ -8898,6 +8899,7 @@ thedesiawaaz.com#?#div:-abp-has(> div > div > a>div > div > p:-abp-contains(Ad |
 theexpose.in#?#.colombiaonesuccess > div:-abp-has(> div > div > a h5:-abp-contains(Ad |))
 theexpose.in#?#.colombiaonesuccess > div:-abp-has(> div > div a p:-abp-contains(Ad:))
 theheadline24.com#?#div:-abp-has(> .heading > span:-abp-contains(Advt.))
+thenewswords.in#?#:-abp-has(> h4:-abp-contains(Advertise))
 theonlinepost.in#?#div[id*="_O_"] div:-abp-has(> div > div > a> div *:-abp-contains(Ad |) )
 theonlinepost.in#?#div[id*="_O_"] div:-abp-has(> div > div > a> div *:-abp-contains(Ad:) )
 thesigmanews.com#?#div.wrapper-sticky div:-abp-has(> div.section-heading > span:-abp-contains(Advertisement))
