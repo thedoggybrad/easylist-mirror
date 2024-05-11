@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: a5JgIgE+w2mxuQmL4QJ1ZA
-! Version: 202405111151
+! Checksum: r9juArJAZ4rPEL16VysY7A
+! Version: 202405111201
 ! Title: EasyList without element hiding rules
-! Last modified: 11 May 2024 11:51 UTC
+! Last modified: 11 May 2024 12:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -37846,6 +37846,7 @@ _800x80_
 ||videoaccess.xyz^
 ||videobaba.xyz^
 ||videocampaign.co^
+||videocdnshop.com^
 ||videoplaza.tv^
 ||videosprofitnetwork.com^
 ||videosworks.com^
@@ -47921,7 +47922,7 @@ _800x80_
 ||bids.concert.io^
 ||bigrock.in/affiliate/
 ||bit.ly^$image,domain=tooxclusive.com
-||bit.ly^$script,domain=dailyuploads.net
+||bit.ly^$script,domain=dailyuploads.net|freeshot.live
 ||bitbond.com/affiliate-program/
 ||bl.wavecdn.de^
 ||blacklistednews.com/contentrotator/
@@ -50027,6 +50028,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||hotstar.com^*/midroll?
 ||hotstar.com^*/preroll?
 ||howtogeek.com/emv2/
+||hubcloud.day/video/bn/
 ||i-tech.com.au/media/wysiwyg/banner/
 ||iamcdn.net/players/custom-banner.js
 ||iamcdn.net/players/playhydraxs.min.js$domain=player-cdn.com
@@ -50108,6 +50110,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||linkshare.pro/img/btc.gif
 ||linuxtracker.org/images/dw.png
 ||livescore.az/images/banners
+||lontent.powzerz.lol^
 ||lordchannel.com/adcash/
 ||ltn.hitomi.la/zncVMEzbV/
 ||lw.musictarget.com^
@@ -51325,6 +51328,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ||missav.com/pop?$popup
 ||nhentai.net/api/_/popunder?$popup
 ||porndude.link/porndudepass$popup,domain=theporndude.com
+||t.ly^$popup,domain=veev.to
 ||videowood.tv/pop?$popup
 ||xtapes.to/out.php$popup
 ||xteen.name/xtn/$popup
