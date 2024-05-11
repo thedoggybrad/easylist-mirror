@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WmPiAfvSbA77Cpa3uEBMzg
-! Version: 202405111601
+! Checksum: E1vtSwgTxfgU5yF9XyWqCw
+! Version: 202405111551
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 May 2024 16:01 UTC
+! Last modified: 11 May 2024 15:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7819,6 +7819,7 @@ srk.fi#@##CookielawBanner
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
+/images/adz/*
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
 /img/aff/*
@@ -7885,12 +7886,13 @@ srk.fi#@##CookielawBanner
 /media_ads/*$image
 /mgid.html
 /microad.js
+/min/ads/*
 /mnpw3.js
 /mobile-ad.
 /mobile_ad.
 /mobileads.
 /mod_ijoomla_adagency_zone/*$~xmlhttprequest
-/mod_pagepeel_banner/*$image,script
+/mod_pagepeel_banner/*
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
@@ -7931,7 +7933,7 @@ srk.fi#@##CookielawBanner
 /pagead/lvz?
 /pagead/osd.
 /pageear.js
-/pageear/*$script
+/pageear/*
 /pagepeel.
 /pagepeelpro.js
 /partner-ad-
@@ -7948,7 +7950,7 @@ srk.fi#@##CookielawBanner
 /pfe/current/*$third-party
 /phpads/adx.js
 /phpadsnew/*$image,script
-/phpbb_ads/*$~xmlhttprequest
+/phpbb_ads/*
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
@@ -7963,7 +7965,7 @@ srk.fi#@##CookielawBanner
 /plugins/adrotate-pro/*
 /plugins/adrotate/*$script
 /plugins/ads-
-/plugins/ads/*$~xmlhttprequest
+/plugins/ads/*
 /plugins/adsanity-
 /plugins/advanced-ads/*$domain=~wordpress.org
 /plugins/ane-banners-entre-links/*
@@ -8087,6 +8089,7 @@ srk.fi#@##CookielawBanner
 /select_adv?
 /servead/request/*$script,subdocument
 /serveads.php
+/service/ads/*
 /servlet/view/*$script
 /set_adcode?
 /sft-prebid.js
@@ -8112,6 +8115,7 @@ srk.fi#@##CookielawBanner
 /skin-ad_
 /skin/ad/*
 /skin/adv/*
+/skin3/ads/*
 /skin_ad-
 /skinad.
 /skyadright.
@@ -8140,10 +8144,12 @@ srk.fi#@##CookielawBanner
 /sponsored-links/*
 /sponsored-widget
 /sponsored_ad.
+/sponsored_ads/*
 /sponsored_link.
 /sponsored_links_
 /sponsored_text.
 /sponsoredlinks.
+/sponsoredlinks/*
 /sponsoredlinks?
 /sponsors/ads/*$image
 /squaread.jpg
@@ -72321,7 +72327,6 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||4f.to/spns/
 ||abcnews.com/assets/js/adCallOverride.js
 ||aboutmyarea.co.uk/images/imgstore/
-||absoluteanime.com/!bin/skin3/ads/
 ||ad.animehub.ac^
 ||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.imp.joins.com^
