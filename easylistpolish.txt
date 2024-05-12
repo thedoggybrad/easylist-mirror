@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E9er56TdDPe0UNMWixYQaA
-! Version: 202405120501
+! Checksum: WF0B/yGUj/8X90XotEnUSQ
+! Version: 202405120511
 ! Title: EasyList Polish
-! Last modified: 12 May 2024 05:01 UTC
+! Last modified: 12 May 2024 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -377,6 +377,7 @@ supernowosci24.pl##[id^="r-"]
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^reklama-$domain=tv-pelplin.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -566,7 +567,7 @@ polmedia.pl###makingdifferentpopup
 skipol.pl###makler2
 skipol.pl###makler7
 skipol.pl###maklerboczna1
-tu.swinoujscie.pl,tyna.info.pl###media_image-11
+tu.swinoujscie.pl###media_image-11
 tonaszregion.pl###media_image-134
 gazetatrybunalska.info###media_image-15
 wiadomoscidebickie.pl,wiadomosciwalbrzyskie.pl###media_image-2
@@ -2498,6 +2499,9 @@ wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 motocykle125.pl##.wp_widget_plugin_textarea
 nrypin.pl##.blix
+czasbrodnicy.pl##.blix
+haloursynow.pl##.blix
+rydzyna24.pl##.blix
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
