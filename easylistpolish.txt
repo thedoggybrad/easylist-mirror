@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ceVOQjrvhymUfFOtXYAypQ
-! Version: 202405130751
+! Checksum: N/wiv8T2/WXNNjLMu7WlDA
+! Version: 202405130801
 ! Title: EasyList Polish
-! Last modified: 13 May 2024 07:51 UTC
+! Last modified: 13 May 2024 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -183,7 +183,7 @@ app.freshmail.com#@#.advertisement-content
 ^rekl^$domain=pgt.pl
 ^reklama-$domain=bilgorajska.pl|fizjoterapeuty.pl|fleschmazowsza.com.pl|goniecpolski.nl|icelandnews.is|infofordon.pl|ipulawy.pl|miedzyzdrojskie.info|mojgdow.pl|naszwybir.pl|ok24.tv|warka24.pl|wodnyrelax.pl
 ^Reklama-$domain=noworudzianin.pl
-^reklama-$domain=tkn24.pl
+^reklama-$domain=tkn24.pl|tv-pelplin.pl
 ^reklama0_$domain=24ikp.pl
 ^reklama_$domain=24ikp.pl|greencanoe.pl|jaslo4u.pl|kazimierzdolny24.pl|konstancin.com|legitymizm.org|miedzyzdrojskie.info|tarnowiak.pl|tylkotorun.pl
 ^reklamowe^$domain=bolec.info
@@ -377,7 +377,6 @@ supernowosci24.pl##[id^="r-"]
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-^reklama-$domain=tv-pelplin.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -765,6 +764,7 @@ wyspiarzniebieski.pl##.CommTxt1
 gazeta.pl##.DFP-premiumBoardReservedPlace
 starachowicka.pl##.GlBanLead
 starachowicka.pl##.GlBn
+cmg24.pl##.H7
 kobiety-kobietom.com##.OneProductBig
 mazovia24.pl##.ROTcarousel
 e-telecom.pl,sklep-militarny.com.pl##.Reklamy
@@ -1037,7 +1037,7 @@ portalpszczelarski.pl##.biggDickus
 pcworld.pl##.bilbo_ad
 4trucks.pl##.bilbord
 ddtorun.pl,ddwloclawek.pl,faktypilskie.pl,itvszubin.pl,koronowo.net.pl,koscianiak.pl,naszraciborz.pl,portalzamojski.pl,sieradz.com.pl,teksty.org,traktorpool.pl,twojapogoda.pl,zyciesiedleckie.pl##.billboard
-abcjanikowo24.pl,bialobrzegi24.net,bielskirynek.pl,bilgoraj.com.pl,brodnica365.pl,chelmza365.pl,chocianow.com.pl,ciechocinek.biz,ddtorun.pl,dziendobrypomorze.pl,e-chelmno.pl,e-golub.info.pl,e-lubon.pl,e-wabrzezno.info.pl,ejarocin.pl,ekstrasierpc.pl,ekutno.pl,esopot.pl,expresskaszubski.pl,extrawalcz.pl,faktyct.pl,faktypilskie.pl,gazetarogozinska.pl,gle24.pl,glospowiatusredzkiego.pl,gorlice24.pl,gostyn24.pl,gst24.pl,gwarek.com.pl,gwe24.pl,gwio.pl,hej.mielec.pl,hej.rzeszow.pl,ibytow.pl,infomogilno24.pl,infoskierniewice.pl,ipoddebice.pl,isanok.pl,iszczecinek.pl,itvszubin.pl,jastrowie24.pl,jura365.pl,ki24.info,koronowo.net.pl,legio24.pl,leszno24.pl,lowiczanin.info,magazynregionalny.pl,miastko24,mojakruszwica.pl,myszkow365.pl,naszpruszcz.pl,naszradziejow.pl,nizanskie.info,nowinykrapkowickie.pl,ostrodaflesz.pl,pakosc24.pl,panoramaplock.pl,pleszew24.info,police24.pl,portalsremski.pl,powiatrawicki.info,prawobrzeze24.pl,pulsciechanowa.pl,pulsgminy.pl,pulstygodnia.pl,radzyninfo.pl,roztocze.net,rzeczkrotoszynska.pl,slu24.pl,spotradomsko.pl,superchodziez.pl,swiecie24.pl,szemud24.pl,terazgabin.pl,terazstrzelno.pl,tukutno.pl,tusochaczew.pl,tygodnik.pl,tygodnikketrzynski.pl,tyna.info.pl,uniejow.net.pl,wiescimiedzychodzkie.pl,wpu24.pl,wrzesnia.info.pl,zawiercie365.pl,ziemiagorowska.pl,zlomzy.pl##.blix
+abcjanikowo24.pl,bialobrzegi24.net,bielskirynek.pl,bilgoraj.com.pl,brodnica365.pl,chelmza365.pl,chocianow.com.pl,ciechocinek.biz,czasbrodnicy.pl,ddtorun.pl,dziendobrypomorze.pl,e-chelmno.pl,e-golub.info.pl,e-lubon.pl,e-wabrzezno.info.pl,ejarocin.pl,ekstrasierpc.pl,ekutno.pl,esopot.pl,expresskaszubski.pl,extrawalcz.pl,faktyct.pl,faktypilskie.pl,gazetarogozinska.pl,gle24.pl,glospowiatusredzkiego.pl,gorlice24.pl,gostyn24.pl,gst24.pl,gwarek.com.pl,gwe24.pl,gwio.pl,haloursynow.pl,hej.mielec.pl,hej.rzeszow.pl,ibytow.pl,infomogilno24.pl,infoskierniewice.pl,ipoddebice.pl,isanok.pl,iszczecinek.pl,itvszubin.pl,jastrowie24.pl,jura365.pl,ki24.info,koronowo.net.pl,legio24.pl,leszno24.pl,lowiczanin.info,magazynregionalny.pl,miastko24,mojakruszwica.pl,myszkow365.pl,naszpruszcz.pl,naszradziejow.pl,nizanskie.info,nowinykrapkowickie.pl,nrypin.pl,ostrodaflesz.pl,pakosc24.pl,panoramaplock.pl,pleszew24.info,police24.pl,portalsremski.pl,powiatrawicki.info,prawobrzeze24.pl,pulsciechanowa.pl,pulsgminy.pl,pulstygodnia.pl,radzyninfo.pl,roztocze.net,rydzyna24.pl,rzeczkrotoszynska.pl,slu24.pl,spotradomsko.pl,superchodziez.pl,swiecie24.pl,szemud24.pl,terazgabin.pl,terazstrzelno.pl,tukutno.pl,tusochaczew.pl,tygodnik.pl,tygodnikketrzynski.pl,tyna.info.pl,uniejow.net.pl,wiescimiedzychodzkie.pl,wpu24.pl,wrzesnia.info.pl,zawiercie365.pl,ziemiagorowska.pl,zlomzy.pl##.blix
 nowa-sprzedaz.pl##.block .auto-pr-block
 grojeckie24.pl##.block-image > .imageblock-image
 terazpasy.pl##.block-type-1-polecane
@@ -1757,6 +1757,7 @@ starosadeckie.info##.wp-image-214448
 staresiolkowice.pl##.wp-image-26929
 staresiolkowice.pl##.wp-image-27882
 beskidzka24.pl##.wp_bannerize_container
+motocykle125.pl##.wp_widget_plugin_textarea
 leszczynskisport.pl##.wpb_animate_when_almost_visible
 gazetabilgoraj.pl,kliknijwzdrowie.pl,milicka.eu##.wpb_content_element
 okraglemiasto.pl##.wpb_left-to-right
@@ -2497,11 +2498,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-motocykle125.pl##.wp_widget_plugin_textarea
-nrypin.pl##.blix
-czasbrodnicy.pl##.blix
-haloursynow.pl##.blix
-rydzyna24.pl##.blix
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
