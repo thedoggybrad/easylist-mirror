@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lyMVcJNeGVoOPOzTT0XdOQ
-! Version: 202405131321
+! Checksum: AIm4ZhlWREcV/HYcQcatVA
+! Version: 202405131341
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 13 May 2024 13:21 UTC
+! Last modified: 13 May 2024 13:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7245,7 +7245,6 @@ srk.fi#@##CookielawBanner
 /?abt_opts=1&
 /?fp=*&poru=$subdocument
 /?view=ad
-/_adslot/*
 /_xa/ads?
 /_xa/ads_batch?
 /a-ads.$third-party
@@ -7336,7 +7335,6 @@ srk.fi#@##CookielawBanner
 /adcount.js
 /adcount.php
 /addons/ads.
-/addons/ads/*
 /addyn/3.0/*
 /addyn|*;adtech;
 /addyn|*|adtech;
@@ -7453,7 +7451,6 @@ srk.fi#@##CookielawBanner
 /ads?param=
 /ads?zone=
 /ads?zone_id=
-/ads_160_
 /ads_300.
 /ads_assets/*
 /ads_banners/*$image
@@ -7553,7 +7550,6 @@ srk.fi#@##CookielawBanner
 /advscript.js
 /advtBanner.
 /adx2.
-/adx_exo_
 /adz/js/adz.
 /adzones.js
 /aff-ads.
@@ -7722,7 +7718,6 @@ srk.fi#@##CookielawBanner
 /export/ltv_popup.php
 /exports/tour/*$third-party
 /exports/tour_20/*
-/extban/*/creatives/*
 /external/ad.
 /external/ads/*
 /external_ad?
@@ -7740,7 +7735,6 @@ srk.fi#@##CookielawBanner
 /floatads.
 /floating-ad-
 /floatingad.js
-/FloatingAd_
 /floatingads.js
 /flyad.js
 /footer-ad-
@@ -7753,7 +7747,6 @@ srk.fi#@##CookielawBanner
 /footerad.
 /footerads.
 /footerads/*
-/forum/ads/*
 /fro_lo.js
 /froloa.js
 /frontend_loader.js
@@ -7924,7 +7917,6 @@ srk.fi#@##CookielawBanner
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
-/pixel/pure
 /pixel/purs?
 /pixel/purst?
 /pixel/sbe?
@@ -7988,7 +7980,7 @@ srk.fi#@##CookielawBanner
 /public/ad/*$image
 /public/ads/*$image
 /publicidad.$~object,~stylesheet
-/publicidad/*
+/publicidad/*$~xmlhttprequest
 /publicidad_$~stylesheet
 /publicidade.
 /publicidade/*$~xmlhttprequest
