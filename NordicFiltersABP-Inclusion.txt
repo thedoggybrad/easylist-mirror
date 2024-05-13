@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e6hiRnhHGCuYabodsmVGKQ
-! Version: 202405131401
+! Checksum: ZjzDWOlwTSDpKerx4cF/LA
+! Version: 202405131411
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 13 May 2024 14:01 UTC
+! Last modified: 13 May 2024 14:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7430,7 +7430,6 @@ srk.fi#@##CookielawBanner
 /ads/top-
 /ads/top.
 /ads/tso
-/ads/v2/*
 /ads/video/controller.php
 /ads/view.php
 /ads/xtcore.
@@ -7452,7 +7451,6 @@ srk.fi#@##CookielawBanner
 /ads?zone=
 /ads?zone_id=
 /ads_300.
-/ads_assets/*
 /ads_banners/*$image
 /ads_bg.
 /ads_bottom.js
@@ -7537,7 +7535,6 @@ srk.fi#@##CookielawBanner
 /advert8.
 /advert?
 /advertbanner.
-/advertising/banner_
 /advertising/banners/*$image
 /advertisingWebRenderer.min.js
 /advertisment-
@@ -7559,7 +7556,6 @@ srk.fi#@##CookielawBanner
 /aff_banner/*$image
 /aff_banners/*$image
 /affad?
-/affads/*
 /affbanners/*$image
 /affiliate/ad/*$image
 /affiliate/ads/*$image
@@ -7685,7 +7681,6 @@ srk.fi#@##CookielawBanner
 /delivery/avw.php
 /delivery/fc.php
 /delivery/lg.php
-/delivery_ads/*
 /dfp.min.js$third-party
 /dfp_async.js
 /dfpNew.min.js
@@ -7743,7 +7738,6 @@ srk.fi#@##CookielawBanner
 /footer_ad.php
 /footer_ads.php
 /footer_ads.png
-/footer_ads_
 /footerad.
 /footerads.
 /footerads/*
@@ -7860,8 +7854,8 @@ srk.fi#@##CookielawBanner
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
-/modules/ad/*
-/modules/ads/*
+/modules/ad/*$~xmlhttprequest
+/modules/ads/*$~xmlhttprequest
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
@@ -7917,6 +7911,7 @@ srk.fi#@##CookielawBanner
 /pioneersuspectedjury.com/*
 /pix/ads/*$image
 /pixel/puclc?
+/pixel/pure$~xmlhttprequest
 /pixel/purs?
 /pixel/purst?
 /pixel/sbe?
@@ -8074,7 +8069,7 @@ srk.fi#@##CookielawBanner
 /size=*/random=*/viewid=
 /skin-ad_
 /skin/ad/*$image,script
-/skin/adv/*
+/skin/adv/*$~xmlhttprequest
 /skin_ad-
 /skinad.
 /skyadright.
@@ -8096,14 +8091,12 @@ srk.fi#@##CookielawBanner
 /sponsor-links.html
 /sponsorad.jpg
 /sponsorad.png
-/sponsorbanners/*
 /sponsored-links-
 /sponsored-links.
 /sponsored-links/*
 /sponsored-widget
 /sponsored_ad.
 /sponsored_link.
-/sponsored_links_
 /sponsored_text.
 /sponsoredlinks.
 /sponsoredlinks?
@@ -8157,11 +8150,10 @@ srk.fi#@##CookielawBanner
 /video_ad.
 /video_ad_
 /video_ads.
-/video_ads/*
 /video_slider3.js
 /videoad.$domain=~videoad.in
 /videoad/*$script
-/videoads/*
+/videoads/*$~xmlhttprequest
 /videojs.ads-
 /videojs.sda.js
 /view/ad/*$subdocument
@@ -8489,7 +8481,7 @@ _widget_ad.
 /prebid_v4.
 /prebidAdcall.
 /prebidLibrary.
-/prebidlink/*
+/prebidlink/*$script
 /prodprebidheader-
 /pubfig.min.js
 /tagman/*$domain=~abelssoft.de
@@ -72661,6 +72653,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||sponsors.vuejs.org^
 ||sportlemon24.com/img/301.jpg
 ||sportshub.to/player-source/images/banners/
+||spotify.com/ads/
 ||spox.com/daznpic/
 ||srilankamirror.com/images/banners/
 ||srware.net/iron/assets/img/av/
@@ -72724,6 +72717,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||tubeoffline.com/vpn2.php
 ||tubeoffline.com/vpnimg/
 ||turbobit.net/pus/
+||twitter.com/*/videoads/
 ||twt-assets.washtimes.com^$script,domain=washingtontimes.com
 ||ubuntugeek.com/images/ubuntu1.png
 ||uhdmovies.eu/axwinpop.js
