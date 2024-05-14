@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405142235
+! Version: 202405142246
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 May 2024 22:35 UTC
+! Last modified: 14 May 2024 22:46 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -33864,6 +33864,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ! fanboy_notifications_thirdparty.txt
 ! ||staq-cdn.com/grow/$third-party
 ||api-push.com^$third-party
+||azureedge.net/js/cookie_notificacao.min.js
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
 ||cappushino.com^$third-party
@@ -34214,6 +34215,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||spotify.com/follow/$third-party
 ||statigr.am^$third-party
 ||storeya.com/externalscript/$third-party
+||t.pridat.eu^$third-party
 ||trendemon.com^$third-party
 ||twinesocial.com^$third-party
 ||twitter.com/account/$third-party
@@ -47946,6 +47948,7 @@ abonados.realvalladolid.es##a360-cookies-advice
 laroja.cl##app-privacy-policy
 bankintercomite.es##body > .cajatxt
 blogcindario.com,mforos.com##body > div[id][class]
+acn.cat##div[style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:999;background-color:rgba(0,0,0,0.3)"]
 draeger.com##dw-global-notification
 iryo.eu##wc-cookies-manager
 ! 
