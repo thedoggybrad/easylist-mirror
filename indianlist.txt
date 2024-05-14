@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HvpVBxf0nky6SUcgOtlMAw
-! Version: 202405141341
+! Checksum: yD/j9YlmNBy57Sl69ZYrZA
+! Version: 202405141351
 ! Title: IndianList
-! Last modified: 14 May 2024 13:41 UTC
+! Last modified: 14 May 2024 13:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -702,7 +702,7 @@ _advt.jpg|
 /Advertisement/*$domain=lifetv24.com|sharebusiness24.com
 /advertisement/*$domain=nattuvartha.news
 /advertisementBanners/*$domain=keralaexpress.com
-/advertisements/*$domain=abhiyandaily.com|banglakatha.com.au|dailydhakareport.com|indiasamachar24.com|janachasotimes.com|kashilive.com|keralaonlive.com|lalmonibarta.com|nepalipatra.com|nepalkhabar.com
+/advertisements/*$domain=banglakatha.com.au|dailydhakareport.com|indiasamachar24.com|janachasotimes.com|kashilive.com|keralaonlive.com|lalmonibarta.com|nepalipatra.com|nepalkhabar.com
 /advertisments/*$domain=parchhayin.com
 /Advertizement/*$domain=biniyougbarta.com|bn.mtnews24.com|gpnnews.com
 /advisment/*$domain=kopotakkhonews24.com
@@ -734,7 +734,6 @@ _advt.jpg|
 @@/ad/live-$domain=abnews24bd.com
 @@/content/ads/*$domain=dailykesari.com
 @@favicon.ico|
-@@||abhiyandaily.com/advertisements/abhiyan-viber.gif
 @@||anweshanam.com/static/ad/commons/js/3445/colombia_v11.js
 @@||aparajeobangla.com/media/Advertisement/use-mask.jpg
 @@||avadh24.in/mynewsadmin/img/add/add1610095077.jpeg
@@ -4625,8 +4624,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||varthatrivandrum.com^*/VT-ADV-
 ||vayanamuri.com^*/Kairali.gif
 ||vayanamuri.com^*/keralabusinessdirectory.gif
-||vedantsamachar.in/wp-content/uploads/2023/05/NAVIN-DEWANGAN.jpeg
-||vedantsamachar.in/wp-content/uploads/2023/06/Iqra-Classes
 ||veeravengaikal.com^*/ew.png
 ||veeravengaikal.com^*/verkal.png
 ||velippadai.com/wp-content/uploads/2021/01/19187589.jpg
@@ -4937,6 +4934,7 @@ newscg11.com###below-header
 kusenews.com###belowflash
 kusenews.com###belowmainnews
 tamilcnn.lk###big-banner
+abhiyandaily.com###bigyaapan
 citymirrors.in###bk_sidebar_3
 bigkhabar.com###bk_sidebar_8
 malayaleepathram.com.au###black-studio-tinymce-41
@@ -7052,8 +7050,8 @@ narayanionline.com##.no-vigyapan-section
 sagarmatha.tv##.no-vigyapan-sidebar-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -7210,6 +7208,8 @@ amarbarishal24.com##.row + .single_side_bar
 awaaz24x7.com##.row > .mb-3
 southwrap.in##.row-thirty.sidebar
 newssanjal.com##.row.mb-30
+vedantsamachar.in##.rslides1
+vedantsamachar.in##.rslides4
 timetvusa.com##.rt-post-slider-style1
 hindi.mykhel.com,tamil.mykhel.com##.rt-top-ad
 shomoynews24.com,shomoynews24.net##.sa-ad
