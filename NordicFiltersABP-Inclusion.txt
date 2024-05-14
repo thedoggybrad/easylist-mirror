@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Q3SPwpTPbbuZN6/Ygn3OAA
-! Version: 202405140240
+! Checksum: om+YN3VaNNqdYmCxJqE+2Q
+! Version: 202405140251
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 14 May 2024 02:40 UTC
+! Last modified: 14 May 2024 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -79609,6 +79609,7 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 youtube.com###masthead-ad
 youtube.com###player-ads
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
+youtube.com##.YtdShortsSuggestedActionStaticHostContainer
 youtube.com##.ytd-merch-shelf-renderer
 youtube.com##.ytp-suggested-action > button.ytp-suggested-action-badge
 m.youtube.com##lazy-list > ad-slot-renderer
