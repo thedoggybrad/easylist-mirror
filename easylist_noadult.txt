@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Vpz8oGsoQMujtFIHsl0z7w
-! Version: 202405142211
+! Checksum: klG0slS55JGa3kXBZoenwg
+! Version: 202405142221
 ! Title: EasyList without rules for adult sites
-! Last modified: 14 May 2024 22:11 UTC
+! Last modified: 14 May 2024 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -71182,7 +71182,7 @@ checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.kbmax.com^$domain=adspipe.com
 @@||ads.pubmatic.com/adserver/js/$script,domain=zeebiz.com
-@@||ads.pubmatic.com/AdServer/js/pwtSync/$subdocument,domain=independent.co.uk
+@@||ads.pubmatic.com/AdServer/js/pwtSync/$script,subdocument,domain=dnaindia.com|independent.co.uk|wionews.com
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
 @@||ads.rubiconproject.com/prebid/$script,domain=drudgereport.com|everydayhealth.com
