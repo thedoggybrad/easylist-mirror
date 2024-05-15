@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3f6GhN5avQc80xDxvPu7jw
-! Version: 202405151021
+! Checksum: 98d9HC7NDoBIMxLA3xp2xw
+! Version: 202405151031
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 15 May 2024 10:21 UTC
+! Last modified: 15 May 2024 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7303,7 +7303,7 @@ srk.fi#@##CookielawBanner
 /ad_ga_callback.js
 /ad_header.js
 /ad_home.js
-/ad_images/*
+/ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
 /ad_left.
 /ad_manager/*$image,script
@@ -7458,7 +7458,7 @@ srk.fi#@##CookielawBanner
 /ads_frame.
 /ads_iframe.
 /ads_image/*$image
-/ads_images/*
+/ads_images/*$image,domain=~wildlifeauctions.co.za
 /adsAPI.js
 /adsbanner-
 /adsbanner.
@@ -7701,7 +7701,7 @@ srk.fi#@##CookielawBanner
 /exitpopunder.js
 /exitpopup.js
 /exitsplash.php
-/exoads/*
+/exoads/*$script
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/backloaderforload.php
@@ -7735,7 +7735,6 @@ srk.fi#@##CookielawBanner
 /footer_ads.png
 /footerad.
 /footerads.
-/footerads/*
 /fro_lo.js
 /froloa.js
 /frontend_loader.js
@@ -7998,7 +7997,7 @@ srk.fi#@##CookielawBanner
 /reklame/*$~xmlhttprequest
 /ren.gif?
 /report_ad.js
-/resources/ads/*
+/resources/ads/*$~xmlhttprequest
 /responsive/ad_$subdocument
 /responsive_ads.js
 /right-ad-
@@ -8052,7 +8051,6 @@ srk.fi#@##CookielawBanner
 /sidead.
 /sidead1.js
 /sideads.js
-/sideads/*
 /sidebar-ad-
 /sidebar_ad.jpg
 /sidebar_ad.png
@@ -8126,7 +8124,7 @@ srk.fi#@##CookielawBanner
 /ttj?id=
 /ut.js?cb=
 /utx?cb=$third-party
-/v2/a/push/js/*
+/v2/a/push/js/*$third-party
 /v3/ads?
 /v7/ads/*
 /valnet-header-ads.
@@ -8141,7 +8139,6 @@ srk.fi#@##CookielawBanner
 /video-js-ads.
 /video.ads.
 /video_ad.
-/video_ad_
 /video_ads.
 /video_slider3.js
 /videoad.$domain=~videoad.in
@@ -8201,7 +8198,6 @@ srk.fi#@##CookielawBanner
 /wppas.min.css
 /wppas.min.js
 /wpxbz-theme.js
-/wrapper/ads/*
 /www/delivery/*$script,subdocument
 /www/js/ad/*
 /xads.php
@@ -8441,7 +8437,6 @@ _widget_ad.
 /_js/prbd_6.19.0.js
 /ad/postbid_handler1.0.9.js
 /adn-hb/*
-/ads/prebid_
 /AudienceNetworkPrebid.
 /gpt-prebid.js
 /pbjsandwich-
