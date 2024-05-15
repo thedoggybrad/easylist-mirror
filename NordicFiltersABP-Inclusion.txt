@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8ryYmgzJ/lFKXy0tR/PnIQ
-! Version: 202405150450
+! Checksum: myPp5MUELssDcwd2ZNYj4A
+! Version: 202405150501
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 15 May 2024 04:50 UTC
+! Last modified: 15 May 2024 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7429,7 +7429,6 @@ srk.fi#@##CookielawBanner
 /ads/targeted|
 /ads/top-
 /ads/top.
-/ads/tso
 /ads/video/controller.php
 /ads/view.php
 /ads/xtcore.
@@ -7620,7 +7619,7 @@ srk.fi#@##CookielawBanner
 /bannerad.
 /bannerad3.js
 /bannerads.
-/bannerads/*
+/bannerads/*$~xmlhttprequest,domain=~coldwellbankerhomes.com
 /banners.*/go/page/*
 /banners.*/piclist?
 /banners.cgi?
@@ -8117,7 +8116,7 @@ srk.fi#@##CookielawBanner
 /targetpushad.js
 /theologicalpresentation.com/*
 /tmbi-a9-header-
-/tncms/ads/*
+/tncms/ads/*$script
 /tnt.ads.
 /top-ad.
 /top-ads.
@@ -8209,7 +8208,6 @@ srk.fi#@##CookielawBanner
 /xpopunder.js
 /xpopup.js
 /yhs/ads?
-/yume_ad_library_
 /zcredirect?
 /~cdn/ads/*
 ://a.*/ad-provider.js$third-party
