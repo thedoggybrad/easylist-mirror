@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: ORkb7R6EJY5pZYN69M2vOA
-! Version: 202405150630
+! Checksum: 1XUw96+e22SxW6wOYJUwbA
+! Version: 202405150641
 ! Title: ABPVN List
-! Last modified: 15 May 2024 06:30 UTC
+! Last modified: 15 May 2024 06:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 14 May 2024 09:13:40 UTC+7
-! Diff-Path: patches/20240514091340449.patch#abpvn
+! Last modified: 15 May 2024 13:35:53 UTC+7
+! Diff-Path: patches/20240515133553201.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -147,7 +147,7 @@
 ||image-eu-na-tsetsafndc.90phut.click/90link/Cp9OssK.gif$image,domain=live11.90phut20.live
 ||image-eu-na-tsetsafndc.90phut.click^*.gif$domain=xem.bdhub.xyz|live3.vebo17.net
 ||img.nguonc.com^*.gif$domain=phimhay123.vn
-||img.upanh.tv^*.gif$image,domain=ffmovie.online|xemphim.me
+||img.upanh.tv^*.gif$image,domain=ffmovie.online|xemphim.me|phimtuoitho.tv
 ||imgyn.imageshh.com^*.gif$image,domain=mphim14.org
 ||kenhgamez.co^*.gif
 ||kenhtin.net/upload/images/banner-
@@ -191,6 +191,7 @@
 ||phimnhua.net^*.gif
 ||phimplay24h.com^*.gif
 ||phimss.com/assets/ads/$image
+||phimtuoitho.tv/assets/js/hello.js$script,~third-party
 ||phimvuihd.org^*.gif$image
 ||phimyeuthichb.com/ad-data/$image
 ||photo2.tinhte.vn/data/attachment-files/*banner
@@ -735,6 +736,7 @@ phimno4.xyz###ads_location
 phimno4.xyz##.block.ad
 phimplay24h.com###itro_popup
 phimss.com##.ads-pc
+phimtuoitho.tv##.catfish-bottom
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz##.t_logo
 phimvietsub.pro,subnhanh.xyz##.sticky_bottom
 phimvuihd.org,hh3dhay.lol,phim18hi.net,xemphim.me,ffmovie.online,xem14.com,hh3dhay.pro,vutruphim.tv,3dchill.shop##.float-ck-center-lt
