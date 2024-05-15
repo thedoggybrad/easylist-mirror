@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eXQmyndKVbDF0pJUnmJbSA
-! Version: 202405151411
+! Checksum: OLIwO8OJFjTChgTY7MdxdQ
+! Version: 202405151421
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 15 May 2024 14:11 UTC
+! Last modified: 15 May 2024 14:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7415,7 +7415,7 @@ srk.fi#@##CookielawBanner
 /ads/popup.
 /ads/preroll-
 /ads/proxy-
-/ads/rectangle_
+/ads/rectangle_$subdocument
 /ads/revgen.
 /ads/serve?
 /ads/show.
@@ -7461,7 +7461,7 @@ srk.fi#@##CookielawBanner
 /adsAPI.js
 /adsbanner-
 /adsbanner.
-/adsbanner/*
+/adsbanner/*$image
 /adsbox.$~script,domain=~adsbox.com.sg
 /adscontrol.js
 /adscontroller.js
@@ -7959,7 +7959,7 @@ srk.fi#@##CookielawBanner
 /processing/impressions.asp?
 /production/ad-
 /production/ads/*$script
-/promo/ads/*
+/promo/ads/*$~xmlhttprequest
 /promo/affiframe.
 /promotools.
 /proxyadcall?
@@ -8125,7 +8125,6 @@ srk.fi#@##CookielawBanner
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
 /v3/ads?
-/v7/ads/*
 /valnet-header-ads.
 /vast/?zid=
 /velvet_stack_cmp.js
@@ -8198,7 +8197,6 @@ srk.fi#@##CookielawBanner
 /wppas.min.js
 /wpxbz-theme.js
 /www/delivery/*$script,subdocument
-/www/js/ad/*
 /xads.php
 /xpopunder.js
 /xpopup.js
