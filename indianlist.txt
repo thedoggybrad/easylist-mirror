@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2gSJUdPKcev9ldMahztCQQ
-! Version: 202405161741
+! Checksum: r4SAkQLZP7SAzLYaiNhLNA
+! Version: 202405161750
 ! Title: IndianList
-! Last modified: 16 May 2024 17:41 UTC
+! Last modified: 16 May 2024 17:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -640,7 +640,6 @@ _advt.jpg|
 -add-$image,domain=chauthiduniya.com|dainikazadi.net|samarneetinews.com
 -add.gif|$domain=amarsylhet24.com|chandpurreport.com|somoysongbad.com|wenepali.com
 -add.jpg|$domain=bangladeshkantha.com|bishwanathbd24.com|eaajkaal.in|matrubhasa.com|patheo24.com|pragativahini.com|suprovatsatkhira.com|teluguwishesh.com
--add.jpg|*$domain=ratdinnews.net
 -add.png|$domain=kalaroanews.com|osnepal.com|sangbadsarabela.com
 -adds-$domain=ddnews24x7.com
 -ads-$domain=aruna.lk
@@ -2883,10 +2882,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||madhubaninews.in/wp-content/uploads/2021/01/vishw-mohan-prasad-
 ||maguranews.com^*/adv-
 ||majeettimes.com/wp-content/uploads/2022/01/IMG-20211216-WA0088
-||makdaiexpress24.com/wp-content/uploads/2022/10/gunjan4-
-||makdaiexpress24.com/wp-content/uploads/2022/10/WhatsApp-Image-2022-10-20-at-4.55.34-PM.jpeg
-||makdaiexpress24.com/wp-content/uploads/2022/12/IMG-20221203-WA0030.jpg
-||makdaiexpress24.com^*/Universal-Equa-Solution.jpg
 ||makkalkural.net/news/wp-content/uploads/2020/06/25x4-240x300.jpg
 ||makkalkural.net/news/wp-content/uploads/2020/06/25x4.jpg
 ||makkalkural.net^*/la-alagria-tamil.jpg
@@ -3785,7 +3780,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||rashtriyakhabar.com/wp-content/uploads/2022/11/Ad-SMC.jpg
 ||rastrasamvad.com/wp-content/uploads/2019/02/Saipoly-clinic-copy-web.jpg
 ||rastrasamvad.com/wp-content/uploads/2019/10/footer-add.jpg
-||ratdinnews.net^*/add-
 ||ratopanda.com^$third-party,domain=hamrakura.com
 ||ratopanda.com^render?$third-party
 ||realbulletin.in/mynewsadmin/img/add/add1548668647.jpeg
@@ -7054,8 +7048,8 @@ narayanionline.com##.no-vigyapan-section
 sagarmatha.tv##.no-vigyapan-sidebar-section
 narayanionline.com##.no-vigyapan-single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 livehindustan.com##.ntwrk-wdgt
 swadeshbani.com##.nv-header-ads-area
@@ -7507,9 +7501,9 @@ dainikjanwani.com##.td-a-rec:not(.tdi_274)
 prabhanews.com##.td-a-rec:not(.tdi_72)
 dainikhindmitra.com##.td-a-rec:not([class*="tdi_127_"])
 manvadhikarabhivyakti.in##.td-a-rec:not([class*="tdi_345"])
-dainikdawa.com#@#.td-ad-m
-dainikdawa.com#@#.td-ad-p
-dainikdawa.com#@#.td-ad-tp
+dainikbharatbhaskar.com,dainikdawa.com#@#.td-ad-m
+dainikbharatbhaskar.com,dainikdawa.com#@#.td-ad-p
+dainikbharatbhaskar.com,dainikdawa.com#@#.td-ad-tp
 loksansar.in,pathramonline.com##.td-adspot-title + a
 odisha.live##.td-all-devices
 nayabangla.com,southlive.in##.td-banner-bg
@@ -7532,7 +7526,6 @@ citinewslive.com##.td-main-content-wrap .td-a-rec-id-custom-spot
 manvadhikarabhivyakti.com##.td-main-content-wrap .td-a-rec:has(> div > div > h4.block-title)
 janatarsylhet24.com,matopath.com##.td-main-content-wrap .td_block_single_image
 digitalmalayalionline.com##.td-main-content-wrap .td_spot_img_all
-ratdinnews.net##.td-main-content-wrap .tdm_block
 akkbd.com##.td-main-content-wrap .tdm_block img:not([src*="_n-1.gif"])
 khabor24.in##.td-main-content-wrap .tdm_block_inline_text
 teknafnews.com##.td-main-content-wrap .vc_raw_html
@@ -7608,7 +7601,7 @@ asomkhobor.com##.tdm-popup-modal
 biswabanglanews.com##.tdm-popup-modal-wrap
 annapurnatimes.com##.tdm_block
 mekhadooth.com##.tdm_block img
-digitalmalayalionline.com,myagdikali.com##.tdm_block_inline_image
+digitalmalayalionline.com,myagdikali.com,ratdinnews.net##.tdm_block_inline_image
 trendingnewshindi.live##.tds-button
 headlinestripura.in,tedmnews.com##.technology-section-ads
 samakal.com##.text-body-ad
@@ -8445,6 +8438,7 @@ lokshahi.com,navjivanindia.com##div[class*="m__ad"]
 kalkionline.com##div[class*="m__ad-"]
 navjivanindia.com##div[class*="m__dfp"]
 deshdoot.com##div[class*="m_ad-slot"]
+makdaiexpress24.com##div[class*="makda-"]
 nainilive.com##div[class*="naini-"]
 akilanews.com##div[class*="pannel-banner"]
 meddlingmedia.com##div[class*="pubadban"]
@@ -8761,8 +8755,6 @@ onlinemarg.com##img[alt="Header Ad"]
 telugutimes.net##img[alt="MKOne"]
 talashbangla.com##img[alt="Page Add"]
 trttamilolli.com##img[alt="SAT"]
-makdaiexpress24.com##img[alt="Shree sai"]
-makdaiexpress24.com##img[alt="Shreegrah"]
 eyenewsbd.com##img[alt="ad image"]
 groundzeroenews.co.in,knanayaworld.com,newsarchives24.com,ujyaaloonline.com##img[alt="ad"]
 dinajpur24.com##img[alt="ad728"]
