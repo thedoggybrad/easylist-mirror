@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405161219
+! Version: 202405161229
 ! Title: Fanboy's Annoyance List
-! Last modified: 16 May 2024 12:19 UTC
+! Last modified: 16 May 2024 12:29 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -36094,7 +36094,7 @@ game-news24.com,manilatimes.net##.scroll-up
 toyota.co.uk,toyota.ie##.scrollTo
 gadgets360.com,pinkluna.com.br##.scrollToTop
 khronos.org,kyivpost.com##.scroll_to
-ukranews.com##.scroll_top
+rogor.ge,ukranews.com##.scroll_top
 peekyou.com##.scrollmeup
 frameboxxindore.com,host-tools.com,hostelworld.com,news9live.com,paramorefans.com,spacetourismguide.com,tribuneindia.com##.scrolltop
 nsfw.xxx##.scrolltop-button
@@ -44188,6 +44188,11 @@ apotti.fi#?#.post-footer:-abp-has(> .share)
 demokraatti.fi##div[class^="Styles__InnerContainer-"] > .animated
 forssanlehti.fi#?#.herald-single-sticky:-abp-has(.herald-share)
 ! 
+! ---------- Georgian Specific Social Media Elements ----------
+! 
+kvirispalitra.ge##.d-flex.mt-3
+kvirispalitra.ge##.research__details--share
+! 
 ! ---------- Greek Specific Social Media Elements ----------
 ! 
 enternity.gr###enternity_social_dialog
@@ -45177,6 +45182,8 @@ aif.ru##.subscribe_wid
 kommersant.uk##.subscription-form
 ! Serbian
 b92s.net##.bilten-signup
+! Slovak
+dennikn.sk##.e_newsletters
 ! Spanish
 antena3.com###form_newsletter
 cooperativa.cl###mc_register_iframe
