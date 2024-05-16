@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y/AR0XESGA49IHUBRd+b8w
-! Version: 202405160521
+! Checksum: qO+6kkM+xCxBsBOIxWXQ7w
+! Version: 202405160530
 ! Title: EasyList without rules for adult sites
-! Last modified: 16 May 2024 05:21 UTC
+! Last modified: 16 May 2024 05:30 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -13924,7 +13924,7 @@ _800x80_
 ##.p-ad-thumbnail-txt
 ##.p-ads-billboard
 ##.p-ads-rec
-##.p-post-ad
+##.p-post-ad:not(html):not(body)
 ##.p2_right_ad
 ##.p75_sidebar_ads
 ##.pAdsBlock2
@@ -66639,6 +66639,7 @@ lyricsmode.com##.al-c-banner
 wikihow.com##.al_method
 altfi.com##.alert
 accessnow.org##.alert-banner
+free-proxy-list.net##.alert-fpl.dark
 apkmb.com##.alert-noty-download
 rapidsave.com##.alert.col-md-offset-2
 peoplematters.in##.alertBar
