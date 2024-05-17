@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: PIPaJy1EdK2dzB7Nm0klBw
-! Version: 202405171401
+! Checksum: HFa+p2ZgqgbvexrbKlRpbA
+! Version: 202405171411
 ! Title: ABP filters
-! Last modified: 17 May 2024 14:01 UTC
+! Last modified: 17 May 2024 14:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1227,6 +1227,8 @@ mavanimes.co,toonanime.cc#$#abort-current-inline-script document.documentElement
 protege-torrent.com#$#abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 mavanimes.co,japscan.me#$#abort-current-inline-script JSON.parse;
 strtapeadblock.me#$#abort-on-property-write _pao
+tirexo.day#$#debug; abort-on-property-read window.open
+||tirexo.day^$csp=script-src 'self'
 ! *** abp-filters-anti-cv:german.txt ***
 ! #CV-761
 ! #CV-691
