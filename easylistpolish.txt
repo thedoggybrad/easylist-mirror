@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4bnFhke47o8aaRcBffSVkQ
-! Version: 202405170701
+! Checksum: jRvyknQgQjc5fLEBzmwsdg
+! Version: 202405170711
 ! Title: EasyList Polish
-! Last modified: 17 May 2024 07:01 UTC
+! Last modified: 17 May 2024 07:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -377,6 +377,7 @@ supernowosci24.pl##[id^="r-"]
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+_banner_$domain=warzywa.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2514,6 +2515,8 @@ grudziadz365.pl##[class^="materialy-promocyjne"]
 tusochaczew.pl##[class^="materialy-promocyjne"]
 expresskaszubski.pl##[class^="materialy-promocyjne"]
 esopot.pl##[class^="materialy-promocyjne"]
+pulsgdanska.pl##.ad--bill-top
+doba.pl##.special__box
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
