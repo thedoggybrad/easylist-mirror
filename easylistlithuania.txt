@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b1vnsXt8zsKYRwNikyywIg
-! Version: 202405171221
+! Checksum: JLsShQaj0HMIEBSs5eboYQ
+! Version: 202405171231
 ! Title: EasyList Lithuania
-! Last modified: 17 May 2024 12:21 UTC
+! Last modified: 17 May 2024 12:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/EasyList-Lithuania/easylist_lithuania
 !
@@ -616,7 +616,7 @@ diena.lt##.node > iframe[src$=".php"]
 /skydeliai/*
 .lt/images/banners^$domain=~procolor.lt|~rde.lt
 .lt/reklamos^
-.lt/banners^
+.lt/banners^$domain=~barbora.lt
 .lt/uploads/banners^
 .lt/banner^
 .lt/resources/_banners^
