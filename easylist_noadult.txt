@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: maTqA2epMXoqVBQSC7b03Q
-! Version: 202405180251
+! Checksum: FRccOXxWd7jowVJViqT1Sw
+! Version: 202405180301
 ! Title: EasyList without rules for adult sites
-! Last modified: 18 May 2024 02:51 UTC
+! Last modified: 18 May 2024 03:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -70585,6 +70585,7 @@ neonheightsservers.com##.well:has(ins.adsbygoogle)
 9to5linux.com##.widget:has([href$=".php"])
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing_tag"])
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > :has(> .adWrapper)
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
