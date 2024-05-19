@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ytg56k1a9DbfDSHZSnI7nw
-! Version: 202405191411
+! Checksum: tZZSRT2quAncEc0CcxEFCg
+! Version: 202405191420
 ! Title: EasyList Polish
-! Last modified: 19 May 2024 14:11 UTC
+! Last modified: 19 May 2024 14:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2512,6 +2512,7 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+allegro.pl#?#[data-variants-visible]:-abp-contains(Sponsorowane)
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
