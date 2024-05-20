@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7bXMcUeY2AFKdUivrZnQrw
-! Version: 202405200751
+! Checksum: J6ynJRgsWcZEcc6g17BZ8Q
+! Version: 202405200801
 ! Title: EasyList Polish
-! Last modified: 20 May 2024 07:51 UTC
+! Last modified: 20 May 2024 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1841,7 +1841,7 @@ iloveslubice.pl##[class^="ilove-2023-sidebar-na-podstronach-"] a
 iloveslubice.pl##[class^="ilove-2023-wpisy-po-"]
 nto.pl##[class^="lista_content_stream_"]
 laziska.com.pl,m-ce.pl,mojchorzow.pl,mojegliwice.pl,mojekatowice.pl,mojetychy.pl,mojmikolow.pl,orzesze.com.pl,piekaryslaskie.com.pl,pyskowice.com.pl,rudaslaska.com.pl,rybnicki.com,siemianowice.net.pl,sosnowiecki.pl,swiony.pl,wodzislaw.com.pl,zabrze.com.pl,zory.com.pl##[class^="m-ads-"]
-ddtorun.pl,ekutno.pl,esopot.pl,expresskaszubski.pl,faktypilskie.pl,gorlice24.pl,gostyn24.pl,grudziadz365.pl,gwe24.pl,ki24.info,swiecie24.pl,tusochaczew.pl,tygodnik.pl,zyciesiedleckie.pl##[class^="materialy-promocyjne"]
+ddtorun.pl,ekutno.pl,esopot.pl,expresskaszubski.pl,faktypilskie.pl,gorlice24.pl,gostyn24.pl,grudziadz365.pl,gwarek.com.pl,gwe24.pl,hej.mielec.pl,ki24.info,roztocze.net,rzeczkrotoszynska.pl,swiecie24.pl,tusochaczew.pl,tygodnik.pl,wpu24.pl,zyciesiedleckie.pl##[class^="materialy-promocyjne"]
 kanal10.pl##[class^="moduletable_banner"]
 igrit.pl##[class^="py-"]
 eplastics.pl##[class^="reklama"]
@@ -2262,6 +2262,7 @@ trzoda-chlewna.com.pl##a[target="_blank"]:not([href^="https://www.trzoda-"])
 maratonypolskie.pl##a[target="pw"]
 gazeta-wiesci.pl##a[title*="clicks."] > img
 jaslo4u.pl##a[title="reklama"]
+allegro.pl#?#[data-variants-visible]:-abp-contains(Sponsorowane)
 fm.tuba.pl##app-advert
 medycyna24.pl##article > .insert--top-offer
 dziennikzachodni.pl,nowiny24.pl##article.contentStream
@@ -2511,12 +2512,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-allegro.pl#?#[data-variants-visible]:-abp-contains(Sponsorowane)
-hej.mielec.pl##[class^="materialy-promocyjne"]
-rzeczkrotoszynska.pl##[class^="materialy-promocyjne"]
-roztocze.net##[class^="materialy-promocyjne"]
-gwarek.com.pl##[class^="materialy-promocyjne"]
-wpu24.pl##[class^="materialy-promocyjne"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
