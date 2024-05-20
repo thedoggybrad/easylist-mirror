@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Vg9vYK4ic1Uyu5aevbn1nw
-! Version: 202405202051
+! Checksum: 5Dj5K+aY01XiiQkpyBCipg
+! Version: 202405202101
 ! Title: EasyList Dutch
-! Last modified: 20 May 2024 20:51 UTC
+! Last modified: 20 May 2024 21:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1312,6 +1312,7 @@ krefel.be#?#div[class^="Flex-styled__StyledFlex-"]:has(h3:-abp-contains(Gesponso
 ! Advanced element hiding rules for Adblock Plus
 feijenoordnieuws.nl##.cv-table-left > a:not([target="_blank"]):not([rel="nofollow"]):not(a[href^="https://feijenoordnieuws.nl/"])
 2dehands.be#?#.hz-Listing--list-item:-abp-has(.hz-Listing-priority:-abp-contains(Topadvertentie))
+almere-nieuws.nl#?#.wpb_wrapper:has(.section-heading:-abp-contains(partners))
 autobahn.eu#?#.d-none.d-md-block.mb-3:-abp-has(a[target="_blank"][rel="noopener"])
 buienradar.nl#?#.linklist:-abp-has(h1:-abp-contains(Lekker Dichtbij Deals))
 businessinsider.nl#?#.widget_custom_html:-abp-has(h2:-abp-contains(Beter Beleggen))
