@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 31Z1ZaU6T43S1eRTghwyKA
-! Version: 202405201801
+! Checksum: 0p3yZ6mykCg2mQGg15V9kA
+! Version: 202405201811
 ! Title: EasyList Dutch
-! Last modified: 20 May 2024 18:01 UTC
+! Last modified: 20 May 2024 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -547,7 +547,6 @@ veto.be###advert-campaign
 rtveen.nl###advertenties
 omroeppenm.nl,rickfm.nl###advertisement
 alle-tests.nl,bloovi.be###advertising
-agconnect.nl###ag_article_related_partner_logos
 demorgen.be,parool.nl,trouw.nl,volkskrant.nl###article_paragraph_3
 ciaotutti.nl###b_searchboxInc
 belgiancycling.be,zoekhulp.nl###banner
@@ -1214,6 +1213,7 @@ oisterwijknieuws.nl##div[align="center"] a[target="_blank"]
 hartvannederland.nl,shownieuws.nl,vandaaginside.nl##div[class*="-bannerTopWrapper-"]
 hartvannederland.nl,shownieuws.nl,vandaaginside.nl##div[class*="-bannerWrapper-"]
 meteovista.be##div[class*="AdWrapper"]
+agconnect.nl##div[class*="ad-slot"]
 omroepbrabant.nl##div[class^="ad-"]
 deondernemer.nl##div[class^="adBlock_"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
@@ -1297,6 +1297,7 @@ indebuurt.nl##.list-item.list-item--aagje:has(.list-item__sponsor)
 welingelichtekringen.nl##.post:has(a[href*="/partnerposting/"])
 ah.nl##.product-card-portrait_root__ZiRpZ:has(.promotion_root__pAAlu)
 tvgids.nl##.square-item:has( > .banner)
+agconnect.nl#?#.c-teaser:has(.c-pill--partner)
 krefel.be#?#div[class^="Flex-styled__StyledFlex-"]:has(h3:-abp-contains(Gesponsorde producten))
 ! Advanced element hiding rules for Adblock Plus
 feijenoordnieuws.nl##.cv-table-left > a:not([target="_blank"]):not([rel="nofollow"]):not(a[href^="https://feijenoordnieuws.nl/"])
