@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: C00tEHyV6hnZtYFQF2Ee8g
-! Version: 202405202341
+! Checksum: To81LJaVVLMRm9b+cJnrAg
+! Version: 202405202350
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 20 May 2024 23:41 UTC
+! Last modified: 20 May 2024 23:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1155,8 +1155,7 @@ gamereactor.no,gamereactor.dk##div[class^=preMobileBig]
 gamereactor.no,gamereactor.dk##.external_div_videoAd
 gamereactor.no,gamereactor.dk##*:has(> #grtvbelt_Sponsored)
 gamereactor.no,gamereactor.dk##.ad_interscroller:upward(.wrapper)
-||gamereactor.*/ads^
-||gamereactor.*/exclusive.json^
+sjoborg.no##div[data-debuglabel=_app]
 ! — — — — — — — — —
 ! 🇳🇴: Oppføringer for minst 3 nettsteder
 ! 🇬🇧: Entries for at least 3 websites
@@ -1591,6 +1590,8 @@ contentMarketing$xmlhttprequest,domain=sol.no
 ||ytresogn.no/wp-content/uploads/2016/05/Fureli-nett-mobil.jpg^
 ||ytresogn.no/wp-content/uploads/2017/04/image007.jpg^
 ||ytresogn.no/wp-content/uploads/2020/02/Ytre_718_360_2.jpg^
+||gamereactor.*/ads^
+||gamereactor.*/exclusive.json^
 ! — — — — — — —
 ! 🇳🇴: Filtjener- eller nettstedsspesifikke oppføringer med kilder
 ! 🇳🇴🏞: Filtenar- eller nettstadsspesifikke oppføringar med kildar
@@ -2957,6 +2958,10 @@ triplx.dk##.aff-inner-col
 /zlk/zlk.js
 /zone?pub
 ! Various Android apps
+! When using AdGuard for iOS
+! https://github.com/AdguardTeam/AdguardFilters/issues/179354
+@@||finn.no/bap/forsale/ad.html^$~third-party
+! Other entries that are «AdGuard syntax»-specific
 ! Generic entries that seem like they'd apply to the internet as a whole (Nordic sites included) that aren't in EasyList or uBlock Filters, but which are in AdGuard Base Filter.
 ! An equivalent file also exists for AdGuard softwares.
 ###ad-fullbanner2-billboard-outer
@@ -5594,7 +5599,7 @@ zeromagazine.nu##div[id^=ads]
 feber.se##.maxetise
 nytid.no#@#div.td-a-rec img
 ! Description: Finnish adblock list
-! Last modified: Wed, 24 Apr 2024 13:25:17 +0000
+! Last modified: Sun, 19 May 2024 18:38:17 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -5812,6 +5817,7 @@ avecmedia.fi##.front-page-ad-padding
 avecmedia.fi##.front-page-advertisement
 avplus.fi#?#.widget:has(.widget_advads_ad_widget)
 bbs.io-tech.fi##.structItem--thread[data-author=Mainos]
+bbs.io-tech.fi##[data-revive-zoneid]
 bbs.io-tech.fi#?#div.node-extra:has-text(Mainos)
 bbs.io-tech.fi#?#li.block-row:has-text(Mainos)
 bittiraha.fi###cm-banner
@@ -6772,6 +6778,7 @@ vuokraovi.com##.service-ad-panel
 webnode.fi##.wnd-free-stripe-link
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
+www.io-tech.fi##[data-revive-zoneid]
 www.io-tech.fi##aside.jimmx
 www.io-tech.fi#?#.artikkeli-slide:has(img[src*="-nostokuva"])
 www.io-tech.fi#?#.artikkeli-slide:has(img[src*="Ad-otsikko"])
@@ -78710,6 +78717,7 @@ technologyreview.com##div[class^="headerTemplate__leaderboardRow-"]
 localjewishnews.com##div[class^="local-feed-banner-ads"]
 bloomberg.com##div[class^="media-ui-BaseAd"]
 bloomberg.com##div[class^="media-ui-FullWidthAd"]
+nltimes.nl##div[class^="r89-"]
 nationalmemo.com,spectrum.ieee.org,theodysseyonline.com##div[class^="rblad-"]
 windowsreport.com##div[class^="refmedprd"]
 windowsreport.com##div[class^="refmedprod"]
@@ -79185,6 +79193,8 @@ ndtv.com,ndtv.in##[id^="firework"]
 ! Abusive Adcompanies
 a-ads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.co.uk,adskeeper.com,adspyglass.com,adstracker.info,adsupply.com,adsupplyads.com,adsupplyads.net,chpadblock.com,exoclick.com,hilltopads.com,join-admaven.com,joinpropeller.com,juicyads.com,luckyads.pro,monetag.com,myadcash.com,popads.net,propellerads.com,purpleads.io,trafficshop.com,yavli.com##HTML
 ! Eurosport/TNTSports
+##.ad-fallback
+##.ad.reform-top
 ##.reform-top-container
 ! Amazon
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###nav-swmslot
