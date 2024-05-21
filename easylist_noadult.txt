@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KtWeNa5kur5eQ4jZzSeSdA
-! Version: 202405211531
+! Checksum: 8RxDMWpaOYygtTGF9K1OtA
+! Version: 202405211540
 ! Title: EasyList without rules for adult sites
-! Last modified: 21 May 2024 15:31 UTC
+! Last modified: 21 May 2024 15:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12753,6 +12753,8 @@ _800x80_
 ##.in-story-ads
 ##.in-text-ad
 ##.in-text__advertising
+##.in-thumb-ad
+##.in-thumb-video-ad
 ##.inPageAd
 ##.in_ad
 ##.in_article_ad
@@ -69776,6 +69778,7 @@ perchance.org##[style^="position: fixed;"]
 meaww.com##[style^="text-align: center;"]
 zenger.news##[style^="text-align:center;min-height:"]
 filmdaily.co,gelbooru.com,integral-calculator.com,passiveaggressivenotes.com,twcenter.net##[style^="width: 728px;"]
+alphacoders.com##[style^="width:980px; height:280px;"]
 gametracker.com##[style^="width:980px; height:48px"]
 mrchecker.net##[target="_blank"]
 myfitnesspal.com##[title*="Ad"]
