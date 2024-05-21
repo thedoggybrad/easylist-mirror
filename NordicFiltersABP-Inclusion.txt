@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0HwSCpHAM5/iYNlP0pj62Q
-! Version: 202405211531
+! Checksum: W77BAO9n2UVFrLLKOY1ZxA
+! Version: 202405211541
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 May 2024 15:31 UTC
+! Last modified: 21 May 2024 15:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -19867,6 +19867,8 @@ _800x80_
 ##.in-story-ads
 ##.in-text-ad
 ##.in-text__advertising
+##.in-thumb-ad
+##.in-thumb-video-ad
 ##.inPageAd
 ##.in_ad
 ##.in_article_ad
@@ -78380,6 +78382,7 @@ perchance.org##[style^="position: fixed;"]
 meaww.com##[style^="text-align: center;"]
 zenger.news##[style^="text-align:center;min-height:"]
 filmdaily.co,gelbooru.com,integral-calculator.com,passiveaggressivenotes.com,twcenter.net##[style^="width: 728px;"]
+alphacoders.com##[style^="width:980px; height:280px;"]
 gametracker.com##[style^="width:980px; height:48px"]
 mrchecker.net##[target="_blank"]
 myfitnesspal.com##[title*="Ad"]
