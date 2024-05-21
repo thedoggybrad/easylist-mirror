@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: zRawobAAhSyiCEa1cyKEsw
-! Version: 202405212221
+! Checksum: N2qaWSJkAI7ZIkT3IY8CZA
+! Version: 202405212230
 ! Title: ABPVN List
-! Last modified: 21 May 2024 22:21 UTC
+! Last modified: 21 May 2024 22:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 21 May 2024 08:14:12 UTC+7
-! Diff-Path: patches/20240521081412297.patch#abpvn
+! Last modified: 22 May 2024 05:27:57 UTC+7
+! Diff-Path: patches/20240522052757879.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1062,6 +1062,7 @@ znews.vn##.znews-banner
 @@||contextual.media.net/dmedianet.js$domain=azrom.net
 @@||googleads.g.doubleclick.net/pagead/$domain=cungthi.online|romgoc.net
 @@||googletagservices.com/tag/js/gpt.js$domain=game24h.vn
+@@||imail.edu.vn/storage/js/ad-engine.js$~third-party
 @@||imasdk.googleapis.com^$script,xmlhttprequest,domain=vieon.vn|fptplay.vn|24h.com.vn|gamgame24h|sctvonline.vn|danet.vn
 @@||jsc.adskeeper.co.uk^$script,domain=ios.codevn.net
 @@||linkads.xyz/aphim.org/ads2video/embed.html$subdocument,domain=vungtv.us|247phim.cc
