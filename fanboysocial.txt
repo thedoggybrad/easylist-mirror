@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405202355
+! Version: 202405210004
 ! Title: Fanboy's Social Blocking List
-! Last modified: 20 May 2024 23:55 UTC
+! Last modified: 21 May 2024 00:04 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -6288,8 +6288,10 @@ _twitter_follow.
 ##.js-share-button-container
 ##.js-share-button-twitter
 ##.js-share-count
+##.js-share-default
 ##.js-share-email
 ##.js-share-facebook
+##.js-share-linkedin
 ##.js-share-more
 ##.js-share-pinterest
 ##.js-share-popup
@@ -13236,12 +13238,14 @@ looopings.nl###indexNavigatorboxl
 yachtonline.nl###shareThisAd
 carwashpro.nl,infrasite.nl,mobiliteit.nl,rijschoolpro.nl,spoorpro.nl,tankpro.nl,taxipro.nl,zelfrijdendvervoer.nl###socialmedia
 telegraaf.nl##.SocialButtons
+hagelandactueel.be,leuvenactueel.be##.article-full__footer-share
 carwashpro.nl,infrasite.nl,mobiliteit.nl,rijschoolpro.nl,spoorpro.nl,tankpro.nl,taxipro.nl,zelfrijdendvervoer.nl##.author-links
 meemetoranje.nl##.btn-social
 israeltoday.nl##.entry-social
 smulderstextiel.nl##.favshare-holder
 100p.nl##.holder-social
 twentefans.nl##.js-share
+dvo.be##.js-sticky-content
 iexprofs.nl,participaties.nl##.linkbar
 carwashpro.nl,infrasite.nl,mobiliteit.nl,rijschoolpro.nl,spoorpro.nl,tankpro.nl,taxipro.nl,zelfrijdendvervoer.nl##.menu-social-media-container
 schrijvenonline.org##.rrssb
@@ -13250,6 +13254,7 @@ bricovideo.ovh##.social-icon
 automobielmanagement.nl##.social-nav
 menselijklichaam.nl##.social-wrapper
 zeelandnet.nl##.zld-ftr__social
+nieuwsblad.be##[class*="shareitemlist"]
 gooieneemlander.nl,haarlemsdagblad.nl,leidschdagblad.nl,noordhollandsdagblad.nl##div[class*="sharesticky"]
 nhnieuws.nl##div[class^="article_share_"]
 ! 
@@ -13607,6 +13612,7 @@ meutimao.com.br###redes_sociais
 superesportes.com.br###shareitens
 tatarada.com.br###single-compartilhe
 spinoff.com.br###sociaisnk
+tecnoblog.net###tb-banner-whatsapp
 bandnewsfm.com.br##.DivIconsTopo
 agazeta.com.br##.ag-mobile-social-widget
 dnoticias.pt##.article--aside_share
