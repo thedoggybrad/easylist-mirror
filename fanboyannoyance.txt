@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405202355
+! Version: 202405210005
 ! Title: Fanboy's Annoyance List
-! Last modified: 20 May 2024 23:55 UTC
+! Last modified: 21 May 2024 00:05 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -10676,8 +10676,10 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.js-share-button-container
 ##.js-share-button-twitter
 ##.js-share-count
+##.js-share-default
 ##.js-share-email
 ##.js-share-facebook
+##.js-share-linkedin
 ##.js-share-more
 ##.js-share-pinterest
 ##.js-share-popup
@@ -37315,7 +37317,7 @@ feastingathome.com##.block-newsletter-share
 datacenterdynamics.com##.block-registration_prompt
 healthyfitnessmeals.com,thefoodcharlatan.com##.block-save-recipe
 backroads.com##.block-sign-up-for-our-email-newsletter
-abeautifulmess.com,afamilyfeast.com,airandspaceforces.com,thebestcakerecipes.com##.block-subscribe
+abeautifulmess.com,afamilyfeast.com,airandspaceforces.com,thebestcakerecipes.com,want.nl##.block-subscribe
 ttnews.com##.block-webform-block
 press-start.com.au##.block-wrap-mailing
 thehustle.co##.blog-hustle-form-config-wrapper
@@ -44204,12 +44206,14 @@ looopings.nl###indexNavigatorboxl
 yachtonline.nl###shareThisAd
 carwashpro.nl,infrasite.nl,mobiliteit.nl,rijschoolpro.nl,spoorpro.nl,tankpro.nl,taxipro.nl,zelfrijdendvervoer.nl###socialmedia
 telegraaf.nl##.SocialButtons
+hagelandactueel.be,leuvenactueel.be##.article-full__footer-share
 carwashpro.nl,infrasite.nl,mobiliteit.nl,rijschoolpro.nl,spoorpro.nl,tankpro.nl,taxipro.nl,zelfrijdendvervoer.nl##.author-links
 meemetoranje.nl##.btn-social
 israeltoday.nl##.entry-social
 smulderstextiel.nl##.favshare-holder
 100p.nl##.holder-social
 twentefans.nl##.js-share
+dvo.be##.js-sticky-content
 iexprofs.nl,participaties.nl##.linkbar
 carwashpro.nl,infrasite.nl,mobiliteit.nl,rijschoolpro.nl,spoorpro.nl,tankpro.nl,taxipro.nl,zelfrijdendvervoer.nl##.menu-social-media-container
 schrijvenonline.org##.rrssb
@@ -44218,6 +44222,7 @@ bricovideo.ovh##.social-icon
 automobielmanagement.nl##.social-nav
 menselijklichaam.nl##.social-wrapper
 zeelandnet.nl##.zld-ftr__social
+nieuwsblad.be##[class*="shareitemlist"]
 gooieneemlander.nl,haarlemsdagblad.nl,leidschdagblad.nl,noordhollandsdagblad.nl##div[class*="sharesticky"]
 nhnieuws.nl##div[class^="article_share_"]
 ! 
@@ -44575,6 +44580,7 @@ meutimao.com.br###redes_sociais
 superesportes.com.br###shareitens
 tatarada.com.br###single-compartilhe
 spinoff.com.br###sociaisnk
+tecnoblog.net###tb-banner-whatsapp
 bandnewsfm.com.br##.DivIconsTopo
 agazeta.com.br##.ag-mobile-social-widget
 dnoticias.pt##.article--aside_share
@@ -44671,6 +44677,8 @@ meiobit.com##.socialfloating
 nsctotal.com.br##.sociallink
 colunadofla.com##.socials-counter
 cmjornal.pt##.subscrever_whatsapp
+gizmodo.uol.com.br##.sup-share-block__position
+gizmodo.uol.com.br##.sup-social
 jn.pt##.t-article-footer-bar-1
 dinheirovivo.pt,tsf.pt##.t-f-bar-apps
 terra.com.br##.t360-sharebar__wrapper
@@ -45111,6 +45119,7 @@ boutirmall.com##.subscription-section
 ! Danish
 samvirke.dk##.block-sam-newsletter-popup
 ! Dutch
+hagelandactueel.be,leuvenactueel.be###block-nieuwsbrief
 schrijvenonline.org###block-nieuwsbriefblok
 iexgeld.nl###ctl00_Newsletter_UpdateForm
 belegger.nl###ctl00_ctl00_NewsletterFooter_UpdateForm
@@ -45126,13 +45135,14 @@ kro-ncrv.nl##.call-to-action__container
 frankwatching.com##.container-fullwidth-subscription
 drimble.nl##.email-grid-item
 tvgids.nl##.footer__subscription
-beursduivel.be,iexprofs.nl##.js-blocknwlsub
+belegger.nl,beursduivel.be,debeurs.nl,eurobench.com,iexprofs.nl##.js-blocknwlsub
 automotive-online.nl,fleet-mobility.nl##.mnl-signup
 bolddata.nl##.modal-backdrop
 bolddata.nl##.modal-exit-intent
 gezondheidsnet.nl##.nieuwsbrief
 eurogamer.nl##.signup-promo
 israeltoday.nl##.single_post_sub_form
+shespot.nl##.widget_budgetmailer_widget_subscribe
 automobielmanagement.nl,carwashpro.nl,fleet-mobility.nl,infrasite.nl,mobiliteit.nl,rijschoolpro.nl,spoorpro.nl,tankpro.nl,taxipro.nl,zelfrijdendvervoer.nl##.widget_ymlp
 deondernemer.nl##[id^="newsletter_"]
 id.nl##div[class*="newsletter_content-side_"]
@@ -45230,6 +45240,7 @@ portalprzedszkolny.pl###newsletterOnline-68
 komerso.pl##.newsletter-post
 ! Portuguese
 infomoney.com.br##.ad-aside
+gizmodo.uol.com.br##.btn-newsletter
 b9.com.br##.c-newslatter-box
 crusoe.com.br##.catchment-box
 melodijolola.com##.content_mailchimp
@@ -45251,10 +45262,12 @@ observador.pt##.obs-cta
 correiobraziliense.com.br##.revue-embed
 letras.mus.br##.subscribeBox
 letras.mus.br##.subscribeNews
+gizmodo.uol.com.br##.sup-newsletter
 ojogo.pt##.t-d6-nl-1
 jn.pt##.t-footer-nl
 expansao.co.ao##.t-nl-box-1
 dinheirovivo.pt##.t-s18-i
+tecnoblog.net##.tb-newsletter
 tecmundo.com.br##.tec--thebrief
 tecmundo.com.br##.tec--thebrief__bg
 tecmundo.com.br##.tec--widget-thebrief
@@ -46485,6 +46498,7 @@ maxaro.nl##.snackbar-container
 energiewonen.nl##.stPopup
 cameranu.nl##.stick-to-bottom
 voortgezetleren.nl##.style__SCookieBar-sc-uwjn3k-0
+primetime.be##.t-cookie-bar-holder
 visaquarium.nl##.tb
 eredivisie.eu,eredivisie.nl,nevobo.nl,volleybal.nl##.tdecc
 camperclubskeller.nl##.total-plus-privacy-policy
