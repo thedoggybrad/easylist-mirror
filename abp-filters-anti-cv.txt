@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: mU5NgWQ0xFRxqAcOestsMw
-! Version: 202405210731
+! Checksum: 2NXc04biqZFXlVN3JT77rg
+! Version: 202405210741
 ! Title: ABP filters
-! Last modified: 21 May 2024 07:31 UTC
+! Last modified: 21 May 2024 07:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -55,7 +55,7 @@ editcode.net#$#abort-current-inline-script setTimeout openAd
 ! Video ads
 iyingshi9.tv#$#override-property-read YZM.ads.state false
 tvbanywherena.com#$#strip-fetch-query-parameter ad_config_id
-nivod5.tv,nivod8.tv#$#override-property-read detailParams.is_ad_play false
+nivod5.tv,nivod9.tv#$#override-property-read detailParams.is_ad_play false
 ! #CV-667
 hdzone.org#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:czech.txt ***
