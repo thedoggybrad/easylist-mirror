@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Lmntsjz8/67J5bre962x8w
-! Version: 202405221621
+! Checksum: LeTQhR4kETt1ZnZ3M5B1Dg
+! Version: 202405221631
 ! Title: EasyList Dutch
-! Last modified: 22 May 2024 16:21 UTC
+! Last modified: 22 May 2024 16:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -90,6 +90,7 @@ _advertentieleaderboardhome.
 ||ads.nextday.media^
 ||advertising-cdn.dpgmedia.cloud^
 ||advertising-module.api.dpgmedia.cloud^
+||bannersimages.s-bol.com^$third-party
 ||bnpparibasmarkets.nl/widget/$third-party
 ||bol.com/nl/upload/banners/
 ||bol.com/nl/upload/partnerprogramma/
@@ -252,6 +253,7 @@ _advertentieleaderboardhome.
 ||niburu.co/images/banners/
 ||nieuwsopbeeld.nl/wp-content/uploads/*/Advertentie-
 ||nieuwsuitnijmegen.nl/gfx/banners/
+||nieuwsuitnijmegen.nl/uploads/banners/
 ||noordkopcentraal.nl^*/banner_
 ||notebookcheck.nl/fileadmin/Sonstiges/amaz_$xmlhttprequest
 ||nrc.nl/tag/tag.js
@@ -424,6 +426,7 @@ _advertentieleaderboardhome.
 ||webstick.nl/images/images-ads/
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-nl.jpg
 ||wieringernieuws.nl/gfx/ads/
+||wijchensnieuws.nl/uploads/banners/
 ||wildfm.nl/wp-content/uploads/*/thumbnail_image002.png
 ||willem-ii.nl/banner/
 ||wp.com/amsterdamactueel.nl/wp-content/uploads/*/728x60_
@@ -808,6 +811,7 @@ maarkelsnieuws.nl##.banner-secondary-sidebar
 nnieuws.be##.banner-silver
 radioviainternet.be##.banner-size-leaderbord
 speeleiland.nl##.banner-sky
+nieuwsuitnijmegen.nl,wijchensnieuws.nl##.banner-slider-item
 dolcevia.com##.banner-style
 maarkelsnieuws.nl##.banner-widget
 deblueskrant.nl,nieuweoogst.nl##.banner-wrap
@@ -1210,7 +1214,7 @@ focus-wtv.be##a[href^="https://ads.focus-wtv.be/"]
 emerce.nl##a[href^="https://bit.ly/"]
 playboy.nl##a[href^="https://casinoscout.nl/"]
 tennisplaza.be##a[href^="https://ds1.nl/"]
-bestetop5.nl,ecobioliving.eu,nailtalk.nl,radiozenders.fm,wereldstopcontacten.nl##a[href^="https://partner.bol.com/"]
+bestetop5.nl,ecobioliving.eu,nailtalk.nl,nieuwsuitnijmegen.nl,radiozenders.fm,wereldstopcontacten.nl,wijchensnieuws.nl##a[href^="https://partner.bol.com/"]
 nailtalk.nl##a[href^="https://partnerprogramma.bol.com/"]
 zeelandnet.nl##a[href^="https://prf.hn/"]
 opwindend.net##a[href^="https://spannendsexcontact.nl/"]
