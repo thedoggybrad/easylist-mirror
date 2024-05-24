@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: TpX7kA/R8w+t54+1/bgFVA
-! Version: 202405240811
+! Checksum: 7uAEObYWw7Mg+a8A9T1/dg
+! Version: 202405240820
 ! Title: EasyPrivacy without international filters
-! Last modified: 24 May 2024 08:11 UTC
+! Last modified: 24 May 2024 08:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41,7 +41,7 @@
 .com/g.gif?
 .com/log/?
 .com/stats.aspx?
-.com/track?$~object
+.com/track?$~object,domain=~ups.com
 .content_tracking.js
 .de/l.gif?
 .eloqua.js
