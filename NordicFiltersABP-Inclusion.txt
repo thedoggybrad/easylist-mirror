@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: q0BFiZzG3tT78LoAaRdd/Q
-! Version: 202405240621
+! Checksum: yOar6uSQrFvY1FfsWvs5cg
+! Version: 202405240631
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 24 May 2024 06:21 UTC
+! Last modified: 24 May 2024 06:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -78970,7 +78970,7 @@ bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing_tag"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
-brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > :has(> .adWrapper)
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class*=" "] > [class*=" "]:has(> [class] > .adWrapper)
 fortune.com##[class]:has(> #Leaderboard0)
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
