@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NQlwCD/LuC9pEMqLEzI0mg
-! Version: 202405240921
+! Checksum: +rZjPMY5+mkDBRFyYOZBtg
+! Version: 202405240931
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 24 May 2024 09:21 UTC
+! Last modified: 24 May 2024 09:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -40523,7 +40523,6 @@ browsershots.org#@#.advert_area
 ||inboldoreer.com^
 ||inbornbird.pro^
 ||inbornsodcharms.com^
-||inbound-step.heavenmedia.com^
 ||inbowedkittled.top^
 ||inbowedtroak.top^
 ||inbrowserplay.com^
@@ -69972,6 +69971,7 @@ browsershots.org#@#.advert_area
 ||ifoneunlock.com/*_banner_
 ||imsynthesis.pro/banners/$third-party
 ||in.com/common/script_catch.js
+||inbound-step.heavenmedia.com^$third-party
 ||incrementxplay.com/api/adserver/
 ||indeed.fr/ads/
 ||infibeam.com/affiliate/
@@ -77083,7 +77083,6 @@ mydorpie.com##.rbancont
 forebet.com##.rbannerDiv
 reverso.net##.rcacontent
 bookriot.com##.rcp-wrapper
-manhwabtt.com##.reading-control > [style^="display: flex"]
 just-dice.com##.realcontent
 shareus.io##.recent-purchased
 bettycrocker.com##.recipeAd
@@ -78300,6 +78299,7 @@ infotel.ca##[src^="https://infotel.ca/absolutebm/"]
 exportfromnigeria.info##[src^="https://storage.proboards.com/"]
 exportfromnigeria.info##[src^="https://storage2.proboards.com/"]
 buzzly.art##[src^="https://submissions.buzzly.art/CANDY/"]
+manhwabtt.com##[style$="min-height: 250px;"]
 circleid.com##[style*="300px;"]
 circleid.com##[style*="995px;"]
 coolors.co##[style*="position:absolute;top:20px;"]
@@ -78948,7 +78948,6 @@ chaussures.fr,eapavi.lv,ecipele.hr,ecipo.hu,eobuv.cz,eobuv.sk,eobuwie.com.pl,epa
 maxi.ca##.product-tile-group__list__item:has([data-track-products-array*="sponsored"])
 ksl.com##.queue:has(.sponsored)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
-manhwabtt.com##.reading-detail > .page-chapter:has(> img[src^="https://image.mangabtt.com//Upload/Content/images/chapter/"]):not(#page_0)
 laravel-news.com##.relative:has([wire\:key="article-ad-card"])
 metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 metager.org##.result:has(a[href^="https://r.search.yahoo.com/"])
