@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3xbP/QYpT9yt88RBPu5gwg
-! Version: 202405240841
+! Checksum: 2c6n3agJ6kgAmv89r5Z8dA
+! Version: 202405240851
 ! Title: EasyList without rules for adult sites
-! Last modified: 24 May 2024 08:41 UTC
+! Last modified: 24 May 2024 08:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -69458,6 +69458,7 @@ mydramalist.com##[class^="zrsx_"]
 newspointapp.com##[ctn-style]
 flatpanelshd.com##[data-aa-adunit]
 dribbble.com##[data-ad-data*="ad_link"]
+androidauthority.com##[data-ad-type]
 gamelevate.com##[data-adpath]
 builtbybit.com##[data-advertisement-id]
 timesofindia.indiatimes.com##[data-aff-type]
@@ -70433,6 +70434,7 @@ outlook.live.com##div:has(> div > div.fbAdLink)
 tripadvisor.com##div:has(> div > div[class="ui_column ovNFo is-3"])
 tripadvisor.com##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
+androidauthority.com##div:not([class]) > div[class^="_--_-___"]:has(> div[data-ad-type="leaderboard_atf"])
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
