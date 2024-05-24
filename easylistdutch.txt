@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: X9ygzggbJ5f7LL7KeHx+rQ
-! Version: 202405241610
+! Checksum: deUiTDzwr+SaIVZl7HLApA
+! Version: 202405241620
 ! Title: EasyList Dutch
-! Last modified: 24 May 2024 16:10 UTC
+! Last modified: 24 May 2024 16:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1348,7 +1348,7 @@ feijenoordnieuws.nl##.cv-table-left > a:not([target="_blank"]):not([rel="nofollo
 2dehands.be#?#.hz-Listing--list-item:-abp-has(.hz-Listing-priority:-abp-contains(Topadvertentie))
 almere-nieuws.nl#?#.wpb_wrapper:has(.section-heading:-abp-contains(partners))
 autobahn.eu#?#.d-none.d-md-block.mb-3:-abp-has(a[target="_blank"][rel="noopener"])
-barneveldsekrant.nl#?#.component__plugin:has(h6:-abp-contains(advertentie))
+barneveldsekrant.nl,edestad.nl#?#.component__plugin:has(h6:-abp-contains(advertentie))
 buienradar.nl#?#.linklist:-abp-has(h1:-abp-contains(Lekker Dichtbij Deals))
 businessinsider.nl#?#.widget_custom_html:-abp-has(h2:-abp-contains(Beter Beleggen))
 mediamarkt.be,mediamarkt.nl##div[data-test="mms-product-card"]:has(div[data-test="mms-plp-sponsored"])
