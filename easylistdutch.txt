@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9SkwgXoqm0VDfdvV66ryIA
-! Version: 202405242101
+! Checksum: oUNZ5aArw1DL9BWvB8SX9w
+! Version: 202405242110
 ! Title: EasyList Dutch
-! Last modified: 24 May 2024 21:01 UTC
+! Last modified: 24 May 2024 21:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1375,6 +1375,7 @@ mediamarkt.be,mediamarkt.nl##div[data-test="mms-product-card"]:has(div[data-test
 fonq.nl#?#[data-cy="plp-tile-container"]:-abp-contains(Gesponsord)
 fonq.nl#?#li:-abp-contains(Gesponsord)
 geenstijl.nl#?#.article.row.no-image:-abp-has(.row.compost-warn:-abp-contains(- ingezonden mededeling -))
+glutenvrij.nl#?#.Article__inner:has(.Article__title:-abp-contains(Advertentie))
 hardware.info#?#:-abp-properties(content: "Advertentie";)
 linda.nl#?#.article-column_article:-abp-has(.category-label_label:-abp-contains(Advertorial))
 linda.nl#?#.article-row_article:-abp-has(.article-row_category.category-label_label:-abp-contains(Advertorial))
