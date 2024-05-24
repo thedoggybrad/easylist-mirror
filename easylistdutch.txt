@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: McAoYdQfA6aW5Flan1OBTA
-! Version: 202405241801
+! Checksum: dvXb0MJaDb4qrpFWTzLhEw
+! Version: 202405241811
 ! Title: EasyList Dutch
-! Last modified: 24 May 2024 18:01 UTC
+! Last modified: 24 May 2024 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -104,6 +104,7 @@ _advertentieleaderboardhome.
 ||go2.go2cloud.org^
 ||infotalia.com/worktalia_promo_
 ||jobat.be/extra/trackuityhn/ticker_new.html$third-party
+||jobfish.nl/widget/$third-party
 ||mmcdn.nl/tags/
 ||ouders.nl/uploads/alt/$domain=viafora.nl
 ||partner.bol.com^$third-party
@@ -499,6 +500,7 @@ _advertentieleaderboardhome.
 ##.gesponsord_blokje
 ##.gesponsord_blokje_wrap
 ##.hoofdAd2
+##.kwebler-ad-minimal
 ##.massarius-dfp-unit
 ##a[href^="https://go2.go2cloud.org/"]
 ##a[href^="https://mt67.net/"]
@@ -760,7 +762,7 @@ telegraaf.nl##.TextArticlePage__bannerWrapper
 telegraaf.nl##.VideoArticlePage__banner
 telegraaf.nl##.VideoPage__banner
 deondernemer.nl##.\-mb-10.box-content.flex.hidden.items-center.p-4.md\:mb-0.md\:flex.md\:min-h-25
-dartfreakz.nl,thehike.nl,zozwanger.nl##.a-single
+christelijknieuws.nl,dartfreakz.nl,thehike.nl,zozwanger.nl##.a-single
 rtveen.nl##.aas_zone
 autozine.nl,banden.autoweek.nl,beleggersbelangen.nl,besteproduct.nl,bright.nl,dumpert.nl,eurosport.nl,hetnieuwsvandaag.be,indebuurt.nl,koopplein.nl,letsgodigital.org,limburger.nl,persinfo.org,sport.be,tellows.nl,tradeidee.nl,tripadvisor.nl,voetbalnieuws.nl,voetbalprimeur.nl,wijlimburg.nl,xgn.nl##.ad
 filmtotaal.nl##.ad-centering
@@ -1136,7 +1138,7 @@ dagbladdewest.com##.swiper-wrapper
 bekijkporno.nl##.table
 iexprofs.nl##.tagwrapper
 koken.vtm.be##.taxonomy-dedicated-header
-boottesten.nl,hoekschnieuws.nl,katholiek.nl,railhobby.nl,regioonline.nl,rtvpapendrecht.nl,waterkant.net##.td-a-rec
+boottesten.nl,hoekschnieuws.nl,katholiek.nl,newspower.nu,railhobby.nl,regioonline.nl,rtvpapendrecht.nl,waterkant.net##.td-a-rec
 techpulse.be##.td-banner-wrap-full
 bollenstreekomroep.nl##.tdi_36
 omroepspakenburg.nl##.tdi_48
@@ -1147,6 +1149,7 @@ demorgen.be,volkskrant.nl##.teaser-branded
 nos.nl##.teletekst__banner
 startpagina.nl##.template-redesign-5-column-top-3-center-banner-outer
 deondernemer.nl##.text-center > .mt-2.box-content.flex.min-h-25.max-w-full.overflow-x-hidden.bg-background-1.p-4.md\:min-h-10
+wanttoknow.nl##.text-center.mb-3
 netonline.be##.text_12_jobs_only
 meerdangewenst.nl##.tg-site-footer-section-1
 topgear.nl##.theme-advertorial
@@ -1190,12 +1193,13 @@ indebuurt.nl##.widget-tabs--partner
 indebuurt.nl##.widget-tabs--partners
 autoblog.nl##.widget_ab_sidebar
 nieuws.nl##.widget_add_widget
-ecobioliving.eu,groningerkrant.nl,iculture.nl,klapjes.nl,tiener-sexverhalen.nl##.widget_custom_html
+christelijknieuws.nl,ecobioliving.eu,groningerkrant.nl,iculture.nl,klapjes.nl,tiener-sexverhalen.nl##.widget_custom_html
 mannenstyle.nl##.widget_execphp
 riskcompliance.nl##.widget_itarget_banners
-ajaxreport.nl,feyenoordreport.nl,livestreamvandaag.be,psvreport.nl,voetbalsnafu.nl##.widget_links
+ajaxreport.nl,feyenoordreport.nl,livestreamvandaag.be,onlinekraslotenrss.nl,psvreport.nl,voetbalsnafu.nl##.widget_links
 infinance.nl##.widget_links_widget
-daemesenheeren.nl,radionova.be,tiener-sexverhalen.nl##.widget_media_image
+daemesenheeren.nl,noordkopcentraal.nl,radionova.be,tiener-sexverhalen.nl##.widget_media_image
+noordkopcentraal.nl##.widget_metaslider_widget
 schuttevaer.nl##.widget_minisites
 vlootschouw.nl##.widget_miw_widget_multiple_images
 automobielmanagement.nl,carwashpro.nl,infrasite.nl,mobiliteit.nl,ovpro.nl,rijschoolpro.nl,spoorpro.nl,tankpro.nl,taxipro.nl,verkeersnet.nl##.widget_nlpartners
@@ -1314,6 +1318,7 @@ dartfreakz.nl##img[width="250"][height="250"]
 creditexpo.nl,dagbladdewest.com,dagelijksestandaard.nl,fiets.nl,luister.nl,negerin.nl,ninefornews.nl,omroeprsh.nl,ucl-voetbal.nl,unitednews.sr##img[width="300"]
 regio-voetbal.nl##img[width="300"][height="100"]
 advocatie.nl,goedkoopstekeukensduitsland.nl,lflmagazine.nl,mannennieuws.nl,streamwijzer.be,teqnation.com,thatsgaming.nl,yourlittleblackbook.me##img[width="300"][height="250"]
+ciaotutti.nl##img[width="300px"]
 racexpress.nl##img[width="310"][height="200"]
 abcsuriname.com##img[width="320"]
 vives.nl##img[width="330"][height="520"]
