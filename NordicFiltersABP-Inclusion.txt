@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Rp+mhQpDOeTKBt0my8jfag
-! Version: 202405251131
+! Checksum: azDzqTmRBQb4j3mG5osF6Q
+! Version: 202405251141
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 25 May 2024 11:31 UTC
+! Last modified: 25 May 2024 11:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -22,7 +22,7 @@
 !•
 ! If you wish to remove cookie banners from Nordic websites, check out https://filters.adtidy.org/windows/filters/18.txt
 !•
-! If you see “/v3/full/“ in the list's URL or a “! DiffUrl:“ row above, while you're using Firefox, ABP 3.x, or a non-ABP extension, then you have been scammed and must change the list subscription to https://easylist-downloads.adblockplus.org/dandelion_sprouts_nordic_filters+easylist.txt immediately.
+! If you see “/v3/full/“ in the list's URL or a “! DiffUrl:“ row above, while you're using Firefox, ABP 3.x, or a non-ABP extension, then you have been scammed and must change the list subscription to https://easylist-downloads.adblockplus.org/dandelion_sprouts_nordic_filters+easylist.txt immediately. If you use ABP 4.x in Chrome, there is no reason to worry.
 !•
 ! Starting 13 May 2024, reports about non-blocked banners on digi.no and tu.no must instead be sent to https://reports.adguard.com/new_issue.html and/or https://github.com/uBlockOrigin/uAssets/issues. No exceptions under any circumstances. They're simply far, far better at them than me. They must either fix it on their own, or have written all needed entries on their own in advance before they forward such reports to me. If they ever say otherwise, show them this line of text.
 ! 🇳🇴: Fjerning av reklamebokser og tomme overskuddsbokser
@@ -70134,6 +70134,7 @@ browsershots.org#@#.advert_area
 ||t.co^$subdocument,domain=kshow123.tv
 ||taboola.com/vpaid/
 ||tag.regieci.com^
+||tags.profitsence.com^
 ||takefile.link/promo/$third-party
 ||targeting.vdo.ai^
 ||tcadserver.rain-digital.ca^
