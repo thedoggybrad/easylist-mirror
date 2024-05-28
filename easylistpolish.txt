@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ymu7Hao4lQlvkJKzAYzp/w
-! Version: 202405281741
+! Checksum: PEhc9MFf8wn1M7bRYsssqg
+! Version: 202405281750
 ! Title: EasyList Polish
-! Last modified: 28 May 2024 17:41 UTC
+! Last modified: 28 May 2024 17:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1282,6 +1282,7 @@ bobrzanie.pl##.homeadv
 skawinska.pl##.homepage-ad-area
 rudzianin.pl##.horizontal--ad
 firmypolski.pl##.hot-info-slider
+ng24.ie##.hot-news + a
 fakt.pl##.hot_three.promo_box
 korsokolbuszowskie.pl##.iad
 muzyczneradio.pl##.idBanner4
@@ -1504,6 +1505,7 @@ nowezyciepabianic.pl,ostrodanews.pl##.pum
 kryptoholik.pl##.pum-overlay
 newsweek.pl##.pwAds
 e-hotelarz.pl##.pws-reklama
+transfermarkt.pl##.quick-select-wrapper ~ div
 ekoexpo.pl,gorzow24.pl##.r
 transfermarkt.pl##.ra
 goryiludzie.pl##.rad
@@ -2100,6 +2102,7 @@ gazeta-mosina.pl##a[href="https://www.firmarolnicza.pl/"]
 bitcoin.pl##a[href="https://www.geco.one/bonuses"]
 cenyrolnicze.pl##a[href="https://www.indrol.pl/kontakt#kontraktacja"]
 swidnica24.pl##a[href="https://www.iparts.pl"]
+czyztak.pl##a[href="https://www.kolejeslaskie.com/obsluga-podroznych/oferty/max-bilet/"]
 nowawrzesnia.pl##a[href="https://www.lazienkowepasje.pl/"]
 bydgoszcz.com##a[href="https://www.lh.pl/hosting?ref=nowaksolutions"]
 e-kg.pl##a[href="https://www.mazowieckapark.pl/"]
@@ -2515,6 +2518,7 @@ iknurow.pl##script + .td-container
 kryptoporadnik.pl##script + center
 beatcoin.pl##script ~ center
 eku24.net,elc24.net,ele24.net,eop24.net,epa24.net,erw24.net,esi24.net,ezg24.net##section#gkZyczenia
+bankier.pl##section.o-article-link-box
 wykop.pl##section[data-label^="ad: market-"]
 wykop.pl##section[data-label^="ad: sidebar-"]
 wykop.pl##section[data-label^="ad: sponsored-1"]
@@ -2529,9 +2533,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-transfermarkt.pl##.quick-select-wrapper ~ div
-ng24.ie##.hot-news + a
-bankier.pl##section.o-article-link-box
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
