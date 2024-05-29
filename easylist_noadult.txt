@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3GRVlvLjSmVW24KGNOnYtg
-! Version: 202405290931
+! Checksum: oeOZb7uRgdVmXyOHLnVX1g
+! Version: 202405290941
 ! Title: EasyList without rules for adult sites
-! Last modified: 29 May 2024 09:31 UTC
+! Last modified: 29 May 2024 09:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31100,6 +31100,7 @@ browsershots.org#@#.advert_area
 ||gripehealth.com^
 ||grippertureen.space^
 ||gripping-bread.com^
+||gripspigyard.com^
 ||grirault.net^
 ||gristleupanaya.com^
 ||gritaware.com^
@@ -35003,6 +35004,7 @@ browsershots.org#@#.advert_area
 ||kentorjose.com^
 ||kepersaonwho.org^
 ||keppendragoon.top^
+||keptoojals.xyz^
 ||keraclya.com^
 ||keramiceoan.com^
 ||kergaukr.com^
@@ -40904,6 +40906,7 @@ browsershots.org#@#.advert_area
 ||orldwhoisquiteh.info^
 ||orlotalers.com^
 ||orlowedonhisdhilt.info^
+||ormolusapiary.com^
 ||ormolustuke.top^
 ||ornismolal.top^
 ||oroodsee.xyz^
@@ -41695,6 +41698,7 @@ browsershots.org#@#.advert_area
 ||paurozel.net^
 ||paushoow.net^
 ||paussidsipage.com^
+||pausteegohoa.net^
 ||pauwhajo.xyz^
 ||pavfazbwiap.com^
 ||paviestrewel.top^
@@ -45570,6 +45574,7 @@ browsershots.org#@#.advert_area
 ||rimeseized.com^
 ||rimfranklyscaffold.com^
 ||riminghoggoofy.com^
+||rimoseantdom.com^
 ||rimwigckagz.com^
 ||rinceaskedase.com^
 ||rincipledecli.info^
@@ -47608,6 +47613,7 @@ browsershots.org#@#.advert_area
 ||slobgrandmadryer.com^
 ||sloeri.com^
 ||slopeac.com^
+||slopingunrein.com^
 ||sloppyegotistical.com^
 ||sloto.live^
 ||slotspreadingbrandy.com^
@@ -66921,6 +66927,8 @@ fandomwire.com##.customad
 total-croatia-news.com##.custombanner
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.customiser-v2-layout-1-billboard
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.customiser-v2-layout-three-native-ad-container
+thesun.co.uk###article-footer div[id*="-ads-"]
+thesun.co.uk##[data-aspc="newBILL"]
 f150lightningforum.com##.customizedBox
 coincarp.com##.customspon
 citywire.com##.cw-top-advert
@@ -70345,6 +70353,8 @@ homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(d
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])
 oneindia.com##ul > li:has(> div[class^="adg_"])
+thesun.co.uk##.sun-grid-container:has([class*="ad_widget"])
+thesun.co.uk##.article-sidebar .widget-sticky:has([class*="ad_widget"])
 ! taboola
 nme.com###taboola-below-article
 oneindia.com###taboola-mid-article-thumbnails
