@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EfQjq580erWLHtDZD3/0Wg
-! Version: 202405302040
+! Checksum: CfWuzJGq+Z4oPe8/f4Qlmg
+! Version: 202405302051
 ! Title: EasyList Portuguese
-! Last modified: 30 May 2024 20:40 UTC
+! Last modified: 30 May 2024 20:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -469,6 +469,7 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ! *** easylistportuguese:easylistportuguese_adult/adult_thirdparty_popup.txt ***
 ||avantajadas.com.br^$popup,domain=travestisvip.com.br
 ||bit.ly^$popup,domain=sotemnovinhas.com
+||filmeshentai.com^$popup,domain=mundohentaioficial.com|nhentaibr.com
 ||umtudo.com/pop/$popup
 !----------------------Specific advert blocking filters-----------------------!
 ! *** easylistportuguese:easylistportuguese/easylistportuguese_specific_block.txt ***
@@ -630,6 +631,9 @@ $popup,third-party,domain=filmesonlinehdgratis.com.br|vizer.tv
 ||hqdesexo.com/anuncio?
 ||hqerotico.com/url-open.js
 ||hqporno.net^*/hqpornopop2.js
+||mundohentaioficial.com/banner/
+||mundohentaioficial.com/opopen.js
+||nhentaibr.com/popfh/
 ||plx.boafoda.com^
 ||plx.mrvideosdesexo.xxx^
 ||pontogay.com/frontEnd/theme/assets/js/publi/openq-xxxyaoi.js
@@ -1555,7 +1559,7 @@ novinhasdozapzap.com###text-73
 caiunarede.ml,videosred.com.br###tracking-url
 fadadosexo.com,tatarada.com.br##.Marquee
 pornodoido.com##.abbcn-footer
-fotoscaiunanet.com,gruposputaria.blog.br,hentaibrasil.org,hentaikai.com,meuhentai.com,mixputaria.com,mulherpelada.blog,mundohentaioficial.com,pornocarioca.com,secretas.com,sexocoroas.com.br,sonovinhasbr.com,universohentai.com,videosexogay.com.br,xtubehentai.com,xvideo-sexo.com,xvideosanal.org##.anuncios
+fotoscaiunanet.com,gruposputaria.blog.br,hentaibrasil.org,hentaikai.com,mangashentais.com,meuhentai.com,mixputaria.com,mulherpelada.blog,mundohentaioficial.com,pornocarioca.com,secretas.com,sexocoroas.com.br,sonovinhasbr.com,universohentai.com,videosexogay.com.br,xtubehentai.com,xvideo-sexo.com,xvideosanal.org##.anuncios
 contosdesexo.com##.banner
 aifode.com,xvideosanal.org##.banner-footer
 freeones.pt##.banner-placeholder
@@ -1580,6 +1584,7 @@ xtubehentai.com##.homeBanner
 meuscontoseroticos.com##.meusc-widget
 fadadosexo.com##.nativo
 linkgp.com.br##.nativo-links
+mangashentais.com##.novolive
 travestisvip.com.br##.playerBnr
 sandrinha.com.br,xxxvideo.blog.br##.post-banners
 universohentai.com##.postBannerTopo
@@ -1594,7 +1599,7 @@ xvideos5.com.br##.video-incicio
 pornomineiro.com##.video-visitas
 boafoda.com##.vjs-producer
 sexosas.com##.watched-now-right
-coliriodemacho.com.br,meuscontoseroticos.com,telaerotica.com##.widget_custom_html
+coliriodemacho.com.br,mangashentais.com,meuscontoseroticos.com,telaerotica.com##.widget_custom_html
 mobahot.com##.widget_media_image
 afiliados-na-web.com##.widget_text
 contoseroticosbr.com,eoquetemprahj.com##[href*="bit.ly/"]
@@ -1602,6 +1607,8 @@ xvideosporno.me##a[data-ads]
 hqdesexo.com##a[href*="/anuncio/click/"]
 thehentai.net##a[href*="https://jerkmate.com/"]
 pornotube.blog.br,xvideos.tv.br##a[href^="https://app.monetizze.com.br/"]
+mundohentaioficial.com,nhentaibr.com##a[href^="https://filmeshentai.com/"]
+mangashentais.com##a[href^="https://pornojapa.com/"]
 thehentai.net##a[href^="https://trynectar.ai/"]
 travestisvip.com.br##a[href^="https://www.avantajadas.com.br/"]
 aumenteseutesao.com##a[href^="https://www.sexlog.com/"][href*="?partner="]
