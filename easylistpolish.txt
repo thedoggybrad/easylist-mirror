@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SbMkAa7vusR5kWrknweJRw
-! Version: 202405311741
+! Checksum: O8k0OajWhmEhJHSfz23bXg
+! Version: 202405311751
 ! Title: EasyList Polish
-! Last modified: 31 May 2024 17:41 UTC
+! Last modified: 31 May 2024 17:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1860,7 +1860,9 @@ abczdrowie.pl##[data-bc]
 allegro.pl##[data-box-name*="Advertisement"]
 allegro.pl##[data-box-name*="ads"]
 allegro.pl##[data-box-name*="advertising"]
+allegro.pl##[data-box-name*="carousel"]:has([data-analytics-view-label="sponsored"])
 allegro.pl##[data-box-name="Container PPC Offers"]
+allegro.pl##[data-box-name="layout.advertisement"]
 allegro.pl##[data-box-name^="Ads"]
 allegro.pl##[data-role="opbox-expandable-advertisement"]
 otomoto.pl##[data-testid="underlying_banner"]
@@ -2107,6 +2109,7 @@ plonskwsieci.pl##a[href="https://www.facebook.com/romaplonsk"]
 staleo.pl##a[href="https://www.fanuc.eu/pl/pl?utm_source=staleo&utm_medium=banner+wysuwalny&utm_campaign=ogolny"]
 gazeta-mosina.pl##a[href="https://www.firmarolnicza.pl/"]
 bitcoin.pl##a[href="https://www.geco.one/bonuses"]
+ddb24.pl##a[href="https://www.gowork.pl/praca/bialystok;l"]
 cenyrolnicze.pl##a[href="https://www.indrol.pl/kontakt#kontraktacja"]
 swidnica24.pl##a[href="https://www.iparts.pl"]
 dbpolska.net##a[href="https://www.jpf.com.pl/produkt,Dragon-Ball-Super,62"]
