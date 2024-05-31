@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LeBYsQk/8wYI7M1bJU0IKg
-! Version: 202405311451
+! Checksum: 2eCabHh1G1lgxjp9dEQqKQ
+! Version: 202405311500
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 May 2024 14:51 UTC
+! Last modified: 31 May 2024 15:00 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13649,7 +13649,7 @@ kerch.fm##.branners
 s13.ru##.brb
 gdzbot.com##.breadcrumbs ~ [value*="://gdz-ru.work/"] ~ #exercises
 av.by##.break
-multmer.org##.brend
+multmer.org,tourdom.ru##.brend
 cpainform.ru##.brendingBg
 stalkermod.ru##.britem
 znanija.com##.brn-ads-box
@@ -16187,7 +16187,7 @@ panzer35.ru##.topLink a[href*="ruscale.ru"]
 sexytal.com,sexytales.ru##.top_a
 magical-skin.com##.top_baner
 deti-obninsk.ru##.top_baners > a[href][target="_blank"]:not([href^="/deti/index.php"])
-banana.by,bigmir.net,cntime.cn.ua,football24.ru,inedelya.ru,maulnet.ru,meteo-tv.ru,vse-sto.com.ua##.top_banner
+banana.by,bigmir.net,cntime.cn.ua,football24.ru,inedelya.ru,maulnet.ru,meteo-tv.ru,tourdom.ru,vse-sto.com.ua##.top_banner
 partnerkin.com##.top_banner_box
 autodmir.ru##.top_banner_hidder
 artofcare.ru,forum.fonarevka.ru,twogarin.info##.top_banners
@@ -22495,6 +22495,8 @@ lada.kz/uploads/banners/
 ||torrentinka.me/templates/Default/images/prestol
 ||torrentporno.ru/jrt-$script
 ||tort.fm/banners/
+||tourdom.ru/_ad/
+||tourdom.ru/_nuxt/img/*X*_$image
 ||tourister.ru/query.php*=adver-$xmlhttprequest
 ||tproger.ru/_nuxt/LubokTop.
 ||tproger.ru/wp-node/*/rupor/get?link=
@@ -24964,7 +24966,7 @@ ntsk.ru#@#.adsinfo
 blag-vesti.ru#@#.adslot_1
 vtomske.ru#@#.adtable
 kvartirant.by#@#.adtxt
-board.sibnet.ru,fridger.com.ua,hawk.ru,hmgma.ru,openbudget.gfu.ru,pcradio.ru,postiralka.com.ua,school.kupiltovar.ru,servkino.ru,siproen.ru,sovcombank.ru,tehnika4u.ru,tourdom.ru#@#.adv
+board.sibnet.ru,fridger.com.ua,hawk.ru,hmgma.ru,openbudget.gfu.ru,pcradio.ru,postiralka.com.ua,school.kupiltovar.ru,servkino.ru,siproen.ru,sovcombank.ru,tehnika4u.ru#@#.adv
 school.kupiltovar.ru#@#.adv-4
 azartcash.com,twite.ru#@#.adv-block
 fiberdevice.ru#@#.adv-header
