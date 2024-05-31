@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GyYR+xBgEYs4Jb169F3DCQ
-! Version: 202405311411
+! Checksum: VMXcfhDcFsNLxtb2pZ+hWQ
+! Version: 202405311421
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 May 2024 14:11 UTC
+! Last modified: 31 May 2024 14:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24133,6 +24133,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.page__result .typo:-abp-contains(/^н
 translate.yandex.by,translate.yandex.kz,translate.yandex.ru,translate.yandex.uz##.sidebar-direct
 disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##.software-header-promo
 docviewer.yandex.by,docviewer.yandex.kz,docviewer.yandex.ru,docviewer.yandex.uz##.with-bottom-direct > div[class] > div[class]:empty
+mail.yandex.by,mail.yandex.com,mail.yandex.kz,mail.yandex.ru,mail.yandex.uz#?#[data-key="box=left-box"]:-abp-has(> [data-key="view=react-left-column"] + div:empty) a[href*="/premium-"]
 disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##a[href][style*="storage.mds.yandex.net/get-bstor/"]
 travel.yandex.ru##div.root[id]:empty
 mail.yandex.by,mail.yandex.com,mail.yandex.kz,mail.yandex.ru,mail.yandex.uz##div[class*="DirectLine"]
@@ -24605,6 +24606,7 @@ tonnews.ru##body > div[id^="fancybox"]
 supertabak.ru##body > div[id^="jBox"]
 ruskline.ru##body > div[id^="money"]
 dnpmag.com,trendymen.ru##body > div[id^="popup-"]
+pikabu.ru##body > iframe[src*="redirect_uri"]
 daz3d.ru##body > span[id^="s"][style]
 pinterest.com##div[class*="ScreenBanner"]
 snob.ru##div[class*="popup-eventSubscribe"]
