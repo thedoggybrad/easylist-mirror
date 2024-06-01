@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 23hxlatx6EwCxdPvjQlCXA
-! Version: 202406010120
+! Checksum: o4vZOTXMABCZ7b8bj6YyZA
+! Version: 202406010130
 ! Title: EasyList China
-! Last modified: 01 Jun 2024 01:20 UTC
+! Last modified: 01 Jun 2024 01:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11226,7 +11226,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 szxx.com.cn###A0
 mydrivers.com##.vwE9JmqU
 mydrivers.com##.yTv3AMqP
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(推广))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/推*广/))
 iqiyi.com##div[class^="video-slide_threeImagePages"]>a[href^="http"]:not([href*="iqiyi.com"])>div
 iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
 iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"])>div>img
