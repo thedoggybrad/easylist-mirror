@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YNEakudBRUtq6lBbhzK7sw
-! Version: 202406020711
+! Checksum: gXH4U/YGmHEImTiEKwv/lg
+! Version: 202406020721
 ! Title: EasyList without element hiding rules
-! Last modified: 02 Jun 2024 07:11 UTC
+! Last modified: 02 Jun 2024 07:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -83,6 +83,7 @@
 .com/ads?
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/api/posts?token=$third-party
+.com/pixel/pure
 .com/sc/*?n=$script,third-party
 .com/script/a.js
 .com/script/asset.js
