@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: oIAmOW7dpWrF+C3+K+ooEQ
-! Version: 202406020801
+! Checksum: tbfOn1grynN72psucw3Ekw
+! Version: 202406020810
 ! Title: ABPVN List
-! Last modified: 02 Jun 2024 08:01 UTC
+! Last modified: 02 Jun 2024 08:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 01 Jun 2024 18:05:18 UTC+7
-! Diff-Path: patches/20240601180518432.patch#abpvn
+! Last modified: 02 Jun 2024 15:04:43 UTC+7
+! Diff-Path: patches/20240602150443075.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -83,6 +83,7 @@
 ||anime47.blog^*.gif
 ||animehay.run^*.gif
 ||animet1.net^*.gif
+||apis.tripi.vn/blog/banners/$xmlhttprequest,domain=mytour.vn
 ||asecdn.w88media.com/VN/250x250-VN.gif$domain=mythethao.net
 ||asideway.com$csp=script-src 'self' 'unsafe-inline' https: http:
 ||baohaugiang.com.vn/uploads/SlideHomeimg/
