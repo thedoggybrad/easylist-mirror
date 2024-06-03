@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9STfDyM8LJCUCHjqNYwFIw
-! Version: 202406031141
+! Checksum: ugzb1pejCyjvtqyPbpdI8w
+! Version: 202406031150
 ! Title: EasyList Polish
-! Last modified: 03 Jun 2024 11:41 UTC
+! Last modified: 03 Jun 2024 11:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -127,7 +127,7 @@ app.freshmail.com#@#.advertisement-content
 ^2023banery^$domain=wysokomazowiecki24.pl
 ^300^$domain=betglob.pl|betgol.pl|emecze.pl|epilka.pl|estadios.pl|kuszotv.pl|mecze24.pl|meczelive.tv|meczenazywo.tv|meczlive.pl|oddslivesport.com
 ^468^$domain=worldofbookmakers.com
-^728^$domain=betgol.pl|extragoals.com|mecze.com|oddslivesport.com
+^728^$domain=betgol.pl|extragoals.com|mecze.com
 ^a-posters^$domain=minskmaz.com
 ^AAAreklamy^$domain=zulawytv.pl
 ^ad^$domain=pieniny24.pl|sportowepodhale.pl
@@ -378,6 +378,8 @@ supernowosci24.pl##[id^="r-"]
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+_banner_$domain=kpzpn.pl
+^reklama-$domain=transg.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
