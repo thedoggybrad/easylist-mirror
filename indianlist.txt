@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pWg7Qim2tLO3S/i5ammJOA
-! Version: 202406031131
+! Checksum: ITy4mo4UMxnCsTsEjWojaQ
+! Version: 202406031141
 ! Title: IndianList
-! Last modified: 03 Jun 2024 11:31 UTC
+! Last modified: 03 Jun 2024 11:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -676,7 +676,6 @@ _advt.jpg|
 /add-$domain=navakal.in|solantoday.com|somoynewsbd.com
 /ADD.gif|$domain=paryabekhyak.com
 /add.jpg|$domain=gourbarta24.com|muznews.online|sheershakhobor.com
-/add/*$domain=thenewspost.in
 /add/*$image,domain=ajkalnewyork.com|amreliexpress.com|habiganj-samachar.com|poriborton.com|sharenews24.com|sylhettoday24.news|sylhetview24.net|thereport24.com|u71news.com
 /add_$domain=shamolbangla24.com
 /AddImages/*$domain=thurannakathu.com
@@ -5861,7 +5860,7 @@ dailydishari.com##.add img:not([src*="Dainik-Dishari-"])
 kopotakkhotimes.com##.add p img
 motivatenews.com.np,pokharapatra.com.np,sancharkendra.com##.add-2
 gujaratimidday.com##.add-300x250
-talashbangla.com##.add-area
+talashbangla.com,thenewspost.in##.add-area
 newsatfirst.com##.add-banner
 voiceofnewjersey.com##.add-bar
 khobor24ghonta.com##.add-bg-02
@@ -6517,7 +6516,7 @@ bihardootnews.com##.elementor-widget-shortcode img[src*="WhatsApp"]
 joharlive.com,news24bd.net##.elementor-widget-sidebar
 shreekanchanpath.com##.elementor-widget-sidebar .widget_custom_html
 ebharatnews.in,truelinenews.com##.elementor-widget-slides
-citizenlive.news##.elementor-widget-smartmag-codes
+adbudhindia.com,citizenlive.news##.elementor-widget-smartmag-codes
 kannadanewsnow.com,sabhavarthakal.com##.elementor-widget-spacer
 goodmorningindia.net,himalipatrika.com.np##.elementor-widget-text-editor
 khabaruttarakhand.com,shivshahilive.com##.elementor-widget-video
@@ -7053,8 +7052,8 @@ hindi.news18.com##.n18thder
 khabreapki.com##.n2-ss-slider
 nakkheeran.in##.nak-adv-cen:not(#block-views-block-global-news-home-page-block-3)
 naturalnews.co.in##.natur-content
-chamaktabharat.com#@#.navbar-ad-section
 24hrnews.in,aavakaaya.in,celluloidonline.com,channeltoday.net,checkpostnews.com,chhattisgarhcrimes.in,cityhotnews.com,dainiktimes.co.in,hindustanrepublic.in,kannurvarthakal.in,khabardarinews.com,khabardinbhar.net,kilinochchinews.com,kotajagran.com,krantiodishanews.com,malayalamtodayonline.com,mediapoint24.com,overlook.co.in,prajawani.in,punjabiakhbar.com,sanskardarshan.in,shabdshodh.com,updatetimes.com##.navbar-ad-section
+chamaktabharat.com#@#.navbar-ad-section
 prabhatvaibhav.com##.navbar-area-2 ~ div[style]
 daijiworld.com##.navbar-static-top a[target="new"]
 bishwanathbd24.com##.navbar-top-banner
