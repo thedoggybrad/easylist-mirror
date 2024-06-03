@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c3k1rI99aagJwFAMQbjGXA
-! Version: 202406031231
+! Checksum: Io/3URe5TWukG1cXTXrIpA
+! Version: 202406031240
 ! Title: EasyList without element hiding rules
-! Last modified: 03 Jun 2024 12:31 UTC
+! Last modified: 03 Jun 2024 12:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -503,7 +503,7 @@
 /banner-affiliate-
 /banner.asp?$third-party
 /banner.cgi?
-/banner.php
+/banner.php$domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
