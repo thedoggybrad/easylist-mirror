@@ -1,5 +1,5 @@
 # EasyList Mirror (Unofficial)
-An unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab.<br>
+This is an unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab.<br>
 This mirror includes all the affiliated both official and unofficial with EasyList.
 
 ## Learn More
