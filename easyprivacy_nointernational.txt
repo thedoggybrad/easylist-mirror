@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: IKI/9xKjdi63VVrdFZUzYQ
-! Version: 202406051031
+! Checksum: yu1esGGZ6X02TybBBXBMIw
+! Version: 202406051041
 ! Title: EasyPrivacy without international filters
-! Last modified: 05 Jun 2024 10:31 UTC
+! Last modified: 05 Jun 2024 10:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41903,6 +41903,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
+@@||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/$~third-party
 @@||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$~third-party
 @@||pendo.io/agent/static/$script,domain=recruiting.adp.com
 @@||plantyn.com/optiext/optiextension.dll$~third-party
