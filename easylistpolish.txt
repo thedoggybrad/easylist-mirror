@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FYXH1AT6q1GB4Ca+S0Us0w
-! Version: 202406051041
+! Checksum: rHxAGHEObvrgv+G2UkzNUw
+! Version: 202406051051
 ! Title: EasyList Polish
-! Last modified: 05 Jun 2024 10:41 UTC
+! Last modified: 05 Jun 2024 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -277,7 +277,7 @@ supernowosci24.pl##[id^="r-"]
 ||izachodniopomorskie.pl^*^Tanie_foto_
 ||kantorywalut.pl^*^ik_gif-
 ||kcynia.info^*^rolnik-serwis2.
-||kmziz.pl^*^250x250c^
+^250x250c^$domain=kmziz.pl
 ||kmziz.pl^*^728x90c^
 ||kobiety-kobietom.com^*^dobrykantor.
 ||komediowo.pl^*^ciekawe-miejsca-
@@ -377,6 +377,7 @@ supernowosci24.pl##[id^="r-"]
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^banner^$domain=technologieibudownictwo.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
