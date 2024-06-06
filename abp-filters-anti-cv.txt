@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: qM+Vspeh0jQ+sfjVI3AWAw
-! Version: 202406061151
+! Checksum: nUsSWHdUDko3NsmFbXlJEg
+! Version: 202406061200
 ! Title: ABP filters
-! Last modified: 06 Jun 2024 11:51 UTC
+! Last modified: 06 Jun 2024 12:00 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -546,7 +546,7 @@ noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/a
 noon.com#$#hide-if-matches-xpath './/span[text()="Sponsored"]/preceding::img[contains(@src,"/ads/banner")]/ancestor-or-self::div[contains(@class,"adBannerModule")][@data-qa]/parent::div'
 noon.com##div[data-slotid*="hero_banner_"]
 ! #RM-68
-cars.com#$#hide-if-matches-xpath './/a[@data-linkname="inventory-ad-header"]/ancestor-or-self::div[contains(@class,"inventory-ad")]'
+cars.com#$#hide-if-matches-xpath './/spark-badge[@variant="text"]/ancestor-or-self::div[contains(@class,"inventory-ad")]'
 cars.com#$#hide-if-matches-xpath './/span[@class="hero-cta-tag"][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
 ! #CV-1935
 ##.jag8CityBio212023
