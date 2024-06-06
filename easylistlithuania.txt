@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zNxtt+bzVp3U7SyqAJ4gaQ
-! Version: 202406060530
+! Checksum: hTLpvFqvWMaIO/ixhFOilQ
+! Version: 202406060541
 ! Title: EasyList Lithuania
-! Last modified: 06 Jun 2024 05:30 UTC
+! Last modified: 06 Jun 2024 05:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/EasyList-Lithuania/easylist_lithuania
 !
@@ -146,6 +146,7 @@ delfi.lt##body > div[style*="height:"][style*="z-index:"]
 delfi.lt##body > .container > .row > .left ~ :not(.right) > :not(.delfi-ads-block)
 delfi.lt##.hero
 delfi.lt##div[class^=col-xs-][style^="float: left; "]:first-of-type + div[class]:not([class*=" "]):last-of-type
+delfi.lt##.C-banner
 depresijosklubas.lt##img[src$="rozmarinas.gif"]
 15min.lt##div > em
 15min.lt##body > i
@@ -1226,8 +1227,11 @@ play.tv3.lt###ad_banner_skin
 ||trafficbass.com^
 ||aj2392.online^$third-party
 !#endif
-! Filters for Adblock Plus
 !#if ext_abp
+! Filters for Adblock Plus
 delfi.lt##.samsung[style^="background:"]
+delfi.lt##[style*="g.delfi.lt/images/ccc/"]
+www.delfi.lt##[style^="display: block; height: 3" i][style*="ps://g." i]:not(html,body,main,article,div,header,footer)
+www.delfi.lt##[style^="display: block; width: 3" i][style*="ps://g." i]:not(html,body,main,article,div,header,footer)
 m.delfi.lt##.sevenbet-juosta
 !#endif
