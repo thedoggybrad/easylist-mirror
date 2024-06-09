@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oBY4VeeH5hjV5dG2Au46Gw
-! Version: 202406092031
+! Checksum: ss3L/sa7Sac21yMr1gJlrA
+! Version: 202406092050
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Jun 2024 20:31 UTC
+! Last modified: 09 Jun 2024 20:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -215,6 +215,7 @@ finn.no##.ads__unit--banner
 bt.no##div[class^=article-wrapper-] > div[class^=_]
 nettavisen.no##*:has(> amedia-include[param-editionid=reklame])
 sundhedslex.dk##.boxl
+costume.no##.teaser--link:has(.teaser__cat--sponsorlabel)
 mytastenor.com,mytastednk.com##.affiliate
 itavisen.no##.td-adspot-title
 byggfakta.no##.sponsor-row
@@ -908,6 +909,7 @@ kanalfrederikshavn.dk##td[height="237"]:not([valign])
 madbanditten.dk##.madbanditten-widget
 gunnarandreassen.com##a[href*=dreamz]
 midtsiden.no##main > div > div:not([class])
+datamaskin.biz##.ad2
 latterkula.no##a[title*=spill]
 kundeavisogtilbud.no,tilbudsaviseronline.dk##.anchor-wrapper
 fcbarcelona.dk##.bluebox.custom
@@ -1594,6 +1596,7 @@ contentMarketing$xmlhttprequest,domain=sol.no
 ||ytresogn.no/wp-content/uploads/2020/02/Ytre_718_360_2.jpg^
 ||gamereactor.*/ads^
 ||gamereactor.*/exclusive.json^
+||datamaskin.biz/ad/
 ! — — — — — — —
 ! 🇳🇴: Filtjener- eller nettstedsspesifikke oppføringer med kilder
 ! 🇳🇴🏞: Filtenar- eller nettstadsspesifikke oppføringar med kildar
@@ -1857,7 +1860,7 @@ vafo.dk##.adform-flexblock
 ! bt.no, byas.no, aftenbladet.no (30/10/2020)
 ##.vertical-x1-ad > .column--big:not(body,:empty)
 ! costume.no, costume.dk (09/11/2020)
-##.grid > div[class=flow-banner]:not(body,:empty)
+##.grid > div[class=flow-banner]:not(body)
 ! boligpluss.no (09/11/2020), women.dk
 ##.wg-banner:not(html,body,:empty)
 ! ytresogn.no (16/12/2020)
@@ -1927,6 +1930,8 @@ aasanetidende.no,aasavis.no,akersposten.no,amta.no,an.no,ao.no,auraavis.no,austa
 innherred.no##.master.x10
 rbkweb.no##font > table:first-of-type
 baadmagasinet.dk##.article-bottom .qx-inner > .qx-section:last-of-type
+! Should not have ":not" + ":empty" added to it due to costume.no
+##.bonnier-ad:not(html,body)
 ! — — — — — — — — —
 ! 🇳🇴: Hovedsaklig for AdGuard
 ! 🇳🇴🏞: Huvudsakleg for AdGuard
@@ -5580,7 +5585,7 @@ zeromagazine.nu##div[id^=ads]
 feber.se##.maxetise
 nytid.no#@#div.td-a-rec img
 ! Description: Finnish adblock list
-! Last modified: Sun, 19 May 2024 18:38:17 +0000
+! Last modified: Thu, 30 May 2024 16:50:51 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -7097,6 +7102,8 @@ www.seurakuntalainen.fi#@##CookieBanner
 ! https://srk.fi/fi/
 @@||srk.fi/*/cookielaw.js$script
 srk.fi#@##CookielawBanner
+! Lowe's list exception, chat needs cookies to be accepted
+@@||googletagmanager.com/gtm.js$domain=pohjanmaanhyvinvointi.fi
 ! -----UNBREAK END-----
 ! Will be removed after PR's accepted (whitelistings for issues caused by other lists or additions to the main Easylist)
 ! *** easylist.txt ***
