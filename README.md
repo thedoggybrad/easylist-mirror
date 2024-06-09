@@ -19,4 +19,4 @@ Know the process of syncing the filterlists automatically. This also includes th
 Open-Source projects must be transparent and here they are.<br>
 [https://github.com/thedoggybrad/easylist-mirror/wiki/Code-Transparency](https://github.com/thedoggybrad/easylist-mirror/wiki/Code-Transparency)
 <br><br>
-©2023-Present TheDoggyBrad Software Lab and EasyList Mirror Syncing Bot. All Rights Reserved.
+⊜Public Domain. No Rights Reserved. Empowered by the UPDER-FOSDL license.
