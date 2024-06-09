@@ -1,5 +1,5 @@
 # EasyList Mirror (Unofficial)
-This is an unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab.<br>
+This is an unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab. <br> This is the TheDoggyBrad Software Lab's answer to lack of 3rd party mirrors for the EasyList-family of AdBlock filterlists.<br>
 This mirror includes all the affiliated both official and unofficial with EasyList.
 
 ## Learn More
@@ -19,4 +19,4 @@ Know the process of syncing the filterlists automatically. This also includes th
 Open-Source projects must be transparent and here they are.<br>
 [https://github.com/thedoggybrad/easylist-mirror/wiki/Code-Transparency](https://github.com/thedoggybrad/easylist-mirror/wiki/Code-Transparency)
 <br><br>
-⊜Public Domain. No Rights Reserved. Empowered by the UPDER-FOSDL license.
+⊜Public Domain. No Rights Reserved. Dedicated to the public domain through the power of the UPDER-FOSDL license.
