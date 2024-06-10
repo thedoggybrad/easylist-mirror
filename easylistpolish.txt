@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UyPWgQHzgOZBPJ7G7NbafA
-! Version: 202406100711
+! Checksum: 4+1CB0NAg1qQab5dz7Jq7A
+! Version: 202406100720
 ! Title: EasyList Polish
-! Last modified: 10 Jun 2024 07:11 UTC
+! Last modified: 10 Jun 2024 07:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -377,6 +377,7 @@ supernowosci24.pl##[id^="r-"]
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=petronews.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2568,6 +2569,8 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+petronews.pl##[class*="banner--"]
+e-krajna.pl##[class^="materialy-promocyjne"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
