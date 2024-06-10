@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6XsivknfTT2tUGPpxwjxUg
-! Version: 202406100841
+! Checksum: 45dNNqwaS1GBVmCi5VTtcw
+! Version: 202406100850
 ! Title: EasyList China
-! Last modified: 10 Jun 2024 08:41 UTC
+! Last modified: 10 Jun 2024 08:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1648,6 +1648,7 @@ newduba.cn###jq_youxi
 ##dl#listwoBox
 ##img#GGADIMG
 ##img#adv1
+##.yueduad1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".qq.com/doc/"]
@@ -1692,6 +1693,7 @@ newduba.cn###jq_youxi
 ||cupfox.app^$third-party
 !
 ||auislq.top^
+||taproximo.com^
 ||ligfdjnfd.cn^
 ||ozykeor.icu^
 ||yxkbgg.xyz^
@@ -11315,6 +11317,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||hb8g86k.mom/mz.js
 !------------------------Specific element hiding rules------------------------!
 chongbuluo.com##.search > div[style="width: 607px;margin-top:30px;"]
 qciss.net##.d1
