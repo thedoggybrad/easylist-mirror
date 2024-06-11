@@ -8,7 +8,7 @@ More Information about this unofficial mirror.<br>
 
 ## Filterlists Mirror Links
 Here are the links for the filterlists hosted in this mirror.<br>
-[https://github.com/thedoggybrad/easylist-mirror/wiki/Filterlists-Mirror-Links]([https://github.com/thedoggybrad/easylist-mirror/wiki/Filterlists-Mirror-Links])
+[https://github.com/thedoggybrad/easylist-mirror/wiki/Filterlists-Mirror-Links](https://github.com/thedoggybrad/easylist-mirror/wiki/Filterlists-Mirror-Links)
 
 ## Syncing Process/Reliability
 [![Routine Sync of EasyList Mirror (Scheduled)](https://github.com/thedoggybrad/easylist-mirror/actions/workflows/updater.yml/badge.svg)](https://github.com/thedoggybrad/easylist-mirror/actions/workflows/updater.yml)<br>
