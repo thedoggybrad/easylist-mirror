@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2ge6IUrQegG/qtMfplHKZQ
-! Version: 202406121751
+! Checksum: T1FFioTrzoKvCwEBVxOeVw
+! Version: 202406121801
 ! Title: EasyList without rules for adult sites
-! Last modified: 12 Jun 2024 17:51 UTC
+! Last modified: 12 Jun 2024 18:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -69671,6 +69671,7 @@ qwant.com##.is-sidebar:has(a[data-testid="advertiserAdsLink"])
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
 motortrend.com##.justify-center:has(.nativo-news)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
+golfdigest.com##.leaderboard-container
 content.dictionary.com##.lp-code:has(> [class$="Ad"])
 euronews.com##.m-object:has(.m-object__sponsored-quote)
 haggen.com,kingsfoodmarkets.com##.master-product-carousel:has([data-carousel-api*="search/sponsored-carousel"])
