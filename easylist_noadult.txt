@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x2bsJTdAlKQPbXX8r1ELQQ
-! Version: 202406142140
+! Checksum: B3jcAOnLgif/heiopN8UmA
+! Version: 202406142150
 ! Title: EasyList without rules for adult sites
-! Last modified: 14 Jun 2024 21:40 UTC
+! Last modified: 14 Jun 2024 21:50 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -69723,6 +69723,8 @@ chosun.com##.box--bg-grey-20:has(.dfpAd)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
 slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
+doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
+doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
 tvinsider.com#@#.cnx-player-wrapper
 asda.com##.co-item:has(.co-item__sponsored-label)
