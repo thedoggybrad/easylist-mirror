@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4Dcmu+0HGH1TipW3kwccqw
-! Version: 202406151431
+! Checksum: EYR2Sb0I/9QMgFh0eyoxYA
+! Version: 202406151440
 ! Title: EasyPrivacy without international filters
-! Last modified: 15 Jun 2024 14:31 UTC
+! Last modified: 15 Jun 2024 14:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2563,7 +2563,7 @@
 /webtag.js
 /webtrack.js
 /webtracker.dll
-/webtracking/*$~subdocument,domain=~wwwapps.ups.com
+/webtracking/*$~document,~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
 /webtraxs.js
 /webtrekk_mediaTracking.min.js
