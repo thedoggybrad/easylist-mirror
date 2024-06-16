@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ldsxa9AJE1M6GkyVww2JVw
-! Version: 202406161710
+! Checksum: 1+MdeYjDIxH+/G13W6yn6A
+! Version: 202406161720
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Jun 2024 17:10 UTC
+! Last modified: 16 Jun 2024 17:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -78423,6 +78423,7 @@ mg.co.za##article:has(.sponsored-single)
 tympanus.net##article:has(header:has(.ct-sponsored))
 foxnews.com##article[class|="article story"]:has(.sponsored-by)
 twitter.com,x.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
+thetimes.com##article[id="article-main"] > div:has(#ad-header)
 winaero.com##aside > .widget_text:has(.adsbygoogle)
 psychcentral.com##aside:has([data-empty])
 vidplay.lol##body > div > div[class][style]:has(> div > div > a[target="_blank"])
