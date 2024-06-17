@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: UM0UfbMAZDrfeaOz1EyuMA
-! Version: 202406172231
+! Checksum: cBKQjOoa9t7hUvaOOZyGXQ
+! Version: 202406172240
 ! Title: EasyPrivacy without international filters
-! Last modified: 17 Jun 2024 22:31 UTC
+! Last modified: 17 Jun 2024 22:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -925,7 +925,7 @@
 /friendbuy.min.js
 /frontend-gtag.js
 /frontend-gtag.min.js
-/frontend-metrics/*
+/frontend-metrics^
 /frontend-sentry-
 /fsrscripts/triggerParams.js
 /fusion/lucid/data/*
@@ -1592,6 +1592,7 @@
 /pageview?t=
 /pageview?user_guid=
 /pageviews.gif?
+/pageviews.php?type=
 /pageviews?token=
 /parsely.js
 /particles/analytics.js
