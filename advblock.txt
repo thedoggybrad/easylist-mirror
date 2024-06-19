@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: N0VV2e9bapbHuCrQuBcL7w
-! Version: 202406191521
+! Checksum: r1nKQYVkCmjoMoU7gMX8rQ
+! Version: 202406191531
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Jun 2024 15:21 UTC
+! Last modified: 19 Jun 2024 15:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22984,6 +22984,7 @@ sdamgia.ru##[data-name="partial-container"]
 liveinternet.ru##[data-wrapper]
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
+www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 sdamgia.ru##center > div[id][style]
 cq.ru#?#div:-abp-properties(content: "Реклама")
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
