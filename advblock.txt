@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8x+mZwJT+wnWx0woPdLUBw
-! Version: 202406200720
+! Checksum: 7D8vxXXhkhXVLQCRdplIOw
+! Version: 202406200730
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Jun 2024 07:20 UTC
+! Last modified: 20 Jun 2024 07:30 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -22972,7 +22972,7 @@ lada.kz/uploads/banners/
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-||pikabu.ru/vp$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/vn$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
@@ -24065,6 +24065,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*yhid=$popup,domain=dzen.ru
 /*yhyd=$popup,domain=dzen.ru
 /*yiclyd=$popup,domain=dzen.ru
+/*ylcd=$popup,domain=dzen.ru
 /*ylced=$popup,domain=dzen.ru
 /*ylclyd=$popup,domain=dzen.ru
 /*ylcyd=$popup,domain=dzen.ru
