@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MZKinFviMHHhw8PF7m6UPA
-! Version: 202406200541
+! Checksum: sQRGe4Ga4nYgcwAfUYHqnQ
+! Version: 202406200551
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 20 Jun 2024 05:41 UTC
+! Last modified: 20 Jun 2024 05:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -263,6 +263,16 @@ canariajournalen.no##.ad-separator-top
 1819.is,finna.is##.augl
 gamer.no##.col-12:has(> betting-matchup)
 eyjar.net##.hausad
+baeredygtigtfiskeri.dk##div[data-element_type=widget][data-widget_type="search-form.default"] ~ div[data-element_type=widget][data-widget_type="image.default"]
+baeredygtigtfiskeri.dk##div[data-element_type=widget][data-widget_type="search-form.default"] ~ div[data-element_type=widget][data-widget_type="heading.default"]:has(+ div[data-widget_type="image.default"])
+baeredygtigtfiskeri.dk##section.elementor-top-section:has-text(/\s\sAnnoncer?\s\s/i) + section.elementor-top-section:has(.elementor-image > [loading=lazy])
+baeredygtigtfiskeri.dk##section.elementor-top-section:has-text(/\s\sAnnoncer?\s\s/i):has(+ section.elementor-top-section .elementor-image > [loading=lazy])
+fiskerforum.dk##section[class*=_slider]:has([class*=banner-ads])
+fiskerforum.dk##.elementor-widget-text-editor:has-text(/\s\sANNONCER\s\s/)
+fiskerforum.dk##div[data-elementor-type=wp-post] section[class*=_slider]:has(.elementor-size-default > a)
+fiskerforum.dk##section:has(.elementor-row > div:only-of-type div[id*=ezoic])
+netnatur.dk##.widget:has(.g-single)
+europamester.dk##div:has(> div[id^=cncpt-])
 musikknyheter.no##.centered:not(#toTop)
 itavisen.no,tvguide.dk##div[id^=ad-]
 tu.no##.undefined.hidden
@@ -945,6 +955,8 @@ valutakurser.dk##.bottom_banner_div
 vg.no##div[id*=-netboard_article- i]
 hardwareonline.dk##.centerfull
 gamer.no##div[data-track-visibility]
+arto.dk##div[style^="margin-bottom: "]:has(> iframe)
+arto.dk##div[style^="margin-bottom: "]:has(> iframe) + div[style^="margin:"]
 fcbarcelona.dk##.bluebox:has([src*=bet365])
 magasinetskolen.dk##.region-leaderboard
 aftenposten.no###superright-side
@@ -1160,6 +1172,7 @@ gamereactor.no,gamereactor.dk##.external_div_videoAd
 gamereactor.no,gamereactor.dk##*:has(> #grtvbelt_Sponsored)
 gamereactor.no,gamereactor.dk##.ad_interscroller:upward(.wrapper)
 sjoborg.no##div[data-debuglabel=_app]
+gulesider.no##div.place-items-center.grid:has([data-adunitid])
 ! — — — — — — — — —
 ! 🇳🇴: Oppføringer for minst 3 nettsteder
 ! 🇬🇧: Entries for at least 3 websites
@@ -1602,23 +1615,23 @@ contentMarketing$xmlhttprequest,domain=sol.no
 ! 🇳🇴🏞: Filtenar- eller nettstadsspesifikke oppføringar med kildar
 ! 🇩🇰: Filserver- eller webstedsspecifikke indførsler med kilder
 ! 🇬🇧: Fileserver or site-specific blocking rules with sources
-! bilasolur.is (03/05/2020)
+! bilasolur•is (03/05/2020)
 /lykill_banner$image
-! bt.no
+! bt•no
 ||finn.no/distribution-carousel?$object,third-party
 ! https://newsbreak.dk/a01-problemer-hos-tdc-maaske-kan-du-ikke-ringe-01072020/
 ||images.sprinklecontent.com/*.amazonaws.com%2Fimages%$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67358#issuecomment-724888304
 ||gfx.no^*/refererPromo$script,stylesheet
-! buildingsupply.no, maskinregisteret.no, metalsupply.no, plastforum.no
+! buildingsupply•no, maskinregisteret•no, metalsupply•no, plastforum•no
 ||f.nordiskemedier.dk/*.gif^
-! building-supply.dk
+! building-supply•dk
 ||f.nordiskemedier.dk/banner^
-! metalsupply.no, licitationen.dk
+! metalsupply•no, licitationen•dk
 /://f\.nordiskemedier\.dk/2[a-z0-9]{12,}\.(jpg|png|jpeg)/$third-party
-! viivilla.no (10/11/2020)
+! viivilla•no (10/11/2020)
 ||bcm.interactives.dk/script^$third-party
-! adressa.no (10/11/2020)
+! adressa•no (10/11/2020)
 ||static.polarismedia.no/*/cxense.js
 ! https://github.com/uBlockOrigin/uAssets/issues/13661 (11/06/2022)
 ||freewheel-mtgx-tv.akamaized.net^$media,domain=embed.viaplay.com,rewrite=abp-resource:blank-mp3
@@ -1626,6 +1639,8 @@ contentMarketing$xmlhttprequest,domain=sol.no
 ||finn.no/distribution-front/external/carousel^$subdocument,third-party
 ! https://github.com/DandelionSprout/adfilt/issues/983
 .no/api/unit-image?config=$image
+! arto•dk
+||artodata.net/site/ads/$subdocument
 ! — — — — —
 ! 🇳🇴: Generelle oppføringer med kilder
 ! 🇸🇪: Generella poster med källor
@@ -2124,6 +2139,7 @@ startsiden.no##div[class^=nyttig__tippingHeader__]
 ||cloudfront.net/v*/Liveoddsen.aspx^$domain=vglive.no
 abcnyheter.no##div + section[class*=" o-section__between-layout"]
 startsiden.no##a[id^=desked-section][data-orig-url]
+.cloudfront.net/oddsen^$subdocument,third-party,domain=~norsk-tipping.no|~tipster.no
 ! nidaros.no (02/12/2021)
 ##.sportspill-container[href*=lotto]:not(html,body,:empty)
 ! h-avis.no (11/12/2023)
@@ -5585,7 +5601,7 @@ zeromagazine.nu##div[id^=ads]
 feber.se##.maxetise
 nytid.no#@#div.td-a-rec img
 ! Description: Finnish adblock list
-! Last modified: Thu, 30 May 2024 16:50:51 +0000
+! Last modified: Sat, 15 Jun 2024 20:35:24 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -7068,6 +7084,10 @@ classic.nettiauto.com,www.nettiauto.com#@##adv
 @@||adobedtm.com^$script,domain=verkkopalvelu.turva.fi
 ! To fix the opening of dna.fi product links on hinta.fi
 @@||track.adform.net/*dna.fi/
+! To fix the opening of cdon.fi product links on kivasiivous.fi
+@@||clk.tradedoubler.com/click*cdon.fi
+! To fix the opening of coolshop.fi product links on kivasiivous.fi
+@@||ad.doubleclick.net/ddm/clk/*coolshop.fi/tuote/
 ! Unbreak netstat.ayy.fi
 @@||netstat.ayy.fi^
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
