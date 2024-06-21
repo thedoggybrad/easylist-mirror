@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202406211605
+! Version: 202406211642
 ! Title: EasyList
-! Last modified: 21 Jun 2024 16:05 UTC
+! Last modified: 21 Jun 2024 16:42 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -853,6 +853,7 @@
 /processing/impressions.asp?
 /production/ad-
 /production/ads/*$script
+/promo.php?c=$third-party
 /promo/ads/*$~xmlhttprequest
 /promo/affiframe.
 /promotools.
@@ -21182,6 +21183,7 @@ browsershots.org#@#.advert_area
 ||bngprm.com^
 ||bngpst.com^
 ||bngpt.com^
+||bngrol.com^
 ||bngtrak.com^
 ||bngwlt.com^
 ||bnhnkbknlfnniug.xyz^
@@ -65064,7 +65066,6 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||bigtitsgallery.net/qbztdpxulhkoicd.php
 ||bigtitslust.com/lap70/
 ||bionestraff.pro/300x250.php
-||bngrol.com/promo.php
 ||bodsforthemods.com/srennab/
 ||bootyheroes.com//static/assets/img/banners/
 ||boyfriend.show/widgets/Spot
@@ -68884,8 +68885,8 @@ linuxize.com##.linaff
 architecturesideas.com##.linkpub_right_img
 babynamegenie.com,forless.com,worldtimeserver.com##.links
 weatherpro.com##.list-city-ad
-apkmirror.com##.listWidget > .appRow
 apkmirror.com##.listWidget > .promotedAppListing
+apkmirror.com##.listWidget > div[class="appRow"]
 nationalmemo.com##.listicle--ad-tag
 spiceworks.com##.listing-ads
 gosearchresults.com##.listing-right
