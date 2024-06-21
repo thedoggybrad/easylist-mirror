@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1fgNkE3Hk4B0sMcYo63iKg
-! Version: 202406211640
+! Checksum: EJzJt1rmMcrRXSWqVGxzLg
+! Version: 202406211651
 ! Title: EasyList without rules for adult sites
-! Last modified: 21 Jun 2024 16:40 UTC
+! Last modified: 21 Jun 2024 16:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -850,6 +850,7 @@
 /processing/impressions.asp?
 /production/ad-
 /production/ads/*$script
+/promo.php?c=$third-party
 /promo/ads/*$~xmlhttprequest
 /promo/affiframe.
 /promotools.
@@ -21179,6 +21180,7 @@ browsershots.org#@#.advert_area
 ||bngprm.com^
 ||bngpst.com^
 ||bngpt.com^
+||bngrol.com^
 ||bngtrak.com^
 ||bngwlt.com^
 ||bnhnkbknlfnniug.xyz^
