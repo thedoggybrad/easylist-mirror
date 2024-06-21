@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4/XN4skj2xfem5aRoMWomA
-! Version: 202406211601
+! Checksum: TNUE46mKBg5/hk9PRvLoBQ
+! Version: 202406211610
 ! Title: EasyList without rules for adult sites
-! Last modified: 21 Jun 2024 16:01 UTC
+! Last modified: 21 Jun 2024 16:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -70022,9 +70022,9 @@ kohls.com##li.products_grid:has(p.piq-sponsored)
 streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
 autotrader.co.uk##li:has(section[data-testid="trader-seller-listing"] > span[data-testid="FEATURED_LISTING"])
 autotrader.co.uk##li:has(section[data-testid="trader-seller-listing"] > span[data-testid="PROMOTED_LISTING"])
-yandex.com##li[class$="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.com##li[class$="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 bbc.com##li[class*="-ListItem"]:has(div.dotcom-ad)
+yandex.com##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
