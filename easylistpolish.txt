@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uUulo0Yqhp3VCzBzb8HsLA
-! Version: 202406210601
+! Checksum: bMm++xG4Yk5eTkTwnR2x8Q
+! Version: 202406210611
 ! Title: EasyList Polish
-! Last modified: 21 Jun 2024 06:01 UTC
+! Last modified: 21 Jun 2024 06:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -378,6 +378,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+_reklamy^$domain=weekendfm.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2582,6 +2583,9 @@ wp.pl#?#IMG:-abp-properties(position: relative;)
 lokalnatelewizja.pl##.tipad_tag + a
 lokalna.news##[class="text-center my-3 container"]
 lokalnatelewizja.pl##[class="text-center my-3 container"]
+zkaszub.info##.zkasz-widget
+gorzowianin.com###topmsg
+gorzowskie.pl##[class="text-center my-3 container"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
