@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ixAufzZyYWZQkxCk8bsVOA
-! Version: 202406221421
+! Checksum: nW/BO1cuWy42IINkH90Kog
+! Version: 202406221431
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 22 Jun 2024 14:21 UTC
+! Last modified: 22 Jun 2024 14:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7664,7 +7664,7 @@ srk.fi#@##CookielawBanner
 /common/ad.js
 /common/ads?
 /common_ad.js
-/concert_ads-
+/concert_ads-$script
 /content-ads.js
 /content/ads/*$~xmlhttprequest
 /core-ads.js
@@ -7822,7 +7822,7 @@ srk.fi#@##CookielawBanner
 /leftad.jpg
 /leftad.js
 /leftad.png
-/legion-advertising-atlasastro/*
+/legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
 /linkad2.jpg
@@ -8061,7 +8061,6 @@ srk.fi#@##CookielawBanner
 /size=*/random=*/viewid=
 /skin/ad/*$image,script
 /skin/adv/*$~xmlhttprequest
-/skin_ad-
 /skinad.
 /skyadright.
 /skyscraperad.
@@ -8084,7 +8083,6 @@ srk.fi#@##CookielawBanner
 /sponsorad.png
 /sponsored-links.
 /sponsored-links/*
-/sponsored-widget
 /sponsored_ad.
 /sponsored_link.
 /sponsored_text.
@@ -8166,7 +8164,7 @@ srk.fi#@##CookielawBanner
 /wp-bannerize-$script,stylesheet
 /wp-bannerize.$script,stylesheet
 /wp-bannerize/*
-/wp-content/ads/*
+/wp-content/ads/*$~xmlhttprequest
 /wp-content/mbp-banner/*
 /wp-content/plugins/amazon-auto-links/*$script,stylesheet
 /wp-content/plugins/amazon-product-in-a-post-plugin/*
@@ -8439,7 +8437,7 @@ _widget_ad.
 /plugins/prebidjs/*$script
 /porpoiseant/*$script
 /prebid-js-$script
-/prebid-min-
+/prebid-min-$script
 /prebid-pro.
 /prebid-sdk.
 /prebid-worker/*
