@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: klxUwQQDwp2ll80RG4ZvBg
-! Version: 202406220050
+! Checksum: rRhuE3jIUaCJhDX6ZfK+/g
+! Version: 202406220101
 ! Title: ABPindo
-! Last modified: 22 Jun 2024 00:50 UTC
+! Last modified: 22 Jun 2024 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 22 Jun 2024 00:46 UTC
+! Last modified: 22 Jun 2024 00:57 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 ! 
 ! Please report any unblocked adverts or problems
@@ -1463,6 +1463,7 @@ www.tek.id##.flying_carpet_show_fix
 bisnis.com,www.tek.id##.flying_carpet_show_inner
 teknoup.com##.footer_banner
 suarasurabaya.net##.footer_sticky
+orami.co.id##.footer_stickyexp
 manganime.id##.ftadss
 komikcast.net,komikindo.id,komikindo.pro,komikindo.tv##.gambar_pemanis
 viva.co.id##.giant-banner
@@ -5306,6 +5307,7 @@ totojitu.gif|$image
 ##[href$="/filmlokal"]
 ##[href$="/forslotindo"]
 ##[href$="/gacorbokep"]
+##[href$="/gudangselot"]
 ##[href$="/hdpbet"]
 ##[href$="/ibetwinasia"]
 ##[href$="/idncash"]
