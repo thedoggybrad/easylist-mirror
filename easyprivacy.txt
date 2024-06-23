@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202406230724
+! Version: 202406230735
 ! Title: EasyPrivacy
-! Last modified: 23 Jun 2024 07:24 UTC
+! Last modified: 23 Jun 2024 07:35 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -636,6 +636,7 @@
 /common/analytics.js
 /common/ga.js
 /common/tracker.js
+/complianz/v1/track$xmlhttprequest
 /comscore-min.js
 /comscore?
 /comscore_beacon/*
@@ -2156,6 +2157,7 @@
 /submission/pageview
 /supercookie.asp
 /supercookie.js
+/svs.gif?
 /sw/analytics.js
 /swa_t.gif?
 /swatag.js
@@ -3125,6 +3127,7 @@ omni.soundestlink.com$image
 ||cybba.solutions^
 ||czx5eyk0exbhwp43ya.biz^
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
+||dadalytics.it^
 ||dataofpages.com^
 ||demdex.net^
 ||digi-ping.com^
