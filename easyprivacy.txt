@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202406230508
+! Version: 202406230724
 ! Title: EasyPrivacy
-! Last modified: 23 Jun 2024 05:08 UTC
+! Last modified: 23 Jun 2024 07:24 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1906,6 +1906,7 @@
 /screencount?vcid=
 /scribd_events?
 /script.tagged-events.outbound-links.js
+/script.tagged-events.pageview-props.js
 /script/pixel.js
 /scriptAnalytics.js
 /scripts.kissmetrics.com/*
@@ -12443,6 +12444,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eventsink.api.redbee.live^
 ||evnt.iol.it^
 ||fb_servpub-a.akamaihd.net^
+||galada.it/omnitag/
 ||gazzettaobjects.it^*/tracking/
 ||glomera.com/stats
 ||gmdigital.it/vtrack-staging.js
