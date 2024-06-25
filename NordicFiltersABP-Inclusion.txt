@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2OjZWYCZrstsc70EhfTvyQ
-! Version: 202406250950
+! Checksum: KHY96PuVwkv4d5pHhkaThg
+! Version: 202406251001
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 25 Jun 2024 09:50 UTC
+! Last modified: 25 Jun 2024 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7434,7 +7434,6 @@ srk.fi#@##CookielawBanner
 /ads/square.
 /ads/ta_wppas/*$third-party
 /ads/targeted|
-/ads/top-
 /ads/top.
 /ads/video/controller.php
 /ads/view.php
@@ -7643,7 +7642,7 @@ srk.fi#@##CookielawBanner
 /btag.min.js$third-party
 /buysellads.js
 /callAdserver?
-/cgi-bin/ad/*
+/cgi-bin/ad/*$~xmlhttprequest
 /cgi-bin/ads.cgi
 /click/zone?
 /click?adv=
@@ -7912,6 +7911,7 @@ srk.fi#@##CookielawBanner
 /plugins/meks-easy-ads-widget/*$stylesheet
 /plugins/mts-wp-in-post-ads/*$script,stylesheet
 /plugins/popunderpro/*$script
+/plugins/thirstyaffiliates/*$script,stylesheet
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
@@ -8158,7 +8158,6 @@ srk.fi#@##CookielawBanner
 /wp-content/plugins/platinumpopup/*$script,stylesheet
 /wp-content/plugins/popad/*$script,stylesheet
 /wp-content/plugins/the-moneytizer/*$script
-/wp-content/plugins/thirstyaffiliates/*
 /wp-content/plugins/useful-banner-manager/*
 /wp-content/plugins/wp-ad-guru/*$script,stylesheet
 /wp-content/plugins/wp-super-popup-pro/*$script,stylesheet
