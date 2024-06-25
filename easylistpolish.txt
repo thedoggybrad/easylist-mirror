@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y47oWunOwJfmf3W4iuzvug
-! Version: 202406250721
+! Checksum: S89VstilIj9ypkEyqW6mhw
+! Version: 202406250740
 ! Title: EasyList Polish
-! Last modified: 25 Jun 2024 07:21 UTC
+! Last modified: 25 Jun 2024 07:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -445,7 +445,7 @@ lagardere-tr.pl###banner-hds-background
 mierzeja.com###banner-popup
 koncertomania.pl###banner-side
 topmarkety.pl###banner-sponsorski
-przemysl24.pl###banner-top
+przemysl24.pl,walbrzych.dlawas.info###banner-top
 dkl24.pl###banner10
 appmaniak.pl###bannerTop
 pdaclub.pl###banner_news
@@ -1525,6 +1525,7 @@ mmo24.pl##.promo
 odkryjpomorze.pl##.promo-box
 walbrzych24.com##.promo-item:not([href*="gov.pl"])
 forumbranzowe.com##.promocje
+e-grajewo.pl##.promologos
 zywiecinfo.pl##.promoted
 lol24.com##.promotion
 nowezyciepabianic.pl,ostrodanews.pl##.pum
@@ -2389,6 +2390,7 @@ deccoria.pl##div[class*="advert"]
 igryfino.pl,kronikatygodnia.pl##div[class*="advert-"]
 miechowski.pl##div[class*="sgpb-popup-"]
 naekranie.pl##div[class="re prawa-szpalta"]
+tvdami.eu##div[class="text-center my-3 container"]
 rekomendowanefirmy.pl##div[class^="AD-"]
 stockwatch.pl##div[class^="ADbox"]
 dts24.pl,fizjoterapeuty.pl,infomare.pl,kosmetologa.pl,rzeszowskieinfo.pl##div[class^="a-single a-"]
@@ -2478,6 +2480,7 @@ calc.pl##div[style="margin: 0 auto 15px auto; text-align: center; min-height: 22
 businesstraveller.pl##div[style="margin: 10px auto; text-align:center;"]
 lublin112.pl##div[style="min-height: 200px"]
 dziennikwschodni.pl##div[style="min-width:970px; min-height:320px;"]
+jg24.pl##div[style="text-align: center; margin-bottom: 5px;"]
 mojaolesnica.pl##div[style^="margin-left: auto; overflow: hidden;width:"]
 eostroleka.pl##div[style^="max-width: 715px"]
 poloniusz.pl##div[style^="width:194px;"]
@@ -2587,9 +2590,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-walbrzych.dlawas.info###banner-top
-jg24.pl##div[style="text-align: center; margin-bottom: 5px;"]
-tvdami.eu##div[class="text-center my-3 container"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
