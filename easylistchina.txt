@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZpkquzDyWPpGwrAHYJ2VpQ
-! Version: 202406272331
+! Checksum: 3UM3IHr4PHApdEmt27wu7g
+! Version: 202406272341
 ! Title: EasyList China
-! Last modified: 27 Jun 2024 23:31 UTC
+! Last modified: 27 Jun 2024 23:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -21,6 +21,7 @@
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
 /smflow/get.*=gAdCallback_
+wss://*.xyz:*?x=$third-party
 -1316632262.cos.
 -1316899192.cos.
 -1688-wp-media/ads/
