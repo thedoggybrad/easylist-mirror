@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7+JF7ALp3ajcItYib3F8zA
-! Version: 202406270841
+! Checksum: nVECFUFMp0FmzNR0/THS8Q
+! Version: 202406270851
 ! Title: EasyList Polish
-! Last modified: 27 Jun 2024 08:41 UTC
+! Last modified: 27 Jun 2024 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -379,6 +379,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^reklama-$domain=jaslo.info
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2593,6 +2594,7 @@ londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 zawszepomorze.pl##.tipad_tag + a
+nolesnica.pl##.adv
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
