@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BqNIQtFccCcKYRPkAoD6aQ
-! Version: 202406271721
+! Checksum: 0ioKJyidOXatTXFlZbxzKQ
+! Version: 202406271731
 ! Title: EasyList Polish
-! Last modified: 27 Jun 2024 17:21 UTC
+! Last modified: 27 Jun 2024 17:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -183,7 +183,7 @@ app.freshmail.com#@#.advertisement-content
 ^promo^$domain=minecraft-list.pl
 ^rek^$image,domain=wiadomoscipw.pl
 ^rekl^$domain=pgt.pl
-^reklama-$domain=bilgorajska.pl|fizjoterapeuty.pl|fleschmazowsza.com.pl|goniecpolski.nl|icelandnews.is|infofordon.pl|ipulawy.pl|miedzyzdrojskie.info|mojgdow.pl|naszwybir.pl|ok24.tv|warka24.pl|wodnyrelax.pl
+^reklama-$domain=bilgorajska.pl|fizjoterapeuty.pl|fleschmazowsza.com.pl|goniecpolski.nl|icelandnews.is|infofordon.pl|ipulawy.pl|jaslo.info|miedzyzdrojskie.info|mojgdow.pl|naszwybir.pl|ok24.tv|warka24.pl|wodnyrelax.pl
 ^Reklama-$domain=noworudzianin.pl
 ^reklama-$domain=tkn24.pl|transg.pl|tv-pelplin.pl
 ^reklama0_$domain=24ikp.pl
@@ -379,7 +379,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-^reklama-$domain=jaslo.info
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -877,7 +876,7 @@ doba.pl##.ads_row
 stooq.pl##.adsbygoogle ~ table
 pl.hospitalby.com##.adsense
 koty.pl,psy.pl##.adsenseAd
-24jgora.pl,24wroclaw.pl,atrexpress.com.pl,bbfan.pl,bp24.pl,cgm.pl,ciechanowinaczej.pl,ddb24.pl,debica24.eu,egarwolin.pl,egorzow.pl,ekspresjaroslawski.pl,goral.info.pl,historykon.pl,itvpiaseczno.pl,kartuzy.info,kurierpodlaski.pl,lowicz24.eu,mtv24.tv,mylomza.pl,nowawrzesnia.pl,pilaonline.pl,pogonszczecin.pl,powiatowa.info,tp.com.pl,vegespot.pl,zambrow.org,zlotowskie.pl,zyciekalisza.pl##.adv
+24jgora.pl,24wroclaw.pl,atrexpress.com.pl,bbfan.pl,bp24.pl,cgm.pl,ciechanowinaczej.pl,ddb24.pl,debica24.eu,egarwolin.pl,egorzow.pl,ekspresjaroslawski.pl,goral.info.pl,historykon.pl,itvpiaseczno.pl,kartuzy.info,kurierpodlaski.pl,lowicz24.eu,mtv24.tv,mylomza.pl,nolesnica.pl,nowawrzesnia.pl,pilaonline.pl,pogonszczecin.pl,powiatowa.info,tp.com.pl,vegespot.pl,zambrow.org,zlotowskie.pl,zyciekalisza.pl##.adv
 24jgora.pl,24wroclaw.pl,e-kg.pl,zambrow.org##.adv--halfpage
 wterenie.pl##.adv--rectangle
 mma.pl##.adv-body-banner
@@ -1714,7 +1713,7 @@ bialogardinfo.pl##.theiaStickySidebar .g-dyn
 odkryjpomorze.pl##.ticker-container
 wpolityce.pl##.tile--ad-tile
 bobasmiesiaca.pl,bydgoszcz.com,chojnakulturalnie.pl,cooltura24.co.uk,cosiedzieje.tv,dzienniknowy.pl,dziennikpowiatowy.pl,expresskaszebe.pl,faktykaliskie.info,gostynin24.pl,halorzeszow.pl,kk24.pl,kronikatygodnia.pl,malbork1.pl,nasztomaszow.pl,podkarpackahistoria.pl,radiotczew.pl,truso.tv,tuolawa.pl,tvmaster.eu,tvpolice.com.pl,tvsudecka.pl,tygodnik-krapkowicki.pl,zachodniopomorska.tv##.tipad_tag
-kk24.pl,kronikatygodnia.pl,lokalnatelewizja.pl,rzeszow-info.pl,tvsudecka.pl##.tipad_tag + a
+kk24.pl,kronikatygodnia.pl,lokalnatelewizja.pl,rzeszow-info.pl,tvsudecka.pl,zawszepomorze.pl##.tipad_tag + a
 dziennikpowiatowy.pl,kronikatygodnia.pl##.tipad_tag + picture
 transfermarkt.pl##.tm-header > div > img[src$=".gif"]
 meblarskapolska.pl##.tm-promt-image
@@ -2391,6 +2390,7 @@ demotywatory.pl##div[class*="adv_"]
 deccoria.pl##div[class*="advert"]
 igryfino.pl,kronikatygodnia.pl##div[class*="advert-"]
 miechowski.pl##div[class*="sgpb-popup-"]
+e-kolo.pl##div[class="container mb-3"]
 e-kolo.pl##div[class="d-none d-sm-block mb-4 mt-0"]
 naekranie.pl##div[class="re prawa-szpalta"]
 tvdami.eu##div[class="text-center my-3 container"]
@@ -2593,8 +2593,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-zawszepomorze.pl##.tipad_tag + a
-nolesnica.pl##.adv
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
