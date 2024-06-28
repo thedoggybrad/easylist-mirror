@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NmcscaPxfaiDaCxyn3bpXg
-! Version: 202406281121
+! Checksum: L/M//MLJB0wDhLBufkmh3g
+! Version: 202406281131
 ! Title: IndianList
-! Last modified: 28 Jun 2024 11:21 UTC
+! Last modified: 28 Jun 2024 11:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2325,6 +2325,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||ideatvnews.com/wp-content/uploads/2020/07/web_store-front.jpg
 ||idhayammatrimony.com/$domain=thinaboomi.com
 ||igtab.com/links/3.jpg$domain=merabharatnews.com
+||iimtnews.com^*/ads_
 ||ilsheypar.com/wp-content/uploads/2020/04/cyberworldit_advertisement.gif
 ||ilsheypar.com/wp-content/uploads/2020/07/Add-Mayor-Faridgong.jpg
 ||ilsheypar.com/wp-content/uploads/2020/07/Untitled-2.jpg
@@ -4825,7 +4826,7 @@ metrojournalonline.com###HP_O_LHS_1 > div:nth-child(2)
 atalsamachar.com###HP_O_LHS_7 > div:nth-child(-n+10)
 samayduniya.com###HP_O_LHS_7 > div:nth-child(-n+2)
 odiascraps.info###HP_O_LHS_7 > div:nth-child(-n+5)
-actionnews.in,adrasaka.com,balotranewstrack.com,ceylonmuslim.com,hamaramahanagar.in,kanaighatnews.com,kathiravan.com,khantinews.blogspot.com,lankamurasu.com,localmarathi.in,marudharabharti.com,rajsamachar.com,sahibganjnews.com,tapnewsindia.com,topbharat.in,unmaikal.com###HTML1
+actionnews.in,adrasaka.com,balotranewstrack.com,ceylonmuslim.com,hamaramahanagar.in,kanaighatnews.com,kathiravan.com,khantinews.blogspot.com,lankamurasu.com,localmarathi.in,marudharabharti.com,newssapata.com,rajsamachar.com,sahibganjnews.com,tapnewsindia.com,topbharat.in,unmaikal.com###HTML1
 kasargodvartha.com###HTML1 a[href*="facebook.com/kasargodvartha/"] img
 bhopalsamachar.com,cnblive.com,ekumaon.com,ezhomelive.com,jaldhakanews.com,media24media.com,sahityarachana.com###HTML10
 jaldhakanews.com###HTML101
@@ -4854,7 +4855,7 @@ tamilarul.net###HTML42
 36kaakda.in,99samacharexpress.in,abtakapakesath.com,battinews.com,chapainawabganjnews.com,eelanesan.com,malabarflash.com,media24media.com,nobojagorontv.com,tapnewsindia.com,topbharat.in,visarnews.com###HTML5
 gossip99.com,media24media.com,rashtrasamarpan.com,taazakhoj.com,topbharat.in###HTML6
 chapainawabganjnews.com,livebihar24news.com,vyganews.com###HTML7
-dailyhealthletters.com,jaldhakanews.com,khantinews.blogspot.com,nunworajasthan.co.in,rajsamachar.com,rashtrasamarpan.com,rknewsofindia.com,shaharaman.com###HTML8
+dailyhealthletters.com,jaldhakanews.com,khantinews.blogspot.com,newssapata.com,nunworajasthan.co.in,rajsamachar.com,rashtrasamarpan.com,rknewsofindia.com,shaharaman.com###HTML8
 balotranewstrack.com###HTML860
 jaldhakanews.com,sahibganjnews.com,top99breakingnews.blogspot.com###HTML9
 kasargodvartha.com###HTML92
@@ -7942,6 +7943,7 @@ dhadingnews.com##.widget_black_studio_tinymce
 ashmitanews.in##.widget_block figure.size-large
 dailyfaridpurkantho.com##.widget_block img
 khabarcgnews.com,timesofswaraj.com##.widget_block:has(> ins.adsbygoogle)
+iimtnews.com##.widget_block:has(> p > ins.adsbygoogle)
 newszon.in##.widget_block:not(#block-10)
 agrtanews.com##.widget_block:not(#block-2)
 sowork.co.in##.widget_block:not(#block-22)
