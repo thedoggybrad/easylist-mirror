@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: PigMdpqr3tOoSduvhD8Ojg
-! Version: 202406280701
+! Checksum: XJIXAcbVIyYIXODBKPuYRg
+! Version: 202406280711
 ! Title: ABP filters
-! Last modified: 28 Jun 2024 07:01 UTC
+! Last modified: 28 Jun 2024 07:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1172,6 +1172,7 @@ yahoo.co.jp#$#hide-if-matches-xpath './/div[@style]/div[@style]/ancestor::div[@s
 yahoo.co.jp##div[class*="SideMenuAd"]
 curazy.com#$#hide-if-matches-xpath './/a[@href][@target]/img/ancestor-or-self::a[@target]'
 ||bance.jp/bnc*^$script,domain=himanatokiniyaruo.com|vippers.jp
+bance.jp#$#abort-on-property-read Math.floor; abort-on-property-read Object.defineProperty
 himanatokiniyaruo.com,vippers.jp#$#override-property-read fluctAdScript undefined; abort-on-property-read window.bnctag
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
