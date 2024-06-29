@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: gal7hZoNaxEapHEVgH8bog
-! Version: 202406291430
+! Checksum: 1+PdEHNq8FcR73jJFg5MIg
+! Version: 202406291441
 ! Title: ABPVN List
-! Last modified: 29 Jun 2024 14:30 UTC
+! Last modified: 29 Jun 2024 14:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 28 Jun 2024 15:05:44 UTC+7
-! Diff-Path: patches/20240628150544147.patch#abpvn
+! Last modified: 29 Jun 2024 21:33:22 UTC+7
+! Diff-Path: patches/20240629213322370.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -271,7 +271,7 @@
 ||vphimhdc.com^*.gif$image
 ||vsc44.com/wp-content/themes/vuasanco/assets/scripts/scripts.js
 ||ww2.phimhay.in^*.gif
-||www.bongdalu688.com^*.gif
+||www.bongdalu808.com^*.gif
 ||www.clbgamesvn.com/diendan/popup/popup.js$script,~third-party
 ||www.iosviet.com^$csp=script-src 'self' 'unsafe-inline' http: https:
 ||www.thuocbietduoc.com.vn/adv/
@@ -1003,8 +1003,8 @@ webphim6.com##.adsphim-mobile-popup
 webthethao.vn##.wrapper-adv
 webtretho.com##.wtt-ads
 ws-client.gavang.tech##.bg-black.w-full.items-center>.relative.px-2.flex
-www.bongdalu688.com##div[id^="AdLayer"]
-www.bongdalu688.com##div[id^="ad_"]
+www.bongdalu808.com##div[id^="AdLayer"]
+www.bongdalu808.com##div[id^="ad_"]
 www.clbgamesvn.com##.bannerBox
 www.clbgamesvn.com##.footerBanner
 www.clbgamesvn.com##center>[href*="tlink.vn"]
