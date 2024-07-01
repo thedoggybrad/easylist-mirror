@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hy7oDAUlmsiFJGl/2sQC9Q
-! Version: 202407011321
+! Checksum: 34VDkIvEemuUjyDWplQSKQ
+! Version: 202407011331
 ! Title: ABPindo
-! Last modified: 01 Jul 2024 13:21 UTC
+! Last modified: 01 Jul 2024 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 22 Jun 2024 00:57 UTC
+! Last modified: 01 Jul 2024 13:29 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 ! 
 ! Please report any unblocked adverts or problems
@@ -685,6 +685,7 @@ totolink.id#@#.social-circle
 ###adv-placeholder
 ###banner_iklan_top
 ###banner_top_detail
+###bawahpads
 ###bireklam
 ###bottom_exclusive_ads
 ###cfs_top_div
@@ -737,6 +738,7 @@ totolink.id#@#.social-circle
 ###popupwindow
 ###srcadsurlblock
 ###switch-ad
+###tisisads
 ###top_ad_full
 ###tupiklan
 ###vp-advert
@@ -870,6 +872,7 @@ totolink.id#@#.social-circle
 ##.kotakiklan
 ##.ktz-aftermenubanner
 ##.ktz-bannersingletop
+##.loading.ads-50
 ##.marginads
 ##.mobileAd_bottom_floating
 ##.mobileads
@@ -1055,7 +1058,7 @@ nontonsini.com###floatbawah
 lk21.host###floatbot
 samehadaku.cam,samehadaku.day,samehadaku.run###floatbottom
 sinemaindo.web.id###floatbtmleft
-149.28.158.117,212.32.226.234,animexin.xyz,anixlife.xyz,awsubs.co,bgibola.com,bgibola.lat,isekaisubs.web.id,samehadaku.cam,samehadaku.day,samehadaku.run###floatcenter
+149.28.158.117,212.32.226.234,animekompi.vip,animexin.xyz,anixlife.xyz,awsubs.co,bgibola.com,bgibola.lat,isekaisubs.web.id,samehadaku.cam,samehadaku.day,samehadaku.run###floatcenter
 ganool.web.id###floating_ads_bottom_textcss2
 mgkomik.com###floating_ads_bottom_textcss_container
 idxxx1.com###floating_ads_bottom_textcss_wrap
@@ -1801,7 +1804,6 @@ cnnindonesia.com,haibunda.com,insertlive.com##.paradetail
 haibunda.com##.parallax1
 detik.com##.parallax_abs
 cnnindonesia.com,detik.com,haibunda.com##.parallaxindetail
-detik.com##.sisip_video_ds
 detik.com##.skinad_1
 detik.com##.skinad_2
 detik.com##.skybanner
@@ -8958,6 +8960,7 @@ manhwaindo.*###teaser3
 manhwaindo.*##.kln
 perawanbokep.*###ads
 ruangbokep.*###floating_bot
+skandalpedia.*##.kln
 streamingbokeponline.*###floating_bot
 ! Non-entity filters
 173.199.167.192,krucil.com,krucil.net###KD_adpB
