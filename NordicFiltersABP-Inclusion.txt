@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Pn3ZtgtiBSDB7khBLuOw2g
-! Version: 202407011141
+! Checksum: wc5oYRNMFqeThXpv0K+SMw
+! Version: 202407011151
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Jul 2024 11:41 UTC
+! Last modified: 01 Jul 2024 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -70057,6 +70057,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||biblemenus.com/adframe
 ||bioinformatics.org/images/ack_banners/
 ||bit.com.au/scripts/js_$script
+||bitchute.com/static/ad2.html
 ||bitcotasks.com/je.php
 ||bitcotasks.com/yo.php
 ||bizjournals.com/static/dist/js/gpt.min.js
@@ -78108,6 +78109,7 @@ nordstrom.com#?#article:has(.Yw5es:-abp-contains(Sponsored))
 petco.com#?#[class^="CitrusCatapult-styled__LeftContent"]:-abp-has(div:-abp-contains(Sponsored))
 petco.com#?#[class^="HorizontalWidget"]:-abp-has(div:-abp-contains(Sponsored))
 petco.com#?#li:-abp-contains(Sponsored)
+bitchute.com#?#.row.justify-center:-abp-contains(Advertisement)
 rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 regex101.com#?#div > header + div > div + div:-abp-contains(Sponsors)
 sainsburys.co.uk#?#.pt-grid-item:-abp-has([data-test-id="citrus-label"]:-abp-contains(Sponsored))
