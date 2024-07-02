@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yy1xPlQeF3BwEajgAMaR0g
-! Version: 202407020710
+! Checksum: bFsDkjSKouuineBTDTgeBg
+! Version: 202407020720
 ! Title: EasyList Polish
-! Last modified: 02 Jul 2024 07:10 UTC
+! Last modified: 02 Jul 2024 07:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -379,6 +379,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+-plakaty-$domain=zyciezamoscia.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2596,6 +2597,12 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+urzadzamy.pl##.zpr-block
+se.pl##.zpr_side_1_noscroll
+dwa.eska.pl##.zpr_side_1_noscroll
+muratordom.pl##.zpr-block
+mjakmama24.pl##[class^="zpr_box_half_page"]
+mjakmama24.pl##.article__placement
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
