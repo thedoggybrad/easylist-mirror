@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202407040923
+! Version: 202407040931
 ! Title: EasyList
-! Last modified: 04 Jul 2024 09:23 UTC
+! Last modified: 04 Jul 2024 09:31 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1241,6 +1241,8 @@ _widget_ad.
 /full-page-script.js$script
 ! bc.vc (https://github.com/NanoMeow/QuickReports/issues/198)
 /earn.php?z=$popup,subdocument
+! https://github.com/uBlockOrigin/uAssets/issues/2364
+/pop2.js?r=
 ! Ad-insertion script (see on: celebrityweightloss.com, myfirstclasslife.com, cultofmac.com)
 /beardeddragon/armadillo.js
 /beardeddragon/drake.js
@@ -20198,6 +20200,7 @@ browsershots.org#@#.advert_area
 ||bauweethie.com^
 ||bavxuhaxtqi.com^
 ||bawickie.com^
+||bawixi.xyz^
 ||bawlerhanoi.website^
 ||baxascpkean.com^
 ||baxotjdtesah.com^
@@ -28453,6 +28456,7 @@ browsershots.org#@#.advert_area
 ||flowwiththetide.xyz^
 ||floyme.com^
 ||flpfsqgjsarghs.com^
+||flqdbbzd.com^
 ||flqwvojijhqqlq.com^
 ||flrdra.com^
 ||fluemantappall.guru^
@@ -31763,6 +31767,7 @@ browsershots.org#@#.advert_area
 ||hugysoral.digital^
 ||huhaxvawgwa.com^
 ||huigt6y.xyz^
+||hukogpanbs.com^
 ||hulabipptemux.com^
 ||hulledaries.top^
 ||humaffableconsulate.com^
@@ -33284,6 +33289,7 @@ browsershots.org#@#.advert_area
 ||jbzmwqmqwojlw.top^
 ||jbzmwqmqwokkq.top^
 ||jc32arlvqpv8.com^
+||jcdudokp.com^
 ||jcedzifarqa.com^
 ||jchklt.com^
 ||jcigoiimudrzow.com^
@@ -39038,6 +39044,7 @@ browsershots.org#@#.advert_area
 ||ofcamerupta.com^
 ||ofchildr.buzz^
 ||ofclaydolr.com^
+||ofdanpozlgha.com^
 ||ofdittor.com^
 ||ofdrapiona.com^
 ||ofdxfsho.com^
@@ -39166,6 +39173,7 @@ browsershots.org#@#.advert_area
 ||oilskinvulvar.digital^
 ||oinkedbowls.com^
 ||ointmentapathetic.com^
+||ointmentbarely.com^
 ||ointmentfloatingsaucepan.com^
 ||ointmenthind.com^
 ||oisqckeiqwyg.com^
@@ -67274,7 +67282,7 @@ filmdaily.co##.fd-article-top-banner
 filmdaily.co##.fd-home-sidebar-inline-rect
 foodbeast.com##.fdbst-ad-placement
 citybeat.com,riverfronttimes.com##.fdn-gpt-inline-content
-orlandoweekly.com,sacurrent.com##.fdn-interstitial-slideshow-block
+cltampa.com,orlandoweekly.com,sacurrent.com##.fdn-interstitial-slideshow-block
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.fdn-site-header-ad-block
 citybeat.com,riverfronttimes.com##.fdn-teaser-row-teaser
 w3techs.com##.feat
