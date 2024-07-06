@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1A3i8br4PMeHeIj5fBbTaQ
-! Version: 202407061021
+! Checksum: 5RSKPFmBIJyp8fxxpcRFsg
+! Version: 202407061031
 ! Title: IndianList
-! Last modified: 06 Jul 2024 10:21 UTC
+! Last modified: 06 Jul 2024 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -696,7 +696,7 @@ _advt.jpg|
 /advertiesment/*$domain=theendnews.com
 /advertiesment_$domain=parthokko.com.bd
 /advertise/*$domain=kapurinews.com
-/advertisement/*$domain=360malayalam.com|aarthiknews.com|agaminews.com
+/advertisement/*$domain=360malayalam.com|agaminews.com
 /Advertisement/*$domain=aloavanews24.com
 /advertisement/*$domain=amader-protidin.com|chhattisgarhaaj.com|damaulifm.org|digiana.com|mediavision.news|notebazar.com|satghoria.com
 /Advertisement/*$domain=aparajeobangla.com|banglarchokh.com.bd|ekushey-tv.com|nepalipaisa.com|odiaspotnews.in|shankhnaad.in|womeneye24.com
@@ -1879,9 +1879,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||dhakardak-bd.com^*/Fdr$image
 ||dhakardak-bd.com^*/jamunafuturepark.jpg
 ||dhakardak-bd.com^*/new.jpg
-||dhakareport24.com/image/adds/beximco.png
-||dhakareport24.com/image/adds/rbl.jpg
-||dhakareport24.com/images/jbadd.jpg
+||dhakareport24.com/images/adddd.jpeg
 ||dhakatimes24.com/templates/web-v1/images/evaly12-6-21.png
 ||dhakatimes24.com/templates/web-v1/images/ezgif.gif
 ||dhakatimes24.com/templates/web-v1/images/upay29-12-21.gif
@@ -5465,6 +5463,7 @@ jantakiawaz.org,thejasnews.com###right_level_3
 wenepali.com###right_siran
 newsuniversal.in###rishi_advertisement
 biharpatrika.in###rma_masala
+aarthiknews.com###roadBlock
 ekantipur.com###roadblock-ad
 farwesttimesdaily.com###roadblockModal
 deshdigital.in###rozu-2
@@ -7071,6 +7070,7 @@ marathisrushti.com,rojdin.in##.mh-header-widget-2
 janjoshnews.in,uniquesamay.com##.mh-sidebar .widget_media_image
 punjabtimesusa.com##.mh-widget-col-1 .widget_media_image
 nawayug.com##.mid-ad-heading
+dhakareport24.com##.mid-add
 samvetshikhar.com##.mid-adv-sec-bottom
 ekuruvi.com##.mid-had
 pokharaexpress.com##.mid-header .navbar-nav img
@@ -7128,8 +7128,8 @@ hindi.news18.com##.n18thder
 khabreapki.com##.n2-ss-slider
 nakkheeran.in##.nak-adv-cen:not(#block-views-block-global-news-home-page-block-3)
 naturalnews.co.in##.natur-content
-24hrnews.in,aavakaaya.in,celluloidonline.com,channeltoday.net,checkpostnews.com,chhattisgarhcrimes.in,cityhotnews.com,dainiktimes.co.in,hindustanrepublic.in,kannurvarthakal.in,khabardarinews.com,khabardinbhar.net,kilinochchinews.com,kotajagran.com,krantiodishanews.com,malayalamtodayonline.com,mediapoint24.com,overlook.co.in,prajawani.in,punjabiakhbar.com,sanskardarshan.in,shabdshodh.com,updatetimes.com##.navbar-ad-section
 chamaktabharat.com#@#.navbar-ad-section
+24hrnews.in,aavakaaya.in,celluloidonline.com,channeltoday.net,checkpostnews.com,chhattisgarhcrimes.in,cityhotnews.com,dainiktimes.co.in,hindustanrepublic.in,kannurvarthakal.in,khabardarinews.com,khabardinbhar.net,kilinochchinews.com,kotajagran.com,krantiodishanews.com,malayalamtodayonline.com,mediapoint24.com,overlook.co.in,prajawani.in,punjabiakhbar.com,sanskardarshan.in,shabdshodh.com,updatetimes.com##.navbar-ad-section
 prabhatvaibhav.com##.navbar-area-2 ~ div[style]
 daijiworld.com##.navbar-static-top a[target="new"]
 bishwanathbd24.com##.navbar-top-banner
@@ -8576,6 +8576,7 @@ sarbochcha.com##div[class*="adver"]:not(.logoadver)
 dailyuttorpurbo.com##div[class*="advert"]
 arthasansar.com,janaboli.com,justnewsbd.com,tulsipurkhabar.com##div[class*="advertisement"]
 banglamail.news##div[class*="banner"]
+aarthiknews.com##div[class*="bigyap"]
 bikanerhulchul.com##div[class*="bikan"]
 livetimes.tv##div[class*="bnner"]
 democratictvnews.com##div[class*="colombia"]:not(#LP_O_LHS_1)
