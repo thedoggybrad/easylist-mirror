@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XPquqHwjO0EQCJ0K5OrtIA
-! Version: 202407061010
+! Checksum: ixTfF2ATDIhEsPICUFGpfg
+! Version: 202407061021
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 06 Jul 2024 10:10 UTC
+! Last modified: 06 Jul 2024 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -72938,6 +72938,7 @@ jagranjosh.com##.AdCont
 topgear.com##.AdContainer-sc-cy9ye3-4
 tvnz.co.nz##.AdOnPause
 racingamerica.com##.AdPlacement
+manabadi.co.in##.AdSW
 petfinder.com##.AdUnitParagraph-module--adunitContainer--2b7a6
 therealdeal.com##.AdUnit_adUnitCenter__FKOWE
 barrons.com##.AdWrapper-sc-9rx3gf-0
@@ -74622,6 +74623,7 @@ golinuxcloud.com##.golin-video-content
 africanadvice.com,pspad.com,sudantribune.com##.google
 apkmirror.com##.google-ad-leaderboard
 secretchicago.com##.google-ad-manager-ads-header
+manabadi.co.in##.googleAdsdiv
 smsfi.com##.google_ad_home_page_100percent
 mediamass.net##.googleresponsive
 css3generator.com##.gotta-pay-the-bills
@@ -75066,6 +75068,7 @@ republicbroadcasting.org##.left-sidebar-padder > #text-8
 gogetaroomie.com##.left-space
 10minutemail.net##.leftXL
 livemint.com##.leftblockAd
+thehansindia.com##.level-after-1-2
 mumsnet.com##.lg\:w-billboard
 dailyo.in##.lhsAdvertisement300
 latestly.com##.lhs_adv_970x90_div
@@ -75783,6 +75786,7 @@ babycenter.com##.rightRailSegment
 boomlive.in##.right_ad_4
 gamemodding.com##.right_banner
 softicons.com##.right_ga
+thehansindia.com##.right_level_7
 smartasset.com##.riklam-container
 ip.sb##.rivencloud_ads
 rocket-league.com##.rlg-footer-ads-container
@@ -76658,6 +76662,7 @@ thepointsguy.com##[aria-label="Advertisement"]
 wsj.com##[aria-label="Sponsored Offers"]
 blackbeltmag.com##[aria-label="Wix Monetize with AdSense"]
 giantfood.com,giantfoodstores.com,martinsfoods.com##[aria-label^="Sponsored"]
+thehansindia.com##[class*="-ad-"]:not(#inside_post_content_ad_1_before)
 collegedunia.com##[class*="-ad-slot"]
 jagranjosh.com##[class*="_AdColl_"]
 jagranjosh.com##[class*="_BodyAd_"]
@@ -76665,6 +76670,7 @@ top.gg##[class*="__AdContainer-"]
 everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
 bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,insidebitcoins.com,news.bitcoin.com,philnews.ph,watcher.guru##[class*="clickout-"]
+manabadi.co.in##[class*="dsc-banner"]
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.lt,douglas.lv,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk,nocibe.fr##[class="cms-criteo"]
 bloomberg.com##[class^="FullWidthAd_"]
 uploader.link##[class^="ads"]
@@ -77521,6 +77527,8 @@ escorenews.com##noindex
 adblock-tester.com##object[width="240"]
 ft.com##pg-slot
 mashable.com##section.mt-4 > div
+thehansindia.com##section:has(> .to-be-async-loaded-ad)
+thehansindia.com##section:has(> [class*="level_ad"])
 bbc.com##section[data-e2e="advertisement"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-comments-page-ad
 tempostorm.com##side-banners
