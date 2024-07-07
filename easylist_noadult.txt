@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RwzxKWftaEyYIcVMGS55kQ
-! Version: 202407071151
+! Checksum: 1H4CwSBXU96jOSK+dWmZ5g
+! Version: 202407071201
 ! Title: EasyList without rules for adult sites
-! Last modified: 07 Jul 2024 11:51 UTC
+! Last modified: 07 Jul 2024 12:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15727,6 +15727,7 @@ _800x80_
 ##.taboolaHeight
 ##.taboola__container
 ##.taboola_blk
+##.taboola_body_ad
 ##.taboola_container
 ##.taboola_lhs
 ##.trb_taboola
@@ -63306,6 +63307,7 @@ djchuang.com###amazon3
 wtechnews.com###aniBox
 ancient-origins.net###ao-article-outbrain
 ancient-origins.net###ao-sidebar-outbrain
+filmibeat.com###are-slot-rightrail
 mybanktracker.com###article-content > .lazyloaded
 thesun.co.uk###article-footer div[id*="-ads-"]
 timesofmalta.com###article-sponsored
@@ -64252,7 +64254,7 @@ my.juno.com###usWorldTile
 sammobile.com###venatus-hybrid-banner
 afkgaming.com###venatus-takeover
 nutritioninsight.com###verticlblks
-filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
+goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 ghgossip.com###vi-sticky-ad
 investing.com###video
 sportskeeda.com###video-player-container--
@@ -65157,6 +65159,7 @@ dissentmagazine.org##.bc_random_banner
 h-online.com##.bcadv
 digminecraft.com##.bccace1b
 fakenamegenerator.com##.bcsw
+boldsky.com##.bd-header-ad
 userbenchmark.com##.be-lb-page-top-banner
 chowhound.com,glam.com,moneydigest.com,outdoorguide.com,svg.com,wrestlinginc.com##.before-ad
 renonr.com##.below-header-widgets
@@ -65458,8 +65461,8 @@ computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
 lcpdfr.com##.clsReductionBlockHeight
 lcpdfr.com##.clsReductionLeaderboardHeight
 mayoclinic.org##.cmp-advertisement__wrapper
-boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article1
-boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article2
+boldsky.com,drivespark.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article1
+boldsky.com,drivespark.com,gizbot.com,goodreturns.in,nativeplanet.com##.cmscontent-article2
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com,oneindia.com##.cmscontent-left-article
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,nativeplanet.com,oneindia.com##.cmscontent-right1
 careerindia.com##.cmscontent-top
@@ -65764,6 +65767,7 @@ newagebd.net##.editorialMid
 editpad.org##.edsec
 theepochtimes.com##.eet-ad
 clutchpoints.com##.ehgtMe.sc-ed3f1eaf-1
+filmibeat.com##.ele-ad
 sashares.co.za##.elementor-48612
 cryptopolitan.com##.elementor-element-094410a
 hilltimes.com##.elementor-element-5818a09
@@ -65855,7 +65859,6 @@ forum.lowyat.net##.feedgrabbr_widget
 newser.com##.fiavur2
 filecrypt.cc##.filItheadbIockgueue3
 filecrypt.cc,filecrypt.co##.filItheadbIockqueue3
-filmibeat.com##.filmibeat-top-ad
 telugupeople.com##.fineprint
 proprofs.com##.firstadd
 thestranger.com##.fish-butter
@@ -66242,7 +66245,6 @@ inews.co.uk##.inews__mpu
 motorcycle.com##.infeed-ads
 sevenforums.com##.infeed1
 heatmap.news,theweek.com##.infinite-container
-filmibeat.com##.infinite-scroll-add
 mylocation.org##.info a[href^="https://go.expressvpn.com/c/"]
 stocksnap.io##.info-col
 bab.la##.info-panel
@@ -66798,8 +66800,8 @@ softexia.com##.offer
 oneindia.com##.oi-add-block
 oneindia.com##.oi-recom-art-wrap
 oneindia.com##.oi-spons-ad
-boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oi-wrapper1
-boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oiad
+boldsky.com,drivespark.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oi-wrapper1
+boldsky.com,drivespark.com,gizbot.com,goodreturns.in,mykhel.com,nativeplanet.com,oneindia.com##.oiad
 gizbot.com##.oiadv
 hamodia.com##.oiomainlisting
 thehackernews.com##.okfix
@@ -66911,8 +66913,8 @@ post-gazette.com##.pgevoke-flexbanner-innerwrapper
 post-gazette.com##.pgevoke-superpromo-innerwrapper
 online.pubhtml5.com##.ph5---banner---container
 timesofindia.com##.phShimmer
-drivespark.com,filmibeat.com,gizbot.com##.photos-add
-drivespark.com,filmibeat.com##.photos-left-ad
+drivespark.com,gizbot.com##.photos-add
+drivespark.com##.photos-left-ad
 washingtontimes.com##.piano-in-article-reco
 washingtontimes.com##.piano-right-rail-reco
 reelviews.net##.picHolder
@@ -67122,6 +67124,7 @@ esports.gg##.relative.esports-inarticle
 astrozop.com##.relative.z-5
 miragenews.com##.rem-i-s
 4shared.com##.remove-rekl
+boldsky.com##.removeStyleAd
 runningmagazine.ca##.repeater-bottom-leaderboard
 bbjtoday.com##.replacement
 m.tribunnews.com##.reserved-topmedium
@@ -68061,6 +68064,7 @@ everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
 bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,insidebitcoins.com,news.bitcoin.com,philnews.ph,watcher.guru##[class*="clickout-"]
 manabadi.co.in##[class*="dsc-banner"]
+filmibeat.com##[class*="oiad"]
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.lt,douglas.lv,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk,nocibe.fr##[class="cms-criteo"]
 bloomberg.com##[class^="FullWidthAd_"]
 uploader.link##[class^="ads"]
@@ -69195,11 +69199,14 @@ the-independent.com###taboola-mid-article-thumbnails-ii
 independent.co.uk,the-independent.com###taboola-mid-article-thumbnails-iii
 drivespark.com,goodreturns.in###taboola-mid-category-thumbnails
 lifeandstylemag.com###taboola-right-rail-thumbnails
+ndtv.com##.TpGnAd_ad-cn
 hindustantimes.com##.ht_taboola
 financialexpress.com##.ie-network-taboola
 6abc.com,abcnews.go.com##.taboola
 gizmodo.com,kotaku.com,theonion.com,theroot.com##.taboola-container
 firstpost.com##.taboola-div
+ndtv.com##[class^="ads_"]
+ndtv.com##div:has(> [id^="adslot"])
 weather.com##div[id*="Taboola-sidebar"]
 weather.com##div[id^="Taboola-main-"]
 express.co.uk##div[id^="taboola-"]
