@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /fSBDGmL1fuByRLlxXpqxw
-! Version: 202407081721
+! Checksum: h4tvvY4xWD0osklLVV10tw
+! Version: 202407081731
 ! Title: EasyList Polish
-! Last modified: 08 Jul 2024 17:21 UTC
+! Last modified: 08 Jul 2024 17:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -109,7 +109,7 @@ app.freshmail.com#@#.advertisement-content
 -290x150.$domain=tygodnikpiski.pl
 -ad-$domain=tuhiszpania.pl
 -baner-$domain=budownictwo.co|firmy.meblarstwo.eu|ipulawy.pl|meblarskapolska.pl|meblosfera.pl|obiektysakralne.pl|panoramakutna.pl|radioostrowiec.pl|sadownictwo.com.pl|slupca.pl|tenismagazyn.pl|tkaninyobiciowe.eu|tkn24.pl|tygodnikpiski.pl
--baner.$domain=blogprezesa.pl|crypto-trader.pl|ipulawy.pl|napoli24h.pl|przeclaw24.pl|tkn24.pl|wirtualnyzgierz.pl|wolanie.info
+-baner.$domain=blogprezesa.pl|crypto-trader.pl|ipulawy.pl|napoli24h.pl|przeclaw24.pl|tkn24.pl|wiadomosci.com|wirtualnyzgierz.pl|wolanie.info
 -baner_$domain=nolesnica.pl|polska-morska.pl
 -banery^$domain=przeclaw24.pl
 -banner-$domain=erp-view.pl|forbot.pl|iknurow.pl|itvpiaseczno.pl|linia.com.pl|longevitas.pl|mlecznepodroze.pl|motocykle125.pl|olawa24.pl|pokonajlysienie.com|swiatczytnikow.pl|swiatoze.pl|techsetter.pl|tenisbydawid.pl|tkaninyobiciowe.eu|tucholanin.pl|uavo.com.pl|weterynarianews.pl|wirlandii.pl|ww-model.pl|zycieczestochowy.pl
@@ -378,7 +378,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
--baner.$domain=wiadomosci.com
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -1376,6 +1375,7 @@ noclegi.biz##.lewastronareklama
 nowywyszkowiak.pl##.link_bg
 czecho.pl,pless.pl##.linki-sponsorowane-col
 eostroleka.pl##.loading-ajax-ads
+poland.us##.logos
 e-grajewo.pl##.logos-container
 hfc.com.pl##.lozad
 lubiehrubie.pl##.lubie-widget
@@ -2126,6 +2126,7 @@ chip.pl##a[href="https://pl.asus.click/RTX_4090"]
 angolia.co.uk##a[href="https://polonia24.co.uk/londyn/uslugi/zdrowie-medycyna/weterynarz/polski-weterynarz-londyn-mobilny-gabinet-weterynaryjny_i77092"]
 staleo.pl##a[href="https://polsver.pl/?utm_source=staleo_media&utm_medium=banner&utm_campaign=banner_display"]
 angolia.co.uk##a[href="https://pracuj.uk/"]
+e-sochaczew.pl##a[href="https://praktyki.mazovia.pl/"]
 7dni.pila.pl##a[href="https://prostodo.pl/c?pid=59643&tid=3863&ha=3113724408&r=8400"]
 cyfrowaekonomia.pl##a[href="https://quark.house/"]
 pogoda.info##a[href="https://samochody.pl"]
@@ -2611,7 +2612,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-poland.us##.logos
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
