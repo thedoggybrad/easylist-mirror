@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +CJGUVLs7oPtYkPNPdvtZA
-! Version: 202407091410
+! Checksum: h5131zROX3OnFiBrx8Nu8w
+! Version: 202407091420
 ! Title: EasyList without rules for adult sites
-! Last modified: 09 Jul 2024 14:10 UTC
+! Last modified: 09 Jul 2024 14:20 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -63718,6 +63718,7 @@ sat24.com###headercontent-onder
 hometheaterreview.com###headerhorizontalad
 nnn.ng###hfgad1
 nnn.ng###hfgad2
+kimcartoon.li###hideAds
 thegazette.com###high-impact
 stackoverflow.com###hireme
 techmeme.com###hiring
@@ -69227,9 +69228,9 @@ yandex.*##.mini-suggest__item[data-suggest-counter*="/yandex.ru/clck/safeclick/"
 yandex.*##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 ! curseforge/modrinth
+modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
 modrinth.com##.normal-page__content [href^="https://billing.ember.host/"] > img
 modrinth.com##.normal-page__content [href^="https://billing.kinetichosting.net/"] > img
-modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
 modrinth.com##.normal-page__content [href^="https://meloncube.net/"] > img
 modrinth.com##.normal-page__content [href^="https://nodecraft.com/"] > img
 modrinth.com##.normal-page__content [href^="https://scalacube.com/"] > img
