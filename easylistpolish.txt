@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: o1+ssCvj1ysNYlAuYul+zA
-! Version: 202407091231
+! Checksum: bskO/G2zWlHiH3/5kYWVog
+! Version: 202407091241
 ! Title: EasyList Polish
-! Last modified: 09 Jul 2024 12:31 UTC
+! Last modified: 09 Jul 2024 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -378,6 +378,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^baner_$domain=kuriersuwalski.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -1892,7 +1893,7 @@ nto.pl##[class^="lista_content_stream_"]
 laziska.com.pl,m-ce.pl,mojchorzow.pl,mojegliwice.pl,mojekatowice.pl,mojetychy.pl,mojmikolow.pl,orzesze.com.pl,piekaryslaskie.com.pl,pyskowice.com.pl,rudaslaska.com.pl,rybnicki.com,siemianowice.net.pl,sosnowiecki.pl,swiony.pl,wodzislaw.com.pl,zabrze.com.pl,zory.com.pl##[class^="m-ads-"]
 ddtorun.pl,ddwloclawek.pl,e-krajna.pl,ekutno.pl,esopot.pl,expresskaszubski.pl,faktypilskie.pl,gorlice24.pl,gostyn24.pl,grudziadz365.pl,gwarek.com.pl,gwe24.pl,hej.mielec.pl,ki24.info,koscianiak.pl,leszno24.pl,lowiczanin.info,myglogow.pl,police24.pl,roztocze.net,rzeczkrotoszynska.pl,swiecie24.pl,tusochaczew.pl,tygodnik.pl,wpu24.pl,zyciesiedleckie.pl##[class^="materialy-promocyjne"]
 kanal10.pl##[class^="moduletable_banner"]
-igrit.pl##[class^="py-"]
+igrit.pl##.section-top-py
 eplastics.pl##[class^="reklama"]
 samiswoi.news##[class^="serve-"]
 podlaski.info##[class^="slider-banner-"]
@@ -2611,6 +2612,9 @@ londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 tcz.pl###add-top-1
+kurierzurominski.pl##.herald-below-header
+kuriergarwolinski.pl###header-picture
+kurierbytowski.com.pl###ad--bill-top
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
