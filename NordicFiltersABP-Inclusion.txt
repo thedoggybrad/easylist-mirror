@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w4rnpiL6EPYnZURKtfbPbA
-! Version: 202407091411
+! Checksum: ocPxqXdsja8uXQNANKBxkQ
+! Version: 202407091420
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Jul 2024 14:11 UTC
+! Last modified: 09 Jul 2024 14:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -72353,6 +72353,7 @@ sat24.com###headercontent-onder
 hometheaterreview.com###headerhorizontalad
 nnn.ng###hfgad1
 nnn.ng###hfgad2
+kimcartoon.li###hideAds
 thegazette.com###high-impact
 stackoverflow.com###hireme
 techmeme.com###hiring
@@ -77862,9 +77863,9 @@ yandex.*##.mini-suggest__item[data-suggest-counter*="/yandex.ru/clck/safeclick/"
 yandex.*##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 ! curseforge/modrinth
+modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
 modrinth.com##.normal-page__content [href^="https://billing.ember.host/"] > img
 modrinth.com##.normal-page__content [href^="https://billing.kinetichosting.net/"] > img
-modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
 modrinth.com##.normal-page__content [href^="https://meloncube.net/"] > img
 modrinth.com##.normal-page__content [href^="https://nodecraft.com/"] > img
 modrinth.com##.normal-page__content [href^="https://scalacube.com/"] > img
