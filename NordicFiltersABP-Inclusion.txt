@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f9E/lPzBcD9aspBkkGJMYw
-! Version: 202407091030
+! Checksum: gqO0hp4DdaEDEmgWS/op1Q
+! Version: 202407091041
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Jul 2024 10:30 UTC
+! Last modified: 09 Jul 2024 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -72507,6 +72507,7 @@ dbltap.com###mm-player-placeholder-large-screen
 mmorpg.com###mmorpg_desktop_list_1
 mmorpg.com###mmorpg_desktop_list_3
 si.com###mmvid
+appleinsider.com###mobile-article-anchor
 pocketgamer.com###mobile-background
 tvtropes.org###mobile_1
 tvtropes.org###mobile_2
@@ -77863,11 +77864,11 @@ yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 ! curseforge/modrinth
 modrinth.com##.normal-page__content [href^="https://billing.ember.host/"] > img
 modrinth.com##.normal-page__content [href^="https://billing.kinetichosting.net/"] > img
-modrinth.com##.normal-page__content [href^="https://bisecthosting.com/"] > img
+modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
 modrinth.com##.normal-page__content [href^="https://meloncube.net/"] > img
 modrinth.com##.normal-page__content [href^="https://nodecraft.com/"] > img
 modrinth.com##.normal-page__content [href^="https://scalacube.com/"] > img
-modrinth.com##.normal-page__content [href^="https://shockbyte.com/partner/"] > img
+modrinth.com##.normal-page__content [href^="https://shockbyte.com/"][href*="/partner/"] > img
 curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="billing.ember.host"] > img
 curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="billing.kinetichosting.net"] > img
 curseforge.com##.project-description [href^="/linkout?remoteUrl="][href*="bisecthosting.com"] > img
