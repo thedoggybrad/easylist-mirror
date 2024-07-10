@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: z2GSV5HmVvsFOBdTpxvzFw
-! Version: 202407100711
+! Checksum: SfltMBZrMPA8jndEjZNizw
+! Version: 202407100720
 ! Title: EasyList Polish
-! Last modified: 10 Jul 2024 07:11 UTC
+! Last modified: 10 Jul 2024 07:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2232,7 +2232,6 @@ zakliczyninfo.pl##a[href^="http://tk-beton.pl/"]
 24gliwice.pl##a[href^="http://www.24gliwice.pl/r/counter-baners.php"]
 chwaszczyno.pl##a[href^="http://www.autoczescionline24.pl/"]
 walbrzyszek.com##a[href^="http://www.czesciauto24.pl"]
-wterenie.pl##a[href^="http://www.czesciauto24.pl/"]
 faunaflora.com.pl##a[href^="http://www.darewit.pl"]
 elbi.pl##a[href^="http://www.et-media.pl"]
 widzew24.pl##a[href^="http://www.iparts.pl/"]
@@ -2613,6 +2612,8 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+webhostingtalk.pl##nav + div
+telewizjazary.pl##.jeg_bottombar
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
