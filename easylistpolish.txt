@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fzy7LhAHIP1ze4KZQeSO9Q
-! Version: 202407100741
+! Checksum: BVaTy2cT2XKLBqPiuR4OHg
+! Version: 202407100731
 ! Title: EasyList Polish
-! Last modified: 10 Jul 2024 07:41 UTC
+! Last modified: 10 Jul 2024 07:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1343,7 +1343,6 @@ zlubaczowa.pl##.ja-box-ct a[target="_blank"] > img
 kodiwpigulce.pl##.jaw-banner
 londynek.net##.jd-40Z
 londynek.net##.jd-oaz-d
-telewizjazary.pl##.jeg_bottombar
 mma.pl##.js-sitehead-ads
 piekary.info##.jsRender
 ceneo.pl##.js_widget
@@ -2545,7 +2544,6 @@ beskid-niski.pl##img[src="/bannery/ropa.gif"]
 beskid-niski.pl##img[src="/bannery/rudawka.gif"]
 beskid-niski.pl##img[src="/bannery/siwekja.gif"]
 koscianiak.pl##img[src="/pl/img/pasek_baner_siecportali_kicket.jpg"]
-e-sochaczew.pl##img[src="/static/files/inline_images/500/inline__1_5000.gif"]
 e-sochaczew.pl##img[src="/static/files/inline_images/500/inline__1_9532.png"]
 beskid-niski.pl##img[src="http://d.nocowanie.pl/gfx/bannery/nocowanie.jpg"]
 3dwpraktyce.pl##img[src="https://3dwpraktyce.pl/wp-content/uploads/2019/10/drukarka_prev_01_007_LQ.jpg"]
@@ -2593,7 +2591,6 @@ donald.pl##ins[class^="staticpubads"]
 opowiecie.info##li[id^="bunyad_ads_widget-"]
 thinkapple.pl##li[id^="media_image-"]
 pyrzyce.info##li[id^="text-"] a[target="_blank"]
-webhostingtalk.pl##nav + div
 nowosci.com.pl#?#A[rel="nofollow"]:-abp-has(  .oznaczenie)
 nowinynyskie.com.pl##p > img[src*="/inline__1_"][width="370"]
 iknurow.pl##script + .td-container
@@ -2615,6 +2612,8 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+webhostingtalk.pl##nav + div
+telewizjazary.pl##.jeg_bottombar
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
