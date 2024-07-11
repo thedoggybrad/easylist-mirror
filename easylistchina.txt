@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IovQQ0nHfEthrx+HJOz24g
-! Version: 202407112331
+! Checksum: xcwI+dpBVSXVxGE+lY5L0w
+! Version: 202407112341
 ! Title: EasyList China
-! Last modified: 11 Jul 2024 23:31 UTC
+! Last modified: 11 Jul 2024 23:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -11679,6 +11679,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 szxx.com.cn###A0
 baidu.com##.result-op[tpl="vmp_strengthen_brand"]
 iqiyi.com##a[href^="https://ads.game.iqiyi.com"]
+digitimes.com.tw##a[href*="/webad/"]
+digitimes.com.tw##.dt-ad-block
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
