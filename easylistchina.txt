@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LyY44w/eaGtwn6+eEN8m6g
-! Version: 202407112321
+! Checksum: IovQQ0nHfEthrx+HJOz24g
+! Version: 202407112331
 ! Title: EasyList China
-! Last modified: 11 Jul 2024 23:21 UTC
+! Last modified: 11 Jul 2024 23:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -12852,7 +12852,8 @@ appinn.com###sidebar > .widget:first-child
 ipcfun.com###sidebar > ul > div[style]
 iplaysoft.com###sidebar > ul > li[class^="widget"]:nth-child(-n+3)
 ipcfun.com###sidebar > ul > li[style]
-jandan.net###sidebar > ul[style="height:480px"]
+jandan.net###sidebar > UL:nth-child(2)
+jandan.net##.post[style="padding-left:150px;width:336px;height:280px;"]
 mpyit.com###sidebar a > img
 gaoqingw.com###sidebar a[href^="http"]:not([href*="gaoqingw"])
 appinn.com###sidebar a[rel*="sponsored"]
