@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3oM05XSJ1sj8u+4//j1HrA
-! Version: 202407120021
+! Checksum: s5dJlxq3XJwx1iMTULMnlQ
+! Version: 202407120030
 ! Title: EasyList without element hiding rules
-! Last modified: 12 Jul 2024 00:21 UTC
+! Last modified: 12 Jul 2024 00:30 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -50775,11 +50775,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||tiktok.com^$generichide
 @@||tv.youtube.com^$generichide
 @@||twitch.tv^$generichide
-@@||twitter.com^$generichide
-@@||web.archive.org^$generichide
-@@||www.youtube.com^$generichide
-@@||x.com^$generichide
-! @@||web.basemark.com^$generichide
+@@||web.basemark.com^$generichide
 @@||web.telegram.org^$generichide
 @@||whatsapp.com^$generichide
 @@||wikibooks.org^$generichide
@@ -50789,6 +50785,8 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||wikiquote.org^$generichide
 @@||wikiversity.org^$generichide
 @@||wiktionary.org^$generichide
+@@||www.youtube.com^$generichide
+@@||x.com^$generichide
 ! wordpress.org https://wordpress.org/plugins/woocommerce-google-adwords-conversion-tracking-tag/
 @@||ps.w.org^$image,domain=wordpress.org
 @@||s.w.org/wp-content/$stylesheet,domain=wordpress.org
