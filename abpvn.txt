@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: zCyuUFZ7yMuaCbP2ntHgBA
-! Version: 202407140351
+! Checksum: huTFAy3ajRLud2KDTgwAcw
+! Version: 202407140401
 ! Title: ABPVN List
-! Last modified: 14 Jul 2024 03:51 UTC
+! Last modified: 14 Jul 2024 04:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
 ! ABPVN List subscription
 !
 ! *** abpvn:filter/abpvn.txt ***
-! Last modified: 13 Jul 2024 18:04:14 UTC+7
-! Diff-Path: patches/20240713180414794.patch#abpvn
+! Last modified: 14 Jul 2024 10:59:29 UTC+7
+! Diff-Path: patches/20240714105929472.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1157,6 +1157,7 @@ $third-party,script,domain=sexdiaryx.blog
 ||mangadm.cc$csp=script-src 'self' 'unsafe-inline' http
 ||mneydirec.com^
 ||ngaytho.me^*.gif
+||nrs6ffl9w.com^
 ||phim.sexhayvl.org/theme/main.isa.js$script
 ||phimsexsub.tube/wp-admin/admin-ajax.php?action=htmlcountry_get_data
 ||phimsexsub.tube^*.gif$image
