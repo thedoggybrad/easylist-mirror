@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: biA9LXMf475zidLUZpaecw
-! Version: 202407150831
+! Checksum: /t+YqWVFriJhEUJt1nYOjA
+! Version: 202407150841
 ! Title: ABP filters
-! Last modified: 15 Jul 2024 08:31 UTC
+! Last modified: 15 Jul 2024 08:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1678,7 +1678,7 @@ phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,link.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
-cliphot69.buzz#$#override-property-read a_vid 0
+vn.cliphot69.live#$#override-property-read a_vid 0
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet1.net,anh.moe,maclife.io,javfc2.net,hoctot.hocmai.vn#$#abort-on-property-read open
 tvhay.top#$#abort-current-inline-script JSON.parse atob
@@ -1693,11 +1693,11 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 truyentuan.xyz#$#abort-current-inline-script $ btpop
 player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player-cdn.com###playback-fake
-opendatafrance.net#$#abort-on-property-read adsRedirectPopups
+quick-counter.net#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.name,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenbi.com,yurineko.net,vlxyz.tube,javhay.click,phimsexhay669.pro,cliphot69.blog,doctruyen3qvn.pro,hentaizz.xyz,animehay.in,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,sexmup18.com,hentaivn.today,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.vip,truyenvn.cam,cdnstream.sbs,javtiful.com,sexvn.tuoi69s.com,quatvn.day,tenmientruyengi.net,topviet69.com,phim18hd.sex,live.sexviet88.dev,gaidep3x.pro,demo.14412882.com,sexphimhd.vip,ungtycomicsvip.net,xemphim18.cc,cliphot69.buzz,hhtq5.vip#$#abort-current-inline-script WebAssembly instantiate
+viet69.name,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenbi.com,yurineko.net,vlxyz.tube,javhay.click,phimsexhay669.pro,cliphot69.blog,doctruyen3qvn.pro,hentaizz.biz,animehay.in,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,sexmup18.com,hentaivn.today,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.vip,truyenvn.cam,cdnstream.sbs,javtiful.com,sexvn.tuoi69s.com,quatvn.baby,tenmientruyengi.net,topviet69.com,phim18hd.sex,live.sexviet88.dev,gaidep3x.pro,demo.14412882.com,sexphimhd.vip,ungtycomicsvip.net,xemphim18.cc,vn.cliphot69.live,hhtq5.vip#$#abort-current-inline-script WebAssembly instantiate
 phimtuoitho.tv#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
@@ -1724,12 +1724,13 @@ truyensextv.com,phimtuoitho.tv#$#abort-current-inline-script document.addEventLi
 imail.edu.vn#$#abort-current-inline-script setTimeout Aff;abort-current-inline-script setTimeout ad_block
 ungtycomicsvip.net#$#abort-current-inline-script document.body.addEventListener window.open
 sex.chichnhau.net#$#abort-current-inline-script $ pop
-sexhd88.vip#$#abort-current-inline-script document.addEventListener open
+sexhd88.live#$#abort-current-inline-script document.addEventListener open
 www.toptruyenvn.pro#$#abort-current-inline-script setTimeout open
 cdn2.blueskychilling.online#$#abort-current-inline-script $ open
 phimmoiiii.net#$#abort-current-inline-script addEvent popu
 freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com#$#override-property-read open noopFunc
 nettruyenaa.com#$#abort-on-property-read links
+goctruyentranhvui2.com#$#abort-current-inline-script WebAssembly globalThis
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
