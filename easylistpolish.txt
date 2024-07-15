@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Vdi+NygpXHRamvNkPfrWRQ
-! Version: 202407150731
+! Checksum: j8gsZA9G7fMioscqP3gtKA
+! Version: 202407150741
 ! Title: EasyList Polish
-! Last modified: 15 Jul 2024 07:31 UTC
+! Last modified: 15 Jul 2024 07:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -201,6 +201,7 @@ app.freshmail.com#@#.advertisement-content
 ^zdjecia_reklamy^$domain=radio.katowice.pl
 _ban.$domain=radomsport.pl
 _baner%$domain=transg.pl
+_baner-$domain=gazetabilgoraj.pl
 _baner_$domain=panoramakutna.pl|telewizjazary.pl
 _banerek.$domain=plytkiceramiczne.info.pl
 _banerowy^$domain=nowywyszkowiak.pl
@@ -378,7 +379,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-_baner-$domain=gazetabilgoraj.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -447,7 +447,7 @@ lagardere-tr.pl###banner-hds-background
 mierzeja.com###banner-popup
 koncertomania.pl###banner-side
 topmarkety.pl###banner-sponsorski
-przemysl24.pl,walbrzych.dlawas.info###banner-top
+infostrow.pl,kepno.dlawas.info,polska.dlawas.info,przemysl24.pl,swidnica.dlawas.info,walbrzych.dlawas.info###banner-top
 dkl24.pl###banner10
 appmaniak.pl###bannerTop
 pdaclub.pl###banner_news
@@ -1245,7 +1245,7 @@ starosadeckie.info##.front-top
 skript.pl##.fuckAdBlock
 niedziela.pl##.fullpage-ads
 agronews.com.pl,pielgrzym.pelplin.pl##.g
-slupca.pl##.g-2
+ebelchatow.pl,slupca.pl##.g-2
 itvwisla.tv##.g-3
 slupca.pl##.g-4
 spidersweb.pl##.g.g-16
@@ -2597,6 +2597,7 @@ donald.pl##ins[class^="staticpubads"]
 opowiecie.info##li[id^="bunyad_ads_widget-"]
 thinkapple.pl##li[id^="media_image-"]
 pyrzyce.info##li[id^="text-"] a[target="_blank"]
+nanarty.info##meta + a
 webhostingtalk.pl##nav + div
 nowosci.com.pl#?#A[rel="nofollow"]:-abp-has(  .oznaczenie)
 nowinynyskie.com.pl##p > img[src*="/inline__1_"][width="370"]
@@ -2619,10 +2620,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-kepno.dlawas.info###banner-top
-polska.dlawas.info###banner-top
-infostrow.pl###banner-top
-swidnica.dlawas.info###banner-top
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
