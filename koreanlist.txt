@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4uXhThMj9KOsr0kyNzl9mA
-! Version: 202407161441
+! Checksum: ajWdzliPMVYl47TxdXU2lQ
+! Version: 202407161451
 ! Title: KoreanList
-! Last modified: 16 Jul 2024 14:41 UTC
+! Last modified: 16 Jul 2024 14:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=111
 ! Licence: https://easylist.to/pages/licence.html
@@ -616,6 +616,7 @@ devstory.ibksplatform.com#@#.vertical-ads
 ||mydaily.co.kr/upload/ads^$image
 ||blacktv01.com/data/editor^$image
 ||admax.me/imgadpark^$image,domain=ttking45.me
+||ttg-*.com/theme/BS4-Basic/storage/image^$image
 ! *** koreanlist:KoreanList/koreanlist_specific_block_popup.txt ***
 /slots.php?site=*$popup
 ||foodbank.co.kr/bannerpop/popup$popup
@@ -1151,6 +1152,8 @@ mvking.org##div[class="row ml-0 mr-0 "]
 sureranking.net##div[class="banner"]
 totodoctor.com##div[class="bn_ca"]
 hellven.net##a[class="thumbnail"]
+ttg-15.com##.topbanner
+ttg-15.com###hd_pop
 !-----------------------Whitelists to fix broken sites------------------------!
 ! *** koreanlist:KoreanList/koreanlist_whitelist.txt ***
 @@||ekn.kr/data/banner/banner_1523320274.jpg
