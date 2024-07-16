@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: apO0Ysqep2tE3JncYPfD/Q
-! Version: 202407161141
+! Checksum: flMZw4opIxmdPHGEzpFexQ
+! Version: 202407161151
 ! Title: IndianList
-! Last modified: 16 Jul 2024 11:41 UTC
+! Last modified: 16 Jul 2024 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3199,7 +3199,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||nayapatrikadaily.com/uploads/advertise/
 ||nayasadak.com/users_upload/
 ||nbs24.org/nbs-
-||nbs24.org^*/walton
+||nbs24.org/walton
 ||nchs.edu.lk^$third-party,domain=ada.lk
 ||neervely.ca/images/bala.jpg
 ||nepalaaja-files-storage.sfo2.digitaloceanspaces.com^*/1000x100prabhu-bank-gif2.gif
@@ -4829,6 +4829,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||zoftcdn.com^*/blueocean.jpg
 ||zoftcdn.com^*/citysun.jpg
 ||zoftcdn.com^*/vesta.jpg
+||zoombangla.com/jamuna/
 !------------------------Specific element hiding rules------------------------!
 ! *** indianlist:IndianList/specific_hide.txt ***
 livebihar24news.com###AD_FLOAT
@@ -7129,8 +7130,8 @@ hindi.news18.com##.n18thder
 khabreapki.com##.n2-ss-slider
 nakkheeran.in##.nak-adv-cen:not(#block-views-block-global-news-home-page-block-3)
 naturalnews.co.in##.natur-content
-chamaktabharat.com#@#.navbar-ad-section
 24hrnews.in,aavakaaya.in,celluloidonline.com,channeltoday.net,checkpostnews.com,chhattisgarhcrimes.in,cityhotnews.com,dainiktimes.co.in,hindustanrepublic.in,kannurvarthakal.in,khabardarinews.com,khabardinbhar.net,kilinochchinews.com,kotajagran.com,krantiodishanews.com,malayalamtodayonline.com,mediapoint24.com,overlook.co.in,prajawani.in,punjabiakhbar.com,sanskardarshan.in,shabdshodh.com,updatetimes.com##.navbar-ad-section
+chamaktabharat.com#@#.navbar-ad-section
 prabhatvaibhav.com##.navbar-area-2 ~ div[style]
 daijiworld.com##.navbar-static-top a[target="new"]
 bishwanathbd24.com##.navbar-top-banner
@@ -8536,6 +8537,7 @@ janprahar.com##div:has(> ins)
 ajkalerkhobor.com,cinemainbox.com,doonhorizon.in,marathiworld.com,maxmaharashtra.com,maxwoman.in,natunsylhet24.com,nayanjagriti.com,telugugateway.com,teluguglobal.com##div:has(> ins.adsbygoogle)
 khulnagazette.com,spnewsbd.com##div:has(> p > ins.adsbygoogle)
 bholanews.com##div:has(> p>img.wp-image-23118)
+zoombangla.com##div:has(> pubguru)
 vinnabarta.com##div:not(.tab-header) ~ .add
 punjabiherald.co.nz##div[aria-label*="-Advt-"]
 punjabiherald.co.nz##div[aria-label*=".gif"]
