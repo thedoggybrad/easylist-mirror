@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Md0RAaODVIRgt1z6f7aJtQ
-! Version: 202407172011
+! Checksum: BoKJtUhI/mxB5B3LQ0GNXA
+! Version: 202407172021
 ! Title: EasyPrivacy without international filters
-! Last modified: 17 Jul 2024 20:11 UTC
+! Last modified: 17 Jul 2024 20:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2598,6 +2598,7 @@
 /wp-coin-hive.js
 /wp-content/plugins/confection/bridge.php
 /wp-content/plugins/pageviews/pageviews.min.js
+/wp-content/plugins/woocommerce-google-analytics-integration/*
 /wp-content/plugins/wp-click-track/js/ajax.js
 /wp-content/plugins/wp-clickmap/clickmap.js
 /wp-content/tracker.js
@@ -5768,6 +5769,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.getshogun.com^
 ||analytics.global.sky.com^
 ||analytics.hashnode.com^
+||analytics.inquisitr.com^
 ||analytics.kaggle.io^
 ||analytics.kooapp.com^
 ||analytics.makeitmeme.com^
