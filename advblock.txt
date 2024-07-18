@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 56VGwZunyiYQ/M72O9KKiA
-! Version: 202407181051
+! Checksum: GlzJ1NTo2hKOAyvExIUcvg
+! Version: 202407181101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Jul 2024 10:51 UTC
+! Last modified: 18 Jul 2024 11:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23368,7 +23368,7 @@ love.mail.ru##.link-ad
 ! Блокировка ресурсов в основном на самом mail.ru
 //r.mail.ru/b$subdocument
 //rs.mail.ru/b$third-party,domain=~km.ru
-|https://mail.ru/res/*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0
+|https://mail.ru/res/*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0*0
 ||1l-hit.mail.ru^
 ||ad.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru
 ||an.mail.ru/count/$domain=~e.mail.ru|~o2.mail.ru
