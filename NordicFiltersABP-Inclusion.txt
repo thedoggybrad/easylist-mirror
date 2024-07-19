@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HjzEwoWCmPi11wwKAMq6hg
-! Version: 202407191521
+! Checksum: 2drGmgLo0/JvCPZFDpUcOg
+! Version: 202407191531
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 19 Jul 2024 15:21 UTC
+! Last modified: 19 Jul 2024 15:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -11622,6 +11622,7 @@ _800x80_
 ###half_page_ad_300x600
 ###halfpagead
 ###head-ad
+###head-ad-text-wrap
 ###head-ad-timer
 ###head-ads
 ###head-advertisement
@@ -80475,7 +80476,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 !! ||imasdk.googleapis.com/js/core/bridge
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument
 !! ||imasdk.googleapis.com/pal/sdkloader/pal.js
-@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=cadenaser.com|tunein.com
+@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=tunein.com
 !! imasdk.googleapis.com/js/sdkloader/ima3_debug.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|cbsnews.com|insideedition.com|pch.com
 !! https://github.com/uBlockOrigin/uAssets/issues/18541
