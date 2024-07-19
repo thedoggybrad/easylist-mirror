@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7luTeeocW0LXCcLfRuGE8g
-! Version: 202407192331
+! Checksum: 5MJsNMMBt+vEYmKCJFI9fA
+! Version: 202407192341
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 19 Jul 2024 23:31 UTC
+! Last modified: 19 Jul 2024 23:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1177,6 +1177,13 @@ gamereactor.no,gamereactor.dk##*:has(> #grtvbelt_Sponsored)
 gamereactor.no,gamereactor.dk##.ad_interscroller:upward(.wrapper)
 sjoborg.no##div[data-debuglabel=_app]
 gulesider.no##div.place-items-center.grid:has([data-adunitid])
+favoritlinks.dk##table:has([align=center] > [class*=box_sponsor])
+sn.dk###bannerStuff
+sn.dk##.locked-template-block
+jyllands-posten.dk##.my-2:has(ins[id*=noconsent])
+jyllands-posten.dk##div[class*=adnm-]
+nyheder24.dk##.generic-widget:has(.annonce)
+nyheder24.dk##div[class*=inArticleBanner i]
 ! — — — — — — — — —
 ! 🇳🇴: Oppføringer for minst 3 nettsteder
 ! 🇬🇧: Entries for at least 3 websites
@@ -1371,6 +1378,8 @@ _visittkortannonse_$image
 ! https://www.minmote.no/interioer/gjoer-det-selv/a/EQBava/slik-faar-du-den-perfekte-uteplassen-til-vaarsesongen
 ! https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-8408727
 ||tize.no^$subdocument,third-party
+! sn.dk (19/07/2024)
+/annoncer/scripts/*
 ! — — — — —
 ! 🇳🇴: Domenefokuserte blokkeringsoppføringer
 ! 🇳🇴🏞: Domenefokuserande bloknadsoppføringar
@@ -5612,7 +5621,7 @@ zeromagazine.nu##div[id^=ads]
 feber.se##.maxetise
 nytid.no#@#div.td-a-rec img
 ! Description: Finnish adblock list
-! Last modified: Fri, 21 Jun 2024 18:47:28 +0000
+! Last modified: Fri, 19 Jul 2024 15:19:37 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -5914,6 +5923,7 @@ etlehti.fi,hyvaterveys.fi,soppa365.fi#?#.views-row:has(.is-commercial)
 etn.fi###annonsspalt
 etn.fi###leaderboard
 etn.fi##.annonspekare
+etuovi.com###spotlight-container-id
 etuovi.com,mikrobitti.fi,rantapallo.fi,talouselama.fi##div[id|=almad]
 etusuora.com#?#.pb30:has(.adsbygoogle)
 f1-forum.fi##.sponsoredrow
