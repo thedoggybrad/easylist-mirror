@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8Cn8bbNj3k6lsjhXS7DDTw
-! Version: 202407210631
+! Checksum: hJTYttHo6LWv2l4N6AAlIQ
+! Version: 202407210641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Jul 2024 06:31 UTC
+! Last modified: 21 Jul 2024 06:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23843,7 +23843,7 @@ sports.ru,tribuna.com##a[href*="utm_campai"]
 sports.ru##a[href="https://trbna.co/2u3V2dO"]
 sports.ru##a[href^="https://sprts.cc/"]
 sports.ru##a[href^="https://zen.yandex.ru/"]
-sports.ru##body > div[class^="br-lt"] > :not(.page-layout)
+sports.ru##body > div[class^="br-lt"] > :not(.page-layout):not(.pageLayout)
 sports.ru##div[class*="SALES"] > .accordion__handle
 sports.ru#?#div[class*="material-list--additional-block"] > .material-list__item:-abp-has(a[href^="https://sprts.cc/"])
 tribuna.com##div[class*="rb-widget"]
