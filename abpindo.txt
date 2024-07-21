@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6OY3He7gsy5hKzb9bZN7tw
-! Version: 202407210051
+! Checksum: 839pXCpLqmbZNbNhQ1byvw
+! Version: 202407210102
 ! Title: ABPindo
-! Last modified: 21 Jul 2024 00:51 UTC
+! Last modified: 21 Jul 2024 01:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 17 Jul 2024 13:10 UTC
+! Last modified: 21 Jul 2024 00:52 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 ! 
 ! Please report any unblocked adverts or problems
@@ -2442,6 +2442,7 @@ cloud.majalahhewan.com,info.vebma.com#?#span:-abp-contains(Advertisement)
 /kartuking.$image,third-party
 /kasinobet.$image,third-party
 /kaspemain.$image,third-party
+/KAYA303_desktop.$image
 /kd777.gif|$image
 /kdslot.gif|$image,third-party
 /kdslots-$image
@@ -5438,8 +5439,10 @@ leon.bet#@#[href$="/slots"]
 ##[href^="https://123sun4.com/"]
 ##[href^="https://1cbet.com/"]
 ##[href^="https://388hero178.com"]
+##[href^="https://aksesgila.site/"]
 ##[href^="https://akslot.io/"]
 ##[href^="https://betkk2.com/"]
+##[href^="https://domaininnovations.com/"]
 ##[href^="https://h5.rp777car.com/"]
 ##[href^="https://hoki.mu/"]
 ##[href^="https://jamet138c.me/"]
