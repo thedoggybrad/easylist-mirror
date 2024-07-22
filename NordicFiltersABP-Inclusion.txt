@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: m+zGtrz+BB7PbLjE1NrlOA
-! Version: 202407221221
+! Checksum: TkLayh8kZeeh0QxZV26jUw
+! Version: 202407221231
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 22 Jul 2024 12:21 UTC
+! Last modified: 22 Jul 2024 12:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -2324,7 +2324,9 @@ triplx.dk##.aff-inner-col
 ||pearlandcarpetcleaner.com^
 ||pearlandcarpetcleaner.com^$popup
 ||logg-inn.online^
-||logg-inn.online^$popup
+||logg-inn.online^$popup,domain~=en-falsk-svindelside.*
+||nyhetsnett.no^
+||nyhetsnett.no^$popup,domain~=en-falsk-svindelside.*
 /?finn.no/login
 ! 🇬🇧: Copied over from «Dandelion Sprout's Anti-Malware List»
 ||fredfiber.no^
@@ -76381,6 +76383,7 @@ minecraftservers.org##.second-banner
 businesstoday.in##.secondAdPosition
 finextra.com##.section--minitextad
 finextra.com##.section--mpu
+wbur.org##.section--takeover
 sowetanlive.co.za##.section-article-sponsored
 nzherald.co.nz##.section-iframe
 lawinsider.com##.section-inline-partner-ad
