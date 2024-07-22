@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: skTwAuiSwvXmR0o9S5SJow
-! Version: 202407220731
+! Checksum: tcqtRnbzIzdluJIfgtjo/Q
+! Version: 202407220741
 ! Title: EasyList Polish
-! Last modified: 22 Jul 2024 07:31 UTC
+! Last modified: 22 Jul 2024 07:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -423,7 +423,7 @@ se.pl,urzadzamy.pl###article_zpr_shopping
 tv-pelplin.pl###aside .custom a[onclick]
 badaniaprenatalne.pl###attachment_99999919457
 tuhiszpania.pl###b_searchboxInc
-gazeta.pl###banC1
+edziecko.pl,gazeta.pl###banC1
 gazeta.pl###banC2
 gazeta.pl###banC99
 przeglad-sejnenski.pl###baner
@@ -1229,6 +1229,7 @@ notino.pl##.exponea-subscription-dialog.exponea-banner
 forum.interia.pl##.f3-sidebar--ad
 e-stargard.pl##.fb_widget
 przemysl24.pl##.fbaner
+wiecbork112.pl##.fbx-link
 moje-gniezno.pl##.fdAdsBanner
 taniaksiazka.pl##.fixed-below-container > .fixed-below > .OpenXAds
 konin24.info##.flex-list
@@ -1875,6 +1876,7 @@ kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,poranny.pl,telemagazyn.pl,to
 24jgora.pl##[class="box custom-html-box  "]
 lowicz24.eu##[class="card  card--box"]
 24wroclaw.pl,lowicz24.eu,pilaonline.pl##[class="card card--low card--box"]
+rzeszow112.pl##[class="center bottom-gap fluid-imgs"]
 forbes.pl##[class="container ad"]
 gostynin.info##[class="container-out background-accent p-m p-xl@m"]
 kutno.net.pl##[class="d-block text-center"]
@@ -1882,7 +1884,7 @@ kuriersuwalski.pl,panoramakutna.pl,thinkapple.pl##[class="g g-1"]
 24jgora.pl##[class="grid__col grid__col--row  grid__col--3"]
 mgsm.pl##[class="large-12 medium-12 columns"]
 studentnews.pl##[class="r_cala s_calosc_iko_4"] + div
-dziennikpowiatowy.pl,faktykaliskie.info,gorzowskie.pl,gostynin24.pl,halogorlice.info,halorzeszow.pl,kk24.pl,kronikatygodnia.pl,lokalna.news,lokalna24.pl,lokalnatelewizja.pl,podkarpackahistoria.pl,portalpomorza.pl,przegladregionalny.pl,radioplonsk.pl,radiotczew.pl,radiozamosc.pl,tarnowska.tv,tvsudecka.pl,tygodnik-krapkowicki.pl,zawszepomorze.pl##[class="text-center my-3 container"]
+dziennikpowiatowy.pl,faktykaliskie.info,gorzowskie.pl,gostynin24.pl,halogorlice.info,halorzeszow.pl,kk24.pl,kronikatygodnia.pl,krosno112.pl,lokalna.news,lokalna24.pl,lokalnatelewizja.pl,podkarpackahistoria.pl,portalpomorza.pl,przegladregionalny.pl,radioplonsk.pl,radiotczew.pl,radiozamosc.pl,tarnowska.tv,tvsudecka.pl,tygodnik-krapkowicki.pl,zawszepomorze.pl##[class="text-center my-3 container"]
 grodzisknews.pl##[class="wew ods_m center"]
 prostozopolskiego.pl,tygodnikkrag.pl##[class^="a-single a-"]
 bydgoszczak.pl##[class^="adName_"]
@@ -2622,9 +2624,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-krosno112.pl##[class="text-center my-3 container"]
-rzeszow112.pl##[class="center bottom-gap fluid-imgs"]
-wiecbork112.pl##.fbx-link
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
