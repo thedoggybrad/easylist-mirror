@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lT3nq2ep3KvdJZGgAVDCKw
-! Version: 202407220051
+! Checksum: nmK1NS8efO/pB+rqRu+02A
+! Version: 202407220101
 ! Title: ABPVN List
-! Last modified: 22 Jul 2024 00:51 UTC
+! Last modified: 22 Jul 2024 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 21 Jul 2024 09:03:49 UTC+7
-! Diff-Path: patches/20240721090349212.patch#abpvn
+! Last modified: 22 Jul 2024 07:58:40 UTC+7
+! Diff-Path: patches/20240722075840021.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -79,6 +79,7 @@
 ||2banh.vn/images/banners/
 ||9767ebd63c.vws.vegacdn.vn^*.gif$image,domain=home.mannhan3.pro|mn.mediastation.live
 ||ads*.autodaily.vn
+||ads.mxhnkn.pro^$image,domain=truyenqqviet.com
 ||animehay.in^*.gif
 ||animet1.net^*.gif
 ||animew.org/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com$image
@@ -873,6 +874,7 @@ truyenfull.vn###header-ads-full
 truyenfull.vn##.ads-responsive
 truyenfull.vn##[id^="ads-"]
 truyengihotdo.net,truyengihotzay.net,truyengihotnha.com,truyengihotnha.net,truyengihotqua.net,truyengihotqua.com,truyengihotnay.com,tenmientruyengi.net##div#adsChapterTop
+truyenqqviet.com###catfishAd
 truyenqqviet.com##div#ad_info
 truyenqqvn.com,truyenqqviet.com###ad_info_top
 truyensieuhay.com##.footer-info
