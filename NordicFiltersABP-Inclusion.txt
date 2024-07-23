@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KRF9hCq+oqWd4YKRKH9xHA
-! Version: 202407231341
+! Checksum: 6FikAxQkRuPMAMMHXk8nXg
+! Version: 202407231351
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 23 Jul 2024 13:41 UTC
+! Last modified: 23 Jul 2024 13:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7367,7 +7367,6 @@ srk.fi#@##CookielawBanner
 /adbox.js
 /adcall?
 /adcgi?
-/adcheck.
 /adchoice.
 /adcommon?
 /adconfig.js
@@ -8299,7 +8298,7 @@ _gpt_ads.
 _header_ad.
 _header_ad_
 _headerad.
-_images/ad.
+_images/ad.$image
 _images/ad_
 _images/ads/
 _layerad.
@@ -68599,6 +68598,7 @@ browsershots.org#@#.advert_area
 ||ad.wsod.com^
 ||ad01.tmgrup.com.tr^
 ||adaptv.advertising.com^
+||adcheck.about.co.kr^
 ||adfoc.us^$script,third-party
 ||adinplay-venatus.workers.dev^
 ||adncdnend.azureedge.net^
