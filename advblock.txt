@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F78KrCsmqCDj5xAhzAo99w
-! Version: 202407241511
+! Checksum: LyN3muluIGw3F9dZFHP8zA
+! Version: 202407241521
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Jul 2024 15:11 UTC
+! Last modified: 24 Jul 2024 15:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15072,6 +15072,7 @@ novostroykin.ru##.ntgb_
 epravda.com.ua,nv.ua,pravda.com.ua##.nts-ad
 999.md##.numbers-placeholder
 focus.ua##.o-adds
+drive2.ru##.o-grid--equal > div[class] > div[id]:not(:empty)
 infekc.ru##.obl
 nikopolnews.net##.oblivki
 pimpletv.ru##.odds
