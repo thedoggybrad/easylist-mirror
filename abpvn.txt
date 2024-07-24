@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Bcx/LyoXZN2/z09ji+zvEg
-! Version: 202407241101
+! Checksum: IyTjW1gyRAV19vLe+I072g
+! Version: 202407241111
 ! Title: ABPVN List
-! Last modified: 24 Jul 2024 11:01 UTC
+! Last modified: 24 Jul 2024 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 24 Jul 2024 16:40:49 UTC+7
-! Diff-Path: patches/20240724164049675.patch#abpvn
+! Last modified: 24 Jul 2024 18:04:26 UTC+7
+! Diff-Path: patches/20240724180426948.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -940,6 +940,7 @@ vnexpress.net##.section_ads_300x250
 voh.com.vn##.Advs_adv-components__1nBNS.Advs_adv-300x250__2eyhC.Advs_no-content__RWwW2
 voh.com.vn##.HotTagGlobal_fixed-height__1f50i
 voz.vn##.adsbypubpower
+voz.vn##.p-body-pageContent>div:has(.adsbypubpower)
 voz.vn##.v-element>.v-responsive
 voz.vn##div.message--post
 vozer.net##.Notices.PanelScroller
