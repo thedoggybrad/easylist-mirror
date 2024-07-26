@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OaicCY9kIdLxB7lXns0sDw
-! Version: 202407261301
+! Checksum: Q31uVk4VE/FOu5nv2N2OQA
+! Version: 202407261311
 ! Title: EasyList without rules for adult sites
-! Last modified: 26 Jul 2024 13:01 UTC
+! Last modified: 26 Jul 2024 13:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -65958,6 +65958,7 @@ pollunit.com##.btn[href$="?feature=ads"]
 youloveit.com##.btop
 lifestyleasia.com##.btt-top-add-section
 business-standard.com##.budgetWrapper
+bulinews.com##.bulinews-ad
 frankspeech.com##.bunny-banner
 businessmirror.com.ph##.busin-after-content
 businessmirror.com.ph##.busin-before-content
@@ -68721,6 +68722,7 @@ giantfood.com,giantfoodstores.com,martinsfoods.com##[aria-label^="Sponsored"]
 economictimes.indiatimes.com##[class*="-ad-"]
 thehansindia.com##[class*="-ad-"]:not(#inside_post_content_ad_1_before)
 collegedunia.com##[class*="-ad-slot"]
+petco.com##[class*="SponsoredText"]
 fotmob.com##[class*="TopBannerWrapper"]
 jagranjosh.com##[class*="_AdColl_"]
 jagranjosh.com##[class*="_BodyAd_"]
@@ -68751,6 +68753,7 @@ mydramalist.com##[class^="zrsx_"]
 newspointapp.com##[ctn-style]
 flatpanelshd.com##[data-aa-adunit]
 dribbble.com##[data-ad-data*="ad_link"]
+petco.com##[data-ad-source]
 androidauthority.com##[data-ad-type]
 gamelevate.com##[data-adpath]
 builtbybit.com##[data-advertisement-id]
@@ -68855,6 +68858,7 @@ gadgetsnow.com##[data-type="mtf"]
 forum.ragezone.com##[data-widget-key="widget_partners"]
 petco.com##[data-widget-type="citrus-ad"]
 petco.com##[data-widget-type="citrus-banner"]
+petco.com##[data-widget-type^="rmn-"]
 theautopian.com##[data-widget_type="html.default"]
 namepros.com##[data-xf-init][data-tag]
 cnn.com##[data-zone-label="Paid Partner Content"]
@@ -69675,6 +69679,7 @@ time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
 blitz.gg##.aside-content-column:has(.display-ad)
 olympics.com##.b2p-list__item:has(> .adv-fluid)
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.block-wrapper:has(.element-header__sponsoredLabel)
+loblaws.ca##.block-wrapper:has([data-track-product-component="carousel||rmp_sponsored"])
 haveibeenpwned.com##.bodyGradient > :has(.why1Password)
 chosun.com##.box--bg-grey-20:has(.dfpAd)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
