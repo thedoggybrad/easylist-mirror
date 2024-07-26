@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ppB73sgmggwJ4BLf3pcdKw
-! Version: 202407261201
+! Checksum: 37TUqX4IvqF+4T6HsTH/Sg
+! Version: 202407261210
 ! Title: EasyList without rules for adult sites
-! Last modified: 26 Jul 2024 12:01 UTC
+! Last modified: 26 Jul 2024 12:10 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -69704,6 +69704,7 @@ officedepot.com##.od-col:has(.od-product-card-region-colors-sponsored)
 pollunit.com##.owl-carousel:has(.carousel-ad)
 hannaford.com##.plp_thumb_wrap:has([data-citrusadimpressionid])
 niagarathisweek.com##.polarBlock:has(.polarAds)
+404media.co##.post__content > p:has(a[href^="https://srv.buysellads.com/"])
 myntra.com##.product-base:has(.product-waterMark)
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk##.product-grid-column:has(.product-tile__sponsored)
 woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
