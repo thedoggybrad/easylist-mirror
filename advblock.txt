@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4WidhlSPZbEYGPLGEefBRQ
-! Version: 202407270931
+! Checksum: Z0tT/C3uNM249N5TRH1QzQ
+! Version: 202407270941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Jul 2024 09:31 UTC
+! Last modified: 27 Jul 2024 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -50,6 +50,7 @@ $third-party,popup,domain=2ip.ru
 ||otus.ru/*utm_$third-party,popup
 ||playground.ru/*/promo/$popup
 ||rusvpn.com^$popup,domain=tornado.3dn.ru
+||special.playground.info/haval$popup
 ||topofgames.com^*?path=$popup
 ||torrentum.ru^$popup
 ||trashbox.ru/r.php?$popup
@@ -21083,6 +21084,7 @@ lada.kz/uploads/banners/
 ||hwp.ru/images/mid/h-anons.
 ||hydrus.cc^$third-party,script
 ||i.kidstaff.com.ua/
+||i.playground.ru/e/wxbrYVT-qdlfsnmP_cFJpw.jpeg
 ||i.ua^*_brandpage_
 ||i2.kidstaff.com.ua/
 ||ibusiness.ru^*/netlab/style.css?
