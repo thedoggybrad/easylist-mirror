@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Df4BqE/C2K99ZoEp8JQeAA
-! Version: 202407290501
+! Checksum: mGpTSCHpsVeJZSNSUc7Ijw
+! Version: 202407290511
 ! Title: ABPVN List
-! Last modified: 29 Jul 2024 05:01 UTC
+! Last modified: 29 Jul 2024 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 29 Jul 2024 09:19:24 UTC+7
-! Diff-Path: patches/20240729091924223.patch#abpvn
+! Last modified: 29 Jul 2024 12:05:42 UTC+7
+! Diff-Path: patches/20240729120542273.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -506,6 +506,7 @@ francemag.com##.btn-od
 freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com,quat2vn.club###player + div[id]
 fshare.vn###myElementz
 fshare.vn##.bannerinfooter
+fshare.vn##.quang-cao-ben-phai
 fsharetv.com###home_header
 game24h.vn##.LRBanner
 game8.vn##.bg_allpopupss
