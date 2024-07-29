@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5lOj8B+bBlbWay7Xq8Soeg
-! Version: 202407291051
+! Checksum: vLn7IS6Vp+pA5zbLJCleAw
+! Version: 202407291111
 ! Title: EasyList without element hiding rules
-! Last modified: 29 Jul 2024 10:51 UTC
+! Last modified: 29 Jul 2024 11:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -29,7 +29,7 @@
 -ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
--ads/assets/$domain=~web-ads.org
+-ads/assets/$script,domain=~web-ads.org
 -assets/ads.$~script
 -auto-ads-
 -banner-ad_
