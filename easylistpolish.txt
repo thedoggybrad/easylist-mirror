@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2WwkxCa/VQ3g2uCYemPplQ
-! Version: 202407291601
+! Checksum: RQchSgskQQJVPLtvA9GYqQ
+! Version: 202407291610
 ! Title: EasyList Polish
-! Last modified: 29 Jul 2024 16:01 UTC
+! Last modified: 29 Jul 2024 16:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -379,6 +379,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^advertisements^$domain=lovekrakow.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2528,7 +2529,6 @@ dziennikwschodni.pl##div[style="min-width:970px; min-height:320px;"]
 jg24.pl##div[style="text-align: center; margin-bottom: 5px;"]
 mojaolesnica.pl##div[style^="margin-left: auto; overflow: hidden;width:"]
 eostroleka.pl##div[style^="max-width: 715px"]
-poloniusz.pl##div[style^="width:194px;"]
 tkn24.pl##font[color="SILVER"]
 tkn24.pl##font[color="SILVER"] + br + a
 elektroda.pl##form[action^="https://www.tme.eu/"]
@@ -2645,6 +2645,7 @@ wlodawa24.pl###ad--bill-top
 slowopodlasia.pl##[class="text-center my-3 container"]
 zyciekalisza.pl##.custom-html-box
 terazmuzyka.pl##.advertisebox
+lovekrakow.pl##.lk-ad-place
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
