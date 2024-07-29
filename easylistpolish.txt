@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ch7HZ0MPObz8ktNmz/U7HQ
-! Version: 202407291720
+! Checksum: EgBK69fdXyOXZWfietlHiQ
+! Version: 202407291731
 ! Title: EasyList Polish
-! Last modified: 29 Jul 2024 17:20 UTC
+! Last modified: 29 Jul 2024 17:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -140,6 +140,7 @@ app.freshmail.com#@#.advertisement-content
 ^adv_$domain=kcynia24.pl|koscian.net|naklo24.pl|powiat24.pl|sadki24.pl
 ^advert^$domain=tarnow.net.pl
 ^advertiseButtons^$domain=smanager.pl
+^advertisements^$domain=lovekrakow.pl
 ^advs^$domain=telewizjastk.pl
 ^areklamy^$domain=e-lokalne.pl
 ^ban^$domain=kopaczka.pl
@@ -379,7 +380,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-^advertisements^$domain=lovekrakow.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -401,7 +401,7 @@ kobiety-kobietom.com###ReklamaRightBox
 8tvr.pl###SmallAds
 smak-zdrowia.blogspot.com###Text9
 ekorodzice.pl###a_d_billboard
-bbfan.pl,ciechanowinaczej.pl,czaschojnic.pl,ddb24.pl,e-sochaczew.pl,egarwolin.pl,egorzow.pl,goral.info.pl,gpr24.pl,gryfinska.pl,ibemowo.pl,ibialoleka.pl,ibielany.pl,imokotow.pl,iochota.pl,ipragapolnoc.pl,ipragapoludnie.pl,irembertow.pl,isrodmiescie.pl,itargowek.pl,iursus.pl,iursynow.pl,iwawer.pl,iwesola.pl,iwilanow.pl,iwola.pl,izoliborz.pl,kartuzy.info,konecki24.pl,kurierbytowski.com.pl,mylomza.pl,nolesnica.pl,nowagazeta.pl,nowawrzesnia.pl,nowinynyskie.com.pl,nswiecie.pl,palukimogilno.pl,pulsgdanska.pl,szczecinek.com,tulegnica.pl,tuzywiec.pl,zambrow.org,zlotowskie.pl###ad--bill-top
+bbfan.pl,ciechanowinaczej.pl,czaschojnic.pl,ddb24.pl,e-sochaczew.pl,egarwolin.pl,egorzow.pl,goral.info.pl,gpr24.pl,gryfinska.pl,ibemowo.pl,ibialoleka.pl,ibielany.pl,imokotow.pl,iochota.pl,ipragapolnoc.pl,ipragapoludnie.pl,irembertow.pl,isrodmiescie.pl,itargowek.pl,iursus.pl,iursynow.pl,iwawer.pl,iwesola.pl,iwilanow.pl,iwola.pl,izoliborz.pl,kartuzy.info,konecki24.pl,kurierbytowski.com.pl,mylomza.pl,nolesnica.pl,nowagazeta.pl,nowawrzesnia.pl,nowinynyskie.com.pl,nswiecie.pl,palukimogilno.pl,pulsgdanska.pl,szczecinek.com,tulegnica.pl,tuzywiec.pl,wlodawa24.pl,zambrow.org,zlotowskie.pl###ad--bill-top
 szczecinek.com###ad--bill-top + .grid__row
 24wroclaw.pl###ad--bill-top + div
 fiatklubpolska.pl###ad_global_below_navbar
@@ -916,6 +916,7 @@ automatyka.pl,laboratoria.xtech.pl##.advertHd
 laboratoria.xtech.pl##.advertHd + div
 zory24.pl##.advertbutton
 wielkopolska.tv##.advertise
+terazmuzyka.pl##.advertisebox
 faceitstats.com,pultuszczak.pl,radiopik.pl,twojememy.pl##.advertisement
 reportal.pl##.advertisement2
 glamour.pl,kobieta.pl##.advertising-billboard
@@ -1168,6 +1169,7 @@ gol24.pl##.cs
 bielsko.biala.pl##.cukierek_container
 spliff.pl##.custom
 palegro.pl##.custom-commercial-banner-container
+zyciekalisza.pl##.custom-html-box
 24jgora.pl,bp24.pl,ciechanowinaczej.pl,debica24.eu,goral.info.pl,kartuzy.info,powiatowa.info,zambrow.org##.custom-html-box > .box__container > div
 probasket.pl##.custom-html-widget a > img
 tvswietokrzyska.pl##.custommarginbanner_topbottom
@@ -1211,6 +1213,7 @@ wizaz.pl##.ecomm-product-widget
 ilewazy.pl,mamotoja.pl,party.pl,wizaz.pl##.ecomm-wrapper
 sweetwedding.pl##.ecrosio-header-slider
 zkaszub.info##.edd
+ekoscian.eu##.ekosc-adlabel
 ekoscian.eu##.ekosc-tresc
 kb.pl##.element-click
 radioemaus.pl##.elementor-image
@@ -1391,6 +1394,7 @@ noclegi.biz##.lewastronareklama
 24piaseczno.pl,24slupsk.pl,bedzinski24.pl,belchatowski24.pl,bielskonews.pl,chrzanowski24.pl,ciechanowski24.pl,cieszynonline.pl,czestochowanews.pl,dabrowski24.pl,e-starachowice.pl,echobialystok.pl,echolegnica.pl,echowarszawy.pl,elblagonline.pl,elckie.pl,faktybytom.pl,faktykrakowa.pl,faktyopole.pl,faktypoznan.pl,faktyrzeszow.pl,faktywroclaw.pl,gizycko360.pl,gliwiceonline.pl,glogowski24.pl,glosgdanska.pl,grodziski24.pl,halokonin.pl,halotorun.pl,infochelm.pl,infojaworzno.pl,infolomza.pl,infopabianice.pl,infopiotrkow.pl,informacjekoszalin.pl,informacjelodzkie.pl,inforuda.pl,irybnik.pl,jastrzebienews.pl,katowicelove.pl,kielceinfo.pl,kochamsiedlce.pl,krzeszowiceinfo.pl,leszczynski24.pl,lubinski24.pl,lubliniec360.pl,mieleceu.pl,minski24.pl,mojgorzow.pl,mojwloclawek.pl,mojzgierz.pl,naszkedzierzyn.pl,newsynowodworskie.pl,nowosadecki24.pl,olkuszonline.pl,ostrolecki24.pl,oswieciminfo.pl,otososnowiec.pl,owlkp.pl,piekaryonline.pl,portalkalisz.pl,portalwalbrzych.pl,portalzielonagora.pl,portalzory.pl,przemyslonline.pl,pulsbydgoszczy.pl,raciborski24.pl,siemianowicki24.pl,stalowanews.pl,stargardlokalnie.pl,suwalkinews.pl,swidnicanews.pl,swietochlowiceonline.pl,szczecin4u.pl,tarnowskie24.pl,terazgniezno.pl,tomaszowonline.pl,tuzamosc.pl,twojagdynia.pl,twojelegionowo.pl,wejherowski24.pl,wiadomoscilublin.pl,wiadomosciolsztyn.pl,wiadomosciplock.pl,wiadomosciwadowice.pl,wostrowcu.pl,wpruszkowie.pl,wrotachorzowa.pl,wrotagrudziadza.pl,wrotatarnowa.pl,wrotazabrza.pl,zawiercieonline.pl,zywieconline.pl##.link-right
 nowywyszkowiak.pl##.link_bg
 czecho.pl,pless.pl##.linki-sponsorowane-col
+lovekrakow.pl##.lk-ad-place
 eostroleka.pl##.loading-ajax-ads
 poland.us##.logos
 e-grajewo.pl##.logos-container
@@ -1742,7 +1746,7 @@ bialogardinfo.pl##.theiaStickySidebar .g-dyn
 odkryjpomorze.pl##.ticker-container
 wpolityce.pl##.tile--ad-tile
 bobasmiesiaca.pl,bydgoszcz.com,chojnakulturalnie.pl,cooltura24.co.uk,cosiedzieje.tv,dzienniknowy.pl,dziennikpowiatowy.pl,expresskaszebe.pl,faktykaliskie.info,gostynin24.pl,halorzeszow.pl,kk24.pl,kronikatygodnia.pl,malbork1.pl,nasztomaszow.pl,podkarpackahistoria.pl,radiotczew.pl,truso.tv,tuolawa.pl,tvmaster.eu,tvpolice.com.pl,tvsudecka.pl,tygodnik-krapkowicki.pl,zachodniopomorska.tv##.tipad_tag
-kk24.pl,kronikatygodnia.pl,krosno112.pl,lokalnatelewizja.pl,rzeszow-info.pl,tvsudecka.pl,zawszepomorze.pl##.tipad_tag + a
+kk24.pl,kronikatygodnia.pl,krosno112.pl,lokalnatelewizja.pl,rzeszow-info.pl,supertydzien.pl,tvsudecka.pl,zawszepomorze.pl##.tipad_tag + a
 dziennikpowiatowy.pl,kronikatygodnia.pl##.tipad_tag + picture
 meblarskapolska.pl##.tm-promt-image
 audycje.tokfm.pl##.tok-advertisement
@@ -1894,7 +1898,7 @@ kuriersuwalski.pl,panoramakutna.pl,thinkapple.pl##[class="g g-1"]
 24jgora.pl##[class="grid__col grid__col--row  grid__col--3"]
 mgsm.pl##[class="large-12 medium-12 columns"]
 studentnews.pl##[class="r_cala s_calosc_iko_4"] + div
-dziennikpowiatowy.pl,faktykaliskie.info,gorzowskie.pl,gostynin24.pl,halogorlice.info,halorzeszow.pl,kk24.pl,kronikatygodnia.pl,krosno112.pl,lokalna.news,lokalna24.pl,lokalnatelewizja.pl,olesnica24.com,podkarpackahistoria.pl,portalpomorza.pl,przegladregionalny.pl,radioplonsk.pl,radiotczew.pl,radiozamosc.pl,tarnowska.tv,tvsudecka.pl,tygodnik-krapkowicki.pl,zawszepomorze.pl##[class="text-center my-3 container"]
+dziennikpowiatowy.pl,faktykaliskie.info,gorzowskie.pl,gostynin24.pl,halogorlice.info,halorzeszow.pl,kk24.pl,kronikatygodnia.pl,krosno112.pl,lokalna.news,lokalna24.pl,lokalnatelewizja.pl,olesnica24.com,podkarpackahistoria.pl,portalpomorza.pl,przegladregionalny.pl,radioplonsk.pl,radiotczew.pl,radiozamosc.pl,slowopodlasia.pl,tarnowska.tv,tvsudecka.pl,tygodnik-krapkowicki.pl,zawszepomorze.pl##[class="text-center my-3 container"]
 grodzisknews.pl##[class="wew ods_m center"]
 zyciezamoscia.pl##[class="widget zycie-widget clearfix"]
 itreseller.com.pl,prostozopolskiego.pl,tygodnikkrag.pl##[class^="a-single a-"]
@@ -2640,12 +2644,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-supertydzien.pl##.tipad_tag + a
-wlodawa24.pl###ad--bill-top
-slowopodlasia.pl##[class="text-center my-3 container"]
-zyciekalisza.pl##.custom-html-box
-terazmuzyka.pl##.advertisebox
-lovekrakow.pl##.lk-ad-place
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
