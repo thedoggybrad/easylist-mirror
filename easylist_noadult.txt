@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: G1onXbM6OPOGHrNr1R1Z5Q
-! Version: 202407302311
+! Checksum: o6DlRpFea8kS4KfSMqo3Mg
+! Version: 202407302321
 ! Title: EasyList without rules for adult sites
-! Last modified: 30 Jul 2024 23:11 UTC
+! Last modified: 30 Jul 2024 23:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -66633,6 +66633,7 @@ techopedia.com##.footer_inner_ads
 realmadrid.com##.footer_rm_sponsors_container
 tiresandparts.net##.footer_top_banner
 ocado.com##.fops-item--advert
+morrisons.com##.fops-item--externalPlaceholder
 morrisons.com##.fops-item--featured
 nintendolife.com,purexbox.com,pushsquare.com##.for-desktop
 purexbox.com,pushsquare.com##.for-mobile.below-article
@@ -69832,6 +69833,7 @@ tripsonabbeyroad.com##.e-con-inner:has(tp-cascoon)
 protrumpnews.com##.enhanced-text-widget:has(span.pre-announcement)
 upfivedown.com##.entry > hr.wp-block-separator:has(+ .has-text-align-center)
 morrisons.com##.featured-items:has(.js-productCarouselFops)
+morrisons.com##.fops-item:has([title="Advertisement"])
 pigglywigglystores.com##.fp-item:has(.fp-tag-ad)
 slickdeals.net##.frontpageGrid__feedItem:has(.dealCardBadge--promoted)
 tumblr.com##.ge_yK:has(.hM19_)
