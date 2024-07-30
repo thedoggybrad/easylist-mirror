@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: g8h2GEVBfGqF5QUmX2r8mA
-! Version: 202407301231
+! Checksum: QzLxI69iIsbb9cor6gqQUA
+! Version: 202407301241
 ! Title: EasyPrivacy without international filters
-! Last modified: 30 Jul 2024 12:31 UTC
+! Last modified: 30 Jul 2024 12:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2691,6 +2691,7 @@
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
+://posthog.$script,domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
 ://track.*/collect
