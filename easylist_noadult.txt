@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WWjC9F30pgh+tJrEeLMNEg
-! Version: 202407311221
+! Checksum: x9WnQ2Ssbs5EQ1njQCwRqw
+! Version: 202407311231
 ! Title: EasyList without rules for adult sites
-! Last modified: 31 Jul 2024 12:21 UTC
+! Last modified: 31 Jul 2024 12:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -69908,6 +69908,7 @@ popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 avclub.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(> [is="bulbs-dfp"])
 fortune.com##[class]:has(> #Leaderboard0)
+skyscanner.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
