@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202407312330
+! Version: 202407312350
 ! Title: EasyPrivacy
-! Last modified: 31 Jul 2024 23:30 UTC
+! Last modified: 31 Jul 2024 23:50 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -806,6 +806,7 @@
 /ent_counter?
 /entry_stats?
 /err/js/?url=
+/err0r/rum/*
 /error/js/log?
 /estat.js
 /estatistica.js
@@ -11007,6 +11008,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||playtomic.com/Tracker/
 ||plista.com/activity
 ||pm.boostintegrated.com^
+||pmi.flowplayer.com^
 ||poool.fr/api/v3/access/event
 ||popup-static.unisender.com^
 ||porpoise.azettl.net^
