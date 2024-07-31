@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ax28Ajkst8Qfw9Ygap98UA
-! Version: 202407311141
+! Checksum: j7flpnnoMFVCu0k1h9Dn/A
+! Version: 202407311151
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 31 Jul 2024 11:41 UTC
+! Last modified: 31 Jul 2024 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -78423,6 +78423,7 @@ cgpress.org##li > div[id^="cgpre-"]
 bestbuy.com##li.embedded-sponsored-listing
 cultbeauty.co.uk,dermstore.com,skinstore.com##li.sponsoredProductsList
 laredoute.be,laredoute.ch,laredoute.co.uk,laredoute.com,laredoute.de,laredoute.es,laredoute.fr,laredoute.gr,laredoute.it,laredoute.nl,laredoute.pt,laredoute.ru##li[class*="sponsored-"]
+yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
 linkedin.com##li[data-is-sponsored="true"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li[data-layout="products"]
 duckduckgo.com##li[data-layout="products_middle"]
