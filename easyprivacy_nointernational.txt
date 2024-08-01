@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: A5OFoT+XFGIAZXWU3UiWUg
-! Version: 202408012331
+! Checksum: l61GwAaRudkysVrKw2Ap3A
+! Version: 202408012341
 ! Title: EasyPrivacy without international filters
-! Last modified: 01 Aug 2024 23:31 UTC
+! Last modified: 01 Aug 2024 23:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1486,6 +1486,7 @@
 /nativendo.js
 /navbar-analytics.js
 /naytev.min.js
+/nb-collector|
 /ncj-pixel.js
 /neilson.js
 /neoworx_tracker.php
@@ -3397,6 +3398,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/sitegainer_
 ||cloudfront.net/sso.js
 ||cloudfront.net/t.gif
+||cloudfront.net/t?event=
 ||cloudfront.net/track.html
 ||cloudfront.net/track?
 ||cloudfront.net/trackb.html
@@ -3724,6 +3726,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.splash-screen.net^
 ||events.split.io^
 ||events.storifyme.com^
+||events.tryamped.com^
 ||events.tubecup.org^
 ||events.ubembed.com^
 ||events.whisk.com^
@@ -3899,6 +3902,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||googleusercontent.com/tracker/
 ||gotdns.com/track/blank.aspx?
 ||gotmojo.com/track/
+||gotolstoy.com/events/
 ||gowatchit.com/analytics.js
 ||gowatchit.com^*/tracking/
 ||grabnetworks.com/beacons/
@@ -6346,7 +6350,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hulu.com/metricsconfig
 ||hypebeast.com/firebase-messaging-sw.js
 ||i.pokernews.com^
-||i.rayconglobal.com/nb-collector
 ||iam-rum-intake.datadoghq.com^
 ||ibm.com/analytics/build/bluemix-analytics.min.js
 ||ibtimes.com/front/js/counter.js
