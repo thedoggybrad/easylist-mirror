@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202408012224
+! Version: 202408012235
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Aug 2024 22:24 UTC
+! Last modified: 01 Aug 2024 22:35 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -38226,12 +38226,10 @@ avaaz.org##.global-footer-connect
 cars.com##.global-footer-social-buttons
 oneindia.com##.goog-one-news
 cnbctv18.com##.google-btn-div
-ringsidenews.com##.google-news
 crypto.news##.google-news-banner
 crypto.news##.google-news-button
 alarabiya.net##.google-news-callout
 sammobile.com##.google-news-cta
-9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co,searchengineland.com,spaceexplored.com##.google-news-link
 coinpedia.org##.google_news-space
 techadvisor.com##.google_news_button
 auto.hindustantimes.com##.googlenewfollowidget
@@ -38876,6 +38874,8 @@ jagranjosh.com##ul[class^="Details_Social_"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
 ! ! .social-sharing
 byjus.com,commentpicker.com,hakaimagazine.com,hollywoodlife.com,homemark.co.za,malaymail.com,maxabout.com,news24.com,nu.nl,politico.eu,thepostmillennial.com##.social-sharing
+! ! .share-group
+goldderby.com,revistaforum.com.br##.share-group
 ! ! .share-icons
 alwatanvoice.com,atlantablackstar.com,binnews.com,blog.phylum.io,finurah.com,gulf-times.com,iheart.com,jessekellyshow.com,jfrog.com,news12.com,noticiasaominuto.com,noticiasaominuto.com.br,pressdemocrat.com,steveharveyfm.com,supermarketnews.com,thewildest.com##.share-icons
 ! ! .share-links
@@ -38963,7 +38963,9 @@ addapinch.com,alpin.de,anothermag.com,antena3.com,armageddonexpo.com,averiecooks
 ! ! .social-link
 english.nv.ua,jenkemmag.com,jewishinsider.com,largus.fr,masterduelmeta.com,merriam-webster.com##.social-link
 ! ! .google-news
-al-ain.com,al-sharq.com,cartacapital.com.br,cellulare-magazine.it,ocafezinho.com,tv100.com##.google-news
+al-ain.com,al-sharq.com,cartacapital.com.br,cellulare-magazine.it,ocafezinho.com,ringsidenews.com,tv100.com##.google-news
+! ! .google-news-link
+9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co,searchengineland.com,spaceexplored.com##.google-news-link
 ! ! SocialShar
 usnews.com,zerohedge.com##div[class*="SocialShar"]
 ! ! .header-social
@@ -38976,7 +38978,6 @@ gameloop.com##.Share_pc_share__RxDpq
 rawstory.com##.body-share-wrap
 kabeleins.de,prosieben.de,prosiebenmaxx.de,ran.de,sat1.de,sixx.de,suomi24.fi##.fb-page
 hindustantimes.com##.new__socialIcons
-goldderby.com##.share-group
 rawstory.com##.share-panel
 tweaktown.com##.sharedesktop
 merriam-webster.com##.social-link
@@ -43755,6 +43756,7 @@ otempo.com.br##.botao-google-news
 megacidade.com##.botoes-compartilhar
 nerdrecomenda.com.br##.box--share-single-page
 nerdrecomenda.com.br##.box-networks
+revistaforum.com.br##.btn-seguinos-gnews
 otempo.com.br##.btn-whatsapp
 estadao.com.br##.button-share-icon
 buzzfeed.com.br##.buzzfeed-socials
@@ -44204,6 +44206,7 @@ diyanet.tv##.sosyal-alt-ust
 ! Russian
 ||currenttime.tv/a/signup-sidebar-widget/
 ! Portuguese
+||revistaforum.com.br/a/plantillas/p/revista-forum/form-mailchimp.html
 ||sibforms.com/serve/$domain=jm-madeira.pt
 ! *** easylist:fanboy-addon/fanboy_newsletter_international_hide.txt ***
 ! fanboy_newsletter_international_hide.txt
@@ -44452,6 +44455,7 @@ uol.com.br##.jupiter-news-notice
 pcguia.pt##.lepopup-popup-container
 pcguia.pt##.lepopup-popup-overlay
 moneytimes.com.br##.mc-optin
+revistaforum.com.br##.mod-newsletter
 poder360.com.br##.navigation-menu__form-create
 olhardigital.com.br##.newsV2-assinar
 noticiasaominuto.com##.newsletter-form-block
