@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3NlAh/Ya6AutdAzRUM4iYg
-! Version: 202408010011
+! Checksum: 5vom6KGVpTFbsDbhdRwB0w
+! Version: 202408010021
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Aug 2024 00:11 UTC
+! Last modified: 01 Aug 2024 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -47199,6 +47199,7 @@ browsershots.org#@#.advert_area
 ||opbllqzsmfoxq.com^
 ||opchikoritar.com^
 ||opclauncheran.com^
+||opclck.com^
 ||opdavplcufic.com^
 ||opdowvamjv.com^
 ||opeanresultanc.com^
@@ -69330,6 +69331,7 @@ browsershots.org#@#.advert_area
 ||remax-malta.com/widget_new/$third-party
 ||rentalcars.com/partners/
 ||resellerratings.com/popup/include/popup.js
+||revboostprocdnadsprod.azureedge.net^
 ||rotabanner.kulichki.net^
 ||rotator.tradetracker.net^
 ||rubylife.go2cloud.org^
@@ -78600,6 +78602,7 @@ yandex.com##.search-list-view__advert-offer-banner
 playpilot.com##.search-preview .side:has(> .provider)
 tempest.com##.search-result-item:has(.search-result-item__title--ad)
 yandex.com##.search-snippet-view:has(span.search-advert-badge__advert)
+shipt.com##.searchPageStaticBanner:has([href*="/shop/featured-promotions"])
 troyhunt.com##.sidebar-featured:has(a[href^="https://pluralsight.pxf.io/"])
 bing.com##.slide:has(.rtb_ad_caritem_mvtr)
 fastcompany.com##.sticky:has(.ad-container)
