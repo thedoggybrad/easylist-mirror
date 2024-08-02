@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VBmlxwjAqaz1r2hv8IgFfw
-! Version: 202408022241
+! Checksum: Khhu0tYHTuHDVffRC0f5VQ
+! Version: 202408022251
 ! Title: EasyList without rules for adult sites
-! Last modified: 02 Aug 2024 22:41 UTC
+! Last modified: 02 Aug 2024 22:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16058,7 +16058,7 @@ stuff.tv#@#.c-ad
 thedigestweb.com#@#.c-ad-banner
 deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
-accuweather.com,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
+deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
 studio55.fi#@#.column-ad
 huffpost.com#@#.connatix-wrapper
 fontspace.com,skyrimcommands.com#@#.container-ads
@@ -63611,7 +63611,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||cdn.ex.co^$third-party
 ||cdn.thejournal.ie/media/hpto/$image
 ||channelexco.com/player/$third-party
-||connatix.com^$third-party,domain=~accuweather.com|~cheddar.tv|~deadline.com|~elnuevoherald.com|~heraldsun.com|~huffpost.com|~lmaoden.tv|~loot.tv|~miamiherald.com|~olhardigital.com.br|~sacbee.com
+||connatix.com^$third-party,domain=~cheddar.tv|~deadline.com|~elnuevoherald.com|~heraldsun.com|~huffpost.com|~lmaoden.tv|~loot.tv|~miamiherald.com|~olhardigital.com.br|~sacbee.com
 ||delivery.vidible.tv/jsonp/
 ||dywolfer.de^
 ||elements.video^$domain=fangoria.com
@@ -70262,10 +70262,12 @@ stuff.tv##.c-squirrel-embed
 mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 livestrong.com##.component-article-section-votd
+accuweather.com##.connatix-player
 familystylefood.com##.email-highlight
 comicbook.com##.embedVideoContainer
 taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
+accuweather.com##.feature-tag
 ibtimes.sg##.featured_video
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
