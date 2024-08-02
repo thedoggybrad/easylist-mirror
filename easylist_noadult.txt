@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NJb4IHSAMzP981Xfzo4vpw
-! Version: 202408020331
+! Checksum: Ht/8498pQkCbSN/MUxsKYA
+! Version: 202408020341
 ! Title: EasyList without rules for adult sites
-! Last modified: 02 Aug 2024 03:31 UTC
+! Last modified: 02 Aug 2024 03:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25,7 +25,6 @@
 -ad-unit.
 -ad-util.
 -ad.jpg.pagespeed.
--adbanner.
 -ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
@@ -542,7 +541,6 @@
 /css/adsense.
 /css/adv.
 /curveball/ads/*$image
-/custom_ads.js
 /data-file_123.js
 /deliverad/fc.js
 /delivery.ads.
@@ -70927,6 +70925,8 @@ checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak
 ! Fingerprint checks
 @@||fingerprintjs.com^$generichide
 @@||schemeflood.com^$generichide
+! Admiral baits
+@@||succeedscene.com^$script
 ! uBO-CNAME (Specific allowlists)
 @@||akinator.mobi.cdn.ezoic.net^$domain=akinator.mobi
 @@||banner.customer.kyruus.com^$domain=doctors.bannerhealth.com
