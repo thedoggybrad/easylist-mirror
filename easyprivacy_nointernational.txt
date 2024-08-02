@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ZwRV0GNYPWaKcIP0AEfflg
-! Version: 202408022140
+! Checksum: eGiADVhq3Zbc97/e1ldw8Q
+! Version: 202408022151
 ! Title: EasyPrivacy without international filters
-! Last modified: 02 Aug 2024 21:40 UTC
+! Last modified: 02 Aug 2024 21:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -743,6 +743,7 @@
 /dla_tracker.js
 /dlpageping?
 /dm.gif?
+/dm.tlo?id=
 /dmp/pixel.js
 /dmu2panalytics/ajax_call.php?
 /doctracking.js
@@ -1947,6 +1948,7 @@
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
 /sentry-browser.min.js
+/sentry-browser.tracing.es5.min.js
 /sentry-logger.js
 /sentry/bundle.min.js
 /seo.taCo.min.js
@@ -31397,6 +31399,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! ||form.info-morimoto-real.jp^
 ! ||medlemskap.fagforbundet.no^
 ! ||go.oracle.com^
+! ||info.medtronicdiabetes.com^
 !
 ||10stepswp.advancedtech.com^
 ||1stparty.equifax.co.uk^
@@ -34090,7 +34093,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||info.marketingcube.com.au^
 ||info.markmonitor.com^
 ||info.mdsol.com^
-||info.medtronicdiabetes.com^
 ||info.metronet.com^
 ||info.metronetbusiness.com^
 ||info.metronetinc.com^
