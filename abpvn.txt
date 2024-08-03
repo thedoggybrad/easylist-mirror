@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jdnAMWrw+PAYI+ubxELTFQ
-! Version: 202408031601
+! Checksum: mP9e3YGhv8aN9Ju6qnoPRg
+! Version: 202408031611
 ! Title: ABPVN List
-! Last modified: 03 Aug 2024 16:01 UTC
+! Last modified: 03 Aug 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 03 Aug 2024 15:05:00 UTC+7
-! Diff-Path: patches/20240803150500891.patch#abpvn
+! Last modified: 03 Aug 2024 23:05:03 UTC+7
+! Diff-Path: patches/20240803230503376.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1143,7 +1143,7 @@ vndoc.com#@#.showads
 !------ ABPVN Adult block -------
 $third-party,script,domain=sexdiaryx.guru
 /player/vast.js
-/theme/custom.int.js$script,domain=top1sex.club|sexvn.tuoi69s.com|javhay.click|web.motsex.net|vuasex.club|phimsexviet.io|phimsexvietnam.app|mobile.clipsex.xxx|gm.phimsexnhanh.tv|clipsex.cam|link.ditnhau.cc
+/theme/custom.int.js$script,domain=top1sex.club|sexvn.tuoi69s.com|javhay.click|web.motsex.net|vuasex.club|phimsexviet.io|phimsexvietnam.app|mobile.clipsex.xxx|gm.phimsexnhanh.tv|clipsex.cam|x.ditnhau.cc
 /wp-content/uploads/*.gif$image,domain=tuoi69.moe|tuoinung.men|teletiengviet.com|phevkl.uk
 @@||pagead2.googlesyndication.com^$domain=www.gaingon18.me
 ||ads.6789live.com^
