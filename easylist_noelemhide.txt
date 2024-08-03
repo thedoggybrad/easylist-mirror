@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MnexPnck9elCuHwlxThzug
-! Version: 202408030931
+! Checksum: HWlghtCFFfjdO6ee9KiSZA
+! Version: 202408030941
 ! Title: EasyList without element hiding rules
-! Last modified: 03 Aug 2024 09:31 UTC
+! Last modified: 03 Aug 2024 09:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -283,6 +283,7 @@
 /ads/banners/*$image
 /ads/bottom.
 /ads/cbr.
+/ads/custom_ads.js
 /ads/delivery.
 /ads/footer.
 /ads/ga-audiences?
@@ -49340,6 +49341,7 @@ _800x80_
 !----------------------Specific advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_specific_block.txt ***
 /assets/bn/movie.jpg$image,domain=vidstream.pro
+/pmc-adm-v2/build/setup-ads.js$domain=bgr.com|deadline.com|rollingstone.com
 /resolver/api/resolve/v3/config/?$xmlhttprequest,domain=msn.com
 asgg.php$domain=ghostbin.me|paste.fo
 ||0xtracker.com/assets/advertising/
