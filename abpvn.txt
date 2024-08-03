@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BP5X8Wj9U52mbzqUA2m1MQ
-! Version: 202408030801
+! Checksum: Nzow9XQ8H+ntqw2dnwiZDQ
+! Version: 202408030811
 ! Title: ABPVN List
-! Last modified: 03 Aug 2024 08:01 UTC
+! Last modified: 03 Aug 2024 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 02 Aug 2024 21:18:02 UTC+7
-! Diff-Path: patches/20240802211802490.patch#abpvn
+! Last modified: 03 Aug 2024 15:05:00 UTC+7
+! Diff-Path: patches/20240803150500891.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -80,6 +80,7 @@
 ||2banh.vn/images/banners/
 ||9767ebd63c.vws.vegacdn.vn^*.gif$image,domain=home.mannhan3.pro|mn.mediastation.live
 ||ads*.autodaily.vn
+||amotchill.net/banner$image
 ||animehay.in^*.gif
 ||animet1.net^*.gif
 ||animew.org/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com$image
@@ -107,7 +108,7 @@
 ||chillphimmoizzz.org/assets/*.gif$image
 ||chillphimmoizzz.org/assets/js/popup.js
 ||chodansinh.net^*.gif
-||chotlo247.me^*gif
+||chotlo247.pro^*gif
 ||cloud.motchill-stream.win/common/ads/$image,domain=motchilltv.us
 ||code.gunnymienphi.net^*.gif
 ||danketoan.com/banner/
@@ -177,7 +178,7 @@
 ||phimmoi.onl/js/ads.js$script
 ||phimmoi.onl^*.gif$image
 ||phimmoichillv.net/newchill/$script,~third-party
-||phimnhanhvll.com^*.gif
+||phimnhanhvl.com^*.gif
 ||phimnhua.net^*.gif
 ||phimss.net/assets/ads/$image
 ||phimvuihd.org^*.gif$image
@@ -198,7 +199,6 @@
 ||sharecode.vn/assets/images/thiet-ke-web-gia-re.jpg
 ||sharecode.vn/assets/images/thiet-ke-website.jpg
 ||shope.ee^$popup,domain=chillphimmoizzz.org|blogtruyenmoi.com|cunghocvui.com|motphimmoi.net|truyensextv.com
-||smotchill.net/banner$image
 ||sohuutritue.net.vn/files/qc/
 ||soikeo365.net^*.gif
 ||soikeoz.vip^*.gif
@@ -453,8 +453,8 @@ chillphimmoizzz.org##.preload-banner
 chillphimmoizzz.org##.static-banner
 chodansinh.net##.link-gold
 chodansinh.net##[id^="banner"]
-chotlo247.me##div[id^="float"]
-chotlo247.me##div[id^="hide_float"]
+chotlo247.pro##div[id^="float"]
+chotlo247.pro##div[id^="hide_float"]
 chouc.com###text-14
 chouc.com##.hocwp-ads
 congan.com.vn###subiz_wrapper
@@ -982,7 +982,7 @@ www.clbgamesvn.com##.footerBanner
 www.clbgamesvn.com##center>[href*="tlink.vn"]
 www.iosviet.com##[href^="https://shope.ee"]
 www.mp.com###mp-adx-b32
-www.mp.com,motphimtvv.com,movies.vkoolz.com,ophimhd.vip,subnhanh.xyz,motchilltv.ink,phimnhanhvll.com##.mp-adz
+www.mp.com,motphimtvv.com,movies.vkoolz.com,ophimhd.vip,subnhanh.xyz,motchilltv.ink,phimnhanhvl.com##.mp-adz
 www.o-study.net###IMAGE635>.ladi-transition.ladi-image
 www.o-study.net###IMAGE639>.ladi-transition.ladi-image
 www.o-study.net###POPUP648
@@ -1004,7 +1004,7 @@ xem14.com,download.vn###ouibounce-modal
 xem20.gavang1.net,xem19.gavang1.net##.css-ylxsn9.MuiStack-root
 xem20.gavang1.net,xem19.gavang1.net##.vjs-banner-btn
 xem20.gavang1.net,xem19.gavang1.net##div.css-m49bkq.MuiStack-root>a
-xemphimchill.xyz,hhninja6.tv,phimbocn.com,phimhoathinh3d.com,hoathinhtq.site,hhtq7.vip,hhtqvietsub.top,smotchill.net,hhtrungquoc6.com,hhtqnet.me,animeweb.vip,hh3d1.xyz,hoathinh4k3.net,motchilltv.ink,hoathinh3dtq.com,hhtm.tv,dragonphim.tv,hhchina.app,phimmoi2024.net,hhh3d.tv,hhtq3d.com,hhtq5.vip,wibu47.com,yanhh3d.com,yanhh3d.tv###catfish
+xemphimchill.xyz,hhninja6.tv,phimbocn.com,phimhoathinh3d.com,hoathinhtq.site,hhtq7.vip,hhtqvietsub.top,amotchill.net,hhtrungquoc6.com,hhtqnet.me,animeweb.vip,hh3d1.xyz,hoathinh4k3.net,motchilltv.ink,hoathinh3dtq.com,hhtm.tv,dragonphim.tv,hhchina.app,phimmoi2024.net,hhh3d.tv,hhtq3d.com,hhtq5.vip,wibu47.com,yanhh3d.com,yanhh3d.tv###catfish
 xemtivi4k.com###adstop2
 xemtivi4k.com##.ads-item
 xemtivi4k.com##.col-lg-4.hidden-xs.d-flex.flex-column.address-wrap
