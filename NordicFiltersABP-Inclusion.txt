@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4J+TuDZ9JRox6YH4EI1sDQ
-! Version: 202408042331
+! Checksum: pD7HayH1zE5F0Iqwj9ThRQ
+! Version: 202408042341
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 04 Aug 2024 23:31 UTC
+! Last modified: 04 Aug 2024 23:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7463,7 +7463,6 @@ srk.fi#@##CookielawBanner
 /ads/ga-audiences?
 /ads/gam_prebid-$script
 /ads/get-ads-by-zones/?zones%
-/ads/header.
 /ads/image/*$image
 /ads/images/*$image,domain=~eoffcn.com
 /ads/index.
@@ -76891,7 +76890,7 @@ romzie.com##.shcntr
 bestbuy.com##.shop-dedicated-sponsored-carousel
 bestbuy.com##.shop-pushdown-ad
 stokesentinel.co.uk##.shop-window[data-impr-tracking="true"]
-intouchweekly.com,lifeandstylemag.com##.shop-with-us__container
+intouchweekly.com,lifeandstylemag.com,usmagazine.com##.shop-with-us__container
 instacart.com##.shoppable-list-a-las2t7
 hypebeast.com##.shopping-break-container
 indiatoday.in##.shopping__widget
