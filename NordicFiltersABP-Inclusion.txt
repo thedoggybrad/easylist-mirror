@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LxLEQ1RkYNokFvd61CXexw
-! Version: 202408052341
+! Checksum: FSe9i7lhoYQUccVUQ6x6Cw
+! Version: 202408052351
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 05 Aug 2024 23:41 UTC
+! Last modified: 05 Aug 2024 23:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -22491,6 +22491,7 @@ _800x80_
 ##a[href^="https://s.zlinkd.com/"]
 ##a[href^="https://safesurfingtoday.com/"][href*="?skip="]
 ##a[href^="https://serve.awmdelivery.com/"]
+##a[href^="https://service.bv-aff-trx.com/"]
 ##a[href^="https://sexynearme.com/"]
 ##a[href^="https://slkmis.com/"]
 ##a[href^="https://snowdayonline.xyz/"]
@@ -22943,6 +22944,7 @@ _800x80_
 ##.index-module_adBeforeContent__AMXn
 ##.index-module_rightrailBottom__IJEl
 ##.index-module_rightrailTop__mag4
+##.index-module_sd_background__Um4w
 ##.premium_PremiumPlacement__2dEp0
 ! In video div
 ###ultimedia_wrapper
@@ -61945,6 +61947,7 @@ browsershots.org#@#.advert_area
 ||cdnjs-mht.com^
 ||cdnweb3.pages.dev^
 ||celestia.guru^
+||certona.net^
 ||chaingptweb3.org^
 ||chainlist.sh^
 ||chainupdate.us^
