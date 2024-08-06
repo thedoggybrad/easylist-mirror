@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202408052359
+! Version: 202408052351
 ! Title: EasyPrivacy
-! Last modified: 05 Aug 2024 23:59 UTC
+! Last modified: 05 Aug 2024 23:51 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2730,8 +2730,6 @@
 ?logType=impression&
 ?logType=trackEvent&
 ?pageviews=$third-party
-?sam-item/*/track-view
-?sam-item/track-impressions
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
@@ -51809,7 +51807,6 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||jslog.post.cz^
 ||o2.cz^*-ga_o2cz_bundle.js?
 ||sa.kolik.cz^
-||seznam.cz^$ping
 ||stat.super.cz^
 ||statistics.csob.cz^
 ! Dutch
