@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gJMJZ3MvOzOY3RCW2i0kHw
-! Version: 202408080501
+! Checksum: 0bofeXPeUeZsdTYVMVVY3Q
+! Version: 202408080511
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Aug 2024 05:01 UTC
+! Last modified: 08 Aug 2024 05:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19065,6 +19065,7 @@ www.onliner.by##header > a[href*="utm_"]
 prosound.ixbt.com##header > div[style^="background"]
 argumenti.ru##header > div[style^="background:"]
 twirpx.com,twirpx.org##header > nav ~ div
+kommersant.ru##header a[href*="&erid="][target="_blank"]
 ofxme.co##header noindex
 tglink.ru##header ~ section:last-child
 myzcloud.me,sims3pack.ru##header.st-flex
@@ -22987,7 +22988,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-||pikabu.ru/cn$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/cm$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
