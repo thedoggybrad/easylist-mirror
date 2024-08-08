@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LKfOVOGNBhlcwCFWmTf9sQ
-! Version: 202408080341
+! Checksum: LVG3CSe/G6o+o+f+Eqfd0A
+! Version: 202408080350
 ! Title: EasyPrivacy without international filters
-! Last modified: 08 Aug 2024 03:41 UTC
+! Last modified: 08 Aug 2024 03:50 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5679,6 +5679,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||websecurity.norton.com^$third-party
 ||webutation.net/js/load_badge.js
 ||widgets.trustedshops.com^$third-party
+! https://www.oligo.security/blog/0-0-0-0-day-exploiting-localhost-apis-from-the-browser
+||0.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
 ! Suspect trackers (from privacy badger)
 ||jsrdn.com/s/cs.js
 ! Rewrite to internal resources filters for Adblock Plus
