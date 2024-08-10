@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xQVlPTWr5gXcXsy+zUBReg
-! Version: 202408100731
+! Checksum: DhobctcHAv54bTegE1jj4Q
+! Version: 202408100741
 ! Title: EasyPrivacy without international filters
-! Last modified: 10 Aug 2024 07:31 UTC
+! Last modified: 10 Aug 2024 07:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -20,7 +20,6 @@
 &EventType=Impression&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
-&l=dataLayer&cx=c
 &refer=http$script
 &t=pageview&
 -adobe-analytics/
@@ -51,7 +50,6 @@
 .gif?Log=
 .jp/pv?
 .jp/static/js/track.js
-.js?id=GTM-
 .net/l.gif?
 .no/app/aas/a
 .php?action=browse&
@@ -2691,12 +2689,10 @@
 ://collector.*/event
 ://elqtrk.
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
-://gtm.*.js?st=
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
 ://lightning.*/launch/
-://load.*.js?st=$~third-party
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -2811,6 +2807,11 @@ _WebVitalsReporter_
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
 /generate_204?$image
+! Server-side GTM
+&l=dataLayer&cx=c
+.js?id=GTM-
+://gtm.*.js?st=
+://load.*.js?st=$~third-party
 ||adservice.google.
 ||google.*/url?$ping
 ||google.com/gen_204?
