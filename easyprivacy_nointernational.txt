@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: tut5ojTbY5QpEphNWHtMyQ
-! Version: 202408100611
+! Checksum: 0ZxkN2wzi4YgJ/+R+hVyXA
+! Version: 202408100621
 ! Title: EasyPrivacy without international filters
-! Last modified: 10 Aug 2024 06:11 UTC
+! Last modified: 10 Aug 2024 06:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2690,6 +2690,7 @@
 ://collector.*/event
 ://elqtrk.
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtm.*.js?st=
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
@@ -2731,6 +2732,7 @@
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
+?v=2&tid=G-$~third-party
 _beacon?
 _c.gif?c=
 _chartbeat.js
@@ -6038,6 +6040,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cultofmac.com/djrxqhzkbsgf.js
 ||cvs.com/tnadstlinj.js
 ||cwt.citywire.info^
+||d.analyticsmania.com^
 ||d.skk.moe^
 ||d401.dollartree.com^
 ||d712.theinformation.com^
@@ -6325,6 +6328,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||groupondata.com/tracky
 ||gsght.com/twizards.js
 ||gso.amocrm.com/humans/
+||gtm.lercio.it^
 ||gtm.wise.com^
 ||gtreus.aliexpress.com^
 ||gumtree.com.au/tracking/
@@ -6892,7 +6896,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srchoffer.com/tracking/
 ||srtb.msn.com^
 ||srv.plesk.com^
+||ss.esade.edu^
 ||ss.photospecialist.co.uk^
+||sst.shopware.com^
 ||sstats.adobe.com^
 ||st.sawlive.tv^
 ||stackoverflow.com/_/client-timings
@@ -6944,6 +6950,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stayz.com.au/cl/data/omgpixel.json
 ||strcdn.org/cdn-cgi/trace
 ||strcloud.in/stat/
+||stream.corporatefinanceinstitute.com^
 ||streamadblocker.cc/stat/
 ||streamadblocker.com/stat/
 ||streamadblocker.store/stat/
@@ -7138,6 +7145,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trackr.vivenu.com^
 ||tradingview.com/ping
 ||trck.coomeet.com^
+||trckng.dainese.com^
 ||trcksplt.miro.com^
 ||treatment.grammarly.com^
 ||tredir.go.com^
