@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iXbtjTm+DiUTIQwVePAJLQ
-! Version: 202408100821
+! Checksum: yDTjtmFyj3//Bju5kyS9+Q
+! Version: 202408100831
 ! Title: EasyList without element hiding rules
-! Last modified: 10 Aug 2024 08:21 UTC
+! Last modified: 10 Aug 2024 08:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6338,6 +6338,7 @@ _800x80_
 ||bestcontentproject.top^
 ||bestcontentprovider.top^
 ||bestcontentservice.top^
+||bestcontentsite.top^
 ||bestcontenttrade.top^
 ||bestcontentuse.top^
 ||bestcontentweb.top^
@@ -50901,7 +50902,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||pornorips.com/4e6d8469754a.js
 ||pornorips.com/9fe1a47dbd42.js
 ||pornpapa.com/extension/
-||pornpics.com/api/banner/
+||pornpics.com^$subdocument
 ||pornpics.de/api/banner/
 ||pornpoppy.com/jss/external_pop.js
 ||pornrabbit.com^$subdocument
