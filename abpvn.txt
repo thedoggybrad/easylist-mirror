@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DHacRoKAclK9LZm/eAbpVw
-! Version: 202408140931
+! Checksum: bgXvdPpjgA/5JjtohmJbSg
+! Version: 202408140941
 ! Title: ABPVN List
-! Last modified: 14 Aug 2024 09:31 UTC
+! Last modified: 14 Aug 2024 09:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 14 Aug 2024 16:26:38 UTC+7
-! Diff-Path: patches/20240814162638220.patch#abpvn
+! Last modified: 14 Aug 2024 16:33:36 UTC+7
+! Diff-Path: patches/20240814163336745.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -98,8 +98,7 @@ $popup,domain=player-cdn.com|freeplayervideo.com|abysscdn.com|geoip.redirect-ads
 ||bp.blogspot.com$image,domain=timdaily.vn|xemtivi4k.com
 ||bp.blogspot.com/*banner$image,domain=~aowvn.org|~umu.pink
 ||cdn-data.gtvplus.vn/banners/$image,domain=gametv.vn
-||cdn.lfastcdn.com^*.gif$image,domain=bongdainfoc.tv
-||cdn.lfastcdn.com^*.gif$image,domain=xoilaczve.tv
+||cdn.lfastcdn.com^*.gif$image,domain=bongdainfoc.tv|xoilaczve.tv|garance-paris.com
 ||cdn.phimhaytv.info/images/video888.mp4$domain=phimhaytv.info
 ||cdn.phimhaytv.info^*.gif$domain=phimhaytv.info
 ||cdn.thichxemphim1.net/wp-content/themes/halimmovies-child/jscm.min.js$domain=thichxemphim1.net
