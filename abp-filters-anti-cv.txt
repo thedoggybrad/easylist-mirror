@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: jI/Bo3vadvUNwnvYxXBIdQ
-! Version: 202408161451
+! Checksum: NGehotGUWuA9hq9QQHAHNg
+! Version: 202408161511
 ! Title: ABP filters
-! Last modified: 16 Aug 2024 14:51 UTC
+! Last modified: 16 Aug 2024 15:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1580,7 +1580,6 @@ players.com.ua#$#abort-on-property-read localStorage
 inforesist.org#$#abort-on-property-read alert
 dzen.ru,lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 dzen.ru#$#override-property-read Object.prototype.loadAd null
-pravda.com.ua#$#abort-on-property-read as_retry
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,f1ua.org.ua,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
@@ -1634,7 +1633,7 @@ empireg.ru#$#abort-current-inline-script Math zfgloaded
 ! #CV-697
 agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-current-inline-script Object.defineProperty rcBuf; abort-on-property-read advanced_ads_ready;
 ! CV-1364
-eurointegration.com.ua#$#abort-on-property-read as_retry
+eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
 ! *** abp-filters-anti-cv:spanish.txt ***
 ! #CV-691
 ! #CV-761
