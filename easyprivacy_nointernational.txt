@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4D6ad4zOOumFW5d5cuAT0Q
-! Version: 202408162201
+! Checksum: r2b+xjve0T+ZqeSRU2WgTQ
+! Version: 202408162211
 ! Title: EasyPrivacy without international filters
-! Last modified: 16 Aug 2024 22:01 UTC
+! Last modified: 16 Aug 2024 22:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3653,6 +3653,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ecustomeropinions.com^*/i.php?
 ||edge-hls.doppiocdn.com/ping
 ||edge-hls.doppiocdn.live/ping
+||edge-hls.doppiocdn.media/ping
 ||edge.adobedc.net^
 ||edge.bredg.com^$third-party
 ||edgesuite.net^*/googleanalyt
@@ -5659,6 +5660,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aax-eu-dub.amazon.com^$script
 ||aax-us-iad.amazon.com^$script
 ||ab-machine.forbes.com^
+||ab.chatgpt.com^
 ||ab.fanatical.com^
 ||abcnews.com/assets/dtci/js/abcnews_visitorId.js
 ||abcnews.com/assets/dtci/js/at.js
@@ -5901,6 +5903,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/ces/
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
 ||chickadvisor.com/js/detect.min.js
