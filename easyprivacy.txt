@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202408202303
+! Version: 202408202314
 ! Title: EasyPrivacy
-! Last modified: 20 Aug 2024 23:03 UTC
+! Last modified: 20 Aug 2024 23:14 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -324,6 +324,7 @@
 /api/ipv4check?
 /api/log-visit
 /api/metrics/collect
+/api/metrics/event
 /api/pageactivity
 /api/pageview?
 /api/pagevisits
@@ -13432,6 +13433,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||boomerang.dell.com^
 ||box.com/index.php?rm=box_gen204_batch_record
 ||brightside.me/metric-collector
+||browse-privately.net/event/
 ||browsealoud.com/plus/scripts/$script
 ||builder.io/api/v1/track
 ||buondua.com/hit/
@@ -14649,6 +14651,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.engineering.cloud.seek.com.au^
 ||tracking.game8.co^
 ||tracking.hsn.com^
+||tracking.peopleareeverything.com^
 ||tracking.rocketleague.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
