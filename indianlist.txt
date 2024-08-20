@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TPT6y5QSqgUU9J5HwFqUCw
-! Version: 202408201241
+! Checksum: +g4+gsZmE0Er6rZAA8xDLA
+! Version: 202408201251
 ! Title: IndianList
-! Last modified: 20 Aug 2024 12:41 UTC
+! Last modified: 20 Aug 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1030,6 +1030,10 @@ perfection-ias-upsc$domain=nextbihar.com
 ||arghakhanchi.com/wp-content/uploads/2024/04/Red-And-White-Modern-Food-Billboard-Web-Ad-1.gif
 ||arlivenews.com/wp-content/uploads/2022/07/20220714_193742.gif
 ||arlivenews.com/wp-content/uploads/2024/01/hindustan-zinc-jpg.webp
+||arlivenews.com/wp-content/uploads/2024/01/sanchi-fireworks-shop-in-udaipur-jpg.webp
+||arlivenews.com/wp-content/uploads/2024/07/GEETANJALI-HOSPITAL
+||arlivenews.com/wp-content/uploads/2024/08/happy-independence-day-wishes-by-sanjay-sharma-badgaon-udaipur.jpg
+||arlivenews.com/wp-content/uploads/2024/08/independence-day-wishes-from-hindustan-zinc-vedanta-group.jpg
 ||arlivenews.com^*/sojatia-
 ||arlivenews.com^*/wonder-cement
 ||arthatantra.com/wp-content/uploads/2024/03/jeewan-bima-
@@ -2156,8 +2160,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||globaltvbd.com/add/
 ||globaltvbd.com/images/add6.jpg
 ||globaltvbd.com/images/oranjee.jpg
-||gmnewsbd.com/wp-content/uploads/2019/10/Siddik-PNG.png
-||gmnewsbd.com^*/Walton$image
 ||gnews5.com/wp-content/uploads/2020/08/quantum2.jpg
 ||gobd24.com/media/Online-Betting-Sites-in-Bangladesh.jpg
 ||gobikhobor.com^*/3-11.jpg
@@ -5265,7 +5267,6 @@ dildarnagar.com,mithlahindinews.com###main-ads-post
 agrilife24.com###main-body .custom
 lankadawasa.com###main-content + aside > .widget_media_image
 ibn24x7news.com,theexclusivestory.com###main-content .e3lan
-gmnewsbd.com###main-content .textwidget img
 p2pnews.co###main-content > .e3lan-post
 p2pnews.co###main-content > .ml-slider
 newcinemaexpress.com###main-head .right
@@ -5941,6 +5942,7 @@ dainikdishari.com##.add:not(.wp-image-3687)
 dainikparibarton.com##.add:not(:has(> .widget_area > h3))
 vinnabarta.com##.add:only-child
 bharatkiawaj24.com##.addBox
+sangbadajkal.com##.addBox2
 liveindia.news##.addCenter
 karnatakamalla.com##.addDivR1
 janata.news##.addSecound-sidebar
@@ -6964,6 +6966,7 @@ filmcityworld.com##.kenm
 khabhar24live.co.in##.khaba-single-blog-manual
 khabarpahad.com,khabarworld.com##.khaba-widget
 khabarhub.com##.khabarhub-inner-ads
+gmnewsbd.com##.khandakarit_widget:has(> div > p > ins.adsbygoogle)
 parchhayin.com##.kopa-adv-widget
 timesofadventure.com##.kopa-banner-300
 koyilandydiary.com##.koyil-widget
@@ -7137,8 +7140,8 @@ hindi.news18.com##.n18thder
 khabreapki.com##.n2-ss-slider
 nakkheeran.in##.nak-adv-cen:not(#block-views-block-global-news-home-page-block-3)
 naturalnews.co.in##.natur-content
-chamaktabharat.com#@#.navbar-ad-section
 24hrnews.in,aavakaaya.in,celluloidonline.com,channeltoday.net,checkpostnews.com,chhattisgarhcrimes.in,cityhotnews.com,dainiktimes.co.in,hindustanrepublic.in,kannurvarthakal.in,khabardarinews.com,khabardinbhar.net,kilinochchinews.com,kotajagran.com,krantiodishanews.com,malayalamtodayonline.com,mediapoint24.com,overlook.co.in,prajawani.in,punjabiakhbar.com,sanskardarshan.in,shabdshodh.com,updatetimes.com##.navbar-ad-section
+chamaktabharat.com#@#.navbar-ad-section
 prabhatvaibhav.com##.navbar-area-2 ~ div[style]
 daijiworld.com##.navbar-static-top a[target="new"]
 bishwanathbd24.com##.navbar-top-banner
@@ -7234,7 +7237,6 @@ navsatta.com##.penci-sidebar-right
 hindlives.com,tamilstar.com##.penci-text-block
 startalkbd.com##.penci_single_ad_after_content
 dinamina.lk,thinakaran.lk##.penci_topblock
-gmnewsbd.com##.pf-content > div[style]
 rajtantra.com##.pf-content div.wp-block-image:not(:first-child)
 jamunanewsbd.com##.photo-gellary iframe
 zeenews.india.com##.picgaladdcntr
