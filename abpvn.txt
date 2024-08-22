@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UfmX6GSJG+H45fNoTpbwHA
-! Version: 202408220501
+! Checksum: 2yYtokG8iGY+6wz98krs4w
+! Version: 202408220511
 ! Title: ABPVN List
-! Last modified: 22 Aug 2024 05:01 UTC
+! Last modified: 22 Aug 2024 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 22 Aug 2024 11:18:11 UTC+7
-! Diff-Path: patches/20240822111811419.patch#abpvn
+! Last modified: 22 Aug 2024 12:04:42 UTC+7
+! Diff-Path: patches/20240822120442034.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1151,6 +1151,7 @@ znews.vn##.znews-banner
 @@||yhocdata.com$generichide
 @@||yopovn.com$generichide
 game24h.vn#@#.adsbyvli
+gicovietnam.blogspot.com#@#.inline-ad
 ios.codevn.net#@#div[id*="ScriptRoot"]
 ios.codevn.net,ipacrack.com#@#ins.adsbygoogle[data-ad-slot]
 ket-noi.com#@##adcontent
