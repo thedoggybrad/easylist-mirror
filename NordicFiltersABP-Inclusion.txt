@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v3+tqHWXSPSdQ81OIFYc0g
-! Version: 202408240741
+! Checksum: 528LR2UrXg2Z8umNu6Yx4Q
+! Version: 202408240751
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 24 Aug 2024 07:41 UTC
+! Last modified: 24 Aug 2024 07:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -77294,6 +77294,7 @@ cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
 mapchart.net#?#.row:-abp-contains(Advertisement)
 coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
 coolors.co#?#a:-abp-has(div:last-child:-abp-contains(Hide))
+neowin.net#?#.ipsColumns_collapsePhone.classes:-abp-contains(Our Sponsors)
 amusingplanet.com#?#.blockTitle:-abp-contains(Advertisement)
 quora.com#?#.q-sticky:-abp-contains(Advertisement)
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(> h4.block-title > span:-abp-contains(Visit Our Sponsors))
