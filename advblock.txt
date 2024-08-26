@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vLc5iFVKD0dRAbmwvWjc2A
-! Version: 202408261121
+! Checksum: TJvCkrvpSxWejj8wExMUMA
+! Version: 202408261131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 26 Aug 2024 11:21 UTC
+! Last modified: 26 Aug 2024 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23291,6 +23291,7 @@ mail.ru##.ph-project-promo-container
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.stripe-wrapper
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.tgb-wrapper
 ~e.mail.ru,mail.ru,~octavius.mail.ru##.zenad-card-rtb
+~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] > div > style ~ div[id^="b-"]
 ! Почта
 e.mail.ru,octavius.mail.ru###app-canvas .layout__overflow-container > .advert-column
 e.mail.ru,octavius.mail.ru###app-canvas .layout__overflow-container > .slot
