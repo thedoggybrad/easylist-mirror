@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ql75m9uWiByKa4tR8/DzWA
-! Version: 202408262201
+! Checksum: ADzENoYlHrAB/aBzxNXXIw
+! Version: 202408262211
 ! Title: EasyList without rules for adult sites
-! Last modified: 26 Aug 2024 22:01 UTC
+! Last modified: 26 Aug 2024 22:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15120,6 +15120,7 @@ _800x80_
 ##[onclick^="location.href='https://1337x.vpnonly.site/"]
 ##a-ad
 ##a[data-href^="http://ads.trafficjunky.net/"]
+##a[data-url^="https://vulpix.bet/?ref="]
 ##a[href*=".adsrv.eacdn.com/"]
 ##a[href*=".engine.adglare.net/"]
 ##a[href*=".foxqck.com/"]
@@ -58912,6 +58913,7 @@ browsershots.org#@#.advert_area
 ||allprivatekeys.com/static/banners/$third-party
 ||allsportsflix.
 ||alt63.chimeratool.com^
+||am-da.xyz^
 ||amazonaws.com/campaigns-ad/
 ||amazonaws.com/mailcache.appinthestore.com/
 ||an.yandex.ru^$domain=~e.mail.ru
