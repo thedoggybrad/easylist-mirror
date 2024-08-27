@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F7MH69ba0K8GmvFLgeIaFQ
-! Version: 202408271051
+! Checksum: 1tr37eEL7MjjiZvYgt3pDw
+! Version: 202408271101
 ! Title: IndianList
-! Last modified: 27 Aug 2024 10:51 UTC
+! Last modified: 27 Aug 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3196,8 +3196,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||nayaanepal.com/wp-content/uploads/2020/04/Bigtech$image
 ||nayabikalpa.com/wp-content/uploads/2023/10/naya-ad.gif
 ||nayaindia.com/wp-content/uploads/2020/05/2.png
-||nayanjagriti.com^*-add-
-||nayanjagriti.com^*-addd
 ||nayapatrikadaily.com/uploads/advertise/
 ||nayasadak.com/users_upload/
 ||nbs24.org/nbs-
@@ -3355,7 +3353,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||newschattogram24.com^*/final-png.png
 ||newschattogram24.com^*/Screenshot_14
 ||newscoxsbazar.com^*/radient-fish-world-02.19.jpg
-||newscreation.in/images/banners/
 ||newscricket24.com/wp-content/uploads/2020/06/mrlinternational.gif
 ||newscricket24.com/wp-content/uploads/2021/12/ezgif.com-optimize.gif
 ||newsdesk24.com^*/local_ad_
@@ -6922,7 +6919,7 @@ innews16.com##.innew-before-content
 innews16.com##.innew-widget
 khabarmukam.com##.insd-advert
 capitalnepal.com,setokhari.com##.insert-ad
-bhilwarahalchal.com,dailythanthi.com,jantakiawaz.org,madhyamam.com##.inside-post-ad
+bhilwarahalchal.com,dailythanthi.com,jantakiawaz.org,madhyamam.com,nayanjagriti.com##.inside-post-ad
 filmchilive.com##.inside-post-ad-1
 janjwar.com,specialcoveragenews.in##.inside-post-ad-before
 teluguglobal.com##.inside-post-ad-before-before
@@ -8541,6 +8538,7 @@ samayduniya.com##div:has(> a > div > .pd_title)
 haal.fashion##div:has(> div > .dfp-ad-unit)
 atalhind.com##div:has(> div > p >.adsbygoogle)
 momainews.com##div:has(> div > span[name="adchoicehtml"])
+newscreation.in##div:has(> div[class$="-content"] > [class*="banner"])
 indiatimes.com,vijaykarnataka.com##div:has(> div[data-native-ad])
 andhrajyothy.com##div:has(> div[id*="-ad-"])
 bhaskar.com##div:has(> div[id^="Ad--"])
@@ -8622,6 +8620,7 @@ chitrodesh.com##div[class*="stream-item"]
 sabkasandesh.com##div[class*="stream-item-below-post"]
 mediamalayalam.com##div[class*="td-spot-id-content_"]
 manvadhikarabhivyakti.in##div[class*="tdi_140"]
+nayanjagriti.com##div[class*="top_full_width_level_"]:has(> [class^="ad"])
 uttarakhandmorningpost.com##div[class*="uttar-"]
 khabarprawaha.com,sabaikosamachar.com##div[class*="vigyapan"]
 usbangla24.news##div[class*="width-ad"]
