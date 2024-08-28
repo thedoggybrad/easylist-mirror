@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4uneWZ4cG7YLCDWp7f9uDA
-! Version: 202408280851
+! Checksum: 226QQC4i2sSmvoEBF6UHzw
+! Version: 202408280901
 ! Title: EasyPrivacy without international filters
-! Last modified: 28 Aug 2024 08:51 UTC
+! Last modified: 28 Aug 2024 09:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -43649,6 +43649,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quickmath.com/js/r/web-vitals.js$script,~third-party
+@@||rcb-gis.maps.arcgis.com/apps/instant/minimalist/*/AppMeasurement.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
