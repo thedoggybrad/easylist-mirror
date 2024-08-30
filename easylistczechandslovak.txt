@@ -12,6 +12,7 @@
 !
 ! ---------- Czech & Slovak generic blocking rules ---------- !
 !
+-reklama.
 .com/bannery/
 .cz/ads/
 .cz/BAN/
@@ -322,7 +323,6 @@ vranovske.sk#@#.advertising-content
 ! ---------- Czech Site Specific Element hiding rules ---------- !
 !
 365tipu.cz##.wpa.top
-aktualne.cz##[class^="advert__"]
 appliste.cz##.banner-header
 autobazar.cz###biglink
 autoforum.cz###content-right > div[style]:first-of-type
@@ -412,7 +412,6 @@ itnetwork.cz##.reklama-background
 jaknaletenky.cz###social
 kaloricketabulky.cz##.bannLead
 kamsdetmi.com##div.banner_position
-kinobox.cz##div[class*="Commercial_container"]
 kladenskelisty.cz##.rleft
 kladenskelisty.cz##.rright
 kladenskelisty.cz##.tree
