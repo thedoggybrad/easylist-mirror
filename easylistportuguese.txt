@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +kaU0k0olEs12+NX370hOA
-! Version: 202408311641
+! Checksum: 1Z1rmJILZllC7jRXGRq4Lw
+! Version: 202408311651
 ! Title: EasyList Portuguese
-! Last modified: 31 Aug 2024 16:41 UTC
+! Last modified: 31 Aug 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -128,6 +128,7 @@ _publicidade_
 ##a[href^="https://ads.impulsosocial.online/"]
 ##a[href^="https://app.monetizze.com.br/"] > img
 ##a[href^="https://clickadsxxx.com/"]
+##a[href^="https://cliente.storehosting.com.br/aff.php?aff="]
 ##a[href^="https://externo.x-power-gel.com/"]
 ##a[href^="https://go.aff.esportesdasorte.com/"]
 ##a[href^="https://go.hotmart.com/"]
@@ -390,6 +391,7 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||postimg.cc^$domain=barbacenamais.com.br
 ||publyads.jstag.space^
 ||pubs.xl.pt^
+||storehosting.com.br/banner/
 ||sunoresearch.com.br/ads-manager/$third-party
 ||supercasa.pt/mrec$third-party
 ||t.co^$domain=souapenasumsitenormal.com
@@ -1227,13 +1229,15 @@ afiliados-na-web.com,psxbrasil.com.br##img[height="250"]
 mundial91.com.br##img[height="254"]
 revistamotos.pt##img[height="300"]
 mundial91.com.br##img[height="700"]
-criptonizando.com,ntvb.com.br##img[height="90"]
+criptonizando.com,ntvb.com.br,pontoextra.blog.br##img[height="90"]
 blogbraga.com.br##img[style="width:100%; height:auto;"]
 minhaconexao.com.br##img[width="160"]
+pontoextra.blog.br##img[width="240"]
 minhaconexao.com.br##img[width="250"]
 atoananet.com.br,cidadesnanet.com,culturalizabh.com.br,escolhaviajar.com,futebolatino.lance.com.br,inteligenciafinanceira.com.br,jornalcidademg.com.br,minhaconexao.com.br,mundial91.com.br,ofertaspravoce.com,omachoalpha.com.br,otakupt.com,psxbrasil.com.br,revistamotos.pt,thepiratefilmeshd.blog##img[width="300"]
 futebolatino.lance.com.br##img[width="320"][height="50"]
 mondaine.com.br##img[width="366"]
+pontoextra.blog.br##img[width="600"]
 blogdoanderson.com##img[width="623"][height="105"]
 atoananet.com.br,culturadoria.com.br,politicosdosuldabahia.com.br##img[width="728"]
 futebolatino.lance.com.br##img[width="940"][height="150"]
