@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZVrOI3JxvEcuamzIxZymgg
-! Version: 202408311011
+! Checksum: cEEDXn8TPli6UFmnzJ+wDA
+! Version: 202408311021
 ! Title: ABPVN List
-! Last modified: 31 Aug 2024 10:11 UTC
+! Last modified: 31 Aug 2024 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 31 Aug 2024 17:02:22 UTC+7
-! Diff-Path: patches/20240831170221984.patch#abpvn
+! Last modified: 31 Aug 2024 17:18:27 UTC+7
+! Diff-Path: patches/20240831171827519.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -504,6 +504,7 @@ fastscans.net##a[href^="https://shope.ee"]
 file.gocmod.com##div.ad
 forum.gocmod.com##.ad-manager-forum-list-bottom
 forum.gocmod.com##.ad-manager-forum-list-top
+forum.gocmod.com##.ad-manager-forum-view-top
 forum.gocmod.com##.ad-manager-header
 forum.gocmod.com##.ad-manager-thread-view-bottom
 forum.gocmod.com##.ad-manager-thread-view-top
