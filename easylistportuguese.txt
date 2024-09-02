@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RW+FvWYGwpm+VeolFEXb6w
-! Version: 202409021651
+! Checksum: 2BkqkSeaxL5V+ar2tSv1gw
+! Version: 202409021701
 ! Title: EasyList Portuguese
-! Last modified: 02 Sep 2024 16:51 UTC
+! Last modified: 02 Sep 2024 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -791,6 +791,7 @@ letras.mus.br##.anSpaceTop
 engeplus.com.br,forbes.com.br,humordaterra.com,sussytoons.com##.anuncio
 portaldeprefeitura.com.br##.anuncio-100
 forbes.com.br##.anuncio-billboard
+geralinks.com.br##.anuncio-cima
 portaldeprefeitura.com.br##.anuncio-sid
 portaldeprefeitura.com.br##.anuncio-top
 igpromo.com.br##.anuncios
@@ -1107,7 +1108,7 @@ tsf.pt##.t-pubbox-mrec-1
 dinheirovivo.pt,tsf.pt##.t-section-sponsored
 tecnoblog.net##.tb-canal-exclusivo
 areavip.com.br##.td-a-ad
-acientistaagricola.pt,brasilnaitalia.net,diariorp.com.br,jornaldigitalcanela.com.br,jornaldoalgarve.pt,monitormercantil.com.br,motor24.pt,netflu.com.br,observatoriodeourofino.com.br,psxbrasil.com.br##.td-a-rec
+acientistaagricola.pt,brasilnaitalia.net,diariorp.com.br,jornaldigitalcanela.com.br,jornaldoalgarve.pt,monitormercantil.com.br,motor24.pt,nerdlicious.com.br,netflu.com.br,observatoriodeourofino.com.br,psxbrasil.com.br##.td-a-rec
 motor24.pt##.td-banner-wrap-full
 revistaplaneta.com.br##.td_uid_13_63667955e8fa2_rand
 revistaplaneta.com.br##.td_uid_15_63667955ec1ba_rand
@@ -1134,7 +1135,7 @@ portalpopline.com.br##.vc_custom_1678372840463
 autoo.com.br,motoo.com.br##.visible-desktop
 purebreak.com.br##.wh_add--header
 uai.com.br##.widget_bouplay_wp_300px2
-decorardicas.com.br,portalhortolandia.com.br,satirinhas.com,spbrasil-2009.net,tecfoco.com.br,tecoapple.com##.widget_custom_html
+decorardicas.com.br,nerdlicious.com.br,portalhortolandia.com.br,satirinhas.com,spbrasil-2009.net,tecfoco.com.br,tecoapple.com##.widget_custom_html
 observatoriodeourofino.com.br,pescariasa.com.br##.widget_media_image
 jornalopcao.com.br##.widget_nw_anuncio
 bandab.com.br##.widget_publicidade
@@ -1269,6 +1270,7 @@ comidasimples.com.br,pescariasa.com.br#?#[id^="custom_html-"]:-abp-has(h2:-abp-c
 correioweb.com.br#?#.post--hardnews.call-uai:-abp-has(a:-abp-contains(CONTEÚDO PATROCINADO))
 defatoonline.com.br#?#.noticias-horizontal:-abp-has(h3:-abp-contains(Patrocinado))
 em.com.br#?#.col-md-12.hidden-xs:-abp-has(small:-abp-contains(Publicidade))
+geralinks.com.br#?#.sidebar > div:-abp-has(a:-abp-contains(Promovido))
 infomoney.com.br#?#.row.m-0.py-3.border-t:-abp-has(.hl-hat:-abp-contains(Conteúdo))
 oantagonista.com.br#?##cardfullblock.card.card-full.card-oa:-abp-has(.card-category:-abp-contains(Patrocinado))
 promobit.com.br#?#.rounded-2.bg-neutral-high-100.dark\:bg-neutral-low-500.hidden.h-\[300px\].flex-col.items-center.md\:flex:-abp-has(.font-sans.whitespace-pre-wrap.text-xs.hidden.px-6.py-4.text-neutral-high-500.dark\:text-neutral-high-500.xl\:block:-abp-contains(Publicidade))
