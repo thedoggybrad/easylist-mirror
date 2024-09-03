@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202409031544
+! Version: 202409031404
 ! Title: EasyList
-! Last modified: 03 Sep 2024 15:44 UTC
+! Last modified: 03 Sep 2024 14:04 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -318,6 +318,7 @@
 /ads1.
 /ads160.
 /ads3.
+/ads300.
 /ads4.
 /ads468.
 /ads468x60.
@@ -366,7 +367,7 @@
 /adsinclude.
 /adslide.js
 /AdsLoad.js
-/adsmanager.nsf/*$image
+/adsmanager.nsf/*
 /adsmanager/*$domain=~adsmanager.facebook.com|~github.com
 /AdsPlugin.
 /adsrv.
@@ -466,7 +467,7 @@
 /arcads.js
 /asset/ad/*$image
 /assets/ads/*$~image,domain=~outlook.live.com
-/asyncjs.php$script
+/asyncjs.php
 /asyncspc.php
 /auto.ad.
 /awaps-ad-sdk-$script
@@ -477,7 +478,7 @@
 /ban300.php
 /ban728.html
 /ban728.php
-/ban728x90.$image
+/ban728x90.
 /banman/ad.aspx
 /banner-ad.$~script
 /banner-ads-rotator/*$script,stylesheet
@@ -527,6 +528,7 @@
 /code/pops.js?h=$script
 /code/silent.js?h=$script
 /combo?darla/*
+/common/ad.asp
 /common/ad.js$script
 /common/ads?
 /common_ad.js
@@ -716,7 +718,7 @@
 /nativeads-v2.js
 /nativeads.js
 /nativeads/script/*$script
-/nativebanner/ane-native-banner.js$script
+/nativebanner/ane-native-banner.js
 /nb/frot_lod.js
 /neverblock/*$script
 /new/floatadv.js
@@ -802,7 +804,7 @@
 /popup_ad.js
 /popup_ad.php
 /popup_code.php
-/popupads.js$script
+/popupads.js
 /popupunder.js
 /prbt/v1/ads/?
 /prebid-video.js
@@ -1269,9 +1271,9 @@ _widget_ad.
 /parsonsmaize/abilene.js
 /parsonsmaize/chanute.js
 /parsonsmaize/mulvane.js
-/parsonsmaize/olathe.js$script
+/parsonsmaize/olathe.js
 /tardisrocinante/austin.js
-/tardisrocinante/vitals.js$script
+/tardisrocinante/vitals.js
 ! prebid scripts
 -dfp-prebid-
 -prebid/
@@ -1296,7 +1298,7 @@ _widget_ad.
 /prebid35.
 /prebid4.
 /prebid5.
-/prebid6.$script
+/prebid6.
 /prebid7.
 /prebid8.$script
 /prebid9.
