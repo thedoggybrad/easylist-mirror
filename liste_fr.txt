@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: D5wLgyR133xbcotGnyLovw
-! Version: 202409042141
+! Checksum: XnNZ931Y5v4s21FcU97XvA
+! Version: 202409042151
 ! Title: Liste FR
-! Last modified: 04 Sep 2024 21:41 UTC
+! Last modified: 04 Sep 2024 21:51 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -3140,6 +3140,7 @@ _siteunder/$popup
 ||affidate.com^$third-party
 ||affidirect.com^$third-party
 ||affil4you.com^$third-party
+||affilae.com^$third-party
 ||affilcenter.com^$third-party
 ||affiliatable.io^$third-party
 ||affiliatehub.co.in^$third-party
@@ -12477,6 +12478,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||amateursvideos.net/banners/
 ||amazon.fr/exec/*/external-search?$subdocument,third-party
 ||amazonaws.com/accio-lib/accip_script.js
+||amazonaws.com/aeup/$domain=~affilae.com
 ||amazonaws.com/hbams/
 ||amazonaws.com/mftracker/
 ||amazonaws.com/pubfig/
@@ -13497,6 +13499,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||wp.com/mediaguinee.org/wp-content/uploads/*/banni%c3%a8re-
 ||wp.com/mediaguinee.org/wp-content/uploads/*/banniere-
 ||wp.com/medialot.fr/wp-content/uploads/*?resize=300%2C38
+||wp.com/static.affilae.com/$domain=~affilae.com
 ||wp.com/static.k2s.cc/images/i/
 ||wp.com/static.keep2share.cc/images/i/
 ||wp.com^*-300x250.
