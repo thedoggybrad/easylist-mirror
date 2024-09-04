@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i2jPICnOjx6YYIjbtGJy7Q
-! Version: 202409042111
+! Checksum: HrKNSVIF7VZGc2lcTL62wQ
+! Version: 202409042131
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 04 Sep 2024 21:11 UTC
+! Last modified: 04 Sep 2024 21:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -70120,8 +70120,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||anysex.com/*/script|
 ||anysex.com^$subdocument,~third-party
 ||api.adultdeepfakes.cam/banners
-||api.redgifs.com/v2/ads/slots
-||api.redgifs.com/v2/gifs/boost
+||api.redgifs.com/v2/gifs/promoted
 ||asg.faperoni.com^
 ||atube.xxx/static/js/abb.js
 ||aucdn.net^$media,domain=clgt.one
@@ -76095,6 +76094,7 @@ bleepingcomputer.com##[href="https://try.flare.io/bleeping-computer/"]
 walletinvestor.com##[href="https://walletinvestor.com/u/gnrATE"]
 nettv4u.com##[href="https://www.badshahcric.net/"]
 duplichecker.com##[href="https://www.duplichecker.com/gcl"]
+wikifeet.com##[href="https://www.feetfix.com"]
 barrettsportsmedia.com##[href="https://www.jimcutler.com"]
 10minutemail.com##[href="https://www.remove-metadata.com"]
 jagoroniya.com##[href="https://www.virtuanic.com/"]
@@ -76150,6 +76150,7 @@ brighteon.com##[href^="https://support.brighteon.com/"]
 beforeitsnews.com,highshortinterest.com##[href^="https://tinyurl.com/"]
 tripsonabbeyroad.com##[href^="https://tp.media/"]
 minidl.org##[href^="https://uploadgig.com/premium/index/"]
+wikifeet.com##[href^="https://vip.stakeclick.com/"]
 cracked.io##[href^="https://vshield.com/"]
 thespoken.cc##[href^="https://www.amazon.com/"]
 mailshub.in##[href^="https://www.amazon.in/"]
@@ -77864,7 +77865,6 @@ xhamster.com##._80e65-containerBottomSpot
 xhamster.com##._80e65-containerPauseSpot
 tubepornclassic.com##.___it0h1l3u2se2lo
 pichunter.com##.__autofooterwidth
-redgifs.com##._advertWrapper_f9sfb_1
 txxx.com##._ccw-wrapper
 ukadultzone.com##.a--d-slot
 sunporno.com##.a-block
@@ -78650,7 +78650,6 @@ faptor.com##.zpot-horizontal-img
 fapnado.xxx##.zpot-vertical
 jizzbunker2.com,xxxdan.com,xxxdan3.com##.zx1p
 tnaflix.com##.zzMeBploz
-redgifs.com##[class*="defaultAd"]
 porn300.com,pornodiamant.xxx##[class^="abcnn_"]
 beeg.porn##[class^="bb_show_"]
 hotleaks.tv,javrank.com##[class^="koukoku"]
@@ -78858,7 +78857,7 @@ porndoe.com,redtube.com##video[autoplay][src*="data:" i]
 ! top-level domain wildcard
 cam4.*##div[class^="SponsoredAds_"]
 ! :has()
-redgifs.com##.SideBar-Item:has(> [class^="_adLiveButton"])
+redgifs.com##.SideBar-Item:has(> [class^="_liveAdButton"])
 porn-w.org##.align-items-center.list-row:has(.col:empty)
 picsporn.net##.box:has(> .dip-exms)
 porngames.com##.contentbox:has(a[href="javascript:void(0);"])
