@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ad0GbPCIp7vbvNJ0RKkWJg
-! Version: 202409050751
+! Checksum: L4pg6GpWweWEBPOmLpMeKA
+! Version: 202409050801
 ! Title: EasyList Polish
-! Last modified: 05 Sep 2024 07:51 UTC
+! Last modified: 05 Sep 2024 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -380,6 +380,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^baner-$domain=wolsztyn112.info
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2667,6 +2668,9 @@ wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 zycie.pl###ad--bill-top
 lublin112.pl##div[style="min-height: 200px;"]
+112malopolska.pl##.tdi_7
+chorzowianin.pl##.bsaProItems
+mojejaslo.pl##.td-adspot-title + a
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
