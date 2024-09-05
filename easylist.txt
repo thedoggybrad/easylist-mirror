@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202409051614
+! Version: 202409051515
 ! Title: EasyList
-! Last modified: 05 Sep 2024 16:14 UTC
+! Last modified: 05 Sep 2024 15:15 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -175,12 +175,11 @@
 /ad/popup.
 /ad300.jpg
 /ad300.js
-/ad300.png$image
-/ad728.png$image
+/ad300.png
 /ad?count=
 /ad?pos_
 /ad?type=
-/ad_728.jpg$image
+/ad_728.jpg
 /ad_728.js
 /ad_banner/*$image,domain=~ccf.com.cn
 /ad_bottom.jpg$image
@@ -276,7 +275,7 @@
 /ads.jsp
 /ads.pl?
 /ads/!rotator/*
-/ads/300.$subdocument
+/ads/300.
 /ads/acctid=
 /ads/banners/*$image
 /ads/cbr.
@@ -528,7 +527,7 @@
 /css/adv.
 /curveball/ads/*$image
 /data-file_123.js
-/deliverad/fc.js$script
+/deliverad/fc.js
 /delivery.ads.
 /delivery.php?zone=
 /delivery/ag.php
@@ -801,7 +800,7 @@
 /publicidad.$~object,~stylesheet
 /publicidad/*$~xmlhttprequest
 /publicidad_$~stylesheet
-/publicidade.$~xmlhttprequest
+/publicidade.
 /publicidade/*$~xmlhttprequest
 /publicidades/*$~xmlhttprequest
 /puff_ad?
@@ -1015,7 +1014,7 @@
 /wpadgu-adblock.js
 /wpadgu-clicks.js
 /wpadgu-frontend.js
-/wpbanners_show.php$script
+/wpbanners_show.php
 /wppas.min.css
 /wppas.min.js
 /wpxbz-theme.js
