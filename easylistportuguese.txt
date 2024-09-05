@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5tz2mwTz75Ec0a5sCf+LYw
-! Version: 202409051311
+! Checksum: aW+Y27QUMlPShy9EBytMXQ
+! Version: 202409051321
 ! Title: EasyList Portuguese
-! Last modified: 05 Sep 2024 13:11 UTC
+! Last modified: 05 Sep 2024 13:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -459,6 +459,14 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||brumadourgente.com.br/hd-imagens/banners/
 ||correiodolago.com.br/site/up/banners/
 ||correiodolago.com.br/site/up/popup/
+||diarioaveiro.pt/api/assets/download/publicities/
+||diarioaveiro.pt/files/publicity/
+||diariocoimbra.pt/api/assets/download/publicities/
+||diariocoimbra.pt/files/publicity/
+||diarioleiria.pt/api/assets/download/publicities/
+||diarioleiria.pt/files/publicity/
+||diarioviseu.pt/api/assets/download/publicities/
+||diarioviseu.pt/files/publicity/
 ||engeplus.com.br/anuncios/
 ||geekpopnews.com.br/mkt/
 ||geralinks.com.br^*/ads/
@@ -492,7 +500,6 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 /^https?:\/\/[0-9a-z]{8,}\.com\/.*/$third-party,xmlhttprequest,domain=3thepiratefilmes.in|allappinc.store|aniflv.net|animescx.com.br|animexnovel.com|anitube.biz|bakashi.tv|betteranime.net|cinevisionv5.app|doramogo.com|dramafansubs.net|dramaken.com|embedflix.online|embedmax.site|encurtandourl.com|file4go.net|filmeflix.app|filmehdonline.site|futebolplayhd.ws|gemadoff.com.br|listadeanimes.com|megafilmeshd50.com|multicanais.re|myfilmestorrent.net|netcine.to|pifansubs.org|pobreflix1.com|sfapi.xyz|suatela.net|tdmsubs.com|thepiratefilmeshd.in|torrentdosfilmeshd4.net|tugaflix.best|tyflex.net
 /^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$third-party,xmlhttprequest,domain=animesonline.in|animesup.cx|anitube.vip|appmj.xyz|comandotorrents.to|dattebayo-br.com|digitaltorrentdownload.com.br|fenixproject.xyz|goanimes.vip|gofilmes.me|superfilmes.cx|topflix.sh|torrentdosfilmes.to|turquiaflix.com|warezcdn.com
 !
-/files/publicity/*$domain=diarioaveiro.pt|diariocoimbra.pt
 /wp-content/uploads/*-haribo$domain=gkpb.com.br
 ||3djuegos.com/*/skins/
 ||acientistaagricola.pt/wp-content/uploads/*/*banner
@@ -731,6 +738,7 @@ correiogravatai.com.br,diariocachoeirinha.com.br,diariodecanoas.com.br,jornaldeg
 correiogravatai.com.br,diariocachoeirinha.com.br,diariodecanoas.com.br,jornaldegramado.com.br,jornalnh.com.br,jornalvs.com.br###pub_header
 kboing.com.br###publ-goog
 gabarite.com.br,saudadefm.com.br###publicidade
+diarioaveiro.pt,diariocoimbra.pt,diariocoimbra.ptdiarioviseu.pt,diarioleiria.pt###pubsec1
 solutudo.com.br###relatedAds
 portalpopline.com.br###robooster_PS_container
 odia.ig.com.br###rodapefixo
@@ -1177,6 +1185,7 @@ ofertaspravoce.com##a[href^="https://planosclarocontrole.com.br/"]
 ptanime.com##a[href^="https://ptani.me/r/"]
 assistironline.net,futebolnatv.com.br##a[href^="https://www.amazon."][href*="tag="]
 espn.com.br##a[href^="https://www.starplus.com"][href*="?cid="]
+diarioaveiro.pt,diariocoimbra.ptdiarioviseu.pt,diarioleiria.pt##a[onclick^="trackOutboundLink('"]
 migalhas.com.br##app-wt-servico-banner-v01
 pelando.com.br##div[aria-label="anúncio patrocinado"]
 radiojhero.com##div[class^="Ad_"]
@@ -1344,7 +1353,6 @@ anacao.cv###post-sidebar-wrap
 correiodopovo.com.br###publi-inicio-post
 estrelando.com.br###publi-pop
 uol.com.br###publicity
-diariocoimbra.pt###pubsec1
 buceteiro.com###related
 tecnoblog.net###sidebanner
 animalog.online###sidebar
