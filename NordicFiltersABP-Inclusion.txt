@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FbUXPQQDTK1UmBg/PAOZIg
-! Version: 202409051221
+! Checksum: x/eFhn1RTzz9gbj1EkTl3Q
+! Version: 202409051231
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 05 Sep 2024 12:21 UTC
+! Last modified: 05 Sep 2024 12:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -12,7 +12,7 @@
 !
 ! *** adfilt:NorwegianExperimentalList alternate versions/NordicFiltersABP-Inclusion.txt ***
 ! Title 🇬🇧: Dandelion Sprout's All-Nordic filters for tidier websites (for Adblock Plus with ABP inclusion compliance — Firefox ≥v121.x, Chromium ≥105.x)
-! Last modified: 28August2024v2
+! (Version|Last[ -]?[Mm]odified): Last modified08282024
 ! Lisens / Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! 🇳🇴: Denne listen dekker nettsteder for Norge, Danmark, Island, Færøyene, Grønland, Schleswig-Holsteins danske minoritet, samebefolkningen, Sverige, og Finland. Denne versjonen av listen inkluderer ikke anti-anti-reklameblokkering, ettersom slike oppføringer ikke er tillatt for lister som er inkludert i Adblock Plus. For mere informasjon, detaljer, hjelpemidler, og andre lister jeg har laget, gå til https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#norsk
 ! 🇩🇰: Denne liste dækker websider for Danmark, Norge, Island, Færøerne, Grønland, Sydslesvig, den samiske befolkning, Sverige, og Finland. Den her listeversion indeholder ikke anti-anti-reklameblokkering, eftersom sådanne opføringer ikke er tilladt for lister, der er inkluderet i Adblock Plus. For mere information-, detaljer-, nyttige værktøjer- og andre lister, jeg har lavet, besøg https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#dansk
@@ -3239,6 +3239,7 @@ triplx.dk##.aff-inner-col
 ! https://github.com/brave/adblock-lists/issues/768 (Remove when Shield Standard Mode adds support for cosmetic filtering in default lists)
 ||akamai.vgc.no/drfront3^$image
 ! Generic entries that seem like they'd apply to the internet as a whole (Nordic sites included) that aren't in EasyList or AdGuard Base Filter, but which are in either uBlock Filters Ads, uBlock Filters Unbreak, or uBlock Filters Badware Risks.
+! (Version|Last[ -]?[Mm]odified): Version06262024-Extension
 ###ad_feature:not(:empty)
 ###ad_img:not(:empty)
 ###adContext:not(:empty)
@@ -3355,6 +3356,7 @@ triplx.dk##.aff-inner-col
 ! Other entries that are «AdGuard syntax»-specific
 ! Generic entries that seem like they'd apply to the internet as a whole (Nordic sites included) that aren't in EasyList or uBlock Filters, but which are in AdGuard Base Filter.
 ! An equivalent file also exists for AdGuard softwares.
+! (Version|Last[ -]?[Mm]odified): Version05212024-Extension
 ###ad-fullbanner2-billboard-outer
 ###ad-topper
 ###ad_300X250
@@ -3492,6 +3494,7 @@ triplx.dk##.aff-inner-col
 /xstat/ppjs?
 /xvideo.js|
 /zpp/zpp3.js
+! (Version|Last[ -]?[Mm]odified): Version05232024
 ! Swedish section's homepage: https://github.com/DandelionSprout/Swedish-List-for-Adblock-Plus
 ! 🇸🇪 Beskrivning: Den här listan fjärnar reklamar och sporing på svenskspråkiga websidor. Den är mycket närt knuten till «Frellwit's Swedish Filters», men har blivit modifiserad för att fjärna uppföringer som stridar emot reglementet för inkludering i Adblock Plus (så som anti-anti-adblocking, cookie-notifikationer, nyhetsbrev, med mer), och öka kompatibiliteten med ABP sin syntax, eftersom Frellwits lista inte tilbjuder offisiell brukerstöd för ABP-brukare. Planen är att synkronisera med listan honoms omkring en gång i månaden, och att vi i ABP-teamet lägger till båda variga och mildertidiga fixer i mällantiden.
 ! 🇬🇧 Description: This list removes advertising and tracking on Swedish-language websites. It is very closely connected to "Frellwit's Swedish Filters", but has been modified to remove entries that are against the rules for inclusion in Adblock Plus (such as anti-anti-adblocking, cookie notifications, newsletters, etc.), and increase compatibility with ABP's syntax, since Frellwit's list does not offer official user support for ABP users. The plan is to synchronise with his list roughly once a month, and that the ABP team add both permanent and temporary fixes in the meantime.
