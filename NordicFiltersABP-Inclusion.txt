@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fpYWKe7M4dKmNAJ5R+dyVw
-! Version: 202409051211
+! Checksum: FbUXPQQDTK1UmBg/PAOZIg
+! Version: 202409051221
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 05 Sep 2024 12:11 UTC
+! Last modified: 05 Sep 2024 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -12,6 +12,7 @@
 !
 ! *** adfilt:NorwegianExperimentalList alternate versions/NordicFiltersABP-Inclusion.txt ***
 ! Title 🇬🇧: Dandelion Sprout's All-Nordic filters for tidier websites (for Adblock Plus with ABP inclusion compliance — Firefox ≥v121.x, Chromium ≥105.x)
+! Last modified: 28August2024v2
 ! Lisens / Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! 🇳🇴: Denne listen dekker nettsteder for Norge, Danmark, Island, Færøyene, Grønland, Schleswig-Holsteins danske minoritet, samebefolkningen, Sverige, og Finland. Denne versjonen av listen inkluderer ikke anti-anti-reklameblokkering, ettersom slike oppføringer ikke er tillatt for lister som er inkludert i Adblock Plus. For mere informasjon, detaljer, hjelpemidler, og andre lister jeg har laget, gå til https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#norsk
 ! 🇩🇰: Denne liste dækker websider for Danmark, Norge, Island, Færøerne, Grønland, Sydslesvig, den samiske befolkning, Sverige, og Finland. Den her listeversion indeholder ikke anti-anti-reklameblokkering, eftersom sådanne opføringer ikke er tilladt for lister, der er inkluderet i Adblock Plus. For mere information-, detaljer-, nyttige værktøjer- og andre lister, jeg har lavet, besøg https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#dansk
@@ -5969,7 +5970,7 @@ zeromagazine.nu##div[id^=ads]
 feber.se##.maxetise
 nytid.no#@#div.td-a-rec img
 ! Description: Finnish adblock list
-! Last modified: Mon, 29 Jul 2024 12:01:52 +0000
+! Last modified: Mon, 02 Sep 2024 20:34:14 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -7152,6 +7153,7 @@ vuokraovi.com##.service-ad-panel
 webnode.fi##.wnd-free-stripe-link
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
+www.io-tech.fi##.widget.datatronic
 www.io-tech.fi##[data-revive-zoneid]
 www.io-tech.fi##aside.jimmx
 www.io-tech.fi#?#.artikkeli-slide:has(img[src*="-nostokuva"])
