@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /tMOGc7Bfu6zags2ezVo6A
-! Version: 202409061701
+! Checksum: 0yW5IULUt8SWhN/Vw0xaGA
+! Version: 202409061711
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 06 Sep 2024 17:01 UTC
+! Last modified: 06 Sep 2024 17:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7660,7 +7660,6 @@ srk.fi#@##CookielawBanner
 /ad.cgi?
 /ad.css?$stylesheet
 /ad.html?
-/ad.min.
 /ad/a.aspx?
 /ad/dfp/js/dfp.js
 /ad/err?
@@ -7861,7 +7860,7 @@ srk.fi#@##CookielawBanner
 /adsmanager/*$domain=~adsmanager.facebook.com|~github.com
 /AdsPlugin.
 /adsrv.
-/adsscript.
+/adsscript.$script
 /adsserv.
 /adsserver.
 /adsservice.
@@ -7907,7 +7906,7 @@ srk.fi#@##CookielawBanner
 /advrotator_banner_largo.htm
 /advtBanner.
 /adx2.
-/adz/js/adz.
+/adz/js/adz.$script
 /adzones.js
 /aff-ads.
 /aff/banners/*$image
@@ -7978,7 +7977,6 @@ srk.fi#@##CookielawBanner
 /bannerad.
 /bannerad3.js$script
 /bannerads/*$~xmlhttprequest,domain=~coldwellbankerhomes.com
-/banners.*/go/page/*
 /banners.*/piclist?
 /banners.cgi?
 /banners/468$image
@@ -8154,7 +8152,6 @@ srk.fi#@##CookielawBanner
 /lazyad-loader.min.js
 /lazyload.ads?
 /left_ads.js
-/leftad.jpg
 /leftad.js
 /leftad.png
 /legion-advertising-atlasastro/*$script
@@ -8199,7 +8196,7 @@ srk.fi#@##CookielawBanner
 /nwm-fcn.min.js
 /nwm-pw2.min.js
 /nxst-advertising/dist/htlbid-advertising.min.js
-/oiopub-direct/js.php
+/oiopub-direct/js.php$script
 /oncc-ad.js
 /oncc-adbanner.js
 /openads.js
@@ -8363,7 +8360,7 @@ srk.fi#@##CookielawBanner
 /servlet/view/*$script
 /set_adcode?
 /sft-prebid.js
-/show-ad.js
+/show-ad.js$script
 /show_ad.js
 /show_ad?
 /showban.asp?
@@ -8763,7 +8760,6 @@ _widget_ad.
 /prebid9.$script
 /prebid?
 /prebid_$script,third-party
-/prebid_v4.
 /prebidAdcall.
 /prebidLibrary.
 /prebidlink/*$script
