@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WxZFAVloOvq0qvHBPoTrow
-! Version: 202409060821
+! Checksum: jAAjm39V4kOwEOSOmNVqzg
+! Version: 202409060841
 ! Title: EasyList Polish
-! Last modified: 06 Sep 2024 08:21 UTC
+! Last modified: 06 Sep 2024 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -352,6 +352,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||sterta.pl^$image,domain=olsztyn.com.pl
 ||stoczniowcy.pl^*^jds.
 ||studentnews.pl/b.php$script,domain=avrupadaokuma.eu|bachelor.undergraduatestudy.eu|distancelearningstudy.eu|dlamaturzysty.info|dlaucznia.info|doctoralstudy.eu|dualstudies.eu|edubaza.pl|estudarnaeuropa.eu|estudiareneuropa.eu|etudiereneurope.eu|gramatyka-angielska.info|kierunki-studiow.info|kursy-zawodowe.kwalifikacjezawodowe.info|kursyjezykowe.biz|kursyonline.info|kursysemestralne.pl|master.postgraduatestudy.eu|mba-studies.eu|ochschulen.studiumineuropa.eu|organizacjestudenckie.pl|pracaikariera.pl|rektorzy.pl|studenckamarka.pl|studenckamoda.pl|studentka.pl|studentnews.eu|studentnews.pl|studiadoktoranckie.info|studiainzynierskie.info|studialicencjackie.info|studiamagisterskie.info|studiamba.info|studianiestacjonarne.info|studiaonline.info|studiastacjonarne.info|studiaweuropie.eu|studies-in-english.pl|studies-in-europe.eu|studies-in-poland.pl|studiumveurope.eu|szkolyjezykowe.info|tanulmanyokeuropaban.eu|universita.studiareineuropa.eu|wameryce.info|weuropie.info
+||swidnik.pl^*^alior_swidnik_
 ||sychar.org^*^tolle-
 ||syrena.nekla.eu^*-agraf-
 ||systemyplatnosci.com^*^fundacja_zoodoptuj.
@@ -380,7 +381,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-||swidnik.pl^*^alior_swidnik_
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2468,7 +2468,7 @@ pultusk.news##div[class$="-banner"]
 nowywyszkowiak.pl##div[class$="_baner"]
 ckm.pl##div[class$="advert"]
 onet.pl##div[class*="EmbeddedApplication_moneteasy_"] > div
-elita-magazyn.pl##div[class*="ad"]
+elita-magazyn.pl,ewyszkow.pl##div[class*="ad"]
 elk24.pl##div[class*="ad-type-"]
 strzal.pl##div[class*="ads-container-"]
 demotywatory.pl##div[class*="adv_"]
