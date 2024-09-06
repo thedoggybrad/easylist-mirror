@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ECQndZTtxlda1R8cFPyFUg
-! Version: 202409061731
+! Checksum: C5tN9pdaP7soyE1XQ7yS1Q
+! Version: 202409061741
 ! Title: EasyList without rules for adult sites
-! Last modified: 06 Sep 2024 17:31 UTC
+! Last modified: 06 Sep 2024 17:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -159,6 +159,7 @@
 /ad.cgi?
 /ad.css?$stylesheet
 /ad.html?
+/ad.min.js$script,domain=~qoly.jp
 /ad/a.aspx?
 /ad/dfp/js/dfp.js
 /ad/err?
