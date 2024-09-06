@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HnpcB2DVymFWMvw/khFh8g
-! Version: 202409061611
+! Checksum: 789MNnS0RG1Z5v+pcPUSxA
+! Version: 202409061621
 ! Title: EasyList without element hiding rules
-! Last modified: 06 Sep 2024 16:11 UTC
+! Last modified: 06 Sep 2024 16:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -285,7 +285,7 @@
 /ads/get-ads-by-zones/?zones%
 /ads/image/*$image
 /ads/images/*$image,domain=~eoffcn.com
-/ads/index.
+/ads/index.$~xmlhttprequest
 /ads/index/*$~xmlhttprequest,domain=~kuchechina.com
 /ads/leaderboard-$~xmlhttprequest
 /ads/leaderboard.
@@ -432,7 +432,7 @@
 /amazon-associates-link-$~stylesheet
 /amp-ad-$script
 /amp-connatix-$script
-/amp4ads-host-v0.js
+/amp4ads-host-v0.js$script
 /ane-popup-banner.js
 /ane-popup.js
 /annonse.
@@ -659,9 +659,7 @@
 /legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
-/linkad2.jpg
 /livejasmin.$domain=~livejasmin.com
-/livejasmin2.jpg
 /livejasminpopupunder.
 /localads.aspx
 /log_ad?
@@ -707,7 +705,6 @@
 /owa.MessageAdList.
 /p8network.js
 /p?zoneId=
-/page-ads.
 /page-links-to/dist/new-tab.js
 /page-peel$~xmlhttprequest
 /page/bouncy.php?
@@ -778,7 +775,6 @@
 /popupunder.js
 /prbt/v1/ads/?
 /prebid-video.js
-/prehead/ads_detect.js
 /prerollad.
 /prism_ad/*$script
 /processing/impressions.asp?
@@ -951,7 +947,6 @@
 /vendors~ads.
 /vghd.gif
 /vghd2.gif
-/video-ad-overlay.
 /video-ad.
 /video-ads-player.
 /video-js-ads.
@@ -973,7 +968,6 @@
 /web_ads/*$image
 /webads.htm
 /webads.jpg
-/webads.js
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /welcome_ad.js
@@ -1276,8 +1270,6 @@ _widget_ad.
 /tagman/*$domain=~abelssoft.de
 _prebid.js
 _prebid8.
-! Invideo adverts
-/stn-player.
 !
 &sadbl=1&chu=
 ?zoneid=*&ab=1
@@ -10386,6 +10378,7 @@ _800x80_
 ||dexpredict.com^
 ||deybshwg.com^
 ||deyubo.uno^
+||dezaleyarmless.com^
 ||dfchevbeuydwq.com^
 ||dfciiiafweiag.com^
 ||dfd55780d6.com^
@@ -13153,6 +13146,7 @@ _800x80_
 ||ferict.com^
 ||fermolo.info^
 ||feroffer.com^
+||ferrmidline.com^
 ||ferrycontinually.com^
 ||fertilecalfawelessaweless.com^
 ||fertilestared.com^
@@ -14121,6 +14115,7 @@ _800x80_
 ||fundatingquest.fun^
 ||fundingexceptingarraignment.com^
 ||funestjacket.shop^
+||fungiaoutfame.com^
 ||fungus.online^
 ||funiooboqifnku.com^
 ||funjoobpolicester.info^
@@ -18118,6 +18113,7 @@ _800x80_
 ||jatchough.com^
 ||jatdticl.com^
 ||jatfugios.com^
+||jatobaviruela.com^
 ||jatomayfair.life^
 ||jatosbathkol.com^
 ||jatsekse.net^
@@ -28105,6 +28101,7 @@ _800x80_
 ||redbillecphory.com^
 ||reddenjerusalem.com^
 ||reddenlightly.com^
+||reddockbedman.com^
 ||redetaailsh.info^
 ||redheadpublicityjug.com^
 ||redi.teengirl-pics.com^
@@ -29684,6 +29681,7 @@ _800x80_
 ||scoreheadingbabysitting.com^
 ||scornfulabsorbploy.com^
 ||scornphiladelphiacarla.com^
+||scotergushing.com^
 ||scotianosed290noelind.com^
 ||scotizeoperae.com^
 ||scotsmaut.top^
@@ -40194,6 +40192,7 @@ _800x80_
 ||8eef59a5.live^$document,popup
 ||91301246.xyz^$document,popup
 ||9354ee72.xyz^$document,popup
+||94597672.xyz^$document,popup
 ||97496b9d.xyz^$document,popup
 ||977878.xyz^$document,popup
 ||97b448.xyz^$document,popup
