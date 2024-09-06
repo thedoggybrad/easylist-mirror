@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WPK0DwyJZ4a2KMZDz0IeRQ
-! Version: 202409061631
+! Checksum: Z1851kfxyWyl8a7nqEugrA
+! Version: 202409061651
 ! Title: EasyList Portuguese
-! Last modified: 06 Sep 2024 16:31 UTC
+! Last modified: 06 Sep 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -259,16 +259,6 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||simpleads.com.br^$third-party
 ||tradermilionarios.co^$third-party
 !
-||edxlewni.com^$third-party
-||eelfadechi.com^$third-party
-||ereenerall.fun^$third-party
-||eshncdkjp.com^$third-party
-||exemix.com^$third-party
-||fathuntsgall.com^$third-party
-||feyxyguwy.com^$third-party
-||filestatic.xyz^$third-party
-||finkyepbows.com^$third-party
-||foundchoked.com^$third-party
 ||glazegha.com^$third-party
 ||glenprejudice.com^$third-party
 ||hledoziequt.com^$third-party
@@ -386,13 +376,6 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||thingle.io/iframe-content.php$third-party
 ||upee.online/adsupee.js$third-party
 ||x2n.com.br/media/$third-party
-! cloudfront hosted
-||d3div1mtym39ic.cloudfront.net^
-!
-||d18t35yyry2k49.cloudfront.net^
-||d20903hof2l33q.cloudfront.net^
-||d3p8w7to4066sy.cloudfront.net^
-||dw55pg05c2rl5.cloudfront.net^
 ! *** easylistportuguese:easylistportuguese/easylistportuguese_thirdparty_popup.txt ***
 ||affiliate.fazobetai.com^$popup
 ||afiliados.esportiva.bet^$popup
@@ -482,10 +465,8 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||zwame.pt/comparador/
 !
 /^https?:\/\/[0-9a-z]{8,}\.com\/.*/$third-party,xmlhttprequest,domain=3thepiratefilmes.in|allappinc.store|aniflv.net|animescx.com.br|animexnovel.com|anitube.biz|bakashi.tv|betteranime.net|cinevisionv5.app|doramogo.com|dramafansubs.net|dramaken.com|embedflix.online|embedmax.site|encurtandourl.com|file4go.net|filmeflix.app|filmehdonline.site|futebolplayhd.ws|gemadoff.com.br|listadeanimes.com|megafilmeshd50.com|multicanais.re|myfilmestorrent.net|netcine.to|pifansubs.org|pobreflix1.com|sfapi.xyz|suatela.net|tdmsubs.com|thepiratefilmeshd.in|torrentdosfilmeshd4.net|tugaflix.best|tyflex.net
-/^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$third-party,xmlhttprequest,domain=animesonline.in|animesup.cx|anitube.vip|appmj.xyz|comandotorrents.to|dattebayo-br.com|digitaltorrentdownload.com.br|fenixproject.xyz|goanimes.vip|gofilmes.me|superfilmes.cx|topflix.sh|torrentdosfilmes.to|turquiaflix.com|warezcdn.com
+/^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$third-party,xmlhttprequest,domain=animesonline.in|animesup.cx|anitube.vip|appmj.xyz|comandotorrents.to|dattebayo-br.com|digitaltorrentdownload.com.br|fenixproject.xyz|goanimes.vip|gofilmes.me|gustavortech.com|superfilmes.cx|topflix.sh|torrentdosfilmes.to|turquiaflix.com|warezcdn.com
 !
-/wp-content/uploads/*-haribo$domain=gkpb.com.br
-||3djuegos.com/*/skins/
 ||acientistaagricola.pt/wp-content/uploads/*/*banner
 ||acientistaagricola.pt/wp-content/uploads/*/areaagricola-1.png
 ||agoravale.com.br/GCWAV/Banners/
@@ -568,13 +549,6 @@ $popup,third-party,domain=suaurl.com|topplay.cf
 !
 ! html/image popups
 /^https?:\/\/.*\.(jpg|jpeg|gif|png|svg|ico|js|txt|css|srt|vtt|webp)/$popup,domain=download.betteranime.net|infinitedramas.com
-!
-$popup,third-party,domain=filmesonlinehdgratis.com.br|vizer.tv
-/3djuegos_media_v1^$popup,domain=3djuegos.com
-||futebolplayhd.com/imagens/logo$popup
-||i.imgur.com^$popup,domain=jogostorrents.site
-! html/image popups
-/^https?:\/\/.*\.(jpg|jpeg|gif|png|svg|ico|js|txt|css|srt|vtt|webp)/$popup,domain=filmeseries.top|futemax.app|gofilmes.me|gustavortech.com|jogostorrents.site|megafilmeshd50.com|superflix.biz|temseries.online|torrentdosfilmeshd2.net
 ! *** easylistportuguese:easylistportuguese_adult/adult_specific_block.txt ***
 ||buceta.blog/pop.js
 ||buceteiro.com/wp-content/plugins/popup?
@@ -1102,7 +1076,7 @@ tsf.pt##.t-pubbox-mrec-1
 dinheirovivo.pt,tsf.pt##.t-section-sponsored
 tecnoblog.net##.tb-canal-exclusivo
 areavip.com.br##.td-a-ad
-acientistaagricola.pt,brasilnaitalia.net,diariorp.com.br,jornaldigitalcanela.com.br,jornaldoalgarve.pt,monitormercantil.com.br,motor24.pt,nerdlicious.com.br,netflu.com.br,observatoriodeourofino.com.br,psxbrasil.com.br##.td-a-rec
+acientistaagricola.pt,brasilnaitalia.net,diariorp.com.br,gkpb.com.br,jornaldigitalcanela.com.br,jornaldoalgarve.pt,monitormercantil.com.br,motor24.pt,nerdlicious.com.br,netflu.com.br,observatoriodeourofino.com.br,psxbrasil.com.br##.td-a-rec
 motor24.pt##.td-banner-wrap-full
 revistaplaneta.com.br##.td_uid_13_63667955e8fa2_rand
 revistaplaneta.com.br##.td_uid_15_63667955ec1ba_rand
@@ -1489,7 +1463,6 @@ caras.uol.com.br##.top-banner
 nsctotal.com.br##.top-smad
 radio.net##.topAdSpacer
 otempo.com.br##.topo-patrocinado-artigo
-gkpb.com.br##.topo-ursinhos
 uai.com.br##.uai-publicidade-retangulo-noticias
 mangalivre.net##.vignette-content
 r7.com##.widget-24x1-ultimas__taboola
