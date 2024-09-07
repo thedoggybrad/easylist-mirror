@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: s29L3PvLIvZSjmPOLK/K2w
-! Version: 202409070631
+! Checksum: eGXNygLQ/bJWRy8G1xhSAA
+! Version: 202409070641
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Sep 2024 06:31 UTC
+! Last modified: 07 Sep 2024 06:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7715,7 +7715,6 @@ srk.fi#@##CookielawBanner
 /adasync.js
 /adasync.min.js
 /adbanners/*$image
-/adbox.js
 /adcall?
 /adcgi?
 /adchoice.png$image
@@ -7747,7 +7746,6 @@ srk.fi#@##CookielawBanner
 /admgr.js
 /admitad.js
 /adocean.js
-/ados.js
 /adpartner.min.js
 /adplayer.$script,domain=~adplayer.pro
 /adplugin.
@@ -7935,7 +7933,6 @@ srk.fi#@##CookielawBanner
 /ane-popup-banner.js
 /annonse.
 /annonser.
-/api-ads.
 /api.ad.
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /api/ad.$script
@@ -8034,12 +8031,12 @@ srk.fi#@##CookielawBanner
 /displayad?
 /dmcads_$script
 /doubleclick.min
-/drsup-admanager-ajax.js
+/drsup-admanager-ajax.js$script
 /dynamicad?
 /ec5bcb7487ff.js
 /exitpop.js
 /exitpopunder.js
-/exitpopup.js
+/exitpopup.js$script
 /exitsplash.php
 /exoads/*$script
 /exobanner.
@@ -8055,9 +8052,8 @@ srk.fi#@##CookielawBanner
 /external_ads.
 /fel456.js$script
 /fgh1ijKl.js
-/flashad.asp
+/flashad.asp$subdocument
 /flashad.js
-/flashad3.jpg
 /flashads.$domain=~flashads.co.id
 /fleshlight.$domain=~fleshlight.com|~fleshlight.zendesk.com
 /fload.js
@@ -8374,7 +8370,6 @@ srk.fi#@##CookielawBanner
 /size=*/random=*/viewid=
 /skin/ad/*$image,script
 /skin/adv/*$~xmlhttprequest
-/skinad.
 /skyadright.
 /skyscraperad.
 /slide_in_ads_close.gif
@@ -8382,7 +8377,6 @@ srk.fi#@##CookielawBanner
 /sliderad.js$script
 /small_ad.
 /smartlinks.epl?
-/soralink.js
 /sp/delivery/js.php
 /spacedesc=
 /spc.php?$script
@@ -8450,12 +8444,11 @@ srk.fi#@##CookielawBanner
 /videoad.$domain=~videoad.in
 /videoad/*$script
 /videoads/*$~xmlhttprequest
-/videojs.ads-
+/videojs.ads-$script,stylesheet
 /videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
 /viewad.asp
-/viewad.php
 /virtuagirlhd.
 /web/ads/*$image
 /web_ads/*$image
@@ -67455,6 +67448,7 @@ browsershots.org#@#.advert_area
 ||onnetwork.tv/widget/
 ||ooproxy.azurewebsites.net^$xmlhttprequest,domain=imasdk.googleapis.com
 ||orangebuddies.nl/image/banners/
+||out.betforce.io^
 ||outbrainimg.com/transform/$media,third-party
 ||owebsearch.com^$third-party
 ||p.jwpcdn.com/player/plugins/vast/
@@ -67670,6 +67664,7 @@ browsershots.org#@#.advert_area
 ||zergnet.com/zerg.js
 ||ziffstatic.com/pg/
 ||ziffstatic.com/zmg/pogoadk.js
+||zkcdn.net/ados.js
 ||zv.7vid.net^
 ! CNAME
 ! https://d3ward.github.io/toolz/src/adblock.html
@@ -72085,6 +72080,7 @@ inverness-courier.co.uk##.LLKGTX
 nyctourism.com##.Layout_mobileStickyAdContainer__fCbCq
 kentonline.co.uk##.LeaderBack
 fivebooks.com##.Leaderboard-container
+theurbanlist.com##.LeaderboardAd
 nationalgeographic.com##.LinkedImage
 inverness-courier.co.uk,johnogroat-journal.co.uk,stamfordmercury.co.uk##.MPU
 abergavennychronicle.com,tenby-today.co.uk##.MPUstyled__MPUWrapper-sc-1cdmm4p-0
