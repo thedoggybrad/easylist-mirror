@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: iIBRfM7M7LpLxF3Ac0/PMg
-! Version: 202409070751
+! Checksum: yZ0NozffIukR65x28aoiQw
+! Version: 202409070801
 ! Title: EasyPrivacy without international filters
-! Last modified: 07 Sep 2024 07:51 UTC
+! Last modified: 07 Sep 2024 08:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -43837,6 +43837,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 !! tag.aticdn.net
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 !! cdn.optimizely.com/public
+@@||cdn-pci.optimizely.com/public/*/sales_snippet.js$domain=talktalk.co.uk
 @@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
 !! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
