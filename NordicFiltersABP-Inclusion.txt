@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lLI8EXAsrZAlfXztLX95Tg
-! Version: 202409071141
+! Checksum: Tjhl2ZpyXqWAbjOis9KRjg
+! Version: 202409071151
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Sep 2024 11:41 UTC
+! Last modified: 07 Sep 2024 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7896,7 +7896,6 @@ srk.fi#@##CookielawBanner
 /advtBanner.
 /adx2.
 /adz/js/adz.$script
-/adzones.js
 /aff-ads.
 /aff/banners/*$image
 /aff/images/*$image
@@ -8393,11 +8392,11 @@ srk.fi#@##CookielawBanner
 /style_ad.css$stylesheet
 /suurl4.php?
 /suurl5.php
-/suv4.js
+/suv4.js$third-party
 /suv5.js$third-party
 /sync2ad.js
 /taboola-footer.js
-/taboola-header.js
+/taboola-header.js$script
 /taboola_8.9.1.js$script
 /taboola_header.js
 /taboolaarticle.min.js
@@ -69164,6 +69163,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||bibleh.com/b2.htm
 ||biblehub.com/botmenu
 ||biblemenus.com/adframe
+||bigsquidrc.com/wp-content/themes/bsrc2/js/adzones.js
 ||bioinformatics.org/images/ack_banners/
 ||bit.com.au/scripts/js_$script
 ||bitchute.com/static/ad-sidebar.html
@@ -69733,6 +69733,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||uxmatters.com/images/sponsors/
 ||v3cars.com/load-ads.php
 ||vastz.b-cdn.net/hsr/HSR*.mp4
+||vectips.com/wp-content/themes/vectips-theme/js/adzones.js
 ||videogameschronicle.com/ads/
 ||vidstream.pro/AB/pioneersuspectedjury.com/
 ||vidzstore.com/popembed.php
