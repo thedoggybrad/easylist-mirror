@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xr4vdKjJn4a7tD3JfFoqmw
-! Version: 202409070651
+! Checksum: OFROQtY5ztt3n0PO1/kGRA
+! Version: 202409070701
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Sep 2024 06:51 UTC
+! Last modified: 07 Sep 2024 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -70361,6 +70361,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||hqporn.su/myvids/
 ||hqpornstream.com/pub/
 ||hypnohub.net/assets/hub.js
+||i.imgur.com^$domain=hentaitube.icu
 ||iceporn.com/player_right_ntv_
 ||idealnudes.com/tf40bbdd1767.js
 ||imagepost.com/stuff/
@@ -77023,6 +77024,7 @@ popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 avclub.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(> [is="bulbs-dfp"])
 fortune.com##[class]:has(> #Leaderboard0)
+thrillist.com##[class^="Container__GridRow-sc-"]:has(> .concert-ad)
 skyscanner.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
