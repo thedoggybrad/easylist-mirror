@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5ypOdIX1AVPnM9m0azsUkQ
-! Version: 202409070931
+! Checksum: /7tRzb6KK2HBWFqZRKVzGg
+! Version: 202409070941
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Sep 2024 09:31 UTC
+! Last modified: 07 Sep 2024 09:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7687,7 +7687,6 @@ srk.fi#@##CookielawBanner
 /ad_common.js
 /ad_counter.aspx
 /ad_display.js
-/ad_ga_callback.js
 /ad_header.js
 /ad_home.js
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
@@ -7765,7 +7764,7 @@ srk.fi#@##CookielawBanner
 /ads.bundle.js
 /ads.bundle.min.js
 /ads.cfm?
-/ads.jplayer.
+/ads.jplayer.$stylesheet
 /ads.jsp
 /ads.pl?
 /ads/!rotator/*
@@ -7793,7 +7792,7 @@ srk.fi#@##CookielawBanner
 /ads/revgen.$script
 /ads/serve?
 /ads/show.$script
-/ads/slideup.
+/ads/slideup.$script
 /ads/spacer.
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
@@ -8120,9 +8119,9 @@ srk.fi#@##CookielawBanner
 /internAds.css
 /istripper.gif
 /jquery.ad.js$script
-/jquery.adi.js
-/jquery.adx.js
-/jquery.dfp.js
+/jquery.adi.js$script
+/jquery.adx.js$script
+/jquery.dfp.js$script
 /jquery.openxtag.js
 /jquery.php/?uid=
 /js.ad/size=
@@ -8283,7 +8282,7 @@ srk.fi#@##CookielawBanner
 /punder.php
 /push/p.js?
 /pustrck.js
-/rad_singlepageapp.js
+/rad_singlepageapp.js$script
 /radioAdEmbed.
 /radioAdEmbedGPT.
 /railad.jpg
@@ -8369,7 +8368,7 @@ srk.fi#@##CookielawBanner
 /skin/adv/*$~xmlhttprequest
 /skyadright.
 /skyscraperad.
-/slide_in_ads_close.gif
+/slide_in_ads_close.gif$image
 /slider_ad.js$script
 /sliderad.js$script
 /small_ad.
@@ -8434,7 +8433,6 @@ srk.fi#@##CookielawBanner
 /video-ad.
 /video-ads-player.
 /video-js-ads.
-/video.ads.
 /video_ad.
 /video_ads.
 /video_slider3.js
@@ -8747,7 +8745,6 @@ _widget_ad.
 /prebid?
 /prebid_$script,third-party
 /prebidAdcall.
-/prebidLibrary.
 /prebidlink/*$script
 /pubfig.min.js
 /tagman/*$domain=~abelssoft.de
@@ -8782,7 +8779,7 @@ _prebid8.
 /adblock_detector.
 /adblock_detector2.
 /adblock_logger.$script
-/adblockdetect.
+/adblockdetect.js$script
 /adblockdetection.
 /adBlockDetector/*$script
 /adblocker-leader.
