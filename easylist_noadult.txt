@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KVMXMSw1OPrAjrZcWDsPvw
-! Version: 202409071041
+! Checksum: Z0naaOGRxHNTp6S5PLxk/Q
+! Version: 202409071101
 ! Title: EasyList without rules for adult sites
-! Last modified: 07 Sep 2024 10:41 UTC
+! Last modified: 07 Sep 2024 11:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -148,7 +148,6 @@
 /ab_fl.js$script
 /ad--unit.htm
 /ad-125.
-/ad-bottom.
 /ad-choices-$image
 /ad-choices.
 /ad-scripts--$script
@@ -218,7 +217,6 @@
 /adcommon?
 /adconfig.js$script
 /adcount.js
-/adcount.php
 /addons/ads.
 /addyn|*;adtech;
 /addyn|*|adtech;
@@ -254,7 +252,7 @@
 /ads-250.$image
 /ads-async.
 /ads-common.$image,script
-/ads-front.min.js
+/ads-front.min.js$script
 /ads-frontend.min.js$script
 /ads-rectangle.
 /ads-right.
@@ -317,7 +315,6 @@
 /ads?param=
 /ads?zone=
 /ads?zone_id=
-/ads_300.
 /ads_banners/*$image
 /ads_bg.$image
 /ads_bottom.js
@@ -446,7 +443,6 @@
 /awaps-ad-sdk-$script
 /awe2.js
 /ban.php?
-/ban160.php
 /ban300.html
 /ban300.php
 /ban728.html
@@ -566,7 +562,7 @@
 /footerads.
 /fro_lo.js
 /froloa.js
-/frontend_loader.js
+/frontend_loader.js$script
 /ftt2/js.php
 /funcript*.php?pub=
 /gdpr-ad-script.js
@@ -698,7 +694,7 @@
 /pagead/osd.
 /pageear.js$script
 /pageear/*$script
-/pagepeel.
+/pagepeel.$~xmlhttprequest
 /pagepeelpro.js
 /partnerads/js/setcookie.js
 /partneradwidget.
@@ -766,7 +762,6 @@
 /production/ads/*$script
 /promo.php?c=$third-party
 /promo/ads/*$~xmlhttprequest
-/promo/affiframe.
 /promotools.$subdocument
 /proxyadcall?
 /public/ad/*$image
@@ -942,7 +937,6 @@
 /videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
-/viewad.asp
 /virtuagirlhd.
 /web/ads/*$image
 /web_ads/*$image
@@ -63421,7 +63415,7 @@ wionews.com##.ads-box-300x300
 dnaindia.com,wionews.com##.ads-box-970x90
 dnaindia.com,wionews.com##.ads-box-d90-m300
 thefinancialexpress.com.bd##.ads-carousel-container
-gosunoob.com,indianexpress.com,matrixcalc.org,phys.org,roblox.com,spotify.com,wccftech.com##.ads-container
+gosunoob.com,indianexpress.com,matrixcalc.org,philstarlife.com,phys.org,roblox.com,spotify.com,wccftech.com##.ads-container
 pcquest.com##.ads-div-style
 samehadaku.email##.ads-float-bottom
 thetruthaboutcars.com##.ads-fluid-wrap
@@ -64028,6 +64022,7 @@ brobible.com##.bro_caffeine_wrap
 brobible.com##.bro_vidazoo_wrap
 moco360.media##.broadstreet-story-ad-text
 vaughn.live##.browsePageAbvs300x600
+femalefirst.co.uk##.browsi_home
 techpp.com##.brxe-shortcode
 christianpost.com##.bs-article-cell
 moco360.media##.bs_zones
@@ -65772,6 +65767,8 @@ premiumtimesng.com##.premi-texem-campaign
 banjohangout.org,fiddlehangout.com,flatpickerhangout.com,mandohangout.com,resohangout.com##.premiere-sponsors
 sulekha.com##.premium-banner-advertisement
 pixabay.com##.present-g-item
+bangpremier.com##.presentation-space
+bangpremier.com##.presentation-space-m-panel
 flobzoo.com##.preview2bannerspot
 manutd.com##.primary-header-sponsors
 tech.hindustantimes.com##.primeDay
