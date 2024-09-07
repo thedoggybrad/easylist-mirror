@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wlXJIV1SYantHXrW+7lU6g
-! Version: 202409070801
+! Checksum: USTOLZq02BcN5qi1/YeUow
+! Version: 202409070811
 ! Title: EasyList without rules for adult sites
-! Last modified: 07 Sep 2024 08:01 UTC
+! Last modified: 07 Sep 2024 08:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -237,7 +237,6 @@
 /adlayer.php
 /adlib.min.js
 /adlog.php
-/admanager.css
 /admanager.js
 /admanager.min.js
 /admanager/*$~object,domain=~admanager.line.biz|~blog.google|~sevio.com
@@ -290,7 +289,7 @@
 /ads/popout.
 /ads/popup.
 /ads/rectangle_$subdocument
-/ads/revgen.
+/ads/revgen.$script
 /ads/serve?
 /ads/show.$script
 /ads/slideup.
@@ -443,7 +442,7 @@
 /asset/ad/*$image
 /assets/ads/*$~image,domain=~outlook.live.com
 /asyncjs.php$script
-/asyncspc.php
+/asyncspc.php$third-party
 /auto.ad.
 /awaps-ad-sdk-$script
 /awe2.js
@@ -531,7 +530,7 @@
 /doubleclick.min
 /drsup-admanager-ajax.js$script
 /dynamicad?
-/ec5bcb7487ff.js
+/ec5bcb7487ff.js$script
 /exitpop.js
 /exitpopunder.js
 /exitpopup.js$script
@@ -558,7 +557,7 @@
 /float_ad.js
 /floatads.
 /floating-ad-rotator-$script,stylesheet
-/floatingad.js
+/floatingad.js$script
 /floatingads.js
 /flyad.js
 /footer-ad.$~script
@@ -631,7 +630,7 @@
 /js.ng/pagepos=
 /js3caf.js
 /jsad.php
-/jsAds-1.4.min.js
+/jsAds-1.4.min.js$script
 /jshexi.hj?lb=
 /jspopunder.js
 /jspopunder.min.js$script
@@ -641,7 +640,7 @@
 /lazyad-loader.min.js
 /lazyload.ads?
 /left_ads.js
-/leftad.js
+/leftad.js$script
 /leftad.png
 /legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?
@@ -680,7 +679,6 @@
 /neverblock/*$script
 /new/floatadv.js
 /ntv.json?key=
-/nugg.min.js
 /Nuggad?
 /nwm-fcn.min.js
 /nwm-pw2.min.js
@@ -1277,7 +1275,6 @@ _prebid8.
 /adb_detector.
 /adblock-detect.
 /adblock-detector.
-/adblock-message.
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock.gif?
 /adblock_detect.
@@ -17320,6 +17317,7 @@ browsershots.org#@#.advert_area
 ||acdcmarimo.com^
 ||acdn01.vidox.net^
 ||acdn923132475.com^
+||ace-adserver.com^
 ||acecapprecarious.com^
 ||acediscover.com^
 ||acelacien.com^
