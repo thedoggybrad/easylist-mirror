@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Zd4nvM5AGLcV2SyI6mT01g
-! Version: 202409071041
+! Checksum: 9jI6vKTEAtC9s3aE1xdVOg
+! Version: 202409071101
 ! Title: EasyList without element hiding rules
-! Last modified: 07 Sep 2024 10:41 UTC
+! Last modified: 07 Sep 2024 11:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -148,7 +148,6 @@
 /ab_fl.js$script
 /ad--unit.htm
 /ad-125.
-/ad-bottom.
 /ad-choices-$image
 /ad-choices.
 /ad-scripts--$script
@@ -218,7 +217,6 @@
 /adcommon?
 /adconfig.js$script
 /adcount.js
-/adcount.php
 /addons/ads.
 /addyn|*;adtech;
 /addyn|*|adtech;
@@ -254,7 +252,7 @@
 /ads-250.$image
 /ads-async.
 /ads-common.$image,script
-/ads-front.min.js
+/ads-front.min.js$script
 /ads-frontend.min.js$script
 /ads-rectangle.
 /ads-right.
@@ -317,7 +315,6 @@
 /ads?param=
 /ads?zone=
 /ads?zone_id=
-/ads_300.
 /ads_banners/*$image
 /ads_bg.$image
 /ads_bottom.js
@@ -446,7 +443,6 @@
 /awaps-ad-sdk-$script
 /awe2.js
 /ban.php?
-/ban160.php
 /ban300.html
 /ban300.php
 /ban728.html
@@ -566,7 +562,7 @@
 /footerads.
 /fro_lo.js
 /froloa.js
-/frontend_loader.js
+/frontend_loader.js$script
 /ftt2/js.php
 /funcript*.php?pub=
 /gdpr-ad-script.js
@@ -698,7 +694,7 @@
 /pagead/osd.
 /pageear.js$script
 /pageear/*$script
-/pagepeel.
+/pagepeel.$~xmlhttprequest
 /pagepeelpro.js
 /partnerads/js/setcookie.js
 /partneradwidget.
@@ -766,7 +762,6 @@
 /production/ads/*$script
 /promo.php?c=$third-party
 /promo/ads/*$~xmlhttprequest
-/promo/affiframe.
 /promotools.$subdocument
 /proxyadcall?
 /public/ad/*$image
@@ -942,7 +937,6 @@
 /videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
-/viewad.asp
 /virtuagirlhd.
 /web/ads/*$image
 /web_ads/*$image
@@ -48356,6 +48350,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||hentaifox.com/js/slider.js
 ||hentaihere.com/arkNVB/
 ||hentaini.com/img/ads/
+||hentairider.com/banners/
 ||hentairules.net/gal/new-gallery-dump-small.gif
 ||hentaiworld.tv/banners-script.js
 ||herexxxtube.com/tmp/
