@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202409081200
+! Version: 202409081138
 ! Title: EasyList
-! Last modified: 08 Sep 2024 12:00 UTC
+! Last modified: 08 Sep 2024 11:38 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -345,10 +345,11 @@
 /AdsPlugin.
 /adsrv.
 /adsscript.$script
+/adsserv.
 /adsservice.
 /adsTracking.$script
 /adstream.
-/adsWrapper.js$script
+/adswrapper.
 /ads~adsize~
 /adtech;
 /adTools.
@@ -359,7 +360,7 @@
 /adutil.
 /adv-banner-$image
 /adv-scroll-sidebar.js$script
-/adv-scroll.$script
+/adv-scroll.
 /adv-socialbar-scroll.js$script
 /adv.css?
 /adv_468.
@@ -384,6 +385,7 @@
 /advtBanner.
 /adx2.
 /adz/js/adz.$script
+/aff-ads.
 /aff/banners/*$image
 /aff/images/*$image
 /aff_ad?$script
@@ -675,7 +677,7 @@
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
 /pagepeelpro.js
-/partnerads/js/*$script
+/partnerads/js/setcookie.js
 /partneradwidget.$subdocument
 /partnerbanner.$domain=~toltech.cn
 /partners/ads/*$image
@@ -876,7 +878,7 @@
 /taboola_8.9.1.js$script
 /taboola_header.js
 /taboolaarticle.min.js
-/targetingAd.js$script
+/targetingAd.js
 /targetpushad.js$script
 /theologicalpresentation.com/*
 /tmbi-a9-header-$script
@@ -891,6 +893,7 @@
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
 /v3/ads?
+/valnet-header-ads.
 /vast/?zid=
 /velvet_stack_cmp.js
 /vendors~ads.
@@ -967,7 +970,6 @@
 ://adserving.
 ://adsserver.
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
-://aff-ads.
 ://affiliate.$third-party
 ://affiliates.$third-party
 ://affiliates2.$third-party
@@ -1135,7 +1137,7 @@ _widget_ad.
 ://rs-stripe.wsj.com/stripe/image?
 ! Dodgy sites
 /?l=*&s=*&mprtr=$~third-party,xmlhttprequest
-/push-skin/skin.min.js$script
+/push-skin/skin.min.js
 /search/tsc.php?
 ! https://github.com/easylist/easylist/issues/5054
 /full-page-script.js$script
@@ -54542,7 +54544,6 @@ browsershots.org#@#.advert_area
 ||0c0b6e3f.xyz^$document,popup
 ||0d785fd7.xyz^$document,popup
 ||10523745.xyz^$document,popup
-||10753990.xyz^$document,popup
 ||11152646.xyz^$document,popup
 ||1116c5.xyz^$document,popup
 ||11c7a3.xyz^$document,popup
