@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6ka6+1n5Ot3s9kOIAY6kmA
-! Version: 202409081121
+! Checksum: jptWfVh3kPBUJwPbAQTyRw
+! Version: 202409081131
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 08 Sep 2024 11:21 UTC
+! Last modified: 08 Sep 2024 11:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7624,7 +7624,6 @@ srk.fi#@##CookielawBanner
 .org/script/compatibility.js$third-party
 .ph/ads/
 .php/ad/
-.php/ads/
 .php?ad=
 .php?adsid=
 .php?adv=
@@ -7647,7 +7646,7 @@ srk.fi#@##CookielawBanner
 /a/?ad=
 /a/display.php?$script
 /ab_fl.js$script
-/ad--unit.htm
+/ad--unit.htm|
 /ad-125.
 /ad-choices-$image
 /ad-choices.
@@ -7791,7 +7790,6 @@ srk.fi#@##CookielawBanner
 /ads/spacer.
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
-/ads/square.
 /ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/top.
@@ -8006,14 +8004,14 @@ srk.fi#@##CookielawBanner
 /discourse-adplugin-$script
 /displayad?
 /dmcads_$script
-/doubleclick.min
+/doubleclick.min$script
 /drsup-admanager-ajax.js$script
 /dynamicad?
 /ec5bcb7487ff.js$script
 /exitpop.js$script
 /exitpopunder.js
 /exitpopup.js$script
-/exitsplash.php
+/exitsplash.php$script
 /exoads/*$script
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
@@ -8046,7 +8044,7 @@ srk.fi#@##CookielawBanner
 /fro_lo.js
 /froloa.js
 /frontend_loader.js$script
-/ftt2/js.php
+/ftt2/js.php$script
 /funcript*.php?pub=
 /gdpr-ad-script.js
 /get/?go=1&data=
@@ -8128,7 +8126,7 @@ srk.fi#@##CookielawBanner
 /localads.aspx
 /log_ad?
 /mads.php?
-/maven/am.js
+/maven/am.js$script
 /mbads?
 /mcad.php
 /media/ads/*$image
@@ -8173,7 +8171,6 @@ srk.fi#@##CookielawBanner
 /pagead/1p-user-list/*$image
 /pagead/conversion.js
 /pagead/lvz?
-/pagead/osd.
 /pageear.js$script
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
@@ -8229,7 +8226,7 @@ srk.fi#@##CookielawBanner
 /popunder?
 /popup-domination/*$~stylesheet
 /popup2.js$script
-/popup3.js
+/popup3.js$script
 /popup_ad.js$script
 /popup_ad.php
 /popup_code.php
@@ -8456,7 +8453,7 @@ srk.fi#@##CookielawBanner
 /wpxbz-theme.js$script
 /www/delivery/*$script,subdocument
 /xads.php
-/xpopup.js
+/xpopup.js$script
 /yhs/ads?
 /zcredirect?
 /~cdn/ads/*
@@ -8713,7 +8710,6 @@ _widget_ad.
 /prebid9.$script
 /prebid?
 /prebid_$script,third-party
-/prebidAdcall.
 /prebidlink/*$script
 /pubfig.min.js
 /tagman/*$domain=~abelssoft.de
@@ -60148,6 +60144,7 @@ browsershots.org#@#.advert_area
 ||adblocker-instant.xyz^$document
 ||adclickbyte.com^$document
 ||adfgetlink.net^$document
+||adglare.net^$document
 ||aditms.me^$document
 ||adlogists.com^$document
 ||admachina.com^$document
