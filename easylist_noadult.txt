@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mNH/tkz7PD87R9ks9nXqzg
-! Version: 202409081131
+! Checksum: SV6VOr3PsGrlqlsrL7xD9Q
+! Version: 202409081141
 ! Title: EasyList without rules for adult sites
-! Last modified: 08 Sep 2024 11:31 UTC
+! Last modified: 08 Sep 2024 11:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -54625,6 +54625,7 @@ browsershots.org#@#.advert_area
 ||7fc8.site^$document,popup
 ||814272c4.xyz^$document,popup
 ||83887336.xyz^$document,popup
+||84631949.xyz^$document,popup
 ||88129513.xyz^$document,popup
 ||88545539.xyz^$document,popup
 ||89263907.xyz^$document,popup
@@ -63029,6 +63030,8 @@ sporcle.com##.IMGgi
 streamingsites.com##.IPdetectCard
 80.lv##.ImagePromo_default
 yandex.com##.ImagesViewer-SidebarAdv
+doodle.com##.JupiterLayout__left-placement-container
+doodle.com##.JupiterLayout__right-placement-container
 inverness-courier.co.uk##.LLKGTX
 nyctourism.com##.Layout_mobileStickyAdContainer__fCbCq
 kentonline.co.uk##.LeaderBack
@@ -65094,6 +65097,7 @@ autolist.com##.jsx-2866408628
 garticphone.com##.jsx-3256658636
 essentiallysports.com##.jsx-4249843366
 conservativefiringline.com##.jtpp53
+doodle.com##.jupiter-placement-header-module_jupiter-placement-header__label__caUpc
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
 fastcompany.com##.jw-floating-dismissible
@@ -66907,7 +66911,7 @@ jagranjosh.com##[class*="_BodyAd_"]
 top.gg##[class*="__AdContainer-"]
 everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
-cointelegraph.com##[class*="ad-slot"]
+cointelegraph.com,doodle.com##[class*="ad-slot"]
 bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,insidebitcoins.com,news.bitcoin.com,newsbtc.com,philnews.ph,watcher.guru##[class*="clickout-"]
 manabadi.co.in##[class*="dsc-banner"]
 startribune.com##[class*="htlad-"]
@@ -67535,7 +67539,6 @@ timeout.com##div[class^="_sponsoredContainer_"]
 crictracker.com##div[class^="ad-block-"]
 sfchronicle.com##div[class^="ad-module-"]
 fodors.com,thehulltruth.com##div[class^="ad-placeholder"]
-cointelegraph.com##div[class^="ad-slot_"]
 reuters.com##div[class^="ad-slot__"]
 gamingdeputy.com##div[class^="ad-wrapper-"]
 goodrx.com##div[class^="adContainer"]
