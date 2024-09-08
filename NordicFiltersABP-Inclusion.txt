@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BnODAEFfumldgARoV2lOXQ
-! Version: 202409080241
+! Checksum: JMtpdsPJsDFNFYqnngEThQ
+! Version: 202409080251
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 08 Sep 2024 02:41 UTC
+! Last modified: 08 Sep 2024 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7690,7 +7690,6 @@ srk.fi#@##CookielawBanner
 /ad_home.js
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
-/ad_left.
 /ad_manager/*$image,script
 /ad_overlay.js
 /ad_pos=
@@ -7704,7 +7703,7 @@ srk.fi#@##CookielawBanner
 /ad_skyscraper.gif$image
 /ad_sticky.js
 /ad_top.jpg$image
-/ad_top.js
+/ad_top.js$script
 /ad_vert.gif
 /adanalytics.js
 /adaptive_components.ashx?type=ads&
@@ -7877,9 +7876,6 @@ srk.fi#@##CookielawBanner
 /advbanners/*$~image
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert2.
-/advert3.
-/advert4.
-/advert6.
 /advert?
 /advertbanner.
 /advertising/banners/*$image
@@ -7918,7 +7914,7 @@ srk.fi#@##CookielawBanner
 /amp-connatix-$script
 /amp4ads-host-v0.js$script
 /ane-popup-1/ane-popup.js$script
-/ane-popup-banner.js
+/ane-popup-banner.js$script
 /annonse.
 /annonser.
 /api.ad.
@@ -8380,7 +8376,7 @@ srk.fi#@##CookielawBanner
 /static.ad.
 /static/js/4728ba74bc.js$~third-party
 /sticky_ads.js
-/stickyad.js
+/stickyad.js$script
 /stickyads.js$script
 /style_ad.css$stylesheet
 /suurl4.php?
@@ -69745,6 +69741,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||wonkychickens.org/data/statics/s2g/$domain=torrentgalaxy.to
 ||worldhistory.org/js/ay-ad-loader.js
 ||worldofmods.com/wompush-init.js
+||worthplaying.com/ad_left.html
 ||wqah.com/images/banners/
 ||wsj.com/asset/ace/ace.min.js
 ||www.google.*/adsense/search/ads.js
