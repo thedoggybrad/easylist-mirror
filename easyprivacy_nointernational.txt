@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BVlIeDaEekmwgwdFYYYoTg
-! Version: 202409081011
+! Checksum: G2GiximK5eKBu2B31as0DQ
+! Version: 202409081021
 ! Title: EasyPrivacy without international filters
-! Last modified: 08 Sep 2024 10:11 UTC
+! Last modified: 08 Sep 2024 10:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6162,6 +6162,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-router.olympics.com^
 ||event.platform.autotrader.com.au^
 ||event.platform.tunein.com^
+||eventhub.au01.miro.com/api/stream
+||eventhub.eu01.miro.com/api/stream
+||eventhub.us01.miro.com/api/stream
 ||eventlog.jackpot.de^
 ||events-prod.autolist.com^
 ||events-tracker.deliveroo.net^
@@ -6997,8 +7000,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||support.github.com/_stats
 ||support.github.com/session/event
 ||support.github.com/session/user
-||svc.eu01.miro.com/api/stream/
-||svc.us01.miro.com/api/stream/
 ||swarm.video/stats/
 ||szrpr.raen.com^
 ||t.9gag.com^
