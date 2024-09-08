@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CfT+C/k2PAEZZ633xjK7Aw
-! Version: 202409081051
+! Checksum: +tXb0nbDlZduGGd1SoFiEA
+! Version: 202409081101
 ! Title: KoreanList
-! Last modified: 08 Sep 2024 10:51 UTC
+! Last modified: 08 Sep 2024 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=111
 ! Licence: https://easylist.to/pages/licence.html
@@ -893,6 +893,9 @@ sportalkorea.com###mk_ad
 m.kyeongin.com###mobitreeP
 ezday.co.kr##.pb5
 newspim.com###slideshow
+newspim.com##.bnbox
+m.newspim.com##div[style*="overflow:hidden; text-align:center; width:100%; height:250px;"]
+newspim.com##div[style*="float: right; width: 300px; height: 250px; margin: 10px"]
 joseilbo.com##.google_ban_iframe2
 koreatimes.com##.bn_300x250_2
 manatoki339.net,manatoki340.net,manatoki341.net,torrentgaja.com###hd_pop
@@ -1138,7 +1141,6 @@ boannews.com###powerbiz_area
 boannews.com##.main_banner
 hani.co.kr##div[class*="BaseAd_adWrapper__4XXD0"]
 blog.naver.com###ncc_container
-newspim.com##.bnbox
 coupang.com##.sdp-mid-banner
 coupang.com##.srp-top-banner-container
 coupang.com###coupang-banner
