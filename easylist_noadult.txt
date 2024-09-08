@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LR2xZ6gZqRhaE/KNDCeR0A
-! Version: 202409081121
+! Checksum: mNH/tkz7PD87R9ks9nXqzg
+! Version: 202409081131
 ! Title: EasyList without rules for adult sites
-! Last modified: 08 Sep 2024 11:21 UTC
+! Last modified: 08 Sep 2024 11:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -123,7 +123,6 @@
 .org/script/compatibility.js$third-party
 .ph/ads/
 .php/ad/
-.php/ads/
 .php?ad=
 .php?adsid=
 .php?adv=
@@ -146,7 +145,7 @@
 /a/?ad=
 /a/display.php?$script
 /ab_fl.js$script
-/ad--unit.htm
+/ad--unit.htm|
 /ad-125.
 /ad-choices-$image
 /ad-choices.
@@ -290,7 +289,6 @@
 /ads/spacer.
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
-/ads/square.
 /ads/ta_wppas/*$third-party
 /ads/targeted|
 /ads/top.
@@ -505,14 +503,14 @@
 /discourse-adplugin-$script
 /displayad?
 /dmcads_$script
-/doubleclick.min
+/doubleclick.min$script
 /drsup-admanager-ajax.js$script
 /dynamicad?
 /ec5bcb7487ff.js$script
 /exitpop.js$script
 /exitpopunder.js
 /exitpopup.js$script
-/exitsplash.php
+/exitsplash.php$script
 /exoads/*$script
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
@@ -545,7 +543,7 @@
 /fro_lo.js
 /froloa.js
 /frontend_loader.js$script
-/ftt2/js.php
+/ftt2/js.php$script
 /funcript*.php?pub=
 /gdpr-ad-script.js
 /get/?go=1&data=
@@ -627,7 +625,7 @@
 /localads.aspx
 /log_ad?
 /mads.php?
-/maven/am.js
+/maven/am.js$script
 /mbads?
 /mcad.php
 /media/ads/*$image
@@ -672,7 +670,6 @@
 /pagead/1p-user-list/*$image
 /pagead/conversion.js
 /pagead/lvz?
-/pagead/osd.
 /pageear.js$script
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
@@ -728,7 +725,7 @@
 /popunder?
 /popup-domination/*$~stylesheet
 /popup2.js$script
-/popup3.js
+/popup3.js$script
 /popup_ad.js$script
 /popup_ad.php
 /popup_code.php
@@ -955,7 +952,7 @@
 /wpxbz-theme.js$script
 /www/delivery/*$script,subdocument
 /xads.php
-/xpopup.js
+/xpopup.js$script
 /yhs/ads?
 /zcredirect?
 /~cdn/ads/*
@@ -1212,7 +1209,6 @@ _widget_ad.
 /prebid9.$script
 /prebid?
 /prebid_$script,third-party
-/prebidAdcall.
 /prebidlink/*$script
 /pubfig.min.js
 /tagman/*$domain=~abelssoft.de
@@ -52647,6 +52643,7 @@ browsershots.org#@#.advert_area
 ||adblocker-instant.xyz^$document
 ||adclickbyte.com^$document
 ||adfgetlink.net^$document
+||adglare.net^$document
 ||aditms.me^$document
 ||adlogists.com^$document
 ||admachina.com^$document
