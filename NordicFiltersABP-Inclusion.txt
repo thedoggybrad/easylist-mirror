@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YYal2Nugjt+9OH91vqemLg
-! Version: 202409091551
+! Checksum: iOdGhEiH2MxgDjYm3cjPLw
+! Version: 202409091601
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Sep 2024 15:51 UTC
+! Last modified: 09 Sep 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7867,7 +7867,6 @@ srk.fi#@##CookielawBanner
 /advbanner/*$~image
 /advbanners/*$~image
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
-/advert2.
 /advert?
 /advertbanner.
 /advertising/banners/*$image
@@ -7936,7 +7935,6 @@ srk.fi#@##CookielawBanner
 /banner/html/zone?zid=
 /banner_468.
 /banner_ads/*$~xmlhttprequest,domain=~clickbd.com
-/bannerad.
 /bannerad3.js$script
 /bannerads/*$~xmlhttprequest,domain=~coldwellbankerhomes.com
 /banners.*/piclist?
@@ -7949,8 +7947,8 @@ srk.fi#@##CookielawBanner
 /banners/aff.
 /banners/affil/*$image
 /banners/affiliate/*$image
-/bottom-ads.jpg
-/bottom-ads.png
+/bottom-ads.jpg$image,domain=~saltwaterisland.com
+/bottom-ads.png$image
 /bottom_ad.jpg
 /bottomad.png$image
 /bottomads.js
@@ -8110,7 +8108,6 @@ srk.fi#@##CookielawBanner
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
 /livejasmin.$domain=~livejasmin.com
-/livejasminpopupunder.
 /localads.aspx
 /log_ad?
 /mads.php?
@@ -8133,7 +8130,6 @@ srk.fi#@##CookielawBanner
 /MPUAdHelper.js
 /mysimpleads/mysa_output.php$script
 /native/ts-master.$subdocument
-/nativead.
 /nativeads-v2.js
 /nativeads.js$script
 /nativeads/script/*$script
@@ -8339,7 +8335,7 @@ srk.fi#@##CookielawBanner
 /sponsorad.png
 /sponsored-links.
 /sponsored_ad.
-/sponsored_link.
+/sponsored_link.gif$image
 /sponsored_text.
 /sponsoredlinks?
 /sponsors/ads/*$image
@@ -8357,7 +8353,6 @@ srk.fi#@##CookielawBanner
 /taboola-footer.js$script
 /taboola-header.js$script
 /taboola_8.9.1.js$script
-/taboola_header.js
 /targetingAd.js$script
 /targetpushad.js$script
 /theologicalpresentation.com/*
@@ -8378,7 +8373,6 @@ srk.fi#@##CookielawBanner
 /vendors~ads.
 /vghd.gif
 /vghd2.gif
-/video-ad.
 /video-ads-player.
 /video-js-ads.
 /video_ads.$script
@@ -8394,7 +8388,6 @@ srk.fi#@##CookielawBanner
 /web/ads/*$image
 /web_ads/*$image
 /webads.htm
-/webads.jpg
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /welcome_ad.js
@@ -8410,7 +8403,6 @@ srk.fi#@##CookielawBanner
 /wp-content/plugins/amazon-product-in-a-post-plugin/*
 /wp-content/plugins/automatic-social-locker/*
 /wp-content/plugins/banner-manager/*$script
-/wp-content/plugins/bhcb/lock.js
 /wp-content/plugins/bookingcom-banner-creator/*
 /wp-content/plugins/bookingcom-text2links/*
 /wp-content/plugins/fasterim-optin/*$~xmlhttprequest
@@ -67559,6 +67551,7 @@ browsershots.org#@#.advert_area
 ||trvl-px.com/trvl-px/
 ||turb.cc/fd1/img/promo/
 ||typicalstudent.org^$third-party
+||ubm-us.net/oas/nativead/js/nativead.js
 ||ummn.nu^$subdocument
 ||universal.wgplayer.com^
 ||uploaded.net/img/public/$third-party
