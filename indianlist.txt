@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 190sLyNT8F7T/we1GwD13w
-! Version: 202409091311
+! Checksum: RALzpHWEATc/foorzb9ulw
+! Version: 202409091321
 ! Title: IndianList
-! Last modified: 09 Sep 2024 13:11 UTC
+! Last modified: 09 Sep 2024 13:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9089,6 +9089,7 @@ voiceasian.news##table[width="1000"]:not([cellpadding])
 bihardootnews.com##tagdiv
 tamizhakam.com#?#p:-abp-contains(Advertisement)
 nettamil.com##td:has(> script)
+hindustannewsexpress.com##td[height="350"]:has(> marquee)
 thannambikkai.org#?#h2:-abp-contains(Advertisement)
 thedesiawaaz.com#?#div:-abp-has(> div > a>div > p:-abp-contains(Ad:))
 thedesiawaaz.com#?#div:-abp-has(> div > div > a>div > div > p:-abp-contains(Ad |))
