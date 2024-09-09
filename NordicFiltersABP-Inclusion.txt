@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Q1zbhPUWLk78n/i/gUPIXg
-! Version: 202409091441
+! Checksum: 3wlF+oMSVJavLBavlar7jg
+! Version: 202409091451
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Sep 2024 14:41 UTC
+! Last modified: 09 Sep 2024 14:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7754,7 +7754,7 @@ srk.fi#@##CookielawBanner
 /ads-rectangle.
 /ads-right.
 /ads-templateslist.
-/ads-vast-vpaid.js$script
+/ads-vast-vpaid.js?$script
 /ads.bundle.js
 /ads.bundle.min.js
 /ads.cfm?
@@ -8085,8 +8085,9 @@ srk.fi#@##CookielawBanner
 /istripper.gif$image
 /jquery.ad.js$script
 /jquery.adi.js$script
-/jquery.adx.js$script
-/jquery.dfp.js$script
+/jquery.adx.js?$script
+/jquery.dfp.js?$script
+/jquery.dfp.min.js?$script
 /jquery.openxtag.js$script
 /jquery.php/?uid=
 /js.ad/size=
@@ -8160,7 +8161,7 @@ srk.fi#@##CookielawBanner
 /pageear.js$script
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
-/pagepeelpro.js
+/pagepeelpro.js?$script
 /partnerads/js/*$script
 /partneradwidget.$subdocument
 /partnerbanner.$domain=~toltech.cn
@@ -8329,7 +8330,7 @@ srk.fi#@##CookielawBanner
 /spacedesc=
 /spc.php?$script
 /spcjs.php$script
-/specialctrl.js
+/special/specialCtrl.js$script
 /sponsor-ad$image
 /sponsor-banner.jpg
 /sponsor-banner.png
@@ -8357,7 +8358,6 @@ srk.fi#@##CookielawBanner
 /taboola-header.js$script
 /taboola_8.9.1.js$script
 /taboola_header.js
-/taboolaarticle.min.js
 /targetingAd.js$script
 /targetpushad.js$script
 /theologicalpresentation.com/*
