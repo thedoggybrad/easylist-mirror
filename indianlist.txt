@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AgPGS8H0wF9nnomognJYIw
-! Version: 202409101801
+! Checksum: YjNldIlswuCOiXmlVBjs0A
+! Version: 202409101811
 ! Title: IndianList
-! Last modified: 10 Sep 2024 18:01 UTC
+! Last modified: 10 Sep 2024 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2898,6 +2898,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||lumbinipati.com/wp-content/uploads/2023/07/273658497_1690768251259350_8996702686317398803_n.gif
 ||lumbinipati.com/wp-content/uploads/2023/07/Nepal-Search-Engine-Background-fill-01-3-scaled.jpg
 ||maagulf.com/ads/
+||maagulf.com/images/studyorbits_ad.jpg
 ||maalaisudar.com^*/talkmedia.jpg
 ||madhubaninews.in/wp-content/uploads/2021/01/anjesh-kumar-
 ||madhubaninews.in/wp-content/uploads/2021/01/banarsi-devi
@@ -7113,8 +7114,8 @@ hindi.news18.com##.n18thder
 khabreapki.com##.n2-ss-slider
 nakkheeran.in##.nak-adv-cen:not(#block-views-block-global-news-home-page-block-3)
 naturalnews.co.in##.natur-content
-chamaktabharat.com#@#.navbar-ad-section
 24hrnews.in,aavakaaya.in,celluloidonline.com,channeltoday.net,checkpostnews.com,chhattisgarhcrimes.in,cityhotnews.com,dainiktimes.co.in,hindustanrepublic.in,kannurvarthakal.in,khabardarinews.com,khabardinbhar.net,kilinochchinews.com,kotajagran.com,krantiodishanews.com,malayalamtodayonline.com,mediapoint24.com,overlook.co.in,prajawani.in,punjabiakhbar.com,sanskardarshan.in,shabdshodh.com,updatetimes.com##.navbar-ad-section
+chamaktabharat.com#@#.navbar-ad-section
 prabhatvaibhav.com##.navbar-area-2 ~ div[style]
 daijiworld.com##.navbar-static-top a[target="new"]
 bishwanathbd24.com##.navbar-top-banner
@@ -7161,8 +7162,8 @@ sagarmatha.tv##.no-vigyapan-sidebar-section
 narayanionline.com##.no-vigyapan-single
 ajkercrimetimes.com##.notice_single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 hariyalinepal.com##.nt_ads_space img
 livehindustan.com##.ntwrk-wdgt
@@ -8107,6 +8108,8 @@ dainikdishari.com,dthreeonline.com,epaperindia.in,ramailochha.com,royalnews13.in
 ujyalokhabar.com##.wp-block-image figure
 nainilive.com##.wp-block-image img
 bhilaitimes.com##.wp-block-image img[src*="advt" i]
+pragatitimes.com##.wp-block-image:has(> .wp-image-318)
+pragatitimes.com##.wp-block-image:has(> .wp-image-417)
 abtnews.in##.wp-block-jetpack-slideshow
 theinternalnews.co##.wp-block-jetpack-tiled-gallery
 kafaltree.com##.wp-block-video
