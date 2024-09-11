@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PMP09AXYI8uylhgcbatBMw
-! Version: 202409110931
+! Checksum: HUPV/235RBF24Q+R4jOz/Q
+! Version: 202409110941
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Sep 2024 09:31 UTC
+! Last modified: 11 Sep 2024 09:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7659,7 +7659,7 @@ srk.fi#@##CookielawBanner
 /ad.html?
 /ad.min.js$script
 /ad/a.aspx?
-/ad/dfp/js/dfp.js
+/ad/dfp/*$script
 /ad/err?
 /ad/getban?
 /ad/image/*$image
@@ -7713,7 +7713,6 @@ srk.fi#@##CookielawBanner
 /adcommon?
 /adconfig.js$script
 /adcount.js
-/addons/ads.
 /addyn|*;adtech;
 /addyn|*|adtech;
 /adengine.js
@@ -7738,7 +7737,7 @@ srk.fi#@##CookielawBanner
 /adpartner.min.js$script
 /adplayer.$script,domain=~adplayer.pro
 /adplugin.
-/adpopup.js
+/adpopup.js$script
 /adrecover.js
 /adright.$domain=~adright.com
 /adriver.$~script,domain=~adriver.co
@@ -7777,7 +7776,6 @@ srk.fi#@##CookielawBanner
 /ads/leaderboard.
 /ads/native.js
 /ads/outbrain?
-/ads/popout.
 /ads/popup.
 /ads/rectangle_$subdocument
 /ads/revgen.$script
@@ -7898,7 +7896,6 @@ srk.fi#@##CookielawBanner
 /amp4ads-host-v0.js$script
 /ane-popup-1/ane-popup.js$script
 /ane-popup-banner.js$script
-/annonser.
 /api.ads.$domain=~ads.instacart.com|~www.ads.com
 /api/ad.$script
 /api/ads?
@@ -7980,7 +7977,7 @@ srk.fi#@##CookielawBanner
 /delivery/fc.php$script,subdocument
 /delivery/lg.php$script,subdocument
 /dfp.min.js$third-party
-/dfp_async.js
+/dfp_async.js$script
 /dfpNew.min.js
 /didna_config.js
 /direct.hd?n=
@@ -7992,7 +7989,6 @@ srk.fi#@##CookielawBanner
 /dynamicad?
 /ec5bcb7487ff.js$script
 /exitpop.js$script
-/exitpopunder.js
 /exitpopup.js$script
 /exitsplash.php$script
 /exoads/*$script
@@ -8128,8 +8124,7 @@ srk.fi#@##CookielawBanner
 /new/floatadv.js$script
 /ntv.json?key=
 /Nuggad?
-/nwm-fcn.min.js
-/nwm-pw2.min.js
+/nwm-pw2.min.js$script
 /nxst-advertising/dist/htlbid-advertising.min.js
 /oiopub-direct/js.php$script
 /oncc-ad.js$script
@@ -8281,7 +8276,7 @@ srk.fi#@##CookielawBanner
 /sdk/push_web/?zid=
 /select_adv?
 /servead/request/*$script,subdocument
-/serveads.php
+/serveads.php$script
 /servlet/view/*$script
 /set_adcode?
 /sft-prebid.js$script
@@ -8682,8 +8677,6 @@ _prebid8.
 ?zoneid=*&ab=1
 ! linkbucks.com script
 /webservices/jsparselinks.aspx?$script
-! adinsertion used on gizmodo.in lifehacker.co.in
-/datomata.widget.js
 ! domain parking redirection
 /affiliate/referral.asp?site=*&aff_id=
 /bdv_rd2.dbm?enparms
