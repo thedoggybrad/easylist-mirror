@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9uu+U7qruCzxtHxwyUMq3A
-! Version: 202409111451
+! Checksum: DS9i/dvNR0TSQbSdWEUsBQ
+! Version: 202409111501
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Sep 2024 14:51 UTC
+! Last modified: 11 Sep 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7682,7 +7682,7 @@ srk.fi#@##CookielawBanner
 /ad_common.js
 /ad_counter.aspx
 /ad_display.js
-/ad_header.js
+/ad_header.js$script
 /ad_home.js$script
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
@@ -7748,7 +7748,7 @@ srk.fi#@##CookielawBanner
 /ads-frontend.min.js$script
 /ads-rectangle.
 /ads-right.
-/ads-templateslist.
+/ads-templateslist.$script
 /ads-vast-vpaid.js?$script
 /ads.bundle.js
 /ads.bundle.min.js
@@ -7762,7 +7762,6 @@ srk.fi#@##CookielawBanner
 /ads/banners/*$image
 /ads/cbr.
 /ads/custom_ads.js
-/ads/delivery.
 /ads/footer.$~xmlhttprequest
 /ads/ga-audiences?
 /ads/gam_prebid-$script
@@ -7967,7 +7966,6 @@ srk.fi#@##CookielawBanner
 /css/adsense.$stylesheet
 /css/adv.$stylesheet
 /curveball/ads/*$image
-/data-file_123.js
 /deliverad/fc.js$script
 /delivery.php?zone=
 /delivery/ag.php$script,subdocument
@@ -7993,7 +7991,6 @@ srk.fi#@##CookielawBanner
 /exoads/*$script
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/backloaderforload.php
-/expads-blocked.js
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
 /external/ad.$script
@@ -8092,7 +8089,6 @@ srk.fi#@##CookielawBanner
 /li.blogtrottr.com/imp?
 /link?z=$subdocument
 /livejasmin.$domain=~livejasmin.com
-/localads.aspx
 /log_ad?
 /mads.php?
 /maven/am.js$script
@@ -8128,7 +8124,6 @@ srk.fi#@##CookielawBanner
 /oiopub-direct/js.php$script
 /oncc-ad.js$script
 /oncc-adbanner.js$script
-/openads.js
 /owa.MessageAdList.
 /p?zoneId=
 /page-links-to/dist/new-tab.js
@@ -8342,7 +8337,7 @@ srk.fi#@##CookielawBanner
 /tncms/ads/*$script
 /tnt.ads.$script
 /top-ad.
-/top_ad.
+/top_ad.$~xmlhttprequest,domain=~sunco.co.jp
 /top_ads.
 /triadshow.asp
 /ttj?id=
@@ -8644,7 +8639,7 @@ _widget_ad.
 -prebid/
 .prebid-bundle.
 .prebid.$domain=~prebid.org
-/ad/postbid_handler1.0.9.js
+/ad/postbid_handler1.$script
 /gpt-prebid.js$script
 /pbjsandwichdirecta9-$script
 /plugins/prebidjs/*$script
