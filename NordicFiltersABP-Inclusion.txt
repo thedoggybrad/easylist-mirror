@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rtyxR2BcNc4076X1/fWxPg
-! Version: 202409111511
+! Checksum: rfTP01lguIWq6szI5eziMA
+! Version: 202409111521
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Sep 2024 15:11 UTC
+! Last modified: 11 Sep 2024 15:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7687,7 +7687,6 @@ srk.fi#@##CookielawBanner
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
 /ad_img/*$image
 /ad_manager/*$image,script
-/ad_overlay.js
 /ad_pos=
 /ad_position=
 /ad_request.js
@@ -7771,7 +7770,6 @@ srk.fi#@##CookielawBanner
 /ads/index.$~xmlhttprequest
 /ads/index/*$~xmlhttprequest,domain=~kuchechina.com
 /ads/leaderboard-$~xmlhttprequest
-/ads/leaderboard.
 /ads/native.js
 /ads/outbrain?
 /ads/popup.
@@ -7804,7 +7802,6 @@ srk.fi#@##CookielawBanner
 /ads?zone_id=
 /ads_banners/*$image
 /ads_bg.$image
-/ads_bottom.js
 /ads_controller.js$script
 /ads_frame.
 /ads_iframe.$subdocument
@@ -7866,7 +7863,6 @@ srk.fi#@##CookielawBanner
 /adverts/*$~xmlhttprequest
 /advrotator.js
 /advrotator_banner_largo.htm$subdocument
-/adx2.
 /adz/js/adz.$script
 /aff/banners/*$image
 /aff/images/*$image
@@ -7898,7 +7894,7 @@ srk.fi#@##CookielawBanner
 /api/ad.$script
 /api/ads?
 /apopwin.js
-/apstag.js
+/apstag.js$script
 /apu.php?
 /arcads.js$script
 /asset/ad/*$image
@@ -7957,7 +7953,7 @@ srk.fi#@##CookielawBanner
 /combo?darla/*
 /common/ad.js$script
 /common/ads?
-/common_ad.js
+/common_ad.js$script
 /concert_ads-$script
 /content-ads.js$script
 /content/ads/*$~xmlhttprequest
@@ -8098,7 +8094,7 @@ srk.fi#@##CookielawBanner
 /media_ads/*$image
 /mgid.html
 /microad.js
-/mnpw3.js
+/mnpw3.js$script
 /mobile_ad.
 /mobileads.
 /mod_ijoomla_adagency_zone/*$~xmlhttprequest
@@ -8323,8 +8319,8 @@ srk.fi#@##CookielawBanner
 /stickyad.js$script
 /stickyads.js$script
 /style_ad.css$stylesheet
-/suurl4.php?
-/suurl5.php
+/suurl4.php?$third-party
+/suurl5.php$third-party
 /suv4.js$third-party
 /suv5.js$third-party
 /taboola-footer.js$script
@@ -8332,7 +8328,6 @@ srk.fi#@##CookielawBanner
 /taboola_8.9.1.js$script
 /targetingAd.js$script
 /targetpushad.js$script
-/theologicalpresentation.com/*
 /tmbi-a9-header-$script
 /tncms/ads/*$script
 /tnt.ads.$script
