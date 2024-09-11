@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IJ0iKPw3k5waslYZMJ0SMg
-! Version: 202409111551
+! Checksum: KPHhLBujdDSL/s1B4w0qhA
+! Version: 202409111601
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Sep 2024 15:51 UTC
+! Last modified: 11 Sep 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -76994,6 +76994,7 @@ radioreference.com##.box.gradient:has(a[href*="&Click="])
 gpro.net##.boxy:has(#blockblockA)
 slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
+bws.com.au##.card-list-item:has(.productTile.is-Sponsored)
 doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
 doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
