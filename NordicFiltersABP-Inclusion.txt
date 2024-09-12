@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cOuXdeG12dH5Ba9lc+iEFQ
-! Version: 202409121531
+! Checksum: gBjv25pqMgblCDUiFFHQkA
+! Version: 202409121541
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 12 Sep 2024 15:31 UTC
+! Last modified: 12 Sep 2024 15:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7733,7 +7733,6 @@ srk.fi#@##CookielawBanner
 /adocean.js$script
 /adpartner.min.js$script
 /adplayer.$script,domain=~adplayer.pro
-/adplugin.
 /adpopup.js$script
 /adrecover.js
 /adright.$domain=~adright.com
@@ -7838,7 +7837,7 @@ srk.fi#@##CookielawBanner
 /adunit/track-view|
 /adunits.
 /adunits/bcid?
-/adutil.
+/adutil.js$script
 /adv-banner-$image
 /adv-scroll-sidebar.js$script
 /adv-scroll.$script
@@ -7880,7 +7879,6 @@ srk.fi#@##CookielawBanner
 /ajaxAd?
 /ajs.php?
 /ajs?zoneid=
-/ak-ads-ns.
 /amazon-ad-link-$stylesheet
 /amazon-associates-link-$~stylesheet
 /amp-ad-$script
@@ -7932,7 +7930,7 @@ srk.fi#@##CookielawBanner
 /bottom-ads.png$image
 /bottom_ad.jpg
 /bottomad.png$image
-/bottomads.js
+/bottomads.js$script
 /bsa-plugin-pro-scripteo/frontend/js/script.js
 /bsa-pro-scripteo/frontend/js/script.js
 /btag.min.js$third-party
@@ -8028,7 +8026,7 @@ srk.fi#@##CookielawBanner
 /gospel2Truth.js
 /gpt.js$script,xmlhttprequest
 /gpt_ads-public.js$script
-/GunosyAdsSDKv2.js
+/GunosyAdsSDKv2.js$script
 /homepage_ads/*$domain=~swedishbeauty.com
 /house-ads/*$image
 /hoverad.js
@@ -8170,7 +8168,7 @@ srk.fi#@##CookielawBanner
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
-/pop_8_2.js
+/pop_8/pop_8_$script
 /pop_ads.js
 /popin-min.js$script
 /popu.js
@@ -8309,7 +8307,6 @@ srk.fi#@##CookielawBanner
 /sponsoredlinks?
 /sponsors/ads/*$image
 /squaread.jpg
-/squaread.js
 /static/js/4728ba74bc.js$~third-party
 /sticky_ads.js
 /stickyad.js$script
@@ -8341,7 +8338,6 @@ srk.fi#@##CookielawBanner
 /vendors~ads.
 /vghd.gif
 /vghd2.gif
-/video-ads-player.
 /video-js-ads.
 /video_ads.$script
 /video_slider3.js
@@ -8411,6 +8407,7 @@ srk.fi#@##CookielawBanner
 ://affiliate.$third-party
 ://affiliates.$third-party
 ://affiliates2.$third-party
+://ak-ads-ns.
 ://banner.$third-party
 ://banners.$third-party
 ://delivery.ads.
@@ -31802,6 +31799,7 @@ browsershots.org#@#.advert_area
 ||dawnfilthscribble.com^
 ||dawplm.com^
 ||dawtsboosted.com^
+||daybeamposit.com^
 ||daybreakarchitecture.com^
 ||daysmenformat.top^
 ||daysstone.com^
@@ -35908,6 +35906,7 @@ browsershots.org#@#.advert_area
 ||frugalitymassiveoldest.com^
 ||frugalrevenge.com^
 ||frugalrushcap.com^
+||frugalseck.com^
 ||fruitfullocksmith.com^
 ||fruitfulthinnersuspicion.com^
 ||fruitlesshooraytheirs.com^
@@ -45247,6 +45246,7 @@ browsershots.org#@#.advert_area
 ||nurcghihmec.com^
 ||nurewsawan.org^
 ||nurewsawaninc.info^
+||nurhagstackup.com^
 ||nurno.com^
 ||nurobi.info^
 ||nuroflem.com^
@@ -47120,6 +47120,7 @@ browsershots.org#@#.advert_area
 ||peemee.com^
 ||peenuteque.net^
 ||peepholelandreed.com^
+||peephoogruku.net^
 ||peer39.net^
 ||peerdomatop.click^
 ||peeredfoggy.com^
@@ -55550,6 +55551,7 @@ browsershots.org#@#.advert_area
 ||trodspivery.com^
 ||troduc.com^
 ||trokemar.com^
+||trolandmattes.com^
 ||trolleydemocratic.com^
 ||trolleydryerfunds.com^
 ||trolleytool.com^
@@ -59649,6 +59651,7 @@ browsershots.org#@#.advert_area
 ||zeeshith.net^
 ||zeewhaih.com^
 ||zefusgk.com^
+||zegnoogho.xyz^
 ||zegrumse.net^
 ||zekeeksaita.com^
 ||zekkdxt.com^
