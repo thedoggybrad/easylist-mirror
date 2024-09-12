@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202409121420
+! Version: 202409120531
 ! Title: EasyList
-! Last modified: 12 Sep 2024 14:20 UTC
+! Last modified: 12 Sep 2024 05:31 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -148,6 +148,7 @@
 /a/display.php?$script
 /ab_fl.js$script
 /ad--unit.htm|
+/ad-125.
 /ad-choices-$image
 /ad-choices.png$image
 /ad-scripts--$script
@@ -250,10 +251,11 @@
 /ads-right.
 /ads-templateslist.$script
 /ads-vast-vpaid.js?$script
-/ads.bundle.js$script
-/ads.bundle.min.js$script
+/ads.bundle.js
+/ads.bundle.min.js
 /ads.cfm?
 /ads.jplayer.$stylesheet
+/ads.jsp
 /ads.pl?
 /ads/!rotator/*
 /ads/300.$subdocument
@@ -327,7 +329,7 @@
 /adslide.js$script
 /adsmanager.nsf/*$image
 /adsmanager/*$domain=~adsmanager.facebook.com|~github.com
-/adsplugin/js/*$script
+/AdsPlugin.
 /adsrv.
 /adsscript.$script
 /adsservice.
@@ -335,7 +337,7 @@
 /adsWrapper.js$script
 /ads~adsize~
 /adtech;
-/adtools.js$script
+/adTools.
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
 /adunit/track-view|
 /adunits.
@@ -593,7 +595,7 @@
 /media/ads/*$image
 /media_ads/*$image
 /mgid.html
-/microad.js$script
+/microad.js
 /mnpw3.js$script
 /mobile_ad.
 /mobileads.
@@ -622,7 +624,7 @@
 /oncc-adbanner.js$script
 /owa.MessageAdList.
 /p?zoneId=
-/page-links-to/dist/new-tab.js$script
+/page-links-to/dist/new-tab.js
 /page-peel$~xmlhttprequest
 /page/bouncy.php?
 /pagead/1p-user-list/*$image
@@ -801,6 +803,8 @@
 /spcjs.php$script
 /special/specialCtrl.js$script
 /sponsor-ad$image
+/sponsor-banner.jpg
+/sponsor-banner.png
 /sponsor-links.html
 /sponsorad.jpg$image
 /sponsorad.png
@@ -860,6 +864,7 @@
 /webads.htm
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
+/welcome_ad.js
 /widget-advert?
 /wordpress-ads-plug-in/*$script,stylesheet
 /wp-auto-affiliate-links/*$script,stylesheet
