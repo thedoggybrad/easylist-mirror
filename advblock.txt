@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qimaGNJDIuBn6TAgpCGerg
-! Version: 202409121811
+! Checksum: xoeK+zhoiTcbE+D3AyImpw
+! Version: 202409121821
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Sep 2024 18:11 UTC
+! Last modified: 12 Sep 2024 18:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23012,7 +23012,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! Pikabu (ловушка для обфускации)
-||pikabu.ru/*%*.*?*=$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/*.*=*?*=$xmlhttprequest,domain=pikabu.ru
 ! селекторы
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
@@ -23506,8 +23506,8 @@ fanserial.fun,fanserialstv.net##.article-aside-promo a[href][target="_blank"]
 ##.article-aside-promo a[href][target="_blank"]
 ##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
 fanserial.fun,fanserialstv.net##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
-fanserial.fun,fanserialstv.net##.flex-promo-series > .right-col a[href][target="_blank"]
 ##.flex-promo-series > .right-col a[href][target="_blank"]
+fanserial.fun,fanserialstv.net##.flex-promo-series > .right-col a[href][target="_blank"]
 .xml?rand=$domain=fanserial.fun|fanserialstv.net
 @@||v*.plrjs.org/*.xml?rand=$xmlhttprequest,domain=fanserial.fun|fanserialstv.net
 !
@@ -24038,7 +24038,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.i-bem.b-timetable__row[onclick*="awaps
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.i-bem.stripe_type_promo
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.i-bem.tv-grid__item-adv
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.i-bem.tv-sortable-item.tv-sortable-item_sortable_no
-ya.ru##.i-mini-bem.banner
+ya.ru##.i-mini-bem[class*="banner"]
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.layout__banner
 market.yandex.by,market.yandex.kz,market.yandex.ru##.layout_type_search.headline__footer
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.main__distr-popup
