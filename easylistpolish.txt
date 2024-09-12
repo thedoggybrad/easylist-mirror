@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vgRsgkDoDdS/SK7Saqb9Ow
-! Version: 202409120641
+! Checksum: zr/KPvuvTbU5AzAxtg9s9A
+! Version: 202409120651
 ! Title: EasyList Polish
-! Last modified: 12 Sep 2024 06:41 UTC
+! Last modified: 12 Sep 2024 06:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -381,6 +381,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^banner_$domain=production-manager.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2102,7 +2103,6 @@ fishing-test.pl##a[href="http://www.corona-fishing.pl/Katalog,produktow/St._Croi
 7dni.pila.pl##a[href="http://www.dron-media.eu"]
 chwaszczyno.pl##a[href="http://www.eko-krusz.pl/"]
 staleo.pl##a[href="http://www.elmax.eu/"]
-zwolen24.pl##a[href="http://www.fdb.com.pl/"]
 haczyk.pl##a[href="http://www.forum.halohalo.pl"]
 www.glogow-info.pl##a[href="http://www.glogow-info.pl/index.php?option=com_content&task=blogcategory&id=29&Itemid=74"]
 www.glogow-info.pl##a[href="http://www.glogow-info.pl/index.php?option=com_content&task=blogcategory&id=37&Itemid=83"]
@@ -2669,6 +2669,11 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+wroclaw.dlawas.info###banner-top
+sosnowiec.dlawas.info###banner-top
+zagan.dlawas.info###banner-top
+dabrowa.dlawas.info###banner-top
+pleszew.dlawas.info###banner-top
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
