@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hLTYoYiKw30ZhbLFMqiGlg
-! Version: 202409121901
+! Checksum: ZvW8kNTEOqzFPpWj9n1POw
+! Version: 202409121911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Sep 2024 19:01 UTC
+! Last modified: 12 Sep 2024 19:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23502,12 +23502,15 @@ mirtesen.ru##[id^="unit_"]
 ~smi2.ru##a[href*="://smi2.ru/newdata/news?ad="] *
 !
 ! зеркала MySeria.NET https://vk.com/myserianet
+! частные
 fanserial.fun,fanserialstv.net##.article-aside-promo a[href][target="_blank"]
+fanserial.fun,fanserialstv.net##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
+fanserial.fun,fanserialstv.net##.flex-promo-series > .right-col a[href][target="_blank"]
+! общие
 ##.article-aside-promo a[href][target="_blank"]
 ##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
-fanserial.fun,fanserialstv.net##.flex-promo-series > .left-col > :not(#players):not(.serial-series-info)
 ##.flex-promo-series > .right-col a[href][target="_blank"]
-fanserial.fun,fanserialstv.net##.flex-promo-series > .right-col a[href][target="_blank"]
+! запросы
 .xml?rand=$domain=fanserial.fun|fanserialstv.net
 @@||v*.plrjs.org/*.xml?rand=$xmlhttprequest,domain=fanserial.fun|fanserialstv.net
 !
