@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oEulUiMCUlPdPjcnMx+H6Q
-! Version: 202409141041
+! Checksum: q/AjDqY4DcNJq7Py5wlUSw
+! Version: 202409141051
 ! Title: EasyList without rules for adult sites
-! Last modified: 14 Sep 2024 10:41 UTC
+! Last modified: 14 Sep 2024 10:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -193,7 +193,7 @@
 /ad_skyscraper.gif$image
 /ad_top.jpg$image
 /ad_top.js$script
-/adanalytics.js
+/adanalytics.js$script
 /adaptive_components.ashx?type=ads&
 /adaptvadplayer.js$script
 /adasync.js$script
@@ -292,7 +292,6 @@
 /ads_banners/*$image
 /ads_bg.$image
 /ads_controller.js$script
-/ads_frame.
 /ads_iframe.$subdocument
 /ads_image/*$image
 /ads_images/*$image,domain=~wildlifeauctions.co.za
@@ -670,7 +669,6 @@
 /popup_code.php$script
 /popupads.js$script
 /prbt/v1/ads/?
-/prerollad.
 /prism_ad/*$script
 /processing/impressions.asp?
 /production/ad-$script
@@ -708,7 +706,6 @@
 /reklama4.png$image
 /reklame/*$~xmlhttprequest
 /ren.gif?
-/report_ad.js
 /resources/ads/*$~xmlhttprequest
 /responsive/ad_$subdocument
 /responsive_ads.js$script
@@ -830,7 +827,7 @@
 /videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
-/virtuagirlhd.
+/virtuagirlhd.$image
 /web/ads/*$image
 /web_ads/*$image
 /webads.htm
@@ -1007,7 +1004,8 @@ _widget_ad.
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
 ! https://github.com/easylist/easylist/issues/11123
-/ed/fol457.
+.com/ed/java.js$script
+/ed/fol457.$script
 ! ad-ace (to avoid bait)
 /plugins/ad-ace/assets/js/coupons.js$script
 /plugins/ad-ace/assets/js/slot-slideup.js$script
