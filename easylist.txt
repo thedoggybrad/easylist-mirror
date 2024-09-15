@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202409151455
+! Version: 202409151301
 ! Title: EasyList
-! Last modified: 15 Sep 2024 14:55 UTC
+! Last modified: 15 Sep 2024 13:01 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -174,7 +174,7 @@
 /ad?pos_
 /ad?type=
 /ad_728.jpg$image
-/ad_728.js$script
+/ad_728.js
 /ad_banner/*$image,domain=~ccf.com.cn
 /ad_bottom.jpg$image
 /ad_bottom.js$script
@@ -310,7 +310,7 @@
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver3.$image,script
 /adserver?
-/adsforwp-front.min.css$stylesheet
+/adsforwp-front.min.css
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
@@ -347,6 +347,7 @@
 /advert?
 /advertbanner.
 /advertising/banners/*$image
+/advertisingWebRenderer.min.js
 /advertisment/*$~image
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
@@ -391,6 +392,8 @@
 /asyncspc.php$third-party
 /awaps-ad-sdk-$script
 /ban.php?
+/ban300.php
+/ban728.php
 /ban728x90.$image
 /banman/ad.aspx$image
 /banner-ad.$~script
@@ -426,6 +429,7 @@
 /buysellads.js$script
 /callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
+/cgi-bin/ads.cgi
 /click/zone?
 /click?adv=
 /clickadu300.aspx
@@ -664,6 +668,7 @@
 /popup2.js$script
 /popup3.js$script
 /popup_ad.js$script
+/popup_ad.php
 /popup_code.php$script
 /popupads.js$script
 /prbt/v1/ads/?
@@ -707,6 +712,7 @@
 /resources/ads/*$~xmlhttprequest
 /responsive/ad_$subdocument
 /responsive_ads.js$script
+/right_ad.
 /right_ads.$~xmlhttprequest
 /rightad.js$script
 /s.ashx?btag
@@ -806,7 +812,6 @@
 /topad.html$subdocument
 /triadshow.asp$script,subdocument
 /ttj?id=
-/umd/advertisingWebRenderer.min.js$script
 /ut.js?cb=
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
@@ -828,6 +833,7 @@
 /virtuagirlhd.$image
 /web/ads/*$image
 /web_ads/*$image
+/webads.htm
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /widget-advert?
@@ -1154,6 +1160,7 @@ _prebid8.
 /adblockdetect.js$script
 /adblockdetection.
 /adBlockDetector/*$script
+/adblocker-leader.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
