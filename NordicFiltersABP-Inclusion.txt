@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UTIzohwvT+e2JebtUuVOwQ
-! Version: 202409151451
+! Checksum: m+01X3ibeq41x0nLI34gFQ
+! Version: 202409151501
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 15 Sep 2024 14:51 UTC
+! Last modified: 15 Sep 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7672,7 +7672,7 @@ srk.fi#@##CookielawBanner
 /ad?pos_
 /ad?type=
 /ad_728.jpg$image
-/ad_728.js
+/ad_728.js$script
 /ad_banner/*$image,domain=~ccf.com.cn
 /ad_bottom.jpg$image
 /ad_bottom.js$script
@@ -7808,7 +7808,7 @@ srk.fi#@##CookielawBanner
 /adserver.$~stylesheet,~xmlhttprequest
 /adserver3.$image,script
 /adserver?
-/adsforwp-front.min.css
+/adsforwp-front.min.css$stylesheet
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
@@ -7845,7 +7845,6 @@ srk.fi#@##CookielawBanner
 /advert?
 /advertbanner.
 /advertising/banners/*$image
-/advertisingWebRenderer.min.js
 /advertisment/*$~image
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
@@ -7890,8 +7889,6 @@ srk.fi#@##CookielawBanner
 /asyncspc.php$third-party
 /awaps-ad-sdk-$script
 /ban.php?
-/ban300.php
-/ban728.php
 /ban728x90.$image
 /banman/ad.aspx$image
 /banner-ad.$~script
@@ -7927,7 +7924,6 @@ srk.fi#@##CookielawBanner
 /buysellads.js$script
 /callAdserver?
 /cgi-bin/ad/*$~xmlhttprequest
-/cgi-bin/ads.cgi
 /click/zone?
 /click?adv=
 /clickadu300.aspx
@@ -8166,7 +8162,6 @@ srk.fi#@##CookielawBanner
 /popup2.js$script
 /popup3.js$script
 /popup_ad.js$script
-/popup_ad.php
 /popup_code.php$script
 /popupads.js$script
 /prbt/v1/ads/?
@@ -8210,7 +8205,6 @@ srk.fi#@##CookielawBanner
 /resources/ads/*$~xmlhttprequest
 /responsive/ad_$subdocument
 /responsive_ads.js$script
-/right_ad.
 /right_ads.$~xmlhttprequest
 /rightad.js$script
 /s.ashx?btag
@@ -8310,6 +8304,7 @@ srk.fi#@##CookielawBanner
 /topad.html$subdocument
 /triadshow.asp$script,subdocument
 /ttj?id=
+/umd/advertisingWebRenderer.min.js$script
 /ut.js?cb=
 /utx?cb=$third-party
 /v2/a/push/js/*$third-party
@@ -8331,7 +8326,6 @@ srk.fi#@##CookielawBanner
 /virtuagirlhd.$image
 /web/ads/*$image
 /web_ads/*$image
-/webads.htm
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
 /webadverts/ads.pl?
 /widget-advert?
@@ -8658,7 +8652,6 @@ _prebid8.
 /adblockdetect.js$script
 /adblockdetection.
 /adBlockDetector/*$script
-/adblocker-leader.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
