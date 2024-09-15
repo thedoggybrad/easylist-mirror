@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5eTj3lKjJgASkVX+dj4PbA
-! Version: 202409151541
+! Checksum: Ev2Wz86FW6bOjGgT3hMr8Q
+! Version: 202409151551
 ! Title: IndianList
-! Last modified: 15 Sep 2024 15:41 UTC
+! Last modified: 15 Sep 2024 15:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5657,6 +5657,7 @@ edunews.com.bd###tie-block_855
 bareillylive.com###tie-slider-widget-2
 samayindia24.com###tie-slider-widget-5
 bareillylive.com###tie-slider-widget-9
+bangladeshglobal.com###top div:has(> .flex-c-c)
 thenrinews.com###top-slider2
 gossiplankanews.com###top1
 thejasnews.com###top_full_width_level_15
@@ -6175,7 +6176,7 @@ bizmandu.com##.banner-bigyapan
 hamrokhelkud.com##.banner-click-action
 musicjoymedia.com##.banner-half
 newsnationtv.com##.banner-head
-aapkaparyas.in,enewsmp.com##.banner-header
+aapkaparyas.in,bangladeshglobal.com,enewsmp.com##.banner-header
 aagaazfirstnews.com,bholarbani.com,janotarbani.com,newsportals.in,onstimes.com,pahareralo.com,tatviknews.com##.banner-img
 lekaalionline.com##.banner-news-section
 24x7breakingpoint.com,aanthaireporter.com,ambikapurcity.com,banglapostbd.com,biharnewstv.in,boundaryline.in,cobranews24.com,filmaniaentertainment.com,focusnews.co.in,frontline24.com,globalhimachaltimes.com,himalini.com,indonepalnews.in,jalandharbreeze.com,janashaktinews.com,jogiexpress.com,kannurvarthakal.com,khaskhabar24.com,khulasamedia.com,koyilandydiary.com,liveindiakhabar.in,livekhabar.com,lokalok.in,newspagebd.com,newswayanad.in,pabilnews.com,prameya.com,primepunjab.com,pularvu.com,rashtratimes.com,real4news.com,saakshatv.com,sachkidastak.com,shaktialmora.com,shreenews.in,smartindiadial.com,sorejomin.com,thefactshala.in,thepressnepal.com,timesofnellore.com,todaynewshunt.com,tv24live.com,upantaodisha.com,vishwakarmakiran.com##.banner-promotions-wrapper
@@ -7014,6 +7015,7 @@ newsdoor.net##.lrads
 haryanakranti.com,metrojournalonline.com##.m-116
 haryanakranti.com##.m-200
 chopaltv.com##.m-280
+bangladeshglobal.com##.m-t-20:has(> div > div > .m-t-30)
 71sangbad.com##.m_none > a[target="_blank"]
 satyadeepsandesh.com##.maan-header-adds
 satyadeepsandesh.com##.maan-news-side-add
@@ -7133,8 +7135,8 @@ hindi.news18.com##.n18thder
 khabreapki.com##.n2-ss-slider
 nakkheeran.in##.nak-adv-cen:not(#block-views-block-global-news-home-page-block-3)
 naturalnews.co.in##.natur-content
-24hrnews.in,aavakaaya.in,celluloidonline.com,channeltoday.net,checkpostnews.com,chhattisgarhcrimes.in,cityhotnews.com,dainiktimes.co.in,hindustanrepublic.in,kannurvarthakal.in,khabardarinews.com,khabardinbhar.net,kilinochchinews.com,kotajagran.com,krantiodishanews.com,malayalamtodayonline.com,mediapoint24.com,overlook.co.in,prajawani.in,punjabiakhbar.com,sanskardarshan.in,shabdshodh.com,updatetimes.com##.navbar-ad-section
 chamaktabharat.com#@#.navbar-ad-section
+24hrnews.in,aavakaaya.in,celluloidonline.com,channeltoday.net,checkpostnews.com,chhattisgarhcrimes.in,cityhotnews.com,dainiktimes.co.in,hindustanrepublic.in,kannurvarthakal.in,khabardarinews.com,khabardinbhar.net,kilinochchinews.com,kotajagran.com,krantiodishanews.com,malayalamtodayonline.com,mediapoint24.com,overlook.co.in,prajawani.in,punjabiakhbar.com,sanskardarshan.in,shabdshodh.com,updatetimes.com##.navbar-ad-section
 prabhatvaibhav.com##.navbar-area-2 ~ div[style]
 daijiworld.com##.navbar-static-top a[target="new"]
 bishwanathbd24.com##.navbar-top-banner
@@ -7181,8 +7183,8 @@ sagarmatha.tv##.no-vigyapan-sidebar-section
 narayanionline.com##.no-vigyapan-single
 ajkercrimetimes.com##.notice_single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dainikayodhyatimes.in,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 hariyalinepal.com##.nt_ads_space img
 livehindustan.com##.ntwrk-wdgt
@@ -8707,6 +8709,7 @@ deshdoot.com##div[data-test-id="ad"]
 sandhan24.com##div[data-widget_type*="_ads"]
 telugu.boldsky.com,telugu.drivespark.com,telugu.filmibeat.com,telugu.goodreturns.in,telugu.mykhel.com##div[data-zoneid]
 reportexclusive.com##div[id$="-ad"]
+news4indiatv.com##div[id*="-ad-"]
 beauronews.com##div[id*="-ad-block-"]
 thechopal.com##div[id*="ArticleShow_"] > div:nth-child(-n+10)
 banglatribune.com##div[id*="BT_Inner_"]
