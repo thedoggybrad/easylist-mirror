@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jhUmzbS4zNXafYc7A1VojA
-! Version: 202409161241
+! Checksum: 2g0EE5ymoFnivaKNcDgeig
+! Version: 202409161251
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Sep 2024 12:41 UTC
+! Last modified: 16 Sep 2024 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -76494,6 +76494,7 @@ tripadvisor.com##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 androidauthority.com##div:not([class]) > div[class^="_--_-___"]:has(> div[data-ad-type="leaderboard_atf"])
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
+shoprite.com##div[class*="Row--"]:has(img[src*="/PROMOTED-TAG_"])
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
 walmart.com##div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])
@@ -76545,6 +76546,8 @@ tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripa
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])
+tripadvisor.com#?#[data-automation="crossSellShelf"] div:has(> span:-abp-contains(Sponsored))
+tripadvisor.com#?#[data-automation="relatedStories"] div > div:has(a:-abp-contains(SPONSORED))
 oneindia.com##ul > li:has(> div[class^="adg_"])
 ! curseforge/modrinth
 modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
