@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e4fiHnau6ACHGYdbkx4qOQ
-! Version: 202409160911
+! Checksum: wgmBr7ZqXi4hsWAIhJB2yw
+! Version: 202409160921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Sep 2024 09:11 UTC
+! Last modified: 16 Sep 2024 09:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23026,10 +23026,10 @@ anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
 pikabu.ru#?#.story__header:-abp-has(> div:empty)
-dzen.ru##.ya__link
 fonmod.com,howdyho.net,howdyho.pro,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||ozon.ru/highlight/kursk-$elemhide
+dzen.ru##[class*="ya"][class*="__link"]
 dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"]:not([class*="__link"]):not([class*="tabContent"]) [class] > [class] > [class] > [class])
 dzen.ru#?#[class]:-abp-properties(/--banner-color:/)
 www.drive2.ru##[data-container="outer"]
@@ -23050,7 +23050,7 @@ www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] section:empty
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] span:empty:not(.ph-marusia)
 sdamgia.ru##center > div[id][style]
-dzen.ru#?#div:-abp-has(> .ya__link)
+dzen.ru#?#div:-abp-has(> [class*="ya"][class*="__link"])
 dzen.ru#?#div:-abp-has(> div:first-child > style + div a span)
 cq.ru#?#div:-abp-properties(content: "Реклама")
 dzen.ru#?#div:-abp-properties(position: relative !important)
@@ -24249,6 +24249,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*yqilp=$popup,domain=dzen.ru
 /*yqipl=$popup,domain=dzen.ru
 /*yqppel=$popup,domain=dzen.ru
+/*yqqpel=$popup,domain=dzen.ru
 =mytarget$popup,domain=dzen.ru
 ||t.mail.ru/redir/$popup,domain=dzen.ru
 !
