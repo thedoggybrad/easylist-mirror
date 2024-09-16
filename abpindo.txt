@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M2FDhszAvZlyJqP9ex/F5w
-! Version: 202409161011
+! Checksum: XWjHi28+JGVZo7MT2BVr9A
+! Version: 202409161031
 ! Title: ABPindo
-! Last modified: 16 Sep 2024 10:11 UTC
+! Last modified: 16 Sep 2024 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 13 Sep 2024 21:56 UTC
+! Last modified: 16 Sep 2024 10:15 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -730,8 +730,10 @@ totolink.id#@#.social-circle
 ###iklan-tengah
 ###iklan-text
 ###iklan1
+###iklan125x127
 ###iklan2
 ###iklan3
+###iklan300x100
 ###iklan4
 ###iklan700
 ###iklanFloat
@@ -2067,6 +2069,7 @@ cloud.majalahhewan.com,info.vebma.com#?#span:-abp-contains(Advertisement)
 /angkajitutogel.$image,third-party
 /angkakembar.$image,third-party
 /animeqq-$image
+/anticurang/*$script
 /aon888-$image
 /aoncash-$image
 /aoncash.$image,third-party
@@ -9053,6 +9056,7 @@ lendirpedia.*##.teaser3
 manhwaindo.*###teaser3
 manhwaindo.*##.kln
 pascol.*##.kln
+pemersatu.*##.ad
 perawanbokep.*###ads
 ruangbokep.*###floating_bot
 rumahperjaka.*###floatbannerkanan
