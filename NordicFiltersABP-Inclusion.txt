@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1jtpV6el0o4W3Rwy/G++gg
-! Version: 202409160531
+! Checksum: ubT3qtf06PbdbYppZhACpA
+! Version: 202409160541
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Sep 2024 05:31 UTC
+! Last modified: 16 Sep 2024 05:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7908,7 +7908,6 @@ srk.fi#@##CookielawBanner
 /banners/ads-$~xmlhttprequest
 /banners/ads.$~xmlhttprequest
 /banners/adv/*$~xmlhttprequest
-/banners/aff.
 /banners/affil/*$image
 /banners/affiliate/*$image
 /bottom-ads.jpg$image,domain=~saltwaterisland.com
@@ -7981,7 +7980,7 @@ srk.fi#@##CookielawBanner
 /floatads.$script
 /floating-ad-rotator-$script,stylesheet
 /floatingad.js$script
-/floatingads.js
+/floatingads.js$script
 /flyad.js$script
 /footer-ad.$~script
 /footer_ad.js$script
@@ -8269,7 +8268,6 @@ srk.fi#@##CookielawBanner
 /sponsor-ad$image
 /sponsorad.jpg$image
 /sponsorad.png$image,domain=~hmassoc.org
-/sponsored-links.
 /sponsored_link.gif$image
 /sponsored_text.
 /sponsoredlinks?
@@ -8653,8 +8651,6 @@ _prebid8.
 /anti_ab.
 /blockblock/blockblock.jquery.js$script
 /BlockerBanner/*$xmlhttprequest
-/Disable%2BAdblock.
-/disabled_adBlock.
 /jgcabd-detect-$script
 /no-adblock/*$script,stylesheet
 _atblockdetector/
