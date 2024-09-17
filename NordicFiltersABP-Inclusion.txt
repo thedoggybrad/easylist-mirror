@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sO0lHjAMYtlu37y0WB/ZqA
-! Version: 202409171501
+! Checksum: PIXA0+5YlXCXcimSwrlDTg
+! Version: 202409171511
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 17 Sep 2024 15:01 UTC
+! Last modified: 17 Sep 2024 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7837,7 +7837,6 @@ srk.fi#@##CookielawBanner
 /advbanners/*$~image
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert?
-/advertbanner.
 /advertising/banners/*$image
 /advertisment/*$~image
 /adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
@@ -7965,7 +7964,6 @@ srk.fi#@##CookielawBanner
 /external/ad.$script
 /external/ads/*$image
 /external_ad?
-/external_ads.
 /fel456.js$script
 /fgh1ijKl.js$script
 /flashad.asp$subdocument
@@ -8025,7 +8023,7 @@ srk.fi#@##CookielawBanner
 /index_ads.js$script
 /infinity.js.aspx?
 /inhouse_ads/*$image
-/inlineads.aspx
+/inlineads.aspx$subdocument
 /insertads.js$script
 /internAds.css$stylesheet
 /istripper.gif$image
