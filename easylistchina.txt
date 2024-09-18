@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i55kGOX2zso7/JIt0rx3sA
-! Version: 202409180141
+! Checksum: 22V/EuHnwLgbDg2B/s0YOg
+! Version: 202409180151
 ! Title: EasyList China
-! Last modified: 18 Sep 2024 01:41 UTC
+! Last modified: 18 Sep 2024 01:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1719,6 +1719,7 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
 !
+||jy08.shop^
 ||koytqo.xyz^
 ||wkitere.top^
 ||dsukqsx.icu^
@@ -10192,6 +10193,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 /mpc/*$domain=52xkdy.com|fydy8.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+raenonx.cc##div[style="display: flex; justify-content: center; align-items: center; position: relative;"] > iframe
 wantgoo.com##.fab-ad
 wantgoo.com##div[type="adv"]
 tmioe.com##.tphf
