@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VQUn3cTzmY2MlmHTZfxszQ
-! Version: 202409180801
+! Checksum: drxIaq0SqHhVamiFu9v4LQ
+! Version: 202409180811
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Sep 2024 08:01 UTC
+! Last modified: 18 Sep 2024 08:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23033,8 +23033,7 @@ pikabu.ru#?#.story__header:-abp-has(> div:empty)
 fonmod.com,howdyho.net,howdyho.pro,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||ozon.ru/highlight/kursk-$elemhide
-dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"]:not([class*="__link"]):not([class*="tabContent"]) [class] > [class] > [class] > [class])
-dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class$="__link"] [class] > [class] > [class] > [class])
+dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"]:not([class*="tabContent"]) [class] > [class] > [class] > [class])
 dzen.ru#?#[class]:-abp-properties(/--banner-color:/)
 www.drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]
@@ -23045,8 +23044,7 @@ dzen.ru,liveinternet.ru##[data-wrapper]
 dzen.ru##[data_name]
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
-dzen.ru##a[href^="https://dzen.ru/"]:not([class*="__link"]):not([class*="tabContent"]) [class] > [class] > [class] > [class]
-dzen.ru##a[href^="https://dzen.ru/"][class$="__link"] [class] > [class] > [class] > [class]
+dzen.ru##a[href^="https://dzen.ru/"]:not([class*="tabContent"]) [class] > [class] > [class] > [class]
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
@@ -23756,6 +23754,8 @@ r0.ru##div[class^="News__adv"]
 gazeta.ru##div[id^="_g_exchange_"]
 avtorambler.com,rambler.ru##div[id^="rcmw-container-"][id*="-horizontal-"]
 rambler.ru##div[id^="rnet_"]
+avtorambler.com,rambler.ru##div[style="min-height: 600px;"] ~ div
+avtorambler.com,rambler.ru##div[style="min-height:600px"] ~ div
 avtorambler.com,rambler.ru##div[style^="height: 290px"][style*="overflow: hidden"]
 rambler.ru##div[style^="min-height: 140px"]
 avtorambler.com,rambler.ru##div[style^="min-height: 240px"]
@@ -24251,6 +24251,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*yleed=$popup,domain=dzen.ru
 /*yllcd=$popup,domain=dzen.ru
 /*ypppel=$popup,domain=dzen.ru
+/*ypqqel=$popup,domain=dzen.ru
 /*yqilp=$popup,domain=dzen.ru
 /*yqipl=$popup,domain=dzen.ru
 /*yqppel=$popup,domain=dzen.ru
