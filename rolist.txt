@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P4xjbKfclbPGA9vN/FRwrA
-! Version: 202409180631
+! Checksum: tt9R/Q+9XLlppb1ItVMTdg
+! Version: 202409180641
 ! Title: ROList
-! Last modified: 18 Sep 2024 06:31 UTC
+! Last modified: 18 Sep 2024 06:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://www.zoso.ro/rolist/
 !
@@ -13,7 +13,7 @@
 ! A complementary list, with more strict items, is here https://zoso.ro/pages/rolist2.txt
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: mail@zoso.ro
-! Last modified: 30JUN 2024 06:00 UTC
+! Last modified: 18SEP 2024 06:00 UTC
 !hosts
 ||01.creativecdn.com^
 ||2mdn.net^
@@ -295,6 +295,20 @@ ro#@#DIV[id="onetrust-consent-sdk"]
 ||ziarulamprenta.ro/wp-content/uploads/2021/05/Energia-Residence-728px-v2.jpg$image
 ||ziarulamprenta.ro/wp-content/uploads/2021/05/Energia-Residence-v3-final*.jpg$image
 ||ziuaconstanta.ro/images/banners/*
+||cdn.g4media.ro/wp-content/uploads/2023/07/SpitalulSfantulSava.ro_.gif$image
+||fanatik.ro/wp-content/themes/FanatikTwenty/assets/images/euro2024/LEFT-betano.webp$image
+||fanatik.ro/wp-content/themes/FanatikTwenty/assets/images/euro2024/RIGHT-betano.webp$image
+||fanatik.ro/wp-content/themes/FanatikTwenty/assets/images/euro2024/TOP-betano.webp$image
+||hotnews.ro/wp-content/themes/hotnews/public/images/superliga-new.png$image
+||mediafax.ro/sanador$subdocument
+||static4.libertatea.ro/wp-content/uploads/2023/11/wpp-banner-*.png$image
+||storage0.dms.mpinteractiv.ro/media/1/1481/21346/20955911/35/zf-transformarea-romaniei-articol-2-300x250.jpg$image
+||storage0.dms.mpinteractiv.ro/media/401/781/37246/18151859/4/zf-bankers1-2024-300x250.jpg$image
+||vasiledale.ro/images/anastasis.jpg$image
+||vasiledale.ro/wp-content/uploads/2024/01/12ian.jpg$image
+||zf.ro/images/banners/banner-sidebar-v10.jpg$image
+||zf.ro/images/anuar-atlas-bm/banner-interior-v18.jpg$image
+||zf.ro/images/zf-bankers-summit/ZF-Bankers-2023-300x250.jpg$image
 !div rules
 ##a[href^="https://www.welthaus.ro/"][target="_blank"]
 ##div[id^="mg-bottom-20.strawberry-ad-card"]
@@ -430,6 +444,7 @@ observatornews.ro##.linkuri-in-article
 observatornews.ro##div.billboard
 olx.ro##.baxter-container.baxter-placeholder--ads--baxter-l-nat-4
 olx.ro##.ot-fade-in.onetrust-pc-dark-filter
+paginademedia.ro##.desktop-ad.mb-30
 paginademedia.ro##.hidden-xs-down.site-video
 paginademedia.ro##.video-sticky
 panorama.ro##.panor-after-content
@@ -441,6 +456,8 @@ project-e.ro##p > .wp-embedded-content
 realitatea.feedsportal.com##DIV.mf-viral + * + * + A:last-child > *
 realitatea.net###permanent-position-before-content > .mb-5.mt-5.flex-row.w-100.justify-content-center.d-flex
 realitatea.net##.admob
+realitatea.net##.realitatea-advert-before-title.rnet-advert-realitatea-970-250-only-desktop.advert-placeholder.flex-row.w-100.justify-content-center.d-flex
+realitatea.net##main > .advert-placeholder.w-100.flex-row.justify-content-center.d-flex
 redactia.ro##.mrf-adsmedia
 reno.ro###mediacafe
 republica.ro##.box.box-c2a-login
@@ -468,6 +485,7 @@ stiriest.ro###wds_container2_0
 stiriest.ro###wds_container2_1
 stiriest.ro##.code-block-8.code-block > div
 stirileprotv.ro###box_400051071d129964 > .primaPaginaPeScurt
+stirileprotv.ro###fakegrooveskin
 stirileprotv.ro###fakegrooveskin
 stirileprotv.ro##[href^="https://bit.ly/"]
 stirileprotv.ro##[href="http://onelink.to/dhrsfr"]
