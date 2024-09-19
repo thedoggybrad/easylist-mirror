@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Os9MsAQ4TNe+JwIbRfL2cg
-! Version: 202409191451
+! Checksum: BoxazqT6kks2K2baSAKfdw
+! Version: 202409191501
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Sep 2024 14:51 UTC
+! Last modified: 19 Sep 2024 15:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19661,6 +19661,7 @@ ictv.ua,vikna.tv##div[id^="div-gpt-ad-"]
 ! -----------------------------------------------------------------------------
 ! *** advblock/specific_block.txt ***
 ! CSP and Header filters
+$csp=script-src-attr 'none',domain=volyn.com.ua
 .infox.sg^$csp=script-src
 /gateway/aHR0c$csp=script-src
 |http*//fastpic.org/$csp=frame-src 'self'
