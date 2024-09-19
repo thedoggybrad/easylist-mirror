@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ezUFvBJEt/wATm50tkMhMg
-! Version: 202409191341
+! Checksum: s8eBjNI4N76pTpSpEAUzsQ
+! Version: 202409191351
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Sep 2024 13:41 UTC
+! Last modified: 19 Sep 2024 13:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11748,7 +11748,6 @@ kinogorod.com###content14
 tr.anidub.com###content::after
 tr.anidub.com###content::before
 people-ask.ru###contentBox > #right > #rightContent
-interfax.ru,sports.ru###contentShifter
 top-mods.ru###content_l_box > .column_wrap > div[style*="min-height:"]
 freescreens.ru,imgbase.ru,imgcach.ru,imgclick.ru,payforpic.ru,picclick.ru,picclock.ru,picforall.ru###content_r
 alldonors.ru###content_r_box
@@ -14822,7 +14821,6 @@ dni.ru##.main_wrapper > div[class="column column_left"]
 myfreeproject.com#?#.mainb > .main_block:-abp-has(> #slides > #reklama)
 csgolife.ru#?#.mainb > .main_block:-abp-has(> center > .slider)
 dungeonmaster.ru##.mainbanner
-interfax.ru,sport-interfax.ru##.mainblock ~ .mainblock .infinitblock::before
 the-cinema.online##.maincont > center
 torrents-soft.net##.maincont > div:nth-last-of-type(2) > a > img
 bookskeeper.ru##.maincont > div[class="clr"]
@@ -16266,6 +16264,7 @@ bezformata.ru##.topicbanner_box
 murman-fishing.ru##.topiclist + div[style^="padding"]
 finiz.ru##.topline
 m.ua##.toplineban
+interfax.ru##.toplogo__advertisement-wrap
 mymedicalportal.net##.topnews noindex
 sportanalytic.com##.toppad
 sport.kg##.toprek
@@ -16755,7 +16754,6 @@ life.ru#?#[class^="styles_title_"]:-abp-contains(Новости партнеро
 kg-portal.ru##[class^="ten_frontrow"]
 sportsdaily.ru##[class^="timetable__bet"]
 moyskelet.ru,obrazovaka.ru##[class^="tizdiv"]
-interfax.ru,sport-interfax.ru##[class^="toplogo__idea"]
 volynnews.com##[class^="view_back"]
 asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,stranamam.ru##[class^="vigvam"]
 guitarplayer.ru##[class^="windowbg"] > noindex
