@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i+p9Nk/46fYP3vxditH3+A
-! Version: 202409201031
+! Checksum: 4C9nVJfkGybCjbYD0ScSJw
+! Version: 202409201041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Sep 2024 10:31 UTC
+! Last modified: 20 Sep 2024 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13711,7 +13711,6 @@ online.zakon.kz##.buy-sidebar
 kinobanda.net##.buyframe
 carsweek.ru##.bx-composite-btn
 electroandi.ru##.bybit
-shuba.life##.c-banner
 drive2.com,drive2.ru#?#.c-block:-abp-has(> .c-dv-sns)
 drive2.com,drive2.ru#?#.c-block:-abp-has(> [id^="adfox_"])
 vsplanet.net##.c-center > .cols ~ *
@@ -16729,6 +16728,7 @@ season.ru##[class^="bnnr_bx_"]
 101.ru##[class^="bnr-"]
 geonavigator.ge,navigator.az##[class^="brand"]
 slovoidilo.ua##[class^="branding-link-"]
+shuba.life##[class^="c-banner"]
 fastpic.org##[class^="embed-responsive"]
 klubok.com##[class^="gekon"]
 protocol.ua##[class^="headerBanner"] > .top
@@ -16833,6 +16833,7 @@ mac.org.ua##[data-src*="bashmac"]
 drive2.ru##[data-target^="drom_"]
 adme.media#?#[data-test-id$="-recommended"] > div > div > div:nth-child(-n+3):-abp-has(> div > div > div:empty)
 russia-tv.online#?#[data-test="channel-name-link"] ~ div:-abp-has(> div > div[id^="yandex_rtb"])
+dom.ru#?#[data-test="custom-wrapper"]:-abp-has(> div > [href*="movix.ru/"])
 scores24.live##[data-testid="ExpressCouponBookmakers"]
 telegraf.com.ua##[data-text^="Новини партнер"]
 my.ua##[data-top-iid]
@@ -17814,9 +17815,9 @@ ixbt.com##a[title="Яндекс Зен"]
 3dnews.kz,3dnews.ru##a[title^="3DNews"][title*="Дзен"]
 survarium.pro##adsense
 kinoafisha.info,kinonews.ru##advertronic-slot
-24tv.ua##app-adv-placeholder
+24tv.ua,lux.fm##app-adv-placeholder
 24tv.ua##app-adv-skeleton
-24tv.ua##app-adv-video-placeholder
+24tv.ua,lux.fm##app-adv-video-placeholder
 nsp.ru##app-advertising-card a[href*="utm_campaign"][target="_blank"]
 nsp.ru##app-article-banner
 24tv.ua##app-desktop-top-banner
@@ -23032,7 +23033,7 @@ pikabu.ru#?#.story__header:-abp-has(> div:empty)
 fonmod.com,howdyho.net,howdyho.pro,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||ozon.ru/highlight/kursk-$elemhide
-dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="super"] [class] > [class] > [class] > [class])
+dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="_link"][class*="_tabContent"] [class] > [class] > [class] > [class])
 www.drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
@@ -23042,7 +23043,7 @@ dzen.ru,liveinternet.ru##[data-wrapper]
 dzen.ru##[data_name]
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
-dzen.ru#?#a[href^="https://dzen.ru/"][class*="super"] [class] > [class] > [class] > [class]
+dzen.ru##a[href^="https://dzen.ru/"][class*="_link"][class*="_tabContent"] [class] > [class] > [class] > [class]
 kp.kg,kp.kz,kp.md,kp.ru#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 www.e1.ru#?#body > script[src^="https://www.e1.ru/"] ~ #app [itemprop] > figure:-abp-has(span:-abp-contains(чуть-чуть и видео загрузится))
 www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
@@ -24190,8 +24191,8 @@ dzen.ru##div[class*="card-widh-ad_"]
 dzen.ru##div[class*="card-with-ad__"]
 dzen.ru##div[class*="piacehoder"]:empty
 dzen.ru##div[class*="tsar__container"]
-dzen.ru##div[class*="widget"] > div[class*="container"] > div ~ div
 dzen.ru##div[class^="advert-panel"]
+dzen.ru##div[class^="dzen-desktop--header-widgets"] div[class^="dzen-desktop--top-micro-app"]
 dzen.ru##div[class^="floor-card-rtb_"]
 dzen.ru##div[class^="floor-skeleton-card__skeletonCardWrapper"]
 dzen.ru#?#div[class^="grid__row-"]:-abp-has(> div[class^="video-card-ad"])
@@ -24213,6 +24214,7 @@ dzen.ru##div[style*=" !important; "][style$=" !important;"]
 /*pil=$popup,domain=dzen.ru
 /*y*el=$popup,domain=dzen.ru
 /*y*le=$popup,domain=dzen.ru
+/*y*li=$popup,domain=dzen.ru
 /*ychid=$popup,domain=dzen.ru
 /*ychyd=$popup,domain=dzen.ru
 /*yciild=$popup,domain=dzen.ru
