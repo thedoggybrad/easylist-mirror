@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jB263qlfozekhF87VfKaQg
-! Version: 202409211401
+! Checksum: dZxtOqZ6lByNLDvcpUdLjg
+! Version: 202409211411
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 Sep 2024 14:01 UTC
+! Last modified: 21 Sep 2024 14:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -71606,6 +71606,7 @@ sciencealert.com##.ad-desktop\:block
 cnn.com##.ad-feedback__modal
 simracingsetup.com##.ad-fixed-bottom
 404media.co##.ad-fixed__wrapper
+pixiv.net##.ad-footer
 pixiv.net##.ad-frame-container
 valetmag.com##.ad-full_span-container
 valetmag.com##.ad-full_span_homepage-container
@@ -76119,6 +76120,7 @@ aceshowbiz.com##div[style="display:inline-block;min-height:300px"]
 kimcartoon.li##div[style="font-size: 0; position: relative; text-align: center; margin: 10px auto; width: 300px; height: 250px; overflow: hidden;"]
 pixiv.net##div[style="font-size: 0px;"] a[target="premium_noads"]
 beta.riftkit.net##div[style="height: 300px; width: 400px;"]
+pixiv.net##div[style="height: 540px; opacity: 1;"]
 paraphraser.io##div[style="height:128px;overflow: hidden !important;"]
 wikibrief.org##div[style="height:302px;width:auto;text-align:center;"]
 comics.org##div[style="height:90px"]
@@ -76182,6 +76184,7 @@ law.com,topcultured.com##h3
 kazwire.com##h3.tracking-widest
 drive.com.au##hr
 nordstrom.com##iframe[data-revjet-options]
+pixiv.net##iframe[height="300"][name="responsive"]
 yourbittorrent.com##iframe[src]
 realgearonline.com##iframe[src^="http://www.adpeepshosted.com/"]
 bollyflix.how,dramacool.sr##iframe[style*="z-index: 2147483646"]
