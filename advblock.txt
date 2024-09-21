@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: K1T4oj2DvA54JkuX3bTPzw
-! Version: 202409211411
+! Checksum: 4Y6jwu50QsLu5eub6Bho9Q
+! Version: 202409211421
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Sep 2024 14:11 UTC
+! Last modified: 21 Sep 2024 14:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24192,6 +24192,7 @@ dzen.ru##div[class*="card-with-ad__"]
 dzen.ru##div[class*="placehoder"]:empty
 dzen.ru##div[class*="tsar__container"]
 dzen.ru##div[class^="advert-panel"]
+dzen.ru##div[class^="content--news-tsar"]
 dzen.ru##div[class^="floor-card-rtb_"]
 dzen.ru##div[class^="floor-skeleton-card__skeletonCardWrapper"]
 dzen.ru#?#div[class^="grid__row-"]:-abp-has(> div[class^="video-card-ad"])
