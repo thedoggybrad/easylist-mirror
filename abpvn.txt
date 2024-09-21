@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: d/+qLHPLx1HYb1SZwjQSMA
-! Version: 202409210031
+! Checksum: FJ1/CZKUYaAIdP7mAyIKAA
+! Version: 202409210041
 ! Title: ABPVN List
-! Last modified: 21 Sep 2024 00:31 UTC
+! Last modified: 21 Sep 2024 00:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 20 Sep 2024 19:43:39 UTC+7
-! Diff-Path: patches/20240920194339500.patch#abpvn
+! Last modified: 21 Sep 2024 07:32:49 UTC+7
+! Diff-Path: patches/20240921073248992.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -305,6 +305,7 @@ $popup,domain=player-cdn.com|freeplayervideo.com|abysscdn.com|geoip.redirect-ads
 ||ajsc.yodimedia.com^
 ||amcdn.vn^
 ||ants.vn^$third-party
+||api.adda.link^
 ||api.adfly.vn^
 ||apinas.nct.vn^
 ||asg.phukienthoitranggiare.com^
@@ -1047,6 +1048,7 @@ www.vietjack.com##.box-most-viewed.box-course.box-slide
 www.vietjack.com##div.ads_ads
 www.vietjack.com##h3.sub-title
 www.vietjack.com##ul.list:nth-of-type(2)
+www.vipphim.wiki##.block.translate-x-\[-50\%\].left-2\/4.z-\[1\].bottom-\[-6px\].fixed.mx-auto.md\:container.md\:px-0.px-4.w-screen
 xehay.vn###banner1ab
 xem.tructiepnba.com##.truct-catfish
 xem.tructiepnba.com##.truct-widget
