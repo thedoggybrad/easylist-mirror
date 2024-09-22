@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BrNX7s7qP6WixphQD3MkGQ
-! Version: 202409220731
+! Checksum: M/0PFG8jw0EZZTF+58bj6g
+! Version: 202409220741
 ! Title: EasyList without rules for adult sites
-! Last modified: 22 Sep 2024 07:31 UTC
+! Last modified: 22 Sep 2024 07:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -67223,6 +67223,7 @@ flaticon.com##li[id^="bn-icon-list"]
 linkvertise.com##lv-redirect-static-ad
 escorenews.com##noindex
 adblock-tester.com##object[width="240"]
+forums.golfwrx.com##ol.cTopicList > li.ipsDataItem:not([data-rowid])
 americanfreepress.net##p > [href] > img
 ft.com##pg-slot
 mashable.com##section.mt-4 > div
