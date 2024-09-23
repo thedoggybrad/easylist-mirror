@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: emzJJdUUTEly/3NuMxwqAw
-! Version: 202409232031
+! Checksum: TW3BQiMeN+AMz1Xi1IMiJA
+! Version: 202409232041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Sep 2024 20:31 UTC
+! Last modified: 23 Sep 2024 20:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -9860,6 +9860,7 @@ _tizers.
 ||tl2fast.com^$third-party
 ||tl3fast.com^$third-party
 ||tldredenter.com^$third-party
+||tlgrm.click^$third-party
 ||tlr1.biz^$third-party
 ||tlxjuj.com^$third-party
 ||tm-79.com^
@@ -13507,6 +13508,7 @@ sunsurv.ru##.blockBottom
 sunsurv.ru##.blockLeft
 znaikak.ru##.blockLinks
 news29.ru##.blockOverlay.blockUI
+forum.domik.ua##.blockProjects_post
 domik.ua##.blockProjects_stocksInNews
 sunsurv.ru##.blockRight
 programma-peredach.com##.blockSns
@@ -18219,6 +18221,7 @@ mentoday.ru,novochag.ru,pravilamag.ru,techinsider.ru,thesymbol.ru,thevoicemag.ru
 gazetaby.com,gazetaby.info,gazetaby.media##div[class*="block-articles-"][class*="-native"]
 mamaplus.md##div[class*="block-mplus"]
 soccer.ru##div[class*="block-new-desine-"][class*="-bookmakers"]
+forum.domik.ua##div[class*="blockTAdvert"]
 ctv7.ru##div[class*="bnrs-block"]
 diabet-med.com##div[class*="boxzilla"]
 priluki.city##div[class*="bunner"]
@@ -20551,7 +20554,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||cdn.net.ru/config.js
 ||cdn.pljs.ru/*/*.xml|$xmlhttprequest
 ||cdn.pljs.ru/b|$xmlhttprequest
-||cdn.taboola.com/libtrc/$domain=kg-portal.ru|newsru.com|zahav.ru
+||cdn.taboola.com/libtrc/$domain=fontanka.ru|kg-portal.ru|newsru.com|zahav.ru
 ||cdn.taboola.com/libtrc/disqus-russia-network/loader.js
 ||cdn.viqeo.tv/*/vq_fly_widget.js
 ||cdn.viqeo.tv^$domain=baby.ru|liveinternet.ru|pay-day.ru|russian7.ru|solenka.info|spletnik.ru|teleprogramma.pro
@@ -20714,7 +20717,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||docplayer.ru/cloud/ads/
 ||dofiga.net^*/trade
 ||dokonlin.ru.com/js-connect-
-||domik.ua/*/region-banners/
+||domik.ua/*/region-banners/$domain=~forum.domik.ua
 ||domkino.kz/os.js
 ||domovita.by/js/adfox/
 ||domsnov.ru/underbanner/
