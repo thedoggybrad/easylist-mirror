@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TW3BQiMeN+AMz1Xi1IMiJA
-! Version: 202409232041
+! Checksum: ddbKa5rDUoVOtWzq68c8HQ
+! Version: 202409232051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Sep 2024 20:41 UTC
+! Last modified: 23 Sep 2024 20:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16078,7 +16078,8 @@ promebelclub.ru,xn----btbdkbsogebtjq6bm4g5b.xn--p1ai##.tborder[width="165"]
 wmforum.2bb.ru##.tclcon > noindex
 wmforum.2bb.ru##.tclcon > table[height="31"]
 oren.ru##.td-ad-background-link
-hs-manacost.ru,oren.ru##.td-banner-wrap-full
+botanichka.ru##.td-all-devices
+botanichka.ru,hs-manacost.ru,oren.ru##.td-banner-wrap-full
 allmmorpg.ru##.td-bnr-wrap-full
 vsviti.com.ua##.td-fix-index > a[href][target="_blank"]
 ani-mania.com##.td-for-blocks > .left-block[style]
@@ -20544,6 +20545,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||cda.pl/xml_pool/*pool*.php$xmlhttprequest
 ||cdn.anison.fm/images$object
 ||cdn.banki.ru/*/widget-calculators$domain=banki.ru
+||cdn.botanichka.ru/pics/brand/
 ||cdn.gravitec.net/styles/unbloc*.png
 ||cdn.hsmedia.ru/dist/maxim/Product.
 ||cdn.hsmedia.ru/scrooge-client/hsm-creative-manager$script
