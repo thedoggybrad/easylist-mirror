@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1q6c0fE8W7NPt8WK4aqDlQ
-! Version: 202409242101
+! Checksum: QrX/kHEGVujmQ2QVlxUphg
+! Version: 202409242111
 ! Title: EasyList Dutch
-! Last modified: 24 Sep 2024 21:01 UTC
+! Last modified: 24 Sep 2024 21:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -128,6 +128,7 @@ _advertentieleaderboardhome.
 ||t.bazarow.com^$third-party
 ||traffic.12flirt.com^
 ||viralize.tv/display/$domain=startpagina.nl
+||wertuipsertj34.azurewebsites.net^$xmlhttprequest,domain=npo.nl
 ||widget.vpnnederland.nl^$domain=nzbserver.com
 ||widgets.skyscanner.net^$domain=puuropreis.nl
 ||windows.net/banners/$domain=agf.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
@@ -1281,6 +1282,7 @@ ajax1.nl##a[href^="https://www.awin1.com/cread.php?"]
 bollywood.nl##a[href^="https://www.onderdelenshop24.com/"]
 omrekenen.org##a[href^="https://www.onlinebingokaart.nl/"]
 ijshockeynederland.nl##a[href^="https://www.trexrubber.com/"]
+tweakers.net##a[href^="https://www.true.nl/?utm_"]
 edelmetaal-info.nl##a[onclick^="javascript:pageTracker._trackPageview"]
 gostreaming.nl,tennisplaza.be##a[rel*="sponsored"]
 oisterwijknieuws.nl##a[target="_blank"] > img
