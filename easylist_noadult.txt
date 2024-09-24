@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LvaLJ/SHyVg4yfAzYvcTjQ
-! Version: 202409241441
+! Checksum: qsk59kkjiH1g51WA5tJBUA
+! Version: 202409241451
 ! Title: EasyList without rules for adult sites
-! Last modified: 24 Sep 2024 14:41 UTC
+! Last modified: 24 Sep 2024 14:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -154,6 +154,7 @@
 /ad.html?
 /ad.min.js$script
 /ad/a.aspx?
+/ad/ad_common.js$script
 /ad/dfp/*$script
 /ad/err?
 /ad/getban?
@@ -175,7 +176,6 @@
 /ad_bottom.js$script
 /ad_break?
 /ad_campaign?
-/ad_common.js$script
 /ad_counter.aspx$ping
 /ad_header.js$script
 /ad_home.js$script
@@ -326,7 +326,6 @@
 /adv-socialbar-scroll.js$script
 /adv.css?
 /adv_out.js$third-party
-/adv_teasers.js$script
 /adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
 /advanced-ads-$domain=~wordpress.org
@@ -530,6 +529,7 @@
 /jquery.dfp.js?$script
 /jquery.dfp.min.js?$script
 /jquery.openxtag.js$script
+/js/ad_common.js$script
 /js/advRotator.js$script
 /jsAds-1.4.min.js$script
 /jshexi.hj?lb=
