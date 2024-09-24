@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WypuRL7oEIVxm+nfO6s6qw
-! Version: 202409240831
+! Checksum: gnOF90Q2Q8VGF3q9arQHHQ
+! Version: 202409240841
 ! Title: EasyList Polish
-! Last modified: 24 Sep 2024 08:31 UTC
+! Last modified: 24 Sep 2024 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -213,6 +213,7 @@ _banner_$domain=chemiaibiznes.com.pl|cire.pl|cksport.pl|dzisiajwgliwicach.pl|e-p
 _reklama.$domain=radomsport.pl
 _reklama^$domain=tarnowiak.pl
 _reklamy^$domain=weekendfm.pl
+nie do końca wiem jak to działa ale w filtrach na stronie to widniało i było też na lisćie "generated filters" więc wrzucam tu
 supernowosci24.pl##[id^="r-"]
 wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||3.fwcdn.pl^*^welcomeMain.$script,domain=filmweb.com
@@ -389,6 +390,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 !------------------------Specific element hiding rules------------------------!
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_hide.txt ***
 portalpszczelarski.pl###AdBig
+###Article-Inner-Content, #googleAdsCont, #onet-ad-top, #przeswietlWidgetBig, .stickyWrapperAlone
 cssetti.pl###AsideAds
 spottedskarzysko.pl###BoxColTop
 spottedstarachowice.pl###BoxColTop .box
@@ -449,7 +451,7 @@ lagardere-tr.pl###banner-hds-background
 mierzeja.com###banner-popup
 koncertomania.pl###banner-side
 topmarkety.pl###banner-sponsorski
-bialystok.dlawas.info,bielskobiala.dlawas.info,bytom.dlawas.info,chelm.dlawas.info,cieszyn.dlawas.info,dabrowa.dlawas.info,gdansk.dlawas.info,gliwice.dlawas.info,gniezno.dlawas.info,hajnowka.dlawas.info,infostrow.pl,inowroclaw.dlawas.info,kepno.dlawas.info,krakow.dlawas.info,lodz.dlawas.info,lomza.dlawas.info,miedzychod.dlawas.info,milicz.dlawas.info,nisko.dlawas.info,nowytomysl.dlawas.info,ostrzeszow.dlawas.info,pleszew.dlawas.info,polska.dlawas.info,poznan.dlawas.info,przemysl24.pl,rybnik.dlawas.info,sochaczew.dlawas.info,sosnowiec.dlawas.info,sroda.dlawas.info,stalowa.dlawas.info,starachowice.dlawas.info,swidnica.dlawas.info,szczecin.dlawas.info,torun.dlawas.info,wabrzezno.dlawas.info,walbrzych.dlawas.info,wolow.dlawas.info,wroclaw.dlawas.info,wrzesnia.dlawas.info,zagan.dlawas.info###banner-top
+bialystok.dlawas.info,bielskobiala.dlawas.info,brodnica.dlawas.info,bytom.dlawas.info,chelm.dlawas.info,cieszyn.dlawas.info,dabrowa.dlawas.info,elk.dlawas.info,gdansk.dlawas.info,gliwice.dlawas.info,gniezno.dlawas.info,hajnowka.dlawas.info,infostrow.pl,inowroclaw.dlawas.info,kepno.dlawas.info,krakow.dlawas.info,lodz.dlawas.info,lomza.dlawas.info,lublin.dlawas.info,miedzychod.dlawas.info,milicz.dlawas.info,minsk.dlawas.info,nisko.dlawas.info,nowytomysl.dlawas.info,ostrzeszow.dlawas.info,pleszew.dlawas.info,polska.dlawas.info,poznan.dlawas.info,przemysl24.pl,rybnik.dlawas.info,rzeszow.dlawas.info,sochaczew.dlawas.info,sokolow.dlawas.info,sosnowiec.dlawas.info,sroda.dlawas.info,stalowa.dlawas.info,starachowice.dlawas.info,swidnica.dlawas.info,szczecin.dlawas.info,torun.dlawas.info,wabrzezno.dlawas.info,walbrzych.dlawas.info,wolow.dlawas.info,wroclaw.dlawas.info,wrzesnia.dlawas.info,zagan.dlawas.info###banner-top
 dkl24.pl###banner10
 appmaniak.pl###bannerTop
 pdaclub.pl###banner_news
@@ -2675,12 +2677,6 @@ vampirediaries.pl##td[onclick^="window.location"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-rzeszow.dlawas.info###banner-top
-lublin.dlawas.info###banner-top
-brodnica.dlawas.info###banner-top
-elk.dlawas.info###banner-top
-minsk.dlawas.info###banner-top
-sokolow.dlawas.info###banner-top
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
