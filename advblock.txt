@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7m+QRLne+7c1q1UdD7JEmA
-! Version: 202409241701
+! Checksum: I/gCWqWcsuTqko084vD0/Q
+! Version: 202409241711
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Sep 2024 17:01 UTC
+! Last modified: 24 Sep 2024 17:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2083,6 +2083,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /uploads/slider/col$script
 /userfiles/banners/*
 /utarget.js
+/utarget_patched.js
 /utftizer.
 /vast.php?partner_id=$third-party,xmlhttprequest
 /vast.xml?key=
@@ -10136,6 +10137,7 @@ _tizers.
 ||unclic.ru^$third-party
 ||under-click.ru^
 ||undere.com^
+||undersite.pages.dev^$third-party
 ||undrithadat.ru^$third-party
 ||undzbe.com^$third-party
 ||unfeaecmhszmsx.com^$third-party
@@ -17136,6 +17138,7 @@ mixsoft.org,soccer24.top,sportlive365.net,zfilm-hd.org,zfilme-hd1.site,zserials.
 posudaa.ru##a[href*="/offer/"]
 profootball.ua##a[href*="/php/rotator/goto.php?id="]
 sakh.tv##a[href*="/promo/out/banner/"]
+shuba.life##a[href*="/purchase"][target="_blank"]
 flatfy.lun.ua##a[href*="/redirect-andromeda/"]
 soccer.ru##a[href*="/redirect.php?destination"]
 rubryka.com##a[href*="/reklama/"]
