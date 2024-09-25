@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 48jTScNBeJ1oX8CA/FhzZg
-! Version: 202409252331
+! Checksum: iR5Qs7qcPywmh8PW9Tuw6g
+! Version: 202409252341
 ! Title: EasyList China
-! Last modified: 25 Sep 2024 23:31 UTC
+! Last modified: 25 Sep 2024 23:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10301,6 +10301,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tsdm39.com/img01/MP3/GG/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+msn.cn##gaming-discover-strip
+msn.cn##casual-games-carousel-card
+msn.cn##.game-advertise-container
+baidu.com##.lianmeng-pause
 baidu.com##.container_frs:has(>.voice_room_card_frs[data-url*="yylive"])
 baidu.com##.container:has(>.bottom-section>.item_voice_room[data-yysid])
 baidu.com#?#.container:-abp-has(>.bottom-section>.item_voice_room[data-yysid])
