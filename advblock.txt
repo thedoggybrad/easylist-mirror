@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RrxblQzhwe7zYtgd3U86YQ
-! Version: 202409251231
+! Checksum: QhcBLsLaIUQRHyhpOajTtg
+! Version: 202409251241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Sep 2024 12:31 UTC
+! Last modified: 25 Sep 2024 12:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12883,7 +12883,6 @@ vsluh.ru##.ads_list
 lelang.su##.ads_mark
 naked-science.ru##.ads_single
 webtun.com##.adsb
-amoledo.com##.adsbanner
 pogodavtomske.ru##.adsbox
 azpolitika.info##.adsbyskyline
 sharknews.ru##.adsdesctop
@@ -13769,6 +13768,7 @@ vseosi.ru##.centercol > center
 all-for-kompa.ru##.centersideinn > .cblock
 pulscen.ru##.chameleon
 play.tavr.media##.channel-centre > .bottom-links ~ .d-md-block
+tlgrm.ru#?#.channel-feed > .channel-feed__brick:-abp-has(> .cfeed-card > .cfeed-card-contents--banner)
 limehd.tv#?#.channel__list > .channel__item-container:-abp-has(> .channel-container > [id^="yandex_rtb"])
 profinance.ru##.charts-ad
 nonameno.com#?#.clauses_block_rel .panel:-abp-has([href*="dex.browser"])
@@ -18355,6 +18355,7 @@ e-ink-reader.ru##div[class^="adb"]
 news.sportbox.ru##div[class^="adriver_"]
 agronews.ua,vlasti.net,winnote.ru##div[class^="adrotate"]
 chernomorets.odessa.ua,moei.ru,shaiba.kz,x-kuzov.ru##div[class^="ads"]
+amoledo.com##div[class^="adsbanner"]
 inforesist.org##div[class^="adslot"]
 fc-zenit.ru#?#div[class^="adv-"]:-abp-has(> div[id^="adfox_"])
 lb.ua##div[class^="adv-banner"]
@@ -23785,6 +23786,7 @@ avtorambler.com,rambler.ru##div[style^="order:"][style*="-1"]
 ||trafffgen.rambler.ru^
 ||winline.rambler.ru^
 !#if ext_abp
+www.rambler.ru#?##app > div:-abp-properties(min-height: 250px)
 avtorambler.com,rambler.ru#?#.commercial-branding div:-abp-properties(min-height: 125px)
 rambler.ru#?#body > div:-abp-properties(min-height: 250px)
 weather.rambler.ru#?#div:-abp-properties(min-height: 400px)
