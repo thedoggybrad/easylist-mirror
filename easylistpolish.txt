@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Kdw5EpIKQMSYIqZK6+gAqg
-! Version: 202409251611
+! Checksum: OfDfMF3MC1n/ZAEUpSwCFg
+! Version: 202409251621
 ! Title: EasyList Polish
-! Last modified: 25 Sep 2024 16:11 UTC
+! Last modified: 25 Sep 2024 16:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -389,7 +389,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 !------------------------Specific element hiding rules------------------------!
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_hide.txt ***
 portalpszczelarski.pl###AdBig
-###Article-Inner-Content, #googleAdsCont, #onet-ad-top, #przeswietlWidgetBig, .stickyWrapperAlone
+forbes.pl###Article-Inner-Content
 cssetti.pl###AsideAds
 spottedskarzysko.pl###BoxColTop
 spottedstarachowice.pl###BoxColTop .box
@@ -541,6 +541,7 @@ spliff.pl###gkRight
 niedziela.nl,piekarnieonline.pl###gk_banner
 weranda.pl###gl_slot
 popularnie.pl###gold-header
+forbes.pl###googleAdsCont
 motocykle125.pl###gp-fixed-padding + center
 motocykle125.pl###gp-footer-area
 przegladkoninski.pl###head_advertise
@@ -608,6 +609,7 @@ wynagrodzenia.pl###obw-ad.modal
 24.pl###oglmetka
 acermaniak.pl,activemaniak.pl,agdmaniak.pl,blogomaniak.pl,fotomaniak.pl,gizmaniak.pl,gsmmaniak.pl,luxmaniak.pl,mobimaniak.pl,rtvmaniak.pl,tabletmaniak.pl###okazja-dnia a
 naklo24.pl###okazje2
+forbes.pl###onet-ad-top
 radiozet.pl###onnetwork--html
 vetopedia.pl###owl-demo-4
 bobrowniki.tv###page_right [class*="mod_banners_rotate_"]
@@ -634,6 +636,7 @@ wkatalog.pl###prawy
 naszekielce.com###promoted
 slowokatowic.pl,slowokrakowa.pl,slowotrojmiasta.pl,slowowroclawian.pl###promoted-articles
 infosokolka.pl###promoted-module
+forbes.pl###przeswietlWidgetBig
 naszestrony.info.pl###pyre_tabs-widget-2
 starachowice-net.pl###r2
 tuhiszpania.pl###rankomat-travel
@@ -1734,6 +1737,7 @@ zwierciadlo.pl##.srodtekstimg
 portalmorski.pl##.standard_adv_link
 pkf.org.pl##.start-site-banners
 ktomalek.pl##.sticky-content
+forbes.pl##.stickyWrapperAlone
 eska.pl##.stm-shopping-container
 plotkibiznesowe.pl##.stream-item-above-header
 wzielonej.pl##.stream-item-below-post
