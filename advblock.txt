@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PtRp7f5LtG7zs0pWs7WbZg
-! Version: 202409271011
+! Checksum: mqjmVHucoBz97xtHFNlrkg
+! Version: 202409271041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Sep 2024 10:11 UTC
+! Last modified: 27 Sep 2024 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13332,7 +13332,7 @@ open4business.com.ua##.banner_article
 povar.ru##.banner_before_mainmenu
 domik.ua,socproxy.ru##.banner_block
 azovnews.ru##.banner_bot
-livejournal.com##.banner_container
+livejournal.com,novyny.pro##.banner_container
 autostat.ru##.banner_content
 listaj.ru##.banner_dc
 autodoc.ru,spbit.ru##.banner_div
@@ -14539,6 +14539,7 @@ express-novosti.ru##.interesting-news
 etextlib.ru##.interestingly
 business-gazeta.ru##.interests-box
 businessman.ru,neva.today,syl.ru##.intext-block
+itc.ua##.intro
 api.ekranka.tv,api.turk-sinema.ru,api.yadoma.tv##.invideo
 besplatnyeprogrammy.ru##.ip-motto
 besplatnyeprogrammy.ru##.ip-motto + table > tbody > tr:last-child > td:not(:last-child)
@@ -18589,6 +18590,7 @@ coub.com##div[class^="viewer"][class*="banner"]
 virus-stop.com.ua##div[class^="virus-"]
 hqroom.ru##div[class^="vitrina"]
 goal24.live##div[class^="vjs-promo"]
+wikihow.com##div[class^="wh_ad_"]
 dailyhoro.ru##div[class^="whatever"]
 genshin-info.ru##div[class^="wiad"]
 www.goha.ru##div[class^="widget-twitch"] > .data
@@ -18863,6 +18865,7 @@ allcc.ru##div[id^="promo_"]
 berdyansk.biz##div[id^="promo_banner"]
 kosmetista.ru##div[id^="psn_"]
 kinogoo.cc##div[id^="qwetaper"]
+graycell.ru##div[id^="rare_"]
 vellisa.ru##div[id^="reclamads"]
 kabachok.online,stulchik.net##div[id^="rek"]
 nashol.com##div[id^="rek"][style]
@@ -23593,7 +23596,7 @@ www.e1.ru#?#[data-vr-contentbox="Новость в левой колонке"]:-
 fontanka.ru##a[href="/__business_news"]
 fontanka.ru##article.NVaun > [class] ~ [class]
 fontanka.ru#?#aside > div[class]:-abp-has([class*="flickity"])
-fontanka.ru##aside > div[class]:first-child
+fontanka.ru##aside ~ div aside > div[class]:first-child
 fontanka.ru##aside:empty
 fontanka.ru#?#div[class]:-abp-has(> div > button + [href="/pressrelease/"])
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru##div[class^="articleBlockFullscreenGallery_"] > div[class^="wrapper_"] > div[class^="slider_"] ~ div
