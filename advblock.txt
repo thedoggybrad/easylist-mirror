@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k/mTp6RXCUuBT/2aE3aD2g
-! Version: 202409281041
+! Checksum: tBsWpXTZ9nKZJPcHRtyFTw
+! Version: 202409281051
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Sep 2024 10:41 UTC
+! Last modified: 28 Sep 2024 10:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11824,7 +11824,7 @@ bitcryptonews.ru###faq-index
 turmush.kg###fb_bottom_like
 myparcels.ru###featured-wants
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > .PostHeaderSubtitle > .PostHeaderSubtitle__item:-abp-contains(/Community ad|Реклама |Рэклама | жарнама/))
-vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > .PostHeaderSubtitle span ~ span ~ span ~ span ~ span)
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > .PostHeaderSubtitle span ~ span)
 itop-gear.ru###fguru
 partarium.ru###filter-form a[href^="/redirect/"][target="_blank"]
 city.ogo.ua###first-top-banner
@@ -16389,6 +16389,7 @@ virus-stop.com.ua##.virus-widget
 modernfirearms.net##.visible-lg .widget_text
 3dnews.kz,3dnews.ru##.vivo-wide
 pornbase.info##.vjs-inplayer-container
+api-video.khl.ru##.vjs-link_view-yandex-plus
 sovetromantica.com##.vjs-overlay-background
 prgazeta.ru##.vk-group
 mp3poisk.net##.vk-music-link
@@ -23716,6 +23717,7 @@ eda.ru##.ad_branding_header > section
 gazeta.ru##.b_telegram
 championat.com,gazeta.ru,lenta.ru##.banner
 lenta.ru##.banner + div[class][id]
+championat.com##.banner-announce
 championat.com##.banner-parallax
 avtorambler.com,rambler.ru##.commercial-branding article > div:only-child > div:first-child + div + div:last-child
 vp.rambler.ru##.eagleplayer-advertisement-remain-time
@@ -25898,9 +25900,11 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||yandex.ru/ads/system/adsdk.js$script,domain=aniboom.one|gisher.org|karaoke.ru|kino.tricolor.tv|limehd.tv|m24.ru|peers.tv|player.mediavitrina.ru|rutube.ru
 @@||yandex.ru/ads/system/context.js|$domain=examenpdd.com|forum.qrz.ru|yvid.ru
 @@||yandex.ru/ads/system/context.js|$script,domain=tvzvezda.ru
-@@||yandex.ru/ads/system/context.js|$xmlhttprequest,domain=ai-next.ru|blackwot.ru|reshu.by|reshuent.kz|reshuolymp.ru|sdamgia.ru|sports.ru|strategium.ru
+@@||yandex.ru/ads/system/context.js|$xmlhttprequest,domain=ai-next.ru|blackwot.ru|forums.rusmedserv.com|reshu.by|reshuent.kz|reshuolymp.ru|sdamgia.ru|sports.ru|strategium.ru
+@@||yandex.ru/ads/system/header-bidding.js|$xmlhttprequest,domain=forums.rusmedserv.com
 @@||yarik-sat.com/reklama/*.js|$script,domain=yarik-sat.com
 @@||yastatic.net/safeframe-bundles/0.83/host.js|$script,domain=examenpdd.com
+@@||yastatic.net/safeframe-bundles/0.83/host.js|$xmlhttprequest,domain=forums.rusmedserv.com
 @@||zx-pk.ru/abp/adblock_detector.js|$script,domain=zx-pk.ru
 akson.ru#@#.ad-list-item
 akson.ru#@#.ad-spacer
