@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202409291146
+! Version: 202409291157
 ! Title: EasyList
-! Last modified: 29 Sep 2024 11:46 UTC
+! Last modified: 29 Sep 2024 11:57 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -67435,6 +67435,7 @@ tech.hindustantimes.com##.sponsoredBox
 coinmarketcap.com##.sponsoredMark
 lookfantastic.com##.sponsoredProductsList
 circleid.com##.sponsoredTopicCard
+mynorthwest.com##.sponsored_block
 hannaford.com##.sponsored_product
 meijer.com##.sponsoredproducts
 ar15.com,armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,hotrodhotline.com,jaguarforums.com,pypi.org,smashingmagazine.com,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
@@ -67869,7 +67870,7 @@ coincheckup.com##.visible-xs > .ng-isolate-scope
 visualcapitalist.com##.visua-target
 roosterteeth.com##.vjs-marker
 koreaboo.com##.vm-ads-dynamic
-belloflostsouls.net,ginx.tv,op.gg,theloadout.com##.vm-placement
+belloflostsouls.net,ginx.tv,op.gg,paladins.guru,smite.guru,theloadout.com##.vm-placement
 c19-worldnews.com##.vmagazine-medium-rectangle-ad
 gosunoob.com##.vntsvideocontainer
 darkreader.org##.vpnwelt
@@ -69751,6 +69752,7 @@ checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##div[class$="-adInner"]
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+kslnewsradio.com,ksltv.com,ktar.com#?#.wrapper:-abp-contains(Sponsored Articles)
 shopee.sg#?#.shopee-search-item-result__item:-abp-contains(Ad)
 shopee.sg#?#.shopee-header-section__content:-abp-contains(Ad)
 kogan.com#?#.rs-infinite-scroll > div:-abp-contains(Sponsored)
