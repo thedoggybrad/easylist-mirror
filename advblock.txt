@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VYzA+nqCLHatZ1+gp69QOA
-! Version: 202409291051
+! Checksum: rMBSMJjSPpX4lKG4JNP+QA
+! Version: 202409291101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Sep 2024 10:51 UTC
+! Last modified: 29 Sep 2024 11:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11824,7 +11824,8 @@ bitcryptonews.ru###faq-index
 turmush.kg###fb_bottom_like
 myparcels.ru###featured-wants
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > .PostHeaderSubtitle > .PostHeaderSubtitle__item:-abp-contains(/Community ad|Реклама |Рэклама | жарнама/))
-vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > .PostHeaderSubtitle span ~ span)
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > .PostHeaderSubtitle [aria-hidden] [aria-hidden])
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > .PostHeaderSubtitle span span span span)
 itop-gear.ru###fguru
 partarium.ru###filter-form a[href^="/redirect/"][target="_blank"]
 city.ogo.ua###first-top-banner
