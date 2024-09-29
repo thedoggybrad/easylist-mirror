@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JpI2ylYHAriVK5JvgEYpdQ
-! Version: 202409290421
+! Checksum: xVqztvElNdj/g+dW/+6w3Q
+! Version: 202409290431
 ! Title: ABPVN List
-! Last modified: 29 Sep 2024 04:21 UTC
+! Last modified: 29 Sep 2024 04:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 28 Sep 2024 19:32:38 UTC+7
-! Diff-Path: patches/20240928193238835.patch#abpvn
+! Last modified: 29 Sep 2024 11:23:12 UTC+7
+! Diff-Path: patches/20240929112312615.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1249,7 +1249,7 @@ $third-party,script,domain=sexdiaryx.one
 ||play.stream4.me/jwplayer/vast.js$script,domain=play.stream4.me
 ||qcvip.xyz/popup$script,domain=phevkl.cx|viet69.sbs
 ||quatvn.store/ads.js$script
-||quoracdn.net^$image,domain=vlxx.mx|vlxyz.tube|sex.sieudamtv.biz|sex.chichnhau.me|phevkl.cx|viet69.sbs|phim18vip.vip
+||quoracdn.net^$image,domain=vlxx.mx|vlxyz.tube|sieudamtv.biz|sex.chichnhau.me|phevkl.cx|viet69.sbs|phim18vip.vip
 ||rphang.online^*.gif
 ||sayhentai.one/assets/js/ads.js
 ||sayhentai.one/storage/images/banner/$image
@@ -1340,11 +1340,10 @@ rphang.my##.bbMediaWrapper-inner>.samCodeUnit
 rphang.my##.js-replyNewMessageContainer.block-body>div.samCodeUnit>.samItem
 rphang.my##.p-footer
 rphang.my##.samVideoOverlay
-rphang.my,phim18vip.vip,checkgaigoi9.cc,sex.sieudamtv.biz##.float-ck
+rphang.my,phim18vip.vip,checkgaigoi9.cc,sieudamtv.biz##.float-ck
 sex.chichnhau.me,phim18vip.vip##.in.fade.modal-backdrop
-sex.chichnhau.me,sex.sieudamtv.biz,phim18vip.vip###pc-preload-modal
-sex.chichnhau.me,sex.sieudamtv.biz,phim18vip.vip###popup
-sex.sieudamtv.biz,phim18vip.vip##.quang-cao
+sex.chichnhau.me,sieudamtv.biz,phim18vip.vip###pc-preload-modal
+sex.chichnhau.me,sieudamtv.biz,phim18vip.vip###popup
 sexdacbiet.club,sexgaidep69.pro,phimsex4hay.pro##.quangcaomobile
 sexhd88.live##.classvi
 sexhd88.live##.elementor-section-height-default.elementor-section-boxed.elementor-element-e601265.elementor-element.elementor-top-section.elementor-section
@@ -1353,6 +1352,7 @@ sexsub.onl##body>div[class]
 sexviet2.top##.preload
 sexviet3x.live,javhd.tech,quat69.pro,sexheovl.com,sexvip1z.net,heosuong.pro,vlxxai.net,javhd.social,sexsoc.info###f186fb23a33995d91ce3c2212189178c8
 sexvn2024.pro###tut4ktream_idAdLink
+sieudamtv.biz,phim18vip.vip##.quang-cao
 sieukhungz.org##.adspopupgiua
 sieukhungz.org##.adspopupleft
 sieukhungz.org##.adspopupright
