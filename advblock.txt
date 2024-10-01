@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MGYQvz7P+PbZ1eAmHdDBpQ
-! Version: 202410011121
+! Checksum: HKD0HzAbruXIHojaa3NxaQ
+! Version: 202410011131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Oct 2024 11:21 UTC
+! Last modified: 01 Oct 2024 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4592,6 +4592,7 @@ _tizers.
 ||biberukalap.com^$third-party
 ||bict.pro^$third-party
 ||bid.run^$third-party
+||bidajet.info^$third-party
 ||bidder.smartytouch.co^$third-party
 ||bidmatic.io^$third-party
 ||bidster.net^$third-party
@@ -8948,6 +8949,7 @@ _tizers.
 ||rhhmaq.com^$third-party
 ||riaccaw.com^$third-party
 ||riafdi.com^$third-party
+||riamiavid.com^$third-party
 ||rich-adv-code.net^
 ||richthof.com^
 ||ridapsipsy.com^$third-party
@@ -23571,9 +23573,11 @@ e1.ru##.e1-top-panel__link[title="Авто"]
 116.ru,14.ru,161.ru,164.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,voronezh1.ru##.forum-right-column
 116.ru,14.ru,161.ru,164.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,voronezh1.ru##.forum-top-banner
 116.ru,14.ru,161.ru,164.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,voronezh1.ru##.global-wrapper > noindex li::after
+fontanka.ru#?#.gridContainer > [class*="grid"]:-abp-has(> [class] > [href="/format/fproject/"])
+fontanka.ru#?#.gridContainer > [class*="grid"]:-abp-has(> [class] > [href^="/pressrelease"])
+fontanka.ru#?#.gridContainer > [class*="grid"]:-abp-has(> [data-creative])
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru#?#.gridContainer > div[class*=" grid"]:-abp-has(> [data-creative])
-fontanka.ru#?#.gridFullLaptop:-abp-has(> div > [href^="/pressrelease"])
-fontanka.ru#?#.gridFullLaptop:-abp-has(> div > a[href="/format/fproject/"])
+fontanka.ru##.gridOneThirdLaptop > [class^="sliderWrap_"]
 e1.ru##.js-sticky-rotation-banners
 ##.jtn-widget-adv
 love.ngs.ru##.lv-right-banner
@@ -23604,8 +23608,8 @@ fontanka.ru##aside ~ div aside > div[class]:first-child
 fontanka.ru##aside:empty
 fontanka.ru#?#div[class]:-abp-has(> div > button + [href="/pressrelease/"])
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,fontanka.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru##div[class^="articleBlockFullscreenGallery_"] > div[class^="wrapper_"] > div[class^="slider_"] ~ div
-fontanka.ru#?#div[class^="grid"][class*="Laptop"]:-abp-has(> div[id^="adv_"])
-fontanka.ru##div[class^="gridTwoThirdLaptop "] ~ div[class="gridOneThirdLaptop"]
+fontanka.ru##div[class^="newsFeedBlock_"] > div[class^="news_"] > a[href^="https://doctorpiter.ru/"]
+fontanka.ru#?#div[class^="newsFeedBlock_"] > div[class^="news_"]:-abp-has(> a[href^="https://doctorpiter.ru/"])
 72.ru,74.ru,chita.ru,ngs.ru,ufa1.ru,www.e1.ru##div[data-test="header-sticky"] > div > section ~ div
 fontanka.ru##div[style*="--creative-height:"]
 fontanka.ru##div[style^="order:"] > a[href*="/?erid="]
@@ -25862,6 +25866,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||sevtracker.org/styles/js/adframe.js|$script,domain=sevtracker.org
 @@||shararam-card.tk/showads.js|$script,domain=shararam-card.tk
 @@||sld.kiev.ua/assets/*/advert.js
+@@||smaxim.*/player/stats.php?event=Init,|$image,~third-party
 @@||st.s5o.ru/source/_desktop/$xmlhttprequest,domain=sports.ru
 @@||stalker-mods.*/images/icons/*_|$image,~third-party,domain=stalker-mods.clan.su|stalker-mods.su
 @@||static-mon.yandex.net/static/main.js?pid=$xmlhttprequest,domain=reshu.by|reshuent.kz|reshuolymp.ru|sdamgia.ru|sports.ru
