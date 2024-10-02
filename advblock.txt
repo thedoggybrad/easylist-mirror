@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: czVAUOAhBUT6m2pcR4XYuw
-! Version: 202410020901
+! Checksum: wYD+wr8W1Xy1L4tYxhfl6g
+! Version: 202410020911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Oct 2024 09:01 UTC
+! Last modified: 02 Oct 2024 09:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4098,6 +4098,7 @@ _tizers.
 ||adpool.bet^$third-party
 ||adpremium.ru^$third-party
 ||adprofits.ru^$third-party
+||adradle.life^$third-party
 ||adram.media^$third-party
 ||adreaction.ru^$third-party
 ||adrek*.ru^$third-party
@@ -4685,6 +4686,7 @@ _tizers.
 ||bold-in.ru^$third-party
 ||bombago.ru^$third-party
 ||bombeers.ru^$third-party
+||bomentrima.xyz^$third-party
 ||bondzgi*.tk^$third-party
 ||bondzgi.cf^$third-party
 ||bondzgi.ga^$third-party
@@ -23077,7 +23079,7 @@ liveinternet.ru##div[style*="!important; "]
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
 www.drive2.ru##iframe[style="opacity: 1;"]
-e.mail.ru##span[style*="--sidebar-column-width:"] > div:last-child
+e.mail.ru##span[style*="--sidebar-column-width:"] > div ~ div ~ div
 liveinternet.ru##style + div > div > div > div > div a
 !#endif
 soyztreid.website##:not(my-obnaruzhili-blokirovshchik)
