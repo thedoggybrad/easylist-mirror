@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FSudFw+Am2LRKE4V4jH3RA
-! Version: 202410020421
+! Checksum: EArlPJBDTYFptI1AMB6gSw
+! Version: 202410020430
 ! Title: EasyList China
-! Last modified: 02 Oct 2024 04:21 UTC
+! Last modified: 02 Oct 2024 04:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -21,6 +21,7 @@
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
 =fitacg.com/static/other/
+/static/js/pop_promotion.js?v=
 -1316632262.cos.
 -1316899192.cos.
 -1321533417.cos.
@@ -10369,7 +10370,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ads.yeeyi.com^
 /cuid/*$domain=colamanga.com
 ||tsdm39.com/img01/MP3/GG/
-||hdmoli.*/static/js/pop_promotion.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 kmeiju.com##.ad
