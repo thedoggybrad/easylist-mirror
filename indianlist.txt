@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8YDGP1rmbQaxAbxm+1LuXA
-! Version: 202410021521
+! Checksum: lg3hjMoSOoVnq5SYnmso6g
+! Version: 202410021531
 ! Title: IndianList
-! Last modified: 02 Oct 2024 15:21 UTC
+! Last modified: 02 Oct 2024 15:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8588,6 +8588,7 @@ aarthiknews.com##div[class*="bigyap"]
 bikanerhulchul.com##div[class*="bikan"]
 livetimes.tv##div[class*="bnner"]
 democratictvnews.com##div[class*="colombia"]:not(#LP_O_LHS_1)
+sarkarnama.esakal.com##div[class*="customWidgetWrapper"]:not(:has(> div > div > h2))
 dhakapost.com##div[class*="h-[250px]"]
 gvoice24.com##div[class*="iklan-"]
 nrimalayalee.com##div[class*="inner-main-ad"]
@@ -8598,7 +8599,7 @@ jhabuanews.in##div[class*="kitsune-advert"]
 lokshahi.com,navjivanindia.com##div[class*="m__ad"]
 kalkionline.com##div[class*="m__ad-"]
 navjivanindia.com##div[class*="m__dfp"]
-deshdoot.com,saamtv.esakal.com##div[class*="m_ad-slot"]
+deshdoot.com,saamtv.esakal.com,sarkarnama.esakal.com##div[class*="m_ad-slot"]
 makdaiexpress24.com##div[class*="makda-"]
 nainilive.com##div[class*="naini-"]
 akilanews.com##div[class*="pannel-banner"]
