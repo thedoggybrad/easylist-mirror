@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202410021857
+! Version: 202410022207
 ! Title: Fanboy's Social Blocking List
-! Last modified: 02 Oct 2024 18:57 UTC
+! Last modified: 02 Oct 2024 22:07 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2065,6 +2065,7 @@ _social_footer_
 ###social-share-footer-icons
 ###social-share-inline
 ###social-share-links-side
+###social-share-root
 ###social-share-selection
 ###social-share-sidebar-widget
 ###social-share-top
@@ -9292,6 +9293,7 @@ _social_footer_
 ##.social-share__button
 ##.social-share__list
 ##.social-share__wrapper
+##.social-share_compact
 ##.social-sharebar
 ##.social-shared
 ##.social-sharer
