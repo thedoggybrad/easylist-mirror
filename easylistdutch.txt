@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xTkCOFNDlIw38oNMy/OgIA
-! Version: 202410041511
+! Checksum: YOW5PQ7JhGb10QQaEtLhUA
+! Version: 202410041521
 ! Title: EasyList Dutch
-! Last modified: 04 Oct 2024 15:11 UTC
+! Last modified: 04 Oct 2024 15:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1023,6 +1023,7 @@ ajax.nl##.header__partner-link
 eredivisie.nl##.header__top__partners
 arenalokaal.nl##.header_banner
 zeelandnet.nl##.hero-banner
+psvinside.nl##.hide-ad-small
 basketbal.vlaanderen##.holder--divider-top
 oogtv.nl##.home-banner
 funda.nl##.home-billboard
@@ -1039,6 +1040,7 @@ dansendeberen.be##.inhype-bb-block-header
 radiopros.be##.inside-left-sidebar
 dolcevia.com##.ira-container.ira-format-block > .bookingaff
 reformatorischeomroep.nl##.item-banner
+defeijenoorder.nl##.jet-banner
 beursgorilla.nl##.js--billboard
 beursgorilla.nl##.js--rect
 iex.nl##.js-banner
@@ -1391,7 +1393,7 @@ prewarcar.nl##img[width="160"][height="92"]
 climaximaal.nl##img[width="200"]
 webstick.nl##img[width="220"]
 dartfreakz.nl##img[width="250"][height="250"]
-creditexpo.nl,dagbladdewest.com,dagelijksestandaard.nl,fiets.nl,luister.nl,negerin.nl,ninefornews.nl,omroeprsh.nl,ucl-voetbal.nl,unitednews.sr##img[width="300"]
+creditexpo.nl,dagbladdewest.com,dagelijksestandaard.nl,fiets.nl,luister.nl,negerin.nl,ninefornews.nl,omroeprsh.nl,psvinside.nl,ucl-voetbal.nl,unitednews.sr##img[width="300"]
 regio-voetbal.nl##img[width="300"][height="100"]
 advocatie.nl,goedkoopstekeukensduitsland.nl,lflmagazine.nl,mannennieuws.nl,streamwijzer.be,teqnation.com,thatsgaming.nl,yourlittleblackbook.me##img[width="300"][height="250"]
 ciaotutti.nl##img[width="300px"]
@@ -1444,6 +1446,7 @@ mediamarkt.be,mediamarkt.nl#?#[data-index-number]:-abp-contains(Gesponsord)
 mnm.be#?#.grid-item.grid-item-pebble:-abp-has(#pebble-label:-abp-contains(Advertentie))
 moviemeter.nl#?#.footer-artikelen:has(.footer-h6:-abp-contains(Partners))
 nieuwsopbeeld.nl#?#.td_module_wrap:-abp-has(.td-post-category:-abp-contains(Gesponsord))
+psvinside.nl#?#.td_block_template_1:has(.block-title:-abp-contains(Partners))
 tijd.be#?#.o-hpgrid__row-tijdconnect:-abp-has(h2:-abp-contains(Gesponsorde inhoud))
 tostrams.nl#?#section.network:-abp-has(.contentheader.contentheader--network:-abp-contains(Gesponsorde links))
 tweakers.net#?#:-abp-properties(content: "Advertentie";)
