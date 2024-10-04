@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XUgPRTnN7ksicAvEBOXdyQ
-! Version: 202410041851
+! Checksum: pU0P6IdANcePHIT+yFU8Xg
+! Version: 202410041901
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Oct 2024 18:51 UTC
+! Last modified: 04 Oct 2024 19:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20636,7 +20636,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||compedu.ru^$domain=kopilkaurokov.ru
 ||consmed.ru/branding/
 ||consmed.ru/tizergen/
-||cont.ws/js/test.js?cf=$script
+||cont.ws/js/*.js?cf=$script
 ||conversion.im/admin/ajax/banners/
 ||cookielaw.org^$domain=adme.media
 ||cookreactor.com^$subdocument
@@ -23047,6 +23047,7 @@ www.drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
 www.drive2.ru##[data-sticky-adtune]
+e.mail.ru##[data-styled="active"] + div
 www.drive2.ru##[data-test="AdKebabAndLabel--adLabelContent"]
 dzen.ru,liveinternet.ru##[data-wrapper]
 dzen.ru##[data_name]
@@ -23441,6 +23442,7 @@ my.mail.ru##div[style^="position:"][style*=";display:"][style*=";opacity:1;visib
 ! Облако
 cloud.mail.ru##div[class*="advHeaderStatic"]
 cloud.mail.ru##div[class^="Folder__worm"]
+cloud.mail.ru##div[class^="ReactViewer__attachesSidebar"]
 cloud.mail.ru##div[class^="ReactViewer__bottominfoWrapper-"]
 cloud.mail.ru##div[class^="Worm__root-"]
 cloud.mail.ru##section > div[class^="Rightinfo__header"]
