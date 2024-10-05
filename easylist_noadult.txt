@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tYgCxRQgfBVSrrHMZ2e7zg
-! Version: 202410050051
+! Checksum: 3vHVlKYnFgVPopbjy7iZRg
+! Version: 202410050101
 ! Title: EasyList without rules for adult sites
-! Last modified: 05 Oct 2024 00:51 UTC
+! Last modified: 05 Oct 2024 01:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -67628,6 +67628,7 @@ barandbench.com##.ad-wrapper-module__adContainer__iD4aI
 slickdeals.net##.announcementBar:has(.sponsorContent)
 nation.africa##.article-collection-teaser:has(.sponsored-label)
 thesun.co.uk##.article-sidebar .widget-sticky:has([class*="ad_widget"])
+historic-uk.com##.article-sidebar:has-text(Advertisement)
 forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
 time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
 blitz.gg##.aside-content-column:has(.display-ad)
