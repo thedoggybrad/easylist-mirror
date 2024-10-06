@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jtgFPi8Wt120I2GW36ZHqA
-! Version: 202410060511
+! Checksum: GLMkmeoJ9jQnVPr74iimFA
+! Version: 202410060521
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 06 Oct 2024 05:11 UTC
+! Last modified: 06 Oct 2024 05:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -77198,6 +77198,7 @@ yahoo.com##.viewer-sda-container
 yahoo.com##[data-content="Advertisement"]
 mail.yahoo.com##[data-test-id="gam-iframe"]
 mail.yahoo.com##[data-test-id^="pencil-ad"]
+mail.yahoo.com##[data-test-id^="taboola-ad-"]
 yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
