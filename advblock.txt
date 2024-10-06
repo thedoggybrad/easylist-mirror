@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XLqTSTp74eJbfI3v14NcMg
-! Version: 202410061901
+! Checksum: bigAreEfK57VWL2fbA+bSA
+! Version: 202410061911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Oct 2024 19:01 UTC
+! Last modified: 06 Oct 2024 19:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14179,7 +14179,6 @@ openssource.info##.focus-ad
 forum.ixbt.com#?#.folders:-abp-has(> .title > [href="/?id=favorites"]) ~ .forumpage_table div[style^="background: #aea; color:#020;"]
 mogilev.online##.follow_button
 russian.rt.com##.follows-channel_djen
-fedpress.ru##.follows-channel_yandexnews
 oper.ru##.follows-channel_zen
 mmotop.ru##.fon-ref
 c-sgo.ru##.fon-reiting
@@ -15038,7 +15037,7 @@ zaxid.net##.news-list-col > .news-list
 onliner.by##.news-media__preview > a:not([href*="onliner.by/"]) > img
 1plus1.ua##.news-partners-add
 onliner.by#?#.news-promo:-abp-has(> .news-promo__details)
-onliner.by##.news-promo:not([style="background-color: #FFF5EE;"])
+onliner.by#?#.news-promo[style^="background-color:"]:-abp-has([href*="banner"])
 armyinform.com.ua##.news-section_items > li.link > a[target="_blank"] > img
 onliner.by##.news-text > * > a[href^="https://catalog.onliner.by/"][href*="utm_"]
 football24.ua#?#.news-text > .insert:-abp-has(> a[target="_blank"])
@@ -18248,6 +18247,7 @@ www.zoneofgames.ru##div[class*="dver"]
 ren.tv##div[class*="dzenFoxButtonsContainer"] > div[class^="root"]
 superjob.ru##div[class*="f-test-vacancy-ad-context-"]
 prokuzbass.ru#?#div[class*="flex-grow"]:-abp-has(> .sticky > .adv)
+fedpress.ru##div[class*="follows-channel_yandex"]
 lifehacker.ru##div[class*="footer-widgets__container"] > [data-key^="custom_html-"]
 tm.ati.su,trucks.ati.su#?#div[class*="grid-user-data"]:-abp-has(> [class*="user-data-grid"] > :empty)
 prnt.sc##div[class*="grundik"]
