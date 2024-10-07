@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kvef1qGKvx6O9ls6Bh2fXA
-! Version: 202410070740
+! Checksum: RvsvNXKXdPRaII8Ty+6sGg
+! Version: 202410070751
 ! Title: EasyList without rules for adult sites
-! Last modified: 07 Oct 2024 07:40 UTC
+! Last modified: 07 Oct 2024 07:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -60393,6 +60393,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||assets.presearch.com/backgrounds/
 ||atoplay.com/js/rtads.js
 ||atptour.com^*/sponsors/
+||attr-shift.dotabuff.com^
 ||audiotag.info/images/banner_
 ||aurn.com/wp-content/banners/
 ||aveherald.com/images/banners/
@@ -67826,6 +67827,7 @@ healthyrex.com##div.textwidget:has(a[rel="nofollow sponsored"])
 bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
 timesnownews.com,zoomtventertainment.com##div:has(> .bggrayAd)
 newsfirst.lk##div:has(> [class*="hide_ad"])
+fandomwire.com##div:has(> [data-openweb-ad])
 doordash.com##div:has(> a[data-anchor-id="SponsoredStoreCard"])
 skyscanner.com,skyscanner.net##div:has(> a[data-testid="inline-brand-banner"])
 wolt.com##div:has(> div > div > div > div > div > p:has-text(Sponsored))
