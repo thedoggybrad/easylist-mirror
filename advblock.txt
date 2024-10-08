@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NHl9CqNT8vII9fpDUhOiZA
-! Version: 202410080631
+! Checksum: 9dFKJikkSTDa9rg/l2Uowg
+! Version: 202410080641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Oct 2024 06:31 UTC
+! Last modified: 08 Oct 2024 06:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23024,7 +23024,7 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||imgfrost.net^$third-party
-||pikabu.ru/ajax/*ii=$xmlhttprequest,domain=pikabu.ru
+||pikabu.ru/ajax/*&1bfr=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
