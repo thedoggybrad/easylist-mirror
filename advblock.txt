@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FAQ+z617Ta55ZDq5oA5b7g
-! Version: 202410091841
+! Checksum: O4mtFxhOwgOk1puip9SwYQ
+! Version: 202410091851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Oct 2024 18:41 UTC
+! Last modified: 09 Oct 2024 18:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11833,6 +11833,7 @@ myparcels.ru###featured-wants
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > .PostHeaderSubtitle > .PostHeaderSubtitle__item:-abp-contains(/Community ad|Реклама |Рэклама | жарнама/))
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo [onclick*="ads_params:"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo [onmouseover*="AdsLight"])
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo span.PostHeaderSubtitle__item)
 itop-gear.ru###fguru
 partarium.ru###filter-form a[href^="/redirect/"][target="_blank"]
 city.ogo.ua###first-top-banner
@@ -23570,8 +23571,8 @@ ok.ru##div[data-place*="BANNER"]
 ! Очень однобокая реклама Хрома + очень часто просят удалить
 ok.ru##.update-browser_container
 ! Блокировка
-||ok.ru/res/js/b/p_*.js
-||ok.ru/res/js/nativeHooks_*.js
+/res/js/b/p_*.js$domain=ok.ru
+/res/js/nativeHooks_*.js$domain=ok.ru
 ||st.mycdn.me/res/i/anonym/jakobs/$image
 ! Реклама, встроенная расширением OkTools)
 ok.ru##iframe[src^="//oktools.ru/page/static/"]
