@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jqjpX0K1SMCQGnvet+7cQw
-! Version: 202410101501
+! Checksum: g+fSpOE2wtho/Vooo7tLTQ
+! Version: 202410101511
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Oct 2024 15:01 UTC
+! Last modified: 10 Oct 2024 15:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23072,7 +23072,7 @@ www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] div[style^="width: 3"]
 ~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] p:-abp-has(> div div:-abp-contains(/реклама|Рeклама|Рекламa|Реклaма|Реклaмa|Рeкламa|Реĸлама|ԯ/i))
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] p:empty
-~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] section:-abp-has(> div div:-abp-contains(/реклама|Рeклама|Рекламa|Реклaма|Реклaмa|Рeкламa|Реĸлама|ԯ/i))
+~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] section:-abp-has(> div div:-abp-contains(/^реклама|Рeклама|Рекламa|Реклaма|Реклaмa|Рeкламa|Реĸлама|ԯ/i))
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] section:empty
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] span:empty:not(.ph-marusia)
 ~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] span:not(.ph-marusia):-abp-has(> div div:-abp-contains(/реклама|Рeклама|Рекламa|Реклaма|Реклaмa|Рeкламa|Реĸлама|ԯ/i))
