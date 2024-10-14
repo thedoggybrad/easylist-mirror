@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: I5F9xVqGErx3QIg4S4j8dA
-! Version: 202410142051
+! Checksum: yFci4YFFToOsTbaC5g6J7w
+! Version: 202410142101
 ! Title: EasyList without element hiding rules
-! Last modified: 14 Oct 2024 20:51 UTC
+! Last modified: 14 Oct 2024 21:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -46908,6 +46908,8 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/gpt/*/pubads_impl.js?$script,domain=wunderground.com
 !! g.doubleclick.net/pagead/ppub_config
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
+!! ads-twitter.com/uwt.js
+@@||ads-twitter.com/uwt.js$domain=aussiebum.com|factory.pixiv.net
 ! Non-English
 @@/banner/ad/*$image,domain=achaloto.com
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
@@ -46917,7 +46919,6 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||adfurikun.jp/adfurikun/images/$~third-party
 @@||ads-i.org/images/ads3.jpg$~third-party
 @@||ads-twitter.com/oct.js$domain=ncsoft.jp
-@@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
 @@||adtraction.com^$image,domain=ebjudande.se
 @@||aiasahi.jp/ads/$image,domain=japan.zdnet.com
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
