@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: A6g+xq5LglGR9mS9hiZP8A
-! Version: 202410151031
+! Checksum: f+ZSzsftsDp1bRLIdSj9Jg
+! Version: 202410151041
 ! Title: EasyList Polish
-! Last modified: 15 Oct 2024 10:31 UTC
+! Last modified: 15 Oct 2024 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -381,6 +381,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=czluchowinfo.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl|vizjer.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -1078,7 +1079,6 @@ kalisz24.info.pl##.bdaia-e3-container
 dziennikplocki.pl##.before-news-ads
 fabrykasily.pl##.bg-link-left
 fabrykasily.pl##.bg-link-right
-portalpszczelarski.pl##.biggDickus
 pcworld.pl##.bilbo_ad
 4trucks.pl##.bilbord
 ddtorun.pl,ddwloclawek.pl,faktypilskie.pl,itvszubin.pl,koronowo.net.pl,koscianiak.pl,naszraciborz.pl,portalzamojski.pl,sieradz.com.pl,teksty.org,traktorpool.pl,twojapogoda.pl,zyciesiedleckie.pl##.billboard
@@ -2695,6 +2695,9 @@ londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 czluchowinfo.pl##.new-toplayer
+myszkow.dlawas.info###banner-top
+lebork.dlawas.info###banner-top
+karkonoszego.pl###ad--bill-top
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
