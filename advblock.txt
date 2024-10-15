@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7t6BZ0K+7r0OAgkqZjrhmg
-! Version: 202410151631
+! Checksum: 9m+S2BNMrUArUzzkHxvgjQ
+! Version: 202410151641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Oct 2024 16:31 UTC
+! Last modified: 15 Oct 2024 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3474,7 +3474,7 @@ _tizers.
 ||sputnik1.ru^$third-party
 ||spynigeria.com^$third-party
 ||spytrack.tic.ru^
-||sravni.ru^$third-party,domain=~amazingthailand.ru|~autospot.ru|~bankauto.ru|~egrnins.ru|~eldorado.ru|~fin-markt.ru|~ipotekain.ru|~jetravel.ru|~mafin.ru|~osago.online|~osago4u.ru|~osagoonline.info|~rosstrah.online|~shop.vsk.ru|~sravni.ru|~sravnikupi.ru|~svyaznoy.ru|~trip-online.ru|~www-eg-insurance-net.filesusr.com
+||sravni.ru^$third-party,domain=~amazingthailand.ru|~autospot.ru|~bankauto.ru|~credistory.ru|~egrnins.ru|~eldorado.ru|~fin-markt.ru|~ipotekain.ru|~jetravel.ru|~mafin.ru|~osago.online|~osago4u.ru|~osagoonline.info|~rosstrah.online|~shop.vsk.ru|~sravni.ru|~sravnikupi.ru|~svyaznoy.ru|~trip-online.ru|~www-eg-insurance-net.filesusr.com
 ||srv.mzcdn.com^
 ||stableprofit.ru^
 ||staffcop.ru/rekl/
@@ -11735,10 +11735,10 @@ kttc.ru###content > [style*="min-height: 92px"]
 mobbit.info###content > center
 forum.saransk.ru###content > div > div[class^="zone_"]
 pesni-tut.com###content > div[id^="mx"]
+wooordhunt.ru###content > div[style*="min-height:"]
 oddstyle.ru###content > div[style="margin-left: 15px; margin-top: 10px;"] > a > img
 professorweb.ru###content > div[style="margin:30px auto;"]
 melodiimp3.ru###content > div[style^="max-width:"]
-wooordhunt.ru###content > div[style^="min-height:90px;"]
 portamur.ru###content > div[style^="padding"]
 4allwomen.ru,diabet-med.com,forum.masterforex-v.org,on-movie.net###content > noindex
 forum.tvercity.ru###content > table[cellspacing="1"][cellpadding="1"]
@@ -18767,7 +18767,7 @@ israelinfo.co.il##div[id^="ban"]
 probusiness.by,tut.by##div[id^="banObject"]
 ua-electro.com##div[id^="banadd"]
 radioroks.ua##div[id^="baner"]
-advizzer.com,bragazeta.ru,cataclysmdda.ru,chehov-vid.ru,conversion.im,coollib.net,ekaraganda.kz,ereport.ru,euro-football.ru,floraprice.ru,gameguru.ru,go64.ru,grinkod.spb.ru,igrixl.ru,kp40.ru,kramatorsk.info,lada.kz,mirnov.ru,mix.tj,musicmp3spb.org,musicwars.ru,news29.ru,ptzgovorit.ru,servers-samp.ru,sovets.net,sport.ua,sports.kz,tayga.info,tparser.org,uaprom.info,vidal.ru##div[id^="banner"]
+advizzer.com,bragazeta.ru,cataclysmdda.ru,chehov-vid.ru,conversion.im,coollib.net,ekaraganda.kz,ereport.ru,euro-football.ru,floraprice.ru,gameguru.ru,go64.ru,grinkod.spb.ru,igrixl.ru,kp40.ru,kramatorsk.info,lada.kz,mirnov.ru,mix.tj,musicmp3spb.org,musicwars.ru,news29.ru,pogoda.com,ptzgovorit.ru,servers-samp.ru,sovets.net,sport.ua,sports.kz,tayga.info,tparser.org,uaprom.info,vidal.ru##div[id^="banner"]
 ivona.ua,rabota66.ru##div[id^="banner-place-"]
 pitbit.ru##div[id^="banner-right-inside"]
 015.by##div[id^="banner-slider-"]
@@ -21023,7 +21023,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||goodgame.ru/del/
 ||goodgame.ru/|$xmlhttprequest
 ||goodread.ru/tiz*/
-||googletagmanager.com/gtm.js?$domain=inc-news.ru|intellitest.me|ivi.ru|vesti.kz
+||googletagmanager.com/gtm.js?$domain=inc-news.ru|intellitest.me|ivi.ru|pogoda.com|vesti.kz
 ||googleusercontent.com/hk/oobRfTyrFtxXAuFWNle3KfDteO/www.5.ua/files/img/bg/*.jpg.
 ||gordonua.com/user/*/branding-
 ||gorod.cn.ua/banner
@@ -24141,7 +24141,6 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.stat_pixel_yes[onclick][class*="_layou
 yandex.by,yandex.kz,yandex.ru,yandex.uz##a[href*="//ads.adfox.ru/"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
-ya.ru##div[class^="main-home-"][class*="i-mini-bem"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 |https://dzen.ru/*/*/*/$subdocument,domain=dzen.ru
 ||awaps.yandex.
