@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: s8hlanpg1Xubg8s8ICb7Vg
-! Version: 202410171611
+! Checksum: f3TaOIbGLzBpYrudx9sk/w
+! Version: 202410171621
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Oct 2024 16:11 UTC
+! Last modified: 17 Oct 2024 16:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23257,7 +23257,7 @@ gismeteo.by,gismeteo.kz,gismeteo.ru,meteofor.md##.placeholder
 gismeteo.by,gismeteo.kz,meteofor.com.ua##.section-media
 meteofor.com.ua##.section-rss
 gismeteo.by,gismeteo.kz,gismeteo.ru##.sticky > .section
-gismeteo.by,gismeteo.kz,gismeteo.ru##.top-media-placeholder
+gismeteo.by,gismeteo.kz,gismeteo.ru##.top-media-extender
 gismeteo.ru##.widget-container
 gismeteo.ru##.zen
 gismeteo.ru##div[class*="feed-partner"]
@@ -24101,6 +24101,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.AdvRsya-Slot
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.Organic_withPromoOffer
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-spec-adv
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-yabrowser-promo
+ya.ru##.body__feed-wrapper
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.container__banner
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.content.i-bem > .body__topblocks
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.content__left > #search-result > li:-abp-has(> .Organic_withPromoOffer)
@@ -24150,6 +24151,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 ||kiks.yandex.
 ||static-mon.yandex.net/static/main.js$domain=~auto.ru
 ||strm.yandex.ru/get/$media,domain=yastatic.net
+||ya.ru/portal/feed
 ||yabs.yandex.*/show/$third-party
 ||yadi.sk^*direct?
 ||yandex-news.naydex.net^$subdocument
