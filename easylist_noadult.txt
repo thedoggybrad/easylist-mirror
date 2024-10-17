@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oONvq/VLN6kc50PtEtVaUQ
-! Version: 202410170321
+! Checksum: I+ki8wDYA8KWBN9RW7urkA
+! Version: 202410170331
 ! Title: EasyList without rules for adult sites
-! Last modified: 17 Oct 2024 03:21 UTC
+! Last modified: 17 Oct 2024 03:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -65758,6 +65758,7 @@ douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
+pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pricespy.*##.AdPlacementMarginTop-sc-0-3
 pricespy.*##.AdPlacementMarginTop-sc-15ga2eg-3
 pricespy.*##.AdPlacementWrapper-sc-0-3
