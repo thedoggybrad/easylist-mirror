@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: skp5Mcnlq1/gAsKnbcuIVA
-! Version: 202410191531
+! Checksum: 1SW376YpqrT2FPQRC1DlyQ
+! Version: 202410191541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Oct 2024 15:31 UTC
+! Last modified: 19 Oct 2024 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18757,7 +18757,6 @@ gadgetstyle.com.ua##div[id^="afc_"]
 amic.ru##div[id^="amic_banner_"]
 meta.ua##div[id^="anabelarto"]
 wowhead.com##div[id^="announcement"]
-game4you.top,games-pc.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id^="as"][id*="script"]
 nv.ua##div[id^="async_"][id*="_spec"]
 photoshablon.ru##div[id^="av"]
 nm71.ru##div[id^="az"]
@@ -18805,7 +18804,6 @@ kurs.if.ua,radiotrek.rv.ua##div[id^="candyplace_"]
 sonnik-online.net##div[id^="carousel_pos"]
 doska.fi,russian.fi##div[id^="centered"]
 check-host.net##div[id^="chadddos-guard"]
-game4you.top,games-pc.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id^="chess"]
 riotpixels.com##div[id^="citybattleslide"]
 astrolibra.com,medickon.com,multrecept.com,tvoipitomec.com,tvoipitomec.info##div[id^="clear_"]
 finam.ru##div[id^="cntnt_block_"]
@@ -18868,6 +18866,7 @@ chto-proishodit.ru##div[id^="news_chto_"]
 melodramo.com##div[id^="news_melodramo_ru"]
 korabel.ru##div[id^="newsid_"] > .row0[style="margin-bottom:8px;"] ~ .row0[style="margin-bottom:8px;"]
 win7ka.ru##div[id^="newsteaser_"]
+game4you.top,games-pc.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id^="opachalo"]
 myhistori.ru##div[id^="pad_bnr_"]
 mix.tj##div[id^="parimatch"]
 pronedra.ru##div[id^="partners-content-"]
@@ -23047,6 +23046,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 !||www.liveinternet.ru/users/$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/cgi-bin/rpls.fcgi?list= https://www.liveinternet.ru/spell/spell.js https://www.liveinternet.ru/share/js/share.js https://www.liveinternet.ru/4Ek/JS/diary/main/nav/regoradd.js https://www.liveinternet.ru/4Ek/JS/diary/trans.js
 !||www.liveinternet.ru/|$csp=script-src 'unsafe-inline' 'unsafe-eval' i.li.ru https://www.liveinternet.ru/utf/lici.js https://www.liveinternet.ru/utf/li.js https://www.liveinternet.ru/utf/main_new.js
 ! селекторы
+growhow.in.ua###custom-background-css {remove:true;}
 e.mail.ru##.layout__column_right-indented
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
@@ -26005,6 +26005,7 @@ lektsii.org,megaobuchalka.ru,studopedia.com.ua,studopedia.net,studopedia.org,stu
 culture.ru###page-error-modal
 forum.niiot.net###some_ad_block_key_popup
 myshows.me##.CheatModal__modal
+rknweb.ru##.IsAdBlock
 usemind.org##.a-top
 dfm.ru,hitfm.ru,maximum.ru,montecarlo.ru,rusradio.ru##.ad-blocked-message
 ogorod.ru##.adblock_popup_warning
