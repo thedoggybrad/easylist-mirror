@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oweCz5cydsT88v1we9+eag
-! Version: 202410201851
+! Checksum: gqUn4OGhUGdessuK57ZN9w
+! Version: 202410201901
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Oct 2024 18:51 UTC
+! Last modified: 20 Oct 2024 19:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15105,8 +15105,6 @@ novostroykin.ru##.ntgb_
 epravda.com.ua,nv.ua,pravda.com.ua##.nts-ad
 999.md##.numbers-placeholder
 focus.ua##.o-adds
-drive2.ru##.o-grid--equal > div[class] > div:not([class]):not([id])
-drive2.ru##.o-grid--equal > div[class] > div[id]:not(:empty)
 infekc.ru##.obl
 nikopolnews.net##.oblivki
 pimpletv.ru##.odds
@@ -15375,6 +15373,7 @@ epizod.life##.prf-box[style="padding:30px"]
 news.qip.ru##.primary > .low_new.item:nth-of-type(2)
 xcadr.tv##.primary > noindex
 livelib.ru##.prm-block
+livelib.ru##.prm-header
 besplatka.ua##.prmtn
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.pro-adv
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru#?#.pro-block:-abp-has(> .pro-block-adv)
@@ -23061,11 +23060,11 @@ fonmod.com,howdyho.net,howdyho.pro,ritsatv.ru##:not(my-obnaruzhili-blokirovshchi
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||ozon.ru/highlight/kursk-$elemhide
 dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class])
-www.drive2.ru##[data-container="outer"]
+drive2.ru##[data-container="outer"]
 liveinternet.ru,sdamgia.ru##[data-container]
 sdamgia.ru##[data-name="partial-container"]
-www.drive2.ru##[data-sticky-adtune]
-www.drive2.ru##[data-test="AdKebabAndLabel--adLabelContent"]
+drive2.ru##[data-sticky-adtune]
+drive2.ru##[data-test="AdKebabAndLabel--adLabelContent"]
 dzen.ru,liveinternet.ru##[data-wrapper]
 dzen.ru##[data_name]
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
@@ -23084,11 +23083,13 @@ dzen.ru#?#div:-abp-has(> div:first-child > style + div a span)
 cq.ru#?#div:-abp-properties(content: "Реклама")
 dzen.ru#?#div:-abp-properties(position: relative !important)
 otvet.mail.ru#?#div:empty:-abp-properties(content: "Реклама")
+drive2.ru##div[class$="--equal"] > div[class] > div:not([class]):not([id])
+drive2.ru##div[class$="--equal"] > div[class] > div[id]:not(:empty)
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
 pikabu.ru#?#div[class*="page-story__"] div:-abp-properties(/min-height: [02345]{2}[0-9]{1}|min-height: calc.|min-height: .+.(cm|in|lh|mm|pt)|height: 250px/)
 pikabu.ru##div[class*="page-story__"] div[style=""]
 sdamgia.ru##div[class^="google_ad_left"]
-liveinternet.ru,sdamgia.ru##div[data-name="adWrapper"]
+drive2.ru,liveinternet.ru,sdamgia.ru##div[data-name="adWrapper"]
 rg.ru##div[id][class*="__"]:empty
 sdamgia.ru##div[id^="yandex_vario"]
 liveinternet.ru##div[style*="!important; "]
