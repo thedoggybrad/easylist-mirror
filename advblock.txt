@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DsLGlvE/tnh2+EySzoIlXg
-! Version: 202410201311
+! Checksum: APtT1HRVyHH0cUtyWTyyLg
+! Version: 202410201331
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Oct 2024 13:11 UTC
+! Last modified: 20 Oct 2024 13:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14139,6 +14139,7 @@ bigness.ru##.fark
 prostatitanet.com##.fasc-button
 vgtimes.ru##.fatad
 ficbook.net##.fb-ads-block
+versii.if.ua##.fb-s-blog-two-top a[href]:not([href^="/"]):not([href^="https://versii.if.ua"])
 villaved.ru##.fbln
 hi-fi.ru##.feature__ad-block
 anypictures.ru##.featured
@@ -17897,6 +17898,7 @@ repetit-center.ru##aside > a[href][onclick="return !window.open(this.href)"]
 point.md#?#aside > div:-abp-has(> a[href*="utm_campai"])
 shazoo.ru#?#aside > div:-abp-has(> iframe[src*="://goodgame.ru/html/embed-player/dist/index.html?partner="])
 bitcryptonews.ru#?#aside > div:-abp-has(script)
+versii.if.ua##aside > div[class="brxe-block"]
 point.md#?#aside > div[class]:-abp-has(> div > [id*="adsense"])
 hibiny.ru##aside > div[class^="margintop"]
 finbalance.com.ua##aside > div[style] > a[href^="http"]:not([href*="finbalance.com.ua"])
@@ -18126,6 +18128,7 @@ android-club.ws#?#div.side-item-left:-abp-has(> .side-title:-abp-contains(Рек
 soundtimes.ru#?#div:-abp-has(> #kb)
 7themes.su,banker.ua,chudo-povar.com,cyberpedia.su,dmod.cc,draug.ru,festima.ru,help-wifi.com,mods-fs.net,modsforwot.ru,mydiv.net,nikolaev-city.net,pingvin.pro,pixwords-help.info,point.md,readweb.org,sega-play.ru,slo.ru,vplate.ru,wotspeak.org#?#div:-abp-has(> .adsbygoogle)
 finversia.ru#?#div:-abp-has(> .banner-bdm )
+versii.if.ua#?#div:-abp-has(> .indication-bor-rad:-abp-contains(РЕКЛАМА))
 salonav.com#?#div:-abp-has(> .mom-ads-wrap)
 selomoe.ru#?#div:-abp-has(> .title_also:-abp-contains(Партнерский контент))
 forumhouse.ru#?#div:-abp-has(> [class$="relap-block"])
@@ -19116,6 +19119,7 @@ dachnye-sovety.ru#?#h6:-abp-contains(РЕКОМЕНДУЕМ ПОЧИТАТЬ:)
 ozon.ru##header + [data-replace-layout-path] > div[class]:not([data-widget]):first-child
 agronomy.com.ua##header .size-75
 finecooking.ru##header > .container-fluid
+versii.if.ua##header > [id] > div > div ~ a[href]:not([href^="/"]):not([href^="https://versii.if.ua"])
 proagro.com.ua##header > a
 orenburg.media##header > a:not([href^="/"]):not([href*="://orenburg.media/"])
 www.onliner.by##header > a[href*="utm_"]
