@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ioW6LehuUzk1A6pJ+vrgSA
-! Version: 202410211621
+! Checksum: UZMF3WGk7merlDzRt4lrPg
+! Version: 202410211631
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Oct 2024 16:21 UTC
+! Last modified: 21 Oct 2024 16:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23039,7 +23039,7 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||imgfrost.net^$third-party
-||pikabu.ru/ajax/*&*ykq=$xmlhttprequest
+||pikabu.ru/ajax/*&*zkq=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23098,7 +23098,8 @@ sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
 www.drive2.ru##iframe[style="opacity: 1;"]
 liveinternet.ru##style + div > div > div > div > div a
-e.mail.ru##style:first-child + div[class]:not([id]):last-child
+e.mail.ru##style:first-child + div[class]:not([id])
+e.mail.ru##style:first-child + div[class]:not([id]) ~ div[class]:not([id])
 !#endif
 soyztreid.website##:not(my-obnaruzhili-blokirovshchik)
 ||liferoom.net^*.$third-party,popup
