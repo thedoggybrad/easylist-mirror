@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JN9EXbRewr1xi7uQDHFCUA
-! Version: 202410211131
+! Checksum: +Y1+D8YNhcOeb9rOtnrTvQ
+! Version: 202410211141
 ! Title: EasyList without element hiding rules
-! Last modified: 21 Oct 2024 11:31 UTC
+! Last modified: 21 Oct 2024 11:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1027,8 +1027,10 @@ _widget_ad.
 /beardeddragon/armadillo.js$script
 /beardeddragon/drake.js$script
 /beardeddragon/gilamonster.js$script
+/beardeddragon/iguana.js$script
 /beardeddragon/tortoise.js$script
 /beardeddragon/turtle.js$script
+/beardeddragon/wyvern.js$script
 /detroitchicago/anaheim.js$script
 /detroitchicago/augusta.js$script
 /detroitchicago/boise.js$script
@@ -1064,6 +1066,7 @@ _widget_ad.
 /parsonsmaize/mulvane.js$script
 /parsonsmaize/olathe.js$script
 /tardisrocinante/austin.js$script
+/tardisrocinante/surgeonv2.js$script
 /tardisrocinante/vitals.js$script
 ! prebid scripts
 -dfp-prebid-
@@ -39119,7 +39122,6 @@ _800x80_
 ||glam.com/gad/
 ||go.affiliatesleague.com^
 ||go.bloxplay.com^
-||go.ezodn.com^
 ||go.onelink.me^$image,script
 ||goldmoney.com/~/media/Images/Banners/
 ||google.com/adsense/domains/caf.js
