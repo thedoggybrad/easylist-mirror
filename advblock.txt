@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ohaE9NnVOg4Zz/1cxDoufw
-! Version: 202410210931
+! Checksum: iP5nWlKAirs08AeMMRK2sg
+! Version: 202410210941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Oct 2024 09:31 UTC
+! Last modified: 21 Oct 2024 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14530,7 +14530,7 @@ lostpix.com##.infotext
 europaplus.ru##.infox
 education.ua##.inl-blk
 bb.lv##.inline-desk
-howdyho.net,howdyho.pro#?#.inner > .default:-abp-has(> header > h1:-abp-contains(РЕКЛАМА))
+howdyho.net,howdyho.pro#?#.inner > .default:-abp-has(> header > h1:-abp-contains(PEKЛAМA))
 snn-mn.ru##.inner > .widget_media_image
 totori.ru##.inner-wrap > #header
 24tv.ua##.inner-wrap > .nav-additional
@@ -23056,7 +23056,8 @@ e.mail.ru##.layout__column_right-indented
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
-fonmod.com,howdyho.net,howdyho.pro,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
+howdyho.net,howdyho.pro##:not(my-obnaruzhili-adblock)
+fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||ozon.ru/highlight/kursk-$elemhide
 dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class])
