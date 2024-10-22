@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wwKRMvDKaSxRI+oqRN+9Vw
-! Version: 202410221611
+! Checksum: iS9NYU6g9UkmtoZxbQXrtA
+! Version: 202410221631
 ! Title: EasyList without element hiding rules
-! Last modified: 22 Oct 2024 16:11 UTC
+! Last modified: 22 Oct 2024 16:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -38493,7 +38493,6 @@ _800x80_
 ||easyflirt.com^$third-party
 ||eroadvertising.com^$third-party
 ||erotikdating.com^$third-party
-||escortso.com^$third-party
 ||euro4ads.de^$third-party
 ||exchangecash.de^$third-party
 ||exclusivepussy.com^$third-party
@@ -38635,7 +38634,6 @@ _800x80_
 ||nexxxt.biz^$third-party
 ||ngbn.net^$third-party
 ||ningme.ru^$third-party
-||njmaq.com^$third-party
 ||nscash.com^$third-party
 ||nudedworld.com^$third-party
 ||nummobile.com^$third-party
@@ -38914,7 +38912,6 @@ _800x80_
 ||moradu.com^$popup
 ||mptentry.com^$popup
 ||needlive.com^$popup
-||njmaq.com^$popup
 ||notimoti.com^$popup
 ||nyetm2mkch.com^$popup
 ||passtechusa.com^$popup
@@ -40941,7 +40938,6 @@ _800x80_
 ||widgets.guppy.live^$third-party
 ||wiztube.xyz/banner/
 ||wp-script.com/img/banners/
-||xcabin.net/b/$third-party
 ||xlgirls.com/banner/$third-party
 ||xnxx.army/click/
 ||xtrasize.pl/banner/
@@ -41818,7 +41814,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 /^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=1337x.to|clickndownload.click|clicknupload.click|cloudvideo.tv|downloadpirate.com|fmovies.taxi|fmovies.world|igg-games.com|indishare.org|linksly.co|megaup.net|mixdrop.ag|mp3-convert.org|nutritioninsight.com|ouo.press|pcgamestorrents.com|pcgamestorrents.org|powvideo.net|powvldeo.cc|primewire.sc|proxyer.org|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|theproxy.ws|uiz.io|up-load.io|uploadever.com|uploadrar.com|uploadrive.com|uplovd.com|upstream.to|userscloud.com|vidoza.co|vidoza.net|vidup.io|vumoo.life|xtits.com|yourbittorrent2.com|ziperto.com
 /^https?:\/\/.*\/sw\.js\?[a-zA-Z0-9%]{50,}/$script,~third-party
 ! sw.js
-/sw.js$script,domain=filechan.org|hotfile.io|lolabits.se|megaupload.nz|rapidshare.nu|share-online.is
+/sw.js$script,domain=filechan.org|hotfile.io|lolabits.se|megaupload.nz|rapidshare.nu
 ! https://ww1.123watchmovies.co/episode/euphoria-season-2-episode-6/
 ! vidoza.net
 $image,script,subdocument,third-party,xmlhttprequest,domain=vidoza.co|vidoza.net
@@ -42670,7 +42666,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
 @@||ads.rubiconproject.com/prebid/$script,domain=drudgereport.com|everydayhealth.com
-@@||ads3.xumo.com^$domain=2vnews.com|redbox.com
+@@||ads3.xumo.com^$domain=2vnews.com
 @@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com|wjs.com
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com|wjs.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
@@ -42704,7 +42700,6 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||avclub.com^*/adManager.$script,~third-party
 @@||bankofamerica.com^*?adx=$~third-party,xmlhttprequest
 @@||banmancounselling.com/wp-content/themes/banman/
-@@||banner.yt^$image,domain=socialblade.com
 @@||bannersnack.com/banners/$document,subdocument,domain=adventcards.co.uk|charitychristmascards.org|christmascardpacks.co.uk|kingsmead.com|kingsmeadcards.co.uk|nativitycards.co.uk|printedchristmascards.co.uk
 @@||basinnow.com/admin/upload/settings/advertise-img.jpg
 @@||basinnow.com/upload/settings/advertise-img.jpg
@@ -43330,7 +43325,6 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 ! Anti-Adblock
 @@||gaybeeg.info^$generichide
 @@||milfzr.com^$generichide
-@@||pornbraze.com^$generichide
 @@||rule34hentai.net^$generichide
 @@||urlgalleries.net^$generichide
 @@||xfreehd.com^$generichide
