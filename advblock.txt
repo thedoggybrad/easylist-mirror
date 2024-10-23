@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DYaKfgJdimTiMV6ayIZxTQ
-! Version: 202410230731
+! Checksum: RqSjgYEBDvvLArA5opafZg
+! Version: 202410230751
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Oct 2024 07:31 UTC
+! Last modified: 23 Oct 2024 07:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23038,7 +23038,7 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||imgfrost.net^$third-party
-||pikabu.ru/ajax/*&*akq=$xmlhttprequest
+||pikabu.ru/ajax/*&*bkq=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -23889,6 +23889,7 @@ cnews.ru##.yandex_banner
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=autonews.ru|rbc.ru|sportrbc.ru
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=autonews.ru|~cash.rbc.ru|rbc.ru|sportrbc.ru
 utro.ru#?#[class*="title"]:-abp-contains(/новости партнеров/i)
+rbc.ru##[data-placement]
 rbc.ru##[data-vr-zone="Топ новости"] a[href*="utm_campaign"]:not([href^="https://pro.rbc.ru/"])
 rbc.ru#?#[data-vr-zone="Топ новости"] div:-abp-has(> a[href*="utm_campaign"]:not([href^="https://pro.rbc.ru/"]))
 quote.rbc.ru##[data-yandex-name^="selfpromo_"]
