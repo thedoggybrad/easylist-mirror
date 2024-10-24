@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4NGu0JYBdhY9Wjbsx9IirQ
-! Version: 202410241601
+! Checksum: kTzLZ0vwYZSHgPwv/rRdjw
+! Version: 202410241611
 ! Title: ABPVN List
-! Last modified: 24 Oct 2024 16:01 UTC
+! Last modified: 24 Oct 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 24 Oct 2024 18:04:46 UTC+7
-! Diff-Path: patches/20241024180446212.patch#abpvn
+! Last modified: 24 Oct 2024 23:05:50 UTC+7
+! Diff-Path: patches/20241024230550577.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1236,7 +1236,7 @@ $third-party,script,domain=sexdiaryx.live
 ||play.stream4.me/jwplayer/vast.js$script,domain=play.stream4.me
 ||qcvip.xyz/popup$script,domain=phevkl.club|viet69.la
 ||quatvn.store/ads.js$script
-||quoracdn.net^$image,domain=vlxx.mx|vlxyz.tube|sieudamtv.lol|phevkl.club|viet69.la|phim18vip.vip
+||quoracdn.net^$image,domain=vlxx.mx|vlxyz.tube|sieudamtv.lol|phevkl.club|viet69.la|phim18vip.vip|chichnhau.vin
 ||rphang.online^*.gif
 ||sayhentai.one/assets/js/ads.js
 ||sayhentai.one/storage/images/banner/$image
@@ -1269,6 +1269,11 @@ avvietsub.info##.hidden-md.right.col-3
 avvietsub.info##body>.container>div
 bimmup.tv###popup-giua-man-hinh
 bimmup.tv##.ads_below_player
+chichnhau.vin###pc-preload-modal
+chichnhau.vin###popup
+chichnhau.vin##.in.fade.modal-backdrop
+chichnhau.vin##.quang-cao
+chichnhau.vin##.top-float-ck
 cliphot69.my###custom_html-42
 cliphot69.uno###mp-preload-pp-overlay
 cliphot69.uno##.adpl
