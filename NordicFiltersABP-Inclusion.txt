@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5ew+PTomN/Yb+lPdJ9I0Yg
-! Version: 202410241631
+! Checksum: dsFuMeRgnrszVYGvF1erhA
+! Version: 202410241641
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 24 Oct 2024 16:31 UTC
+! Last modified: 24 Oct 2024 16:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -49193,6 +49193,7 @@ browsershots.org#@#.advert_area
 ||taprtopcldfb.co^
 ||tapwhigwy.com^
 ||tarafnagging.com^
+||tarcavbul.com^
 ||targechirtil.net^
 ||targhe.info^
 ||tarinstinctivewee.com^
@@ -64633,6 +64634,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ! websocket ads
 $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 ! csp
+$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=coomer.su
 $csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=gayforfans.com,~third-party
 ||thegay.com^$csp=default-src 'self' *.ahcdn.com fonts.gstatic.com fonts.googleapis.com https://thegay.com https://tn.thegay.com 'unsafe-inline' 'unsafe-eval' data: blob:
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
