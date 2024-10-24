@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nj1lciUrq0LH2KVUS7Ts4Q
-! Version: 202410240741
+! Checksum: bzZJUy4cfATfebet08Qszw
+! Version: 202410240751
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Oct 2024 07:41 UTC
+! Last modified: 24 Oct 2024 07:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23100,8 +23100,6 @@ sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
 www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
 www.drive2.ru##iframe[style="opacity: 1;"]
 liveinternet.ru##style + div > div > div > div > div a
-e.mail.ru##style:first-child + div[class]:not([id])
-e.mail.ru##style:first-child + div[class]:not([id]) ~ div[class]:not([id])
 !#endif
 soyztreid.website##:not(my-obnaruzhili-blokirovshchik)
 ||liferoom.net^*.$third-party,popup
