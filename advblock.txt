@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W4RsM6peWpHTMPS6ZUAezg
-! Version: 202410251451
+! Checksum: rqPRsgX1V1DBmmBLHF1NSA
+! Version: 202410251501
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Oct 2024 14:51 UTC
+! Last modified: 25 Oct 2024 15:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23062,6 +23062,10 @@ pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-
 howdyho.net,howdyho.pro##:not(my-obnaruzhili-adblock)
 fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
+~e.mail.ru,mail.ru,~octavius.mail.ru##?#body[style="overflow: unset; max-height: unset;"] article [class]:not(button):not(a):-abp-properties(cursor: pointer)
+~e.mail.ru,mail.ru,~octavius.mail.ru##?#body[style="overflow: unset; max-height: unset;"] p [class]:not(button):not(a):-abp-properties(cursor: pointer)
+~e.mail.ru,mail.ru,~octavius.mail.ru##?#body[style="overflow: unset; max-height: unset;"] section [class]:not(button):not(a):-abp-properties(cursor: pointer)
+~e.mail.ru,mail.ru,~octavius.mail.ru##?#body[style="overflow: unset; max-height: unset;"] span [class]:not(button):not(a):-abp-properties(cursor: pointer)
 @@||ozon.ru/highlight/kursk-$elemhide
 dzen.ru#?#[class]:-abp-has(> a[href^="https://dzen.ru/"][class*="link"][class*="tabContent"] [class] > [class] > [class] > [class])
 drive2.ru##[data-container="outer"]
