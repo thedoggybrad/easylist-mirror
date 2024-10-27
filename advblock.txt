@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: geFuBdBU48Z6vhjv0F4fxg
-! Version: 202410271901
+! Checksum: 40JJfIIKbskvmiUB+3ZMew
+! Version: 202410271911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Oct 2024 19:01 UTC
+! Last modified: 27 Oct 2024 19:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -9469,6 +9469,7 @@ _tizers.
 ||speedmydata.com^$third-party
 ||speedteest.pro^$third-party
 ||speedtest-net.pro^$third-party
+||speraspace.com^$third-party
 ||spetsodezhda-best.ru^$third-party
 ||sphjtw.ru^$third-party
 ||spicysales.ru^$third-party
@@ -12936,7 +12937,6 @@ gamesubject.com##.advb
 gamestar.ru##.advback
 forbes.ua##.adver_top
 turizm.ru##.adversing_block
-ukranews.com##.adversiting
 gtk.tv##.adversting-block-1 > .col-no-padding
 1obl.ru,biofile.ru,domodedovoriamo.ru,flashgames.ru,footballreview.ru,forum.mista.ru,girlsgogames.ru,inforesist.org,klinriamo.ru,kolomnariamo.ru,korolevriamo.ru,krasnogorskriamo.ru,kubnews.ru,lubertsyriamo.ru,mytischiriamo.ru,nightwarez.ru,nur.kz,paparazzi.ru,podolskriamo.ru,reutovriamo.ru,riamo.ru,riamobalashiha.ru,schelkovoriamo.ru,sergposadriamo.ru,serialu.tv,serpuhovriamo.ru,solnechnogorskriamo.ru,zhukovskiyriamo.ru##.advert
 study.ru##.advert-banner-wrap
@@ -14090,6 +14090,7 @@ sivator.com##.edina > a[href="http://monstro-beats.com/"]
 semestr.online,semestr.ru##.eduChat
 sergeydolya.livejournal.com##.edwrap
 prostolinux.ru##.egg-list
+zemliak.com##.eldala_widget
 detaly.co.il##.elementor-column-gap-extended > .elementor-row > .elementor-hidden-phone
 alau.kz##.elementor-image > a[href]:not([href^="/"]):not([href^="https://alau.kz/"])[target="_blank"]
 format.kr.ua##.elementor-widget-container > a[href][target="_blank"] > img
@@ -15460,6 +15461,7 @@ friday.ru#?#.rc2:-abp-has(div[id^="adfox_"])
 vsezdorovo.com##.rca-block
 yakutsk.ru##.rca_des
 omastopatii.ru##.rcblo
+zemliak.com##.rcl-label
 midasbox.net##.re-block
 happy-biock.info,happy-block.info,howto-news.info##.read-also__title
 twizz.ru##.read-next
@@ -16751,6 +16753,7 @@ season.ru##[class^="bnnr_bx_"]
 geonavigator.ge,navigator.az##[class^="brand"]
 slovoidilo.ua##[class^="branding-link-"]
 shuba.life##[class^="c-banner"]
+ukrsport.pro##[class^="cs-banner"]
 fastpic.org##[class^="embed-responsive"]
 klubok.com##[class^="gekon"]
 protocol.ua##[class^="headerBanner"] > .top
@@ -17500,6 +17503,7 @@ forum.worldoftanks.ru##a[href][target="_blank"] > img[alt*="тариф"]
 ecigtalk.ru##a[href][target="_blank"] > img[alt="папироска.рф"]
 kievforum.ipb.su##a[href][target="_blank"] > img[alt^="Видеоблог"]
 russian-bazaar.com##a[href][target="_blank"] > img[src*="/-=Banners=-/"]
+ukrsport.pro##a[href][target="_blank"] > img[src*="banner"]
 nb.by##a[href][target="_blank"] > img[src^="/img/ban"]
 happycoin.club##a[href][target="_blank"] > img[width][height]
 mschistota.ru##a[href][target="_blank"] img
@@ -18369,7 +18373,7 @@ stopgame.ru#?#div[class^="_content"] > div[class^="_video-wrapper"] ~ [class] b:
 domashnie-zagotovki.ru##div[class^="a7-btns"]
 igdz.ru##div[class^="ab-"][class$="-text"]
 u24.ua##div[class^="ab_premium_"]
-hi-fi.ru##div[class^="ad-"]
+hi-fi.ru,ukranews.com##div[class^="ad-"]
 cybersport.ru,kolombo-online.ru,www.zakon.kz##div[class^="ad_"]
 xn--k1afadd0cwc.xn--p1ai##div[class^="adace"]
 cameralabs.org##div[class^="adaptivgoogle"]
