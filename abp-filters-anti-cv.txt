@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 3pxrxyQxigT4tav2QTBCiA
-! Version: 202410282301
+! Checksum: PIxlGBlPYWZK4rURnBi27g
+! Version: 202410282311
 ! Title: ABP filters
-! Last modified: 28 Oct 2024 23:01 UTC
+! Last modified: 28 Oct 2024 23:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1089,15 +1089,18 @@ naughtymachinima.com#$#abort-on-property-read window.open; abort-on-property-rea
 fullporner.com#$#abort-on-property-read ad; abort-on-property-read ad_list
 animepahe.com#$#abort-on-property-read _0x43d1; abort-on-property-read _0x53b5
 receive-smss.com#$#abort-on-property-read adBlockEnabled
-smallseotools.com#$#hide-if-matches-xpath './/div[@class]/parent::span[contains(@id,"__stt") and contains(@class,"d-block")]'
+smallseotools.com#$#abort-current-inline-script $ ga_pop
 ||smallseotools.com/webimages/garamar*.png^$image,domain=smallseotools.com
+duplichecker.com#$#hide-if-matches-xpath './/img[@class="img-responsive"][@src]/preceding::a[@target="blank"][@rel="nofollow"]/ancestor-or-self::div[1]'
+duplichecker.com#$#hide-if-matches-xpath '//img[@class="img-responsive"][contains(@src,".gif")]/preceding::a[@class="external"][@target="_blank"][@rel="nofollow noopener"]/parent::div[@class="text-center"][1]'
+plagiarismchecker.co#$#abort-current-inline-script $ grm_popup
+plagiarismchecker.co#$#hide-if-matches-xpath './/img[@class="img-fluid"][@alt="img"]/ancestor::span/parent::section[contains(@class,"mama")]'; hide-if-matches-xpath './/img[@class="img-fluid"][@alt="img"]/ancestor::span/parent::div[contains(@class,"mama")]'
+plagiarismdetector.net#$#abort-current-inline-script $ pop_gram
+plagiarismdetector.net#$#hide-if-matches-xpath './/img[@class="img-fluid"][@src]/preceding::a/ancestor::div[contains(@class,"-block")]'
+searchenginereports.net#$#abort-current-inline-script $ go_top
+searchenginereports.net#$#hide-if-matches-xpath './/img[@src]/preceding::a[@href]/ancestor-or-self::div[contains(@id,"theMSsyChild")]/parent::div[contains(@id,"theMSsy_")][1]'
 duplichecker.com,searchenginereports.net,plagiarismchecker.co,plagiarismdetector.net,smallseotools.com#$#abort-on-property-write $img_html; override-property-read ads_function undefined; override-property-read adpushup noopFunc; abort-on-property-read FITS.Config; strip-fetch-query-parameter /firebase-messaging.js/; abort-current-inline-script $ g_amamarly_model; abort-current-inline-script $ ga_rammarly-popup;
 plagiarismdetector.net,plagiarismchecker.co,duplichecker.com,searchenginereports.net#$#abort-current-inline-script setTimeout pop_gram
-duplichecker.com#$#hide-if-matches-xpath './/a[contains(@href,"linksmgm1")]/parent::*[@class][@style][1]/ancestor::div[@class][1]'
-plagiarismchecker.co#$#hide-if-matches-xpath './/img[contains(@src,"imgrml")]/parent::a/ancestor::*[@class][contains(@style,"display: block")][1]'
-plagiarismdetector.net#$#hide-if-matches-xpath './/img[contains(@onclick,"PushClickValue")]/parent::a[@rel]/ancestor::div[@id][@class="d-block"]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@onclick,"pop_gram")]/parent::div[@id][@style]';
-searchenginereports.net##div[id^="show"][class*="show"][style*="width: 300px;"]
-searchenginereports.net#$#hide-if-matches-xpath './/a[contains(@onclick,"PushClickValue")]/parent::div[@class or (div[@class and @id])]/ancestor-or-self::div[@class][1]'
 root-nation.com#$#hide-if-matches-xpath './/img[contains(@alt,"")]/parent::div[@class="backstretch"]//ancestor-or-self::img[1]'
 root-nation.com#$#hide-if-matches-xpath '//source/following::img[@src]/ancestor::a[@class]/ancestor-or-self::div[@id="tdi_29"]'
 ||root-nation.com/wp-content/uploads/*background*$image,domain=root-nation.com
