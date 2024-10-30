@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: R7UpBgKSX/95f8ubz4/vgg
-! Version: 202410301131
+! Checksum: K+LSbfC+gvwboOo/Jj6orQ
+! Version: 202410301141
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Oct 2024 11:31 UTC
+! Last modified: 30 Oct 2024 11:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23374,10 +23374,11 @@ news.mail.ru##.m-fixed-panel
 news.mail.ru##.r-source
 news.mail.ru##.reference-page__card ~ span:last-child
 ! Дзен новости Mail-edition
-dzen.ru##.news-mt-advert
 dzen.ru##[aria-label="Таб категорий"][href^="/floors-promo/"]
+dzen.ru##div[class*="DirectAdvert"]
 dzen.ru##div[class^="news-"][class*="_banner"]
-dzen.ru##div[class^="news-"][class*="_tsar "]
+dzen.ru##div[class^="news-"][class*="tsar"]
+dzen.ru##div[class^="news-mt-advert"]
 ! Спорт
 sportmail.ru##.sidebar_video:empty
 sportmail.ru##a[href="/bookmakers/"]
