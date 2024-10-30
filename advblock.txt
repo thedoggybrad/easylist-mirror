@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rFjeL5TfNL2Ba0fbKnJmRA
-! Version: 202410300531
+! Checksum: zpqkiO7ZJ7c4jKAgjhgH1w
+! Version: 202410300621
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Oct 2024 05:31 UTC
+! Last modified: 30 Oct 2024 06:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23767,12 +23767,14 @@ www.afisha.ru###yandex-zen
 lenta.ru#?#._longgrid:-abp-has(> [class*="info"] > [class*="_ad-title"])
 eda.ru#?#.ad_branding_footer div[class^="emotion"]:-abp-has(> [title="yandexzen"])
 eda.ru##.ad_branding_header > section
+gazeta.ru##.b_nav > a[target="_blank"]
 gazeta.ru##.b_telegram
 championat.com,gazeta.ru,lenta.ru##.banner
 lenta.ru##.banner + div[class][id]
 championat.com##.banner-announce
 championat.com##.banner-parallax
 avtorambler.com,rambler.ru##.commercial-branding article > div:only-child > div:first-child + div + div:last-child
+lenta.ru##.custom-banner
 vp.rambler.ru##.eagleplayer-advertisement-remain-time
 vp.rambler.ru##.eplayer-time-to-ad
 finance.rambler.ru##.finance__partners
