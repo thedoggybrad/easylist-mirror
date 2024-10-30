@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Kbn0gCnssk4u4o32K9ijFA
-! Version: 202410301441
+! Checksum: z76S9vYsglBaadOhZv5gdA
+! Version: 202410301451
 ! Title: EasyPrivacy without international filters
-! Last modified: 30 Oct 2024 14:41 UTC
+! Last modified: 30 Oct 2024 14:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -333,6 +333,7 @@
 /api/stat?
 /api/track?guid
 /api/trk?
+/api/v1/EndpointTracker
 /api/v1/firehose?_
 /api/v1/metrics
 /api/v1/reportData/*
@@ -805,7 +806,6 @@
 /emtj_tracker.js
 /emtj_tracker.min.js
 /endpoint/stats.php?
-/EndpointTracker/allendpoints?
 /Engagement/TrackEventAsync
 /ent_counter?
 /entry_stats?
