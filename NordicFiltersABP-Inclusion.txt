@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZSorxHvh5KhVN8nvun2sUg
-! Version: 202410310201
+! Checksum: UoMCzwYs2LYql/qrHWi4Pg
+! Version: 202410310211
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 31 Oct 2024 02:01 UTC
+! Last modified: 31 Oct 2024 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -2036,6 +2036,8 @@ avvir.no###block-block-1 > p:nth-of-type(4)
 spania.no##.tdc-element-style:has(.td-a-rec)
 ! aİD (Phone user agent)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189667
+! https://www•dagsavisen•no/sport/2024/10/31/kfum-oslo-var-uhyre-naer-et-finaleran/
+dagsavisen.no##:is(p,h2):has(> br:only-of-type:empty)
 ! 🇳🇴: ——— Distraherende bakgrunnsbilder ———
 ! 🇩🇰: ——— Distraherende baggrundsbilleder ———
 ! 🇮🇸: ——— Truflanda baksýnsmyndir ———
@@ -71152,6 +71154,7 @@ yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
 zillow.com##li[class^="ListItem-"]:has(#nav-ad-container)
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
+globalchinaev.com##p.content-center:has-text(ADVERTISEMENT)
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
