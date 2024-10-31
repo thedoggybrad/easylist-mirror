@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0RpAQvEkNrNHMpwJYv/F5A
-! Version: 202410311641
+! Checksum: +T5asTFBF75eeCrWpg5yVg
+! Version: 202410311651
 ! Title: EasyList Spanish
-! Last modified: 31 Oct 2024 16:41 UTC
+! Last modified: 31 Oct 2024 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -753,7 +753,6 @@ hitfm.es#@#.publi
 ||vivedescuentos.com/mas_informacion/$third-party
 ! *** easylistspanish:easylistspanish/easylistspanish_thirdparty_popup.txt ***
 ||bit.ly^$popup,domain=cuevana.run|pelisplus.lat
-||granmp3.net^$popup,domain=nuevomix.net
 ||leagueofslots-cl.com^$popup
 ||premiumihzvs.miliongames.com^$popup,third-party
 ||primevideo.com/?tag=^$popup,domain=vergnula.com
@@ -763,8 +762,6 @@ hitfm.es#@#.publi
 ||tracking.actualidad.es^$popup
 !
 ||badshores.com/*^publisher_code$popup,third-party
-||foxcdn.me/*.htm^$popup,third-party
-||streams.lerroyje.xyz^$popup,third-party
 ! *** easylistspanish:easylistspanish_adult/adult_thirdparty.txt ***
 ||amazonaws.com^$domain=pornotorrent.es
 ||fuegodevida.com^$third-party
@@ -1301,24 +1298,18 @@ $script,third-party,domain=xtremostereo.net
 ! *** easylistspanish:easylistspanish/easylistspanish_specific_block_popup.txt ***
 $popup,third-party,domain=cinecalidad.com.mx|cinetux.nu|cliver.pro|cuevana.pro|enpantallas.com|seriesgod.com
 ||minube.click^$popup
+||pepeliculas.org/patrocinado$popup
 !
 $popup,third-party,domain=feurl.com|seriesyonkis.io|streamz.vg|supergoku.com|zenkimex.com.mx
 /3djuegos_media_v1^$popup,domain=3djuegos.com
-||bang-4-buck.com^$popup
 ||click.expmediadirect1.com^$popup
 ||esplay.io/*.webp^$popup,domain=cuevanahd.net
 ||geniusdexchange.com^$popup,domain=jac-tv.com
-||nonestolesantes.com^$popup
-||pepeliculas.org/mira-video1^$popup
 ||ruralvia.com^$popup,domain=horajaen.com
-||uqload.com/img/player_logo.png^$popup
-||waaw.*/out.php^$popup
 ! about:blank popups
-/about:blank.*/$popup,domain=cuevana3-v1.wtf|peliculasmega1k.com
+/about:blank.*/$popup,domain=peliculasmega1k.com
 ! html/image popups
 /^https?:\/\/.*\.(jpg|gif|png|php|svg|ico|js|txt)/$popup,domain=anime-flv.net|cuevanahd.net|divicast.com|doramasflixs.com|gnula.nu|gnula.se|ibb.co|jkanime.net|myflixertv.to|pelismartv.com|pelisplayer.xyz|pelisplus.io|pelisplus.top|pelisplushd.nu|pelispophd.com|seriesflix.live|seriesturcas.tv|tomatomatela.com
-! html/image popups (without php)
-/^https?:\/\/.*\.(jpg|gif|png|svg|ico|js|txt)/$popup,domain=pirlotvonlinehd.net
 ! *** easylistspanish:easylistspanish_adult/adult_specific_block.txt ***
 ||amaduras.com/img-publicidad/
 ||fucklouder.com/images/thumbs/banners/
