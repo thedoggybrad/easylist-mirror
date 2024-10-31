@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pQquN6+VlPmpNhTM0hqjsw
-! Version: 202410310701
+! Checksum: mCLRJJJJqHYdNH+HHFArAQ
+! Version: 202410310711
 ! Title: EasyList without rules for adult sites
-! Last modified: 31 Oct 2024 07:01 UTC
+! Last modified: 31 Oct 2024 07:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -55267,7 +55267,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph|philstarlife.com
 ||go.trvdp.com^$domain=~canaltech.com.br|~ig.com.br|~monitordomercado.com.br|~noataque.com.br|~oantagonista.com.br|~omelete.com.br
 ||gpv.ex.co^$third-party
-||imgix.video^
+||imgix.video^$domain=inverse.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
 ||interestingengineering.com/partial/connatix_desktop.html
 ||jwpcdn.com^$script,domain=bgr.com|decider.com|dexerto.com
