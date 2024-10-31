@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: CXFFHfdXwqGfuX1HyDy1eA
-! Version: 202410310941
+! Checksum: aOAHnOFqutzLR+V2qsBfeQ
+! Version: 202410310951
 ! Title: EasyPrivacy without international filters
-! Last modified: 31 Oct 2024 09:41 UTC
+! Last modified: 31 Oct 2024 09:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1657,6 +1657,7 @@
 /ping_g.jsp?
 /ping_hotclick.js
 /pingAudience?
+/pingback|
 /pingd?
 /pinger.cgi?
 /pingServerAction?
@@ -6073,6 +6074,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||connatix.com/us/google/
 ||connect.airfrance.com/ach/api/event^
 ||connecteam.com/bi/api/ReportHit/
+||consent.api.osano.com/record
 ||consent.ghostery.com/v1.js
 ||consent.trustarc.com/bannermsg?
 ||consent.trustarc.com/noticemsg?
@@ -6912,6 +6914,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sciencechannel.com/events/
 ||scloud.online/stat/
 ||scoot.co.uk/ajax/log_
+||scribd.com/log/
 ||search.anonymous.ads.brave.com^
 ||search.aol.com/beacon/
 ||search.brave.com/api/feedback$~third-party
