@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RSNKlVzjJH5vZgjfSLD8Hw
-! Version: 202411011421
+! Checksum: ISxQKHKj20p59SEkUQ8JLA
+! Version: 202411011431
 ! Title: EasyList Spanish
-! Last modified: 01 Nov 2024 14:21 UTC
+! Last modified: 01 Nov 2024 14:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -579,6 +579,7 @@ hitfm.es#@#.publi
 ||habimg.com/hab_banners/$domain=habitaclia.com
 ||inmanga.com/ads/
 ||juanfutbol.com/caliente-ticker-widget?
+||lapostaldemardelplata.com/img/avisos/
 ||lasamericasnews.com/images/avisos/
 ||lasamericasnews.com/images/banners/
 ||lasubasta.com/img/ners/
@@ -588,6 +589,7 @@ hitfm.es#@#.publi
 ||nacion.com/gnfactory/brandvoice/
 ||notebookcheck.org/fileadmin/Sonstiges/amaz_$xmlhttprequest
 ||novachaco.com/avisos/
+||novalaplata.com/avisos/
 ||otakuteca.com/images/books/cover/cru_300.
 ||otakuteca.com/images/books/cover/n_728.
 ||pelispop.info/EkBG80SP.js
@@ -643,7 +645,6 @@ hitfm.es#@#.publi
 /^https?:\/\/[0-9a-z]{8,}\.com\/.*/$~media,third-party,domain=animefenix.com|animeonline.ninja|animeyt.es|compupaste.com|cuevana2.cyou|gnula24.xyz|henaojara2.com|mangamovil.net|megaepubsgratis.com|mejortorrent.cc|mundoepub3.com|pelisplus.top|pelisplushd.nu|pirlotv.fr|pirlotvonline.org|pormega.com|rojadirectaenvivo.club|rojadirectatv.tv|seriesly.top|seriespepito.top|shadowrangers.live|shadowrangers.net|telenovelas-turcas.com.es|tomatomatela.com|verblackclover.com|verboruto.online|xn--solopeliculasespaol-c4b.com
 /^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$~media,third-party,domain=abismalonshort.blogspot.com|animeonline.ninja|cinehax.com|gnula.nu|gnula.se|nickelodeonplus.online|pormega.com|seriesperu.com|telenovelas-turcas.com.es|verificandoarch2.blogspot.com|verificarhuman.blogspot.com
 !
-/avisos^$image,domain=novalaplata.com
 /elements*/publicitat^$image,domain=lesportiudecatalunya.cat
 /public/Image/*banner*^$image,domain=alicanteplaza.es|castellonplaza.com|valenciaplaza.com
 /skin-esportmaniacos$image,domain=esportmaniacos.com
@@ -1112,7 +1113,7 @@ lacapitalmdp.com###anpr
 separarensilabas.com###antiBannersGigantes
 cuevana3.nu###anuncioca
 elciudadanoweb.com###apsa-pop-hidden-img
-agencianova.com,novachaco.com###avisosDerechaContainer
+agencianova.com,novachaco.com,novalaplata.com###avisosDerechaContainer
 ambito.com###bannerStickyHeader
 diarioeldia.cl###bannerZocalo
 diariodelaribera.net###bannercabeceravideo
@@ -1155,6 +1156,7 @@ atacamaenlinea.cl###media_image-30
 bemad.es,cuatro.com,divinity.es,energytv.es,factoriadeficcion.com,mtmad.es,niusdiario.es,telecinco.es,uppers.es,yasss.es###megaSuperior_multisite
 promodescuentos.com###mrec1FuseZonePortal
 diariodeteruel.es###mvp-leader-wrap
+novalaplata.com###notas_arriba
 chileautos.cl###page-header
 elcorreogallego.es###pmMarketing_1
 promodescuentos.com###productIncontent1FuseZonePortal
