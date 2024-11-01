@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Cjn0mP7vhKBRuU5pNqkiiA
-! Version: 202411011811
+! Checksum: kK/NEPadnTS1BU70AcUSNA
+! Version: 202411011821
 ! Title: EasyList Spanish
-! Last modified: 01 Nov 2024 18:11 UTC
+! Last modified: 01 Nov 2024 18:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -434,13 +434,6 @@ hitfm.es#@#.publi
 ||vario.tv/play.gif
 ||vario.tv/playf.gif
 ||wp.pl/bidder/usersync?
-!
-||economicos.cl/widgets/$third-party
-||guioteca.com/widget.php^$third-party
-||partner.leguide.com^$third-party
-||rvv.emol.com^$third-party
-||static.playspace.com^$third-party
-||vivedescuentos.com/mas_informacion/$third-party
 ! *** easylistspanish:easylistspanish/easylistspanish_thirdparty_popup.txt ***
 ||bit.ly^$popup,domain=cuevana.run|pelisplus.lat
 ||leagueofslots-cl.com^$popup
@@ -501,6 +494,7 @@ hitfm.es#@#.publi
 ||lasamericasnews.com/images/banners/
 ||lasubasta.com/img/ners/
 ||lateja.cr/gnfactory/brandvoice/
+||mediaserver.emol.cl/other/lleison/
 ||mil21.es/anuncios/
 ||minube.click^
 ||nacion.com/gnfactory/brandvoice/
@@ -523,6 +517,8 @@ hitfm.es#@#.publi
 ||redtarapaca.com^*/ahorrocorp.jpg
 ||ripollesdigital.cat/imatges/ripollesdigital.cat/ginys/
 ||spanishcorrector.com/cnc/
+||ssp.emol.com^
+||sspnm.emol.com^
 ||static.publinews.gt/*/Skin-
 ||storage.googleapis.com/foto_autosusados/banners/$domain=autosusados.cl
 ||streamsito.com/static/vast_
@@ -664,8 +660,6 @@ hitfm.es#@#.publi
 ||elsiglodetorreon.com.mx/desplegados/banners/$subdocument
 ||elsiglodetorreon.com.mx/images/banners/$image
 ||elsoldemexico.com.mx/cultura/gastronomia/*_banner-400x250_01.jpg^$image
-||emol.com/_portada/cajasecciones/cajaeconomicos.aspx
-||emol.com/www/noticias/sqn.php?zones=
 ||escolar.net/wp-content/hoyenvertele*.jpg
 ||esmtb.com/embed/$image
 ||especiales.woman.es/wid-deportivos/index.html
@@ -764,16 +758,10 @@ hitfm.es#@#.publi
 ||mariosegura.com/wp-content/uploads/*/*/*.gif
 ||media.airedesantafe.com.ar/*/banners/$image
 ||media.easy.com.ar/is/image/EasyArg/blaisteneasyhome
-||mediaserver.emol.cl/*/erreve.js
-||mediaserver.emol.cl/*/json$script
-||mediaserver.emol.cl/*/rv.js
-||mediaserver.emol.cl/other/lleison/
 ||mediterraneodigital.com/images/banners/
 ||mercadosonora.com.mx/wp-content/uploads/*/32X320BIOTIQUIN.png
 ||meridiano.com.ve/Picfiles/logo-merbet_96x34.png
 ||mesebre.cat/img/pub/
-||meteoconsult.es/publicite/
-||millionairedream.co^$third-party
 ||minube.com/administrator/minipresManager/
 ||minube.com/administrator/suggestionBoxManager/
 ||misionescuatro.com/wp-content/uploads/*.gif
@@ -2136,8 +2124,6 @@ pdindustriales.com.ar##.ofertas2
 elmundo.es##.other-services
 mariosegura.com##.owl-example
 frontera.info##.p15_banners_box1_234
-meteoconsult.es##.partenaire_simple
-meteoconsult.es##.partenaire_simple_home
 olx.com.ar##.partnerships-view
 chacohoy.com,corrienteshoy.com##.pasli
 eltiempo.com##.patrocinador-contenedor
