@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YanlDOpFqUYHO3i5c34hXQ
-! Version: 202411012151
+! Checksum: 33vTl8PHB/MT4aFm+80bCA
+! Version: 202411012201
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Nov 2024 21:51 UTC
+! Last modified: 01 Nov 2024 22:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -67329,10 +67329,11 @@ speedrun.com##.curse
 pokebattler.com##.curse-ad
 indiabusinessjournal.com##.cus-ad-img
 dexscreener.com##.custom-1hol5du
+dexscreener.com##.custom-1ii6w9
+dexscreener.com##.custom-1l0hqwu
 dexscreener.com##.custom-97cj9d
 slidehunter.com##.custom-ad-text
 fastestvpns.com##.custom-banner
-dexscreener.com##.custom-hmb3rb
 addictivetips.com,coinweek.com,news365.co.za,simscommunity.info##.custom-html-widget
 patriotnewsfeed.com##.custom-html-widget [href] > [src]
 thestudentroom.co.uk##.custom-jucdap
@@ -71051,6 +71052,7 @@ bws.com.au##.card-list-item:has(.productTile.is-Sponsored)
 truecar.com##.card:has([href*="marketplace&sponsored"])
 doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
 doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
+dexscreener.com##.chakra-link:has-text(Advertise)
 asda.com##.cms-modules:has([data-module*="Sponsored Products"])
 asda.com##.co-item:has(.co-item__sponsored-label)
 theautopian.com##.code-block:has(.htlad-InContent)
