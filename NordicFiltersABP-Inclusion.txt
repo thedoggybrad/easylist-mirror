@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PbJ9S9eU4FJUa1FSJbfq0A
-! Version: 202411021411
+! Checksum: 3uRGCuBHdB0E0Rsr0B/SSA
+! Version: 202411021421
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 02 Nov 2024 14:11 UTC
+! Last modified: 02 Nov 2024 14:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -72511,6 +72511,7 @@ empflix.com,tnaflix.com##.mewBlock
 sopornmovies.com##.mexu-bns-bl
 avn.com##.mfc
 online-xxxmovies.com##.middle-spots
+allpornstream.com##.min-h-\[237px\]
 lic.me##.miniplayer
 tryindianporn.com##.mle
 hentaicore.org##.mob-lock
@@ -73819,6 +73820,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 ! *** easylist:easylist_adult/adult_allowlist.txt ***
 @@/api/models?$domain=tik.porn
 @@/api/v2/models-online?$domain=tik.porn
+@@||allpornstream.com/api/ads?type=thumbnail$~third-party
 @@||chaturbate.com/in/$subdocument,domain=cam-sex.net
 @@||exosrv.com/video-slider.js$domain=xfreehd.com
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
