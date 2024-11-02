@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sEMw3FAwC9XebaNgxCQQPQ
-! Version: 202411021231
+! Checksum: 7nlitUnG0WlxdJI538Ayng
+! Version: 202411021241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Nov 2024 12:31 UTC
+! Last modified: 02 Nov 2024 12:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23096,6 +23096,7 @@ www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) > p
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) > section
 ~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) > span:not(.container)
+~e.mail.ru,mail.ru,~octavius.mail.ru##body[style="overflow: unset; max-height: unset;"] div:not([id]):not([class]) span[style=""]
 ~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] p:-abp-properties(overflow-x: hidden)
 ~e.mail.ru,mail.ru,~octavius.mail.ru#?#body[style="overflow: unset; max-height: unset;"] section:-abp-properties(overflow-x: hidden)
 sdamgia.ru##center > div[id][style]
