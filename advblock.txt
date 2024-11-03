@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vgHg8VB9DOZ3z1LUi1u6Kw
-! Version: 202411032001
+! Checksum: HfYanPbmzbelRSaSZnCI+g
+! Version: 202411032011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Nov 2024 20:01 UTC
+! Last modified: 03 Nov 2024 20:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12457,7 +12457,6 @@ glavufa.ru###sidebar > center
 fixygen.ua###sidebar > div > a > img
 uptracker.ru###sidebar > div > a[href][target="_blank"]
 bikepost.ru###sidebar > div[style*="visibility: visible !important"]
-joyreactor.cc,reactor.cc###sidebar > div[style="margin-bottom: 20px"]
 futbik.net###sidebar > div[style]:not(#rightmenu)
 ruboard.website#?##sidebar > li:-abp-has([id^="yandex_rtb_"])
 zx-pk.ru###sidebar > li:first-child
@@ -25450,7 +25449,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||irr.ru/ajax/*/submission/get_cat$domain=irr.ru
 @@||itinvest.ru/promo/adv$domain=itinvest.ru
 @@||joblib.ru/js/ads-$domain=joblib.ru
-@@||joyreactor.cc^$script,xmlhttprequest,domain=fapreactor.com|pornreactor.cc
 @@||js.mamydirect.com/js/$script,domain=tovarniygid.ru
 @@||jutsu-cdn.ru/jcdn/minify?charset=$script,stylesheet,domain=jut.su
 @@||kallpy.com/upld/|$xmlhttprequest
@@ -25577,6 +25575,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||radiodacha.ru/adclick/$popup,domain=radiodacha.ru
 @@||radioradio.ru/fckfiles/images/baner_$image,~third-party
 @@||rbk.ru^*/resized/$image,domain=autonews.ru
+@@||reactor.cc^$script,xmlhttprequest,domain=fapreactor.com|pornreactor.cc
 @@||recaptcha.net/recaptcha/$subdocument
 @@||recreativ.ru/rcode.$script,domain=kapriz.tv
 @@||reklam.ru^$domain=reklam.ru
