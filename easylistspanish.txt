@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OfgxX6SGmH/x3qZhSWYfGA
-! Version: 202411042121
+! Checksum: CuU5zVmxMi+OI2h9AnZiRQ
+! Version: 202411042131
 ! Title: EasyList Spanish
-! Last modified: 04 Nov 2024 21:21 UTC
+! Last modified: 04 Nov 2024 21:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -981,9 +981,6 @@ $popup,third-party,domain=feurl.com|seriesyonkis.io|streamz.vg|supergoku.com|zen
 /^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$image,script,subdocument,domain=elmundoporno.com|pasionchicas.com|pornoculazos.com|pornoespaniol.com|pornofakings.com|pornoincreible.com|teatrodelporno.com|teatroporno.com
 !!
 /^https?:\/\/[0-9a-z]{8,}\.com\/.*/$~media,third-party,domain=hentaiyt.net|hispasexy.org|pornotorrent.es|pornstarsyfamosas.es
-!!
-||paraisowebcam.com/*banner
-||paraisowebcam.com^$subdocument,third-party
 ! *** easylistspanish:easylistspanish_adult/adult_specific_block_popup.txt ***
 ||animejl.top/?redirect_$popup,domain=hentaijl.com
 !
@@ -2640,8 +2637,6 @@ videospornogratisx.net##img[width="728"]
 ! Advanced element hiding rules for Adblock Plus
 muyzorras.com#?#.c.d1:-abp-has(div:-abp-contains(Más cosas interesantes))
 videospornogratisx.net#?#.block:-abp-has(>h3:-abp-contains(WEBCAM PORNO XXX))
-!!
-slumi.com###anuncio_pancarta_campaign
 !-----------------------Allowlists to fix broken sites------------------------!
 ! *** easylistspanish:easylistspanish/easylistspanish_allowlist.txt ***
 @@||20m.es/prebid/$script,domain=20minutos.es
