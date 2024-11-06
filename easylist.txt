@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202411060722
+! Version: 202411060755
 ! Title: EasyList
-! Last modified: 06 Nov 2024 07:22 UTC
+! Last modified: 06 Nov 2024 07:55 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -60616,6 +60616,7 @@ maxi.ca##.product-tile-group__list__item:has([data-track-products-array*="sponso
 pbs.org##.production-and-funding:has(.sponsor-info-link)
 sainsburys.co.uk##.pt-grid-item:has(.product-header--citrus[data-testid="product-header"])
 sainsburys.co.uk##.pt__swiper--grid-item:has(.product-header--citrus[data-testid="product-header"])
+decisiondeskhq.com##.publirAds
 ksl.com##.queue:has(.sponsored)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
 laravel-news.com##.relative:has([wire\:key="article-ad-card"])
@@ -60623,6 +60624,7 @@ metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 metager.org##.result:has(a[href^="https://r.search.yahoo.com/"])
 qwant.com##.result__ext > div:has([data-testid="adResult"])
 petco.com##.rmn-container:has([class*="SponsoredText"])
+sfchronicle.com##.scrl-block > .scrl-block-inner:has(.ad-module--ad--16cf1)
 yandex.com##.search-list-view__advert-offer-banner
 playpilot.com##.search-preview .side:has(> .provider)
 tempest.com##.search-result-item:has(.search-result-item__title--ad)
