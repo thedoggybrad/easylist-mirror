@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zWFa5lI9QcZGUEdmqf5DCQ
-! Version: 202411081241
+! Checksum: MmSVwhNbt2dnkub9s+hX3g
+! Version: 202411081251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Nov 2024 12:41 UTC
+! Last modified: 08 Nov 2024 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13919,6 +13919,7 @@ ekabu.ru#?#.content-block:-abp-has(font:-abp-contains(Новости партн�
 ebaland.net,zrelki.click##.content-box div[style^="margin-bottom: 20px;"]
 votpusk.ru##.content-box-r > div[style^="width:240px"]
 votpusk.ru##.content-box-r > table[width="240"]
+joyreactor.cc##.content-card ~ :not(.content-card) > a[href][target="_blank"]
 ohotniki.ru##.content-footer__subscription
 fairtop.in##.content-images
 masterok.livejournal.com##.content-inner > .entry-wrap > .disabledcomments
