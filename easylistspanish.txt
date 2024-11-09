@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LQvZ1M7AKpc7pTKy0n8VRA
-! Version: 202411092121
+! Checksum: N/8poJnMHDpd/ED+2dt1bQ
+! Version: 202411092131
 ! Title: EasyList Spanish
-! Last modified: 09 Nov 2024 21:21 UTC
+! Last modified: 09 Nov 2024 21:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1028,6 +1028,7 @@ winsports.co###block-wplay
 anisearch.es###bottombox
 flashscore.co###box-over-content-detail
 hackstore.rs###car_top
+europapress.es###colLateral[style="height: 1200px;"]
 ccma.cat###contenidor_megabanner
 forococheselectricos.com###custom_html-17
 thaderclub.com###custom_html-19
@@ -1661,6 +1662,7 @@ clarin.com##.column > div[class] > div[class^="sc-"]:has(div[class^="sc-"] > div
 falabella.com##.grid-pod:has(.patrocinado-title)
 leroymerlin.es##.l-resultsList__item:has(.kl-blade--sponsored)
 eltiempo.com##.main-article-container-patr:has(.contenido-comercial)
+expansion.com##.ue-l-article__secondary-column-item.ue-l-article--grow:has(.ue-c-ad)
 mercadolibre.cl,mercadolibre.co.cr,mercadolibre.com.ar,mercadolibre.com.bo,mercadolibre.com.co,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.pe,mercadolibre.com.py,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve##.ui-recommendations-carousel-wrapper-ref:has(a[rel="nofollow, sponsored"])
 hobbyconsolas.com##div[class^="embed-card_card_"]:has(a[href^="http://disneyplus.bn5x.net/"])
 clarin.com##div[class^="sc-"]:has( > div[id^="div-gpt-ad"])
