@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: N/1bVFEm/4dETXoHW3trzQ
-! Version: 202411091531
+! Checksum: 4syKJTSu3FtdLdPkBbRgXg
+! Version: 202411091541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Nov 2024 15:31 UTC
+! Last modified: 09 Nov 2024 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2219,6 +2219,7 @@ _tizers.
 ||ucoz.*/img/ma/cv.gif
 ||v.adfox.ru^$object,xmlhttprequest
 ||vip/?pu=$third-party,script
+||vst.videolink.$third-party
 ||work/?pu=$third-party,script
 ||xn--p1ai/banner/
 ||xyz/*?mobile=null&tablet=null&os=null&site=*&rand=$third-party,xmlhttprequest
@@ -10325,6 +10326,7 @@ _tizers.
 ||videojuly.ru^
 ||videojune.ru^
 ||videoleks.com^$third-party
+||videolink.host^$third-party
 ||videolink.site^$third-party
 ||videolink.space^$third-party
 ||videonews24.online^$third-party
