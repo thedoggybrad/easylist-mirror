@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: a65grf3rbPOCTGp4Do7ZxQ
-! Version: 202411091151
+! Checksum: oR/MzgKAprWzzHUEttJgTA
+! Version: 202411091201
 ! Title: EasyPrivacy without international filters
-! Last modified: 09 Nov 2024 11:51 UTC
+! Last modified: 09 Nov 2024 12:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4737,6 +4737,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||salescs.com/liveagent/scripts/track.js
 ||salesforce.com/sfga.js
 ||salesloft.com/sl.js
+||salesmartly.com/client/log/
+||salesmartly.com/client/station/log?
 ||sascdn.com/mh_audience/
 ||sawpf.com/1.0.js$third-party
 ||saymedia.com/latest/tetrapak.js
@@ -5899,6 +5901,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.ffm.to/sl/e/$image
 ||api.invideo.io/v3/send_analytics_event
 ||api.narrativ.com/favicon.ico
+||api.samsungfind.com/log-collector
 ||api.streamelements.com/science/
 ||api.takealot.com^$ping
 ||api.tsc.ca/Tracking/v1/events/
