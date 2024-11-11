@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vm3Qa+2FuzOHg13uJ0MkXw
-! Version: 202411110521
+! Checksum: 864wkXVM23D1wDEP6TBudg
+! Version: 202411110530
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Nov 2024 05:21 UTC
+! Last modified: 11 Nov 2024 05:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -68864,6 +68864,7 @@ opensubtitles.org##tr[style]:has([src*="php"])
 tripadvisor.com#?#[data-automation="crossSellShelf"] div:has(> span:-abp-contains(Sponsored))
 tripadvisor.com#?#[data-automation="relatedStories"] div > div:has(a:-abp-contains(SPONSORED))
 oneindia.com##ul > li:has(> div[class^="adg_"])
+bleepingcomputer.com##ul#bc-home-news-main-wrap > li:has-text(Sponsored)
 ! curseforge/modrinth
 modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
 modrinth.com##.normal-page__content [href^="http://bloom.amymialee.xyz"] > img
