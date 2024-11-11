@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: n1QlDafy0nhvrYKTRhoXvA
-! Version: 202411110521
+! Checksum: HpQzcmi5qrpQZGcDtbtnew
+! Version: 202411110530
 ! Title: EasyList without rules for adult sites
-! Last modified: 11 Nov 2024 05:21 UTC
+! Last modified: 11 Nov 2024 05:30 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59645,6 +59645,7 @@ opensubtitles.org##tr[style]:has([src*="php"])
 tripadvisor.com#?#[data-automation="crossSellShelf"] div:has(> span:-abp-contains(Sponsored))
 tripadvisor.com#?#[data-automation="relatedStories"] div > div:has(a:-abp-contains(SPONSORED))
 oneindia.com##ul > li:has(> div[class^="adg_"])
+bleepingcomputer.com##ul#bc-home-news-main-wrap > li:has-text(Sponsored)
 ! curseforge/modrinth
 modrinth.com##.normal-page__content [href*="bisecthosting.com/"] > img
 modrinth.com##.normal-page__content [href^="http://bloom.amymialee.xyz"] > img
