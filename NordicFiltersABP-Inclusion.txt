@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v5RoxM9yFnse8JtMwIrZqg
-! Version: 202411111141
+! Checksum: SYhQ7nsU2ZcdjUrpWCObpQ
+! Version: 202411111151
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Nov 2024 11:41 UTC
+! Last modified: 11 Nov 2024 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -69417,7 +69417,6 @@ checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
 tripadvisor.com#?#.AaFRW:-abp-contains(Sponsored)
 shoprite.com##div[class^="Row"]:has(div[data-component] a[data-testid] picture source[media="(min-width: 1024px)"] + img[class*="ImageTextButtonImage"][src*=".jpg"])
-morrisons.com#?#[data-test^="fop-wrapper"]:has([data-test="fop-featured"]:-abp-contains(Sponsored))
 kslnewsradio.com,ksltv.com,ktar.com#?#.wrapper:-abp-contains(Sponsored Articles)
 shopee.sg#?#.shopee-search-item-result__item:-abp-contains(Ad)
 shopee.sg#?#.shopee-header-section__content:-abp-contains(Ad)
