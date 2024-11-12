@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0LPPwIpB38uPWe3Gjlrfiw
-! Version: 202411122241
+! Checksum: 9CUz4aNtCs29Mmk7wvxONA
+! Version: 202411122251
 ! Title: EasyList without element hiding rules
-! Last modified: 12 Nov 2024 22:41 UTC
+! Last modified: 12 Nov 2024 22:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -40475,6 +40475,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||dodo.ac/np/images/$image,domain=nookipedia.com
 @@||doodcdn.co^$domain=dood.la|dood.pm|dood.to|dood.ws
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
+@@||doubleclick.net/|$xmlhttprequest,domain=tvnz.co.nz
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||einthusan.tv/prebid.js$script,~third-party
 @@||embed.ex.co^$xmlhttprequest,domain=espncricinfo.com
