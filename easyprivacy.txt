@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202411130953
+! Version: 202411130941
 ! Title: EasyPrivacy
-! Last modified: 13 Nov 2024 09:53 UTC
+! Last modified: 13 Nov 2024 09:41 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2729,6 +2729,7 @@
 ://tracking.*/beacon/
 ://tracking.*/event
 ?[AQB]&ndh=1&t=
+?act=counter&
 ?action=event&
 ?action=impression&
 ?action=log_promo_impression
@@ -13619,7 +13620,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnt.xhamster.com^
 ||codecademy.com/analytics/
 ||coincheckup.com/report_events/
-||coincodex.com/cdn-cgi/trace
 ||cointelegraph.com/pixel?
 ||collect.air1.com^
 ||collect.alipay.com^
@@ -14054,7 +14054,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||info.com/pingback
 ||infoq.com/metrics/
 ||informer.com/ajax/article_log.php
-||ingest.coincodex.com^
 ||ingest.make.rvohealth.com^
 ||ingress.linktr.ee^
 ||inq.com/tagserver/logging/logline
