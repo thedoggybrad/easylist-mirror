@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RP39oNJBCwp5MIWCOyDO8w
-! Version: 202411130801
+! Checksum: EvAQ0uan5Qc3JqUKXSKt8A
+! Version: 202411130811
 ! Title: ABPVN List
-! Last modified: 13 Nov 2024 08:01 UTC
+! Last modified: 13 Nov 2024 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 13 Nov 2024 12:05:19 UTC+7
-! Diff-Path: patches/20241113120519896.patch#abpvn
+! Last modified: 13 Nov 2024 15:06:30 UTC+7
+! Diff-Path: patches/20241113150630877.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1256,7 +1256,6 @@ $third-party,script,domain=sexdiaryx.live
 ||truyensextv.com/anh/$image
 ||truyensextv.com^*.gif
 ||truyenvn.wiki^*banner$image
-||vietxxx.xyz/theme/custom.int.js$script,~third-party
 ||vl3x.vip/ads/$script
 ||www.buomtv.one/palivn/ad/$image
 ||www.displayvertising.com^
