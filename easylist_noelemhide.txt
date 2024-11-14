@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IiRInoLYDP2ess/zTZ4sNw
-! Version: 202411140421
+! Checksum: XWbDiZMQYUxcs2eS2XQNSA
+! Version: 202411140431
 ! Title: EasyList without element hiding rules
-! Last modified: 14 Nov 2024 04:21 UTC
+! Last modified: 14 Nov 2024 04:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -221,7 +221,7 @@
 /adlog.php$image
 /admanager.js$script
 /admanager.min.js$script
-/admanager/*$~object,domain=~admanager.line.biz|~blog.google|~sevio.com
+/admanager/*$~object,~xmlhttprequest,domain=~admanager.line.biz|~blog.google|~sevio.com
 /admgr.js$script
 /admitad.js$script
 /adocean.js$script
