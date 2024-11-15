@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SZJyPNjxGaq/OliHFESj4Q
-! Version: 202411150931
+! Checksum: qOLKkkCZ4t5o8GdgGBeTog
+! Version: 202411150941
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Nov 2024 09:31 UTC
+! Last modified: 15 Nov 2024 09:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24204,6 +24204,7 @@ turbopages.org##.advert
 disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##.awaps__banner
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-direct
 docviewer.yandex.by,docviewer.yandex.kz,docviewer.yandex.ru,docviewer.yandex.uz##.js-doc-html > div[class^="pages_"] > div[class]:empty
+mail.yandex.by,mail.yandex.com,mail.yandex.kz,mail.yandex.ru,mail.yandex.uz#?#.js-scroller-right:-abp-has(> div:only-child > div:only-child > a[href*="/premium-"])
 yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.page__result .typo:-abp-contains(/^новости партн/i)
 translate.yandex.by,translate.yandex.kz,translate.yandex.ru,translate.yandex.uz##.sidebar-direct
 disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##.software-header-promo
