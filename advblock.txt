@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pIgRkiFzIyARx8TmcVy0UA
-! Version: 202411160951
+! Checksum: 2baa57fwro/pdj1uh91ZDQ
+! Version: 202411161001
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Nov 2024 09:51 UTC
+! Last modified: 16 Nov 2024 10:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11582,7 +11582,6 @@ prestige-gaming.ru###back_brd
 westudents.com.ua###ban > #lin
 westudents.com.ua###ban noindex
 meteonova.ru###ban_500
-online.ua###ban_news_r
 sport.ua###bann-240
 cripo.com.ua,fergananews.com,infobank.by,link.ac,live-gol.net,liveangarsk.ru,lm-games.com,ping-admin.ru,premiership.ru,qupier.org,readbookz.com,urod.ru,voxpopuli.kz,xtreme.ws###banner
 gamexp.ru###banner-slider
@@ -12608,7 +12607,7 @@ avatan.ru,riatomsk.ru###topBanner
 ugo.ru###topBnr_container
 wm-help.net###top_ajax_ad
 hmn.ru###top_ban
-7dach.ru,consultant.ru,cossa.ru,diary.ru,kriminal.tv,kursktv.ru,livesport.ws,mgnews.ru,nashmontreal.com,online.ua,studclub.poltava.ua,vlasti.net###top_banner
+7dach.ru,consultant.ru,cossa.ru,diary.ru,kriminal.tv,kursktv.ru,livesport.ws,mgnews.ru,nashmontreal.com,studclub.poltava.ua,vlasti.net###top_banner
 mamba.ru###top_banner_ad_fox
 rlsnet.ru###top_content + div[style="padding: 0px 3px 0px 10px; margin: 0;"]
 zk.fm###top_error_notify
@@ -14329,7 +14328,6 @@ ohotniki.ru##.good__header_top
 sportmk.ru##.good__top
 djekxa.ru##.goods ~ h3,.goods ~ h4
 yakako.ru##.goods-blockh
-online.ua##.goods-header-promo
 obozrevatel.com##.googleBanner
 medkrug.ru##.google_adv
 loveradio.ru##.google_container,.google_container + div[style]
@@ -14897,7 +14895,6 @@ list-org.com##.menu > .sticky
 pb.wtf,piratbit.fun,piratbit.org,piratbit.top##.menu > li.top_menu ~ li:not(.top_menu )
 appleinsider.ru##.menu-item > a[href*="utm_campaig"]
 kursiv.media##.menu-promo
-online.ua##.menu-shop
 freelansim.ru##.menu__item.special
 2ip.ua##.menu_banner
 diary.ru##.menu_block
@@ -16718,7 +16715,6 @@ kg.ua##[class*="region-banner"]
 kg.ua##[class*="region-news"] > .block > * > .img-responsive
 kg.ua##[class*="region-news"] > .block a[href][target="_blank"]
 2ch.hk,2ch.life,mypresentation.ru,pshack.net,tonna-games.ru##[class*="rekl"]
-online.ua##[class*="reklama"]
 yapx.ru##[class*="revenue-block"]
 sexoporno.su##[class*="sam"][class*="pro"]
 hwp.ru##[class*="tbann"]
@@ -19249,7 +19245,6 @@ relasko.ru##img[alt="Читать онлайн"]
 thelastgame.ru##img[alt="как качнуть"]
 cha.moscow##img[alt^="Hilton"]
 pornoakt.click##img[alt^="Баннер"]
-news.online.ua##img[class$="_link"]
 gazeta1.com##img[class^="rec"]
 www.kinopoisk.ru##img[class^="styles_copyrightImg_"]
 newsroom.kh.ua##img[data-lazy-src^="https://www.newsroom.kh.ua/wp-content/uploads/tiny_"]
@@ -21830,9 +21825,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||online-gamez.ru^*.php$script
 ||online-life.*/oln/
 ||online.multilex.ru^*banner
-||online.ua/goods/$domain=~goods.ua
-||online.ua/onlineua%20240_30.gif
-||online.ua/teletrade
 ||onlinedisk.ru/bban/banner/
 ||onlinefilmx.org/br_mc/
 ||onlineguru.ru/mmog/$third-party
@@ -24631,6 +24623,7 @@ cluber.com.ua,dictat.net,fithacker.ru,megatest.online,storyfox.ru###popup_bg
 muz-tv.ru###popup_overlay
 funnymir.net,intersnoznat.ru###popupwindow
 peers.tv###prompt-form-container-phone
+psm7.com###psm-messenger-subscribe-popup
 bilshe.com,businessua.com,multikino.com###reachMedia
 kote.ws###register_popup
 maam.ru###registr
@@ -25812,7 +25805,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@/adblock_detector.js$script,domain=forum.trainzup.net
 @@/advert.$script,domain=adhands.ru|azeroth.su|feech.org|joinfo.ua|kopikot.ru|ksimart.com|ksimart.ml|kupidonia.ru|na-ladoni.su|pesikot.org|pwcats.info|shopotam.ru|spravkarf.ru|svidomitov.net|tsj.ru|veedi.com|wotskill.ru
 @@/advertise.js|$domain=rewbux.com|school-tea.ru
-@@/advertisement.$domain=1ttv.net|androidhost.ru|citydog.by|coil32.ru|coinvesti.ru|futurenet.club|gallerix.ru|imgpay.ru|instrukzii.ru|lingust.ru|newsarium.org|online.ua|pdalife.ru|provladimir.ru|realstrannik.com|realstream.pw|routes.in.ua|rubukkit.org|rzn.info|seriatv.ru|smizu.ru|sportbox.ru|toolson.net|ualinux.com|vsimppt.com.ua|wpnice.ru|xn--80ajbwpejjci7c.xn--p1ai|zdravedae.com
+@@/advertisement.$domain=1ttv.net|androidhost.ru|citydog.by|coil32.ru|coinvesti.ru|futurenet.club|gallerix.ru|imgpay.ru|instrukzii.ru|lingust.ru|newsarium.org|pdalife.ru|provladimir.ru|realstrannik.com|realstream.pw|routes.in.ua|rubukkit.org|rzn.info|seriatv.ru|smizu.ru|sportbox.ru|toolson.net|ualinux.com|vsimppt.com.ua|wpnice.ru|xn--80ajbwpejjci7c.xn--p1ai|zdravedae.com
 @@/banner.jpg?ad_height=300&adzone=100&adserver=1&adType=32|$image
 @@/blockadblock.$script,domain=5urokov.ru|starblast.io
 @@/common/ad.$script,domain=dnevnik.ru|mosreg.ru
@@ -25904,7 +25897,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||nashe.ru/wp-content/themes/nashe/js/nashe-ads.js$script,domain=nashe.ru
 @@||num-link.ru/banner/list/*.js|$script,domain=piratia.su
 @@||olegon.ru/ads/$script,domain=olegon.ru
-@@||online.ua/adsence.js|$domain=online.ua
 @@||opel-omega.ru^*?adType=$script,domain=opel-omega.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=in-poland.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=595.ucoz.net|adult-images.ru|anypictures.ru|blogging-techies.com|botrix.live|crast.net|daz3d.ru|di.fm|fcportables.com|freeopenvpn.org|ikigaitest.com|imgbum.ru|investing.com|izi-invest.ru|kvadratmetr.uz|mod-wot.ru|nv.ua|oligarx.uz|otzovik.com|ozlib.com|parnuxi.biz|pixcloud.ru|radio-archive.ru|radioromantika.ru|tarkov-market.com|tehnar.net.ua|tehnobzor.ru|tehnografi.com|tests24.su|tubeload.co|xpicture.ru|yvid.ru
