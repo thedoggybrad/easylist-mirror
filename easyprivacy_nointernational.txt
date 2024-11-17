@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: r49hlA21ht1bOWD0KF4Zcg
-! Version: 202411170420
+! Checksum: 40ruRN4zzC7VwYijz9gtzA
+! Version: 202411170431
 ! Title: EasyPrivacy without international filters
-! Last modified: 17 Nov 2024 04:20 UTC
+! Last modified: 17 Nov 2024 04:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3147,6 +3147,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.blink.net/a/
 ||api.collarity.com/cws/*http
 ||api.country.is^$third-party
+||api.ipgeolocation.io/getip
 ||api.iris.tv/update
 ||api.june.so^
 ||api.sardine.ai/assets/loader.min.js$third-party
