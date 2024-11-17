@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TtURnG4Fc9WFXudThG4y6A
-! Version: 202411171501
+! Checksum: OW05nbf4doPYU0gGErDfJA
+! Version: 202411171511
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 17 Nov 2024 15:01 UTC
+! Last modified: 17 Nov 2024 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8368,7 +8368,7 @@ srk.fi#@##CookielawBanner
 /redirect/?spot_id=
 /redirect?tid=
 /reklam.$domain=~github.com|~reklam.com.tr
-/reklam/*$domain=~cloudflare.com|~github.com|~reklam.com.tr
+/reklam/*$~xmlhttprequest,domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama2.jpg$image
 /reklama2.png$image,domain=~aerokuz.ru
 /reklama3.jpg$image
