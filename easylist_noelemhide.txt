@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EHJ3vaJfrb+sCcS13V3E6w
-! Version: 202411181521
+! Checksum: fxSaGm4uHJ556ktlNQf9yw
+! Version: 202411181531
 ! Title: EasyList without element hiding rules
-! Last modified: 18 Nov 2024 15:21 UTC
+! Last modified: 18 Nov 2024 15:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -509,7 +509,6 @@
 /image/ads/*$image,domain=~edatop.com
 /image/affiliate/*$image
 /imageads/*$image
-/images/ads-$domain=~ads.com
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest,domain=~weblio.jp
 /img/aff/*$image
@@ -24648,6 +24647,7 @@ _800x80_
 ||sptrkr.com^
 ||spuezain.com^
 ||spuncomplaintsapartment.com^
+||spunorientation.com^
 ||spuppeh.com^
 ||spurproteinopaque.com^
 ||spurryalgoid.top^
@@ -35349,6 +35349,7 @@ _800x80_
 ||spotscenered.info^$popup
 ||sprinlof.com^$popup
 ||sptrkr.com^$popup
+||spunorientation.com^$popup
 ||spuppeh.com^$popup
 ||sr7pv7n5x.com^$popup
 ||srtrak.com^$popup
