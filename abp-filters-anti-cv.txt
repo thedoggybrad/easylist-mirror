@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ay8EP2U4fRaX0qagt7kyMQ
-! Version: 202411191031
+! Checksum: E7BBF2aOrEAJXABg9AAr3Q
+! Version: 202411191041
 ! Title: ABP filters
-! Last modified: 19 Nov 2024 10:31 UTC
+! Last modified: 19 Nov 2024 10:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1288,6 +1288,7 @@ french-streams.com#$#abort-on-property-read open
 e-sushi.fr#$#abort-on-property-read aEteAffiche
 frandroid.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad-center")]/ancestor-or-self::div[@class="optidigital-wrapper-div"][1]'
 gamekult.com#$#hide-if-matches-xpath './/a[@href][@data-track-category="native-ad"]/preceding::span[@target="js-modal-ad"]/parent::li[@data-id][1]'
+oxtorrent.*#$#hide-if-matches-xpath './/div[@style="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01; height: 961px; width: 1854px;"]';
 ! Popup/Popunder
 jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
@@ -1301,6 +1302,7 @@ strtapeadblock.me#$#abort-on-property-write _pao
 tirexo.day#$#debug; abort-on-property-read window.open
 ||tirexo.day^$csp=script-src 'self'
 wawacity.*,zone-telechargement.*#$#abort-current-inline-script JSON.stringify
+oxtorrent.*#$#abort-on-property-read window.open
 ! *** abp-filters-anti-cv:german.txt ***
 ! #CV-761
 ! #CV-691
