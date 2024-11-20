@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c5VFvSPClclHRJdysMFYDA
-! Version: 202411200321
+! Checksum: /z6jjhVdk4JI3JnZCQJw5A
+! Version: 202411200331
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 20 Nov 2024 03:21 UTC
+! Last modified: 20 Nov 2024 03:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -3520,7 +3520,7 @@ triplx.dk##.aff-inner-col
 ! 🇸🇪 Notis: Brukare av alla andra adblockare, spesielt uBlock Origin och AdGuard, vil ha det mycket bättre om dom bruker Frellwits lista direkt i stället, i huvudsak eftersom den brukar uBO-spesifikka egenskapor och mottar väldigt hyppiga uppdateringar.
 ! 🇬🇧 Note: Users of any other adblockers, especially uBlock Origin and AdGuard, are much better off using Frellwit's list directly instead, mostly due to it using uBO-specific features and receiving very frequent updates.
 ! License:
-!    Copyright © 2020-2024 Eyeo GmbH, Imre Kristoffer Eilertsen, and Mattias Frellwit
+!    Copyright © 2020-2024 Eyeo GmbH, Imre Eilertsen, and Mattias Frellwit
 !    This program is free software: you can redistribute it and/or modify
 !    it under the terms of the GNU General Public License as published by
 !    the Free Software Foundation, either version 3 of the License, or
@@ -6137,7 +6137,6 @@ zeromagazine.nu##div[id^=ads]
 ||ysektionen.se/media/uploads/*banner$image
 ||zoho.com/hub/js/WebsiteAutomation.js$third-party
 ||zummycloud.com^$third-party
-tv.nu##header + div[class]:has(a[href*="play.google.com"])
 ##.banner--mobiletoppanorama
 ##.mobile-homepage-ad
 ##.mobile-main-ad
@@ -6151,14 +6150,7 @@ tv.nu##header + div[class]:has(a[href*="play.google.com"])
 ##div.big-mobile-ads
 ##div#topBannerMobile
 ##div#mobileTopAd
-/assets/js/modules/plugins/smoothPageScroll
-/rokophoto-lite/js/SmoothScroll
-/wp-enqueue/*smoothscroll
-/themes/*/js/smoothscroll
-/jquery.smoothwheel/*
 /tapatalkdetect$script,~third-party
-/themes/Jaz/inc/js/*nicescroll
-/smart-app-banner*/banner.js
 veterinarmagazinet.se##.banner-spacer
 ! /\/\/\/\/\/\/\/\/\/\ Manuella fixor tillagt av Adblock Plus-teamet / Manual fixes added by the Adblock Plus team /\/\/\/\/\/\/\/\/\/\
 @@||maxetise.net^$domain=feber.se
