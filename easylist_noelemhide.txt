@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wNGr5B008JQkl+b+Gkin7w
-! Version: 202411200401
+! Checksum: 12W5r3x0xAkWEjJvV1S//g
+! Version: 202411200411
 ! Title: EasyList without element hiding rules
-! Last modified: 20 Nov 2024 04:01 UTC
+! Last modified: 20 Nov 2024 04:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -388,7 +388,7 @@
 /banner-affiliate-$image
 /banner.asp?$third-party
 /banner.cgi?
-/banner.php$domain=~research.hchs.hc.edu.tw
+/banner.php$~xmlhttprequest,domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner_468.$image
@@ -1128,7 +1128,6 @@ _prebid.js
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
 /blockblock/blockblock.jquery.js$script
-/BlockerBanner/*$xmlhttprequest
 /jgcabd-detect-$script
 /no-adblock/*$script,stylesheet
 _atblockdetector/
