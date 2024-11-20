@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qg/L+W1qKbRVAQZFSXog4w
-! Version: 202411200401
+! Checksum: /Akgh429EZxCOLoj5hLdzA
+! Version: 202411200411
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 20 Nov 2024 04:01 UTC
+! Last modified: 20 Nov 2024 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8082,7 +8082,7 @@ srk.fi#@##CookielawBanner
 /banner-affiliate-$image
 /banner.asp?$third-party
 /banner.cgi?
-/banner.php$domain=~research.hchs.hc.edu.tw
+/banner.php$~xmlhttprequest,domain=~research.hchs.hc.edu.tw
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner_468.$image
@@ -8822,7 +8822,6 @@ _prebid.js
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
 /blockblock/blockblock.jquery.js$script
-/BlockerBanner/*$xmlhttprequest
 /jgcabd-detect-$script
 /no-adblock/*$script,stylesheet
 _atblockdetector/
@@ -63101,6 +63100,7 @@ newser.com###divWhizzcoRightRail
 hometheaterreview.com###div_block-382-13
 hindustantimes.com###divshopnowRight
 rednationonline.ca###dnn_BannerPane
+uploadfox.net###downloadxaa
 unite-db.com###ds_lb1
 unite-db.com###ds_lb2
 thedailystar.net###dsspHS
