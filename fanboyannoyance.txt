@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202411212219
+! Version: 202411212245
 ! Title: Fanboy's Annoyance List
-! Last modified: 21 Nov 2024 22:19 UTC
+! Last modified: 21 Nov 2024 22:45 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -37314,6 +37314,8 @@ ew.com#?#.comp > strong:-abp-contains(newsletter)
 fastcompany.com#?#.pb-1.gap-4:-abp-contains(Sign up for)
 fastcompany.com#?#.pb-6:-abp-contains(Newsletter)
 finsmes.com#?#.td-block-title.block-title:-abp-contains(NEWSLETTER)
+sherwood.news##form:has-text(Subscribe and thrive)
+sherwood.news##form:has-text(Your inbox is ready)
 foxandbriar.com#?#.has-senary-background-color:-abp-contains(Email)
 foxandbriar.com#?#.has-tertiary-background-color:-abp-contains(Week)
 freethink.com#?#.bg-gray-100:-abp-contains(Sign up)
@@ -38773,7 +38775,7 @@ fandomwire.com##.widget_bimber_widget_facebook_page
 chipsandcheese.com##.widget_block
 atlantatribune.com##.widget_connect
 topauto.co.za##.widget_eltd_social_icon_widget
-vgleaks.com##.widget_et_social_followers
+fashionhistory.fitnyc.edu,vgleaks.com##.widget_et_social_followers
 mediapost.com##.widget_group
 mobilemarketingreads.com##.widget_media_image
 factkeepers.com##.widget_monarchwidget
@@ -44544,6 +44546,7 @@ thegap.at###thegapnewsletter
 freedert.online,rtde.tech##.Subscription-isReact
 studysmarter.de##.ab-feature-popup
 ecomento.de##.aff-cta-sidebar-wrap
+ecomento.de##.after-post-sharing
 finom.co##.blog-subscribe-banner
 sn.at##.box-emarsys
 welt.de##.c-oembed
