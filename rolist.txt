@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p/aai/mZPs4KfTr8jxkROA
-! Version: 202411211551
+! Checksum: eigqANE865RWiEkhFol4oA
+! Version: 202411211601
 ! Title: ROList
-! Last modified: 21 Nov 2024 15:51 UTC
+! Last modified: 21 Nov 2024 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://www.zoso.ro/rolist/
 !
@@ -13,7 +13,7 @@
 ! A complementary list, with more strict items, is here https://zoso.ro/pages/rolist2.txt
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: mail@zoso.ro
-! Last modified: 17NOV 2024 06:00 UTC
+! Last modified: 21NOV 2024 16:00 UTC
 !hosts
 ||01.creativecdn.com^
 ||2mdn.net^
@@ -383,6 +383,7 @@ economica.net###SC_TBlock_832107
 edupedu.ro##div[id^="edupe"]
 emag.ro##.card-ads-listing
 emag.ro##.page-section:has(.js-recommendation-carousel[data-tracking-alias^="sponsored_products"])
+emag.ro##.card-item[data-url*="sponsored_products_search"]
 epochtimes-romania.com##.donationFooter.col-md-12
 europafm.ro###player-bar
 europafm.ro##.desktop-only.player-bar-ad > [href="https://ad.doubleclick.net/ddm/clk/520077185;328256881;n"]
