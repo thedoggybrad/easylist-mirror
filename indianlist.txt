@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kpmVOFKKmXyCwuZmgKsCwA
-! Version: 202411211101
+! Checksum: 3SvmdtDSyp4ZctOUFA/YJA
+! Version: 202411211111
 ! Title: IndianList
-! Last modified: 21 Nov 2024 11:01 UTC
+! Last modified: 21 Nov 2024 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -773,6 +773,7 @@ _advt.jpg|
 @@||emsindia.com/images/logo/1.png
 @@||euttorpurbo.com/images/add/1.jpeg
 @@||godawarinews.com/uploads/bigyaapan/1555740004.jpg
+@@||googletagmanager.com/gtm.js?id=GTM-NS5K3GZ$domain=navbharattimes.indiatimes.com
 @@||gramerkagoj.com/ad/old-issue.jpg
 @@||gramerkagoj.com/ad/service_banner.jpg
 @@||habiganj-samachar.com^*/add/samachar2019.jpg
@@ -7092,6 +7093,7 @@ news18.com,news18marathi.com##.newadd
 europemalayali.co.uk##.news-add
 sudinamonline.com##.news-addheight
 maharashtratimes.com##.news-advertorial
+indiatimes.com##.news-card:has(.ad1)
 najiknews.com##.news-content-inner-ad
 arthasansar.com##.news-desc figure img
 gorkhapatraonline.com##.news-inline-add
@@ -7124,8 +7126,8 @@ sagarmatha.tv##.no-vigyapan-sidebar-section
 narayanionline.com##.no-vigyapan-single
 ajkercrimetimes.com##.notice_single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
 abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
+bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 hariyalinepal.com##.nt_ads_space img
 livehindustan.com##.ntwrk-wdgt
@@ -8244,6 +8246,7 @@ heronewsonline.com##[class*="boxzilla"]
 ekattorbanglanews.com##[class*="center-ads"]
 cinejosh.com##[class*="googleAd"]
 sudurkhabar.com##[class*="pubadban"]
+indiatimes.com##[class*="taboola"]
 vtvgujarati.com##[class="hidden xmd:block"]
 pratidhvani.com##[class^="ad-service"]
 beanibazarnews24.com##[class^="add-"]
@@ -8501,6 +8504,7 @@ thevoices.in##div:has(> .nbs-flexisel-container)
 99news.co##div:has(> .text-left + [class*="728/90"])
 dainikamadershomoy.com##div:has(> .w3-small)
 prameya.com##div:has(> [class^="advertisement-"])
+indiatimes.com##div:has(> [data-row-id="recommended-deals-widget"])
 samayduniya.com##div:has(> a > div > .pd_title)
 haal.fashion##div:has(> div > .dfp-ad-unit)
 atalhind.com##div:has(> div > p >.adsbygoogle)
