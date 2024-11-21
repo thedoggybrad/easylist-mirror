@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: yNejaBeDNiw5tq0TZihvwQ
-! Version: 202411211611
+! Checksum: FHVO9TF7JsP3y9Df2ELjBQ
+! Version: 202411211621
 ! Title: ABP filters
-! Last modified: 21 Nov 2024 16:11 UTC
+! Last modified: 21 Nov 2024 16:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -549,7 +549,7 @@ tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 
 target.com#$#hide-if-matches-xpath './/p[text()="Sponsored"]/parent::div[@class]/ancestor::div[contains(@data-test,"ProductCardWrapper")]/parent::div[1]'
 ! #RM-75
 ! sp
-bol.com#$#hide-if-contains-visible-text /Gesponsord/ 'ul[class][data-test="products"] li[class]' 'li[class] span[class]'
+bol.com#?#ul[class][data-test="products"] li:-abp-has(span:-abp-contains(/Gesponsord|Sponsorisé/))
 ! pp
 bol.com##section[data-group-name^="sponsored-products"]
 ! #RM-1
