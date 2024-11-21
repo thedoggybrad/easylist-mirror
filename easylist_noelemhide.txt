@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: swzbUMmTAy5x+aB66cSwPw
-! Version: 202411211601
+! Checksum: pGdFn4MwgKTFij/8dvgSaA
+! Version: 202411211611
 ! Title: EasyList without element hiding rules
-! Last modified: 21 Nov 2024 16:01 UTC
+! Last modified: 21 Nov 2024 16:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -337,7 +337,7 @@
 /advert?
 /advertising/banners/*$image
 /advertisment/*$~image
-/adverts.$~script,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
+/adverts.$~script,~xmlhttprequest,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
 /advrotator_banner_largo.htm$subdocument
 /adz/js/adz.$script
