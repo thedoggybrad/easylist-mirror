@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SULAIaLXAtsmsAB/xhXIWQ
-! Version: 202411211921
+! Checksum: VPbIvy6F5/u7IS5JXeyw5g
+! Version: 202411211931
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Nov 2024 19:21 UTC
+! Last modified: 21 Nov 2024 19:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11839,7 +11839,7 @@ inpot.ru###ezobann
 bitcryptonews.ru###faq-index
 turmush.kg###fb_bottom_like
 myparcels.ru###featured-wants
-vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > .PostHeaderSubtitle > .PostHeaderSubtitle__item:-abp-contains(/Community ad|Реклама |Рэклама | жарнама/))
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > [class^="PostHeaderSubtitle"] > [class]:-abp-contains(/Community ad|Реклама|Рэклама|жарнама/))
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo [onclick*="ads_params:"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo [onmouseover*="AdsLight"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo span.PostHeaderSubtitle__item [class] [class] [class])
@@ -18891,6 +18891,7 @@ prostatitanet.com##div[id^="pg-aa-ad"]
 interfax.ru,sport-interfax.ru##div[id^="pl"][id*="_ban"]
 xn---2--mddxunv8a2esa.xn--p1ai##div[id^="post"] > .tech-info + :empty
 tavrijci.org##div[id^="post-"] > div[class="a-divide-entry"]
+vk.com,vk.ru##div[id^="post-"][onmousedown="wall.postClickStat(event)"]
 minfin.com.ua##div[id^="premium-"]
 smartphone.ua##div[id^="premium-banner"]
 sm.news##div[id^="prog_adv_"]
