@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Iw/gVNrV+u5Vhrgg/4gmMQ
-! Version: 202411210441
+! Checksum: mDVDnCghIhqiVRK4Ficw6Q
+! Version: 202411210451
 ! Title: EasyList without rules for adult sites
-! Last modified: 21 Nov 2024 04:41 UTC
+! Last modified: 21 Nov 2024 04:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -366,7 +366,7 @@
 /amp4ads-host-v0.js$script
 /ane-popup-1/ane-popup.js$script
 /ane-popup-banner.js$script
-/api.ads.$domain=~ads.instacart.com|~www.ads.com
+/api.ads.$script,domain=~ads.instacart.com|~www.ads.com
 /api/ad.$script
 /api/ads?
 /api/users?token=$subdocument,third-party
