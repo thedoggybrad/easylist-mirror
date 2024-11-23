@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /Hr5QdVUxYeyHnT7YCI0Wg
-! Version: 202411230151
+! Checksum: cHEbdU8LaW6aGWUWZcnTsQ
+! Version: 202411230201
 ! Title: EasyList China
-! Last modified: 23 Nov 2024 01:51 UTC
+! Last modified: 23 Nov 2024 02:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10895,6 +10895,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+131400.best,vikacg.com,vikacg.xyz##.post-card-list > a
 appinn.com##a[href*=".houdeyun.cn"]
 fitacg.com##a[href*="ifift.com"]
 cnys.tv###player_pause
@@ -15612,7 +15613,7 @@ chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
 fx112.com##a[href^="/union."]
 jr34.xyz##a[href^="ad."]
-131400.best,vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/main/"]
+131400.best,vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/next/"]
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
 55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
