@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: z/6nehrVkoQ8R5FVqcFH8Q
-! Version: 202411230121
+! Checksum: s+khNaqePfbW9wj02+hDIg
+! Version: 202411230131
 ! Title: EasyList China
-! Last modified: 23 Nov 2024 01:21 UTC
+! Last modified: 23 Nov 2024 01:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1697,6 +1697,7 @@ newduba.cn###jq_youxi
 ##img[src*=".jd.com"][style="width:100%;height:70px;"]
 ##img[src*=".meituan.net"][style="width:100%;height:70px;"]
 ##img[src*=".meiyida.tv/"]
+##IMG[onclick*="bucd.lol"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
@@ -10876,7 +10877,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 .sinaimg.cn/large/008qC0LFgy1hutqvck5ufj30qe02i74t.
 ||zzzyk.com/js/
-||huo720.com/files/vidhub.
+||huo720.com/files/vidhub
 ||69shuba.cx^*/shu.js
 ||jinnanyq.com/js/zmjw.
 ||huiagun.com/template/common.js
@@ -10893,6 +10894,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+appinn.com##a[href*=".houdeyun.cn"]
 fitacg.com##a[href*="ifift.com"]
 cnys.tv###player_pause
 twkan.com##.txtcenter
