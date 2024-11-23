@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202411231116
+! Version: 202411231151
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Nov 2024 11:16 UTC
+! Last modified: 23 Nov 2024 11:51 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2716,7 +2716,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.pnfpb-push-subscribe-icon
 ##.push-area-btn
 ##.push-bx
-##.push-message
 ##.push-modal-wrapper
 ##.push-notice
 ##.push-notification-box
@@ -2725,7 +2724,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.push-notification-prompt
 ##.push-notifications-primer
 ##.push-overlay
-##.push-popup
 ##.push-subscription-alert
 ##.push-subscription-button
 ##.push-subscription-prompt
@@ -33857,7 +33855,6 @@ techopedia.com##.share-sec-tags
 aarp.org##.sharp-c-configurable-carousel__slide--multi
 knowyourmeme.com##.shopify-container
 buzzfeed.com##.shoppingWrapper_packageWrapper__UR6JD
-jfrog.com##.show.top-fixed-stripe
 shazam.com##.shz-frame-apps-banner
 shazam.com##.shz-frame-promotionbanner
 mcsweeneys.net##.side-banner
@@ -33934,6 +33931,7 @@ aliexpress.com,aliexpress.us##.top-banner-container
 forward.com##.top-banner-desktop
 crypto.com##.top-banner__item
 healthday.com##.top-bar-promo
+jfrog.com##.top-fixed-stripe
 thestayathomechef.com##.top-hat
 banggood.com##.top-item
 dailykos.com##.top_news_donation
@@ -35161,7 +35159,7 @@ newsbtc.com###custom_html-30
 torontoguardian.com###custom_html-4
 eazypeazymealz.com###custom_html-56
 biznews.com,opindia.com###custom_html-7
-frequentmiler.com###custom_html-8
+frequentmiler.com,sonomamag.com###custom_html-8
 ambitiouskitchen.com###d-popups
 theskimm.com###daily-skimm
 democracynow.org###daily_digest_modal
@@ -35323,6 +35321,7 @@ lapresse.ca###newsletters-subscription-box-root
 thenextweb.com###newslettersignup
 silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt###nl-overlay
 arkansasonline.com###nlForm
+sonomamag.com###nlFrameId7020
 medicinenet.com###nlModule
 newsmax.com###nmsbma__container
 healthing.ca###notification
@@ -36491,7 +36490,7 @@ thepitchkc.com##.newsletter-promo-box
 winnipegfreepress.com##.newsletter-prompt
 gobankingrates.com##.newsletter-right-rail-optin
 broadwayworld.com##.newsletter-row
-essemagazine.it,percona.com,poynter.org##.newsletter-section
+essemagazine.it,news12.com,percona.com,poynter.org##.newsletter-section
 darkreading.com,everydayhealth.com,gamedeveloper.com,historyextra.com,radiotimes.com##.newsletter-sign-up
 audacy.com##.newsletter-sign-up--station
 capitaltransport.com##.newsletter-sign-up-wrapper
@@ -36698,6 +36697,7 @@ twz.com##.recurrent-sidebar-newsletter-block
 moneysavingexpert.com##.reference-email-tip-box
 takimag.com##.regcta
 africacheck.org##.region-footer-third
+silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt##.register-newsletter-form
 feedspot.com##.regoverlay
 reuters.com##.regular-article-layout__newsletter__3wzPk
 triblive.com##.related
@@ -37913,6 +37913,7 @@ christian.org.uk##.content__sharing
 homecookingadventure.com##.cookbook-instagram
 androidpolice.com,cbr.com,dualshockers.com,gamerant.com,makeuseof.com,movieweb.com,pocket-lint.com,pocketnow.com,thegamer.com,thetravel.com,xda-developers.com##.copy-link-button
 c-sharpcorner.com##.cotent-share-icon
+sonomamag.com##.cph-gallery-share-button
 handletheheat.com##.creator-recipe-footer
 overwolf.com##.creator-social
 bloomberg.com##.css--social-wrapper-outer
@@ -38392,7 +38393,6 @@ ibtimes.co.in##.share-btn-wrp
 bylancer.com##.share-buttons-icons
 apptrigger.com##.share-capture
 cryptopolitan.com##.share-col
-beebom.com,captimes.com,cheknews.ca,cockroachlabs.com,estadao.com.br,fandomwire.com,mag.toyota.co.uk,philstarlife.com,stadiumtalk.com##.share-container
 paloaltonetworks.com##.share-copy-mail
 digitimes.com##.share-frame
 mprnews.org##.share-hdg
@@ -38886,12 +38886,14 @@ royalqueenseeds.*##.social-media-icons-footer
 byjus.com,commentpicker.com,hakaimagazine.com,hollywoodlife.com,homemark.co.za,ilgiornale.it,malaymail.com,maxabout.com,ncbi.nlm.nih.gov,news24.com,nu.nl,politico.eu,tennismagazin.de,thepostmillennial.com##.social-sharing
 ! ! .share-group
 exafm.com,goldderby.com,lamejor.com.mx,mvsnoticias.com,revistaforum.com.br##.share-group
+! ! .share-container
+beebom.com,captimes.com,cheknews.ca,cockroachlabs.com,estadao.com.br,fandomwire.com,mag.toyota.co.uk,philstarlife.com,silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt,stadiumtalk.com##.share-container
 ! ! .share-icons
-alwatanvoice.com,atlantablackstar.com,binnews.com,blog.phylum.io,diariolibre.com,finurah.com,gulf-times.com,iheart.com,jessekellyshow.com,jfrog.com,news12.com,noticiasaominuto.com,noticiasaominuto.com.br,pressdemocrat.com,sciencefocus.com,steveharveyfm.com,supermarketnews.com,thehighwire.com,theshadowleague.com,thewildest.com##.share-icons
+alwatanvoice.com,atlantablackstar.com,binnews.com,blog.phylum.io,diariolibre.com,finurah.com,gulf-times.com,iheart.com,jessekellyshow.com,jfrog.com,noticiasaominuto.com,noticiasaominuto.com.br,sciencefocus.com,steveharveyfm.com,thehighwire.com,theshadowleague.com,thewildest.com##.share-icons
 ! ! .share-links
 ansa.it,cryptopotato.com,eff.org,ewn.co.za,hannity.com,jurist.org,lagaceta.com.ec,menselijklichaam.nl,miragenews.com,mobilesyrup.com,mole24.it,newhumanist.org.uk,sampdoria.it,thecookscook.com,upcomingvinyl.com,vivercomsaude.site##.share-links
 ! ! .share-buttons
-accessonline.com,adressa.no,alwatanvoice.com,animecenterbr.com,apk4free.org,arenaev.com,assafirarabi.com,auto-moto.com,bank.gov.ua,canadaradiostations.com,canli-radyo-dinle.com,criminaljusticedegreehub.com,datingscammer.info,deseret.com,design-milk.com,diariolasamericas.com,diariouno.com.ar,emisoras-puertorico.com,emisorascolombianas.co,exputer.com,ff-bz.com,fmradiofree.com,formule1.nl,gamosaurus.com,gizmodo.com,globalconstructionreview.com,hardwaretimes.com,houstoniamag.com,informe360.com,internetradio-horen.de,internetradio-schweiz.ch,investigativepost.org,letrap.com.ar,mediaplaynews.com,metro.co.uk,nbcbayarea.com,nbcboston.com,nbcchicago.com,nbcconnecticut.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com,necn.com,olhardigital.com.br,pastebin.pl,psychologies.com,psychologytoday.com,radio-ao-vivo.com,radio-australia.org,radio-belgie.be,radio-danmark.dk,radio-dominicana.com,radio-ecuador.org,radio-en-ligne.fr,radio-en-vivo.mx,radio-espana.es,radio-hk.com,radio-hrvatska.com,radio-italiane.it,radio-korea.com,radio-maroc.org,radio-nederland.nl,radio-norge.org,radio-osterreich.at,radio-philippines.com,radio-polska.pl,radio-singapore.com,radio-south-africa.co.za,radio-stations.co.nz,radio-suomi.com,radio-sveriges.se,radio-thai.com,radio-ua.com,radio-uk.co.uk,radioindia.in,radioindonesia.org,radiojapan.org,radiomalaysia.org,radios-argentinas.org,radios-bolivia.com,radios-chilenas.com,radios-guatemala.com,radios-online.pt,radios-uruguay.com,radios-venezuela.com,radiosdelperu.pe,radiotaiwan.tw,robbreport.com,spy.com,techzine.nl,telemundo20.com,telemundo31.com,telemundo33.com,telemundo40.com,telemundo47.com,telemundo48elpaso.com,telemundo49.com,telemundo51.com,telemundo52.com,telemundo62.com,telemundoareadelabahia.com,telemundoarizona.com,telemundochicago.com,telemundodallas.com,telemundodenver.com,telemundofresno.com,telemundohouston.com,telemundolasvegas.com,telemundonuevainglaterra.com,telemundonuevomexico.com,telemundopr.com,telemundosanantonio.com,telemundoutah.com,telemundowashingtondc.com,tenor.com,thecradle.co,vlaamskijken.nl,wn.com##.share-buttons
+accessonline.com,adressa.no,animecenterbr.com,apk4free.org,arenaev.com,assafirarabi.com,auto-moto.com,bank.gov.ua,canadaradiostations.com,canli-radyo-dinle.com,criminaljusticedegreehub.com,datingscammer.info,deseret.com,design-milk.com,diariolasamericas.com,diariouno.com.ar,emisoras-puertorico.com,emisorascolombianas.co,exputer.com,ff-bz.com,fmradiofree.com,formule1.nl,gamosaurus.com,gizmodo.com,globalconstructionreview.com,hardwaretimes.com,houstoniamag.com,informe360.com,internetradio-horen.de,internetradio-schweiz.ch,investigativepost.org,letrap.com.ar,mediaplaynews.com,metro.co.uk,nbcbayarea.com,nbcboston.com,nbcchicago.com,nbcconnecticut.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com,necn.com,olhardigital.com.br,pastebin.pl,psychologies.com,psychologytoday.com,radio-ao-vivo.com,radio-australia.org,radio-belgie.be,radio-danmark.dk,radio-dominicana.com,radio-ecuador.org,radio-en-ligne.fr,radio-en-vivo.mx,radio-espana.es,radio-hk.com,radio-hrvatska.com,radio-italiane.it,radio-korea.com,radio-maroc.org,radio-nederland.nl,radio-norge.org,radio-osterreich.at,radio-philippines.com,radio-polska.pl,radio-singapore.com,radio-south-africa.co.za,radio-stations.co.nz,radio-suomi.com,radio-sveriges.se,radio-thai.com,radio-ua.com,radio-uk.co.uk,radioindia.in,radioindonesia.org,radiojapan.org,radiomalaysia.org,radios-argentinas.org,radios-bolivia.com,radios-chilenas.com,radios-guatemala.com,radios-online.pt,radios-uruguay.com,radios-venezuela.com,radiosdelperu.pe,radiotaiwan.tw,robbreport.com,spy.com,techzine.nl,telemundo20.com,telemundo31.com,telemundo33.com,telemundo40.com,telemundo47.com,telemundo48elpaso.com,telemundo49.com,telemundo51.com,telemundo52.com,telemundo62.com,telemundoareadelabahia.com,telemundoarizona.com,telemundochicago.com,telemundodallas.com,telemundodenver.com,telemundofresno.com,telemundohouston.com,telemundolasvegas.com,telemundonuevainglaterra.com,telemundonuevomexico.com,telemundopr.com,telemundosanantonio.com,telemundoutah.com,telemundowashingtondc.com,tenor.com,thecradle.co,vlaamskijken.nl,wn.com##.share-buttons
 ! ! .ActionBar
 10news.com,aboutamazon.co.uk,aboutamazon.com,aboutamazon.de,aboutamazon.it,adn40.mx,chronicle.com,deseret.com,iowapublicradio.org,kcur.org,ktvq.com,laist.com,nepm.org,suntimes.com,tvazteca.com,vanidades.com,washingtonexaminer.com,wgbh.org##.ActionBar
 ! ! .Social
