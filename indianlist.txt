@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1zx4x6p//yvKIFZvGDJuUQ
-! Version: 202411241451
+! Checksum: 8DqLjMAWkSZQUFkZBbJfKQ
+! Version: 202411241501
 ! Title: IndianList
-! Last modified: 24 Nov 2024 14:51 UTC
+! Last modified: 24 Nov 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2784,8 +2784,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||lekbesikhabar.com/wp-content/uploads/2022/03/century_1.gif
 ||lekbesikhabar.com/wp-content/uploads/2022/03/KFA_Ratopati_263x163.gif
 ||lekbesikhabar.com/wp-content/uploads/2022/03/Ratopati_885x90-min_1.jpg
-||lifeglint.com^*/Merriboy-Chocolate-Conefetti-250-pxl-x-250-pxl.jpg
-||lifeglint.com^*/VFPCK%20advertisement%20matter%20new.-page-001-250px.jpg
 ||lightnewsbd.com/wp-content/uploads/2024/01/Capture-300x56.png
 ||lightnewsbd.com/wp-content/uploads/2024/04/image001.png
 ||lipuleknews.com/wp-content/uploads/2020/05/Aalital-ad.jpg
@@ -4716,6 +4714,9 @@ perfection-ias-upsc$domain=nextbihar.com
 ||zoftcdn.com^*/citysun.jpg
 ||zoftcdn.com^*/vesta.jpg
 ||zoombangla.com/jamuna/
+@@||telugutimes.net/storage/advertisements/vg7v90LFfQohYcbLLcTma9lnsjX09k7Oy2YQunki.jpg
+/advertisements/*$domain=telugutimes.net
+||bitraads.com^$third-party,domain=telugutimes.net
 !------------------------Specific element hiding rules------------------------!
 ! *** indianlist:IndianList/specific_hide.txt ***
 livebihar24news.com###AD_FLOAT
@@ -5443,7 +5444,6 @@ techtamil.com###sp_widget_post_slider-2
 ourislam24.net###spc-ads
 sylheterdak.com.bd###spcl_advertise_right
 thewall.in###splad
-telugutimes.net###splide24
 himachalabhiabhi.com###sppb-addon-1492748325089
 globenepal.com###square-close .front
 saamtv.esakal.com###st_hp_leaderboard_1
@@ -5762,7 +5762,6 @@ blastkhabar.com##.adRightSideBar
 odhikar.news##.adSlides
 aajkaal.in##.ad__full--length
 dhanamonline.com##.ad_before_level_3
-lifeglint.com##.ad_bottom_lip
 news18.com##.ad_cntainer
 bhilwarahalchal.com##.ad_level_1_before_heading
 nation1voice.com##.ad_responsive
@@ -6688,6 +6687,7 @@ faridabadnews.live##.googlepublisherads
 grandnews.in##.grand-after-content_2
 paristamil.com##.group2
 paristamil.com##.group3
+lifeglint.com##.gsc-image
 gujjujankari.in##.gujju-before-content_4
 janpadnewslive.com##.h-full img
 bdbarrta24.com##.h_ads
@@ -7082,8 +7082,8 @@ khabreapki.com##.n2-ss-slider
 naidunia.com##.naiWeb
 nakkheeran.in##.nak-adv-cen:not(#block-views-block-global-news-home-page-block-3)
 naturalnews.co.in##.natur-content
-chamaktabharat.com#@#.navbar-ad-section
 24hrnews.in,aavakaaya.in,celluloidonline.com,channeltoday.net,checkpostnews.com,chhattisgarhcrimes.in,cityhotnews.com,dainiktimes.co.in,hindustanrepublic.in,kannurvarthakal.in,khabardinbhar.net,kilinochchinews.com,kotajagran.com,krantiodishanews.com,malayalamtodayonline.com,mediapoint24.com,overlook.co.in,prajawani.in,punjabiakhbar.com,sanskardarshan.in,shabdshodh.com,updatetimes.com##.navbar-ad-section
+chamaktabharat.com#@#.navbar-ad-section
 prabhatvaibhav.com##.navbar-area-2 ~ div[style]
 daijiworld.com##.navbar-static-top a[target="new"]
 bishwanathbd24.com##.navbar-top-banner
@@ -7131,8 +7131,8 @@ sagarmatha.tv##.no-vigyapan-sidebar-section
 narayanionline.com##.no-vigyapan-single
 ajkercrimetimes.com##.notice_single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 hariyalinepal.com##.nt_ads_space img
 livehindustan.com##.ntwrk-wdgt
@@ -7480,7 +7480,6 @@ nepalraftar.com##.skip-ads
 news4nation.com##.slide-container
 silkcitynews.com##.slider
 jagratilahar.com##.slider img:not([src*="1595764637"])
-telugutimes.net##.slider-below-ads
 bundelkhandvoice.com,crimekhabar.live,dhenkanalupdate.com,frontline24.com,gnewsindia.com,khabarchalisa.com,republicbharatnews24.com,tnnews24.in##.slider-pro
 avnpost.com##.slider-section
 houseplan.lk,samajkihalchal.com##.slider2
@@ -8934,7 +8933,6 @@ dcnewsbd.com##img[alt="Advertisement"]
 aruna.lk##img[alt="Arpico"]
 biyanitimes.com##img[alt="Gurukpo plus app"]
 onlinemarg.com##img[alt="Header Ad"]
-telugutimes.net##img[alt="MKOne"]
 talashbangla.com##img[alt="Page Add"]
 trttamilolli.com##img[alt="SAT"]
 enews71.com##img[alt="Side banner"]
