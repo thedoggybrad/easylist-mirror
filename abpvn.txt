@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: B3dsaJRDUBeF8OkK3xmvHA
-! Version: 202411250231
+! Checksum: PfU8oQGPRY8sKmtmCVNfjg
+! Version: 202411250241
 ! Title: ABPVN List
-! Last modified: 25 Nov 2024 02:31 UTC
+! Last modified: 25 Nov 2024 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 23 Nov 2024 12:04:53 UTC+7
-! Diff-Path: patches/20241123120453526.patch#abpvn
+! Last modified: 25 Nov 2024 09:31:18 UTC+7
+! Diff-Path: patches/20241125093118846.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -286,6 +286,8 @@ $popup,domain=truyenfull.io
 ||vnesports.net^*.gif
 ||vov.vn/ads/show-ads
 ||vsc60.com/wp-content/themes/vuasanco/assets/scripts/scripts.js
+||wchem9.com/wp-content/plugins/aa451cc1.js$script,~third-party
+||wchem9.com/wp-content/plugins/deblocker/js/ads.min.js$script,~third-party
 ||wibu47.com^*.gif$image
 ||www.bk8vnaf.com^*.gif$image,domain=phimgichill.net
 ||www.bongdalu808.com^*.gif
