@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XfdIu0Qq+aKZS0DmlwYCCQ
-! Version: 202411272021
+! Checksum: Ybn1r6JkOfFDDeuKeh9cKw
+! Version: 202411272031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Nov 2024 20:21 UTC
+! Last modified: 27 Nov 2024 20:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23088,7 +23088,6 @@ e.mail.ru##.layout__column_right-indented
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
-howdyho.net,howdyho.pro##:not(my-obnaruzhili-adblock)
 fonmod.com,ritsatv.ru##:not(my-obnaruzhili-blokirovshchik)
 android-mafia.com,game4you.top,games-pc.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##:not(this-site-promotes-malware)
 @@||ozon.ru/highlight/kursk-$elemhide
@@ -23136,6 +23135,7 @@ rg.ru##div[id][class*="__"]:empty
 sdamgia.ru##div[id^="yandex_vario"]
 liveinternet.ru##div[style*="!important; "]
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
+howdyho.net,howdyho.pro##html[lang="ru"] :not(my-obnaruzhili-adblock)
 www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
 www.drive2.ru##iframe[style="opacity: 1;"]
 liveinternet.ru##style + div > div > div > div > div a
@@ -23398,6 +23398,9 @@ e.mail.ru,octavius.mail.ru##.letter-list-item-adv
 news.mail.ru##.m-fixed-panel
 news.mail.ru##.r-source
 news.mail.ru##.reference-page__card ~ span:last-child
+dzen.ru##[id*="_tsar"]
+dzen.ru##div[class*=" news-site--"][class*="__desktop"]
+dzen.ru##div[class*="news-advert"]
 ! Дзен новости Mail-edition
 dzen.ru##[aria-label="Таб категорий"][href^="/floors-promo/"]
 dzen.ru##[id*="_R-A-"]
@@ -23409,7 +23412,6 @@ dzen.ru,sportsdzen.ru##div[class^="news-"][class*="Branding"]
 dzen.ru##div[class^="news-"][class*="_banner"]
 dzen.ru##div[class^="news-"][class*="banger"]
 dzen.ru##div[class^="news-"][class*="tsar"]
-dzen.ru##div[class^="news-advert"]
 dzen.ru,sportsdzen.ru##div[class^="news-mt-advert"]
 ! Спорт
 sportmail.ru##.sidebar_video:empty
