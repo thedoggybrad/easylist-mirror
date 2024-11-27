@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RCWfu4Jn746qyEHiDn2Uhg
-! Version: 202411271341
+! Checksum: D/TfdRjGWdfuPbY96gDGVw
+! Version: 202411271351
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Nov 2024 13:41 UTC
+! Last modified: 27 Nov 2024 13:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11850,6 +11850,8 @@ bitcryptonews.ru###faq-index
 turmush.kg###fb_bottom_like
 myparcels.ru###featured-wants
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .mads_noClickarea)
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .mkit_noClickarea)
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block [data-role="adChoicesMenu"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block div[data-role="advertisinglabel"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > [class^="PostHeaderSubtitle"] > [class]:-abp-contains(/Community ad|Реклама|Рэклама|жарнама/))
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .PostHeader > .PostHeaderInfo > [class^="PostHeaderSubtitle"] > span [class] ~ [class] ~ [class] ~ [class] ~ [class] ~ [class] ~ [class] ~ [class] ~ [class] ~ [class] ~ [class] ~ [class] ~ [class])
@@ -26133,7 +26135,7 @@ gsm.in.ua##body > div[style^="background:"][style*="display: block"]
 ritsatv.ru##body > marquee[style*="red"]
 motorpage.ru##body.noscroll::before
 qrz.ru#?#div[class]:-abp-has(> .inner > a[href="/help/adblock/"])
-vkplay.ru##div[class^="AdBlockAlert_root"]
+live.vkvideo.ru##div[class^="AdBlockAlert_root"]
 pronetblog.by##div[class^="adsensepost"]
 2baksa.ws##div[class^="ant"][class*="block"]
 hitsovet.ru,mod-wot.ru##div[class^="chp_ads_block"]
