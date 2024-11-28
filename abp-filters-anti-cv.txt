@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: b7IckpNFClHknACUIQAqbA
-! Version: 202411281101
+! Checksum: Tm2j9BfZxJfjGtbT+so9Wg
+! Version: 202411281111
 ! Title: ABP filters
-! Last modified: 28 Nov 2024 11:01 UTC
+! Last modified: 28 Nov 2024 11:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -562,6 +562,8 @@ tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(), "SPONSORED")]/
 tripadvisor.com#$#hide-if-matches-xpath './/div/span[contains(text(), "Sponsored")]/ancestor::section[@class][not(@id)]'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@data-curated-shelf-id and .//div[contains(text(), "Sponsored by")]]/self::div[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/div[.//div[contains(text(), "Sponsored by")]]/ancestor-or-self::div[@class]/parent::span[1]'
+tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(), "SPONSORED")]/preceding::div[@class]/ancestor-or-self::div[@data-vjs-player="true"]/parent::div[1]'
+tripadvisor.com#$#hide-if-matches-xpath './/div[@data-test-target="hero-gallery"][../following-sibling::div//div[contains(text(),"Sponsored by")]]/parent::div/parent::div'
 ! #RM-85
 ! #RM-78
 noon.com#$#hide-if-matches-xpath './/span[@color][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="componentArea-0"]'
