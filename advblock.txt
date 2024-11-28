@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qvD2ZupveeQdhZnpNrfqHg
-! Version: 202411281211
+! Checksum: 0r4ivCWxtjS3nX8yLBgpxQ
+! Version: 202411281221
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Nov 2024 12:11 UTC
+! Last modified: 28 Nov 2024 12:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23058,6 +23058,9 @@ igdz1.ru^$script,domain=igdz.ru
 ! Правила для ресурсов, которые их создатели сделали несовместимыми с адблоком
 !#if ext_abp
 ! запросы
+! ловушка для обфускации, новости дзена
+||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js
+!
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
 ://mail.ru$csp=img-src 'self' https:
