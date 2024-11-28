@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ndkSF7iFjw2HqHZ1gewXKw
-! Version: 202411280601
+! Checksum: PPRGUA5eXGIvOHc/Ks400w
+! Version: 202411280611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Nov 2024 06:01 UTC
+! Last modified: 28 Nov 2024 06:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11850,6 +11850,7 @@ bitcryptonews.ru###faq-index
 turmush.kg###fb_bottom_like
 myparcels.ru###featured-wants
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .mads_noClickarea)
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .mkit_noClickArea)
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .mkit_noClickarea)
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block [data-role="adChoicesMenu"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block div[data-role="advertisinglabel"])
