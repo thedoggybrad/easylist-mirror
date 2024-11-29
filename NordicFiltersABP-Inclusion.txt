@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DsfOijAzkidUfSQIRsC1eQ
-! Version: 202411290241
+! Checksum: oOI3ff13LqPo7d1qfbm1Dw
+! Version: 202411290251
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 29 Nov 2024 02:41 UTC
+! Last modified: 29 Nov 2024 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1655,7 +1655,6 @@ contentMarketing$xmlhttprequest,domain=sol.no
 ||gamereactor.*/exclusive.json^
 ||datamaskin.biz/ad/
 _1170x400.$domain=eyjafrettir.is,image,~third-party
-_1170x400.$domain=eyjafrettir.is,image,~third-party
 /1170x400_$domain=eyjafrettir.is,image,~third-party
 ! — — — — — — —
 ! 🇳🇴: Filtjener- eller nettstedsspesifikke oppføringer med kilder
@@ -1987,6 +1986,15 @@ aasanetidende.no,aasavis.no,akersposten.no,amta.no,an.no,ao.no,auraavis.no,austa
 ##.topscroll-placeholder:not(body,html,:empty)
 ! https://www•avvir•no/samegiella-ja-mearkagiella-vuosttasgiellan/
 ~tipsbladet.no##.td-a-rec:not(html,body,:empty)
+! Borrowed from "Frellwit's Swedish Filter" (29/11/2024)
+||spania.no^$third-party
+||plausible.webfokus.no^$third-party
+||bcm.interactives.dk/script/
+||bytelab.dk^$third-party
+||cncpt.dk^$third-party
+||gtm.findroommate.dk^
+||nichehuset.dk^$third-party
+||step.dk^$third-party
 ! — — — — — — —
 ! 🇳🇴: Oppføringer med spesielle omstendigheter
 ! 🇬🇧: Entries with special circumstances
@@ -2003,10 +2011,9 @@ baadmagasinet.dk##.article-bottom .qx-inner > .qx-section:last-of-type
 ! Should not have ":not" + ":empty" added to it due to costume•no
 ##.bonnier-ad:not(html,body)
 ! — — — — — — — — —
-! 🇳🇴: Hovedsaklig for AdGuard
-! 🇳🇴🏞: Huvudsakleg for AdGuard
-! 🇮🇸: Aðallega fyrir AdGuard
-! 🇬🇧: Mostly for AdGuard
+! 🇳🇴: IP-adresse
+! 🇳🇴🏞: IP-adressar
+! 🇬🇧: IP addresses
 ://3.248.18.175^
 ://35.227.231.163^
 ://45.58.146.154^
@@ -3406,7 +3413,6 @@ triplx.dk##.aff-inner-col
 ###scorecard-ad
 ###soldakayan
 ###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
-###topBanners
 ###topstuff > #tads
 ###total_banner
 ###videopageadblock
@@ -5572,7 +5578,6 @@ zeromagazine.nu##div[id^=ads]
 ||172.104.145.13^
 ||ab.fastighetsvarlden.se^$script
 ||accesslnk.com^
-||addrevenue.io^$third-party
 ||addsleeper.com^$third-party
 ||adeprimo.se^$third-party
 ||adfenix.com^$third-party
@@ -6158,6 +6163,7 @@ veterinarmagazinet.se##.banner-spacer
 @@||doubleclick.net/tag/js/gpt.js$domain=feber.se
 feber.se##.maxetise
 nytid.no,tipsbladet.no#@#div.td-a-rec img
+||addrevenue.io/t?*t=Impression$third-party
 ! Description: Finnish adblock list
 ! Last modified: Wed, 20 Nov 2024 19:00:00 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
