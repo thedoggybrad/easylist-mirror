@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BkcrwMG4190+f8x49pHOfQ
-! Version: 202411302151
+! Checksum: o46z/N4nH7Wkjyw1ZcrA+Q
+! Version: 202411302201
 ! Title: EasyList without rules for adult sites
-! Last modified: 30 Nov 2024 21:51 UTC
+! Last modified: 30 Nov 2024 22:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59135,6 +59135,7 @@ avclub.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(>
 fortune.com##[class]:has(> #Leaderboard0)
 jalopnik.com,kotaku.com,theroot.com##[class]:has(> .related-stories-inset-video)
 polygon.com,vox.com##[class]:has(> [data-concert])
+standard.co.uk##[class]:has(> [data-fluid-zoneid])
 independent.co.uk,standard.co.uk,the-independent.com##[class]:has(> [data-mpu])
 thrillist.com##[class^="Container__GridRow-sc-"]:has(> .concert-ad)
 skyscanner.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
