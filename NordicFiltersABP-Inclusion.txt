@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nvfT/qumjFyewaiv3+8lfg
-! Version: 202411302151
+! Checksum: pkHQJQ1WErNJQt2bgBF5ug
+! Version: 202411302201
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 30 Nov 2024 21:51 UTC
+! Last modified: 30 Nov 2024 22:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -68362,6 +68362,7 @@ avclub.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(>
 fortune.com##[class]:has(> #Leaderboard0)
 jalopnik.com,kotaku.com,theroot.com##[class]:has(> .related-stories-inset-video)
 polygon.com,vox.com##[class]:has(> [data-concert])
+standard.co.uk##[class]:has(> [data-fluid-zoneid])
 independent.co.uk,standard.co.uk,the-independent.com##[class]:has(> [data-mpu])
 thrillist.com##[class^="Container__GridRow-sc-"]:has(> .concert-ad)
 skyscanner.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
