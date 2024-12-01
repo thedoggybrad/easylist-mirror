@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1NdgJi1DSNibNIOKuS4gZg
-! Version: 202412010331
+! Checksum: bGWABkwoh4/CwY2x3+gyVg
+! Version: 202412010341
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Dec 2024 03:31 UTC
+! Last modified: 01 Dec 2024 03:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -63254,7 +63254,6 @@ swarajyamag.com##._1eNH8
 gadgetsnow.com##._1edxh
 gadgetsnow.com##._1pjMr
 afkgaming.com##._2-COY
-brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._2gSkZ
 jeffdornik.com##._2kEVY
 gadgetsnow.com##._2slKI
 coderwall.com##._300x250
@@ -68358,6 +68357,7 @@ petco.com##[class*="rmn-banner"]:has([class*="SponsoredText"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 independent.co.uk,standard.co.uk,the-independent.com##[class] > :has(> [data-mpu])
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > [class]:has([data-testid="ad"])
 avclub.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(> [is="bulbs-dfp"])
 fortune.com##[class]:has(> #Leaderboard0)
 jalopnik.com,kotaku.com,theroot.com##[class]:has(> .related-stories-inset-video)
