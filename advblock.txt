@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tO2SJ29YcxvZXh1qwQh+pg
-! Version: 202412010851
+! Checksum: kjaVhsa5G50pWG8207Yyfg
+! Version: 202412010901
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Dec 2024 08:51 UTC
+! Last modified: 01 Dec 2024 09:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15185,6 +15185,7 @@ vk-smi.ru##.p-news
 dota2.ru##.p-sidebar > style + [class]
 tv.meta.ua##.pRight
 cq.ru##.p__header > .p__header-image ~ div::before
+habr.com##.pack-sponsor
 posylka.net##.package-timeline__item--adv
 ebalovo.porn##.pad
 buzulukday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##.pad > .readd
@@ -18157,7 +18158,7 @@ redfm.ru#?#div.news.grid_16 h3:-abp-has(span:-abp-contains(Реклама)) ~ di
 sport24.ru##div.right-scroll-bar-position
 android-club.ws#?#div.side-item-left:-abp-has(> .side-title:-abp-contains(Реклама))
 soundtimes.ru#?#div:-abp-has(> #kb)
-7themes.su,banker.ua,chudo-povar.com,cyberpedia.su,dmod.cc,draug.ru,festima.ru,help-wifi.com,mods-fs.net,modsforwot.ru,mydiv.net,nikolaev-city.net,pingvin.pro,pixwords-help.info,point.md,readweb.org,sega-play.ru,slo.ru,vplate.ru,wotspeak.org#?#div:-abp-has(> .adsbygoogle)
+7themes.su,banker.ua,chudo-povar.com,cyberpedia.su,draug.ru,festima.ru,help-wifi.com,mods-fs.net,modsforwot.ru,mydiv.net,nikolaev-city.net,pingvin.pro,pixwords-help.info,point.md,readweb.org,sega-play.ru,slo.ru,vplate.ru,wotspeak.org#?#div:-abp-has(> .adsbygoogle)
 finversia.ru#?#div:-abp-has(> .banner-bdm )
 versii.if.ua#?#div:-abp-has(> .indication-bor-rad:-abp-contains(РЕКЛАМА))
 salonav.com#?#div:-abp-has(> .mom-ads-wrap)
@@ -18167,7 +18168,7 @@ wday.ru#?#div:-abp-has(> [data-block-after="productSet"])
 liveresult.ru#?#div:-abp-has(> [data-has-bookmaker-odds])
 gdzguru.com,reshebnik.com#?#div:-abp-has(> [href*="://gdz-ru.work/"])
 7themes.su,yakutsk.ru#?#div:-abp-has(> [id^="adfox_"])
-blackwot.ru,dmod.cc,draug.ru,emdigital.ru,modsforwot.ru,pogodavtomske.ru#?#div:-abp-has(> [id^="yandex_rtb"])
+blackwot.ru,draug.ru,emdigital.ru,modsforwot.ru,pogodavtomske.ru#?#div:-abp-has(> [id^="yandex_rtb"])
 photofuneditor.com#?#div:-abp-has(> [src*="pagead2."])
 gdz.ninja,gdzotputina.club,gdzputina.net,reshebnik.com,spishi.fun,zoobrilka.net#?#div:-abp-has(> [src="/secret.png"])
 drive2.ru#?#div:-abp-has(> a[href] > div > div > div > div)
@@ -26016,13 +26017,13 @@ daz3d.ru,trialkeys.ru#@#.AdSense
 daz3d.ru,trialkeys.ru#@#.advblock
 dl2kq.de#@##sponsor_ad
 drahelas.ru#@#.forumAd
+draug.ru,leingpt.ru,print-post.com#@##reklama
 green-way.com.ua#@#.adWrapper
 iphones.ru#@##sponsorText
 izi-invest.ru,ruboard.website#@#div[id^="yandex_rtb"]
 kakoysegodnyaprazdnik.ru,mmo13.ru,no-steamserv.ru,vesti.ru#@#.adv
 kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#@#div[id^="yandex_rtb"]
 kisameev.ru,myseria.pro,openssource.biz,zazloo.ru#@#.reklama
-leingpt.ru,print-post.com#@##reklama
 liga.net#@##bottomAd
 mail.ru#@#.text-banner
 mail.ru,quantrum.me,revelationonlinedb.ru,vg672plpaer.ru#@#.ad_text
