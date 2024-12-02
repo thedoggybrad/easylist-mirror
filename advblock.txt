@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jCIVrK4C81HcUvOIOGSu5w
-! Version: 202412021011
+! Checksum: 64Y5wcXQBz/bRCbK//RqSQ
+! Version: 202412021021
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Dec 2024 10:11 UTC
+! Last modified: 02 Dec 2024 10:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11877,8 +11877,7 @@ mmoglobus.ru###floating
 diets.ru###fly-container
 mozgotvet.com###fly_mozg
 shram.kiev.ua###flydiv
-softoroom.net,softoroom.org###fo_cblock2 > .row2 > table ~ div[align="center"]
-softoroom.net,softoroom.org###fo_cblock3
+softoroom.org###fo_cblock2 > .row2 > table ~ div[align="center"]
 smolensk-auto.ru###fo_Объявления
 smolensk-auto.ru###fo_Партнеры
 smolensk-auto.ru###fo_Пресса
@@ -16831,6 +16830,7 @@ vgorodekirove.ru##[data-click]
 tvtver.ru##[data-comment*="reklama"]
 examenpdd.com,liveinternet.ru##[data-container="outer"]
 gdz4you.com##[data-controller="SearchInputController"] ~ .well-container
+vgae.ru##[data-count="b/s/"]
 itc.ua##[data-course]
 starhit.ru##[data-creative]
 banki.ru##[data-dfp-container]
@@ -19038,12 +19038,10 @@ dublikat.one##div[style="height:5px;"]
 unian.info,unian.net,unian.ua##div[style="height:600px"]
 liveresult.ru##div[style="height:90px;"]
 chudo-povar.com##div[style="height:auto;min-height:300px;"]
-vgae.ru##div[style="margin-bottom:15px;"]
 joker.ykt.ru#?#div[style="margin-left:21px;"]:-abp-has(.opros:-abp-contains(Реклама))
 gazetavv.com##div[style="margin-top:5px;height:90px;"]
 gamebomb.ru##div[style="margin: 10px auto; width: 970px; height: 250px"]
 intv.com##div[style="margin: 10px; text-align: center;"]
-vgae.ru##div[style="margin:10px -10px;"]
 holm.ru##div[style="max-height:250px"]
 gagadget.com##div[style="min-height: 249px;"]
 meteopost.com##div[style="min-height: 300px;"]
@@ -19103,6 +19101,7 @@ zhenskoe-mnenie.ru#?#div[style^="font-size"]:-abp-contains(Также узнай
 rasfokus.ru##div[style^="height:100px;"]
 lumpics.ru##div[style^="height:120px;display:block"]
 sinoptik.ua##div[style^="margin"][style$="width: 300px;"]
+vgae.ru##div[style^="margin"][style*="-10px;"]
 freesoft.ru##div[style^="margin-left:"] > a[href="#"]
 onlinetv.one##div[style^="margin: 20px 0;min-height:"]
 xn----7sbb0bildcbgm8a.xn--p1ai##div[style^="max-width:"][style*="200deg"]
@@ -19329,6 +19328,7 @@ chexov.info##img[src*="chexov.info/images/banners/"]
 cqham.ru##img[src*="cqham.ru/forum/ad/"]
 poltava365.com##img[src*="img/adw/"]
 jobvacancy.pro##img[src*="jobvacancy.pro/img/commin/"]
+softoroom.org##img[src*="yandexbr."]
 1pnz.ru##img[src*="баннеры"]
 officebesplatno.com##img[src="/download.png"]
 filmasik.com.ua##img[src="/filmi.jpg"]
@@ -19728,6 +19728,7 @@ ictv.ua,vikna.tv##div[id^="div-gpt-ad-"]
 ! CSP and Header filters
 $csp=script-src-attr 'none',domain=volyn.com.ua
 .infox.sg^$csp=script-src
+.softoroom.org^$csp=default-src 'unsafe-inline'
 /gateway/aHR0c$csp=script-src
 |http*//fastpic.org/$csp=frame-src 'self'
 |http*//fastpic.org/$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fastpic.org
