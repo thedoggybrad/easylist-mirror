@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eGxDSMFx7l+5Y4Ij6TZrlw
-! Version: 202412020541
+! Checksum: Or8HAoPPPCFM96enObBSuQ
+! Version: 202412020551
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 02 Dec 2024 05:41 UTC
+! Last modified: 02 Dec 2024 05:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -22,7 +22,7 @@
 !•
 ! If you wish to remove cookie banners from Nordic websites, check out https://filters.adtidy.org/windows/filters/18.txt
 !•
-! If you see “/v3/full/“ in the list's URL or a “! DiffUrl:“ row above, while you're using Firefox, ABP 3.x, or a non-ABP extension, then you have been scammed and must change the list subscription to https://easylist-downloads.adblockplus.org/dandelion_sprouts_nordic_filters+easylist.txt immediately. If you use ABP 4.x in Chrome, there is no reason to worry.
+! If you see “/v3/full/“ in the list's URL or a “! DiffUrl:“ row above, while you're using Firefox, ABP 3.x, or a non-ABP extension, then you have been scammed and must change the list subscription to https://easylist-downloads.adblockplus.org/dandelion_sprouts_nordic_filters+easylist.txt immediately. However, if you use ABP 4.x in Chrome, there is no reason to worry.
 !•
 ! Starting 13 May 2024, reports about non-blocked banners on digi.no and tu.no must instead be sent to https://reports.adguard.com/new_issue.html and/or https://github.com/uBlockOrigin/uAssets/issues. No exceptions under any circumstances. They're simply far, far better at them than me. They must either fix it on their own, or have written all needed entries on their own in advance before they forward such reports to me. If they ever say otherwise, show them this line of text.
 ! 🇳🇴: Fjerning av reklamebokser og tomme overskuddsbokser
@@ -2303,6 +2303,11 @@ thelocal.no,thelocal.dk##.row > div[class^="row-"]:has(> a[href="#"] > .panel-ad
 thelocal.no,thelocal.dk#?#div > .section:has(> div[class*=-label]:has-text(Sponsored))
 radio-danmark.dk,radio-norge.org###team_ad
 gaamess.dk##div[class$="Ad"]
+! https://github.com/uBlockOrigin/uAssets/issues/26263 (02/12/2024)
+flashscore.dk###detail > .detailLeaderboard
+flashscore.dk##.adsenvelope
+flashscore.dk##.boxOverContent__banner
+flashscore.dk##.prematchOddsBonus__bonus
 ! 🇬🇧: Entries that are also present in «uBlock Filters», for those who use ABP and AdGuard
 triplx.dk##.aff-inner-col
 ! ——————————————————————————————————————————————————————————————————————————————————————————
@@ -4484,7 +4489,7 @@ sverigesnatur.org##div[id^=sverigesNaturPopup]
 sverigespringer.se##.cd-desktop-banner, .cd-mobile-banner, .cd-header-banner-wrapper
 sverige.nu##a[href*=casino]
 sweclockers.com###prisjakt-popular, .ad:not(.adPanorama), .adForumSticker, .dark-mode__sponsor
-swedroid.se##div[id$=_ad], div[id$=_ad_mobile], .externalTopMobile, #externalTopMobile, a[href*="prisjakt.nu/produkt"], #nativendo-mainfeed + aside > .article, .article-footer > h3, .article-footer > .aeChart, #newExternal
+swedroid.se##div[id$=_ad], div[id$=_ad_mobile], .externalTopMobile, #externalTopMobile, #nativendo-mainfeed + aside > .article, .article-footer > h3, .article-footer > .aeChart, #newExternal
 swedroid.se#?#.mostReadMobile:has-text(/annons/i)
 swedroid.se##.puff:has(script[src*="lwadm.com"], .pjSidebar)
 swehockey.se##[class*=-reklam], .sif-sponsorer, .teaserblock, .commonblock a:not([href^="/"], [href*="/swehockey.se"])
