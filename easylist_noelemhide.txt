@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iBLz/XH+4g4QOGJEYby4qQ
-! Version: 202412032251
+! Checksum: BeD/bj3PW/S6WunhPtrQ6A
+! Version: 202412032301
 ! Title: EasyList without element hiding rules
-! Last modified: 03 Dec 2024 22:51 UTC
+! Last modified: 03 Dec 2024 23:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -329,7 +329,7 @@
 /adv_out.js$third-party
 /adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
-/advanced-ads-$domain=~wordpress.org
+/advanced-ads-$domain=~transinfo.pl|~wordpress.org
 /advbanner/*$~image
 /advbanners/*$~image
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
@@ -39772,6 +39772,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||atlas.playpilot.com/api/v1/ads/browse/$xmlhttprequest,domain=playpilot.com
+@@||audience.io/api/v3/app/fetchPromo/$domain=campaign.aptivada.com
 @@||autotrader.co.uk^*/advert$~third-party
 @@||avclub.com^*/adManager.$script,~third-party
 @@||bankofamerica.com^*?adx=$~third-party,xmlhttprequest
