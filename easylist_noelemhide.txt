@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: B1qeSWlkhzUOc3hBBKK6uA
-! Version: 202412031051
+! Checksum: vrD/Yf8zZvmKvCRtsuFDDg
+! Version: 202412031101
 ! Title: EasyList without element hiding rules
-! Last modified: 03 Dec 2024 10:51 UTC
+! Last modified: 03 Dec 2024 11:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -660,7 +660,6 @@
 /RealMedia/ads/*$~xmlhttprequest
 /redirect/?spot_id=
 /redirect?tid=
-/reklam.$domain=~github.com|~reklam.com.tr
 /reklam/*$~xmlhttprequest,domain=~cloudflare.com|~github.com|~reklam.com.tr
 /reklama2.jpg$image
 /reklama2.png$image,domain=~aerokuz.ru
@@ -36301,6 +36300,7 @@ _800x80_
 ||js.phoenixmanga.com^
 ||js.surecart.com/v1/affiliates?
 ||jsdelivr.net/gh/InteractiveAdvertisingBureau/
+||jsdelivr.net/gh/qxomer/reklam@master/reklam.js
 ||jsdelivr.net/npm/prebid-
 ||jvzoo.com/assets/widget/
 ||jwpcdn.com/player/*/googima.js
