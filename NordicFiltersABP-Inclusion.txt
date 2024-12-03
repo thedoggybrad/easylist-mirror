@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: j3ENfZuFuXfC4tLojJ/NZg
-! Version: 202412032251
+! Checksum: PXuutKfPREc1eRryOpu8wg
+! Version: 202412032301
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 Dec 2024 22:51 UTC
+! Last modified: 03 Dec 2024 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8036,7 +8036,7 @@ srk.fi#@##CookielawBanner
 /adv_out.js$third-party
 /adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
-/advanced-ads-$domain=~wordpress.org
+/advanced-ads-$domain=~transinfo.pl|~wordpress.org
 /advbanner/*$~image
 /advbanners/*$~image
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
@@ -70489,6 +70489,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||atlas.playpilot.com/api/v1/ads/browse/$xmlhttprequest,domain=playpilot.com
+@@||audience.io/api/v3/app/fetchPromo/$domain=campaign.aptivada.com
 @@||autotrader.co.uk^*/advert$~third-party
 @@||avclub.com^*/adManager.$script,~third-party
 @@||bankofamerica.com^*?adx=$~third-party,xmlhttprequest
