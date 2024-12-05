@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NQss/iPu7ZWApQ9zkOBR4A
-! Version: 202412051501
+! Checksum: gOSAv56meLFDwDleIqe/UA
+! Version: 202412051511
 ! Title: IndianList
-! Last modified: 05 Dec 2024 15:01 UTC
+! Last modified: 05 Dec 2024 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -958,13 +958,6 @@ perfection-ias-upsc$domain=nextbihar.com
 ||ajkerjholok.com/wp-content/uploads/2020/04/buy-website-bangladesh.jpg
 ||ajkerkhabor.com/bd/wp-content/uploads/2013/01/banar728x90.gif
 ||ajkerograbani.com/wp-content/themes/newsportal/images/394x436px.gif
-||ajkerpatrika.com/wp-content/uploads/2020/05/Capture-1024x533.png
-||ajkerpatrika.com/wp-content/uploads/2020/05/palli-bazar-logo-illustrator-transparent_1-1.png
-||ajkerpatrika.com^*/electra_new.jpg
-||ajkerpatrika.com^*/logo.png
-||ajkerpatrika.com^*/palli-bazar-logo-illustrator-transparent_1.png
-||ajkerpatrika.com^*/Probashi-Palli_3.png
-||ajkerpatrika.com^*/sjibl.gif
 ||ajkerprosongo.com/storage/image/FBiTpFafHYNn5ZQDC1UnW4TUp6cvypjgSFDb4LJF.jpg
 ||ajkerprosongo.com/storage/image/fXGDPkyNKKF0g3hI8Ggu1cokNausFDs6lYY1HVL3.jpg
 ||ajkershodesh.com/wp-content/uploads/2024/09/AD-01-1.jpg
@@ -6843,7 +6836,7 @@ sudarshannews.in##.imgslider img:not([src*="pratibha.jpeg"])
 harekpal.com##.in-news-advertisement
 ekuruvi.com##.in-pan-ad
 moolbato.com,satkarpost.com,sawalnepal.com##.in__between_ads
-lokmat.com,lokmatnews.in##.inarticleAd
+lokmatnews.in##.inarticleAd
 amadershomoy.com##.index_ads_one
 amadershomoy.com##.index_ads_three
 amadershomoy.com##.index_ads_two
@@ -7347,6 +7340,7 @@ dholamaru.co.in,dokhinercrime.com##.sg-ad
 sangalokhabar.com##.sg-full-width-ads
 raigadtimes.co.in##.sgpb-popup-dialog-main-div-wrapper
 onlinemajdoor.com,raigadtimes.co.in,vakeesam.com##.sgpb-popup-overlay
+ajkerpatrika.com##.shadow-anchorAdShadow
 sunbd24.com##.share-ads
 shobujbangladesh24.com##.shobu-widget
 shrinaradmedia.com##.shrin-widget
@@ -8510,6 +8504,7 @@ thuglak.com##div:has(> .adv)
 urjanchaltiger.in##div:has(> .afw)
 seemanchallive.com##div:has(> .bdaia-e3-container)
 prothomalo.com##div:has(> .dfp-ad-unit)
+ajkerpatrika.com##div:has(> .futureads)
 news18.com##div:has(> .myad)
 thevoices.in##div:has(> .nbs-flexisel-container)
 99news.co##div:has(> .text-left + [class*="728/90"])
@@ -8517,6 +8512,7 @@ dainikamadershomoy.com##div:has(> .w3-small)
 prameya.com##div:has(> [class^="advertisement-"])
 indiatimes.com##div:has(> [data-row-id="recommended-deals-widget"])
 raftaar.in##div:has(> [id^="div-ad-"])
+ajkerpatrika.com,lokmat.com##div:has(> [id^="div-gpt-ad-"])
 samayduniya.com##div:has(> a > div > .pd_title)
 haal.fashion##div:has(> div > .dfp-ad-unit)
 atalhind.com##div:has(> div > p >.adsbygoogle)
@@ -8795,7 +8791,6 @@ newswing.com##div[id^="newsw-"]
 nikharanews.in##div[id^="nikha-"]
 1news.com.bd##div[id^="nutdcr"]
 pahadkasach.in,pahadprabhat.com##div[id^="pahad-"]
-lokmat.com##div[id^="photoInlist"]
 punjabnewslive.co.in##div[id^="punja-"]
 rashtranayaknews.com,rashtrasamvad.com##div[id^="rasht-"]
 lokmat.com##div[id^="rhs-"]
