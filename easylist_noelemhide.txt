@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1nONWBA8tlvKory+jFA3dQ
-! Version: 202412061011
+! Checksum: YO7hRk3rUfhFhunDySPRpg
+! Version: 202412061021
 ! Title: EasyList without element hiding rules
-! Last modified: 06 Dec 2024 10:11 UTC
+! Last modified: 06 Dec 2024 10:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1074,7 +1074,7 @@ _widget_ad.
 /porpoiseant/*$script
 /prebid-js-$script
 /prebid-min-$script
-/prebid.$domain=~prebid.org
+/prebid.$script,domain=~prebid.org
 /prebid/*$script
 /prebid1.$script
 /prebid2.$script
