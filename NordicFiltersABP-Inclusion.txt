@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GABekD0Ti/QcCuW6920YiQ
-! Version: 202412060931
+! Checksum: Ol2QI3EBHTjsVkWu9PVeqg
+! Version: 202412060941
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 06 Dec 2024 09:31 UTC
+! Last modified: 06 Dec 2024 09:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -68619,7 +68619,7 @@ nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 nex-software.com##h4:has(a[href$="/reimage"])
-bing.com##li.b_algo:has(> [class="b_caption"] > p.b_lineclamp2.b_algoslug > span.algoSlug_icon)
+bing.com##li.b_algo:has([class="b_caption"] > p.b_lineclamp2[class*="b_algo"][class*="slug"] > span.algoSlug_icon)
 walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
