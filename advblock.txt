@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Vruc29QFPBlmiswgsw1qMw
-! Version: 202412062141
+! Checksum: o/CVfHLhotARDQYYxa7bnQ
+! Version: 202412062151
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Dec 2024 21:41 UTC
+! Last modified: 06 Dec 2024 21:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11851,6 +11851,7 @@ turmush.kg###fb_bottom_like
 myparcels.ru###featured-wants
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .adaptive_ad)
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .ads_ad_action_menu_item_icon)
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .ads_ad_snippet)
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .ads_wall_text)
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block [class*="_noClick"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block [data-role="adChoicesMenu"])
@@ -16872,6 +16873,7 @@ satellitetvforum.info##[data-phpbb-ads-id]
 odds.ru##[data-popup="bonus"]
 shuba.life##[data-product]
 cheezu.ru##[data-provider="yandex"]
+shuba.life##[data-purchase-ingredients-url] button[id]
 ozon.ru##[data-replace-layout-path] > div[style="height:300px;"]
 ozon.ru##[data-replace-layout-path]:only-child > div[style^="min-width:"][style*="height:"]
 goldsrc.ru##[data-role="primaryNavBar"] a[href^="http://csserv.ru/"]
