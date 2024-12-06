@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202412061100
+! Version: 202412061108
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Dec 2024 11:00 UTC
+! Last modified: 06 Dec 2024 11:08 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -42953,7 +42953,7 @@ mastory.jp##.qualvaBtn
 news.yahoo.co.jp##.riff-BackTop__root
 sp.nicovideo.jp##.searchResult-nicoadNicodicItem
 sofmap.com##.side_bnr
-nicovideo.jp##div[class*="anim-n_slideFadeInFromBottom"]
+nicovideo.jp##div[class*="anim-n_slideFadeInFromBottom"]:not([aria-label]):has(a[data-anchor-area$="floating_premium_banner"])
 ||amazonaws.com/cdn.ma-site.com/common/chatbots.js$domain=mastory.jp
 ||api.popin.cc^$third-party
 ||bot.agerun.jp^$third-party
