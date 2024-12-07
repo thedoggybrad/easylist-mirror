@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: q3BtjLg8Obhnoz9sBN3Gkg
-! Version: 202412072121
+! Checksum: 2jhBoR8aMN03nEYPpHCurA
+! Version: 202412072131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Dec 2024 21:21 UTC
+! Last modified: 07 Dec 2024 21:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13911,7 +13911,6 @@ mmotop.ru##.container-links
 wotsite.net#?#.container-mat p:-abp-contains(Реклама)
 theplace.ru##.container-rekl-top
 1news.com.ua#?#.container-wrapper:-abp-has(> .mag-box-title:-abp-contains(Партнери проекту))
-filmix.date,filmix.fm,filmix.life,filmix.me,filmix.pub,filmix.tech,filmix.zone#?#.container:-abp-has(> .remove-sda-wrap)
 alexbruni.ru#?#.container:-abp-has(> div[align="center"] > video > [src*="://dental-paint.ru/"])
 flashscore.com.ua,flashscore.ru.com,flashscore.ua,flashscorekz.com,livescore.in,soccerstand.com##.container__bannerZone
 rosserial.net##.container_gads
@@ -26108,6 +26107,7 @@ allbookerka.org##.overhang
 2x2tv.ru##.owl-wrapper-outer .slideAlt
 clan-soprano.ru##.popupBlock
 uniondht.org##.post_body > div[style="color:red;font-size:25px;"]
+filmix.date,filmix.fm,filmix.life,filmix.me,filmix.pub,filmix.tech,filmix.zone##.remove-sda-wrap
 electric-house.ru#?#.rules:-abp-has(> p > [src="/img/no_ad.png"])
 satdx.club##.rules[style^="display:"][style*="position:"][style*="z-index:"]
 sport-express.ru##.se-bn-notice
