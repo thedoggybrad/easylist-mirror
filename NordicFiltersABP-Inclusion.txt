@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lRwD+XwpmH1h6aPPOlf72w
-! Version: 202412080051
+! Checksum: of8vnXXZhGpaPjAx/u4bBQ
+! Version: 202412080101
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 08 Dec 2024 00:51 UTC
+! Last modified: 08 Dec 2024 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -22891,8 +22891,6 @@ _800x80_
 ##.RC-AD-BOX-MIDDLE
 ##.RC-AD-BOX-TOP
 ##.RC-AD-TOP-BANNER
-! Invideo advert: gizmodo.com,avclub.com,qz.com,lifehacker.com,theroot.com
-##.js_related-stories-inset
 ! element specific
 ##ins.adsbygoogle[data-ad-client]
 ##ins.adsbygoogle[data-ad-slot]
@@ -65528,6 +65526,7 @@ nicelocal.com##.js-results-slot
 theguardian.com##.js-top-banner
 extratv.com##.js-track-link
 chewy.com##.js-tracked-ad-product
+kotaku.com,qz.com,theroot.com##.js_related-stories-inset
 iobroker.net##.jss125
 paycalculator.com.au##.jss336
 calorieking.com##.jss356
