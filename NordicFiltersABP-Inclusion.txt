@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PVZMXY/gJjdn+9L5hUn/BA
-! Version: 202412090951
+! Checksum: B7mekq9df6IJCsBKuAzkmw
+! Version: 202412091011
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Dec 2024 09:51 UTC
+! Last modified: 09 Dec 2024 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8013,7 +8013,6 @@ srk.fi#@##CookielawBanner
 /adsAPI.js$script
 /adsbanner-$image
 /adsbanner/*$image
-/adsbox.$~script,domain=~adsbox.com.sg
 /adscontroller.js$script
 /adscroll.js$script
 /adsdelivery/*$subdocument
@@ -8037,7 +8036,7 @@ srk.fi#@##CookielawBanner
 /adtech;
 /adtools.js$script
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
-/adultdvdparadisecompopinsecound.js
+/adultdvdparadisecompopinsecound.js$script
 /adunit/track-view|
 /adunits/bcid?
 /adutil.js$script
@@ -8497,7 +8496,7 @@ srk.fi#@##CookielawBanner
 /velvet_stack_cmp.js$script
 /vendors~ads.
 /video_ads.$script
-/videoad.$domain=~videoad.in
+/videoad.$~xmlhttprequest,domain=~videoad.in
 /videoad/*$script
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
