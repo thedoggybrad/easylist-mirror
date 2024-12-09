@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LkXzvJ/8WZzOMRoAa22sRQ
-! Version: 202412091541
+! Checksum: e7YSO9O2scxUei7qRbaNyQ
+! Version: 202412091551
 ! Title: IndianList
-! Last modified: 09 Dec 2024 15:41 UTC
+! Last modified: 09 Dec 2024 15:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -756,9 +756,9 @@ _advt.jpg|
 ?add.gif|$domain=narayanionline.com
 ?final*.gif|$domain=narayanionline.com
 @@-advertisement.$domain=newswaves.org
-@@/ad/live-$domain=abnews24bd.com
 @@/content/ads/*$domain=dailykesari.com
 @@favicon.ico|
+@@||abnews24bd.com/ad/1723863238.jpg
 @@||anweshanam.com/static/ad/commons/js/3445/colombia_v11.js
 @@||aparajeobangla.com/media/Advertisement/use-mask.jpg
 @@||avadh24.in/mynewsadmin/img/add/add1610095077.jpeg
@@ -923,6 +923,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||ab71.tv/wp-content/uploads/2021/07/ezgif.com-gif-maker
 ||abhiyan.com.np^*/Om-Cement-2x5.jpg
 ||abhiyan.com.np^*/Subisu-263-x-150.gif
+||abnews24bd.com/ad/
 ||abplive.com//testfeeds/banners/
 ||abtakkhabar.com/wp-content/uploads/2023/06/Screenshot_2023-06-01-12-18-07-223-
 ||adalytics.prixacdn.net/media/albums/unnamed_xDI8wJxhRa.gif$domain=arghakhanchi.com
@@ -7141,8 +7142,8 @@ sagarmatha.tv##.no-vigyapan-sidebar-section
 narayanionline.com##.no-vigyapan-single
 ajkercrimetimes.com##.notice_single
 abnewslive.in,nepalimato.com,onlinejalandhar.com#@#.np-ads-wrapper
-abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 bidhannagartimes.com,currentpoltics.in,dailysharebazarprotidin.com,dnewsnetwork.in,topnewskerala.com##.np-header-ads-area
+abnewslive.in,onlinejalandhar.com#@#.np-header-ads-area
 dnewsnetwork.in##.np-home-bottom-section
 hariyalinepal.com##.nt_ads_space img
 livehindustan.com##.ntwrk-wdgt
@@ -8496,7 +8497,6 @@ deshkikhabar.in#?#span:-abp-contains(Advertisement)
 dhamaka36.com#?#.mb-3:-abp-has(> .section-title > h4:-abp-contains(Advertisement))
 dhinasari.com#?#.tdm-descr:-abp-contains(Advertisement)
 nepaltara.com##div a[target="_blank"] img
-abnews24bd.com##div img[src^="ad/"]
 asalbaat.co.in##div.HTML:has(> .widget-content)
 gossiplankanews.com##div.HTML:has(> div ins.adsbygoogle)
 aajkaaldaily.com##div.col-lg-3:has(> ins.adsbygoogle)
