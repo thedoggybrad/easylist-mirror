@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TzlqkVRIFml34UM6GF5aLw
-! Version: 202412102211
+! Checksum: ItRS2/gBHfzuMcwopEAYrw
+! Version: 202412102221
 ! Title: EasyList Portuguese
-! Last modified: 10 Dec 2024 22:11 UTC
+! Last modified: 10 Dec 2024 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -255,16 +255,6 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||r4you.co^$third-party
 ||sendwebpush.com^$third-party
 ||simpleads.com.br^$third-party
-!
-||ricettafitness.com^$third-party
-||riminghoggoofy.com^$third-party
-||selfswayjay.com^$third-party
-||skillpropulsion.com^$third-party
-||skoiy.xyz^$third-party
-||sophomoreclassicoriginally.com^$third-party
-||sqhneencmysrk.com^$third-party
-||steamjaws.com^$third-party
-||tfzznclztl.com$third-party
 ! *** easylistportuguese:easylistportuguese/easylistportuguese_adservers_popup.txt ***
 ||adspublicidades.agency^$popup
 ! *** easylistportuguese:easylistportuguese_adult/adult_adservers.txt ***
@@ -440,8 +430,6 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||net-empregos.com/images/banners/
 ||nossanoite.com.br/assets/img/bannerPublic/
 ||nossanoite.com.br/assets/img/bannerTopo/
-||noticiasdecoimbra.pt/*/modal/*/modal.min*^$script,stylesheet
-||noticiasdecoimbra.pt/wp-content/uploads/*.gif?x
 ||novojornal.co.ao/common/pub/banner^
 ||observatoriodatv.uol.com.br/assets/banners/$subdocument,third-party
 ||odemocratagb.com/wp-content/uploads/*-Banner-$image
@@ -1324,7 +1312,6 @@ letras.mus.br##.cnt-space-top
 idinheiro.com.br##.code-block
 metropoles.com##.container > .m-coupons-title
 revistaquem.globo.com##.container-adv
-poki.com.br##.dd
 vidas.pt##.destaques_mrec
 ig.com.br##.duasPubli
 agoravale.com.br##.expande-banner
@@ -1436,12 +1423,10 @@ fabiorobertonoticias.com.br##a[target="_blank"] > img[src^="https://i.imgur.com/
 caras.uol.com.br##amp-fx-flying-carpet
 reportermt.com.br##div[class$="box-banner"]
 fimdalinha.com.br##div[class*="banner-"]
-noticiasdecoimbra.pt##div[class*="cp_id_"]
 fogaonet.com##div[class*="fnad-block"]
 pokerpt.com##div[class*="g g-"]
 dioguinho.com##div[class*="ribboned"]
 criativaonline.com.br##div[class*="stream-item"]
-poki.com.br##div[class^="Advertisement_"]
 conexaopolitica.com.br##div[class^="ads"]
 opantaneiro.com.br##div[class^="banner"]
 areah.com.br##div[class^="banner_footer"]
@@ -1463,7 +1448,6 @@ diarioonline.com.br##div[id^="div-banner"]
 tuasaude.com##div[id^="divGptAd_"]
 tecnoblog.net##div[id^="fullbanner-container"]
 infoescola.com##div[id^="index-banner"]
-noticiasdecoimbra.pt##div[id^="mvp-leader-wrap"]
 tecnoblog.net##div[id^="portalfullblock-desktop"]
 globo.com##div[id^="pub-"]
 palcomp3.com.br##div[id^="pub-cc"]
