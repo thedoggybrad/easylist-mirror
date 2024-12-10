@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: z07LnNH9ona45jV0q4I6Cw
-! Version: 202412100001
+! Checksum: j3AR6G8FBwBmjQIAIIeO0g
+! Version: 202412100011
 ! Title: EasyPrivacy without international filters
-! Last modified: 10 Dec 2024 00:01 UTC
+! Last modified: 10 Dec 2024 00:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3645,7 +3645,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||diagnose.igstatic.com^
 ||dig.ultimedia.com^
 ||digimedia.com/pageviews.php?
-||digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||digitaloceanspaces.com/pixel/
 ||direct-collect.dy-api.com^
 ||direct-collect.dy-api.eu^
@@ -43601,6 +43600,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||api-analytics.magstimconnect.net^$~third-party
 @@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
+@@||api-public.roland.com/geoip$domain=bosstoneexchange.com
 @@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
