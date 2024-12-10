@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aj7iTtTA1Rp6pek8ehrwPA
-! Version: 202412100901
+! Checksum: T6rFpasJNfLbCgvKwADK7Q
+! Version: 202412100911
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Dec 2024 09:01 UTC
+! Last modified: 10 Dec 2024 09:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15177,6 +15177,7 @@ krastown.com##.overlay_wrap
 truba.com##.overvideo
 magtimes.info##.owl-carousel
 sims3pack.ru##.ozon_link
+safezone.cc##.p-body-content > div[style^="text-align:center;"][style*="min-height:"]
 yougame.biz##.p-body-inner > .notices
 probiv.in,probiv.one##.p-body-pageContent center > [href^="https://t.me/"] > img
 snob.ru##.p-c-a
@@ -16897,6 +16898,7 @@ dotabuff.com##[data-type="elo-placement"]
 historyrusedu.ru##[data-uk-grid-match*="target"]
 slukh.media##[data-vc-parallax]
 nv.ua##[data-vr-zone="Баннер"]
+safezone.cc##[data-widget-key="friends"]
 ozon.ru##[data-widget="advBanner"]
 ozon.ru##[data-widget="advVideoBanner"]
 ozon.ru#?#[data-widget="freshIsland"]:-abp-has(> div > [data-widget="objectBannerList"])
@@ -23089,7 +23091,7 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||imgfrost.net^$third-party
-||pikabu.ru/ajax/cyn6EhzEdPieuuB.$xmlhttprequest
+||pikabu.ru/ajax/A3k8Z1pQw7tX9mB.$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
