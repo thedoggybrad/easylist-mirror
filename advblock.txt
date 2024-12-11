@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FrDNFrE8aNpqD+uDMKnvoA
-! Version: 202412111031
+! Checksum: 72dhI6RrLeeQtMfuyXxBeQ
+! Version: 202412111041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Dec 2024 10:31 UTC
+! Last modified: 11 Dec 2024 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12153,6 +12153,7 @@ the-ebook.org###new-adver-promo
 the-ebook.org###new-header > #leftQuote
 the-ebook.org###new-header > #rightQuote
 bookskeeper.ru#?##news-arch:-abp-has(h4:-abp-contains(/Реклама|Партнеры/i))
+www.zoneofgames.ru#?##news-list > .news-item:-abp-has(> .news-content > div > p[style] > span)
 interesniy.com###news-partner
 7days.ru###news-widget
 football24.ua###newsRightColumn .right-column-divider
