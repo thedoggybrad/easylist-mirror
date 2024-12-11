@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p/tnHjNykph80GA/cEC2Ig
-! Version: 202412112201
+! Checksum: uxDiUS+PpwTVvUQ61T7iaA
+! Version: 202412112211
 ! Title: EasyList without rules for adult sites
-! Last modified: 11 Dec 2024 22:01 UTC
+! Last modified: 11 Dec 2024 22:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59569,6 +59569,7 @@ yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
 zillow.com##li[class^="ListItem-"]:has(#nav-ad-container)
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 globalchinaev.com##p.content-center:has-text(ADVERTISEMENT)
+sciencenews.org##p:has-text(Sponsor Message)
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
