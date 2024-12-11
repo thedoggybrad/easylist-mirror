@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: rfr+O2Kt65CTG4XxhKhxLw
-! Version: 202412112201
+! Checksum: T5o4u8EjSnJInlULujAgKA
+! Version: 202412112211
 ! Title: EasyPrivacy without international filters
-! Last modified: 11 Dec 2024 22:01 UTC
+! Last modified: 11 Dec 2024 22:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2576,7 +2576,6 @@
 /web-data-ingress?
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
-/web-vitals.
 /web/push?
 /web_analytics/*
 /web_answertip.js
@@ -43841,7 +43840,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
-@@||quickmath.com/js/r/web-vitals.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
@@ -43929,7 +43927,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||vidible.tv^*/ComScore.Viewability.js
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
 @@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
-@@||web.dev/patterns/web-vitals-$~third-party
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
