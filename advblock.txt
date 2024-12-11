@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: C3PrBfsRaVY5seVZxBtyRw
-! Version: 202412111151
+! Checksum: CSJAy4UUR+KEvH7pM0/sFQ
+! Version: 202412111201
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Dec 2024 11:51 UTC
+! Last modified: 11 Dec 2024 12:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13555,6 +13555,7 @@ programma-peredach.com##.blockSns
 aktobeinfo.kz##.block[id*="-banners-"]
 gooool.tv,gooool365.org##.block_d
 thelastupd.org#?#.block_down:-abp-has(> .itemdown_nottorent_sub)
+byrutgame.org##.block_down_game > .block_down ~ .block_down
 openssource.biz##.block_left
 chatadelic.net,db.chgk.info,dsvload.net,forzajuve.ru,gubkabob.net,imageban.ru,kak-spasti-mir.ru,moi-detsad.ru,podrobno.uz,prostomac.com,rap-text.ru,recensent.ru,seriatv.ru,volomy.ru##.block_links
 electrik.org##.block_r
