@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Plkq/HQwbNURgjScr/N0ZQ
-! Version: 202412120831
+! Checksum: iqUBkDu6f0yio1S+shuxJA
+! Version: 202412120841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Dec 2024 08:31 UTC
+! Last modified: 12 Dec 2024 08:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11850,9 +11850,8 @@ turmush.kg###fb_bottom_like
 myparcels.ru###featured-wants
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .__vkfeed_adchoices)
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .adaptive_ad)
-vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .ads_ad_action_menu_item_icon)
-vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .ads_ad_snippet)
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block .ads_wall_text)
+vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block [class*=" ads_ad_"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block [class*="_noClick"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block [data-role="adChoicesMenu"])
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> .page_block div[data-role="advertisinglabel"])
