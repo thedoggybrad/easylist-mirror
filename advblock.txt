@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gbs/q55RvCoOIPZkvahw/g
-! Version: 202412121911
+! Checksum: FI35Q1pVHmI9BxeEciRUFQ
+! Version: 202412121921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Dec 2024 19:11 UTC
+! Last modified: 12 Dec 2024 19:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11766,7 +11766,6 @@ auto.kufar.by#?##content div[class]:not([id]):-abp-has(> [id^="adfox_"]:first-ch
 pickupforum.ru###content div[id^="slider_"]
 vsezdes.info###content h3[style] > span[style^="color"]
 chipinfo.pro###content-container > div[style^="display: block;"]
-football24.ua###content-roll-tracker
 stratege.ru###content-sub
 stratege.ru###content-top
 tvsok.ru###content-wraper > p
@@ -12231,7 +12230,6 @@ lux.fm###partner-block
 bash.news###partner-widget-mediametrics
 footballua.tv###partner_title
 sibmama.info,sibmama.ru###partners
-football24.ua###partners-propositions
 dofiga.net###pbie_25
 poleno.net###pddk221
 onyxgame.com###pegination ~ a
@@ -13100,6 +13098,7 @@ sm.news##.aside > [id][class]
 efir.plus##.aside > div ~ div
 sm.news##.aside div[id][class]:empty
 iz.ru##.aside-advertising
+kurkul.com##.aside-banner-wrap
 auto43.ru#?#.aside-block:-abp-has(> .media_aside_our-partners)
 kinoblog.tv#?#.aside-block:-abp-has(div[class^="adfinity_block_"])
 news-tape.ru#?#.aside-col > .moduletable:-abp-has(> .inner > .box-ct > .adsbygoogle)
@@ -15486,7 +15485,7 @@ friday.ru#?#.rc2:-abp-has(div[id^="adfox_"])
 vsezdorovo.com##.rca-block
 yakutsk.ru##.rca_des
 omastopatii.ru##.rcblo
-zemliak.com##.rcl-label
+elevatorist.com,kurkul.com,latifundist.com,superagronom.com,zemliak.com##.rcl-label
 midasbox.net##.re-block
 happy-biock.info,happy-block.info,howto-news.info##.read-also__title
 twizz.ru##.read-next
@@ -15502,7 +15501,7 @@ tvcook.ru##.recipe-adv_bottom
 19216811.ru##.recl
 depfile.com##.recl_vert
 arigus.tv##.reclam
-meteoprog.ua##.reclama
+kurkul.com,meteoprog.ua##.reclama
 programki.net##.reclama_v
 big-anime.ru##.reclame
 mmo13.ru##.recomend
@@ -16531,7 +16530,6 @@ aplik.ru,discover24.ru,edurusnews.ru,holostyak.site,inforuss.info,krashevseh.ru,
 censor.net##.widget_header aside
 animalbox.ru##.widget_html_javascript_adder
 podskazki.info##.widget_hugeit_slider_widget
-kurkul.com##.widget_image-vertical
 kyiv.media##.widget_leftadvbanner
 hyperione.com##.widget_mbywx
 autogeek.com.ua,cryptonewsua.com,expert.com.ua,gk-press.if.ua,hronikers.com,inform.zp.ua,kulemet.com,mezha.media,pclegko.ru,politarena.online,sn.by,svoboda.te.ua,volyninfa.com.ua##.widget_media_image
@@ -18986,7 +18984,7 @@ alcogolizm.com##div[id^="yazd_"]
 korabel.ru##div[id^="ydirect_"]
 irecommend.ru##div[id^="ymarket-mobtop"]
 mega-stars.ru##div[id^="youtube_ad_"]
-sport.ua##div[id^="zone_"]
+football24.ua,sport.ua##div[id^="zone_"]
 hackware.ru,kali.tools##div[name]
 avtonavideo.ru,chinimavto.ru,minecraftnavideo.ru,multivarki-redmond.ru,odezhda2.ru,piling.re,pol-video.ru,prigotovit.org,prohozhuigru.ru,remontnavideo.ru,shiny2.ru,televizor2.ru##div[onclick*="SkipR"]
 mydiv.net##div[onclick*="partner"]
