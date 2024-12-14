@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202412142132
+! Version: 202412142142
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Dec 2024 21:32 UTC
+! Last modified: 14 Dec 2024 21:42 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -41176,6 +41176,8 @@ wayfair.co.uk,wayfair.de,wayfair.ie##.FooterPopups
 roninwear.com,roninwear.de,roninwear.fi,roninwear.fr,roninwear.hu,roninwear.it,roninwear.pt,roninwear.us###wrapper-dx-coki
 ! ! ##div[class^="cookie__"]
 4templates.com,epal.gg,thegoodocs.com,thewallsthotel.com##div[class^="cookie__"]
+! ! #ism-consent-box
+laportecontemporaine.shop,meesterslijpers.nl###ism-consent-box
 ! ! .cookie-alert
 cdek.ru,elektrikstore.hu,pushwoosh.com,salon24.pl,shoei-helmets.com##.cookie-alert
 ! ! .cookie-alert-show
@@ -44700,7 +44702,6 @@ dossin.be###gdprcontent
 assure.ameli.fr###idPopupWARecueilConsentement
 paninimania.com###id_acco
 arteradio.com###intro-rgpd
-laportecontemporaine.shop###ism-consent-box
 vosfactures.fr###jGrowl
 sondagenational.com###legalCookies
 fromagesuisse.ch###legalnotice
@@ -47685,7 +47686,7 @@ doctorofcredit.com#@#.wpdiscuz-subscribe-bar
 ! *** easylist:easylist_cookie/easylist_cookie_allowlist_general_hide.txt ***
 ! easylist_cookie_allowlist_general_hide.txt
 cera.coop#@##CookieBanner
-fdm-travel.dk,landkreis-kelheim.de,power.no,skousen.dk,skousen.no,whiteaway.com,whiteaway.no,whiteaway.se#@##CookieConsent
+elkjop.no,fdm-travel.dk,landkreis-kelheim.de,power.no,skousen.dk,skousen.no,whiteaway.com,whiteaway.no,whiteaway.se#@##CookieConsent
 smooth-on.com#@##CookieNotice
 finanzmarktwelt.de#@##CybotCookiebotDialogBodyUnderlay
 online.no,telenor.no#@##__tealiumGDPRcpPrefs
