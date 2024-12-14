@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x+WKt5Jb1RUKb04oNpQjCA
-! Version: 202412141031
+! Checksum: +ASg/DRV84k2HH1S5PQO6Q
+! Version: 202412141041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Dec 2024 10:31 UTC
+! Last modified: 14 Dec 2024 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1554,6 +1554,7 @@ me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][
 ##div[class^="yandex_rtb"]
 ##div[data-adv-type="dfp"]
 ##div[data-id^="div-gpt-ad-"]
+##div[data-server-rendered="true"] > div[id^="block-"]
 ##div[data-server-rendered="true"] > div[id^="la-"]
 ~vk.com,~vk.ru##div[id$="notifiers_wrap"]
 ##div[id*="Teaser_Block"]
@@ -7818,6 +7819,7 @@ _tizers.
 ||mxshuh.com^$third-party
 ||mxttrf.com^$third-party
 ||mxxpa.top^$third-party
+||mxzijg.com^$third-party
 ||my-img.ru^$third-party
 ||my-tiz.online^$third-party
 ||myads.ru^
@@ -15600,7 +15602,6 @@ sinoptik.ua##.rightAdvBox
 dailylviv.com##.rightBanner
 game01.ru##.rightBanner > h4
 librebook.me#?#.rightBlock:-abp-has(> .shopOffers)
-nakanune.ru#?#.rightCol > div:-abp-has(> a > img[src*="/images/banners/"])
 mods-fs.net#?#.rightColomn > aside:-abp-has(> .textwidget)
 ap22.ru##.rightColumn a[href][target] > .Recbanner
 gazeta.uz##.rightContainer > .floating_banner
@@ -15750,8 +15751,8 @@ aramil.city#?#.sectionColumn:-abp-has(> .subTitle:-abp-contains(/реклама/
 openssource.biz##.section_spoiler
 bolshoyvopros.ru##.seedbnrs
 subscribe.ru##.sendsay_adv
+nakanune.ru##.seo
 gmod-fan.ru##.seo-info
-nakanune.ru##.seo_green
 micro-win.com##.seoquake-nofollow
 xtreme.ws##.separator
 24.animez.live#?#.serials > .serial:-abp-has(> .serial-btn > .row > div > img[src^="/assets/smotret_anime-"])
@@ -20441,7 +20442,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||auto.ria.com/images/branding/banner/
 ||auto.ru/wwwboards/img/banner_
 ||auto62rus.ru/img/Mnogo3D.
-||autofill.yandex.ru^$domain=fishki.net|pikabu.ru|sport-express.ru
+||autofill.yandex.ru^$domain=fishki.net|myshows.me|pikabu.ru|sport-express.ru
 ||autogener.ru/img/abp/
 ||autoinfo24.ru/upload/images/banner
 ||autolada.ru/images/banner/
