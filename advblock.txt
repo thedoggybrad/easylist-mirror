@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7MK0N8vqAf54Czxo2EVLJA
-! Version: 202412141231
+! Checksum: 3/gd8Kqv7jOlfC7JoYSoMw
+! Version: 202412141241
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Dec 2024 12:31 UTC
+! Last modified: 14 Dec 2024 12:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3464,7 +3464,6 @@ _tizers.
 ||sosnews.ru^$third-party
 ||sovetnik.market.yandex.ru^$third-party
 ||sovetnik.yandex.net^$third-party
-||soyztreid.website^$third-party
 ||spacepush.ru^$third-party
 ||spbland.ru/bban/
 ||spitter.pauk.ru^
@@ -23154,10 +23153,6 @@ www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
 www.drive2.ru##iframe[style="opacity: 1;"]
 liveinternet.ru##style + div > div > div > div > div a
 !#endif
-soyztreid.website##:not(my-obnaruzhili-blokirovshchik)
-||liferoom.net^*.$third-party,popup
-||soyztreid.website^$csp=script-src
-||soyztreid.website^$popup
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
 apad2.top,besplatnyeprogrammy.ru,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-game.ru,rutor-gamer.info,torent-igruha.com,torrent-music.ru,torrent-soft.pro,torrentigo.net,torrentigruha.org,where-game.ru##:not(this-site-promotes-malware)
