@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4G+nEJAJ4WakGlPLTh0WCw
-! Version: 202412151321
+! Checksum: qMYEABYNqXECA84RFbK1BQ
+! Version: 202412151331
 ! Title: EasyPrivacy without international filters
-! Last modified: 15 Dec 2024 13:21 UTC
+! Last modified: 15 Dec 2024 13:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -315,6 +315,7 @@
 /api/adplogger/*
 /api/async.php?t=user&m=pagehits&
 /api/bfb_write_log
+/api/click/*?c=
 /api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
