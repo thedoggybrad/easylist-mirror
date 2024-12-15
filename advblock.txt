@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: m/lHu7gtLX1Em99zrv+7Ow
-! Version: 202412150711
+! Checksum: EopEMsKsVnXZV+uvFj8FoQ
+! Version: 202412150721
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Dec 2024 07:11 UTC
+! Last modified: 15 Dec 2024 07:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15205,7 +15205,7 @@ yarnews.net##.page-new > .left
 knizhnik.org##.page-note
 golos.ua##.page-single > .col-right
 gdz-ru.work,gdz.fun##.page-subscribe
-filmix.date,filmix.fm,filmix.life,filmix.me,filmix.pub,filmix.tech,filmix.zone##.page-wrapper .last-news ~ .container > .information
+filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone##.page-wrapper .last-news ~ .container > .information
 likemetr.ru##.page-wrapper > .analyzer-page > .subscriber
 1yar.tv##.pageBranding
 bdf.ms##.pageContent > div[style^="outline"] > a[href]:not([href^="../threads/"])
@@ -23086,7 +23086,7 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua
 @@||ssp.rambler.ru/capirs_async.js|$script,domain=www.championat.com
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||imgfrost.net^$third-party
-||pikabu.ru/ajax/PiRu37tCQpNzUZY.$xmlhttprequest
+||pikabu.ru/ajax/bfd4ZqjsGAf37Rw.$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -26103,7 +26103,7 @@ allbookerka.org##.overhang
 2x2tv.ru##.owl-wrapper-outer .slideAlt
 clan-soprano.ru##.popupBlock
 uniondht.org##.post_body > div[style="color:red;font-size:25px;"]
-filmix.date,filmix.fm,filmix.life,filmix.me,filmix.pub,filmix.tech,filmix.zone##.remove-sda-wrap
+filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone##.remove-sda-wrap
 electric-house.ru#?#.rules:-abp-has(> p > [src="/img/no_ad.png"])
 satdx.club##.rules[style^="display:"][style*="position:"][style*="z-index:"]
 sport-express.ru##.se-bn-notice
