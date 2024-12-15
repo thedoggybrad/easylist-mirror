@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0rQpI6CU1N+dDvrvlfw9FQ
-! Version: 202412151631
+! Checksum: kE0uoQ2Xpf630TWFZkuDfw
+! Version: 202412151641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Dec 2024 16:31 UTC
+! Last modified: 15 Dec 2024 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -8098,6 +8098,7 @@ _tizers.
 ||nrzcj.top^$third-party
 ||nsddniu.pro^$third-party
 ||nshes.ru^$third-party
+||nsn-azert.xyz^$third-party
 ||nsrealbig.ru^$third-party
 ||nsx3g.ru^$third-party
 ||ntfhglciig.bid^$third-party
@@ -14143,7 +14144,6 @@ mp3.uzhgorod.name##.esc_adv_inside_container
 anime100500.ru##.esg-bleach
 mediavitrina.ru##.eump-com-linktxt
 infocar.ua##.euroban
-vringe.com##.everlast
 nevasport.ru##.exchange-block
 shanson.name##.execphpwidget > div[id]:not([class]):not([style])
 diets.guru,newsyou.info,pohudet.org##.exitblock
@@ -15094,7 +15094,6 @@ unian.info,unian.net,unian.ua##.newsfeed__banner
 forseven.ru##.newss2 a[target="_blank"]
 novostroy.su##.newton-ad
 babyblog.ru##.nivea-pr-block
-vringe.com##.nmGoods
 nn.by##.nn-banner
 yap.ru##.no-compress > a[href*="yap.ru/go/"]
 yap.ru,yaplakal.com##.no-compress > a[href*="yaplakal.com/go/"]
@@ -25744,7 +25743,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||utkonos.mybb.ru^$script,domain=utkonos.mybb.ru
 @@||vak.minobrnauki.gov.ru/*/adverts_list.php$xmlhttprequest,domain=vak.minobrnauki.gov.ru
 @@||vasilisc.com/js/ad_img.js|$script,domain=vasilisc.com
-@@||vertamedia.com/vmap$xmlhttprequest,domain=vringe.com
 @@||video.*.user.madbanner.ru^$object
 @@||video.begun.ru/flowplayer_begun_lib.swf|
 @@||video.magnet.kiev.ua^$domain=autonews.autoua.net|gagadget.com|kiev.ua|okino.ua|ringside24.com
@@ -25946,7 +25944,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||pkfnpo.ru^$image,domain=pkfnpo.ru
 @@||player.*.com/prebidlink/*.js|$script,domain=tsn.ua
 @@||player.3tv.im^$script,stylesheet,domain=player.3tv.im
-@@||player.adtelligent.com/static/player.$script,stylesheet,domain=ictv.ua|inter.ua|k1.ua|novy.tv|ntn.ua|player.starlight.digital|stb.ua|teleportal.ua|vringe.com|xsport.ua
+@@||player.adtelligent.com/static/player.$script,stylesheet,domain=ictv.ua|inter.ua|k1.ua|novy.tv|ntn.ua|player.starlight.digital|stb.ua|teleportal.ua|xsport.ua
 @@||print-post.com^*.js$script,domain=print-post.com
 @@||pvpru.com/css/banners/300$domain=pvpru.com
 @@||questtime.net/js/adverts.js$script,domain=questtime.net
