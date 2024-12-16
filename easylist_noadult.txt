@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /FLTBSWBsL6z7BsAUqoJGQ
-! Version: 202412161201
+! Checksum: 3OKDkwuC6H7OVZKbQA7pYw
+! Version: 202412161211
 ! Title: EasyList without rules for adult sites
-! Last modified: 16 Dec 2024 12:01 UTC
+! Last modified: 16 Dec 2024 12:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -376,7 +376,7 @@
 /ban.php?
 /ban728x90.$image
 /banman/ad.aspx$image
-/banner-ad.$~script
+/banner-ad.$~script,~xmlhttprequest
 /banner-ads-rotator/*$script,stylesheet
 /banner-ads/*$image,domain=~1agosto.com
 /banner-affiliate-$image
@@ -619,7 +619,6 @@
 /plugins/popunderpro/*$script
 /plugins/thirstyaffiliates/*$script,stylesheet
 /plugins/ultimate-popunder/*$~stylesheet
-/plugins/wp-moreads/*$~stylesheet
 /plugins/wp125/*$~stylesheet
 /pop_8/pop_8_$script
 /popin-min.js$script
