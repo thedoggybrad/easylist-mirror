@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P009IfmrjjB4YAmxPyqddg
-! Version: 202412171701
+! Checksum: Dt8bkjqAA3mAMsfSdpNH/Q
+! Version: 202412171711
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 Dec 2024 17:01 UTC
+! Last modified: 17 Dec 2024 17:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23103,7 +23103,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ! селекторы
 growhow.in.ua###custom-background-css {remove:true;}
 e.mail.ru##.layout__column_right-indented
-news.mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
+mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
 anidub.vip,anidubonline.com##.plyr__menu
 anidub.vip,anidubonline.com##.plyr__progress__buffer
 pikabu.ru#?#.stories-feed__container > .story:-abp-has(div:-abp-properties(/min-height: 20.px|min-height: 29.px|min-height: 30.px|min-height: 300./))
