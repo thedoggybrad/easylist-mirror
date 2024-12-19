@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QfzVFHu0wtJNmFvDx1/36A
-! Version: 202412191001
+! Checksum: IIEVMsgtnwD0u7IB2uNZwQ
+! Version: 202412191011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Dec 2024 10:01 UTC
+! Last modified: 19 Dec 2024 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14789,7 +14789,6 @@ mirkvartir.ru##.m-mimikria
 rifey.ru##.m-padding
 tut.by##.m-topic-tam,.m-topic-tam ~ div
 imhonet.ru##.m-videoplayer-advert
-ria.ru##.m-ya
 fotokto.ru##.m2
 ppl.nnov.ru##.m_lbanner
 promodj.com##.magig_conteiner
@@ -23418,7 +23417,6 @@ dzen.ru##[id*="_tsar"]
 news.mail.ru##aside div > div:first-child:empty ~ div
 news.mail.ru#?#aside div:-abp-has(> div:only-child:empty)
 news.mail.ru##body > div > style + div[id]
-dzen.ru##div[class*=" news-site--"][class*="__desktop"]
 dzen.ru##div[class*="news-advert"]
 ! Дзен новости Mail-edition
 dzen.ru##[aria-label="Таб категорий"][href^="/floors-promo/"]
