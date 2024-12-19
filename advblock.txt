@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fhTWGyuQRJIxMGgwrtmsyw
-! Version: 202412190921
+! Checksum: jXfKZG4f+KNQvfcf1LFPpA
+! Version: 202412190931
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Dec 2024 09:21 UTC
+! Last modified: 19 Dec 2024 09:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23089,7 +23089,7 @@ $csp=script-src-attr 'none',domain=eurointegration.com.ua|pravda.com.ua
 https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|livejournal.com|olegmakarenko.ru|periskop.su|shakko.ru|shiro-kino.ru|vadimrazumov.ru
 ||imgfrost.net^$third-party
 ||news.mail.ru/-/
-||pikabu.ru/ajax/tMhH6AvRX9JA0vF.$xmlhttprequest
+||pikabu.ru/ajax/Wlz4hvkX7rVO7Pg.$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
@@ -24732,7 +24732,7 @@ ognov.ru,porjati.ru,sovkusom.ru##.jquery-modal.blocker
 fishki.net##.like_wall.is_visible
 haba.ru##.likewall
 krugo.ru##.lwsoc
-amedia.site##.mfp-hide
+amedia.lol##.mfp-hide
 ##.min-width-normal > #popup_container
 ##.min-width-normal > #popup_container ~ #fade
 top.thepo.st##.modal-backdrop
@@ -24841,7 +24841,7 @@ htmlacademy.ru##div[style^="margin-left:"][style*="margin-bottom:"][style*="posi
 ||5skyrim.com/js/showcur.js
 ||900igr.net/bm/sc.js
 ||all-for-kompa.ru/All-For-Kompa/all-for-kompa-guest.js
-||amedia.site/templates/*/popup/
+||amedia.lol/templates/*/popup/
 ||api.traq.li^$domain=champion.com.ua|epravda.com.ua|eurointegration.com.ua|pravda.com.ua
 ||apihost.ru/images/584676.gif
 ||bagnet.org/public/js/cook_popup.js
