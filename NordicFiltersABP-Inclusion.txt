@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YVVipOgcoE8oy1dTxSbIbA
-! Version: 202412201601
+! Checksum: EQKCXqG3hTKsTB9bruNHEw
+! Version: 202412201611
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 20 Dec 2024 16:01 UTC
+! Last modified: 20 Dec 2024 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7734,11 +7734,9 @@ srk.fi#@##CookielawBanner
 ! *** easylist:easylist/easylist_general_block.txt ***
 -ad-300x600-
 -ad-458x80.
--ad-bottom-
 -ad-manager/$~stylesheet
 -ad-right.
 -ad-sidebar.
--ad-unit.
 -ad-util.
 -ad.jpg.pagespeed.
 -ads-banner.
@@ -7756,7 +7754,6 @@ srk.fi#@##CookielawBanner
 -page-ad.
 -page-peel/
 -PcmModule-Taboola-
--peel-ads-
 -popexit.
 -popunder.
 -publicidad.
@@ -8564,7 +8561,6 @@ srk.fi#@##CookielawBanner
 ://pt.*?psid=$third-party
 ://sli.*/imp?s=$image
 ://uads.$third-party,xmlhttprequest
-=half-page-ad&
 ?ab=1&zoneid=
 ?adspot_$domain=~sponichi.co.jp
 ?adunitid=
@@ -8804,7 +8800,6 @@ _prebid.js
 !
 &sadbl=1&abtg=$third-party
 &sadbl=1&chu=$third-party
-?zoneid=*&ab=1
 ! linkbucks.com script
 /webservices/jsparselinks.aspx?$script
 ! domain parking redirection
@@ -8841,7 +8836,7 @@ _atblockdetector/
 -120x600.
 -120x600_
 -160-600.
--160x600-
+-160x600-$image,subdocument
 -160x600.
 -160x600_
 -300-250.
