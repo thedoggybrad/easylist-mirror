@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XUkr7TkvIgitIeejrEuziw
-! Version: 202412211151
+! Checksum: 4CihWIpyFUAaKzBeKmI5ZQ
+! Version: 202412211201
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Dec 2024 11:51 UTC
+! Last modified: 21 Dec 2024 12:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12411,7 +12411,7 @@ om1.ru###screenGlideAdb
 winxland.ru###script_block
 technical.city###scroll_banner_container
 webdiana.ru###scrollable
-pravda.ru###scrolling-news-list > div[style^="min-height:3"]
+pravda.ru###scrolling-news-list > div[style*="height:3"]
 partnerkin.com###sdv_branding
 hubs.ua###secondary > #text-2
 keysportal.com#?##secondary > .sidebar-widget:-abp-has([id^="yandex_rtb"])
@@ -13317,7 +13317,7 @@ gid-minecraft.ru##.banner-bottom-wrapper
 dynamomania.com##.banner-box
 driveroff.net,samlab.ws##.banner-categories
 repost.uz,tvmag.ru##.banner-center
-amurmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,job.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,newsvl.ru,priamurmedia.ru,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,stavropol.media,tayga.info,tet.tv,ulanmedia.ru,unian.info,unian.net,unian.ua,ussurmedia.ru,vctr.media,wallnews.org,yakutiamedia.ru,yugopolis.ru##.banner-container
+amurmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,job.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,newsvl.ru,priamurmedia.ru,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,shedevrum.ai,stavropol.media,tayga.info,tet.tv,ulanmedia.ru,unian.info,unian.net,unian.ua,ussurmedia.ru,vctr.media,wallnews.org,yakutiamedia.ru,yugopolis.ru##.banner-container
 para.by##.banner-cube
 biysk-ok.ru##.banner-default
 vikna.if.ua##.banner-fullborder
@@ -14864,6 +14864,7 @@ torrents-soft.net##.maincont > div:nth-last-of-type(2) > a > img
 bookskeeper.ru##.maincont > div[class="clr"]
 bazatabletok.ru##.maincontentcell td[valign="top"]
 penzavzglyad.ru##.mainmenu-ads
+stiletto.blog##.mainos
 www.livejournal.com#?#.mainpage__wrap-content div[class*="card"]:-abp-has(> div > div[class*="empty"] [id*="directive.id"])
 oboznik.ru##.mainrams > div[class^="cd"]
 sex-empire.tv##.maintable td#right
@@ -16981,7 +16982,7 @@ delpc.ru,parazitovnetu.ru##[id^="smartrotator_ad"]
 kriminal.net.ua,moyskelet.ru,myhairsalon.ru,progipertoniyu.ru,znachenieimenipro.ru##[id^="teaser_"]
 mirmmo.ru##[id^="trumedia_holder_"]
 mirmmo.ru##[id^="trurlmedia_holder"]
-101.ru,19rus.info,2000.ua,5-tv.ru,56orb.ru,62info.ru,7info.ru,afanasy.biz,agitpro.su,allboxing.ru,anekdot.ru,argumenti.ru,baltnews.ee,belive.ru,bigpicture.ru,bombardir.ru,chehov-vid.ru,daily-inform.ru,dni.ru,dnpmag.com,do-slez.com,eadaily.com,eg.ru,expert.ru,ferra.ru,gazeta-tula.ru,glavnoe24.ru,gorobzor.ru,gorvesti.ru,govoritmoskva.ru,gubdaily.ru,hightech.plus,iarex.ru,inforeactor.ru,iz.ru,kirov-portal.ru,kriminal.net.ua,livelib.ru,m24.ru,melodrama1.com,mgorod.kz,mir24.tv,mk.ru,myhistori.ru,nashgorod.ru,nation-news.ru,nevnov.ru,newinform.com,news-front.info,news.ru,nn.ru,ntv.ru,osnmedia.ru,penzainform.ru,penzavzglyad.ru,pikinform.ru,pnp.ru,polit.info,politexpert.net,politonline.ru,pora.ru,pravda.ru,radidomapro.ru,radioromantika.ru,ratel.kz,ren.tv,ria56.ru,riafan.ru,rueconomics.ru,rusplt.ru,russian.rt.com,rusvesna.su,sevkavportal.ru,sharknews.ru,sm.news,sminews.ru,sobesednik.ru,sport-express.ru,steaklovers.menu,sun-news.ru,topwar.ru,trendymen.ru,tsargrad.tv,tsn24.ru,tvc.ru,tvernews.ru,ua.today,uralpress.ru,usa.one,vedomosti.ru,versia.ru,veseloeradio.ru,vesti-yamal.ru,vesti.ru,vesti.uz,vestivrn.ru,vokrugsveta.ru,xn--b1ats.xn--80asehdb,zakon.kz,zr.ru##[id^="unit_"]
+101.ru,19rus.info,2000.ua,5-tv.ru,56orb.ru,62info.ru,7info.ru,afanasy.biz,agitpro.su,allboxing.ru,anekdot.ru,argumenti.ru,baltnews.ee,belive.ru,bigpicture.ru,bombardir.ru,chehov-vid.ru,daily-inform.ru,dni.ru,dnpmag.com,do-slez.com,eadaily.com,eg.ru,expert.ru,ferra.ru,gazeta-tula.ru,glavnoe24.ru,gorobzor.ru,gorvesti.ru,govoritmoskva.ru,gubdaily.ru,hightech.plus,iarex.ru,inforeactor.ru,iz.ru,kirov-portal.ru,kriminal.net.ua,livelib.ru,m24.ru,melodrama1.com,mgorod.kz,mir24.tv,mk.ru,myhistori.ru,nashgorod.ru,nation-news.ru,nevnov.ru,newinform.com,news-front.info,news.ru,nn.ru,ntv.ru,osnmedia.ru,penzainform.ru,penzavzglyad.ru,pikinform.ru,pnp.ru,polit.info,politexpert.net,politonline.ru,pora.ru,radidomapro.ru,radioromantika.ru,ratel.kz,ren.tv,ria56.ru,riafan.ru,rueconomics.ru,rusplt.ru,russian.rt.com,rusvesna.su,sevkavportal.ru,sharknews.ru,sm.news,sminews.ru,sobesednik.ru,sport-express.ru,steaklovers.menu,sun-news.ru,topwar.ru,trendymen.ru,tsargrad.tv,tsn24.ru,tvc.ru,tvernews.ru,ua.today,uralpress.ru,usa.one,vedomosti.ru,versia.ru,veseloeradio.ru,vesti-yamal.ru,vesti.ru,vesti.uz,vestivrn.ru,vokrugsveta.ru,xn--b1ats.xn--80asehdb,zakon.kz,zr.ru##[id^="unit_"]
 pravda-tv.ru##[id^="warta_ads-"]
 guitarplayer.ru##[id^="ya_direct_"]
 radidomapro.ru##[id^="zone_pub"]
@@ -17129,7 +17130,7 @@ rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[href*=".vkpl
 wintorrents.ru##a[href*=".wintorrents.ru"]
 1tv.ru,drive.ru,f1news.ru,film.ru,gamemag.ru,kinoafisha.info,kinonews.ru,kinorium.com,livejournal.com,myshows.me,onlinestreams.ru,pikabu.ru,pluggedin.ru,spletnik.ru,trinixy.ru,vokrug.tv,www.pesticidy.ru##a[href*="//ads.adfox.ru/"]
 dks.com.ua,enovosty.com,expert.in.ua,galas.te.ua,galinfo.com.ua,nbnews.com.ua,plitkar.com.ua,rivnepost.rv.ua,tenews.org.ua,ukrnews24.net,varta1.com.ua##a[href*="//besplatka.ua"]
-360tv.ru,7days.ru,avtonovostidnya.ru,avtovzglyad.ru,belarus-news.by,bst.bratsk.ru,coop-land.ru,energyfm.ru,finuslugi.ru,fonmod.com,fontanka.ru,gdeichto.ru,ixbt.com,kommersant.ru,ladys.media,life.ru,metronews.ru,mk.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,mydecor.ru,mywebpc.ru,naked-science.ru,new-magazine.ru,news.ru,nsn.fm,ohotniki.ru,oper.ru,overclockers.ru,penzainform.ru,peterburg2.ru,pnz.ru,regnum.news,regnum.ru,rifey.ru,rusnext.ru,russian.rt.com,rutube.ru,sm.news,sovsport.ru,sport-express.ru,sportsdaily.ru,super.ru,syzran-small.ru,teleprogramma.pro,thegirl.ru,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,ura.news,utyug.info,vz.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,ytronews.ru,zaks.ru,zaycev.net,zr.ru##a[href*="//dzen.ru/"]
+360tv.ru,7days.ru,avtonovostidnya.ru,avtovzglyad.ru,belarus-news.by,bst.bratsk.ru,coop-land.ru,energyfm.ru,finuslugi.ru,fonmod.com,fontanka.ru,gdeichto.ru,ixbt.com,kommersant.ru,ladys.media,life.ru,metronews.ru,mk.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,mydecor.ru,mywebpc.ru,naked-science.ru,new-magazine.ru,news.ru,nsn.fm,ohotniki.ru,oper.ru,overclockers.ru,penzainform.ru,peterburg2.ru,pnz.ru,regnum.news,regnum.ru,rifey.ru,rusnext.ru,russian.rt.com,rutube.ru,sm.news,sovsport.ru,sport-express.ru,sportsdaily.ru,stiletto.blog,super.ru,syzran-small.ru,teleprogramma.pro,thegirl.ru,tsargrad.tv,tulapressa.ru,tvzvezda.ru,u-f.ru,ura.news,utyug.info,vz.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai,ytronews.ru,zaks.ru,zaycev.net,zr.ru##a[href*="//dzen.ru/"]
 beatmake.ru##a[href*="//go.acstat.com/"]
 porno-island.site##a[href*="//goo.su/"]
 adult-images.ru,imgbum.ru,screenpost.ru,xpicture.ru##a[href*="//parnuxi.biz"]
@@ -17402,7 +17403,7 @@ rosrabota.ru##a[href*="rosrabota.ru/delivery/"] > img
 uniondht.org##a[href*="rutor."]:not([href*=".rutor.org"])
 fotoinform.net##a[href*="shop.vmayke.org"]
 1track.ru##a[href*="smarty.sale"]
-gorvesti.ru,pravda.ru,sovsekretno.ru##a[href*="smi2.net/"]
+gorvesti.ru,sovsekretno.ru##a[href*="smi2.net/"]
 softbox.tv##a[href*="softboxmarket.com"]
 agronomy.com.ua##a[href*="srsltid"] > img
 modgames.net##a[href*="steam-account."]
@@ -22043,8 +22044,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||pozdrav.ru/url/*.vfl.ru
 ||ppt-online.org/img/zb/
 ||pr.ikovrov.ru/www/
-||pravda.ru/cache/composite_banner/
-||pravda.ru/js/yaRtb.js
 ||pravdapskov.ru/upload/b/
 ||pravo-auto.com^*.php$script
 ||preplay.site^$third-party,domain=hospodar.ua
