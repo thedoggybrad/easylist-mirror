@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: m7uwYQR4z6jt9DZ+B/JkJQ
-! Version: 202412300711
+! Checksum: JknbPmuqx4znVncot4siVw
+! Version: 202412300721
 ! Title: ABPVN List
-! Last modified: 30 Dec 2024 07:11 UTC
+! Last modified: 30 Dec 2024 07:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 30 Dec 2024 09:55:50 UTC+7
-! Diff-Path: patches/20241230095550510.patch#abpvn
+! Last modified: 30 Dec 2024 14:14:48 UTC+7
+! Diff-Path: patches/20241230141448533.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -256,6 +256,7 @@ $popup,domain=truyenfull.io
 ||tinmoi.vn/?mod=ajax&act=getAds
 ||tinsoikeo.live^*.gif$image
 ||tizihay.com^*.gif$image,domain=phiimoi.net
+||tizihay.com^*.gif$image,domain=phimmoichill.org
 ||toithuthuat.com^*.gif
 ||tracker.idocdn.com^$domain=freeplayervideo.com|abysscdn.com|player-cdn.com|geoip.redirect-ads.com|playhydrax.com
 ||traderviet.tv/data/siropu/am/user/$image
@@ -754,6 +755,7 @@ phimmoi.tuphim.net###adsTopInPageBanner
 phimmoi.tuphim.net##.adsContainer
 phimmoi.tuphim.net##.header__auth>.details__devices-list
 phimmoichill.bio###pm_quangcao
+phimmoichill.org###mb-catfish
 phimmoichill.org###pc-catfish
 phimmoichillz.my,haychillz.com###preload
 phimmoinay.top,phimmoissz.pro,tvzinghd.co##.sda-catfish
