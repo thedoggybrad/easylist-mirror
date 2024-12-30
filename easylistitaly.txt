@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6ps1rcXnf+EvzkE+AjW1Ew
-! Version: 202412302101
+! Checksum: mjhwUuk7EJlV7twmUhSmHA
+! Version: 202412302111
 ! Title: EasyList Italy
-! Last modified: 30 Dec 2024 21:01 UTC
+! Last modified: 30 Dec 2024 21:11 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -4958,7 +4958,6 @@ asroma24.com,ilmilanista.it,interistaweb.it##div[style="width:480px; height:72px
 calcissimo.com,firenzeviola.it,parmalive.com,sampdorianews.net,torinogranata.it,tuttoc.com,tuttonapoli.net,vocegiallorossa.it##div[style="width:728px; min-height: 90px;"]
 esportsweb.it,tuttocagliari.net##div[style="width:970px; height: auto; min-height: 250px; padding: 0 0 10px 0;"]
 milannews.it,politicanews.it##div[style="width:970px; min-height: 250px;"]
-gelocal.it##div[style^="width: 300px;height: 80px;border:"]
 conoscimilano.it,cybersecitalia.it,ecoseven.net,lagoleada.it,latelanera.com,radiogammastereo.it,ragionierieprevidenza.it,senzabarcode.it,sportavellino.it,tennismarche.net,terrazzofacile.it##img[width="300"][height="250"]
 tusciaweb.it##img[width="520"][height="100"]
 ilsoftware.it##section[id^="ADleaderboard"]
@@ -5005,6 +5004,7 @@ tuttoandroid.net#?#.card.dark:-abp-has(span:-abp-contains(Adv))
 !----------------Regole di esclusione per risolvere i problemi----------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_allowlist.txt ***
 @@||adbreak.ch/js/ext/adbreak.js?$script,domain=tio.ch
+@@||ads.talkscreativity.com/assets/publisher/$script,domain=corrierealpi.it|ilnordest.it|ilpiccolo.it|mattinopadova.it|messaggeroveneto.it|nuovavenezia.it|tribunatreviso.it
 @@||ads.viralize.tv/player/$xmlhttprequest,domain=automoto.it|ilquaderno.it|moto.it
 @@||ads.viralize.tv^|$script,domain=automoto.it|ilquaderno.it|moto.it
 @@||adswizz.com/adswizz/js/SynchroClient2.js?$domain=105.net|r101.it|radiomontecarlo.net|virginradio.it
