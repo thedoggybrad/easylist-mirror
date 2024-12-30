@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WeC0Ns1l7A06PFU63coOkA
-! Version: 202412300521
+! Checksum: rBTZul3fs2XPP2JUQTdsag
+! Version: 202412300531
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Dec 2024 05:21 UTC
+! Last modified: 30 Dec 2024 05:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18234,6 +18234,7 @@ moskva.fm,piter.fm##div[class*="-branding-"] > a[target="_blank"]
 allhen.online,doramatv.live,doramatv.one,doramatv.ru,findanime.ru,grouple.co,librebook.me,mintmanga.one,mose.su,readmanga.io,selflib.me,selfmanga.live,usagi.one##div[class*="-brnd"]
 kinoafisha.info##div[class*="-fix "][class$="as-desktop"]
 sibnet.ru##div[class*="2023"][class*="root"]
+klerk.ru##div[class*="250px"][class*="print:hidden"]
 mmo13.ru##div[class*="300x600"]
 gazetametro.ru##div[class*="AdBox"]
 rg.ru##div[class*="Adfox"]
@@ -20442,7 +20443,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||auto.ria.com/images/branding/banner/
 ||auto.ru/wwwboards/img/banner_
 ||auto62rus.ru/img/Mnogo3D.
-||autofill.yandex.ru^$domain=fishki.net|myshows.me|pikabu.ru|sport-express.ru
+||autofill.yandex.ru^$domain=fishki.net|klerk.ru|myshows.me|pikabu.ru|sport-express.ru
 ||autogener.ru/img/abp/
 ||autoinfo24.ru/upload/images/banner
 ||autolada.ru/images/banner/
@@ -24809,6 +24810,7 @@ orybe.com##div[id^="lbx_"]
 yagd-torr.ru##div[id^="plusplus_mw"]
 agrarii-razom.com.ua##div[id^="user-to-register"]
 htmlacademy.ru##div[style^="margin-left:"][style*="margin-bottom:"][style*="position:"][style*="orange"][style*="z-index:"]
+drukarnia.com.ua##header ~ section[role="dialog"]
 ! --- Блокировки
 /*magnific-popup.$script,stylesheet,domain=bhub.com.ua|kazus.ru
 /build/js/base-modal-*.js|$script,domain=interesno.cc|obaldenno.com|pomada.cc|prikolno.cc
