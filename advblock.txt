@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6S3F/hY0DgLrlkcfPb6geg
-! Version: 202412302141
+! Checksum: OBq1JyLDB234SW4DLfG1OA
+! Version: 202412302151
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Dec 2024 21:41 UTC
+! Last modified: 30 Dec 2024 21:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13113,6 +13113,7 @@ u24.ua##.aside-gab
 mezha.media##.aside-links
 snob.ru##.aside-p-c-a
 minfin.com.ua##.aside-wrap > .js-ad-aside.mfm-aside-block
+obozrevatel.com##.asideBanner
 chelseanews.ru##.asideContainer > aside[class="asideBox "]:first-child
 pik.net.ua##.aside__advertising
 1plus1.ua##.aside__banner-container
@@ -23747,6 +23748,7 @@ overclockers.ru##.an-line-between
 overclockers.ru#?#.container-block:-abp-has(> [class]:not(.container-block) > ins)
 overclockers.ru#?#.container-block:-abp-has(> ins:first-child)
 overclockers.ru##.hostkey
+overclockers.ru##.inline-recommend
 overclockers.ru##.main-wrap > .grid.ui > div[style="display: block;"]
 overclockers.ru##.mainlist-inline-an > :not(.tag-trend)
 overclockers.ru##.mainlist-inline-an[class*="main-articles"]
