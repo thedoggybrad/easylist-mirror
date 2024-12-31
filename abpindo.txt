@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e6dDga471IJ2O4qtWk5UWQ
-! Version: 202412311311
+! Checksum: gEJZNL9jwSI1k6RJwBUR9A
+! Version: 202412311321
 ! Title: ABPindo
-! Last modified: 31 Dec 2024 13:11 UTC
+! Last modified: 31 Dec 2024 13:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 30 Dec 2024 14:50 UTC
+! Last modified: 30 Dec 2024 22:06 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -5614,6 +5614,8 @@ leon.bet#@#[href$="/slots"]
 ##[src^="/image/bandarxl."]
 ##[title="AREASLOTS" i]
 ##[title="Bandar Togel Terpercaya" i]
+##[title="DEWA CUAN" i]
+##[title="GALA288" i]
 ##[title="Ovovegas" i]
 ##[title="Slot Gacor" i]
 ##[title="Texaspoker" i]
@@ -9138,7 +9140,6 @@ leon.bet#@#[href$="/slots"]
 ##img[href^="http://qqdingdong.com/"]
 ##img[href^="http://www.ovovegas.live/"]
 ##img[href^="https://pakarjackpot.com/"]
-##img[title="DEWA CUAN" i]
 ! *** abpindo:src/adult/adult_specific_block.txt ***
 .gif$image,domain=komikmanhwa.me
 ||128.199.175.251/looppopup.js
