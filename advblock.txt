@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r3r4hEtcVkFPRg/MDsAiRg
-! Version: 202501021501
+! Checksum: 7R+A2We6T4cfrwYH1MHzDA
+! Version: 202501021511
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Jan 2025 15:01 UTC
+! Last modified: 02 Jan 2025 15:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14840,6 +14840,7 @@ salonav.com##.main-sidebar > .mom_custom_text ~ .mom_custom_text
 vedomosti-ua.com#?#.main-sidebar > .row > div:-abp-has(.active:-abp-contains(Реклама))
 autostat.ru##.mainBannerBlockCenter
 polosedan-club.com##.mainContent > #Notices
+voennoedelo.com#?#.mainVideoWrapper:-abp-has(> script:last-child)
 au.ru##.main__appendix
 pogoda.meta.ua##.main__banner-bottom
 pik.net.ua#?#.main__business:-abp-has(> script)
@@ -16418,6 +16419,7 @@ hdstudio.org##.video_rekl
 ebongo.tv##.video_right_block
 smotrikinohit.ru##.videoconteiner ~ h4
 anime777.ru##.videoroll-banner
+gossipgirl.top##.videoroll-wrapper
 seriallife.ru##.vids
 rbc.ua##.vidverto-wrapper
 lostpix.com##.view > div[align="center"] > a
@@ -17086,6 +17088,7 @@ poker-wiki.ru##a.external[rel="nofollow"][href*="/go/?site="] > img[src$=".gif"]
 ex-fs.net##a.film-online[target="_blank"]
 ria56.ru##a.gofollow[data-track]
 rivnepost.rv.ua##a.info[href][target="_blank"]
+tsargrad.tv##a.link-social-zen
 sportsdaily.ru##a.match-mini__heading-link > .match-mini__logo
 kinobaza.net##a.red
 www.ivi.ru##a.teaserImage[target="_blank"]
@@ -18262,6 +18265,7 @@ svpressa.ru##div[class*="adfox_banner"]
 glavnoe.net,infotime.co##div[class*="ads-fixed"]
 vgr.by##div[class*="ads-placement"]
 nuz.uz##div[class*="adv-"]
+football24.ua,sport24.ua##div[class*="adv-wrapper"]
 faqusha.ru##div[class*="advban"]
 bryansktoday.ru##div[class*="advbig"]
 eda.ru,firtka.if.ua,sevastopol.su,wot-news.com##div[class*="advert"]
@@ -18376,7 +18380,7 @@ ytvideo.ru##div[class][data-aid]
 dorognoe.ru,europaplus.ru,radio7.ru,retrofm.ru##div[class][data-element*="BANNER"]
 mk.ru,prnt.sc##div[class][style*="important"]
 rlocman.ru##div[class][style="background-color:#fcfcee;padding:10px"]
-mangalib.me,ranobelib.me##div[class][style="margin-top: 20px; margin-bottom: 20px;"]
+hentailib.me,mangalib.me,ranobelib.me,slashlib.me##div[class][style="margin-top: 20px; margin-bottom: 20px;"]
 puzzleheap.ru##div[class][style^="height:"][id]:empty
 livejournal.com#?#div[class][style^="height:"][style*="background-color: black; position: relative;"]:-abp-has([src*="docking"][src*="eaglecdn"])
 news.pn##div[class][style^="width:"][style$="300px;"]
@@ -18416,7 +18420,6 @@ amoledo.com##div[class^="adsbanner"]
 inforesist.org##div[class^="adslot"]
 fc-zenit.ru#?#div[class^="adv-"]:-abp-has(> div[id^="adfox_"])
 lb.ua##div[class^="adv-banner"]
-sport24.ua##div[class^="adv-wrapper"]
 kasparov.ru##div[class^="advCell"]
 kommersant.ru##div[class^="adv_"]
 allsportlinks.com##div[class^="adver_"]
@@ -19047,6 +19050,7 @@ joker.ykt.ru#?#div[style="margin-left:21px;"]:-abp-has(.opros:-abp-contains(Ре
 gazetavv.com##div[style="margin-top:5px;height:90px;"]
 gamebomb.ru##div[style="margin: 10px auto; width: 970px; height: 250px"]
 intv.com##div[style="margin: 10px; text-align: center;"]
+voennoedelo.com##div[style="margin: 20px auto; height: 300px; width: 910px;"]
 holm.ru##div[style="max-height:250px"]
 gagadget.com##div[style="min-height: 249px;"]
 meteopost.com##div[style="min-height: 300px;"]
@@ -23157,7 +23161,7 @@ rg.ru##div[id][class*="__"]:empty
 sdamgia.ru##div[id^="yandex_vario"]
 liveinternet.ru##div[style*="!important; "]
 sdamgia.ru##div[style*="important;"][style*="width:"][style*="height:"] *
-howdyho.net,howdyho.pro##html[lang="ru"] :not(my-obnaruzhili-adblock)
+howdyho.net,howdyho.pro##html[lang="ru"] :not(my-obnaruzhili-adbl)
 www.drive2.ru##iframe[style="display: block; border-width: 0px;"]
 www.drive2.ru##iframe[style="opacity: 1;"]
 liveinternet.ru##style + div > div > div > div > div a
