@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QWmhLV6b4b5Qu+lB58IrDQ
-! Version: 202501021521
+! Checksum: U0EWogzeUh4xaM/3tclLlQ
+! Version: 202501021531
 ! Title: Liste FR
-! Last modified: 02 Jan 2025 15:21 UTC
+! Last modified: 02 Jan 2025 15:31 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -8554,6 +8554,8 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||azureedge.net/img/*habillage$third-party
 ||azurewebsites.net/widget/
 ||b-cdn.net/uploads/banners_model/
+||b.clc2l.com^
+||b.clictoload.com^
 ||b.photobucket.com^
 ||ba.commentcamarche.net^
 ||ba.copainsdavant.com^
@@ -16819,6 +16821,9 @@ leboncoin.fr#?#.undefined:-abp-contains(Sponsorisé)
 leboncoin.fr#?#a[data-test-id]:-abp-has([class]:-abp-contains(/À la une|Sponsorisé|Urgent/))
 leseclaireuses.com#?#.article.small:-abp-has(a[href*=".smartadserver.com"])
 leseclaireuses.com#?#.gslide:-abp-has(a[href^="https://bit.ly/"])
+lesnumeriques.com#?#.l-section:has(.tops__items)
+lesnumeriques.com#?#.l-section:has(a[href*="/contenus-partenaires"])
+lesnumeriques.com#?#.m-grid__item:has(.c-icon--star)
 lessentiel.lu#?#aside:-abp-has(div + span:-abp-contains(Publicité))
 libhunt.com#?#.boxed:-abp-has(.tag:-abp-contains(Sponsored))
 libhunt.com#?#.repo-component:-abp-has(label:-abp-contains(sponsored))
