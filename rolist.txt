@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: L2i9Diz2X0M/DaQFgvJGFQ
-! Version: 202501040951
+! Checksum: kavNJuY+h2V1w3/666qBkA
+! Version: 202501041000
 ! Title: ROList
-! Last modified: 04 Jan 2025 09:51 UTC
+! Last modified: 04 Jan 2025 10:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://www.zoso.ro/rolist/
 !
@@ -13,7 +13,7 @@
 ! A complementary list, with more strict items, is here https://zoso.ro/pages/rolist2.txt
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Email: mail@zoso.ro
-! Last modified: 17 DEC 2024 16:00 UTC
+! Last modified: 04 IAN 2025 10:00 UTC
 !hosts
 ||01.creativecdn.com^
 ||2mdn.net^
@@ -324,6 +324,8 @@ ro#@#DIV[id="onetrust-consent-sdk"]
 ||storage0.dms.mpinteractiv.ro/media/1/1481/21346/20955911/50/bm-admirati-2024-300x250.jpg$image
 ||storage0.dms.mpinteractiv.ro/media/1/1481/21346/20955911/55/zf-gen-300x250.jpg$image
 ||storage0.dms.mpinteractiv.ro/media/1/1481/21346/20955911/59/sidebar-bm-20-ani.jpg$image
+||presasm.ro/wp-content/uploads/2022/02/shopping-satu-mare.gif$image
+||presasm.ro/wp-content/uploads/2024/02/makra.jpg$image
 !div rules
 ##a[href^="https://www.welthaus.ro/"][target="_blank"]
 ##div[id^="mg-bottom-20.strawberry-ad-card"]
@@ -532,3 +534,5 @@ wall-street.ro##DIV#qra_popup_wrapper *
 zf.ro###bula-ultima-ora
 zf.ro##.jw-reset.jw-wrapper
 ziaruldebacau.ro##body > .afiseaza-desktop
+presasm.ro##.ttpAds
+presasm.ro##.header-banner
