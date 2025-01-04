@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: s4oUWexEwUw+7TSRoedaxA
-! Version: 202501041931
+! Checksum: 1h4oCvraU840ih1x/FdOOw
+! Version: 202501041941
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 04 Jan 2025 19:31 UTC
+! Last modified: 04 Jan 2025 19:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -6184,7 +6184,7 @@ feber.se##.maxetise
 nytid.no,tipsbladet.no#@#div.td-a-rec img
 ||addrevenue.io/t?*t=Impression$third-party
 ! Description: Finnish adblock list
-! Last modified: Tue, 24 Dec 2024 20:13:48 +0000
+! Last modified: Sun, 29 Dec 2024 12:52:19 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -6289,7 +6289,6 @@ _mainosnappi.
 ##div[class=AgAdCarousel_Container]
 ##div[class=AgAdCarousel_LightBox]
 ##div[id^=ads-content-bottom]
-~nettimokki.com##div[id*=AdContainer]
 ! -----GENERAL FILTERS END-----
 ! -----SPECIFIC FILTERS-----
 2pos.life##.ad2
@@ -7184,7 +7183,7 @@ talouselama.fi##div[width]:has(.lazyload-wrapper)
 talouselama.fi#?#li:has-text(MAINOS)
 taloustaito.fi##.bannerarea
 talviopas.fi,turisti-info.fi##.sidebar-banners
-tanssiin.fi##a[href="https://sinitaivas.com/kauppa/"]
+tanssiin.fi###wonderplugincarousel-container-1
 teatteritanssi.fi##.siteHeader-widgetArea
 teatteritanssi.fi##.widget [href^="https://www.autodoc.fi/"]
 teatteritanssi.fi##.widget [href^="https://www.topautoosat.fi/"]
