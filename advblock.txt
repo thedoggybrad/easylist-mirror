@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /7vjQvN8R2XZlOID5nOLMw
-! Version: 202501051101
+! Checksum: PXUGAQvIc+inuntE17QUXw
+! Version: 202501051111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Jan 2025 11:01 UTC
+! Last modified: 05 Jan 2025 11:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23069,7 +23069,6 @@ igdz1.ru^$script,domain=igdz.ru
 !
 ! Rewrite rules
 !#if ext_abp
-||hdrip.info/play/content/ad/*.mp4$rewrite=abp-resource:blank-mp4,domain=hdrip.info
 ||s-cdn.org/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||s-club.tv/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||ts.kg/olol*.mp4$rewrite=abp-resource:blank-mp4,domain=ts.kg
@@ -23172,7 +23171,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-apad2.top,besplatnyeprogrammy.ru,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-game.ru,rutor-gamer.info,torent-igruha.com,torrent-music.ru,torrent-soft.pro,torrentigo.net,torrentigruha.org,where-game.ru##:not(this-site-promotes-malware)
+apad2.top,besplatnyeprogrammy.ru,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-game.ru,rutor-gamer.info,torent-igruha.com,torrent-music.ru,torrent-soft.pro,torrentigo.net,torrentigruha.org,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru
