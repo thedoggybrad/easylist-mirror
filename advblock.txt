@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZH1paojYmoE5YhiiN+h8NA
-! Version: 202501061431
+! Checksum: GMCf8OHMXe9UMJjLZtDqtQ
+! Version: 202501061441
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Jan 2025 14:31 UTC
+! Last modified: 06 Jan 2025 14:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4116,6 +4116,7 @@ _tizers.
 ||ads-provider.com^$third-party
 ||ads-upload.gazprom-media.net^$third-party
 ||ads.digitalcaramel.com^$third-party
+||ads.vk.com/|$xmlhttprequest,domain=~ads.vk.com
 ||ads2.bid^$third-party
 ||adsclick.ru^$third-party
 ||adselector.ru^$third-party
@@ -20545,7 +20546,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||big.az/banner/$image
 ||bigbangtv.ru/bbt.js
 ||bigcinema.tv/uploads/partner/
-||bigkiev.com.ua/ad/
 ||bigkyiv.com.ua/wp-content/plugins/firebox/media/public/js/firebox.js
 ||bikepost.ru/plugins/banneroid/
 ||binmovie.org/banners/
