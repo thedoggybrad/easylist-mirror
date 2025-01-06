@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iWE6DY/nDRp4pb7aMZ/SzA
-! Version: 202501061421
+! Checksum: ZH1paojYmoE5YhiiN+h8NA
+! Version: 202501061431
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Jan 2025 14:21 UTC
+! Last modified: 06 Jan 2025 14:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14170,7 +14170,6 @@ bigness.ru##.fark
 prostatitanet.com##.fasc-button
 vgtimes.ru##.fatad
 ficbook.net##.fb-ads-block
-bigkyiv.com.ua##.fb-inst
 versii.if.ua##.fb-s-blog-two-top a[href]:not([href^="/"]):not([href^="https://versii.if.ua"])
 villaved.ru##.fbln
 hi-fi.ru##.feature__ad-block
@@ -16029,7 +16028,7 @@ move.ru##.specs-column
 move.ru##.specs-near
 xxx-russian.ru##.speedbar ~ .rad5
 www.obozrevatel.com#?#.splide__list > .splide__slide:-abp-has(> article > .banner)
-alexua.tv,anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtovzglyad.ru,filmozavr.com,filmozavr.net,forexsystemsru.com,medkrug.ru,must-see.top##.sponsor
+alexua.tv,anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtovzglyad.ru,fco.com.ua,filmozavr.com,filmozavr.net,forexsystemsru.com,medkrug.ru,must-see.top##.sponsor
 radioshanson.fm##.sponsor a[href][target="_blank"]
 yougame.biz##.sponsor-banners
 taker.im##.sponsor-thread
@@ -20547,6 +20546,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||bigbangtv.ru/bbt.js
 ||bigcinema.tv/uploads/partner/
 ||bigkiev.com.ua/ad/
+||bigkyiv.com.ua/wp-content/plugins/firebox/media/public/js/firebox.js
 ||bikepost.ru/plugins/banneroid/
 ||binmovie.org/banners/
 ||biofile.ru/css/*.jpg
@@ -24207,7 +24207,6 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.i-bem.tv-grid__item-adv
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.i-bem.tv-sortable-item.tv-sortable-item_sortable_no
 ya.ru##.i-mini-bem[class*="banner"]
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.layout__banner
-market.yandex.by,market.yandex.kz,market.yandex.ru##.layout_type_search.headline__footer
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.main__distr-popup
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.masonry .incut_banner
 yandex.ru##.org.i-bem.org_js_inited > div[style^="border-bottom"]
@@ -24231,6 +24230,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##a[href*="//ads.adfox.ru/"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .feed ._need-stub
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
+market.yandex.ru,market.yandex.*##.layout_type_search.headline__footer
 |https://dzen.ru/*/*/*/$subdocument,domain=dzen.ru
 ||awaps.yandex.
 ||bs-meta.yandex.$script,xmlhttprequest
@@ -24250,32 +24250,33 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 ||yastatic.net/*/rsya-tag-users/
 ||yastatic.net/daas/
 ! Прочее
-rasp.yandex.by,rasp.yandex.kz,rasp.yandex.ru,rasp.yandex.uz##.Direct
-rasp.yandex.by,rasp.yandex.kz,rasp.yandex.ru,rasp.yandex.uz#?#.SearchSegments__row:-abp-has([class*="banner"])
-rasp.yandex.by,rasp.yandex.kz,rasp.yandex.ru,rasp.yandex.uz#?#.SearchSegments__row:-abp-has([id*="banner"])
-rasp.yandex.by,rasp.yandex.kz,rasp.yandex.ru,rasp.yandex.uz##.ThreadLayout__topDirect
-uslugi.yandex.ru##.WebBanner
-turbopages.org##.advert
-disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##.awaps__banner
-yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-direct
-docviewer.yandex.by,docviewer.yandex.kz,docviewer.yandex.ru,docviewer.yandex.uz##.js-doc-html > div[class^="pages_"] > div[class]:empty
-mail.yandex.by,mail.yandex.com,mail.yandex.kz,mail.yandex.ru,mail.yandex.uz#?#.js-scroller-right:-abp-has(> div:only-child)
-yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.page__result .typo:-abp-contains(/^новости партн/i)
-translate.yandex.by,translate.yandex.kz,translate.yandex.ru,translate.yandex.uz##.sidebar-direct
-disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##.software-header-promo
-docviewer.yandex.by,docviewer.yandex.kz,docviewer.yandex.ru,docviewer.yandex.uz##.with-bottom-direct > div[class] > div[class]:empty
-mail.yandex.by,mail.yandex.com,mail.yandex.kz,mail.yandex.ru,mail.yandex.uz#?#[data-key="box=left-box"]:-abp-has(> [data-key="view=react-left-column"] + div:empty) a[href*="/premium-"]
-disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##a[href][style*="storage.mds.yandex.net/get-bstor/"]
+disk.yandex.ru,disk.yandex.*##.awaps__banner
+disk.yandex.ru,disk.yandex.*##.software-header-promo
+disk.yandex.ru,disk.yandex.*##.top-direct-line
+disk.yandex.ru,disk.yandex.*##a[href][style*="storage.mds.yandex.net/get-bstor/"]
+disk.yandex.ru,disk.yandex.*##div[class^="direct"]:not([class^="directory-content"])
+docviewer.yandex.ru,docviewer.yandex.*##.js-doc-html > div[class^="pages_"] > div[class]:empty
+docviewer.yandex.ru,docviewer.yandex.*##.with-bottom-direct > div[class] > div[class]:empty
+mail.yandex.ru,mail.yandex.*##div[class*="DirectLine"]
+mail.yandex.ru,mail.yandex.*#?#.js-scroller-right:-abp-has(> div:only-child)
+mail.yandex.ru,mail.yandex.*#?#[data-key="box=left-box"]:-abp-has(> [data-key="view=react-left-column"] + div:empty) a[href*="/premium-"]
+rasp.yandex.ru,rasp.yandex.*##.Direct
+rasp.yandex.ru,rasp.yandex.*##.ThreadLayout__topDirect
+rasp.yandex.ru,rasp.yandex.*#?#.SearchSegments__row:-abp-has([class*="banner"])
+rasp.yandex.ru,rasp.yandex.*#?#.SearchSegments__row:-abp-has([id*="banner"])
+translate.yandex.ru,translate.yandex.*##.sidebar-direct
 travel.yandex.ru##div.root[id]:empty
-mail.yandex.by,mail.yandex.com,mail.yandex.kz,mail.yandex.ru,mail.yandex.uz##div[class*="DirectLine"]
+turbopages.org##.advert
+uslugi.yandex.ru##.WebBanner
+yandex.by,yandex.kz,yandex.ru,yandex.uz##.b-direct
 yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class^="b-spec-adv"]
-disk.yandex.by,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz##div[class^="direct"]:not([class^="directory-content"])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##div[data-block="banner-view"]
+yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.page__result .typo:-abp-contains(/^новости партн/i)
 yandex.by,yandex.kz,yandex.ru,yandex.uz#?#html[class*=" Theme_color_news-"] div[class*="_type_native"] [class*="_type_card"]:-abp-has(> div > div:empty)
 yandex.ru##ymaps > div[class^="search-placemark-layout-connect_advert"]
 yandex.ru##ymaps > div[class^="search-placemark-layout-connect_special"]
 ! Яндекс.Афиша
-afisha.yandex.by,afisha.yandex.kz,afisha.yandex.ru,afisha.yandex.uz##.afisha-profit-banner
+afisha.yandex.ru,afisha.yandex.*##.afisha-profit-banner
 ! Яндекс.Видео
 ya.ru##.DirectStripe
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.VideoViewer .Viewer-ScrollContainer > div[class]:first-child > div[id][class]:first-child:empty + div
@@ -24289,9 +24290,9 @@ yandex.ru##div[id^="R-I-"]
 yandex.ru##.stack > .aab-adv
 yandex.ru##.stack > .promo
 ! Яндекс.Музыка
-music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##.bar__driver-container
-radio.yandex.by,radio.yandex.kz,radio.yandex.ru,radio.yandex.uz##.slider > .slider__item_advert
-music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##[class^="audio-advert"]
+music.yandex.ru,music.yandex.*##.bar__driver-container
+music.yandex.ru,music.yandex.*##[class^="audio-advert"]
+radio.yandex.ru,radio.yandex.*##.slider > .slider__item_advert
 ! Яндекс.Недвижимость
 realty.ya.ru##.FSGalleryLayout > .GalleryGuadeloupe
 realty.ya.ru##.OffersSearchPage__adCut
@@ -24312,9 +24313,9 @@ yandex.ru##div[id][data-log-node] > div:empty ~ i > [class] > .loader__text
 yandex.by,yandex.kz,yandex.ru,yandex.uz#?#.forecast-details > .card:-abp-has(> [class*="adv"])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.weather-maps__ad
 ! Яндекс.Телепрограмма
-tv.yandex.by,tv.yandex.kz,tv.yandex.ru,tv.yandex.uz##.branding
-tv.yandex.by,tv.yandex.kz,tv.yandex.ru,tv.yandex.uz##div[class*="adv-manager"]
-tv.yandex.by,tv.yandex.kz,tv.yandex.ru,tv.yandex.uz##script[nonce] + script[nonce] + div[class]
+tv.yandex.ru,tv.yandex.*##.branding
+tv.yandex.ru,tv.yandex.*##div[class*="adv-manager"]
+tv.yandex.ru,tv.yandex.*##script[nonce] + script[nonce] + div[class]
 !
 ! Дзен Yandex-edition
 dzen.ru###top-banner
@@ -25132,7 +25133,6 @@ vdvanapa.ru#@#.ad-img
 stomsuper.com,waifucards.app#@#.ad-item
 mishka-knizhka.ru#@#.ad-placeholder
 mishka-knizhka.ru#@#.ad-tag
-bigkyiv.com.ua,roshlam.ru#@#.ad-text
 auto.am#@#.ad-title
 ads.tuver.ru#@#.ad-type
 alliance-catalog.ru#@#.adContent
@@ -25150,7 +25150,6 @@ kvartirant.by#@#.adinfo
 insignia-mebel.ru#@#.ads-bg
 kvartirant.by#@#.ads-box
 surl.li#@#.ads-card
-roshlam.ru#@#.ads-content
 insignia-mebel.ru#@#.ads-footer
 reklama-sev.com.ua#@#.ads-holder
 bamper.by#@#.ads-image
@@ -25179,7 +25178,7 @@ ideipovara.ru,metagames.ru#@#.adv_top
 peleo.ru#@#.advert-block
 maklera.org,svitkvartyr.com#@#.advert-card
 jamesedition.ru#@#.advert2
-am.ru,bestru.ru,roshlam.ru#@#.adverts
+am.ru,bestru.ru#@#.adverts
 abdulinko.ru#@#.advt
 slavyansk.biz#@#.advtext
 komus.ru#@#.b-adv
@@ -25667,7 +25666,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||reklamavarteme.ru^*/reklama/$domain=reklamavarteme.ru
 @@||renault.ru/_beta/banner_system/banner.php$domain=renault.ru
 @@||rock-online.ru/thema/rock/images/baner_$~third-party
-@@||roshlam.ru/adverts/$xmlhttprequest,domain=roshlam.ru
 @@||rostcars.ru/css/advertisement.css$~third-party
 @@||rostov-vershina.ru/assets/cache_image/resources/$image,domain=rostov-vershina.ru
 @@||rotapost.ru/*advertisers/$script,stylesheet,xmlhttprequest,domain=rotapost.ru
