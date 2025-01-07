@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FA7oEGC5bF3RqTDNY8oTcQ
-! Version: 202501072031
+! Checksum: 1wA9Ij9T4qZc5MDWN7ctng
+! Version: 202501072041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Jan 2025 20:31 UTC
+! Last modified: 07 Jan 2025 20:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12964,7 +12964,7 @@ gurutestov.ru##.adv_collumn > p:not([style])
 aif.ru##.adv_content
 govp.info##.adv_header
 serialochka.ru##.adv_holder
-kommersant.ru##.adv_nest
+autopilot.ru,kommersant.ru##.adv_nest
 btrans.by##.adv_test
 mobportal.net##.adv_video
 bookre.org##.adva2
@@ -18427,7 +18427,7 @@ inforesist.org##div[class^="adslot"]
 fc-zenit.ru#?#div[class^="adv-"]:-abp-has(> div[id^="adfox_"])
 lb.ua##div[class^="adv-banner"]
 kasparov.ru##div[class^="advCell"]
-kommersant.ru##div[class^="adv_"]
+autopilot.ru,kommersant.ru##div[class^="adv_"]
 allsportlinks.com##div[class^="adver_"]
 skolkovarim.com##div[class^="adverser"]
 boxrec.com,iphones.ru,lovitut.ru,pc.ru##div[class^="advert"]
@@ -24235,6 +24235,7 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##body[class*="b-page_alt-widgets_yes"] .
 yandex.ru##div[class$="ear_js_inited"] > a[href^="//awaps.yandex.ru"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##img[src*="yandex.net/get-direct"]
 market.yandex.ru,market.yandex.*##.layout_type_search.headline__footer
+ya.ru,yandex.*##.main-home-banner
 |https://dzen.ru/*/*/*/$subdocument,domain=dzen.ru
 ||awaps.yandex.
 ||bs-meta.yandex.$script,xmlhttprequest
