@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LRXw56qP8uQ6Q5arpbV68A
-! Version: 202501092231
+! Checksum: DVDAyFlsG9IWxLfY5CYgdQ
+! Version: 202501092241
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Jan 2025 22:31 UTC
+! Last modified: 09 Jan 2025 22:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -64833,7 +64833,6 @@ whattomine.com##.centered-image-short
 spiceworks.com##.centerthe1
 ceo.ca##.ceoBanner
 digminecraft.com##.cf47a252
-provigo.ca##.chakra-container
 top.gg##.chakra-stack.css-15xujv4
 tlgrm.eu##.channel-card--promoted
 thefastmode.com##.channel_long
@@ -69059,6 +69058,7 @@ zillow.com##li[class^="ListItem-"]:has(#nav-ad-container)
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 globalchinaev.com##p.content-center:has-text(ADVERTISEMENT)
 sciencenews.org##p:has-text(Sponsor Message)
+provigo.ca#?#.css-1nhzth8:-abp-contains(/sponsorisé|sponsored/)
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
