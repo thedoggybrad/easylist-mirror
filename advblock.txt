@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CNWTSMBh6VVtQ2SlbaiKmA
-! Version: 202501101421
+! Checksum: OslQB8M0Fg+zz83Nju4+QQ
+! Version: 202501101431
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jan 2025 14:21 UTC
+! Last modified: 10 Jan 2025 14:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -8160,6 +8160,7 @@ _tizers.
 ||ochanki.ru^$third-party
 ||ochze.com^$third-party
 ||octclck.xyz^$third-party
+||octo25.me^$third-party
 ||octobird.com^$third-party
 ||octoclick.net^$third-party
 ||octomarket.com^
@@ -12941,7 +12942,7 @@ englishsub.ru,lenglish.ru##.adsense_blok
 mp3lemon.net##.adsh_ads4
 vise.im##.adsplaser_pro_abtest
 ok-pressa.ru##.adstitles
-androidkino.net,btrans.by,crimea-news.com,dugtor.ru,dv-gazeta.info,internet-technologies.ru,kinosimka.be,progroshi.news,proukraine.news,qna.center,reestr.rublacklist.net,resheba.top,reviewscompanies.club,vesti.uz,wotsite.net,xcadr.tv##.adv
+3iks.org,androidkino.net,btrans.by,crimea-news.com,dugtor.ru,dv-gazeta.info,internet-technologies.ru,kinosimka.be,progroshi.news,proukraine.news,qna.center,reestr.rublacklist.net,resheba.top,reviewscompanies.club,vesti.uz,wotsite.net,xcadr.tv##.adv
 regnum.news,regnum.ru##.adv-container-wrapper
 do-slez.com##.adv-heading
 backup.menu,dedicated.menu,hosting.cafe,https.menu,license.menu,shared.menu,vds.menu##.adv-hidden-xs
@@ -13799,6 +13800,8 @@ yamart.ru##.catalogElAd
 tabletki.ua#?#.category-card__card-row > .col:-abp-has(> div > .tabletki-adunit)
 ufanotes.ru##.category2 > .fa-exchange
 ufanotes.ru##.category2 > .fa-exchange ~ span
+3iks.org##.categoryrek
+3iks.pw##.catrek
 megaresheba.ru##.caution-message
 megaresheba.ru##.caution-message ~ *
 footballreview.ru##.center-adv
@@ -15541,7 +15544,7 @@ okaygorod.com##.rek_ban a[href]:not([href^="https://okaygorod.com/"])
 cxem.net##.rek_plashka
 tabletka.by##.rekblockr
 mipped.com##.rekblok
-lenfilm.tv,russian7.ru,sex-comics.mobi,youblogs.ru##.rekl
+3iks.pw,lenfilm.tv,russian7.ru,sex-comics.mobi,youblogs.ru##.rekl
 minecraft-mod.su##.rekl_ad
 pogoda7.ru##.rekla_down_block
 asn.in.ua##.reklam_in_text
@@ -20234,6 +20237,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||3dnews./*/ad/branding/
 ||3dtoday.ru/upload/media/*.gif
 ||3dtoday.ru/upload/medialibrary/*.png
+||3iks.org/*.js?$script
 ||3mp3.ru/banner
 ||3mp3.ru/dhtml/adv.
 ||3mv.ru/oboi
