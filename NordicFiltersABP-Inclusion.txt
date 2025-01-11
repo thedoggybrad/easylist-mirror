@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HHycuOKKOToTv4XOlKmByw
-! Version: 202501111541
+! Checksum: UirwktGJoFUBIWdcqQu0gw
+! Version: 202501111551
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Jan 2025 15:41 UTC
+! Last modified: 11 Jan 2025 15:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -68794,6 +68794,7 @@ douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
 manomano.*##a[href^="/"][href*="?product_id="]:has(svg)
+manomano.*##div[data-testid="sprbrd-banner"]
 pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-1
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-2
