@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Mr5oW/dlvXooER6/KYAvew
-! Version: 202501112321
+! Checksum: kSl0nh6VQbMM6q5aaxfB4A
+! Version: 202501112331
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Jan 2025 23:21 UTC
+! Last modified: 11 Jan 2025 23:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -13368,6 +13368,7 @@ _800x80_
 ###yahoo_text_ad
 ###yahooads
 ###yandex_ad
+###yandex_ad2
 ###yatadsky
 ###yrail_ads
 ###yreSponsoredLinks
@@ -19951,6 +19952,9 @@ _800x80_
 ##.jw-ad-visible
 ##.kakao_ad_area
 ##.keen_ad
+##.kiwi-ad-wrapper-300x250
+##.kiwi-ad-wrapper-728x90
+##.kiwi-ad-wrapper-950x80
 ##.kumpulads-post
 ##.kumpulads-side
 ##.kwizly-psb-ad
@@ -22715,9 +22719,6 @@ _800x80_
 ##display-ads
 ##div[aria-label="Ads"]
 ##div[class^="Adstyled__AdWrapper-"]
-##div[class^="Display_displayAd"]
-##div[class^="kiwi-ad-wrapper"]
-##div[class^="native-ad-"]
 ##div[data-ad-placeholder]
 ##div[data-ad-targeting]
 ##div[data-ad-wrapper]
@@ -22745,12 +22746,10 @@ _800x80_
 ##div[id^="gpt_ad_"]
 ##div[id^="lazyad-"]
 ##div[id^="optidigital-adslot"]
-##div[id^="pa_sticky_ad_box_middle_"]
 ##div[id^="rc-widget-"]
 ##div[id^="st"][style^="z-index: 999999999;"]
 ##div[id^="sticky_ad_"]
 ##div[id^="vuukle-ad-"]
-##div[id^="yandex_ad"]
 ##gpt-ad
 ##guj-ad
 ##hl-adsense
