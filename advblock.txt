@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qDNdSmrniijXr3IAXGQSIg
-! Version: 202501151031
+! Checksum: nwOfNyzIUzmCcf8YuWpzjA
+! Version: 202501151041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Jan 2025 10:31 UTC
+! Last modified: 15 Jan 2025 10:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -14788,6 +14788,7 @@ chevy-niva.ru##.logo.right
 ixbt.com##.logohonor
 sapr.ru##.lolcount
 1pnz.ru##.long-banner
+gameguru.ru##.lootguru-link[data-toggle="modal"]
 galya.ru##.lr_block > iframe
 seasonvar.ru##.lside-player
 mytor.info##.lt_bl
@@ -23119,7 +23120,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*.qb%3Ac?tllla=$xmlhttprequest
+||pikabu.ru/ajax/*?tllla=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
