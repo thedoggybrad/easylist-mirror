@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MGbRvzj7N/dZoSNwuBX96Q
-! Version: 202501161331
+! Checksum: Ju6dLPoOntB7wSRxoK17wA
+! Version: 202501161341
 ! Title: EasyList without element hiding rules
-! Last modified: 16 Jan 2025 13:31 UTC
+! Last modified: 16 Jan 2025 13:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -584,7 +584,7 @@
 /plugins/adrotate-pro/*$script
 /plugins/adrotate/*$script
 /plugins/ads/*$~xmlhttprequest
-/plugins/adsanity-$script,stylesheet
+/plugins/adsanity-$stylesheet
 /plugins/advanced-ads/*$domain=~transinfo.pl|~wordpress.org
 /plugins/ane-banners-entre-links/*$script,stylesheet
 /plugins/ane-preroll$~xmlhttprequest
@@ -826,7 +826,6 @@
 ://uads.$third-party,xmlhttprequest
 ?ab=1&zoneid=
 ?adspot_$domain=~sponichi.co.jp
-?adunitid=
 ?advertiser_id=$domain=~ads.pinterest.com
 ?bannerid=
 ?cs=*&abt=0&red=1&sm=$third-party
