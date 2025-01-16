@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rjkX5ppp8bMpCuhVPaxFYA
-! Version: 202501160051
+! Checksum: XxhPklBHN0ur8TqbD+xWXg
+! Version: 202501160101
 ! Title: EasyList without rules for adult sites
-! Last modified: 16 Jan 2025 00:51 UTC
+! Last modified: 16 Jan 2025 01:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59893,6 +59893,7 @@ evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"])
 cnx-software.com##.widget_text.widget:has([href*="?utm"])
 dotesports.com##.wp-block-gamurs-article-tile:has-text(Sponsored)
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
+mapquest.co.uk##.z-10.justify-center:has-text(Advertisement)
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
 momondo.com##[class*="mod-pres-default"]:has(div[class*="ad-badge"])
