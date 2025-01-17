@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aipiM0+XfvKlHXE8qaO9Iw
-! Version: 202501171621
+! Checksum: ybv9F7Vyr2MWhUb9CoFWJQ
+! Version: 202501171631
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 17 Jan 2025 16:21 UTC
+! Last modified: 17 Jan 2025 16:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7729,11 +7729,9 @@ srk.fi#@##CookielawBanner
 -ads-manager/$domain=~wordpress.org
 -ads/assets/$script,domain=~web-ads.org
 -assets/ads.$~script
--banner-ad_
 -banner-ads-$~script
 -contrib-ads.$~stylesheet
 -footerads.
--right-ad.
 -sponsor-ad.
 -web-advert-$image
 .adriver.$~object,domain=~adriver.co
@@ -7788,7 +7786,6 @@ srk.fi#@##CookielawBanner
 .org/ad/$domain=~ylilauta.org
 .org/ads/$~xmlhttprequest
 .org/script/compatibility.js$third-party
-.ph/ads/
 .php?ad=
 .php?adsid=
 .php?adv=
@@ -8533,12 +8530,10 @@ srk.fi#@##CookielawBanner
 _ad_250.$image
 _ad_300.$image
 _ad_bottom.
-_ad_image_
 _ad_layer_
 _ads.cgi
 _ads.cms?
 _ads.php?
-_adskin.
 _advertise-$domain=~linkedin.com
 _advertisment.$~xmlhttprequest
 _assets/ads/
@@ -8710,7 +8705,6 @@ _prebid.js$script
 /blockblock/blockblock.jquery.js$script
 /jgcabd-detect-$script
 /no-adblock/*$script,stylesheet
-_atblockdetector/
 ! *** easylist:easylist/easylist_general_block_dimensions.txt ***
 -120-600.
 -120_600_
