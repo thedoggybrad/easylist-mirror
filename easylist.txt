@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202501171413
+! Version: 202501171502
 ! Title: EasyList
-! Last modified: 17 Jan 2025 14:13 UTC
+! Last modified: 17 Jan 2025 15:02 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1146,7 +1146,6 @@ _atblockdetector/
 /468x60.$~script
 /468x60/*
 /468x60_
-/468x70-
 /468x72.
 /468x72_
 /468x80-
@@ -1168,7 +1167,7 @@ _atblockdetector/
 /600_120_
 /600_90_
 /600x75_
-/600x90.
+/600x90.$image
 /60x468.
 /640x100/*
 /640x80-
@@ -44905,6 +44904,7 @@ browsershots.org#@#.advert_area
 ||affiliategroove.com^$third-party
 ||affilimatejs.com^$third-party
 ||affilist.com^$third-party
+||affilizz.com^$third-party
 ||afishamedia.net^$third-party
 ||afp.ai^$third-party
 ||afrikad.com^$third-party
