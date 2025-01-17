@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /ivD389jTYi38xZUKAuH7w
-! Version: 202501170051
+! Checksum: EWFX3u1yV0/HJ9KMYdOWtw
+! Version: 202501170101
 ! Title: Liste FR
-! Last modified: 17 Jan 2025 00:51 UTC
+! Last modified: 17 Jan 2025 01:01 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -15451,7 +15451,6 @@ auchan.fr##.hp-banner:has(.hp-banner__message-sponsored)
 zebulon.fr##.penci-feed:has(a[href*="/sponso-"])
 fr.shopping.rakuten.com##.prd_side:has(.gtm_ads_caption)
 nocibe.fr##.product-grid-column:has(.product-tile__sponsored)
-delhaize.be#?#.product-item:-abp-contains(Sponsorisé)
 20min.ch#?#.clusterTop:-abp-has(.teaser:-abp-has(h3:-abp-contains(Paid Post)))
 2ememain.be#?#.hz-Listing--list-item:-abp-has(.hz-Listing-priority:-abp-contains(Pub au top))
 algerie-eco.com#?#.td_block_wrap:-abp-has(.block-title:-abp-contains(sponsorisés))
@@ -15476,6 +15475,7 @@ cdiscount.com#?#li:-abp-has(.prdtBlocInline:-abp-has(.c-sponsoredMentions))
 cdiscount.com#?#li[data-sku]:-abp-has(.c-sponsoredMentions)
 cnetfrance.fr#?#.riverPost:-abp-has(.tag-desktop:-abp-contains(Publicité))
 commentcamarche.com,commentcamarche.net#?#.ccm_list_catch__item:-abp-contains(Annonces)
+delhaize.be#?#.product-item:-abp-contains(Sponsorisé)
 discordbots.org,top.gg#?#.bot-card:-abp-has(.lib:-abp-contains(Promoted))
 discordbots.org,top.gg#?#.bot-card:-abp-has(.lib:-abp-has(img))
 distrowatch.com#?#.News1:-abp-has(td:-abp-contains(Sponsored))
