@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bfxEBoKYkllimI/mL1x6RQ
-! Version: 202501171401
+! Checksum: fYq0LJlnUW6PVe1M560UUg
+! Version: 202501171411
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 17 Jan 2025 14:01 UTC
+! Last modified: 17 Jan 2025 14:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1216,6 +1216,11 @@ euroinvestor.dk##div[class^=dre-][class*="-empty "]:has(div[id^=banner i],div[id
 euroinvestor.dk##.banner-mb-20
 kino.dk##div[class^=ads-topscroll]
 kino.dk##div.section:has([class$=block--advertisement])
+bydrammen.no##.by-slider
+bydrammen.no##.elementor-widget-ucaddon_portfolio_carousel
+eavisa.com##.td_block_wrap:has(.td-fix-index > p[style="text-align: center;"])
+eavisa.com##.vc_inner:has(.tdm-btn-md-used)
+eavisa.com##.td_block_text_with_title:has(+.vc_inner .tdm-btn-md-used))
 ! — — — — — — — — —
 ! 🇳🇴: Oppføringer for minst 3 nettsteder
 ! 🇬🇧: Entries for at least 3 websites
@@ -7716,12 +7721,10 @@ srk.fi#@##CookielawBanner
 !
 !-----------------------General advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_general_block.txt ***
--ad-458x80.
 -ad-manager/$~stylesheet
--ad-sidebar.
+-ad-sidebar.$image
 -ad-util.
 -ad.jpg.pagespeed.$image
--ads-banner.
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
 -ads/assets/$script,domain=~web-ads.org
@@ -7731,11 +7734,9 @@ srk.fi#@##CookielawBanner
 -contrib-ads.$~stylesheet
 -footerads.
 -PcmModule-Taboola-
--popexit.
 -right-ad.
 -sponsor-ad.
 -web-advert-$image
--Web-Advert.
 .adriver.$~object,domain=~adriver.co
 .ads-lazy.
 .ads.controller.
@@ -7749,10 +7750,8 @@ srk.fi#@##CookielawBanner
 .ca/ads/$~xmlhttprequest
 .cfm?ad=
 .cgi?ad=
-.ch/adv/
 .click/cuid/?$third-party
 .click/rf/$third-party
-.clkads.
 .club/js/popunder.js$script
 .cn/sc/*?n=$script,third-party
 .com/*=bT1zdXY1JnI9
@@ -7779,7 +7778,7 @@ srk.fi#@##CookielawBanner
 .com/watch.*.js?key=
 .cz/adv/
 .cz/affil/$image
-.cz/bannery/
+.cz/bannery/$image
 .fuse-cloud.com/$~xmlhttprequest
 .html?clicktag=
 .info/tsv
@@ -7788,7 +7787,6 @@ srk.fi#@##CookielawBanner
 .lol/sw.js$third-party
 .net/ad2/$~xmlhttprequest
 .net/ads?
-.nu/ads/
 .org/ad/$domain=~ylilauta.org
 .org/ads/$~xmlhttprequest
 .org/script/compatibility.js$third-party
@@ -8540,18 +8538,13 @@ _ad_bottom.
 _ad_header.
 _ad_image_
 _ad_layer_
-_ad_right.
-_ad_side.
-_adchoice.
 _ads.cgi
 _ads.cms?
 _ads.php?
 _adskin.
 _advertise-$domain=~linkedin.com
-_advertise.
 _advertisment.$~xmlhttprequest
 _assets/ads/
-_asyncspc.
 _bottom_ads_
 _footer_ad_
 _headerad.
@@ -8669,7 +8662,6 @@ _top_ad.
 /tardisrocinante/surgeonv2.js$script
 /tardisrocinante/vitals.js$script
 ! prebid scripts
--dfp-prebid-
 .prebid-bundle.js$script
 .prebid.$domain=~prebid.org
 /ad/postbid_handler1.$script
