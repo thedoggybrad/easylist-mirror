@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LvJvAtTeI3m24Rqc++PLNA
-! Version: 202501180441
+! Checksum: L849eKqGBiug581+tXGiAQ
+! Version: 202501180431
 ! Title: EasyList without element hiding rules
-! Last modified: 18 Jan 2025 04:41 UTC
+! Last modified: 18 Jan 2025 04:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -23,7 +23,8 @@
 -assets/ads.$~script
 -banner-ads-$~script
 -contrib-ads.$~stylesheet
--sponsor-ad.$image
+-footerads.
+-sponsor-ad.
 -web-advert-$image
 .adriver.$~object,domain=~adriver.co
 .ads.controller.
@@ -835,6 +836,7 @@ _pushads.
 _rectangle_ads.
 _reklama_$domain=~youtube.com
 _sidebar_ad_
+_top_ad.
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
