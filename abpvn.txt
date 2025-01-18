@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w9vyht8G9D3r0KUV66f2vQ
-! Version: 202501180221
+! Checksum: nzci5KE/C39PsrNRDAgtKQ
+! Version: 202501180231
 ! Title: ABPVN List
-! Last modified: 18 Jan 2025 02:21 UTC
+! Last modified: 18 Jan 2025 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 17 Jan 2025 23:03:22 UTC+7
-! Diff-Path: patches/20250117230322322.patch#abpvn
+! Last modified: 18 Jan 2025 09:21:05 UTC+7
+! Diff-Path: patches/20250118092105572.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -106,6 +106,7 @@ $popup,domain=truyenfull.bio
 ||bp.blogspot.com/*banner$image,domain=~aowvn.org|~www.umu.pro.vn
 ||cdn-data.gtvplus.vn/banners/$image,domain=gametv.vn
 ||cdn.lfastcdn.com^*.gif$image,domain=bongdainfox.tv|xoilaczz63.live|90phutzv.cc|eastloshigh.com|cakhiai.cc|mitomvh.cc|90phutvs.cc
+||cdn.monkeydarchive.com/images/banner/$image
 ||cdn.thichxemphim1.net/wp-content/themes/halimmovies-child/jscm.min.js$domain=thichxemphim1.net
 ||cdn.webhoctienganh.com/asset/home/img/banner/$image,domain=webhoctienganh.com
 ||cdn2-img.net^*.gif$image,domain=hhpanda.live|dongchill.dev|biphim.vote|motchill.ec|subnhanh.video|subnhanhvl.live|bichill.vote|dongphim.ee
@@ -692,6 +693,8 @@ mitomvh.cc##.btn-od
 mn.mediastation.live##.btn-bottom-right-append-player
 mn.mediastation.live##.images-bnr-bellow-append-custom
 mn.mediastation.live##.images-top-pl
+monkeyd.com.vn###affLayer
+monkeyd.com.vn##.justify-content-center.d-flex.mx-3.mx-lg-4.mt-3 > [href]
 motchill10.com##.ads-embed
 motphimww.net,tvphim.nl##.module_single_ads
 mphim14.org##.adv_phim
