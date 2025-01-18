@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YBw7nFYrsBRc4/M+S/tY3Q
-! Version: 202501181411
+! Checksum: 8QQH+qujhkGHRIjzg9nspg
+! Version: 202501181421
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 18 Jan 2025 14:11 UTC
+! Last modified: 18 Jan 2025 14:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -69885,7 +69885,7 @@ walmart.ca,walmart.com#?#div > div[io-id]:-abp-contains(Sponsored)
 bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^(Amazon|Best Buy|Booking\.com|eBay|eDreams|Lenovo US|Trip\.com|Tripadvisor|Walmart)$/))
 ! top-level domain wildcard
 walmart.*#?#div > div[io-id]:-abp-contains(Sponsored)
-! aglint-disable-next-line
+! ABP CSS injection filters
 euronews.com###o-site-hr__leaderboard-wallpaper.u-show-for-xlarge {remove:true;}
 ! *** easylist:easylist_adult/adult_specific_hide.txt ***
 virtuagirlgirls.com###DynamicBackgroundWrapper
