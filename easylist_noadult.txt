@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: C1P6UA/ZZlEKURLv6oXR/A
-! Version: 202502010401
+! Checksum: TpxoDqmj85UMCywy72aN8A
+! Version: 202502010411
 ! Title: EasyList without rules for adult sites
-! Last modified: 01 Feb 2025 04:01 UTC
+! Last modified: 01 Feb 2025 04:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8774,7 +8774,6 @@ _800x80_
 ##.ads_center
 ##.ads_code
 ##.ads_column
-##.ads_container
 ##.ads_container_top
 ##.ads_content
 ##.ads_css
@@ -14915,6 +14914,7 @@ _800x80_
 ##.ad-area:not(.text-ad)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ad-slot:not(.adsbox):not(.adsbygoogle)
+##.ads_container:not(.text-ad)
 ##.sidebar-ad:not(.adsbygoogle)
 ! https://musicalartifacts.com/ https://ww25.spinningrats.online/
 ! Parked domains
