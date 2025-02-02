@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3731GBdTG8cOXhIajzAjzQ
-! Version: 202502022051
+! Checksum: jcnWliYFjCUA0fnrPK0FyQ
+! Version: 202502022101
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Feb 2025 20:51 UTC
+! Last modified: 02 Feb 2025 21:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13772,6 +13772,7 @@ online.zakon.kz##.buy-sidebar
 kinobanda.net##.buyframe
 carsweek.ru##.bx-composite-btn
 electroandi.ru##.bybit
+tsn.ua##.c-aside__port
 drive2.com,drive2.ru#?#.c-block:-abp-has(> .c-dv-sns)
 drive2.com,drive2.ru#?#.c-block:-abp-has(> [id^="adfox_"])
 vsplanet.net##.c-center > .cols ~ *
@@ -13782,7 +13783,6 @@ dsnews.ua#?#.c-feed__list-item:-abp-has(> .c-feed__item > .c-r)
 vsplanet.net##.c-left > .block ~ *
 telegraf.com.ua#?#.c-post__content > div:-abp-has(> [id^="_vidverto-"])
 dsnews.ua,focus.ua##.c-r
-tsn.ua#?#.c-section > .l-row > .l-col:-abp-has(> [data-ad-container])
 5-tv.ru##.cFadeDark
 tomat-pomidor.com##.cPost + script + center
 sravni.ru##.calculator-branded-button
@@ -14708,6 +14708,7 @@ old.kurs.com.ru##.kursInformer #ref
 xn--80ady2a0c.xn--p1ai##.l-a-fly
 hwp.ru##.l-article-wrapper > center > a[target="_blank"] > img[border="0"]
 66.ru##.l-branding-top
+tsn.ua#?#.l-col.l-col--xs.l-gap:-abp-has(> .c-aside__port)
 www.tut.by##.l-main > .b-top + .b-top
 kazanutlary.ru##.l-mainAdArea
 cy-pr.com##.l-navigation-i > noindex
@@ -16371,6 +16372,7 @@ iz.ru##.two-col-with-advertise2__right
 iz.ru##.two-col-with-partner__inside__right
 wowhead.com##.type-coupon-codes
 all-biography.ru##.tz-widget.container
+tsn.ua#?#.u-divider--t > .l-row > .l-gap:-abp-has(> .c-aside__port)
 focus.ua##.u-m-h-250
 koolinar.ru##.u-sidebar [style="min-height: 400px;"]
 gubkinskiy.com#?#.ui-sortable > .ui-sortable-handle:-abp-has(> h4:-abp-contains(Реклама))
@@ -16784,6 +16786,7 @@ rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##[class="attach
 rintor.info,rintor.net#?#[class] > div:-abp-has(> [class*="title"]:-abp-contains(/Our Friends|Sluts/))
 allpravda.info,geo-politica.info,globalwarnews.ru,inosmi.info,news24today.info,polit-mir.ru,pravdoryb.info,putin24.info,vnn24.ru#?#[class]:-abp-has(> .name:-abp-contains(/больше | партн|прочие | сми/i))
 argumenti.ru#?#[class]:-abp-has(> a[href] [class*="partner"])
+tsn.ua#?#[class]:-abp-has(> iframe[src*="/banners/"])
 examenpdd.com##[class][style*="important"] * *
 igromania.ru,kanobu.ru##[class^="AdFoxBanner"]
 brestcity.com##[class^="BlockR"]
@@ -19049,6 +19052,7 @@ narutoplanet.ru##div[style*="margin-top: 9.5px;"]
 wtftime.ru##div[style*="min-height: 200px;"]
 euro-football.ru,liveresult.ru##div[style*="min-height:"][style*="00px"]
 chipmaker.ru##div[style*="min-height:100px;"]
+tsn.ua##div[style*="opacity: 40%"]
 binmovie.org##div[style*="width: 240px; height: 600px"]
 anidub.vip,anidubonline.com##div[style*="width: 240px;"][style*="height: 400px;"]
 pb.wtf,piratbit.fun,piratbit.org,piratbit.top##div[style="background: #a94442;padding: 5px;font-size: 16px;"]
@@ -19247,7 +19251,6 @@ bycard.by##iframe[src*="/delivery/afr."]
 nnmclub.ro,nnmclub.to##iframe[src*="/forum/ads/"]
 kamchatinfo.com##iframe[src*="/images/banners/"]
 football.kulichki.net##iframe[src*="/leon/"]
-tsn.ua##iframe[src*="/partner-news?"]
 rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##iframe[src*="/rutrk.org/iframe/"]
 101.ru,radioromantika.ru##iframe[src*="/smi"]
 go64.ru##iframe[src*="/upload/adv_banner/"]
@@ -19429,7 +19432,6 @@ allcarz.ru#?#main > .container > .site-content:-abp-has(> .content-banner)
 protanki.tv##main > .hidden
 mediaryazan.ru##main > .hide-on-mobiles > div[class="sideblock"]:first-child
 besplatnyeprogrammy.ru#?#main > article.post:-abp-has(> header > .mainpage_title > [title^="InstallPack"])
-tsn.ua#?#main > aside.u-divider--t:-abp-has(> iframe[src*="/partner-news?"])
 adme.media##main > div[data-sharing-target] ~ div:nth-child(-n+9):not([data-sharing-target])
 gk-press.if.ua##main > div[style="display: inline"]
 drivenn.ru#?#main > h3:-abp-contains(/Новости партнёров|Популярное в сети/)
@@ -20135,7 +20137,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /newsru/banner.
 /output/index/*$script,domain=serial24.com
 /partner-banner/*$domain=doc-tv.ru|moya-planeta.ru|naukatv.ru
-/partner-news?$subdocument,domain=tsn.ua
 /pic/background$image,domain=crazyatomicgames.com|xxx-igra.com|yaldagames.com
 /player/adload.png|$image,domain=anidub.vip|anidubonline.com
 /player/vast.$domain=imasdk.googleapis.com
@@ -22727,6 +22728,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||ts.kg/olol$~media
 ||ts.kg/oops/
 ||tsargrad.tv/img/*-bg.jpg
+||tsn.*/banners/$domain=tsn.ua
 ||tt-cup.com/static/clients/$image
 ||tuchkatv.ru/rotator/
 ||tulapressa.ru/get_adv.
@@ -26031,7 +26033,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||persey.if.ua/images/attention.jpg$image,domain=persey.if.ua
 @@||pixsense.net/advertisement/songe.js|$script,domain=www.pixsense.net
 @@||pkfnpo.ru^$image,domain=pkfnpo.ru
-@@||player.*.com/prebidlink/*.js|$script,domain=tsn.ua
 @@||player.3tv.im^$script,stylesheet,domain=player.3tv.im
 @@||player.adtelligent.com/static/player.$script,stylesheet,domain=ictv.ua|inter.ua|k1.ua|novy.tv|ntn.ua|player.starlight.digital|stb.ua|teleportal.ua|xsport.ua
 @@||print-post.com^*.js$script,domain=print-post.com
@@ -26049,7 +26050,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||s-cdn.sportbox.ru^*/adfox.$script,domain=matchtv.ru|news.sportbox.ru
 @@||s.imgur.com/desktop-assets/js/floaty_rotator.*.bundle.js|$script,domain=imgur.com
 @@||securepubads.g.doubleclick.net/gampad/ads$xmlhttprequest,domain=www.aport.ru
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js|$domain=tsn.ua|www.aport.ru
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js|$domain=www.aport.ru
 @@||seo-fast.ru/js/adv.js$script,domain=seo-fast.ru
 @@||sevtracker.org/styles/js/adframe.js|$script,domain=sevtracker.org
 @@||shararam-card.tk/showads.js|$script,domain=shararam-card.tk
@@ -26172,7 +26173,6 @@ img2txt.com##.bd-callout-warning
 reallanguage.club##.bgAdd
 guidesgame.ru##.box-warning
 a-russia.ru##.bsac
-tsn.ua##.c-aside__port
 retail.ru##.c1-retail
 retail.ru##.commercial
 retail.ru##.contain__p1
