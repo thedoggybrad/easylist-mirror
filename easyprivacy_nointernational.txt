@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xt+b6qSWd7qooGWVJah+6g
-! Version: 202502021201
+! Checksum: 5Us8SboSxA2GZ5+RYwcu1g
+! Version: 202502021211
 ! Title: EasyPrivacy without international filters
-! Last modified: 02 Feb 2025 12:01 UTC
+! Last modified: 02 Feb 2025 12:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1851,6 +1851,7 @@
 /referrer_tracking.js
 /reftracker.js
 /renderTimingPixel.
+/report_ga_events/*
 /report_visit.php
 /reportData/nm.gif?
 /reporting/metrics
@@ -6075,6 +6076,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnt.vivatube.com^
 ||cnt.xhamster.com^
 ||codecademy.com/analytics/
+||coincarp.com/cdn-cgi/trace
+||coincarp.com/script/events.js
 ||coincheckup.com/report_events/
 ||coincodex.com/cdn-cgi/trace
 ||cointelegraph.com/pixel?
