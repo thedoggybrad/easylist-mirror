@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VNcwXBz2sEgjjyToVhCPoA
-! Version: 202502030841
+! Checksum: XKzbaTg5aB6PIhTrzr9BCA
+! Version: 202502030851
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 Feb 2025 08:41 UTC
+! Last modified: 03 Feb 2025 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7809,7 +7809,6 @@ srk.fi#@##CookielawBanner
 /ad.html?$~xmlhttprequest
 /ad.min.js$script
 /ad/ad_common.js$script
-/ad/dfp/*$script
 /ad/getban?$script
 /ad/image/*$image
 /ad/images/*$image,domain=~studiocalling.it
@@ -7963,6 +7962,7 @@ srk.fi#@##CookielawBanner
 /advanced-ads-$script,stylesheet,domain=~transinfo.pl|~wordpress.org
 /advbanner.frontend.js$script
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
+/advertising/ad-shield.js$script
 /advertising/banners/*$image
 /adverts.$~script,~xmlhttprequest,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
 /adverts/*$~xmlhttprequest
@@ -8148,6 +8148,7 @@ srk.fi#@##CookielawBanner
 /jquery.popunder.js$script
 /js/ad_common.js$script
 /js/advRotator.js$script
+/js/dfp.js$script
 /jsAds-1.4.min.js$script
 /jshexi.hj?lb=
 /jspopunder.js$script
