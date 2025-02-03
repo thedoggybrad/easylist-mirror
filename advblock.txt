@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w/Bu1oFF8LEx0CDrZMbMdA
-! Version: 202502031251
+! Checksum: em5STYitPchoxYGfeqy33A
+! Version: 202502031301
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Feb 2025 12:51 UTC
+! Last modified: 03 Feb 2025 13:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12921,7 +12921,7 @@ ua.today##.admix
 promigren.ru##.adp-block
 asiaplustj.info,news.tj##.adredirector
 cn.ru,ittour.com.ua##.adriver
-024.by,1927.kiev.ua,1plus1.video,allnews.kz,bigpicture.ru,chatadelic.net,coderoad.ru,day.az,euromd.com.ua,football-fun.ru,fotokto.ru,gagadget.com,gameme.eu,gotoshop.ua,gs.by,gsconto.com,hotzoom.net,icons8.ru,infoniac.ru,jooble.org,jooble.ua,kinoafisha.info,klubok.com,like-film.online,malenkiy.ru,mangalib.me,meta.ua,my-calend.ru,novostiplanety.ru,orl.ec,podrobnosti.ua,savevideo.me,scooter-remont.com,seasonvar24.com,sexytales.org,soccer.ru,sports.kz,takprosto.cc,timeout.ru,tvsezon.com,ura.news,world-knigi.ru##.ads
+024.by,1927.kiev.ua,allnews.kz,bigpicture.ru,chatadelic.net,coderoad.ru,day.az,euromd.com.ua,football-fun.ru,fotokto.ru,gagadget.com,gameme.eu,gotoshop.ua,gs.by,gsconto.com,hotzoom.net,icons8.ru,infoniac.ru,jooble.org,jooble.ua,kinoafisha.info,klubok.com,like-film.online,malenkiy.ru,mangalib.me,meta.ua,my-calend.ru,novostiplanety.ru,orl.ec,podrobnosti.ua,savevideo.me,scooter-remont.com,seasonvar24.com,sexytales.org,soccer.ru,sports.kz,takprosto.cc,timeout.ru,tvsezon.com,ura.news,world-knigi.ru##.ads
 tarkov-market.com##.ads-horiz
 orl.ec##.ads-inner-top
 wav-library.net##.ads-long-block
@@ -15095,7 +15095,6 @@ om1.ru##.news-grid > div[id^="first"]
 om1.ru##.news-grid > div[id^="rastyagka"]
 onliner.by##.news-incut_position_right
 gamemag.ru#?#.news-item-wrap > .news-item:-abp-has(> span:-abp-contains(Ad))
-1plus1.ua,1plus1.video#?#.news-item:-abp-has(.ads)
 zaxid.net##.news-list-col > .news-list
 onliner.by##.news-media__preview > a:not([href*="onliner.by/"]) > img
 1plus1.ua##.news-partners-add
@@ -20232,7 +20231,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||1bshop.ru^$third-party
 ||1in.am/banners/
 ||1istochnik.ru/attachments/istochnik/bns/
-||1plus1.video/banner/
+||1plus1.video^$domain=imasdk.googleapis.com
 ||1tulatv.ru/img/*.gif
 ||1tulatv.ru/rek/
 ||1tv.ru/www/v1/promo_place/_header
@@ -23148,7 +23147,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=lena-miro.ru|levik.blog|
 ||imgfrost.net^$third-party
 ||liveinternet.ru/utf/lici.js?
 ||news.mail.ru/-/*.js?
-||pikabu.ru/ajax/*?odakm=$xmlhttprequest
+||pikabu.ru/ajax/*?fbqrz=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
