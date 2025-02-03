@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wXrOo8G7gm6ephMS/Ll93A
-! Version: 202502031341
+! Checksum: wE8+TNg2OO/xwf9XLoLWpg
+! Version: 202502031351
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Feb 2025 13:41 UTC
+! Last modified: 03 Feb 2025 13:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23169,9 +23169,9 @@ vk.com,vk.ru#?##feed_rows > .feed_row:-abp-has(.PostHeaderSubtitle:-abp-contains
 vk.com,vk.ru###feed_rows > div[class="feed_row "] > div[id]:not([data-post-id])
 the-geek.ru###wp-custom-css {remove:true;}
 vk.com,vk.ru##._post_content > .post
-vk.com,vk.ru#?#._post_content:-abp-has(> .PostHeader ~ .wall_text)
 vk.com,vk.ru##.feed_row > [data-post-id]:not([id^="post-"])
 vk.com,vk.ru##.feed_row > [data-post-id][id^="post-"] > :not([class="_post_content"])
+vk.com,vk.ru##.feed_row > [data-post-id][id^="post-"]:not([data-post-author-id])
 vk.com,vk.ru#?#.feed_row > [id^="post-"] > ._post_content:-abp-has(> :first-child:not(.PostHeader))
 e.mail.ru##.layout__column_right-indented
 mail.ru,sportmail.ru##.media-ui-slider-track > div:last-child [data-qa="Loader"]
