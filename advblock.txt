@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BHDP1CSaByH29IbD4VBwCQ
-! Version: 202502031411
+! Checksum: 6KBjvmk/3PkdczdK6/9TEQ
+! Version: 202502031421
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Feb 2025 14:11 UTC
+! Last modified: 03 Feb 2025 14:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16904,7 +16904,7 @@ satellitetvforum.info##[data-phpbb-ads-id]
 odds.ru##[data-popup="bonus"]
 shuba.life##[data-product]
 cheezu.ru##[data-provider="yandex"]
-shuba.life##[data-purchase-ingredients-url] button[id]
+shuba.life#?#[data-purchase-ingredients-url] button:-abp-has(> [src*="/silpo."])
 ozon.ru##[data-replace-layout-path] > div[style="height:300px;"]
 ozon.ru##[data-replace-layout-path]:only-child > div[style^="min-width:"][style*="height:"]
 goldsrc.ru##[data-role="primaryNavBar"] a[href^="http://csserv.ru/"]
