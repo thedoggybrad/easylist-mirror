@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jjA8ApCX4kPp7iVsh1Zcrw
-! Version: 202502060711
+! Checksum: VoBgwsPVDANtBZK8GQxJLw
+! Version: 202502060721
 ! Title: ABPVN List
-! Last modified: 06 Feb 2025 07:11 UTC
+! Last modified: 06 Feb 2025 07:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 06 Feb 2025 13:22:34 UTC+7
-! Diff-Path: patches/20250206132234821.patch#abpvn
+! Last modified: 06 Feb 2025 14:16:47 UTC+7
+! Diff-Path: patches/20250206141647104.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -93,7 +93,7 @@ $popup,domain=truyenfull.bio
 ||animevietsubs.net/vast/$image
 ||animew.info/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com$image
 ||animew.info/_next/image?url=https%3A%2F%2Fp21-ad-sg.ibyteimg.com$image
-||api.anime3s.com^*.gif$image,domain=hayhaytv.org
+||api.anime3s.com^*.gif$image,domain=hayhaytv.org|anime1.site
 ||asecdn.w88media.com/VN/250x250-VN.gif$domain=mythethao.net
 ||baohaugiang.com.vn/uploads/SlideHomeimg/
 ||baomoi.com$csp=script-src data: blob: * 'self' 'unsafe-inline'
@@ -315,7 +315,6 @@ $popup,domain=truyenfull.bio
 ||asg.phukienthoitranggiare.com^
 ||baobabsruesome.com^
 ||bardicjazzed.com^
-||bemiresunlevel.com^
 ||bidgear-syndication.com^
 ||blueseed.tv^$third-party
 ||brittlesturdyunlovable.com^
@@ -331,7 +330,6 @@ $popup,domain=truyenfull.bio
 ||discourseoxidizingtransfer.com^
 ||distinctrobin.com^
 ||effacedefend.com^
-||epilinserts.com^
 ||eptougry.net^
 ||fpgedsewst.com^
 ||fv.togataurnfuls.com^
@@ -453,7 +451,7 @@ anime47.baby###qc_clgt
 anime47.baby###swiper-wrapper
 animehay.red##div[style="position: fixed; bottom: 0px; z-index: 98; width: 100%; text-align: center; box-sizing: border-box;"]
 animetvn.com###mobile-ads
-animetvn.com##.gnarty-offads
+animetvn.com,anime1.site##.gnarty-offads
 animevietsub.page###invideo_wrapper
 animevietsub.page##.Ads
 animevietsub.page##.mobile-catfish-top
