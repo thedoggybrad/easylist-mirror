@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vE+beHF4ns9h+bPWSG0EeA
-! Version: 202502070131
+! Checksum: JNAirYtw7JCwXumex4u/2Q
+! Version: 202502070121
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Feb 2025 01:31 UTC
+! Last modified: 07 Feb 2025 01:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -482,7 +482,6 @@ spillespill.no###bannerAdmeenRectangleTopContainer
 e24.no,e24-no.translate.goog##a[href*="/go.click?"]
 treningsforum.no##.ad.netboard
 liverpool.no##.spklw-post-attr[data-content-source]
-dagens.dk,dagens.no##div:has(> .annonce)
 spurt.no##.typology-ad
 ekstrabladet.dk,ekstrabladet-dk.translate.goog##.advertorials
 gastrofun.dk##div[id^=block-steprectangle]
@@ -1222,7 +1221,6 @@ bydrammen.no##.elementor-widget-ucaddon_portfolio_carousel
 eavisa.com##.td_block_wrap:has(.td-fix-index > p[style="text-align: center;"])
 eavisa.com##.vc_inner:has(.tdm-btn-md-used)
 eavisa.com##.td_block_text_with_title:has(+.vc_inner .tdm-btn-md-used))
-flashscore.dk##div.banner
 ! — — — — — — — — —
 ! 🇳🇴: Oppføringer for minst 3 nettsteder
 ! 🇬🇧: Entries for at least 3 websites
@@ -1706,8 +1704,6 @@ _1170x400.$domain=eyjafrettir.is,image,~third-party
 ! artoDK
 ||artodata.net/site/ads/$subdocument
 ! inderoyningenNO (20/08/2024)
-! flashscoreDK (06/02/2024)
-||content.livesportmedia.eu/api/v*/banners^$third-party
 ! — — — — —
 ! 🇳🇴: Generelle oppføringer med kilder
 ! 🇸🇪: Generella poster med källor
@@ -1989,7 +1985,7 @@ aasanetidende.no,aasavis.no,akersposten.no,amta.no,an.no,ao.no,auraavis.no,austa
 ##div[id^=art-challengeAd-]:not(body,:empty)
 ! jyllands-postenDK (22/03/2023)
 ##.banner-container-monster-topscroll:not(html,body,:empty)
-! forum•kvinneguiden•no (Mobile user agent; 05/04/2023)
+! forum.kvinneguiden•no (Mobile user agent; 05/04/2023)
 ###mobiltoppbanner:not(html,body,:empty)
 ! Various now-dead Frettabladid subdomains from 2020
 ##.tag-page-ad-container:not(html,body,:empty)
@@ -2017,10 +2013,6 @@ aasanetidende.no,aasavis.no,akersposten.no,amta.no,an.no,ao.no,auraavis.no,austa
 ||step.dk^$third-party
 ! https://ugenr•dk/kalender (03/12/2024)
 ###addemam-wrapper:not(:empty)
-! dagensDK/NO articles
-##div.inArticleBanner
-! flashscoreDK (06/02/2025)
-##div#box-over-content-revive
 ! — — — — — — —
 ! 🇳🇴: Oppføringer med spesielle omstendigheter
 ! 🇬🇧: Entries with special circumstances
@@ -6197,7 +6189,7 @@ feber.se##.maxetise
 nytid.no,tipsbladet.no#@#div.td-a-rec img
 ||addrevenue.io/t?*t=Impression$third-party
 ! Description: Finnish adblock list
-! Last modified: Mon, 03 Feb 2025 15:16:35 +0000
+! Last modified: Fri, 31 Jan 2025 15:18:46 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -6894,7 +6886,6 @@ m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimokki.com,m.nettimot
 m.nettimokki.com##.itemlist > li:not(.block_list_li)
 m.tori.fi##.appnexus-container
 maalampofoorumi.fi##div#sponsor
-maaseuduntulevaisuus.fi##[data-ad-unit-id]
 maaseuduntulevaisuus.fi##div[class*="ArticleTeaserGroup_nativeAd"]
 maaseuduntulevaisuus.fi##div[class^=MainLane_laneItem]:has(div[class^=ArticleBanner_advertorial])
 maaseutumedia.fi##.header_banner
