@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NbkydiB4Ps94ubRDrZGV6A
-! Version: 202502090911
+! Checksum: 1+y5FwDGfHja2M9uTwMI/Q
+! Version: 202502090921
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Feb 2025 09:11 UTC
+! Last modified: 09 Feb 2025 09:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4224,6 +4224,7 @@ _tizers.
 ||afruits.ru^$third-party
 ||afterview.ru^
 ||againandagain.biz^$third-party
+||agenteimmobiliare.info^$third-party
 ||agitazio.com^
 ||agrohod.ru^$third-party
 ||ahaclub.ru^$third-party
@@ -15559,7 +15560,7 @@ fonzo.ru,hemingway-lib.ru,kinogo.biz,oka.fm,sex-empire.tv,sms24.info,sms24.me,te
 buzulukday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##.rek,.rek ~ .ramka
 med-heal.ru##.rek-bar
 lenov.ru##.rek-but
-lenov.ru##.rek-top
+lenov.ru,yapolitic.ru##.rek-top
 sport.kg##.rek-widgets
 baginya.org##.rek1
 okaygorod.com##.rek_ban a[href]:not([href^="https://okaygorod.com/"])
@@ -17077,6 +17078,7 @@ shans.com.ua##[src*="images/banners"]:not([src="images/banners/lin.gif"])
 7themes.su##[src*="promo_res"]
 ixbt.com##[src*="rose.ixbt.com/banner/"]
 sibnet.ru##[src*="sibnet.ru/iframe-wink"]
+ski.ru##[src*="ski.ru/vertelka/"]
 forum.zoneofgames.ru##[src*="trk.mail.ru/"]
 clubsandero.ru##[src="//an.yandex.ru/system/context.js"] ~ iframe
 rutor.org.ru##[src="/download32.png"]
@@ -22431,6 +22433,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||siniy-ekran.ru/rb_
 ||sitefaktov.ru/js/*.js|$script,domain=sitefaktov.ru
 ||sixinch.org/banners/$image
+||ski.ru/vertelka/
 ||slavgorod.com.ua/AdTemp/
 ||slavutich.cn.ua/image/banners/
 ||slivki.by/banner/
