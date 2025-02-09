@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6FRTCbOImeQAuSbZ7VPeBA
-! Version: 202502091121
+! Checksum: 1f1JBy/xpVUgkLn9Y98rvw
+! Version: 202502091131
 ! Title: EasyPrivacy without international filters
-! Last modified: 09 Feb 2025 11:21 UTC
+! Last modified: 09 Feb 2025 11:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3516,7 +3516,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector5.zipy.ai^
 ||comeon.com/tracking.php
 ||comic-rocket.com/metrics.js
-||commerce.adobe.io/recs/
+||commerce.adobe.io/recs/$script
 ||commerce.bing.com^
 ||comms.thewhiskyexchange.com^$image
 ||communicatorcorp.com^*/conversiontracking.js
@@ -43718,7 +43718,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
 @@||collections.archives.govt.nz/combo/*/gtag.js$script,~third-party
 @@||collusion.com/static/newrelic.js$script,~third-party
-@@||commerce.adobe.io^$xmlhttprequest,domain=superbrightleds.com
 @@||community.brave.com/t/$xmlhttprequest
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||console.statsig.com/_next/$~third-party
