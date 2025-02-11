@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bxRxDlzOBb1eSOHBh5WfKw
-! Version: 202502111101
+! Checksum: +JN94+9S9Q+bpPTdcjalzw
+! Version: 202502111111
 ! Title: IndianList
-! Last modified: 11 Feb 2025 11:01 UTC
+! Last modified: 11 Feb 2025 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5071,6 +5071,7 @@ deepika.com###dvPopup
 firsteyenews.co.in###dynamic_sidebar_before
 hastakshep.com###eaa-12
 elokasha.com,lokprashna.com###eloka-google
+samayam.com###end_article_parent div:has(> .ad1)
 cellitnews.com###example
 suddi9.com###featgal ~ div > #colorcontentblock
 vtv24x7.com###first-advertisement
@@ -5771,7 +5772,7 @@ eenadu.net##.ad728-top
 fmhindi.com##.ad728_cont_mid
 indiatv.in##.ad:has(> div:first-child)
 dailyjagoran.com##.adBgGray
-iamgujarat.com,maharashtratimes.com,samayam.com##.adCANContainer
+iamgujarat.com,maharashtratimes.com##.adCANContainer
 swalenewsbank.com##.adMark
 blastkhabar.com##.adRightSideBar
 odhikar.news##.adSlides
@@ -6221,7 +6222,6 @@ samakal.com##.bottomReadMoreCart div[style*="width: 300px !important;height: 250
 samakal.com##.bottomStickyDesktopDiv
 lokjeewan.com##.bottom_ad_slide
 dailythanthi.com##.bottom_snackbar_common
-samayam.com##.box-item
 yugabdha.com##.box-sec-bg .slider
 khoborbari24.com##.box_outer.widget_text
 gorkhalikhabar.com##.box_wrap.p-2
@@ -7862,6 +7862,7 @@ purbakantho.com##.top-adds
 telugutimes.net##.top-ads-banner
 aperata.net##.top-ads-block
 manoramaonline.com##.top-advt-block
+samayam.com##.top-atf-wrapper
 sangbadprotidin.com##.top-banner
 jamalpurlive.com##.top-bar
 ekuruvi.com##.top-bar-left-nav
