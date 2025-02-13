@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dONUMoy5+In9YNxG4pSypg
-! Version: 202502131421
+! Checksum: DGsm6+to4wAktfjnIMqiKA
+! Version: 202502131431
 ! Title: IndianList
-! Last modified: 13 Feb 2025 14:21 UTC
+! Last modified: 13 Feb 2025 14:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5606,6 +5606,7 @@ khabarhekhabar.com,news4indiatv.com,sameera.co.in###widget-sidebar-2
 mp1news.com###widget-sidebar-2 ~ .widget:not(#widget-sidebar-14)
 atalstambh.com,hakikatnews.com,mpkhabar.com###widget-sidebar-3
 khabarpradesh.com###widget-sidebar-4
+samakalikamalayalam.com###widget-topads
 gujaratvaibhav.com###widget4
 ekattor.tv###widget_623
 itvbd.com###widget_626
@@ -6049,7 +6050,7 @@ lokmatnews.in##.articlePage
 moviemax.in##.articleText > center > div
 hellobanswara.com##.article_text-content figure
 newsatfirst.com##.aside-add
-kalkionline.com##.aside-collection-ad-slot
+kalkionline.com,samakalikamalayalam.com##.aside-collection-ad-slot
 bijoybanglabd.com##.asn-bk-txt
 gujarati.economictimes.com,maharashtratimes.com,marathi.indiatimes.com,navbharattimes.indiatimes.com,samayam.com,vijaykarnataka.com##.atf-wrapper
 timesnowhindi.com,timesnowmarathi.com##.atfAdContainer
@@ -6556,7 +6557,7 @@ morbinews.in##.entry-content.single-post-content > img
 chhapratoday.com##.entry-the-content .code-block
 chhapratoday.com##.entry-the-content img.aligncenter.size-full
 chhapratoday.com##.entry-the-content img.alignnone.size-full
-amravatimandal.com,janamadhyama.news##.epaper-edition-ads-container-right-pannel
+amravatimandal.com,epaper.poknapham.in,janamadhyama.news##.epaper-edition-ads-container-right-pannel
 cgfrontline.com##.epcl-banner
 grandnews.in##.epcl-row
 bankingsansar.com##.esn-ainfo-widget
@@ -7957,7 +7958,6 @@ puthithu.com##.widget > .wp-block-image
 emungaru.com##.widget img[src^="data:"]
 labanglatimes.com##.widget-banner
 crimediarybd.com##.widget-body > p img
-samakalikamalayalam.com##.widget-container-130
 kannadaprabha.com##.widget-container-188
 dinamani.com##.widget-container-439 > div:not(#section_content_check_14080)
 dailyinshort.com##.widget-header
