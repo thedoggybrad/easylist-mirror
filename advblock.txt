@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yg6FezyROCZ2SZlE1wlVPA
-! Version: 202502141421
+! Checksum: BzqwamnTSpbBVm6AHqHzkA
+! Version: 202502141431
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Feb 2025 14:21 UTC
+! Last modified: 14 Feb 2025 14:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2249,7 +2249,7 @@ _tizers.
 ||org/rtr/$script
 ||pl/rtr/$script
 ||ro/rtr/$script
-||ru/rtr/$script
+||ru/rtr/$script,xmlhttprequest
 ||so/rtr/$script
 ||su/rtr/$script,domain=~oczuevka.moy.su
 ||tv/rtr/$script
@@ -4312,6 +4312,7 @@ _tizers.
 ||andlache.com^$third-party
 ||andsedrit.com^$third-party
 ||andumb.com^$third-party
+||anidublink.ru^
 ||ankunding.biz^$third-party
 ||annienne.com^
 ||annrdf.com^$third-party
