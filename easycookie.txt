@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: p+LnsnYmrE86c2Jl9xAvYQ
+! Checksum: C6mjdDsIMswFC1aLaqJRLw
 ! Title: Easylist Cookie List
-! Updated: 2025-02-15 00:40 UTC
+! Updated: 2025-02-15 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3912,6 +3912,7 @@
 ###cookieWarningLayer
 ###cookieWarningLayout
 ###cookieWarningMessage
+###cookieWarningMessageNew
 ###cookieWarningModal
 ###cookieWarningPanel
 ###cookieWarningR
@@ -11922,6 +11923,7 @@
 ##.cookiemanager_banner--container
 ##.cookiemanager_show_simple
 ##.cookiemelding-container
+##.cookiemelding:not(html):not(body)
 ##.cookiemeldung
 ##.cookiemessage-holder
 ##.cookiemessage__overlay
@@ -16173,6 +16175,7 @@
 ##.ws-cookie-notice
 ##.ws-cookie__wrapper
 ##.ws-cookiebar-wrapper
+##.wsa-cookielaw
 ##.wsc-cookies-bar
 ##.wsr--data-protection
 ##.wt-confirm-layer
@@ -17488,8 +17491,6 @@ moringa.com###cookieNoticeSoww
 forbestravelguide.com###cookiePolicyWrap
 visitseoul.net###cookiePopup
 viavisolutions.com###cookieRibbon
-turkishairlines.com###cookieWarningMessageNew
-turkishairlines.com###cookieWarningOverlay
 bulgarianproperties.com###cookie_bar_new
 semiconductor.samsung.com###cookie_component_emea
 sendgb.com###cookie_disabled
