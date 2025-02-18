@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KQ3sYrrKYYib4m9Ry96Gsg
-! Version: 202502181011
+! Checksum: 6dIFushdEF5t2NbTR8KNQQ
+! Version: 202502181031
 ! Title: EasyList without element hiding rules
-! Last modified: 18 Feb 2025 10:11 UTC
+! Last modified: 18 Feb 2025 10:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -38282,7 +38282,6 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ! websocket ads
 $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 ! csp
-$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=coomer.su|thumbs.pro
 $csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=gayforfans.com,~third-party
 ||thegay.com^$csp=default-src 'self' *.ahcdn.com fonts.gstatic.com fonts.googleapis.com https://thegay.com https://tn.thegay.com 'unsafe-inline' 'unsafe-eval' data: blob:
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
