@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VrzG4pbv8se4LrEHSYQ2Ww
-! Version: 202502181131
+! Checksum: 5uJRzBnUNj73eIq2EeHKmA
+! Version: 202502181151
 ! Title: IndianList
-! Last modified: 18 Feb 2025 11:31 UTC
+! Last modified: 18 Feb 2025 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -45,6 +45,7 @@ _advt.jpg|
 ||gceleritasads.com^$third-party
 ||hentaibaka.one^$third-party
 ||impishelizabethjumper.com^$third-party
+||izooto.com^$third-party
 ||limray.com^$third-party,domain=uttranews.com
 ||pc5ads.com$third-party
 ||pclicc1.com^$third-party
@@ -55,6 +56,7 @@ _advt.jpg|
 ||uutew.info^$third-party
 ||wizardsbd.com^$third-party
 ||zendplace.pro^$third-party
+||zzazz.com^$third-party
 !---------------------Specific URL or third-party CDN URL---------------------!
 ! *** indianlist:IndianList/cdn_block.txt ***
 @@||i0.wp.com/www.tajakhabaruttarakhand.com/wp-content/uploads/2021/11/advt.jpeg
@@ -7082,7 +7084,8 @@ naidunia.com##.naiWeb
 nakkheeran.in##.nak-adv-cen:not(#block-views-block-global-news-home-page-block-3)
 naturalnews.co.in##.natur-content
 chamaktabharat.com#@#.navbar-ad-section
-prabhatvaibhav.com##.navbar-area-2 ~ div[style]
+prabhatvaibhav.com##.navbar-area ~ div > a > img
+prabhatvaibhav.com#@#.navbar-area-2 ~ div[style]
 daijiworld.com##.navbar-static-top a[target="new"]
 bishwanathbd24.com##.navbar-top-banner
 nayabikalpa.com##.naya-bikalpa-advertisement
@@ -7169,6 +7172,7 @@ nepalkhabar.com##.paraAd
 lokaantar.com##.paraAd img:not([src*="viber_image_"])
 parvatprerna.com##.parva-widget
 bordernewsmirror.com##.pbwidget.slideshow
+prabhatvaibhav.com##.pd-top-50 iframe
 clearnews.live,dainikmas.com,deepamnews.lk,hindlives.com,indotimes.com.au,lankasudar.com,nationissue.com,newsmalwa.com##.penci-banner-box
 indootimes.com.au##.penci-banner-box:not(#penci-banner_box--86294)
 janmanindia.com##.penci-content-main .wpb_content_element
