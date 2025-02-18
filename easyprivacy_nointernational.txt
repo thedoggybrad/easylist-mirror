@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 76Vv3j6+/eX2B1HhU5c91A
-! Version: 202502181831
+! Checksum: QFVA0FutNdoBVJeIfvpCDg
+! Version: 202502181851
 ! Title: EasyPrivacy without international filters
-! Last modified: 18 Feb 2025 18:31 UTC
+! Last modified: 18 Feb 2025 18:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1425,6 +1425,7 @@
 /matomo.js$domain=~github.com
 /matomo.php
 /matomo/*$domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
+/matomo_video_tracking.js
 /mcookie.aspx
 /mcount.cgi?
 /measure/pixel/*
