@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4pxUv/eTFORSOo33YWUY3w
-! Version: 202502190421
+! Checksum: 9WjhZZm5d/B/WYMnQxA/SQ
+! Version: 202502190431
 ! Title: ABPVN List
-! Last modified: 19 Feb 2025 04:21 UTC
+! Last modified: 19 Feb 2025 04:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 19 Feb 2025 09:26:48 UTC+7
-! Diff-Path: patches/20250219092648031.patch#abpvn
+! Last modified: 19 Feb 2025 11:21:08 UTC+7
+! Diff-Path: patches/20250219112108761.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1206,7 +1206,7 @@ $third-party,script,domain=sexdiaryx.live
 ||truyensextv.com^*.gif
 ||truyenvn.tech^*banner$image
 ||www.buomtv.io/palivn/ad/$image
-||xnhau.blog^$media,domain=xnhau.men
+||xnhau.blog^$media,domain=xnhau.one
 ||yr.fopbandido.com^
 !---------- ABPVN Adult Element Hide ---------------
 ##[href^="https://www.i9017.com/"]
@@ -1326,7 +1326,7 @@ xiuren.org###bannerIn
 xiuren.org###exoIMFrame
 xiuren.org###nativeAds_1505931906161
 xiuren.org##div[id^="exo_slider_"]
-xnhau.men##.fp-ui>div[style]
-xnhau.men##.sponsor
-xnhau.men##.spot
+xnhau.one##.fp-ui>div[style]
+xnhau.one##.sponsor
+xnhau.one##.spot
 xnxx.com###content-ad-top-zone
