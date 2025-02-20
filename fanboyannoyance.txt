@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202502201049
+! Version: 202502201033
 ! Title: Fanboy's Annoyance List
-! Last modified: 20 Feb 2025 10:49 UTC
+! Last modified: 20 Feb 2025 10:33 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1210,6 +1210,7 @@ _social_footer_
 /cookiesdirective.min.js
 /cookiesdisclaimer.js
 /cookieser.js
+/cookieSettings.js
 /CookieSettingsManager?
 /cookiesgdpr?
 /cookiesJS.js
@@ -15516,6 +15517,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###consent-modal-first
 ###consent-modal-fw
 ###consent-outer-wrapper
+###consent-popup
 ###consent-slide
 ###consent-toolbar
 ###consent.alert
@@ -25124,6 +25126,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookiesBannerOverlay
 ##.cookiesBannerShown
 ##.cookiesBar-holder
+##.cookiesBar:not(body)
 ##.cookiesBgCls
 ##.cookiesBloc
 ##.cookiesBottom
@@ -25932,7 +25935,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.frame-small.cookies
 ##.framework_cookies
 ##.freeprivacypolicy-com---nb
-##.freeprivacypolicy-com---nb-interstitial-overlay
 ##.freeprivacypolicy-com---nb-simple
 ##.frigg-cookiewarning-container
 ##.frontendPrivacy__consentBanner
@@ -40463,6 +40465,8 @@ namepros.com##.js-bottomFixTarget
 codewise.com,nawozy.eu##[class^="CookieBox"]
 ! ! .modal-consents
 chaussures.fr,eapavi.lv,eavalyne.lt,ecipele.hr,eobutev.si,eobuv.com.ua,epantofi.ro,epapoutsia.gr,eschuhe.at,obuvki.bg,zapatos.es##.modal-consents
+! ! .cookie-setting
+beleuchtung.at,beleuchtung.de,fotistikosmos.gr,lambimaailm.ee,lampak.hu,lampamania.es,lampamania.pt,lampemania.dk,lampite.bg,lampmani.se,lampupasaule.lv,lempumanija.lt,liderlamp.pl,luciamo.it,lumimania.be,lumimania.fr,luminam.ro,programia.cz,spokojenypes.cz,svet-svetil.si,svet-svietidiel.sk,svet-svitidel.cz,svijet-svjetiljki.hr,valomania.fi##.cookie-setting
 ! ! .cn-layer
 lindner-group.com,lindner-norit.com##.cn-layer
 ! ! .consent
@@ -44870,6 +44874,7 @@ dentisti-italia.it##.di-banner
 klepierre.it##.explicit_consent_backside
 farmaciasancarloroma.com,farmaciazelli.it##.fascia-avviso-coockie
 itpornit.com##.first-visit
+beta.easytag.it##.freeprivacypolicy-com---nb-interstitial-overlay
 lsdlibri.it##.fullscreen_box_legale
 giochistars.it##.gs-eucookielaw
 ilmanifesto.it##.info-banner
