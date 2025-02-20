@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CaM9uX+0EBsdXLsyAZ5D4w
-! Version: 202502201531
+! Checksum: r4LjLnA4P7AHtYX044I5Vg
+! Version: 202502201541
 ! Title: EasyList without rules for adult sites
-! Last modified: 20 Feb 2025 15:31 UTC
+! Last modified: 20 Feb 2025 15:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -880,6 +880,7 @@ _reklama_$domain=~youtube.com
 /plugins/prebidjs/*$script
 /porpoiseant/*$script
 /prebid-js-$script
+/prebid-load.js$script
 /prebid-min-$script
 /prebid-wrapper.js$script,third-party
 /prebid.$script,domain=~prebid.org
@@ -43549,6 +43550,7 @@ browsershots.org#@#.advert_area
 ||guitaralliance.com^$third-party
 ||gumgum.com^$third-party
 ||gururevenue.com^$third-party
+||harvesttraffic.com^$third-party
 ||havetohave.com^$third-party
 ||hbwrapper.com^$third-party
 ||headbidder.net^$third-party
@@ -44060,6 +44062,7 @@ browsershots.org#@#.advert_area
 ||vidoomy.com^$third-party
 ||vidverto.io^$third-party
 ||viewtraff.com^$third-party
+||viralnugget.com^$third-party
 ||vlyby.com^$third-party
 ||vupulse.com^$third-party
 ||w00tmedia.net^$third-party
