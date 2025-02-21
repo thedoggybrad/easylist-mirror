@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dX/WVMrsWr3Y8mXpJWCv+A
-! Version: 202502210311
+! Checksum: sR+n1n81juBtmJ8dUbanwQ
+! Version: 202502210321
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 Feb 2025 03:11 UTC
+! Last modified: 21 Feb 2025 03:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -22690,6 +22690,8 @@ _800x80_
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ads_container:not(.text-ad)
 ##.sidebar-ad:not(.adsbygoogle)
+! adkeeper
+##iframe[scrolling="no"][sandbox*="allow-popups allow-modals"][style^="width: 100%; height: 100%; border: none;"]
 ! https://musicalartifacts.com/ https://ww25.spinningrats.online/
 ! Parked domains
 ###target.pk-page-ready #pk-status-message
