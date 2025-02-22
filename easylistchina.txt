@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: y5qGclciLJKlkjXIfbp+VA
-! Version: 202502220131
+! Checksum: saxs7vmo3iNqP4tM/y5/Mg
+! Version: 202502220141
 ! Title: EasyList China
-! Last modified: 22 Feb 2025 01:31 UTC
+! Last modified: 22 Feb 2025 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1744,6 +1744,7 @@ newduba.cn###jq_youxi
 ||hebaidu.cc^
 ||lofqvl.icu^
 ||o02220aokk.com^
+||8y3j.cn^
 ||fttxhcua.icu^
 ||crazodsxx.com^
 ||kcinvdd.top^
@@ -9690,6 +9691,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||178.com/misc/self/*_ads
 ||xlmp4.cc/js/wcount.js
 .sinaimg.cn/large/008qC0LFgy1hyp0pc9jz3g30jg01otpp.
+||kmeiju.cc/kangeqiu.
 !------------------------Specific element hiding rules------------------------!
 178.com,nga.cn,ngabbs.com##[style^="background"][style*="vertical-align"]
 eastmoney.com##div[style^="position: fixed; z-index:"]
@@ -9728,7 +9730,7 @@ appinn.com##a[href*=".houdeyun.cn"]
 fitacg.com##a[href*="ifift.com"]
 cnys.tv###player_pause
 twkan.com##.txtcenter
-element-plus.org##div[class*="-side-"]
+element-plus.org##div[class*="-panel-"]
 hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
 sehuatang.net##DIV[class^="show-text"]
 ghxi.com##.widget_html_ad + div[style]
