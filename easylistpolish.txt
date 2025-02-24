@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wr53iAriAffQDGGWsJs6cA
-! Version: 202502240751
+! Checksum: 9F39fbAbSXvpXUN/2eG+WA
+! Version: 202502240811
 ! Title: EasyList Polish
-! Last modified: 24 Feb 2025 07:51 UTC
+! Last modified: 24 Feb 2025 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -42,7 +42,6 @@
 ##div[onclick^="update_ad("]
 ##li[data-title="Sponsorowane"]
 ! *** easylistpolish:easylistpolish/easylistpolish_whitelist_general_hide.txt ***
-app.freshmail.com#@#.advertisement-content
 !---------------------------Third-party advertisers---------------------------!
 ! *** easylistpolish:easylistpolish/easylistpolish_adservers.txt ***
 ||ad-work.pl^$third-party
@@ -1585,7 +1584,6 @@ divers24.pl##.penci-infeed_ad
 oknonawagrowiec.pl##.penci-promo-item > img
 burda.pl,glamour.pl,kobieta.pl,mamotoja.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl##.pending-ad
 zycieczestochowy.pl##.pers-item
-cnc.info.pl##.phpbb-ads-center
 kuriergarwolinski.pl##.picture-spot
 zlotoryjska.pl##.pierwsze_pole_banerowe_w_panelu
 forbes.pl,meczyki.pl##.placeholder
@@ -1836,7 +1834,6 @@ ifrancja.fr##.top-main-ads
 fpiec.pl##.top-offer-box
 dobragazeta.com.pl##.top-panel
 swidnica24.pl##.top-sliding-ad
-debica.tv##.top.ad
 jelonka.com,swidniczka.com,walbrzyszek.com##.top5
 swidniczka.com##.top6
 walbrzyszek.com##.top6 .kol4
@@ -2816,6 +2813,8 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+piszanin.pl##.new-toplayer
+tvrepublika.pl##.block--type-advertisement
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
