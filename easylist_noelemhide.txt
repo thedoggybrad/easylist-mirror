@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0J8J6rHm67Mz4kHCS+3bEQ
-! Version: 202502261711
+! Checksum: wFFaYzmHuBCB0f//qZP2QA
+! Version: 202502261721
 ! Title: EasyList without element hiding rules
-! Last modified: 26 Feb 2025 17:11 UTC
+! Last modified: 26 Feb 2025 17:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -364,6 +364,7 @@
 /didna_config.js$script
 /direct.hd?n=
 /discourse-adplugin-$script
+/dist/adscript.js$script
 /dmcads_$script
 /doubleclick.min$script
 /drsup-admanager-ajax.js$script
@@ -29145,6 +29146,7 @@ _800x80_
 ||adsring.com^$third-party
 ||adsrv4k.com^$third-party
 ||adsrvmedia.com^$third-party
+||adsrvr.org^$third-party
 ||adstargeting.com^$third-party
 ||adstargets.com^$third-party
 ||adsterra.com^$third-party
