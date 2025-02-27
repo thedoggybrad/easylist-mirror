@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8kK/hXW0uuMC50BvFp1jcw
-! Version: 202502271731
+! Checksum: 5Ss4VheJqe+93FOSpW4XXg
+! Version: 202502271741
 ! Title: EasyList Dutch
-! Last modified: 27 Feb 2025 17:31 UTC
+! Last modified: 27 Feb 2025 17:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1433,6 +1433,7 @@ landenweb.nl##table[style="margin-left: auto; margin-right: auto; border: 1px so
 radiocaramba.nl##table[width="120"][height="600"]
 ! :has()
 investmentofficer.nl##.io-tape-card__wrap:has(.io-tape-card__label__sponsored)
+weer.nl##.items-center.w-full.justify-center:has(div[data-advert-placeholder-collapses])
 indebuurt.nl##.list-item.list-item--aagje:has(.list-item__sponsor)
 welingelichtekringen.nl##.post:has(a[href*="/partnerposting/"])
 ah.nl##.product-card-portrait_root__ZiRpZ:has(.promotion_root__pAAlu)
