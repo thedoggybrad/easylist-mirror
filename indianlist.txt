@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kq5R4mKC7nkJX4nOqP9uYg
-! Version: 202502271031
+! Checksum: q6+VI8/RXNW3vr2KSG6i1g
+! Version: 202502271041
 ! Title: IndianList
-! Last modified: 27 Feb 2025 10:31 UTC
+! Last modified: 27 Feb 2025 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6861,8 +6861,6 @@ heralokhabar.com##.list_ads
 news18.com##.listview-story li:has(div[data-implementation])
 news18.com##.listview-story li:has(div[id^="mobileAd"])
 dailyjugantorsangbad.com##.live .embed-responsive
-sylheterchakrirkhabar.com##.live_title
-sylheterchakrirkhabar.com##.live_title + p
 manasmediaonline.com##.livedemo img
 lankanewsweb.net##.lnw-ad
 eenadu.net##.localads
@@ -7360,6 +7358,7 @@ khabaristan.com##.single-box
 dhadingpost.com##.single-content p~figure.wp-block-image
 aayokhabar.com##.single-content ~ p
 channelcox.com##.single-ditails + .add .widget_area
+sylheterchakrirkhabar.com##.single-ditails div[style^="float"] > img
 bholahatchitro.com##.single-dtls a[href*="accbuysell.com"]
 odekhabishwo.com,paribahanjagot.com##.single-dtls img
 etvuttarakhand.com##.single-entry > div[style^="float"]
