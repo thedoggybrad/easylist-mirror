@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202503012130
+! Version: 202503012119
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Mar 2025 21:30 UTC
+! Last modified: 01 Mar 2025 21:19 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -15192,6 +15192,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###caseys-cookie-modal
 ###caspian_cookiebar
 ###catapult-cookie-bar
+###cb-cookie-banner
 ###cb-cookie-holder
 ###cb-cookie_consent
 ###cb_cookie_policy_default
@@ -24897,6 +24898,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookies-div
 ##.cookies-div-footer
 ##.cookies-elixregtech
+##.cookies-es-container
 ##.cookies-eu
 ##.cookies-eu-bg
 ##.cookies-field
@@ -40243,9 +40245,6 @@ lsl.com,sexlivecam.co.uk##.overlay-wrapper
 ! flipsnack.com
 flipsnack.com###cookieNotification
 flipsnack.com##.modal-backdrop
-! aosom.pt/aosom.fr
-aosom.*##.cookies-cons
-aosom.*##.cookies-es-container
 ! norma
 norma-online.de,norma.fr##.cookie-info-v24
 norma-online.de,norma.fr##.modal-backdrop.cookie-info
@@ -46316,7 +46315,6 @@ punpro.com##div[class^="CookieSession"]
 sinerji.gen.tr###CookieConcent
 find.com.tr###KVK_Cerez
 mamak.bel.tr###cPrompt_Holder
-gazetememur.com###cb-cookie-banner
 yemektekeyifvar.com###cb-lightbox
 izmitsu.com.tr###cerez_div
 oyunlarskor.com###cerez_kabul
