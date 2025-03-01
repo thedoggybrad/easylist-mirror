@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dXbHnbuclL2nI4I3wfsW/g
-! Version: 202503010501
+! Checksum: AOZ4PkQmShxY7Eog4TKO1g
+! Version: 202503010511
 ! Title: EasyList without rules for adult sites
-! Last modified: 01 Mar 2025 05:01 UTC
+! Last modified: 01 Mar 2025 05:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59415,6 +59415,7 @@ msn.com##cs-native-ad-card-no-hover
 msn.com##div.body:has(> img[id^="nativead"])
 msn.com##div.footer:has(> a.ad-slug)
 msn.com##div[class^="articlePage_topBannerAdContainer_"]
+msn.com##div[class^="card-DS-card"][data-t*="RiverPlaceholder"]
 msn.com##div[class^="galleryPage_bannerAd"]
 msn.com##div[id^="nativeAd"]
 msn.com##div[id^="nativead"]
