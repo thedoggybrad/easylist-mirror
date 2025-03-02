@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bVLaV21+KzORGCPy3Tcffw
-! Version: 202503021921
+! Checksum: smf7Zegv3q7kSaN4EIoOOw
+! Version: 202503021931
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 02 Mar 2025 19:21 UTC
+! Last modified: 02 Mar 2025 19:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1221,6 +1221,9 @@ nordsoeposten.dk##.jeg_sticky_sidebar
 nordsoeposten.dk##.langbanner
 lastbilmagasinet.dk##.rotating-mowgli
 sonderborgnyt.dk###sidebar > section:has(> .add)
+dagbladet.no###svelte-app-articlestickytopbar:has(div[class*=addwrapper i])
+tara.no##div[type=inserted_code]
+senest.dk##.d-none-mobile.generic-widget
 ! — — — — — — — — —
 ! 🇳🇴: Oppføringer for minst 3 nettsteder
 ! 🇬🇧: Entries for at least 3 websites
@@ -1339,7 +1342,7 @@ kulturplot.no,dagensperspektiv.no,velferd.no###main > .small-12:nth-of-type(1)
 /annonse-$image
 ! https://www•ballade•no/
 /wp-content/uploads/*_Annonse_$image
-_toppbanner_$image,domain=~dahl.no
+_toppbanner_$image,domain=~dahl.no|~onninen.no
 ! https://www.osterud.name/FF57W10/norwegian-filters.txt
 /bannerannonser/*
 ! byggenyttNO
@@ -6252,7 +6255,7 @@ feber.se##.maxetise
 nytid.no,tipsbladet.no#@#div.td-a-rec img
 ||addrevenue.io/t?*t=Impression$third-party
 ! Description: Finnish adblock list
-! Last modified: Tue, 25 Feb 2025 20:25:40 +0000
+! Last modified: Sun, 02 Mar 2025 16:44:25 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -6417,7 +6420,7 @@ alypaa.com,pelikone.fi##.text-link[href^="https://clk.tradedoubler.com/"]
 ampparit.com##.mobile-leaderboard-container
 ampparit.com##.resize-container
 ampparit.com,keskustelu.suomi24.fi,kirkkojakaupunki.fi,kuntalehti.fi,luukku.com,mtvuutiset.fi,seiska.fi,styleroom.fi,viinilehti.fi##.ad-container
-animelehti.fi,como.fi,episodi.fi,inferno.fi,leffatykki.com,pelaaja.fi,rumba.fi,soundi.fi,tilt.fi##.min-h-\[450px\]:has(> [data-mobile-ad-unit-id]))
+animelehti.fi,como.fi,episodi.fi,inferno.fi,leffatykki.com,pelaaja.fi,rumba.fi,soundi.fi,tilt.fi##.min-h-\[450px\]:has(> [data-mobile-ad-unit-id])
 animelehti.fi,como.fi,episodi.fi,inferno.fi,leffatykki.com,pelaaja.fi,rumba.fi,soundi.fi,tilt.fi##[style="min-height:450px;"]:has(> [data-desktop-ad-unit-id])
 animelehti.fi,como.fi,episodi.fi,inferno.fi,leffatykki.com,pelaaja.fi,rumba.fi,soundi.fi,tilt.fi##[style="min-height:450px;"]:has(> [data-mobile-ad-unit-id])
 animelehti.fi,episodi.fi,inferno.fi##.px-4.py-2.bg-white.w-full:has(.poppartners)
