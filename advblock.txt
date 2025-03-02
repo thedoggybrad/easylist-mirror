@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ALGGhISwgp3rWPTcz/Xetg
-! Version: 202503021751
+! Checksum: XRmzFfNeM12/4YSYoaDr8Q
+! Version: 202503021801
 ! Title: RU, UA, UZ, KZ
-! Last modified: 02 Mar 2025 17:51 UTC
+! Last modified: 02 Mar 2025 18:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13494,6 +13494,7 @@ vesti.kz##.betconest
 officelife.media##.betera-widget
 myfootball.top##.bets
 1927.kiev.ua##.bets-block
+ska.ru##.betting
 proagro.com.ua##.bg-banner
 mmotop.ru##.bg-general
 agronom.top##.bg-gray
@@ -14870,6 +14871,7 @@ glavred.info,glavred.net##.main-partners
 protdt.ru##.main-post-content > p[style] > strong
 loveread.info##.main-right > div:not([class])[style^="margin-bottom:20px"]
 football.ua##.main-right > div[style^="width: 300px;"]
+ska.ru##.main-section-adfox
 salonav.com##.main-sidebar > .mom_custom_text ~ .mom_custom_text
 vedomosti-ua.com#?#.main-sidebar > .row > div:-abp-has(.active:-abp-contains(Реклама))
 autostat.ru##.mainBannerBlockCenter
@@ -26094,7 +26096,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||smaxim.*/player/stats.php?event=Init,|$image,~third-party
 @@||st.s5o.ru/source/_desktop/$xmlhttprequest,domain=sports.ru
 @@||stalker-mods.*/images/icons/*_|$image,~third-party,domain=stalker-mods.clan.su|stalker-mods.su
-@@||static-mon.yandex.net/static/main.js?pid=$xmlhttprequest,domain=reshu.by|reshuent.kz|reshuolymp.ru|sdamgia.ru|sports.ru
+@@||static-mon.yandex.net/static/main.js?pid=$xmlhttprequest,domain=reshu.by|reshuent.kz|sdamgia.ru|sports.ru
 @@||static.1tv.ru/player/*/banner.gif$domain=1tv.ru
 @@||static.baik.ru/static/js/apps-js/adv/google_advert.*.js|$script,domain=www.irk.ru
 @@||static.doubleclick.net/instream/ad_status.js|$xmlhttprequest,domain=tehnografi.com
@@ -26133,7 +26135,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||yandex.ru/ads/system/adsdk.js$script,domain=aniboom.one|api-video.khl.ru|gisher.org|karaoke.ru|kino.tricolor.tv|limehd.tv|m24.ru|peers.tv|player.mediavitrina.ru|ren.tv|rutube.ru
 @@||yandex.ru/ads/system/context.js|$domain=examenpdd.com|forum.qrz.ru|yvid.ru
 @@||yandex.ru/ads/system/context.js|$script,domain=tvzvezda.ru
-@@||yandex.ru/ads/system/context.js|$xmlhttprequest,domain=ai-next.ru|blackwot.ru|reshu.by|reshuent.kz|reshuolymp.ru|sdamgia.ru|sports.ru|strategium.ru
 @@||yarik-sat.com/reklama/*.js|$script,domain=yarik-sat.com
 @@||yastatic.net/safeframe-bundles/0.83/host.js|$script,domain=examenpdd.com
 @@||zx-pk.ru/abp/adblock_detector.js|$script,domain=zx-pk.ru
