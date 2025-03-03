@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Cd310npUY1YR54wIeqgIDQ
-! Version: 202503031001
+! Checksum: ZbArfHSTsj/20XkEOUXv3g
+! Version: 202503031031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Mar 2025 10:01 UTC
+! Last modified: 03 Mar 2025 10:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11908,6 +11908,7 @@ vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._
 vk.com,vk.ru#?##feed_rows > div[class^="feed_row"]:-abp-has(> [id^="post-"] > ._post_content .post_header_info [onmouseover*="AdsLight"])
 itop-gear.ru###fguru
 partarium.ru###filter-form a[href^="/redirect/"][target="_blank"]
+litres.ru###finishBuyBox
 city.ogo.ua###first-top-banner
 footballtransfer.com.ua,site-do.ru,tagaev.com###fixblock
 studopedia.net###fixcyber
@@ -12271,6 +12272,7 @@ hostingkartinok.com###partner
 hostingkartinok.com###partner-aside
 lux.fm###partner-block
 bash.news###partner-widget-mediametrics
+litres.ru###partnerLine
 footballua.tv###partner_title
 sibmama.info,sibmama.ru###partners
 dofiga.net###pbie_25
@@ -17125,6 +17127,7 @@ poker-wiki.ru##a.external[rel="nofollow"][href*="/go/?site="] > img[src$=".gif"]
 ria56.ru##a.gofollow[data-track]
 rivnepost.rv.ua##a.info[href][target="_blank"]
 tsargrad.tv##a.link-social-zen
+litres.ru##a.logo[href*="#buy_now_noreg"][target="_blank"]
 sportsdaily.ru##a.match-mini__heading-link > .match-mini__logo
 kinobaza.net##a.red
 www.ivi.ru##a.teaserImage[target="_blank"]
