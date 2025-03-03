@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HQEGxg7p95vR+1G9mllEuA
-! Version: 202503030601
+! Checksum: 4S10LA6JSycE0grU1TP6LQ
+! Version: 202503030611
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 Mar 2025 06:01 UTC
+! Last modified: 03 Mar 2025 06:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -9059,6 +9059,7 @@ _800x80_
 ://adn.*/zone/$popup
 ://ads.$popup,domain=~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
+?cf=ppd&r=$popup
 ! Commonly used popup scripts on movie/tv streaming sites
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
