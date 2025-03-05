@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: cZCCk/7unIzUq5KomcsrNw
-! Version: 202503051141
+! Checksum: nZlYOVOAQ4wiRf15qw+mtQ
+! Version: 202503051211
 ! Title: ABP filters
-! Last modified: 05 Mar 2025 11:41 UTC
+! Last modified: 05 Mar 2025 12:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1809,6 +1809,7 @@ cuevana3.*,pelisflixhd.art#$#abort-on-property-read decodeURI; abort-current-inl
 animeonline.ninja#$#override-property-read custom_ads_time null; abort-current-inline-script document.createElement script;
 pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
 cuevana.*,cuevana3.*,cuevana4.*,pelisflixhd.art#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
+zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! RM-5
