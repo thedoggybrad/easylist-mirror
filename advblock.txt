@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5cx2E0uK2W2kQN4y+CLF5Q
-! Version: 202503052221
+! Checksum: w5xznwkOVX4osKk8oaGk5w
+! Version: 202503052231
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Mar 2025 22:21 UTC
+! Last modified: 05 Mar 2025 22:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2115,11 +2115,13 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /widget-a-b.js
 /wp-content/imgrekl/*
 /wp-content/plugins/adsplacer_pro/*
+/wp-content/plugins/aw-bnrs/*
 /wp-content/plugins/distr-adv/*
 /wp-content/plugins/distr/*/distr-adv-
 /wp-content/plugins/flat_pm/*
 /wp-content/plugins/nativerent/static/content.js
 /wp-content/plugins/realbig-media/*
+/wp-content/plugins/wpsite-background-takeover*/js/wpsite_clickable.js$script
 /wp-json/adhelper/*
 /www/imgget/*$script
 /xhr_ab_block
@@ -16980,7 +16982,7 @@ sia.ru##[id*="banana"]
 allgosts.ru##[id*="baner"]
 lifenews.ru,lifenews78.ru,semestr.online,semestr.ru##[id*="banner"]
 hideme.ru##[id*="hidemead"]
-agroreview.com,iarex.ru,p-p.com.ua##[id*="redtram"]
+iarex.ru,p-p.com.ua##[id*="redtram"]
 mychords.net,polaremont.ru,stokvod.ru##[id*="teaser"]
 telek.top##[id*="wmg-"]
 livesport.ru##[id*="wow"]
@@ -17147,7 +17149,6 @@ rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[class^="ref-
 vc.ru##a[class^="sber-"]
 nachasi.com##a[class^="style_sublogo_"]
 cybersport.ru##a[class^="vkPlay"]
-agronews.ua,agroreview.com##a[data-bid]
 tulapressa.ru##a[data-href*="//dzen.ru/"]
 bombardir.ru##a[data-href*="://bmbrdr.ru/"]
 ixbt.com##a[data-menuitem="honor"]
@@ -18452,7 +18453,7 @@ xn--k1afadd0cwc.xn--p1ai##div[class^="adace"]
 cameralabs.org##div[class^="adaptivgoogle"]
 e-ink-reader.ru##div[class^="adb"]
 news.sportbox.ru##div[class^="adriver_"]
-agronews.ua,vlasti.net,winnote.ru##div[class^="adrotate"]
+vlasti.net,winnote.ru##div[class^="adrotate"]
 chernomorets.odessa.ua,moei.ru,shaiba.kz,x-kuzov.ru##div[class^="ads"]
 amoledo.com##div[class^="adsbanner"]
 inforesist.org##div[class^="adslot"]
@@ -20190,7 +20191,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /wiziter/*$domain=anypictures.ru|screenpost.ru
 /wnew.js$domain=constitutionrf.ru|stykrf.ru
 /wp-admin/admin-ajax.php|$xmlhttprequest,domain=avtozakony.ru|clubwindows.ru|commix.ru|moy-instrument.ru|mr-build.ru|pensioneram.info|prizvanie.su|vise.im
-/wp-content/plugins/*/wpsite_clickable.js$domain=agronews.ua|agroreview.com|growhow.in.ua
 /wp-content/plugins/custom-blocks/*$domain=alladvices.ru|boleznikrovi.com|diabet-med.com|oprostatit.ru|parazity.com|rodinkam.net|sdelalremont.ru|sustav.info|uroki-pitaniya.ru
 /wp-content/plugins/my-popup/$domain=ogorodnik-sadovod.ru
 /wp-content/plugins/smart-slider-$domain=1.zt.ua|kyivvlada.com.ua
@@ -20357,12 +20357,10 @@ igdz1.ru^$script,domain=igdz.ru
 ||agro-business.com.ua/*_adagency$script
 ||agro-ukraine.com/imgs/b-a-n-n-e-r-s/
 ||agrognom.ru/wp-content/*/1ez1e.min.js
-||agronews.ua/wp-content/uploads/*1920x1080$image
-||agronom.com.ua/wp-content/uploads/*_1200x1200$image
+||agronom.com.ua/wp-content/uploads/*1200*1200$image
 ||agronomy.com.ua/*/slick-slider/
 ||agronomy.com.ua/*_adagency
 ||agronomy.com.ua/images/pom_de_tere/
-||agroreview.com/wp-content/uploads/caos/*.js
 ||agroreview.com^*1920x1080
 ||agroxxi.ru/ajax/ajax_adagro.
 ||agsat.com.ua/beuty/
