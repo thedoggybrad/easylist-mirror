@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oRK1XxrUVph9QhMg9Pdafg
-! Version: 202503051101
+! Checksum: FEUm2c0YYKu5n13BFWYpXg
+! Version: 202503051121
 ! Title: EasyList Polish
-! Last modified: 05 Mar 2025 11:01 UTC
+! Last modified: 05 Mar 2025 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -257,7 +257,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||egorzow.pl^*-pzu_gorzow_
 ||ekologia.guru^*^seo.
 ||elubaczow.com^*^lprez.
-||emisja.contentstream.pl^$script,domain=innemedium.pl|superdania.pl|tojuzbylo.pl|tylkoastronomia.pl|tylkomedycyna.pl|tylkonauka.pl|tylkoprzyroda.pl|ulub.pl|zmianynaziemi.pl|zmianysolarne.pl
+||emisja.contentstream.pl^$script,domain=innemedium.pl|superdania.pl|tojuzbylo.pl|tylkoastronomia.pl|tylkomedycyna.pl|tylkonauka.pl|tylkoprzyroda.pl|ulub.pl|zmianynaziemi.pl
 ||eostroleka.pl^*^cache-
 ||esanok.pl/dodatki^
 ||esensja.pl^*^madbooks_
@@ -407,6 +407,8 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^reklama^$domain=112tychy.pl
+-bannery-$domain=globenergia.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2824,6 +2826,7 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+bejsment.com###widget_sp_image-47
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
