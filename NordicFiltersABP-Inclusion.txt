@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1GMzGDjotgAiyH0+s6zMKQ
-! Version: 202503061531
+! Checksum: fkszGTi7VEY/+L5F7JgE3A
+! Version: 202503061601
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 06 Mar 2025 15:31 UTC
+! Last modified: 06 Mar 2025 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -68349,6 +68349,7 @@ pigglywigglystores.com##.fp-item:has(.fp-tag-ad)
 slickdeals.net##.frontpageGrid__feedItem:has(.dealCardBadge--promoted)
 tumblr.com##.ge_yK:has(.hM19_)
 bestbuy.com##.generic-morpher:has(.spns-label)
+sainsburys.co.uk##.gridItem:has(.citrusAdproduct)
 fortune.com##.homepage:has(> div[id^="InStream"])
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.hrHZYT:has([data-testid="popoverTriggersponsoredLabel"])
 dollargeneral.com##.image__desktop-container:has([data-track-image*="|P&G|Gain|"])
@@ -69126,6 +69127,8 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+fiverr.com#?#.gig-card-layout:-abp-contains(Ad by)
+temu.com#?#.EKDT7a3v:-abp-contains(AD)
 property24.com#?#.p24_tileContainer:-abp-contains(Sponsored)
 shopee.sg#?#div[class="N_YeYe"]:has(> .shopee_ic:-abp-contains(Ad))
 shopee.sg#?#div[class="oMSmr0"]:has(> .shopee_ic:-abp-contains(Ad))
