@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3xkwBW7h5Y9aaUkEGa9Pxw
-! Version: 202503061121
+! Checksum: Dp/FAW56DUXJTZGVp9UUMQ
+! Version: 202503061131
 ! Title: EasyList without element hiding rules
-! Last modified: 06 Mar 2025 11:21 UTC
+! Last modified: 06 Mar 2025 11:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -40119,7 +40119,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
 @@||spankbang.com^*/prebid-ads.js$domain=spankbang.com
 ! Anti-Adblock
-@@://xhamster.*?v=$script,~third-party
+@@://xhamster.*.php$script,~third-party
 @@||gaybeeg.info^$generichide
 @@||milfzr.com^$generichide
 @@||rule34hentai.net^$generichide
