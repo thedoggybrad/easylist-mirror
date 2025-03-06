@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nAVo16hL16/Qpv2xtKgZqg
-! Version: 202503052351
+! Checksum: XZWXRKTZFmJCeeVxJEaj8A
+! Version: 202503060001
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 05 Mar 2025 23:51 UTC
+! Last modified: 06 Mar 2025 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -69093,6 +69093,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+property24.com#?#.p24_tileContainer:-abp-contains(Sponsored)
 shopee.sg#?#div[class="N_YeYe"]:has(> .shopee_ic:-abp-contains(Ad))
 shopee.sg#?#div[class="oMSmr0"]:has(> .shopee_ic:-abp-contains(Ad))
 perplexity.ai#?#.py-sm.group:-abp-contains(Sponsored)
