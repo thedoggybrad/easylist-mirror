@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: oYfVoTrAbhja5b19JiZPnQ
-! Version: 202503060051
+! Checksum: j0h20IrgJBuUpBl3VtS+cg
+! Version: 202503060111
 ! Title: ABP filters
-! Last modified: 06 Mar 2025 00:51 UTC
+! Last modified: 06 Mar 2025 01:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1752,7 +1752,7 @@ vsviti.com.ua#$#abort-on-property-read tdAnimationStack.init
 ! #CV-667
 empireg.ru#$#abort-current-inline-script Math zfgloaded
 ! #CV-697
-agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-current-inline-script Object.defineProperty rcBuf; prevent-listener DOMContentLoaded
+agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-current-inline-script Object.defineProperty rcBuf; prevent-listener DOMContentLoaded 'adId'
 ! CV-1364
 eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
 ! RM-115
