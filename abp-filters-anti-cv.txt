@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: WSK3briG4r6orwLRnxPnRw
-! Version: 202503060021
+! Checksum: 6S8+BwDzR8Qb3hzi2rU0yQ
+! Version: 202503060041
 ! Title: ABP filters
-! Last modified: 06 Mar 2025 00:21 UTC
+! Last modified: 06 Mar 2025 00:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -838,7 +838,7 @@ www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
 www.youtube.com##ytlr-banner-cta-renderer
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="ytlr-player__player-container"]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]';
 ! #CV-897
-agronews.ua,aegeanews.gr,batterypoweronline.com,centrocommercialevulcano.com,cieonline.co.uk,commsbusiness.co.uk,dailygrindonline.net,delo.bg,dynastyseries.com,fabmx1.com,fat-bike.com,fmj.co.uk,growhow.in.ua,localemagazine.com,loveourweddingmag.com,metaforespress.gr,myvalley.it,niestatystyczny.pl,primapaginamarsala.it,ringelnatz.net,schoolsweek.co.uk,sikkenscolore.it,sportbet.gr,stadtstudenten.de,stagemilk.com,tautasdziesmas.lv,thetoneking.com,toplickevesti.com,zeroradio.co.uk#$#abort-on-property-read wpsite_clickable_data
+aegeanews.gr,batterypoweronline.com,centrocommercialevulcano.com,cieonline.co.uk,commsbusiness.co.uk,dailygrindonline.net,delo.bg,dynastyseries.com,fabmx1.com,fat-bike.com,fmj.co.uk,growhow.in.ua,localemagazine.com,loveourweddingmag.com,metaforespress.gr,myvalley.it,niestatystyczny.pl,primapaginamarsala.it,ringelnatz.net,schoolsweek.co.uk,sikkenscolore.it,sportbet.gr,stadtstudenten.de,stagemilk.com,tautasdziesmas.lv,thetoneking.com,toplickevesti.com,zeroradio.co.uk#$#abort-on-property-read wpsite_clickable_data
 /wpsite-background-takeover*/js/wpsite_clickable.js$script,domain=agronews.ua|aegeanews.gr|batterypoweronline.com|brezovycukr.cz|centrocommercialevulcano.com|cieonline.co.uk|commsbusiness.co.uk|dailygrindonline.net|davincidiamondsslot.net|delo.bg|dynastyseries.com|fabmx1.com|fat-bike.com|fmj.co.uk|localemagazine.com|loveourweddingmag.com|metaforespress.gr|myvalley.it|niestatystyczny.pl|primapaginamarsala.it|ringelnatz.net|schoolsweek.co.uk|sikkenscolore.it|sportbet.gr|stadtstudenten.de|stagemilk.com|tautasdziesmas.lv|thetoneking.com|toplickevesti.com|zeroradio.co.uk
 ! #CV-899
 crunchyroll.com#$#json-prune 'value.media.ad_breaks'
@@ -1722,6 +1722,7 @@ partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
 comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaContextCb
 tornado.3dn.ru#$#abort-on-property-read wrapper.addEventListener
 kinoblin.ru,serialai.ru#$#prevent-listener mousedown pop.doEvent
+agronews.ua#$#prevent-listener DOMContentLoaded 'adId'
 ! Video ads
 yastatic.net#$#abort-on-property-read Object.prototype.vast
 cosmonova-broadcast.tv#$#override-property-read amodule.data false
