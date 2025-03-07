@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /Y7UDwn/txgq2gVj4Vok2g
-! Version: 202503070901
+! Checksum: nEivEmg1SgBGwd95OsZP/w
+! Version: 202503070911
 ! Title: EasyList without rules for adult sites
-! Last modified: 07 Mar 2025 09:01 UTC
+! Last modified: 07 Mar 2025 09:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -773,6 +773,8 @@ _reklama_$domain=~youtube.com
 ||online.*/promoredirect?key=
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
+://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
+://www.*.xyz/contents/*?h=$script,third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
 /ed/fol457.$script
@@ -45169,6 +45171,7 @@ browsershots.org#@#.advert_area
 ||88129513.xyz^
 ||88545539.xyz^
 ||89263907.xyz^
+||89296649.xyz^
 ||89407765.xyz^
 ||89598890.xyz^
 ||89871256.xyz^
@@ -54683,7 +54686,7 @@ club386.com##.block-30
 club386.com##.block-39
 megagames.com##.block-4
 club386.com##.block-41
-crash.net##.block-ad-manager
+crash.net,visordown.com##.block-ad-manager
 thebaltimorebanner.com##.block-ad-zone
 autocar.co.uk##.block-autocar-ads-lazyloaded-mpu2
 autocar.co.uk##.block-autocar-ads-mpu-flexible1
