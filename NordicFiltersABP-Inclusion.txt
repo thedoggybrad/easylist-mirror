@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7tqec5e2/rmL/llzFQUyDw
-! Version: 202503071041
+! Checksum: cgsZKj2usdTtz5JzmlFz1w
+! Version: 202503071021
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Mar 2025 10:41 UTC
+! Last modified: 07 Mar 2025 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8547,8 +8547,6 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
-! Filemoon
-?bd=ppd&r=$document
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
 ://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
@@ -64883,7 +64881,6 @@ getcomics.org##.getco-content_2
 flickr.com##.getty-search-view
 flickr.com##.getty-widget-view
 marketsfarm.com##.gfm-ad-network-ad
-law.cornell.edu##.gfs
 ganjingworld.com##.ggAdZone_gg-banner-ad_zone__wK3kF
 cometbird.com##.gg_250x250
 cornish-times.co.uk,farnhamherald.com,iomtoday.co.im##.ggzoWi
