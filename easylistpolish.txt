@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bJiKenRw2ypvef0axVDXag
-! Version: 202503071741
+! Checksum: 76B6DEPbEUZaPgs6i3+jHw
+! Version: 202503071751
 ! Title: EasyList Polish
-! Last modified: 07 Mar 2025 17:41 UTC
+! Last modified: 07 Mar 2025 17:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -309,6 +309,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||infokatowice.pl/wp-content/uploads/2025/01/1000x600-1-e1737087950658.png
 ||infokatowice.pl/wp-content/uploads/2025/01/LITWA_SPODEK_728x200.jpg
 ||infolwowek24.pl/serwis-moda-eOzone.png
+||infolwowek24.pl/wp-content/uploads/2019/02/GladiolaUkos-1-480x310.jpg
 ||infolwowek24.pl/wp-content/uploads/2019/02/Slajd1-2-500x700.jpg
 ||izachodniopomorskie.pl^*^Tanie_foto_
 ||kantorywalut.pl^*^ik_gif-
@@ -2099,6 +2100,7 @@ grojeckie24.pl##a:not([href^="http://grojeckie24.pl"]) > .imageblock-image
 perspektywy.pl##a:not([href^="https://perspektywy.pl"]) > img[src*="/banners/"]
 noweinfo.pl##a:not([href^="https://www.noweinfo.pl"]) > img[class*="wp-image-"]
 truckeronroad.com##a[aria-label*="banner"]
+lokalnyreporter.pl##a[aria-label="WSAP_001"]
 domyseniora.pl,przedszkola.edu.pl##a[class^="js-banery-"]
 tvwalbrzych.pl##a[class^="single_ad_"]
 podoslonami.pl##a[data-label="Reklama"]
@@ -2830,7 +2832,6 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-lokalnyreporter.pl##a[aria-label="WSAP_001"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
