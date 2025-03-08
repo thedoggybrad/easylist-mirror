@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OH4I/ZyE/d9zFAZLG4BbcA
-! Version: 202503080421
+! Checksum: d950XpYjUhAcsLcfx3ypVg
+! Version: 202503080431
 ! Title: Liste FR
-! Last modified: 08 Mar 2025 04:21 UTC
+! Last modified: 08 Mar 2025 04:31 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -13468,7 +13468,6 @@ millenium.gg###logo_droite
 centreimmo.com###logos-partenaires
 cdiscount.com###lpHeadlineMain.headlineWithoutLogo
 laposte.net###lpn_pub_main
-japscan.lol###main > .card:has(a[href*="/manga/?type="][href*="&content="][target="_blank"])
 lamanchelibre.fr###marketing_top
 hellokids.com###mask
 gulli.fr###masthead
@@ -14465,6 +14464,7 @@ guide-piscine.fr##[class^="regie_"]
 dl-protect.link,extreme-down.party,gktorrent.cz##[class^="trust"]
 reverso.net##[class^="vda-"]
 korben.info##[data-cfpa]
+cleanrider.com##[data-content="ad"]
 jeu.fr##[data-fallback-type="image"]
 tripadvisor.fr##[data-feed-reason="SPONSORED"]
 frandroid.com##[data-gtm-bic]
@@ -14847,6 +14847,7 @@ wiflix-catalogue.*,wiflix-hd.*,wiflix-pro.*,wiflixien.*##.sadst
 ##iframe[style="border: 0; width: 728px; height: 110px;"]
 ##iframe[style="border: 0; width: 970px; height: 110px;"]
 ! Filtres de propriété CSS pour Adblock Plus
+japscan.lol###main > .card:has(a[href*="/manga/?type="][href*="&content="][target="_blank"])
 planetegrandesecoles.com##.elementor-element:has(picture.attachment-full.size-full)
 auchan.fr##.hp-banner:has(.hp-banner__message-sponsored)
 frandroid.com##.is-hidden-mobile:has([class^="Billboard"])
@@ -14857,6 +14858,7 @@ nocibe.fr##.product-grid-column:has(.product-tile__sponsored)
 frandroid.com##.sticky-content:has([class^="HalfpageAd"])
 20min.ch#?#.clusterTop:-abp-has(.teaser:-abp-has(h3:-abp-contains(Paid Post)))
 2ememain.be#?#.hz-Listing--list-item:-abp-has(.hz-Listing-priority:-abp-contains(Pub au top))
+cleanrider.com##[class*="min-h-"]:has([id^="optidigital-ad"])
 fr.shopping.rakuten.com##[data-productid]:has([class^="style_sponsoredAds"])
 algerie-eco.com#?#.td_block_wrap:-abp-has(.block-title:-abp-contains(sponsorisés))
 aliexpress.com,aliexpress.us#?#._2FypS:-abp-has(._1rKqn:-abp-contains(/AD|Annonce|إعلان/))
