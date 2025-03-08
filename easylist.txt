@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202503081018
+! Version: 202503081007
 ! Title: EasyList
-! Last modified: 08 Mar 2025 10:18 UTC
+! Last modified: 08 Mar 2025 10:07 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -781,7 +781,6 @@ _reklama_$domain=~youtube.com
 /ad-shield/e/*$script,third-party
 ://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.xyz/contents/*?h=$script,third-party
-wss://www.*.xyz/ws^$third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
 /ed/fol457.$script
@@ -45254,7 +45253,6 @@ browsershots.org#@#.advert_area
 ||62842068.xyz^
 ||63715207.xyz^
 ||63801782.xyz^
-||64786087.xyz^
 ||65035033.xyz^
 ||65122038.xyz^
 ||656f1ba3.xyz^
@@ -59476,6 +59474,7 @@ techyv.com##.wpb_raw_code
 premiumtimesng.com##.wpb_raw_code > .wpb_wrapper
 ukutabs.com##.wpb_raw_html
 nationalfile.com##.wpb_wrapper > p
+foottheball.com##.wpb_wrapper.td_block_wrap.vc_raw_html.tdi_46
 coralspringstalk.com##.wpbdp-listings-widget-list
 tejanonation.net##.wpcnt
 americanfreepress.net,sashares.co.za##.wppopups-whole
