@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cY5HlSLKkbq7gZU1LRLStQ
-! Version: 202503080241
+! Checksum: p8hvrvx2N7Yi0eyYqOKMsA
+! Version: 202503080301
 ! Title: Liste FR
-! Last modified: 08 Mar 2025 02:41 UTC
+! Last modified: 08 Mar 2025 03:01 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -135,6 +135,7 @@
 /affiliate.js$domain=~mercari.com
 /affiliate.min.js
 /affiliates-landing-
+/affilizz.js
 /amp-ad-exit-
 /api.*/ads?
 /assets/adf-
@@ -920,6 +921,7 @@ _build=iclick-$popup
 ||affilinks.fr^$third-party
 ||affilipub.com^$third-party
 ||affility.com^$third-party
+||affilizz.com^$third-party
 ||afflight.biz^$third-party
 ||afftrack001.com^$third-party
 ||afilio.com.br^$third-party
@@ -9435,7 +9437,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||meilleurs-masters.com/images/habillage/
 ||meilleurs-masters.com/intertitiel/
 ||meilleurstreaminggratuit.com/cgi-bin/snippet.cgi?
-||melty.fr/wp-content/cache/min/1/affilizz.js
 ||memoireetvie.com^$subdocument
 ||mensuelautomobile.com/files/banners/
 ||mensup.fr/*/pub/
@@ -9709,6 +9710,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||rapeporn.name^$script
 ||rapghetto.com/uploads/res.jpg
 ||rapidgator.net/images/pics/
+||realite-virtuelle.com/wp-content/cache/min/1/pub.
 ||recette.supertoinette.com/150944/m/autopromo.jpg
 ||reclame.lequipement.fr^
 ||recreatisse.com/strumae/
@@ -13984,6 +13986,7 @@ le2minutes.com,senscritique.com##.habillage-right
 le2minutes.com##.habillage-top
 cbanque.com##.habpage
 envertetcontretous.fr##.halfpage
+realite-virtuelle.com##.halfpageAd
 refurbgeneration.com##.head_ebay
 avis-express.com,lnr-dz.com##.header-banner
 europe1.fr##.header-space
