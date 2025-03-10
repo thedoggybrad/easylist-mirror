@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sbaANRRuL+c6/GN+AAkoVA
-! Version: 202503101701
+! Checksum: jgRDlEhZw30yYd6TirTZVw
+! Version: 202503101711
 ! Title: EasyList without element hiding rules
-! Last modified: 10 Mar 2025 17:01 UTC
+! Last modified: 10 Mar 2025 17:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -777,9 +777,9 @@ _reklama_$domain=~youtube.com
 ?bd=ppd&r=$document
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
-!://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
-!://www.*.xyz/contents/*?h=$script,third-party
-!wss://www.*.xyz/ws^$third-party
+://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
+://www.*.xyz/contents/*?h=$script,third-party
+wss://www.*.xyz/ws^$third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
 /ed/fol457.$script
