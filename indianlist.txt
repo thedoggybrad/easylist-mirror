@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ycF4DcIJGQy4zAyyJBeRYw
-! Version: 202503111241
+! Checksum: gdGyWBVRyfqSd3Mhe5WVng
+! Version: 202503111251
 ! Title: IndianList
-! Last modified: 11 Mar 2025 12:41 UTC
+! Last modified: 11 Mar 2025 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3241,6 +3241,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||newsg24.com/uploadFile/advertise/
 ||newsgil.in/wp-content/uploads/2022/11/loan-
 ||newshaat.com/static/c1e/static/themes/1/89152/3590/images/real-eatate.jpg
+||newshaat.com^*/in-article-ad.jpg
 ||newsharpal.in/wp-content/uploads/2020/03/adv.jpg
 ||newsharpal.in^*/ITI-Website-Offer
 ||newshindustan.in/wp-content/uploads/2022/10/New-ad-696x966.jpg
@@ -8949,7 +8950,7 @@ indianewscentre.in#?#.fashion_technology_area div:-abp-has(> div > h2 span:-abp-
 indiannewsservice.net#?#.sidebar h2:-abp-contains(Advertisement)
 indiasamachar24.com#?#.widget:-abp-has(.widget-title > h4:-abp-contains(Advertise))
 indocanadiantimes.com#?#.block-title span:-abp-contains(Sponsored Ads)
-biharnewstv.in##ins[data-ad-channel]
+biharnewstv.in,dd24news.in##ins[data-ad-channel]
 mzamin.com##ins[id^="infostation-"]
 jalauntimessite.wordpress.com#?#.widget-title:-abp-contains(Advertisment)
 janadeshexpress.in#?#section.widget_text:-abp-has(div > h4.widget-title:-abp-contains(Advertisment))
