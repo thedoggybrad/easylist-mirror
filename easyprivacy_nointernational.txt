@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: B2zgZR4cNC1PjFVzZ9Gxlg
-! Version: 202503121221
+! Checksum: fhaUvuJUy4eMOyihiLPy4A
+! Version: 202503121231
 ! Title: EasyPrivacy without international filters
-! Last modified: 12 Mar 2025 12:21 UTC
+! Last modified: 12 Mar 2025 12:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -639,7 +639,7 @@
 /collector/v1/event
 /collector?report=
 /collectsysteminfo?
-/com.snowplowanalytics.snowplow/*
+/com.snowplowanalytics.snowplow/*$domain=~7plus.com.au
 /com_joomlawatch/img.php
 /common/analytics.js
 /common/ga.js
