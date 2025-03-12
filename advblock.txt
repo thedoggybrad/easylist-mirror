@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CdBY5Bo2vhP8O0uHYcV/zA
-! Version: 202503121651
+! Checksum: KFNcg1s8IQgyktwupiiCEw
+! Version: 202503121711
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Mar 2025 16:51 UTC
+! Last modified: 12 Mar 2025 17:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23985,6 +23985,8 @@ gazeta.ru##.rcmw-container
 championat.com##.recommender-block ~ .banner + div:not([class*="comments"])
 top100.rambler.ru##.rui-Snackbar-snackbar
 moslenta.ru##.sideColumn > div[class] > div[style^="margin-bottom:"] + div
+championat.com##.stat-widget__banner
+championat.com##.stat-widget__header
 lenta.ru##.topic-page__info ~ div
 lenta.ru##.yandex-games
 www.afisha.ru##[aria-label="Реклама"]
