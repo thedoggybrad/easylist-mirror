@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fLeKP/ruAan/iqz5EPWwcw
-! Version: 202503130731
+! Checksum: H4+dpNTD/W5j3rgvhKLugg
+! Version: 202503130741
 ! Title: EasyList Polish
-! Last modified: 13 Mar 2025 07:31 UTC
+! Last modified: 13 Mar 2025 07:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -106,7 +106,7 @@
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block.txt ***
 -290x150.$domain=tygodnikpiski.pl
 -ad-$domain=tuhiszpania.pl
--baner-$domain=budownictwo.co|firmy.meblarstwo.eu|gniezno24.com|ipulawy.pl|meblarskapolska.pl|meblosfera.pl|obiektysakralne.pl|panoramakutna.pl|radioostrowiec.pl|sadownictwo.com.pl|slupca.pl|tenismagazyn.pl|tkaninyobiciowe.eu|tkn24.pl|tygodnikpiski.pl
+-baner-$domain=budowlanematerialy.eu|budownictwo.co|firmy.meblarstwo.eu|gniezno24.com|ipulawy.pl|meblarskapolska.pl|meblosfera.pl|obiektysakralne.pl|panoramakutna.pl|radioostrowiec.pl|sadownictwo.com.pl|slupca.pl|tenismagazyn.pl|tkaninyobiciowe.eu|tkn24.pl|tygodnikpiski.pl
 -baner.$domain=blogprezesa.pl|crypto-trader.pl|ipulawy.pl|napoli24h.pl|przeclaw24.pl|tkn24.pl|wiadomosci.com|wirtualnyzgierz.pl|wolanie.info
 -baner_$domain=nolesnica.pl|nowawrzesnia.pl|polska-morska.pl
 -banery^$domain=przeclaw24.pl
@@ -339,6 +339,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||mazopolska.pl^*-300x150.
 ||mazopolska.pl^*^protech-baner
 ||mazury.info.pl^1logo^
+||meteogroup.pl/meteo/hptool/logo_meteogroup.png
 ||miastokolobrzeg.pl^*^brico
 ||mmarocks.pl^*^1342x178.
 ||modele.sklep.pl/images/banery^$image,domain=pfmrc.eu
@@ -418,7 +419,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
--baner-$domain=budowlanematerialy.eu
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -872,7 +872,7 @@ portalspozywczy.pl##.abc
 zycieczestochowy.pl##.abovenews
 mistrzowie.org##.abox-view-content
 24opole.pl##.acl_bd
-300polityka.pl,bazarek.net.pl,codziennypoznan.pl,debica.tv,dwadozera.pl,evertiq.pl,gazeo.pl,gazetaolsztynska.pl,imagazine.pl,interia.pl,jarock.pl,lublin112.pl,nurkowapolska.pl,pcworld.pl,pieniny24.pl,polsatnews.pl,polsatsport.pl,radiofm-online.com,samequizy.pl,stomil.olsztyn.pl,teleman.pl,termomodernizacja.pl,wirtualnepniewy.pl##.ad
+300polityka.pl,bazarek.net.pl,codziennypoznan.pl,debica.tv,dwadozera.pl,evertiq.pl,gazeo.pl,gazetaolsztynska.pl,imagazine.pl,interia.pl,jarock.pl,lublin112.pl,nurkowapolska.pl,pcworld.pl,pieniny24.pl,polsatnews.pl,polsatsport.pl,radiofm-online.com,samequizy.pl,stomil.olsztyn.pl,teleman.pl,termomodernizacja.pl,wiadomosciwedkarskie.com.pl,wirtualnepniewy.pl##.ad
 24jgora.pl,24wroclaw.pl,bp24.pl,ciechanowinaczej.pl,debica24.eu,e-wyszogrod.pl,egarwolin.pl,egorzow.pl,ekspresjaroslawski.pl,ewysmaz.pl,galopuje.pl,goral.info.pl,goral24.pl,iwawer.pl,kartuzy.info,ototorun.pl,pilaonline.pl,powiatowa.info,pulsgdanska.pl,tulegnica.pl,zambrow.org,zyciekalisza.pl,zyciesokolowa.pl##.ad--bill-top
 kazimierzdolny.pl##.ad--main
 dorzeczy.pl##.ad-aside
@@ -2845,7 +2845,6 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-wiadomosciwedkarskie.com.pl##.ad
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
