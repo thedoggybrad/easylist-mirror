@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: d8E1JGuo70wFLGG5fGvZEw
-! Version: 202503150331
+! Checksum: rUw9sX4UAPS7CgLRRKF+ew
+! Version: 202503150341
 ! Title: Liste FR
-! Last modified: 15 Mar 2025 03:31 UTC
+! Last modified: 15 Mar 2025 03:41 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -14740,8 +14740,10 @@ nocibe.fr##.product-grid-column:has(.product-tile__sponsored)
 frandroid.com##.sticky-content:has([class^="HalfpageAd"])
 20min.ch#?#.clusterTop:-abp-has(.teaser:-abp-has(h3:-abp-contains(Paid Post)))
 2ememain.be#?#.hz-Listing--list-item:-abp-has(.hz-Listing-priority:-abp-contains(Pub au top))
+boulanger.com##[class*="kamino"]:has(.product-list__product-sponsored)
 cleanrider.com##[class*="min-h-"]:has([id^="optidigital-ad"])
 fr.shopping.rakuten.com##[data-productid]:has([class^="style_sponsoredAds"])
+boulanger.com##[id*="kamino"]:has(.product-list__product-sponsored)
 algerie-eco.com#?#.td_block_wrap:-abp-has(.block-title:-abp-contains(sponsorisés))
 aliexpress.com,aliexpress.us#?#._2FypS:-abp-has(._1rKqn:-abp-contains(/AD|Annonce|إعلان/))
 aliexpress.com,aliexpress.us#?#.search-item-card-wrapper-gallery:-abp-has([class^="multi--ax"]:-abp-contains(/AD|Annonce|إعلان/))
