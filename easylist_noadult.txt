@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NrImhdQ8cr0M10o/k0o0Yg
-! Version: 202503161241
+! Checksum: AJ3lcWCJhc3gk2Kv0+Sksw
+! Version: 202503161251
 ! Title: EasyList without rules for adult sites
-! Last modified: 16 Mar 2025 12:41 UTC
+! Last modified: 16 Mar 2025 12:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -50938,7 +50938,9 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||cdn.streambeast.io/angular.js
 ||cdn77.org^$domain=pricebefore.com
 ||cdnads.geeksforgeeks.org^
+||cdnpk.net/freepik/images/creative?$domain=freepik.com
 ||cdnpk.net/sponsor/$domain=freepik.com
+||cdnpk.net/v2/images/search?$domain=freepik.com
 ||cdnpure.com/static/js/ads-
 ||celebjihad.com/celeb-jihad/pu_
 ||celebstoner.com/assets/components/bdlistings/uploads/
@@ -51093,6 +51095,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||free-webhosts.com/images/a/
 ||freebookspot.club/vernambanner.gif
 ||freedownloadmanager.org/js/achecker.js
+||freepik.com/sponsor/$domain=freepik.com
 ||freeworldgroup.com/banner
 ||freighter-prod01.narvar.com^$image
 ||funeraltimes.com/databaseimages/adv_
@@ -58283,6 +58286,7 @@ qwant.com##div[data-testid="heroTiles"]
 qwant.com##div[data-testid="homeTrendsContainer"] a[href^="https://api.qwant.com/v3/r/?u="]
 qwant.com##div[data-testid="pam.container"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
+freepik.com##div[data-testid="unicorn-banner"]
 forbes.com##div[data-testid^="fbs-ad"]
 sitepoint.com##div[data-unit-code]
 audi-sport.net##div[data-widget-key="Snack_Side_Menu_1"]
