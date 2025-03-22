@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MmsChOJszyJWG7tgbSo9uw
-! Version: 202503221511
+! Checksum: c+ghYb96aAAF+2HMGKGNaw
+! Version: 202503221521
 ! Title: EasyList without rules for adult sites
-! Last modified: 22 Mar 2025 15:11 UTC
+! Last modified: 22 Mar 2025 15:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -51668,6 +51668,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||spys.one/fpe.png
 ||srilankamirror.com/images/banners/
 ||srware.net/iron/assets/img/av/
+||ssl-images-amazon.com/images/S/apesafeframe/ape/sf/$script
 ||star-history.com/assets/sponsors/
 ||startpage.com/sp/adsense/
 ||static.ad.libimseti.cz^
@@ -55816,6 +55817,7 @@ kiryuu.id##.kln
 wantedinafrica.com##.kn-widget-banner
 karryon.com.au##.ko-ads-wrapper
 kvraudio.com##.kvrblockdynamic
+read.amazon.*##.kw-ads-ftue-container
 businessinsider.com##.l-ad
 legit.ng,tuko.co.ke##.l-adv-branding__top
 pdc.tv##.l-featured-bottom
@@ -59260,9 +59262,6 @@ amazon.*##div[id^="sp_detail"]
 amazon.*##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 amazon.*##span[cel_widget_id^="MAIN-loom-desktop-brand-footer-slot_hsa-id-CARDS-"]
 amazon.*##span[cel_widget_id^="MAIN-loom-desktop-top-slot_hsa-id-CARDS-"]
-! read.amazon - [class^="kw-ads-] breaks
-read.amazon.*###adsChromeBottom
-read.amazon.*##.kw-ads-ftue-container
 !
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.display-container
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.promoted-slider-wrapper
