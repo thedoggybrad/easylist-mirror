@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NE45/6tlf2vE6NPCVRt+1Q
-! Version: 202503241321
+! Checksum: 3PBpTY+CNVccr2Mrfb9r7A
+! Version: 202503241331
 ! Title: EasyList Polish
-! Last modified: 24 Mar 2025 13:21 UTC
+! Last modified: 24 Mar 2025 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -422,6 +422,9 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||video.onnetwork.tv^$script,domain=tvwalbrzych.pl
+||video.onnetwork.tv^$script,domain=piszanin.pl
+||video.onnetwork.tv^$script,domain=zyciezyrardowa.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
