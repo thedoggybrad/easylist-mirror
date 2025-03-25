@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xGADjOHlzug3fbVjETUAiw
-! Version: 202503252341
+! Checksum: 3hWupR/6RZJkZyvKqa0jqw
+! Version: 202503252351
 ! Title: EasyList without rules for adult sites
-! Last modified: 25 Mar 2025 23:41 UTC
+! Last modified: 25 Mar 2025 23:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -44179,7 +44179,6 @@ browsershots.org#@#.advert_area
 ||capacitygrid.com^$third-party
 ||caroda.io^$third-party
 ||casino-zilla.com^$third-party
-||cazamba.com^$third-party
 ||cb-content.com^$third-party
 ||cdn.mcnn.pl^$third-party
 ||cdn.perfdrive.com^$third-party
@@ -58606,7 +58605,6 @@ nltimes.nl##div[class^="r89-"]
 nationalmemo.com,spectrum.ieee.org,theodysseyonline.com##div[class^="rblad-"]
 windowsreport.com##div[class^="refmedprd"]
 windowsreport.com##div[class^="refmedprod"]
-staples.com##div[class^="sku-configurator__banner"]
 kijiji.ca##div[class^="sponsored-"]
 target.com##div[class^="styles__PubAd"]
 semafor.com##div[class^="styles_ad"]
@@ -59247,6 +59245,7 @@ wish.com##div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="Desig
 wish.com##div[class^="ProductTray__ProductStripItem-"]:has(div[class^="DesignSpec__TextSpecWrapper-"][color="#6B828F"][data-testid] + div[class^="DesignSpec__TextSpecWrapper-"][color="#6B828F"])
 virginradio.co.uk##div[class^="css-"]:has(> .ad-outline)
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
+staples.com##div[class^="sku-configurator__banner"]:has([aria-label="Sponsored Products"])
 cargurus.com##div[data-cg-ft="car-blade"]:has(div[data-cg-ft="sponsored-listing-badge"])
 abcnews.go.com##div[data-container="band"]:has(> div > div[data-box-type="fitt-adbox-thinbannerhome"])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
@@ -59296,6 +59295,7 @@ tripadvisor.*##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
 pushsquare.com##span:has-text(or Subscribe)
 fxempire.com##span[display="inline-block"]:has-text(Advertisement)
+staples.com#?#.side-by-side-carousel__carousel_container:-abp-contains(Sponsored Products)
 mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirrored.to/templates/mirrored/images/hosts/FilesDL.png"])
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])
