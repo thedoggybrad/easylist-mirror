@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RRXgWgh4CNsZuE9mAjvofg
-! Version: 202503251741
+! Checksum: 3mJ5uEM9HA0AdebtO1bHPw
+! Version: 202503251751
 ! Title: EasyList Polish
-! Last modified: 25 Mar 2025 17:41 UTC
+! Last modified: 25 Mar 2025 17:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -187,7 +187,7 @@
 ^Reklama-$domain=noworudzianin.pl
 ^reklama-$domain=tkn24.pl|transg.pl|tv-pelplin.pl
 ^reklama0_$domain=24ikp.pl
-^reklama^$domain=112tychy.pl
+^reklama^$domain=112tychy.pl|osowa24.pl
 ^reklama_$domain=24ikp.pl|greencanoe.pl|jaslo4u.pl|kazimierzdolny24.pl|konstancin.com|legitymizm.org|miedzyzdrojskie.info|tarnowiak.pl|tylkotorun.pl
 ^reklamowe^$domain=bolec.info
 ^reklamy-$domain=ipulawy.pl
@@ -323,6 +323,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||infoskierniewice.pl/wp-content/uploads/2025/02/energetyka-cieplna-skierniewice-min-420x420.webp
 ||ino-24.pl/wp-content/uploads/2020/08/Brytyjka-plecaki-inowroc%C5%82aw-300x75.png
 ||ino-24.pl/wp-content/uploads/2020/08/plecak-m%C4%99ski-300x240.jpg
+||ino-24.pl/wp-content/uploads/2020/08/plecaki-damskie-300x181.jpg
 ||izachodniopomorskie.pl^*^Tanie_foto_
 ||kantorywalut.pl^*^ik_gif-
 ||kcynia.info^*^rolnik-serwis2.
@@ -425,7 +426,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-^reklama^$domain=osowa24.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -516,6 +516,7 @@ hrubieszow.info###black-studio-tinymce-7
 telewizor.eu###block
 icyfrowypolsat.pl###block-10
 tarnobrzeg.info###block-11
+nowinylokalne.pl###block-14
 gloskoninski.pl###block-26
 gloskoninski.pl###block-30
 7dni.pila.pl###block-42
@@ -1858,7 +1859,7 @@ bialogardinfo.pl##.theiaStickySidebar .g-dyn
 odkryjpomorze.pl##.ticker-container
 wpolityce.pl##.tile--ad-tile
 bobasmiesiaca.pl,bydgoszcz.com,chojnakulturalnie.pl,cooltura24.co.uk,cosiedzieje.tv,dzienniknowy.pl,dziennikpowiatowy.pl,expresskaszebe.pl,faktykaliskie.info,gorlice.tv,gostynin24.pl,halogorlice.info,halorzeszow.pl,kk24.pl,kronikatygodnia.pl,malbork1.pl,nasztomaszow.pl,podkarpackahistoria.pl,radiotczew.pl,truso.tv,tuolawa.pl,tvmaster.eu,tvpolice.com.pl,tvsudecka.pl,tygodnik-krapkowicki.pl,zachodniopomorska.tv##.tipad_tag
-dziennikzwiazkowy.com,kk24.pl,kociewiak.pl,koscierzyna24.info,kronikatygodnia.pl,krosno112.pl,lokalnatelewizja.pl,olesnica24.com,portalwloclawek.pl,pzl24.pl,rzeszow-info.pl,supertydzien.pl,tvsudecka.pl,tvswietokrzyska.pl,wirtualnesuwalki.pl,zawszepomorze.pl##.tipad_tag + a
+dziennikzwiazkowy.com,kk24.pl,kociewiak.pl,koscierzyna24.info,kronikatygodnia.pl,krosno112.pl,lokalnatelewizja.pl,olesnica24.com,portalwloclawek.pl,pzl24.pl,rzeszow-info.pl,supertydzien.pl,tczewska.pl,tvsudecka.pl,tvswietokrzyska.pl,wirtualnesuwalki.pl,zawszepomorze.pl##.tipad_tag + a
 dziennikpowiatowy.pl,kronikatygodnia.pl,pzl24.pl##.tipad_tag + picture
 meblarskapolska.pl##.tm-promt-image
 audycje.tokfm.pl##.tok-advertisement
@@ -2024,7 +2025,7 @@ zyciezamoscia.pl##[class="widget zycie-widget clearfix"]
 itreseller.com.pl,prostozopolskiego.pl,tygodnikkrag.pl##[class^="a-single a-"]
 bydgoszczak.pl##[class^="adName_"]
 legionisci.com##[class^="adslot_news-banner"]
-ibemowo.pl,ibialoleka.pl,ibielany.pl,imokotow.pl,iochota.pl,ipragapolnoc.pl,ipragapoludnie.pl,irembertow.pl,isrodmiescie.pl,itargowek.pl,iursus.pl,iursynow.pl,iwawer.pl,iwesola.pl,iwilanow.pl,iwola.pl,izoliborz.pl,tulegnica.pl##[class^="adv__"]
+ibemowo.pl,ibialoleka.pl,ibielany.pl,imokotow.pl,iochota.pl,ipragapolnoc.pl,ipragapoludnie.pl,irembertow.pl,isrodmiescie.pl,itargowek.pl,iursus.pl,iursynow.pl,iwawer.pl,iwesola.pl,iwilanow.pl,iwola.pl,izoliborz.pl,trojmiejski24,tulegnica.pl##[class^="adv__"]
 ekoszalin.pl##[class^="advert"]
 radiozw.com.pl##[class^="angwp_"]
 interia.pl##[class^="article-body__ad-"]
@@ -2860,9 +2861,6 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-tczewska.pl##.tipad_tag + a
-nowinylokalne.pl###block-14
-trojmiejski24##[class^="adv__"]
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
