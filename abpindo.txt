@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r5llrRdPMgxZ44Ib7wApHg
-! Version: 202503261431
+! Checksum: nXnuTKyopniNYyd//777pg
+! Version: 202503261441
 ! Title: ABPindo
-! Last modified: 26 Mar 2025 14:31 UTC
+! Last modified: 26 Mar 2025 14:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 24 Mar 2025 14:39 UTC
+! Last modified: 26 Mar 2025 14:33 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -1359,6 +1359,7 @@ ceklist.id##.affcoups
 kompas.tv##.alert
 indoxtream.com##.aligncenter
 palingseru.com##.alignnone.size-large.wp-image-458
+serialmovieislami.com##.alignnormal
 saudinesia.id##.ane-iklan-billboard
 saudinesia.id##.ane-iklan-box
 saudinesia.id##.ane-iklan-box-paralax
@@ -1500,7 +1501,7 @@ bolasport.com##.cls-geniee
 bolasport.com,gridoto.com,motorplus-online.com,parapuan.co##.cls-outstream
 onlinemetro.id##.cls.code-block-center
 inidramaku.net##.cm-popup-modal
-carisinyal.com##.code-block
+carisinyal.com,serialmovieislami.com##.code-block
 tivipedia.com##.code-block-1.code-block
 tivipedia.com##.code-block-2.code-block
 tivipedia.com,windowsreport.com##.code-block-3.code-block
@@ -1711,8 +1712,8 @@ republika.co.id##.set-ads-468
 komikindo.pro##.setdah
 kazemanga.xyz##.sg-popup-builder-content
 oploverz.bz,oploverz.top##.sg-popup-content
-15.235.11.45,65.108.132.145##.sgpb-popup-dialog-main-div-wrapper
-65.108.132.145,oploverz.bz,oploverz.top##.sgpb-popup-overlay
+15.235.11.45,65.108.132.145,serialmovieislami.com##.sgpb-popup-dialog-main-div-wrapper
+65.108.132.145,oploverz.bz,oploverz.top,serialmovieislami.com##.sgpb-popup-overlay
 15.235.11.45##.sgpb-popup-overlay.sgpb-popup-overlay-19287.sgpb-theme-1-overlay
 terabox.app##.share-embed-container > .shadow
 doroni.me,doronime.id##.show.Popup
