@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: N/ACx2j18FTBZprgiuQK7g
-! Version: 202503261031
+! Checksum: +QexUqBORC4f2zxp98o9Iw
+! Version: 202503261041
 ! Title: EasyList without element hiding rules
-! Last modified: 26 Mar 2025 10:31 UTC
+! Last modified: 26 Mar 2025 10:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1273,6 +1273,7 @@ _800x80_
 /api/users?token=$popup
 /click?adv=$popup
 /gtm.js?$popup
+/iprp.php?$popup
 /jump/next.php?$popup
 /links/popad$popup
 /out?zoneId=$popup
@@ -1295,9 +1296,7 @@ _800x80_
 ://adn.*/zone/$popup
 ://ads.$popup,domain=~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
-=ppd&bdm=$popup
-=ppd&r=$popup
-=ppd&wtc=$popup
+=ppd&$popup,third-party
 ! Commonly used popup scripts on movie/tv streaming sites
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
