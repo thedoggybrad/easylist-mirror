@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WbycWEN6yG4vA1zF0mJgMQ
-! Version: 202503281031
+! Checksum: 89jc3IxPb1hUo09+iRSj6Q
+! Version: 202503281041
 ! Title: EasyPrivacy without international filters
-! Last modified: 28 Mar 2025 10:31 UTC
+! Last modified: 28 Mar 2025 10:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1454,6 +1454,7 @@
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
+/metrika.js?=
 /metrika/tag.js
 /mi/insite/*
 /microsoft.cognitiveservices.speech.sdk.bundle.js
@@ -6584,6 +6585,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||javhd.com/ascripts/gcu.js
 ||javhd.com/rstat
 ||javplayer.me/*/views^
+||javynow.com/ajax/access.php
 ||jetbluevacations.com/apis/v2-analytics/
 ||jfapiprod.optimonk.com^
 ||jiji.co.ke/tag_event
