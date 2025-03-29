@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: aI2sFsqpHGtljaCtKEGqMQ
-! Version: 202503290331
+! Checksum: AslCslHJ2qH2/QSWXXvvZQ
+! Version: 202503290341
 ! Title: EasyPrivacy without international filters
-! Last modified: 29 Mar 2025 03:31 UTC
+! Last modified: 29 Mar 2025 03:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2524,6 +2524,7 @@
 /view-tracking/*$image
 /view.gif?
 /view_stats.js.php
+/viewcount/record-page-view?
 /ViewCounter/*
 /viewerimpressions?
 /views_tracking/*
@@ -2717,7 +2718,7 @@
 ://collector.*/event
 ://elqtrk.
 ://fallback.*/collector
-://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
