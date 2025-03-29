@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M2cchW6GUlqtmg1P5R4HBw
-! Version: 202503282341
+! Checksum: rhvHhucpld2SCvNXVLPLHw
+! Version: 202503282351
 ! Title: EasyList without rules for adult sites
-! Last modified: 28 Mar 2025 23:41 UTC
+! Last modified: 28 Mar 2025 23:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59213,6 +59213,7 @@ niagarathisweek.com##.polarBlock:has(.polarAds)
 404media.co##.post__content > p:has(a[href^="https://srv.buysellads.com/"])
 404media.co##.post__content > p:has-text(This segment is a paid ad)
 myntra.com##.product-base:has(.product-waterMark)
+foodlion.com##.product-grid-cell:has(.flag_label--sponsored)
 douglas.*##.product-grid-column:has(.product-tile__sponsored)
 woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
 meijer.com##.product-grid__product:has(.product-tile__sponsored)
