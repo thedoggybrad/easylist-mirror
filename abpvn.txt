@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ooorl31SxqxjWq/0Upl02A
-! Version: 202504010501
+! Checksum: Iw3GrM7i7X0laZFLxYQB+A
+! Version: 202504010511
 ! Title: ABPVN List
-! Last modified: 01 Apr 2025 05:01 UTC
+! Last modified: 01 Apr 2025 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 01 Apr 2025 09:35:23 UTC+7
-! Diff-Path: patches/20250401093523228.patch#abpvn
+! Last modified: 01 Apr 2025 12:05:58 UTC+7
+! Diff-Path: patches/20250401120558419.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -192,8 +192,6 @@ $popup,domain=truyenfull.vision
 ||s2.truyentot.com^*.gif$image,domain=hhtq10.vip|hhtq3d.net|hhtq5.vip|hhvsub1.com
 ||server.zmedia.vn/static/$script
 ||sggp.org.vn/*banner
-||sharecode.vn/assets/images/thiet-ke-web-gia-re.jpg
-||sharecode.vn/assets/images/thiet-ke-website.jpg
 ||shope.ee^$popup,domain=blogtruyenmoi.com|cunghocvui.com|truyensextv.com
 ||sohuutritue.net.vn/files/qc/
 ||static.cdnno.com/storage/topbox/*.webp$image,domain=metruyencv.com
@@ -661,8 +659,6 @@ reatimes.vn##div[class^="adv-"]
 sachmoi.net##.boxzilla-bottom-right-container
 sachmoi.net##[href^="https://gotrackecom.info"]
 saostar.vn##.pc-bill
-sharecode.vn###myCarousel
-sharecode.vn##.banner-boder-zoom
 sieutamphim.com###scriptDiv
 soha.vn,gamek.vn##[id^="admzone"]
 sport5.vn,afamily.vn##.afw-topbanner
