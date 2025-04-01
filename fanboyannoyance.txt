@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504011110
+! Version: 202504011144
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Apr 2025 11:10 UTC
+! Last modified: 01 Apr 2025 11:44 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -23943,7 +23943,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-warning-modal--ribbon
 ##.cookie-warning-panel
 ##.cookie-warning-popup
-##.cookie-warning-wrapper
 ##.cookie-warning__overlay
 ##.cookie-warning__wrapper
 ##.cookie-warning_show
@@ -24251,7 +24250,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie__column
 ##.cookie__consent
 ##.cookie__container
-##.cookie__content
 ##.cookie__div
 ##.cookie__flex
 ##.cookie__float--container
@@ -24275,7 +24273,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie__warn__wrap
 ##.cookie__warning-messaging
 ##.cookie__window
-##.cookie__wrap
 ##.cookie__wrapper_noneuuk
 ##.cookie_accept_notebox
 ##.cookie_acceptance
@@ -45174,6 +45171,7 @@ tvgo.orange.pl###analyticsModal
 fitnessclubs4.pl,myfitnessplace.pl,zdrofit.pl,zdrofitzdrowemiejsce.pl###backdrop
 amarone.pl###bannerMSG
 codziennikfeministyczny.pl###bazinga-muffin-container
+helukabel.pl###bc-popup-container
 posilkiwchorobie.pl###blur
 alipaczka.pl###bottom-charm
 zgrzyt.info###box-polityka-pr
@@ -47351,6 +47349,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||files.bbci.co.uk^*/cookie-banner/$script,domain=bbc.co.uk
 @@||finnishdesignshop.fi^*/onetrust-consent$script,domain=finnishdesignshop.fi
 @@||fitnessfirst.upfit.de/wp-content/cache/min/209/cs/iubenda_cs.js$script,~third-party
+@@||forbo.com/scripts/cookieconsent.min.js$~third-party
 @@||fordblueadvantage.com/cars-for-sale/client/js/cookiebanner.$~third-party
 @@||fourseasons.com/alt/apps/fshr/shared/gdpr-banner.$~third-party
 @@||fourseasons.com/alt/fshr/shared/$~third-party
