@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nuFVgJU9zn/MT0mztKrWnQ
-! Version: 202504010741
+! Checksum: ezY4kqAQmBeiF2E0qgTA5g
+! Version: 202504010731
 ! Title: EasyList Polish
-! Last modified: 01 Apr 2025 07:41 UTC
+! Last modified: 01 Apr 2025 07:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -380,7 +380,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||poradnik-pacjenta.pl^*-rekl.
 ||portalmorski.pl^*^pmb^
 ||postimg.cc^$domain=pogonsportnet.pl
-||powiatowy.pl^*^cam2.
 ||prudnik24.pl^*^wypozyczalnia_gastronomiczna.
 ||ps3-hack.pl^*^buttons/VirtualFuture.
 ||radiosudety24.pl^*^sad^$image
@@ -434,6 +433,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||powiatowy.pl^*^cam2.
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -718,7 +718,7 @@ gazeta-mosina.pl###right .first
 tygodnik-krapkowicki.info###sbox-overlay
 tygodnik-krapkowicki.info###sbox-window
 franchising.pl###scContener
-info-ketrzyn24.pl,nowezyciepabianic.pl###secondary
+nowezyciepabianic.pl###secondary
 strefa.se,tkaninyobiciowe.eu###secondary [id^="media_image-"]
 polonia.laziska.pl###section2
 polonia.laziska.pl###section5
@@ -1894,7 +1894,6 @@ gazeta-mosina.pl##.topblock
 naszrynek.pl,portalwloclawek.pl##.toplayer
 mpolska24.pl##.tplAds
 tenpoznan.pl##.tprek
-cadblog.pl##.track-banner
 biegaj40minut.pl##.training-display
 synonimy.pl##.translation-badge
 slaskiesiemianowice.pl##.trzyreklamy
@@ -2156,7 +2155,7 @@ igrit.pl##a[href*="agropaksc"]
 linktopoland.com##a[href*="autoczescionline24.pl"]
 badaniaprenatalne.pl##a[href*="badamydzieci.pl"]
 badaniaprenatalne.pl##a[href*="badanienifty.pl"]
-e-kolo.pl,instalacjebudowlane.pl##a[href*="baner"]
+e-kolo.pl##a[href*="baner"]
 forum-bron.pl,forum.pasja-informatyki.pl,fresh-market.pl,gastrona.pl,gramatyka-angielska.info,hokej.net##a[href*="banner"]
 gastrona.pl##a[href*="bbelements"]
 gloswroclawia.pl##a[href*="brand.ceo"]
@@ -2877,6 +2876,8 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+cadblog.pl##.track-banner
+info-ketrzyn24.pl###secondary
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
