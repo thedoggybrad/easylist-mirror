@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Ykl2TLC9KuJsd3hNpltuBg
+! Checksum: Saic+lHK+Z4qOM0Fwbglcg
 ! Title: Easylist Cookie List
-! Updated: 2025-04-03 11:15 UTC
+! Updated: 2025-04-03 10:40 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -5985,6 +5985,7 @@
 ###gdpr-cookie-block
 ###gdpr-cookie-blocked-layer
 ###gdpr-cookie-consent
+###gdpr-cookie-consent-bar
 ###gdpr-cookie-consent-popup
 ###gdpr-cookie-disclaimer
 ###gdpr-cookie-footer
@@ -6029,6 +6030,7 @@
 ###gdpr-options
 ###gdpr-policy-navbar
 ###gdpr-pop
+###gdpr-popup
 ###gdpr-popup-container
 ###gdpr-privacy-strip
 ###gdpr-region
@@ -13132,6 +13134,7 @@
 ##.gdpr-policy-bar
 ##.gdpr-policy.toaster
 ##.gdpr-pop-over
+##.gdpr-popup
 ##.gdpr-popup-modal-class
 ##.gdpr-privacy-banner
 ##.gdpr-privacy-bar
@@ -13232,7 +13235,10 @@
 ##.gdprcookies-modal-section
 ##.gdprcookies-modal-wrapper
 ##.gdprcp-cookies-bar
+##.gdprfade
 ##.gdprfooter
+##.gdprmodal
+##.gdprmodal-backdrop
 ##.gdprpopup
 ##.gdprrhs
 ##.gdprsuite-cookie-bar-display
