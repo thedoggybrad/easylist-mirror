@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9fQPH3LmvO0E65yE3+Bssg
-! Version: 202504041711
+! Checksum: n8AfiHgrM5E0+80hPbt3Tg
+! Version: 202504041721
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Apr 2025 17:11 UTC
+! Last modified: 04 Apr 2025 17:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12962,6 +12962,7 @@ promigren.ru##.adp-block
 asiaplustj.info,news.tj##.adredirector
 cn.ru,ittour.com.ua##.adriver
 024.by,1927.kiev.ua,allnews.kz,bigpicture.ru,chatadelic.net,coderoad.ru,day.az,dumka.poltava.ua,euromd.com.ua,football-fun.ru,fotokto.ru,gagadget.com,gameme.eu,gotoshop.ua,gs.by,gsconto.com,hotzoom.net,icons8.ru,infoniac.ru,jooble.org,jooble.ua,kinoafisha.info,klubok.com,like-film.online,malenkiy.ru,mangalib.me,meta.ua,my-calend.ru,novostiplanety.ru,orl.ec,podrobnosti.ua,savevideo.me,scooter-remont.com,seasonvar24.com,sexytales.org,soccer.ru,sports.kz,takprosto.cc,timeout.ru,tvsezon.com,ura.news,world-knigi.ru##.ads
+24smi.org##.ads-headline
 tarkov-market.com##.ads-horiz
 orl.ec##.ads-inner-top
 wav-library.net##.ads-long-block
@@ -18956,10 +18957,10 @@ ku66.ru##div[id^="comp_"]
 mmo13.ru##div[id^="container"]
 site-do.ru#?#div[id^="content_text"] > center:-abp-has(a[href*="myrusakov.ru"])
 glavcom.ua##div[id^="corebanner"]
+game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id^="debil"]
 spletnik.ru##div[id^="desktop_content_side_banner"]
 spletnik.ru##div[id^="desktop_in_"]
 webdiana.ru##div[id^="diana_"]
-game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id^="dimisa"]
 fainaidea.com##div[id^="divFLRA"]
 delovoymir.biz##div[id^="dm_bnr"]
 bashskazki.ru##div[id^="eadvt_wrapper"]
@@ -24530,6 +24531,7 @@ dzen.ru##[aria-label^="Рекл"]
 dzen.ru##[data-testid="bottom-ad"]
 dzen.ru##[id*="-teaser"] > div[id]
 dzen.ru##a[href*="://t.mail.ru/redir/"]
+dzen.ru#?#article:-abp-has(> div[data-ad-type="direct"])
 dzen.ru#?#div:-abp-has(> .adv-skeleton___main)
 dzen.ru##div[class*="-top-ad-"]
 dzen.ru##div[class*="_rightAdWrapper"]
@@ -26051,6 +26053,7 @@ gbsmp.ru#@#img[width="728"][height="90"]
 !#detect.bookmark
 !
 101.ru,motogp-news.ru#@##advert-1
+24smi.org,gdz-raketa.ru,izi-invest.ru,kakoysegodnyaprazdnik.ru,leingpt.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#@#div[id^="yandex_rtb"]
 720video.me,bessporno.me,camsclips.biz,ebalovo.adult,ebalovo.porn,ebalovo.pro,lenkino.adult,pbembed.me,porno365.bingo,pornobit.mobi,pornobomba.click,pornobomba.vip,pornoham.me,pornomoll.red,porntn.com,private-records.com,ru-xvideos.me,russkoe21.com#@#.ads-iframe
 @@$xmlhttprequest,domain=player.3tv.im
 @@/adblock_detector.js$script,domain=forum.trainzup.net
@@ -26234,7 +26237,6 @@ daz3d.ru,trialkeys.ru#@#.advblock
 dl2kq.de#@##sponsor_ad
 drahelas.ru#@#.forumAd
 draug.ru,print-post.com#@##reklama
-gdz-raketa.ru,izi-invest.ru,kakoysegodnyaprazdnik.ru,leingpt.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#@#div[id^="yandex_rtb"]
 green-way.com.ua#@#.adWrapper
 iphones.ru#@##sponsorText
 kakoysegodnyaprazdnik.ru,mmo13.ru,no-steamserv.ru,vesti.ru#@#.adv
