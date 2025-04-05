@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tPYkfZ+H/TpsZFBMOpYX8w
-! Version: 202504051421
+! Checksum: qEXZpm8Nv0sxtxtoiqLr9w
+! Version: 202504051431
 ! Title: EasyList China
-! Last modified: 05 Apr 2025 14:21 UTC
+! Last modified: 05 Apr 2025 14:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -17204,7 +17204,9 @@ _rony.js$script,third-party
 _vwnrsbjs?
 _vwisbjs?
 .*yydstxt178.com/js/html
-.*yydstxt178.com/js/cdn.js
+.*yydstxt178.com/js/cdn.
+||banzhu33333.net/js/cdn.
+||banzhu33333.net/js/html
 !
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $csp=script-src 'self' * 'unsafe-inline',domain=1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|sthuojia.net|zk01.net
