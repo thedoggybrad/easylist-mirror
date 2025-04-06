@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Wx2Bt281COZ1ZZOlhdXvfg
-! Version: 202504061111
+! Checksum: Zz5a3UZ/sbftZ9S43UKdfA
+! Version: 202504061121
 ! Title: IndianList
-! Last modified: 06 Apr 2025 11:11 UTC
+! Last modified: 06 Apr 2025 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2091,7 +2091,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||filmybuzz.com^*/new-banner
 ||financialviews.in/storage/uploads/admin/ads/
 ||firstlookbihar.in/images/0.jpg
-||focusharyana.in/wp-content/uploads/2024/07/A4-Mag-Ad-SOI7_page-0001.jpg
+||focusharyana.in/wp-content/uploads/2025/01/JAN-2025-A4-Mag-Ad-SOI-1.png
 ||foodchannel.com^$third-party,domain=sameera.co.in
 ||framework.dreamscape.cloud/design_framework/images/crazy/affiliates/$third-party
 ||gadhsamvedna.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-18-at-11.32.02-AM.jpeg
@@ -8022,6 +8022,7 @@ uniquesamay.com##.widget_media_image .size-full
 bundelkhandsamachar.com,shramikmantr.com##.widget_media_image figure
 lekhajokhanews.com##.widget_media_image img:not([src*="nocs.png"])
 newszonebd.com##.widget_media_image:has(:is(ins,a[target="_blank"]))
+hollywoodkhabar.com##.widget_media_image:not(#block-23)
 khabarcgnews.com##.widget_media_image:not(#block-245)
 newspagebd.com##.widget_media_image:not(#block-33)
 smartindiadial.com##.widget_media_image:not(#block-6)
@@ -8409,7 +8410,6 @@ haryanaekhabar.com##a[rel*="sponsored"]
 sylheterjanapad.tv##a[target="_blank"] > img
 ajkerarban.com##a[target="_blank"] > img[style="width:100%"]:not([src*="SAVE_20240509_124038.jpg"])
 abitfar.com,bizmandu.com,notunalo24.com,shubhoprotidin24.com,weeklybangladeshusa.com##a[target="_blank"] img
-hollywoodkhabar.com##a[target="_blank"] img:not([src*="Screenshot_2022-11-22_at_10_43_32_PM.png"])
 bankingkhabar.com##a[target="_blank"] img:not([src*="icons"])
 bharatiyadigitalnews.in##a[target="_blank"] img:only-child
 ichchhakamananews.com##a[target="_blank"] img[alt="images"]
