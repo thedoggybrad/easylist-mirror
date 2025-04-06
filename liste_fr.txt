@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2UgdGSM7pT57FZ1CKIqt6w
-! Version: 202504061731
+! Checksum: L/AwTq+OsaMKJc5aBvodsA
+! Version: 202504061741
 ! Title: Liste FR
-! Last modified: 06 Apr 2025 17:31 UTC
+! Last modified: 06 Apr 2025 17:41 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -12192,6 +12192,9 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ##a[href*="://xat.com/"]
 ##a[href*="://xmediaserve.com/"]
 ##a[href*="://yotefiles.com/"]
+##a[href*="?bz=160*600"] > img[src*=".alicdn.com/"]
+##a[href*="?bz=300*250"] > img[src*=".alicdn.com/"]
+##a[href*="?bz=725*90"] > img[src*=".alicdn.com/"]
 ##a[href*="adshostnet.com/"]
 ##a[href*="aozoiekopoaka.shop/"]
 ##a[href*="digadser.com/"]
