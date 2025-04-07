@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6vzW9E6QqMm9k5muRPXU3g
-! Version: 202504071601
+! Checksum: E1J1F6WKsmm/siPRL0Rahg
+! Version: 202504071611
 ! Title: ABPVN List
-! Last modified: 07 Apr 2025 16:01 UTC
+! Last modified: 07 Apr 2025 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 06 Apr 2025 23:05:22 UTC+7
-! Diff-Path: patches/20250406230522512.patch#abpvn
+! Last modified: 07 Apr 2025 23:06:16 UTC+7
+! Diff-Path: patches/20250407230616780.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -55,7 +55,7 @@ $popup,domain=truyenfull.vision
 /lv/esnk/*$script
 /newchill/*gif$image
 /polyad.
-/pop.js$script,domain=motchill.fit|ohaytv.id
+/pop.js$script,domain=motchill.fit|ohaytv.org
 /popunder7.
 /qcao/*$domain=~thegioididong.com
 /quang%20cao/*
