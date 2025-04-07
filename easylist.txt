@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504071155
+! Version: 202504071203
 ! Title: EasyList
-! Last modified: 07 Apr 2025 11:55 UTC
+! Last modified: 07 Apr 2025 12:03 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -53775,6 +53775,7 @@ ip-tracker.org###rekl
 tapatalk.com###relatedblogbar
 plurk.com###resp_banner_ads
 homedepot.com###revjet_container
+boots.com###richRelevanceContainer
 10minutemail.net,eel.surf7.net.my###right
 msguides.com###right-bottom-camp
 comicbookrealm.com###right-rail > .module
@@ -59538,6 +59539,7 @@ scribd.com###sidebar > div:has(> div > [data-e2e^="dismissible-ad-header"])
 bbc.com###sticky-mpu:has(.dotcom-ad-inner)
 gamereactor.*###videoContainer:has(> [id^="videoContent-videoad-"])
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
+kayak.com##.CGMG:has(.CGMG-logo-ad-wrapper)
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 sbs.com.au##.MuiBox-root:has(> .desktop-ads)
 luxa.org##.MuiContainer-root:has(> ins.adsbygoogle)
