@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7wEAgMVqT4I/p2bt66T8OA
-! Version: 202504091741
+! Checksum: +ABIjRjxDmTJm8DTAOLTvw
+! Version: 202504091751
 ! Title: EasyList Polish
-! Last modified: 09 Apr 2025 17:41 UTC
+! Last modified: 09 Apr 2025 17:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -110,7 +110,7 @@
 -baner.$domain=blogprezesa.pl|crypto-trader.pl|ipulawy.pl|napoli24h.pl|przeclaw24.pl|tkn24.pl|wiadomosci.com|wirtualnyzgierz.pl|wolanie.info
 -baner_$domain=nolesnica.pl|nowawrzesnia.pl|polska-morska.pl
 -banery^$domain=przeclaw24.pl
--banner-$domain=iknurow.pl|itvpiaseczno.pl|linia.com.pl|longevitas.pl|mlecznepodroze.pl|motocykle125.pl|olawa24.pl|pokonajlysienie.com|swiatczytnikow.pl|swiatoze.pl|techsetter.pl|tenisbydawid.pl|tkaninyobiciowe.eu|tucholanin.pl|uavo.com.pl|weterynarianews.pl|wirlandii.pl|ww-model.pl|zycieczestochowy.pl
+-banner-$domain=grapplerinfo.pl|iknurow.pl|itvpiaseczno.pl|linia.com.pl|longevitas.pl|mlecznepodroze.pl|motocykle125.pl|olawa24.pl|pokonajlysienie.com|swiatczytnikow.pl|swiatoze.pl|techsetter.pl|tenisbydawid.pl|tkaninyobiciowe.eu|tucholanin.pl|uavo.com.pl|weterynarianews.pl|wirlandii.pl|ww-model.pl|zycieczestochowy.pl
 -banner1.$domain=tu.swinoujscie.pl
 -bannery-$domain=bogaty.men|globenergia.pl|zarobmy.se
 -fb-baner-$domain=starosadeckie.info
@@ -334,6 +334,7 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||instalacjebudowlane.pl/nowe/3025/3025-SAS-XI-2024.jpg
 ||instalacjebudowlane.pl/obrazki4/nibco_220x120_II_2021.jpg
 ||iochota.pl/static/files/inline_images/21/inline__1243885_1446.jpg
+||irenakuczynska.pl/wp-content/uploads/2022/04/Banerek-1.png
 ||izachodniopomorskie.pl^*^Tanie_foto_
 ||kantorywalut.pl^*^ik_gif-
 ||kcynia.info^*^rolnik-serwis2.
@@ -437,7 +438,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
--banner-$domain=grapplerinfo.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -743,6 +743,7 @@ radomsport.pl###skyscraper
 radomnews.pl###skyscraper2
 buduj-remontuj-urzadzaj.pl,katalog.ospi.pl,lekarze-gabinety.pl,maksymalnie.pl,masztu.pl,miejskieinfo.pl,moto-oto.pl,ogloszenia-nieruchomosci.info,oto-slub.pl,waszdzienpodniu.pl,wkatalog.pl###slider
 zyciesokolowa.pl###slider--carousel--banners
+naszesudety.pl###slider-1
 naszesudety.pl###slider2
 nocoty.pl###slider300Wrapper
 legnica.fm###sliderbanner1
@@ -1442,6 +1443,7 @@ muzyczneradio.pl##.idBanner4
 salon24.pl##.idsl
 zalukaj.cc##.iii > #aab
 iloveslubice.pl##.ilove-2023-glowna-przed-zawartoscia-top
+iloveslubice.pl##.ilove-nowa-8
 informacja.wroclaw.pl##.image-slider
 zycie.pl##.images.left-dd
 tubalecznej.pl##.img-fluid
@@ -2092,6 +2094,7 @@ urania.edu.pl##[id*="reklama"]
 zyciebytomskie.pl##[id^="ad"]
 gazeta.pl##[id^="adUnit-"]
 gazeta.pl##[id^="ads"]
+tulodz.pl##[id^="autoAd"]
 plotek.pl##[id^="banC"]
 eglos.pl##[id^="baner"]
 eostroleka.pl##[id^="baner_A_"]
@@ -2884,9 +2887,6 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-tulodz.pl##[id^="autoAd"]
-iloveslubice.pl##.ilove-nowa-8
-naszesudety.pl###slider-1
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
