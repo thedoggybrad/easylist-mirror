@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vjFyqpmkDcP3yXfmU+19Yg
-! Version: 202504091631
+! Checksum: R0f/4hsGYaPpS/V+TBTn+w
+! Version: 202504091641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Apr 2025 16:31 UTC
+! Last modified: 09 Apr 2025 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23324,6 +23324,7 @@ drive2.ru##[data-sticky-adtune]
 drive2.ru##[data-test="AdKebabAndLabel--adLabelContent"]
 dzen.ru,liveinternet.ru##[data-wrapper]
 dzen.ru##[data_name]
+~dzen.ru##[href^="https://dzen.ru/"]
 vk.com,vk.ru##[id^="post-"] > ._post_content > :only-child
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[role="banner"] > .s-header-extra + div[class]
 livejournal.com#?#a:-abp-has(span:-abp-contains(Реклама))
