@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BL2+su4uJagGKZCvooEpRw
-! Version: 202504101151
+! Checksum: oYEK3gG3f324sIrBNtuO3g
+! Version: 202504101141
 ! Title: EasyList without element hiding rules
-! Last modified: 10 Apr 2025 11:51 UTC
+! Last modified: 10 Apr 2025 11:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -509,6 +509,7 @@
 /partnerbanner.$~xmlhttprequest,domain=~toltech.cn
 /partners/ads/*$image
 /peel.php?$script
+/peel_ads.js$script
 /peelads/*$script
 /pfe/current/*$third-party
 /phpads/*$script
