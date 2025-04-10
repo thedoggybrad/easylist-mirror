@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aoGk0bZrYBHEdEI3gu51lw
-! Version: 202504102211
+! Checksum: eajToZL44+saz2dUUiyRHg
+! Version: 202504102221
 ! Title: EasyList without rules for adult sites
-! Last modified: 10 Apr 2025 22:11 UTC
+! Last modified: 10 Apr 2025 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -49285,6 +49285,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||abcnews.com/assets/js/adCallOverride.js
 ||aboutmyarea.co.uk/images/imgstore/
 ||absoluteanime.com/!bin/skin3/ads/
+||acs.woolworths.com.au^
 ||ad.animehub.ac^
 ||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ||ad.imp.joins.com^
@@ -56093,6 +56094,8 @@ greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid=
 forbes.com##[data-testid="locked-top-ad-container"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 you.com##[data-testid="microsoft-ads"]
+bedbathandbeyond.com##[data-testid="newArrivals"]
+bedbathandbeyond.com##[data-testid="ospRecommendations"]
 washingtonpost.com##[data-testid="outbrain"]
 sportingnews.com##[data-testid="outbrain-block"]
 washingtonpost.com##[data-testid="placeholder-box"]
@@ -57184,7 +57187,6 @@ niagarathisweek.com##.polarBlock:has(.polarAds)
 404media.co##.post__content > p:has(a[href^="https://srv.buysellads.com/"])
 404media.co##.post__content > p:has-text(This segment is a paid ad)
 myntra.com##.product-base:has(.product-waterMark)
-foodlion.com##.product-grid-cell:has(.flag_label--sponsored)
 douglas.*##.product-grid-column:has(.product-tile__sponsored)
 woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
 meijer.com##.product-grid__product:has(.product-tile__sponsored)
@@ -57276,7 +57278,6 @@ etsy.com##[data-page-type="listing_page_similar_listings_grid"]:has([id^="ad-lis
 etsy.com##[data-page-type="listing_page_similar_listings_row"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="market"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
-giantfood.com,giantfoodstores.com,martinsfoods.com##[data-product-id]:has(.flag_label--sponsored)
 engadget.com##[data-test="top-ad"]
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
@@ -57364,6 +57365,7 @@ nicelocal.com##div[style="min-height: 90px;"]:has(iframe[id^="google_ads_"])
 robtex.com##div[style]:has(> ins.adsbygoogle[data-ad-slot])
 tartaria-faucet.net##div[style^="display"]:has([src^="https://multiwall-ads.shop/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
+giantfood.com,giantfoodstores.com,martinsfoods.com#?#[data-product-id]:-abp-contains(Sponsored)
 nex-software.com##h4:has(a[href$="/reimage"])
 streeteasy.com##li [class^="ListingCard-module"]:has([class*="sponsoredTag"])
 walmart.*##li.items-center:has(div[data-ad-component-type="wpa-tile"])
