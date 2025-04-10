@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: snie5Ds/yX2TXNGc2WDTEg
+! Checksum: OIicCzFDCulWtWj3S2yKjQ
 ! Title: Easylist Cookie List
-! Updated: 2025-04-09 21:15 UTC
+! Updated: 2025-04-10 01:38 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -975,7 +975,6 @@
 /fp/top_fp.
 ! https://github.com/AdguardTeam/AdguardFilters/blob/master/AnnoyancesFilter/sections/cookies_specific.txt#L53
 /pp-t-a-c.js
-!------------------------General element hiding rules-------------------------!
 ! easylist_cookie_general_hide.txt
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -16665,7 +16664,6 @@
 ##.rcc-panel
 ##.recocliv2
 ##.show.cp-wrap
-!-------------------------Third-party blocking rules--------------------------!
 ! easylist_cookie_thirdparty.txt
 ||acconsento.click^$third-party
 ||akamaihd.net/cpmt/
@@ -16883,7 +16881,6 @@
 ||privacy-mgmt.com^$domain=anisearch.com|anisearch.de|anisearch.es|anisearch.fr|anisearch.it|anisearch.jp|consent-manager.ft.com|economist.com|idealo.co.uk|marketwatch.com|popsci.com|startsiden.no|sussexexpress.co.uk|taz.de|wsj.com
 ! Consent Trackers
 ||opencmp.net^$script,third-party
-!--------------------------Specific blocking filters--------------------------!
 ! easylist_cookie_specific_block.txt
 /ccpa_iframe?$domain=dropbox.com
 /ppp/js/permission-client$domain=hilfe.gmx.net|mein.web.de|meinaccount.gmx.net
@@ -17053,7 +17050,6 @@
 ||cookiepro.com^$domain=urbandictionary.com
 ! fundingchoicesmessages (consents)
 ||fundingchoicesmessages.google.com^
-!------------------------Specific element hiding rules------------------------!
 ! easylist_cookie_specific_hide.txt
 lyrath.com###ACClayerBackground
 adoc.pub###ADOCPUB_cookie_boxx
@@ -20754,7 +20750,6 @@ tiktok.com##tiktok-cookie-banner
 globalblue.com,globalblue.ru##.gbnew-cookie-bar
 ! Include ubO specific
 !#include easylist_cookie_specific_uBO.txt
-!------------------------Specific ABP/uBO rules ------------------------!
 ! easylist_cookie_specific_ABP.txt
 !#if ext_abp
 minhaconexao.com.br#?#section[id][class]:-abp-has(:scope > div[class] > button[class][onclick^="onClickCookiesBannerWeb"])
@@ -20795,7 +20790,6 @@ d-power-modellbau.com,kreuzfahrten.de,modellbau-metz.com,zorgzaam010.nl#@#div.co
 zorgzaam010.nl#@#div.cookie-notice-wrapper
 cdenv.be#@#div.cookieconsent
 !#endif
-!------------------------Rules for international sites------------------------!
 ! easylist_cookie_international_specific_hide.txt
 ! ---------- German ----------
 !
@@ -24300,7 +24294,6 @@ ants.vn##.sg-popup-content
 !
 ! ---------- Ukrainian ----------
 ||consent.themeteocompany.com^
-!---------------------------------Whitelists----------------------------------!
 ! easylist_cookie_allowlist_general_hide.txt
 cera.coop#@##CookieBanner
 elkjop.no,fdm-travel.dk,landkreis-kelheim.de,power.no,skousen.dk,skousen.no,whiteaway.com,whiteaway.no,whiteaway.se#@##CookieConsent
