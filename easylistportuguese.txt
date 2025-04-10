@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gQ8LTqVEikGTLzsuN+5i9A
-! Version: 202504101331
+! Checksum: LqMM5xvGWiQTvQKL/MtBAA
+! Version: 202504101341
 ! Title: EasyList Portuguese
-! Last modified: 10 Apr 2025 13:31 UTC
+! Last modified: 10 Apr 2025 13:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -209,6 +209,7 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||r4you.co^$third-party
 ||simpleads.com.br^$third-party
 ||solution.coupons^$third-party
+||upeex.com.br^$third-party
 ! *** easylistportuguese:easylistportuguese/easylistportuguese_adservers_popup.txt ***
 ||adspublicidades.agency^$popup
 ! *** easylistportuguese:easylistportuguese_adult/adult_adservers.txt ***
@@ -1135,6 +1136,7 @@ blogdoanderson.com##img[width="623"][height="105"]
 atoananet.com.br,culturadoria.com.br,politicosdosuldabahia.com.br##img[width="728"]
 futebolatino.lance.com.br##img[width="940"][height="150"]
 anitube.biz##ins[style*="width:300px;height:250px;"]
+portaldohost.com.br##li > a[href^="https://portaldohost.com.br/index.php?app=core&module=system&controller=redirect&do=advertisement&ad="]
 ! :has()
 gauchazh.clicrbs.com.br##.flex.h-full.items-center:has(.bg-ad-placeholder)
 tavernaderivia.com.br##.ig_widget:has(a[href^="https://amzn.to/"])
