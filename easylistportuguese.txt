@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5rL2lMN1huQfr4/9y5CbNw
-! Version: 202504112151
+! Checksum: TxscsQMUn3lWF2LZEeKsBQ
+! Version: 202504112201
 ! Title: EasyList Portuguese
-! Last modified: 11 Apr 2025 21:51 UTC
+! Last modified: 11 Apr 2025 22:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1143,6 +1143,7 @@ tavernaderivia.com.br##.ig_widget:has(a[href^="https://amzn.to/"])
 tavernaderivia.com.br##.ig_widget:has(a[href^="https://www.amazon."][href*="tag="])
 olx.com.br##.olx-ad-card:has([aria-label="Impulsionado"])
 mercadolivre.com.br##.ui-recommendations-carousel-wrapper-ref:has(a[rel="nofollow, sponsored"])
+mercadolivre.com.br##.ui-search-layout__item:has(.poly-component__ads-promotions)
 mundi.com.br##[id^="inline-"]:has(.NAnQ-ad-badge)
 reclameaqui.com.br##div[class*="h-[240px]"]:has(div[role="banner"])
 reclameaqui.com.br##div[class^="go"]:has( > div > div[id^="div-gpt-ad"])
