@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: NB0OWL2F7cPcLQnFszJglQ
-! Version: 202504110931
+! Checksum: +jksLOE24/aFC7ZClmGt3Q
+! Version: 202504110941
 ! Title: ABP filters
-! Last modified: 11 Apr 2025 09:31 UTC
+! Last modified: 11 Apr 2025 09:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -563,7 +563,7 @@ woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-produ
 ! CV-1364
 ||html-load.com^$domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
-sourceforge.net,winfuture.de#$#override-property-read Node.prototype.appendChild noopFunc; override-property-read Blob noopFunc;
+winfuture.de#$#override-property-read Node.prototype.appendChild noopFunc; override-property-read Blob noopFunc;
 ! RM-42
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 ! RM-114
