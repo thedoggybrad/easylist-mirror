@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2FSGb+G8zoSB4b3/Xc/3CQ
-! Version: 202504121921
+! Checksum: WnjtYvHcGPQfGKJRv/BF3g
+! Version: 202504121931
 ! Title: EasyPrivacy without international filters
-! Last modified: 12 Apr 2025 19:21 UTC
+! Last modified: 12 Apr 2025 19:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -52,6 +52,7 @@
 .jp/static/js/track.js
 .net/l.gif?
 .no/app/aas/a
+.outbound-links.pageview-props.revenue.tagged-events.js
 .pageview-props.js
 .php?action=browse&
 .php?action_name=
@@ -3207,6 +3208,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appspot.com/stats?
 ||appspot.com/take?
 ||appspot.com/track-analytics-event
+||aramuz.net/frontapi/*/analyticsEvent?
 ||arc.pub/clavis/training/events
 ||arclk.net/trax?
 ||arcpublishing.com/beacon
@@ -3306,6 +3308,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bet365.de/Members/*&affiliate=$subdocument,third-party
 ||betano.de^*?btag=$subdocument,third-party
 ||bhphotovideo.com/imp/
+||bi-metrics.aramuz.net^
 ||bi.heyloyalty.com^
 ||bi.medscape.com^
 ||birdsend.co/assets/static/js/pixel/
