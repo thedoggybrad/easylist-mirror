@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504131822
+! Version: 202504131812
 ! Title: EasyPrivacy
-! Last modified: 13 Apr 2025 18:22 UTC
+! Last modified: 13 Apr 2025 18:12 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2146,12 +2146,10 @@
 /stats/pv.php?
 /stats/record.php?
 /stats/record/*
-/stats/record_visit/*
 /stats/search-log
 /stats/transp.bmp
 /stats/v2/visit?
 /stats/visitors
-/stats/web_vitals/*$ping
 /stats/welcome.php?
 /stats?aid=
 /stats?blog_
@@ -13590,7 +13588,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aim.cloudflare.com/__log
 ||airtable.com/internal/
 ||airtel.in/analytics/pixel?
-||aitotop.com^*/collect.js?
 ||aiv-delivery.net/Events/
 ||aiv-delivery.net/v1/ReportEvent
 ||ajax.pngtree.com/api/statistics/
@@ -52650,7 +52647,6 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||events.reclamefolder.nl^
 ||expert.nl/daix.js
 ||fd.nl/pixel/
-||filmvandaag.nl/pl/js/script.js
 ||folderz.nl/clickstream/
 ||infonu.nl/t.php?
 ||kieskeurig.nl/collect
@@ -53259,7 +53255,6 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||rt.ru/proxy?
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
-||ruwiki.ru/w/rest.php/metrics/
 ||seedr.ru^*/stats/
 ||servernews.ru/track?
 ||sibnet.ru/counter.php?
