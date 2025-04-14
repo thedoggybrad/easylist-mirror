@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9c8infh51Pg76GyvyNjBCw
-! Version: 202504141002
+! Checksum: NdAKkoyhH+snTToyD1YiGg
+! Version: 202504140951
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 14 Apr 2025 10:02 UTC
+! Last modified: 14 Apr 2025 09:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -69082,7 +69082,6 @@ cam4.*##div[class^="SponsoredAds_"]
 redgifs.com##.SideBar-Item:has(> [class^="_liveAdButton"])
 porn-w.org##.align-items-center.list-row:has(.col:empty)
 picsporn.net##.box:has(> .dip-exms)
-javtiful.com##.col.pb-3:has(.badge.bg-danger)
 porngames.com##.contentbox:has(a[href="javascript:void(0);"])
 porngames.com##.contentbox:has(iframe[src^="//"])
 kimochi.info##.gridlove-posts > .layout-simple:has(.gridlove-archive-ad)
@@ -69369,7 +69368,6 @@ gamcore.com##li.d-md-block > a[rel]
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com|journaldequebec.com
 @@||runescape.wiki^$image,~third-party
-@@||s.confluency.site/*.com/4/js/$script
 @@||s.ntv.io/serve/load.js$domain=titantv.com
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
 @@||schwab.com/scripts/appdynamic/adrum-ext.$script,~third-party
