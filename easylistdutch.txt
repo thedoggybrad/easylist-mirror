@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Hn95Cr4OcVccnb6kGCdwrw
-! Version: 202504141731
+! Checksum: At5DX/fX5UCf4nDaciE4PA
+! Version: 202504141741
 ! Title: EasyList Dutch
-! Last modified: 14 Apr 2025 17:31 UTC
+! Last modified: 14 Apr 2025 17:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -76,6 +76,7 @@ _advertentieleaderboardhome.
 ||nonstoppartner.net^$third-party
 ||online-banners.nl^$third-party
 ||optoutadvertising.com^$third-party
+||publize.net^
 ||sponsorkliks.com^$third-party
 ||static-dscn.net^$third-party
 ||tools-affil2.com^$third-party
@@ -1464,6 +1465,7 @@ bol.com##section.js_slot-sponsored-products
 landenweb.nl##table[style="margin-left: auto; margin-right: auto; border: 1px solid; width: 100%; margin-bottom: 10px;"]
 radiocaramba.nl##table[width="120"][height="600"]
 ! :has()
+fok.nl##.col-1.h4:has(.sponsorsTxt)
 androidplanet.nl##.group.relative.flex-shrink-0.lg\:flex-shrink.lg\:first\:col-span-2.lg\:first\:row-span-2.w-\[300px\].lg\:w-auto.flex:has(div[data-name="sponsor-logo"])
 investmentofficer.nl##.io-tape-card__wrap:has(.io-tape-card__label__sponsored)
 weer.nl##.items-center.w-full.justify-center:has(div[data-advert-placeholder-collapses])
