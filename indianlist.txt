@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tjCvHOyozwbdntZf+2Xfuw
-! Version: 202504141201
+! Checksum: JNNGAX/BbQ9hFklxcYlkug
+! Version: 202504141211
 ! Title: IndianList
-! Last modified: 14 Apr 2025 12:01 UTC
+! Last modified: 14 Apr 2025 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8483,6 +8483,7 @@ cityliveindia.com#?#div:-abp-has(> .main-heading:-abp-contains(Advertizement))
 countrynewstoday.com#?#.td-block-title > span:-abp-contains(Advertisement)
 dailyharyananews.com#?#div[id^="AS_O_LHS_1"] > div:-abp-has(> div > div > a>span:-abp-contains(Ad |))
 dakshinapath.com#?#.sidebar-widget:-abp-has(> .widget-head > .title:-abp-contains(ADV))
+damrua.com#?#.elementor-widget-button:has(.elementor-button-text:-abp-contains(Advertisements))
 deshkikhabar.in#?#span:-abp-contains(Advertisement)
 dhamaka36.com#?#.mb-3:-abp-has(> .section-title > h4:-abp-contains(Advertisement))
 dhinasari.com#?#.tdm-descr:-abp-contains(Advertisement)
@@ -8932,6 +8933,7 @@ khabor.com##header a[href*="/click-"]
 horizonhind.com#?#div > h2:-abp-contains(Google Ads)
 horizonhind.com#?#strong:-abp-contains(ABS Hospital)
 horizonhind.com#?#strong:-abp-contains(Vijay Bakery)
+hpnews.in#?#.block_wrapper:has(> .box_header > h2 > span:-abp-contains(Advertisement))
 kailarionline.com##hr:first-child ~ div
 hrbreakingnews.com#?#div[id^="AS_O_LHS"] > div:-abp-has(> div > div > a > div > h5:-abp-contains(Ad |))
 infosrilankanews.info##html12
