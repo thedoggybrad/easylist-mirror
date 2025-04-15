@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: l/4i0qhup1+x2Owsx4kEyQ
-! Version: 202504150631
+! Checksum: 3hjcpBwGe7Kzz+e1o8SlqQ
+! Version: 202504150641
 ! Title: EasyList Polish
-! Last modified: 15 Apr 2025 06:31 UTC
+! Last modified: 15 Apr 2025 06:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2893,6 +2893,8 @@ wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 echo24.tv##.new-toplayer
 iloveslubice.pl##a[href^="https://brandmed.eu"]
+gorzow.news##[class^="g g-"]
+portalzory.pl##.banners
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
@@ -2911,7 +2913,6 @@ filmy69.pl#?#li.videoblock:-abp-has(iframe[id][src*="/www/delivery/"])
 filmy69.pl#?#li.videoblock:-abp-has(script[src^="https://a.realsrv.com/"])
 !-----------------------Whitelists to fix broken sites------------------------!
 ! *** easylistpolish:easylistpolish/easylistpolish_whitelist.txt ***
-@@.adrotate.$domain=mh24.pl
 @@/adsign.$domain=adsign.polsatmedia.pl
 @@/extension/adverts/design/standard/javascript/adverts/Quantcastt^$script,domain=antyradio.pl|chillizet.pl|meloradio.pl|planeta.pl|radiozet.pl
 @@/extension/adverts/design/standard/templates/esi^$script,domain=antyradio.pl|chillizet.pl|meloradio.pl|planeta.pl|radiozet.pl
