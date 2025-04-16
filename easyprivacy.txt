@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504162156
+! Version: 202504162206
 ! Title: EasyPrivacy
-! Last modified: 16 Apr 2025 21:56 UTC
+! Last modified: 16 Apr 2025 22:06 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2226,6 +2226,7 @@
 /tagAnalyticscnil.php
 /tagCNIL.js
 /tagcommander/prd/*
+/tagging?env=
 /tagmanager/event?
 /tagmanager/pptm.js
 /tags.js?org_id=
@@ -2345,6 +2346,7 @@
 /tracker.ga.
 /tracker.gif?
 /tracker/?key=
+/tracker/base_wp/*
 /tracker/event?
 /tracker/imp?
 /tracker_async.js
@@ -52685,6 +52687,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||rtl.nl/system/track/
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
+||sliponline.nl/tracker/
 ||sst.babypark.nl^
 ||statistiek.rijksoverheid.nl^
 ||stats.fd.nl^
@@ -52697,6 +52700,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||t.hln.be^$image
 ||t.pzc.nl^$image
 ||t.tubantia.nl^$image
+||tagging.sliponline.nl^
 ||tijd.be/fb/?
 ||tijd.be/fb2?
 ||tijd.be/track/
