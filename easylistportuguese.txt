@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Dj3fR/MnyG2kS2EcSVdD0w
-! Version: 202504161341
+! Checksum: wI3zJm+A1WSXFCoSmZKHtA
+! Version: 202504161351
 ! Title: EasyList Portuguese
-! Last modified: 16 Apr 2025 13:41 UTC
+! Last modified: 16 Apr 2025 13:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1176,6 +1176,7 @@ defatoonline.com.br#?#.noticias-horizontal:-abp-has(h3:-abp-contains(Patrocinado
 em.com.br#?#.col-md-12.hidden-xs:-abp-has(small:-abp-contains(Publicidade))
 geralinks.com.br#?#.sidebar > div:-abp-has(a:-abp-contains(Promovido))
 infomoney.com.br#?#.row.m-0.py-3.border-t:-abp-has(.hl-hat:-abp-contains(Conteúdo))
+mercadolivre.com.br#?#[class^="ui-recommendations-carousel-wrapper"]:-abp-contains(Patrocinado)
 oantagonista.com.br#?##cardfullblock.card.card-full.card-oa:-abp-has(.card-category:-abp-contains(Patrocinado))
 promobit.com.br#?#.rounded-2.bg-neutral-high-100.dark\:bg-neutral-low-500.hidden.h-\[300px\].flex-col.items-center.md\:flex:-abp-has(.font-sans.whitespace-pre-wrap.text-xs.hidden.px-6.py-4.text-neutral-high-500.dark\:text-neutral-high-500.xl\:block:-abp-contains(Publicidade))
 saocarlosagora.com.br#?#.container_16:-abp-contains(Vitrine)
