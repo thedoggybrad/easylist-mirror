@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504162157
+! Version: 202504162209
 ! Title: Fanboy's Annoyance List
-! Last modified: 16 Apr 2025 21:57 UTC
+! Last modified: 16 Apr 2025 22:09 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -29625,6 +29625,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||judge.me^$third-party
 ||justbaat.org^$third-party
 ||kaango.com/feCustomWidgetDisplay/$third-party
+||kiyoh.com^$third-party
 ||ko-fi.com/cdn/widget/$third-party
 ||leadfamly.com^$third-party
 ||leadpages.co^$third-party
@@ -29811,6 +29812,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||widget.gleamjs.io^$script,third-party,domain=~gleam.io
 ||widget.justwatch.com^
 ||widget.pico.tools^$third-party
+||widget.thuiswinkel.org^$third-party
 ||widget.trustpilot.com^$third-party
 ||widget.zoorate.com^$third-party
 ||widgets.dzone.com^$third-party
@@ -30338,6 +30340,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||chatango.com/pcache/sounds/
 ||chatbot.denizbank.com/Content/media/$media
 ||chatplus.jp/app/s/sound/
+||chatwidget-prod.web.app/sounds/
 ||cleversite.ru/client/default/sound/
 ||cliengo.com^$media
 ||cloudfront.net/prod/media/$domain=birdeye.com
@@ -30468,6 +30471,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||cookieassistant.com^$third-party
 ||cookieban.com^$third-party
 ||cookiebot.com^$third-party
+||cookiebot.eu^$third-party
 ||cookiebox.ro^$third-party
 ||cookiechoices.org^$third-party
 ||cookiecode.nl/dist/latest.js
@@ -32470,7 +32474,7 @@ timesofmalta.com##.scroll-notification-container
 50languages.com,advgazeta.ru,boredpanda.com,business-standard.com,cnevpost.com,developer-tech.com,gulftoday.ae,hsn.com,ingolstadt-today.de,iol.co.za,labouroutlook.org,leadingrestaurants.co.uk,lessknownfacts.com,malighting.com,multiup.eu,multiup.org,nostalgica.cl,origo.hu,pandasecurity.com,pbteen.com,peoplematters.in##.scroll-to-top
 bl.uk,carscoops.com,deghi.it,dioezesanmuseum-rottenburg.de,piunikaweb.com,trabalhabrasil.com.br##.scroll-top
 bluestacks.com##.scroll-top-section
-game-news24.com,manilatimes.net##.scroll-up
+game-news24.com,manilatimes.net,vogelbescherming.nl##.scroll-up
 pinkluna.com.br##.scrollToTop
 kathmandupost.com##.scrollTop
 allnews.ge,blog.vidizmo.com##.scrollUp
@@ -36919,7 +36923,7 @@ videocardz.com##.social-item-mail
 videocardz.com##.social-item-media
 knewz.com,revolvermag.com##.social-items
 afro.com,hongkongfp.com,investigatemidwest.org,lafocusnews.com,ourweekly.com,theatlantavoice.com,washingtoncitypaper.com,washingtonmonthly.com##.social-links-menu
-businesspost.ie##.social-links-wrapper
+bidfood.nl,businesspost.ie##.social-links-wrapper
 denofgeek.com##.social-links__anchor--sharing
 newsroom.ucla.edu##.social-list-links
 wionews.com##.social-logo-section
@@ -40281,6 +40285,7 @@ sogeti.*###popup-cookieConsent
 wayfair.co.uk,wayfair.de,wayfair.ie##.FooterPopups
 ! ! .consent-banner-root
 abrahamartimpressions.com,babyspullen-advies.nl,eco-valves.com,eriestgastropub.com,fahrschule-delert.de,geowgs84.com,maldivealternative.com,opticron.*,thegnet.org,wernergevers.be,yesradiodance.com##.consent-banner-root
+nbs-bouwmaterialen.nl##.consent-banner-root
 ! ! #cookiescript_injected
 amministrazionicomunali.it,rual-travel.com###cookiescript_injected
 ! ! #cookiescript_injected_wrapper
@@ -40641,7 +40646,7 @@ bitkubnft.com,bloomberglaw.com,dopper.com,engen.co.za,insailing.ru,kentik.com,ne
 ! ! CookiesNoti
 dryg.pl##div[class^="CookiesNoti"]
 ! ! .cookie-notice
-acidcow.com,amaze.org,artdentis.com,bankofengland.co.uk,breadandbutter.ru,camgo.com,candaceowens.com,castlefineart.com,drgerard.eu,ecosia.org,estately.com,harveynichols.com,jetset-hairextensions.nl,kappahl.com,mageba-group.com,mashable.com,monnik-dranken.nl,motocard.com,nc-planica.si,ncfu.ru,onlinedrugtraining.com,pagetiger.com,pryor.com,publicpositions.com,rex-royal.ch,spartanien.de,tvsquared.com,viboom.com,vidal.ru,vixx.nl,wine-searcher.com,worldtestchampionship.com,xtreme.pt,zonstudio.nl##.cookie-notice
+acidcow.com,amaze.org,artdentis.com,bankofengland.co.uk,breadandbutter.ru,camgo.com,candaceowens.com,castlefineart.com,drgerard.eu,ecosia.org,estately.com,hanze.nl,harveynichols.com,jetset-hairextensions.nl,kappahl.com,mageba-group.com,mashable.com,monnik-dranken.nl,motocard.com,nc-planica.si,ncfu.ru,onlinedrugtraining.com,pagetiger.com,pryor.com,publicpositions.com,rex-royal.ch,spartanien.de,tvsquared.com,viboom.com,vidal.ru,vixx.nl,wine-searcher.com,worldtestchampionship.com,xtreme.pt,zonstudio.nl##.cookie-notice
 ! ! #cookie-notice
 aschendorff-buchverlag.de,avm-verlag.de,bahai-verlag.de,blog.oup.com,brasil.perfil.com,dersportverlag.de,epoch.ai,foodbloggermania.it,gamenode.app,infofranchising.it,kaliscan.com,kaliscan.io,kaliscan.me,ketteler-verlag.de,kuehlen-verlag.de,laaber-verlag.de,mangabuddy.com,mangamirror.com,measurementlab.net,mgjinx.com,novelbuddy.com,sax-verlag.de,skatedeluxe.com,slot-mania.it,storyblok.com,viacarreira.com###cookie-notice
 ! ! #toast-container
@@ -44468,6 +44473,7 @@ effeweg.nl###mp-popupoverlay1
 chillyhilversum.be###notice-cookie-block
 trafficshare.nl###notification
 ardanta.nl###notification-bar
+sokkenenzo.nl###react_element__consent_banner
 companyinfo.nl###si-cookie-notice
 energiewonen.nl###stOverlay
 energiewonen.nl###stOverlayB
@@ -44563,6 +44569,7 @@ ticket.energylandia.pl##.message-popup-cookie-lq
 mijn.ditzozorg.nl##.mijn-cookie-consent
 ladybird.nl##.modals-overlay
 bibliotheeknijkerk.nl,bibliotheeknoord-veluwe.nl##.modalwindow
+wijn33.nl##.new_alert
 calorielijst.nl,koolhydratentabel.nl,receptentabel.nl##.noblur
 cheaptickets.nl##.notificationContainer
 ziggogo.tv##.notifications-manager
