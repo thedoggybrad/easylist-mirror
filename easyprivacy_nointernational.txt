@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: TR45ZR4dFa9abcbAdJjpLg
-! Version: 202504162151
+! Checksum: wYIOHTzvuGaoZal56VuMSQ
+! Version: 202504162201
 ! Title: EasyPrivacy without international filters
-! Last modified: 16 Apr 2025 21:51 UTC
+! Last modified: 16 Apr 2025 22:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16,6 +16,7 @@
 &&sub19=undefined&sub20=undefined
 &action=js_stats
 &ev=PageView&
+&event_name=view_item_list&
 &EventType=DataDealImpression&
 &EventType=Impression&
 &hitType=pageview&
@@ -2222,6 +2223,7 @@
 /tagAnalyticscnil.php
 /tagCNIL.js
 /tagcommander/prd/*
+/tagging?env=
 /tagmanager/event?
 /tagmanager/pptm.js
 /tags.js?org_id=
@@ -2341,6 +2343,7 @@
 /tracker.ga.
 /tracker.gif?
 /tracker/?key=
+/tracker/base_wp/*
 /tracker/event?
 /tracker/imp?
 /tracker_async.js
