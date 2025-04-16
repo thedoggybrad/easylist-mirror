@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FNBi6jgS5YECa6EXiMCr/Q
-! Version: 202504161841
+! Checksum: TpbDGOuP0ss7ZPg4tGPvUg
+! Version: 202504161851
 ! Title: EasyList Polish
-! Last modified: 16 Apr 2025 18:41 UTC
+! Last modified: 16 Apr 2025 18:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2896,6 +2896,10 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+swidnicanews.pl##.banners
+inforuda.pl##.banners
+echo24.tv##[class*="banner--"]
+inowroclawskie.pl##.banners
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
