@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NFH28G77zLvLqQlLvi9E/w
-! Version: 202504161321
+! Checksum: B3ZiN1HKI0L6Yk8ysiDgKg
+! Version: 202504161331
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Apr 2025 13:21 UTC
+! Last modified: 16 Apr 2025 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -67000,6 +67000,7 @@ radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.p
 gtaforums.com###ipsLayout_mainArea div:has(> #pwDeskLbAtf)
 klz9.com###list-imga center:has(> a[id^="adLink"])
 klz9.com###list-imga center:has(a[href^="https://olimposcans.com/"])
+noon.com###modules-renderer:has([class*="sponsored"])
 indeed.com###mosaic-provider-jobcards li:has(.sponsoredJob)
 wsj.com###other-buckets > div > div:has(> .uds-ad-container)
 aleteia.org###root > div[class]:has(> .adslot)
