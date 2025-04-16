@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504161931
+! Version: 202504162206
 ! Title: EasyPrivacy
-! Last modified: 16 Apr 2025 19:31 UTC
+! Last modified: 16 Apr 2025 22:06 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -19,6 +19,7 @@
 &&sub19=undefined&sub20=undefined
 &action=js_stats
 &ev=PageView&
+&event_name=view_item_list&
 &EventType=DataDealImpression&
 &EventType=Impression&
 &hitType=pageview&
@@ -2225,6 +2226,7 @@
 /tagAnalyticscnil.php
 /tagCNIL.js
 /tagcommander/prd/*
+/tagging?env=
 /tagmanager/event?
 /tagmanager/pptm.js
 /tags.js?org_id=
@@ -2344,6 +2346,7 @@
 /tracker.ga.
 /tracker.gif?
 /tracker/?key=
+/tracker/base_wp/*
 /tracker/event?
 /tracker/imp?
 /tracker_async.js
@@ -52684,6 +52687,8 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||rtl.nl/system/track/
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
+||sliponline.nl/tracker/
+||sst.babypark.nl^
 ||statistiek.rijksoverheid.nl^
 ||stats.fd.nl^
 ||t.ad.nl^$image
@@ -52695,6 +52700,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||t.hln.be^$image
 ||t.pzc.nl^$image
 ||t.tubantia.nl^$image
+||tagging.sliponline.nl^
 ||tijd.be/fb/?
 ||tijd.be/fb2?
 ||tijd.be/track/
