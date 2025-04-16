@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WDrBrwaSfGYNNrupZFOuWw
-! Version: 202504160351
+! Checksum: weIYKX8cwCmi1QKB2JRyOw
+! Version: 202504160401
 ! Title: ABPVN List
-! Last modified: 16 Apr 2025 03:51 UTC
+! Last modified: 16 Apr 2025 04:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 16 Apr 2025 09:32:56 UTC+7
-! Diff-Path: patches/20250416093256699.patch#abpvn
+! Last modified: 16 Apr 2025 10:57:55 UTC+7
+! Diff-Path: patches/20250416105755103.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -152,8 +152,8 @@ $popup,domain=truyenfull.vision
 ||motchill10.com/public/upload/ads/ads.js$script,~third-party
 ||motchillti.com/banner$image
 ||motphimtv.im^*.gif$image
-||mplmncb.com/banners-web$image,domain=truyenqqto.com
-||mplmncb.com/popup/$script,domain=truyenqqto.com
+||mplmncb.com/banners-web$image,domain=truyenqqgo.com
+||mplmncb.com/popup/$script,domain=truyenqqgo.com
 ||nettruyenr.com/public/assets/js/pop$script,~third-party
 ||nettruyenvio.com/assets/js/ads/$script
 ||nettruyenvio.com/assets/js/pop$script
@@ -719,12 +719,14 @@ truyenaudiocv.org##.js-editors-choice-slider.editors-choice-slider>.adsbygoogle
 truyenfull.vision###header-ads-full
 truyenfull.vision##.ads-responsive
 truyenfull.vision##[id^="ads-"]
-truyenqqto.com###ad_info_top
-truyenqqto.com###catfishAd
-truyenqqto.com###floating-banner-left
-truyenqqto.com###floating-banner-right
-truyenqqto.com##div#ad_info
-truyenqqto.com,nettruyenvio.com,truyentranh3q.com##.ads-banner
+truyenqqgo.com###ad_info_top
+truyenqqgo.com###catfishAd
+truyenqqgo.com###floating-banner-left
+truyenqqgo.com###floating-banner-right
+truyenqqgo.com##div#ad_info
+truyenqqgo.com,nettruyenvio.com,truyentranh3q.com##.ads-banner
+truyenqqgo.comm###_pop-qqgo-11
+truyenqqgo.comm###catfish-banner-reading-container
 truyensieuhay.com##.footer-info
 truyensieuhay.com,hhtrungquoc6.com,hhtq11.vip,animeweb.vip,hhtq3d.net###topbanner
 tuoitre.vn###LeaderBoardTop
