@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vscIbv81gQaPEVcJaRBVKQ
-! Version: 202504180031
+! Checksum: vjSM9m3t8rKp2jZ+BKcppw
+! Version: 202504180041
 ! Title: Liste FR
-! Last modified: 18 Apr 2025 00:31 UTC
+! Last modified: 18 Apr 2025 00:41 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -14079,6 +14079,7 @@ boulanger.com##[class*="kamino"]:has(.product-list__product-sponsored)
 cleanrider.com##[class*="min-h-"]:has([id^="optidigital-ad"])
 fr.shopping.rakuten.com##[data-productid]:has([class^="style_sponsoredAds"])
 boulanger.com##[id*="kamino"]:has(.product-list__product-sponsored)
+intermarche.com##[id^="stime-product-item"]:has(.stime-product--details__sponsored)
 algerie-eco.com#?#.td_block_wrap:-abp-has(.block-title:-abp-contains(sponsorisés))
 aliexpress.com,aliexpress.us#?#._2FypS:-abp-has(._1rKqn:-abp-contains(/AD|Annonce|إعلان/))
 aliexpress.com,aliexpress.us#?#.search-item-card-wrapper-gallery:-abp-has([class^="multi--ax"]:-abp-contains(/AD|Annonce|إعلان/))
