@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: A+2RdjEDLA3KgrZkMYcbeA
-! Version: 202504180151
+! Checksum: 4QwN8ZZov+YQklB4EIWs/g
+! Version: 202504180201
 ! Title: Liste FR
-! Last modified: 18 Apr 2025 01:51 UTC
+! Last modified: 18 Apr 2025 02:01 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -8764,7 +8764,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||comparatif-vpn.fr/wp-content/uploads/*/comparatif-vpn-
 ||compteur-gratuit.fr/images/bandeau_
 ||compteur-gratuit.fr/pub_
-||comptoir-info.com/pb/
 ||condor.dz/imgs/bannieres_accueil/294.jpg
 ||confidentielles.com/*/pubimppixel.php?
 ||confidentielles.com/bloquage_liens.js
@@ -9773,7 +9772,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||one.nbstatic.fr/media/external/
 ||online-xxxmovies.com^$script
 ||online-xxxmovies.com^*.gif
-||onlinetri.com/graphics/Z3R0D_16WEB_ONLINETRI_TBAG_header.jpg
 ||onlinevoyance.fr^$subdocument
 ||onvasortir.com/fond$image
 ||onvasortir.com/habillage_$image
@@ -12554,9 +12552,6 @@ flashresultats.fr,flashscore.fr###box-over-content-a
 gala.fr###box-shopping
 previmeteo.com###box_4_pub
 lameuse.be,laprovince.be###box_immovlan
-onlinetri.com###box_link_left
-onlinetri.com###box_link_right
-onlinetri.com###box_link_top
 algerie360.com###boxes
 conseils-courseapied.com###cadre-vignette-carnet
 soonnight.com###cadre_partenaire
@@ -12754,9 +12749,6 @@ windsurfjournal.com###pave300x250
 windsurfjournal.com###pave695x90
 windsurfjournal.com###paves214x157
 tube8.fr###pb_block
-comptoir-info.com###pb_lb
-comptoir-info.com###pb_sb
-comptoir-info.com###pb_sq
 charentelibre.fr,lindependant.fr###petitesAnnoncesBlock
 scan-manga.com###pob_haut
 terre.tv###point_part
@@ -14080,6 +14072,7 @@ cleanrider.com##[class*="min-h-"]:has([id^="optidigital-ad"])
 fr.shopping.rakuten.com##[data-productid]:has([class^="style_sponsoredAds"])
 boulanger.com##[id*="kamino"]:has(.product-list__product-sponsored)
 intermarche.com##[id^="stime-product-item"]:has(.stime-product--details__sponsored)
+comptoir.io##a:has(.prime)
 algerie-eco.com#?#.td_block_wrap:-abp-has(.block-title:-abp-contains(sponsorisés))
 aliexpress.com,aliexpress.us#?#._2FypS:-abp-has(._1rKqn:-abp-contains(/AD|Annonce|إعلان/))
 aliexpress.com,aliexpress.us#?#.search-item-card-wrapper-gallery:-abp-has([class^="multi--ax"]:-abp-contains(/AD|Annonce|إعلان/))
