@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504192106
+! Version: 202504192121
 ! Title: EasyList
-! Last modified: 19 Apr 2025 21:06 UTC
+! Last modified: 19 Apr 2025 21:21 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -43320,6 +43320,7 @@ browsershots.org#@#.advert_area
 ||fixionmedia.com^$third-party
 ||flashtalking.com^$third-party,domain=~toggo.de
 ||flower-ads.com^$third-party
+||fls.doubleclick.net^
 ||flx2.pnl.agency^$third-party
 ||flyersquare.com^$third-party
 ||flymyads.com^$third-party
@@ -52912,7 +52913,7 @@ coinarbitragebot.com###botfix
 pymnts.com###bottom-ad
 cheese.com,investorplace.com###bottom-banner
 000webhost.com###bottom-banner-with-counter-holder-desktop
-eweek.com###bottom-footer-fixed-slot
+eweek.com,linuxtoday.com###bottom-footer-fixed-slot
 audioreview.com###bottom-leaderboard
 reverso.net###bottom-mega-rca-box
 crn.com###bottom-ribbon
