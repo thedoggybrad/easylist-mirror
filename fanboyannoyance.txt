@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504192313
+! Version: 202504192318
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Apr 2025 23:13 UTC
+! Last modified: 19 Apr 2025 23:18 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1530,6 +1530,9 @@ _social_footer_
 /plugins/ct-ultimate-gdpr/assets/*
 /plugins/easy-wp-cookie-popup/*
 /plugins/gdpr/dist/js/public.js
+/plugins/responsive-cookie-consent/*$script
+/plugins/uncode-privacy/*$script
+/plugins/webtoffee-gdpr-cookie-consent/*$script
 /pm-privacy.js
 /policy_cookie.js
 /policyaccept.js
@@ -32280,7 +32283,7 @@ annualreviews.org###article-back-to-top
 britishland.com###auto-top-link
 shameless.com###b2t
 news.tvbs.com.tw,whtop.com###back
-accessnow.org,al-watan.com,appdate.lk,brevzin.github.io,coinedcuisine.com,datamation.com,duhuliye.com,internetdrogist.nl,krdb.com,leakedzone.com,neue-impulse-verlag.de,qatar-tribune.com,sandordargo.com,sfu.ca,slocounty.ca.gov,tfn.scot,volexity.com###back-to-top
+accessnow.org,al-watan.com,appdate.lk,brevzin.github.io,coinedcuisine.com,datamation.com,duhuliye.com,internetdrogist.nl,krdb.com,leakedzone.com,neue-impulse-verlag.de,partijvoorzeeland.nl,qatar-tribune.com,sandordargo.com,sfu.ca,slocounty.ca.gov,tfn.scot,volexity.com###back-to-top
 stoneberry.com###backTo
 bigislandnow.com,med.stanford.edu,mmoga.co.uk,mmoga.com,mmoga.de,mmoga.es,mmoga.fr,mmoga.se,toplegal.it,tsc.ca,vov.vn###backToTop
 cdw.com###backToTopWrapper
@@ -32513,7 +32516,7 @@ nasilemaktech.com##.td-read-down
 club386.com,nme.com##.td-scroll-up
 adguard.com##.theme-back-to-top-button
 ansa.it,cacm.acm.org,californiacitynews.org,cnbctv18.com,consolecreatures.com,ekathimerini.com,forza.nu,gbnews.com,gunsandammo.com,justapack.com,linuxlookup.com,porngem.com,thedebrief.org##.to-top
-synagogewinterswijk.nl##.to-top-container
+groningerbelang.nl,synagogewinterswijk.nl##.to-top-container
 denvergazette.com,hampshire-hotels.com,hotelsgravenhof.nl,radaris.com##.toTop
 maghrebemergent.net##.to_top
 abitare-in-altoadige.it,automobilismo.it,bostonherald.com,ciclismo.it,cosmosup.com,cyclistmagazine.it,dailysignal.com,freeviewnz.tv,germany.travel,haier.com,motociclismo.it,nrc.nl,shopperplus.ca,sivtimes.com,svp.eu,thefappening.wiki,velaemotore.it,visitnsw.com,wikiway.com,wohnen-in-suedtirol.it##.top
@@ -40307,8 +40310,8 @@ sogeti.*###popup-cookieConsent
 ! wayfair
 wayfair.co.uk,wayfair.de,wayfair.ie##.FooterPopups
 ! ! .consent-banner-root
-abrahamartimpressions.com,babyspullen-advies.nl,eco-valves.com,eriestgastropub.com,fahrschule-delert.de,geowgs84.com,maldivealternative.com,opticron.*,thegnet.org,wernergevers.be,yesradiodance.com##.consent-banner-root
-nbs-bouwmaterialen.nl##.consent-banner-root
+abrahamartimpressions.com,babyspullen-advies.nl,eco-valves.com,eriestgastropub.com,fahrschule-delert.de,geowgs84.com,ketikotitafel.nl,maldivealternative.com,nbs-bouwmaterialen.nl,opticron.*,thegnet.org,wernergevers.be,yesradiodance.com##.consent-banner-root
+burobraak.nl##.consent-banner-root
 ! ! #cookiescript_injected
 amministrazionicomunali.it,rual-travel.com###cookiescript_injected
 ! ! #cookiescript_injected_wrapper
@@ -40438,7 +40441,7 @@ alpha-buch.de,annualreviews.org,casinoscores.com,crossref.org,eshop.efko.cz,grup
 ! ! style_container__
 bossautoukraine.com.ua,tray.io##[class^="style_container__"]
 ! ! .notification-bar
-bettyblocks.com,clinicalges.es,koncon.nl,mmcgbl.com,pressenter.group,steadfast.com.sg,up-team.cz,werkenvoornederland.nl##.notification-bar
+bettyblocks.com,clinicalges.es,groenlinks.nl,koncon.nl,mmcgbl.com,pressenter.group,steadfast.com.sg,up-team.cz,werkenvoornederland.nl##.notification-bar
 ! ! .cookiefox
 indomus.it,karmandala.de##.cookiefox
 ! ! .vwo-overlay
@@ -40691,7 +40694,7 @@ answers.unity.com,chase.com,chasebonus.com,fox.com.tr,gameduell.de,interchalet.d
 ! ! .amgdprcookie-modal-container
 american-heritage.de,discoland.fi,kedo.de,shop.lecoqporcelaine.it##.amgdprcookie-modal-container
 ! ! .dialog-lightbox-widget
-awdisbrands.com,blackmusicscholar.com,coachdaveacademy.com,cosmere.es,courses.heatgeek.com,cover-4-less.com,dogfoodreviews.com,elegis.com.br,golffang.co.uk,hoteldelftcentre.nl,itepexam.com,kedraflowerscpa.com,lightlife.com,martonmedia.pl,mindigital.gr,newnoisemagazine.com,onlyonce.today,powerzone.com,renovainvest.com.br,saferpass.com,satel.pl,selectmedia.asia,sublabmusic.com,tealstreet.io,thebfa.org,veracore.com,victorvision.com.br##.dialog-lightbox-widget
+awdisbrands.com,blackmusicscholar.com,coachdaveacademy.com,cosmere.es,courses.heatgeek.com,cover-4-less.com,dogfoodreviews.com,elegis.com.br,golffang.co.uk,hoteldelftcentre.nl,itepexam.com,kedraflowerscpa.com,lightlife.com,martonmedia.pl,meerdirectedemocratie.nl,mindigital.gr,newnoisemagazine.com,onlyonce.today,powerzone.com,renovainvest.com.br,saferpass.com,satel.pl,selectmedia.asia,sublabmusic.com,tealstreet.io,thebfa.org,veracore.com,victorvision.com.br##.dialog-lightbox-widget
 ! ! .modal-cookies
 dvdmax.pl,me-qr.com,pasch-net.de,spirou.com,superlegalbrinquedos.com.br,universalmusic.pl##.modal-cookies
 ! ! #gdpr-consent
@@ -44648,6 +44651,7 @@ easyschrank.ch##.visio-analytics-cookie-notice
 bresculinair.nl,energiedirect.nl##.wall
 e-snickers.nl##.wsa-cookielaw
 gezondheidswinkel.nl##.z-50.bottom-2\.5
+sp.nl##.z-popover
 ov-chipkaart.nl##[aria-describedby="cookie-banner-message"]
 mobiel.nl##[class^="CookiesModal_"]
 zoover.nl##[data-cy="consent-wrapper"]
