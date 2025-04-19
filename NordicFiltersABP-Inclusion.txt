@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: j6Y6hXGTQw0iSFXxvWZ0Jw
-! Version: 202504192111
+! Checksum: yfjL9q9C1DqjSDFRlO2NHQ
+! Version: 202504192121
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 19 Apr 2025 21:11 UTC
+! Last modified: 19 Apr 2025 21:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -51089,6 +51089,7 @@ browsershots.org#@#.advert_area
 ||fixionmedia.com^$third-party
 ||flashtalking.com^$third-party,domain=~toggo.de
 ||flower-ads.com^$third-party
+||fls.doubleclick.net^
 ||flx2.pnl.agency^$third-party
 ||flyersquare.com^$third-party
 ||flymyads.com^$third-party
@@ -60681,7 +60682,7 @@ coinarbitragebot.com###botfix
 pymnts.com###bottom-ad
 cheese.com,investorplace.com###bottom-banner
 000webhost.com###bottom-banner-with-counter-holder-desktop
-eweek.com###bottom-footer-fixed-slot
+eweek.com,linuxtoday.com###bottom-footer-fixed-slot
 audioreview.com###bottom-leaderboard
 reverso.net###bottom-mega-rca-box
 crn.com###bottom-ribbon
