@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: I1zjdo/OL5Cx9pNTDgL0hg
-! Version: 202504192251
+! Checksum: c4XvHYsUHT+KBVwqA9WtyQ
+! Version: 202504192301
 ! Title: ABPindo
-! Last modified: 19 Apr 2025 22:51 UTC
+! Last modified: 19 Apr 2025 23:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 11 Apr 2025 12:30 UTC
+! Last modified: 19 Apr 2025 22:59 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -208,6 +208,8 @@
 _TimAds_Banner_$image
 iklan300x250.gif|
 ! *** abpindo:src/advert/specific_block.txt ***
+.gif^$image,domain=maroonbellsmorris.org
+/gif-*.webm^$image,domain=maroonbellsmorris.org
 ||109.234.34.246/wp-content/uploads/*.gif$image,~third-party
 ||139.177.186.243/home?register$popup,domain=komikcast.com
 ||172.104.108.25^$popup,third-party
@@ -504,6 +506,8 @@ oomph.co.id#@#.shareit
 ###float-banner.visible-lg
 ###floatadsbawah
 ###floating_ads_bottom_textcss_ad
+###floating_banner_bot1
+###floating_banner_bot2
 ###floatingad
 ###flowads
 ###footer-adcont
@@ -816,8 +820,20 @@ shinigami09.*##.lepopup-popup-overlay
 wowkeren.com###Ad300B
 wowkeren.com###Ad728
 starringheavenlyrics.blogspot.com###HTML2
+idntimes.com###IDN_Billboard
+idntimes.com###IDN_InArticle1
+idntimes.com###IDN_InArticle1-2
+idntimes.com###IDN_InArticle1-3
+idntimes.com###IDN_InArticle1-4
+idntimes.com###IDN_InArticle1-5
+idntimes.com###IDN_InArticle3
 idntimes.com###IDN_Leaderboard
+idntimes.com###IDN_MR1-wrapper
+idntimes.com###IDN_MR2-wrapper
+idntimes.com###IDN_MR3-wrapper
 idntimes.com###IDN_PS_MegaBillboard
+idntimes.com###IDN_SkinLeft
+idntimes.com###IDN_SkinRight
 indogamers.com###IklanIDGS
 utusan.com.my###Taboola_widget
 chip.co.id###TopBannerBg
@@ -1058,6 +1074,7 @@ bioskop78.com###wrap > center
 idntimes.com###wrapper-IDN_Billboard
 idntimes.com###wrapper-IDN_MR1
 idntimes.com###wrapper-IDN_MR2
+idntimes.com###wrapper-IDN_MegaBillboard
 marketeers.com##.-mx-\[24px\]
 comotin.com##.Widget:nth-of-type(2)
 comotin.com##.Widget:nth-of-type(3)
@@ -1585,6 +1602,7 @@ kiryuu01.com##[href^="https://linkfast.asia/"]
 lewat.club##[href^="https://manjur.id/search.php"]
 lk21official.wiki##[href^="https://yukclick.me/dunia21"]
 idntimes.com##[id^="IDN_InArticle"]
+idntimes.com##[id^="IDN_Leaderboard"]
 suara.com##[id^="berita-terkait-"]
 lk21official.mom##[id^="btop-"]
 nontonfilmgratis.club,ragihospitalkukatpally.com##[id^="floating_banner"]
@@ -3209,6 +3227,7 @@ totojitu.gif|$image
 ||bandartoke.$image,third-party
 ||barakjudi.$image,third-party
 ||barakjudi.$popup
+||baron777premium.com^$popup
 ||barutogel.$image,third-party
 ||bbm88id.$image,third-party
 ||bca99.$image,third-party
@@ -4158,6 +4177,7 @@ totojitu.gif|$image
 ||maniakqq.$image,third-party
 ||maniakqq.$popup
 ||maniaqq.$image,third-party
+||mansion777y.store^$popup
 ||mantapkiu.$image,third-party
 ||marina-365.$image,third-party
 ||marina-365.$popup
@@ -4722,6 +4742,7 @@ totojitu.gif|$image
 ||shiokambing2.$image,third-party
 ||shiokuda.$image,third-party
 ||shiokuda.$popup
+||shiotogel4dk.art^$popup
 ||siapbet.$image,third-party
 ||simpatiqq.$image,third-party
 ||sinarkiukiu.$image,third-party
