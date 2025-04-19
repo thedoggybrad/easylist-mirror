@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AH9yptXnaTowNTtKNJ+ISg
-! Version: 202504190731
+! Checksum: V+u3E7Ees3yELhHxekHzaA
+! Version: 202504190741
 ! Title: EasyList Polish
-! Last modified: 19 Apr 2025 07:31 UTC
+! Last modified: 19 Apr 2025 07:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -206,6 +206,7 @@ _baner-$domain=gazetabilgoraj.pl
 _baner_$domain=panoramakutna.pl|telewizjazary.pl
 _banerek.$domain=plytkiceramiczne.info.pl
 _banerowy^$domain=nowywyszkowiak.pl
+_banery-$domain=turek.net.pl
 _banner-$domain=bitcoin.pl
 _banner.$domain=polacywewloszech.com|swiatmetali.eu
 _banner_$domain=chemiaibiznes.com.pl|cire.pl|cksport.pl|dzisiajwgliwicach.pl|e-pingpong.pl|forumfajerwerki.pl|jagodnik.pl|juliarozumek.pl|katalogprzedsiebiorstw.pl|kb.pl|kpzpn.pl|kuriergarwolinski.pl|nowy-sacz.info|pionki24.pl|polishexpress.co.uk|poradnikhandlowca.com.pl|przewodnicywedkarscy.pl|starosadeckie.info|stolarkabudowlana.eu|swarzedz24.pl|tygodnik-rolniczy.pl|warzywa.pl|wydawca.com.pl
@@ -441,7 +442,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-_banery-$domain=turek.net.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -1148,7 +1148,7 @@ fakty.nl##.bannergroupclear
 chnnews.pl##.bannergroupright-banner
 ezamosc.pl##.bannergroupvertical
 abcslubu.pl,chrzanowski24.pl,erp-view.pl,estrzelce.pl,fsd24.pl,glosojcapio.pl,informacje.kolobrzeg.pl,krynica.tv,logistyczny.com,magazynit.pl,naszagazeta.info,naszaokolica24.pl,nowawrzesnia.pl,portal-mundurowy.pl,przeclaw24.pl,roland-gazeta.pl,wysokomazowiecki24.pl,zdrowybialystok.pl##.banneritem
-e-stargard.pl,halokonin.pl,informacjelodzkie.pl,inforuda.pl,inowroclawskie.pl,megatiming.pl,mojgorzow.pl,mojwloclawek.pl,myslowicki24.pl,oswieciminfo.pl,piekaryonline.pl,portalmorski.pl,portalzory.pl,programtv.info,stalenierdzewne.pl,swidnicanews.pl,swieradowzdroj.pl,szkola8.torun.pl,tczewski24.pl##.banners
+e-stargard.pl,halokonin.pl,informacjelodzkie.pl,inforuda.pl,inowroclawskie.pl,megatiming.pl,mojgorzow.pl,mojwloclawek.pl,myslowicki24.pl,oswieciminfo.pl,piekaryonline.pl,portalmorski.pl,portalzory.pl,programtv.info,stalenierdzewne.pl,swidnicanews.pl,swieradowzdroj.pl,szkola8.torun.pl,tczewski24.pl,wrotagrudziadza.pl##.banners
 rzeszowairport.pl##.banners-content
 glospedagogiczny.pl##.bannersm
 mamopracuj.pl##.bannery
@@ -2827,6 +2827,7 @@ iturek.net##img[src*="chocki"]
 iturek.net##img[src*="domki"]
 chojna24.pl##img[src*="googleusercontent."]
 halogorlice.info##img[src*="https://sc.4media.com"]
+iturek.net##img[src*="kamienie"]
 iturek.net##img[src*="kopczynski"]
 iturek.net##img[src*="mrowka"]
 ewysmaz.pl##img[src*="nawozy.eu"]
@@ -2901,7 +2902,6 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-wrotagrudziadza.pl##.banners
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
