@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KR+DdW9LHuJO+uxqvN8I7g
-! Version: 202504200041
+! Checksum: loZZoI3Tj2V7w0fFzLfRDQ
+! Version: 202504200051
 ! Title: ABPindo
-! Last modified: 20 Apr 2025 00:41 UTC
+! Last modified: 20 Apr 2025 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 19 Apr 2025 23:45 UTC
+! Last modified: 20 Apr 2025 00:46 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -634,6 +634,9 @@ oomph.co.id#@#.shareit
 ##.iklan-atas
 ##.iklan-bawah
 ##.iklan-bawah-player
+##.iklan-container
+##.iklan-full
+##.iklan-half
 ##.iklan-header-item
 ##.iklan-kanan
 ##.iklan-kiri
@@ -1481,6 +1484,8 @@ suara.com##.placeholder_r1
 suara.com##.placeholder_r2
 suara.com##.placeholder_r3
 suara.com##.placeholder_read_body
+juragan.film##.pop-overlay
+juragan.film##.popbox
 nomat.top##.popup.show
 viva.co.id##.portlet.sideskycrapper
 kompas.com##.premium_div
@@ -1636,6 +1641,7 @@ tafsirweb.com##article:nth-of-type(2) > div:nth-of-type(3)
 bioskop168.co,bioskop168.online,bioskop168.pro##bioskop-kanan
 intip24news.com##body.sticky-header:style(padding: unset!important;)
 tempo.co##body:remove-class(pad-apps)
+juragan.film##body:style(overflow: auto !important; position: unset !important; pointer-events: auto !important;)
 gigapurbalingga.net,kuyhaa-me.com##center
 smartphoneku.com##div.ad-before
 nextren.grid.id##div.banner-r
