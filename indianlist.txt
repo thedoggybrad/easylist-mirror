@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: td0NLbVHhKerSszpHZDWtw
-! Version: 202504201531
+! Checksum: ojatNlqdRKtqDl+kUR47/Q
+! Version: 202504201541
 ! Title: IndianList
-! Last modified: 20 Apr 2025 15:31 UTC
+! Last modified: 20 Apr 2025 15:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5041,6 +5041,7 @@ malwalive.com###footer_section_1 img:not(#Image1_img)
 rozanakhabarnama.com.au###front-widget .front-widget:nth-child(2)
 gtamilnews.com###fsb_image
 jagonews24.com###fscorecard
+pokharaexpress.com###fullScreenAd
 dishadaily.com###full_level_1_detail
 merojilla.com,pokharanews.com###goji-wd-3dads
 telugu.gulte.com###gulte-text-html-widget-2
@@ -6314,7 +6315,6 @@ beanibazarnews24.com##.coronaupperadd
 gonokantho.com##.countdown_wrapper
 pratyeknewslive.com##.counter--section
 shoutmehindi.com##.coupon_dealtop
-bcsuddi.com##.cs-banner
 keralakaumudi.com##.cs-sec-feat-title
 indiapolkhol.in##.ct-header-text
 shasakprashasak.com##.custom img
@@ -8467,6 +8467,7 @@ hindfresh.com##aside:has(> ins.adsbygoogle)
 bhalukanews.com##aside:not(#text-33):not(#text-47) img[alt="ads"]
 nbchindi.com##aside[id^="ai_widget-"]
 bangla.24livenewspaper.com#?#.advertisement:-abp-contains(advertisement)
+bcsuddi.com#?#.e-con[data-settings]:-abp-properties(min-height: 267px)
 betulsamachar.com#?#.gb-container:-abp-contains(Advertisement)
 bharatiyadigitalnews.in#?#.mb-3:-abp-has(> .section-title > h4:-abp-contains(Advertisement))
 bharatiyadigitalnews.in#?#center:-abp-contains(Advertisement)
