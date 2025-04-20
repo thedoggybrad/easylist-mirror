@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: U3p2JVDk/9AQA9BMwCVGRA
-! Version: 202504202221
+! Checksum: 41aoxU+bpEUEjPnTd0rnCw
+! Version: 202504202231
 ! Title: Liste FR
-! Last modified: 20 Apr 2025 22:21 UTC
+! Last modified: 20 Apr 2025 22:31 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -10455,7 +10455,12 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 !
 ###ADSblock
 ###ad-300_atf-label
+###ad-banner-mobile
 ###ad-banner_atf
+###ad-desktop-top-banner
+###ad-masonry
+###ad-medium-rectangle-1
+###ad-medium-rectangle-2
 ###ad3
 ###ad_video
 ###balloonads
@@ -13695,6 +13700,10 @@ qwantjunior.com##[data-testid="autopromoJuniorLink"]
 meteomedia.com##[data-testid="content-feed-ad-slot"]
 meteomedia.com##[data-testid="header-ad-content"]
 meteomedia.com##[data-testid="pre-ad-text"]
+seloger.com##[data-testid="serp-inline-ad"]
+seloger.com##[data-testid="serp-masthead-testid"]
+seloger.com##[data-testid="serp-side-skyscraper"]
+seloger.com##[data-testid="serp-side-skyscraper-top"]
 toutvendre.fr##[href*=".kelkoogroup.net/"]
 meteofrance.com##[href*=".xiti.com"] > img
 filecrypt.cc,filecrypt.co##[href^="javascript:"]
@@ -14076,6 +14085,7 @@ frandroid.com##.sticky-content:has([class^="HalfpageAd"])
 boulanger.com##[class*="kamino"]:has(.product-list__product-sponsored)
 cleanrider.com##[class*="min-h-"]:has([id^="optidigital-ad"])
 fr.shopping.rakuten.com##[data-productid]:has([class^="style_sponsoredAds"])
+seloger.com##[data-testid="serp-core-suggestion-card-testid"]:has([aria-haspopup])
 boulanger.com##[id*="kamino"]:has(.product-list__product-sponsored)
 intermarche.com##[id^="stime-product-item"]:has(.stime-product--details__sponsored)
 comptoir.io##a:has(.prime)
