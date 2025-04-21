@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DCA9iaBEnz8GfM32tYDq4Q
-! Version: 202504211651
+! Checksum: 9sfDnvW+vYExqxOi4wwYVA
+! Version: 202504211701
 ! Title: EasyList Polish
-! Last modified: 21 Apr 2025 16:51 UTC
+! Last modified: 21 Apr 2025 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -216,8 +216,6 @@ _reklamy^$domain=weekendfm.pl
 _webbanner_$domain=strazacki.pl
 files.librus.pl^*^*_loginR_
 files.librus.pl^*^r_
-supernowosci24.pl##[id^="r-"]
-wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||3.fwcdn.pl^*^welcomeMain.$script,domain=filmweb.com
 ||4media.com^$domain=lokalna24.pl
 ||ad.polskiprzemysl.com.pl^
@@ -335,7 +333,6 @@ wspolczesna.pl##.componentsListingLargeRow__slotItem
 ||instalacjebudowlane.pl/nowe/3025/3025-SAS-XI-2024.jpg
 ||instalacjebudowlane.pl/obrazki4/nibco_220x120_II_2021.jpg
 ||iochota.pl/static/files/inline_images/21/inline__1243885_1446.jpg
-||irenakuczynska.pl/wp-content/uploads/2022/04/Banerek-1.png
 ||irenakuczynska.pl/wp-content/uploads/2025/01/Bn20241031-Dzika-Laka-portal_Obszar-roboczy-1-1.jpg
 ||isbzdrowie.pl/wp-content/uploads/2025/01/seg-25.jpg
 ||it-manuals.info/wp-content/uploads/2023/12/hostido.webp
@@ -2905,6 +2902,10 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+twojagdynia.pl##.banners
+kielceinfo.pl##.banners
+olkuszonline.pl##.banners
+wostrowcu.pl##.banners
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
