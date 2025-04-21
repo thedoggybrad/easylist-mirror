@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rbR2bM5uGZA2UkfiwCeFkQ
-! Version: 202504210441
+! Checksum: FzBdoo9tW9IoQptFIHGRtA
+! Version: 202504210451
 ! Title: EasyList without rules for adult sites
-! Last modified: 21 Apr 2025 04:41 UTC
+! Last modified: 21 Apr 2025 04:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1302,8 +1302,9 @@ _800x80_
 ://adn.*/zone/$popup
 ://ads.$popup,domain=~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
-=c2M9cHBkJnI9OTgxMD$popup,third-party
-?cs=*&pid=$popup
+=cj05ODEwMjI2JnNjPX$popup,third-party
+! filemoon
+/^https:\/\/[0-9a-z]+\.pro\/[0-9a-z]+\?[0-9A-Za-z]+=c[0-9A-Za-z]+%3D%3D$/$popup,third-party
 ! Commonly used popup scripts on movie/tv streaming sites
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
