@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k5Y9vzmEKDI/Jeb7fuyIuA
-! Version: 202504220231
+! Checksum: 8j5e4rQHtNcMciJLomOeng
+! Version: 202504220241
 ! Title: ABPVN List
-! Last modified: 22 Apr 2025 02:31 UTC
+! Last modified: 22 Apr 2025 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 21 Apr 2025 12:06:11 UTC+7
-! Diff-Path: patches/20250421120611286.patch#abpvn
+! Last modified: 22 Apr 2025 09:32:32 UTC+7
+! Diff-Path: patches/20250422093232966.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -947,8 +947,8 @@ $third-party,script,domain=sexdiaryx.live
 ||cdn-01.w3img.com^*.gif$image,domain=phimsexvl69.net|vlxxai.net|sexsoc.info
 ||cdn.adxcontent.com^
 ||cdn.javbabe.net^$subdocument
-||cliphot69.onl$csp=script-src 'self' 'unsafe-inline'
-||cliphot69.onl^*.gif$image
+||cliphot69.cool$csp=script-src 'self' 'unsafe-inline'
+||cliphot69.cool^*.gif$image
 ||cliphotvn69.com^*.gif$image
 ||clipsexsub3x.net^*.gif$image
 ||cloufdlare.com/ads/vn1.html$subdocument,domain=vl.phe.to
@@ -995,8 +995,8 @@ $third-party,script,domain=sexdiaryx.live
 !---------- ABPVN Adult Element Hide ---------------
 ##[href^="https://www.i9017.com/"]
 anhgaixinh.online##.footer-banner
-cliphot69.onl###custom_html-42
-cliphotvn69.com,mobiblogss.com,cliphot69.onl,phevkl.vin,www.gvnvh.net,top1phimsex.com,sayhentai.one,viet69.fans##.float-ck-center-lt
+cliphot69.cool###custom_html-42
+cliphotvn69.com,mobiblogss.com,cliphot69.cool,phevkl.vin,www.gvnvh.net,top1phimsex.com,sayhentai.one,viet69.fans##.float-ck-center-lt
 damconuong.live##a[rel="nofollow"]
 dualeotruyeny.com##[id$="bnr"]
 fullcliphot.com##.cashfish
