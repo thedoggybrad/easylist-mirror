@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: V1gpd61Z75xEgboC2l3KUw
-! Version: 202504221401
+! Checksum: MqO0BMwTVB65ahATgwUplg
+! Version: 202504221411
 ! Title: EasyList Portuguese
-! Last modified: 22 Apr 2025 14:01 UTC
+! Last modified: 22 Apr 2025 14:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -423,6 +423,7 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||xl.pt/i/pub.gif
 ! *** easylistportuguese:easylistportuguese/easylistportuguese_specific_block_popup.txt ***
 $popup,third-party,domain=suaurl.com
+||redecanais.gs/player3/redirect.api?$popup
 ||shopee.com.br^$popup,domain=gayflix.me
 !
 ! html/image popups
