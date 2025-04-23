@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: K2jGz8zusQB4LFZCCr7dXg
-! Version: 202504232231
+! Checksum: qy7mD4fbP2fgkPGDfwVNuw
+! Version: 202504232241
 ! Title: EasyList without rules for adult sites
-! Last modified: 23 Apr 2025 22:31 UTC
+! Last modified: 23 Apr 2025 22:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -58515,6 +58515,7 @@ momondo.*##.zZcm:has([class$="-ad-wrapper"])
 momondo.*##[class$="-result-item-container"]:has([aria-label="Ad disclaimer"])
 momondo.*##[class$="result-item-container"]:has([class$="provider-ad-badge"])
 momondo.*##[class*="mod-pres-default"]:has(div[class*="ad-badge"])
+momondo.*##div[role="button"][tabindex="0"]:has(div.c_3eP-badge-content)
 pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-1
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-2
