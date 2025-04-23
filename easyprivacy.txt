@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504232248
+! Version: 202504232257
 ! Title: EasyPrivacy
-! Last modified: 23 Apr 2025 22:48 UTC
+! Last modified: 23 Apr 2025 22:57 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -10700,6 +10700,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||iadvize.com/collector/
 ||ibmcloud.com/collector/
 ||icbdr.com/images/pixel.gif
+||icontact.com/icp/core/signup/tracking.gif?
 ||id.a-mx.com^
 ||id.google.*/verify/
 ||id.verticalhealth.net/script.js?partnerid=
@@ -15145,6 +15146,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.shopstyle.com^
 ||tracking.unrealengine.com^
 ||trackr.vivenu.com^
+||tradingview-widget.com/static/bundles/embed/snowplow-embed-widget-tracker.$script
 ||tradingview.com/ping
 ||trck.coomeet.com^
 ||trckng.dainese.com^
@@ -53401,6 +53403,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||statsmp2.emol.com^
 ||t-pan.triodos.com^
 ||t13.cl/hit/
+||targetone-callback.chedraui.com.mx^
 ||taringa.net/ajax/track-visit.php
 ||terra.com.mx/js/metricspar_
 ||terra.com.mx^*/metrics_begin.js
