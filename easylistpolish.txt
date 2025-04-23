@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0sgD4nj+60+35HWBhSiMoA
-! Version: 202504231731
+! Checksum: fGZ1gAeLYaeWP1ta0Ix9GA
+! Version: 202504231751
 ! Title: EasyList Polish
-! Last modified: 23 Apr 2025 17:31 UTC
+! Last modified: 23 Apr 2025 17:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -199,6 +199,7 @@
 ^statystyk_box.$domain=bajery.pl
 ^xbaner_$domain=kuriernauczycielski.pl
 ^xbanner_$domain=radiozulawy.pl
+^xreklama-$domain=tv-pelplin.pl
 ^zdjecia_reklamy^$domain=radio.katowice.pl
 _ban.$domain=radomsport.pl
 _baner%$domain=transg.pl
@@ -439,7 +440,6 @@ files.librus.pl^*^r_
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
-^xreklama-$domain=tv-pelplin.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -1146,7 +1146,7 @@ fakty.nl##.bannergroupclear
 chnnews.pl##.bannergroupright-banner
 ezamosc.pl##.bannergroupvertical
 abcslubu.pl,chrzanowski24.pl,erp-view.pl,estrzelce.pl,fsd24.pl,glosojcapio.pl,informacje.kolobrzeg.pl,krynica.tv,logistyczny.com,magazynit.pl,naszagazeta.info,naszaokolica24.pl,nowawrzesnia.pl,portal-mundurowy.pl,przeclaw24.pl,roland-gazeta.pl,wysokomazowiecki24.pl,zdrowybialystok.pl##.banneritem
-bielskonews.pl,e-stargard.pl,halokonin.pl,informacjelodzkie.pl,inforuda.pl,inowroclawskie.pl,kielceinfo.pl,kurieraugustow.pl,megatiming.pl,mojgorzow.pl,mojwloclawek.pl,myslowicki24.pl,olkuszonline.pl,oswieciminfo.pl,piekaryonline.pl,portalmorski.pl,portalzory.pl,programtv.info,stalenierdzewne.pl,swidnicanews.pl,swieradowzdroj.pl,szkola8.torun.pl,tczewski24.pl,twojagdynia.pl,twojelegionowo.pl,wostrowcu.pl,wrotagrudziadza.pl,wrotatarnowa.pl##.banners
+bielskonews.pl,e-stargard.pl,halokonin.pl,informacjelodzkie.pl,inforuda.pl,inowroclawskie.pl,jastrzebienews.pl,kielceinfo.pl,kurieraugustow.pl,megatiming.pl,mojgorzow.pl,mojwloclawek.pl,myslowicki24.pl,olkuszonline.pl,oswieciminfo.pl,piekaryonline.pl,portalmorski.pl,portalzory.pl,programtv.info,stalenierdzewne.pl,swidnicanews.pl,swieradowzdroj.pl,szczecin4u.pl,szkola8.torun.pl,tczewski24.pl,twojagdynia.pl,twojelegionowo.pl,wostrowcu.pl,wrotagrudziadza.pl,wrotatarnowa.pl,zawiercieonline.pl##.banners
 rzeszowairport.pl##.banners-content
 glospedagogiczny.pl##.bannersm
 mamopracuj.pl##.bannery
@@ -2826,6 +2826,7 @@ eswinoujscie.pl##img[src*="banerr"]
 elblag24.pl,eskatt.pl,evertiq.pl,forumpps.pl,glokalna.pl,glos.pl,gopoznan.pl##img[src*="banner"]
 funkcje.net##img[src*="bannery"]
 iturek.net##img[src*="bram"]
+iturek.net##img[src*="centrum-230x210"]
 iturek.net##img[src*="chocki"]
 iturek.net##img[src*="domki"]
 chojna24.pl##img[src*="googleusercontent."]
@@ -2908,9 +2909,6 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
-szczecin4u.pl##.banners
-zawiercieonline.pl##.banners
-jastrzebienews.pl##.banners
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
