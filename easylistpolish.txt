@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P/QS0PLwCd4cIAqqyOfK4w
-! Version: 202504231501
+! Checksum: V137SFqgQyEs04zYdPkTbg
+! Version: 202504231511
 ! Title: EasyList Polish
-! Last modified: 23 Apr 2025 15:01 UTC
+! Last modified: 23 Apr 2025 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -439,6 +439,7 @@ files.librus.pl^*^r_
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^xreklama-$domain=tv-pelplin.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2908,6 +2909,8 @@ londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
 szczecin4u.pl##.banners
+zawiercieonline.pl##.banners
+jastrzebienews.pl##.banners
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
