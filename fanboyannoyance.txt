@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504232355
+! Version: 202504240006
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Apr 2025 23:55 UTC
+! Last modified: 24 Apr 2025 00:06 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1642,6 +1642,7 @@ _social_footer_
 /terms_of_service.js
 /tfcookie.js
 /thcookie.js
+/tincx-cookie/js/cookiebanner-$script
 /tiny-cookie.min.js
 /tm.cookie.js
 /tnzcookie/views/*
@@ -40193,7 +40194,7 @@ rally.io##div[class^="Banner_banner_"]
 carvertical.com##div[class^="BisquitsBanner_"]
 monzo.com##div[class^="CookieAlert-"]
 manychat.com##div[class^="CookieBumper"]
-clearvpn.com##div[class^="CookieConsentBanner_"]
+clearvpn.com,manyvids.com##div[class^="CookieConsentBanner_"]
 evervault.com##div[class^="CookieDirective"]
 icontainers.com##div[class^="CookieMessagestyled_"]
 p2pb2b.com##div[class^="CookieNotification_wrapper_"]
@@ -40780,7 +40781,7 @@ decovarrubias.es,q10gestion.com###sliding-popup-cookies
 ! ! .qc-cmp2-container
 centrometeoitaliano.it,in.gr,oraridiapertura24.it,order-order.com##.qc-cmp2-container
 ! ! .cookie-consent
-560theanswer.com,abcdinamo.com,abconcerts.be,adbro.com,adrianlimani.com,bitstamp.net,cecotec.es,congeo.nl,doaj.org,faberlic.com,forcepoint.com,gault-millau.nl,geeksforgeeks.org,group.softbank,heinz.st,inleed.se,israelnationalnews.com,letsgomartin.com,merosch.nl,mutualart.com,niaiu.pl,noor-book.com,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,ricos.ltd,snowworld.com,sodutch.nl,springaqua.com,toneelhuis.be,trafficstars.com,truyenyy.vip,truyenyy.xyz,twinsfun.com,vinkkoeltechniek.com,webhallen.com,werkenbijversluis.nl##.cookie-consent
+560theanswer.com,abcdinamo.com,abconcerts.be,adbro.com,adrianlimani.com,ascoltareradio.com,bg-radio.org,bitstamp.net,cecotec.es,ceskaradiaonline.cz,congeo.nl,doaj.org,ecouterradioenligne.com,egyptradio.net,emisora.cl,emisora.org.es,emisoras.com.gt,emisoras.com.mx,emisoras.com.py,faberlic.com,forcepoint.com,gault-millau.nl,geeksforgeeks.org,group.softbank,heinz.st,ieradio.org,inleed.se,instant.audio,internetradiouk.com,israelnationalnews.com,jamaicaradio.net,jpradio.jp,latvijasradio.com,letsgomartin.com,merosch.nl,mutualart.com,nederlandseradio.nl,nettiradiot.org,nettradionorge.com,niaiu.pl,noor-book.com,onlineradio.pl,onlineradios.in,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,raadiod.com,radijas.org,radio-bd.com,radio.cd,radio.co.ci,radio.co.cm,radio.co.dk,radio.co.ma,radio.co.ug,radio.co.ve,radio.com.gh,radio.com.lk,radio.ht,radio.mg,radio.net.pk,radio.or.ke,radio.org.ng,radio.org.nz,radio.org.ph,radio.org.ro,radio.org.se,radio.pp.ru,radio.sn,radioalgerie.eu,radioarg.com,radioau.net,radiofona.com.gr,radiohallgatas.hu,radiolisten.de,radionp.com,radioonline.co.id,radioonline.com.pt,radioonline.kr,radioonline.my,radios.co.at,radios.co.cr,radios.co.ni,radios.com.bo,radios.com.co,radios.com.do,radios.com.ec,radios.com.pa,radios.com.pe,radios.com.sv,radios.com.uy,radios.hk,radios.hn,radios.hr,radios.lu,radios.org.il,radios.tw,radiosa.org,radiosaovivo.net,radiosdecuba.com,radiosdepuertorico.com,radiosingapore.org,radiosonline.be,radiosonline.ch,radiostanice.rs,radioth.net,radiotunisienne.org,radioua.net,ricos.ltd,siradio.si,snowworld.com,sodutch.nl,springaqua.com,surinaamseradio.com,toneelhuis.be,trafficstars.com,trinidadradiostations.net,truyenyy.vip,truyenyy.xyz,twinsfun.com,vietnamradio.org,vinkkoeltechniek.com,webhallen.com,werkenbijversluis.nl,zhibo.fm##.cookie-consent
 ! ! cookiesConsentModal
 latitudeandlongitude.net###cookiesConsentModal
 ! ! #spopupCont
@@ -42503,11 +42504,13 @@ gazetawroclawska.pl##.atomsArticleMediaTools__socialShare
 ! ---------- Portuguese Site Specific Hiding Rules ----------
 ! 
 terrabrasilnoticias.com###block-18
+noticias.cancaonova.com###cn-post-mark
 uai.com.br###communit-box
 vagas.com.br###compartilhar-vaga
 reclameaqui.com.br###footer-social-links
 a12.com###gb-widget-6981
 superesportes.com.br###google-news
+noticias.cancaonova.com###redes
 engeplus.com.br###redes-sociais-footer
 noticias.cancaonova.com###share-widget-horizontal
 superesportes.com.br###shareitens
@@ -42701,7 +42704,7 @@ nexojornal.com.br##div[class^="ShareButtons_"]
 megacurioso.com.br##div[class^="styles_shareLinks_"]
 ||aventurasnahistoria.com.br/static/socialmedia/
 ||aventurasnahistoria.uol.com.br/static/socialmedia/
-||bnews.com.br/static/socialmedia/$
+||bnews.com.br/static/socialmedia/
 ||defatoonline.com.br/whatsapp.html
 ||harem69.com.br/img/social.png
 ||hollywoodforevertv.com.br/static/socialmedia/
@@ -45639,6 +45642,7 @@ pirolam.pl##body > div[style*="100%"]
 ingbank.pl##cookie-policy
 elektrotechnikautomatyk.pl##div[class^="GDPRCookieInfo_"]
 magentatv.pl##div[class^="styles__HeaderInfoBar"]
+siepomaga.pl##div[data-testid="cookies-banner"]
 flex.orange.pl##div[id^="CookiesPopup_"]
 elektrozysk.pl##div[style*="background:url(images/cookies_tlo.png)"]
 tge.com.pl##div[style=" background-color: #FAFAFA;  border: 1px solid gray;  border-radius: 10px 10px 10px 10px;  box-shadow: 1px 1px 3px 0 gray;  margin: 0 auto;  padding: 10px 25px;  width: 930px; background-color: #FAFAFA;  border: 1px solid gray;  border-radius: 10px; moz-border-radius: 10px; webkit-border-radius: 10px;  box-shadow: 1px 1px 3px 0 gray;  margin: 0 auto;  padding: 10px 25px;  width: 930px;"]
