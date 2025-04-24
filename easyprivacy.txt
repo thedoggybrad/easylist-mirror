@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504240006
+! Version: 202504240018
 ! Title: EasyPrivacy
-! Last modified: 24 Apr 2025 00:06 UTC
+! Last modified: 24 Apr 2025 00:18 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -12643,6 +12643,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||01net.com/track/
 ||abs.proxistore.com^
 ||affiliation.planethoster.info^$third-party
+||analytics.ekonsilio.io^
 ||analytics.freespee.com^
 ||analytics.valiuz.com^
 ||at.360.audion.fm^
@@ -52273,7 +52274,11 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||compteur.developpez.com^
 ||courrierinternational.com/*&vtag=
 ||datalayer.orange.fr^
+||dd.bellesdemeures.com^
 ||dd.leboncoin.fr^
+||dd.seloger-bureaux-commerces.com^
+||dd.seloger.com^
+||dd.selogerneuf.com^
 ||decathlon.net/content/tracker.v2.prod.min.js
 ||developpez.com/public/js/log.js
 ||donnons.org/log.js
@@ -52289,6 +52294,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||fr.shopping.rakuten.com/rakuten-static-deliver/mob/*/js/track.js
 ||fsm.lapresse.ca^
 ||gamergen.com/ajax/actualites/addVue
+||groupe-seloger.com/tracking-data/
 ||hits.porn.fr^
 ||hlms.ecologie.gouv.fr^
 ||horairesdouverture24.fr/ar.js
@@ -52377,6 +52383,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||res.paruvendu.fr^
 ||rts.ch^*/boreas_b01.js
 ||s5.charliehebdo.fr^
+||seloger.com/cdp-bff/analytics
 ||serv.letudiant.fr^
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
