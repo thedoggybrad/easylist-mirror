@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: odlU2aIXdmVnMCqqsRliFw
-! Version: 202504241431
+! Checksum: esB+/ryDsy7k3RR3wHZXGg
+! Version: 202504241451
 ! Title: EasyList Dutch
-! Last modified: 24 Apr 2025 14:31 UTC
+! Last modified: 24 Apr 2025 14:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -959,6 +959,7 @@ rd.nl##.codalt-container
 gfcnieuws.com,techgaming.nl##.code-block
 achterhoeknieuwswinterswijk.nl##.component__pubble-banner
 bol.com##.consideration-display
+jumbo.com##.container.sponsored
 twentefans.nl##.content-action
 juf-milou.nl##.content_blok_reclame
 iex.nl##.contentwidget
@@ -1493,6 +1494,7 @@ indebuurt.nl##.list-item.list-item--aagje:has(.list-item__sponsor)
 welingelichtekringen.nl##.post:has(a[href*="/partnerposting/"])
 ah.nl##.product-card-portrait_root__ZiRpZ:has(.promotion_root__pAAlu)
 tvgids.nl##.square-item:has( > .banner)
+plus.nl##a[data-link]:has(.sponsored-product)
 agconnect.nl#?#.c-teaser:has(.c-pill--partner)
 delhaize.be#?#.product-item:-abp-contains(Gesponsord)
 androidplanet.nl##div[data-name="post"]:has(div[data-name="sponsor-logo"])
