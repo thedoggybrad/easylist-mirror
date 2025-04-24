@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: og8KsP7lc7AEKmmHL0MKEw
-! Version: 202504241431
+! Checksum: fnu3ifAFgmZUotLvAloZHA
+! Version: 202504241451
 ! Title: EasyList without rules for adult sites
-! Last modified: 24 Apr 2025 14:31 UTC
+! Last modified: 24 Apr 2025 14:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -41886,6 +41886,7 @@ browsershots.org#@#.advert_area
 ||wtsdewnppyesy.life^
 ||wttpwvlurczpe.rocks^
 ||wtyankriwnza.com^
+||wucbtiahka.com^
 ||wuci1.xyz^
 ||wuckaity.com^
 ||wuczmaorkqaz.com^
@@ -58811,6 +58812,7 @@ etsy.com##[data-page-type="listing_page_similar_listings_row"]:has([id^="ad-list
 etsy.com##[data-page-type="market"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
 engadget.com##[data-test="top-ad"]
+farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 kayak.com##[role="tab"]:has([class*="sponsored"])
