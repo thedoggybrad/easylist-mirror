@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504250009
+! Version: 202504250021
 ! Title: EasyPrivacy
-! Last modified: 25 Apr 2025 00:09 UTC
+! Last modified: 25 Apr 2025 00:21 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2744,6 +2744,7 @@
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
+://metrics-collector.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
 ://plausible.*/api/event|
@@ -51705,6 +51706,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||analytics.deutscher-apotheker-verlag.de^
 ||analytics.moviepilot.de^
 ||analytics.refurbed.de^
+||api.sae.systems^
 ||arlt.com/analytics/
 ||arte.tv/log-player/
 ||as.mirapodo.de^
@@ -53237,6 +53239,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||olx.com.br^*/lurker.
 ||poder360.com.br/_tracker
 ||r7.com/comscore/
+||rumolog.com/wp-json/burst/v1/track/
 ||sapo.*/clk?u=
 ||sapo.pt/Projects/sapoabd/
 ||sdk-analytics-web.cloud.itau.com.br^
@@ -53246,6 +53249,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||tags.globo.com^
 ||terra.com.br^*/metrics.js
 ||track.exame.com^
+||track.magazineluiza.com.br^
 ||track.olx.com.br^
 ||tracker.bt.uol.com.br^
 ||tracker.publico.pt^
