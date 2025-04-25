@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UH1WMUKvQzZ41HeH8bnojg
-! Version: 202504251941
+! Checksum: DgHlC+H8pEib5uNab9hZpw
+! Version: 202504251951
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 25 Apr 2025 19:41 UTC
+! Last modified: 25 Apr 2025 19:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -68025,6 +68025,7 @@ klz9.com###list-imga center:has(> a[id^="adLink"])
 klz9.com###list-imga center:has(a[href^="https://olimposcans.com/"])
 noon.com###modules-renderer:has([class*="sponsored"])
 indeed.com###mosaic-provider-jobcards li:has(.sponsoredJob)
+noon.com###noon-modules:has([class*="AdBrandVideo"])
 wsj.com###other-buckets > div > div:has(> .uds-ad-container)
 aleteia.org###root > div[class]:has(> .adslot)
 etsy.com###search-results li:has([id^="ad-listing-title-"])
@@ -68191,6 +68192,7 @@ dotesports.com##.wp-block-gamurs-article-tile:has-text(Sponsored)
 popculture.com##.wp-block-savage-platform-raptive-ad
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 mapquest.co.uk##.z-10.justify-center:has-text(Advertisement)
+sameday.costco.com##[aria-label="Product"]:has(sp-tag)
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 petco.com##[class*="atapult-styled"]:has([data-ad-source])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
