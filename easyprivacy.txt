@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504262217
+! Version: 202504262227
 ! Title: EasyPrivacy
-! Last modified: 26 Apr 2025 22:17 UTC
+! Last modified: 26 Apr 2025 22:27 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1498,6 +1498,7 @@
 /monitor/v1/log
 /monitor?rtype=
 /monitor_analytic.js
+/monitoring?o=$xmlhttprequest
 /monitus.js
 /monsido.js
 /mormont.js
@@ -2403,6 +2404,7 @@
 /tracking_id_
 /tracking_pixel
 /tracking_unitary/*
+/trackingApi?type=
 /trackingCode-
 /trackingCode.js
 /trackingcookies.
@@ -13311,6 +13313,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dsg.interia.pl^
 ||hit.interia.pl^
 ||liczniki.org/hit.php
+||liquid.agora.pl^
 ||pixel.homebook.pl^
 ||pixel6.wp.pl^
 ||ppstatic.pl^*/track.js
