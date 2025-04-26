@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504260034
+! Version: 202504260024
 ! Title: EasyPrivacy
-! Last modified: 26 Apr 2025 00:34 UTC
+! Last modified: 26 Apr 2025 00:24 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -111,7 +111,6 @@
 /__wsm.gif
 /_assets/oply/public/*
 /_blazor/*$ping
-/_events/api/setEvent$xmlhttprequest
 /_ga?send&
 /_ga?sponsor_pixel=
 /_gz/counter.php?
@@ -1848,7 +1847,6 @@
 /rainbow/master-js
 /RcAnalyticsEvents.js
 /rcAnalyticsLib.js
-/rd-js-integration.min.js
 /readReceipt/notify/?img=$image
 /readthedocs-analytics.js
 /realtimeapi/impression?
@@ -3249,7 +3247,6 @@ omni.soundestlink.com$image
 ||confiant-integrations.net^
 ||convead.io^
 ||convertlink.com^
-||counter247.live^
 ||cpx.to^
 ||crwdcntrl.net^
 ||cvlb.dev^
@@ -13322,7 +13319,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||feature-flag-edge.live.clickbus.net^
 ||gke.econodata.com.br^
 ||hitserver.ibope.com.br^
-||housecrm.com.br/track/
 ||jsuol.com/rm/clicklogger_
 ||leadster.com.br/api/chatbot/events
 ||linximpulse.net/impulse/
@@ -53264,7 +53260,6 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||sinonimos.com.br/hits.php
 ||standvirtual.com^$ping
 ||strapi.clickjogos.com.br^
-||sympla.com.br/api/event-bff/tracking/
 ||tags.globo.com^
 ||terra.com.br^*/metrics.js
 ||track.exame.com^
