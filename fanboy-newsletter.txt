@@ -4473,4 +4473,25 @@ telva.com##.ue-c-nl-banner
 elmundo.es##.ue-l-article__newsletter-widget
 expansion.mx##.widgetMC
 ipmark.com##.woo-login-popup-sc-modal
-ipmark.com##.woo-login-popup-sc-modal
+ipmark.com##.woo-login-popup-sc-modal-overlay
+! Swedish
+elplural.com##.btn-subscribe
+! Turkish
+! Ukranian
+minfin.com.ua##.mail-subscribe-user
+! ---------------------------------Allowlists----------------------------------!
+! *** easylist:fanboy-addon/fanboy_newsletter_allowlist.txt ***
+! fanboy_newsletter_allowlist.txt
+@@||e24.no/cnp-assets/components-NewsletterWidget.$~third-party
+@@||el-vidas.nl^*/phpcuong_newsletter/$script
+@@||lightboxcdn.com/vendor/$script,domain=rydercup.com
+@@||list-manage.com/subscribe/post-json?
+@@||lumingerie.com/min/$script,~third-party
+@@||pico.tools/load/build.js$script,domain=escapistmagazine.com
+@@||tedox.de/*/js/footer.js$script,~third-party
+! *** easylist:fanboy-addon/fanboy_newsletter_allowlist_general_hide.txt ***
+! fanboy_newsletter_allowlist_general_hide.txt
+onepercentclub.co.uk#@#.et_pb_newsletter
+moonpalacecancun.com#@#.footer-newsletter
+app.perusall.com,varma.fi#@#.needsclick[aria-label][style]
+doctorofcredit.com#@#.wpdiscuz-subscribe-bar
