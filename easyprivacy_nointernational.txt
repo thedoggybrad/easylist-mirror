@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 92D18p4rD/+f+3q3WY17lQ
-! Version: 202504260001
+! Checksum: sq0+H+OyFpfCSGWAbUPZDw
+! Version: 202504260011
 ! Title: EasyPrivacy without international filters
-! Last modified: 26 Apr 2025 00:01 UTC
+! Last modified: 26 Apr 2025 00:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2649,6 +2649,7 @@
 /wp-content/plugins/wp-clickmap/clickmap.js
 /wp-content/tracker.js
 /wp-js/analytics.js
+/wp-json/burst/v1/track/*
 /wp-json/iawp/*
 /wp-monero-miner-class.js
 /wp-monero-miner-util.min.js
