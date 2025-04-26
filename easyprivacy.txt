@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504262227
+! Version: 202504262236
 ! Title: EasyPrivacy
-! Last modified: 26 Apr 2025 22:27 UTC
+! Last modified: 26 Apr 2025 22:36 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -53237,6 +53237,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ! Polish
 |http://x.o2.pl^
 ||analytics.gazeta.pl^
+||app.mediaexpert.pl/spark-data/
 ||collect.state.centrum24.pl^
 ||cs.bankmillennium.pl^
 ||dot.wp.pl^$script
@@ -53248,12 +53249,14 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||iplsc.com/inpl.log/
 ||iwa.iplsc.com^
 ||kropka.onet.pl^
+||mediaexpert.pl/api/session/heartbeats
 ||mklik.gazeta.pl^
 ||mr.allegro.
 ||nasza-klasa.pl^*/pp_gemius
 ||p.gazeta.pl^
 ||pb.siepomaga.pl^
 ||pixel.wp.pl^
+||play.pl/?_hn:type=
 ||rek.www.wp.pl^
 ||savecart.pl/d/
 ||sentry.siepomaga.pl^
