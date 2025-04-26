@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504260048
+! Version: 202504260059
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 Apr 2025 00:48 UTC
+! Last modified: 26 Apr 2025 00:59 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1377,6 +1377,7 @@ _social_footer_
 /gp-cookie-consent/v2/script.js
 /grt-cookie-consent.min.js
 /gtm-consent.js
+/harvest-consent-monitor-assets/*
 /homepage-cookie-
 /hp-cookie-message.js
 /ht_cookielaw.js
@@ -40962,7 +40963,7 @@ consumer-legal.com,generatedata.com,matchbook.com,profim.eu,profim.fr,profim.pl,
 ! ! CookieBanner
 abc.net.au,amie.so,app.daily.dev,axial.acs.org,bbfc.co.uk,billhop.com,cars.co.za,channel5.com,consoles.radioplayer.cloud,deluxemusic.de,desiindian-brighton.co.uk,drbuho.com,fingerprint.com,foodcorner.dk,forum.effectivealtruism.org,hackney.gov.uk,harrys.com,itesco.cz,itzipitzipizza.dk,jetty.com,kaspersky.com,kilobaser.com,klientboost.com,lendo.se,letsenhance.io,lindahall.org,luminpdf.com,make.com,monzo.com,mrpizzahastings.co.uk,my.plaid.com,oddschecker.com,onceupon.photo,qured.us,skyvegas.com,socratesdergi.com,start.ru,strava.com,sweatco.in,tesco.hu,tesco.ie,thebarbary.co.uk,theculturetrip.com,trelson.com,tri.global,unum.co.uk,westerracu.com##div[class*="CookieBanner"]
 ! ! CookieBanner_
-acffiorentina.com,breastcancer.org,gieffektivt.no,latribet.ec,spline.design,svoi.ru,urbanarmorgear.com##div[class^="CookieBanner_"]
+acffiorentina.com,breastcancer.org,gieffektivt.no,latribet.ec,spline.design,svoi.ru,unitedconsumers.com,urbanarmorgear.com##div[class^="CookieBanner_"]
 ! ! CookieBannerstyle_
 gomibo.at,gomibo.be,gomibo.ch,gomibo.co.uk,gomibo.cy,gomibo.cz,gomibo.de,gomibo.dk,gomibo.ee,gomibo.es,gomibo.fi,gomibo.fr,gomibo.gr,gomibo.hr,gomibo.ie,gomibo.it,gomibo.lt,gomibo.lu,gomibo.mt,gomibo.no,gomibo.pl,gomibo.pt,gomibo.ro,gomibo.se,gomibo.si,gomibo.sk##div[class^="CookieBannerstyle_"]
 ! ! .active.legacy
@@ -44629,6 +44630,7 @@ dnzb.nl##.bmaDyd
 zeelandnet.nl##.bnr-notice-curtain
 autovandaag.nl##.bo-cb-bar
 the-house.be##.bottom-20
+eneco.nl##.c-kJrTin
 groene.nl##.c-notice
 qps.nl##.cc--window
 medischcontact.nl##.cc-popup
@@ -44661,6 +44663,7 @@ drost.nl,eindesamenwonen.nl##.cookiewall-modal
 hollandgold.nl##.coookies
 zoweg.nl##.cpo
 idfa.nl##.css-krtj5s
+coolblue.nl##.css-m6nhx1
 vakantieveilingen.be,vakantieveilingen.nl##.css-uuqc7b
 coppelaer.nl##.ct-modal
 iservoetbalvanavond.nl##.cuJDex
@@ -46762,6 +46765,7 @@ ants.vn##.sg-popup-content
 ! 
 ||9jdq2a.poco.de^
 ||amazonaws.com/website/js/tagcommander/$domain=cosmosdirekt.de
+||askrella.cloud/cookie-scripts/
 ||baustellenabsicherung24.de^*/koekje.
 ||boxspring-welt.ch/public/app.js
 ||byom.de/js/cookie.de.js
@@ -46810,12 +46814,14 @@ ants.vn##.sg-popup-content
 ||mobile.de/api/consent/static/js/loader.js
 ||piazza.cc/public/app.js
 ||postleitzahl.org/images/consent.php
+||rheinenergie.com/libs/cookiebanner/
 ||saturn-klima.de/wp-content/a0a206f468204945563d799b8f319215.js
 ||seduction-magazin.de/wp-content/plugins/borlabs-cookie/
 ||sprengel-pr.com/public/app.js
 ||stefke-heilbronn.de/wp-content/1ae6d298321568877d478a611c6536f4.js
 ||strato.de^*/consent.js
 ||tauschticket.de/js/cnst.js
+||touren.saarland/regio/oax_head.js
 ||up-cookiemon.wavecdn.net^
 ||vag.de/typo3conf/ext/cookieman/
 ||versicherungsjournal.de/public/app.js
