@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: X7VWZzna9F9KIax1bpHQ2A
-! Version: 202504271301
+! Checksum: 6XV/rGoPCgmlMzL6AcYaLQ
+! Version: 202504271321
 ! Title: EasyList Polish
-! Last modified: 27 Apr 2025 13:01 UTC
+! Last modified: 27 Apr 2025 13:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1624,7 +1624,8 @@ tko.pl##.oln-desktop_a
 tko.pl##.oln-sticky
 e-szczuczyn.pl##.one-1 .post-content
 donald.pl##.onnetwork_ad
-allegro.pl##.opbox-sheet.card:has(div[data-box-name^="allegro.ads."])
+allegro.pl##div[data-box-name^="allegro.ads."]
+allegro.pl##div[data-box-name="banner-container"]
 okkolobrzeg.pl##.ot-home-block
 centrumwitalnosci.pl##.ot-widget-banner
 stefczyk.info##.our-sites-links
