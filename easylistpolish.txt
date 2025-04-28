@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fvGRHuNBMGLniqbWzJKPpg
-! Version: 202504280751
+! Checksum: i3iLyocOOshoKWrxbyk/lg
+! Version: 202504280801
 ! Title: EasyList Polish
-! Last modified: 28 Apr 2025 07:51 UTC
+! Last modified: 28 Apr 2025 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -343,6 +343,7 @@ files.librus.pl^*^r_
 ||itvpiaseczno.pl/static/files/gallery/25/6dc19-grojec24net_jasne.jpg
 ||itvpiaseczno.pl/static/files/inline_images/25/inline__1_2786.jpg
 ||itvpiaseczno.pl/static/files/inline_images/25/inline__1_3376.jpg
+||itvpiaseczno.pl/static/files/inline_images/25/inline__1_4685.png
 ||izachodniopomorskie.pl^*^Tanie_foto_
 ||kantorywalut.pl^*^ik_gif-
 ||kcynia.info^*^rolnik-serwis2.
@@ -1624,8 +1625,6 @@ tko.pl##.oln-desktop_a
 tko.pl##.oln-sticky
 e-szczuczyn.pl##.one-1 .post-content
 donald.pl##.onnetwork_ad
-allegro.pl##div[data-box-name^="allegro.ads."]
-allegro.pl##div[data-box-name="banner-container"]
 okkolobrzeg.pl##.ot-home-block
 centrumwitalnosci.pl##.ot-widget-banner
 stefczyk.info##.our-sites-links
@@ -2727,7 +2726,9 @@ bithub.pl##div[data-adid] > a[href^="https://"]
 bielsko.info,cieszyn.news##div[data-ads-id]
 cafesenior.pl##div[data-adslot-id]
 goleniowska.com##div[data-advadstrackid]
+allegro.pl##div[data-box-name="banner-container"]
 allegro.pl##div[data-box-name^="AdsPremium"]
+allegro.pl##div[data-box-name^="allegro.ads."]
 allegro.pl##div[data-box-name^="allegro.advertising.adspremium.premiumad"]
 allegro.pl##div[data-box-name^="premium.with.dfp"]
 allegro.pl##div[data-box-name^="pure_offers_ads"]
