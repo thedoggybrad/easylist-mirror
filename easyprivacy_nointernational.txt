@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: fsGpeddstPL90sNWxqHbWw
-! Version: 202504280031
+! Checksum: n3VHcbn0tEcseR6GPJjS/g
+! Version: 202504280101
 ! Title: EasyPrivacy without international filters
-! Last modified: 28 Apr 2025 00:31 UTC
+! Last modified: 28 Apr 2025 01:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -684,6 +684,7 @@
 /count.php?
 /count.png?
 /count/count.cgi?
+/count/logcount.html?
 /count?pid=
 /count_js.php
 /counter-js.php
@@ -959,6 +960,7 @@
 /fsrscripts/triggerParams.js
 /fusion/lucid/data/*
 /g_track.php?
+/ga-audiences?
 /ga-events.js
 /ga-links.js
 /ga-lite.js
@@ -5095,6 +5097,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.splicky.com^
 ||t.spot.im^
 ||t2.t2b.click^
+||ta.trs.cn^
 ||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
 ||tag-manager.playbuzz.com^
@@ -6056,6 +6059,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||banggood.com/collectException
 ||bangkokpost.com/hits/
 ||barrons.com/cookies/pixel.gif
+||barry-callebaut.com/pd.js
 ||bat.maydream.com^
 ||bats.video.yahoo.com^
 ||bcbits.com/bundle/bundle/1/analytics-$domain=bandcamp.com
@@ -6257,6 +6261,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||darkreader.org/elements/backers-
 ||darkreader.org/elements/statistics.js
 ||data.allstate.com^
+||data.barry-callebaut.com^
 ||data.cheatography.com/banana.js
 ||data.guide.photobucket.com^
 ||data.torry.io^
