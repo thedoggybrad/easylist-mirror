@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504282352
+! Version: 202504290004
 ! Title: EasyPrivacy
-! Last modified: 28 Apr 2025 23:52 UTC
+! Last modified: 29 Apr 2025 00:04 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2612,6 +2612,7 @@
 /w.gif?
 /wa.gif?
 /wa_tracker.js
+/watchdog/hits/collect$xmlhttprequest
 /wcount.php?
 /web-analytics.js
 /web-api/log/*
@@ -10048,6 +10049,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||c3metrics.medifast1.com^
 ||cache2.delvenetworks.com^
 ||cafemedia.com/topics/clickstream-event
+||calendly.com/telemetry.js
 ||californiatimes.com/privacy/$image
 ||calltrack.co^
 ||calltrk.com/companies/
@@ -11424,6 +11426,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||removeads.workers.dev^
 ||replit.app/tap/
 ||replyat.com/gadgetpagecounter.asp?
+||report.23video.com^
 ||reporting-api.gannettinnovation.com^
 ||reporting.cdndex.io^
 ||reporting.singlefeed.com^
