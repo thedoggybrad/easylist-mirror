@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504290010
+! Version: 202504290023
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Apr 2025 00:10 UTC
+! Last modified: 29 Apr 2025 00:23 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -21953,9 +21953,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.acceptCookiesWrapper
 ##.accept_adatvedelem
 ##.accept_cookie_slot
-##.accept_cookies
-##.accept_cookies-wrapper
-##.accept_cookies_action
 ##.accepterCookie
 ##.acceptmycookie-bar
 ##.acceptsitecookies
@@ -37765,7 +37762,6 @@ gorillas.io,simbrief.com###cookie-settings
 dotmetrics.net###cookie-snackbar-container
 startermotoralternator.com###cookie-status
 bitvavo.com###cookie-wall
-blueletterbible.org,vu.nl###cookie-wrapper
 letsdothis.com###cookieAcceptanceModal
 511mt.net###cookieBannerHolder
 rsvp.withgoogle.com###cookieBarWrapper
@@ -40376,6 +40372,8 @@ just-eat.co.uk,just-eat.es,justeat.it##div[data-cookie-consent-overlay]
 just-eat.dk##div[data-qa="granular-privacy-settings"]
 just-eat.ie##div[data-qa="jet-privacy-settings"]
 just-eat.ch,just-eat.fr,lieferando.at,lieferando.de,pyszne.pl,takeaway.com,thuisbezorgd.nl##div[data-qa="privacy-settings"]
+! #cookie-wrapper
+adler-apotheke-kirchheim.de,apo2u.com,apotheke-alt-buckow.de,apotheke-am-engelbecken.de,apotheke-am-schuetzenplatz-sz.de,apotheke-am-stadtgarten-ettlingen.de,apotheke-clenze.de,apotheke-rhens.de,bahnhof-apotheke-salzbergen.de,blueletterbible.org,ceciapo.de,rug-apo.de,vu.nl###cookie-wrapper
 ! .cookie-overlay
 mtis.by,museum.nl,pyszne.pl##.cookie-overlay
 ! wildcard
@@ -43543,7 +43541,7 @@ minfin.com.ua##.mail-subscribe-user
 ! easylist_cookie_international_specific_hide.txt
 ! ---------- German ----------
 ! 
-delta4x4.com,fagron.de###BorlabsCookieBox
+alte-apotheke-hamm.de,delta4x4.com,fagron.de###BorlabsCookieBox
 flvw.de###ConsentMsg
 uncutnews.ch###CooDialog
 wiki.resolution.de###Cookie-pop-up
@@ -43641,6 +43639,7 @@ wieisdemol.be###cover-div
 ewtc.de###cp
 ruegenwalder.de###csdialogbd
 ruegenwalder.de###csdialogmd2
+apo-boehringer.de,apotheke-am-schloesschen-michelbach.de###ct-consent
 rentalens.ch###dabar
 guetsel.de###dark
 eve-audio.de###dark-privacy
@@ -46413,6 +46412,7 @@ parcan.es###cookie-consent-panel
 web.centro-zaragoza.com###cookie-wrapper-objeto
 lekeitio.com,mallabia.eus###cookieTop
 spargrancanaria.es###cookie_blocker
+lechepuleva.es###cookie_preferences
 griffon.es###cookiebar
 hsnstore.com###cookiebar-outer
 laboyanos.com###cookies-iki
