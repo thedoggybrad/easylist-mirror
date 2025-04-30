@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504292353
+! Version: 202504300003
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Apr 2025 23:53 UTC
+! Last modified: 30 Apr 2025 00:03 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1473,6 +1473,7 @@ _social_footer_
 /MarkupCookieConsent.min.js
 /mb_cookies.js
 /mco-consent.js
+/mcs-cookie-permission.js
 /mdv.cookie.js
 /mea-legal-consent.
 /mediamus-cookie.js
@@ -1695,7 +1696,7 @@ _social_footer_
 /wpjslib-sgap.js
 /wpjslib-stat.js
 /wps-cookie-consent/public/assets/js/main.js
-/ws5_eucookie/frontend/js/dist/main.js
+/ws5_eucookie/*$script
 /wx-cookie-
 /x13eucookies/views/js/front.js
 /xt_cookie_consent.js
@@ -40376,6 +40377,8 @@ just-eat.co.uk,just-eat.es,justeat.it##div[data-cookie-consent-overlay]
 just-eat.dk##div[data-qa="granular-privacy-settings"]
 just-eat.ie##div[data-qa="jet-privacy-settings"]
 just-eat.ch,just-eat.fr,lieferando.at,lieferando.de,pyszne.pl,takeaway.com,thuisbezorgd.nl##div[data-qa="privacy-settings"]
+! #cookie-message
+bavaria-apotheke-berlin.de,charmanthotel.com,lilabaer.de,surf-in-apotheke.de###cookie-message
 ! #cookie-wrapper
 adler-apotheke-kirchheim.de,apo2u.com,apotheke-alt-buckow.de,apotheke-am-engelbecken.de,apotheke-am-schuetzenplatz-sz.de,apotheke-am-stadtgarten-ettlingen.de,apotheke-clenze.de,apotheke-rhens.de,apotheke-unterluess.de,bahnhof-apotheke-salzbergen.de,blueletterbible.org,ceciapo.de,cecilien-apo.de,georg-apotheke-hannover.de,grosskreuz-apotheke.de,rug-apo.de,versandapo24.com,vu.nl###cookie-wrapper
 ! .cookie-overlay
@@ -43617,7 +43620,6 @@ adressmonster.de###cookie
 interdiscount.ch###cookie-consent-banner
 app.taxfix.de###cookie-consent-banner-container
 spdyn.de###cookie-consent-dialog
-bavaria-apotheke-berlin.de,lilabaer.de###cookie-message
 peax.ch###cookie-note-id
 pokalkoenig.de###cookie-permission-modal
 brf.be###cookieDashboard
@@ -43768,7 +43770,7 @@ jaguar.at,landrover.at##.Modal
 landrover.de##.NotificationBar
 toppreise.ch##.Plugin_WeUseCookies
 snowfall-beads.de##.PopupOnTopScreen
-amamed.de,apo-mathildenhoehe.de,apotheke-am-markt-bramsche.de,apotheke-hambrocker-berg.de,apotheke-hoch2-barsinghausen.de,apotheke-luebben.de,apotheke-metropole-berlin.de,baera-apotheke-nusplingen.de,bahnhof-apotheke-weimar.de,bahnhof-apotheke-wolfenbuettel.de##.PrivacyDialog-container
+amamed.de,apo-mathildenhoehe.de,apotheke-am-markt-bramsche.de,apotheke-hambrocker-berg.de,apotheke-hoch2-barsinghausen.de,apotheke-luebben.de,apotheke-metropole-berlin.de,baera-apotheke-nusplingen.de,bahnhof-apotheke-weimar.de,bahnhof-apotheke-wolfenbuettel.de,email-apotheke-amberg.de,friedrich-apotheke-bl.de,heinrich-mann-apotheke.de##.PrivacyDialog-container
 freshheads.com##.ReactModal__Overlay
 classpass.de##.SegmentManagerBanner_banner__deFuW
 awo-ruhr-mitte.de##.TrackingConfirm
@@ -44014,7 +44016,7 @@ koenig.de##.overlay__wrapper
 mibaby.de##.overlay_buddy
 querstarter.de##.page-lock
 avl-ludwigsburg.de,packster.de##.page-overlay
-bienen-voigt.de,reifen-felgen.de,tomodachi-koifutter.de##.page-wrap--cookie-permission
+bienen-voigt.de,gartenteiche-fockenberg.de,reifen-felgen.de,tomodachi-koifutter.de##.page-wrap--cookie-permission
 sport2000rent.com##.pageOverlay
 tchibo.de##.pageloading-mask
 hollaus-it.at,krankengym-zentrum.de,s3nnet.de##.pcb
@@ -44657,7 +44659,6 @@ pensioenleeftijdberekenen.nl###ckpol
 cdh.be###comp-jkmod7cm
 denhaagfm.nl,gld.nl,l1.nl,l1nieuws.nl,nieuwsplein33.nl,omroepwest.nl,omroepzeeland.nl,omropfryslan.nl,oost.nl,rtvdrenthe.nl,rtvnoord.nl,rtvoost.nl,rtvutrecht.nl###consent-plugin
 targetsupport.nl###consentModal
-charmanthotel.com###cookie-message
 nieuwbouw-borger-odoorn.nl###cookie-overlay
 ekoplaza.nl###cookie-prompt-modal___BV_modal_outer_
 keuze.nl###cookie_consent
@@ -45961,6 +45962,7 @@ oficinadanet.com.br##.pop-user-data
 churchsoftware.com.br##.popup-pro
 navallshow.com##.popupSite
 agazetafm.com,araraquaranews.com.br,slatual.com.br##.popup_footer
+estrelabet.bet.br##.pos_fixed.bottom_\[0\].left_\[0\].right_\[0\].bg-c_primary\.2.w_\[100\%\].d_flex.ai_center.jc_center.pt_xl.pb_lg.pr_xs.pl_xs.z_1002.bdr-t_md.tablet\:bdr-t_none.tablet\:pt_md.tablet\:pb_md.tablet\:pr_md.tablet\:pl_md
 gaz.com.br##.privacy-policy__popup
 starrcompanies.com.br##.privacy-warning
 honda-automoveis.pt##.rigor-cookies
