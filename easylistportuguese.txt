@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8mO1bpgno+P7ru8AMwqdSw
-! Version: 202504301921
+! Checksum: WBMdqcFwIXsnoAdAyp+OIg
+! Version: 202504301931
 ! Title: EasyList Portuguese
-! Last modified: 30 Apr 2025 19:21 UTC
+! Last modified: 30 Apr 2025 19:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -338,6 +338,7 @@ magazineluiza.com.br#@#iframe[name^="google_ads_iframe"]
 ||ojogo.pt/common/mrec_
 ||portaldoholanda.com.br^*/banners/
 ||portalmorada.com.br/assets/uploads/ads_
+||portalnacional.com.pt/images/banners/
 ||portuguesecorrector.com/cnc/
 ||redegn.com.br/images/banners/
 ||revive.portosenavios.com.br^
@@ -746,6 +747,7 @@ uai.com.br##.bg-ad
 bnews.com.br,jornaldocomercio.com##.bg-banner
 delas.pt##.billboard-wrapper
 tviplayer.iol.pt##.billboardxlWrapper
+fpb.pt##.black-line-part
 folha.uol.com.br##.block--pub-super
 brasilnaitalia.net##.block-15
 brasilnaitalia.net##.block-2
@@ -961,7 +963,7 @@ slatual.com.br##.post_banner_sidebar
 beachcam.meo.pt##.poweredBy
 gauchazh.clicrbs.com.br##.premium-area
 radioabc.com.br##.propaganda
-acorianooriental.pt,cifraclub.com.br,estrelando.com.br,flash.pt,iol.pt,jornaldebrasilia.com.br,motor24.pt,rtp.pt,sapo.pt##.pub
+acorianooriental.pt,cifraclub.com.br,estrelando.com.br,flash.pt,iol.pt,jornaldebrasilia.com.br,motor24.pt,portalnacional.com.pt,rtp.pt,sapo.pt##.pub
 correiogravatai.com.br,diariocachoeirinha.com.br,diariodecanoas.com.br,jornaldegramado.com.br,jornalnh.com.br,jornalvs.com.br##.pub-300
 euriodetudo.com.br##.pub-bottom-header
 redetv.uol.com.br,rfm.pt##.pub-box
@@ -996,6 +998,7 @@ acordacidade.com.br##.publi-5
 acordacidade.com.br##.publi-base
 brasilescola.uol.com.br##.publi-dir
 tempo.pt##.publicidad-pie
+fpb.pt##.publicidade-banner-module
 em.com.br,noataque.com.br,uai.com.br,vrum.com.br##.publicidade-interna-container
 exclusivo.com.br##.publicidade3
 infojobs.com.br##.publicity
@@ -1018,7 +1021,7 @@ naointendo.com.br##.sidebar-item[style="position: relative; height: 300px;"]
 cnnbrasil.com.br##.sidebar__item--ad
 cointelegraph.com.br##.sidebar__promo-button
 97news.com.br##.sidebar_widget_banner
-tnh1.com.br##.single-publicidade
+fpb.pt,tnh1.com.br##.single-publicidade
 diarioimobiliario.pt##.singlePub
 diarioaveiro.pt,diariocoimbra.pt,diarioleiria.pt,diarioviseu.pt##.slider-publicidade
 slatual.com.br##.slider_banner_sidebar
