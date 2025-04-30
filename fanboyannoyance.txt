@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504302300
+! Version: 202504302314
 ! Title: Fanboy's Annoyance List
-! Last modified: 30 Apr 2025 23:00 UTC
+! Last modified: 30 Apr 2025 23:14 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -18091,6 +18091,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ###csm-optin-bar
 ###cssFConsentCookie
 ###css_cookies_note
+###ct-consent.ct-consent-bar
 ###ct-uber-gdpr-cookie-popup
 ###ct-ultimate-gdpr-cookie-open-shaddow
 ###ct-ultimate-gdpr-cookie-popup
@@ -21822,6 +21823,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.PortletGestionDesCookiesCNIL
 ##.PositionBottom.as-oil
 ##.PrivacyCookieAccepted
+##.PrivacyDialog-container
 ##.PrivacyModeHeader
 ##.PrivacyNote
 ##.PrivacyPolicyNotice
@@ -34787,7 +34789,7 @@ maginative.com##.newsletter-toast
 gmanetwork.com##.newsletter-widget-container
 eatthis.com##.newsletter-window
 zenger.news##.newsletter-world-watch
-forward.com,gadgets-africa.com,ijnet.org,jam-news.net,webmd.com##.newsletter-wrapper
+forward.com,gadgets-africa.com,ijnet.org,jam-news.net,webmd.com,whoopsee.it##.newsletter-wrapper
 butterwithasideofbread.com##.newsletter2
 theblock.co##.newsletterBox
 hartfordbusiness.com##.newsletterBoxSidebar
@@ -36937,7 +36939,7 @@ foodsforbetterhealth.com##.single-social-icon
 flyingmag.com##.single-social-share
 defector.com##.single_inner__pWuJ8
 streetsblog.org##.single_sharingInner__3IoQO
-nme.com,operawire.com##.site-footer-social
+nme.com,operawire.com,whoopsee.it##.site-footer-social
 operawire.com##.site-header-actions-social
 ecowatch.com##.site-header__social
 news.sky.com,skysports.com##.site-share-wrapper
@@ -37050,7 +37052,7 @@ batimes.com.ar##.social-topsharing
 nist.gov##.social-twitter
 mmorpg.com##.social-web
 gnttv.com##.social-widget
-dutchcowboys.nl,rbth.com##.social-wrapper
+dutchcowboys.nl,rbth.com,whoopsee.it##.social-wrapper
 dailymail.co.uk##.socialContainer-1Yly1
 gamereactor.asia,gamereactor.cn,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se,healthshots.com,relationshiphero.com##.socialIcons
 macrumors.com##.socialMedia--3i9tSnAb
@@ -40385,7 +40387,7 @@ just-eat.dk##div[data-qa="granular-privacy-settings"]
 just-eat.ie##div[data-qa="jet-privacy-settings"]
 just-eat.ch,just-eat.fr,lieferando.at,lieferando.de,pyszne.pl,takeaway.com,thuisbezorgd.nl##div[data-qa="privacy-settings"]
 ! #cookie-message
-bavaria-apotheke-berlin.de,charmanthotel.com,lilabaer.de,surf-in-apotheke.de###cookie-message
+apotheke-gleichen.de,bavaria-apotheke-berlin.de,charmanthotel.com,irisapo.de,lilabaer.de,nordbahnhof-apotheke-stuttgart.de,surf-in-apotheke.de###cookie-message
 ! #cookie-wrapper
 adler-apotheke-kirchheim.de,apo2u.com,apotheke-alt-buckow.de,apotheke-am-engelbecken.de,apotheke-am-schuetzenplatz-sz.de,apotheke-am-stadtgarten-ettlingen.de,apotheke-clenze.de,apotheke-rhens.de,apotheke-unterluess.de,bahnhof-apotheke-salzbergen.de,blueletterbible.org,ceciapo.de,cecilien-apo.de,georg-apotheke-hannover.de,grosskreuz-apotheke.de,rug-apo.de,versandapo24.com,vu.nl###cookie-wrapper
 ! .cookie-overlay
@@ -40719,7 +40721,7 @@ flexiti.com##.z-999
 ! ! .z-100
 cote.co.uk,ennismore.com,gemini.pl,sallys-shop.de##.z-100
 ! ! .cookie-bar
-ansell.com.cn,bootstrapmade.com,epochtimes.kr,inovamar.pt,karriartips.se,mastername.ru,meuhedet.co.il,schuhparadiso.de,smartocto.com,triodos.co.uk,umbler.com,zerounoweb.it##.cookie-bar
+ansell.com.cn,bootstrapmade.com,bulupoint.de,epochtimes.kr,inovamar.pt,karriartips.se,mastername.ru,meuhedet.co.il,nordicpond.shop,schuhparadiso.de,smartocto.com,triodos.co.uk,umbler.com,zerounoweb.it##.cookie-bar
 ! ! #ws_eu-cookie-container
 absolut-canoe.de,adt-diamantwerkzeuge.de,aluscout.de,blasmusik-shop.de,deinsportsfreund.de,diekleinewerft.de,druckerpatronenexpress.de,duftfeeling.de,edesign24.de,ersatzteil-shop24.de,eurotabak.de,futterscheune.com,glitzerpueppi.de,growland.fr,joergs-sportladen.de,julido.de,kabelschuhe-shop.de,kartons24.de,lanade.de,meine-hochzeitsdeko.de,nmav.de,pflanzen-mauk.de,sachsperformance.com,shop.cosch-edelstahl.de,tesla-lighter.de,watchband-berlin.com,wischmopps.de###ws_eu-cookie-container
 ! ! #banerRoot
@@ -43657,7 +43659,6 @@ ewtc.de###cp
 brieftaubenshop.de###cs_preview_popup
 ruegenwalder.de###csdialogbd
 ruegenwalder.de###csdialogmd2
-apo-boehringer.de,apotheke-am-schloesschen-michelbach.de,bohlweg-apotheke-braunschweig.de###ct-consent
 rentalens.ch###dabar
 guetsel.de###dark
 eve-audio.de###dark-privacy
@@ -43778,7 +43779,6 @@ jaguar.at,landrover.at##.Modal
 landrover.de##.NotificationBar
 toppreise.ch##.Plugin_WeUseCookies
 snowfall-beads.de##.PopupOnTopScreen
-amamed.de,apo-mathildenhoehe.de,apotheke-am-markt-bramsche.de,apotheke-hambrocker-berg.de,apotheke-hoch2-barsinghausen.de,apotheke-luebben.de,apotheke-metropole-berlin.de,baera-apotheke-nusplingen.de,bahnhof-apotheke-weimar.de,bahnhof-apotheke-wolfenbuettel.de,email-apotheke-amberg.de,friedrich-apotheke-bl.de,heinrich-mann-apotheke.de##.PrivacyDialog-container
 freshheads.com##.ReactModal__Overlay
 classpass.de##.SegmentManagerBanner_banner__deFuW
 awo-ruhr-mitte.de##.TrackingConfirm
