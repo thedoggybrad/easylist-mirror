@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: aoBKBrP/K6wCJgzTleJSzg
-! Version: 202505021151
+! Checksum: 0+KXprOHdCocZUDTR6lDEw
+! Version: 202505021201
 ! Title: EasyPrivacy without international filters
-! Last modified: 02 May 2025 11:51 UTC
+! Last modified: 02 May 2025 12:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1757,6 +1757,7 @@
 /plugins/pup-comscore/*
 /plugins/stat-dfp/*
 /plugins/status.gif?
+/plugins/tagging/*
 /plugins/userinfo.gif?
 /plugins/vdz-google-analytics/*
 /plugins/visitors-traffic-
@@ -2028,6 +2029,7 @@
 /sherlock.gif?
 /shinystat.cgi
 /shopify-boomerang-
+/shopify-datalayer-minified.js
 /shopify-event.gif?
 /shopify/track.js
 /shopify_stats.js
@@ -2505,6 +2507,7 @@
 /urchin.html?
 /urchin.js
 /user-context?referrer=
+/user-data-minified.$script
 /userdata_n?
 /userfingerprinttoken/*$xmlhttprequest
 /userfly.js
@@ -2887,13 +2890,20 @@ _WebVitalsReporter_
 /gen_204?$image,other,ping,script
 /generate_204?$image
 ! Server-side GTM
+&cx=c&gtm=
+&ep.analytics_storage=
 &event_name=page_view&
 &l=dataLayer&cx=c
 .js?id=GTM-
+/*JmVu.js?sp=
+/*JmVu.js?tg=
 /ns.html?id=GTM-
+/tag/proxy?id=G-
 ://gtm.*.js?st=
 ://load.*.js?st=$~third-party
 ://sgtm.*.js?
+://tagging.*.js?aw=
+! Google
 ||adservice.google.
 ||google.*/url?$ping
 ||google.com/gen_204?
@@ -5128,6 +5138,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.rmp.rakuten.com^
 ||tag.statshop.fr^
 ||tagger.opecloud.com^
+||tagging.shiftdigitalapps.io^
 ||taggstar.com^*/taggstar.min.js
 ||tags.catapultx.com^
 ||tags.dxmdp.com^
