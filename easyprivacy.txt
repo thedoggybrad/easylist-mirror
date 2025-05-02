@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505022256
+! Version: 202505022308
 ! Title: EasyPrivacy
-! Last modified: 02 May 2025 22:56 UTC
+! Last modified: 02 May 2025 23:08 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -289,6 +289,7 @@
 /analytics/metric/*
 /analytics/pagestats
 /analytics/pageview
+/analytics/rakuten.js
 /analytics/searches?
 /analytics/track_event/*
 /analytics/tracker.js
@@ -3415,6 +3416,7 @@ omni.soundestlink.com$image
 ||jcpclick.com^
 ||jubbie.de^
 ||k5a.io^
+||klarinsights.net^
 ||krxd.net^
 ||kspotson.de^
 ||ldgnrtn.com^
@@ -4150,6 +4152,7 @@ omni.soundestlink.com$image
 ||countby.com^$third-party
 ||counter.dev^$third-party
 ||counter.gd^$third-party
+||counterapi.dev^$third-party
 ||counterbot.com^$third-party
 ||countercentral.com^$third-party
 ||countergeo.com^$third-party
@@ -10055,6 +10058,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||browser.pipe.aria.microsoft.com^
 ||bs.yandex.ru^
 ||bucklemail.com/a/$image
+||bundle.ppas.monster^
 ||burstcloud.co/jwe?
 ||bytedance.com/pixel/
 ||byteoversea.com/captcha/report
@@ -10235,6 +10239,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect.usefathom.com^
 ||collect.verify.lnearn.com^
 ||collection.e-satisfaction.com^
+||collector-*.luigisbox.com^
 ||collector-1.ex.co^
 ||collector-api.99designs.com^
 ||collector-api.frspecifics.com^
@@ -10406,6 +10411,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dl.episerver.net^
 ||dmcdn.net/behavior/
 ||dnnapi.com/analytics/
+||doofinder.com/api/v2/stats/
 ||doppiocdn.com/healthcheck
 ||doppiocdn.org/healthcheck
 ||doppler-beacon.cbsivideo.com^
@@ -10436,6 +10442,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ecomm.events^
 ||ecommstats.s3.amazonaws.com^
 ||edge-hls.doppiocdn.com/ping
+||edge-hls.doppiocdn.live/ping
 ||edge.bredg.com^$third-party
 ||edrone.me/trace?
 ||edw.edmunds.com/edw/edw1x1.gif
@@ -11463,6 +11470,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||retail-client-events-service.internal.salsify.com/events
 ||retargeting.newsmanapp.com^
 ||reverbnation.com/widgets/trk/
+||reviews.io/stats/
 ||rfksrv.com/rfkj/$image
 ||richrelevance.com/rrserver/tracking?
 ||rltd.io/tags/
@@ -12222,6 +12230,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wspisp.net/logger.php
 ||wstats.slashed.cloud^
 ||wt.viagogo.net^
+||wtb-tag.swaven.com^
 ||wtbevents.pricespider.com^
 ||wtr-digital-analytics.ew.r.appspot.com^
 ||x.babe.today^
@@ -12332,6 +12341,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2kdl5wcwrtj90.cloudfront.net^
 ||d2lxqodqbpy7c2.cloudfront.net^
 ||d2nq0f8d9ofdwv.cloudfront.net/track.js
+||d2o5idwacg3gyw.cloudfront.net^
 ||d2o67tzzxkqap2.cloudfront.net^
 ||d2oh4tlt9mrke9.cloudfront.net^
 ||d2pozfvrp52dk4.cloudfront.net^
@@ -12377,6 +12387,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d3vebqdofhigrn.cloudfront.net^
 ||d4ax0r5detcsu.cloudfront.net^
 ||d5yoctgpv4cpx.cloudfront.net^
+||d6rak4b14t5gp.cloudfront.net^
 ||d761erxl2qywg.cloudfront.net^
 ||d81mfvml8p5ml.cloudfront.net^
 ||danv01ao0kdr2.cloudfront.net^
@@ -53011,6 +53022,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||gazzetta.it^*/stats.php?
 ||insights.cdt.ch^
 ||joka.it/inquiero/isapi/csf.dll?
+||kijimea.it/javascript/script.js
 ||la7.it/js-live/nielsen1.js
 ||lalaziosiamonoi.it/pixel
 ||laregione.ch/ext/av.php?
