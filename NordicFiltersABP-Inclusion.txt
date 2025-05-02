@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E3wutnsUSu8KVT4l4t5VrQ
-! Version: 202505021231
+! Checksum: prefWNy1lmSp/fFIZw3Pbw
+! Version: 202505021241
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 02 May 2025 12:31 UTC
+! Last modified: 02 May 2025 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7807,6 +7807,7 @@ srk.fi#@##CookielawBanner
 !
 !-----------------------General advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_general_block.txt ***
+&rb=&uuid=$third-party
 -ad-manager/$~stylesheet
 -ad-sidebar.$image
 -ad.jpg.pagespeed.$image
@@ -8385,7 +8386,6 @@ srk.fi#@##CookielawBanner
 /rightad.js$script
 /s.ashx?btag$script
 /sbar.json?key=
-/sbar.json?key=$script
 /sc-tagmanager/*$script
 /script/aclib.js$third-party
 /script/antd.js$third-party
@@ -8562,6 +8562,7 @@ srk.fi#@##CookielawBanner
 ?adspot_$domain=~sponichi.co.jp
 ?advertiser_id=$domain=~ads.pinterest.com
 ?cs=*&abt=0&red=1&sm=$third-party
+?key=*&uuid=$subdocument,third-party
 ?service=ad&
 ?usid=*&utid=
 ?whichAd=freestar&
@@ -33217,6 +33218,7 @@ browsershots.org#@#.advert_area
 ||frivolous-copy.pro^
 ||friy.site^
 ||frizzannoyance.com^
+||frockherbal.com^
 ||frogeyeparaiba.top^
 ||frolnk.com^
 ||fromjoytohappiness.com^
@@ -39556,6 +39558,7 @@ browsershots.org#@#.advert_area
 ||native-adserver.com^
 ||nativeadmatch.com^
 ||nativeadsfeed.com^
+||nativeantecedent.com^
 ||nativepu.sh^
 ||nativeshumbug.com^
 ||nativewpsh.com^
