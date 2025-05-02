@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Z5r0Ec3AVOeChqSCDHHuEA
-! Version: 202505021231
+! Checksum: 966iKDgEcAbsS7vh6ON52A
+! Version: 202505021251
 ! Title: EasyList without element hiding rules
-! Last modified: 02 May 2025 12:31 UTC
+! Last modified: 02 May 2025 12:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -13,6 +13,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_general_block.txt ***
+&rb=&uuid=$third-party
 -ad-manager/$~stylesheet
 -ad-sidebar.$image
 -ad.jpg.pagespeed.$image
@@ -591,7 +592,6 @@
 /rightad.js$script
 /s.ashx?btag$script
 /sbar.json?key=
-/sbar.json?key=$script
 /sc-tagmanager/*$script
 /script/aclib.js$third-party
 /script/antd.js$third-party
@@ -768,6 +768,7 @@
 ?adspot_$domain=~sponichi.co.jp
 ?advertiser_id=$domain=~ads.pinterest.com
 ?cs=*&abt=0&red=1&sm=$third-party
+?key=*&uuid=$subdocument,third-party
 ?service=ad&
 ?usid=*&utid=
 ?whichAd=freestar&
@@ -11022,6 +11023,7 @@ _800x80_
 ||frivolous-copy.pro^
 ||friy.site^
 ||frizzannoyance.com^
+||frockherbal.com^
 ||frogeyeparaiba.top^
 ||frolnk.com^
 ||fromjoytohappiness.com^
@@ -17361,6 +17363,7 @@ _800x80_
 ||native-adserver.com^
 ||nativeadmatch.com^
 ||nativeadsfeed.com^
+||nativeantecedent.com^
 ||nativepu.sh^
 ||nativeshumbug.com^
 ||nativewpsh.com^
