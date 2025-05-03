@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Rgw+TIG2twLjkYUcps0rXg
-! Version: 202505031041
+! Checksum: udaCve8M1rGUE4NO2Sk1bA
+! Version: 202505031051
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 May 2025 10:41 UTC
+! Last modified: 03 May 2025 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -67521,6 +67521,7 @@ motor1.com##[data-m1-ad-label]
 cnet.com##[data-meta="placeholder-slot"]
 lightnovelcave.com,lightnovelpub.com##[data-mobid]
 qvc.com##[data-module-feature-name^="CRITEO"]
+coindesk.com##[data-module-name="high-impact"]
 independent.co.uk##[data-mpu1]
 goal.com##[data-name="ad-leaderboard"]
 polygon.com##[data-native-ad-id^="container"]
@@ -69491,6 +69492,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\:justify-normal.lg\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:-abp-contains(Sponsored by))
 temu.com#?#.splide__slide:-abp-contains(AD)
 foodlion.com#?#.product-grid-cell:-abp-contains(Sponsored)
 manomano.*#?#[data-testid="productCardListing"]:-abp-contains(/Patrocinado|Gesponsert|Sponsorisé|Sponsorizzato/)
