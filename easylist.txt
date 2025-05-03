@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202505031105
+! Version: 202505031115
 ! Title: EasyList
-! Last modified: 03 May 2025 11:05 UTC
+! Last modified: 03 May 2025 11:15 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -52331,6 +52331,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||backgrounds.wetransfer.net$image
 ||backgrounds.wetransfer.net/*.mp4$media
 ||bahamaslocal.com/img/banners/
+||ban.etherscan.com^
 ||bbci.co.uk/plugins/dfpAdsHTML/
 ||beap.gemini.yahoo.com^
 ||beforeitsnews.com/img/banner_
@@ -60210,6 +60211,7 @@ cointelegraph.com##a[href^="https://servedbyadbutler.com/"]
 listland.com##a[href^="https://shareasale.com/r.cfm?"]
 wbnq.com,wbwn.com,wjbc.com##a[href^="https://stjude.org/radio/"]
 glory985.com##a[href^="https://sweetbidsflo.irauctions.com/listing/0"]
+faceitanalyser.com##a[href^="https://t.csgofast.cash/"]
 veev.to##a[href^="https://t.ly/"]
 piratebay.live##a[href^="https://thesurferprotector.com/"]
 accesswdun.com##a[href^="https://tinyurl.com"] > img
@@ -60278,6 +60280,7 @@ builtbybit.com##center[style="margin-top: 20px"]
 hltv.org##csmoney-skins-widget
 weatherbug.com##display-ad-widget
 wings.io##div > [href="https://mechazilla.io"]
+etherscan.io##div > a[target="_blank"][rel="nofollow"] > img[alt="Ads"]
 readonepiece.com##div > b
 coffeeordie.com##div.HtmlModule > [href]
 web.telegram.org##div.bubbles > div.scrollable > div.bubbles-inner > div.is-sponsored
@@ -60950,6 +60953,7 @@ scamwarners.com##.subheader:has(> ins.adsbygoogle)
 thesun.co.uk##.sun-grid-container:has([class*="ad_widget"])
 douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad)
+etherscan.io##.text-white.text-opacity-75.noindex-section.mb-0:has([style="text-decoration: none;"])
 trademe.co.nz##.tm-stripe__SL-card-container:has([class^="tm-sponsored-"])
 nex-software.com##.toolinfo:has(a[href$="/reimage"])
 canberratimes.com.au##.top-20
