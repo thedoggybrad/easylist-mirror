@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: V78aXT7DpAiube7P34nKAQ
-! Version: 202505032031
+! Checksum: Sr+A2z9/UoHwQFwZCDyZMA
+! Version: 202505032041
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 May 2025 20:31 UTC
+! Last modified: 03 May 2025 20:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -2945,8 +2945,7 @@ triplx.dk##.aff-inner-col
 ||monetrizer*.
 ||monetrizer*.$popup
 ://38.180.96.244^
-*,ipaddress=38.180.96.244
-*,ipaddress=38.180.96.244$popup
+://38.180.96.244^$popup
 ! https://sol•no/81812194/ / https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-10360231
 ||acc-inf.com^
 ||acc-inf.com^$popup
@@ -3268,7 +3267,7 @@ triplx.dk##.aff-inner-col
 ://193.143.1.214^$popup
 ://193.143.1.217^
 ://193.143.1.217^$popup
-://193.143.1.^
+://193.143.1.
 ||adidasko.com^
 ||airmaxskobillige.com^
 ||assassinfitness.com^
@@ -3294,6 +3293,13 @@ triplx.dk##.aff-inner-col
 ||pjs.outlet.com^
 ||popeurope.com^
 ||um-bs.com^
+://old.sermitsiaq.ag^
+://robot.ekstrabladet.dk^
+||modificationdesignate.com^
+||modificationdesignate.com^$popup
+||xss.my.id^$third-party
+||85.159.213.158^
+||85.159.213.158^$popup
 ! 🇬🇧: Pirate-product-selling stores registered by the serial scammers who go by the name of "xiang dao xin xi ji shu you xiang gong si".
 ||nofotballshop.com^
 ||nofotballstore.com^
