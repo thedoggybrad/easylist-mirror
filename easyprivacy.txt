@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505032141
+! Version: 202505032150
 ! Title: EasyPrivacy
-! Last modified: 03 May 2025 21:41 UTC
+! Last modified: 03 May 2025 21:50 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2328,6 +2328,7 @@
 /track/cm?
 /track/component/*
 /track/event/*
+/track/go.php?*&referer_url=
 /track/hit.gif
 /track/identity?
 /track/imp?
