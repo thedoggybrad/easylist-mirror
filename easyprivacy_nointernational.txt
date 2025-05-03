@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: u62ieH29uOLy/wtBuxCJQQ
-! Version: 202505032141
+! Checksum: +McaSI49HS0r2q+qEjp7Vw
+! Version: 202505032151
 ! Title: EasyPrivacy without international filters
-! Last modified: 03 May 2025 21:41 UTC
+! Last modified: 03 May 2025 21:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2325,6 +2325,7 @@
 /track/cm?
 /track/component/*
 /track/event/*
+/track/go.php?*&referer_url=
 /track/hit.gif
 /track/identity?
 /track/imp?
