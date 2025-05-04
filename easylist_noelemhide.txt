@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kOqVIs9C2JBEv9XFQAZM2A
-! Version: 202505041631
+! Checksum: Oj/UqxFmNkO8dSQIfQKCHw
+! Version: 202505041641
 ! Title: EasyList without element hiding rules
-! Last modified: 04 May 2025 16:31 UTC
+! Last modified: 04 May 2025 16:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -30492,7 +30492,7 @@ _800x80_
 ||marketleverage.com^$third-party
 ||marsads.com^$third-party
 ||mcontigo.com^$third-party
-||media.net^$script,third-party,xmlhttprequest
+||media.net^$object,script,third-party,xmlhttprequest
 ||mediaad.org^$third-party
 ||mediacpm.pl^$third-party
 ||mediaffiliation.com^$third-party
@@ -38452,6 +38452,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||raenonx.cc/scripts
 ||rafvertizing.crazygames.com^
 ||randalls.com/abs/pub/xapi/search/sponsored-carousel?
+||rawdogsports.com/data/siropu/
 ||rd.com/wp-content/plugins/pup-ad-stack/
 ||realitytvworld.com/includes/loadsticky.html
 ||realpython.net/tag.js
