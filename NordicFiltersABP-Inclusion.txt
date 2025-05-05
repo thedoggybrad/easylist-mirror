@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xCHxIcavdNDJ4QDlu2UeVw
-! Version: 202505051601
+! Checksum: WxJmfN+qq7DJPmuujLQPug
+! Version: 202505051611
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 05 May 2025 16:01 UTC
+! Last modified: 05 May 2025 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -69073,6 +69073,7 @@ amazon.*###typ-recommendations-stripe-2
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.amzn-safe-frame-container
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
+amazon.*##.s-result-item:has([data-ad-feedback-label-id])
 amazon.*##.s-result-item:has([data-ad-feedback])
 amazon.*##.s-result-item:has(div.puis-sponsored-label-text)
 amazon.*##.s-result-list > .a-section:has(.sbv-ad-content-container)
