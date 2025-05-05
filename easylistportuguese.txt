@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: woc8I9mT9qn+NdVOhAWv/w
-! Version: 202505051711
+! Checksum: o2pnpkL82InFCvBYDvrIuA
+! Version: 202505051722
 ! Title: EasyList Portuguese
-! Last modified: 05 May 2025 17:11 UTC
+! Last modified: 05 May 2025 17:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -635,6 +635,7 @@ naointendo.com.br##.Ad
 ig.com.br,jornalf8.net##.Ads
 hojeemdia.com.br##.Block__Component-sc-1uj1scg-0.jXrXvY
 exame.com##.RmKoK
+mundi.com.br##.WTQR-ad-card
 dgabc.com.br##._arroba_300x250
 dgabc.com.br##._arroba_300x600
 dgabc.com.br##._superBanner_970x250
@@ -1205,6 +1206,7 @@ futebolatino.lance.com.br##img[width="940"][height="150"]
 anitube.biz##ins[style*="width:300px;height:250px;"]
 portaldohost.com.br##li > a[href^="https://portaldohost.com.br/index.php?app=core&module=system&controller=redirect&do=advertisement&ad="]
 ! :has()
+mundi.com.br##.YnaR:has([class$="ProviderAdBanner"])
 gauchazh.clicrbs.com.br##.flex.h-full.items-center:has(.bg-ad-placeholder)
 tavernaderivia.com.br##.ig_widget:has(a[href^="https://amzn.to/"])
 tavernaderivia.com.br##.ig_widget:has(a[href^="https://www.amazon."][href*="tag="])
