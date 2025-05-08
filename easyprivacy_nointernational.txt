@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: mIgJXoLHFRQ/d8ffc6W/BQ
-! Version: 202505082241
+! Checksum: 9lZI1PqrU6Dsc2NKojqxFA
+! Version: 202505082251
 ! Title: EasyPrivacy without international filters
-! Last modified: 08 May 2025 22:41 UTC
+! Last modified: 08 May 2025 22:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1970,6 +1970,7 @@
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
+/script.hash.outbound-links.pageview-props.tagged-events.js
 /script.tagged-events.js
 /script.tagged-events.outbound-links.js
 /script/pixel.js
@@ -3485,6 +3486,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cityzen.io/Pixel/
 ||civicscience.com/jot?
 ||ck.connatix.com^
+||cl-pbr.cxr.skeepers.io^
 ||cleantalk.org/pixel/
 ||clearspring.com/at/
 ||clearspring.com/t/
@@ -4097,6 +4099,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||highway.cablecar.sph.com.sg^
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||hit.mybestpro.com^
+||hit.salesfire.co.uk^
 ||hits.dealer.com^
 ||hits.getelevar.com^
 ||hits.gokwik.co^
@@ -5284,6 +5287,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.zappos.com^
 ||trackdesk.com/tracking.js
 ||tracker-dot-optimeeze.appspot.com^
+||tracker-server.high-cdn.com^
 ||tracker-v4.gamedock.io^
 ||tracker.affirm.com^
 ||tracker.au.zitcha.app^
