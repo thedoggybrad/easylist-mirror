@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: bbCDAT4m+mPHpAOZe6AyEg
-! Version: 202505091021
+! Checksum: Wj31u75KQLTbeMAmqsBTHg
+! Version: 202505091031
 ! Title: EasyPrivacy without international filters
-! Last modified: 09 May 2025 10:21 UTC
+! Last modified: 09 May 2025 10:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2908,10 +2908,12 @@ _WebVitalsReporter_
 &event_name=page_view&
 &ga_blocked=$image
 &l=dataLayer&cx=c
+&sst.sw_exp=
 .js?id=GTM-
 /*JmVu.js?sp=
 /*JmVu.js?tg=
 /ns.html?id=GTM-
+/send_ga4_params?
 /tag/proxy?id=G-
 ://gtm.*.js?st=
 ://load.*.js?st=$~third-party
