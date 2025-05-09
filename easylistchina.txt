@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tRF4enPTk/odQz8BdsnPBw
-! Version: 202505091501
+! Checksum: fsVDvM3Cc7JJCuX1rqemEg
+! Version: 202505091511
 ! Title: EasyList China
-! Last modified: 09 May 2025 15:01 UTC
+! Last modified: 09 May 2025 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -869,9 +869,6 @@ wss://*/api/wss/GetNotReadCount$third-party
 ###ad_full
 ###ad_globle_div
 ###ad_headerbanner
-###ad_hf_out2
-###ad_hf_out4
-###ad_hf_out5
 ###adad
 ###adrights14
 ###ads.row
@@ -970,7 +967,6 @@ newduba.cn###jq_youxi
 ###js_ads_banner_top_slide
 ~houdask.com###kfivtwin
 ###kfpopupDiv
-###kp-mid-sport.fed-back-whits
 ###ks > .DaKuang
 ###ldgindexbuttom
 ###leftCouple
@@ -1714,7 +1710,7 @@ newduba.cn###jq_youxi
 ##.content > .module > .small-icon-container > a.small-icon-div[target="_blank"]
 ##.video-ad-item
 ##.ceo_ads
-###kp-hid-sport.uk-alert
+###kp-hid-gb.uk-alert
 ###side_promo.bc_dp
 ##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
@@ -1725,6 +1721,7 @@ newduba.cn###jq_youxi
 ##td[id^="td_"] > a[href^="/htmm/"]
 !----------------------------------Ads-Union----------------------------------!
 ##a[href*="/122.51.121.126:"]
+##a[href*="/137.220.194.105:"]
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
@@ -9537,7 +9534,7 @@ appinn.com##a[href*=".houdeyun.cn"]
 fitacg.com##a[href*="ifift.com"]
 cnys.tv###player_pause
 twkan.com##.txtcenter
-element-plus.org##.doc-content-side
+element-plus.org##.doc-content-sidebar
 hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
 sehuatang.net##DIV[class^="show-text"]
 ghxi.com##.widget_html_ad + div[style]
@@ -13817,7 +13814,7 @@ ikjzd.com##.wv-right-content > .imgTop-right
 taoguba.com.cn##.wz_ad
 55188.com##.wz_text
 eyy5.cn##.wzgg
-tmioe.com##.ekxhn
+tmioe.com##.ekssxhn
 tmioe.com##a[href*=".zps.im"]
 sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
