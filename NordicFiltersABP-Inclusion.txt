@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BOWs3EqPHFMNbBpFGv/xBw
-! Version: 202505090821
+! Checksum: fUtw8CBF4rdwvPCNBrvMgg
+! Version: 202505090831
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 May 2025 08:21 UTC
+! Last modified: 09 May 2025 08:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -536,6 +536,7 @@ tipsbladet.dk##main > section.l-padding-top-lg
 dn.no##[id^=googlead-]:not(#googlead-toppbanner)
 forum.kvinneguiden.no##div[class*=" ehm-affiliate-"]
 voguescandinavia.com##div[class^=AdssetsAd_]
+tv2.no##.adunit-wrapper--padded
 klikk.no##.gpt-sticky
 godstart.dk###ad_PageBottom
 tv2.no,www-tv2-no.translate.goog##div[id^=module-]:has(div[data-adslot^=fullscreen-])
@@ -3349,6 +3350,7 @@ triplx.dk##.aff-inner-col
 ||trafikkskoleapp.no^
 ! 🇬🇧：Intended for Adblock Plus
 @@||prosent.no^$generichide
+@@||tv2.no^$generichide
 ! 🇳🇴/🇩🇰: ——— Ikke for Brave Browser ———
 ! 🇬🇧: ——— Not for Brave Browser ———
 ! Last updated: 09February2022v1-Extension
