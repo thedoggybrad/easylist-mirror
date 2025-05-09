@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505092252
+! Version: 202505092302
 ! Title: EasyPrivacy
-! Last modified: 09 May 2025 22:52 UTC
+! Last modified: 09 May 2025 23:02 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -10657,6 +10657,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||csp-reporting.cloudflare.com^
 ||csp.secureserver.net^
 ||csr.onet.pl^
+||ct-errs.cartrawler.com^
 ||ct.capterra.com^
 ||ct.corpusapp.com^
 ||ct.itbusinessedge.com^$third-party
@@ -11836,6 +11837,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sailthru.com/Sailthru_spacer_1x1.gif
 ||sajari.com/js/sj.js$third-party
 ||salescs.com/liveagent/scripts/track.js
+||salesforce.com/beacon/
 ||salesforce.com/sfga.js
 ||salesloft.com/sl.js
 ||salesmartly.com/client/log/
@@ -14082,6 +14084,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||agbi.com/kqmp6?
 ||agoda.net/v2/track
 ||aim.cloudflare.com/__log
+||airgreenland.com/tracking/
 ||airtable.com/internal/
 ||airtel.in/analytics/pixel?
 ||aitotop.com^*/collect.js?
