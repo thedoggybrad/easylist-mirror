@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505092312
+! Version: 202505092322
 ! Title: EasyPrivacy
-! Last modified: 09 May 2025 23:12 UTC
+! Last modified: 09 May 2025 23:22 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -900,6 +900,7 @@
 /facebook/pixel.js
 /facebook_fbevents.js
 /facebook_pixel_3_1_2.js
+/FacebookEvent/PageView$xmlhttprequest
 /facebookpixel.js
 /facebookproductad/views/js/pixel.
 /faciliti-tag.min.js
@@ -5379,6 +5380,7 @@ omni.soundestlink.com$image
 ||recruitics.com^$third-party
 ||redcounter.net^$third-party
 ||redfastlabs.com^$third-party
+||redirectify.app^$third-party
 ||redistats.com^$third-party
 ||redstatcounter.com^$third-party
 ||reedbusiness.net^$third-party
@@ -10242,6 +10244,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ariane.abtasty.com^
 ||arkoselabs.com/metrics/
 ||asayer.io/tracker.js
+||aservice.cloud/trc/mastertag
 ||assets.apollo.io/micro/website-tracker/
 ||assets.hearstapps.com/commerce/release/affiliate-bundle.
 ||assets.moneymade.io/js/fp.min.js
@@ -10972,6 +10975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geoip.instiengage.com^
 ||geoip.nekudo.com^
 ||geolocation.outreach.com^
+||geoproapp.com/api/record
 ||geoservice.curse.com^
 ||geotags.refinery89.com^
 ||getelevar.com/shops/*/events.js
@@ -11758,6 +11762,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rapidspike.com/static/js/timingpcg.min.js
 ||raven.adeptmind.ai^
 ||raygun.io/events?
+||raygun.io/ping?
 ||rayn.io/contextual_targeting
 ||rbl.ms/res/users/tracking/
 ||reach-id.orbit.tm-awx.com^
@@ -14026,6 +14031,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! *** easylist:easyprivacy/easyprivacy_specific.txt ***
 ||1024tera.com/api/analytics?
 ||123rf.com/apicore-index/traffic_log
+||1rer.hummel.net^
 ||1win.com^$ping
 ||40svintageporn.com/hit
 ||4hds.com/js/camstats.js
@@ -52765,6 +52771,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||gtm.mandesager.dk^
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
+||matas.dk/internal/Tracking/
 ||nrpukcsgboqr0gz2o8.www.bolighub.dk^
 ! French
 ||2ememain.be/c3650cdf-
