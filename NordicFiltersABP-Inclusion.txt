@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i66QYo8Mcl6o/PZyKDZD9w
-! Version: 202505171021
+! Checksum: VsF1BsewANSZpZjysOU7Mg
+! Version: 202505171031
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 17 May 2025 10:21 UTC
+! Last modified: 17 May 2025 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -66053,6 +66053,7 @@ foodlion.com##[aria-label="Sponsored Ad"]
 wsj.com##[aria-label="Sponsored Offers"]
 blackbeltmag.com##[aria-label="Wix Monetize with AdSense"]
 giantfood.com,giantfoodstores.com,martinsfoods.com##[aria-label^="Sponsored"]
+odishatv.in##[class$="-ad"]
 impressivetimes.com##[class$="-ads"]
 economictimes.indiatimes.com##[class*="-ad-"]
 thehansindia.com##[class*="-ad-"]:not(#inside_post_content_ad_1_before)
@@ -66824,7 +66825,6 @@ localjewishnews.com##div[class^="local-feed-banner-ads"]
 bloomberg.com##div[class^="media-ui-BaseAd"]
 bloomberg.com##div[class^="media-ui-FullWidthAd"]
 goal.com##div[class^="open-web-ad_"]
-odishatv.in##div[class^="otv-"]
 nltimes.nl##div[class^="r89-"]
 nationalmemo.com,spectrum.ieee.org,theodysseyonline.com##div[class^="rblad-"]
 windowsreport.com##div[class^="refmedprd"]
@@ -68010,6 +68010,7 @@ spiegel.de##.ob-dynamic-rec-container.ob-p
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##.results--ads
 mail.google.com##a[href^="http://li.blogtrottr.com/click?"]
 geekzone.co.nz##div.cornered.box > center
+taboolanews.com##div[class*=" trc_elastic_sponsored-"]
 apkmirror.com##div[id^="adtester-container-"]
 yandex.com##div[id^="yandex_ad"]
 ! Google
@@ -70096,6 +70097,7 @@ gamcore.com##li.d-md-block > a[rel]
 @@||smallseotools.com^$generichide
 @@||sonichits.com^$generichide
 @@||soranews24.com^$generichide
+@@||taboolanews.com/feed/summary?publisherId=Taboola_samsung-carnival-us&key=Taboola&viewID=$generichide
 @@||thefreedictionary.com^$generichide
 @@||tlc.com^$generichide
 @@||yibada.com^$generichide
