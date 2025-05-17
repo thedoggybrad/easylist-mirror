@@ -1,0 +1,5 @@
+#Protect Directory
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile root/dir/dir/dir
+Require valid-user
