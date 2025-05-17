@@ -179,7 +179,7 @@ A filterlist that can be called as a companion to EasyList and block what EasyLi
 ## Code Transparency
 As we all know, this project is 100% open-source. This means all the codes must be transparent.
 <br>
-The following files and olders in this repository contain the source code for that runs this project:<br<br>
+The following files and olders in this repository contain the source code for that runs this project:<br>
 [Github Workflow File](https://github.com/thedoggybrad/easylist-mirror/tree/main/.github/workflows)
 <br>
 [Server-side Triggers](https://github.com/thedoggybrad/easylist-mirror/tree/main/ct-triggers)
