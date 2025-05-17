@@ -1,8 +1,8 @@
 # EasyList Mirror (Unofficial)
-This is an unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab. <br> This is the TheDoggyBrad Software Lab's answer to lack of 3rd party mirrors for the EasyList-family of AdBlock filterlists.<br>
+This is an unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab. <br> This is the TheDoggyBrad Software Lab's answer to lack of 3rd party mirrors for the EasyList-family of AdBlock filterlists.
 It is always updated using a bunch of automation and is hosted directly here in Github and not proxied or served via a CDN. <br>
-Filterlists are served in a raw TXT format.<br>
-This mirror includes all the affiliated both official and unofficial with EasyList.<br>
+Filterlists are served in a raw TXT format.
+This mirror includes all the affiliated both official and unofficial with EasyList.
 The purpose of this mirror is to serve as a backup and alternative for the official EasyList mirror links (In case they are down or unreliable).<br>
 Updates to this mirror are delivered by [@updaterbot-easylistmirror](https://github.com/updaterbot-easylistmirror).
 <br><br>
