@@ -1,0 +1,282 @@
+name: EasyList Mirror Updater
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update_files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4.2.2
+
+      - name: Setting commit credentials
+        run: |
+          git config --global user.email "142152315+updaterbot-easylistmirror@users.noreply.github.com"
+          git config --global user.name "updaterbot-easylistmirror"
+
+      - name: Update easylist.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/easylist.txt > easylist.txt
+          git add easylist.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylist.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+
+      - name: Update easyprivacy.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/easyprivacy.txt > easyprivacy.txt
+          git add easyprivacy.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easyprivacy.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update fanboy-cookiemonster.txt
+        run: |
+          curl -sSfL https://secure.fanboy.co.nz/fanboy-cookiemonster.txt > easycookie.txt
+          git add easycookie.txt
+          git diff-index --quiet HEAD || git commit -m "Updated fanboy-cookiemonster.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update fanboy-social.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/fanboy-social.txt > fanboysocial.txt
+          git add fanboysocial.txt
+          git diff-index --quiet HEAD || git commit -m "Updated fanboy-social.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update fanboy-annoyance.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/fanboy-annoyance.txt > fanboyannoyance.txt
+          git add fanboyannoyance.txt
+          git diff-index --quiet HEAD || git commit -m "Updated fanboy-annoyance.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update antiadblockfilters.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/antiadblockfilters.txt > antiadblock.txt
+          git add antiadblock.txt
+          git diff-index --quiet HEAD || git commit -m "Updated antiadblockfilters.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylistgermany.txt
+        run: |
+          curl -sSfL https://easylist.to/easylistgermany/easylistgermany.txt > easylistgermany.txt
+          git add easylistgermany.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylistgermany.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylistitaly.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistitaly.txt > easylistitaly.txt
+          git add easylistitaly.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylistitaly.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylistdutch.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistdutch.txt > easylistdutch.txt
+          git add easylistdutch.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylistdutch.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update liste_fr.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/liste_fr.txt > liste_fr.txt
+          git add liste_fr.txt
+          git diff-index --quiet HEAD || git commit -m "Updated liste_fr.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylistchina.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistchina.txt > easylistchina.txt
+          git add easylistchina.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylistchina.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update advblock.txt (RU AdList)
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/advblock.txt > advblock.txt
+          git add advblock.txt
+          git diff-index --quiet HEAD || git commit -m "Updated advblock.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update adblock_bg.txt (Bulgarian)
+        run: |
+          curl -sSfL http://stanev.org/abp/adblock_bg.txt > adblock_bg.txt
+          git add adblock_bg.txt
+          git diff-index --quiet HEAD || git commit -m "Updated adblock_bg.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update abpindo.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/abpindo.txt > abpindo.txt
+          git add abpindo.txt
+          git diff-index --quiet HEAD || git commit -m "Updated abpindo.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update Liste_AR.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/Liste_AR.txt > Liste_AR.txt
+          git add Liste_AR.txt
+          git diff-index --quiet HEAD || git commit -m "Updated Liste_AR.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylistczechandslovak.txt
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt > easylistczechandslovak.txt
+          git add easylistczechandslovak.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylistczechandslovak.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update latvian-list.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/latvianlist.txt > latvian-list.txt
+          git add latvian-list.txt
+          git diff-index --quiet HEAD || git commit -m "Updated latvian-list.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update EasyListHebrew.txt
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt > EasyListHebrew.txt
+          git add EasyListHebrew.txt
+          git diff-index --quiet HEAD || git commit -m "Updated EasyListHebrew.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update NordicFiltersABP-Inclusion.txt (Dandelion Nordic)
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/dandelion_sprouts_nordic_filters%2Beasylist.txt > NordicFiltersABP-Inclusion.txt
+          git add NordicFiltersABP-Inclusion.txt
+          git diff-index --quiet HEAD || git commit -m "Updated NordicFiltersABP-Inclusion.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylistlithuania.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistlithuania.txt > easylistlithuania.txt
+          git add easylistlithuania.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylistlithuania.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylistspanish.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistspanish.txt > easylistspanish.txt
+          git add easylistspanish.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylistspanish.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylistportuguese.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistportuguese.txt > easylistportuguese.txt
+          git add easylistportuguese.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylistportuguese.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update abpvn.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/abpvn.txt > abpvn.txt
+          git add abpvn.txt
+          git diff-index --quiet HEAD || git commit -m "Updated abpvn.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylistpolish.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylistpolish.txt > easylistpolish.txt
+          git add easylistpolish.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylistpolish.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update indianlist.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/indianlist.txt > indianlist.txt
+          git add indianlist.txt
+          git diff-index --quiet HEAD || git commit -m "Updated indianlist.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update koreanlist.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/koreanlist.txt > koreanlist.txt
+          git add koreanlist.txt
+          git diff-index --quiet HEAD || git commit -m "Updated koreanlist.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update rolist.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/rolist.txt > rolist.txt
+          git add rolist.txt
+          git diff-index --quiet HEAD || git commit -m "Updated rolist.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easyprivacy_nointernational.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easyprivacy_nointernational.txt > easyprivacy_nointernational.txt
+          git add easyprivacy_nointernational.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easyprivacy_nointernational.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylist_noadult.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylist_noadult.txt > easylist_noadult.txt
+          git add easylist_noadult.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylist_noadult.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update easylist_noelemhide.txt
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/easylist_noelemhide.txt > easylist_noelemhide.txt
+          git add easylist_noelemhide.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylist_noelemhide.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update fanboy-newsletter.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/fanboy-newsletter.txt > fanboy-newsletter.txt
+          git add fanboy-newsletter.txt
+          git diff-index --quiet HEAD || git commit -m "Updated fanboy-newsletter.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update fanboy-sounds.txt
+        run: |
+          curl -sSfL https://easylist.to/easylist/fanboy-sounds.txt > fanboy-sounds.txt
+          git add fanboy-sounds.txt
+          git diff-index --quiet HEAD || git commit -m "Updated fanboy-sounds.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
+      - name: Update abp-filters-anti-cv.txt (ABP anti-circumvention)
+        run: |
+          curl -sSfL https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt > abp-filters-anti-cv.txt
+          git add abp-filters-anti-cv.txt
+          git diff-index --quiet HEAD || git commit -m "Updated abp-filters-anti-cv.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+        
