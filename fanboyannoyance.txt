@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202505181545
+! Version: 202505181426
 ! Title: Fanboy's Annoyance List
-! Last modified: 18 May 2025 15:45 UTC
+! Last modified: 18 May 2025 14:26 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -32467,6 +32467,7 @@ ft.com##.instant-alert-cta
 forum.adrenaline.com.br##.js-enablePushContainer
 recyclingproductnews.com##.modal-notifications
 correiobraziliense.com.br##.noticia_notificacao
+eldestapeweb.com,laarena.com.ar##.notificacion-modal
 mdjonline.com##.notification-button
 business-standard.com##.notification-col
 aljazeera.com##.notification-pre-permission
@@ -32491,7 +32492,6 @@ youtube.com##.ytmPaidContentOverlayHost
 chrome.google.com##[role="banner"] > div[class][role="dialog"][aria-labelledby="promo-header"]
 wallapop.com##div[class^="app-smart-banner_"]
 ! ! International
-! aerzteblatt.de###pushy
 segre.com###body_modal_5bNRsFSmILUgICbhc8pp
 diarimes.com###body_modal_mLuzd6bcGWwnVCvfwvBU
 ecuavisa.com###modalNotification
@@ -32500,6 +32500,13 @@ hesport.com###notification_pp
 animefire.net###page-mask
 voetbalkrant.com###requestNotificationPermission
 dn.pt###sk-notifications-container
+suedtirolmobil.info##.PushModal
+siitepolytieto.fi##.block-quick-poll
+szeretlekmagyarorszag.hu##.modal-app-promo
+eltribuno.com,puntobiz.com.ar##.notificacion-modal
+cmmedia.es##.notification-modal
+netvagas.com.br##.wa
+! aerzteblatt.de###pushy
 valoraanalitik.com###spopup
 animefire.net###sub_buttons
 animefire.net###sub_modal
@@ -32507,23 +32514,18 @@ abendzeitung-muenchen.de###webpush-app
 muziker.at,muziker.be,muziker.bg,muziker.co.uk,muziker.com,muziker.cz,muziker.de,muziker.ee,muziker.es,muziker.fi,muziker.fr,muziker.gr,muziker.hr,muziker.hu,muziker.ie,muziker.it,muziker.lt,muziker.lu,muziker.lv,muziker.nl,muziker.nu,muziker.pl,muziker.pt,muziker.ro,muziker.se,muziker.si,muziker.sk###webpush-popup
 focus.de###wpBreakingNewsBanner
 areena.yle.fi##.PauseRecommendations__PauseRecommendationsBackground-sc-1abti0d-0
-suedtirolmobil.info##.PushModal
 romait.it##.alert
 huffingtonpost.es##.banner-app__container
-siitepolytieto.fi##.block-quick-poll
 nu.nl##.breakingpush
 zillow.com##.cQZIoF
 kariyer.net##.download-app-wrapper
 actionnetwork.com##.follow-author__button
 buyma.com##.js-app-download-url
 relax-job.com##.js-smartapp-banner
-szeretlekmagyarorszag.hu##.modal-app-promo
 ziare.com##.modal-backdrop
 ziare.com##.modal__wp
 jornaldenegocios.pt##.notificacao
-diariohuarpe.com,eldestapeweb.com,eltribuno.com,laarena.com.ar,puntobiz.com.ar##.notificacion-modal
 elconsolto.com,masrawy.com##.notification
-cmmedia.es##.notification-modal
 metroworldnews.com.br,publimetro.cl##.notification-subs
 almanar.com.lb##.notification-wrap
 relax-job.com##.p-top-app-appeal
@@ -32533,7 +32535,6 @@ flvto.biz##.push-offer
 thebeliever.net##.subscriber-popup-container
 news.mail.ru##.tooltip_width_huge
 actionnetwork.com##.user-component__trial
-netvagas.com.br##.wa
 sbt.com.br##.webpush
 bank.gov.ua##.widget-pushNotification
 kokemaenjokilaakso.fi##[class|="col-sm"] > .boksiharmaa
@@ -36039,7 +36040,7 @@ captimes.com,psu.edu,technicianonline.com##.btn-link
 androidpolice.com##.btn-linkedIn
 androidpolice.com,backyardboss.net,cbr.com,collider.com,dualshockers.com,gamerant.com,givemesport.com,howtogeek.com,makeuseof.com,movieweb.com,pocketnow.com,thegamer.com,thethings.com,thetravel.com,xda-developers.com##.btn-mail
 androidpolice.com##.btn-reddit
-as.com,esportesdp.com.br,f1-news.eu,mainichi.jp##.btn-share
+esportesdp.com.br,f1-news.eu,mainichi.jp##.btn-share
 junkmail.co.za##.btn-sm
 femalefirst.co.uk,revistaencontro.com.br,thenewamerican.com##.btn-social
 blogmarcosfrahm.com,thetyee.ca##.btn-social-icon
@@ -36435,7 +36436,7 @@ mmoga.co.uk,mmoga.com,mmoga.de,mmoga.es,mmoga.fr,mmoga.se##.likeBtn
 gptoday.net##.link-icon
 trak.in##.link_card_49
 hsbc.com,peoplesweather.com,project-syndicate.org,screendaily.com##.linkedin
-lagaceta.com.ar,wheelsage.org##.links
+wheelsage.org##.links
 cybernews.com##.links-bar
 exchange4media.com##.list-group
 corrosionpedia.com,exchangerates.org.uk,idownloadblog.com,kyivpost.com,thedrinksbusiness.com##.list-inline
@@ -37293,7 +37294,7 @@ androidpolice.com,creditoagricola.pt,electricfencing.co.uk,esradiocastillayleon.
 ! ! .social-network
 alahlionline.com,citroenselect.it,elkhabar.com,nieuweoogst.nl,terranova.pt,tilifony.com##.social-network
 ! ! .tools
-cp24.com,epochtimes.com.br,epochtimes.it,lagaceta.com.ar,n-tv.de,progressive.org,toyokeizai.net##.tools
+cp24.com,epochtimes.com.br,epochtimes.it,n-tv.de,progressive.org,toyokeizai.net##.tools
 ! ! #social
 archifacile.fr,atomic-robo.com,autobelle.it,bollywoodhungama.com,canavesenews.it,chnetwork.org,classicreload.com,donnahay.com.au,fotografidigitali.it,gamingonlinux.com,joburg.org.za,lavoro.gov.it,ledpros.ca,meteovista.be,meteovista.fr,meteovista.pl,navigaweb.net,nexto.pl,phoronix.com,rasom.it,sfr.fr,telesatellite.com,ucl.ac.uk,weeronline.nl,whtop.com,zookeys.pensoft.net###social
 ! ! .masthead-nav-social
@@ -40834,7 +40835,7 @@ aastavebniny.cz,abp.nl,agronatur.com.br,aldi-sued.de,aldi.it,aluminiosbrinas.com
 ! ! pp_b.pp-p (dhealingforum.com,flowerhornrusforum.com,sinfuldestinyericole.com,celebritystorylibrary.com)
 ###pp_b.pp-p
 ! ! .cookie-banner
-africanreporter.co.za,albertonrecord.co.za,alexnews.co.za,artfund.org,asia.nikkei.com,barbertontimes.co.za,barkeepersfriend.com,bedfordviewedenvalenews.co.za,bemyeyes.com,benonicitytimes.co.za,bereamail.co.za,boksburgadvertiser.co.za,bookwhen.com,brakpanherald.co.za,brasscom.org.br,businesscomparison.com,capitoltrades.com,capricornreview.co.za,carletonvilleherald.com,citybuzz.co.za,clarksolutions.com.br,codashop.com,coinpaprika.com,comarochronicle.co.za,corridorgazette.co.za,cumlaudeimmobilia.com,cursos.io,cwi.nl,dagmersellen.ch,davistate.com,deezer.com,deltaco.com,developer.chrome.com,droptime.de,echr.coe.int,edera.dev,estcourtnews.co.za,etix.com,eyethunews.co.za,forja.ma,fourwaysreview.co.za,gatlinburg.com,germistoncitynews.co.za,hazyviewherald.co.za,hck.hr,heidelbergnigelheraut.co.za,herning.dk,highvelder.co.za,highwaymail.co.za,hsbc.co.in,hsbc.com.sg,ikrix.com,isciii.es,joburgeastexpress.co.za,kathorusmail.co.za,kemptonexpress.co.za,kormorant.co.za,krugersdorpnews.co.za,ladysmithgazette.co.za,lensculture.com,letabaherald.co.za,lokmat.com,maritzburgsun.co.za,medipolis.de,mega.io,mercadona.es,metroag.de,middelfart.dk,midrandreporter.co.za,newcastleadvertiser.co.za,northcliffmelvilletimes.co.za,northcoastcourier.co.za,northeasterntribune.co.za,northernnatalcourier.co.za,northglennews.co.za,osthammar.se,overclock3d.net,overleaf.com,parysgazette.co.za,phoenixsun.co.za,potchefstroomherald.co.za,printful.com,prodoctorov.ru,publicdomainreview.org,publiceyemaritzburg.co.za,raceroster.com,randburgsun.co.za,randfonteinherald.co.za,rekordcenturion.co.za,rekordeast.co.za,rekordmoot.co.za,rekordnorth.co.za,reseau-sante-haut-leman.ch,reseau-sante-nord-broye.ch,reseau-sante-region-lausanne.ch,reviewonline.co.za,ridgetimes.co.za,risingsunchatsworth.co.za,risingsunlenasia.co.za,risingsunoverport.co.za,rivistacontrasti.it,roodepoortnorthsider.co.za,roodepoortrecord.co.za,rosebankkillarneygazette.co.za,sandtonchronicle.co.za,sedibengster.com,semanticscholar.org,shippii.com,signalbloom.ai,silpo.ua,southcoastherald.co.za,southcoastsun.co.za,southerncourier.co.za,southlandssun.co.za,sowetourban.co.za,spar.co.za,springsadvertiser.co.za,standertonadvertiser.co.za,stjohneyehospital.org,struer.dk,student.com,superbio.es,tembisan.co.za,thefly.com,tiktok.com,tudogostoso.com.br,tus.ac.jp,vaalweekblad.com,vangoghmuseum.nl,vryheidherald.co.za,westside-eldos.co.za,witbanknews.co.za,zabars.com,zululandobserver.co.za##.cookie-banner
+africanreporter.co.za,albertonrecord.co.za,alexnews.co.za,artfund.org,asia.nikkei.com,barbertontimes.co.za,barkeepersfriend.com,bedfordviewedenvalenews.co.za,bemyeyes.com,benonicitytimes.co.za,bereamail.co.za,boksburgadvertiser.co.za,bookwhen.com,brakpanherald.co.za,brasscom.org.br,businesscomparison.com,capitoltrades.com,capricornreview.co.za,carletonvilleherald.com,citybuzz.co.za,clarksolutions.com.br,codashop.com,coinpaprika.com,comarochronicle.co.za,corridorgazette.co.za,cumlaudeimmobilia.com,cursos.io,cwi.nl,dagmersellen.ch,davistate.com,deezer.com,deltaco.com,developer.chrome.com,droptime.de,echr.coe.int,edera.dev,estcourtnews.co.za,etix.com,eyethunews.co.za,forja.ma,fourwaysreview.co.za,gatlinburg.com,germistoncitynews.co.za,hazyviewherald.co.za,hck.hr,heidelbergnigelheraut.co.za,herning.dk,highvelder.co.za,highwaymail.co.za,hsbc.co.in,hsbc.com.sg,ikrix.com,isciii.es,joburgeastexpress.co.za,kathorusmail.co.za,kemptonexpress.co.za,kormorant.co.za,krugersdorpnews.co.za,ladysmithgazette.co.za,lensculture.com,letabaherald.co.za,lokmat.com,maritzburgsun.co.za,medipolis.de,mega.io,mercadona.es,metroag.de,middelfart.dk,midrandreporter.co.za,newcastleadvertiser.co.za,northcliffmelvilletimes.co.za,northcoastcourier.co.za,northeasterntribune.co.za,northernnatalcourier.co.za,northglennews.co.za,osthammar.se,overclock3d.net,overleaf.com,parysgazette.co.za,phoenixsun.co.za,potchefstroomherald.co.za,printful.com,prodoctorov.ru,publicdomainreview.org,publiceyemaritzburg.co.za,raceroster.com,randburgsun.co.za,randfonteinherald.co.za,rekordcenturion.co.za,rekordeast.co.za,rekordmoot.co.za,rekordnorth.co.za,reseau-sante-haut-leman.ch,reseau-sante-nord-broye.ch,reseau-sante-region-lausanne.ch,reviewonline.co.za,ridgetimes.co.za,risingsunchatsworth.co.za,risingsunlenasia.co.za,risingsunoverport.co.za,roodepoortnorthsider.co.za,roodepoortrecord.co.za,rosebankkillarneygazette.co.za,sandtonchronicle.co.za,sedibengster.com,semanticscholar.org,shippii.com,signalbloom.ai,silpo.ua,southcoastherald.co.za,southcoastsun.co.za,southerncourier.co.za,southlandssun.co.za,sowetourban.co.za,spar.co.za,springsadvertiser.co.za,standertonadvertiser.co.za,stjohneyehospital.org,struer.dk,student.com,superbio.es,tembisan.co.za,thefly.com,tiktok.com,tudogostoso.com.br,tus.ac.jp,vaalweekblad.com,vangoghmuseum.nl,vryheidherald.co.za,westside-eldos.co.za,witbanknews.co.za,zabars.com,zululandobserver.co.za##.cookie-banner
 ! ! .cookie-banner-wrapper
 feinesahnefischfilet.de,hackerrank.com,herbiespizza.com,newyorkpizza.nl,solv.nl,ttrsonline.com,ximbio.com##.cookie-banner-wrapper
 ! ! #cookie-banner-wrapper
@@ -42940,7 +42941,6 @@ depor.com##.nav__story-social-network
 perfil.com##.navbar__social-top
 businessinsider.mx##.net-social
 parabrisas.perfil.com##.news__sharing
-rionegro.com.ar##.newsfull__share
 tonica.la##.newsvideo__share
 0221.com.ar##.notapage_sticky
 noticierovenevision.net##.noticia-ampliada-compartir
@@ -42978,7 +42978,6 @@ vidasana.sv##.sharedButtons
 eltiempo.com##.sharrre
 elconfidencialdigital.com##.sharrre-tools
 expansion.com##.siguenos
-rionegro.com.ar##.single-modules__social
 motor.elpais.com##.site-footer__redes
 larazon.es##.site-footer__rrss
 radioimagina.cl##.sn-single
@@ -42990,13 +42989,11 @@ ecuavisa.com##.social-menu
 revistalideres.ec##.social-nav
 infoenergia.info,infofranquicias.ar,infomendoza.info,infonegocios.barcelona,infonegocios.biz,infonegocios.com.py,infonegocios.info,infonegocios.madrid,infonegocios.miami,infonegociosgalicia.es,infonegociosvalencia.es,infostyle.info,infotecnologia.info,injujuy.info,inlitoral.info,inneuquen.info,inpatagonia.info,inrosario.info,insalta.info,insanjuan.info,insantiagodelestero.info,intucuman.info##.social-networs
 gasteizhoy.com##.social-new
-eldia.com##.social-nota-top
 vozpopuli.com##.social-share-list
 perfil.com##.social-topsharing
 larazon.es##.social-wrapper
 rtve.es##.socialBox
 de10.com.mx,elgrafico.mx##.socialMediaBottom-Section
-eldia.com##.social_profiles
 elobservador.com.uy##.sociales
 clara.es##.socialmedia
 naciodigital.cat##.socialsharesnoticia
@@ -43005,8 +43002,6 @@ servimedia.es##.srvm-nw__share-wrapper
 concierto.cl,fmdos.cl##.ssd
 gestion.pe##.st-socialws__container-ws-news
 cnnespanol.cnn.com##.storyfull__social
-ellitoral.com##.styles_container-social-icons-top__hptal
-ellitoral.com##.styles_footer-social__MQ7I4
 canalnet.tv##.the-single-body__share
 theobjective.com##.tno-share
 cope.es##.toolbar
