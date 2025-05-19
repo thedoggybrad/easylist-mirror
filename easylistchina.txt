@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eQBX+1yniHl/ObzLA4Gmuw
-! Version: 202505190131
+! Checksum: Sovhnrja4p3wqPhvFrthaA
+! Version: 202505190141
 ! Title: EasyList China
-! Last modified: 19 May 2025 01:31 UTC
+! Last modified: 19 May 2025 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -17312,6 +17312,10 @@ ykxs.cc##a[href^="javascript"]
 /js/pfad*.js
 wss://*.top/|
 wss://*.*.top/$third-party
+##body > .app + #htmlContenthtml
+##.app > .app_tj
+##body > .zdhf
+##body > .dbfh
 ##body > div[style$=";background: #000;opacity:0.01;"]
 /static/idingdian/idd.
 /themes/default/wap/images/douyin.gif
@@ -17320,9 +17324,6 @@ wss://*.*.top/$third-party
 ||wanmeisxs.cc/js/m.
 ||biqugie.com/js/wap.
 ||fushuba123.top/statics/js/wap.js
-4hrz.net,1ingatlan.net,product44.com,softtechsolution.org,xianguke.net,xiexinde.net,tetservices.net##.dbfh
-4hrz.net,1ingatlan.net,product44.com,softtechsolution.org,xianguke.net,xiexinde.net,tetservices.net##.app
-4hrz.net,1ingatlan.net,product44.com,softtechsolution.org,xianguke.net,xiexinde.net,tetservices.net###htmlContenthtml
 /pa.dajiahao*.top/
 ||bdcde.com/js/x*.js
 ||bdcde.com/js/s*.js
