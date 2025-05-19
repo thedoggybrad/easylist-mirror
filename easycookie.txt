@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 8syIAHRo6Q3f99Q9JxGwdg
+! Checksum: iTvKyEBrAO3r5/CrU49Tgw
 ! Title: Easylist Cookie List
-! Updated: 2025-05-19 11:38 UTC
+! Updated: 2025-05-19 12:10 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -4516,7 +4516,6 @@
 ###cookies-notify
 ###cookies-ok-spacer
 ###cookies-overlay
-###cookies-panel
 ###cookies-permission
 ###cookies-personalize
 ###cookies-pol
@@ -16137,7 +16136,6 @@
 ##div.cookie-notice-open
 ##div.cookie-notice-visible
 ##div.cookie-notice-wrapper
-##div.cookie-padding
 ##div.cookie-parent
 ##div.cookie-policy-banner
 ##div.cookie-policy-head
@@ -17700,6 +17698,7 @@ themattresswarehouse.co.za##.PopiBanner__PopiContainer-igharm-1
 cs.money##.Popover_wrapper__feCxt
 cjbayliss.co.uk,hcdltd.com##.PopupOverall
 powercolor.com##.Privacy
+dickblick.com##.PrivacyBanner_wrapper__yWJkZ
 weather.com##.PrivacyFeedCard--PrivacyFeedCard--3_Fk5
 brighteon.com,fashionmodeldirectory.com,naturalnews.com,newstarget.com##.PrivacyNotice
 fancentro.com##.PromoSnackBarAlert-filledInfo
@@ -19886,7 +19885,7 @@ kaluga-poisk.ru,vologda-poisk.ru##.lawcookie
 !! PrivacyBanner_
 holidayinnclub.com,payloadcms.com##[class^="PrivacyBanner_"]
 !! #pandectes-banner
-aeropress.com,alpkit.com,imperial1916.com,kijimea.it,movement-made.com,oliviavonhalle.com,pipliakauppa.fi,suomikauppa.fi###pandectes-banner
+aeropress.com,alpkit.com,gorillasports.de,imperial1916.com,kijimea.it,movement-made.com,oliviavonhalle.com,pipliakauppa.fi,suomikauppa.fi###pandectes-banner
 !! #cookies_acceptance
 courtika.com,essor.ca,groupedpa.com,laturquoise.ca,pmtroy.com,rockebilly.com,tremblayassurance.com,univesta.com###cookies_acceptance
 !! .consent-box
@@ -24454,6 +24453,8 @@ ants.vn##.sg-popup-content
 cera.coop#@##CookieBanner
 elkjop.no,fdm-travel.dk,georgjensen.com,landkreis-kelheim.de,power.no,skousen.dk,skousen.no,whiteaway.com,whiteaway.no,whiteaway.se#@##CookieConsent
 smooth-on.com#@##CookieNotice
+nordeafunds.com#@##CookieReportsBanner
+nordeafunds.com#@##CookieReportsPanel
 finanzmarktwelt.de#@##CybotCookiebotDialogBodyUnderlay
 online.no,telenor.no#@##__tealiumGDPRcpPrefs
 downdetector.com#@##_evh-button
@@ -24501,7 +24502,7 @@ arbeiterkammer.at#@##cookiesContainer
 happybaby.ru#@##cookiesPopup
 pneutiefpreis.ch#@##cookies_accept
 yuboto-telephony.gr#@##cookies_banner
-mymuesli.com#@##cookies_consent
+gibgas.de,mymuesli.com#@##cookies_consent
 setdart.com#@##cookies_modal
 swiss-sport.tv#@##cookiescript_badge
 cla.co.uk#@##cookiescript_injected_wrapper
@@ -24905,6 +24906,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||playoverwatch.com/static/externals/cookie-consent-filter-compat.js
 @@||pohjanmaanhyvinvointi.fi^*/pwd-cookie-consent.
 @@||policy.app.cookieinformation.com^$domain=almbrand.dk|altibox.no|elkjop.no|energinet.dk|fdm-travel.dk|jysk.nl|power.no|skousen.dk|skousen.no|velliv.dk|whiteaway.com|whiteaway.no|whiteaway.se
+@@||policy.cookiereports.com^$script,domain=nordeafunds.com
 @@||portal-frontend.plarium.com/client/cookiesbanner.js$script,~third-party
 @@||portal.aae.at^*/cookieconsent.js$script,~third-party
 @@||portal.energie-graz.at/kundenportal/css/cookieconsent/$~third-party
