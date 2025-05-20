@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202505200050
+! Version: 202505200055
 ! Title: Fanboy's Social Blocking List
-! Last modified: 20 May 2025 00:50 UTC
+! Last modified: 20 May 2025 00:55 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -13138,8 +13138,10 @@ diarioelargentino.com,noticiasrcn.com##.btn-google-news
 mvsnoticias.com,tribuna.com.mx##.btn-seguinos-gnews
 elplural.com##.btn-whatsapp
 eltiempo.com##.btn_googlelink
+eleconomista.com.mx##.c-detail__author__share
 eltiempo.com##.c-detail__info-share
 cmmedia.es,diariodecastillayleon.es,diariodeleon.es,diariodevalladolid.es,elcorreodeburgos.com,eldebate.com,eleconomista.com.mx,heraldodiariodesoria.es,huffingtonpost.es,listindiario.com,segre.com##.c-detail__share
+eleconomista.com.mx##.c-detail__toolbar__share
 eldebate.com,eleconomista.com.mx,listindiario.com##.c-footer__share
 atlanticohoy.com,consumidorglobal.com##.c-mainarticle__share
 consumidorglobal.com##.c-mainfooter__social
@@ -13222,6 +13224,7 @@ economiahoy.mx##.ic-rs
 autocasion.com##.iconos
 canalarte1.uol.com.br##.icons
 neomotor.epe.es##.icons_rrss
+politico.mx##.icons_social_media
 milenio.com##.info-networks
 mdzol.com##.interacciones
 laprensa.hn##.joinWhatsapp
@@ -13235,7 +13238,7 @@ milanuncios.com##.ma-AdDetailShare
 perfil.com##.main-footer__redes
 canalnet.tv##.main-video-single__socials
 genbeta.com,vidaextra.com##.menu-follow
-show.news,tonica.la##.mod--googlenews
+debate.com.mx,show.news,tonica.la##.mod--googlenews
 cooperativa.cl##.modulo-channels
 cooperativa.cl##.modulo-google-news
 depor.com##.nav__story-social-network
@@ -13243,7 +13246,7 @@ perfil.com##.navbar__social-top
 businessinsider.mx##.net-social
 noticiasargentinas.com##.news-follow
 parabrisas.perfil.com##.news__sharing
-rionegro.com.ar##.newsfull__share
+debate.com.mx,rionegro.com.ar##.newsfull__share
 tonica.la##.newsvideo__share
 diariodecuyo.com.ar##.nota-mobile-sticky-share
 diariodecuyo.com.ar##.nota-share
@@ -13264,7 +13267,7 @@ diarioelargentino.com##.redes-footer
 diariodecuyo.com.ar##.redes-left
 eleconomista.com.ar##.redes-share
 futbolred.com##.redes__articulo
-acierto.com,cronicabalear.es,deia.eus,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,elcorreogallego.es,eldia.es,elperiodico.com,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,emporda.info,farodevigo.es,globovision.com,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,noticiasdealava.eus,noticiasdegipuzkoa.eus,noticiasdenavarra.com,regio7.cat,sport.es,superdeporte.es,welife.es##.rrss
+acierto.com,cronicabalear.es,deia.eus,diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,elcorreogallego.es,eldia.es,elperiodico.com,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,emporda.info,farodevigo.es,globovision.com,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,mallorcazeitung.es,noticiasdealava.eus,noticiasdegipuzkoa.eus,noticiasdenavarra.com,regio7.cat,sport.es,superdeporte.es,vanguardia.com.mx,welife.es##.rrss
 elcomercio.pe,gestion.pe##.s-buttons
 testvelocidad.eu##.sB
 betano.com##.sb-footer__notes__socials
@@ -13273,6 +13276,7 @@ elpais.com.uy##.section-rrss-wrapper
 cnnespanol.cnn.com##.section__social
 as.com##.sh-bar
 infoenergia.info,infofranquicias.ar,infomendoza.info,infonegocios.barcelona,infonegocios.biz,infonegocios.com.py,infonegocios.info,infonegocios.madrid,infonegocios.miami,infonegociosgalicia.es,infonegociosvalencia.es,infostyle.info,infotecnologia.info,injujuy.info,inlitoral.info,inneuquen.info,inpatagonia.info,inrosario.info,insalta.info,insanjuan.info,insantiagodelestero.info,intucuman.info##.share-amp
+politico.mx##.share-bar-father
 cnnespanol.cnn.com##.share-buttons-style-two
 elamaule.cl,elboyaldia.cl,elconcecuente.cl,elmagallanews.cl,elmartutino.cl,elmorrocotudo.cl,elnaveghable.cl,elnortero.cl,elobservatodo.cl,elquehaydecierto.cl,elrancahuaso.cl,elrepuertero.cl,elvacanudo.cl,laopinon.cl##.share-content
 eltiempo.com,expreso.ec,extra.ec,heraldo.es##.share-options
@@ -13309,6 +13313,7 @@ de10.com.mx,elgrafico.mx##.socialMediaBottom-Section
 eldia.com##.social_profiles
 elobservador.com.uy##.sociales
 clara.es##.socialmedia
+alianzademediosmx.org##.socialmedia-share
 naciodigital.cat##.socialsharesnoticia
 cyltv.es##.srrss
 servimedia.es##.srvm-nw__share-wrapper
