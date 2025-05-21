@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YI3ZHUUUopQVrrNR+WcsQg
-! Version: 202505210021
+! Checksum: my9UdT2NpEXjL4NCPZD0ng
+! Version: 202505210031
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 May 2025 00:21 UTC
+! Last modified: 21 May 2025 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -67314,6 +67314,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+newegg.com#?#.product-banner:-abp-contains(Sponsored)
 target.com#?#[data-test="productCardVariantRecommendation"]:-abp-contains(Sponsored)
 coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\:justify-normal.lg\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:-abp-contains(Sponsored by))
 temu.com#?#.splide__slide:-abp-contains(AD)
