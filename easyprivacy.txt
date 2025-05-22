@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505221309
+! Version: 202505221319
 ! Title: EasyPrivacy
-! Last modified: 22 May 2025 13:09 UTC
+! Last modified: 22 May 2025 13:19 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2806,6 +2806,7 @@
 ://posthog.$script,domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
+://stats.*/code/e.js
 ://t.targito.
 ://track.*/collect
 ://track.*/dye
@@ -8836,6 +8837,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||0stats.com^$third-party
 ||24log.it^$third-party
 ||accessi.it^$third-party
+||brevo.com^$third-party
 ||buzzoole.com^$third-party
 ||contatoreaccessi.com^$third-party
 ||cpmktg.com^$third-party
@@ -8882,6 +8884,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webmobile.ws^$third-party
 ||websanalytic.com^$third-party
 ||whoseesyou.com^$third-party
+||yodalytics.com^$third-party
 ! Japanese
 ||accaii.com^$third-party
 ||accesstrade.net^$third-party
@@ -52860,7 +52863,6 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||sst.colemanfurniture.com^
 ||stats.splinder.com^
 ||stats.stylight.it^
-||stats.suedtirolerjobs.it^
 ||t.mediaset.it^
 ||tantifilm.top^*/ping
 ||timinternet.it/timmobilestatic/img/*.gif?
