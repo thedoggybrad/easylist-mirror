@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505221319
+! Version: 202505221327
 ! Title: EasyPrivacy
-! Last modified: 22 May 2025 13:19 UTC
+! Last modified: 22 May 2025 13:27 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2031,6 +2031,7 @@
 /server/detect.php?
 /service/track?
 /services/pixel.html?
+/services/t/l?referrer=
 /servlet/Cookie?
 /session-tracker/tracking-
 /session/preparecookies?$domain=~mirapodo.de|~mytoys.de|~yomonda.de
@@ -12828,6 +12829,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eage.it/count2.php?
 ||eventsink.api.redbee.live^
 ||evnt.iol.it^
+||fa5.dn4.it^
 ||fb_servpub-a.akamaihd.net^
 ||galada.it/omnitag/
 ||gazzettaobjects.it^*/tracking/
