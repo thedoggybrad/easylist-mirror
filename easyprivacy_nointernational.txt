@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8YNeXgo+G5xmxLmahvP7pg
-! Version: 202505221311
+! Checksum: yBd6H4dP6fanG3kTn8VduA
+! Version: 202505221321
 ! Title: EasyPrivacy without international filters
-! Last modified: 22 May 2025 13:11 UTC
+! Last modified: 22 May 2025 13:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2803,6 +2803,7 @@
 ://posthog.$script,domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
+://stats.*/code/e.js
 ://t.targito.
 ://track.*/collect
 ://track.*/dye
