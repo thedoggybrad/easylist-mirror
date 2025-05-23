@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: vLgzljoR5EOyrH9q7ushDQ
-! Version: 202505230651
+! Checksum: 89GnknvdEL5VZ+GMj9++kw
+! Version: 202505230701
 ! Title: ABP filters
-! Last modified: 23 May 2025 06:51 UTC
+! Last modified: 23 May 2025 07:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1948,7 +1948,7 @@ tokopedia.com#$#hide-if-contains /^Ad$/ 'div[class$="carousel"]>div[class][style
 ! sp
 aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]'
 ! pp
-aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]/parent::div[@data-testid]/ancestor::section[@style]'
+aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]/parent::ul[@data-testid]/ancestor::section[@style]'
 ! #RM-180
 ! HP & SA
 knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(., "Gesponsert")]/ancestor::a[@aria-label]/ancestor::*[ (self::div[count(ancestor::div) = 8] and not(./div[contains(@data-test, "product")])) or (self::div[count(ancestor::div) = 7] and ./div[contains(@data-test, "product")]) ]'
