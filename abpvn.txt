@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 67X4Uwwe4RMp0G5CDis46Q
-! Version: 202505241601
+! Checksum: bsZgL48ZWeaTH1NTwcUEKg
+! Version: 202505241611
 ! Title: ABPVN List
-! Last modified: 24 May 2025 16:01 UTC
+! Last modified: 24 May 2025 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 24 May 2025 15:06:11 UTC+7
-! Diff-Path: patches/20250524150611818.patch#abpvn
+! Last modified: 24 May 2025 23:05:21 UTC+7
+! Diff-Path: patches/20250524230521454.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -55,7 +55,7 @@ $popup,domain=truyenfull.vision
 /lv/esnk/*$script
 /newchill/*gif$image
 /polyad.
-/pop.js$script,domain=motchill.fish|ohaytv.fit
+/pop.js$script,domain=motchill.hot|ohaytv.fit
 /popunder7.
 /qcao/*$domain=~thegioididong.com
 /quang%20cao/*
@@ -153,7 +153,7 @@ $popup,domain=truyenfull.vision
 ||media.nghean24h.vn$image,domain=nghean24h.vn
 ||mediastation.live^*.gif$image,domain=mn.mediastation.live|home1.mannhan22.pro|mannhan97.xyz
 ||mocfun.net/uploads/banners/
-||motchill.fish^*.gif$image
+||motchill.hot^*.gif$image
 ||motchill10.com/public/upload/ads/ads.js$script,~third-party
 ||motchill86.com/3s.m3u8$rewrite=abp-resource:blank-mp3,domain=motchill86.com
 ||motchilla.fm/wp-content/plugins/AdsManager/js/aam-scripts.js$script,~third-party
@@ -520,7 +520,7 @@ hayhaytv.site,subnhanh1.org##.sticky_bottom
 hhanime3d.org,hhpanda.baby###top_addd
 hhdragon.com###catfish
 hhdragon.com##.catfish-img
-hhninja25.tv,phimhoathinh3d.vip,hhtq13.vip,hhtqvietsub.me,phimchill.in,hhtutien.tv,animeweb.vip,hoathinh4k3.top,animehay.tax,hhtq3d.net,wibu47.com,hhvsub1.com,phimdacap.tv,motchill.fish###catfish
+hhninja25.tv,phimhoathinh3d.vip,hhtq13.vip,hhtqvietsub.me,phimchill.in,hhtutien.tv,animeweb.vip,hoathinh4k3.top,animehay.tax,hhtq3d.net,wibu47.com,hhvsub1.com,phimdacap.tv,motchill.hot###catfish
 hhpanda.baby###xs-addd0
 hhpanda.baby##.btn-fanpage.btn-default.btn-block.btn
 hhpanda.baby##.underplayer_btn
