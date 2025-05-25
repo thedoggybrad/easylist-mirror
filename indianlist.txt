@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k0EOU9LKUHnuAIPrBPY2Kw
-! Version: 202505251651
+! Checksum: EQf/7g/pPMl0txPueiJkcQ
+! Version: 202505251701
 ! Title: IndianList
-! Last modified: 25 May 2025 16:51 UTC
+! Last modified: 25 May 2025 17:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2730,6 +2730,7 @@ perfection-ias-upsc$domain=nextbihar.com
 ||koshixpress.com^*/IMG-20200101-WA0331-300x175.jpg
 ||koshixpress.com^*/WhatsApp-Image-2019-06-02-at-10.03.01-AM-e1559470765481-300x270.jpeg
 ||kositimes.com/wp-content/uploads/2023/02/IMG-20230217-WA0081.jpg
+||kothamangalamnews.com/wp-content/uploads/2025/05/swamy-co.jpg
 ||kottayammedia.com/wp-content/uploads/2021/12/165ef056-e445-464b-9651-2753fa04d285
 ||kottayammedia.com/wp-content/uploads/2022/01/12-NewYearSale-
 ||kottayammedia.com/wp-content/uploads/2022/01/3e4bca05-2d28-438d-a5ac-70fc239a87a5-
@@ -8456,6 +8457,7 @@ bharatiyadigitalnews.in##a[target="_blank"] img:only-child
 ichchhakamananews.com##a[target="_blank"] img[alt="images"]
 newsajako.com##a[target="_blank"] img[src*=".gif"]
 uttorbangla.com##a[target="_blank"] img[src*="_original_"]
+nayasadak.com##a[target="_blank"]:has(> img[alt="images"])
 janayugomonline.com##a[target="_blank"]:not(.btn) > img
 cinepati.com##a[target="_blank"]:not(a[href*="cinepati"])
 newsajako.com##a[target="_blank"]:only-child img
@@ -8513,7 +8515,6 @@ bhingatimes.co.in#?#.my-4:-abp-has(> h5:-abp-contains(Advertisement))
 biharnation.in#?#.primary-sidebar-widget:-abp-has(> .section-heading > .h-text:-abp-contains(Advertisement))
 blivenews.com#?#div[id^="AS_O_LHS_1"] > div:-abp-has(> div > div > a>span:-abp-contains(Ad |))
 steelcity.online##body > .container > .row:first-child > div:last-child
-nayasadak.com##body > .uk-container:has(> a)
 calcuttanews.tv##body > [class$="ads"]
 manvimedia.page##body ~ iframe
 asianbanglanews.com##body ~ iframe[style*="height: 100%"]
