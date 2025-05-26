@@ -1,3 +1,7 @@
+## Announcement
+GitHub are experiencing issues with the Github Actions, which is the essential component of this project. Due to this, the update of the filterlists may be delayed.<br>
+Github Status Incident: https://www.githubstatus.com/incidents/d0nm3xcdc5jw
+
 # EasyList Mirror (Unofficial)
 This is an unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab. <br> This is the TheDoggyBrad Software Lab's answer to lack of 3rd party mirrors for the EasyList-family of AdBlock filterlists.
 It is always updated using a bunch of automation and is hosted directly here in Github and not proxied or served via a CDN. <br>
