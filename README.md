@@ -1,5 +1,5 @@
 ## Announcement
-GitHub are experiencing issues with the Github Actions, which is the essential component of this project. Due to this, the update of the filterlists may be delayed.<br>
+As of 4:25PM (UTC+8), GitHub are experiencing issues with the Github Actions, which is the essential component of this project. Due to this, the update of the filterlists may be delayed.<br>
 Github Status Incident: https://www.githubstatus.com/incidents/d0nm3xcdc5jw
 
 # EasyList Mirror (Unofficial)
