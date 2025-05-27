@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jItgv96djluXRBpcG5C2ag
-! Version: 202505271321
+! Checksum: bACs3S/dPnkcd8WqvCrkKA
+! Version: 202505271331
 ! Title: ABPindo
-! Last modified: 27 May 2025 13:21 UTC
+! Last modified: 27 May 2025 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 27 May 2025 12:53 UTC
+! Last modified: 27 May 2025 13:28 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -928,8 +928,8 @@ gudangmovies21.*##.sgpb-popup-overlay
 kazefuri.*##.kln
 komikcast.*###teaser3
 komikcast.*###teaser4
-komikcast.*##.kln
-komikindo.*##.gulai_asam_manis
+komikcast.*,komikcast01.*,komikcast02.*,komikindo.*,komikindo1.*,komikindo3.*,komikindo4.*##.gulai_asam_manis
+komikcast.*,komikcast01.*,komikcast02.*,komikindo.*,komikindo1.*,komikindo3.*,komikindo4.*##.kln
 kuramanime.*###aboveDownloadBannerSection
 kuramanime.*###aboveListBannerSection
 kuramanime.*###abovePlayerBannerSection
