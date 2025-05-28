@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wV08bqBQH8vhpaaMX5qaBg
-! Version: 202505280501
+! Checksum: pjPgrUeZ2QTRAmu/WTp4Pg
+! Version: 202505280511
 ! Title: ABPVN List
-! Last modified: 28 May 2025 05:01 UTC
+! Last modified: 28 May 2025 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 28 May 2025 09:35:07 UTC+7
-! Diff-Path: patches/20250528093507627.patch#abpvn
+! Last modified: 28 May 2025 12:06:05 UTC+7
+! Diff-Path: patches/20250528120605346.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -159,7 +159,7 @@ $popup,domain=truyenfull.vision
 ||motchilla.fm/wp-content/plugins/AdsManager/js/aam-scripts.js$script,~third-party
 ||motchilla.fm^*.gif$image
 ||motphimc.bz^*.gif$~third-party
-||motphimtv.ad^*.gif$image
+||motphimtv.ac^*.gif$image
 ||mplmncb.com/banners-web$image,domain=truyenqqgo.com
 ||mplmncb.com/popup/$script,domain=truyenqqgo.com
 ||nettruyener.com/public/assets/js/pop$script,~third-party
@@ -682,7 +682,7 @@ saostar.vn##.pc-bill
 soha.vn,gamek.vn##[id^="admzone"]
 sport5.vn,afamily.vn##.afw-topbanner
 subnhanh1.org##.t_logo
-subnhanh1.org,hayhaytv.site,motphimtv.ad##.mp-adz
+subnhanh1.org,hayhaytv.site,motphimtv.ac##.mp-adz
 survey-smiles.com##.toogle-ads
 takertv.co##iframe[src*="ads"]
 tapchibitcoin.io##.header-fix-ads
