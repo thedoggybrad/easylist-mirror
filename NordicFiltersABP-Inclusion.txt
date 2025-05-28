@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PacaQx+h1ysilL2GraELaA
-! Version: 202505280721
+! Checksum: ezCKpvBIognPGfacSV3F0Q
+! Version: 202505280711
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 28 May 2025 07:21 UTC
+! Last modified: 28 May 2025 07:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1261,24 +1261,6 @@ sportsidioten.no##.code-block:has(#snack_mpu,div[id^=snack_dex])
 sportsidioten.no##.scap
 sportsidioten.no##.sticky-half-page:has(> .scap:only-of-type)
 sportsidioten.no###snack_dex5
-avisen.nu##.td-ss-main-sidebar > .widget_custom_html
-avisendanmark.dk##div.block:has(> .adblock)
-dinavis.dk###topscroll-desktop
-dinavis.dk##div.md\:block
-gaffa.no##a[href*=casino]
-gaffa.no##a[href*=kasino]
-gaffa.no##div.col-lg-4.col-md-6:has(> [id^=cncpt-]:empty)
-gaffa.no##div.col-xxxl-3:has(.link-list a:is([href*=casino],[href*=kasino]))
-gaffa.no##div[id^=cncpt-]
-jyllands-posten.dk##div.md\:block
-jyllands-posten.dk##div[class*=interscrollerAd]
-kristeligt-dagblad.dk##.article__ad
-kunmedierne.dk##.ad-before-content
-kunmedierne.dk##.ad-for-footer
-kunmedierne.dk##.dvrt
-kunmedierne.dk##a.dvrt-link ~ .posts-slider
-politiken.dk###js-ad-grid
-politiken.dk##.js-ad-elem
 ! — — — — — — — — —
 ! 🇳🇴：Oppføringer for minst 3 nettsteder
 ! 🇬🇧：Entries for at least 3 websites
@@ -1340,7 +1322,6 @@ kulturplot.no,dagensperspektiv.no,velferd.no###main > .small-12:nth-of-type(1)
 ||ads.*.dk^$domain=~ads.mst.dk
 ||ads.*.is^
 ||ads.*.no^
-||ads2.*.no^
 ||adserver.*.dk^
 ||annonser.*.no^$domain=~annonser.gess.no
 ||auglysingar.*.is^$subdocument
@@ -1385,8 +1366,6 @@ kulturplot.no,dagensperspektiv.no,velferd.no###main > .small-12:nth-of-type(1)
 ||pliing.com^$third-party
 ||admob.no^$third-party
 ||admob.dk^$third-party
-||adpepper.dk^$third-party
-||banner10.zetasystem.dk^$third-party
 ||print2web.sn.dk^$image
 ||lib.idg.no^
 ! AdressaNO
@@ -1730,7 +1709,6 @@ _1170x400.$domain=eyjafrettir.is,image,~third-party
 ||fotballen.eu/20*/vaiplay$image
 ||fotballen.eu/20*casino.$image
 ||sportsidioten.no/wp-content/uploads/*-oslo-sportslager-pc.$image
-||counter4all.dk/wp-content/uploads/*-300x250.$image
 ! — — — — — — —
 ! 🇳🇴：Filtjener- eller nettstedsspesifikke oppføringer med kilder
 ! 🇳🇴🏞：Filtenar- eller nettstadsspesifikke oppføringar med kildar
@@ -2260,13 +2238,6 @@ ekstrabladet.dk#@#body>div[id][style]
 @@||notice.sp-prod.net^$subdocument,domain=ekstrabladet.dk
 @@||sp-prod.net^$xmlhttprequest,domain=ekstrabladet.dk
 @@||ad.amediakreativ.no/widgets/stillingskarusell^
-! ★★★ Caused by «Peter Lowe's Ad and tracking server list» ★★★
-@@://chart.dk^$~third-party
-! ★★★ Caused by «Dan Pollock's hosts file» ★★★
-@@://vinkelvej12.dk^$~third-party
-@@://haslundalsted.dk^$~third-party
-@@://mettelindberg.dk^$~third-party
-@@://nhn.dk^$~third-party
 ! 🇳🇴：Anti-'CPU-massakrering'
 ! 🇮🇸：And-örgjörvislatrun
 ! 🇬🇧：Anti-'CPU slaughtering'
@@ -6425,7 +6396,7 @@ nytid.no,tipsbladet.no#@#div.td-a-rec img
 dn.se##.bad--panorama
 dn.se##.bad--insider-tall
 ! Description: Finnish adblock list
-! Last modified: Thu, 22 May 2025 18:18:43 +0000
+! Last modified: Wed, 21 May 2025 12:55:04 +0000
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -6587,7 +6558,6 @@ alypaa.com##.section-inner:has(> div[style] > .sanoma-ad-banner)
 alypaa.com,pelikone.fi##.text-link[href*="&utm_medium=banner&utm_campaign="]
 alypaa.com,pelikone.fi##.text-link[href^="https://clk.tradedoubler.com/"]
 ampparit.com##.gtm-bottom-ticker
-ampparit.com##.gtm-navi-ticker:has([href^="https://www.iltalehti.fi/plus"])
 ampparit.com##.mobile-leaderboard-container
 ampparit.com##.resize-container
 ampparit.com,keskustelu.suomi24.fi,kirkkojakaupunki.fi,kuntalehti.fi,luukku.com,mtvuutiset.fi,seiska.fi,styleroom.fi,viinilehti.fi##.ad-container
@@ -26630,7 +26600,6 @@ browsershots.org#@#.advert_area
 ||avbang3431.fun^
 ||avbulb3431.fun^
 ||avdebt3431.fun^
-||aveepsaukseeta.net^
 ||avengeghosts.com^
 ||avenueinvoke.com^
 ||averialuchuan.shop^
@@ -30605,7 +30574,6 @@ browsershots.org#@#.advert_area
 ||dheqzygafg.com^
 ||dhertouchingthe.org^
 ||dhootiepawed.com^
-||dhphkgifchpc.com^
 ||di7stero.com^
 ||diabeteprecursor.com^
 ||diagnosisheadsetrekindle.com^
@@ -40945,7 +40913,6 @@ browsershots.org#@#.advert_area
 ||pblcpush.com^
 ||pblinq.com^
 ||pbmt.cloud^
-||pbqhjgkueppwm.online^
 ||pbtbypkdqlxmn.love^
 ||pbterra.com^
 ||pbxai.com^
