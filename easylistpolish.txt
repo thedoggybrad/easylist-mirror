@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TD1r6ZWmvS8Iwx5SH7IjuQ
-! Version: 202505300931
+! Checksum: jRZlwr5yzTKVV2m9NTkcRA
+! Version: 202505300921
 ! Title: EasyList Polish
-! Last modified: 30 May 2025 09:31 UTC
+! Last modified: 30 May 2025 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -187,7 +187,7 @@
 ^reklama-$domain=tkn24.pl|transg.pl|tv-pelplin.pl
 ^reklama0_$domain=24ikp.pl
 ^reklama^$domain=112tychy.pl|osowa24.pl
-^reklama_$domain=24ikp.pl|greencanoe.pl|jaslo4u.pl|kazimierzdolny24.pl|konstancin.com|legitymizm.org|miedzyzdrojskie.info|tarnowiak.pl|tydzien.net.pl|tylkotorun.pl
+^reklama_$domain=24ikp.pl|greencanoe.pl|jaslo4u.pl|kazimierzdolny24.pl|konstancin.com|legitymizm.org|miedzyzdrojskie.info|tarnowiak.pl|tylkotorun.pl
 ^reklamowe^$domain=bolec.info
 ^reklamy-$domain=ipulawy.pl
 ^reklamy_$domain=gazetka.be
@@ -468,6 +468,7 @@ files.librus.pl^*^r_
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+^reklama_$domain=tydzien.net.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
@@ -2251,7 +2252,6 @@ barlinek24.pl##a[href="/aktualnosci/12833-z-ludzmi-i-dla-ludzi.html"]
 footbar.info##a[href="/go/betclic"]
 emecze.pl##a[href="/go/canalonline"]
 footbar.info##a[href="/go/fortuna"]
-kaliszak.pl##a[href="/praca-magisterska-licencjat-profesjonalna-pomoc-137660"]
 enowiny.pl##a[href="/reklama,9.html"]
 bydgoszczak.pl##a[href="/strona/reklama"]
 blogbukmacherski.pl##a[href="fuksiarz"]
@@ -2947,6 +2947,7 @@ wp.pl##span[id^="dynacrems-adv"]
 londynek.net##ul[data-sponsored-links-content-type]
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+ciechanowski24.pl##.banners
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
