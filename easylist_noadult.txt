@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: L3FvslwYt74Df0jaXq9+aQ
-! Version: 202505311211
+! Checksum: vJtKndUfHq9AfLSuk4hKpA
+! Version: 202505311221
 ! Title: EasyList without rules for adult sites
-! Last modified: 31 May 2025 12:11 UTC
+! Last modified: 31 May 2025 12:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -57801,6 +57801,7 @@ dribbble.com##.service-result:has([data-promoted-badge])
 troyhunt.com##.sidebar-featured:has(a[href^="https://pluralsight.pxf.io/"])
 insidehpc.com##.sidebar-sponsored-content
 bitcointalk.org##.signature:has(a[href]:not([href*="bitcointalk.org"]))
+bestbuy.com##.slContainer:has(> .sponsored)
 bing.com##.slide:has(.rtb_ad_caritem_mvtr)
 fastcompany.com##.sticky:has(.ad-container)
 rustlabs.com##.sub-info-block:has(#banner)
