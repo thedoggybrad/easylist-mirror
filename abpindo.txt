@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wWTxiag8DkfGs9OODX1xtw
-! Version: 202506011221
+! Checksum: 4JLYuWIzWwYz74dXMOAhIg
+! Version: 202506011231
 ! Title: ABPindo
-! Last modified: 01 Jun 2025 12:21 UTC
+! Last modified: 01 Jun 2025 12:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 01 Jun 2025 12:18 UTC
+! Last modified: 01 Jun 2025 12:24 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -1876,8 +1876,6 @@ cloud.majalahhewan.com,info.gambar.pro,info.mapsaddress.com,info.vebma.com##p:ha
 ! Grid.id/IDN networks, must be updated regularly
 grid.id###div-Inside-MediumRectangle
 grid.id###outbrain-container
-duniaku.idntimes.com,fortuneidn.com,ggwp.id,popbela.com,popmama.com###wrapper-IDN_MegaBillboard
-duniaku.idntimes.com,fortuneidn.com,ggwp.id,popbela.com,popmama.com###wrapper-IDN_MegaBillboard2
 grid.id##.ads-partner-wrap.osmplaceonsite
 grid.id##.clearfix.ads__top-big
 duniaku.idntimes.com,fortuneidn,fortuneidn.com,ggwp.id,popbela.com,popmama.com##.css-13bgxac
@@ -1891,6 +1889,7 @@ duniaku.idntimes.com,fortuneidn.com,ggwp.id,popbela.com,popmama.co##.css-t1oq30
 duniaku.idntimes.com,fortuneidn.com,ggwp.id,popbela.com,popmama.com##.css-urr7k6
 grid.id##.title__default
 idntimes.com##.wrapper-megabillboard
+duniaku.idntimes.com,fortuneidn.com,ggwp.id,popbela.com,popmama.com##[id^="wrapper-IDN_MegaBillboard"]
 duniaku.idntimes.com,fortuneidn.com,ggwp.id,popbela.com,popmama.com##div#ads-infeed.css-1sg3kbb
 duniaku.idntimes.com,fortuneidn.com,ggwp.id,popbela.com,popmama.com##div#ads-infeed.css-6aejgs
 ! ABP-specific filters
