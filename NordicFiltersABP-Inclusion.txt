@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: shQQN/ZP0LuJ1LR/aGFKNQ
-! Version: 202506041431
+! Checksum: PSpl/UA/8GG0cjYn9tkdkw
+! Version: 202506041441
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 04 Jun 2025 14:31 UTC
+! Last modified: 04 Jun 2025 14:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -57092,7 +57092,7 @@ browsershots.org#@#.advert_area
 ||ad.intl.xiaomi.com^
 ||ad.xiaomi.com^
 ! amazonaws (ad-fix)
-/^https?:\/\/s3\.*.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$script,third-party,xmlhttprequest,domain=~amazon.com
+/^https?:\/\/s3\.*\.amazonaws\.com\/[a-f0-9]{45,}\/[a-f,0-9]{8,10}$/$script,third-party,xmlhttprequest,domain=~amazon.com
 ||s3.amazonaws.com^*/f10ac63cd7
 ||s3.amazonaws.com^*/secure.js
 ! charlotteobserver.com (audio advert)
