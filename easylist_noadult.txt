@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Bki3s3yVo1vM5/bdUfMVFA
-! Version: 202506041502
+! Checksum: fGEQqChJJPkGSRLY995dIQ
+! Version: 202506041511
 ! Title: EasyList without rules for adult sites
-! Last modified: 04 Jun 2025 15:02 UTC
+! Last modified: 04 Jun 2025 15:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59021,6 +59021,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 @@||thetvdb.com/banners/$image,domain=tvtime.com
 @@||thisiswaldo.com/static/js/$script,domain=bestiefy.com
 @@||townhall.com/resources/dist/js/prebid-pjmedia.js$script,domain=pjmedia.com
+@@||tpc.googlesyndication.com/pagead/js/*/elements/html/interstitial_ad_frame_$script,domain=safeframe.googlesyndication.com
 @@||tractorshed.com/photoads/upload/$~third-party
 @@||tradingview.com/adx/$subdocument,domain=adx.ae
 @@||trustprofile.com/banners/$image
