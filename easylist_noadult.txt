@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rpWvbc6Fl8fgAoP0cA/AQw
-! Version: 202506041521
+! Checksum: PFoWmk1qyCVvQEXmfypOkg
+! Version: 202506041531
 ! Title: EasyList without rules for adult sites
-! Last modified: 04 Jun 2025 15:21 UTC
+! Last modified: 04 Jun 2025 15:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -57793,6 +57793,7 @@ pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-2
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-3
 tripadvisor.*##.rSJod
+tripadvisor.*##[data-automation="nova-ad-InlineNova"]
 tripadvisor.*##[data-sponsored="sponsored"]:has(.txxUo)
 tripadvisor.*##div[class="ui_container dSjaD _S"]
 walmart.*##[data-automation="flipkartDisplayAds"]
