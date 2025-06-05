@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wLg4/LlkksAvJdNA21YnvA
-! Version: 202506051131
+! Checksum: eaGJzhUwEZmt0lKJUqAxOQ
+! Version: 202506051141
 ! Title: ABPindo
-! Last modified: 05 Jun 2025 11:31 UTC
+! Last modified: 05 Jun 2025 11:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 05 Jun 2025 11:21 UTC
+! Last modified: 05 Jun 2025 11:33 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -373,6 +373,7 @@ _iklan_|$image
 ||kaskus.co.id/images/banner-wap/
 ||kaskus.com/images/banner-wap/
 ||kazefuri.web.id/wp-content/themes/Kazebaru/img/300ads.png$image
+||kba.one/tracking/$popup
 ||kdramaindo.*/wp-content/uploads/*.gif$image
 ||kebagi.com/*.gif$image,third-party
 ||kentut.xyz/data/*.gif$image
@@ -9190,7 +9191,7 @@ one.playvid.cam###center-banner
 pemersatufun.site###deskadmiddle
 krx18.com###dynamic-image[alt=""]
 unyil.net###float-atas
-igobokep.boats,igobokep.com,tv1.igo-bokep.icu###floatbanner-bottom
+igobokep.boats,igobokep.com,tv1.igo-bokep.icu,tv3.igo-bokep.icu###floatbanner-bottom
 rumahperjaka.com,rumahperjaka.live,rumahperjaka.site###floatbannerkanan
 rumahperjaka.com,rumahperjaka.site###floatbannerkiri
 hencop.com,heppinn.id,indodb21.com###floatcenter
@@ -9261,7 +9262,7 @@ realthaisluts.com##.video-list-ads
 bokepvir.org##.widget_block.widget
 komikdewasa.art##.wp-image-80765.size-full.alignnone
 bokepid.wiki##[class^="xnxx5-"]
-kingbokep.pro##[grid-area:ads1]
+kingbokep.pro##[grid-area="ads1"]
 173.249.49.204##[href="https://bit.ly/idx-xx"]
 bokepvir.net##[href="https://bkpv.online/reffbokepvir"]
 komikmanhwa.me##[href="https://klik.fun/ZyslX"]
