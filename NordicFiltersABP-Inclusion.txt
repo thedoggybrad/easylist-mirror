@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jpy7Jxkatbjdh4L6QL8urA
-! Version: 202506060111
+! Checksum: x1+o+yIx/yB6IZsGrwxdgQ
+! Version: 202506060121
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 06 Jun 2025 01:11 UTC
+! Last modified: 06 Jun 2025 01:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -68262,19 +68262,24 @@ yahoo.com##div[style="height:90px;width:728px"]
 mail.yahoo.com##li:has(a[href^="https://api.taboola.com/"])
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
-youtube.com###masthead-ad
-youtube.com###mealbar-promo-renderer
+! youtube.com###masthead-ad
+! youtube.com###mealbar-promo-renderer
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
-youtube.com##.YtdShortsSuggestedActionStaticHostContainer
-youtube.com##.ytd-merch-shelf-renderer
-www.youtube.com##.ytp-featured-product
+! youtube.com##.YtdShortsSuggestedActionStaticHostContainer
+! youtube.com##.ytd-merch-shelf-renderer
+! www.youtube.com##.ytp-featured-product
 youtube.com##.ytp-suggested-action > button.ytp-suggested-action-badge
 m.youtube.com##lazy-list > ad-slot-renderer
-youtube.com##ytd-ad-slot-renderer
+! youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
-youtube.com##ytd-search-pyv-renderer
+! youtube.com##ytd-search-pyv-renderer
 m.youtube.com##ytm-companion-slot[data-content-type] > ytm-companion-ad-renderer
 m.youtube.com##ytm-rich-item-renderer > ad-slot-renderer
+!
+youtube.com##.grid.ytd-browse > #primary > .style-scope > .ytd-rich-grid-renderer > .ytd-rich-grid-renderer > .ytd-ad-slot-renderer
+youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-rich-item-renderer > .ytd-ad-slot-renderer.style-scope
+youtube.com##ytd-item-section-renderer > .ytd-item-section-renderer > ytd-ad-slot-renderer.style-scope
+!
 ! Site Specific filters (used with $generichide)
 thefreedictionary.com###Content_CA_AD_0_BC
 thefreedictionary.com###Content_CA_AD_1_BC
