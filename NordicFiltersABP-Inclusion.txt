@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UMoZTzrYQWa0kVQEeUEmPg
-! Version: 202506121741
+! Checksum: D7t8cXinCU7594NH3QuYQg
+! Version: 202506121931
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 12 Jun 2025 17:41 UTC
+! Last modified: 12 Jun 2025 19:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -600,6 +600,8 @@ jubii.dk##.mobiletakeover-background
 norskemagasinet.com##a[href*=freespin]
 fodbold-transfers.dk##.post-content > p:has(a[href*=casino])
 livescore.dk##div[style^="padding:5px; "]
+maritimedanmark.dk##.banner-hidden:has(>div[class*=banner-wrapper])
+maritimedanmark.dk##.banner-hidden:has([class*=ad-wrapper])
 bilnorge.no###artikkel300x250right
 viaplay.no,viaplay.dk,viaplay.is##.interaction-block
 gamer.no##.feed--commercial
@@ -1150,6 +1152,9 @@ kommunikationsforum.dk##.banner-top
 itavisen.no##.td-c-loop-ad
 baatplassen.no##.ipsWidget:has(> .adsbygoogle)
 installator.dk##.addon--ad
+kanalfrederikshavn.dk##div.top-banner-first
+kanalfrederikshavn.dk##.contentcontainer-column:has(.banner-bm-rec)
+kanalfrederikshavn.dk##.frame:first-of-type:not([class*=news]):has(.tx-dce-container)
 test.no##.ad-position-top
 tvkampen.com,tvsporten.dk##a.p-icon.partner
 norges.online##.modal-backdrop
@@ -2136,6 +2141,8 @@ tv2.no##.aside > .ad-container
 ##.nf-o-moduleblock-module:has(> .nf-o-annonse)
 ! flaDE (30/05/2025)
 ##.component__pubble-banner:not(html,body,:empty)
+! https://www•kanalfrederikshavn•dk/vis/nyhed/oslo-faergernes-skaebne-i-frederikshavn-afgoeres-foerst-efter-sommerferien
+##.tx-dce-container:not(html,body,:empty)
 ! — — — — — — —
 ! 🇳🇴：Oppføringer med spesielle omstendigheter
 ! 🇬🇧：Entries with special circumstances
@@ -2892,8 +2899,8 @@ triplx.dk##.aff-inner-col
 ||hoka-sko.com^$popup
 ||hoka-one-one.cc^
 ||hoka-one-one.cc^$popup
-||hokaoneone*
-||hokaoneone*$popup
+/^(https?://)?hokaoneone[a-z0-9].*$/
+/^(https?://)?hokaoneone[a-z0-9].*$/$popup
 *norgeskosalg.
 *norgeskosalg.$popup
 *norge-salg.com^
@@ -32542,6 +32549,7 @@ browsershots.org#@#.advert_area
 ||eventbarricadewife.com^
 ||eventfulknights.com^
 ||eventuallysmallestejection.com^
+||eventuryremov.com^
 ||ever8trk.com^
 ||everalmefarketin.com^
 ||evercrucial.com^
@@ -33876,6 +33884,7 @@ browsershots.org#@#.advert_area
 ||gammaplatform.com^
 ||gammradiation.space^
 ||gamonalsmadevel.com^
+||gamyhamite.shop^
 ||ganalyticshub.net^
 ||gandmotivat.info^
 ||gandmotivatin.info^
@@ -48626,6 +48635,7 @@ browsershots.org#@#.advert_area
 ||uqbcz.today^
 ||uqecqpnnzt.online^
 ||uqeqytrdnaf.com^
+||uqjhvjshpleun.com^
 ||uqohomcgxhtjr.space^
 ||uqojzdtzbonpz.online^
 ||uqqmj868.xyz^
@@ -48897,6 +48907,7 @@ browsershots.org#@#.advert_area
 ||velodran.com^
 ||velsirtohoosh.net^
 ||velvetdock.com^
+||velvzzjayrklq.top^
 ||vempeeda.com^
 ||vemtoutcheeg.com^
 ||vendeanlinnaea.com^
@@ -50608,6 +50619,7 @@ browsershots.org#@#.advert_area
 ||ytdut.online^
 ||yterxv.com^
 ||ytihp.com^
+||ytjxhgjeudkrx.space^
 ||ytlsppuzpf.club^
 ||ytoqesmpkvxkq.click^
 ||ytransionscorma.com^
