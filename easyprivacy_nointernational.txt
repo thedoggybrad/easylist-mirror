@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2Yy+Yf8VPJtYvr0GPJQPjQ
-! Version: 202506140841
+! Checksum: 8iG/DNXOp4R/Hy9NepUmRA
+! Version: 202506140851
 ! Title: EasyPrivacy without international filters
-! Last modified: 14 Jun 2025 08:41 UTC
+! Last modified: 14 Jun 2025 08:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -44346,7 +44346,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||youvisit.com/SmartScript/$script,domain=uaf.edu
-@@||youvisit.com/tour/$script,subdocment,domain=uaf.edu
+@@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 @@||zillow.com/rental-manager/proxy/rental-manager-api/api/v1/users/freemium/analytics/pageViews$~third-party
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 !! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/
