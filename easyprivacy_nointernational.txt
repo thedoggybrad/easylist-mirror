@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GLcD1fGC1ZGh3sXqhn3/xQ
-! Version: 202506141721
+! Checksum: tzsIKgcTzMb+oZR0pdOcHA
+! Version: 202506141731
 ! Title: EasyPrivacy without international filters
-! Last modified: 14 Jun 2025 17:21 UTC
+! Last modified: 14 Jun 2025 17:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1103,6 +1103,7 @@
 /googletrack.js
 /googleTracker.js
 /googleTracking.js
+/graphql/track-pageview$xmlhttprequest
 /grumi-ip.js
 /gs-analytics-init.js
 /gs-analytics.js
@@ -7693,6 +7694,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||typepad.com/t/stats?
 ||ua.financialexpress.com/api/capture
 ||ua.indianexpress.com^
+||ub.galaxus.
 ||uber.com/_events
 ||uber.com/_track
 ||uber.com/careers/apply/_log
