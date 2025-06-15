@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YcsyvmhIW7Uayz7DTS3KTw
-! Version: 202506152331
+! Checksum: wSxPMm1ZYW+8PHJhE4qfhA
+! Version: 202506152341
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 15 Jun 2025 23:31 UTC
+! Last modified: 15 Jun 2025 23:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1672,9 +1672,7 @@ contentMarketing$xmlhttprequest,domain=sol.no|sol-no.translate.goog
 ||spanienidag.es/sites/default/files/patrocinadores^
 /^.*://w{3}\.(tu|d\ig\i)\.n\o/(\d|[a-zA-Z_-]){130,}$/$xmlhttprequest,domain=no
 ||ssl.p.jwpcdn.com^*/freewheel.js$script,domain=eurosport.no|eurosport.dk
-||ssl.p.jwpcdn.com^*/jwpsrv.js$script,domain=eurosport.no|eurosport.dk|gamereactor.no|gamereactor.dk|vg.no
 ||ssl.p.jwpcdn.com^*/sharing.js$script,domain=eurosport.no|eurosport.dk|gamereactor.no|gamereactor.dk
-||ssl.p.jwpcdn.com^*/vast.js$script,domain=eurosport.no|eurosport.dk|gamereactor.no|gamereactor.dk|vg.no
 ||static.finncdn.no/*/FINNExternalDistribution.js^$domain=aftenbladet.no|aftenposten.no
 ||static.vg.no/css/admark_top.gif^
 ||stream.fo/wp-content/uploads/*-300x111.jpg^
@@ -1773,6 +1771,8 @@ _1170x400.$domain=eyjafrettir.is,image,~third-party
 ||kjavis.dk/wp-content/uploads/20*/Topann-$image
 ||kjavis.dk/wp-content/uploads/20*/ellinge4.png|$image
 ||www.hvidovreavis.dk/media/*/hvidover-*-1080x1080.$image
+||ssl.p.jwpcdn.com^*/jwpsrv.js$script,domain=eurosport.no|eurosport.dk|gamereactor.no|gamereactor.dk|vg.no
+||ssl.p.jwpcdn.com^*/vast.js$script,domain=eurosport.no|eurosport.dk|gamereactor.no|gamereactor.dk|vg.no
 ! — — — — — — —
 ! 🇳🇴：Filtjener- eller nettstedsspesifikke oppføringer med kilder
 ! 🇳🇴🏞：Filtenar- eller nettstadsspesifikke oppføringar med kildar
@@ -2297,6 +2297,8 @@ sosialurin.fo#@#.ads-banner
 @@://haslundalsted.dk^$~third-party
 @@://mettelindberg.dk^$~third-party
 @@://nhn.dk^$~third-party
+! ★★★ Caused by «AdGuard Cookie Notices filter» ★★★
+@@||glassoginterior.no/css/modules/consent.css^
 ! 🇳🇴/🇩🇰：Anti-'CPU-massakrering'
 ! 🇮🇸：And-örgjörvislatrun
 ! 🇬🇧：Anti-'CPU slaughtering'
@@ -3390,6 +3392,9 @@ triplx.dk##.aff-inner-col
 ||195.242.152.122^$popup
 ||mygoodmerch.com^
 ||mygoodmerch.com^$popup
+! https://www•tv2•no/nyheter/forbruker/sjokksvar-pa-epost-harreisende/17805239/
+! https://www•tv2•no/nyheter/forbruker/tenkte-shit-na-har-jeg-blitt-lurt/17474448/
+||takstskolen.no^
 ! 🇬🇧：Pirate-product-selling stores registered by the serial scammers who go by the name of "xiang dao xin xi ji shu you xiang gong si".
 ||nofotballshop.com^
 ||nofotballstore.com^
@@ -6455,7 +6460,7 @@ nytid.no,tipsbladet.no#@#div.td-a-rec img
 dn.se##.bad--panorama
 dn.se##.bad--insider-tall
 ! Description: Finnish adblock list
-! Last modified: Tue, 10 Jun 2025 00:11:54 +0300
+! Last modified: Fri, 13 Jun 2025 02:39:42 +0300
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -7093,6 +7098,7 @@ kulutusluottovertailu.fi##.fusion-carousel
 kuntalehti.fi##.g:has(.gofollow)
 kuntatekniikka.fi##.g-1
 kuntsari.fi##.wpb_wrapper.wpb_text_column.td_block_wrap:has([auto-grid-data*="mainos"])
+kuulatori.fi##.col-md-12:has(#advlink)
 kuvake.net###ticker
 kuvake.net,kuvaton.com##.addme
 kuvaton.com,viikonloppu.com##[href^="https://www.kasinokaverit.com/"]
@@ -7612,6 +7618,7 @@ vuodatus.net##.ad300x300
 vuokraovi.com##.service-ad-panel
 webnode.fi##.wnd-free-stripe-link
 wizhdsports.fi##.widget_media_image
+www.io-tech.fi##.artikkeli-slide:has(a[href$="ttps://www.io-tech.fi/artikkelit/terveys-edella-huawei-watch-fit-4-pro/"])
 www.io-tech.fi##.widget.datatronic
 www.nettiauto.com###article_box li:has([id|="almad-post-content"])
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com###homeBottomBoxBanner
@@ -7914,8 +7921,6 @@ classic.nettiauto.com,www.nettiauto.com#@##adv
 @@||ad.doubleclick.net/ddm/clk/*coolshop.fi/tuote/
 ! To fix the opening of kauppa.dna.fi product links on hintaseuranta.fi
 @@||track.adform.net^*https://kauppa.dna.fi/tuote/$popup,domain=hintaseuranta.fi
-! Unbreak netstat.ayy.fi
-@@||netstat.ayy.fi^
 @@leiki.com/mtv3/mwidget$domain=mtvuutiset.fi
 @@leiki.com/mtv3/widgets/loader/$domain=mtvuutiset.fi
 @@||adservicemedia.dk/$image,domain=mobiili.fi
@@ -28250,6 +28255,7 @@ browsershots.org#@#.advert_area
 ||braverychinol.top^
 ||bravesinfest.top^
 ||bravespace.pro^
+||bravoedzaphara.top^
 ||bravotrk.com^
 ||brazenwholly.com^
 ||brcjvwooqneol.online^
@@ -33233,6 +33239,7 @@ browsershots.org#@#.advert_area
 ||fhiulnbk.cam^
 ||fhjrpcmkyrkvi.space^
 ||fhkfdgwtzueans.com^
+||fhktaryvtgnaw.store^
 ||fhldb.site^
 ||fhsmtrnsfnt.com^
 ||fhuwsmjjijivj.top^
@@ -37876,6 +37883,7 @@ browsershots.org#@#.advert_area
 ||koyshxlxljv.com^
 ||kpaagnosdzih.com^
 ||kpaamldootvpw.global^
+||kpaofxfudo.com^
 ||kpbmqxucd.com^
 ||kpgks.online^
 ||kpjuilkzfi.com^
@@ -47953,6 +47961,7 @@ browsershots.org#@#.advert_area
 ||tingefifortwaukth.org^
 ||tingisincused.com^
 ||tingswifing.click^
+||tiningmoonbow.com^
 ||tinkerwidth.com^
 ||tinkleswearfranz.com^
 ||tinsus.com^
@@ -48656,6 +48665,7 @@ browsershots.org#@#.advert_area
 ||txbwpztu-oh.site^
 ||txgilxtxczsfus.com^
 ||txgpgszrhedyl.online^
+||txojrnpkfo.com^
 ||txykmuqzxjitf.space^
 ||txzaazmdhtw.com^
 ||tyburnpenalty.com^
