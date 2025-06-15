@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Bae1Ut7QGWenNQjeY26TVA
-! Version: 202506152141
+! Checksum: QzhsE3xmmQn+/1Xd22w2jg
+! Version: 202506152151
 ! Title: ABPindo
-! Last modified: 15 Jun 2025 21:41 UTC
+! Last modified: 15 Jun 2025 21:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 15 Jun 2025 11:14 UTC
+! Last modified: 15 Jun 2025 21:44 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -969,6 +969,11 @@ shinigami09.*##.lepopup-popup-container
 shinigami09.*##.lepopup-popup-loader
 shinigami09.*##.lepopup-popup-overlay
 tempo.co##[src="/_ipx/_/close.png"]
+vnn.co.id###floatads
+vnn.co.id##.googlepublisherads
+vnn.co.id##.iklan-bawah-postingan
+vnn.co.id##.inline-ad
+vnn.co.id##.section.Atas.Iklan
 ! Non-entity filters
 wowkeren.com###Ad300B
 wowkeren.com###Ad728
