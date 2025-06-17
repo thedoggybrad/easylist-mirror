@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ukgaaUwvrbevlLwqpJBZXQ
-! Version: 202506170151
+! Checksum: yZPCA26G9QaT1SwYrAohtQ
+! Version: 202506170201
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 17 Jun 2025 01:51 UTC
+! Last modified: 17 Jun 2025 02:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -68218,6 +68218,7 @@ bleacherreport.com,coles.com.au##[data-testid="ad"]
 nexusmods.com##[data-testid="ad-container-player"]
 kijiji.ca##[data-testid="adsense-container"]
 gozofinder.com##[data-testid="advert"]
+gocomics.com##[data-testid="advertising-unit"]
 coles.com.au##[data-testid="banner-container-desktop"]
 petco.com##[data-testid="citrus-widget"]
 argos.co.uk##[data-testid="citrus_products-carousel"]
@@ -69267,6 +69268,7 @@ zooplus.*##div[data-zta="product-card"]:has(.z-sponsored-tag)
 ! :has()
 windowscentral.com###article-body > .hawk-nest[data-widget-id]:has(a[class^="hawk-affiliate-link-"][class$="-button"])
 cars.com###branded-canvas-click-wrapper:has(> #native-ad-html)
+gocomics.com###header-content-start:has([data-testid="advertising-unit"])
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se###headerTopBar ~ div > div:has(div#RAD_D_station_top)
 gtaforums.com###ipsLayout_mainArea div:has(> #pwDeskLbAtf)
 klz9.com###list-imga center:has(> a[id^="adLink"])
