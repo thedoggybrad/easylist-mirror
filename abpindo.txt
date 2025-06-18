@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3PVjiBejOm/WiPzr8gP5vg
-! Version: 202506182131
+! Checksum: 41SjREwUHQptUO7CnM6s3g
+! Version: 202506182142
 ! Title: ABPindo
-! Last modified: 18 Jun 2025 21:31 UTC
+! Last modified: 18 Jun 2025 21:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 18 Jun 2025 06:22 UTC
+! Last modified: 18 Jun 2025 21:41 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -1890,8 +1890,10 @@ suara.com##.placeholder_r2
 suara.com##.placeholder_r3
 suara.com##.placeholder_read_body
 suara.com##.widget-ads-top
+matamata.com##.wrap-ads-leaderboard
 suara.com##[id^="berita-terkait-"]
 suara.com##div.placeholder_pariwara
+matamata.com.wrap-ads-r
 ! Grid Networks
 grid.id###div-Inside-MediumRectangle
 grid.id###outbrain-container
