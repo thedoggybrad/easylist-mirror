@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6e/n1JsTnfxNteOPFVBR2Q
-! Version: 202506182041
+! Checksum: fl2kjlo4As5GJVzJgkPkKA
+! Version: 202506182051
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 18 Jun 2025 20:41 UTC
+! Last modified: 18 Jun 2025 20:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -53669,6 +53669,7 @@ browsershots.org#@#.advert_area
 ||myaffiliates.com^$third-party
 ||n2s.co.kr^$third-party
 ||naitive.pl^$third-party
+||namastedharma.com^$third-party
 ||nanigans.com^$third-party
 ||nativeads.com^$third-party
 ||nativeone.pl^$third-party
@@ -60685,6 +60686,7 @@ browsershots.org#@#.advert_area
 ||ddfcash.com^$third-party
 ||deliver.ptgncdn.com^
 ||dq06u9lt5akr2.cloudfront.net^
+||dscgirls.live/*/vast$third-party
 ||e.seksohub.com^
 ||elitepaysites.com/ae-banners/
 ||ero-labs.com/adIframe/
@@ -69628,6 +69630,7 @@ aleteia.org###root > div[class]:has(> .adslot)
 etsy.com###search-results li:has([id^="ad-listing-title-"])
 scribd.com###sidebar > div:has(> div > [data-e2e^="dismissible-ad-header"])
 bbc.com###sticky-mpu:has(.dotcom-ad-inner)
+gsmarena.com###subHeader3:has([href="deals.php3"])
 gsmarena.com###subHeader:has(> #topAdv)
 gamereactor.*###videoContainer:has(> [id^="videoContent-videoad-"])
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
