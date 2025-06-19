@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BdhHlkGPSO3fV1jI7uHbVg
-! Version: 202506192151
+! Checksum: DI0DfOM1Iru9lR4TytBG4A
+! Version: 202506192201
 ! Title: ABPindo
-! Last modified: 19 Jun 2025 21:51 UTC
+! Last modified: 19 Jun 2025 22:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 19 Jun 2025 13:48 UTC
+! Last modified: 19 Jun 2025 21:52 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -938,8 +938,6 @@ oploverz.*###teaser1
 oploverz.*###teaser2
 oploverz.*###teaser3
 oploverz.*##.kln
-popmama.com##div#ads-infeed.css-1sg3kbb:nth-of-type(2)
-popmama.com##div#ads-infeed.css-1sg3kbb:nth-of-type(9)
 rebahin21.*###floating-banner
 rebahin21.*###rebahin-banner
 samehadaku.*###floatbottom
@@ -1912,8 +1910,7 @@ idntimes.com##[id^="IDN_Billboard"]
 idntimes.com##[id^="IDN_InArticle"]
 idntimes.com##[id^="IDN_Leaderboard"]
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##[id^="wrapper-IDN_MegaBillboard"]
-fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##div#ads-infeed.css-1sg3kbb
-fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##div#ads-infeed.css-6aejgs
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##div#ads-infeed
 ! ABP-specific filters
 tokopedia.com#?#.product-card:has(span:-abp-contains(/^Ad$/))
 cari.com.my#?#center:-abp-contains(ADVERTISEMENT)
