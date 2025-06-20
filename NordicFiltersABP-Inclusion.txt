@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uR3yxeuRxBipq1u0MQc0Eg
-! Version: 202506202131
+! Checksum: 6MV4B1NFfhMQFX3SvBzzJg
+! Version: 202506202141
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 20 Jun 2025 21:31 UTC
+! Last modified: 20 Jun 2025 21:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8761,6 +8761,7 @@ _reklama_$domain=~youtube.com
 ?bd=ppd&r=$document
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
+://www.*.com/script/*.com.js|$script,third-party
 ://www.*.xyz/content/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.xyz/content/*/a/$subdocument,third-party
 ://www.*.xyz/content/*?h=$script,third-party
@@ -31822,6 +31823,7 @@ browsershots.org#@#.advert_area
 ||drnniuaxhvpgz.website^
 ||drokpapapize.shop^
 ||drollywungee.shop^
+||droopancoral.top^
 ||droopcomate.top^
 ||dropalcoholnarrow.com^
 ||dropdeadgems.org^
@@ -48509,6 +48511,7 @@ browsershots.org#@#.advert_area
 ||tkyoblcksma.site^
 ||tl2go.com^
 ||tldlucfshb.com^
+||tlecsdwamiuhk.online^
 ||tlkbfilacsw.com^
 ||tlklwtqqewceq.world^
 ||tlootas.org^
@@ -52090,6 +52093,7 @@ browsershots.org#@#.advert_area
 ||zxcdn.com^
 ||zxfqtqmtlldld.world^
 ||zy16eoat1w.com^
+||zyblzreyykemb.top^
 ||zyblzreyykyjw.top^
 ||zyblzreyykymj.top^
 ||zyblzreyykzme.top^
@@ -54360,6 +54364,7 @@ browsershots.org#@#.advert_area
 ||fs-loader.com^
 ||ko9t6qv2kt8psullo7pputs.xyz^
 ||kq6mv8mpvs4m10r449nms6.xyz^
+||nextbeforefollowerskean.com^
 ||ns2l8nn10rns-6rlr38mp.xyz^
 ||o-3vq0t1kqukk9pns.xyz^
 ||omomku7r4n3vo55rp5k.xyz^
@@ -54367,6 +54372,7 @@ browsershots.org#@#.advert_area
 ||rl1u0wknm1onstp8395too.xyz^
 ||sn2rrlv57qpss5w-qk8llu.xyz^
 ||ts28ll0tk23t2n9pl0n327.xyz^
+||untostakejiggle.com^
 ||w9l4tr4013tn5mo27t0w.xyz^
 ||wqq881m8uwq1k5m-4p7lv7.xyz^
 ! ad-shield https://github.com/List-KR/List-KR/pull/892
