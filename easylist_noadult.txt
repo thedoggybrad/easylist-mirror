@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0R+kWJOWthBsuw/cNwuyZQ
-! Version: 202506201151
+! Checksum: pFRpEOck9ntV3nMiBvspNA
+! Version: 202506201201
 ! Title: EasyList without rules for adult sites
-! Last modified: 20 Jun 2025 11:51 UTC
+! Last modified: 20 Jun 2025 12:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -60059,6 +60059,7 @@ kaufland.*##.teaser-orchestration__wrapper--online
 kaufland.*#?#.recommender-wrapper:-abp-contains(Gesponsert)
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
+lidl.*##div[data-type="sponsored"]
 manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
 manomano.*##div[data-testid="sprbrd-banner"]
 momondo.*##.WTQR-ad-card
