@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yHHwsWILbK7S4pg1hAqy/Q
-! Version: 202506210411
+! Checksum: jGy+/RrG1WSusBnD2U6/1Q
+! Version: 202506210421
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 Jun 2025 04:11 UTC
+! Last modified: 21 Jun 2025 04:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8761,6 +8761,7 @@ _reklama_$domain=~youtube.com
 ?bd=ppd&r=$document
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
+://www.*.com/content/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/script/*.com.js|$script,third-party
 ://www.*.xyz/content/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.xyz/content/*/a/$subdocument,third-party
@@ -39139,6 +39140,7 @@ browsershots.org#@#.advert_area
 ||lsoextraorfekin.com^
 ||lsupvtyjffooymb.xyz^
 ||lsuwndhxt.com^
+||lswhomfiluabmep.com^
 ||lszydrtzsh.com^
 ||ltacuvowpzr.com^
 ||ltadmycmy.com^
@@ -54398,6 +54400,7 @@ browsershots.org#@#.advert_area
 ||c2a0076d.xyz^
 ||ca9246.xyz^
 ||ce56df44.xyz^
+||chainstayornerypsstgeez.com^
 ||dcad1d97.xyz^
 ||e076.xyz^
 ||e75d10b9.live^
@@ -54408,6 +54411,7 @@ browsershots.org#@#.advert_area
 ||f6b458fd.xyz^
 ||fe9dc503.xyz^
 ||fs-loader.com^
+||hairyalligatorviolently.com^
 ||ko9t6qv2kt8psullo7pputs.xyz^
 ||kq6mv8mpvs4m10r449nms6.xyz^
 ||nextbeforefollowerskean.com^
