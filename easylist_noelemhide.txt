@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NZxuqcNG6cYOzch7OsXzzw
-! Version: 202506210411
+! Checksum: 6J9wkqYjOWldAua/+LY9jg
+! Version: 202506210421
 ! Title: EasyList without element hiding rules
-! Last modified: 21 Jun 2025 04:11 UTC
+! Last modified: 21 Jun 2025 04:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -797,6 +797,7 @@ _reklama_$domain=~youtube.com
 ?bd=ppd&r=$document
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
+://www.*.com/content/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/script/*.com.js|$script,third-party
 ://www.*.xyz/content/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.xyz/content/*/a/$subdocument,third-party
@@ -16761,6 +16762,7 @@ _800x80_
 ||lsoextraorfekin.com^
 ||lsupvtyjffooymb.xyz^
 ||lsuwndhxt.com^
+||lswhomfiluabmep.com^
 ||lszydrtzsh.com^
 ||ltacuvowpzr.com^
 ||ltadmycmy.com^
@@ -32020,6 +32022,7 @@ _800x80_
 ||c2a0076d.xyz^
 ||ca9246.xyz^
 ||ce56df44.xyz^
+||chainstayornerypsstgeez.com^
 ||dcad1d97.xyz^
 ||e076.xyz^
 ||e75d10b9.live^
@@ -32030,6 +32033,7 @@ _800x80_
 ||f6b458fd.xyz^
 ||fe9dc503.xyz^
 ||fs-loader.com^
+||hairyalligatorviolently.com^
 ||ko9t6qv2kt8psullo7pputs.xyz^
 ||kq6mv8mpvs4m10r449nms6.xyz^
 ||nextbeforefollowerskean.com^
