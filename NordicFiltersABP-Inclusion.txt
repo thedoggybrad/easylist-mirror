@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sHkmVr1hYNkq0HGZoyi97Q
-! Version: 202506211621
+! Checksum: 37ubzmVnJaYyMrGZ1Vcikg
+! Version: 202506211631
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 Jun 2025 16:21 UTC
+! Last modified: 21 Jun 2025 16:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -34145,6 +34145,7 @@ browsershots.org#@#.advert_area
 ||fwmrm.net^
 ||fwtntihjaqbko.com^
 ||fwtrck.com^
+||fxawjrcpzkyvd.online^
 ||fxbcyvlrr.com^
 ||fxdepo.com^
 ||fxdmnmsna.space^
@@ -70085,6 +70086,7 @@ etsy.com##[data-page-type="listing_page_similar_listings_grid"]:has([id^="ad-lis
 etsy.com##[data-page-type="listing_page_similar_listings_row"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="market"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
+noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 engadget.com##[data-test="top-ad"]
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
