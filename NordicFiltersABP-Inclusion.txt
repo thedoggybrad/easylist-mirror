@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nB3aVpbaOZj4xa6jajdjXg
-! Version: 202506231232
+! Checksum: t1mIY9McIVFvSAdBES74nw
+! Version: 202506231241
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 23 Jun 2025 12:32 UTC
+! Last modified: 23 Jun 2025 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -70329,6 +70329,7 @@ thesun.co.uk##.sun-grid-container:has([class*="ad_widget"])
 myrgv.com##.td_block_wrap:has(a[href*="/ask-the-expert/"])
 independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad)
 etherscan.io##.text-white.text-opacity-75.noindex-section.mb-0:has([style="text-decoration: none;"])
+trademe.co.nz##.tm-display-s-listing__cards-flex:has(tm-sponsored-listings-tag)
 trademe.co.nz##.tm-stripe__SL-card-container:has([class^="tm-sponsored-"])
 nex-software.com##.toolinfo:has(a[href$="/reimage"])
 canberratimes.com.au##.top-20
