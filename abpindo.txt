@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cd6sxGnQFn6AlTaqyqTXIQ
-! Version: 202506230331
+! Checksum: ku+0ZJAoEDzDdzipOvN/cQ
+! Version: 202506230341
 ! Title: ABPindo
-! Last modified: 23 Jun 2025 03:31 UTC
+! Last modified: 23 Jun 2025 03:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 22 Jun 2025 14:20 UTC
+! Last modified: 23 Jun 2025 03:36 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -881,6 +881,7 @@ baladfilm.*###floating_banner_top1
 baladfilm.*##.inner-floatbanner-bottom
 baladfilm.*##[href^="https://bit.ly/"]
 beritasatu.com##.body-content.b1-article > .mt-3
+beritasatu.com##div[style="font-family: helvetica, arial;font-size: 10px;padding: 5px 0px;background-color:#f4f4f4;color:#333;text-align: center;"]
 bioskopkeren.*###headads
 bioskopkeren.*###ptbanner
 bioskopkeren.*###top-banner
