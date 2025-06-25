@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TgxneDhqMAoRXhMwamamKQ
-! Version: 202506251911
+! Checksum: UY1j7Jci5ByS+8YTWBDtSw
+! Version: 202506251921
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 25 Jun 2025 19:11 UTC
+! Last modified: 25 Jun 2025 19:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -29231,6 +29231,7 @@ browsershots.org#@#.advert_area
 ||cgcobmihb.com^
 ||cgeckmydirect.biz^
 ||cgfvmpkypav.com^
+||cgiaysvjnljyk.online^
 ||cgjowhzaneoli.love^
 ||cgphqnflgee.com^
 ||cgpnhjatakwqnjd.xyz^
@@ -36324,6 +36325,7 @@ browsershots.org#@#.advert_area
 ||hqscene.com^
 ||hqvxjjjldyoc.com^
 ||hqwa.xyz^
+||hqwpsdvh.com^
 ||hrahdmon.com^
 ||hramb.site^
 ||hrenbjkdas.com^
@@ -70184,6 +70186,7 @@ nowgoal8.com##div[id^="ad_"]
 javacodegeeks.com##div[id^="adngin-"]
 agoda.com##div[id^="ads-"]
 pixiv.net##div[id^="adsdk-"]
+americafirstreport.com##div[id^="ameri-"]
 antiguanewsroom.com##div[id^="antig-"]
 slidesgo.com##div[id^="article_ads"]
 business-standard.com##div[id^="between_article_content_"]
@@ -70750,6 +70753,7 @@ aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--c
 aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background: rgba(0, 0, 0, 0.2); position: absolute; top: 8px; color: rgb(255, 255, 255); padding: 2px 5px; border-radius: 4px; right: 8px;"])
 manomano.*##a[href]:has(> .c4iHiiE)
 yandex.com##a[href^="https://yandex.ru/an/count/"]
+americafirstreport.com##article.format-standard:has(.category-sponsored)
 9gag.com##article:has(.promoted)
 mg.co.za##article:has(.sponsored-single)
 tympanus.net##article:has(header:has(.ct-sponsored))
