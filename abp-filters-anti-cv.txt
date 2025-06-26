@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: QWfTW8Gbx3n0BjV73Upttg
-! Version: 202506261102
+! Checksum: 1XdqAxnEzsKJ4p4MFaQ9IQ
+! Version: 202506261111
 ! Title: ABP filters
-! Last modified: 26 Jun 2025 11:02 UTC
+! Last modified: 26 Jun 2025 11:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -912,7 +912,7 @@ onworks.net#$#override-property-read rewarded 0;
 readcomiconline.li#$#abort-on-iframe-property-read localStorage
 boosterx.stream,vidsrc.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete; abort-current-inline-script JSON.parse break;case $.;
 coflix.*,fmovies.*,swatchseries.is,vidply.com,watchseriestv.*#$#abort-current-inline-script String.fromCharCode 2147483647
-magasavor.net,moviesjoy.*,rmaxfinishseveral.com,uqload.*#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
+magasavor.net,moviesjoy.*,pkembed.*,rmaxfinishseveral.com,uqload.*,vide0.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sexvid.*#$#abort-on-property-read atob; abort-current-inline-script document.write /promo/
 ! MISC
@@ -1136,6 +1136,9 @@ bance.jp#$#abort-on-property-read Math.floor; abort-on-property-read Object.defi
 anige-sokuhouvip.com,himanatokiniyaruo.com,matomeantena.com,vippers.jp#$#override-property-read fluctAdScript undefined; abort-on-property-read window.bnctag
 gameinn.jp#$#abort-current-inline-script document.addEventListener patterns ratel-ad.com; simulate-mouse-event 'xpath(.//div[@id]//div[@id="bn_interstitial_close_icon"])';
 gameinn.jp##div[id^="bnc_ad"]
+||bance.jp^$domain=zozovideo.com
+zozovideo.com##.content-bottom-sidebar-wrap
+zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/parent::div[@style]/ancestor::div[@class="content-top-sidebar-wrap"]'
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
