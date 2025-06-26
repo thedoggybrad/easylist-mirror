@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: A2f1y2U81VMu3yzA7B8zpA
-! Version: 202506262101
+! Checksum: LFTGVnTrMJzGRWfIqVXmTw
+! Version: 202506262111
 ! Title: EasyList without element hiding rules
-! Last modified: 26 Jun 2025 21:01 UTC
+! Last modified: 26 Jun 2025 21:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -774,7 +774,7 @@
 ?advertiser_id=$domain=~ads.pinterest.com
 ?cs=*&abt=0&red=1&sm=$third-party
 ?key=*&uuid=$subdocument,third-party
-?service=ad&
+?service=ad&$script
 ?usid=*&utid=
 ?whichAd=freestar&
 ?wppaszoneid=
