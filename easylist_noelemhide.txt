@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5zbFzTzI/Ya5PvzT5fHeHA
-! Version: 202506270031
+! Checksum: 670RGQjbsIfIrL/rX8xY3Q
+! Version: 202506270041
 ! Title: EasyList without element hiding rules
-! Last modified: 27 Jun 2025 00:31 UTC
+! Last modified: 27 Jun 2025 00:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -788,6 +788,10 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
+! Block parked domains. Sometimes it is not immediately obvious that it is dead
+! https://ww7.linkviet.xyz/?usid=23&utid=10895304252
+/?usid=*&utid=$document
 ! strat-talk.com forum and others
 /render-ad.php?ad_id=
 /render-sidebar-ad.php?ad_id=
@@ -13321,6 +13325,7 @@ _800x80_
 ||hardtofind-hell.pro^
 ||haremarianne.com^
 ||haresmodus.com^
+||harlockdazes.top^
 ||harmonious-neck.pro^
 ||harpoonsnits.top^
 ||harpyiajumbled.top^
@@ -17886,6 +17891,7 @@ _800x80_
 ||mericantpastellih.org^
 ||merig.xyz^
 ||meristana.pro^
+||meritsbunn.top^
 ||merterpazar.com^
 ||merzqdnhuli.com^
 ||meshsensorcuriosity.com^
@@ -22791,6 +22797,7 @@ _800x80_
 ||qwikln.com^
 ||qwjxcvdzrafum.club^
 ||qwlbvlyeqlzjb.top^
+||qwlbvlyeqlzmw.top^
 ||qwoyfys.com^
 ||qwpsgqyzrzcr.life^
 ||qwqwthsebfyd.com^
@@ -29454,6 +29461,7 @@ _800x80_
 ||wllebozbzjlbz.top^
 ||wllebozbzjljm.top^
 ||wllebozbzjybk.top^
+||wlmzymwbamkjl.top^
 ||wlrkcefll.com^
 ||wlvkzwqmyjkmw.top^
 ||wlvkzwqmyjwoz.top^
@@ -30238,6 +30246,7 @@ _800x80_
 ||ynrije.com^
 ||yntherplunge.com^
 ||ynurfigldblbt.online^
+||ynwxgebahtckz.space^
 ||yoads.net^
 ||yoc-adserver.com^
 ||yockingdey.shop^
@@ -30659,6 +30668,7 @@ _800x80_
 ||zsjvzsm-s.fun^
 ||zsmsuwmifkrqv.online^
 ||zsozgqchlueqp.world^
+||zspmwnsrxfdk.com^
 ||zsumhsdss.com^
 ||zsxeymv.com^
 ||ztctourupmhin.today^
