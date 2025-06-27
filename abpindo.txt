@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: S2ujB0oU3Ekvn8jUpEO5sw
-! Version: 202506271211
+! Checksum: 6WCb0g+ksdQ3/Jrk/QlJjg
+! Version: 202506271221
 ! Title: ABPindo
-! Last modified: 27 Jun 2025 12:11 UTC
+! Last modified: 27 Jun 2025 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 27 Jun 2025 11:53 UTC
+! Last modified: 27 Jun 2025 12:12 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -1763,6 +1763,7 @@ cnbcindonesia.com##div.undefined
 kompas.com##div:has( > #gpt-passback)
 katadata.co.id##div:has( > [id^="div-gpt-ad"][class^="paralax"])
 wolipop.detik.com##div[data-ads]
+kuyhaa.me##div[data-nosnippet] a[target="_blank"] input[type="image"]
 tokopedia.com##div[data-ssr="findProductSSR"]:has(span[data-testid="lblTopads"])
 tokopedia.com##div[data-ssr="findProductSSR"]:has(span[data-testid="linkProductTopads"])
 tokopedia.com##div[data-testid="CPMWrapper"]
@@ -9273,6 +9274,8 @@ nekopoi.care,nekopoi.lol##div[class^="mobileads"]
 drbokep.*##.loaded.ads-50
 dutasex.*###ads
 igobokep.*###floatbanner-bottom
+kingbokep.*##div.flex.w-full.justify-center.overflow-x-auto
+kingbokep.*##div[style="width:300px;height:250px;z-index:1"]
 komikdewasa.*###teaser3
 komikdewasa.*##.kln
 komikdewasa.*##.teaser4
