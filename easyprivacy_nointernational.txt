@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: VzW41Rha/sXbA1VH3CIiaA
-! Version: 202506270031
+! Checksum: spN1SBNLGIFpSZTqaW6jmA
+! Version: 202506270041
 ! Title: EasyPrivacy without international filters
-! Last modified: 27 Jun 2025 00:31 UTC
+! Last modified: 27 Jun 2025 00:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2865,6 +2865,15 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _WebVitalsReporter_
+! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
+! Tracking on parked domains
+/_static/deliver.js?nonce=$script,~third-party
+/javascripts/browserfp.min.js?templateId=
+/munin/a/ls?t=$xmlhttprequest
+/munin/a/tr/browserjs?domain=
+/sk-park.php?pid=
+/sxp/i/*$script,third-party
+/tc_imp.gif?
 ! https://www.mcclatchy.com/our-impact/markets
 /ng.gif?
 ! Facebook pixels
