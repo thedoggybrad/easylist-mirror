@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f+XMslWb8rhwwyUE2Xsb0Q
-! Version: 202506281011
+! Checksum: ddDbte6Tq4q8lsbGLema/Q
+! Version: 202506281021
 ! Title: ABPindo
-! Last modified: 28 Jun 2025 10:11 UTC
+! Last modified: 28 Jun 2025 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 28 Jun 2025 10:09 UTC
+! Last modified: 28 Jun 2025 10:17 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -894,6 +894,7 @@ kompas.tv###_popIn_recommend_word
 mangacanblog.com###aa
 motorplus-online.com###ad-below-photo-container
 motorplus-online.com###ad-genie-container
+koran-jakarta.com###ad-slot-article
 mirrorkomik.net###adrandpop
 budiarto.id,idxchannel.com###ads
 dapurpacu.com###ads-728
@@ -1328,6 +1329,7 @@ kabar24.com##.bottom-leaderboard-cont
 grid.id##.bottom_banner-wrapper.relative
 cnnindonesia.com##.bottom_banner_bar
 cnnindonesia.com##.bottom_banner_container
+tvrinews.com##.bottom_sticky-ads
 gopego.com##.box
 kapanlagi.com##.box--banner
 beautynesia.id##.box-ads--container
@@ -1449,8 +1451,10 @@ tafsirweb.com##.hot_deals_green
 inibaru.id##.ib_ads_square
 inibaru.id##.ib_ads_sticky
 vnn.co.id##.iklan-bawah-postingan
+koran-jakarta.com##.iklan-for-mobile
 blog.arizman.com##.iklan-kiri-postingan
 katadata.co.id##.iklan-paralax-wrapper
+koran-jakarta.com##.iklan-wrapper
 suki48.web.id##.iklanSUKI
 shinigami09.com##.iklannew-container
 cantika.com##.ikln
@@ -1634,6 +1638,7 @@ detik.com##.staticdetail_container:has(.staticdetail_ads)
 bharian.com.my,hmetro.com.my##.stick-leaderboard-wrapper
 beritasiber.com##.sticky-ads-bottom
 kompas.com##.sticky-ads-close
+100kpj.com##.sticky-bottom
 inews.id##.stickyAds
 medcom.id##.sticky_bottom
 kabargames.id##.stickybanner
