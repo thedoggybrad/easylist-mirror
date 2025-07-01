@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i0qQCzoM+IDwYMrKlJKpxg
-! Version: 202507011951
+! Checksum: RpB68T4gH5qo9NqDXsQHDg
+! Version: 202507012001
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Jul 2025 19:51 UTC
+! Last modified: 01 Jul 2025 20:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1296,6 +1296,7 @@ bankimistnorge.com##.container-right
 bankernorge.com##aside#sidebar
 lav-det-selv.dk##.forum-sidebar .d-none
 scm.dk##.banner-hidden
+seoghoer.dk##div[data-type=ad]
 ! — — — — — — — — —
 ! 🇳🇴：Oppføringer for minst 3 nettsteder
 ! 🇬🇧：Entries for at least 3 websites
@@ -2143,6 +2144,8 @@ tv2.no##.aside > .ad-container
 ##.component__pubble-banner:not(html,body,:empty)
 ! https://www•kanalfrederikshavn•dk/vis/nyhed/oslo-faergernes-skaebne-i-frederikshavn-afgoeres-foerst-efter-sommerferien
 ##.tx-dce-container:not(html,body,:empty)
+! seoghoerDK (01/07/2025)
+##section[data-aller-id^=strossleabb]
 ! — — — — — — —
 ! 🇳🇴：Oppføringer med spesielle omstendigheter
 ! 🇬🇧：Entries with special circumstances
@@ -6460,7 +6463,7 @@ nytid.no,tipsbladet.no#@#div.td-a-rec img
 dn.se##.bad--panorama
 dn.se##.bad--insider-tall
 ! Description: Finnish adblock list
-! Last modified: Sun, 29 Jun 2025 00:45:33 +0300
+! Last modified: Tue, 01 Jul 2025 22:05:10 +0300
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -7547,7 +7550,6 @@ vuodatus.net##.ad300x300
 vuokraovi.com##.service-ad-panel
 webnode.fi##.wnd-free-stripe-link
 wizhdsports.fi##.widget_media_image
-www.io-tech.fi##.artikkeli-slide:has(a[href$="ttps://www.io-tech.fi/artikkelit/terveys-edella-huawei-watch-fit-4-pro/"])
 www.io-tech.fi##.widget.datatronic
 www.nettiauto.com###article_box li:has([id|="almad-post-content"])
 www.nettiauto.com,www.nettikaravaani.com,www.nettikone.com,www.nettimokki.com,www.nettimoto.com,www.nettivaraosa.com,www.nettivene.com###homeBottomBoxBanner
@@ -31435,6 +31437,7 @@ browsershots.org#@#.advert_area
 ||dwydqnclgflug.com^
 ||dwztkzptvisct.site^
 ||dxakvollzguju.tech^
+||dxaobbhcuiech.online^
 ||dxbyvgsd.com^
 ||dxelsudieastk.store^
 ||dxewphcplowwk.site^
