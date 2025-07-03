@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202507032241
+! Version: 202507032309
 ! Title: EasyList
-! Last modified: 03 Jul 2025 22:41 UTC
+! Last modified: 03 Jul 2025 23:09 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -16600,6 +16600,7 @@ browsershots.org#@#.advert_area
 ||abkajbvlykemj.top^
 ||abkajbvlymjma.top^
 ||abkajbvlymjor.top^
+||abkarcomped.top^
 ||abkmbrf.com^
 ||abkoxlikbzs.com^
 ||ablat.site^
@@ -18297,6 +18298,7 @@ browsershots.org#@#.advert_area
 ||aqcutwom.xyz^
 ||aqcwzaossxti.com^
 ||aqcxudtisa.com^
+||aqdbfqsbnwpkb.website^
 ||aqdlwqnlttt.com^
 ||aqgyncebdxmpw.icu^
 ||aqhz.xyz^
@@ -20560,6 +20562,7 @@ browsershots.org#@#.advert_area
 ||cameraunfit.com^
 ||camiocw.com^
 ||camisreed.com^
+||camliveshow.xyz^
 ||cammpaign.com^
 ||camouque.net^
 ||campfirecroutondecorator.com^
@@ -43579,6 +43582,7 @@ browsershots.org#@#.advert_area
 ||c3j7rk-rtbix.top^$document
 ||calcatesituate.top^$document
 ||cam-maus.info^$document
+||camliveshow.xyz^$document
 ||camptrck.com^$document
 ||candyai.love^$document
 ||cautommityring.com^$document
@@ -46413,6 +46417,7 @@ browsershots.org#@#.advert_area
 ||calcatesituate.top^$popup
 ||callyourinformer.com^$popup
 ||calvali.com^$popup
+||camliveshow.xyz^$popup
 ||camptrck.com^$popup
 ||cams.com/go/$popup
 ||candyoffers.com^$popup
@@ -61550,6 +61555,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+sainsburys.co.uk#?#.pt-grid-item:has([data-testid="citrus-label"]:-abp-contains(Sponsored))
 costco.com#?#[data-testid="shoppable-list-container"]:-abp-contains(Spons)
 bayequest.com#?#.elementor-section:-abp-contains(Advertisement)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#[data-product-id]:-abp-contains(Sponsored)
