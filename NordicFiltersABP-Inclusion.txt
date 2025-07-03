@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vDXU/f0sKw6n/PhLD5ReNw
-! Version: 202507031301
+! Checksum: 09yFqayDpba+G1th4vbaKA
+! Version: 202507031311
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 Jul 2025 13:01 UTC
+! Last modified: 03 Jul 2025 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -68711,6 +68711,7 @@ macys.com##li.productThumbnailItem:has(.sponsored-items-label)
 kohls.com##li.products_grid:has(p.piq-sponsored)
 streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
 aboutyou.de##li:has([data-testid="spons"])
+classcentral.com##li:has(iframe[src^="/catalog-iframe?"])
 autotrader.co.uk##li:has(section[data-testid="trader-seller-listing"] > span[data-testid="FEATURED_LISTING"])
 autotrader.co.uk##li:has(section[data-testid="trader-seller-listing"] > span[data-testid="PROMOTED_LISTING"])
 bbc.com##li[class*="-ListItem"]:has(div.dotcom-ad)
@@ -68722,6 +68723,7 @@ zillow.com##li[class^="ListItem-"]:has(#nav-ad-container)
 aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"])
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
+classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.com"]))
 globalchinaev.com##p.content-center:has-text(ADVERTISEMENT)
 sciencenews.org##p:has-text(Sponsor Message)
 provigo.ca#?#.css-1nhzth8:-abp-contains(/sponsorisé|sponsored/)
