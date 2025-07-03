@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kt5rBcy9Ss4mzlxoe/Y/0w
-! Version: 202507031321
+! Checksum: 6xDk+oU8iJGctfHvnF+/NQ
+! Version: 202507031331
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 Jul 2025 13:21 UTC
+! Last modified: 03 Jul 2025 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -67280,6 +67280,7 @@ jeffdornik.com##[data-image-info]
 phoneia.com##[data-index]
 dailymail.co.uk##[data-is-sponsored="true"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
+macys.com##[data-load-beacon*="criteo.com/rm"]
 motor1.com##[data-m1-ad-label]
 cnet.com##[data-meta="placeholder-slot"]
 lightnovelcave.com,lightnovelpub.com##[data-mobid]
@@ -69351,6 +69352,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+costco.com#?#[data-testid="shoppable-list-container"]:-abp-contains(Spons)
 bayequest.com#?#.elementor-section:-abp-contains(Advertisement)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#[data-product-id]:-abp-contains(Sponsored)
 anfieldindex.com#?#aside[data-animation-event]:-abp-contains(PARTNERS)
