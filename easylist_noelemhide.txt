@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ELsRQqrJ1NSQNSuqZm9s1Q
-! Version: 202507061051
+! Checksum: wAFnK5bnBWq8yWw6/NJ2fg
+! Version: 202507061101
 ! Title: EasyList without element hiding rules
-! Last modified: 06 Jul 2025 10:51 UTC
+! Last modified: 06 Jul 2025 11:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -770,6 +770,7 @@
 ://sli.*/imp?s=$image
 ://uads.$third-party,xmlhttprequest
 ?ab=1&zoneid=
+?adl=1*&id=$script,subdocument,~third-party
 ?adspot_$domain=~sponichi.co.jp
 ?advertiser_id=$domain=~ads.pinterest.com
 ?cs=*&abt=0&red=1&sm=$third-party
