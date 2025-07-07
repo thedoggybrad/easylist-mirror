@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2BYLqrlpVClaXHuwSuLcIw
-! Version: 202507070111
+! Checksum: wNBXMYiWFD5xB0gKawniXA
+! Version: 202507070121
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Jul 2025 01:11 UTC
+! Last modified: 07 Jul 2025 01:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1104,7 +1104,7 @@ norges.online###modaladv
 borsen.dk,borsen-dk.translate.goog##div[class*=col]:has(> .native-teaser)
 samferdselinfra.no##.banner-item
 skagafm.dk##.frontbanner
-twe.no##div[class$="=="][style*=margin-bottom]:has([aria-label^="YouTube, "],[aria-label^="TV 2 Play, "],[aria-label^="Movie Netflix -"])
+twe.no##div[class$="=="][style*=margin-bottom]:has([aria-label=YouTube],[aria-label^="TV 2 Play"],[aria-label^="Movie Netflix -"])
 lokalavisen.dk##.custom-annoncer-wrapper
 itavisen.no##article[class*=annonse]
 keldan.is##.x-box-inner > .x-panel-noborder:not(.x-grid-panel)
@@ -6463,7 +6463,6 @@ nytid.no,tipsbladet.no#@#div.td-a-rec img
 dn.se##.bad--panorama
 dn.se##.bad--insider-tall
 ! Description: Finnish adblock list
-! Last modified: Tue, 01 Jul 2025 22:05:10 +0300
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
