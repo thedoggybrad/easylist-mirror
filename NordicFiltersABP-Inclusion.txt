@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fEUvY7EnZMfjE3w1Wf87Pw
-! Version: 202507081341
+! Checksum: lJCF7lQQzssRMfjemc2RFg
+! Version: 202507081351
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 08 Jul 2025 13:41 UTC
+! Last modified: 08 Jul 2025 13:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -69851,6 +69851,7 @@ nytimes.com##[class]:has(> [id="ad-top"])
 thrillist.com##[class^="Container__GridRow-sc-"]:has(> .concert-ad)
 cargurus.com##[class^="_tileFrame_"]:has([data-cg-ft$="-sponsored"])
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
+traderscasa.com##[class^="overlay-"]:has(> .af-both-cont)
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOffers"])
 userstyles.org##[class^="styles-grid_gridItems_"] > .hideInMobile:has(> [class^="GoogleAd_"])
