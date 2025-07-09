@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /wjRYhN7VfMiwTnwr5KNRw
-! Version: 202507090601
+! Checksum: coMnLsGMCt2BOjXHAib5jQ
+! Version: 202507090611
 ! Title: EasyList without rules for adult sites
-! Last modified: 09 Jul 2025 06:01 UTC
+! Last modified: 09 Jul 2025 06:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -22550,6 +22550,7 @@ browsershots.org#@#.advert_area
 ||cwoapffh.com^
 ||cwoonpowxvi.com^
 ||cwpnnceaolies.global^
+||cwqctcmhswrth.online^
 ||cwqktsudigdtq.com^
 ||cwqljsecvr.com^
 ||cwsbrxarjnaav.space^
@@ -34060,6 +34061,7 @@ browsershots.org#@#.advert_area
 ||ojkfmoackqp.com^
 ||ojkopkorzlce.com^
 ||ojoooaogovqbn.top^
+||ojpnkbxxdkoytrd.com^
 ||ojrq.net^
 ||ojsxtysilofk.com^
 ||ojszakvutv.com^
@@ -37809,6 +37811,7 @@ browsershots.org#@#.advert_area
 ||ricoslpcovu.com^
 ||riddedgarle.top^
 ||riddleloud.com^
+||ridiestreallot.top^
 ||ridmilestone.com^
 ||ridxvydxlhiej.online^
 ||riffingwiener.com^
@@ -60341,7 +60344,7 @@ momondo.*##[class$="-result-item-container"]:has([aria-label="Ad disclaimer"])
 momondo.*##[class$="result-item-container"]:has([class$="provider-ad-badge"])
 momondo.*##[class*="mod-pres-default"]:has(div[class*="ad-badge"])
 momondo.*##div[role="button"][tabindex="0"]:has(div.c_3eP-badge-content)
-pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
+pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-1
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-2
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-3
@@ -61725,12 +61728,6 @@ checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 @@||peacocktv.com^$generichide
 @@||photos.google.com^$generichide
 @@||pinterest.com^$generichide
-@@||pinterest.de^$generichide
-@@||pinterest.es^$generichide
-@@||pinterest.fr^$generichide
-@@||pinterest.it^$generichide
-@@||pinterest.jp^$generichide
-@@||pinterest.ph^$generichide
 @@||playcode.io^$generichide
 @@||proton.me^$generichide
 @@||publicwww.com^$generichide
