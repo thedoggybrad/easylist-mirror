@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fPv8XsRKgWp8Wghw005OQg
-! Version: 202507091601
+! Checksum: f/IbhYn6CNNogX4pyyywJg
+! Version: 202507091611
 ! Title: ABPVN List
-! Last modified: 09 Jul 2025 16:01 UTC
+! Last modified: 09 Jul 2025 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 09 Jul 2025 15:07:30 UTC+7
-! Diff-Path: patches/20250709150730772.patch#abpvn
+! Last modified: 09 Jul 2025 23:05:28 UTC+7
+! Diff-Path: patches/20250709230528083.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -297,6 +297,7 @@ $popup,domain=truyenfull.vision
 ||cv.bentsdiorism.com^
 ||delivery.yomedia.vn^
 ||distinctrobin.com^
+||dtadnetwork.com^
 ||fv.togataurnfuls.com^
 ||gammaplatform.com^$third-party
 ||genieesspv.jp^$third-party
@@ -471,6 +472,7 @@ dantri.com.vn###desktop-home-top-page
 dantri.com.vn###mobile-home-middle-1
 dantri.com.vn###mobile-home-middle-2
 dantri.com.vn###mobile-home-top-page
+dantri.com.vn###tpmInpageContainer
 dantri.com.vn##.ads-masthead
 danviet.vn##.bg-gray
 danviet.vn##.sidebar>div[style]
