@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3iql6JeR+92fPYYo8tfqyg
-! Version: 202507100521
+! Checksum: 4c/7J8RgjIAmHT/mrtLAXw
+! Version: 202507100531
 ! Title: EasyList without rules for adult sites
-! Last modified: 10 Jul 2025 05:21 UTC
+! Last modified: 10 Jul 2025 05:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59602,6 +59602,7 @@ igraal.com##[data-ig-ga-cat="Ad"]
 jeffdornik.com##[data-image-info]
 phoneia.com##[data-index]
 dailymail.co.uk##[data-is-sponsored="true"]
+duckduckgo.com##[data-layout$="_ads"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-layout="ad"]
 macys.com##[data-load-beacon*="criteo.com/rm"]
 motor1.com##[data-m1-ad-label]
@@ -62285,6 +62286,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
 @@||tdn.da-services.ch/libs/prebid8.$script,domain=20min.ch
 @@||tenki.jp/storage/static-images/top-ad/
+@@||totalvene.fi/media/yendifvideoshare/adverts/$~third-party
 @@||tpc.googlesyndication.com/archive/$image,subdocument,xmlhttprequest,domain=adstransparency.google.com
 @@||tpc.googlesyndication.com/archive/sadbundle/$image,domain=tpc.googlesyndication.com
 @@||tpc.googlesyndication.com/pagead/js/$domain=googleads.g.doubleclick.net
