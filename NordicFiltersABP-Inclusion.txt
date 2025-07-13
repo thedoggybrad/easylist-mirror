@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: akB8fE2U0rYf69HP7SlOSA
-! Version: 202507130641
+! Checksum: mW7yX7uahTnD7DJGs824FQ
+! Version: 202507130651
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 13 Jul 2025 06:41 UTC
+! Last modified: 13 Jul 2025 06:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -2302,6 +2302,10 @@ sosialurin.fo#@#.ads-banner
 @@://nhn.dk^$~third-party
 ! ★★★ Caused by «AdGuard Cookie Notices filter» ★★★
 @@||glassoginterior.no/css/modules/consent.css^
+! ★★★ 🇳🇴：Forårsaket av «AdGuards spionvarefilter» ★★★
+! ★★★ 🇬🇧：Caused by «AdGuard Tracking Protection Filter» ★★★
+! https://github.com/AdguardTeam/AdguardFilters/issues/209205
+@@||tv2.no/*/snowplow/*$script
 ! 🇳🇴/🇩🇰：Anti-'CPU-massakrering'
 ! 🇮🇸：And-örgjörvislatrun
 ! 🇬🇧：Anti-'CPU slaughtering'
@@ -6570,7 +6574,7 @@ nytid.no,tipsbladet.no#@#div.td-a-rec img
 dn.se##.bad--panorama
 dn.se##.bad--insider-tall
 ! Description: Finnish adblock list
-! Last modified: Tue, 08 Jul 2025 17:14:23 +0300
+! Last modified: Thu, 10 Jul 2025 11:15:26 +0300
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -7103,6 +7107,7 @@ karjalainen.fi##a[href$="ttps://punamustamedia.portal.worldoftulo.com/v2/shop/dt
 karjalainen.fi#?#.breaking-news-container:has-text(mainos:)
 karjalainen.fi#?#.card-container:has-text(Mainos alkaa)
 karjalainen.fi,sammysatv.com##center
+kaukokaipuumatkablogi.net#?#.row-container:has-text(MAINOS)
 kauppalehti.fi###coral-talk + div[class]:has(a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
 kauppalehti.fi##div[class][width]:has(> .ad)
 kauppalehti.fi#?#main:not(> h2:has-text(Kumppanisisältöä)) [class][data-test] ~ div[class]:has(> a[href^="https://www.kauppalehti.fi/kumppanisisallot/"])
@@ -7570,6 +7575,10 @@ tori.fi###footer_partner_links
 tori.fi##div#banner_panorama_topmost
 tori.fi##div#panorama_top
 tori.fi##div#panorama_topmost
+totalvene.fi##.banner-content:has([data-ad-client])
+totalvene.fi##.moduletable:has(.advert)
+totalvene.fi##.videoparaati
+totalvene.fi#?#.banner-group-header:has-text(Mainos)
 traktorpool.fi##.billboard
 treykalenteri.fi##.promotion-image
 ts.fi##.tsv3-c-common-forum-threadviewer__messages__item:has(.smartad)
@@ -7837,6 +7846,7 @@ _300x300_*.mp4$media,domain=futisfani.com|kiekkofani.com|penkkiurheilu.com|uutis
 ||tiketti.fi/tiedostot/*/Tiketti*_Paraati_$image,domain=tiketti.fi
 ||tohtorille.fi/Content/img/op-banners/$image
 ||tori.fi/*banner$domain=moottori.fi
+||totalvene.fi/images/banners/$image,media,domain=totalvene.fi
 ||ts.fi/adframe.js$script,domain=ts.fi
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||vauva.fi/modules/custom/vauva_cts/modules/vauva_cts_native/js/vauva_cts_native.js$script,domain=vauva.fi
@@ -7906,6 +7916,7 @@ murha.info#@#.adsbygoogle
 ||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi|supla.fi
 ||sanoma-prod.integration-x.com^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+/adverts/*.mp4$media,rewrite=abp-resource:blank-mp3,domain=totalvene.fi
 ! appears when blocking ads:
 ||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif
 ruutu.fi##.RuutuPlayer__Error-sc-1o2b3la-0
