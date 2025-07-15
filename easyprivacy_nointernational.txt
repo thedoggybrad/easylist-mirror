@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: T7xh8p5C8rtyZagA7ncErg
-! Version: 202507150341
+! Checksum: s1MXEXKXSj2ALP0zli3xtg
+! Version: 202507150351
 ! Title: EasyPrivacy without international filters
-! Last modified: 15 Jul 2025 03:41 UTC
+! Last modified: 15 Jul 2025 03:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -923,7 +923,7 @@
 /fe_logger?
 /feature/metrics$xmlhttprequest
 /figanalytics-short-ttl.js
-/fingerprint.js
+/fingerprint.js$domain=~github.com
 /fingerprint.min.js
 /fingerprint2.js
 /fingerprint2.min.js
