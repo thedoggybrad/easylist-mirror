@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LUjSugvXG+Vlb6tt3WfSzg
-! Version: 202507152201
+! Checksum: kd7eHzT6wANWs2BVo6eb+Q
+! Version: 202507152211
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 15 Jul 2025 22:01 UTC
+! Last modified: 15 Jul 2025 22:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -72403,6 +72403,7 @@ dotesports.com##.wp-block-gamurs-article-tile:has-text(Sponsored)
 popculture.com##.wp-block-savage-platform-raptive-ad
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 mapquest.co.uk##.z-10.justify-center:has-text(Advertisement)
+priceline.com##[class*="ListingCardWrapper"]:has([class*="PromoText"])
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 petco.com##[class*="atapult-styled"]:has([data-ad-source])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
