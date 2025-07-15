@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hn5KDSM8RnhHWvb4yfN9yg
-! Version: 202507152201
+! Checksum: CU8HyuDb3+10hIR7m0J4qw
+! Version: 202507152211
 ! Title: EasyList without rules for adult sites
-! Last modified: 15 Jul 2025 22:01 UTC
+! Last modified: 15 Jul 2025 22:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -62905,6 +62905,7 @@ dotesports.com##.wp-block-gamurs-article-tile:has-text(Sponsored)
 popculture.com##.wp-block-savage-platform-raptive-ad
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 mapquest.co.uk##.z-10.justify-center:has-text(Advertisement)
+priceline.com##[class*="ListingCardWrapper"]:has([class*="PromoText"])
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 petco.com##[class*="atapult-styled"]:has([data-ad-source])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
