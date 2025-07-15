@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QQhUqtfYnIGUCeO3Ood7RQ
-! Version: 202507150531
+! Checksum: Mj2ybPQicQaLOcMtMTj9qQ
+! Version: 202507150541
 ! Title: EasyList without rules for adult sites
-! Last modified: 15 Jul 2025 05:31 UTC
+! Last modified: 15 Jul 2025 05:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -194,7 +194,6 @@
 /ads/index/*$~xmlhttprequest,domain=~kuchechina.com
 /ads/leaderboard-$~xmlhttprequest
 /ads/rectangle_$subdocument
-/ads/revgen.$script
 /ads/serve?$script
 /ads/show.$script
 /ads/slideup.$script
@@ -52907,6 +52906,7 @@ browsershots.org#@#.advert_area
 ||criteo.net/design/
 ||crunchyroll.com/awidget/
 ||cse.google.com/cse_v2/ads$subdocument
+||ctent.povvverz.one^
 ||cts.tradepub.com^
 ||customer.heartinternet.co.uk^$third-party
 ||cxad.cxense.com^
