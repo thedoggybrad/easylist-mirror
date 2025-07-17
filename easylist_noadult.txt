@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xaP/1ZTuc6J98RVls7Gt6A
-! Version: 202507171351
+! Checksum: 4ysBMSXy2sAsz58EepBBjw
+! Version: 202507171401
 ! Title: EasyList without rules for adult sites
-! Last modified: 17 Jul 2025 13:51 UTC
+! Last modified: 17 Jul 2025 14:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -52630,7 +52630,7 @@ ip-tracker.org###rekl
 tapatalk.com###relatedblogbar
 plurk.com###resp_banner_ads
 immoweb.be###result-list-header
-homedepot.com###revjet_container
+homedepot.com,nordstrom.com###revjet_container
 10minutemail.net,eel.surf7.net.my###right
 msguides.com###right-bottom-camp
 comicbookrealm.com###right-rail > .module
@@ -57344,6 +57344,7 @@ romhustler.org##[class^="leaderboard_ad"]
 filmibeat.com##[class^="oiad"]
 nofilmschool.com##[class^="rblad-nfs_content"]
 nagpurtoday.in##[class^="sgpb-"]
+bestbuy.ca##[class^="sponsoredProdBoxGridArea"]
 cmswire.com##[class^="styles_ad-block"]
 cmswire.com##[class^="styles_article__text-ad"]
 cmswire.com##[class^="styles_article__top-ad-wrapper"]
@@ -58561,6 +58562,7 @@ homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
 haveibeenpwned.com##.card-glow:has-text(Sponsored)
 bws.com.au##.card-list-item:has(.productTile.is-Sponsored)
 truecar.com##.card:has([href*="marketplace&sponsored"])
+bloomingdales.com##.carousel-container:has(.header-sponsored-label)
 doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
 doordash.com##.ccdtLs:has([data-testid="sponsored:Sponsored"])
 dexscreener.com##.chakra-link:has-text(Advertise)
