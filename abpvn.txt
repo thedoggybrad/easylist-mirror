@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZhtQ/MVQqQhjn7wX9hrC3g
-! Version: 202507181601
+! Checksum: IiirYCGt6RkYNw8MCKkhvg
+! Version: 202507181611
 ! Title: ABPVN List
-! Last modified: 18 Jul 2025 16:01 UTC
+! Last modified: 18 Jul 2025 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 18 Jul 2025 18:05:34 UTC+7
-! Diff-Path: patches/20250718180534958.patch#abpvn
+! Last modified: 18 Jul 2025 23:07:41 UTC+7
+! Diff-Path: patches/20250718230741255.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -670,6 +670,10 @@ phim18vl.net###quang-cao
 phim18vl.net,hhpanda.win,hhanime3d.org###footer_fixed_ads
 phim18vl.net,vutruphim.tv,phimmoi.hot##.float-ck-center-lt
 phimbet.biz###banner
+phimchautinhtri.net##.ban-top-left-host
+phimchautinhtri.net##.ban-top-right-host
+phimchautinhtri.net##[href="https://snapback.vn/"]
+phimchautinhtri.net##[href^="https://s.shopee.vn/"]
 phimdacap.tv###ads-popup
 phimhaytv.biz##.navbar-container + .container
 phimmoichill.day###pm_quangcao
