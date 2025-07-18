@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rRAxMDPGFSwUQcQrtkDa+w
-! Version: 202507181231
+! Checksum: NH4Z2yZiZAxqxQhsQTnhMw
+! Version: 202507181251
 ! Title: ABPindo
-! Last modified: 18 Jul 2025 12:31 UTC
+! Last modified: 18 Jul 2025 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 15 Jul 2025 11:20 UTC
+! Last modified: 18 Jul 2025 12:42 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -623,6 +623,8 @@ oomph.co.id#@#.shareit
 ###popupklanfooter
 ###r_iklan
 ###rebahin-banner
+###sidebar-banner-160x600-kanan
+###sidebar-banner-160x600-kiri
 ###sticky-iklan
 ###tupiklan
 ##.SectionAds
@@ -631,6 +633,9 @@ oomph.co.id#@#.shareit
 ##.adBar-vertical
 ##.adBar-vertical.left
 ##.adBar-vertical.right
+##.ads--stick-parent-250px.clearfix.mt3.ads
+##.ads--stick-parent-300px.clearfix.mt3.ads
+##.ads--stick-parent.clearfix.mt3.ads
 ##.ads-50
 ##.ads-atas
 ##.ads-atas-player
@@ -648,6 +653,7 @@ oomph.co.id#@#.shareit
 ##.ads-sticky-kiri
 ##.ads-widget-kanan
 ##.ads-widget-kecil
+##.ads72890.banner
 ##.adsatas
 ##.adsatas1
 ##.adsatas2
@@ -686,6 +692,7 @@ oomph.co.id#@#.shareit
 ##.ane-iklan-longbanner-header
 ##.area-iklan-atas
 ##.areaiklan
+##.article-adv
 ##.banner-atas
 ##.banner-iklan
 ##.banner-iklan-rmid
@@ -873,6 +880,8 @@ oomph.co.id#@#.shareit
 ##.sticky-ad-atas
 ##.sticky-ad-bawah
 ##.sticky-adku
+##.sticky-ads-left
+##.sticky-ads-right
 ##.subiklan
 ##.topads-kanan
 ##.warning_iklan
