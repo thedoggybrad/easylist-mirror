@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6PlZrmzQb3yAC8o40M8PoA
-! Version: 202507190631
+! Checksum: kWdDg2UaR4qBQAbxGvwmrw
+! Version: 202507190641
 ! Title: ABPVN List
-! Last modified: 19 Jul 2025 06:31 UTC
+! Last modified: 19 Jul 2025 06:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 18 Jul 2025 23:07:41 UTC+7
-! Diff-Path: patches/20250718230741255.patch#abpvn
+! Last modified: 19 Jul 2025 13:35:40 UTC+7
+! Diff-Path: patches/20250719133540331.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -125,6 +125,7 @@ $popup,domain=truyenfull.vision
 ||hhkungfu.club/baner-6686$image
 ||hhpanda.win/ads/$script,~third-party
 ||hinhso.com^$domain=diendanmaychu.vn,image
+||hongbiennhanh24h.online/wp-content/themes/flatsome-child/assets/js/main.js$script,~third-party
 ||hsctvn.com/uploads/products/$~third-party,image
 ||huongdanjava.com$csp=script-src data: 'self' 'unsafe-inline' http: https:
 ||i.ex-cdn.com/nhadautu.vn/files/qc/$domain=nhadautu.vn
