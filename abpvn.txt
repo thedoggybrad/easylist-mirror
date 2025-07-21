@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ypV+S6phylkyPZMwCkNVgg
-! Version: 202507210621
+! Checksum: 5REvH8JKCUy7lQEiwXiZ1w
+! Version: 202507210631
 ! Title: ABPVN List
-! Last modified: 21 Jul 2025 06:21 UTC
+! Last modified: 21 Jul 2025 06:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 21 Jul 2025 09:12:36 UTC+7
-! Diff-Path: patches/20250721091235974.patch#abpvn
+! Last modified: 21 Jul 2025 13:27:17 UTC+7
+! Diff-Path: patches/20250721132717617.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -235,7 +235,7 @@ $popup,domain=truyenfull.vision
 ||tuviso.com/public/media//banner/
 ||tuyensinh247.com/$image,third-party
 ||tuyensinhso.vn/images/banners/*.gif$image,~third-party
-||tvhay.fm^*popup$script,~third-party
+||tvhay.io^*popup$script,~third-party
 ||tvphim.pe/ads/popup$script,~third-party
 ||tvzinghd.co/wp-content/themes/zingtv/js/qci9bc.js$script,~third-party
 ||ungtycomicshay.com$csp=script-src self * data:* 'unsafe-inline'
@@ -1089,7 +1089,7 @@ phim18hdxx.com##.under-player-pc-banner
 phim18vip.vip,pheclip.pro###pc-preload-modal
 phim18vip.vip,pheclip.pro##.quang-cao
 phim18vip.vip,sieudam.baby###popup
-phimsex49.pro,phimsex12x.pro##.quangcaomobile
+phimsex50.pro,phimsex12x.pro##.quangcaomobile
 phimsexvl69.net,quat69.pro,trangsexdam.net,vlxx.rip,sexsoc.info###f186fb23a33995d91ce3c2212189178c8
 phimxxx.ai###adsbottom
 phym18.lol##.black-layout>div:nth-child(2)
