@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vKTPcya55F0cmJLd87i8XA
-! Version: 202507230021
+! Checksum: RPyarLeigON15S+B/2LDfw
+! Version: 202507230031
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 23 Jul 2025 00:21 UTC
+! Last modified: 23 Jul 2025 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -62919,6 +62919,7 @@ $csp=script-src 'self' data: blob: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval'
 .com./$popup,domain=pornhub.com
 |http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
 ||boyfriendtv.com/out/bg-$popup
+||chaturbate.com^$popup,domain=xxxbios.com
 ||clicknplay.to/api/$popup
 ||icepbns.com^$popup,domain=iceporn.com
 ||livejasmin.com/pu/$popup
@@ -69656,7 +69657,11 @@ unb.com.bd##img[style^="width:700px; height:70px;"]
 abpclub.co.uk##img[width="118"]
 lyngsat-logo.com,lyngsat-maps.com,lyngsat-stream.com,lyngsat.com,webhostingtalk.com##img[width="160"]
 fashionpulis.com,swagger.io,techiecorner.com##img[width="250"]
+lowendtalk.com##img[width="258"][height="250"]
+lowendtalk.com##img[width="258"][height="70"]
 airplaydirect.com,bigeye.ug,completesports.com,cryptoreporter.info,espnrichmond.com,financialmirror.com,flsentinel.com,forexmt4indicators.com,freedomhacker.net,gamblingnewsmagazine.com,gameplayinside.com,goodcarbadcar.net,kenyabuzz.com,kiwiblog.co.nz,linuxhostsupport.com,mauitime.com,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,newzimbabwe.com,oann.com,onislandtimes.com,ouo.press,portlandphoenix.me,punchng.com,robhasawebsite.com,sacobserver.com,sdvoice.info,seguintoday.com,themediaonline.co.za,theolivepress.es,therep.co.za,tntribune.com,up-4ever.net,waamradio.com,wantedinafrica.com,wantedinrome.com,wschronicle.com##img[width="300"]
+lowendbox.com##img[width="300"][height="250"]
+lowendbox.com##img[width="300"][height="70"]
 boxthislap.org,unknowncheats.me##img[width="300px"]
 independent.co.ug##img[width="320"]
 gamblingnewsmagazine.com##img[width="365"]
