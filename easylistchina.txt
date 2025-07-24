@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2g+cJdKIEUEpmbVZ8aYdyA
-! Version: 202507240641
+! Checksum: PGkaG0uZxFhPUJfumG9xeA
+! Version: 202507240651
 ! Title: EasyList China
-! Last modified: 24 Jul 2025 06:41 UTC
+! Last modified: 24 Jul 2025 06:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1754,6 +1754,7 @@ newduba.cn###jq_youxi
 ||wgceetonr.com^
 ||auy07240km.com^
 ||d9q4aa05g4.com^
+##a[href*="/hs63.cc"]
 ||op9dbh1i0.com^
 ||1kb4atu6x.com^
 ||eiyu7532.xyz^
@@ -10140,6 +10141,7 @@ meijutt.*/js/pcjs/
 ||v2ex.com/pro/emitter
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+mydrivers.com##div[style="margin: auto;width: 580px;padding: 10px 0;"]
 docin.com##.mini-series-container
 5dm.link###player_pause
 1lou.me,1lou.one,1lou.pro###advert > :not(.card)
