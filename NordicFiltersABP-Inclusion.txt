@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 73RiP3/VrBJqnvovp5W03Q
-! Version: 202507262011
+! Checksum: vTKw0oiGa+x/k5V0aOvYrw
+! Version: 202507262021
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 26 Jul 2025 20:11 UTC
+! Last modified: 26 Jul 2025 20:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -3379,11 +3379,10 @@ triplx.dk##.aff-inner-col
 ||xss.my.id^$third-party
 ||85.159.213.158^
 ||85.159.213.158^$popup
-! On a lot of parked domains
-||astarsbuilding.com^$third-party
-|http://*/munin/a/$xmlhttprequest,~third-party
-://185.53.177.52^
-://185.53.177.52^$popup
+||nestnose.com^
+||nestnose.com^$popup
+||inquisitivebed.info^
+||inquisitivebed.info^$popup
 ! 🇳🇴：E-post-spammere (Falsk DHP, osv.)
 ! 🇬🇧：E-mail spammers (Fake DHP, etc.)
 ||wirexapp.africa.com^
@@ -6575,7 +6574,7 @@ nytid.no,tipsbladet.no#@#div.td-a-rec img
 dn.se##.bad--panorama
 dn.se##.bad--insider-tall
 ! Description: Finnish adblock list
-! Last modified: Thu, 24 Jul 2025 20:57:13 +0300
+! Last modified: Sat, 26 Jul 2025 13:49:49 +0300
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -7381,6 +7380,8 @@ pointti.fi##.jattiboksi
 pointti.fi##.natiivimainos
 pointti.fi##.paraati
 polttoaine.net##[href$="ttp://www.vertaa.fi/lentoliput/"]
+positv.fi##.ptads-article
+positv.fi##[class|="ads-section"]
 pottupellossa.fi##.widget_media_image > a[href$="ttp://dimex.fi"]
 pottupellossa.fi#?#.widget_text:has-text(Mainos)
 projektiuutiset.fi##.article-widgets:has(a[href^="https://projektiuutiset.fi/kaupallinen-yhteistyo"])
@@ -29183,6 +29184,7 @@ browsershots.org#@#.advert_area
 ||censusmarrydespair.com^
 ||centalsindustrate.org^
 ||centlyhavebed.com^
+||centorainbow.rest^
 ||centralnervous.net^
 ||centreoverpet.top^
 ||centumshough.com^
@@ -35071,6 +35073,7 @@ browsershots.org#@#.advert_area
 ||graivampouth.net^
 ||graizashiphaul.net^
 ||graizoah.com^
+||graksecmee.net^
 ||grallichalvas.com^
 ||gralossortoob.net^
 ||gramb.site^
@@ -37662,6 +37665,7 @@ browsershots.org#@#.advert_area
 ||joinpropeller.com^
 ||jolecyclist.com^
 ||jollilygranose.top^
+||jollitysouple.digital^
 ||joluw.net^
 ||jooerbnhbexsu.space^
 ||joofoushipsuny.net^
@@ -38300,6 +38304,7 @@ browsershots.org#@#.advert_area
 ||klzoyvykizjye.store^
 ||km-kryxqvt.site^
 ||kmbjerbaafdn.global^
+||kmdlkanc.com^
 ||kmfkiwghhe.xyz^
 ||kmggmylakjko.top^
 ||kmjettvuhwhad.com^
@@ -39638,6 +39643,7 @@ browsershots.org#@#.advert_area
 ||lvbeybbrwlamk.top^
 ||lvbeybbrwlawr.top^
 ||lvbeybbrwvywq.top^
+||lvfgmuaroloxd.online^
 ||lvgiwnjnnufb.com^
 ||lvgmmwjmvmkjz.top^
 ||lvihawwxrn.com^
@@ -40351,6 +40357,7 @@ browsershots.org#@#.advert_area
 ||mhjpxihovyjwti.com^
 ||mhlezkarznvwe.site^
 ||mhojhjsgzcwmft.com^
+||mhosspawny.shop^
 ||mhusnegshd.xyz^
 ||mhvllvgrefplg.com^
 ||mhyacjinulgvu.store^
@@ -48146,6 +48153,7 @@ browsershots.org#@#.advert_area
 ||spadsync.com^
 ||spaitlitter.shop^
 ||spamimpunity.com^
+||spanemymop.rest^
 ||spanielunvest.top^
 ||spareforads.top^
 ||sparkleunwelcomepleased.com^
