@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YZi2wLut2cCfmed6i7P+GA
-! Version: 202507301351
+! Checksum: AW3G4BPaF3mM/3qSbAb1pQ
+! Version: 202507301401
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 30 Jul 2025 13:51 UTC
+! Last modified: 30 Jul 2025 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -74923,7 +74923,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(data:)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
 ! ABP CSS injection filters
-hitomi.la##.top-content > div[class]:not(.list-title) {min-height: 45px !important;}
+hitomi.la##.content > div[class]:not([class*="-"]) {min-height:45px !important;}
+hitomi.la##.top-content > div[class]:not([class*="-"]) {min-height:45px !important;}
 otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-post-details-full) {remove:true;}
 ! 69games.xxx/gamcore/porcore.com
 classic.gamcore.com###center > .flashes > .wide:has(> a[href][rel])
