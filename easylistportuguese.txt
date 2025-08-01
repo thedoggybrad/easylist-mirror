@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7zujZ1jnWsSlyoL4Xhu1Uw
-! Version: 202508011251
+! Checksum: 9RMHVupx8SkDz6X7gdnvuA
+! Version: 202508011302
 ! Title: EasyList Portuguese
-! Last modified: 01 Aug 2025 12:51 UTC
+! Last modified: 01 Aug 2025 13:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1257,6 +1257,7 @@ reclameaqui.com.br##div[class^="go"]:has( > div > div[id^="div-gpt-ad"])
 mercadolivre.com.br##li.ui-search-layout__item:has(div.ui-search-item__pub-container)
 mundi.com.br#?#[class*="pres-default"]:-abp-contains(Ad)
 noticiasaominuto.com#?#.article-thumb.cursor-pointer:has(.nm-custom-label-sponsor)
+mundi.com.br#?##resultWrapper [role="group"]:-abp-contains(Anúncio)
 standvirtual.com#?#[data-testid="search-results"] article[data-orientation="horizontal"]:-abp-contains(Promovido)
 standvirtual.com#?#article[data-id]:-abp-contains(Destacado)
 ! Advanced element hiding rules for Adblock Plus
