@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HhMs9Rc5Yy/lLOKpKd/FkA
-! Version: 202508010031
+! Checksum: 4g/cjA7vST1lw4z6kNzxJg
+! Version: 202508010041
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Aug 2025 00:31 UTC
+! Last modified: 01 Aug 2025 00:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -72985,6 +72985,7 @@ pixiv.net##.list-none:has(> div > [id^="adsdk"])
 pcgamer.com##.listingResult:has(> .sponsored-post)
 euronews.com##.m-object:has(.m-object__spons-quote)
 justetf.com##.m-sep-l:has(#partnerNewsBox)
+docs.openwebui.com##.markdown > .w-full:has-text(Sponsored)
 acmemarkets.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-api*="search/sponsored-carousel"])
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-driven="sponsored-products"])
 songbpm.com##.mb-6:has(> section > div[id^="ad--searches"])
@@ -72998,6 +72999,7 @@ officedepot.com##.od-col:has(.od-product-card-region-colors-sponsored)
 pollunit.com##.owl-carousel:has(.carousel-ad)
 nicomanga.com##.owl-stage > .owl-item:has([title="ADS Support"])
 property24.com##.p24_tileContainer:has([src^="/Content/images/Optimized/Icons/icon_tag_tile.svg?"])
+docs.openwebui.com##.pb-4 > .mb-2:has-text(Sponsored)
 andronicos.com,haggen.com,randalls.com##.pc-grid-prdItem:has(span[data-qa="prd-itm-spnsrd"])
 sainsburys.co.uk##.pd-merchandising-product:has(.product-header--citrus[data-testid="product-header"])
 hannaford.com##.plp_thumb_wrap:has([data-citrusadimpressionid])
