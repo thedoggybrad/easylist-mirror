@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Eyw7ijWfj8E8gH7YiNtDTQ
-! Version: 202508061251
+! Checksum: CuRbdSh0SPzQ/El1vU5izw
+! Version: 202508061301
 ! Title: ABPindo
-! Last modified: 06 Aug 2025 12:51 UTC
+! Last modified: 06 Aug 2025 13:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 04 Aug 2025 07:31 UTC
+! Last modified: 06 Aug 2025 12:58 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -256,7 +256,7 @@
 _iklan-|$image
 _iklan_|$image
 ! *** abpindo:src/advert/specific_block.txt ***
-.gif$image,domain=149.56.24.226|15.235.11.45|baladfilm.*|baladfilm.guru|bgibola.com|bioskopkerenin.org|hrv.okestream365.xyz|kiryuu.org|komikcast.*|lk21official.biz|lk21official.live|lk21official.org|mangakita.id|movieajip.online|movieku.fit|nomat.top|nontondrama.*|nontonfilmgratis.club|okestream.us|okestreamtv.com|oploverz.*|oploverz.best|oploverz.love|shinigami09.com
+.gif$image,domain=149.56.24.226|15.235.11.45|anichin.watch|baladfilm.*|baladfilm.guru|bgibola.com|bioskopkerenin.org|hrv.okestream365.xyz|kiryuu.org|komikcast.*|lk21official.biz|lk21official.live|lk21official.org|mangakita.id|movieajip.online|movieku.fit|nomat.top|nontondrama.*|nontonfilmgratis.club|okestream.us|okestreamtv.com|oploverz.*|oploverz.best|oploverz.love|shinigami09.com
 .gif^$image,domain=maroonbellsmorris.org
 /gif-*.webm^$image,domain=maroonbellsmorris.org
 ||109.234.34.246/wp-content/uploads/*.gif$image,~third-party
@@ -449,6 +449,7 @@ moutogami.com##+js(aeld, load, /adblock/i)
 kompas.com##+js(aeld, scroll, kgSticky)
 juraganfilm.ink##+js(aopr, $.magnificPopup.open)
 3gpterbaru.com##+js(aopr, LieDetector)
+sk21.sob4t.xyz##+js(aopr, popup_custom_data)
 cloud.majalahhewan.com,info.mapsaddress.com,info.vebma.com,jenismac.com##+js(nano-sib)
 mudah.my##+js(no-fetch-if, ads.google.com)
 cloud.majalahhewan.com,info.mapsaddress.com,info.vebma.com,thejakartapost.com,tutorialsaya.com##+js(no-fetch-if, adsbygoogle)
@@ -1989,8 +1990,11 @@ fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com###IDN_Sticky
 idntimes.com###ads-infeed
 layarkaca21ok.site###banner-popup
 62.84.103.231###floatbanner-bottom
+nobartv.cc,tvbersama.cc###floatcenter
 tv.rebahinxxi1.xyz###floating-banner
 manhwaindo.com###kln-block
+ladiestory.id###modalBanner
+nabire.net,sandeq.co.id,sk21.sob4t.xyz,suarapubliknews.net###ouibounce-modal
 doroni.me##.Content__banner-image
 bharian.com.my,hmetro.com.my##.ad
 kinitv.com##.bg-gray-100:has(.adunitContainer)
@@ -2013,7 +2017,13 @@ fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-q4xr4i
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com##.css-t1oq30
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-urr7k6
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-y6gr35
+ulasan.co##.inner-floatleft
+ulasan.co##.inner-floatright
 wowkeren.com##.ne-banner-layout1
+papuatoday.com,sattorrent.com##.sgpb-popup-dialog-main-div-wrapper
+papuatoday.com,sattorrent.com##.sgpb-popup-overlay
+ulasan.co##.text-center.gmr-topbanner
+ulasan.co##.text-center.gmr-verytopbanner
 idntimes.com##.wrapper-megabillboard
 astroawani.com##[class^="Advertisement_ads_container"]
 idntimes.com,yummy.co.id##[id^="IDN_Billboard"]
@@ -2034,6 +2044,8 @@ okestream.*##.streamad
 okestream.*##[href="https://angk.at/"]
 okestream.*##[href="https://heylink.me/"]
 okestream.*##[href="https://jaga.link/"]
+terbit21.*###float-banner
+terbit21.*###float-bottom-banner
 ! MNC Networks
 sindonews.com##.adsload
 okezone.com##.title-ads
@@ -5733,6 +5745,7 @@ totojitu.gif|$image
 ##[href^="https://playbook88hoki.com/"]
 ##[href^="https://ramaibola.com/"]
 ##[href^="https://rebrand.ly/adsgacor1"]
+##[href^="https://satsport.com"]
 ##[href^="https://slotguru88gandul.com/register"]
 ##[href^="https://sub2.lapakbuah.site/"]
 ##[href^="https://sub6.kaya303.net/"]
