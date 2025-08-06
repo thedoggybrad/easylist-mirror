@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0VzQHnkRwyywblcRlctdkQ
-! Version: 202508060031
+! Checksum: 4me5nInOsXjRzAH/te55hw
+! Version: 202508060041
 ! Title: EasyPrivacy without international filters
-! Last modified: 06 Aug 2025 00:31 UTC
+! Last modified: 06 Aug 2025 00:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -777,6 +777,7 @@
 /dmp/pixel.js
 /dmu2panalytics/ajax_call.php?
 /dnx-event-collector/*
+/dnxcheck/fing.js
 /doctracking.js
 /dolWebAnalytics.js
 /dom-event-tracker.min.js
@@ -3534,6 +3535,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn-channels-pixel.ex.co^
 ||cdn-ds.com/analytics/
 ||cdn-eu.usefathom.com^
+||cdn.app.cfigroup.com/webmon/$script
 ||cdn.clkmc.com/cmc.js
 ||cdn.cuty.io/fps.js
 ||cdn.debugbear.com^$third-party
