@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9D7GyY6pvOI1vzwFxwr3/w
-! Version: 202508080001
+! Checksum: RuKy+E+UfGEVyY0NDwAVkw
+! Version: 202508080011
 ! Title: EasyList without rules for adult sites
-! Last modified: 08 Aug 2025 00:01 UTC
+! Last modified: 08 Aug 2025 00:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -65731,6 +65731,7 @@ hackernoon.com##.articles-wrapper > div:not([class]):has(a[href^="https://ad.dou
 blitz.gg##.aside-content-column:has(.display-ad)
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,theintelligencer.com##.b-gray300:has-text(Advertisement)
 olympics.com##.b2p-list__item:has(> .adv-fluid)
+bjs.com##.banner-cta-wrap:has([src="//retailmedia-static.criteo.com/"])
 beincrypto.com##.before-author-block-bio:has-text(Sponsored)
 outsports.com##.bg-gray-100:has(.adb-os-lb-incontent)
 dropstab.com##.bg-slate-100:has-text(Ad)
@@ -66025,7 +66026,7 @@ walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
 kohls.com##li.products_grid:has(p.piq-sponsored)
 streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
-sameday.costco.com##li:has([aria-label="Product"] sp-tag)
+sameday.costco.com##li:has([aria-label="Product"] [data-dfp-eligible])
 aboutyou.de##li:has([data-testid="spons"])
 classcentral.com##li:has(iframe[src^="/catalog-iframe?"])
 autotrader.co.uk##li:has(section[data-testid="trader-seller-listing"] > span[data-testid="FEATURED_LISTING"])
