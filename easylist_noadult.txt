@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k05o17dDKQcHE1Z/aPupGg
-! Version: 202508080651
+! Checksum: j4D5JYN2T2zCoM0LuL58Jw
+! Version: 202508080701
 ! Title: EasyList without rules for adult sites
-! Last modified: 08 Aug 2025 06:51 UTC
+! Last modified: 08 Aug 2025 07:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -810,13 +810,13 @@ _reklama_$domain=~youtube.com
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
 ://loader.*.com/loader.min.js|$script,~third-party
-://www.*.com/article/*/-1/$script,subdocument,third-party,xmlhttprequest
-://www.*.com/article/*/a/$subdocument,third-party,domain=~edu|~gov
+://www.*.com/players/*/-1/$script,subdocument,third-party,xmlhttprequest
+://www.*.com/players/*/a/$subdocument,third-party,domain=~edu|~gov
 ://www.*.com/script/*.com.js|$script,third-party
 ://www.*.com/script/*.org.js|$script,third-party
-://www.*.xyz/article/*/-1/$script,subdocument,third-party,xmlhttprequest
-://www.*.xyz/article/*/a/$subdocument,third-party
-://www.*.xyz/article/*?h=$script,third-party
+://www.*.xyz/players/*/-1/$script,subdocument,third-party,xmlhttprequest
+://www.*.xyz/players/*/a/$subdocument,third-party
+://www.*.xyz/players/*?h=$script,third-party
 ://www.*.xyz/script/*.com.js|$script,third-party
 wss://www.*.xyz/ws^$third-party
 ! https://github.com/easylist/easylist/issues/11123
