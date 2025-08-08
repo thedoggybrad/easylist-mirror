@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EhBrO3DEVdPOaFqt/d+p7w
-! Version: 202508081051
+! Checksum: /a7HFGzh/Ypgb8GhqqV5nw
+! Version: 202508081111
 ! Title: EasyList without rules for adult sites
-! Last modified: 08 Aug 2025 10:51 UTC
+! Last modified: 08 Aug 2025 11:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -810,6 +810,8 @@ _reklama_$domain=~youtube.com
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
 ://loader.*.com/loader.min.js|$script,~third-party
+://www.*.com/*/-1/327/$script,subdocument,third-party,xmlhttprequest
+://www.*.com/*/-1/70/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/a/$subdocument,third-party,domain=~edu|~gov
 ://www.*.com/script/*.com.js|$script,third-party
