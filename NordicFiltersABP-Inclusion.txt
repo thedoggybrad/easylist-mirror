@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QPZ9yYTetONJuuPXyQlWHw
-! Version: 202508092241
+! Checksum: zS+Zyqgydu+fkk+bcLxD1g
+! Version: 202508092251
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Aug 2025 22:41 UTC
+! Last modified: 09 Aug 2025 22:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -2987,14 +2987,11 @@ triplx.dk##.aff-inner-col
 ||no-updater.live^$popup
 ||start-myaltinn.com^
 ||start-myaltinn.com^$popup
-||no-forny*
-||no-forny*$popup
-||my-altinn*
-||my-altinn*$popup
+||no-forny*$all,domain=~no
+||my-altinn*$all,domain=~no
 ||no-oppdatere.
 ||no-oppdatere.$popup
-||no-oppdatert.
-||no-oppdatert.$popup
+||no-oppdatert.$all,domain=~no
 ://179.43.189.62^
 ://179.43.189.62^$popup
 ! https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-7694946
@@ -3416,34 +3413,32 @@ triplx.dk##.aff-inner-col
 ! https://www•tv2•no/nyheter/forbruker/tenkte-shit-na-har-jeg-blitt-lurt/17474448/
 ||takstskolen.no^
 ! https://www•tv2•no/nyheter/innenriks/slar-svindelalarm-trykker-pa-de-riktige-knappene/17975382/
-||minid-portalen.
-||minid-portalen.$popup
-||idportal.vercel.app^
-||idportal.vercel.app^$popup
-||kredinor-portal.
-||kredinor-portal.$popup
-||minskat-no.com^
-||minskat-no.com^$popup
-||myskatteetaten.
-||myskatteetaten.$popup
-||nav-innlogging-portal.
-||nav-innlogging-portal.$popup
-||norwegianautopaskonto.
-||norwegianautopaskonto.$popup
-||noskatteetaten.
-||noskatteetaten.$popup
-||nyskatteetaten.
-||nyskatteetaten.$popup
-||skatteetateneu.
-||skatteetateneu.$popup
-||skatteetatenno.
-||skatteetatenno.$popup
-||skatteetatenof.
-||skatteetatenof.$popup
-||skatteetatentax.
-||skatteetatentax.$popup
-||skattrefusjono.
-||skattrefusjono.$popup
+||minid-portalen.$domain=~no
+||minid-portalen.$popup,domain=~no
+||idportal.vercel.app^$all,domain=~bankid_svindlere
+||kredinor-portal.$domain=~no
+||kredinor-portal.$popup,domain=~no
+||minskat-no.com^$all,domain=~bankid_svindlere
+||myskatteetaten.$domain=~no
+||myskatteetaten.$popup,domain=~no
+||nav-innlogging-portal.$domain=~no
+||nav-innlogging-portal.$popup,domain=~no
+||norwegianautopaskonto.$domain=~no
+||norwegianautopaskonto.$popup,domain=~no
+||noskatteetaten.$domain=~no
+||noskatteetaten.$popup,domain=~no
+||nyskatteetaten.$domain=~no
+||nyskatteetaten.$popup,domain=~no
+||skatteetateneu.$domain=~no
+||skatteetateneu.$popup,domain=~no
+||skatteetatenno.$domain=~no
+||skatteetatenno.$popup,domain=~no
+||skatteetatenof.$domain=~no
+||skatteetatenof.$popup,domain=~no
+||skatteetatentax.$domain=~no
+||skatteetatentax.$popup,domain=~no
+||skattrefusjono.$domain=~no
+||skattrefusjono.$popup,domain=~no
 ||updatesysteme.com^
 ||updatesysteme.com^$popup
 ||wpenginepowered.com/refusjon*
@@ -27782,6 +27777,7 @@ browsershots.org#@#.advert_area
 ||bbpbvyoziujgg.online^
 ||bbrdbr.com^
 ||bbsqyhfr.com^
+||bbztmceiyhybz.space^
 ||bc48fa9adc.com^
 ||bca10c62ca.com^
 ||bcafchldfejnd.online^
@@ -35126,6 +35122,7 @@ browsershots.org#@#.advert_area
 ||fnyfiexpectth.org^
 ||fnypcuvgop.xyz^
 ||foaglaid.xyz^
+||foalslunk.click^
 ||foalwaltzer.top^
 ||foamingamobyr.rest^
 ||foamougruchaiwo.net^
@@ -35235,6 +35232,7 @@ browsershots.org#@#.advert_area
 ||forgetfulspidersantiquity.com^
 ||forgetruchbah.cyou^
 ||forgoartudre.com^
+||forgoerashler.world^
 ||forhowvelleda.com^
 ||forlumineoner.com^
 ||formalcrock.digital^
