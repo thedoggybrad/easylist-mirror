@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Uw2q6n6rCncwm0nLByDefg
-! Version: 202508141632
+! Checksum: lX/Y523JIRlXx+AIhdHbjw
+! Version: 202508141641
 ! Title: ABP filters
-! Last modified: 14 Aug 2025 16:32 UTC
+! Last modified: 14 Aug 2025 16:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1950,6 +1950,7 @@ noon.com#$#hide-if-matches-xpath './/span[.="Ad"]/parent::div[@style][contains(@
 noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ads/banner-")]/parent::div/ancestor::div[@data-slotid]/parent::div[contains(@class,"AdBanner")]'
 noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ads/banner")]/parent::div/ancestor::div[contains(@data-qa,"adBannerModule")][1]'
 noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ad-")]/parent::div[@style]/ancestor::div[contains(@id,"adBannerModule-")]/parent::div[contains(@id,"adBannerModule-homepage-sfu-monet")]';
+noon.com#$#hide-if-matches-xpath './/div/*[@width][@fill="none"][@viewBox]/*[@fill="white"][@fill-opacity]/ancestor::div[contains(@class,"ProductCarouselDesktop_emblaSlide")][1]'
 ! #RM-82
 ! PP & SA
 flipkart.com#$#hide-if-matches-xpath './/div[@dir][contains(text(),"You may also like")]/following::div[@style]/div[text()="Sponsored"]/ancestor::div[contains(@style,"transform")]'; hide-if-matches-xpath './/div[@dir][contains(text(),"Sponsored")]/ancestor::div[contains(@style,"align-items") and not(contains(@style,"; width: "))]';
