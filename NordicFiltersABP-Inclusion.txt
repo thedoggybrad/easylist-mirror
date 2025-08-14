@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: esSWERCq/KV0aVlW8NA46A
-! Version: 202508140801
+! Checksum: 3eZ8vIP+36XytRMbFk0ctw
+! Version: 202508140822
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 14 Aug 2025 08:01 UTC
+! Last modified: 14 Aug 2025 08:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -3415,10 +3415,12 @@ triplx.dk##.aff-inner-col
 ! https://www•tv2•no/nyheter/innenriks/slar-svindelalarm-trykker-pa-de-riktige-knappene/17975382/
 ||minid-portalen.$domain=~no
 ||minid-portalen.$popup,domain=~no
-||idportal.vercel.app^$all,domain=~bankid_svindlere
+||idportal.vercel.app^
+||idportal.vercel.app^$popup
 ||kredinor-portal.$domain=~no
 ||kredinor-portal.$popup,domain=~no
-||minskat-no.com^$all,domain=~bankid_svindlere
+||minskat-no.com^
+||minskat-no.com^$popup
 ||myskatteetaten.$domain=~no
 ||myskatteetaten.$popup,domain=~no
 ||nav-innlogging-portal.$domain=~no
@@ -3448,6 +3450,8 @@ triplx.dk##.aff-inner-col
 .com/sikkerskatt/refusjon^$popup
 .com/skatt/refusjon/
 /sikkerskatt/refusjon/*
+! https://www.tv2.no/nyheter/innenriks/raser-mot-nettside-laget-for-a-lure-folk/17976442/
+||flytteregister.no^
 ! 🇬🇧：Pirate-product-selling stores registered by the serial scammers who go by the name of "xiang dao xin xi ji shu you xiang gong si".
 ||nofotballshop.com^
 ||nofotballstore.com^
