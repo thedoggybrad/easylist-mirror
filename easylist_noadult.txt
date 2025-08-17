@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 91/JjyWhclGPewvHljKG1Q
-! Version: 202508170621
+! Checksum: Ml/t47QfbTyHvmPzSTZvLQ
+! Version: 202508170631
 ! Title: EasyList without rules for adult sites
-! Last modified: 17 Aug 2025 06:21 UTC
+! Last modified: 17 Aug 2025 06:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -62363,6 +62363,7 @@ wolt.com##button:has(> div > div > div > span:has-text(Sponsored))
 countdown.co.nz##cdx-card:has(product-badge-list)
 creepypasta.com##center:has(+ #ad-container-1)
 hashrate.no##center:has(.sevioads)
+animalfunfacts.net##center:has-text(ADVERT)
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div > div:has([data-testid="banner-spr-label"])
 inverse.com##div > p + div:has(amp-ad)
 outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
