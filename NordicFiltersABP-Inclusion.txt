@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6mXziUG/rHen40YIvlLVjg
-! Version: 202508181231
+! Checksum: qP4w8tFWXNlBlZj4gKqqbA
+! Version: 202508181241
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 18 Aug 2025 12:31 UTC
+! Last modified: 18 Aug 2025 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8403,6 +8403,7 @@ srk.fi#@##CookielawBanner
 /image/ads/*$image,domain=~edatop.com
 /image/affiliate/*$image
 /imageads/*$image
+/images/gen/etherscan-sm.gif
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest,domain=~novelgame.jp|~weblio.jp
 /img/aff/*$image
@@ -71134,6 +71135,7 @@ theburningplatform.com##[href^="https://libertasbella.com/collections/"]
 1337x.to,x1337x.eu,x1337x.ws##[href^="https://limeiptv.to"]
 topfiveforex.com##[href^="https://luckyfish.io/"]
 crypto-news-flash.com##[href^="https://mollars.com/"]
+etherscan.io##[href^="https://moonpay-affiliate-program.sjv.io/"]
 abovetopsecret.com,thelibertydaily.com##[href^="https://mypatriotsupply.com/"]
 mobilesringtones.com##[href^="https://obqj2.com/"]
 topfiveforex.com##[href^="https://olymptrade.com/"]
