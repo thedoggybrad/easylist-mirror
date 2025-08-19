@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: doz4gMyAQj8J5ROHuB7WMw
-! Version: 202508192321
+! Checksum: X/fDtPGkxoXKQCkfGEFThA
+! Version: 202508192331
 ! Title: ABP filters
-! Last modified: 19 Aug 2025 23:21 UTC
+! Last modified: 19 Aug 2025 23:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1127,7 +1127,7 @@ hanime.tv#$#override-property-read ABLK false
 legacy.com#$#hide-if-matches-xpath '//div[contains(@class,"AdSlot__StandardAd")]'
 sexvid.*##div[class^="sp-player visible"][id^="sp-player"]
 xhamster.*#$#hide-if-matches-xpath './/div[contains(@data-role,"banner")]//div[contains(@data-role,"sponsor-banner")]/ancestor::div[@data-role][1]'
-mixdrop.*#$#abort-currentt-inline-script $ String.fromCharCode; override-property-read MDCore.adblock 0;
+mixdrop.*#$#abort-current-inline-script $ String.fromCharCode; override-property-read MDCore.adblock 0;
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
