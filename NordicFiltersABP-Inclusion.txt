@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lppTfkEpgsM0jM+p9My4dQ
-! Version: 202508211141
+! Checksum: s+w8x7uAxJph5CTfw0VBiQ
+! Version: 202508211151
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 Aug 2025 11:41 UTC
+! Last modified: 21 Aug 2025 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -38914,6 +38914,7 @@ browsershots.org#@#.advert_area
 ||kexojito.com^
 ||keydawnawe.com^
 ||keyrolan.com^
+||keystermurkier.shop^
 ||keywordblocks.com^
 ||keywordsconnect.com^
 ||kezesarijvytg.world^
@@ -72302,6 +72303,7 @@ pc-games.eu.org##a[href="javascript:void(0)"]
 igg-games.com,pcgamestorrents.com##a[href][aria-label=""], [width="300"][height^="25"], [width="660"][height^="8"], [width="660"][height^="7"]
 techporn.ph##a[href][target*="blank"]
 tractorbynet.com##a[href][target="_blank"] > img[class^="attachment-large"]
+igg-games.com##a[href^="/"][href*="?"]
 gelbooru.com##a[href^="//tsyndicate.com/"]
 codapedia.com##a[href^="/ad-click.cfm"]
 bestoftelegram.com##a[href^="/ads/banner_ads?"]
@@ -72796,6 +72798,7 @@ yourbittorrent.com##iframe[src]
 realgearonline.com##iframe[src^="http://www.adpeepshosted.com/"]
 linkedin.com##iframe[title="Advertisement"]
 pixiv.net##iframe[width="300"][height="250"]
+igg-games.com##img:not([class]):not([decoding])
 premiumtimesng.com##img[alt$=" Ad"]
 f1technical.net##img[alt="Amazon"]
 cnx-software.com##img[alt="ArmSoM CM5 - Raspberry Pi CM4 alternative with Rockchip RK3576 SoC"]
