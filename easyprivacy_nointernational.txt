@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1DtVMHJ8qCanj3q0OzoQhA
-! Version: 202508220201
+! Checksum: ipwg57a5M6ckSuO16LCyyw
+! Version: 202508220211
 ! Title: EasyPrivacy without international filters
-! Last modified: 22 Aug 2025 02:01 UTC
+! Last modified: 22 Aug 2025 02:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3741,7 +3741,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contentdriver.com/api/impression
 ||contently.com/xdomain/
 ||contentpass.net/stats?$third-party
-||contents-tracking.beop.io^
+||ads-tracking.beop.io^
+||ads-tracking.collectiveaudience.co^
 ||control.cityofcairns.com^$third-party
 ||conversions.genieventures.co.uk^
 ||convertflow.co^*/visitors/
@@ -4201,6 +4202,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||harvest.graindata.com^
 ||hasbro.com/includes/js/metrics/
 ||haymarket.com/injector/deliver/
+||hb.collectiveaudience.co^
 ||hb.vhsrv.com^
 ||hcmanager.swifteq.com/hc_events/
 ||hdnux.com/HNP/stats/page_view?
@@ -5011,6 +5013,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.autopilotapp.com^
 ||s.axon.ai/s/pixel.js
 ||s.beop.io^
+||s.collectiveaudience.co^
 ||s.logsss.com^
 ||s.pinimg.com/ct/core.js
 ||s.srvsynd.com^
