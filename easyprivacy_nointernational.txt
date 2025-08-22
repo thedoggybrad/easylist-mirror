@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4lpj9HiXbu2iistUgDFgoA
-! Version: 202508220231
+! Checksum: xdFn026bScN7CUEUmzp5uw
+! Version: 202508220241
 ! Title: EasyPrivacy without international filters
-! Last modified: 22 Aug 2025 02:31 UTC
+! Last modified: 22 Aug 2025 02:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3087,6 +3087,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adnz.co/dmp/publisher.js
 ||adnz.co/header.js
 ||adobedc.net/collector/
+||ads-tracking.beop.io^
+||ads-tracking.collectiveaudience.co^
 ||ads-trk.vidible.tv^
 ||adsmoloco.com^$third-party
 ||adsolutions.com^$third-party
@@ -3741,8 +3743,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contentdriver.com/api/impression
 ||contently.com/xdomain/
 ||contentpass.net/stats?$third-party
-||ads-tracking.beop.io^
-||ads-tracking.collectiveaudience.co^
 ||control.cityofcairns.com^$third-party
 ||conversions.genieventures.co.uk^
 ||convertflow.co^*/visitors/
@@ -4537,6 +4537,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mediaplex.com^*?mpt=
 ||meebo.com/cim/sandbox.php?
 ||merklesearch.com/merkle_track.js
+||messagebird.com/assets/fp.min.js
+||messagebird.com/metrics.js
 ||metabroadcast.com^*/log?
 ||metaffiliation.com^*^mclic=
 ||meteored.com/cmp/web/events/analytic/
