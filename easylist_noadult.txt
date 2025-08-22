@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JpOB5H7au16lzD/oOMUffg
-! Version: 202508222241
+! Checksum: BVQ0hu56mxU8HrKozW5fag
+! Version: 202508222251
 ! Title: EasyList without rules for adult sites
-! Last modified: 22 Aug 2025 22:41 UTC
+! Last modified: 22 Aug 2025 22:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -36623,6 +36623,7 @@ browsershots.org#@#.advert_area
 ||peensumped.shop^
 ||peepoakewuk.com^
 ||peepoanomo.net^
+||peeptoopoo.com^
 ||peer39.net^
 ||peerlesshallucinate.com^
 ||peerskhar.top^
@@ -42542,6 +42543,7 @@ browsershots.org#@#.advert_area
 ||swiftbytes.store^
 ||swiftlybloodlesseconomic.com^
 ||swiftstreamhub.com^
+||swime.online^
 ||swimmingusersabout.com^
 ||swimsunleisure.com^
 ||swindlebeseech.com^
@@ -62669,9 +62671,11 @@ sephora.com##[data-comp*="RmnBanner"]
 bbc.com##[data-component="ad-slot"]
 bloomberg.com##[data-component="in-body-ad"]
 lookfantastic.com##[data-component="sponsoredProductsCriteo"]
+eater.com,sbnation.com##[data-concert="desktop_leaderboard_variable"]
 eater.com##[data-concert="desktop_network_river"]
-eater.com##[data-concert="frontpage_hero_desktop"]
-eater.com,vox.com##[data-concert="leaderboard_top_tablet_desktop"]
+eater.com,sbnation.com##[data-concert="frontpage_hero_desktop"]
+eater.com,sbnation.com,vox.com##[data-concert="leaderboard_top_tablet_desktop"]
+eater.com,sbnation.com##[data-concert="medium_rectangle_variable_home"]
 vox.com##[data-concert="outbrain_post_tablet_and_desktop"]
 curbed.com##[data-concert="prelude"]
 eater.com,vox.com##[data-concert="tablet_leaderboard"]
@@ -62705,6 +62709,7 @@ qvc.com##[data-module-feature-name^="CRITEO"]
 coindesk.com##[data-module-name="high-impact"]
 independent.co.uk##[data-mpu1]
 goal.com##[data-name="ad-leaderboard"]
+eater.com,sbnation.com##[data-native-ad-id="container"]
 polygon.com##[data-native-ad-id^="container"]
 jeffdornik.com##[data-pin-url]
 extremetech.com##[data-pogo="sidebar"]
