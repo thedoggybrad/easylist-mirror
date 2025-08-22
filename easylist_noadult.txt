@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +6fQo/oAH65ZQx/VCaFWZA
-! Version: 202508220231
+! Checksum: 0Q27jA1Q4EsnDzXIYq9/3A
+! Version: 202508220241
 ! Title: EasyList without rules for adult sites
-! Last modified: 22 Aug 2025 02:31 UTC
+! Last modified: 22 Aug 2025 02:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -57424,6 +57424,8 @@ closerweekly.com,intouchweekly.com,lifeandstylemag.com###listProductWidgetData
 slidesgo.com###list_ads1
 slidesgo.com###list_ads2
 slidesgo.com###list_ads3
+listennotes.com###ln_homepage_banner
+listennotes.com###ln_side_banner
 bio.to###lnk-ad-header
 lightnovelcave.com###lnvidcontainer
 wormate.io###loa831pibur0w4gv
@@ -63572,7 +63574,7 @@ pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-ta
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-1
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-2
 pv-magazine.*,pv-magazine-usa.com,pv-magazine-australia.com###home-top-rectangle-wrap-3
-sameday.costco.*##li:has([aria-label="Product"] [data-dfp-eligible])
+sameday.costco.*##li:has([aria-label="Product"]):has([data-dfp-eligible]):not(:has(h2))
 tripadvisor.*##.rSJod
 tripadvisor.*##[data-automation="nova-ad-InlineNova"]
 tripadvisor.*##[data-sponsored="sponsored"]:has(.txxUo)
