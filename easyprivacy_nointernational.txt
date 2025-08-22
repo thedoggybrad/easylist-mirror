@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xdFn026bScN7CUEUmzp5uw
-! Version: 202508220241
+! Checksum: wn+hcBGkB4bR6QLy+zpQdA
+! Version: 202508220251
 ! Title: EasyPrivacy without international filters
-! Last modified: 22 Aug 2025 02:41 UTC
+! Last modified: 22 Aug 2025 02:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2202,7 +2202,7 @@
 /stats/collect?
 /stats/collector.js
 /stats/event.js?
-/stats/events$xmlhttprequest
+/stats/events$xmlhttprequest,domain=~wbsc.org
 /stats/footer.js
 /stats/ga.js
 /stats/header.js
