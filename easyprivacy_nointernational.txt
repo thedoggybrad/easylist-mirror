@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: lMdedMEKWHqAjaEYsSYvFQ
-! Version: 202508231141
+! Checksum: A+V3Z7xO4tNv4jCv1BiOdg
+! Version: 202508231151
 ! Title: EasyPrivacy without international filters
-! Last modified: 23 Aug 2025 11:41 UTC
+! Last modified: 23 Aug 2025 11:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2848,6 +2848,7 @@
 ?[AQB]&ndh=1&t=
 ?action=event&
 ?action=impression&
+?action=koko_analytics_collect
 ?action=log_promo_impression
 ?action=saveViewStat&
 ?action=statsjs&
@@ -6380,6 +6381,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||booking.com/navigation_times
 ||booking.com/sendlayoutevents
 ||boomerang.dell.com^
+||bostonscally.com/api/collect
 ||box.com/data/ptm.gif/
 ||box.com/index.php?rm=box_gen204_batch_record
 ||brightside.me/metric-collector
@@ -7166,6 +7168,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||msn.com/collect/
 ||msn.com/OneCollector/
 ||mstm.motorsport.com^
+||mtg.macpaw.com^
 ||mx.eneba.com^
 ||myanimelist.net/static/logging.html
 ||mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag-
