@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: R5Gn46Fh78R6wN5Ju3bw9A
-! Version: 202508261031
+! Checksum: uVMf7f8/ByDcd/OjH3aOww
+! Version: 202508261041
 ! Title: EasyPrivacy without international filters
-! Last modified: 26 Aug 2025 10:31 UTC
+! Last modified: 26 Aug 2025 10:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3333,6 +3333,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.adjust.com^$third-party
 ||app.carnow.com/dealers/track_visitor
 ||app.link/_r?$script,third-party
+||app.octaneai.com/get_analytics_engine/
 ||app.opmnstr.com/v2/geolocate/
 ||app.pendo.io/data/$image
 ||app.posthog.com/e/?compression=
@@ -6808,6 +6809,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gamemonetize.com/account/event.php?
 ||gamemonetize.com/account/eventvideo.php?
 ||gamivo.com/tcllc?
+||gardpro.com/api/collect
 ||gc.newsweek.com/front/js/counter.js
 ||gct.americanexpress.com^
 ||gemoo-resource.com/js/analytics.js
