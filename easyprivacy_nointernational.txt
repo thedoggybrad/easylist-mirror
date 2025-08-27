@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cTWqQ7eGHh1wXn+OeaRwWA
-! Version: 202508270121
+! Checksum: RMAT+G7lrNm1LyS/0LQpFA
+! Version: 202508270131
 ! Title: EasyPrivacy without international filters
-! Last modified: 27 Aug 2025 01:21 UTC
+! Last modified: 27 Aug 2025 01:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4391,6 +4391,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||l.typesquare.com^
 ||lambda-url.eu-west-1.on.aws^$ping
 ||lambda-url.us-east-1.on.aws/chug/event
+||launch-analytics-plugin.launchpotato.com^
 ||laurel.macrovision.com^
 ||laurel.rovicorp.com^
 ||lciapi.ninthdecimal.com^
@@ -44306,6 +44307,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||groupbycloud.com/gb-tracker-client-3.min.js
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||gsuite.tools/js/gtag.js$script,~third-party
+@@||gtm.idealo.*/gtm.js?$domain=idealo.at|idealo.co.uk|idealo.de|idealo.es|idealo.fr|idealo.it
 @@||guce.advertising.com/collectIdentifiers$~third-party
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
