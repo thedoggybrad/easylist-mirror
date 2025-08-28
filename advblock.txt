@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WtMe8ql5Ap5UStny6GeMCA
-! Version: 202508280951
+! Checksum: nUqaU/mawDvd1iJrVOc+8Q
+! Version: 202508281011
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Aug 2025 09:51 UTC
+! Last modified: 28 Aug 2025 10:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1870,6 +1870,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /comebacker.js$xmlhttprequest
 /comebacker.php$xmlhttprequest
 /content/get?*&previous_ad_id=
+/content/stream/agl/*
 /cout.php?sid=$script
 /criteo_adblock.js
 /crt_adb.js
