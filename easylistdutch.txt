@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v8G0Y7sm5QDwCpCT1tI4Yw
-! Version: 202508281641
+! Checksum: Itad80enUjbPs/NhIeil2w
+! Version: 202508281651
 ! Title: EasyList Dutch
-! Last modified: 28 Aug 2025 16:41 UTC
+! Last modified: 28 Aug 2025 16:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1525,6 +1525,7 @@ fonq.nl#?#li:-abp-contains(Gesponsord)
 geenstijl.nl#?#.article.row.no-image:-abp-has(.row.compost-warn:-abp-contains(- ingezonden mededeling -))
 glutenvrij.nl#?#.Article__inner:has(.Article__title:-abp-contains(Advertentie))
 hardware.info,tweakers.net#?#:-abp-properties(content: "Advertentie";)
+jumbo.com#?#[data-pathway-product-position]:-abp-contains(Gesponsord)
 linda.nl#?#.article-column_article:-abp-has(.category-label_label:-abp-contains(Advertorial))
 linda.nl#?#.article-row_article:-abp-has(.article-row_category.category-label_label:-abp-contains(Advertorial))
 mediamarkt.be,mediamarkt.nl#?#[data-index-number]:-abp-contains(Gesponsord)
