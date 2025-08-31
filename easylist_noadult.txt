@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7DDDAkS9Qt+aANnwYHr4Jg
-! Version: 202508311151
+! Checksum: Z8gapFaiThfLkxDF2PQfag
+! Version: 202508311201
 ! Title: EasyList without rules for adult sites
-! Last modified: 31 Aug 2025 11:51 UTC
+! Last modified: 31 Aug 2025 12:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1054,7 +1054,6 @@ _prebid.js$script
 .900x100.
 /120-600-
 /120-600.
-/120_600/*
 /120_600_
 /120x600-
 /120x600.
@@ -18940,6 +18939,7 @@ browsershots.org#@#.advert_area
 ||avsink3431.fun^
 ||avthelkp.net^
 ||avuibxulygfyx.online^
+||avvbzudpi.com^
 ||avvelwavlvewa.top^
 ||avview3431.fun^
 ||avvxcystragmb.store^
@@ -66224,7 +66224,7 @@ vpforums.org##.ipsSideBlock.clearfix:has-text(Affiliates)
 1tamilmv.tax##.ipsWidget:has([href*="RajbetImage"])
 qwant.com##.is-sidebar:has(a[data-testid="advertiserAdsLink"])
 stocktwits.com##.is-visible:has-text(Remove ads)
-thingiverse.com##.item-card-container:has-text(Advertisement)
+thingiverse.com##.item-card-container:has-text(/^Ad$/)
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
 netflixjunkie.com##.jsx-2230096219:has-text(ad)
 gsmarena.com##.justify-center:has(.ad-c-label)
