@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: szSFqVepL/Veu5GIEE2ODQ
-! Version: 202508311411
+! Checksum: 9h2xZ4S8Hn3a16sgOOVxUA
+! Version: 202508311421
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 Aug 2025 14:11 UTC
+! Last modified: 31 Aug 2025 14:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23556,8 +23556,8 @@ $script,~third-party,domain=defileb.com|fplay.online|hovels.info|likelol.online|
 ! ##.b-seriesupdate__block_list_item[data-url=""]
 ! блокировки
 /point/?method=video_lin*&xl=$xmlhttprequest
-://s*.*ezka.*/i/def_$image
-://s*.*ezka.*/i/promo/
+://sta*rezka.*/i/def_$image
+://sta*rezka.*/i/promo/
 !||static.*ezka.*/templates/hdrezka/images/slava.
 ! скрытие, общие
 ##body.has-brand .b-content__main .b-player a[href*="aHR0c"]
