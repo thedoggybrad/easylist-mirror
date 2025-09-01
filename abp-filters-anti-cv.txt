@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: +3iHPYoB4nLBL/FTNsMu1g
-! Version: 202509011301
+! Checksum: mJErTTEVZXxmnS1ZoGe28A
+! Version: 202509011311
 ! Title: ABP filters
-! Last modified: 01 Sep 2025 13:01 UTC
+! Last modified: 01 Sep 2025 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1946,13 +1946,8 @@ noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ads/banner")]/parent::di
 noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ad")]/ancestor::div[contains(@class,"Ad")]/parent::div/parent::div[contains(@id,"adMultiProductsBanner")]/parent::div[1]';
 noon.com#$#hide-if-matches-xpath './/div/*[@width][@fill="none"][@viewBox]/*[@fill="white"][@fill-opacity]/ancestor::a[contains(@class,"productBoxLink")]/parent::div[@data-qa]//parent::div[contains(@class,"Recommendations_")]/ancestor::div[contains(@class,"PdpRecommendations")][1]'
 ! HP
-noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored") or contains(text(),"إعلان")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductCarouselDesktop_emblaSlide")][1]'
-noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Ad") or contains(text(),"مدفوع")]/ancestor::a[@href]/ancestor-or-self::div[contains(@class,"ProductCarouselDesktop_emblaSlide")][1]'
-noon.com#$#hide-if-matches-xpath './/span[.="Ad"]/parent::div[@style][contains(@class,"RenderLabel_labelContainer")]/ancestor::div[@style][contains(@id,"adBannerModule")]'
-noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ads/banner-")]/parent::div/ancestor::div[@data-slotid]/parent::div[contains(@class,"AdBanner")]'
-noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ads/banner")]/parent::div/ancestor::div[contains(@data-qa,"adBannerModule")][1]'
-noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ad-")]/parent::div[@style]/ancestor::div[contains(@id,"adBannerModule-")]/parent::div[contains(@id,"adBannerModule-homepage-sfu-monet")]';
 noon.com#$#hide-if-matches-xpath './/div/*[@width][@fill="none"][@viewBox]/*[@fill="white"][@fill-opacity]/ancestor::div[contains(@class,"ProductCarouselDesktop_emblaSlide")][1]'
+noon.com#$#hide-if-matches-xpath './/*[local-name()="svg"][@width][@fill="none"]/*[local-name()="rect"]/ancestor::a[@href]/parent::div/parent::div[contains(@class,"AdBannerSliderDesktop_bannerSlide")]'
 ! #RM-82
 ! PP & SA
 flipkart.com#$#hide-if-matches-xpath './/div[@dir][contains(text(),"You may also like")]/following::div[@style]/div[text()="Sponsored"]/ancestor::div[contains(@style,"transform")]'; hide-if-matches-xpath './/div[@dir][contains(text(),"Sponsored")]/ancestor::div[contains(@style,"align-items") and not(contains(@style,"; width: "))]';
