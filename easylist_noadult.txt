@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Sxf8lqB5MyC2RssbuEftig
-! Version: 202509011111
+! Checksum: Tva74Q4URwlNGGtj/4IYcQ
+! Version: 202509011131
 ! Title: EasyList without rules for adult sites
-! Last modified: 01 Sep 2025 11:11 UTC
+! Last modified: 01 Sep 2025 11:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -32180,6 +32180,7 @@ browsershots.org#@#.advert_area
 ||kmblynalgqanb.top^
 ||kmdbbgocafhvt.com^
 ||kmdlkanc.com^
+||kmfjsdldlnexpu.com^
 ||kmfkiwghhe.xyz^
 ||kmggmylaklog.top^
 ||kmjveezxebpqs.website^
@@ -34696,6 +34697,7 @@ browsershots.org#@#.advert_area
 ||mkounjuehhkhn.store^
 ||mkpjchfevxpud.website^
 ||mkqsbxtxdxtip.store^
+||mkybbjaracrvh.online^
 ||mkysuerau.com^
 ||ml314.com^
 ||mladedda.net^
@@ -35934,6 +35936,7 @@ browsershots.org#@#.advert_area
 ||nncdtquddmjjb.site^
 ||nndrvatp.com^
 ||nnerventualkentin.org^
+||nnffiadgg.com^
 ||nnhghmknpmph.xyz^
 ||nnkfuqygxxw.com^
 ||nnknzxxqlzmxf.space^
@@ -41714,6 +41717,7 @@ browsershots.org#@#.advert_area
 ||rugtranslating.com^
 ||ruinjan.com^
 ||ruinpiddled.qpon^
+||rujllgvjdedrf.site^
 ||rujpqipniloqi.love^
 ||rukanw.com^
 ||rukensjh.com^
@@ -47075,6 +47079,7 @@ browsershots.org#@#.advert_area
 ||vainfulkmole.com^
 ||vainjav11.fun^
 ||vaipagraire.net^
+||vairujouque.net^
 ||vaitotoo.net^
 ||vaitunoagoapsee.net^
 ||vaiwhoojoapseet.net^
@@ -59191,9 +59196,10 @@ $script,third-party,domain=rule34hentai.net
 ! abcvideo.cc
 $script,third-party,xmlhttprequest,domain=abcvideo.cc
 ! ouo
+$script,third-party,domain=ouo.io|ouo.press
 ||ouo.io/js/*.js?
 ||ouo.io/js/pop.
-||ouo.press/js/pop.
+||ouo.press/js/pop.f
 ! Imgbox
 $script,third-party,domain=imgbox.com
 @@||ajax.googleapis.com^$script,domain=imgbox.com
