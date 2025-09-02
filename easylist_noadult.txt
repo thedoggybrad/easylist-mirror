@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GBk/xAWqThffhkH0hNdtHw
-! Version: 202509021501
+! Checksum: KeKWhInJG1EMfMvFan6UKQ
+! Version: 202509021511
 ! Title: EasyList without rules for adult sites
-! Last modified: 02 Sep 2025 15:01 UTC
+! Last modified: 02 Sep 2025 15:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17775,6 +17775,7 @@ browsershots.org#@#.advert_area
 ||alienspurdon.digital^
 ||aliformfikery.cfd^
 ||alightattendancemerger.com^
+||alightrecentliterature.com^
 ||alikepublicity.com^
 ||alikepuzzled.cfd^
 ||alinegare.shop^
@@ -18592,6 +18593,7 @@ browsershots.org#@#.advert_area
 ||ashamedbirchpoorly.com^
 ||ashamedresist.com^
 ||ashamedtriumphant.com^
+||ashameskirmishcontinuing.com^
 ||ashasvsucoce.com^
 ||ashcdn.com^
 ||ashhgo.com^
@@ -23230,6 +23232,7 @@ browsershots.org#@#.advert_area
 ||curberjeepney.qpon^
 ||curbsubdued.click^
 ||curiarascope.cfd^
+||curiositycow.com^
 ||curioushingefast.com^
 ||curiouslyconcern.com^
 ||curledduotone.cfd^
@@ -27830,6 +27833,7 @@ browsershots.org#@#.advert_area
 ||genderorganiccensus.com^
 ||geneindustriousbennet.com^
 ||generalizebusinessman.com^
+||generationdissolvedplease.com^
 ||generationparchmentqueen.com^
 ||generationscrap.com^
 ||genericlink.com^
@@ -29021,6 +29025,7 @@ browsershots.org#@#.advert_area
 ||hanypkwwltkhj.online^
 ||happedfraps.qpon^
 ||happierfaceup.rest^
+||happilyfreakishobedience.com^
 ||happinessunderneathmotion.com^
 ||happy-davinci-53144f.netlify.com^
 ||happy2dates.com^
@@ -36638,6 +36643,7 @@ browsershots.org#@#.advert_area
 ||obarnedearie.shop^
 ||obcswpfk.xyz^
 ||obedieval.my.id^
+||obeseglobewimp.com^
 ||obetmwbxfdswe.store^
 ||obeus.com^
 ||obexgivey.cyou^
@@ -39374,6 +39380,7 @@ browsershots.org#@#.advert_area
 ||promerycergerful.com^
 ||promo-bc.com^
 ||promobenef.com^
+||promptconnectcouncilman.com^
 ||promptsgod.com^
 ||promptspewage.shop^
 ||pronouncedlaws.com^
@@ -67144,6 +67151,7 @@ aads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.com,adspyglass.com,adsupp
 ##.ad.reform-top
 ##.reform-top-container
 ! Amazon
+amazon.*###faceoutContainer:has(> [class$="sponsored-label"])
 amazon.*###nav-swmslot
 amazon.*###sc-rec-bottom
 amazon.*###sc-rec-right
@@ -67182,7 +67190,6 @@ amazon.*##div[cel_widget_id^="sp-desktop-carousel_handsfree-browse"]
 amazon.*##div[class*="_dpNoOverflow_"][data-idt]
 amazon.*##div[class*="SponsoredProducts"]
 amazon.*##div[data-a-carousel-options*="\\\"isSponsoredProduct\\\":\\\"true\\\""]
-amazon.*##div[data-ad-id]
 amazon.*##div[data-cel-widget="sp-rhf-desktop-carousel_desktop-rhf_1"]
 amazon.*##div[data-cel-widget="sp-shiptrack-desktop-carousel_desktop-yo-shiptrack_0"]
 amazon.*##div[data-cel-widget^="multi-brand-video-mobile_DPSims_"]
@@ -67194,6 +67201,7 @@ amazon.*##div[id^="sp_detail"]
 amazon.*##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 amazon.*##span[cel_widget_id^="MAIN-loom-desktop-brand-footer-slot_hsa-id-CARDS-"]
 amazon.*##span[cel_widget_id^="MAIN-loom-desktop-top-slot_hsa-id-CARDS-"]
+!amazon.*##div[data-ad-id]
 !
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.display-container
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.promoted-slider-wrapper
