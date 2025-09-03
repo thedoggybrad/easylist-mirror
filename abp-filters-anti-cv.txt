@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: A1IAkRAUI1NRSSK+7oe3zQ
-! Version: 202509031521
+! Checksum: K/TMa5Zl3e9gKW5/MeEpEQ
+! Version: 202509031531
 ! Title: ABP filters
-! Last modified: 03 Sep 2025 15:21 UTC
+! Last modified: 03 Sep 2025 15:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1811,7 +1811,7 @@ cdiscount.com#$#hide-if-matches-xpath './/span[contains(text(),"Sponsorisé")]/a
 ! PP
 cdiscount.com#$#hide-if-matches-xpath './/article[contains(@class,"sponsored")]//ancestor::div[@id][@class="c-fp__cell--side"]'
 ! PL
-cdiscount.com#$#hide-if-matches-xpath './/input[contains(@name,"Sponsored")]/ancestor::*[(self::article[contains(@class,"c-productCard")] and parent::li) or (self::form and ancestor::div[contains(@class,"prdtBlocInline")])]/ancestor::li[1]'; hide-if-canvas-contains Sponsorisé; hide-if-contains-and-matches-style '' 'li , div.l-fp-row' 'li custom-mentions , custom-mentions ^^sh^^ canvas' /./ 'background-image: repeating';  hide-if-contains-and-matches-style '' li 'custom-mentions ^^sh^^ canvas' '' 'display: none'; hide-if-matches-xpath './/div[contains(@class,"sponsor")]/span[text()]/ancestor::article/parent::a[@rel="sponsored"]/parent::*[self::div or self::section][1]';
+cdiscount.com#$#race start; hide-if-matches-xpath './/input[contains(@name,"Sponsored")]/ancestor::*[(self::article[contains(@class,"c-productCard")] and parent::li) or (self::form and ancestor::div[contains(@class,"prdtBlocInline")])]/ancestor::li[1]'; hide-if-canvas-contains Sponsorisé; hide-if-contains-and-matches-style '' 'li , div.l-fp-row' 'li custom-mentions , custom-mentions ^^sh^^ canvas' /./ 'background-image: repeating';  hide-if-contains-and-matches-style '' li 'custom-mentions ^^sh^^ canvas' '' 'display: none'; hide-if-matches-xpath './/div[contains(@class,"sponsor")]/span[text()]/ancestor::article/parent::a[@rel="sponsored"]/ancestor::div[1]' ; hide-if-matches-xpath './/div[contains(@class,"sponsor")]/span[text()]/ancestor::article/parent::a[@rel="sponsored"]/parent::*[self::div or self::section][1]'; race stop;
 ! #RM-8
 samsclub.com#$#race start; hide-if-contains-visible-text /(Sponsored)/ 'div > div[io-id]' 'div[data-testid^="variant-"] > div > div'; hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"promo-static")]/ancestor-or-self::li[1]'; race stop;
 samsclub.com#$#hide-if-contains-visible-text /Sponsored/ 'div[style][class]' span[class]
