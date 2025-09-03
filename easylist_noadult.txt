@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6m1wRdLmnkExYt1IJFsHRg
-! Version: 202509030831
+! Checksum: +rqUb6jz7NP4PogIERGqpg
+! Version: 202509030841
 ! Title: EasyList without rules for adult sites
-! Last modified: 03 Sep 2025 08:31 UTC
+! Last modified: 03 Sep 2025 08:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -27535,6 +27535,7 @@ browsershots.org#@#.advert_area
 ||fvcwqkkqmuv.com^
 ||fvehrcyeofbzc.space^
 ||fvjhdijvqirab.site^
+||fvkhlpyobgfi.com^
 ||fvmiafwauhy.fun^
 ||fvqmmhyhrtdsu.space^
 ||fvrttpyfqaigo.website^
@@ -40274,6 +40275,7 @@ browsershots.org#@#.advert_area
 ||qjvksieybn.vip^
 ||qjyuwprvcymcedq.com^
 ||qkbjclwirtotj.vip^
+||qkieitettuode.store^
 ||qkivsvoa.com^
 ||qkmerhdtlqadp.site^
 ||qkmihtfjcgnsw.store^
@@ -67126,6 +67128,7 @@ noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 engadget.com##[data-test="top-ad"]
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
+linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 kayak.com##[role="tab"]:has([class*="sponsored"])
 crackwatcher.com##[style="background:none !important;"]:has([href^="https://www.kinguin.net"])
