@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 797axXZZ2lHl/eFScJSsfQ
-! Version: 202509030251
+! Checksum: 4fQCQUoRRvTPHL1vzc6d5w
+! Version: 202509030301
 ! Title: EasyPrivacy without international filters
-! Last modified: 03 Sep 2025 02:51 UTC
+! Last modified: 03 Sep 2025 03:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -44681,6 +44681,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||app.clarity.so^$~third-party
 @@||cbsi.map.fastly.net^
 @@||content.ingbank.pl^
+@@||ct.ddc.venmo.com.fpc.datadome.co^$domain=id.venmo.com
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||gva.et-gv.fr^$script,domain=culture.gouv.fr
