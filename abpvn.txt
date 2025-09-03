@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IUk5rBJVgqkSRqE/LRK9DA
-! Version: 202509031101
+! Checksum: FixBU429P/RGcAYZesn2qA
+! Version: 202509031111
 ! Title: ABPVN List
-! Last modified: 03 Sep 2025 11:01 UTC
+! Last modified: 03 Sep 2025 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 03 Sep 2025 15:33:40 UTC+7
-! Diff-Path: patches/20250903153340497.patch#abpvn
+! Last modified: 03 Sep 2025 18:05:00 UTC+7
+! Diff-Path: patches/20250903180500296.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -50,7 +50,7 @@ $popup,domain=truyenfull.vision
 /core/*$script,domain=gamek.vn|genk.vn|kenh14.vn|cafef.vn|thanhnien.vn
 /disable-devtool.min.js$script
 /giadinhonline.vn/files/qc/*
-/i.imgur.com/*.gif$domain=keonhacai55.bike|motchill22.com|xoilackke.cc|vebotx.cc|cesky-dialog.net|listnhacai88.com|visitfrenchwine.com|ww38.xemtivingon.org|mitomzc.cc|rakhoixv.cc|plcdn.xyz
+/i.imgur.com/*.gif$domain=keonhacai55.bike|motchill22.com|xoilackke.cc|vebotx.cc|cesky-dialog.net|listnhacai88.com|visitfrenchwine.com|mitomzc.cc|rakhoixv.cc|plcdn.xyz
 /js/ads.js$script,~third-party,domain=~vipurl.in
 /lv/esnk/*$script
 /newchill/*gif$image
@@ -561,6 +561,7 @@ idpvn.com##[id^="idpvn-"]
 kenh14.vn##.ads-sponsor
 kenh14.vn##.khw-adk14-wrapper
 keonhacai55.bike##.container>.row>center
+keonhacai55.bike##[id^="Balloon_"]
 keoso.me##.banner_list
 keoso.me##.item-more
 keoso.me##.nc_sidebar_home
@@ -847,7 +848,6 @@ vungtv.xyz###container-ads
 vuonhoalan.net##.content_middle_rightbar
 webhoctienganh.com##.button-action-float-banner
 webtretho.com##.wtt-ads
-ww38.xemtivingon.org,keonhacai55.bike##[id^="Balloon_"]
 www.2banh.vn##.grp-grp.header_wp
 www.2banh.vn##.lb_overlay
 www.clbgamesvn.com##.bannerBox
