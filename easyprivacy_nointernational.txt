@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: qexSV+XyzdgUv77lF00ZcA
-! Version: 202509062141
+! Checksum: VGzjpAvdiE4+2htdFULTyw
+! Version: 202509062151
 ! Title: EasyPrivacy without international filters
-! Last modified: 06 Sep 2025 21:41 UTC
+! Last modified: 06 Sep 2025 21:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5178,6 +5178,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stas.outbrain.com^
 ||stat.absolutist.com^
 ||stat.glaze.ai^
+||stat.khanate.pro^
 ||stat.mixi.media^
 ||stat.moevideo.net^
 ||stat.mydaddy.cc^
@@ -8090,12 +8091,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yourupload.com/jwe?
 ||youtube-nocookie.com/api/stats/atr?ns=
 ||youtube-nocookie.com/api/stats/qoe?
-||youtube-nocookie.com/ptracking?
+! ||youtube-nocookie.com/ptracking?
 ||youtube-nocookie.com/robots.txt?
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ! ||youtube.com/api/stats/ads?
-||youtube.com/api/stats/atr?ns=
-||youtube.com/api/stats/qoe?fmt=
+! ||youtube.com/api/stats/atr?ns=
+! ||youtube.com/api/stats/qoe?fmt=
 ||youtube.com/get_video?
 ||youtube.com/pcs/activeview?
 ||youtube.com/ptracking?html5=1&
