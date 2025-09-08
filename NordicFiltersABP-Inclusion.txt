@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +He3LEStS1IfLaVwQygC5Q
-! Version: 202509080701
+! Checksum: 2US5301uMF3MH3BD5tELUg
+! Version: 202509080651
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 08 Sep 2025 07:01 UTC
+! Last modified: 08 Sep 2025 06:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -78407,7 +78407,6 @@ yahoo.com##a[data-test-id="large-image-ad"]
 mail.yahoo.com##article[aria-labelledby*="-pencil-ad-"]
 www.yahoo.com##body#news-content-app li:has(.inset-0)
 www.yahoo.com##body.font-yahoobeta > div.items-center:has(style)
-news.yahoo.com##div.md\:block:has-text(Advertisement)
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[class*="gemini-ad"]
 yahoo.com##div[data-beacon] > div[class*="streamBoxShadow"]
@@ -78424,7 +78423,6 @@ yahoo.com##div[style="height: 90px; width: 728px;"]
 yahoo.com##div[style="height:250px;width:300px"]
 yahoo.com##div[style="height:250px;width:970px"]
 yahoo.com##div[style="height:90px;width:728px"]
-news.yahoo.com##li.lg\:min-h-\[9\.141rem\]
 mail.yahoo.com##li:has(a[href^="https://api.taboola.com/"])
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! youtube
