@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8jMemme/Pl216bS9e2wJ/Q
-! Version: 202509080701
+! Checksum: n1bhp2pX/JRYN9LaZVXu1A
+! Version: 202509080711
 ! Title: EasyPrivacy without international filters
-! Last modified: 08 Sep 2025 07:01 UTC
+! Last modified: 08 Sep 2025 07:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -21,6 +21,7 @@
 &EventType=Impression&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
+&ii=fingerprintjs-pro-react
 &refer=http$script
 &t=pageview&
 -adobe-analytics/
@@ -4743,6 +4744,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||opinary.com/v1/events
 ||oply.hearstapps.com^
 ||optimeeze.appspot.com^
+||optimizer.poxo.com^
 ||optmn.cloud/hb/
 ||ora.tv/j/ora_evttracking.js
 ||orb.ee/collect
@@ -6890,6 +6892,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gofundme.com/track
 ||gog-statics.com/js/frontpagelogintracking-$script,domain=gog.com
 ||gog-statics.com/js/loginTracking-$script,domain=gog.com
+||goodcar.com/js/parts/fp.js
 ||goodfon.com/stat/
 ||goodreads.com/logging
 ||goodreads.com/metrics_logging_batched
@@ -7819,6 +7822,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tiktokv.us/monitor_browser/
 ||tilanalytics.timesinternet.in^
 ||time.is/img/nod.png
+||tiplink.io/fp-agent.js
 ||tms.abconsent.com^
 ||tms.delta.com/privacy/$image
 ||tms.eharmony.ca^
