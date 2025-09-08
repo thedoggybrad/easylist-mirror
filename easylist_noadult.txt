@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GH5+uU0vxvWEnYY4X72g4g
-! Version: 202509080731
+! Checksum: tIWiTVwHaBPlC7pZIu033g
+! Version: 202509080741
 ! Title: EasyList without rules for adult sites
-! Last modified: 08 Sep 2025 07:31 UTC
+! Last modified: 08 Sep 2025 07:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -234,7 +234,7 @@
 /adsdelivery/*$subdocument
 /adserv.$script
 /adserve/*$script
-/adserver.$~stylesheet,~xmlhttprequest,domain=~adserver.flytant.com
+/adserver.$~stylesheet,~xmlhttprequest
 /adserver3.$image,script
 /adsforwp-front.min.css$stylesheet
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
@@ -766,7 +766,7 @@
 ://adsbb.
 ://adserving.
 ://adsrv.
-://adsserver.$~xmlhttprequest
+://adsserver.$~xmlhttprequest,domain=~adsserver.flytant.com
 ://adv.$third-party,domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.sciconnect.unsw.edu.au|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://aff-ads.
 ://affiliate.$third-party
@@ -25146,6 +25146,7 @@ browsershots.org#@#.advert_area
 ||duncantrt.cyou^
 ||dunceryopera.shop^
 ||dunderaffiliates.com^
+||dungeonconner.click^
 ||dunkashtraycolloquial.com^
 ||dunkingmacuca.digital^
 ||dunsathelia.click^
@@ -45686,6 +45687,7 @@ browsershots.org#@#.advert_area
 ||sxdmitcjdkgiw.space^
 ||sxdsvaicpjnzg.website^
 ||sxeythdkvmjyl.online^
+||sxgqqsngkzozy.website^
 ||sxidblabmvaod.site^
 ||sxjvnyieakqua.website^
 ||sxkhtdmsd.com^
