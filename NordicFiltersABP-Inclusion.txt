@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: df0KJ0dR691SQ0yazmWyWg
-! Version: 202509081301
+! Checksum: 1LIWdxVcjcrx9PKSahetCQ
+! Version: 202509081311
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 08 Sep 2025 13:01 UTC
+! Last modified: 08 Sep 2025 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -2329,6 +2329,9 @@ sosialurin.fo#@#.ads-banner
 ! ★★★ 🇬🇧：Caused by «AdGuard Tracking Protection Filter» ★★★
 ! https://github.com/AdguardTeam/AdguardFilters/issues/209205
 @@||tv2.no/*/snowplow/*$script
+! ★★★ 🇳🇴：Forårsaket av / Caused by «Frellwit's Swedish Filter» ★★★
+! https://github.com/DandelionSprout/adfilt/issues/1174
+@@||cl.k5a.io^$domain=abcnyheter.no
 ! 🇳🇴/🇩🇰：Anti-'CPU-massakrering'
 ! 🇮🇸：And-örgjörvislatrun
 ! 🇬🇧：Anti-'CPU slaughtering'
@@ -2417,6 +2420,8 @@ ukenr.no,ugenr.dk#@#.bannerad
 @@.v.fwmrm.net/ad/g^*:MTG_Play_
 ! gamerNO (27/07/2025)
 @@/vendor/_a/gpt.js?
+! aftenbladetNO
+@@/ad-banner-sponsor-advertisement/*
 ! 🇳🇴：Oppføringer som også er tilstede i «AdGuards hovedfilter / AdGuard Base Filter», for de som bruker ABP og AdBlock, eller som ikke har tatt seg bryet å bruke 8 sekunder på å skru den på i uBlock Origin.
 ! 🇩🇰：Opføringer som også er tilstede i «AdGuard Basisfilter / AdGuard Base Filter», for de der bruger ABP og AdBlock, eller der ikke har tatt seg bryd at bruge 8 sekunder på at abonnere på den i uBlock Origin.
 ! 🇬🇧：Entries that are also present in AdGuard Base Filter, for those who use ABP and AdBlock, or who haven't felt a need to spend 8 seconds to subscribe to it in uBlock Origin.
@@ -3395,8 +3400,6 @@ triplx.dk##.aff-inner-col
 ||um-bs.com^
 ://old.sermitsiaq.ag^
 ://robot.ekstrabladet.dk^
-||modificationdesignate.com^
-||modificationdesignate.com^$popup
 ||xss.my.id^$third-party
 ||85.159.213.158^
 ||85.159.213.158^$popup
@@ -6583,7 +6586,7 @@ nytid.no,tipsbladet.no#@#div.td-a-rec img
 dn.se##.bad--panorama
 dn.se##.bad--insider-tall
 ! Description: Finnish adblock list
-! Last modified: Tue, 02 Sep 2025 17:45:08 +0300
+! Last modified: Thu, 04 Sep 2025 16:41:30 +0300
 ! Finnish section's homepage: https://github.com/finnish-easylist-addition/finnish-easylist-addition
 ! License: https://unlicense.org/
 ! Raportoi mainoksenestoon liittyvistä ongelmista tai estämättömistä mainoksista täällä / Please report adblocking related issues or unblocked ads at:
@@ -7499,6 +7502,7 @@ stadissa.fi##.banner > a[href="/clickad.php?id=1540"]
 stadissa.fi##.banner > a[href="/clickad.php?id=1543"]
 stadissa.fi##.banner > a[href="/clickad.php?id=1554"]
 stadissa.fi##.banner > a[href="/clickad.php?id=1557"]
+stadissa.fi##.banner > a[href="/clickad.php?id=1566"]
 stadissa.fi##[class|="juhlaviikot"]
 styleroom.fi##.bg-box:has([id|=placement-ad-grid])
 suomen118.fi###layout-banner-right
@@ -56190,6 +56194,7 @@ browsershots.org#@#.advert_area
 ||uproardevisederived.com^
 ||uproarumbles.com^
 ||uprousetom.rest^
+||upsbalers.qpon^
 ||upset-rent.com^
 ||upseyhumor.cyou^
 ||upshutoutdoor.shop^
@@ -57648,6 +57653,7 @@ browsershots.org#@#.advert_area
 ||wbamedia.com^
 ||wbaolixcouqle.website^
 ||wbdds.com^
+||wbehwesvucqmvx.com^
 ||wbezyazffnjtz.space^
 ||wbfkyjvspddnd.site^
 ||wbgozbnozalok.top^
