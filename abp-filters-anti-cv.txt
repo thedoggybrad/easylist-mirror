@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: sZ6IqNh8gNmzEBeLT/SmwA
-! Version: 202509092321
+! Checksum: Jj1kwrnuQ/CJcxIpbfpClA
+! Version: 202509092341
 ! Title: ABP filters
-! Last modified: 09 Sep 2025 23:21 UTC
+! Last modified: 09 Sep 2025 23:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1784,7 +1784,7 @@ lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-til
 acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#race start; hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; hide-if-matches-xpath './/span[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; race stop;
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-contains Sponsored 'div[class^="slick-slide"] meals-card[style]' 'span>span'
 ! PL
-acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div/span[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"position-relative")][1]/parent::*[contains(@class,"prdItem")]'; hide-if-matches-xpath './/div/span[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"position-relative")][1]';
+acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div/span[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"position-relative")][1]/parent::*[contains(@class,"prdItem")]'; hide-if-matches-xpath '//span[text()="Sponsored"][@aria-hidden="false"]/ancestor::div[contains(@class,"position-relative")][1]';
 ! #RM-5
 ! sp
 mercadolivre.com.br#$#hide-if-matches-xpath './/a[@class="poly-component__ads-promotions"][text()]/ancestor-or-self::li[@class="ui-search-layout__item"]'
