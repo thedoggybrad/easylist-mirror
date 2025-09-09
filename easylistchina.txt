@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 44/A0CgQCwN0FP1KHcQ2qg
-! Version: 202509090211
+! Checksum: /vehdMbj+UVQOy/WHJ23kg
+! Version: 202509090221
 ! Title: EasyList China
-! Last modified: 09 Sep 2025 02:11 UTC
+! Last modified: 09 Sep 2025 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -9864,6 +9864,7 @@ meijutt.*/js/pcjs/
 ||lancdn.com/public/images/view/Tencent-
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+423down.com#?#li:-abp-has(>.info>.cat>a[rel="category tag"]:-abp-contains(推广))
 pornlulu.com##.container-fluid[style="background:#000;height:40px;"]
 pornlulu.com##.links:not([role="menu"]:last-child)
 barryblogs.com##div[style="margin-bottom: 10px; width: 300px; height: 300px;"]
