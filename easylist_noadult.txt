@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IRrlhKTxbiDNb/wvn0nJ+A
-! Version: 202509092101
+! Checksum: lAZm4CHdsJKEmK1muFujQQ
+! Version: 202509092111
 ! Title: EasyList without rules for adult sites
-! Last modified: 09 Sep 2025 21:01 UTC
+! Last modified: 09 Sep 2025 21:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -65339,9 +65339,12 @@ foodandwine.com##.lrs__wrapper
 lowes.com##.lws_pdp_recommendations_southdeep
 phpbb.com##.lynkorama
 songlyrics.com##.lyrics-inner-ad-wrap
+mobalytics.gg##.m-17psdf9
+mobalytics.gg##.m-1hsuptt
 theverge.com##.m-ad__btf_leaderboard_variable
 thestreet.com##.m-balloon-header
 politifact.com##.m-billboard
+mobalytics.gg##.m-bz6vl
 fashionista.com##.m-fixedbottom-ad--container
 aol.com##.m-gam__container
 aol.com##.m-healthgrades
@@ -68691,6 +68694,7 @@ cruisecritic.co.uk##article[data-sentry-component="ContentCard"]:has(a[href^="/s
 twitter.com,x.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 thetimes.com##article[id="article-main"] > div:has(#ad-header)
 costco.com##article[id][class]:has(img[alt*="Sponsored"])
+mobalytics.gg##aside > [class]:has-text(Advertisement)
 psychcentral.com##aside:has([data-empty])
 vidplay.lol##body > div > div[class][style]:has(> div > div > a[target="_blank"])
 wolt.com##button:has(> div > div > div > span:has-text(Sponsored))
