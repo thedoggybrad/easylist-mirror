@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509091104
+! Version: 202509091107
 ! Title: EasyList
-! Last modified: 09 Sep 2025 11:04 UTC
+! Last modified: 09 Sep 2025 11:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f02cac715f8aeb6a226d104958affcdd2680a77a
+! Commit: 8b706a9e2d41d03685a3d1dfb1c73ef4bce719e1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -69517,7 +69517,7 @@ spin.com##div[id*="-promo-mrec-"]
 chrome-stats.com##div[id*="billboard_responsive"]
 thenewspaper.gr##div[id*="thene-"]
 diskingdom.com##div[id="diski-"]
-namu.wiki##div[id][class]:empty
+en.namu.wiki,ja.namu.wiki##div[id][class]:empty
 thewire.in##div[id^="ATD_"]
 geeksforgeeks.org##div[id^="GFG_AD_"]
 kisshentai.net,onworks.net##div[id^="ad"]
