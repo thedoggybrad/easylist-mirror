@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b2Ml5STK19LZiLmZbkK+3A
-! Version: 202509101321
+! Checksum: 34TjJ0dD6NtZ5iexeK1pWQ
+! Version: 202509101331
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 10 Sep 2025 13:21 UTC
+! Last modified: 10 Sep 2025 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -78461,6 +78461,7 @@ wikiwand.com##div[class^="wrapper_wrapper"]:has(> div[id^="ezoic-pub-ad"])
 outlook.live.com##div[data-app-section="MessageList"] div[class][id*="-"]:has(> div:not([class]) > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] + .ms-Button--hasMenu.ms-Button--icon)
 abcnews.go.com##div[data-container="band"]:has(> div > div[data-box-type="fitt-adbox-thinbannerhome"])
 flipkart.com##div[data-id][style]:has([width][height][fill])
+bjs.com##div[data-index]:has(.sponsored-badge)
 etherscan.io##div[data-nosnippet]:has(> ins[id])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 cruisecritic.co.uk##div[data-sentry-component="CruiseCard"]:has(a[rel="sponsored"])
