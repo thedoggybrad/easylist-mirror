@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NrpHFR/V7aecn0YQY2D2Xg
-! Version: 202509101321
+! Checksum: dV7WK5R+onyo1qD9jdC3Vw
+! Version: 202509101331
 ! Title: EasyList without rules for adult sites
-! Last modified: 10 Sep 2025 13:21 UTC
+! Last modified: 10 Sep 2025 13:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -68895,6 +68895,7 @@ wikiwand.com##div[class^="wrapper_wrapper"]:has(> div[id^="ezoic-pub-ad"])
 outlook.live.com##div[data-app-section="MessageList"] div[class][id*="-"]:has(> div:not([class]) > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] + .ms-Button--hasMenu.ms-Button--icon)
 abcnews.go.com##div[data-container="band"]:has(> div > div[data-box-type="fitt-adbox-thinbannerhome"])
 flipkart.com##div[data-id][style]:has([width][height][fill])
+bjs.com##div[data-index]:has(.sponsored-badge)
 etherscan.io##div[data-nosnippet]:has(> ins[id])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 cruisecritic.co.uk##div[data-sentry-component="CruiseCard"]:has(a[rel="sponsored"])
