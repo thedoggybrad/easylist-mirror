@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: osU4QwOKu9iLnF4EvXHPWg
-! Version: 202509112221
+! Checksum: 2IHNKGsl7WTZpqgKav990A
+! Version: 202509112231
 ! Title: EasyList without rules for adult sites
-! Last modified: 11 Sep 2025 22:21 UTC
+! Last modified: 11 Sep 2025 22:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15472,6 +15472,7 @@ mediaite.com,packhacker.com,packinsider.com#@#.adthrive-content
 laurelberninteriors.com,mediaite.com,packhacker.com,packinsider.com#@#.adthrive-video-player
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls.com#@#.anyClipWrapper
 accuweather.com,cheddar.tv,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
+accuweather.com#@#.connatix-player
 huffpost.com#@#.connatix-wrapper
 carbuzz.com,screenrant.com#@#.w-adsninja-video-player
 !! ins.adsbygoogle
@@ -61567,7 +61568,7 @@ browsershots.org#@#.advert_area
 ||cdn.ex.co^$third-party
 ||cdn.thejournal.ie/media/hpto/$image
 ||channelexco.com/player/$third-party
-||connatix.com^$third-party,domain=~cheddar.tv|~deadline.com|~elnuevoherald.com|~heraldsun.com|~hollywoodreporter.com|~huffpost.com|~lmaoden.tv|~loot.tv|~miamiherald.com|~olhardigital.com.br|~sacbee.com
+||connatix.com^$third-party,domain=~accuweather.com|~cheddar.tv|~deadline.com|~elnuevoherald.com|~heraldsun.com|~hollywoodreporter.com|~huffpost.com|~lmaoden.tv|~loot.tv|~miamiherald.com|~olhardigital.com.br|~sacbee.com
 ||delivery.vidible.tv/jsonp/
 ||dywolfer.de^
 ||elements.video^$domain=fangoria.com
