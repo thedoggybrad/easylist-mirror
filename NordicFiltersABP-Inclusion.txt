@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9+I+QRVOdaJhQuFG4NmTzw
-! Version: 202509121521
+! Checksum: MsAVPL7SeDWJCARax0Eq7w
+! Version: 202509121531
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 12 Sep 2025 15:21 UTC
+! Last modified: 12 Sep 2025 15:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -70578,7 +70578,6 @@ browsershots.org#@#.advert_area
 ||fireworkapi1.com^$domain=boldsky.com
 ! In-page video advertising.
 ||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~therealdeal.com|~video.timeout.com|~wsls.com
-||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
 ||blockchain.info/explorer-gateway/advertisements
@@ -70598,7 +70597,7 @@ browsershots.org#@#.advert_area
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
 ||g.ibtimes.sg/sys/js/minified-video.js
-||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph|philstarlife.com
+||geo.dailymotion.com^$script,domain=wol.gg
 ||go.trvdp.com^$domain=~canaltech.com.br|~ig.com.br|~monitordomercado.com.br|~noataque.com.br|~oantagonista.com.br|~omelete.com.br
 ||gpv.ex.co^$third-party
 ||imgix.video^$domain=inverse.com
