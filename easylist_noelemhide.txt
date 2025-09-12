@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: geD33LP7+MzNWDPwdR99PA
-! Version: 202509121521
+! Checksum: K/9t0O6GQTkgnTrvbiVqyQ
+! Version: 202509121531
 ! Title: EasyList without element hiding rules
-! Last modified: 12 Sep 2025 15:21 UTC
+! Last modified: 12 Sep 2025 15:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -48460,7 +48460,6 @@ _800x80_
 ||fireworkapi1.com^$domain=boldsky.com
 ! In-page video advertising.
 ||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~therealdeal.com|~video.timeout.com|~wsls.com
-||api.dailymotion.com^$domain=philstarlife.com
 ||api.fw.tv^
 ||avantisvideo.com^$third-party
 ||blockchain.info/explorer-gateway/advertisements
@@ -48480,7 +48479,7 @@ _800x80_
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
 ||g.ibtimes.sg/sys/js/minified-video.js
-||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph|philstarlife.com
+||geo.dailymotion.com^$script,domain=wol.gg
 ||go.trvdp.com^$domain=~canaltech.com.br|~ig.com.br|~monitordomercado.com.br|~noataque.com.br|~oantagonista.com.br|~omelete.com.br
 ||gpv.ex.co^$third-party
 ||imgix.video^$domain=inverse.com
