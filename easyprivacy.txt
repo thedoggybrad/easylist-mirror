@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202509122058
+! Version: 202509122048
 ! Title: EasyPrivacy
-! Last modified: 12 Sep 2025 20:58 UTC
+! Last modified: 12 Sep 2025 20:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 146b3b8b82ddd22a178af36c2b00ec06f93ce489
+! Commit: 43c230395a583a5d8464fd8941b025f5c6e8ee12
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1274,7 +1274,6 @@
 /jquery.google-analytics.js
 /jquery.iframetracker-
 /jquery.trackstar.js
-/js-responsive/minimal-analytics-$script
 /js-sdk-event.min.js
 /js/_analytics.js
 /js/analitics.js
@@ -10446,7 +10445,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flixster.com^*/analytics.
 ||flocdn.com^*/dpl/
 ||flocktory.com^*/tracks/
-||fls-na.amazon.com^
 ||flux-cdn.com/plugin/common/analytics/
 ||flux.com/geo.html?
 ||fmnetwork.nl/tracking/
@@ -10865,7 +10863,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||loglady.skypicker.com^
 ||logs-api.shoprunner.com^
 ||logs.animaapp.com^
-||logs.betterstack.com^
 ||logs.datadoghq.com^$third-party
 ||logs.dynamicauth.com^
 ||logs.mezmo.com^
@@ -14734,7 +14731,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.freemake.com^
 ||metrics.hackerrank.com^
 ||metrics.hyperliquid.xyz^
-||metrics.imdb.com^
 ||metrics.onewegg.com^
 ||metrics.roblox.com^
 ||metrics.spkt.io^
@@ -14761,7 +14757,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||modanisa.com/al/j/analytics.js
 ||mollusk.apis.ign.com/metrics/
 ||mon.us.tiktokv.com^
-||monetarygoldgroup.com/_ub/
 ||moneycontrol.com/news/services/get_comscore_pageview/
 ||monitor.channel4.com^
 ||monitor.lifemiles.com/collect
@@ -15456,6 +15451,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trivago.com/tracking/
 ||trk.decido.io^
 ||trk.tirto.id^
+||trueachievements.com/tgn/ana?*page_view
 ||trumba.com/et.aspx?
 ||trustradius.com/api/v1/pageview
 ||trustradius.com/api/v2/collectMetrics
