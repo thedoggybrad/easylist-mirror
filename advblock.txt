@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3t7+fcMvcgkE7nCUJzzvuw
-! Version: 202509141241
+! Checksum: VNuasM+Wsj/nOX9RLN5T5g
+! Version: 202509141251
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Sep 2025 12:41 UTC
+! Last modified: 14 Sep 2025 12:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -359,6 +359,7 @@ $third-party,popup,domain=2ip.ru
 ||onclkds.com^$third-party,popup
 ||online/*rd.php?id=$third-party,popup
 ||otrek.ru^$popup
+||parik24.biz^*?adtag=$popup
 ||peel-down.net/search.php?$popup
 ||playermailer.net^$popup
 ||plusfind.info^$popup
