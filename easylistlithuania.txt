@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1ogb2XIWeAxLnHeub6TAAw
-! Version: 202509141801
+! Checksum: jhxl1WQjVKPlM1y9IhlYHg
+! Version: 202509141811
 ! Title: EasyList Lithuania
-! Last modified: 14 Sep 2025 18:01 UTC
+! Last modified: 14 Sep 2025 18:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/EasyList-Lithuania/easylist_lithuania
 !
@@ -309,7 +309,8 @@ mail.inbox.lt##.b-kaspersky > *
 mainyk.lt##[href*="?utm_source=mainyk"]
 mamairtetis.lt##.djslider-loader
 mamairvaikas.lt##img[alt="SVEIKATOS RADIJO LOGObaneris180 x90"]
-mamyciuklubas.lt##.banners_mklt_side1.banner_cont
+mamyciuklubas.lt##.banner
+mamyciuklubas.lt##div[style*="opacity: 0.5;"][style*="font-size: 14px"]
 man.lt###text-86775731
 mano-gargzdai.lt##.bnrdid
 manoekonamai.lt##.tb-content-block.tb-content-block-banners-sidebar
