@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202509140515
+! Version: 202509140534
 ! Title: EasyPrivacy
-! Last modified: 14 Sep 2025 05:15 UTC
+! Last modified: 14 Sep 2025 05:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a69121e0beaa1bb5739e73e0b301854657c93dc0
+! Commit: b85d1a907460b8047bea4c44594544b8af1ad95a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3291,6 +3291,7 @@ _WebVitalsReporter_
 ://email.*/o/$image
 ://links.flickr.com/s/eo/$image
 ://links.paypal.*/eos/$image
+://mailmag.hhcross.hankyu-hanshin.jp/c/*.gif
 ://parcel-api.delivery-status.*/open/$image
 ://t.*/open^$image
 ://t.order.*/r/?id=$image
@@ -9949,6 +9950,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.sphlabs.com/suid/
 ||cdn.stamped.io/cdn/images/pixel.png
 ||cdn.statically.io/gh/opcdn/analytics/main/script.js
+||cdn.super.com/remote-event-registry.json
 ||cdn.usefathom.com^
 ||cdnjs.work/metrics.js
 ||cdnma.com/apps/capture.js
@@ -12334,6 +12336,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2wu036mkcz52n.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||d2z0bn1jv8xwtk.cloudfront.net^
+||d2zd0wa1vpt7j9.cloudfront.net^
 ||d31bfnnwekbny6.cloudfront.net/customers/
 ||d31y97ze264gaa.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
@@ -15037,6 +15040,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reports.tunein.com^
 ||researchgate.net/beacon/
 ||researchgate.net/track/
+||reservationday.com/metrics/
 ||reverbnation.com/api/user/app_events
 ||revolut.com/api/t/errors
 ||rfk.biglots.com^
@@ -53437,6 +53441,9 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||beat.yourtv.jp^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
+||bookwalker.jp/custom/unitag/
+||bookwalker.jp/ex/browser-viewer/unitag_bv.js
+||bookwalker.jp/v/louis/*/tracks.js
 ||carview.co.jp/include_api/log/
 ||clb.yahoo.co.jp^
 ||contx.net/collect.js
