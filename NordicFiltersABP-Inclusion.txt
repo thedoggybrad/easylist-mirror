@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0wP8A/hZN+oVVGhVXUDinQ
-! Version: 202509150251
+! Checksum: QWkBRQJh8NZX77h4lePH3g
+! Version: 202509150301
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 15 Sep 2025 02:51 UTC
+! Last modified: 15 Sep 2025 03:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -30321,6 +30321,7 @@ browsershots.org#@#.advert_area
 ||chubbymess.pro^
 ||chuckedinthrow.click^
 ||chugrypsodu.com^
+||chukkartatar.com^
 ||chulaghevy.com^
 ||chulansquibs.world^
 ||chultoux.com^
@@ -45093,6 +45094,7 @@ browsershots.org#@#.advert_area
 ||nahrsvtslfjzz.site^
 ||nahuaesnecy.help^
 ||nailerskazak.click^
+||nainepidia.com^
 ||naipachevoapt.net^
 ||naipsouz.net^
 ||nairapp.com^
@@ -50791,6 +50793,7 @@ browsershots.org#@#.advert_area
 ||redbillecphory.com^
 ||redbugevictee.cyou^
 ||redcable.pro^
+||redcapsunlime.com^
 ||redecayweren.life^
 ||redeemforest.com^
 ||redeemmikes.shop^
@@ -70994,7 +70997,6 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 ! csp
 $csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=thumbs.pro
-$csp=script-src 'self' data: blob: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domain=gayforfans.com,~third-party
 ||thegay.com^$csp=default-src 'self' *.ahcdn.com fonts.gstatic.com fonts.googleapis.com https://thegay.com https://tn.thegay.com 'unsafe-inline' 'unsafe-eval' data: blob:
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
 .com./$popup,domain=pornhub.com
