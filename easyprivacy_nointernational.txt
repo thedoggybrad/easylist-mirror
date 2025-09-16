@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LifCAcmQnQyYC6TZ7j1VRA
-! Version: 202509162211
+! Checksum: Mgd0cWAaSddWS0QfZb9Nvg
+! Version: 202509162221
 ! Title: EasyPrivacy without international filters
-! Last modified: 16 Sep 2025 22:11 UTC
+! Last modified: 16 Sep 2025 22:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3363,6 +3363,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.posthog.com/e/?ip=
 ||app.posthog.com/static/array.js
 ||app.posthog.com/static/recorder-v2.js
+||app.qualified.com/*/sentry/
+||app.qualified.com/*/visitor_events
 ||app.revenuehero.io/logs/ingest
 ||app.trytada.com/addImpression
 ||app.yesware.com/t/$third-party
