@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oh10R97ChsNad5BDm1MXsw
-! Version: 202509161711
+! Checksum: ih23Ho1O5SEnGhXF1Ze0Aw
+! Version: 202509161721
 ! Title: IndianList
-! Last modified: 16 Sep 2025 17:11 UTC
+! Last modified: 16 Sep 2025 17:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6224,8 +6224,7 @@ watansamachar.com##.boxnewsAD:has(img)
 mathrubhumi.com##.branding_logo
 keralafinance.com##.brdbt.stock
 hamararajasthan.com,yuvabharat.news##.breaking-news-area.mt-15
-aarushikhabar.com##.brx-popup
-probashtime.net##.brx-popup-content a.brxe-image img
+aarushikhabar.com,probashtime.net##.brx-popup
 simpaninews.com##.brxe-section.brx-animated
 navayuganews.com##.bs-injection
 patnalive.co.in##.bs-listing-single-tab + .bs-listing-listing-grid-1
@@ -8417,6 +8416,7 @@ gnttv.com,ibctamil.com##[tbl-feed-card]:has(.trc-content-sponsored)
 rtvonline.com##[title="Reachable Ads"]
 sunnews24x7.com##a .adv-vload
 sylhetprothidin24.com##a > img.img-responsive
+probashtime.net##a.brxe-image
 keralaonlinenews.com##a.disabled
 newstodaynetwork.com##a.disabled img
 adiyakkamangalam.com##a.external
@@ -8693,6 +8693,7 @@ indotimes.com.au##div:has(> div > p > ins.adsbygoogle)
 atalhind.com##div:has(> div > p >.adsbygoogle)
 momainews.com##div:has(> div > span[name="adchoicehtml"])
 newscreation.in##div:has(> div[class$="-content"] > [class*="banner"])
+eisamay.com##div:has(> div[class*="widget-m__"]):not([class^="text-story"])
 indiatimes.com,vijaykarnataka.com##div:has(> div[data-native-ad])
 andhrajyothy.com##div:has(> div[id*="-ad-"])
 bhaskar.com##div:has(> div[id^="Ad--"])
@@ -8956,6 +8957,7 @@ chhattisgarhprimetime.com##div[id^="chhat-"]
 shikshajagatkiawaz.in##div[id^="cycler"]
 dainikbharat24.com##div[id^="daini-"]
 damrua.com##div[id^="damru-"]
+eisamay.com##div[id^="div-gpt-ad"] + div[style^="width:300px; height:250px;"]
 dailyjanakantha.com##div[id^="div-gpt-ad-"]
 doabatimes.com##div[id^="doaba-"]
 dolphintimes.in##div[id^="dolph-"]
