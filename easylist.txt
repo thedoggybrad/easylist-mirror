@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509171049
+! Version: 202509171039
 ! Title: EasyList
-! Last modified: 17 Sep 2025 10:49 UTC
+! Last modified: 17 Sep 2025 10:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c5842716752ea69058162637d6293387099bd1eb
+! Commit: e6a6c57aade9ad84bdd490fc2a5248dc932732cc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7671,6 +7671,7 @@ _800x80_
 ##.ad_bottom_left
 ##.ad_bottom_mpu
 ##.ad_bottom_space
+##.ad_box
 ##.ad_box1
 ##.ad_box2
 ##.ad_box_2
@@ -14637,7 +14638,6 @@ _800x80_
 ##.Ad-Container:not(.adsbygoogle)
 ##.ad-area:not(.text-ad)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
-##.ad_box:not(.text-ad)
 ##.ads_container:not(.text-ad)
 ##.sidebar-ad:not(.adsbygoogle)
 ! adkeeper
@@ -15184,7 +15184,6 @@ interior-hirade.co.jp#@#.ad_bg
 softoxin.com,sozai-good.com#@#.ad_block
 panarmenian.net#@#.ad_body
 jabank-tokushima.or.jp,joins.com,jtbc.co.kr#@#.ad_bottom
-takken-k.co.jp,zanmai.co.jp#@#.ad_box:not(.text-ad)
 ienohikari.net#@#.ad_btn
 m.nettiauto.com,m.nettikaravaani.com,m.nettikone.com,m.nettimoto.com,m.nettivaraosa.com,m.nettivene.com,nettimokki.com#@#.ad_caption
 classy-online.jp,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se#@#.ad_container
@@ -15402,7 +15401,7 @@ apkmirror.com,tuxpi.com#@#.adslot
 ! ! .adverts
 bavaria86.com,ransquawk.com,tf2r.com,trh.sk#@#.adverts
 ! webike domains, fix broken page
-japan-webike.be,japan-webike.ca,japan-webike.ch,japan-webike.dk,japan-webike.ie,japan-webike.it,japan-webike.kr,japan-webike.nl,japan-webike.se,webike-china.cn,webike.ae,webike.co.at,webike.co.hu,webike.co.il,webike.co.uk,webike.com.ar,webike.com.bd,webike.com.gr,webike.com.kh,webike.com.mm,webike.com.ru,webike.com.tr,webike.com.ua,webike.cz,webike.de,webike.es,webike.fi,webike.fr,webike.hk,webike.id,webike.in,webike.la,webike.mt,webike.mx,webike.my,webike.net,webike.net.br,webike.net.pl,webike.ng,webike.no,webike.nz,webike.ph,webike.pk,webike.pt,webike.sg,webike.tw#@#.ad_box:not(.text-ad)
+japan-webike.be,japan-webike.ca,japan-webike.ch,japan-webike.dk,japan-webike.ie,japan-webike.it,japan-webike.kr,japan-webike.nl,japan-webike.se,webike-china.cn,webike.ae,webike.co.at,webike.co.hu,webike.co.il,webike.co.uk,webike.com.ar,webike.com.bd,webike.com.gr,webike.com.kh,webike.com.mm,webike.com.ru,webike.com.tr,webike.com.ua,webike.cz,webike.de,webike.es,webike.fi,webike.fr,webike.hk,webike.id,webike.in,webike.la,webike.mt,webike.mx,webike.my,webike.net,webike.net.br,webike.net.pl,webike.ng,webike.no,webike.nz,webike.ph,webike.pk,webike.pt,webike.sg,webike.tw#@#.ad_box
 japan-webike.be,japan-webike.ca,japan-webike.ch,japan-webike.dk,japan-webike.ie,japan-webike.it,japan-webike.kr,japan-webike.nl,japan-webike.se,webike-china.cn,webike.ae,webike.co.at,webike.co.hu,webike.co.il,webike.co.uk,webike.com.ar,webike.com.bd,webike.com.gr,webike.com.kh,webike.com.mm,webike.com.ru,webike.com.tr,webike.com.ua,webike.cz,webike.de,webike.es,webike.fi,webike.fr,webike.hk,webike.id,webike.in,webike.la,webike.mt,webike.mx,webike.my,webike.net,webike.net.br,webike.net.pl,webike.ng,webike.no,webike.nz,webike.ph,webike.pk,webike.pt,webike.sg,webike.tw#@#.ad_title
 ! Anti-Adblock
 spoilertv.com#@##adsensewide
