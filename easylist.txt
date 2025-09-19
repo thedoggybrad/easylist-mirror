@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509191010
+! Version: 202509191020
 ! Title: EasyList
-! Last modified: 19 Sep 2025 10:10 UTC
+! Last modified: 19 Sep 2025 10:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 764da04c7bae2abf21f6b347f6614569062a4161
+! Commit: c915112af37059b5d4a11775680d415af5d61bc8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -21100,6 +21100,7 @@ browsershots.org#@#.advert_area
 ||brtsumthree.com^
 ||bruceleadx1.com^
 ||bruinsinapt.digital^
+||bruisedblock.pro^
 ||bruisedpaperworkmetre.com^
 ||bruitsosmols.help^
 ||brumbietimet.rest^
@@ -21492,6 +21493,7 @@ browsershots.org#@#.advert_area
 ||ca6dbde75a.com^
 ||caahwq.com^
 ||cabbagereporterpayroll.com^
+||cabbiesinlying.world^
 ||cabbydzungar.qpon^
 ||cabbypre.cfd^
 ||cabhwq.com^
@@ -33047,6 +33049,7 @@ browsershots.org#@#.advert_area
 ||jolmen.click^
 ||joltermedlars.cyou^
 ||joluw.net^
+||jomistress.com^
 ||jomoukrebsoxy.net^
 ||jomydzspwjs.com^
 ||jonahsrodsman.rest^
@@ -33074,6 +33077,7 @@ browsershots.org#@#.advert_area
 ||joramsvenosal.digital^
 ||joristquoniam.help^
 ||jorramverglas.digital^
+||joryvztqojsig.space^
 ||josgnopdgfak.com^
 ||josmhgtjdxqoj.com^
 ||jossfonts.rest^
@@ -36286,6 +36290,7 @@ browsershots.org#@#.advert_area
 ||me4track.com^
 ||meagplin.com^
 ||mealyease.pro^
+||mean-offer.pro^
 ||meaninglessoccasionalrevision.com^
 ||meaninglesstoil.com^
 ||meantimenourishclothes.com^
@@ -39010,6 +39015,7 @@ browsershots.org#@#.advert_area
 ||ogyzawzjoqwaw.top^
 ||ogz4n3ke.xyz^
 ||ohadbonafz.com^
+||ohbdxnbly.com^
 ||ohdorkhi.com^
 ||ohejbszpvhswi.online^
 ||ohelsiroungaib.net^
@@ -72090,8 +72096,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(data:)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
 ! ABP CSS injection filters
-hitomi.la##.content > div[class]:not([class*="-"]) {min-height:45px !important;}
-hitomi.la##.top-content > div[class]:not([class*="-"]) {min-height:45px !important;}
+hitomi.la##.content > div[class]:not([class*="-"]) {min-height:40px !important;}
+hitomi.la##.top-content > div[class]:not([class*="-"]) {min-height:40px !important;}
 otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-post-details-full) {remove:true;}
 ! 69games.xxx/gamcore/porcore.com
 classic.gamcore.com###center > .flashes > .wide:has(> a[href][rel])
