@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tkYNbuTDdgjsKm/Tv0KZ7w
-! Version: 202509201141
+! Checksum: YbObzcM9zDIs0SCsfIBIbg
+! Version: 202509201151
 ! Title: EasyList without rules for adult sites
-! Last modified: 20 Sep 2025 11:41 UTC
+! Last modified: 20 Sep 2025 11:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -112,7 +112,6 @@
 /ad.cgi?$~xmlhttprequest
 /ad.css?$stylesheet
 /ad.html?$~xmlhttprequest
-/ad.min.js$script
 /ad/ad_common.js$script
 /ad/getban?$script
 /ad/image/*$image
@@ -34141,6 +34140,7 @@ browsershots.org#@#.advert_area
 ||kodakbrique.click^
 ||kodaodrterxfj.site^
 ||kodbafryxemdz.website^
+||koeebuetwevng.space^
 ||koewsapge.com^
 ||kogiabatatas.com^
 ||kogkljgjaooko.top^
@@ -58735,6 +58735,7 @@ browsershots.org#@#.advert_area
 ||syndicate.payloadz.com^
 ||t.babelmedia.global^$third-party
 ||t.co^$subdocument,domain=kshow123.tv
+||t1.daumcdn.net/adfit/static/ad.min.js
 ||taboola.com/vpaid/
 ||taboola.com^*/vignette-render.js
 ||tag.regieci.com^
