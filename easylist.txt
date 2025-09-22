@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509221018
+! Version: 202509221028
 ! Title: EasyList
-! Last modified: 22 Sep 2025 10:18 UTC
+! Last modified: 22 Sep 2025 10:28 UTC
 ! Expires: 4 days (update frequency)
-! Commit: de89621db4dab44f22c9f82cd63f20ce6581a1c3
+! Commit: d30acee36c2aee3de4dfbb1ae8881124b85695b5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -823,8 +823,6 @@ _reklama_$domain=~youtube.com
 ://www.*.com/*/-1/70/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/a/$subdocument,third-party,domain=~edu|~gov
-://www.*.com/script/*.com.js|$script,third-party
-://www.*.com/script/*.org.js|$script,third-party
 ://www.*.xyz/players/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.xyz/players/*/a/$subdocument,third-party
 ://www.*.xyz/players/*?h=$script,third-party
@@ -20782,6 +20780,7 @@ browsershots.org#@#.advert_area
 ||bxrmsifmdylbji.com^
 ||bxrtwyavhyb.online^
 ||bxsprestly.life^
+||bxsssywlwocdmdw.net^
 ||bxvcwryuuab.com^
 ||bxwvsumjgtvmg.space^
 ||bxwzcnwycuvbc.world^
@@ -26976,6 +26975,7 @@ browsershots.org#@#.advert_area
 ||feethach.com^
 ||feewostoo.com^
 ||fef86b659b.com^
+||fefezjvaxkoqi.website^
 ||fefinegoldforeyes.com^
 ||fehlqppruztrc.site^
 ||feignoccasionedmound.com^
