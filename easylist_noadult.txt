@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mRzwL7qCEq2EXWE208hRsQ
-! Version: 202509221011
+! Checksum: CIvJZtUac1beJpWkm9Qtkw
+! Version: 202509221021
 ! Title: EasyList without rules for adult sites
-! Last modified: 22 Sep 2025 10:11 UTC
+! Last modified: 22 Sep 2025 10:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -813,6 +813,7 @@ _reklama_$domain=~youtube.com
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
+://0.www.*/players/*/-1/$script,third-party,xmlhttprequest
 ://loader.*.com/loader.min.js|$script,~third-party
 ://www.*.com/*/-1/327/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/*/-1/70/$script,subdocument,third-party,xmlhttprequest
@@ -54351,6 +54352,7 @@ browsershots.org#@#.advert_area
 ||rl1u0wknm1onstp8395too.xyz^
 ||rogerouch.com^
 ||secretvelvety.com^
+||shinnyhelpfast.com^
 ||slapswingthrough.com^
 ||sn2rrlv57qpss5w-qk8llu.xyz^
 ||sneakyangrilypromptlyupon.com^
