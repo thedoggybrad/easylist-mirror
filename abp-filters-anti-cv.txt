@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: eqbbGk8lXqNsQ68II46mcA
-! Version: 202509221401
+! Checksum: X3wWB99TgNRCaqSWDYyO3A
+! Version: 202509221411
 ! Title: ABP filters
-! Last modified: 22 Sep 2025 14:01 UTC
+! Last modified: 22 Sep 2025 14:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1866,6 +1866,7 @@ booking.com#$#hide-if-matches-xpath './/span[@color][contains(@class,"PromoText"
 @@||cvs.com^$generichide
 ! BA
 cvs.com#$#hide-if-matches-xpath './/div[@class]/*[contains(@shelf-type,"criteo")]/ancestor::div[@class][1]'
+cvs.com#$#hide-if-contains /Sponsored/ 'cvs-shop-product-shelf-criteo-container' 'cvs-shop-product-shelf-criteo-container ^^sh^^ span'
 ! SP
 cvs.com#$#hide-if-contains-visible-text /(Sponsored)/ 'div[style^="width:"]' 'div[dir^="auto"]'
 ! PP
