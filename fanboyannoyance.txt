@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509240146
+! Version: 202509240206
 ! Title: Fanboy's Annoyance List
-! Last modified: 24 Sep 2025 01:46 UTC
+! Last modified: 24 Sep 2025 02:06 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0eddc266d94b10b61c34bcab820463e72238285f
+! Commit: 62bd2c35a8ccd5b43478402a297b07129de8650d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -33230,7 +33230,7 @@ codeur.com,palestinechronicle.com,techguide.com.au###custom_html-3
 newsbtc.com###custom_html-30
 torontoguardian.com###custom_html-4
 eazypeazymealz.com###custom_html-56
-digitaljournal.com###custom_html-6
+digitaljournal.com,left.it###custom_html-6
 biznews.com,opindia.com###custom_html-7
 frequentmiler.com,sonomamag.com###custom_html-8
 ambitiouskitchen.com###d-popups
@@ -34658,7 +34658,7 @@ thespinoff.co.nz##.native-newsletter-signup
 shine.cn##.nav-tools
 nationalinterest.org##.nav__mag
 thetech.com##.navbar-feedback
-asweetpeachef.com,biggerbolderbaking.com,bookshop.org,craftboxdirect.com,dailycaller.com,gamebyte.com,geoffanderson.dk,glerups.com,highcarbhannah.co,jbhifi.co.nz,jbhifi.com.au,kurufootwear.com,mobellageret.dk,motor1.com,mychicagosteak.com,mylivelobster.com,readwrite.com,redrightvideos.com,rocketeyewear.com,staples.ca,thesatanictemple.com,tibi.com,unknowncomicbooks.com,warpedsense.com##.needsclick[aria-label][style]
+asweetpeachef.com,biggerbolderbaking.com,blackoutcoffee.com,bookshop.org,craftboxdirect.com,dailycaller.com,gamebyte.com,geoffanderson.dk,glerups.com,highcarbhannah.co,jbhifi.co.nz,jbhifi.com.au,kurufootwear.com,mobellageret.dk,motor1.com,mychicagosteak.com,mylivelobster.com,readwrite.com,redrightvideos.com,rocketeyewear.com,staples.ca,thesatanictemple.com,tibi.com,unknowncomicbooks.com,warpedsense.com##.needsclick[aria-label][style]
 thehill.com##.network-footer__ca-newsletter
 thehill.com##.network-footer__newsletter
 vegancooking.com##.never-miss
@@ -38083,7 +38083,7 @@ metatrader4.com###float-vertical-panel
 yodiz.com###footMsgYodiz
 alternative.me,motorsport.com,pdf24.org###footer
 community.icann.org###footer-banner
-allsoft.ru,auth.sparxmaths.uk###footer-cookie-banner
+allsoft.by,allsoft.ru,auth.sparxmaths.uk###footer-cookie-banner
 pocketgamer.biz###footer-mailer
 flynas.com###footer-message
 moneytalksnews.com###footer-overlay
@@ -48251,7 +48251,7 @@ qatarairways.com#@#.cookiewrap
 abc.es,as.com,atresplayer.com,auto.it,corrieredellosport.it,elconfidencial.com,elindependiente.com,lasexta.com,seguro.elespanol.com,tuttosport.com#@#.didomi-notice-banner
 20minutos.es,goplay.be,ouest-france.fr,strefabiznesu.pl#@#.didomi-screen-xlarge
 dgsf.org#@#.dsgvo-banner
-cgslb.be,hygieniapassit.info,kk.dk#@#.eu-cookie-compliance-banner
+cgslb.be,hygieniapassit.info,kk.dk,socialistsanddemocrats.eu#@#.eu-cookie-compliance-banner
 imt-mines-ales.fr#@#.eu-cookies
 govern.ad#@#.footer-cookies
 ocre-project.eu#@#.footer-gdpr
@@ -48326,6 +48326,7 @@ sonyliv.com#@#div.cookie_popup
 destatis.de,gardengirls.de#@#div.cookiebanner
 emut.be,iledefrance-mobilites.fr#@#div.cookies-banner
 gandwfurniture.co.uk#@#div.cookiesBanner
+socialistsanddemocrats.eu#@#div.eu-cookie
 arzagagolf.it#@#div.v-cookie
 etsy.com#@#div[data-gdpr-consent-prompt]
 facebook.com,messenger.com#@#div[data-testid="cookie-policy-banner"]
