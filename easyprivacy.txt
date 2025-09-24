@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202509240332
+! Version: 202509240325
 ! Title: EasyPrivacy
-! Last modified: 24 Sep 2025 03:32 UTC
+! Last modified: 24 Sep 2025 03:25 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9b044486c5106800d4a0f61c0a4f14f15e0bb2e1
+! Commit: 2080ca580f01b78588034d2d7de5bbe1789310d6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10769,7 +10769,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||isacglobal.com/sa.js
 ||isitelab.io/ite_sitecomV1ANA.min.js
 ||iterable.com/analytics.js
-||itmwpb.com/wp-content/plugins/advertise/modules/stats/assets/track.js
 ||iturl.in/analytics?
 ||iubenda.com/write?
 ||iyisayfa.net/inc.php?
@@ -11850,7 +11849,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tm.vendemore.com^
 ||tmp.argusplatform.com/js/wid.tracker.js
 ||tms.fmm.io^
-||tmssl.akamaized.net/js/news-viewport-tracking.js
 ||tmtarget.com/tracking/
 ||to.getnitropack.com^
 ||toast.com/log
@@ -13742,6 +13740,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sayac.kapital.com.tr^
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
+||tmssl.akamaized.net/js/news-viewport-tracking.js$domain=transfermarkt.com.tr
 ||track.livasoft.com.tr^
 ||traffic.wdc.center^
 ||web.tv/analytics/
