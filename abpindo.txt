@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eaziJpkhRs5tWSMDm/TSTA
-! Version: 202509241211
+! Checksum: z+/CyAoVoWmHU3xkWl9N3w
+! Version: 202509241221
 ! Title: ABPindo
-! Last modified: 24 Sep 2025 12:11 UTC
+! Last modified: 24 Sep 2025 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 20 Sep 2025 13:20 UTC
+! Last modified: 24 Sep 2025 12:12 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -1529,7 +1529,6 @@ kompas.com##.kgnw-modal-ads
 kompas.com##.kgnw-modal-adswrap
 kontan.co.id##.kiri-det-desk
 apk.miuiku.com,lewat.club##.klikdisini
-ainzscans.net,cosmic345.co,ikiru.one,ikiru.world,isekaisubs.web.id,kiryuu01.com,kmvs03.com,komikcast01.com,komikcast02.com,komikindo.co,komikindo.me,komikremaja.club,komikstation.co,komiktap.info,mangakita.id,mangakita.net,novascans.id##.kln
 faktabali.com##.ktzsingle-bannerright
 kontan.co.id##.kus
 starringheavenlyrics.blogspot.com##.lalulintas
@@ -1801,6 +1800,7 @@ komikindo.co##a[href^="https://shope.ee/"]
 otakudesu.pro##a[rel^="nofollow noopener"] > img[src$=".gif"]
 republika.co.id##a[style="width: 100%; height: 100%; display: block; position: fixed; z-index: 1"]
 mangakita.net##a[title^="manga4d"]
+ainzscans.net,cosmic345.co,ikiru.one,ikiru.world,isekaisubs.web.id,kiryuu01.com,kmvs03.com,komikcast01.com,komikcast02.com,komikindo.co,komikindo.me,komikremaja.club,komikstation.co,komiktap.info,mangakita.id,mangakita.net,novascans.id,nimeindo.*,awsubs.*##.kln
 anichin.*###floatcenter
 anichin.*###overplay
 anichin.*##.kln
@@ -1926,6 +1926,7 @@ layarkaca21.*###pbanner
 layarkaca21.*###ptbanner
 layarxxi.*###top-banner-content
 lk21.*,nontondrama.*###nativeAds
+nimeindo.*,awsubs.*##div#popupAd
 nontonanimeid.*##.banner_player
 nontonanimeid.*##.floating_footer
 nontonanimeid.*##.ts-ad-link-wrapper
