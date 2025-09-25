@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tm9GNlT+FFF13G7y6ZPgPQ
-! Version: 202509252131
+! Checksum: IhvDPm97bMcLkp9vtWk54A
+! Version: 202509252141
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 25 Sep 2025 21:31 UTC
+! Last modified: 25 Sep 2025 21:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -39256,6 +39256,7 @@ browsershots.org#@#.advert_area
 ||hungry-fan.pro^
 ||hungrycedula.shop^
 ||hunsuftouwuls.com^
+||huntedbalks.digital^
 ||hunter-hub.com^
 ||hunterlead.com^
 ||hupaiowicog.com^
@@ -53828,6 +53829,7 @@ browsershots.org#@#.advert_area
 ||sdqabdbvtyicg.com^
 ||sdtftxgfnasv.com^
 ||sdtriamlhmonr.store^
+||sduvfegbppemz.store^
 ||sdvouppehhvpg.site^
 ||sdvsrjqvsindt.com^
 ||sdyfukskmnv.com^
@@ -76639,6 +76641,7 @@ lookfantastic.com##.sponsoredProductsList
 circleid.com##.sponsoredTopicCard
 mynorthwest.com##.sponsored_block
 hannaford.com##.sponsored_product
+canadiantire.ca##.sponsoredproductcarousel
 meijer.com##.sponsoredproducts
 ar15.com,armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,hotrodhotline.com,jaguarforums.com,pypi.org,smashingmagazine.com,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
 vuejs.org##.sponsors-aside-text
@@ -78456,6 +78459,7 @@ weather.com##section[aria-label="Sponsored Content"]
 bedbathandbeyond.com##section[class^="showcaseAds_container"]
 olympics.com##section[data-cy="ad"]
 bbc.com##section[data-e2e="advertisement"]
+foodandwine.com##section[id*="mntl-four-post--sponsored"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-comments-page-ad
 tempostorm.com##side-banners
 smartprix.com##sm-dap
@@ -79577,10 +79581,13 @@ bing.com##.mapsTextAds
 bing.com##.mma_il
 bing.com##.pa_sb
 bing.com##.productAd
+bing.com##.ra_car_block
 bing.com##.text-ads-container
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 bing.com##cs-native-ad-card
+bing.com##cs-responsive-card[ad][data-t*="nativead"]
+bing.com##cs-responsive-card[ad][id^="nativead-"]
 bing.com##div[aria-label$="ProductAds"]
 bing.com##div[class="ins_exp tds"]
 bing.com##div[class="ins_exp vsp"]
