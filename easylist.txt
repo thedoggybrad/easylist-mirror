@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509252131
+! Version: 202509252140
 ! Title: EasyList
-! Last modified: 25 Sep 2025 21:31 UTC
+! Last modified: 25 Sep 2025 21:40 UTC
 ! Expires: 4 days (update frequency)
-! Commit: aa514f6414986965dcc861181bc7f1b6cef76012
+! Commit: e6539c0f95365f5bc0fd8f8bb07b8fd8f78bab72
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -31223,6 +31223,7 @@ browsershots.org#@#.advert_area
 ||hungry-fan.pro^
 ||hungrycedula.shop^
 ||hunsuftouwuls.com^
+||huntedbalks.digital^
 ||hunter-hub.com^
 ||hunterlead.com^
 ||hupaiowicog.com^
@@ -45795,6 +45796,7 @@ browsershots.org#@#.advert_area
 ||sdqabdbvtyicg.com^
 ||sdtftxgfnasv.com^
 ||sdtriamlhmonr.store^
+||sduvfegbppemz.store^
 ||sdvouppehhvpg.site^
 ||sdvsrjqvsindt.com^
 ||sdyfukskmnv.com^
@@ -68606,6 +68608,7 @@ lookfantastic.com##.sponsoredProductsList
 circleid.com##.sponsoredTopicCard
 mynorthwest.com##.sponsored_block
 hannaford.com##.sponsored_product
+canadiantire.ca##.sponsoredproductcarousel
 meijer.com##.sponsoredproducts
 ar15.com,armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,hotrodhotline.com,jaguarforums.com,pypi.org,smashingmagazine.com,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
 vuejs.org##.sponsors-aside-text
@@ -70423,6 +70426,7 @@ weather.com##section[aria-label="Sponsored Content"]
 bedbathandbeyond.com##section[class^="showcaseAds_container"]
 olympics.com##section[data-cy="ad"]
 bbc.com##section[data-e2e="advertisement"]
+foodandwine.com##section[id*="mntl-four-post--sponsored"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-comments-page-ad
 tempostorm.com##side-banners
 smartprix.com##sm-dap
@@ -71544,10 +71548,13 @@ bing.com##.mapsTextAds
 bing.com##.mma_il
 bing.com##.pa_sb
 bing.com##.productAd
+bing.com##.ra_car_block
 bing.com##.text-ads-container
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
 bing.com##cs-native-ad-card
+bing.com##cs-responsive-card[ad][data-t*="nativead"]
+bing.com##cs-responsive-card[ad][id^="nativead-"]
 bing.com##div[aria-label$="ProductAds"]
 bing.com##div[class="ins_exp tds"]
 bing.com##div[class="ins_exp vsp"]
