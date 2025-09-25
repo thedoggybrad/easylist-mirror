@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4N5Q5wgrWyr8+MmRN2s0dw
-! Version: 202509250041
+! Checksum: RJ9EJkbJqCmqTX6cjeIU5A
+! Version: 202509250051
 ! Title: EasyList without rules for adult sites
-! Last modified: 25 Sep 2025 00:41 UTC
+! Last modified: 25 Sep 2025 00:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4580,6 +4580,7 @@ _800x80_
 ###ntvads
 ###openx-text-ad
 ###openx-widget
+###outstream_connatix_container
 ###ovadsense
 ###overlay-ad-bg
 ###overlay_ad
@@ -15363,6 +15364,7 @@ slickdeals.net#@#a[href*="adzerk.net"]
 sweetdeals.com#@#a[href*="https://www.sweetdeals.com/"] img
 legacy.com#@#a[href^="http://pubads.g.doubleclick.net/"]
 canstar.com.au,mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
+cars.com#@#a[href^="https://adclick.g.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
 xbdeals.net#@#a[href^="https://click.linksynergy.com/"]
 naughtyamerica.com#@#a[href^="https://natour.naughtyamerica.com/track/"]
@@ -50119,6 +50121,7 @@ browsershots.org#@#.advert_area
 ||visiblegains.com^
 ||visiblejoseph.com^
 ||visiblemeasures.com^
+||visitarkqr.click^
 ||visitcrispgrass.com^
 ||visiteeuntile.life^
 ||visitingmargaretantony.com^
@@ -53315,6 +53318,7 @@ browsershots.org#@#.advert_area
 ||offergate-software20.com^$document
 ||offergate-software6.com^$document
 ||offertops.info^$document
+||oglalavoodoo.world^$document
 ||ojrq.net^$document
 ||olopruy.com^$document
 ||omegaadblock.net^$document
@@ -53557,6 +53561,7 @@ browsershots.org#@#.advert_area
 ||violationphysics.click^$document
 ||viralnewsbd.xyz^$document
 ||virelon.com^$document
+||visitarkqr.click^$document
 ||visualmirage.co^$document
 ||vizoalygrenn.com^$document
 ||vmgjt.click^$document
@@ -57229,6 +57234,7 @@ browsershots.org#@#.advert_area
 ||ofredirect.com^$popup
 ||ofseedotom.com^$popup
 ||oghqvffmnt.com^$popup
+||oglalavoodoo.world^$popup
 ||ogrepsougie.net^$popup
 ||ogtrk.net^$popup
 ||ohrdsplu.com^$popup
@@ -58304,6 +58310,7 @@ browsershots.org#@#.advert_area
 ||viralnewsbd.xyz^$popup
 ||virelon.com^$popup
 ||visit-website.com^$popup
+||visitarkqr.click^$popup
 ||visitstats.com^$popup
 ||vizoalygrenn.com^$popup
 ||vkcdnservice.com^$popup
@@ -62520,7 +62527,6 @@ nzherald.co.nz###oneroof_nzh_homepage
 kohls.com###open-drawer
 op.gg###opgg-kit-house-image-banner
 livestreamfails.com###oranum_livefeed_container_0
-scrippsnews.com,wmar2news.com###outstream_connatix_container
 powvideo.net,streamplay.to,uxstyle.com###overlay
 megacloud.tv###overlay-center
 rabbitstream.net###overlay-container
@@ -66083,7 +66089,7 @@ motachashma.com,ordertracker.com##.partnerbanner
 bundesliga.com##.partnerbar
 freshnewgames.com##.partnercontent_box
 investopedia.com##.partnerlinks
-2oceansvibe.com,asianlemansseries.com,speedcafe.com,travelweekly.com##.partners
+2oceansvibe.com,asianlemansseries.com,invictaracing.com,speedcafe.com,travelweekly.com##.partners
 letsgodigital.org,letsgomobile.org##.partners-bar
 cbn.com##.partners-block
 practicalecommerce.com##.partners-sidebar
@@ -66502,6 +66508,7 @@ freewebarcade.com##.rxads
 freewebarcade.com##.rxse
 aerotime.aero##.s-banner
 bleepingcomputer.com##.s-ou-wrap
+bigskyconf.com##.s-sponsors
 hope1032.com.au##.s-supported-by
 japantoday.com##.s10r
 nodejs.libhunt.com##.saashub-ad
