@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0NpQWLNa0LOqd/mzuYUNJQ
-! Version: 202509260221
+! Checksum: CUVxSZjWblLF+Ap3GERfIQ
+! Version: 202509260231
 ! Title: EasyPrivacy without international filters
-! Last modified: 26 Sep 2025 02:21 UTC
+! Last modified: 26 Sep 2025 02:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2268,6 +2268,7 @@
 /status/impression?
 /storeAdvImpression.jsp
 /storefront.google-analytics-4.min.js
+/stormcaster.js
 /stp.gif?
 /stracking.js
 /sTrackStats.js
@@ -6245,6 +6246,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||active.com/ig.track.js
 ||activity.fiverr.com^
 ||adalytics.io/api/view
+||adameve.com/emetrics/
 ||adblockeronstape.me/stat/
 ||adblockeronstreamtape.me/stat/
 ||adblockeronstreamtape.xyz/stat/
