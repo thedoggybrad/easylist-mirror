@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202509260216
+! Version: 202509260226
 ! Title: EasyPrivacy
-! Last modified: 26 Sep 2025 02:16 UTC
+! Last modified: 26 Sep 2025 02:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4d4f46b57773188b0057950213f2cd6bbd9d6399
+! Commit: 196144b57a9135487d94a9233188cfc411d4de94
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2272,6 +2272,7 @@
 /status/impression?
 /storeAdvImpression.jsp
 /storefront.google-analytics-4.min.js
+/stormcaster.js
 /stp.gif?
 /stracking.js
 /sTrackStats.js
@@ -3621,6 +3622,7 @@ omni.soundestlink.com$image
 ||ns1p.net^
 ||nxakpj4ac8gkd53.info^
 ||o1ych4jb.com^
+||ofgreencolumn.com^
 ||omtrdc.net^
 ||openfpcdn.io^
 ||oppuz.com^
@@ -9977,6 +9979,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cbsaavideo.com/measurements/
 ||cbsivideo.com/measurements/
 ||cc.swiftype.com^
+||cca-lite.coinbase.com/metrics
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-channels-pixel.ex.co^
 ||cdn-ds.com/analytics/
@@ -13823,6 +13826,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||active.com/ig.track.js
 ||activity.fiverr.com^
 ||adalytics.io/api/view
+||adameve.com/emetrics/
 ||adblockeronstape.me/stat/
 ||adblockeronstreamtape.me/stat/
 ||adblockeronstreamtape.xyz/stat/
@@ -13971,6 +13975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
+||app.gnosispay.com/relay-gp-ph/
 ||appanalysis.banggood.com^
 ||apple-mapkit.com/mw/v1/reportAnalytics
 ||aptoide-mmp.aptoide.com^
@@ -14617,6 +14622,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||independent.co.uk/iframe/native-cookiesync-frames.html
 ||indiatimes.com/personalisation/logdata/
 ||indiatimes.com/savelogs?
+||indiegogo.com/speclayer/stdfp.js
 ||indmetric.rediff.com^
 ||inews.co.uk/rta2/
 ||infinityscans.net/api/collect
