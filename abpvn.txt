@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yNJGORyJzzEL0qZN828KKA
-! Version: 202509281101
+! Checksum: a5PDSrFl1s4z/gePgk6vQg
+! Version: 202509281111
 ! Title: ABPVN List
-! Last modified: 28 Sep 2025 11:01 UTC
+! Last modified: 28 Sep 2025 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 28 Sep 2025 13:03:30 UTC+7
-! Diff-Path: patches/20250928130330799.patch#abpvn
+! Last modified: 28 Sep 2025 18:04:35 UTC+7
+! Diff-Path: patches/20250928180435875.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -188,7 +188,7 @@ $popup,domain=truyenfull.vision
 ||phim.vkool8.net/images/ads/$image
 ||phim.vkool8.net/js/pov.js$script,~third-party
 ||phimhdctv.net^*.gif$image
-||phimmoichill.chat/newchill/$script,~third-party
+||phimmoichill.bz/newchill/$script,~third-party
 ||phimmoichillz.my/pop$image
 ||phimmoichillz.my^*.gif$image
 ||phimreview.org^*.gif$image
@@ -664,7 +664,7 @@ phimchill.life###pc-catfish
 phimchill.life##.popUpBannerBox
 phimdacap.tv###ads-popup
 phimhaytv.biz##.navbar-container + .container
-phimmoichill.chat###pm_quangcao
+phimmoichill.bz###pm_quangcao
 phimmoichillz.my###preload
 phimmoissz.info###adspm4u
 phimno1.pro##.block.ad
@@ -1119,7 +1119,7 @@ phim18hdxx.com##.under-player-pc-banner
 phim18vip.vip,pheclip.vet###pc-preload-modal
 phim18vip.vip,pheclip.vet##.quang-cao
 phim18vip.vip,sieudam.xyz###popup
-phimsex80.pro,phimsex12x.pro##.quangcaomobile
+phimsexpro.co.uk,phimsex12x.pro##.quangcaomobile
 phimsexvl69.net,trangsexdam.net,vlxx.rip###f186fb23a33995d91ce3c2212189178c8
 phimxxx.ai###adsbottom
 phym18.lol##.black-layout>div:nth-child(2)
