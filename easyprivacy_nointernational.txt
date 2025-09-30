@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hrux5Nhls5kqptQTi9cFxw
-! Version: 202509300621
+! Checksum: kEGUFeckwXzR3PY3hW+GKA
+! Version: 202509300631
 ! Title: EasyPrivacy without international filters
-! Last modified: 30 Sep 2025 06:21 UTC
+! Last modified: 30 Sep 2025 06:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5940,6 +5940,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.miui.com^
 ||trk.pinterest.com^$third-party
 ||yandexadexchange.net^
+! https://coveryourtracks.eff.org/ Cover your tracks test
+||do-not-tracker.org^
+||eviltracker.net^
+||trackersimulator.org^
 ! cloudfront
 ||d10lpsik1i8c69.cloudfront.net^
 ||d11bdev7tcn7wh.cloudfront.net^
