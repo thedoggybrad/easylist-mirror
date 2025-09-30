@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Vjol7v6ZlpoGbKWBxmCEAA
-! Version: 202509301611
+! Checksum: 7hWtZUVmKPghjVu2OJQqqQ
+! Version: 202509301621
 ! Title: ABP filters
-! Last modified: 30 Sep 2025 16:11 UTC
+! Last modified: 30 Sep 2025 16:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1205,6 +1205,8 @@ supertoinette.com#$#abort-on-property-read setInterval
 ||ladepeche.fr/taffrail^
 ||laprovence.com/fatalistic^
 ||e-sante.fr/responsiblenesses^
+rtl.be##div[class="adm-ad-loading"]
+lephoceen.fr##div[class*="ad_ad__"]
 ! #CV-662
 ||1yv1phk.jaz.sportauto.fr^$script
 ||1v9d7vx.jaz.sportauto.fr^$script
