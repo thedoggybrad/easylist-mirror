@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QmhNnAQss4XAG7uAZa4c7g
-! Version: 202510020711
+! Checksum: /U97TQKVQ5Mjn4j0zsOCAg
+! Version: 202510020721
 ! Title: EasyList without rules for adult sites
-! Last modified: 02 Oct 2025 07:11 UTC
+! Last modified: 02 Oct 2025 07:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31025,6 +31025,7 @@ browsershots.org#@#.advert_area
 ||izitrckr.com^
 ||iziyvirgnbgeb.site^
 ||izjzyykiyn.club^
+||izkivydhiqfjx.store^
 ||izlok.xyz^
 ||izoga.xyz^
 ||izrnvo.com^
@@ -66745,6 +66746,7 @@ filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 transfermarkt.co.uk##[referrerpolicy]
 appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,sitepoint.com,tld-list.com,twitch-tools.rootonline.de,wccftech.com##[rel*="sponsored"]
 warecracks.com,websiteoutlook.com##[rel="nofollow"]
+unknowncheats.me##[rel^="sponsored"]
 myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
 transfermarkt.com##[src*="https://www.transfermarkt.com/image/"]
@@ -67853,6 +67855,7 @@ woot.com##[dir="auto"]:has-text(ADVERTISEMENT)
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 kayak.com##[role="tab"]:has([class*="sponsored"])
+unknowncheats.me##[style*="justify-content"]:has([rel^="sponsored"]) + [style]
 crackwatcher.com##[style="background:none !important;"]:has([href^="https://www.kinguin.net"])
 spigotmc.org##[style="text-align: center"]:has-text(sponsored)
 manomano.*##a[class]:has(> .UWP_c8)
