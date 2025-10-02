@@ -9,6 +9,13 @@ Updates to this mirror are delivered by [@updaterbot-easylistmirror](https://git
 [![EasyList Mirror Updater](https://github.com/thedoggybrad/easylist-mirror/actions/workflows/updater.yml/badge.svg)](https://github.com/thedoggybrad/easylist-mirror/actions/workflows/updater.yml)
 
 
+## Donations
+TheDoggyBrad Software Labs is now accepting donations to help fund future projects.
+<br><br>
+Bitcoin Address:
+bc1qnf9alku0299wt5t46qcqu6leswww7rf2tx6kja
+
+
 ## Filterlists Mirror Links
 ### EasyList
 The primary filter that removes most of the advertisements in the web.<br>
