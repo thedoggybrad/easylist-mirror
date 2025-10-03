@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Umhyx1P648EAFk/I/+r98w
-! Version: 202510031222
+! Checksum: yOzCVschgQoJZYxwYoBrnA
+! Version: 202510031231
 ! Title: EasyList without rules for adult sites
-! Last modified: 03 Oct 2025 12:22 UTC
+! Last modified: 03 Oct 2025 12:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -60623,10 +60623,6 @@ browsershots.org#@#.advert_area
 /^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$third-party,xmlhttprequest,domain=1link.club|2embed.to|apiyoutube.cc|bestmp3converter.com|clicknupload.red|clicknupload.to|daddyhd.com|dood.wf|lulustream.com|mp4upload.com|poscitech.com|sportcast.life|streamhub.to|streamvid.net|tokybook.com|tvshows88.live|uqload.io
 !
 /\/[0-9a-f]{32}\/invoke\.js/$script,third-party
-!
-! url.rw popups
-||url.rw/*&a=
-||url.rw/*&mid=
 !
 ! https://github.com/easylist/easylist/commit/7a86afd
 /rest/carbon/api/scripts.js?
