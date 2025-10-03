@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: BkBW8zL2jsAimcagdICyXg
-! Version: 202510032131
+! Checksum: lzBFC7K29VLQLPyF/ly/4Q
+! Version: 202510032141
 ! Title: ABP filters
-! Last modified: 03 Oct 2025 21:31 UTC
+! Last modified: 03 Oct 2025 21:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1828,7 +1828,7 @@ samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/follow
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 ! #RM-9
 ! sl, sc
-instacart.*#$#race start; hide-if-matches-xpath './/span[text()]/ancestor-or-self::ad-fpsp-tag/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::*[@data-dfp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; hide-if-matches-xpath './/span[text()]/ancestor-or-self::*[@data-fp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]'; race stop;
+instacart.*#$#hide-if-matches-xpath './/span[text()]/ancestor-or-self::*[@data-fp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li[1]/ancestor-or-self::*[self::div[child::li] or self::li[not(parent::div)]][1]';
 ! ta
 instacart.*#$#hide-if-matches-xpath './/div[contains(@style,"display:")]/following::span[text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored")]/ancestor-or-self::div[@id][@class][1]';
 ! tc
