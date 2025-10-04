@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f30B+3T/NskkTCYJDaF/gw
-! Version: 202510042331
+! Checksum: K/0K2XT9Ap0DpZ0upg+8qA
+! Version: 202510042341
 ! Title: EasyList without rules for adult sites
-! Last modified: 04 Oct 2025 23:31 UTC
+! Last modified: 04 Oct 2025 23:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -20828,6 +20828,7 @@ browsershots.org#@#.advert_area
 ||buram.xyz^
 ||burbarkholpen.com^
 ||burbotssourly.cfd^
+||burdensome-chain.com^
 ||burdouraifou.net^
 ||bureaubittercomic.com^
 ||bureautrickle.com^
@@ -40787,6 +40788,7 @@ browsershots.org#@#.advert_area
 ||psipsustuwe.com^
 ||psiravinsastouw.net^
 ||psisbrach.digital^
+||psjtbuzcrj.com^
 ||pskuagktarplq.space^
 ||psma02.com^
 ||psmhpuuotdeby.store^
@@ -68559,6 +68561,7 @@ farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 woot.com##[dir="auto"]:has-text(ADVERTISEMENT)
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
+mangadex.org##[id] > .w-full:has([href$="?tab=recommendations"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 kayak.com##[role="tab"]:has([class*="sponsored"])
 unknowncheats.me##[style*="justify-content"]:has([rel^="sponsored"]) + [style]
