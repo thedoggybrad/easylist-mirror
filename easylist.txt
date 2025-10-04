@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510042331
+! Version: 202510042336
 ! Title: EasyList
-! Last modified: 04 Oct 2025 23:31 UTC
+! Last modified: 04 Oct 2025 23:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 00e774aa34e1c5af1e515ee1ac9f257d51d562c8
+! Commit: 8cc1e02614a0f687d7b85e25852355de2348720e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -20832,6 +20832,7 @@ browsershots.org#@#.advert_area
 ||buram.xyz^
 ||burbarkholpen.com^
 ||burbotssourly.cfd^
+||burdensome-chain.com^
 ||burdouraifou.net^
 ||bureaubittercomic.com^
 ||bureautrickle.com^
@@ -40791,6 +40792,7 @@ browsershots.org#@#.advert_area
 ||psipsustuwe.com^
 ||psiravinsastouw.net^
 ||psisbrach.digital^
+||psjtbuzcrj.com^
 ||pskuagktarplq.space^
 ||psma02.com^
 ||psmhpuuotdeby.store^
@@ -70102,6 +70104,7 @@ farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 woot.com##[dir="auto"]:has-text(ADVERTISEMENT)
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
+mangadex.org##[id] > .w-full:has([href$="?tab=recommendations"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 kayak.com##[role="tab"]:has([class*="sponsored"])
 unknowncheats.me##[style*="justify-content"]:has([rel^="sponsored"]) + [style]
