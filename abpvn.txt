@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eDoc5++bB00QL6l6X1utsw
-! Version: 202510060231
+! Checksum: 0azqZkdzsHCbhNrC+MvJlA
+! Version: 202510060241
 ! Title: ABPVN List
-! Last modified: 06 Oct 2025 02:31 UTC
+! Last modified: 06 Oct 2025 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 05 Oct 2025 23:05:29 UTC+7
-! Diff-Path: patches/20251005230529540.patch#abpvn
+! Last modified: 06 Oct 2025 09:32:40 UTC+7
+! Diff-Path: patches/20251006093240716.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -83,8 +83,8 @@ $popup,domain=truyenfull.vision
 ||ads.nghenhinvietnam.vn^$domain=nghenhinvietnam.vn
 ||ahaphimz.com/js/pov.js$script
 ||anime12.site^*.gif
-||anime1s.net/_next/image?url=https%3A%2F%2F*.ibyteimg.com$image
-||anime1s.net/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com$image
+||anime1s.com/_next/image?url=https%3A%2F%2F*.ibyteimg.com$image
+||anime1s.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com$image
 ||animevietsub.show/ads/$script
 ||animevietsub9.com/vast/$image
 ||api-gavang.gvtv1.com/banners/graph$xmlhttprequest,domain=xem1.gv03.live
@@ -401,7 +401,7 @@ $popup,domain=truyenfull.vision
 anime12.site###menubentrai
 anime12.site##.gnartyx-offads
 anime12.site,animetvn4.com,subnhanh1.org###fbox-background
-anime1s.net##div.py-2.md\:py-6.mx-auto.w-full.max-w-screen-3xl>div.relative
+anime1s.com##div.py-2.md\:py-6.mx-auto.w-full.max-w-screen-3xl>div.relative
 anime47.best###qc_clgt
 anime47.best###swiper-wrapper
 animehay.life###header-ads + center
