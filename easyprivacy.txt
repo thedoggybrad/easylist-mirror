@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510090826
+! Version: 202510090839
 ! Title: EasyPrivacy
-! Last modified: 09 Oct 2025 08:26 UTC
+! Last modified: 09 Oct 2025 08:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c36d1d55d81b906290363d98b6cc7f44250fbb0b
+! Commit: 6dcf9c2111cd419871faf6c34a68f33c7a7d6832
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11149,6 +11149,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nvidia.partners/telemetry/
 ||nwr.static.mmcdn.com^
 ||o.aolcdn.com/js/mg1.js
+||o.momently.info^
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
 ||obs.esnlocco.com^
 ||obs.jollyoutdoorjogger.com^
@@ -54827,6 +54828,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||gdh.postcodeloterij.nl/gdltm.js$domain=vriendenloterij.nl
+@@||hzcdn.io/bff/static/vendor/sourcepoint-lib/index.*.js$script,domain=marktplaats.nl
 @@||josiad.ns.nl/DG/DEFAULT/$xmlhttprequest
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
