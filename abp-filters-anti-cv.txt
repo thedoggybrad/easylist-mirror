@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: I9HcGU1cskouWdz9ykm6gw
-! Version: 202510091602
+! Checksum: BgXiNQwpqzdtr4iM0iymeg
+! Version: 202510091611
 ! Title: ABP filters
-! Last modified: 09 Oct 2025 16:02 UTC
+! Last modified: 09 Oct 2025 16:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2053,7 +2053,8 @@ dickssportinggoods.com##div[id*="dickssportinggoods/stores/top_banner_"]
 ! #RM-108
 ! ba
 slickdeals.net#$#hide-if-matches-xpath '//span[contains(text(),"Sponsored")][@data-partial="sponsor"]/ancestor-or-self::div[@data-role="announcementBar"][1]'
-slickdeals.net#$#hide-if-matches-xpath '//div[contains(@class,"displayAdContainer searchPage__")]/ancestor-or-self::div[@class="searchPage__headerContent"][1]'
+slickdeals.net#$#hide-if-matches-xpath '//div[contains(@class,"displayAdContainer")]/ancestor-or-self::div[@class="searchPage__headerContent"][1]'
+slickdeals.net##.displayAdContainer
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
