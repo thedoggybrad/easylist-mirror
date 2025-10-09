@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WkwTWlOpajV6d7ykLUJtXQ
-! Version: 202510090801
+! Checksum: pC0J/QvQG1qjs1RcnF17qQ
+! Version: 202510090811
 ! Title: ABPVN List
-! Last modified: 09 Oct 2025 08:01 UTC
+! Last modified: 09 Oct 2025 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 09 Oct 2025 09:30:05 UTC+7
-! Diff-Path: patches/20251009093005066.patch#abpvn
+! Last modified: 09 Oct 2025 15:07:35 UTC+7
+! Diff-Path: patches/20251009150735173.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -295,6 +295,7 @@ $popup,domain=truyenfull.vision
 ||blueseeddigital.com^$third-party
 ||cdn.adop.asia^
 ||cdn.tpmedia.online^
+||cdnstoremedia.com^
 ||cdnv.tpmedia.online^
 ||click.advertnative.com^
 ||cnt.trvdp.com^
@@ -305,6 +306,7 @@ $popup,domain=truyenfull.vision
 ||delivery.yomedia.vn^
 ||distinctrobin.com^
 ||ds.recrampwiped.com^
+||farawayinstallation.com^
 ||fv.togataurnfuls.com^
 ||fx.gearmanswings.com^
 ||gammaplatform.com^$third-party
@@ -1083,6 +1085,7 @@ vozer.io#@#[class^="div-gpt-ad"]
 ||sexdiaryx.to$csp=script-src 'self' 'unsafe-eval'
 ||sexlive.biz/_next/image?url=%2Fimages%2F*.avif&w=*&q=75$image
 ||sexlive.biz/mb66.mp4$media,~third-party
+||shekeli.io^*.gif$image
 ||sieukhung.fan^*.gif$image
 ||telegra.ph/file/$image,domain=cliphot69.pics
 ||truyensextv.com/anh/$image
@@ -1178,6 +1181,7 @@ sexhaynung.xyz###tut4ktream_idAdLink
 sexlive.biz,haysexvnn.com##.popup
 sextop.asia##div[style^="position:fixed;inset:0px;z-index:100000;"]
 sextop.asia,hls.playerfb.xyz###video_player ~ div[id]
+shekeli.io###catfish
 sieukhung.fan##.adspopupgiua
 sieukhung.fan##.adspopupleft
 sieukhung.fan##.adspopupright
