@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cr6DGSP2UVHp1VXAiaJ7cg
-! Version: 202510101101
+! Checksum: VsCDOu+fMf+FpXm5jFML0w
+! Version: 202510101111
 ! Title: EasyList without element hiding rules
-! Last modified: 10 Oct 2025 11:01 UTC
+! Last modified: 10 Oct 2025 11:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -953,6 +953,9 @@ wss://www.*.xyz/ws^$third-party
 /prebidlink/*$script
 /tagman/*$domain=~abelssoft.de
 _prebid.js$script
+! trackwilltrk.com CNAME
+://r.*/s1/$subdocument,third-party
+://t.*/s1/$subdocument,third-party
 !
 &sadbl=1&abtg=$third-party
 &sadbl=1&chu=$third-party
@@ -11640,6 +11643,7 @@ _800x80_
 ||ekyimyfomkms.xyz^
 ||ekzrpjskeowcf.online^
 ||eladove.com^
+||elapmysgi.com^
 ||elapsejollyinsolence.com^
 ||elasticad.net^
 ||elasticalsdebatic.org^
@@ -21165,6 +21169,7 @@ _800x80_
 ||maternitybrainless.com^
 ||mathads.com^
 ||mathematicsefficiencyburnt.com^
+||mathematicswhineconvene.com^
 ||mathertaped.life^
 ||matildawu.online^
 ||matinshell.help^
@@ -33055,6 +33060,7 @@ _800x80_
 ||sthevoyager.org^
 ||stibiumalcosol.cyou^
 ||sticalsdebaticalfe.info^
+||stickingallot.com^
 ||stickyadstv.com^
 ||stiesboxtop.top^
 ||stifeyuruna.life^
@@ -33112,6 +33118,7 @@ _800x80_
 ||stoorturtun.net^
 ||stootsou.net^
 ||stophurtfulunconscious.com^
+||stoppedgipsyundoubtedly.com^
 ||stopsoverreactcollations.com^
 ||storage-ad.com^
 ||storageimagedisplay.com^
@@ -33386,6 +33393,7 @@ _800x80_
 ||supposedsite.com^
 ||suppressedbottlesenjoyable.com^
 ||suppresseduphousing.com^
+||suppresswhileobvious.com^
 ||supqajfecgjv.com^
 ||supremesavvyswan.com^
 ||suptessnects.com^
@@ -37158,6 +37166,7 @@ _800x80_
 ||warslerascill.help^
 ||warthcoes.com^
 ||wartplisse.help^
+||waruggeefiljt.space^
 ||warumbistdusoarm.space^
 ||wary-corner.com^
 ||wary-prior.com^
