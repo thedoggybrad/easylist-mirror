@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510101104
+! Version: 202510101101
 ! Title: EasyList
-! Last modified: 10 Oct 2025 11:04 UTC
+! Last modified: 10 Oct 2025 11:01 UTC
 ! Expires: 4 days (update frequency)
-! Commit: afccff25793b62862d16dd9d4cd65ffc69b28385
+! Commit: 1005e5e1994aed2dfb444e17b470422cf5964707
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -957,9 +957,6 @@ wss://www.*.xyz/ws^$third-party
 /prebidlink/*$script
 /tagman/*$domain=~abelssoft.de
 _prebid.js$script
-! trackwilltrk.com CNAME
-://r.*/s1/$subdocument,third-party
-://t.*/s1/$subdocument,third-party
 ! 
 &sadbl=1&abtg=$third-party
 &sadbl=1&chu=$third-party
@@ -25720,7 +25717,6 @@ browsershots.org#@#.advert_area
 ||ekyimyfomkms.xyz^
 ||ekzrpjskeowcf.online^
 ||eladove.com^
-||elapmysgi.com^
 ||elapsejollyinsolence.com^
 ||elasticad.net^
 ||elasticalsdebatic.org^
@@ -47136,7 +47132,6 @@ browsershots.org#@#.advert_area
 ||sthevoyager.org^
 ||stibiumalcosol.cyou^
 ||sticalsdebaticalfe.info^
-||stickingallot.com^
 ||stickyadstv.com^
 ||stiesboxtop.top^
 ||stifeyuruna.life^
@@ -51240,7 +51235,6 @@ browsershots.org#@#.advert_area
 ||warslerascill.help^
 ||warthcoes.com^
 ||wartplisse.help^
-||waruggeefiljt.space^
 ||warumbistdusoarm.space^
 ||wary-corner.com^
 ||wary-prior.com^
