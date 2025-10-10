@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3Hvdw1YVWPLed+0WSUq35g
-! Version: 202510101101
+! Checksum: 4OrSPc2XlT53gi+KDGyt9Q
+! Version: 202510101111
 ! Title: EasyList without rules for adult sites
-! Last modified: 10 Oct 2025 11:01 UTC
+! Last modified: 10 Oct 2025 11:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -953,6 +953,9 @@ wss://www.*.xyz/ws^$third-party
 /prebidlink/*$script
 /tagman/*$domain=~abelssoft.de
 _prebid.js$script
+! trackwilltrk.com CNAME
+://r.*/s1/$subdocument,third-party
+://t.*/s1/$subdocument,third-party
 !
 &sadbl=1&abtg=$third-party
 &sadbl=1&chu=$third-party
@@ -25713,6 +25716,7 @@ browsershots.org#@#.advert_area
 ||ekyimyfomkms.xyz^
 ||ekzrpjskeowcf.online^
 ||eladove.com^
+||elapmysgi.com^
 ||elapsejollyinsolence.com^
 ||elasticad.net^
 ||elasticalsdebatic.org^
@@ -35238,6 +35242,7 @@ browsershots.org#@#.advert_area
 ||maternitybrainless.com^
 ||mathads.com^
 ||mathematicsefficiencyburnt.com^
+||mathematicswhineconvene.com^
 ||mathertaped.life^
 ||matildawu.online^
 ||matinshell.help^
@@ -47128,6 +47133,7 @@ browsershots.org#@#.advert_area
 ||sthevoyager.org^
 ||stibiumalcosol.cyou^
 ||sticalsdebaticalfe.info^
+||stickingallot.com^
 ||stickyadstv.com^
 ||stiesboxtop.top^
 ||stifeyuruna.life^
@@ -47185,6 +47191,7 @@ browsershots.org#@#.advert_area
 ||stoorturtun.net^
 ||stootsou.net^
 ||stophurtfulunconscious.com^
+||stoppedgipsyundoubtedly.com^
 ||stopsoverreactcollations.com^
 ||storage-ad.com^
 ||storageimagedisplay.com^
@@ -47459,6 +47466,7 @@ browsershots.org#@#.advert_area
 ||supposedsite.com^
 ||suppressedbottlesenjoyable.com^
 ||suppresseduphousing.com^
+||suppresswhileobvious.com^
 ||supqajfecgjv.com^
 ||supremesavvyswan.com^
 ||suptessnects.com^
@@ -51231,6 +51239,7 @@ browsershots.org#@#.advert_area
 ||warslerascill.help^
 ||warthcoes.com^
 ||wartplisse.help^
+||waruggeefiljt.space^
 ||warumbistdusoarm.space^
 ||wary-corner.com^
 ||wary-prior.com^
