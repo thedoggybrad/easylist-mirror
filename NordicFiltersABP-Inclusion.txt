@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2tf5Kh1QV5cRvgqfHxwljA
-! Version: 202510101101
+! Checksum: JWGPBiUICPG2lOLB9AR4Vw
+! Version: 202510101111
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 10 Oct 2025 11:01 UTC
+! Last modified: 10 Oct 2025 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -9004,6 +9004,9 @@ wss://www.*.xyz/ws^$third-party
 /prebidlink/*$script
 /tagman/*$domain=~abelssoft.de
 _prebid.js$script
+! trackwilltrk.com CNAME
+://r.*/s1/$subdocument,third-party
+://t.*/s1/$subdocument,third-party
 !
 &sadbl=1&abtg=$third-party
 &sadbl=1&chu=$third-party
@@ -33764,6 +33767,7 @@ browsershots.org#@#.advert_area
 ||ekyimyfomkms.xyz^
 ||ekzrpjskeowcf.online^
 ||eladove.com^
+||elapmysgi.com^
 ||elapsejollyinsolence.com^
 ||elasticad.net^
 ||elasticalsdebatic.org^
@@ -43289,6 +43293,7 @@ browsershots.org#@#.advert_area
 ||maternitybrainless.com^
 ||mathads.com^
 ||mathematicsefficiencyburnt.com^
+||mathematicswhineconvene.com^
 ||mathertaped.life^
 ||matildawu.online^
 ||matinshell.help^
@@ -55179,6 +55184,7 @@ browsershots.org#@#.advert_area
 ||sthevoyager.org^
 ||stibiumalcosol.cyou^
 ||sticalsdebaticalfe.info^
+||stickingallot.com^
 ||stickyadstv.com^
 ||stiesboxtop.top^
 ||stifeyuruna.life^
@@ -55236,6 +55242,7 @@ browsershots.org#@#.advert_area
 ||stoorturtun.net^
 ||stootsou.net^
 ||stophurtfulunconscious.com^
+||stoppedgipsyundoubtedly.com^
 ||stopsoverreactcollations.com^
 ||storage-ad.com^
 ||storageimagedisplay.com^
@@ -55510,6 +55517,7 @@ browsershots.org#@#.advert_area
 ||supposedsite.com^
 ||suppressedbottlesenjoyable.com^
 ||suppresseduphousing.com^
+||suppresswhileobvious.com^
 ||supqajfecgjv.com^
 ||supremesavvyswan.com^
 ||suptessnects.com^
@@ -59282,6 +59290,7 @@ browsershots.org#@#.advert_area
 ||warslerascill.help^
 ||warthcoes.com^
 ||wartplisse.help^
+||waruggeefiljt.space^
 ||warumbistdusoarm.space^
 ||wary-corner.com^
 ||wary-prior.com^
@@ -81322,8 +81331,8 @@ porngals4.com##.sb250
 pornflix.cc##.sbar
 7mmtv.sx,7tv045.com,7tv047.com##.set_height_250
 sextb.date##.sextb_300
-gay-streaming.com,gayvideo.me##.sgpb-popup-dialog-main-div-wrapper
-gay-streaming.com,gayvideo.me##.sgpb-popup-overlay
+fullporno.site,gay-streaming.com,gayvideo.me##.sgpb-popup-dialog-main-div-wrapper
+fullporno.site,gay-streaming.com,gayvideo.me##.sgpb-popup-overlay
 paradisehill.cc##.shapka
 thehentai.net##.showAd
 h2porn.com##.side-spot
