@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510121709
+! Version: 202510121725
 ! Title: EasyList
-! Last modified: 12 Oct 2025 17:09 UTC
+! Last modified: 12 Oct 2025 17:25 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a6e3db77a699ebaa85e1dcd287ddbf6fa88f39f3
+! Commit: 449dcbf9864f630f198ff9a5f12f73fd679702fc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -963,8 +963,8 @@ wss://www.*.xyz/ws^$third-party
 /tagman/*$domain=~abelssoft.de
 _prebid.js$script
 ! trackwilltrk.com CNAME
-://r.*/s1/$subdocument,third-party
-://t.*/s1/$subdocument,third-party
+://r.*/s1/$other,subdocument,third-party
+://t.*/s1/$other,subdocument,third-party
 ! 
 &sadbl=1&abtg=$third-party
 &sadbl=1&chu=$third-party
@@ -20130,6 +20130,7 @@ browsershots.org#@#.advert_area
 ||birsleunhired.com^
 ||birthday3452.fun^
 ||birthjeans.icu^
+||birthsprated.cyou^
 ||biscuitmortify.com^
 ||bisetsoliped.com^
 ||bismuthclarre.qpon^
@@ -21534,6 +21535,7 @@ browsershots.org#@#.advert_area
 ||caukeethobechid.com^
 ||caukoaph.net^
 ||cauliflowertoaster.com^
+||caulisbacile.qpon^
 ||caulishanker.qpon^
 ||cauloterefutes.cyou^
 ||cauloupsamiki.net^
@@ -46150,6 +46152,7 @@ browsershots.org#@#.advert_area
 ||sessionnewspaperthirteenth.com^
 ||seteamsobtantion.com^
 ||setitoefanyor.com^
+||setnessunbar.rest^
 ||settle1266.fun^
 ||settledapproximatesuit.com^
 ||settledchagrinpass.com^
@@ -47927,6 +47930,7 @@ browsershots.org#@#.advert_area
 ||svemtrwkspemr.com^
 ||svgmirkagtgcz.space^
 ||svgsmanuals.life^
+||sviqwxtomikyg.store^
 ||svn-defender.pro^
 ||svnnwhxzufkzb.site^
 ||svntrk.com^
@@ -49726,6 +49730,7 @@ browsershots.org#@#.advert_area
 ||tzegilo.com^
 ||tzepbopyvsdav.site^
 ||tzifafpdvzcxl.website^
+||tzisicgisw.com^
 ||tzmupfzuwoqtl.space^
 ||tznshjbqaaw.com^
 ||tzokruogxo.com^
@@ -49981,6 +49986,7 @@ browsershots.org#@#.advert_area
 ||ulwexxyucrdsm.online^
 ||ulwfzxqtmzsfm.space^
 ||ulwsfvkfwrjyw.xyz^
+||ulymhoghpradf.space^
 ||ulziylkdhxcap.store^
 ||umbellafrother.top^
 ||umbkhpryixebl.space^
@@ -60354,6 +60360,7 @@ browsershots.org#@#.advert_area
 ||iwanttodeliver.com^$third-party
 ||ixspublic.com^$third-party
 ||javbucks.com^$third-party
+||javhd-trk.com^$third-party
 ||joyourself.com^$third-party
 ||kadam.ru^$third-party
 ||kaplay.com^$third-party
@@ -73936,6 +73943,7 @@ sexvid.xxx##.under_player_link
 upornia.com,upornia.tube##.underplayer > section
 thegay.com##.underplayer__info > div:not([class])
 videojav.com##.underplayer_banner
+vjav.com,vjav.tube##.undp
 redtube.com,tube8.com,you-porn.com,youporn.com##.upgradeButtonContainer
 tryindianporn.com##.uvk
 hentaiprn.com##.v-overlay
@@ -74322,6 +74330,7 @@ tokyomotion.com##.is-gapless > .has-text-centered:has(> div > .adv)
 rule34video.com##.item.thumb:has(> [title="Advertisement"])
 4kporn.xxx,crazyporn.xxx,hoes.tube,love4porn.com##.item:has(> [class*="ads"])
 stockingfetishvideo.com##.item:has(> [href*="/?action=trace&"])
+vjav.com,vjav.tube##.left + div:has(> div[class] > [id^="ntv"])
 vagina.nl##.list-item:has([data-idzone])
 adultgamesworld.com##.masonry-layout__panel:has(a[href^="https://access-the-website.com/"])
 darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##.no-gutters > .col-6:has(> #special-block)
