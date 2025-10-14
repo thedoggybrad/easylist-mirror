@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510140130
+! Version: 202510140142
 ! Title: EasyPrivacy
-! Last modified: 14 Oct 2025 01:30 UTC
+! Last modified: 14 Oct 2025 01:42 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 92139994101f6b9aab111871c44f64a4e8715ca4
+! Commit: 559be0b47b9466161b7c18f7f369562c8076d676
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3699,6 +3699,7 @@ omni.soundestlink.com$image
 ||sjpf.io^
 ||skcrtxr.com^
 ||smartmetrics.co.uk^
+||smartytouch.co^
 ||snptrk.com^
 ||soapfighters.com^
 ||solutionshindsight.net^
@@ -53447,6 +53448,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||tokopedia.com/helios-client/client-log
 ! Italian
 /~shared/do/~/count/?$image
+||adnkronos.com/isf-rum/
 ||alfemminile.com/logpix.php
 ||altervista.org/js/contatore.js
 ||altervista.org/js_tags/contatore.js
