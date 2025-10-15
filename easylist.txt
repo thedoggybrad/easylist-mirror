@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510151240
+! Version: 202510151253
 ! Title: EasyList
-! Last modified: 15 Oct 2025 12:40 UTC
+! Last modified: 15 Oct 2025 12:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 893ff0e00a524f0a0e44d612d237f33329a67753
+! Commit: 76d1ae19d6066256e59299bd607c5a30881a2eb6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -22198,6 +22198,7 @@ browsershots.org#@#.advert_area
 ||churtoustob.net^
 ||chwyiorcaxapi.store^
 ||chxipdpddjlpe.global^
+||chyackdoitkin.cfd^
 ||chyakunbelt.cfd^
 ||chyaziclocks.rest^
 ||chyeqolaelmpo.site^
@@ -30390,6 +30391,7 @@ browsershots.org#@#.advert_area
 ||hiajcgduerzom.space^
 ||hiancortghcfo.store^
 ||hiasor.com^
+||hibawsvdvfsul.site^
 ||hibegyqmbinwo.site^
 ||hibids10.com^
 ||hidcolouredclink.com^
@@ -72378,6 +72380,13 @@ kaufland.*##.spads-recommender
 kaufland.*##.sponsored-brand-products-container
 kaufland.*##.teaser-orchestration__wrapper--online
 kaufland.*#?#.recommender-wrapper:-abp-contains(Gesponsert)
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##.CGMG:has(.c_3eP-badge-content)
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##.Tl2M-contentInner:has(.c_3eP-badge-content)
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##div[class$="-result-item-container"]:has(a[href*="/s/clickthrough.jsp?"])
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##div[class$="-result-item-container"]:has(div[class$="-ad-badge"])
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##div[data-resultid$="-sponsored"]
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##div[role="button"]:has(.c_3eP-badge-content)
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##div[role="link"]:has(.c_3eP-badge-content)
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
 leroymerlin.*##li[data-product-list-id*="sponsored"]
