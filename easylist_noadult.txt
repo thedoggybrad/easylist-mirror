@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1P889a0VxonYpzwMxtImFw
-! Version: 202510151242
+! Checksum: VT5h+Rdc8RAtfVxCX/3ssQ
+! Version: 202510151251
 ! Title: EasyList without rules for adult sites
-! Last modified: 15 Oct 2025 12:42 UTC
+! Last modified: 15 Oct 2025 12:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -70839,6 +70839,13 @@ kaufland.*##.spads-recommender
 kaufland.*##.sponsored-brand-products-container
 kaufland.*##.teaser-orchestration__wrapper--online
 kaufland.*#?#.recommender-wrapper:-abp-contains(Gesponsert)
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##.CGMG:has(.c_3eP-badge-content)
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##.Tl2M-contentInner:has(.c_3eP-badge-content)
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##div[class$="-result-item-container"]:has(a[href*="/s/clickthrough.jsp?"])
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##div[class$="-result-item-container"]:has(div[class$="-ad-badge"])
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##div[data-resultid$="-sponsored"]
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##div[role="button"]:has(.c_3eP-badge-content)
+kayak.*,momondo.*,checkfelix.com,swoodoo.*##div[role="link"]:has(.c_3eP-badge-content)
 laredoute.*###hp-sponsored-banner
 lazada.*##.pdp-block__product-ads
 leroymerlin.*##li[data-product-list-id*="sponsored"]
