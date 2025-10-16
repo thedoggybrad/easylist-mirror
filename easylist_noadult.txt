@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IoWRHV25Kj4z32hx28kG2A
-! Version: 202510162011
+! Checksum: zoBQTDM1a7/qHCges9SVIQ
+! Version: 202510162021
 ! Title: EasyList without rules for adult sites
-! Last modified: 16 Oct 2025 20:11 UTC
+! Last modified: 16 Oct 2025 20:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -24002,6 +24002,7 @@ browsershots.org#@#.advert_area
 ||dayqy.space^
 ||daytimereductionactually.com^
 ||dayuxxtabgzpu.site^
+||dayxprgf.com^
 ||dazedarticulate.com^
 ||dazedengage.com^
 ||dazhantai.com^
@@ -71500,6 +71501,7 @@ etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 engadget.com##[data-test="top-ad"]
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
+skyscanner.com##[data-testid="inline-ad-panel-desktop-layout"]:has([data-testid="adInfoBtn"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 woot.com##[dir="auto"]:has-text(ADVERTISEMENT)
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
@@ -71620,6 +71622,7 @@ yandex.com##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
 autotrader.co.uk##li[class]:has(span[data-testid="FEATURED_LISTING"])
+canadiantire.ca##li[data-testid="product-grids"]:has(.nl-product-card__sponsored)
 aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"])
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
