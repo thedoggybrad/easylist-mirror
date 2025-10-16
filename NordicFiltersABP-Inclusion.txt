@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: o61IbPJ2MaM/Y9WWhjfQcQ
-! Version: 202510162011
+! Checksum: YQmXexvE0+7EymD1RIu71g
+! Version: 202510162021
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Oct 2025 20:11 UTC
+! Last modified: 16 Oct 2025 20:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -32034,6 +32034,7 @@ browsershots.org#@#.advert_area
 ||dayqy.space^
 ||daytimereductionactually.com^
 ||dayuxxtabgzpu.site^
+||dayxprgf.com^
 ||dazedarticulate.com^
 ||dazedengage.com^
 ||dazhantai.com^
@@ -81068,6 +81069,7 @@ etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 engadget.com##[data-test="top-ad"]
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
+skyscanner.com##[data-testid="inline-ad-panel-desktop-layout"]:has([data-testid="adInfoBtn"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 woot.com##[dir="auto"]:has-text(ADVERTISEMENT)
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
@@ -81188,6 +81190,7 @@ yandex.com##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
 autotrader.co.uk##li[class]:has(span[data-testid="FEATURED_LISTING"])
+canadiantire.ca##li[data-testid="product-grids"]:has(.nl-product-card__sponsored)
 aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"])
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
@@ -81850,6 +81853,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+cruisecritic.com#?#.block:has(a[data-tracking]:-abp-contains(Sponsored))
 target.com#?#[data-test="ProductCardVariantRecommendation"]:-abp-contains(Sponsored)
 samsclub.com#?#li[data-slide]:-abp-contains(Sponsored)
 coles.com.au#?#[role="presentation"]:has([data-testid="product-tile"]:-abp-contains(Sponsored))
