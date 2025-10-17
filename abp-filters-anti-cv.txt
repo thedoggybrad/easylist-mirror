@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: HCpAJcP6DuymFnqeH/pPsg
-! Version: 202510171731
+! Checksum: i5riejH6XcDyrkgWvJ8tcQ
+! Version: 202510171742
 ! Title: ABP filters
-! Last modified: 17 Oct 2025 17:31 UTC
+! Last modified: 17 Oct 2025 17:42 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -557,29 +557,29 @@ threenow.co.nz#$#override-property-read Object.prototype.adConfigId undefined; j
 marketwatch.com,wsj.com#$#abort-on-property-write window.__buildAd;
 marketwatch.com#$#hide-if-contains-visible-text /Advertisement/ 'div[class^="container"]' 'div>span'
 ! CV-1364
-||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|dictionary.cambridge.org|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
+||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|dictionary.cambridge.org|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com|gutefrage.net
 ||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
 sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 malaymail.com,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /error-report.com/
 sankei.com,timesofindia.indiatimes.com,dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,winfuture.de,gutefrage.net,huffpost.com,collinsdictionary.com#$#blob-override '/.*/' ''
-dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,gutefrage.net,collinsdictionary.com#$#override-property-read window.confirm noopFunc
+dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,collinsdictionary.com#$#override-property-read window.confirm noopFunc
 loawa.com,malaymail.com,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /EventTarget.*prototype.*addEventListener.*Map/
 huffpost.com#$#json-prune 'RT-1562-AdShield-script-on-Huffpost RT-1720-ads_bullwhip-hp'
 timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read googletag emptyObj; event-override message disable /^r_/; prevent-listener message /postMessage|error-report|adb/;
 timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined;
-timesofindia.indiatimes.com#$#abort-on-iframe-property-read localStorage;  override-property-read window.confirm noopFunc; override-property-read pbjs emptyObj; abort-on-iframe-property-read sessionStorage; override-property-read dataLayer emptyArray; abort-on-iframe-property-read caches;
+timesofindia.indiatimes.com#$#abort-on-iframe-property-read localStorage; override-property-read pbjs emptyObj; abort-on-iframe-property-read sessionStorage; override-property-read dataLayer emptyArray; abort-on-iframe-property-read caches;
 pons.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined;
 ||0.loader.gutefrage.net/article^$script,domain=gutefrage.net
 ||0.as.sourceforge.net/article^$script,domain=sourceforge.net
 ||0.content-loader.com/article^$script,third-party,domain=timesofindia.indiatimes.com|sankei.com|dictionary.cambridge.org|bab.la|pons.com|loawa.com|gazetaprawna.pl|winfuture.de|collinsdictionary.com|malaymail.com|tz.de
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
-winfuture.de#$#override-property-read Date.now noopFunc
-winfuture.de#$#abort-on-property-write window.confirm
-winfuture.de#$#abort-on-property-write window.alert
-||fb.html-load.com^$script,domain=winfuture.de
-||content-loader.com^$script,domain=winfuture.de
-winfuture.de#$#override-property-read Element.prototype.remove noopFunc
+gutefrage.net,timesofindia.indiatimes.com,wetter.com,winfuture.de#$#override-property-read Date.now noopFunc
+gutefrage.net,timesofindia.indiatimes.com,wetter.com,winfuture.de#$#abort-on-property-write window.confirm
+gutefrage.net,timesofindia.indiatimes.com,wetter.com,winfuture.de#$#abort-on-property-write window.alert
+||fb.html-load.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|wetter.com|winfuture.de
+||content-loader.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|wetter.com|winfuture.de
+gutefrage.net,timesofindia.indiatimes.com,wetter.com,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
