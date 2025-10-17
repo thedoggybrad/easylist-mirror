@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ipoo5Cu7z6OsN4qJ1QPB6Q
-! Version: 202510170701
+! Checksum: BVs1B9MtQpz9ucpuGfBJMA
+! Version: 202510170711
 ! Title: EasyList without element hiding rules
-! Last modified: 17 Oct 2025 07:01 UTC
+! Last modified: 17 Oct 2025 07:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -675,6 +675,7 @@
 /sticky_ads.js$script
 /stickyad.js$script
 /stickyads.js$script
+/storage/js/videojs.sda.js$script
 /style_ad.css$stylesheet
 /suurl4.php?$third-party
 /suurl5.php$third-party
@@ -709,7 +710,6 @@
 /videoads/*$~xmlhttprequest
 /videojs.ads-$script,stylesheet
 /videojs.ads.css$stylesheet
-/videojs.sda.js$script
 /view/ad/*$subdocument
 /view_banner.php$image
 /virtuagirlhd.$image
@@ -987,6 +987,7 @@ _prebid.js$script
 /anti-adblock/*$~stylesheet
 /blockblock/blockblock.jquery.js$script
 /jgcabd-detect-$script
+/js/adblockdetect.js$script
 /no-adblock/*$script,stylesheet
 ! *** easylist:easylist/easylist_general_block_dimensions.txt ***
 -120-600.
@@ -11584,6 +11585,7 @@ _800x80_
 ||easythedate-casual.com^
 ||eatcarvedfootprints.com^
 ||eautifulasaweathercoc.org^
+||eavakddcdofik.site^
 ||eavefrom.net^
 ||eavesdroppingfurniture.com^
 ||eaxmvpgmvsazo.site^
@@ -15346,6 +15348,7 @@ _800x80_
 ||gpcrn.com^
 ||gpfhlajkvdhvv.space^
 ||gpidiqhuncc.com^
+||gpjqjerjtp.com^
 ||gplansforourc.org^
 ||gplywfirosiwd.one^
 ||gpmznplrczobob.com^
