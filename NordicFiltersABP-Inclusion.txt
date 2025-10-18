@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9+Rp4zna8O02PZSBt8rflg
-! Version: 202510180221
+! Checksum: TgdMY8Csf1+8K0RuDyLmwA
+! Version: 202510180231
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 18 Oct 2025 02:21 UTC
+! Last modified: 18 Oct 2025 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -58147,6 +58147,7 @@ browsershots.org#@#.advert_area
 ||toptrendyinc.com^
 ||topworkredbay.shop^
 ||toquetbircher.com^
+||toranarumex.com^
 ||torcellane.world^
 ||torchettechy.qpon^
 ||torchfriendlypay.com^
@@ -61065,6 +61066,7 @@ browsershots.org#@#.advert_area
 ||weakdesire.pro^
 ||weakermumrespect.com^
 ||wealthextend.com^
+||wealthn.com^
 ||wealthstage.cyou^
 ||wealthypress.pro^
 ||weanerssouls.com^
@@ -82213,6 +82215,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
+euronews.com#?#.the-media-object--has-sponsored:-abp-contains(/In partnership with|In collaborazione con|En partenariat avec|Mit Unterstützung von|En colaboración con|Em parceria com|We współpracy z|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|با همکاری/)
 cruisecritic.com#?#.block:has(a[data-tracking]:-abp-contains(Sponsored))
 target.com#?#[data-test="ProductCardVariantRecommendation"]:-abp-contains(Sponsored)
 samsclub.com#?#li[data-slide]:-abp-contains(Sponsored)
