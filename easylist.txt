@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510181036
+! Version: 202510181046
 ! Title: EasyList
-! Last modified: 18 Oct 2025 10:36 UTC
+! Last modified: 18 Oct 2025 10:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 76f5e13c5db58e8dd8b255932680fb3dcf1d7525
+! Commit: b1762ed761b529e37c7707879dc04006ad7fb86a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -24420,6 +24420,7 @@ browsershots.org#@#.advert_area
 ||deservetourism.qpon^
 ||desgolurkom.com^
 ||deshelioptiletor.com^
+||designbin.lol^
 ||desiremolecule.com^
 ||desistalazor.rest^
 ||deskgrift.rest^
@@ -72980,6 +72981,7 @@ dailydot.com##footer
 law.com,topcultured.com##h3
 kazwire.com##h3.tracking-widest
 drive.com.au##hr
+linkedin.com##iframe[componentkey$="_ad"]
 nordstrom.com##iframe[data-revjet-options]
 pixiv.net##iframe[height="300"][name="responsive"]
 pixiv.net##iframe[height="520"][name="expandedFooter"]
