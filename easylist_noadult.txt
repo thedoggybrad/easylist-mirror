@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: shuppdBbMC1ECaTUup2IHw
-! Version: 202510181451
+! Checksum: 1Wnzn7GtxVgX5UmrpCMf7w
+! Version: 202510181501
 ! Title: EasyList without rules for adult sites
-! Last modified: 18 Oct 2025 14:51 UTC
+! Last modified: 18 Oct 2025 15:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -478,7 +478,6 @@
 /legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?$image
 /link?z=$subdocument
-/livejasmin.$~xmlhttprequest,domain=~livejasmin.com
 /lmaz-ads-bannesr/*$script
 /mads.php$subdocument
 /maven/am.js$script
@@ -24491,6 +24490,7 @@ browsershots.org#@#.advert_area
 ||deyswaxer.help^
 ||dezaleymorcote.life^
 ||dezna.online^
+||dfaksbltiobcn.website^
 ||dfbwlahtm.com^
 ||dfdgfruitie.xyz^
 ||dfdgkwyfharug.online^
@@ -72176,6 +72176,7 @@ amazon.*###sponsoredProducts2_feature_div
 amazon.*###sponsoredProducts_feature_div
 amazon.*###typ-recommendations-stripe-1
 amazon.*###typ-recommendations-stripe-2
+amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.amzn-safe-frame-container
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
