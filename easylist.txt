@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510181448
+! Version: 202510181457
 ! Title: EasyList
-! Last modified: 18 Oct 2025 14:48 UTC
+! Last modified: 18 Oct 2025 14:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e2ff5c5aa68afe24d8563667583a69f1e5ecff78
+! Commit: e9788575f6f770ea9179571d0e470380c597db15
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -482,7 +482,6 @@
 /legion-advertising-atlasastro/*$script
 /li.blogtrottr.com/imp?$image
 /link?z=$subdocument
-/livejasmin.$~xmlhttprequest,domain=~livejasmin.com
 /lmaz-ads-bannesr/*$script
 /mads.php$subdocument
 /maven/am.js$script
@@ -24495,6 +24494,7 @@ browsershots.org#@#.advert_area
 ||deyswaxer.help^
 ||dezaleymorcote.life^
 ||dezna.online^
+||dfaksbltiobcn.website^
 ||dfbwlahtm.com^
 ||dfdgfruitie.xyz^
 ||dfdgkwyfharug.online^
@@ -73717,6 +73717,7 @@ amazon.*###sponsoredProducts2_feature_div
 amazon.*###sponsoredProducts_feature_div
 amazon.*###typ-recommendations-stripe-1
 amazon.*###typ-recommendations-stripe-2
+amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.amzn-safe-frame-container
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
