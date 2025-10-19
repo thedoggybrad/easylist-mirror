@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510191718
+! Version: 202510191744
 ! Title: EasyList
-! Last modified: 19 Oct 2025 17:18 UTC
+! Last modified: 19 Oct 2025 17:44 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 10509e0e75d41425fc2974db9766f218a00a79a4
+! Commit: 96fab91347a3290e6f37cde9194fd9fa6efa240f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -27645,6 +27645,7 @@ browsershots.org#@#.advert_area
 ||fimblespillow.digital^
 ||fimldboqdwjsq.site^
 ||fimserve.com^
+||fimvwuzugaxq.com^
 ||fin.ovh^
 ||finalice.net^
 ||finalisexilian.rest^
@@ -33991,6 +33992,7 @@ browsershots.org#@#.advert_area
 ||kind-lecture.com^
 ||kindhearted-building.pro^
 ||kindhearted-middle.pro^
+||kindjalareolas.cyou^
 ||kindlesseepage.digital^
 ||kindleunfocusedunpaired.com^
 ||kindlyoutsellunderling.com^
@@ -73700,7 +73702,6 @@ fastcompany.com##.sticky:has(.ad-container)
 royale-games.com##.stream-item
 scamwarners.com##.subheader:has(> ins.adsbygoogle)
 thesun.co.uk##.sun-grid-container:has([class*="ad_widget"])
-bing.com##.ta_c:has-text(Sponsored)
 myrgv.com##.td_block_wrap:has(a[href*="/ask-the-expert/"])
 independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad)
 salon.com##.title:has-text(Advertisement)
@@ -74519,6 +74520,7 @@ bing.com##.b_spa_adblock
 bing.com##.br-poleoffcarousel
 bing.com##.mapsTextAds
 bing.com##.mma_il
+bing.com##.nad_ctn
 bing.com##.pa_sb
 bing.com##.productAd
 bing.com##.ra_car_block
@@ -74683,6 +74685,7 @@ tripadvisor.com#?#.tkvEM:-abp-contains(Sponsored)
 twitter.com,x.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
 vofomovies.info#?#a13:-abp-contains( Ad)
 ! bing
+bing.com#?#.ta_c:has-text(Sponsored)
 bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:-abp-contains(/^([Aa]mazon(\.[acdefinps][aeglnorst]m?\.?[abjmtu]?[kprux]?)?|Best Buy|Booking\.com|eBay|eDreams|Lenovo US|Trip\.com|Tripadvisor|Walmart)$/))
 ! top-level domain wildcard
 tripadvisor.*#?#.AaFRW:-abp-contains(Sponsored)
