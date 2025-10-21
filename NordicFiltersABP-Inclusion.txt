@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QGL7WRuSUqFfbbXkbBkOGw
-! Version: 202510211122
+! Checksum: heQrtTxDN+FwMHE3iD08hw
+! Version: 202510211141
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 Oct 2025 11:22 UTC
+! Last modified: 21 Oct 2025 11:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -27286,6 +27286,7 @@ browsershots.org#@#.advert_area
 ||awkwardemergency.com^
 ||awldqkxptghkz.online^
 ||awlesssagy.click^
+||awllcoafrl.com^
 ||awlov.info^
 ||awltovhc.com^
 ||awmbed.com^
@@ -28413,6 +28414,7 @@ browsershots.org#@#.advert_area
 ||bkqfabzewbygc.site^
 ||bkqklqvgoggwv.top^
 ||bkqykixrzrgwr.space^
+||bkrwesbxbu.com^
 ||bkrxfveyilyqu.site^
 ||bkssfffcsbfke.website^
 ||bktyqhnikxjxqn.com^
@@ -49125,6 +49127,7 @@ browsershots.org#@#.advert_area
 ||perpetraterummage.com^
 ||perpetratorjeopardize.com^
 ||perplexbrushatom.com^
+||perqewpeofczl.store^
 ||perronsplyer.help^
 ||perryvolleyball.com^
 ||persecess.qpon^
@@ -81341,6 +81344,10 @@ checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
 euronews.com#?#.the-media-object--has-sponsored:-abp-contains(/In partnership with|In collaborazione con|En partenariat avec|Mit Unterstützung von|En colaboración con|Em parceria com|We współpracy z|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|با همکاری/)
+linkedin.com#?#.msg-overlay-list-bubble__conversations-list:-abp-contains(Sponsored)
+linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__sub-description--tla:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
+linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
+linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 cruisecritic.com#?#.block:has(a[data-tracking]:-abp-contains(Sponsored))
 target.com#?#[data-test="ProductCardVariantRecommendation"]:-abp-contains(Sponsored)
 samsclub.com#?#li[data-slide]:-abp-contains(Sponsored)
