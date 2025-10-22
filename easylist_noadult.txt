@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3R/uo+kv3IFR3JpGMUAbuQ
-! Version: 202510221731
+! Checksum: CfxT6spfc4rlzhcwiliHvw
+! Version: 202510221741
 ! Title: EasyList without rules for adult sites
-! Last modified: 22 Oct 2025 17:31 UTC
+! Last modified: 22 Oct 2025 17:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2775,7 +2775,6 @@ _800x80_
 ###ads_text
 ###ads_textlinks
 ###ads_title
-###ads_top
 ###ads_top2
 ###ads_top_banner
 ###ads_top_container
@@ -3610,7 +3609,6 @@ _800x80_
 ###content-adver
 ###content-contentad
 ###content-header-ad
-###content-left-ad
 ###content-right-ad
 ###contentAd
 ###contentAdSense
@@ -3897,7 +3895,6 @@ _800x80_
 ###footer_ad_container
 ###footer_ad_frame
 ###footer_ad_holder
-###footer_ad_modules
 ###footer_adcode
 ###footer_add
 ###footer_addvertise
@@ -5341,7 +5338,6 @@ _800x80_
 ###top_span_ad
 ###top_sponsor_ads
 ###top_sponsor_text
-###top_wide_ad
 ###topad
 ###topad-728x90
 ###topad-block
@@ -14643,6 +14639,7 @@ _800x80_
 ! https://rawasiansex.com/
 ###fallbackTerms.fallback-term-holder
 ! baits
+###ads_top:not(a)
 ##.Ad-Container:not(.adsbygoogle)
 ##.ad-area:not(.text-ad)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
