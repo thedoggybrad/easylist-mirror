@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510221733
+! Version: 202510221750
 ! Title: EasyList
-! Last modified: 22 Oct 2025 17:33 UTC
+! Last modified: 22 Oct 2025 17:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: cc09f2f890b170539bf035ed05857d6d379d4836
+! Commit: aa3d83c8bac55027b94ae02e07ff92ce3ab7da5f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2779,7 +2779,6 @@ _800x80_
 ###ads_text
 ###ads_textlinks
 ###ads_title
-###ads_top
 ###ads_top2
 ###ads_top_banner
 ###ads_top_container
@@ -3614,8 +3613,6 @@ _800x80_
 ###content-adver
 ###content-contentad
 ###content-header-ad
-###content-left-ad
-###content-right-ad
 ###contentAd
 ###contentAdSense
 ###contentAdTwo
@@ -3901,7 +3898,6 @@ _800x80_
 ###footer_ad_container
 ###footer_ad_frame
 ###footer_ad_holder
-###footer_ad_modules
 ###footer_adcode
 ###footer_add
 ###footer_addvertise
@@ -5345,7 +5341,6 @@ _800x80_
 ###top_span_ad
 ###top_sponsor_ads
 ###top_sponsor_text
-###top_wide_ad
 ###topad
 ###topad-728x90
 ###topad-block
@@ -14647,6 +14642,7 @@ _800x80_
 ! https://rawasiansex.com/
 ###fallbackTerms.fallback-term-holder
 ! baits
+###ads_top:not(a)
 ##.Ad-Container:not(.adsbygoogle)
 ##.ad-area:not(.text-ad)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
@@ -52469,6 +52465,7 @@ browsershots.org#@#.advert_area
 ||whedoucagra.net^
 ||wheel-of-fortune-prod.com^
 ||wheelchairbewilderedwaver.com^
+||wheelchairfactorygoal.com^
 ||wheeledfunctionstruthfully.com^
 ||wheelerabacay.life^
 ||wheelssightsdisappointed.com^
