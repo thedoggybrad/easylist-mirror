@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 69g9B7ji7KgHTLjlNRmkQQ
-! Version: 202510241341
+! Checksum: /GIKmoF7wk8J32NRnoki5Q
+! Version: 202510241351
 ! Title: IndianList
-! Last modified: 24 Oct 2025 13:41 UTC
+! Last modified: 24 Oct 2025 13:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -626,6 +626,7 @@ _advt.jpg|
 /add-$domain=navakal.in|solantoday.com|somoynewsbd.com
 /ADD.gif|$domain=paryabekhyak.com
 /add.jpg|$domain=gourbarta24.com|muznews.online|sheershakhobor.com
+/add/*$domain=avadhtimes.com
 /add/*$image,domain=ajkalnewyork.com|amreliexpress.com|habiganj-samachar.com|poriborton.com|sharenews24.com|sylhettoday24.news|sylhetview24.net|thereport24.com|u71news.com
 /AddImages/*$domain=thurannakathu.com
 /Ads-$domain=dailyceylon.com
@@ -5769,6 +5770,7 @@ dainikayodhyatimes.in##.ad-close
 argusnews.in,dailykaratoa.com,ichowk.in,news18.com,pangighatidanikapatrika.in,saralpatrika.com,uttorbangla.com,vaartha.com##.ad-container
 cityliveindia.com,samaynews24.com##.ad-div
 bagmativoice.com##.ad-home
+avadhtimes.com##.ad-image1
 ehimalayatimes.com,nepalmamila.com,newsroomme.com##.ad-img
 edainikazadi.net,edainikpurbokone.net##.ad-left-holder
 amarujala.com##.ad-mb-app
@@ -6262,6 +6264,7 @@ everestmission.com##.bottom-add-place
 samakal.com##.bottomReadMoreCart div[style*="width: 300px !important;height: 250px"]
 samakal.com##.bottomStickyDesktopDiv
 lokjeewan.com##.bottom_ad_slide
+punjabipost.ca##.bottom_advt
 dailythanthi.com##.bottom_snackbar_common
 yugabdha.com##.box-sec-bg .slider
 gorkhalikhabar.com##.box_wrap.p-2
@@ -8902,7 +8905,7 @@ dhanamonline.com##div[class*="widget-module__customWidgetWrapper__"]
 usbangla24.news##div[class*="width-ad"]
 gonews24.com##div[class="country-add"]
 livehindustan.com##div[class^="Ads_"]
-aggarjanpatrika.com,himalayanupdate.com,hindiexpressnews.com,punjabipost.ca,tatkalnews.com##div[class^="AdvtSample"]
+aggarjanpatrika.com,himalayanupdate.com,hindiexpressnews.com,tatkalnews.com##div[class^="AdvtSample"]
 dailyjanakantha.com##div[class^="DAdd3"]
 news18.com##div[class^="HomeMobile_mobile_add"]
 a2zsamachar.com##div[class^="a2zsa-content"]
@@ -8915,7 +8918,7 @@ sananda.in##div[class^="add-right"]
 bn.bd24report.com,rajshahinews24.com##div[class^="add-section"]
 dailyjonomot.com,theholytimes.com##div[class^="add_"]
 sunaulonepal.com##div[class^="ads"]
-campuslive24.com##div[class^="ads_"]
+campuslive24.com,punjabipost.ca##div[class^="ads_"]
 prameyanews7.com##div[class^="advertisement-"]
 ajabgjab.com##div[class^="ajabg-"]
 bdtimesnews.com##div[class^="angwp_"]
