@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510241249
+! Version: 202510241303
 ! Title: Fanboy's Annoyance List
-! Last modified: 24 Oct 2025 12:49 UTC
+! Last modified: 24 Oct 2025 13:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d79b3016e4c923836cfaeb1e1822b5dbe68de7d5
+! Commit: b84dd43e316ce18993a68389c79a2797ffda786a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -42172,6 +42172,7 @@ gigabaito.com##.article-banner-cta
 hotpepper.jp##.autoScrollBtn
 kusurinomadoguchi.com##.balloon
 yodosha.co.jp##.banner-block
+biccamera.com##.bcs_listItem > ul > .prod_box:has(> p > a[href^="https://e.s4p.jp/"] > span.bcs_pr)
 jingukan.co.jp##.bfb_textBtn
 anglers.jp##.bottom-banner-container
 kakaku.com##.c-feed_cell:has(> a > div.c-global_pr)
