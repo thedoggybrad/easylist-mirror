@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RmyYGyAC4rB0C1GsChL0lA
-! Version: 202510291451
+! Checksum: tses+N5j8jpxmaEfjTtffA
+! Version: 202510291501
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Oct 2025 14:51 UTC
+! Last modified: 29 Oct 2025 15:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23670,8 +23670,8 @@ ru###ads-top.ads
 ||ru/content/stargate/*.jpg$image,~third-party
 ! ---
 ! 2ip.ru и 2ip.io
+2ip.ru##.ad-change-ip
 2ip.io,2ip.ru##.ad-test-vpn
-2ip.ru##.change-ip
 2ip.io,2ip.ru#?#.content-article p:-abp-has(> .adsbygoogle)
 2ip.io,2ip.ru##.main-ip-icon-warning
 2ip.io,2ip.ru##.main-ip-icon-warning ~ [aria-disabled]
