@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510301937
+! Version: 202510301949
 ! Title: EasyList
-! Last modified: 30 Oct 2025 19:37 UTC
+! Last modified: 30 Oct 2025 19:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ae849eafbdad56c785e314a3e559c81e58034ade
+! Commit: 0e0c244a9b6628700cc8ba0feebbb091fa919031
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -50511,6 +50511,7 @@ browsershots.org#@#.advert_area
 ||tksfsnyuismxd.store^
 ||tktdqqmjajqlr.com^
 ||tkthdrdtn.com^
+||tkwxiseyzfzle.store^
 ||tl2go.com^
 ||tlfeivdeybass.store^
 ||tlfhuinwmfrism.com^
@@ -73830,6 +73831,7 @@ scmp.com##div[data-qa="GenericArticle-TopPicksAdSlot"]
 scmp.com##div[data-qa="InlineAdSlot-Container"]
 xing.com##div[data-qa="jobs-inline-ad"]
 xing.com##div[data-qa="jobs-recommendation-ad"]
+duckduckgo.com##div[data-react-module-id="products-0"]
 basschat.co.uk,momondo.*##div[data-resultid$="-sponsored"]
 briskoda.net,linustechtips.com##div[data-role="sidebarAd"]
 cruisecritic.co.uk##div[data-sentry-component="AdWrapper"]
@@ -74580,6 +74582,7 @@ dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.com"]))
 provigo.ca#?#.css-1nhzth8:-abp-contains(/sponsorisé|sponsored/)
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
+duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
 thehansindia.com##section:has(> .to-be-async-loaded-ad)
