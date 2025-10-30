@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NyE9uuk1Crfh71ZJzGSQUw
-! Version: 202510301621
+! Checksum: si7PJMgS0wibqfrMxwscMw
+! Version: 202510301631
 ! Title: EasyList without element hiding rules
-! Last modified: 30 Oct 2025 16:21 UTC
+! Last modified: 30 Oct 2025 16:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -812,6 +812,7 @@ _reklama_$domain=~youtube.com
 ! l.wl.co scam on X
 /_meetups/r.php?click_id=$document
 ! Ad-Shield
+.com/players/*/-1/70/*?hash=-$script,third-party
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
 ://0.www.*/player/*/a/$third-party,xmlhttprequest
@@ -8121,6 +8122,7 @@ _800x80_
 ||ceget.xyz^
 ||cegifompifteefa.net^
 ||cehbmaknzpyic.store^
+||cehvroscn.com^
 ||ceibohan.help^
 ||cejaswati.com^
 ||cejckggvflvnf.space^
