@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202510301611
+! Version: 202510301622
 ! Title: EasyList
-! Last modified: 30 Oct 2025 16:11 UTC
+! Last modified: 30 Oct 2025 16:22 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b158820c5344b930cf63a36de249399fbbdb84ec
+! Commit: 3fc401072c851fee0027c305ddf13fcb63808269
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -816,6 +816,7 @@ _reklama_$domain=~youtube.com
 ! l.wl.co scam on X
 /_meetups/r.php?click_id=$document
 ! Ad-Shield
+.com/players/*/-1/70/*?hash=-$script,third-party
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
 ://0.www.*/player/*/a/$third-party,xmlhttprequest
@@ -22198,6 +22199,7 @@ browsershots.org#@#.advert_area
 ||ceget.xyz^
 ||cegifompifteefa.net^
 ||cehbmaknzpyic.store^
+||cehvroscn.com^
 ||ceibohan.help^
 ||cejaswati.com^
 ||cejckggvflvnf.space^
@@ -27273,6 +27275,7 @@ browsershots.org#@#.advert_area
 ||erthfeoveukrn.org^
 ||erucinundergo.cyou^
 ||eructedjoyhop.life^
+||erugosjoubert.cfd^
 ||eruxjtbqruaep.site^
 ||erwallowsisheha.com^
 ||erwflorcelkn.xyz^
