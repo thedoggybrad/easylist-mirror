@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AE4Um2UEGE8V0xrAe0zNmg
-! Version: 202510300501
+! Checksum: rGbbYlcKz+OHCtdKm3EqUA
+! Version: 202510300511
 ! Title: ABPVN List
-! Last modified: 30 Oct 2025 05:01 UTC
+! Last modified: 30 Oct 2025 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 29 Oct 2025 12:06:18 UTC+7
-! Diff-Path: patches/20251029120618376.patch#abpvn
+! Last modified: 30 Oct 2025 12:06:04 UTC+7
+! Diff-Path: patches/20251030120604200.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -257,7 +257,7 @@ $popup,domain=truyenfull.vision
 ||vnesports.net^*.gif
 ||vov.vn/ads/show-ads
 ||vsc69.com/wp-content/themes/vuasanco/assets/scripts/scripts.js
-||www.bongdalu802.com^*.gif
+||www.bongdalu803.com^*.gif
 ||www.clbgamesvn.com/diendan/popup/popup.js$script,~third-party
 ||www.iosviet.com^$csp=script-src 'self' 'unsafe-inline' http: https:
 ||www.motchill29.com/3s.m3u8$rewrite=abp-resource:blank-mp3,domain=www.motchill29.com
@@ -1233,4 +1233,4 @@ xnhau.sh##.fp-ui>div[style]
 xnhau.sh##.sponsor
 xnhau.sh##.spot
 xnxx.com###content-ad-top-zone
-zphimsex1.pro,phimsex12x.pro##.quangcaomobile
+zphimsex1.co.uk,phimsex12x.pro##.quangcaomobile
