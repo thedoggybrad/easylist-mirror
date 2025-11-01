@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 83RBBX4K6OS1cSFuPHgGYw
-! Version: 202511011431
+! Checksum: 3bv6qetQ5Y/dThygHtdrZw
+! Version: 202511011441
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Nov 2025 14:31 UTC
+! Last modified: 01 Nov 2025 14:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -73339,6 +73339,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 @@||thegay.com/assets/jwplayer-*/provider.hlsjs.js|$domain=thegay.com
 @@||thegay.com/upd/*/assets/preview*.js|$domain=thegay.com
 @@||thegay.com/upd/*/static/js/*.js|$domain=thegay.com
+||thegay.com/static/tf/videos.gjmpa.json
 ||thegay.com^$script,domain=thegay.com
 ! websocket ads
 $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
@@ -82802,6 +82803,7 @@ pornzog.com##.video-ntv
 ooxxx.com##.video-ntv-wrapper
 pornhdtube.tv,recordbate.com##.video-overlay
 hotmovs.tube##.video-page > .block_label > div
+thegay.com##.video-page__content > .left + div
 thegay.com,upornia.com,upornia.tube##.video-page__content > .right
 upornia.com,upornia.tube##.video-page__related + h5
 senzuri.tube##.video-page__watchfull-special
