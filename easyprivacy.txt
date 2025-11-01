@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511010508
+! Version: 202511010521
 ! Title: EasyPrivacy
-! Last modified: 01 Nov 2025 05:08 UTC
+! Last modified: 01 Nov 2025 05:21 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bbc5e4e43dd43dd206159af27dfc8a41665c03af
+! Commit: 6b4e26378a6fa7f95559186c6c44636f12d0eaf6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1626,7 +1626,7 @@
 /onl/track.php?
 /onlinecount.php
 /oo/*/l.js
-/oo/*/lsync.js
+/oo/*/lsync.
 /oo/cl*.js?rd=
 /oo/cl.js|$~third-party
 /op/analytics.js?domain=
@@ -53662,6 +53662,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||esports-world.jp/js/banner.event.js
 ||event.lib.visumo.io/js/hbn_track.js
 ||fensi.plus^*/tracking/
+||fp.kakaku.com^
 ||fspark-ap.com/ft/analytics_log
 ||g123.jp/stats?
 ||game-i.daa.jp/skin/analytics.php
@@ -53739,6 +53740,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||shopch.jp/com/js/analytics.js
 ||shueisha.online/op/analytics.js
 ||so-zou.jp/js/ga.js
+||softonic.jp/web-stats
 ||ssai.api.streaks.jp/*/ad_info?
 ||stats.nhk.or.jp^
 ||sy.ameba.jp^
