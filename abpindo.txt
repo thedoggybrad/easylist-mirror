@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Z+t74qrh6GRVvq/6brA5hA
-! Version: 202511021241
+! Checksum: eCr/crdCpR7/25YXbyidsw
+! Version: 202511021251
 ! Title: ABPindo
-! Last modified: 02 Nov 2025 12:41 UTC
+! Last modified: 02 Nov 2025 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 02 Nov 2025 00:46 UTC
+! Last modified: 02 Nov 2025 12:49 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -285,6 +285,7 @@ _iklan_|$image
 ||anibatch.*/wp-content/uploads/*.gif$image
 ||anichin.my.id/wp-content/uploads/*.gif$image
 ||animeindo.*/wp-content/uploads/*.gif$image
+||animeku.*/public/vid/huskypres.mp4$media
 ||animexin.*/wp-content/uploads/*.gif$image,~third-party
 ||anoboy.media/img/*.gif
 ||anoboy.watch/img/*.gif$image,domain=anoboy.watch
@@ -2077,6 +2078,7 @@ fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-q4xr4i
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com##.css-t1oq30
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-urr7k6
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-y6gr35
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.wrapper-ads
 ! Tempo media
 198.105.112.57###fb-boxclose
 194.233.86.65,198.105.112.57###fb-fanbox
