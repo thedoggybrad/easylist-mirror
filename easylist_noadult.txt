@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DUHhSnJMCSct2BInGOMEuQ
-! Version: 202511060651
+! Checksum: BRN72IVKpyvKwbKE8t7j+w
+! Version: 202511060712
 ! Title: EasyList without rules for adult sites
-! Last modified: 06 Nov 2025 06:51 UTC
+! Last modified: 06 Nov 2025 07:12 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -479,6 +479,7 @@
 /link?z=$subdocument
 /lmaz-ads-bannesr/*$script
 /mads.php$subdocument
+/mai-publisher-ads.js$script
 /maven/am.js$script
 /media/ads/*$image
 /media_ads/*$image
@@ -12175,6 +12176,8 @@ _800x80_
 ##.mad_adcontainer
 ##.magAd
 ##.magad
+##.mai-ad-unit-container
+##.mai-ad-video
 ##.main-ad
 ##.main-ad-container
 ##.main-ad-gallery
@@ -25571,6 +25574,7 @@ browsershots.org#@#.advert_area
 ||employerupsideliterally.com^
 ||empond.com^
 ||empoverchimes.rest^
+||empowerlocal.co^
 ||emptierkimchi.life^
 ||emptinessabjure.com^
 ||empty-advantage.pro^
@@ -29161,6 +29165,7 @@ browsershots.org#@#.advert_area
 ||gumon.site^
 ||gumophauny.net^
 ||gumvdxuwlvrjk.com^
+||gumyfui.com^
 ||gunatedbivvy.cfd^
 ||gundecklunts.rest^
 ||gunfirenestles.click^
@@ -32169,6 +32174,7 @@ browsershots.org#@#.advert_area
 ||jalapicbecharm.com^
 ||jalapicundelve.top^
 ||jaletemetia.com^
+||jalnukexsct.com^
 ||jalopycarrel.cfd^
 ||jalormisdid.rest^
 ||jaltvejugmjjq.online^
