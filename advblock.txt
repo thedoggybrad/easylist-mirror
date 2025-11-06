@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6/Jozde7UxqtTss//pj9uA
-! Version: 202511061742
+! Checksum: TbmdGCvXmXeQ8G5DLaT2Dw
+! Version: 202511061811
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Nov 2025 17:42 UTC
+! Last modified: 06 Nov 2025 18:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12198,8 +12198,6 @@ liveinternet.ru###liveinternet_600x250
 liveinternet.ru###liveinternet_billboard
 sibmail.com###ll_slot_3 + * + div[style*="160px;"]
 sm.news###loaded
-lurkmore.wtf###localNotice #aside_buttons
-lurkmore.wtf###localNotice .infobox
 root-nation.com###login-form + .tdc-zone > .tdc_zone > div[class^="tdi_"][class*="_rand_style"] + .tdc-row > .tdc-row-content-vert-center
 rupier.com###logo > noindex
 osadovod.ru###logo-area
@@ -12271,8 +12269,6 @@ daily-inform.ru###mvp-post-bot-wrap
 internetsms.org###myCarousel
 doctorrouter.ru###myModal
 pythonru.com###mytest
-lurkmore.wtf###n-Группа-в-Дискорде
-lurkmore.wtf###n-Канал-в-Телеграме
 afportal.ru###nadoelo
 matematika-club.ru###nagadai
 mignews.com###nakonu_rss
@@ -16168,7 +16164,6 @@ itzine.ru##.site-header__img
 football-ukraine.com#?#.site-section-header:-abp-contains(РЕКЛАМА)
 auto-kmu.ru##.sitebar
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.sitebar_reklama_wr
-lurkmore.wtf##.sitenotice > .floatleft + p + p
 emusic.me##.skin-block
 festyy.com##.skip-advert
 fc-zenit.ru##.sl-foot
@@ -19730,6 +19725,10 @@ crackstatus.net##li[id^="slide"]
 penzainform.ru##li[style^="width: 140px; height:"][style*="max-height"]
 liveball.my,liveball.uno,liveball.*###custom_brand
 liveball.my,liveball.uno,liveball.*##.odds_section
+lurkmore.*###localNotice #aside_buttons
+lurkmore.*###localNotice .infobox
+lurkmore.*###n-Группа-в-Дискорде
+lurkmore.*###n-Канал-в-Телеграме
 old.myshows.me##main > .contAlt
 allcarz.ru#?#main > .container > .site-content:-abp-has(> .content-banner)
 protanki.tv##main > .hidden
