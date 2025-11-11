@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: sU3WF5h86mRV8StvLKT/cQ
-! Version: 202511111131
+! Checksum: GBtc3QQbL5uJnoulN4n8dg
+! Version: 202511111141
 ! Title: ABP filters
-! Last modified: 11 Nov 2025 11:31 UTC
+! Last modified: 11 Nov 2025 11:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1493,7 +1493,6 @@ naruto-base.su#$#abort-on-property-read njranu
 animekun.ru,doramakun.ru,nnmclub.to#$#abort-current-inline-script document.createElement Math.random; abort-current-inline-script setInterval Math.random
 nnmclub.ro,nnmclub.to#$#abort-on-property-read _0x1ece false
 vestivrn.ru#$#abort-on-property-read video.preroll
-rutor.in#$#abort-current-inline-script document.createElement ExternalChromePop
 dota2.ru#$#abort-on-property-read helpUsImproveSite
 fastpic.org,~new.fastpic.org#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-current-inline-script document.createElement Math.random; prevent-listener /click|load/ popMagic; prevent-listener getexoloader; abort-on-property-read ExoSupport
 softportal.com#$#abort-on-property-read popupShowInterval; abort-on-property-read Object.prototype.str_replace
