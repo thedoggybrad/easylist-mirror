@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ytgvANxISz+BPusfjoxk1A
-! Version: 202511121141
+! Checksum: 0QAXaq2GvY+igP1hoM/EDg
+! Version: 202511121151
 ! Title: ABP filters
-! Last modified: 12 Nov 2025 11:41 UTC
+! Last modified: 12 Nov 2025 11:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1942,7 +1942,7 @@ allegro.*##div[data-box-name][data-analytics-groups*="allegro.ads"]
 ! HP
 allegro.*#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::a/ancestor::li[1]' '' complete
 allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Sponzorované"]/../../parent::div/ancestor::div[@data-box-id][1]/../../../parent::div[@style]' '' complete
-allegro.pl#$#hide-if-matches-xpath '//div[@data-box-name="structure-container"][@data-analytics-category="layout.container"][.//span[text()="Sponsorowane"]]' '' complete
+allegro.*#$#hide-if-matches-xpath '//div[@data-box-name="structure-container"][@data-analytics-category="layout.container"][.//span[text()="Sponsorowane"] or .//span[text()="Szponzorált"]]' '' complete
 ! MISC
 allegro.*#$#override-property-read adblockEnabledPreferenceUpdated true
 ! #RM-42
