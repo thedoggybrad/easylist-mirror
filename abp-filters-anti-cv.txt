@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Nw/x3QmwNGsKLDwB4IW5gg
-! Version: 202511131231
+! Checksum: 3o2hAQzM6ZlII66Xd3ZQgg
+! Version: 202511131241
 ! Title: ABP filters
-! Last modified: 13 Nov 2025 12:31 UTC
+! Last modified: 13 Nov 2025 12:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -940,7 +940,7 @@ lukesitturn.com,xatovjatsosg.com#$#abort-on-property-write window.zfgloadedinpag
 vidfast.*,moviesapi.*,vidlink.*,primewire.*#$#abort-on-property-read runPop;
 ||*.website/*^$xmlhttprequest,domain=knaben.xyz
 knaben.xyz#$#debug; abort-on-property-read Adcash
-actvid.*#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
+actvid.*,cataz.*#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
