@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E3vrjaGSetGv1GSUkA3i+w
-! Version: 202511130902
+! Checksum: bErCfrRDJfWPLHYHs+wxuQ
+! Version: 202511130912
 ! Title: EasyList China
-! Last modified: 13 Nov 2025 09:02 UTC
+! Last modified: 13 Nov 2025 09:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -24,6 +24,7 @@
 /js/clickadu.js
 /mxstatic/image/aabbc/985b74dc077d491.
 .xyz/z/*/code.js$script,third-party
+.xyz/z/*/json$xmlhttprequest,third-party
 -*-*-*-*.as^$script,third-party
 .xyz:*?x=$script,third-party
 .xyz:*?c=$script,third-party
