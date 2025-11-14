@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5KGH4IT67xSdEZ9UZikBMA
-! Version: 202511141202
+! Checksum: mGpLuIHVfTIg6UVQ03j4Rg
+! Version: 202511141211
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Nov 2025 12:02 UTC
+! Last modified: 14 Nov 2025 12:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17079,6 +17079,7 @@ vse42.ru##[data-adplace-inited]
 18000.com.ua##[data-ads]
 doska.ykt.ru##[data-adurl]
 teknoblog.ru##[data-advadstrackid]
+epicentrk.ua##[data-advertising-listing-list] header
 bryansknovosti.ru,novozybkov.su#?#[data-alias="Copyright"] .widget-area > .widget_text:not(:last-child):-abp-has(script)
 vc.ru##[data-analytics*="native"]
 shuba.life##[data-banner-container]
@@ -19728,6 +19729,7 @@ post-tracker.ru##img[width^="8"][height^="3"][src$=".gif"]
 gizmod.ru##index > .entry
 audiotag.info,computer76.ru,enovosty.com,epravda.com.ua,finget.ru,fraza.com,inforesist.org,ostro.org,rbc.ua,real-vin.com,stravy.net,videoredaktor.ru,volyninfo.com##ins
 peugeot-club.net,vjazhi.ru##ins[style^="display:inline"]
+epicentrk.ua##li > aside > div:first-child > div > span
 wtftime.ru##li.entity[style="padding: 0; margin-bottom: 10px; overflow: hidden; border-right: 0;"]
 tvc.ru#?#li.play-button-wrap:-abp-has(> div > [id^="adfox_"])
 gofrag.ru#?#li:-abp-has(> .uk-accordion-title ~ [class] a[href*=".ufiler.pro/"])
@@ -23626,7 +23628,7 @@ liveinternet.ru##style + div > div > div > div > div a
 !#endif
 !
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
-apad2.top,besplatnyeprogrammy.ru,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,rutor-gamer.info,rutor-gamer.ru,torrent-music.ru,torrent-soft.pro,torrentigo.net,where-game.ru##:not(this-site-promotes-malware)
+apad2.top,besplatnyeprogrammy.ru,hdrip.info,inferno.games,mediagetguru.ru,monna2.top,only-soft.org,torrent-music.ru,torrent-soft.pro,torrentigo.net,where-game.ru##:not(this-site-promotes-malware)
 !
 ! Намеренное продвижение фейков и мошенников
 ||tele.ru^$xmlhttprequest,domain=tele.ru
