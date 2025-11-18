@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: U4Cok5OZxUYHO5TIEll+qA
-! Version: 202511181221
+! Checksum: OEvgwSkpiQQgUxUjpwghiw
+! Version: 202511181231
 ! Title: ABP filters
-! Last modified: 18 Nov 2025 12:21 UTC
+! Last modified: 18 Nov 2025 12:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -928,7 +928,7 @@ onworks.net#$#override-property-read rewarded 0;
 readcomiconline.li#$#abort-on-iframe-property-read localStorage
 boosterx.stream,dinisglows.com,flaswish.com,jkanime.*,mdfx9dc8n.net,vidsrc.*,vidfast.*,moviesapi.*,vidlink.*,primewire.*#$#abort-current-inline-script EventTarget.prototype.addEventListener delete; abort-current-inline-script JSON.parse break;case $.;
 coflix.*,dhtpre.com,fmovies.*,swatchseries.is,vidhidepro.com,vidply.com,watchseriestv.*#$#abort-current-inline-script String.fromCharCode 2147483647
-hianime.*,magasavor.net,moviesjoy.*,pkembed.*,rmaxfinishseveral.com,uqload.*,ups2up.*,bigwarp.*,savefiles.com,vide0.net,watchug.*#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
+hianime.*,magasavor.net,moviesjoy.*,pkembed.*,rmaxfinishseveral.com,uqload.*,ups2up.*,bigwarp.*,savefiles.com,seeflix.*,vide0.net,watchug.*#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sexvid.*#$#abort-on-property-read atob; abort-current-inline-script document.write /promo/; override-property-read window.diptr undefined; abort-on-property-read window.pu; abort-current-inline-script document.write iframe;
 gogoanimes.*,bigclatterhomesguideservice.com,dramacool.sr,hltv.org,japscan.me,maxfinishseveral.com,movies-watch.com.pk,movies2watch.tv,nosteam.ro,readcomiconline.li,reputationsheriffkennethsand.com,root-nation.com,soap2day.*,solarmovie.*,toongod.com,watchseriestv.*,yomovies.*#$#abort-on-property-read window.open
@@ -939,7 +939,7 @@ streamm4u.com.co#$#prevent-listener beforeunload (); abort-on-property-write _g_
 lukesitturn.com,xatovjatsosg.com#$#abort-on-property-write window.zfgloadedinpage;
 vidfast.*,moviesapi.*,vidlink.*,primewire.*#$#abort-on-property-read runPop;
 ||*.website/*^$xmlhttprequest,domain=knaben.xyz
-knaben.xyz#$#debug; abort-on-property-read Adcash
+knaben.xyz#$#abort-on-property-read Adcash
 actvid.*,cataz.*#$#abort-on-property-write window.open; abort-current-inline-script addEventListener HTMLAllCollection;
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
