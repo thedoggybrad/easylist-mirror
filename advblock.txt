@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 66ote5jrdY8CkuvyfoceYw
-! Version: 202511201552
+! Checksum: meobukiy4RbN3bBXzu4N2g
+! Version: 202511201621
 ! Title: RU, UA, UZ, KZ
-! Last modified: 20 Nov 2025 15:52 UTC
+! Last modified: 20 Nov 2025 16:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24663,6 +24663,7 @@ sports.ru##.poll__ad-label
 sports.ru##.poll__bookmaker-link
 sports.ru##.poll__bookmaker-logo
 cyber.sports.ru##.polling
+cyber.sports.ru##.post-content a[href*="://sirena.world/"]
 sports.ru##.promo-link
 sports.ru#?#.recommendations__list > .recommendations__item:-abp-has([href*="promo"])
 sports.ru##.record-widget__bookmaker
@@ -24704,6 +24705,7 @@ sports.ru##a[href*="click"][target="_blank"][style^="display"]
 sports.ru##a[href*="fon.bet/"]
 sports.ru,tribuna.com##a[href*="utm_campai"]
 sports.ru##a[href="https://trbna.co/2u3V2dO"]
+cyber.sports.ru##a[href^="https://market.yandex.ru/"]
 cyber.sports.ru##a[href^="https://redirect.appmetrica.yandex.com/serve/"]
 sports.ru##a[href^="https://sprts.cc/"]
 sports.ru##a[href^="https://zen.yandex.ru/"]
