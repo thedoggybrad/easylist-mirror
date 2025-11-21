@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F3ulY5wI6ZaWIt3hYthdMg
-! Version: 202511211851
+! Checksum: CEcbacZaJglugDa89H6NqA
+! Version: 202511211901
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Nov 2025 18:51 UTC
+! Last modified: 21 Nov 2025 19:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24911,6 +24911,7 @@ rasp.yandex.ru,rasp.yandex.*#?#.SearchSegments__row:-abp-has([class*="banner"])
 rasp.yandex.ru,rasp.yandex.*#?#.SearchSegments__row:-abp-has([id*="banner"])
 translate.yandex.ru,translate.yandex.*##.sidebar-direct
 translate.yandex.ru,translate.yandex.*##.SingEhAuil2ADSg8Sapi
+translate.yandex.ru,translate.yandex.*##div[id^="sidebar-"]
 travel.yandex.ru##div.root[id]:empty
 turbopages.org##.advert
 uslugi.yandex.ru##.WebBanner
