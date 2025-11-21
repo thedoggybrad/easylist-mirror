@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511210741
+! Version: 202511210752
 ! Title: EasyList
-! Last modified: 21 Nov 2025 07:41 UTC
+! Last modified: 21 Nov 2025 07:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 777f0910de775345c311ea268291557f7a97c55c
+! Commit: a981f11489e5a142ef88ad8d2157f3ab57a2a0f5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -31019,6 +31019,7 @@ browsershots.org#@#.advert_area
 ||hxdecujrfmyyv.online^
 ||hxefvtiqr.net^
 ||hxefvtiqr.xyz^
+||hximmwzkmhwhf.website^
 ||hxkeammfkgejm.space^
 ||hxlcunmryxpzq.space^
 ||hxmcaugiqijkz.store^
@@ -45550,6 +45551,7 @@ browsershots.org#@#.advert_area
 ||shoofosteltutch.com^
 ||shoogleckorgoat.net^
 ||shooltuca.net^
+||shoompaiftids.com^
 ||shoordaird.com^
 ||shoorsoassep.net^
 ||shooterconjure.com^
@@ -71487,6 +71489,7 @@ amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabe
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.amzn-safe-frame-container
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
+amazon.*##.s-result-item:has([data-ad-feedback-label-id])
 amazon.*##.s-result-item:has([data-ad-feedback])
 amazon.*##.s-result-list > .a-section:has(.sbv-ad-content-container)
 amazon.*##.sbv-video-single-product
