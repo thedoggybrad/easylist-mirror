@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RZtuCy5xEGG5vuHN7Ov4MQ
-! Version: 202511210751
+! Checksum: 2fRO7MuCIfxPfbl4vJrk6w
+! Version: 202511210801
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 Nov 2025 07:51 UTC
+! Last modified: 21 Nov 2025 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -39283,6 +39283,7 @@ browsershots.org#@#.advert_area
 ||hxdecujrfmyyv.online^
 ||hxefvtiqr.net^
 ||hxefvtiqr.xyz^
+||hximmwzkmhwhf.website^
 ||hxkeammfkgejm.space^
 ||hxlcunmryxpzq.space^
 ||hxmcaugiqijkz.store^
@@ -53814,6 +53815,7 @@ browsershots.org#@#.advert_area
 ||shoofosteltutch.com^
 ||shoogleckorgoat.net^
 ||shooltuca.net^
+||shoompaiftids.com^
 ||shoordaird.com^
 ||shoorsoassep.net^
 ||shooterconjure.com^
@@ -79751,6 +79753,7 @@ amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabe
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.amzn-safe-frame-container
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
+amazon.*##.s-result-item:has([data-ad-feedback-label-id])
 amazon.*##.s-result-item:has([data-ad-feedback])
 amazon.*##.s-result-list > .a-section:has(.sbv-ad-content-container)
 amazon.*##.sbv-video-single-product
