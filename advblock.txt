@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rHWGZy7cHFSy8C+qPrRVSQ
-! Version: 202511232122
+! Checksum: LdaFX/DOWdIm+ULdWmedRQ
+! Version: 202511232132
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Nov 2025 21:22 UTC
+! Last modified: 23 Nov 2025 21:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -235,6 +235,7 @@ $third-party,popup,domain=2ip.ru
 ||ext-load.net^$third-party,popup
 ||extlinka.ru^$popup
 ||fastvk.com^$popup
+||fclmnews.ru^$third-party,popup
 ||finetrack.ru^$popup
 ||flashcdn.net^$popup
 ||flylinks.pw^$popup
@@ -18395,7 +18396,7 @@ allmmorpg.ru##body > div[style="display: inline-block"]
 tamboff.ru##body > div[style="width: 960px; margin: 0 auto; height: 300px; position: relative;"]
 laststicker.ru##body > div[style] > noindex
 obob.tv##body > div[style^="padding:"] > a[href]
-footlook.top##body > div[style^="position: fixed"]
+footlook.top,rplnews.online##body > div[style^="position: fixed"]
 root-nation.com##body > div[style^="position: fixed; display: flow-root; z-index:"]
 player-cdn.com##body > div[style^="width: 100%; height: auto; position: absolute; z-index: 100000; top: 0px; bottom: 0px; cursor: pointer; background: url"]
 innal.top,zannn.top##body > div[style^="width:"][style*="1265px"]
@@ -25846,7 +25847,6 @@ banki24.by#@#.banner300
 griffe.ru#@#.banner_box
 biglife.kg#@#.card-ad
 pokrov-monastir.ru#@#.container--ads
-disk.yandex.by,disk.yandex.com,disk.yandex.com.am,disk.yandex.kz,disk.yandex.lt,disk.yandex.ru,disk.yandex.uz#@#.content_ads
 agrobook.ru#@#.context-ads
 f-igri.ru#@#.google_ad
 skodarapidclub.ru#@#.headerad
@@ -26498,6 +26498,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 4pda.to#@#[data-revive-zoneid]
 espreso.tv,tasix.me#@#[id*="ScriptRoot"]
 mail.google.com#@#a[href^="http://mgid.com/"]
+disk.yandex.ru,disk.yandex.*#@#.content_ads
 blocksandfiles.com,milanac.ru#@#div[class*="td-a-rec-id-"]
 pets.mail.ru#@#div[data-adq-id^="adqcontainer"]
 kyiv.ukrainianwall.com#@#div[id*="MarketGid"]
