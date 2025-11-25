@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511250101
+! Version: 202511250115
 ! Title: Fanboy's Annoyance List
-! Last modified: 25 Nov 2025 01:01 UTC
+! Last modified: 25 Nov 2025 01:15 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 37f8307b7b176029be223ede0086a734484fcc59
+! Commit: 04001b51b647afb09ca1e4965310f10866b1b1e8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1711,6 +1711,7 @@ _social_footer_
 /wp-tarteaucitron-js-self-hosted/js/main.js
 /wp-tarteaucitron-js/js/tarteaucitron/tarteaucitron.js
 /wpca-frontend.min.js
+/wpconsent-cookies-banner-privacy-suite/build/frontend.js
 /wpie-common.min.js
 /wpjslib-ecom.js
 /wpjslib-sgap.js
@@ -39016,7 +39017,7 @@ citynews.ca##.consent-cookie-box
 sees.com##.consent-ctnr
 tablesgenerator.com##.consent-dialog
 dict.longdo.com,itmagazine.ch,speaktor.com##.consent-div
-bulova.com##.consent-drawer
+bulova.com,frederiqueconstant.com##.consent-drawer
 ballard-inc.com##.consent-footer
 nextbase.co.uk,nextbase.com,nextbase.eu##.consent-managermain
 fancentro.com##.consent-message
