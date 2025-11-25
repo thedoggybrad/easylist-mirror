@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: D9UXHwBHL+yNw4Nfs+FU6w
-! Version: 202511251132
+! Checksum: LDwv0OTZKD/LSCBSKlSfMQ
+! Version: 202511251141
 ! Title: IndianList
-! Last modified: 25 Nov 2025 11:32 UTC
+! Last modified: 25 Nov 2025 11:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5400,7 +5400,7 @@ navpradesh.com###secondary .widget_media_image:not(#block-64)
 dailyshapoth.com###secondary .widget_media_image:not(#media_image-17)
 shreenews.in###secondary .widget_media_image:not(#media_image-30)
 apnades.in,jogiexpress.com###secondary .widget_media_video
-24city.news,aapkakhabri.co.in,bangla52news.com,livebavaal.com,phaddalo.com,ptbnews.in,seithisolai.com,vatankiawaz.in###secondary .widget_text
+24city.news,aapkakhabri.co.in,bangla52news.com,kabirkiawaz.com,livebavaal.com,phaddalo.com,ptbnews.in,seithisolai.com,vatankiawaz.in###secondary .widget_text
 keralaviews.com###secondary .widget_text img
 janadeshexpress.in###secondary .widget_text:not(#text-17):not(#text-38)
 digantabani.com###secondary .widget_text:not(#text-32)
@@ -6056,7 +6056,7 @@ sangbadmail24.com##.advertisement_left_column
 sangbadmail24.com##.advertisement_right_column
 bdipo.com##.advertisements
 newsplus24x7.com##.advertising
-aapkikhabar.com,anugrahavision.com,bulandsoch.com,cricketkhabara.com,keralavoter.com,newstm.in,publicnewstv.in,upuklive.com,uttarakhandpost.com##.advertismentRow
+aapkikhabar.com,anugrahavision.com,bulandsoch.com,cricketkhabara.com,keralavoter.com,newstm.in,publicnewstv.in,uttarakhandpost.com##.advertismentRow
 divaina.com##.advertisments
 iamgujarat.com,samayam.com,vijaykarnataka.com##.advertorialwrapper
 tulsipurkhabar.com##.advetisement
@@ -9355,7 +9355,6 @@ amritvichar.com##main .htmlwidget
 timenewsbd.net##main .py-0 center img
 arthikawaj.com##main [data-adid]
 deshabhimani.com##main div:has(> .h-full > img[alt="ad"])
-upuklive.com##main div:has(> ins.adsbygoogle)
 sankalpakhabar.com##main section.sk_banner
 pressnote.in#?##main-content .main-carousel:-abp-has(> .title-wrapper > h2 > span:-abp-contains(Advertisement))
 pressnote.in#?##main-content .theiaStickySidebar:-abp-has(> div > .title-wrapper > h2 span:-abp-contains(Advertisement))
@@ -9476,8 +9475,7 @@ tv20news.in#?#p:-abp-contains(Advertisement)
 twentyfournews.com#?#div:-abp-has(> span:-abp-contains(Advertisement))
 aajkasach.in##ul.post h3.widget-title
 unitednewskannada.com#?#.single_sidebar:-abp-has(> h2 > span:-abp-contains(advertisement))
-upuklive.com#?#.colombiaonesuccess > div:-abp-has(> div > div > a span:-abp-contains(Ad |))
-upuklive.com#?#main div:-abp-contains(Advertisement)
+upuklive.com#?#.gb-container:-abp-contains(Advertisement)
 uthayannews.ca#?#.widget_text:-abp-has(.widget-title > span:-abp-contains(Advertising))
 utkalpratidin.com#?#div[id*="_O_"] div:-abp-has(> div > div > a> div *:-abp-contains(Ad |) )
 utkalpratidin.com#?#div[id*="_O_"] div:-abp-has(div-gpt-ad > div > div > a> div *:-abp-contains(Ad:) )
