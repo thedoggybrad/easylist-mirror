@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XOgF0Xwh8DZs8dF4ylrqMw
-! Version: 202511251021
+! Checksum: rrZeQMg8S/pr2AlGexEcjw
+! Version: 202511251031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Nov 2025 10:21 UTC
+! Last modified: 25 Nov 2025 10:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17356,6 +17356,7 @@ clubsandero.ru##[src="//an.yandex.ru/system/context.js"] ~ iframe
 rutor.org.ru##[src="/download32.png"]
 linux.org.ru##[src^="/adv/"]
 news.soundex.ru##[src^="http://news.soundex.ru/images/banners/"]
+pikabu.ru##[src^="https://special.pikabu.ru/"][src*="banner.html"]
 yarportal.ru##[style$="height: 60px;"]
 newsomsk.ru#?#[style*="font"]:-abp-contains(Новости партнеров)
 penzainform.ru##[style*="height: 43px"][style*="max-height: 43px"] ~ div[class^="space_"]
