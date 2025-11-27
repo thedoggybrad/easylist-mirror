@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TYWwppm+Vib+5NkY8IWLyQ
-! Version: 202511271021
+! Checksum: p79IJUvpQlyy9e/2dL3M1w
+! Version: 202511271031
 ! Title: EasyList without rules for adult sites
-! Last modified: 27 Nov 2025 10:21 UTC
+! Last modified: 27 Nov 2025 10:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -71155,6 +71155,7 @@ gpro.net##.boxy:has(#blockblockA)
 slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
 bws.com.au##.card-list-item:has(.productTile.is-Sponsored)
+rclone.org##.card:has(.card-header:has-text(Sponsor))
 truecar.com##.card:has([href*="marketplace&sponsored"])
 bloomingdales.com##.carousel-container:has(.header-sponsored-label)
 doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
