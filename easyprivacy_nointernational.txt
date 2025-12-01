@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BDt1b8pgLNKAA7rHvdDi3Q
-! Version: 202512012242
+! Checksum: RgXtaMWgxEInX3kK0na18g
+! Version: 202512012251
 ! Title: EasyPrivacy without international filters
-! Last modified: 01 Dec 2025 22:42 UTC
+! Last modified: 01 Dec 2025 22:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -44433,6 +44433,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
+@@||cdn.evgnet.com/beacon/homedepotofcainc/engage/scripts/evergage.min.js$script,domain=homedepot.ca
 @@||cdn.facil-iti.app/tags/faciliti-tag.min.js$script,domain=apec.fr|kyoto.travel
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
