@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512020214
+! Version: 202512020222
 ! Title: Fanboy's Anti-Newsletter List
-! Last modified: 02 Dec 2025 02:14 UTC
+! Last modified: 02 Dec 2025 02:22 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8cbd80c31169c67407310ef8776ef33e4eec2fd6
+! Commit: 2e83e23383f2a63a74951170e9ada8c01aa5e07d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1930,6 +1930,7 @@ talkingpointsmemo.com##.NewsletterArticle__Banner
 talkingpointsmemo.com##.NewsletterArticle__Form
 axial.acs.org##.NewsletterCTA_inner__8UZPJ
 aleteia.org##.NewsletterForm_container__CWjyJ
+laist.com##.NewsletterModule
 newscientist.com##.NewsletterPromotion
 marketplace.org##.NewsletterPrompt_newsletterSidebar__tYOqr
 cltampa.com##.NewsletterSignup
@@ -2986,6 +2987,7 @@ gothamist.com##.newsletter-home
 mcknights.com,mcknightshomecare.com##.newsletter-html-asset
 ibtimes.co.uk,ibtimes.com,latintimes.com,musictimes.com##.newsletter-in-article
 almanac.com##.newsletter-incontent
+pbs.org##.newsletter-inline
 forbes.com##.newsletter-inline-flex
 pressgazette.co.uk##.newsletter-inner-container
 vogue.com.au##.newsletter-light-registration
@@ -3851,6 +3853,7 @@ pcmag.com##div[x-init*="initNewsletter"]
 dailydot.com##footer
 amazingcto.com##form
 theverge.com##form.a18g6g5._1ymtmqpj
+kcrw.com##form[class^="Footer_newsletter_"]
 medicalnewstoday.com##hl-newsletter-cta
 michiganmedicine.org##labcoat-promo
 miamiherald.com##newsletter-signup-feature
