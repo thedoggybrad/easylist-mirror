@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: oXNpAn2R8ySje+IUzZhHEg
-! Version: 202512031222
+! Checksum: vW+fa2uHr67m1bDPZJGG5g
+! Version: 202512031232
 ! Title: ABP filters
-! Last modified: 03 Dec 2025 12:22 UTC
+! Last modified: 03 Dec 2025 12:32 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1607,7 +1607,7 @@ partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
 comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaContextCb
 tornado.3dn.ru#$#abort-on-property-read wrapper.addEventListener
 kinoblin.ru,pornoakt.*,serialai.ru#$#prevent-listener mousedown pop.doEvent
-agronews.ua,agroreview.com,agroweek.com#$#prevent-listener DOMContentLoaded 'adId'
+agronews.ua,agroreview.com,agroweek.com#$#prevent-listener DOMContentLoaded 'adId'; prevent-listener click 'track_ad_click'; abort-on-property-write localStorage
 sex-studentki.gold,seks-studentki.pro#$#prevent-listener DOMContentLoaded click_time
 megaprogz.ru,programhub.ru#$#override-property-read portal.isRedirectToYandexSearchAfterDownloadEnabled false; prevent-listener download isMonetized
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'; prevent-listener click 'pop'; prevent-listener /click|mousedown/ setClickedUrl;
@@ -1640,8 +1640,6 @@ karpatnews.in.ua,kg-portal.ru#$#abort-current-inline-script document.createEleme
 vsviti.com.ua#$#abort-on-property-read tdAnimationStack.init
 ! #CV-667
 empireg.ru#$#abort-current-inline-script Math zfgloaded
-! #CV-697
-agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-current-inline-script Object.defineProperty rcBuf; prevent-listener DOMContentLoaded 'adId'
 ! CV-1364
 eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
 ! *** abp-filters-anti-cv:spanish.txt ***
