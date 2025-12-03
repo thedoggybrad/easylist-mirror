@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512030056
+! Version: 202512030105
 ! Title: Fanboy's Anti-Newsletter List
-! Last modified: 03 Dec 2025 00:56 UTC
+! Last modified: 03 Dec 2025 01:05 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1dd65f356d73b78e8f4f625c0254f241f1a896a5
+! Commit: 0e96d3978384159d330da5d82cc341f2123bff71
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3892,6 +3892,7 @@ balls.ie##.bg-left.bg-cover:has-text(Subscribe)
 crunchydata.com##.bg-primary-dark:has-text(newsletter)
 commoncog.com##.bg-purple-50:has-text(Fan of great business)
 compellingsciencefiction.com##.bg-slate-300:has-text(Sign up for the newsletter.)
+spin.com##.border-backgrounds.flex.flex-wrap.border-t:has(form-container)
 decrypt.co##.border-decryptGridline:has-text(Newsletter)
 businesstimes.com.sg##.border-gray-175:has-text(BT in your inbox)
 amgreatness.com##.border-gray-200:has-text(Get the news)
@@ -4123,7 +4124,7 @@ businessinsider.com,inc.com##.inline-newsletter-signup
 ! ! #newsletterForm
 applefirmwares.com###newsletterForm
 ! ! .newsletter-subscription
-alarabiya.net,ambito.com,deutschland.de,intego.com,letrap.com.ar,news24.com,phonearena.com,recepty.cz##.newsletter-subscription
+alarabiya.net,ambito.com,deutschland.de,intego.com,letrap.com.ar,netwerk24.com,news24.com,phonearena.com,recepty.cz##.newsletter-subscription
 ! ! .newsletter-subscription-form
 idealista.pt##.newsletter-subscription-form
 ! ! ##a[href*="/newsletter"]
