@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9QNVODowg97ORh27tb3L/Q
-! Version: 202512032351
+! Checksum: SzulLKozRAIQQFi+rI5Yyw
+! Version: 202512040001
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 Dec 2025 23:51 UTC
+! Last modified: 04 Dec 2025 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -23628,7 +23628,7 @@ dr.dk,smartadserver.de#@#a[href*=".smartadserver.com"]
 slickdeals.net#@#a[href*="adzerk.net"]
 sweetdeals.com#@#a[href*="https://www.sweetdeals.com/"] img
 legacy.com#@#a[href^="http://pubads.g.doubleclick.net/"]
-canstar.com.au,mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
+canstar.com.au,mail.yahoo.com,trulia.com#@#a[href^="https://ad.doubleclick.net/"]
 cars.com#@#a[href^="https://adclick.g.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
 xbdeals.net#@#a[href^="https://click.linksynergy.com/"]
@@ -82500,6 +82500,7 @@ chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
 bjs.com##.lazyload-wrapper:has(> #promoteIqContent)
 stocktwits.com##.leading-\[16px\]:has-text(Advertisement)
 motortrend.com##.lg\:min-h-\[90px\]
+trip.com##.list-item:has(span.ad-info)
 pixiv.net##.list-none:has(> div > [id^="adsdk"])
 pcgamer.com##.listingResult:has(> .sponsored-post)
 euronews.com##.m-object:has(.m-object__spons-quote)
@@ -82585,6 +82586,7 @@ neonheightsservers.com##.well:has(ins.adsbygoogle)
 evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"]))
 cnx-software.com##.widget_text.widget:has([href*="?utm"])
 navyamedia.com##.widget_text:has(> .textwidget .adsbygoogle)
+trip.com##.with-decorator-wrap-v8:has(span.ad_tag)
 navyamedia.com##.wpb_text_column:has(> .wpb_wrapper > p >ins.adsbygoogle)
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 priceline.com##[class*="ListingCardWrapper"]:has([class*="PromoText"])
