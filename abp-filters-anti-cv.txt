@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: aTXq5xdQpz30s5AHfFiSYg
-! Version: 202512051201
+! Checksum: FAIeDKfGKoq2yMx7cg7/OQ
+! Version: 202512051241
 ! Title: ABP filters
-! Last modified: 05 Dec 2025 12:01 UTC
+! Last modified: 05 Dec 2025 12:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1275,6 +1275,7 @@ flaswish.com#$#abort-on-property-read myScriptManager;
 mega.nz#$#replace-fetch-response '/aurl/' '' /mega.co.nz/
 ||up4stream.com/*.mp4^$domain=ups2up.fun
 ||camconnections.live^$xmlhttprequest,domain=gayporntube.com
+nba.com#$#override-property-read __NEXT_DATA__.props.clientConfigSettings.videoAds emptyObj
 ! Japanese sites
 nikaraw.com#$#abort-on-property-read afStorage
 nicovideo.jp##a[href^="https://click.speee-ad.jp"]
