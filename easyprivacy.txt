@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512081148
+! Version: 202512081202
 ! Title: EasyPrivacy
-! Last modified: 08 Dec 2025 11:48 UTC
+! Last modified: 08 Dec 2025 12:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 32463208e6f04eb48b60b782558d9107eb47a080
+! Commit: bddbf5aaa04cc1851a7f9ddffdfcea469e01a124
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3010,6 +3010,7 @@ _WebVitalsReporter_
 /*JmVu.js?sp=
 /*JmVu.js?tg=
 /.netlify/scripts/rum
+/.rum/@adobe/helix-
 /ns.html?id=GTM-
 /send_ga4_params?
 /tag/proxy?id=G-
@@ -48165,6 +48166,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ||link.tubi.tv^
 ! ||app.teachfx.com^
 ! ||open.airtelxstream.in^
+! ||deeplink.xeropan.com^
 ! 
 ! Company name: Branch.io
 ! 
@@ -49532,7 +49534,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||deeplink.wagr.ai^
 ||deeplink.wbnc.99array.com^
 ||deeplink.winespectator.com^
-||deeplink.xeropan.com^
 ||deeplinkdev.upoker.net^
 ||deeplinks.amex.dynamify.com^
 ||deeplinks.breaz.dynamify.com^
