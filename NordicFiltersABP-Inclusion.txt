@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1VwO+NTpoX6rjwm9iPSnKg
-! Version: 202512081431
+! Checksum: z6t6Vcl3QfzvqkXBxb36Mw
+! Version: 202512081441
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 08 Dec 2025 14:31 UTC
+! Last modified: 08 Dec 2025 14:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8420,7 +8420,7 @@ srk.fi#@##CookielawBanner
 /addyn|*|adtech;
 /adengine.js$script
 /adfox/loader.js$script
-/adfx.loader.bind.js$script
+/adfx.loader.bind.js?
 /adhandler/*$~subdocument
 /adiframe|*|adtech;
 /adimage.$image,script,stylesheet
@@ -30536,6 +30536,7 @@ browsershots.org#@#.advert_area
 ||chubbyexemplaryhardiness.com^
 ||chubbyfailure.com^
 ||chubbymess.pro^
+||chucourgee.com^
 ||chugrypsodu.com^
 ||chumgoalies.life^
 ||chumpardale.com^
@@ -46483,6 +46484,7 @@ browsershots.org#@#.advert_area
 ||mycasinoaccounts.com^
 ||mycdn2.co^
 ||mycelesterno.com^
+||mycgsczxluf.com^
 ||mydate-online.com^
 ||mydatingstheladys-club.com^
 ||mydatingswomanonlines.com^
@@ -62515,6 +62517,7 @@ browsershots.org#@#.advert_area
 ||yaupaibcfqfvh.online^
 ||yauponbotone.com^
 ||yavli.com^
+||yawjmjhvpqfpu.website^
 ||yawmarqmnbndi.website^
 ||yawnfreakishnotably.com^
 ||yawnfulharpa.com^
@@ -75336,7 +75339,7 @@ web.telegram.org##.SponsoredMessage
 goodreads.com##.SponsoredProductAdContainer
 streetsblog.org##.Sponsorship_articleBannerWrapper__wV_1S
 thetimes.com##.Sticky-AdContainer
-abc7ny.com##.StickyAdWrapper
+6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.StickyAdWrapper
 coincarp.com,coincheckup.com,coincodex.com##.StickyBottom
 apartmenttherapy.com,cubbyathome.com,thekitchn.com##.StickyFooter
 slideshare.net##.StickyVerticalInterstitialAd_root__f7Qki
