@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qkxn7D0X+eWansDYF/HVjA
-! Version: 202512090431
+! Checksum: MWoYRxwR0whf/gMXicrTUg
+! Version: 202512090441
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Dec 2025 04:31 UTC
+! Last modified: 09 Dec 2025 04:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -81030,6 +81030,7 @@ kayak.com,momondo.*##.CGMG:has(.CGMG-logo-ad-wrapper)
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 sbs.com.au##.MuiBox-root:has(> .desktop-ads)
 luxa.org##.MuiContainer-root:has(> ins.adsbygoogle)
+washingtonpost.com##.PJLV-ifmxCWD-css:has([data-qa="outbrain"])
 ulta.com##.ProductCard:has(.ProductCard__sponsoredText > p.Text-ds)
 ulta.com##.ProductListingResults__productCard:has(.ProductCard__sponsoredText > p.Text-ds)
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.Ssfiu-:has([data-testid="popoverTriggersponsoredLabel"])
