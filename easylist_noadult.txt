@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HbZJdXBBimyoRRc/rVOpMg
-! Version: 202512090431
+! Checksum: IfqrezkLB3cVRKT4bgx/1g
+! Version: 202512090441
 ! Title: EasyList without rules for adult sites
-! Last modified: 09 Dec 2025 04:31 UTC
+! Last modified: 09 Dec 2025 04:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -71259,6 +71259,7 @@ kayak.com,momondo.*##.CGMG:has(.CGMG-logo-ad-wrapper)
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
 sbs.com.au##.MuiBox-root:has(> .desktop-ads)
 luxa.org##.MuiContainer-root:has(> ins.adsbygoogle)
+washingtonpost.com##.PJLV-ifmxCWD-css:has([data-qa="outbrain"])
 ulta.com##.ProductCard:has(.ProductCard__sponsoredText > p.Text-ds)
 ulta.com##.ProductListingResults__productCard:has(.ProductCard__sponsoredText > p.Text-ds)
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.Ssfiu-:has([data-testid="popoverTriggersponsoredLabel"])
