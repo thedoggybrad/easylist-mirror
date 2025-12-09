@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512090006
+! Version: 202512090016
 ! Title: EasyList
-! Last modified: 09 Dec 2025 00:06 UTC
+! Last modified: 09 Dec 2025 00:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d9de2860f5b412ca9fc2d8a02da4cea971d98ae9
+! Commit: aa5f6bb03197bf522bfc3575aa469136c424f562
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -43862,6 +43862,7 @@ browsershots.org#@#.advert_area
 ||qraollantiaiv.online^
 ||qrcvbzqlsbshx.space^
 ||qrczjokpskryu.online^
+||qrealqezjvazj.top^
 ||qrfdaxoxjwgyu.space^
 ||qrjedntkemps.com^
 ||qrjhbgrrqic.xyz^
@@ -53417,6 +53418,7 @@ browsershots.org#@#.advert_area
 ||wormdistressedunit.com^
 ||wormednosing.shop^
 ||wormishnimrod.com^
+||worn-concept.pro^
 ||worn-county.pro^
 ||worrelsottie.qpon^
 ||worried-difference.pro^
@@ -75247,9 +75249,9 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(data:)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
 ! ABP CSS injection filters
+otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-post-details-full) {remove:true;}
 hitomi.la##.content > div[class]:not([class*="-"]) {min-height:40px !important;}
 hitomi.la##.top-content > div[class]:not([class*="-"]) {min-height:40px !important;}
-otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-post-details-full) {remove:true;}
 ! 69games.xxx/gamcore/porcore.com
 classic.gamcore.com###center > .flashes > .wide:has(> a[href][rel])
 69games.xxx###footer
