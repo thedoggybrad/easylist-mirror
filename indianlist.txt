@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0TI9BunaTje7TYb8bKl2rQ
-! Version: 202512091211
+! Checksum: R0au4Mi3qoFWOWsYdul4pw
+! Version: 202512091221
 ! Title: IndianList
-! Last modified: 09 Dec 2025 12:11 UTC
+! Last modified: 09 Dec 2025 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8093,6 +8093,7 @@ indianewscentre.in##.video-container
 voiceofnarayanganj24.com##.video-gallery-box
 girlsglobe.in##.video-widget
 awaaz24x7.com##.video-wrap-three
+zeenews.india.com##.videoCube:has(> a[target="_blank"])
 a2znewsup.com##.videoaddwraper
 gramajyothi.com##.videowrapper.mtop20
 sadamoga.com##.view-ads-all-blocks
@@ -8795,6 +8796,7 @@ sathyadeepam.org##div:has(> [class*="ad-slot-"])
 rtvonline.com##div:has(> [data-ad-unit-path])
 hitwicket.lk##div:has(> [data-adid])
 indiatimes.com##div:has(> [data-row-id="recommended-deals-widget"])
+zeenews.india.com##div:has(> [id*="-ad-"])
 raftaar.in##div:has(> [id^="div-ad-"])
 lokmatnews.in##div:has(> [id^="div-gpt-ad"])
 shortheadlines.com##div:has(> [id^="div-gpt-ad"]:only-child)
@@ -9016,6 +9018,7 @@ reportexclusive.com##div[id$="-ad"]
 tupaki.com##div[id$="_ad"]
 news4indiatv.com##div[id*="-ad-"]
 beauronews.com##div[id*="-ad-block-"]
+zeenews.india.com##div[id*="-mid-homepage"]
 banglatribune.com##div[id*="BT_Inner_"]
 odiagossip.com##div[id*="HP_O_LHS_3"]
 odiagossip.com##div[id*="HP_O_LHS_4"]
