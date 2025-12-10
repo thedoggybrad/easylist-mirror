@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aJwHpbTFl1xUEDlF7WHNvQ
-! Version: 202512100131
+! Checksum: Xma3yH/AsaHF/0udIkfbMQ
+! Version: 202512100141
 ! Title: EasyList without rules for adult sites
-! Last modified: 10 Dec 2025 01:31 UTC
+! Last modified: 10 Dec 2025 01:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -71454,7 +71454,9 @@ wayfair.*##div[data-node-id^="SponsoredListingCollectionItem"]
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[data-resultid$="-sponsored"]
 costco.*##div[data-testid="AdSet-all-sponsored_products"]
 walmart.*##div[data-testid="sp-item"]
+walmart.*##div[data-testid="sp-search-middle"]
 manomano.*##div[data-testid="sprbrd-banner"]
+walmart.*##div[data-testid="tile-take-over"]:has(#sponsored-label)
 walmart.*##div[data-testid^="sba-container"]
 lidl.*##div[data-type="sponsored"]
 zoohit.*,zooplus.*##div[data-zta="product-card"]:has(.z-sponsored-tag)
@@ -71708,6 +71710,7 @@ etsy.com##[data-page-type="market"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
+samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
