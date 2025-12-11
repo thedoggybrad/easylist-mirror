@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: T4gt5HbH3wZgKO79OyMlxg
-! Version: 202512110311
+! Checksum: VEcUbKRzOyXhGF7sR0mBQA
+! Version: 202512110321
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Dec 2025 03:11 UTC
+! Last modified: 11 Dec 2025 03:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -62566,6 +62566,7 @@ browsershots.org#@#.advert_area
 ||xazextepdkarx.store^
 ||xazmshwtsxkne.online^
 ||xbiicstjgsqpr.website^
+||xbkcaouzpdgpb.site^
 ||xbldtkkjeqgna.store^
 ||xblymwmlhadfh.website^
 ||xbmiicdidpymj.vip^
@@ -82592,7 +82593,7 @@ thedailywtf.com#?#.article-body > div:has-text([Advertisement])
 coles.com.au#?#[role="presentation"]:has([data-testid="product-tile"]:-abp-contains(Sponsored))
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,theintelligencer.com#?#.b-gray300:has-text(Advertisement)
 bjs.com#?#[data-cnstrc-recommendations]:-abp-contains(Sponsored Products)
-atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,yourindependentgrocer.ca,valumart.ca,zehrs.ca#?#[data-testid="section"]:has(.indiana-scroll-container:-abp-contains(/Sponsorisé|Sponsored/))
+atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,yourindependentgrocer.ca,valumart.ca,zehrs.ca#?#.indiana-scroll-container > ul > li:has(.chakra-badge:-abp-contains(/Sponsorisé|Sponsored/))
 sainsburys.co.uk#?#.pt-grid-item:has([data-testid="citrus-label"]:-abp-contains(Sponsored))
 costco.com#?#[data-testid="shoppable-list-container"]:-abp-contains(Spons)
 bayequest.com#?#.elementor-section:-abp-contains(Advertisement)
