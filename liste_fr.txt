@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F8E0lRdYZ9j5/ZVrsH3W+A
-! Version: 202512150111
+! Checksum: 4QS0Dq/KpBjFtS8/WhSWHw
+! Version: 202512150121
 ! Title: Liste FR
-! Last modified: 15 Dec 2025 01:11 UTC
+! Last modified: 15 Dec 2025 01:21 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -7181,6 +7181,7 @@ _build=iclick-$popup
 ||angrilyanimatorcuddle.com^$popup
 ||anrdoezrs.net^$popup,third-party
 ||antivirusfit.co^$popup
+||antj.link^$popup
 ||anytheengmedia.com^$popup,third-party
 ||aozoiekopoaka.shop^$popup
 ||appendixwarmingauthors.com^$popup
@@ -7554,6 +7555,7 @@ _build=iclick-$popup
 ||shemalesofhentai.com^$popup,third-party
 ||shot-date.com^$popup,third-party
 ||slabshookwasted.com^$popup
+||slext2.com^$popup
 ||slimcdn.com^$popup,third-party
 ||slutroulette.com^$popup,third-party
 ||smapp.work^$popup
@@ -10705,6 +10707,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||pornvideospass.com^*.gif
 ||pov-house.com/images/banners/
 ||powergothgirls.com/*/banners/
+||powergothgirls.com/*/bannieres/
 ||prelude.me/public/pub/
 ||presse-citron.net/*/wp-content/*/habillage
 ||prix-portables.fr/js/suo.js
@@ -13045,9 +13048,11 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ##[id^="adswidget"]
 ##[id^="dfp_ban_"]
 ##[id^="dfp_banner"]
+##a[href*=".antj.link/"]
 ##a[href*=".atimaze.com/"]
 ##a[href*=".digital2cloud.com/?"]
 ##a[href*=".irtyd.com/"]
+##a[href*=".slext2.com/"]
 ##a[href*="/aff_c?offer_id="] > img
 ##a[href*="/afu.php?"]
 ##a[href*="/www/delivery/"]
@@ -13055,6 +13060,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ##a[href*="?bz=300*250"] > img[src*=".alicdn.com/"]
 ##a[href*="?bz=725*90"] > img[src*=".alicdn.com/"]
 ##a[href^="https://cosmicfundboost.com/trck/"]
+##a[href^="https://pornworks.com/fr/undress/image?utm_source="]
 ##div[data-ad]
 ##div[data-iab-tag]
 !
