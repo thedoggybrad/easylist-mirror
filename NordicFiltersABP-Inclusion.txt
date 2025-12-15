@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Wk5GOpTheiVW2yiKE1zGog
-! Version: 202512150031
+! Checksum: AFAbg987IT80b7ulYtHaOA
+! Version: 202512150042
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 15 Dec 2025 00:31 UTC
+! Last modified: 15 Dec 2025 00:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -82624,6 +82624,7 @@ olympics.com##.b2p-list__item:has(> .adv-fluid)
 bjs.com##.banner-cta-wrap:has([src="//retailmedia-static.criteo.com/"])
 bjs.com##.banner-cta-wrap:has(img[src*="criteo.com"])
 outsports.com##.bg-gray-100:has(.adb-os-lb-incontent)
+magazine.raspberrypi.com##.bg-rpi-grey-100:has-text(Advertisement)
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.block-wrapper:has(.element-header__sponsoredLabel)
 loblaws.ca##.block-wrapper:has([data-track-product-component="carousel||rmp_sponsored"])
 haveibeenpwned.com##.bodyGradient > :has(.why1Password)
