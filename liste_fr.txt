@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TbYC4ZVUM2dqic8Zx0idzQ
-! Version: 202512150131
+! Checksum: BHGXCoeZ/ekqmyyshL357g
+! Version: 202512150141
 ! Title: Liste FR
-! Last modified: 15 Dec 2025 01:31 UTC
+! Last modified: 15 Dec 2025 01:41 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -7169,6 +7169,7 @@ _build=iclick-$popup
 ||ai.me^$popup,third-party
 ||aimportfoliosquid.com^$popup
 ||airartapt.site^$popup
+||ajrkm3.com^$popup
 ||ak-is.net^$popup,third-party
 ||alibabato.com^$popup,third-party
 ||alitems.com^$popup,third-party
@@ -8325,6 +8326,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ||mwzip.com/banner.
 ||my.aliexpress.$third-party
 ||my24hourincome.com/img/banners/$third-party
+||mym-db.com/storage/$third-party
 ||mynewblog.com/tracker.php?
 ||mynewsnet.ch^$subdocument
 ||mynonpublic.com^*/_sponsoren/
@@ -13052,6 +13054,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ##[id^="adswidget"]
 ##[id^="dfp_ban_"]
 ##[id^="dfp_banner"]
+##a[href*=".ajrkm3.com/"]
 ##a[href*=".antfa.link/"]
 ##a[href*=".antj.link/"]
 ##a[href*=".atimaze.com/"]
