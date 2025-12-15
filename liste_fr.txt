@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LcCo1dl2AUrw2VPoj5NsZA
-! Version: 202512150211
+! Checksum: hrhEjNEeCou0wzW5DHWaGg
+! Version: 202512150221
 ! Title: Liste FR
-! Last modified: 15 Dec 2025 02:11 UTC
+! Last modified: 15 Dec 2025 02:21 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -13048,6 +13048,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshrinks.com|a
 ##.zone_annonceurs
 ##.zone_pub_orange
 ##.zonepub
+##[class*="-ad-placeholder-"]
 ##[data-ad-position]
 ##[data-ad-text]
 ##[id^="adswidget"]
