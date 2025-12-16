@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: D+w/vnrf1H6/1sJxAgTKnA
-! Version: 202512160851
+! Checksum: fPQezGqSrH9n9PsB/AW+ZA
+! Version: 202512160901
 ! Title: ABP filters
-! Last modified: 16 Dec 2025 08:51 UTC
+! Last modified: 16 Dec 2025 09:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -588,6 +588,44 @@ wellplated.com#$#cookie-remover /adblocker/ true
 souvlakiforthesoul.com#$#cookie-remover /adblocker/ true
 jigsawexplorer.com#$#cookie-remover /adblocker/ true
 mychemicalfreehouse.net#$#cookie-remover /adblocker/ true
+picrew.me#$#override-property-read Element.prototype.remove noopFunc
+picrew.me#$#abort-on-property-write window.confirm
+picrew.me#$#abort-on-property-write window.alert
+||*/loader.min.js|$script,domain=picrew.me
+||error-report.com^,domain=picrew.me
+picrew.me##iframe[src*="report.error-report.com/modal"]
+slashdot.org#$#override-property-read Element.prototype.remove noopFunc
+slashdot.org#$#abort-on-property-write window.confirm
+slashdot.org#$#abort-on-property-write window.alert
+||*/loader.min.js|$script,domain=slashdot.org
+||error-report.com^,domain=slashdot.org
+slashdot.org##iframe[src*="report.error-report.com/modal"]
+sourceforge.net#$#override-property-read Element.prototype.remove noopFunc
+sourceforge.net#$#abort-on-property-read window.confirm
+sourceforge.net#$#abort-on-property-read window.alert
+||*/loader.min.js|$script,domain=sourceforge.net
+||error-report.com^,domain=sourceforge.net
+sourceforge.net##iframe[src*="report.error-report.com/modal"]
+si.com#$#override-property-read Element.prototype.remove noopFunc
+si.com#$#abort-on-property-write window.confirm
+si.com#$#abort-on-property-write window.alert
+||*/loader.min.js|$script,domain=si.com
+||error-report.com^,domain=si.com
+si.com##iframe[src*="report.error-report.com/modal"]
+si.com##div[id][class][style]:has(div[id][data-gpid]) {remove:true;}
+vwvortex.com#$#override-property-read Date.now noopFunc
+||*/loader.min.js|$script,domain=vwvortex.com
+||error-report.com^,domain=vwvortex.com
+watchuseek.com#$#override-property-read Date.now noopFunc
+||*/loader.min.js|$script,domain=watchuseek.com
+||error-report.com^,domain=watchuseek.com
+inven.co.kr#$#override-property-read Element.prototype.remove noopFunc
+inven.co.kr#$#abort-on-property-write window.confirm
+inven.co.kr#$#abort-on-property-write window.alert
+||*/loader.min.js|$script,domain=inven.co.kr
+||*/script.min.js|$script,domain=m.inven.co.kr
+||error-report.com^,domain=inven.co.kr
+inven.co.kr##iframe[src*="report.error-report.com/modal"]
 ecouter-en-direct.com##div>div[class^="ad_mobil"] {remove:true;}
 ecouter-en-direct.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=ecouter-en-direct.com
@@ -1282,6 +1320,7 @@ streamcloud.my#$#hide-if-matches-xpath './/div[@style="pointer-events: none; pos
 /player/html.php?aid=*&video_id=*&referer=https*kissjav*^$domain=kissjav.li|kissjav.com
 kissjav.li##.asside-link
 flaswish.com#$#abort-on-property-read myScriptManager;
+sourceforge.net#$#hide-if-matches-xpath './/a[contains(@href,"campaign=display")]/parent::div[@class][1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1323,6 +1362,7 @@ style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="
 ygosu.com##iframe[src^="https://cdn.nhnace.com"]
 ygosu.com##iframe[src^="https://tab2.clickmon.co.kr"]
 ygosu.com#$#hide-if-matches-xpath '//div[@style="text-align:center"][./iframe[@src]]'; hide-if-matches-xpath './/a[contains(@href,"board/ad")]/parent::td/parent::tr[1]'
+inven.co.kr#$#hide-if-matches-xpath './/a[contains(@href,"shopping.naver")]/parent::div[@id]/parent::section[@class="sc-banner"][1]'
 ! Thai sites
 animetaro.com#$#abort-on-property-read window.open
 ! Croatian sites
@@ -2054,6 +2094,7 @@ ebay.*#$#hide-if-contains-visible-text /(Sponsored)|(Anzeige)|(Sponsorisé)|(Com
 ebay.com#$#hide-if-matches-xpath './/*[child::div[@id][contains(@style,"min-height")]]/child::*[(self::div[@id][contains(@style,"min-height")]) or (self::section and preceding-sibling::*[self::div[@id][contains(@style,"min-height")]] and not(preceding-sibling::*[not(self::div[@id][contains(@style,"min-height")]) and not(self::section) and following-sibling::section and preceding-sibling::div[@id][contains(@style,"min-height")]]))]'
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato/ 'ul>li' 'ul> li span[aria-labelledby]' '-ignore-padding:true' 'color: rgba(0, 1, 0, 0)' '-disable-bg-color-check: true'
 ebay.*#$#hide-if-matches-computed-xpath './/ul/li//div[@aria-labelledby][@class="{{}}"]/ancestor::li' './/style[contains(text(), "base64,") and string-length(substring-before(substring-after(text(), "base64,"), ")")) mod 4 != 0 ]' '/sans-serif;}.(.*) \\[aria/'; hide-if-matches-computed-xpath './/ul/li//div[@aria-labelledby][@class="{{}}"]/ancestor::li' './/style[contains(substring-after(text(), "base64,"), "AAAAUE" ) and string-length( substring-before(substring-after(text(), "base64,"), ")") ) != 1712 or contains(substring-after(text(), "base64,"), "AAAAUA" ) and string-length( substring-before(substring-after(text(), "base64,"), ")") ) != 1708 or contains(substring-after(text(), "base64,"), "AAAAUI" ) and string-length( substring-before(substring-after(text(), "base64,"), ")") ) != 1720 or contains(substring-after(text(), "base64,"), "AAAAUM" ) and string-length( substring-before(substring-after(text(), "base64,"), ")") ) != 1724 or contains(substring-after(text(), "base64,"), "AAAAUO" ) and string-length( substring-before(substring-after(text(), "base64,"), ")") ) != 1728]' '/sans-serif;}.(.*) \\[aria/';
+ebay.*#$#hide-if-svg-contains /[\u061C\u2060-\u2069]/ 'ul > li' 'ul > li b[aria-labelledby]' '-position-threshold:10'; hide-if-svg-contains /[sS\u0455\u0405$5](?:.{0,15}.){6,8}.{0,15}[dD\u0500\u0501éÉ]/ 'ul > li' 'ul > li b[aria-labelledby]' '-position-threshold:10';
 ! #RM-13
 www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annuncio|Anunci|Anuncio|Anúncio|Anzeige|Iklan|Kostað|Mainos|Oglas|Promovată|Publicidad|Publicité|Quảng|Reklaam|Reklam|Reklama|Reklám|Reklāma|Διαφήμιση|[Рр]еклама|إعلان|광고|広告|付费推广|贊助|מודעה|विज्ञापन|โฆษณา/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
 ! #Pkgs
