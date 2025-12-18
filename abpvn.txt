@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ebl27L3terrI4CmObuHYZQ
-! Version: 202512181101
+! Checksum: GS29U8QT8ArGpZEFky8APw
+! Version: 202512181111
 ! Title: ABPVN List
-! Last modified: 18 Dec 2025 11:01 UTC
+! Last modified: 18 Dec 2025 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 18 Dec 2025 15:08:15 UTC+7
-! Diff-Path: patches/20251218150815556.patch#abpvn
+! Last modified: 18 Dec 2025 18:05:47 UTC+7
+! Diff-Path: patches/20251218180547282.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -369,7 +369,6 @@ $popup,domain=truyenfull.vision
 ##[href^="http://www.sbbanner.com/"]
 ##[id^="bn_bottom_fixed_"]
 ##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
-10gb.vn##.text-center.rounded.p-3.border.mb-lg-4.mb-3
 123nhadatviet.net,123nhadatviet.com,tuoitre.vn,nld.com.vn##.banner-top
 24h.com.vn###background_bg_link
 24h.com.vn###subRightAboveHome
