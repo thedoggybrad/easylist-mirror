@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: D4c1I2jN3M/R378ZR6ksXw
-! Version: 202512180501
+! Checksum: +sLFXzGGKh5XXRWTN00B8Q
+! Version: 202512180511
 ! Title: ABPVN List
-! Last modified: 18 Dec 2025 05:01 UTC
+! Last modified: 18 Dec 2025 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 17 Dec 2025 16:05:26 UTC+7
-! Diff-Path: patches/20251217160526681.patch#abpvn
+! Last modified: 18 Dec 2025 12:07:28 UTC+7
+! Diff-Path: patches/20251218120728850.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -629,9 +629,8 @@ minhngoc.net.vn,vn-z.vn,kinhtedothi.vn##[id^="adv"]
 mn.mediastation.live##.btn-bottom-right-append-player
 mn.mediastation.live##.images-bnr-bellow-append-custom
 mn.mediastation.live##.images-top-pl
-monkeyd.net.vn###affLayer
 monkeyd.net.vn##.justify-content-center.d-flex.mx-3.mx-lg-4.mt-3>[href]
-monkeydtruyen.com###affLayer
+monkeyd.net.vn,monkeydtruyen.com###affLayer
 monkeydtruyen.com###affLayer2
 motchilli.sh##.aam-banner-wrapper
 motchilli.sh##.cat-footer-wrapper
