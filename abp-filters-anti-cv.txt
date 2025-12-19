@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ftQc4pJgSYedhnu+ELeEQg
-! Version: 202512192241
+! Checksum: +EYEGOXs/XOHv1X0z6aiXA
+! Version: 202512192251
 ! Title: ABP filters
-! Last modified: 19 Dec 2025 22:41 UTC
+! Last modified: 19 Dec 2025 22:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -644,7 +644,7 @@ percentagecalculator.net#$#override-property-read window.navigator.connection.rt
 ||error-report.com^$domain=percentagecalculator.net
 ||asloader.tz.de^$script,domain=tz.de
 tz.de##iframe[src*="report.error-report.com/modal"]
-||html-load.com/players/*/70/$xmlhttprequest, domain=mentalfloss.com
+||html-load.com/players/*/70/$xmlhttprequest,domain=mentalfloss.com
 ||dbloader.leboncoin.info^$script,third-party,domain=leboncoin.fr
 ||*/loader.min.js|$script,domain=invoice-generator.com
 ||error-report.com^$domain=invoice-generator.com
