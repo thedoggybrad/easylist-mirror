@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: groKpfbPJfO0An5QyWFP7A
-! Version: 202512210651
+! Checksum: nvzUGoe7puuEuZTKvWo5Yg
+! Version: 202512210701
 ! Title: EasyList without element hiding rules
-! Last modified: 21 Dec 2025 06:51 UTC
+! Last modified: 21 Dec 2025 07:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -258,7 +258,11 @@
 /adv_out.js$third-party
 /adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
-/advanced-ads-$script,stylesheet,domain=~transinfo.pl|~wordpress.org
+/advanced-ads-pro.js$script
+/advanced-ads-pro.min.js$script
+/advanced-ads-pro/assets/dist/front.js$script
+/advanced-ads-pro/assets/js/postscribe.js$script
+/advanced-ads/public/assets/js/advanced.min.js$script
 /advbanner.frontend.js$script
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advertising/ad-shield.js$script
@@ -4428,6 +4432,7 @@ _800x80_
 ||annuarybeeper.click^
 ||annulmentequitycereals.com^
 ||annulusagt.com^
+||anodachwrhdbv.space^
 ||anodeovistic.rest^
 ||anodicgomavel.shop^
 ||anomalahervati.help^
@@ -45762,6 +45767,7 @@ _800x80_
 ||adshot.de^$third-party
 ||adsiduous.com^$third-party
 ||adsight.nl^$third-party
+||adsinteractive.com^$third-party
 ||adslivecorp.com^$third-party
 ||adsmart.hk^$third-party
 ||adsninja.ca^$third-party
