@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DGZKquEBaF6xpKtYbipwnw
-! Version: 202512220732
+! Checksum: 6OEO0mPHlxFtu+Z0Mv3kfA
+! Version: 202512220741
 ! Title: EasyList Polish
-! Last modified: 22 Dec 2025 07:32 UTC
+! Last modified: 22 Dec 2025 07:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2741,6 +2741,7 @@ trzoda-chlewna.com.pl##a[target="_blank"]:not([href^="https://www.trzoda-"])
 maratonypolskie.pl##a[target="pw"]
 gazeta-wiesci.pl##a[title*="clicks."] > img
 jaslo4u.pl##a[title="reklama"]
+medonet.pl##ad-default[class*="ads"]
 tvn24.pl##ad-placeholder
 allegro.pl#?#[data-variants-visible]:-abp-contains(Sponsorowane)
 fm.tuba.pl##app-advert
