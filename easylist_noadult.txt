@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IlVLdXBbfRgzjqr76slBeg
-! Version: 202512220921
+! Checksum: eTmubWJrcHSY+Hc+/vEl3w
+! Version: 202512220931
 ! Title: EasyList without rules for adult sites
-! Last modified: 22 Dec 2025 09:21 UTC
+! Last modified: 22 Dec 2025 09:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -75719,7 +75719,8 @@ m.youtube.com##ytm-rich-item-renderer > ad-slot-renderer
 youtube.com##.grid.ytd-browse > #primary > .style-scope > .ytd-rich-grid-renderer > .ytd-rich-grid-renderer > .ytd-ad-slot-renderer
 youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-rich-item-renderer > .ytd-ad-slot-renderer.style-scope
 youtube.com##ytd-item-section-renderer > .ytd-item-section-renderer > ytd-ad-slot-renderer.style-scope
-!
+! https://github.com/uBlockOrigin/uAssets/issues/31268
+katv.com,kfdm.com,komonews.com,ktul.com,wjla.com##.style_medTopAdsWrapper__rd6bz
 ! Site Specific filters (used with $generichide)
 thefreedictionary.com###Content_CA_AD_0_BC
 thefreedictionary.com###Content_CA_AD_1_BC
