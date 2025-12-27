@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: sObun4lmyCNl3NnGfeeOYw
-! Version: 202512271001
+! Checksum: E4gKZK/LHLxXBXoU6TkSDQ
+! Version: 202512271011
 ! Title: ABP filters
-! Last modified: 27 Dec 2025 10:01 UTC
+! Last modified: 27 Dec 2025 10:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -594,12 +594,6 @@ text-compare.com#$#abort-on-property-write window.alert
 ||*/loader.min.js|$script,domain=text-compare.com
 ||error-report.com^$domain=text-compare.com
 text-compare.com##iframe[src*="report.error-report.com/modal"]
-picrew.me#$#override-property-read Element.prototype.remove noopFunc
-picrew.me#$#abort-on-property-write window.confirm
-picrew.me#$#abort-on-property-write window.alert
-||*/loader.min.js|$script,domain=picrew.me
-||error-report.com^$domain=picrew.me
-picrew.me##iframe[src*="report.error-report.com/modal"]
 slashdot.org#$#override-property-read Element.prototype.remove noopFunc
 slashdot.org#$#abort-on-property-write window.confirm
 slashdot.org#$#abort-on-property-write window.alert
@@ -652,9 +646,6 @@ invoice-generator.com#$#override-property-read window.navigator.connection.rtt 1
 ||*/loader.min.js|$script,domain=dictionary.cambridge.org
 ||error-report.com^$domain=dictionary.cambridge.org
 dictionary.cambridge.org#$#override-property-read window.navigator.connection.rtt 1001
-||*/loader.min.js|$script,domain=collinsdictionary.com
-||error-report.com^$domain=collinsdictionary.com
-collinsdictionary.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=issuya.com
 ||error-report.com^$domain=issuya.com
 issuya.com#$#override-property-readElement.prototype.removenoopFunc
