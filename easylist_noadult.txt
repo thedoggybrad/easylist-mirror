@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9F42GDUDSFEglSX4F3O2dQ
-! Version: 202512270731
+! Checksum: lnBaNaVXwYDLRLX25eUj4w
+! Version: 202512270741
 ! Title: EasyList without rules for adult sites
-! Last modified: 27 Dec 2025 07:31 UTC
+! Last modified: 27 Dec 2025 07:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -14630,6 +14630,20 @@ _800x80_
 ##.TaboolaMoreToExplore_taboolaContainerWrapper__Ccf_j
 ##.TopBannerstyled__Wrapper-sc-x2ypns-0
 ##.style_medTopAdsWrapper__rd6bz
+! ACM Media https://acm.media/brands/non-dailies/
+###billboard-container.bg-gray-100.py-3
+###main-side-container.bg-gray-100.space-y-2
+###mrec-297631-container
+###mrec-leaderboard-298545-container
+###newswell-leaderboard-container
+###newswell-side-1-container
+###newswell-side-2-container
+###story-side-1-container.min-w-mrec
+###story-side-2-container.min-w-mrec
+###story3-container.py-2.bg-gray-100
+###story4-container.py-2.bg-gray-100
+###story5-container.py-2.bg-gray-100
+##div[id^="mrec-leaderboard-"]
 ! newspack.com (noozhawk.com)
 ##.bs-sneaker-container
 ##.newspack-broadstreet-ad
