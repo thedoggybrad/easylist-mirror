@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ELJwIyPGEu0iVM2y7DsF5A
-! Version: 202512280231
+! Checksum: jRfiztb/krP0me8OBzm1nw
+! Version: 202512280241
 ! Title: EasyPrivacy without international filters
-! Last modified: 28 Dec 2025 02:31 UTC
+! Last modified: 28 Dec 2025 02:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3395,6 +3395,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.octaneai.com/get_analytics_engine/
 ||app.opmnstr.com/v2/geolocate/
 ||app.optibase.io^
+||app.partnerboost.com^
 ||app.pendo.io/data/$image
 ||app.posthog.com/e/?compression=
 ||app.posthog.com/e/?ip=
@@ -40206,6 +40207,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! ||open.airtelxstream.in^
 ! ||deeplink.xeropan.com^
 ! ||app.naga.com^
+! ||t.vrbo.io^
 !
 ! Company name: Branch.io
 !
@@ -44138,7 +44140,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||t.service.thetimes.co.uk^
 ||t.staging-mail.tabcorp.com.au^
 ||t.twenty.co^
-||t.vrbo.io^
 ||t1.benefits.tops.co.th^
 ||t1.discover.flashnews.com.au^
 ||t1.stadiumgoods.com^
