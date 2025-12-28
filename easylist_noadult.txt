@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Wa9ARg1RGqpX57BICwterA
-! Version: 202512281051
+! Checksum: imbLO1vSulqQHr03pcX2DA
+! Version: 202512281101
 ! Title: EasyList without rules for adult sites
-! Last modified: 28 Dec 2025 10:51 UTC
+! Last modified: 28 Dec 2025 11:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -27616,6 +27616,7 @@ browsershots.org#@#.advert_area
 ||elycjwbsrpvqof.com^
 ||elymuscostate.com^
 ||elyseedomify.rest^
+||elyseepudenda.cfd^
 ||elytronkantele.shop^
 ||em4ywcow6ugpc4qq7itl.rest^
 ||em71xg8mx5cl63oq8bczn39l6j1kw321.cfd^
@@ -68428,6 +68429,7 @@ browsershots.org#@#.advert_area
 ||dzv1ekshu2vbs.cloudfront.net^
 ||dzxr711a4yw31.cloudfront.net^
 ! cloudfront Ad-Shield
+||d12llxoeoqg343.cloudfront.net^
 ||d13i9p5451i433.cloudfront.net^
 ||d1ly453dyhh7xf.cloudfront.net^
 ||d222yr38kqru7v.cloudfront.net^
@@ -76816,7 +76818,7 @@ bitcointalk.org##.signature:has(a[href]:not([href*="bitcointalk.org"]))
 bestbuy.com##.slContainer:has(> .sponsored)
 bing.com##.slide:has(.rtb_ad_caritem_mvtr)
 fastcompany.com##.sticky:has(.ad-container)
-carwow.co.uk##.stock-cars-v2__card-wrapper:has(>[data-controller="spdeal"])
+carwow.co.uk##.stock-cars-v2__card-wrapper:has(> [data-controller="spdeal"])
 scamwarners.com##.subheader:has(> ins.adsbygoogle)
 thesun.co.uk##.sun-grid-container:has([class*="ad_widget"])
 myrgv.com##.td_block_wrap:has(a[href*="/ask-the-expert/"])
