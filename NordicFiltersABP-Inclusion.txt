@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rzFl4swOX1ongnHwWe0wlQ
-! Version: 202512291151
+! Checksum: 1YaGCxmA/f9f8oom6vGx4g
+! Version: 202512291201
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 29 Dec 2025 11:51 UTC
+! Last modified: 29 Dec 2025 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -50617,6 +50617,7 @@ browsershots.org#@#.advert_area
 ||npcad.com^
 ||npcsgckzwswgs.site^
 ||npcta.xyz^
+||npdeizwvizoeh.space^
 ||npdlubqluhonw.space^
 ||npdvndujyiohla.xyz^
 ||npecialukizeiasnin.com^
@@ -86381,6 +86382,7 @@ diskingdom.com##div[id="diski-"]
 en.namu.wiki,ja.namu.wiki##div[id][class]:empty
 thewire.in##div[id^="ATD_"]
 geeksforgeeks.org##div[id^="GFG_AD_"]
+rule34.us##div[id^="__clb-spot_"]
 kisshentai.net,onworks.net##div[id^="ad"]
 newsner.com##div[id^="ad-"]
 songlyrics.com##div[id^="ad-absolute-160"]
@@ -86769,6 +86771,7 @@ gsmarena.com###subHeader3:has([href="deals.php3"])
 gsmarena.com###subHeader:has(> #topAdv)
 gamereactor.*###videoContainer:has(> [id^="videoContent-videoad-"])
 ping0.cc###websites-wrap:has([rel$="sponsored"])
+rule34.us##*:has(> [target="_blank"][rel="nofollow"])
 kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
 kayak.com,momondo.*##.CGMG:has(.CGMG-logo-ad-wrapper)
 nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
@@ -87016,6 +87019,7 @@ kohls.com##astro-island[component-export="KmnMarqueeBannerWrapper"]:has(img[alt=
 vidplay.lol##body > div > div[class][style]:has(> div > div > a[target="_blank"])
 creepypasta.com##center:has(+ #ad-container-1)
 hashrate.no##center:has(.sevioads)
+rule34.us##center:has(> div[style*="overflow"] > [data-cl-spot])
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div > div:has([data-testid="banner-spr-label"])
 inverse.com##div > p + div:has(amp-ad)
 outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
