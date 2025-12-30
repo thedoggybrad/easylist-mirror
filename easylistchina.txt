@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rUHc/mGM3IaGYpjXJxHjjQ
-! Version: 202512300201
+! Checksum: wxAxkOvmZev//1JDh/SMUQ
+! Version: 202512300211
 ! Title: EasyList China
-! Last modified: 30 Dec 2025 02:01 UTC
+! Last modified: 30 Dec 2025 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10628,6 +10628,7 @@ meijutt.*/js/pcjs/
 ||douyucdn.cn/adxdsp/
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+muinz.top##.module
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
 douyu.com#?#div[class^="body__"] > div[class^="card__"] > span > span[class^="card__"]:-abp-has(span[class^="cardTypeLabel"]:-abp-contains(广告))
 h-ciyuan.com##.theiaStickySidebar .widget_media_image
