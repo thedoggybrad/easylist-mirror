@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dU0PxmS1j54dVf5VFWwwqQ
-! Version: 202512301021
+! Checksum: ukUZf6R2sxfmaqLRbTNT6w
+! Version: 202512301031
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Dec 2025 10:21 UTC
+! Last modified: 30 Dec 2025 10:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23585,6 +23585,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-apps/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 ||dzen.ru/pogoda/$script
 ||static.dzeninfra.ru/s3/zen-apps/video-feed/$script
+||static.dzeninfra.ru/s3/zen-apps/video-player-core/1.121.0/$script
 !
 $csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
@@ -23994,7 +23995,7 @@ news.mail.ru##aside div > div:first-child:empty ~ div
 news.mail.ru#?#aside div:-abp-has(> div:only-child:empty)
 news.mail.ru##body > div > style + div[id]
 ! Дзен новости Mail-edition
-dzen.ru##[id*="410-"]
+dzen.ru##[id*="510-"]
 dzen.ru##[id*="_R-A-"]
 dzen.ru##[id*="_R-E-"]
 dzen.ru##[id*="_R-I-"]
