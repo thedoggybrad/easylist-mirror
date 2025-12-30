@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2vH4l5SgKzG9ckQvv7SnbQ
-! Version: 202512301031
+! Checksum: pvJQd2X5sT0Y+ctDtbQSWQ
+! Version: 202512301041
 ! Title: IndianList
-! Last modified: 30 Dec 2025 10:31 UTC
+! Last modified: 30 Dec 2025 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5105,7 +5105,7 @@ saakshatv.com###custom_html-30
 jaihindustannews.com###custom_html-34
 indiatv360.com###custom_html-36
 saakshatv.com###custom_html-39
-amanyatralive.com,atharvnews.com,hindirush.com,indokalingtimes.com,karmalamadhanews24.com,news20live.com,thehimachal.com,uttarakhandhindinews.com###custom_html-4
+amanyatralive.com,atharvnews.com,hindirush.com,indokalingtimes.com,karmalamadhanews24.com,news20live.com,thehimachal.com,ujjwalpradesh.com,uttarakhandhindinews.com###custom_html-4
 jaunpurlivenews.in###custom_html-43
 abtakmedia.com,asrilanka.com,bdcrictime.com,businesspati.com,digantabani.com,dvgsuddi.com,ganjbasoda.net,jagprerna.com,khabarexpert.in,khelarpata.com,muznews.net,news129.com,newsganj.com,newstodayinhindi.com,pradhanavartha.in,techtamil.com,thehimachal.com,theriyuma.com,uttranews.com###custom_html-5
 hindi-news-today.com###custom_html-51
@@ -6623,8 +6623,8 @@ thurannakathu.com##.elementor-widget-penci-custom-sliders
 theeditor24.com##.elementor-widget-penci-featured-boxes
 unmai.in##.elementor-widget-pixwell-ad-image
 lakfmnews.lk##.elementor-widget-rt-image
-kasaragodchannel.com#@#.elementor-widget-shortcode
 damrua.com,dobrynews.in,graminujala.com,hamarahathras.com,kannada.newskarnataka.com,manavadhikarsandesh.com,nirbhiknazar.com,punjablivenews.in,rsnews24.com,samachardoot.in##.elementor-widget-shortcode
+kasaragodchannel.com#@#.elementor-widget-shortcode
 mohanagarnews.com##.elementor-widget-shortcode .entered:not(iframe)
 barisalbani.com##.elementor-widget-shortcode .size-full
 asiantimes.in,banglasangbad24.com,bharatsarathi.com,dainiksamvad.in,indiadhuandhar.in,mpcnews.in,news9india.in,newsinbihar.com,onlinebhaskar.com,pnews.co.in,vijayavani.net##.elementor-widget-shortcode img
@@ -9289,9 +9289,7 @@ dainiksylhet.com##header .textwidget img
 khabor.com##header a[href*="/click-"]
 hindifiber.com#?#.gb-container:-abp-contains(Advertisement)
 hindulive.com#?#div:has(> .gb-text:-abp-contains(Advertisement))
-horizonhind.com#?#div > h2:-abp-contains(Google Ads)
-horizonhind.com#?#strong:-abp-contains(ABS Hospital)
-horizonhind.com#?#strong:-abp-contains(Vijay Bakery)
+horizonhind.com#?#div:has(> h2:-abp-contains(Advertising))
 hpnews.in#?#.block_wrapper:has(> .box_header > h2 > span:-abp-contains(Advertisement))
 kailarionline.com##hr:first-child ~ div
 hrbreakingnews.com#?#div[id^="AS_O_LHS"] > div:-abp-has(> div > div > a > div > h5:-abp-contains(Ad |))
@@ -9437,7 +9435,6 @@ odiascraps.info#?#div[id*="_O_"] > div:-abp-has(> div > div > a>div > h4 > span:
 odiascraps.info#?#div[id*="_O_"] > div:-abp-has(> div > div > a>div > p:-abp-contains(Ad:))
 patnanow.com##p:has(> ins.adsbygoogle)
 doonited.in##p:has(ins.adsbygoogle)
-horizonhind.com##p[class="fontBold"]
 pingara.com#?#.block-title-4:-abp-has(> h4 > span:-abp-contains(Advertisements))
 pksnews24.com#?#div.primary-sidebar-widget:-abp-has(> div > span:-abp-contains(Advertisement))
 pksnews24.com#?#div[data-adid]:-abp-has(> p:-abp-contains(Advertisement))
