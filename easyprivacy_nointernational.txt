@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WQNqnezxIdvmFXzj/LMwNA
-! Version: 202601010331
+! Checksum: piLmLqFtQveYdkwFCBJFOA
+! Version: 202601010341
 ! Title: EasyPrivacy without international filters
-! Last modified: 01 Jan 2026 03:31 UTC
+! Last modified: 01 Jan 2026 03:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -990,6 +990,7 @@
 /frontend-metrics^
 /frontend-sentry-
 /fsrscripts/triggerParams.js
+/funnel-builder/assets/live/js/tracks.min.js
 /fusion/lucid/data/*
 /g_track.php?
 /ga-audiences?
@@ -2600,6 +2601,7 @@
 /utag_data.js
 /utiqloader.js
 /utm-tags.min.js
+/utm-tracker.min.js
 /utm-tracking.js
 /utm.gif?
 /utm_cookie.js
@@ -7094,6 +7096,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gso.amocrm.com/humans/
 ||gtm.lercio.it^
 ||gtm.wise.com^
+||gtm.xtb.com^
 ||gtreus.aliexpress.com^
 ||gumtree.com.au/tracking/
 ||gurgle.pcmag.com^
