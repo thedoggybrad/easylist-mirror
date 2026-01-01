@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: O4IPq8EsuOev/FUU2wjXVg
-! Version: 202601010212
+! Checksum: YuPdxYjgFeY9lCUunPgTCg
+! Version: 202601010231
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Jan 2026 02:12 UTC
+! Last modified: 01 Jan 2026 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -47581,6 +47581,7 @@ browsershots.org#@#.advert_area
 ||lqggssgxurgp.com^
 ||lqgjblrrezeib.online^
 ||lqgpwtjpccqbd.website^
+||lqhexpvpzqjat.space^
 ||lqjfhehcrkatj.xyz^
 ||lqkkoozmakzov.top^
 ||lqljgkcjsuzer.store^
@@ -86304,6 +86305,7 @@ wunderground.com##AD-TRIPLE-BOX
 tjrwrestling.net##[ad-slot]
 frzyc.github.io##[alt*="Banner"]
 cloutgist.com,codesnse.com##[alt="AD DESCRIPTION"]
+takeuforward.org##[alt="Ad Panel"]
 exchangerates.org.uk##[alt="banner"]
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##[apn-ad-hook]
 gab.com##[aria-label*="Sponsored:"]
@@ -87801,6 +87803,7 @@ evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"])
 cnx-software.com##.widget_text.widget:has([href*="?utm"])
 navyamedia.com##.widget_text:has(> .textwidget .adsbygoogle)
 trip.com##.with-decorator-wrap-v8:has(span.ad_tag)
+celebmafia.com##.wp-caption > [class]:has([width="300"])
 navyamedia.com##.wpb_text_column:has(> .wpb_wrapper > p >ins.adsbygoogle)
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 rule34.us##:has(> [target="_blank"][rel="nofollow"])
