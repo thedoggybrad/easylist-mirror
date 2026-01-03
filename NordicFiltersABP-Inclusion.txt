@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lPgSSBNw+NWILhHoymskVg
-! Version: 202601030201
+! Checksum: HclKokoE/FLkXnq/7m/W6w
+! Version: 202601030211
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 Jan 2026 02:01 UTC
+! Last modified: 03 Jan 2026 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -9127,6 +9127,8 @@ _reklama_$domain=~youtube.com
 ! l.wl.co scam on X
 /_meetups/r.php?click_id=$document
 ! Ad-Shield
+.com/papi/*/327/
+.com/papi/*/456/
 .com/players/*/-1/70/$script,third-party
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
@@ -9146,10 +9148,6 @@ _reklama_$domain=~youtube.com
 ://www.*.com/*/-1/70/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/a/$subdocument,third-party,domain=~edu|~gov
-://www.*.xyz/players/*/-1/$script,subdocument,third-party,xmlhttprequest
-://www.*.xyz/players/*/a/$subdocument,third-party
-://www.*.xyz/players/*?h=$script,third-party
-://www.*.xyz/script/*.com.js|$script,third-party
 ://www.*/player/*/a/$third-party,xmlhttprequest
 ://www.*/player/*/m/$script,third-party
 wss://www.*.xyz/ws^$third-party
