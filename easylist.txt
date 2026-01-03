@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202601030200
+! Version: 202601030203
 ! Title: EasyList
-! Last modified: 03 Jan 2026 02:00 UTC
+! Last modified: 03 Jan 2026 02:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6cd7ea6d1bb2102fcb062622fdd979b1e4a1aafa
+! Commit: ea466e57c144b97006244e89aeb7f8873f09356c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -837,6 +837,7 @@ _reklama_$domain=~youtube.com
 ! l.wl.co scam on X
 /_meetups/r.php?click_id=$document
 ! Ad-Shield
+.com/papi/*/327/
 .com/players/*/-1/70/$script,third-party
 /ad-shield/e/*$script,third-party
 /anymanagerrecover.js
@@ -856,10 +857,6 @@ _reklama_$domain=~youtube.com
 ://www.*.com/*/-1/70/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.com/players/*/a/$subdocument,third-party,domain=~edu|~gov
-://www.*.xyz/players/*/-1/$script,subdocument,third-party,xmlhttprequest
-://www.*.xyz/players/*/a/$subdocument,third-party
-://www.*.xyz/players/*?h=$script,third-party
-://www.*.xyz/script/*.com.js|$script,third-party
 ://www.*/player/*/a/$third-party,xmlhttprequest
 ://www.*/player/*/m/$script,third-party
 wss://www.*.xyz/ws^$third-party
