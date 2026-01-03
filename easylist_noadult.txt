@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DihV+8GLoBX5ZG424MOSMg
-! Version: 202601030031
+! Checksum: FbDRwVUB8vBwvu4B+mmaHQ
+! Version: 202601030041
 ! Title: EasyList without rules for adult sites
-! Last modified: 03 Jan 2026 00:31 UTC
+! Last modified: 03 Jan 2026 00:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -51,7 +51,10 @@
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/api/posts?token=$third-party
 .com/b.js|
+.com/bn.js$third-party
 .com/exload.js
+.com/in.js$third-party
+.com/on.js$third-party
 .com/sc/*?n=$script,third-party
 .com/script/a.js$third-party
 .com/script/asset.js$third-party
