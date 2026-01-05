@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202601052213
+! Version: 202601052219
 ! Title: Fanboy's Annoyance List
-! Last modified: 05 Jan 2026 22:13 UTC
+! Last modified: 05 Jan 2026 22:19 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 90563f4858a507bca72a26e5c4bb5cd2c258aca1
+! Commit: d0f98db88a34d8219aae677fbabec2d4a0ba9c7b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -46839,6 +46839,7 @@ stoloto.ru##div[class^="Provider_container"]
 aliexpress.ru##div[class^="SnowPrivacyPolicyBanner_"]
 bb.market##div[class^="_cookies_"]
 asna.ru##div[class^="modalCookies_"]
+yoomoney.ru##div[data-qa="gdpr"]
 russianfield.com##div[data-storage-item^="t886cookiename_"]
 knmoloko.ru##div[data-storage-item^="t887cookiename_"]
 litres.ru##div[data-testid="cookieAcceptPopup"]
@@ -47952,7 +47953,7 @@ youtube.com#@##consent-bump
 bbc.com,kleinanzeigen.de#@##consentBanner
 wacom.com#@##consent_blackbar
 voas.fi#@##coockie-modal
-br-dge.to,citaalen.com,feierabend.de,gpiaaf.gov.pt,hoesjesdirect.nl,huellendirekt.de,kmudigital.at,kontostand.at,mazda-autohaus-volz-saarbruecken.de,serveminecraft.net,vrtranspoint.fi,zukunft-jetzt.deutsche-rentenversicherung.de#@##cookie-banner
+br-dge.to,citaalen.com,feierabend.de,gpiaaf.gov.pt,hoesjesdirect.nl,huellendirekt.de,kmudigital.at,kontostand.at,mazda-autohaus-volz-saarbruecken.de,serveminecraft.net,spares2repair.co.uk,vrtranspoint.fi,zukunft-jetzt.deutsche-rentenversicherung.de#@##cookie-banner
 channel4.com#@##cookie-consent-banner
 tingstad.com#@##cookie-consent-popup
 notify.events#@##cookie-gdpr
