@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VW4hKo9GCBbn5ThsgC6sqA
-! Version: 202601061622
+! Checksum: xU7wCHEKYQCbip4QiS4M7g
+! Version: 202601061632
 ! Title: IndianList
-! Last modified: 06 Jan 2026 16:22 UTC
+! Last modified: 06 Jan 2026 16:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5046,7 +5046,7 @@ ajdapunjab.com###block-69
 areseenews.com,athirvu.in,girlsglobe.in,kundapraa.com,liveindiakhabar.in,newsnagar.in,odishamanthan.com,paryavaranpost.com,samacharfirst.com,satyagrahanews.in###block-7
 sajagindia.com,thenationtimes.in###block-73
 thenationtimes.in###block-74
-angulonline.com,bharatpostlive.com,chamolitimes.com,naanmedia.in,palisirohionline.in,wayanadnewsdaily.com###block-8
+amaderaraihazar.com,angulonline.com,bharatpostlive.com,chamolitimes.com,naanmedia.in,palisirohionline.in,wayanadnewsdaily.com###block-8
 sansanisurag.com###block-85
 suryaa.co.in###block-88
 agrobd24.com,bombaysamachar.com,samacharbharti.in,tv36hindustan.com,wayanadnewsdaily.com###block-9
@@ -6350,9 +6350,9 @@ inbnews24.com##.bsac-container
 everestdainik.com##.bstyle-list ~ .post
 hirunews.lk##.btm-sticky
 firstindianews.com##.buget-banner
-cgjanadesh.com,kaimurlive.com##.bwg_container
+kaimurlive.com##.bwg_container
 despardesweekly.co.uk##.bwp_gallery
-cgjanadesh.com,jagarantripura.com##.bwp_gallery_slideshow
+jagarantripura.com##.bwp_gallery_slideshow
 vellinakshatram.com##.c-sections__container
 canvasmagazine.com.bd##.canvas-slider
 prothomalo.com##.card-image-wrapper + div
@@ -8795,6 +8795,7 @@ neemkathananews.in##center > b+img
 yarldevinews.net##center > img[style="margin-top:20px;"]
 munaadi.com##center:has(> img.w-100)
 cg24news.in#?#.sidebar:-abp-has(> h5 > span:-abp-contains(Advertisement))
+cgjanadesh.com#?#div[class^="gb-element"]:-abp-properties(min-height)
 champarantoday.in#?#.sidebar-widget:-abp-has(> .widget-head > .title:-abp-contains(Ads))
 channelmahalaxmi.com#?#h2.widgettitle:-abp-contains(Advertisment)
 chatonay71news.com#?#.widget_recent_entries:-abp-contains(ads)
