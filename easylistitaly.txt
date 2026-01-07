@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6eqCgM4/Oy6OAdakTKz/Iw
-! Version: 202601071551
+! Checksum: 99eu0DMten/xapTje3+Xkg
+! Version: 202601071601
 ! Title: EasyList Italy
-! Last modified: 07 Jan 2026 15:51 UTC
+! Last modified: 07 Jan 2026 16:01 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -497,7 +497,6 @@ _sito/adv/
 ##.topadv_right
 ##.trama_ads
 ##.tw-adv-native
-##.tw-adv-slot
 ##.view-pubblicita
 ##.widget_adv_multi
 ##.widget_eepex
@@ -568,6 +567,7 @@ la7.it#@#div[id^="rtbuzz_"]
 ||adplay.it^$third-party
 ||adspro.it^$third-party
 ||affiliation.software^$third-party
+||affilroi.com^$third-party
 ||bannerbuy.it^$third-party
 ||break-even.it^$third-party
 ||broadbandy.net^$third-party
@@ -2091,7 +2091,6 @@ anteprima24.it,araberara.it,assinews.it,centotrentuno.com,corriereelorino.it,djm
 imiglioridififa.com,ispazio.net,siciliaonpress.com,sienafree.it,smartcentral.it,teslers.it##.a-wrap
 apple-notizie.it,casa-domotica24.it,casinamia.com,comelofaccio.it,dilei.it,fut18italia.it,gommeblog.it,ideericette.it,imiglioridififa.com,libripiuvenduti.it,maccanismi.it,meditazionezen.it,migliorecrema.com,migliorigiochi.eu,mille-animali.com,monetizzando.it,naturalogico.it,nerdmovieproductions.it,nomavic.it,orgoglionerd.it,outofbit.it,piscinegonfiabili.net,recensioniorologi.it,reviewbox.it,salutemoderna.it,saluteopinioni.it,stampante-3d.net,techbusiness.it,techprincess.it,tecnofacile.com,thrillercafe.it,tivustream.com,topdigamma.it,tuttotek.it##.aawp
 recensioniorologi.it,tecnofacile.com##.aawp-button
-ilsole24ore.com##.abox
 selectra.net##.action-box
 ilmostardino.it##.acx_ppt
 ad-italia.it,eurosport.it,gqitalia.it,icasa.ch,ilfoglio.it,lacnews24.it,lacrocequotidiano.it,lacucinaitaliana.it,le-citazioni.it,lonelyplanetitalia.it,mondoplay.it,mondoxbox.com,smartbuildingitalia.it,tellows.it,vanityfair.it,vogue.it,wallpapic.it,wired.it##.ad
@@ -3093,7 +3092,6 @@ live-sport-tv.it##.rectangles
 prealpina.it##.redazionale
 megaescort.info##.region-banner-bottom
 megaescort.info##.region-banner-header
-ilsole24ore.com##.rel--brandconn
 microgiochi.com##.relacionados
 dday.it##.relevant.preview
 mobimart.it##.resp-container
@@ -3401,6 +3399,7 @@ alqamah.it##.widget_xyz_insert_php_widget
 spaziogames.it,tomshw.it##.widgetbay-card
 vicenzanews.it##.wifiplaza
 bresciasat.it##.workspace__block--sponsor
+sport.it##.wp-block-af-widget-affiliate
 raccontivietati.com##.wp-block-cover
 ondatv.tv##.wp-block-embed-youtube
 newsmondo.it##.wp-block-evolve-sponsor
