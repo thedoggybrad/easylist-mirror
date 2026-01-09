@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: L+JW+3UmZ7mX6qoBVT9/mQ
-! Version: 202601090851
+! Checksum: bUr1k3Yt+/0ktYS+jfeQwg
+! Version: 202601090902
 ! Title: EasyList China
-! Last modified: 09 Jan 2026 08:51 UTC
+! Last modified: 09 Jan 2026 09:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -771,6 +771,9 @@
 :800*/d/*n=$script,third-party
 :800*/d/*t=$script,third-party
 :800*/sc/*n=$script,third-party
+:900*/d/*n=$script,third-party
+:900*/d/*t=$script,third-party
+:900*/sc/*n=$script,third-party
 :8080/ad/
 :8080/advserver/
 :8080/js/v1.js$third-party
