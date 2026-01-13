@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: buwuZUWV2vyYXOHNpdHtPA
-! Version: 202601132011
+! Checksum: s1Ml789iwIj9VO4V5i2EWg
+! Version: 202601132021
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 13 Jan 2026 20:11 UTC
+! Last modified: 13 Jan 2026 20:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -62378,6 +62378,7 @@ browsershots.org#@#.advert_area
 ||umauirfyhaepr.online^
 ||umbkhpryixebl.space^
 ||umbrereforrard.qpon^
+||umcndsnxlmwqs.space^
 ||umdwwuasqcdar.online^
 ||umebella.com^
 ||umechinsauwho.net^
@@ -67266,6 +67267,7 @@ browsershots.org#@#.advert_area
 ||yypkjxtumgofe.site^
 ||yypqvjzprpsfm.online^
 ||yypw6r89bj9beue9q.rest^
+||yyrmipmm.com^
 ||yysqrduhpfsci.net^
 ||yysqrduhpfsci.xyz^
 ||yytxgghgvtwfp.icu^
@@ -86512,11 +86514,13 @@ sprouts.com#?#li.product-wrapper:-abp-has(span:-abp-contains(Sponsored))
 stocktwits.com#?#.is-visible:has-text(Remove ads)
 gsmarena.com#?##subHeader3:has-text(daily deals)
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))
+target.com#?#.styles_ndsCarouselItem__dnUkr:-abp-has(p.h-text-sm:-abp-contains(Sponsored))
 target.com#?#[data-test="ProductCardVariantRecommendation"]:-abp-contains(Sponsored)
 target.com#?#[data-test="productCardVariantRecommendation"]:-abp-contains(Sponsored)
 target.com#?#div[class^="styles_productCardVariantMiniWrapper_"]:-abp-has(div.h-text-sm:-abp-contains(Sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-contains(sponsored)
+target.com#?#div[data-test="addToCartSuccessModalRecommendationsTile"]:-abp-has(p.h-text-xs:-abp-contains(Sponsored))
 techonthenet.com#?#div[class] > p:-abp-contains(Advertisements)
 telugupeople.com#?#table:-abp-has(> tbody > tr > td > a:-abp-contains(Advertisements))
 temu.com#?#.EKDT7a3v:-abp-contains(AD)
