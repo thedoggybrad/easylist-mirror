@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H0nTIID+2VaJJq/aPEsmCg
-! Version: 202601141303
+! Checksum: 5LBP5ZrH7DLH0SivXzjHGQ
+! Version: 202601141311
 ! Title: IndianList
-! Last modified: 14 Jan 2026 13:03 UTC
+! Last modified: 14 Jan 2026 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4904,7 +4904,7 @@ balotranewstrack.com,dailyhealthletters.com,taazakhoj.com,tahkikatsamachar.in###
 balotranewstrack.com,bhopalsamachar.com,dainikdesherkhobor.com,publicnewshindi.com,rajsamachar.com,thattungal.com###HTML16
 abtakapakesath.com,rashtrasamarpan.com,thattungal.com###HTML18
 obolokon24.com,openmalayalam.com,spyviewnews.in,tamilarul.net###HTML19
-banglarawaj.com,chilahatiweb.com,editiontoday.in,importmirror.com,kagojlive.blogspot.com,kushiyaranews.com,marudharabharti.com,sahibganjnews.com,samjhobharat.com,tistanews24.com,upayuktha.com###HTML2
+banglarawaj.com,chilahatiweb.com,editiontoday.in,importmirror.com,kagojlive.blogspot.com,kushiyaranews.com,marudharabharti.com,sahibganjnews.com,samjhobharat.com,tistanews24.com,upayuktha.com,vidhikawaj.com###HTML2
 24upnews.com###HTML2 .separator img
 backtobollywood.com,gossiplankanews.com###HTML20
 chahalpahal.in###HTML200
@@ -5001,7 +5001,7 @@ mujibnagarkhabor.com###adsentop
 vishvakannada.com###adv
 glimeindianews.in###advads_ad_widget-2
 newsnib.in###advertisement
-elettilonline.com###after-ad
+elettilonline.com,vidhikawaj.com###after-ad
 newscenternepal.com###after-menu-ads
 alakhharyana.com,lokpatrika.in###ai_widget-2
 nationnewshindi.com###ai_widget-5
@@ -5550,7 +5550,7 @@ bhorerkagoj.com###sidebar .textwidget
 saradin.news###sidebar .textwidget img
 asalbaat.co.in,mybenipatti.in###sidebar .widget.HTML
 rujalanews.blogspot.com###sidebar .widget.HTML:not(#HTML2)
-coverageindia.com,mybenipatti.in,thetodaytimes.in###sidebar .widget.Image
+coverageindia.com,mybenipatti.in,thetodaytimes.in,vidhikawaj.com###sidebar .widget.Image
 asalbaat.co.in###sidebar .widget.Image .widget-content
 citynewshindi.com###sidebar .widget.Image:not(#Image8)
 iautoindia.com###sidebar .widget:has(.banner)
@@ -6725,8 +6725,8 @@ thurannakathu.com##.elementor-widget-penci-custom-sliders
 theeditor24.com##.elementor-widget-penci-featured-boxes
 unmai.in##.elementor-widget-pixwell-ad-image
 lakfmnews.lk##.elementor-widget-rt-image
-damrua.com,dobrynews.in,graminujala.com,hamarahathras.com,kannada.newskarnataka.com,manavadhikarsandesh.com,nirbhiknazar.com,punjablivenews.in,rsnews24.com,samachardoot.in##.elementor-widget-shortcode
 kasaragodchannel.com#@#.elementor-widget-shortcode
+damrua.com,dobrynews.in,graminujala.com,hamarahathras.com,kannada.newskarnataka.com,manavadhikarsandesh.com,nirbhiknazar.com,punjablivenews.in,rsnews24.com,samachardoot.in##.elementor-widget-shortcode
 mohanagarnews.com##.elementor-widget-shortcode .entered:not(iframe)
 barisalbani.com##.elementor-widget-shortcode .size-full
 asiantimes.in,banglasangbad24.com,bharatsarathi.com,dainiksamvad.in,indiadhuandhar.in,mpcnews.in,news9india.in,newsinbihar.com,onlinebhaskar.com,pnews.co.in,vijayavani.net##.elementor-widget-shortcode img
@@ -8939,6 +8939,7 @@ raftaar.in##div:has(> [id^="div-ad-"])
 lokmatnews.in##div:has(> [id^="div-gpt-ad"])
 shortheadlines.com##div:has(> [id^="div-gpt-ad"]:only-child)
 lokmat.com##div:has(> [id^="div-gpt-ad-"])
+spokesmanhindi.com##div:has(> [style="color:gray; text-align:center;"] ~ ins.adsbygoogle)
 samayduniya.com##div:has(> a > div > .pd_title)
 banijjoprotidin.com##div:has(> a >img.size-full)
 dailysamvad.com##div:has(> center > img[src*="-Add"])
