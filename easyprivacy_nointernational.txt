@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: b7F8IW2Rz5ktyE9jZS2C4w
-! Version: 202601180711
+! Checksum: 8ceYz2xOV5UWD13Rp0Vt7g
+! Version: 202601180721
 ! Title: EasyPrivacy without international filters
-! Last modified: 18 Jan 2026 07:11 UTC
+! Last modified: 18 Jan 2026 07:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8402,7 +8402,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! akamaihd.net
 ||akamaihd.net^$image,domain=globalnews.ca|nycgo.com|stcatharinesstandard.ca
 ! Non-legit domains
-||edge-client^$script,domain=barrons.com
+://edge-client/$domain=barrons.com
 ! Plausible selfhosted
 ||jeremiahlee.com/fanboynz.js
 ! confection.io
