@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dM7wASxbmjKSk278rKIS2w
-! Version: 202601181251
+! Checksum: e97XU+segftnnUf7atLGHw
+! Version: 202601181302
 ! Title: EasyList without rules for adult sites
-! Last modified: 18 Jan 2026 12:51 UTC
+! Last modified: 18 Jan 2026 13:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31448,6 +31448,7 @@ browsershots.org#@#.advert_area
 ||gnweykgfnrqwg.net^
 ||gnxszedepbbef.online^
 ||gnxzfqmoyvvjt.website^
+||gnylrhejoejyesm.com^
 ||gnzfwmyurtkii.website^
 ||go-g3t-push.net^
 ||go-g3t-s0me.net^
@@ -56182,6 +56183,7 @@ browsershots.org#@#.advert_area
 ||usainoad.net^
 ||usaraexturb.cfd^
 ||usbrowserspeed.com^
+||uscahcjmcjyuj.space^
 ||usckthgqdbflv.site^
 ||usdjhvbme.com^
 ||usdspxxgwqqzn.online^
@@ -58363,6 +58365,7 @@ browsershots.org#@#.advert_area
 ||wideorganizati.com^
 ||wideprophetbeast.com^
 ||widespreadcomponent.com^
+||widestcarter.qpon^
 ||widgetbucks.com^
 ||widgetly.com^
 ||widiaoexhe.top^
@@ -69870,6 +69873,8 @@ browsershots.org#@#.advert_area
 @@||jetzt.de^$generichide
 ! dood.pm
 /^https?:\/\/www\.[0-9a-z]{8,}\.com\/[0-9a-z]{1,4}\.js$/$script,third-party,domain=dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.watch|dood.ws
+! gsmarena.com
+/\.gsmarena\.com\/[0-9]+\.[a-z]+\?s?Search=/$xmlhttprequest,domain=gsmarena.com
 ! Internal use of EL
 ||raw.githubusercontent.com/easylist/easylist/master/docs/1x1.gif
 ||raw.githubusercontent.com/easylist/easylist/master/docs/2x2.png$third-party
@@ -76238,7 +76243,6 @@ cars.com##[id$="-sponsored"]
 lolalytics.com##[id$=":inline"]
 bridgebase.com##[id*="_ad"]
 homedepot.com##[id*="sponsored"]
-gsmarena.com##[id][style="display: block;"]
 80.lv##[id^="Image_bner_"]
 ldoceonline.com##[id^="ad_contentslot"]
 bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
