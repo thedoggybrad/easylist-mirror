@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iqesCCVZsICkK71hpZxXkg
-! Version: 202601181251
+! Checksum: lrLUAgsyQj140OyZuAJMvQ
+! Version: 202601181302
 ! Title: EasyList without element hiding rules
-! Last modified: 18 Jan 2026 12:51 UTC
+! Last modified: 18 Jan 2026 13:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17386,6 +17386,7 @@ _800x80_
 ||gnweykgfnrqwg.net^
 ||gnxszedepbbef.online^
 ||gnxzfqmoyvvjt.website^
+||gnylrhejoejyesm.com^
 ||gnzfwmyurtkii.website^
 ||go-g3t-push.net^
 ||go-g3t-s0me.net^
@@ -42120,6 +42121,7 @@ _800x80_
 ||usainoad.net^
 ||usaraexturb.cfd^
 ||usbrowserspeed.com^
+||uscahcjmcjyuj.space^
 ||usckthgqdbflv.site^
 ||usdjhvbme.com^
 ||usdspxxgwqqzn.online^
@@ -44301,6 +44303,7 @@ _800x80_
 ||wideorganizati.com^
 ||wideprophetbeast.com^
 ||widespreadcomponent.com^
+||widestcarter.qpon^
 ||widgetbucks.com^
 ||widgetly.com^
 ||widiaoexhe.top^
@@ -56647,6 +56650,8 @@ _800x80_
 @@||jetzt.de^$generichide
 ! dood.pm
 /^https?:\/\/www\.[0-9a-z]{8,}\.com\/[0-9a-z]{1,4}\.js$/$script,third-party,domain=dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.watch|dood.ws
+! gsmarena.com
+/\.gsmarena\.com\/[0-9]+\.[a-z]+\?s?Search=/$xmlhttprequest,domain=gsmarena.com
 ! Internal use of EL
 ||raw.githubusercontent.com/easylist/easylist/master/docs/1x1.gif
 ||raw.githubusercontent.com/easylist/easylist/master/docs/2x2.png$third-party
