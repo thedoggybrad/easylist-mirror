@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mwrGpWJWboTO2WhPvhE+7A
-! Version: 202601180141
+! Checksum: 2O6/evCEqjJx4TXmvyPc5w
+! Version: 202601180151
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 18 Jan 2026 01:41 UTC
+! Last modified: 18 Jan 2026 01:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -1280,6 +1280,8 @@ juleweb.dk##p + div[data-elementor-type=section]
 kondis.no##.fullbanner
 kondis.no##.maincontainer
 kondis.no##.bannerlocation
+mbl.is##.col-12:has(>.augl)
+mbl.is##.col-12:has(>div[class^=seen]:first-of-type>.augl)
 sportsidioten.no##.code-block:has(#snack_mpu,div[id^=snack_dex])
 sportsidioten.no##.scap
 sportsidioten.no##.sticky-half-page:has(> .scap:only-of-type)
@@ -1344,6 +1346,7 @@ gladkokken.no##.-type-ad
 123kortspill.no###main > p:has-text(Lei av kabal?)
 kabaler.dk##aside > table[bgcolor^=FFF]
 sykepleien.no##.layout--onecol:has([class*=adnuntius])
+moviezine.no##div:has(>div[id^=moviezine-norge_outside])
 ! — — — — — — — — — — — — — — — — —
 ! 🇳🇴：Oppføringer for minst 3 nettsteder
 ! 🇬🇧：Entries for at least 3 websites
@@ -2260,6 +2263,8 @@ fo##.vev
 ###adnm-stickies:not(:empty)
 ! hvakosterstrommenNO (02/01/2026)
 ##.power-card--ad:not(html,body,:empty)
+! https://www•moviezine•no/nyheter/den-tapeligste-komedien-fra-2025-er-na-tilgjengelig-for-streaming (15/01/2026)
+###tilt-ad-top-stay-away:not(html,body,:empty)
 ! — — — — — — — — — — — — — — — — — — — — — — — — — — —
 ! 🇳🇴：Oppføringer med spesielle omstendigheter
 ! 🇬🇧：Entries with special circumstances
@@ -38854,6 +38859,7 @@ browsershots.org#@#.advert_area
 ||giguenestle.com^
 ||giiepghzxdtbl.website^
 ||giirlforyou.com^
+||gijkkwksxjofe.online^
 ||gikwhxotzqqzc.site^
 ||gilarditus.com^
 ||gildshone.com^
@@ -81678,7 +81684,6 @@ wccftech.com##.bg-square-mobile-without-bg
 ewn.co.za##.bg-surface-03.text-content-secondary.space-y-\[0\.1875rem\].p-spacing-s.flex.flex-col.w-max.mx-auto
 wccftech.com##.bg-vertical
 time.com##.bg-warm-grey-ads
-copyprogramming.com##.bg-yellow-400
 overclock3d.net##.bglink
 bhamnow.com##.bhamn-adlabel
 bhamnow.com##.bhamn-story
@@ -81793,7 +81798,7 @@ codeproject.com##.bottom-promo
 huffpost.com##.bottom-right-sticky-container
 crn.com##.bottom-section
 gamingdeputy.com##.bottom-sticky-offset
-coincodex.com##.bottom8
+coincodex.com##.bottom9
 openguessr.com##.bottomFooterAds
 auto.hindustantimes.com##.bottomSticky
 softicons.com##.bottom_125_block
@@ -82717,9 +82722,7 @@ bluejaysnation.com,canucksarmy.com,coincheckup.com,dailyfaceoff.com,flamesnation
 thenewdaily.com.au##.h-home-ad-height-stop
 buzzly.art##.h-min.overflow-hidden
 target.com##.h-position-fixed-bottom
-copyprogramming.com##.h-screen
 lyricsmode.com##.h113
-tetris.com##.hAxContainer
 opoyi.com##.hLYYlN
 marketscreener.com##.hPubRight2
 fortune.com##.hTeNPD
@@ -83128,8 +83131,7 @@ benzinga.com##.lazyload-wrapper[style="min-height:170px;width:100%"]
 iol.co.za##.lbMtEm
 trueachievements.com,truesteamachievements.com,truetrophies.com##.lb_holder
 leetcode.com##.lc-ads__241X
-coincodex.com##.ldb-top4
-coincodex.com##.ldb-top5
+coincodex.com##.ldb-top6
 soaphub.com##.ldm_ad
 lethbridgenewsnow.com##.lead-in
 versus.com##.lead_top
@@ -83361,13 +83363,11 @@ manofmany.com,scanwith.com##.middle-banner
 tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
 spectator.com.au##.middle-promo
-coincodex.com##.middle7
-coincodex.com##.middle8
+coincodex.com##.middle9
 heatmap.news##.middle_leaderboard
 fruitnet.com##.midpageAdvert
 golfdigest.com##.midslot
 extremetech.com##.min-h-24
-copyprogramming.com,imagecolorpicker.com##.min-h-250
 gizmodo.com##.min-h-\[1000px\]
 op.gg,thenewdaily.com.au##.min-h-\[100px\]
 charlieintel.com,dexerto.com##.min-h-\[114px\]
@@ -84252,8 +84252,7 @@ uquiz.com##.side_bar
 panarmenian.net##.side_panner
 tutorialrepublic.com##.sidebar
 collegedunia.com##.sidebar .course-finder-banner
-coincodex.com##.sidebar-2skyscraper
-coincodex.com##.sidebar-3skyscraper
+coincodex.com##.sidebar-4skyscraper
 ganjapreneur.com##.sidebar-ad-block
 oann.com##.sidebar-ad-slot__ad-label
 jayisgames.com##.sidebar-ad-top
@@ -84832,8 +84831,6 @@ upworthy.com##.upworthy_infinte_scroll_outer_wrap
 uproxx.com##.upx-ad-unit
 vitalmtb.com##.v-ad-slot
 surinenglish.com##.v-adv
-tetris.com##.vAxContainer-L
-tetris.com##.vAxContainer-R
 lasvegassun.com##.varWrapper
 venturebeat.com##.vb-ad-slot
 helis.com##.vbar23
@@ -85557,8 +85554,6 @@ nintendolife.com,purexbox.com,pushsquare.com,timeextension.com,videogameschronic
 helpnetsecurity.com##[style*="max-height: 250"]
 untapped.gg##[style*="min-height: 90px; box-sizing: content-box;"]
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com,videogameschronicle.com##[style*="min-height:250px;"]
-tetris.com##[style*="min-width: 300px;"]
-tetris.com##[style*="min-width: 728px;"]
 coolors.co##[style*="position:absolute;top:20px;"]
 4anime.gg,bravoporn.com,gogoanime.co.in,harimanga.me,hurawatch.cc,instamod.co,leercapitulo.co,mangadna.com,messitv.net,miraculous.to,putlockers.li,sukidesuost.info,waploaded.com,yts-subs.com##[style*="width: 100% !important;"]
 4anime.gg,bravoporn.com,gogoanime.co.in,harimanga.me,hurawatch.cc,instamod.co,leercapitulo.co,mangadna.com,messitv.net,miraculous.to,putlockers.li,sukidesuost.info,waploaded.com,yts-subs.com,zonatmo.com##[style*="z-index:"]
