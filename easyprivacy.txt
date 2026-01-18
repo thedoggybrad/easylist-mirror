@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601180557
+! Version: 202601180610
 ! Title: EasyPrivacy
-! Last modified: 18 Jan 2026 05:57 UTC
+! Last modified: 18 Jan 2026 06:10 UTC
 ! Expires: 4 days (update frequency)
-! Commit: fa6d9bc267f57c3b290d7cd2b2b5a6d9e95a9212
+! Commit: 638c440aed438a288e717f285d995793df37017b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -55372,6 +55372,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||cpt.geniee.jp/hb/*/wrapper.min.js$domain=hoyme.jp
 @@||cybozu.com/*/event.gif?$~third-party
+@@||dan-ball.jp/en/javagame/mine/data/d.gif$image,~third-party
 @@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
