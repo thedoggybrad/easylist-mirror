@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /2tCbjzVmWmyq7143Q7PlA
-! Version: 202601240211
+! Checksum: YE+3V0fKoxDD4cNfNQfV3Q
+! Version: 202601240222
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 24 Jan 2026 02:11 UTC
+! Last modified: 24 Jan 2026 02:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -55434,6 +55434,7 @@ browsershots.org#@#.advert_area
 ||ptistyvymi.com^
 ||ptiweersoowhaih.net^
 ||ptjosupqmhv.net^
+||ptkbfiewzo.com^
 ||ptkmuqscgtakv.site^
 ||ptlextnede.xyz^
 ||ptlucrangwlvs.website^
@@ -81834,6 +81835,7 @@ cssbattle.dev,slitaz.org###sponsor
 bestbuy.com###sponsored-carousel-na
 nordstrom.com###sponsored-carousel-sponsored-carousel
 newsfirst.lk###sponsored-content-1
+macys.com###sponsored-items-container
 cnn.com###sponsored-outbrain-1
 golfgalaxy.com###sponsored-product
 hiphopkit.com###sponsored-sidebar
@@ -84828,6 +84830,7 @@ gamezone.com##.med-rect-ph
 ghanaweb.com##.med_rec_lg_min
 bleedingcool.com##.med_rect_wrapper
 ipwatchdog.com##.meda--sidebar-ad
+macys.com##.media-component-siteMonetization
 tasfia-tarbia.org##.media-links
 realestate.com.au##.media-viewer__sidebar
 webmd.com##.medianet-ctr
@@ -88213,6 +88216,7 @@ yandex.com##li[class*="_card"]:has(a[href^="https://yabs.yandex.ru/count/"])
 yandex.com##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 yahoo.com##li[class="first"]:has([data-ylk*="affiliate_link"])
 autotrader.co.uk##li[class]:has(span[data-testid="FEATURED_LISTING"])
+autotrader.co.uk##li[class]:has(span[data-testid="PROMOTED_LISTING"])
 canadiantire.ca##li[data-testid="product-grids"]:has(.nl-product-card__sponsored)
 aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"])
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
@@ -88958,6 +88962,8 @@ kijiji.ca#?#[data-testid^="listing-card-list-item-"]:-abp-contains(TOP AD)
 kogan.com#?#._2EeeR:-abp-contains(Sponsored)
 kogan.com#?#.rs-infinite-scroll > div:-abp-contains(Sponsored)
 kogan.com#?#.slider-slide:-abp-contains(Sponsored)
+kohls.com#?#[component-export="KmnMarqueeBannerWrapper"]:-abp-contains(Sponsored)
+kohls.com#?#[id^="kmn-leaderboard-"]:-abp-contains(Sponsored)
 kslnewsradio.com,ksltv.com,ktar.com#?#.wrapper:-abp-contains(Sponsored Articles)
 leadership.ng#?#.jeg_postblock:-abp-contains(SPONSORED)
 linkedin.com#?#.msg-overlay-list-bubble__conversations-list:-abp-contains(Sponsored)
