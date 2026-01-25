@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202601250024
+! Version: 202601250033
 ! Title: EasyList
-! Last modified: 25 Jan 2026 00:24 UTC
+! Last modified: 25 Jan 2026 00:33 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bad78ddb84fa57ebe746f36517a7ff73e9e0f4a1
+! Commit: ff80f27a4e98da68cf7fdd464b811c63b49a24d7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -26638,6 +26638,7 @@ browsershots.org#@#.advert_area
 ||dopeoutspoken.com^
 ||dopey-anger.pro^
 ||dopey-apartment.pro^
+||dopey-transportation.pro^
 ||dopey-way.pro^
 ||dophirtoozeego.net^
 ||dopor.info^
@@ -69331,6 +69332,7 @@ browsershots.org#@#.advert_area
 ||amazonaws.com/mailcache.appinthestore.com/
 ||an.yandex.ru^$domain=~e.mail.ru
 ||analytics.analytics-egain.com^
+||anigo.to^$third-party
 ||answers.sg/embed/
 ||any.gs/visitScript/
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xmlhttprequest
@@ -69772,6 +69774,7 @@ browsershots.org#@#.advert_area
 ||snacklink.co/js/web-script.js
 ||snacktools.net/bannersnack/$domain=~bannersnack.dev
 ||socialmonkee.com/images/
+||solarcdn.me^$third-party
 ||sorcerers.net/includes/butler/
 ||squaremouth.com/affiliates/$third-party
 ||squirrels.getsquirrel.co^
