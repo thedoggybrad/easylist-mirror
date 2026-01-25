@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ibTOXIC1SxP0kWyPV4iexg
-! Version: 202601250031
+! Checksum: EjTwQmgKOtVIKxZSx5TCdQ
+! Version: 202601250041
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 25 Jan 2026 00:31 UTC
+! Last modified: 25 Jan 2026 00:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -34449,6 +34449,7 @@ browsershots.org#@#.advert_area
 ||dopeoutspoken.com^
 ||dopey-anger.pro^
 ||dopey-apartment.pro^
+||dopey-transportation.pro^
 ||dopey-way.pro^
 ||dophirtoozeego.net^
 ||dopor.info^
@@ -77142,6 +77143,7 @@ browsershots.org#@#.advert_area
 ||amazonaws.com/mailcache.appinthestore.com/
 ||an.yandex.ru^$domain=~e.mail.ru
 ||analytics.analytics-egain.com^
+||anigo.to^$third-party
 ||answers.sg/embed/
 ||any.gs/visitScript/
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xmlhttprequest
@@ -77583,6 +77585,7 @@ browsershots.org#@#.advert_area
 ||snacklink.co/js/web-script.js
 ||snacktools.net/bannersnack/$domain=~bannersnack.dev
 ||socialmonkee.com/images/
+||solarcdn.me^$third-party
 ||sorcerers.net/includes/butler/
 ||squaremouth.com/affiliates/$third-party
 ||squirrels.getsquirrel.co^
@@ -84251,6 +84254,8 @@ click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4
 thehindu.com##.flooting-ad
 nelomanga.net##.fly-ads-chapter-page
 airlinegeeks.com,avweb.com,flyingmag.com,planeandpilotmag.com##.flyin-article-above-headline
+flyingmag.com##.flyin-before-content
+flyingmag.com##.flyin-target
 golinuxcloud.com##.flying-carpet
 momjunction.com,stylecraze.com##.flying-carpet-wrapper
 emergencyemail.org,out.com##.footer
