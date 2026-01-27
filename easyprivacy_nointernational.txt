@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: tCdG4jLiuRcYXE1C1NZlEQ
-! Version: 202601272321
+! Checksum: wGBCv901G+VpB6S6Tt7ZlA
+! Version: 202601272331
 ! Title: EasyPrivacy without international filters
-! Last modified: 27 Jan 2026 23:21 UTC
+! Last modified: 27 Jan 2026 23:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1805,6 +1805,7 @@
 /plausible.outbound-links.js$domain=~plausible.io
 /player-test-impression?
 /player/stats.php?
+/plg_convertformstools_gatracker/js/script.js
 /plog?id
 /plow.lite.js
 /plugins/affiliate-wp/assets/js/tracking.min.js
@@ -7166,6 +7167,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||healthline.com/api/metrics
 ||heap.drop.com^
 ||hellopeter.com/api/consumer-tracking/
+||helpmonks.com/cftag/
 ||hepsiburada.com/api/$ping
 ||hilton.com/zJbufaUX/
 ||hindustantimes.com/res/images/one-pixel.png
@@ -7931,6 +7933,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.vk-portal.net^
 ||stats.wordpress.com^
 ||stats.wwitv.com^
+||stats2.helpmonks.com^
 ||stats2.mytuner.mobi^
 ||statsegg.cdngeek.com^
 ||stayforlong.com/api/kafka/tracking
