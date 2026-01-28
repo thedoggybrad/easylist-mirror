@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601280227
+! Version: 202601280236
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2026 02:27 UTC
+! Last modified: 28 Jan 2026 02:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7bfe77c303a4eb80dba5c191f407e815af9f50fb
+! Commit: 1ead4e92d0868b4b95436be5688460330ccebfe2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -55,6 +55,7 @@
 .file-downloads.outbound-links.js
 .gatracking.js
 .gif?Log=
+.hash.outbound-links.js
 .jp/pv?
 .jp/static/js/track.js
 .net/l.gif?
@@ -1375,6 +1376,7 @@
 /load_analytics.php
 /loader-wp/static/loader.min.js?
 /loader/counter.js
+/loaders/analyticsScript.ts?
 /localga.js
 /locotrack.js
 /log-adblock.php?
@@ -10624,6 +10626,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||customers.xray-superpixel.com^
 ||customfingerprints.bablosoft.com^
 ||cws.conviva.com^
+||d.lilstts.com^
 ||d.rcmd.jp^$image
 ||d.shareaholic.com^
 ||dadi.technology^$third-party
