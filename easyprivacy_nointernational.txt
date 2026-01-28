@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 5cCY1296NJdUoxK1UkmiGA
-! Version: 202601280311
+! Checksum: Iy3pB2MLiUs4X1ENYRy2eQ
+! Version: 202601280321
 ! Title: EasyPrivacy without international filters
-! Last modified: 28 Jan 2026 03:11 UTC
+! Last modified: 28 Jan 2026 03:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -57,7 +57,6 @@
 .net/l.gif?
 .no/app/aas/a
 .outbound-links.file-downloads.js
-.outbound-links.pageview-props.revenue.tagged-events.js
 .outbound-links.tagged-events.js
 .pageview-props.js
 .pageview-props.tagged-events.js
@@ -71,6 +70,7 @@
 .php?ping=
 .php?stats=
 .php?tracking=
+.revenue.tagged-events.js
 .sharecounter.$third-party
 .skimlinks.js
 .stats?action=
@@ -7572,6 +7572,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||okx.com/jsstat/sb?
 ||oneroof.co.nz/*/record-log/
 ||online-umwandeln.de/analytics.js
+||online.marketing/a.js
 ||ontraport.com/opt_assets/static/js/logging.js
 ||opendesktop.org/l/fp
 ||ophan.theguardian.com^
