@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W16vmxTICBgvyj2rCqs/WA
-! Version: 202601281741
+! Checksum: F6VsyrYmGh4LDrKerWCKGg
+! Version: 202601281751
 ! Title: EasyList without rules for adult sites
-! Last modified: 28 Jan 2026 17:41 UTC
+! Last modified: 28 Jan 2026 17:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -46259,6 +46259,7 @@ browsershots.org#@#.advert_area
 ||particlesnuff.com^
 ||particularbearingmemorable.com^
 ||particularlypoisonous.com^
+||partiemanacle.qpon^
 ||partingamply.cfd^
 ||partion-ricism.xyz^
 ||partleyshut.cyou^
@@ -51817,6 +51818,7 @@ browsershots.org#@#.advert_area
 ||runnerabnegate.com^
 ||runnerbesiegerelative.com^
 ||runningdestructioncleanliness.com^
+||runnybottom.com^
 ||runnyextent.com^
 ||runsadjustmerit.com^
 ||runsbelovedrudimentary.com^
@@ -78765,6 +78767,8 @@ target.com##[data-test="featuredProducts"]
 target.com##[data-test="recommended_products_placement_adaptpdp_sponsored_items"]
 target.com##[data-test="sponsored-text"]
 engadget.com##[data-test="top-ad"]
+costco.com##[data-testid="AdSet-all-pdp_criteo_-_sponsored_products"]
+costco.com##[data-testid="AdSet-all-sponsored_products_-_search_commerce"]
 reuters.com##[data-testid="CnxPlayer"]
 reuters.com##[data-testid="Leaderboard"]
 topgear.com##[data-testid="MpuPremium1"]
@@ -78811,6 +78815,7 @@ manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##[data-testid="sp
 bonappetit.com##[data-testid="sticky-hero-ad"]
 therealdeal.com##[data-testid="test-div-id-for-pushdown"]
 duckduckgo.com##[data-testid=serp-popover-promo]
+costco.com##[data-testid^="CriteoAdSet_undefined"]
 dailystar.co.uk,mirror.co.uk,themirror.com##[data-tmdatatrack-type="commercial"]
 game8.co##[data-track-nier-keyword="footer_overlay_ads"]
 money.com##[data-trk-company="rocket-mortgage-review"]
