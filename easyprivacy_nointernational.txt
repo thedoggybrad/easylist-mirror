@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: S19/6+wyZnsa4MsNR0U6bA
-! Version: 202601280202
+! Checksum: 5jkE4rhTu7CRYgO3c62oWw
+! Version: 202601280211
 ! Title: EasyPrivacy without international filters
-! Last modified: 28 Jan 2026 02:02 UTC
+! Last modified: 28 Jan 2026 02:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -56,6 +56,7 @@
 .no/app/aas/a
 .outbound-links.pageview-props.revenue.tagged-events.js
 .pageview-props.js
+.pageview-props.tagged-events.js
 .php?action=browse&
 .php?action_name=
 .php?logid=$image
@@ -70,6 +71,7 @@
 .skimlinks.js
 .stats?action=
 .svc/?tracking_id=
+.tagged-events.outbound-links.js
 .v4.analytics.
 /.webscale/rum?
 /.well-known/shopify/monorail
@@ -2028,11 +2030,8 @@
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
-/script.hash.outbound-links.pageview-props.tagged-events.js
 /script.outbound-links.js
-/script.pageview-props.tagged-events.js
 /script.tagged-events.js
-/script.tagged-events.outbound-links.js
 /script/pixel.js
 /scriptAnalytics.js
 /scripts.kissmetrics.com/*
