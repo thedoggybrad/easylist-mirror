@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202601281145
+! Version: 202601281203
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Jan 2026 11:45 UTC
+! Last modified: 28 Jan 2026 12:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 48d2db3168e878aa1c823e4f45bc5ba055d47028
+! Commit: 7914226b4103a5502c0e344fd2e41c5ca0c68f1f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -48475,6 +48475,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||consent-api.onetrust.com/v1/preferences^$xmlhttprequest
 @@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk|techcrunch.com
 @@||consent.cookiebot.com/*/cc.js$domain=asket.com
+@@||consent.cookiefirst.com/sites/$script,domain=jafco.co.jp
 @@||consent.truste.com/notice$domain=$domain=fortune.com|hsl.fi|philips-hue.com|proximus.be|tmz.com|weather.com
 @@||consentcdn.cookiebot.com/consentconfig/$xmlhttprequest,domain=asket.com
 @@||consentmanager.mgr.consensu.org/delivery/$stylesheet,xmlhttprequest,domain=sourceforge.net
