@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: PYJ6Q3pNdqTPCe+wIj8Tqg
-! Version: 202601280221
+! Checksum: miwC8hH1aq5k7XeFhaqFOQ
+! Version: 202601280231
 ! Title: EasyPrivacy without international filters
-! Last modified: 28 Jan 2026 02:21 UTC
+! Last modified: 28 Jan 2026 02:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -48,6 +48,7 @@
 .de/l.gif?
 .eloqua.js
 .EventTracking.
+.file-downloads.outbound-links.js
 .gatracking.js
 .gif?Log=
 .jp/pv?
@@ -55,6 +56,7 @@
 .net/l.gif?
 .no/app/aas/a
 .outbound-links.pageview-props.revenue.tagged-events.js
+.outbound-links.tagged-events.js
 .pageview-props.js
 .pageview-props.tagged-events.js
 .php?action=browse&
@@ -1833,6 +1835,8 @@
 /pomegranate.js
 /pongAudienceLS?
 /popu.js$script
+/post-views-counter-pro/js/crawler-detect.js
+/post-views-counter-pro/js/frontend.js
 /postcounter.php?
 /postlog?
 /postview.gif?
