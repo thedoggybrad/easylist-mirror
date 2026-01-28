@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601280134
+! Version: 202601280147
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2026 01:34 UTC
+! Last modified: 28 Jan 2026 01:47 UTC
 ! Expires: 4 days (update frequency)
-! Commit: abb2b814ad5b54b4eae361ce9e5828de292f2d97
+! Commit: 2e85b05d77c5b25fc706873ea84b80c5ee8f593a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1499,6 +1499,7 @@
 /matomo.php
 /matomo/*$script,domain=~github.com|~hub.docker.com|~matomo.org|~wordpress.org
 /matomo_video_tracking.js
+/mc4wp-premium/ecommerce3/assets/js/tracker.js
 /mcookie.aspx
 /mcount.cgi?
 /measure/pixel/*
@@ -7189,6 +7190,7 @@ omni.soundestlink.com$image
 ||fewkittens.com^
 ||fieldconfig.com^
 ||figsprotein.com^
+||figurehunter.net^
 ||fillthemap.com^
 ||filtercutter.com^
 ||finalizeforce.com^
