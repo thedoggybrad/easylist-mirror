@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601280216
+! Version: 202601280227
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2026 02:16 UTC
+! Last modified: 28 Jan 2026 02:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 83362e5287024e436d1e129a993240e964f817f6
+! Commit: 7bfe77c303a4eb80dba5c191f407e815af9f50fb
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -52,6 +52,7 @@
 .de/l.gif?
 .eloqua.js
 .EventTracking.
+.file-downloads.outbound-links.js
 .gatracking.js
 .gif?Log=
 .jp/pv?
@@ -59,6 +60,7 @@
 .net/l.gif?
 .no/app/aas/a
 .outbound-links.pageview-props.revenue.tagged-events.js
+.outbound-links.tagged-events.js
 .pageview-props.js
 .pageview-props.tagged-events.js
 .php?action=browse&
@@ -1837,6 +1839,8 @@
 /pomegranate.js
 /pongAudienceLS?
 /popu.js$script
+/post-views-counter-pro/js/crawler-detect.js
+/post-views-counter-pro/js/frontend.js
 /postcounter.php?
 /postlog?
 /postview.gif?
@@ -3621,6 +3625,7 @@ omni.soundestlink.com$image
 ||instantfox.co^
 ||intellimizeio.com^
 ||irs01.com^
+||itsstats.wp1.site^
 ||jams.wiki^
 ||jcpclick.com^
 ||jubbie.de^
