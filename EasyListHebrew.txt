@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: zAbOsbiN7HLqNFhjBlYbAw
+! Checksum: nEG7nMFK/T5h6Ef8lLEaGw
 ! Title: EasyList Hebrew
-! Last modified: 03 Feb 2026 21:10 UTC
+! Last modified: 03 Feb 2026 21:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/EasyListHebrew
 ! Licence: https://easylist.to/pages/licence.html
@@ -578,6 +578,7 @@ zoharajewels.com##*
 @@||libs.outbrain.com/video/$script,domain=bizportal.co.il
 @@||mako.co.il/js/dfp/dfp.js$script,domain=mako.co.il
 @@||matrix.ynet.co.il/JS/GA/ads_controller.js
+@@||mizrahi-tefahot.co.il/media/*_baner_katom_$image,~third-party
 @@||nv.vi-serve.com/vis-media/$image,media,domain=bizportal.co.il
 @@||old-games.org^$document
 @@||pagead2.googlesyndication.com/omsdk/$script,domain=ynet.co.il
@@ -606,6 +607,7 @@ zoharajewels.com##*
 @@||services.haaretz.co.il/games-backend/$xmlhttprequest
 @@||sfx-images.mozilla.org^$image
 @@||sheee.co.il/public/assets/videojsads/videojs-contrib-ads.$stylesheet,~third-party
+@@||shop.lametayel.co.il/img/cms/Baner_shop/$image,domain=shop.lametayel.co.il
 @@||shukitv.ucoz.com/script/ads.js
 @@||sport5.co.il^*/dfp.$script,~third-party
 @@||sport5.co.il^*/dfp/$script,~third-party
@@ -956,9 +958,11 @@ hidabroot.org##.bannerCls.trg_banner
 hidabroot.org##.panel-row-upper
 hidabroot.org##.remove-ad
 hidabroot.org##[href*="https://target.hidabroot.org/ad_manager"]
+hm-news.co.il###banner_desktop_footer_div
 hm-news.co.il###banner_desktop_left_div
 hm-news.co.il###banner_desktop_right_div
 hm-news.co.il###top_banner_div
+hm-news.co.il##.container_ads_div
 homeless.co.il###board_middle_advert
 homeless.co.il###plasma_container
 homeless.co.il##.boardfooter_tr
