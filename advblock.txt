@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IlXbRjtPAV8V8ctsOmefSQ
-! Version: 202602041922
+! Checksum: FmJAJKm2HKWzaTuQMrjr3A
+! Version: 202602041931
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Feb 2026 19:22 UTC
+! Last modified: 04 Feb 2026 19:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17368,7 +17368,7 @@ informburo.kz##[src*="/embed/SportsBetting"]
 gorvesti.ru,xn--b1ats.xn--80asehdb##[src*="/files/rk/"]
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##[src*="/frontend/assets/advert/"]
 bazr.ru##[src*="/global/banner/"]
-krivbass.city##[src*="/i/banners/"]
+krivbass.city,zprz.city##[src*="/i/banners/"]
 obozrevatel.com##[src*="/igaming/out/widget/"]
 ilenta.com##[src*="/images/banner/"]
 abnews.ru,fakty.ua,highload.tech##[src*="/images/banners/"]
@@ -23585,6 +23585,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||zoneofgames.ru/brand$~stylesheet
 ||zoneofgames.ru/icon/modalframe.min.js
 ||zoneofgames.ru^*/native.video.vast.ad.js
+||zprz.city/i/banners/
 ||zr.ru/smidesktop.
 ||zserials.cc/tv/amp.html
 ||zvezdakaraoke.com/*.php?id=
