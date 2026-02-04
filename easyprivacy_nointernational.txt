@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: EmLgzIHjWna+UiSbR44dPQ
-! Version: 202602040542
+! Checksum: OhhqmCqVPwNM1jSyUnEiHA
+! Version: 202602040551
 ! Title: EasyPrivacy without international filters
-! Last modified: 04 Feb 2026 05:42 UTC
+! Last modified: 04 Feb 2026 05:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2726,8 +2726,10 @@
 /web-analytics.js
 /web-api/log/*
 /web-data-ingress?
+/web-pixel-*/worker.modern.js
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
+/web-pixels@*/web-pixel-*/sandbox/modern/*
 /web-vitals-analytics.js
 /web-vitals.iife.js
 /web/push?
