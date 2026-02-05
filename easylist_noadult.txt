@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1Ju5iIQJs7JT7UPmRrT/qA
-! Version: 202602051701
+! Checksum: 4eXMqdxc89l5dCCOAx5F2g
+! Version: 202602051711
 ! Title: EasyList without rules for adult sites
-! Last modified: 05 Feb 2026 17:01 UTC
+! Last modified: 05 Feb 2026 17:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -687,6 +687,7 @@
 /sponsored_link.gif$image
 /sponsors/ads/*$image
 /squaread.jpg$image
+/sr/*/SAFEFRAME.html?ule=$subdocument,third-party
 /sticky_ads.js$script
 /stickyad.js$script
 /stickyads.js$script
@@ -18360,6 +18361,7 @@ browsershots.org#@#.advert_area
 ||aluminsunfit.click^
 ||aluminumoutageprovince.com^
 ||alumniheadfirstshamrock.com^
+||alunitemuroid.shop^
 ||aluvhyxwjnqyo.site^
 ||alwaysdomain01.online^
 ||alwayspainfully.com^
@@ -21074,6 +21076,7 @@ browsershots.org#@#.advert_area
 ||bluelinknow.com^
 ||bluelymisrun.qpon^
 ||blueparrot.media^
+||blueridgeloop.com^
 ||bluetackclasp.com^
 ||bluethverts.help^
 ||bluffappend.com^
@@ -24876,6 +24879,7 @@ browsershots.org#@#.advert_area
 ||curtsyluffa.rest^
 ||curtworlds.com^
 ||curuatracery.cyou^
+||cururosbillowy.shop^
 ||curvedbrewis.cfd^
 ||curvedheldideal.com^
 ||curvemodernforester.com^
@@ -33588,6 +33592,7 @@ browsershots.org#@#.advert_area
 ||hgrwjpvuzitjx.website^
 ||hgtasizbgvjdn.website^
 ||hgtczdcptoidc.site^
+||hgtjkunx.com^
 ||hgvigqjolbnnt.store^
 ||hgvwvocavgwzf.site^
 ||hgwkgddzhtbac.space^
@@ -36865,6 +36870,7 @@ browsershots.org#@#.advert_area
 ||jouwhiglou.net^
 ||jovial-fortune.com^
 ||jovialdeposit.pro^
+||jovialprudy.cyou^
 ||jovqyymoawbaq.top^
 ||jovytear.help^
 ||jowfefzzbovee.online^
@@ -37382,6 +37388,7 @@ browsershots.org#@#.advert_area
 ||kanatbour.help^
 ||kandoqbnlbqzo.site^
 ||kangaroointentions.com^
+||kannenhexagynnervule.cfd^
 ||kanoodle.com^
 ||kantoulvnw.xyz^
 ||kaolinoleous.com^
@@ -41689,6 +41696,7 @@ browsershots.org#@#.advert_area
 ||mopy.cloud^
 ||moralecalkpalette.cfd^
 ||morallyfitful.com^
+||morchaetherol.shop^
 ||mordeegroo.net^
 ||mordoops.com^
 ||mordoorsie.net^
@@ -48837,6 +48845,7 @@ browsershots.org#@#.advert_area
 ||qozdodzpgcnpl.space^
 ||qozveo.com^
 ||qp-kkhdfspt.space^
+||qpacubjmaod.com^
 ||qpastswynfzcb.space^
 ||qpdbibaiczxdj.website^
 ||qpetanezqhixk.website^
@@ -57337,6 +57346,7 @@ browsershots.org#@#.advert_area
 ||undaymidydle.com^
 ||undbxqsir.com^
 ||undeecuppas.cfd^
+||undelveiwa.qpon^
 ||underclick.ru^
 ||underdog.media^
 ||underentrapsimidic.cfd^
@@ -61757,6 +61767,7 @@ browsershots.org#@#.advert_area
 ||yangpcasdomgl.site^
 ||yapabbreviate.com^
 ||yapfairmark.com^
+||yapockpinene.cyou^
 ||yapockwaters.help^
 ||yapoktippledcauked.cyou^
 ||yapplanetsterritory.com^
@@ -61937,6 +61948,8 @@ browsershots.org#@#.advert_area
 ||yfdnza.com^
 ||yfdnzf.com^
 ||yfdnzfa.com^
+||yfdpco1.com^
+||yfdpco3.com^
 ||yfelanqkliuph.space^
 ||yfeqikrmpousp.online^
 ||yferrewarpjoyweed.cyou^
@@ -69532,6 +69545,7 @@ browsershots.org#@#.advert_area
 ||rapidgator.net/images/pics/510_468%D1%8560_1.gif
 ||rdr.wargaming.net^$subdocument,third-party
 ||readme.ru/informer/
+||realtimesearchresults.com/sr/
 ||redirect-ads.com^$~subdocument,third-party
 ||redtram.com^$script,third-party
 ||refershareus.xyz/ads?
@@ -76842,9 +76856,9 @@ searchenginejournal.com##.sej-ttt-link
 timesofisrael.com##.sellwild-label
 hypestat.com##.sem_banner
 jambase.com##.sense
-searchnowexpert.com##.serp-common-top
-searchnowexpert.com##.serp-head
-searchnowexpert.com##.serp-side-right
+netsearchinstant.com,realtimesearchresults.com,searchnowexpert.com##.serp-common-top
+netsearchinstant.com,realtimesearchresults.com,searchnowexpert.com##.serp-head
+netsearchinstant.com,realtimesearchresults.com,searchnowexpert.com##.serp-side-right
 searchencrypt.com##.serp__top-ads
 minecraftforum.net##.server-forum-after-comment-ad
 gadgethacks.com##.set-placement-height
@@ -78272,6 +78286,7 @@ mallorca.com##a[data-ad]
 turkmenportal.com##a[data-content="promotion"]
 sourceforge.net##a[data-label^="avast"]
 sashares.co.za##a[data-wpel-link="external"]
+klarna.com##a[href*="&clickarea=sponsored&"]
 pinterest.com##a[href*="&epik="]
 imgpile.com,linuxjournal.com,threatpost.com##a[href*="&utm_campaign="]
 hitbullseye.com##a[href*="&utm_medium="]
