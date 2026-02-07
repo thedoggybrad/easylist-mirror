@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602070320
+! Version: 202602070329
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Feb 2026 03:20 UTC
+! Last modified: 07 Feb 2026 03:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 84f91f8a2dcd3091f4be05333649bd11566e6f84
+! Commit: 85ead3f673f53d15e26cc005b65c77ade954dc43
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -40783,7 +40783,7 @@ alibabagroup.com,buildsoftwaresystems.com,cloud.huawei.com,confuciusinstitute.ac
 ! #cookie-notification
 furaffinity.net,globalair.com,kennesaw.edu,reelrapture.com,retailtrends.nl,southwire.com,tourradar.com,verkkokauppa.mikrokulma.fi###cookie-notification
 ! .cookies-container
-airtel.in,habblet.city,interativa.ind.br,moex.com,seedtag.com,snoopza.com,trensurb.gov.br##.cookies-container
+airtel.in,ashdodport.co.il,habblet.city,interativa.ind.br,moex.com,seedtag.com,snoopza.com,trensurb.gov.br##.cookies-container
 ! ! .consent-banner-root
 2lprodutora.com,abrahamartimpressions.com,aef.bz,allelitewrestling.com,artflix.info,babyspullen-advies.nl,barkanmounts.com,bodenlager24.de,bruni.biz,burobraak.nl,celula21.com,clorin.com.br,conteudoscatolicos.com,crestcare.co.za,dealleadersint.com,eco-valves.com,elektropartner.com,eriestgastropub.com,essentialhealthsa.com,euroctp.eu,fahrschule-delert.de,feitodabananeira.com,ffwinnebach.it,flywhite.com,franzenshoehe.com,geowgs84.com,hafner-konrad.it,herbatio.com,hoper.com.br,interalco.es,iternio.com,journafonds.ch,ketikotitafel.nl,kuoe-en.com,maierhofer.at,maldivealternative.com,mariaspizza.ca,miocomune.tv,monetixads.com,mysterium.network,naturalia.it,nbs-bouwmaterialen.nl,omnihandling.com,opticron.net,p-b-holding.com,perritocal-tienda.com,petruz.com,piessegroup.it,pipeway.com,popentertainmentarchives.com,preparaedu.com.br,radegastuvsenk.cz,radiobranding.de,radiocecchetto.it,redragon.com.br,reservamundi.com.br,sd-fiber.ch,sigmapumpy.com,slimtransformation.co.uk,smartlet.io,smoenova.de,stimmungsgarten.tv,studiobera.it,tgtglas.es,thegnet.org,villagioia.net,vuseum.it,weplanet.org,wernergevers.be,wewillnomad.com,zeleny.cz,zeppelin-la.com##.consent-banner-root
 ! ! #cookiescript_injected
@@ -41661,6 +41661,7 @@ coopmobile.ch##.top-0.z-9999.fixed.bg-opacity-30:has-text(Website Cookies)
 studocu.com##.undefined:has([data-test-selector="click-the-cookie-banner"])
 istockphoto.com##.warning:has([data-cookie-type])
 app.filen.io##.z-50:has-text(This site uses cookies)
+hm-news.co.il##[data-elementor-type="popup"]:has-text(Cookies)
 unsplash.com##[open]:has(a[href="/cookies"])
 canva.com##[role="dialog"]:has-text(/cookie/i)
 bitbucket.org,chat.mistral.ai##[role="dialog"]:has-text(cookies)
@@ -45622,27 +45623,32 @@ maccabi4u.co.il###ZA_CAMP_MOBILE_CONTAINER
 foodsdictionary.co.il###cookie-consent
 019mobile.co.il###cookie-except-banner
 madlan.co.il###cookie-root
+soltam.co.il###dfwt-gdpr-overlay
 ivory.co.il###removeBannerCookie
 gadgety.co.il###upnext-cookie-notice
 cal-online.co.il###wc-using-cookies
 iroads.co.il##.CookiePolicyDisclaimer
 lastprice.co.il##.PCConsent
+shop.sano.co.il##.accept_cookies_wrapper
 guidestar.org.il##.app-cookies-disclaimer-container
 israelpost.co.il##.cookie-agreement
 yad2.co.il##.cookie-implementation-disclaimer_popupRoot__CLI1m
 easy.co.il##.cookies-consent-banner
+bug.co.il##.cookies-policy-modal-container
+landwercafe.co.il##.cookies_modal_container
 pais.co.il##.cookies_sec
 drushim.co.il##.dr-cookie-banner
+mtoys.co.il##.e2w-cookie-popup
 yad-mordechai.co.il##.eupopup-container
 diners.co.il##.message-container
 bankhapoalim.co.il##.muirtl-1cwm7gt
 super-pharm.co.il##.phcBlockCookiesWrap
 colmobil.co.il##.popup-privacy
+dynamica.co.il,kfar.co.il##[class^="cookiesPopup"]
 alljobs.co.il##[id^="ZA_CAMP_BUBBLE_CONTAINER_CID_"]
 lastminute.co.il##app-notifications-container
 iec.co.il##app-sticky-banner
 dutyfree.co.il##div[class^="cookieRestriction-module__root-"]
-dynamica.co.il##div[class^="cookiesPopup"]
 yad2.co.il##div[data-nagish="cookie-implementation-disclaimer"]
 hb2.bankleumi.co.il##div[data-tid="cookies-banner"]
 postalfinance.co.il##float-window-alert
