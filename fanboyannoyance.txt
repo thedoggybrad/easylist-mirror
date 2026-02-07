@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602070329
+! Version: 202602070339
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Feb 2026 03:29 UTC
+! Last modified: 07 Feb 2026 03:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 85ead3f673f53d15e26cc005b65c77ade954dc43
+! Commit: 22380a87393b29dcc6326ba0ef47be3a43db20d2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -24698,11 +24698,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookies.banner
 ##.cookies.bottom
 ##.cookies.callout
-##.cookies.dark
-##.cookies.dialog
-##.cookies.info
-##.cookies.is-open
-##.cookies.is-shown
 ##.cookies.pb-0
 ##.cookies.print-hidden
 ##.cookies.privacyLaw
@@ -31126,6 +31121,7 @@ news9live.com###cube_spinner
 jweekly.com###custom_html-2
 marijuanamoment.net###custom_html-8
 liliputing.com###custom_html-9
+amazon.*###desktop-banner
 sunsky-online.com###divWelcome
 khanacademy.org###donate-banner
 the74million.org###donate_rocket
@@ -40734,7 +40730,7 @@ arukereso.hu,docusign.net,mainchain.net,mediotiempo.com,mos-gorsud.ru,mos-sud.ru
 ! #cookie-message
 antimoon.com,apotheke-gleichen.de,bavaria-apotheke-berlin.de,cdooperesociali.org,charmanthotel.com,irisapo.de,lilabaer.de,nordbahnhof-apotheke-stuttgart.de,preins-apotheken.de,pzn24.de,sparapo.de,surf-in-apotheke.de,szynalski.com,ukehut-nyc.com###cookie-message
 ! #cookie-wrapper
-adler-apotheke-kirchheim.de,apo-srb.de,apotheke-alt-buckow.de,apotheke-am-engelbecken.de,apotheke-am-schuetzenplatz-sz.de,apotheke-am-stadtgarten-ettlingen.de,apotheke-clenze.de,apotheke-rhens.de,apotheke-unterluess.de,apotheke-vechelde.de,apothekebadwilsnack.de,apothekereich.de,bahnhof-apotheke-salzbergen.de,blueletterbible.org,ceciapo.de,cecilien-apo.de,georg-apotheke-hannover.de,grosskreuz-apotheke.de,klosterapotheke-blankenburg.de,mitunsgesund.de,pannier-apotheke.de,postapotheke.biz,ribbeck-apotheke.de,rueckert-apotheke-stadtlauringen.de,rug-apo.de,schloss-apotheke-bauschlott.de,sonnen-apotheke-wismar.de,sonnenapotheke-blankenburg.de,stern-apotheke-wuerzburg.de,tannenbergapotheke.com,versandapo24.com,vu.nl,wacholder-apotheke.de###cookie-wrapper
+adler-apotheke-kirchheim.de,apo-srb.de,apotheke-alt-buckow.de,apotheke-am-engelbecken.de,apotheke-am-schuetzenplatz-sz.de,apotheke-am-stadtgarten-ettlingen.de,apotheke-clenze.de,apotheke-rhens.de,apotheke-unterluess.de,apotheke-vechelde.de,apothekebadwilsnack.de,apothekereich.de,bahnhof-apotheke-salzbergen.de,blueletterbible.org,ceciapo.de,cecilien-apo.de,georg-apotheke-hannover.de,grosskreuz-apotheke.de,klosterapotheke-blankenburg.de,magticom.ge,mitunsgesund.de,pannier-apotheke.de,postapotheke.biz,ribbeck-apotheke.de,rueckert-apotheke-stadtlauringen.de,rug-apo.de,schloss-apotheke-bauschlott.de,sonnen-apotheke-wismar.de,sonnenapotheke-blankenburg.de,stern-apotheke-wuerzburg.de,tannenbergapotheke.com,versandapo24.com,vu.nl,wacholder-apotheke.de###cookie-wrapper
 ! .cookie-overlay
 chapelle.co.uk,mtis.by,museum.nl,pyszne.pl##.cookie-overlay
 ! wildcard
@@ -45621,6 +45617,7 @@ calendar.2net.co.il###UseCookies
 maccabi4u.co.il###ZA_CAMP_BANNER_CONTAINER
 maccabi4u.co.il###ZA_CAMP_MOBILE_CONTAINER
 foodsdictionary.co.il###cookie-consent
+ladaat.co###cookie-consent-banner
 019mobile.co.il###cookie-except-banner
 madlan.co.il###cookie-root
 soltam.co.il###dfwt-gdpr-overlay
@@ -45631,15 +45628,19 @@ iroads.co.il##.CookiePolicyDisclaimer
 lastprice.co.il##.PCConsent
 shop.sano.co.il##.accept_cookies_wrapper
 guidestar.org.il##.app-cookies-disclaimer-container
+ladaat.co##.ck-cookie-banner
 israelpost.co.il##.cookie-agreement
 yad2.co.il##.cookie-implementation-disclaimer_popupRoot__CLI1m
 easy.co.il##.cookies-consent-banner
 bug.co.il##.cookies-policy-modal-container
+pazgas.co.il##.cookies-popup-overlay
 landwercafe.co.il##.cookies_modal_container
 pais.co.il##.cookies_sec
 drushim.co.il##.dr-cookie-banner
 mtoys.co.il##.e2w-cookie-popup
+xphone.co.il##.elementor-element-7f094b47
 yad-mordechai.co.il##.eupopup-container
+cinema-city.co.il##.gdpr-module
 diners.co.il##.message-container
 bankhapoalim.co.il##.muirtl-1cwm7gt
 super-pharm.co.il##.phcBlockCookiesWrap
