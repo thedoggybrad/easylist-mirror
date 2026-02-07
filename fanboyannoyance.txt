@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602070323
+! Version: 202602070329
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Feb 2026 03:23 UTC
+! Last modified: 07 Feb 2026 03:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0d8575be02d484380f62a3c7ea4b9f769e2870d8
+! Commit: 85ead3f673f53d15e26cc005b65c77ade954dc43
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -41661,6 +41661,7 @@ coopmobile.ch##.top-0.z-9999.fixed.bg-opacity-30:has-text(Website Cookies)
 studocu.com##.undefined:has([data-test-selector="click-the-cookie-banner"])
 istockphoto.com##.warning:has([data-cookie-type])
 app.filen.io##.z-50:has-text(This site uses cookies)
+hm-news.co.il##[data-elementor-type="popup"]:has-text(Cookies)
 unsplash.com##[open]:has(a[href="/cookies"])
 canva.com##[role="dialog"]:has-text(/cookie/i)
 bitbucket.org,chat.mistral.ai##[role="dialog"]:has-text(cookies)
@@ -45622,6 +45623,7 @@ maccabi4u.co.il###ZA_CAMP_MOBILE_CONTAINER
 foodsdictionary.co.il###cookie-consent
 019mobile.co.il###cookie-except-banner
 madlan.co.il###cookie-root
+soltam.co.il###dfwt-gdpr-overlay
 ivory.co.il###removeBannerCookie
 gadgety.co.il###upnext-cookie-notice
 cal-online.co.il###wc-using-cookies
@@ -45642,11 +45644,11 @@ diners.co.il##.message-container
 bankhapoalim.co.il##.muirtl-1cwm7gt
 super-pharm.co.il##.phcBlockCookiesWrap
 colmobil.co.il##.popup-privacy
+dynamica.co.il,kfar.co.il##[class^="cookiesPopup"]
 alljobs.co.il##[id^="ZA_CAMP_BUBBLE_CONTAINER_CID_"]
 lastminute.co.il##app-notifications-container
 iec.co.il##app-sticky-banner
 dutyfree.co.il##div[class^="cookieRestriction-module__root-"]
-dynamica.co.il##div[class^="cookiesPopup"]
 yad2.co.il##div[data-nagish="cookie-implementation-disclaimer"]
 hb2.bankleumi.co.il##div[data-tid="cookies-banner"]
 postalfinance.co.il##float-window-alert
