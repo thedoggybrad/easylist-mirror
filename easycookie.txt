@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: Gj30+uWHI8JFxuHw4/FIEQ
+! Checksum: RIqmFS9KbpJ/4IG+2mHU2A
 ! Title: Easylist Cookie List
-! Last modified: 2026-02-07 21:50 UTC
+! Last modified: 2026-02-07 21:25 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -20593,7 +20593,6 @@ bitbucket.org,chat.mistral.ai##[role="dialog"]:has-text(cookies)
 moebelix.at##body > div > div:has(#jentis_consent)
 boomlify.com##div > div:has-text(We use cookies to improve your experience.)
 yogainternational.com##div[class^="elements__Banner-"]:has(> div > a[href$="-privacy-policy"])
-help.semmelweis.hu#?#.modal:has(h3:has-text(Sütik használata)):has(button:has-text(Elfogadás))
 ! Intranet blocks
 ! Domains that won't show up publicly. (like airplane wifi domains)
 flyfi.com##.HASH_COOKIE_ALERT_GRID_ITEM_FIXED
