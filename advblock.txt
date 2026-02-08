@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iTlsWV82jmqCX3cJaVwVIQ
-! Version: 202602080751
+! Checksum: vJc6TJ9e+5a0cuT9Yiw+3g
+! Version: 202602080801
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Feb 2026 07:51 UTC
+! Last modified: 08 Feb 2026 08:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23696,7 +23696,7 @@ uwupad.*##style:-abp-contains(lb-banner-height) {remove:true;}
 vk.*##head > style:-abp-contains(/adchoice|mkit_|outlineBanner/i) {remove:true;}
 www.ixbt.*###branding-ssr-style {remove:true;}
 www.ixbt.*##.clickable_zone {remove:true;}
-www.ixbt.com#?#body > style:-abp-contains(margin-top) {remove:true;}
+www.ixbt.*##body > style:-abp-contains(margin-top) {remove:true;}
 ! селекторы
 freesoft.ru###downloadAdModal
 vk.com,vk.ru###feed_rows > .feed_row > div:not([id])
