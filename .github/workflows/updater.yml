@@ -283,7 +283,7 @@ jobs:
       - name: Update bitblock.txt RU AdList (BitBlock + Fanboy's General)
         run: |
           curl -sSfL https://easylist-downloads.adblockplus.org/bitblock.txt > bitblock.txt
-          git add abp-filters-anti-cv.txt
+          git add bitblock.txt
           git diff-index --quiet HEAD || git commit -m "Updated bitblock.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
           git push
         continue-on-error: true
