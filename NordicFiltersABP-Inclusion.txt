@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7zQHPzRuIIvYPUFds3XXCg
-! Version: 202602080441
+! Checksum: gWTY5kusn30w+4vZFtVpSw
+! Version: 202602080451
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 08 Feb 2026 04:41 UTC
+! Last modified: 08 Feb 2026 04:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -40985,6 +40985,7 @@ browsershots.org#@#.advert_area
 ||gypsyairplanereign.com^
 ||gypsyimpel.com^
 ||gypsyproducing.com^
+||gyrallydaiker.com^
 ||gyretantrik.cfd^
 ||gyrinidgurjara.qpon^
 ||gyronsamal.cyou^
@@ -89349,6 +89350,7 @@ classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.c
 provigo.ca#?#.css-1nhzth8:-abp-contains(/sponsorisé|sponsored/)
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
+etherscan.io##section.container-xxl > .py-4:has-text(Sponsored)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
 thehansindia.com##section:has(> .to-be-async-loaded-ad)
