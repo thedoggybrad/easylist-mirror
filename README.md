@@ -182,6 +182,10 @@ A filterlist that can be called as a companion to EasyList and block what EasyLi
 •Raw: [https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/abp-filters-anti-cv.txt](https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/abp-filters-anti-cv.txt) <br>
 •Subscribe: [https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/abp-filters-anti-cv.txt](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/abp-filters-anti-cv.txt)
 
+### RU AdList: BitBlock + Fanboy's General
+Based on Fanboy's, it fixes their bugs and shortcomings in RuNet.<br>
+•Raw: [https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/refs/heads/main/bitblock.txt](https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/refs/heads/main/bitblock.txt) <br>
+•Subscribe: [https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/refs/heads/main/bitblock.txt](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/refs/heads/main/bitblock.txt)
 
 ## Code Transparency
 As we all know, this project is 100% open-source. This means all the codes must be transparent.
