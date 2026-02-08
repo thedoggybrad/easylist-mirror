@@ -280,7 +280,7 @@ jobs:
           git push
         continue-on-error: true
 
-      - name: Update bitblock.txt (RU AdList: BitBlock + Fanboy's General)
+      - name: Update bitblock.txt RU AdList (BitBlock + Fanboy's General)
         run: |
           curl -sSfL https://easylist-downloads.adblockplus.org/bitblock.txt > bitblock.txt
           git add abp-filters-anti-cv.txt
