@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qG8vqrSgD/zVqg/eEe3Law
-! Version: 202602111531
+! Checksum: cS8nWKi6hfyLgOKWFYFaPA
+! Version: 202602111541
 ! Title: EasyList without rules for adult sites
-! Last modified: 11 Feb 2026 15:31 UTC
+! Last modified: 11 Feb 2026 15:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -74771,7 +74771,6 @@ atomic-robo.com###topspace
 autodoc.co.uk###traffic_banner_wrapper_interstitial
 bmj.com###trendmd-suggestions
 devast.io###trevda
-jigsawplanet.com###tsi-9c55f80e-3
 pcworld.com,techhive.com###tso
 trumparea.com###udmvid
 openweathermap.org###ulla-banner
@@ -79750,6 +79749,8 @@ daily-choices.com##[id^="sticky_"]
 alternet.org##[id^="story_page_incontent_"]
 thesaurus.com##[id^="tco"]
 topcpu.net##[id^="topcpu_net_in_page_repeat_responsive"][style="min-height: 300px;"]
+jigsawplanet.com##[id^="tsi-"][style="height:90px;margin:0"]
+jigsawplanet.com##[id^="tsi-"][style="height:90px;margin:var(--block-vertical-spacing) 0"]
 everythingrf.com##[id^="wallpaper_"]
 wuxiaworld.site##[id^="wuxia-"]
 samfw.com##[name="chimera_b"]
