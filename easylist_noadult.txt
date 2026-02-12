@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Pc69aEAieVeM0nPtYknU5g
-! Version: 202602121421
+! Checksum: 1b5AuaNRfVSuZF2is/iezw
+! Version: 202602121431
 ! Title: EasyList without rules for adult sites
-! Last modified: 12 Feb 2026 14:21 UTC
+! Last modified: 12 Feb 2026 14:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -81008,6 +81008,7 @@ motortrend.com##.min-h-\[100px\]
 outsports.com##.min-h-\[100px\]:has(.adb-os-inarticle-block)
 outsports.com##.min-h-\[100px\]:has(.adb-os-lb-incontent)
 motortrend.com##.min-h-\[120px\]
+opensubtitles.org##.msg > div > fieldset:has(> [style="text-align:center;"])
 manomano.*##.mt-s.block:has([data-testid="sprbrd-logo-link"])
 tvguide.co.uk##.mx-auto:has(> [id^="ad-content"])
 boots.com##.oct-listers-hits__item:has(.oct-teaser__listerCriteoAds)
