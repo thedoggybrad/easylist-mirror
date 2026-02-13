@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 88c4BkfGodrBleM1f5bWwQ
-! Version: 202602132011
+! Checksum: xmZYbxegUcebtVB3bs0nCQ
+! Version: 202602132032
 ! Title: EasyList Lithuania
-! Last modified: 13 Feb 2026 20:11 UTC
+! Last modified: 13 Feb 2026 20:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/EasyList-Lithuania/easylist_lithuania
 !
@@ -603,6 +603,14 @@ madeinvilnius.lt##.content-inner > div[style^="text-align: center;"][style*="min
 madeinvilnius.lt##div[style$="margin: 15px 0; min-height: 250px;"]
 diena.lt##.node > iframe[src$=".php"]
 respublika.lt##.desktop_banner
+meteofor.lt##.section:has(>.h250)
+meteofor.lt##.top-media-placeholder
+alytausgidas.lt##div.raw-html-component:has(>div[id^=alytausgidas_])
+grokiskis.lt##.td-main-sidebar
+grokiskis.lt##.widget_custom_html
+zemelapis.lt##._0x0
+lrytas.lt##.LAdvert
+lrytas.lt##div[style^="min-height:"]:has(>.LAdvert)
 ! ——— Broad blocking rules ———
 -baneris-
 .altero-banner-2_top
@@ -1117,6 +1125,9 @@ uploads/images/$domain=gyvenimoguru.lt,image
 /muge\.eu\/wp-content\/uploads\/20\d{2}\/\d{2}\/thumbnail.*/$domain=muge.eu,image
 ||zarasuose.lt/reklama_$image
 ||vilniausskelbimai.lt/adv^
+||img.lrytas.lt/7bet^$image
+! zemelapisLT (2026-02-13)
+||wasabi.bstatic.com/banners^$image
 ! ——— Whitelistings ———
 @@.png#$domain=siustis.net
 @@15minlt.adocean.pl/files/js/ado.js
