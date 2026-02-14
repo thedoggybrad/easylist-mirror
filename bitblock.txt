@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: C/pDK5KU6KAQt4XLWDavHA
-! Version: 202602141752
+! Checksum: LS0t+jwcWdrpKxLRv78JgA
+! Version: 202602141801
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 14 Feb 2026 17:52 UTC
+! Last modified: 14 Feb 2026 18:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6688,7 +6688,6 @@ diets.ru,gameguru.ru,kulina.ru,wotsite.net##body > noindex
 mobiset.ru##body > noindex > #clickDiv
 forum.ru-board.com##body > p[align="center"]
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##body > span[style*="background"]
-vk.com##body.anonym div[class^="vkitFooterBanner"]
 vk.com##body.anonym div[class^="vkitTwoColumnLayoutNarrow__root"] > div > section:has(.vkuiHorizontalCell__host)
 instagram.com#?#body[style="overflow: hidden;"] > #react-root ~ div[class*=" "][class$=" "][role="presentation"]:-abp-has(div:-abp-contains(Войдите, чтобы продолжить))
 kak-prosto.net##br + br
@@ -6832,6 +6831,7 @@ parlament.ua##div[class^="subscribe-text-block"]
 okko.tv##div[class^="toast-list_containerDown"]
 avito.ru##div[class^="top-banner-root-"]
 userstyles.org#?#div[class^="us-stylecard--"]:-abp-has(> .fallbackDiv)
+vk.com##div[class^="vkitFooterBanner"]
 bibliofond.ru##div[class^="widget-promo"]
 shotam.info##div[class^="wp-block-ugb-"],div[class^="wp-block-ugb-"] + div
 t-j.ru##div[data-analytics="banner"]
