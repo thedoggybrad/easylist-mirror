@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /E5YZwyMXFttOdec56dPrQ
-! Version: 202602132351
+! Checksum: xzTsI6lsRnUAp1bCoUghSw
+! Version: 202602140002
 ! Title: EasyList China
-! Last modified: 13 Feb 2026 23:51 UTC
+! Last modified: 14 Feb 2026 00:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -7853,9 +7853,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||cr173.com/skina/
 ||cr173.com/skinb/
 ||creaders.net*/ad_func.js
-||crxs.me/plugins/jquery.modal/
-||crxs.me/scripts/my_
-||crxs.me/upload/ad/
 ||csdn.net/ggmm/
 ||csdn.net/msg.popup.js
 ||csdnimg.cn/check-adblock/
@@ -10408,6 +10405,8 @@ meijutt.*/js/pcjs/
 ||xc.macd.cn^
 ||xc.mydrivers.com^
 ||xcar.com.cn/dsp/ad
+||8se.me/service/assets/core-state.
+||xchina.*/service/assets/core-state.
 ||xchina.*/scripts/modal/modal.js
 ||xchina.*/ad/
 ||xchina.*/plugins/jquery.modal/
@@ -14088,7 +14087,7 @@ douguo.com##.mbs
 pcworks.cn##.md-show
 hk01.com##.md\:min-h-\[90px\]
 redian.news##.md\:w-\[728px\].mx-auto
-1909.me,8se.me,crxs.me,xchina.site,xchina.biz,xchina.co##.media
+1909.me,8se.me,xchina.site,xchina.biz,xchina.co##div[id^="z-extra-"]
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.mediago-ad-wrapper
 cnool.net##.meilai_box
 qq.com##.member_ads
