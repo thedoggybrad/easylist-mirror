@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 63a7/oBlx5zrWCjo99BDVQ
-! Version: 202602151301
+! Checksum: 0xbXzCXV19F9klTXs7qj2A
+! Version: 202602151311
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Feb 2026 13:01 UTC
+! Last modified: 15 Feb 2026 13:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16762,7 +16762,7 @@ shopinfo.com.ua##.widget-group-no-name .sidebarAdvertising
 shopinfo.com.ua#?#.widget-group-no-name:-abp-has(.sidebarAdvertising)
 tv.i.ua##.widget-news_premium
 maanimo.com##.widget-offers
-interface31.ru##.widget-pages a[href*="utm_"]
+interface31.ru##.widget-pages a[href][target="_blank"] > img
 interface31.ru#?#.widget-pages:-abp-has(> .widget-header:-abp-contains(Реклама))
 nur.kz##.widget-parimatch-wrapper
 bibliofond.ru##.widget-pomogi
