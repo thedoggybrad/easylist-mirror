@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602170850
+! Version: 202602170900
 ! Title: EasyList
-! Last modified: 17 Feb 2026 08:50 UTC
+! Last modified: 17 Feb 2026 09:00 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 658117cfaa9cc9fa47665fbd6638c330ebf98048
+! Commit: d4c9e1753a0a68f57feef076dc520e2d38f4ad36
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -64519,6 +64519,7 @@ browsershots.org#@#.advert_area
 ||xnfjictwvrnuz.site^
 ||xnfuh9kn2mglp45g.cfd^
 ||xnhogmnenzddf.website^
+||xnhuvpicehqll.online^
 ||xnimgtnx.com^
 ||xnjdbsbd.com^
 ||xnkldnhifcdmr.site^
@@ -84332,7 +84333,6 @@ amazon.*##div[data-cel-widget^="multi-card-creative-desktop_loom-desktop-top-slo
 amazon.*##div[data-csa-c-painter="sp-cart-mobile-carousel-cards"]
 amazon.*##div[data-csa-c-slot-id^="loom-mobile-brand-footer-slot_hsa-id-"]
 amazon.*##div[data-csa-c-slot-id^="loom-mobile-top-slot_hsa-id-"]
-amazon.*##div[data-csa-c-type="widget"]:has([data-ad-feedback-label-id])
 amazon.*##div[id^="sims-simsContainer_feature_div_"]:has(.sp_info_link)
 amazon.*##div[id^="sp_detail"]
 amazon.*##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
