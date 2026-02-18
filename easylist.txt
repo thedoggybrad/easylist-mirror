@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602182130
+! Version: 202602182138
 ! Title: EasyList
-! Last modified: 18 Feb 2026 21:30 UTC
+! Last modified: 18 Feb 2026 21:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ca1f69bba72c2d0ba174ce0ca0196647ee66c8ca
+! Commit: 06cf5a79da2815bf82342daa3b2de0a21e7017d0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -44361,6 +44361,7 @@ browsershots.org#@#.advert_area
 ||mzoryqtsbvfgu.online^
 ||mzownzmmlccqy.online^
 ||mzowp32okp2lq94nwgm.cfd^
+||mzptgqshvvrl.com^
 ||mzrawmzkdtbvd.online^
 ||mzsantsemsgll.website^
 ||mzscparkeayvs.site^
@@ -85236,6 +85237,7 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-ad-card"]
 checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
+haxmac.cc##.code-block a[href="javascript:void(0)"][onclick^="window.open"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
 thesaurus.com#@#.SZjJlj7dd7R6mDTODwIT
 404media.co#?#.post__content > p:has-text(This segment is a paid ad)
