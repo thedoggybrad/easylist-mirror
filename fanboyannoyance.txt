@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602172357
+! Version: 202602180007
 ! Title: Fanboy's Annoyance List
-! Last modified: 17 Feb 2026 23:57 UTC
+! Last modified: 18 Feb 2026 00:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9f5e91f814e52779dfafc5f878cbd2874574514a
+! Commit: 3228d4e6bb387d70780168b879754f41b8449fc0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14435,7 +14435,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###accept_agree
 ###accept_cookie
 ###accept_cookie_box
-###accept_cookie_modal
 ###accept_cookie_overlay
 ###accept_cookie_widget
 ###accept_cookie_window
@@ -48298,7 +48297,7 @@ fortune.com,lighting.philips.de#@##teconsent
 forgeandfortune.com#@##toasts > #toastsWrapper
 kna-bild.de#@##uiCookieConsent
 gpiaaf.gov.pt,skandia.se#@#.CookieBanner
-isarradweg.de#@#.CookieBar
+bajuwarenhof.de,isarradweg.de#@#.CookieBar
 aruba.com#@#.CookiePopup
 rai.it,rainews.it,raiplay.it,raiplaysound.it#@#.PositionBottom.as-oil
 api.newsguardtech.com#@#.accept-cookie-container
@@ -48859,6 +48858,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||akilliphone.com/views/kuteshop/assets/js/cookies-message.min.js$script,~third-party
 @@||amigosmuseoreinasofia.org/assets/js/cookiecuttr/jquery.cookie.js
 @@||areaclienti.generali.it/AreaClienti/plugins/
+@@||bhbikes.b-cdn.net/web/js/cookies-policy.js$domain=bhbikes.com
 @@||bien.no/marked-cookie-consent-web/$stylesheet
 @@||bstatic.com/libs/privacy-consent/*/cookie-banner.min.js$script,domain=booking.com
 @@||caib.es/webgoib/o/goib-theme/js/klaro-config.js$~third-party
