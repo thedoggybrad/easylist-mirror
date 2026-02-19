@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PubzExpM1qNzZ8c0VkFh2g
-! Version: 202602190832
+! Checksum: HW13sUKKHyqAeSElIgRSHA
+! Version: 202602190841
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 19 Feb 2026 08:32 UTC
+! Last modified: 19 Feb 2026 08:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -323,6 +323,7 @@ com,ru##[data-rambler-share]
 /files/tgparser/*$subdocument,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-abkhazia.ru|sputnik-georgia.com|sputnik-georgia.ru|sputnik-news.ee|sputnik-ossetia.com|sputnik-ossetia.ru|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.kz|sputnik.md|sputniknews-uz.com|sputniknews.cn|sputniknews.com|sputniknews.gr
 /plusone.js$domain=play.google.com
 /share.js$domain=vesti.ru
+/social-networks/*$domain=rbc.ru|sportrbc.ru
 /ulightbox/$domain=aperock.ucoz.ru
 /uploads/*.jpg|$third-party,image,domain=defileb.com|fplay.online|hovels.info|likelol.online|miradres.com|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
 /wp-content/plugins/popups/public/assets/js/public.js$domain=yaizakon.com.ua
@@ -1014,7 +1015,7 @@ hromadske.ua##.c-subscribe-links
 smotret-anime.online#?#.card > .card-content:-abp-has(> .m-translation-view__share)
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.card-footer-view__social-links
 burninghut.ru##.card-footer__share-container
-rbc.ru,rbclifetime.ru#?#.card-wrapper:has(> p > a[href^="https://t.me/"])
+rbc.ru,rbclifemedia.ru#?#.card-wrapper:has(> p > a[href^="https://t.me/"])
 dltv.org#?#.card:-abp-has(> .card__body > .socials)
 softportal.com#?#.cardPageLinks > .Menu2ETd:-abp-has(> a[onclick^="showShare"])
 dltv.org##.card__title-social
@@ -1364,7 +1365,7 @@ obrazovaka.ru##.group-widget
 thealphacentauri.net##.group.sidebar-top
 buhgalter.com.ua,buhgalter911.com##.groups-item-telegram
 medialeaks.ru##.gshare__list
-rbclifetime.ru#?#.gutter-b:-abp-has(> .social-sharing)
+rbclifemedia.ru#?#.gutter-b:-abp-has(> .social-sharing)
 free-kassa.ru##.h-soc
 gagadget.com#?#.h2:-abp-has(> small:-abp-contains(/Поделиться|Розпов/))
 vse42.ru#?#.h3:-abp-contains(Мы в соцсетях)
@@ -2816,6 +2817,7 @@ iphones.ru##[data-id="externalpostlist"]
 mediazona.ca,zona.media##[data-js-selector="show-social-list"]
 vgolos.ua##[data-key="index_in_lviv"]
 softonic.ru#?#[data-meta="page-footer"] div:-abp-has(> ul [data-meta="facebook"])
+rbc.ru#?#[data-metronome-unit="article"] > .card-wrapper:-abp-has(> p > strong > a[href^="https://t.me/"])
 esports.ru##[data-name="footer/socials"]
 kufar.by##[data-name^="share-button"]
 stopgame.ru##[data-plugins="share"]
@@ -3314,6 +3316,7 @@ liveball.my,liveball.uno,liveball.*##.free
 mail.yandex.ru,mail.yandex.*##.b-mail-domik__social
 www1.ru#?#main > .relative:nth-child(-n+3):-abp-has(> div > [href^="https://t.me/"])
 site.ua##main > .w-full + .container + .container > div:only-child
+rbc.ru#?#main > article > [class^="stroke-"]:-abp-has(> div a[href^="https://max.ru/"])
 ura.news##main > div button[type="button"]:first-child > span:not(:only-child)
 ura.news#?#main > div div ul > li:-abp-has([alt^="Подписаться на нас"])
 market.yandex.ru,market.yandex.*##[data-autotest-social-name]
@@ -6546,6 +6549,7 @@ vc.ru##a.sidebar-item[href^="/courses"]
 video.matchtv.ru##a.vjs-link[href^="https://matchtv.ru/subscriptions"]
 mywebpc.ru##a[alt="donate"]
 doramaland.plus##a[class^="banner-preview-"]
+rbc.ru##a[class^="styles_message-bar_"]
 youla.ru##a[href*=".com/"][href*="/app"][title][target="_blank"]
 sibnet.ru##a[href*="/delivery/ck.php"][target="_blank"]
 18000.com.ua,1kr.ua,2ip.ua,babel.ua,chytomo.com,delo.ua,expert.in.ua,fastpic.org,forumodua.com,glav.su,infoindustria.com.ua,inforesist.org,itechua.com,jewishnews.com.ua,lb.ua,mmr.net.ua,novayagazeta.eu,prufy.ru,remontka.pro,rubryka.com,sknews.net,slk.kh.ua,tvrain.tv,zona.media##a[href*="/donate"]
@@ -6717,6 +6721,7 @@ homecredit.ru##div[class*="BlockCookies-"]
 domclick.ru##div[class*="CookieAlert"]
 www.1tv.ru##div[class*="Footer_footerApplications"] > div:first-child
 sberindex.ru##div[class*="Layout__cookiePanel"]
+rbc.ru##div[class*="PartnersNews_wrapper"]
 citilink.ru##div[class*="PersonalDataConfirm"]
 24smi.org#?#div[class*="__col"]:-abp-has(> .subscription)
 lifehacker.ru#?#div[class*="container"] div[class*="article-card__"]:-abp-has(> [class*="article-card"] .lh-article-card-meta__promo)
@@ -6844,6 +6849,7 @@ avito.ru##div[data-key^="promoWidget"]
 avito.ru##div[data-marker="standard-banner"]
 avito.ru##div[data-marker^="top-notification/"]
 santehnika-online.ru##div[data-name="FooterCookieAgreement"]
+rbc.ru##div[data-name="Oprosso"]
 hh.ru##div[data-qa="autosearch-subscribe__form"]
 lemanapro.ru##div[data-qa="cookie-notification"]
 hh.ru##div[data-qa="cookies-policy-informer"]
