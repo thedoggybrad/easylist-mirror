@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8U0fX4iQtnR3bJnQq4lyig
-! Version: 202602191522
+! Checksum: qt0oHpG7T/X07tn7nEeV7Q
+! Version: 202602191531
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 19 Feb 2026 15:22 UTC
+! Last modified: 19 Feb 2026 15:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8725,6 +8725,8 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! https://github.com/uBlockOrigin/uAssets/commit/97c717414548694b75d09579dbcebbb7c04f4a81#commitcomment-177638418
+.com/smartpop/$document
 ! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
 ! Block parked domains. Sometimes it is not immediately obvious that it is dead
 ! https://ww7.linkviet.xyz/?usid=23&utid=10895304252
@@ -9223,6 +9225,7 @@ _800x80_
 &zoneid=*&direct=$popup
 .co/ads/$popup
 .com/ads?$popup
+.com/smartpop/$popup,third-party
 .fuse-cloud.com/$popup
 .net/adx.php?$popup
 .prtrackings.com$popup
