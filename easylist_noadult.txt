@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Jvs6eLiK/5xolvjv7jLTLw
-! Version: 202602191521
+! Checksum: JtZJVcGNVtAFm4C4SO4UOg
+! Version: 202602191531
 ! Title: EasyList without rules for adult sites
-! Last modified: 19 Feb 2026 15:21 UTC
+! Last modified: 19 Feb 2026 15:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -825,6 +825,8 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! https://github.com/uBlockOrigin/uAssets/commit/97c717414548694b75d09579dbcebbb7c04f4a81#commitcomment-177638418
+.com/smartpop/$document
 ! https://github.com/AdguardTeam/AdguardFilters/commit/934912b3e760e068a91cd6cb502096a55ab1ca16
 ! Block parked domains. Sometimes it is not immediately obvious that it is dead
 ! https://ww7.linkviet.xyz/?usid=23&utid=10895304252
@@ -1323,6 +1325,7 @@ _800x80_
 &zoneid=*&direct=$popup
 .co/ads/$popup
 .com/ads?$popup
+.com/smartpop/$popup,third-party
 .fuse-cloud.com/$popup
 .net/adx.php?$popup
 .prtrackings.com$popup
