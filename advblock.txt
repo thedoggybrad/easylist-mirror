@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vkLXY8jK3XyHp8G4KUn1pw
-! Version: 202602190841
+! Checksum: DVCA6/eAZPXVWZUE/Gj0EA
+! Version: 202602190851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 19 Feb 2026 08:41 UTC
+! Last modified: 19 Feb 2026 08:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24672,6 +24672,7 @@ utro.ru#?#.news-group__content > .news-group__item:-abp-has(> .banner)
 cnews.ru##.objects_row > .cnb-zone > a:not([href*="cnews.ru"])
 rbc.ru##.radio-partner-block
 ##.rbcobmen
+rbc.ru,sportrbc.ru##.read-more-pro
 rbc.ru##.right-promo-block
 cnews.ru#?#.section_mainnews > .container:-abp-has(> .line_pattern > a[href^="https://market.cnews.ru/"])
 www.cnews.ru##.section_widget_market
