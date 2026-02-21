@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e/NfdP2h70ya5AQllEKdAw
-! Version: 202602211321
+! Checksum: poL4X3kcxcqJjvJ94FT88Q
+! Version: 202602211332
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Feb 2026 13:21 UTC
+! Last modified: 21 Feb 2026 13:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2766,6 +2766,7 @@ afisha.ru##[aria-label="Социальные сети"]
 limehd.tv##[aria-label^="social-"]
 mos.ru##[aria-label^="Поделиться ссылкой"]
 bbc.com#?#[aria-labelledby^="normal-collection-"]:-abp-has(> h2:-abp-contains(Мы в соцсетях))
+bbc.com##[aria-labelledby^="social-links-"]
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru#?#[btnsize]:-abp-has([data-test^="btn-share"])
 versii.if.ua##[class$="_social"]
 7days.ru##[class$="button-social-box"]
@@ -5489,7 +5490,6 @@ khl.ru##.e-header_apps
 life.ru##.eABzmT
 forbes.ru##.eORMo
 agronomy.com.ua##.eb-inst
-bbc.com##.eh3hs0a5
 edgecenter.ru##.elcookie
 bazarmedia.info##.elp-widget
 rubryka.com##.email-sectionarchive-email-section
@@ -6949,19 +6949,19 @@ amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskm
 auto.ru##li[class^="PersonalizedFeedUgcLogbookItem-"]
 thetruestory.news#?#main > div:-abp-has(> div > a[href="/cookies"])
 novayagazeta.ru#?#main > div:-abp-has(> svg[height][width="10000"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="еклама"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="еклама"]) + div
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="еклама"]) + div + figure
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="иния"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="онтекст"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="онтекст"]) + div
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="онтекст"]) + div + figure
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рассылк"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рассылк"]) + div
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рассылк"]) + div + figure
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рафика"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рафика"]) + div
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рафика"]) + div + figure
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"])
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"]) + div
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"]) + div + figure
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="иния"])
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="онтекст"])
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="онтекст"]) + div
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="онтекст"]) + div + figure
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рассылк"])
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рассылк"]) + div
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рассылк"]) + div + figure
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рафика"])
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рафика"]) + div
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рафика"]) + div + figure
 mvideo.ru##mvid-cookie-notification
 ixbt.com##nav a[href^="https://ixbt.shop"]
 zoom.cnews.ru##noindex > .article_insert
