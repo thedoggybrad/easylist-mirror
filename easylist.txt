@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602221419
+! Version: 202602221437
 ! Title: EasyList
-! Last modified: 22 Feb 2026 14:19 UTC
+! Last modified: 22 Feb 2026 14:37 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a5c66a0e57e6569b673da8b01860e577cf239452
+! Commit: 3f2dc3860db1e220ef49d403c547e56690f33eae
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -88349,6 +88349,7 @@ gamcore.com##li.d-md-block > a[rel]
 @@||cloud.google.com^$~third-party
 @@||developers.google.com^$domain=developers.google.com
 @@||support.google.com^$domain=support.google.com
+@@||tpc.googlesyndication.com^$domain=ads.google.com
 ! Yahoo
 @@||gemini.yahoo.com/advertiser/$domain=gemini.yahoo.com
 @@||yimg.com/av/gemini-ui/*/advertiser/$domain=gemini.yahoo.com
