@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: kKPS+CQQ9ZTAYHi0lywVAA
-! Version: 202602230521
+! Checksum: I1sVC9DbZMMVHu6njjZc9A
+! Version: 202602230531
 ! Title: EasyPrivacy without international filters
-! Last modified: 23 Feb 2026 05:21 UTC
+! Last modified: 23 Feb 2026 05:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -105,6 +105,7 @@
 /?swift-performance-tracking
 /_/api/v2/analytics/?
 /_/lite/performance/*
+/__core/metrics.js
 /__imp_apg__/*
 /__rmn.gif?
 /__ssobj/core.js
