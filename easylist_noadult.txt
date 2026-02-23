@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gnmO9OkgID0SHXnZ+2MtvA
-! Version: 202602231341
+! Checksum: VdfvLQtuk5AkuY2j9e3hJg
+! Version: 202602231351
 ! Title: EasyList without rules for adult sites
-! Last modified: 23 Feb 2026 13:41 UTC
+! Last modified: 23 Feb 2026 13:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -38011,6 +38011,7 @@ browsershots.org#@#.advert_area
 ||iylmylijdicmv.site^
 ||iylqknznqxlst.site^
 ||iylwnmnnchzkq.website^
+||iymitewbnoipj.space^
 ||iymvmpyfsqnui.site^
 ||iynakvjmajx.com^
 ||iypxhliuk.com^
@@ -83997,6 +83998,7 @@ fastcompany.com##.sticky:has(.ad-container)
 carwow.co.uk##.stock-cars-v2__card-wrapper:has(> [data-controller="spdeal"])
 scamwarners.com##.subheader:has(> ins.adsbygoogle)
 thesun.co.uk##.sun-grid-container:has([class*="ad_widget"])
+ulta.com##.swiper-slide:has(.pal-c-ProductCardFooter__sponsored)
 myrgv.com##.td_block_wrap:has(a[href*="/ask-the-expert/"])
 independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad)
 sfyimby.com##.textwidget:has-text(ADVERTISEMENT)
