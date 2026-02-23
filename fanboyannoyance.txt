@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602232134
+! Version: 202602232143
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Feb 2026 21:34 UTC
+! Last modified: 23 Feb 2026 21:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 44f1a86a5886e6707bd17e8d9da81411070e270f
+! Commit: 9029c85fe3cf8fa68799670efdaa659450ffb7b9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -33126,6 +33126,7 @@ m.aliexpress.ru##div[class^="PseudoSmartBanner_"]
 kraken.com##div[class^="fc-94f32b27"]
 temu.com##div[style="height: 0.66rem;"]
 temu.com##div[style="height:0.66rem"]
+facebook.com##div[style="pointer-events: none; flex-grow: 1; justify-content: inherit; flex-direction: column;"]:has-text(Get Facebook)
 app.famitsu.com##div[style^="position: absolute; z-index: 1000; width: 100%;"][style$="ease-out;"]
 fedex.com##fedex-smart-banner
 x.com##header[role="banner"] > ._3oxnid3o._3f2NsD-H
