@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F7DrdNbEQVZesfxPP94GgQ
-! Version: 202602240831
+! Checksum: rpe+b2+WpO+dgEHzk1F33w
+! Version: 202602240841
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 24 Feb 2026 08:31 UTC
+! Last modified: 24 Feb 2026 08:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1191,7 +1191,6 @@ interfax.ru##.figureSocWrap
 winzoro.net##.fiveSocial
 receptisalatov.com##.fix
 www.bigmir.net##.fix310 > .stiky > .row.pb20
-www.ixbt.com##.fixed div[class^="menu-"] ~ div.hidden
 parlament.ua##.fixed-social-link
 happymodern.ru##.fixed_link--telegram-group
 smartpress.by##.fixed_socnet
@@ -3324,6 +3323,7 @@ ura.news#?#main > div div ul > li:-abp-has([alt^="Подписаться на н
 market.yandex.ru,market.yandex.*##[data-autotest-social-name]
 proxima.net.ua##nav .text-center .dropdown-toggle
 ixbt.com##nav > .grid > .lg\:inline-flex
+www.ixbt.com##nav div[class^="menu-"] ~ div.hidden
 uznayvse.ru##nav[aria-label="Социальные сети"]
 prichernomorie.com.ua##nobr
 businessua.com##noindex > .g-icon
@@ -5726,7 +5726,6 @@ rbc.ru##.l-sticky-right-parent
 drive2.com,drive2.ru##.l-top
 inforesist.org##.lang-modal
 iu.ru##.layout > div[class^="style_modal__"]
-rencredit.ru##.layout-footer > .attention
 www.goha.ru##.layout-footer-body__18plus-icon
 vkusnoitochka.ru##.layout-layer-notifications-cookie-wrapper
 hitfm.ru##.layout-sidebar-apps
@@ -5962,7 +5961,6 @@ pikabu.ru##.popup-button-promo
 svscompany.ru##.popup-policy
 vnukovo.ru##.popup-rating-fixbutton
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##.popup-suggestion
-magnit.ru##.popup-unit-cookie-policy
 sports.ru##.popup.team-popup
 sports.ru##.popup[data-control="Common.Compulsion"]
 pikabu.ru##.popup[style*="top: auto;"][style*="bottom: 16px;"][style*="position: fixed;"]
@@ -6750,7 +6748,6 @@ mos.ru##div[class^="CookieBanner_container_"]
 x5club.ru,x5id.ru##div[class^="CookieNotice_"]
 eshe.club##div[class^="CookieNotification__"]
 afisha.ru##div[class^="CookiePrivacyBanner_Container"]
-sberbank.com,sberbank.ru##div[class^="CookieWarning-"]
 vprok.ru##div[class^="CookiesAlert_policy"]
 lockobank.ru##div[class^="CookiesBanner"]
 kuper.ru##div[class^="CookiesConcent_"]
@@ -7379,7 +7376,7 @@ ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class^="DistrSmartbanner"]
 360.yandex.ru##div[class^="TopLine_wrapper_"]
 dzen.ru##div[class^="card-actual-desktop__actualGrid"]
 dzen.ru##div[class^="content--trap-popup__container"]
-dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > [id][data-itemid] > [data-type="article"]
+dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > [id][data-itemid]:nth-child(-n+7) > [data-type="article"]
 dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > div:empty:nth-child(2) + [id][data-itemid]
 dzen.ru##div[class^="dzen-desktop--flash-modal"]
 dzen.ru##div[class^="dzen-desktop--trends-entry-"]
