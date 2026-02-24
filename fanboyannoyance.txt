@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602232359
+! Version: 202602240007
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Feb 2026 23:59 UTC
+! Last modified: 24 Feb 2026 00:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b610cbadca8e96b0b87d1be8673daeaecc9cccf5
+! Commit: 797cd51bfab73e08753d817cf3adffae943217aa
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -47135,7 +47135,7 @@ fastvps.ru##app-cookies-accept
 authedu.mosreg.ru,myschool.mos.ru,school.mos.ru,uchebnik.mos.ru##body > div[style^="position: fixed; overflow: visible; top: 0px; left: 0px; transform: translate("]
 vmeste.mosreg.ru##dd-cookie-accept-banner
 rabota.sber.ru##div[class*="styled__CookieWrapper-"]
-sberbank.ru##div[class^="CookieWarning-"]
+sberbank.com,sberbank.ru##div[class^="CookieWarning-"]
 life.by##div[class^="Cookie_modalRoot_"]
 novayagazeta.eu##div[class^="CookiesInformer_"]
 dom.ria.com##div[class^="GdprComponent"]
@@ -47143,6 +47143,7 @@ stoloto.ru##div[class^="Provider_container"]
 aliexpress.ru##div[class^="SnowPrivacyPolicyBanner_"]
 bb.market##div[class^="_cookies_"]
 asna.ru##div[class^="modalCookies_"]
+rencredit.ru##div[data-attention-id="3420"]
 yoomoney.ru##div[data-qa="gdpr"]
 russianfield.com##div[data-storage-item^="t886cookiename_"]
 knmoloko.ru##div[data-storage-item^="t887cookiename_"]
