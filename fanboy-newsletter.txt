@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602252258
+! Version: 202602252306
 ! Title: Fanboy's Anti-Newsletter List
-! Last modified: 25 Feb 2026 22:58 UTC
+! Last modified: 25 Feb 2026 23:06 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f6032244daab789fa153ab9a4983d7e1cb2fc706
+! Commit: 2babd7d9274c1371fa9a893d6f3afd9c65273d3a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4061,6 +4061,7 @@ seekingalpha.com##.z-sticky.bottom-0.sticky:has-text(opportunity)
 polygon.com##[class]:has(> .duet--cta--newsletter)
 lowes.com##[data-testid="scroll-modal-wrapper"]:has-text(sign up)
 politicalwire.com#?##custom_html-12:-abp-contains(newsletters)
+lapublicpress.org##div.alignfull.wp-block-cover:has-text(Subscribe to our weekly newsletter)
 haitiantimes.com##div.is-style-border:has-text(Daily News)
 gizmodo.com##div.mt-10:has-text(Daily Newsletter)
 kotaku.com##div.mt-10:has-text(newsletter)
