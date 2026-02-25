@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602252306
+! Version: 202602252326
 ! Title: EasyPrivacy
-! Last modified: 25 Feb 2026 23:06 UTC
+! Last modified: 25 Feb 2026 23:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2babd7d9274c1371fa9a893d6f3afd9c65273d3a
+! Commit: f2fc6b73b645d47339e489483563f97c8bbb68e6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11858,6 +11858,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pussy.org^*/track.php
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
+||px-cloud.net/b/c/beacon
 ||px-cloud.net/b/s
 ||px.marchex.io^
 ||px.mountain.com^
@@ -54960,6 +54961,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/visitor-api.html$xmlhttprequest
 @@||cqcounter.com^$domain=cqcounter.com
+@@||crcldu.com/bd/auditor.js$script
+@@||crcldu.com/bd/sync.html$domain=pepboys.com
 @@||crimemapping.com/cdn/*/analytics/eventtracking.js$~third-party
 @@||criteo.com/delivery/$domain=canadiantire.ca
 @@||cults3d.com/packs/js/quantcast-$~third-party
