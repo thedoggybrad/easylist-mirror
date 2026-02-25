@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W1aEB3U6ppyS1h+o5AKmFQ
-! Version: 202602251231
+! Checksum: 5oYZ4BscKZfBh2g5hn8OdA
+! Version: 202602251241
 ! Title: ABPindo
-! Last modified: 25 Feb 2026 12:31 UTC
+! Last modified: 25 Feb 2026 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 13 Feb 2026 11:48 UTC
+! Last modified: 25 Feb 2026 12:37 UTC
 ! Licence: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems
@@ -1889,7 +1889,6 @@ rbtv77.im##[href^="https://a.jalalivetv.info/"]
 gudangmovies21.cfd,mangakita.id,mangakita.net,manganime.in,movieajip.online##[href^="https://bit.ly/"]
 01ntn.cc##[href^="https://goratu.site"]
 tv.lk21official.world##[href^="https://klik4.me/dunia21"]
-kiryuu01.com##[href^="https://linkfast.asia/"]
 dailypost.id##[href^="https://lynk.id/dailypost.id"]
 lewat.club##[href^="https://manjur.id/search.php"]
 dailypost.id##[href^="https://wa.me"]
@@ -1985,6 +1984,7 @@ medcom.id##div.skycrapper.banner
 cnbcindonesia.com##div.undefined
 kompas.com##div:has( > #gpt-passback)
 katadata.co.id##div:has( > [id^="div-gpt-ad"][class^="paralax"])
+kiryuu03.com##div[class*="ads-header"]
 wolipop.detik.com##div[data-ads]
 kuyhaa.me##div[data-nosnippet] a[target="_blank"] input[type="image"]
 tokopedia.com##div[data-ssr="findProductSSR"]:has(span[data-testid="lblTopads"])
@@ -2084,6 +2084,7 @@ movieku.*##.adsx
 movieku.*##.kln
 movieku.*##.teaser3
 movieku.*##[href^="https://heylink.cam/"]
+nimegami.*##div[class^="iklan_banner"]
 nimeindo.*,awsubs.*##div#popupAd
 nontonanimeid.*##.banner_player
 nontonanimeid.*##.floating_footer
