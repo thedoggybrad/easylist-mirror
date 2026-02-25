@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: IR+8UtQXU7yMqtwINIjWWA
-! Version: 202602252331
+! Checksum: BMuWt1VqGya/IJmb2P3/Rg
+! Version: 202602252341
 ! Title: EasyPrivacy without international filters
-! Last modified: 25 Feb 2026 23:31 UTC
+! Last modified: 25 Feb 2026 23:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4270,6 +4270,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||frog.editorx.com^
 ||frontend-logger.flippback.com/api/logging
 ||fs-client-logger.herokuapp.com^
+||fst-ec.perimeterx.net^
 ||ftimg.net/js/log.js?
 ||ftm.fluencyinc.co^
 ||fudge.ai/metrics?
@@ -44718,8 +44719,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/app-measurement.html$xmlhttprequest
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/visitor-api.html$xmlhttprequest
 @@||cqcounter.com^$domain=cqcounter.com
-@@||crcldu.com/bd/auditor.js$script
-@@||crcldu.com/bd/sync.html$domain=pepboys.com
 @@||crimemapping.com/cdn/*/analytics/eventtracking.js$~third-party
 @@||criteo.com/delivery/$domain=canadiantire.ca
 @@||cults3d.com/packs/js/quantcast-$~third-party
