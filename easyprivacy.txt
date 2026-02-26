@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602260156
+! Version: 202602260205
 ! Title: EasyPrivacy
-! Last modified: 26 Feb 2026 01:56 UTC
+! Last modified: 26 Feb 2026 02:05 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 514b6ea6b990c019ef96a896d275bf9bf2a24052
+! Commit: 80c0d3f2035a0b2c38d83351e9d3e0e944e48167
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -13222,6 +13222,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||global-media.de^*/track/ai.img
 ||goldsilbershop.de/go.cgi?
 ||gproxy-beta.mableai.workers.dev/wtag/js
+||grafana-agent.cuboxx.io^
 ||hbx.df-srv.de^
 ||hittracker.org/count.php
 ||hittracker.org/counter.php
@@ -15742,6 +15743,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||read.amazon.*/uploadMetrics/
 ||realitytvworld.com/images/pixel.gif
 ||rec.banggood.com^
+||recommend.9gag.com/interact/event/
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
 ||redditmedia.com/gtm/jail?
@@ -52939,6 +52941,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||ruw.de/js/trackSidebarClicks.js
 ||s.eick.it^
 ||schnaeppchenfuchs.com/js/default-
+||schottenland.de/na/ajax.php?ax=HiT&
 ||sgtm.tennis-point.de^
 ||shoop.de/mgtrx/
 ||shop.rewe.de/api/xrd/web-vitals
