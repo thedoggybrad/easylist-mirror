@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zrrbUQ6JNgfszi3kN5nouQ
-! Version: 202602271411
+! Checksum: b+mDuAh2GzJdzYa/8pMa8w
+! Version: 202602271421
 ! Title: EasyList without rules for adult sites
-! Last modified: 27 Feb 2026 14:11 UTC
+! Last modified: 27 Feb 2026 14:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -44144,6 +44144,7 @@ browsershots.org#@#.advert_area
 ||mirpooptpgxs.com^
 ||mirthbeat.com^
 ||mirthconfidence.com^
+||mirthflexiblecolumn.com^
 ||miryvmdypyxd.com^
 ||mirzaluteway.cfd^
 ||misaglam.com^
@@ -66537,6 +66538,7 @@ browsershots.org#@#.advert_area
 ||ximybkpxwu.com^
 ||ximzuwcbbgwhu.online^
 ||xincascoliid.cfd^
+||xintwnmzuwbhd.online^
 ||xiobpoetdfjyk.website^
 ||xiozrgajvpfry.site^
 ||xipaskbsdzlbj.online^
@@ -84628,10 +84630,12 @@ kaufland.*##.product--spa
 kaufland.*##.product--sponsored
 douglas.*##.product-grid-column:has(.criteo-spotlight)
 douglas.*##.product-grid-column:has([data-testid="sponsored-button"])
+leroymerlin.*##.product-thumbnail:has(.o-thumbnail__sponsored)
 kaufland.*##.product:has(div.product__sponsored-ad-label)
 tripadvisor.*##.rSJod
 kaufland.*##.rd-recommender__tile:has(div.rd-product-tile__badge--ad)
 kaufland.*##.rd-recommender__tile:has(span.advertiser-info__button-icon)
+leroymerlin.*##.recommendation--sponso
 yandex.*##.search-advert-badge
 yandex.*##.search-business-snippet-view__direct
 yandex.*##.search-list-view__advert-offer-banner
@@ -84674,6 +84678,7 @@ wayfair.*##div[data-hb-id="Grid.Item"]:has(a[href*="&sponsoredid="])
 wayfair.*##div[data-name="DisplayAd"]
 wayfair.*##div[data-node-id^="SponsoredListingCollectionItem"]
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[data-resultid$="-sponsored"]
+leroymerlin.*##div[data-st-name="sponsored"]
 costco.*##div[data-testid="AdSet-all-sponsored_products"]
 walmart.*##div[data-testid="sp-item"]
 walmart.*##div[data-testid="sp-search-middle"]
