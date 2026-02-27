@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202602271407
+! Version: 202602271421
 ! Title: EasyList
-! Last modified: 27 Feb 2026 14:07 UTC
+! Last modified: 27 Feb 2026 14:21 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6c15b0e589ea6724f0c15655053d7901e725ec2a
+! Commit: fedf1e3d6ee06c1ea96b1e97bcb026ecb422629f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -44148,6 +44148,7 @@ browsershots.org#@#.advert_area
 ||mirpooptpgxs.com^
 ||mirthbeat.com^
 ||mirthconfidence.com^
+||mirthflexiblecolumn.com^
 ||miryvmdypyxd.com^
 ||mirzaluteway.cfd^
 ||misaglam.com^
@@ -66541,6 +66542,7 @@ browsershots.org#@#.advert_area
 ||ximybkpxwu.com^
 ||ximzuwcbbgwhu.online^
 ||xincascoliid.cfd^
+||xintwnmzuwbhd.online^
 ||xiobpoetdfjyk.website^
 ||xiozrgajvpfry.site^
 ||xipaskbsdzlbj.online^
@@ -86135,6 +86137,7 @@ momondo.*##.WTQR-ad-card
 momondo.*##.YnaR:has([class$="ProviderAdBanner"])
 yandex.*##._view_advertisement
 bier-universum.*##.abc-wrapper
+leroymerlin.*##.arm-dss-content-sponsored
 flashscore.*,flashscoreusa.com,livescore.*,soccer24.com##.banner
 yts.*##.bbj:has-text(Warning)
 yandex.*##.business-card-title-view__advert
@@ -86150,10 +86153,12 @@ kaufland.*##.product--spa
 kaufland.*##.product--sponsored
 douglas.*##.product-grid-column:has(.criteo-spotlight)
 douglas.*##.product-grid-column:has([data-testid="sponsored-button"])
+leroymerlin.*##.product-thumbnail:has(.o-thumbnail__sponsored)
 kaufland.*##.product:has(div.product__sponsored-ad-label)
 tripadvisor.*##.rSJod
 kaufland.*##.rd-recommender__tile:has(div.rd-product-tile__badge--ad)
 kaufland.*##.rd-recommender__tile:has(span.advertiser-info__button-icon)
+leroymerlin.*##.recommendation--sponso
 yandex.*##.search-advert-badge
 yandex.*##.search-business-snippet-view__direct
 yandex.*##.search-list-view__advert-offer-banner
@@ -86181,6 +86186,7 @@ walmart.*##a[href*=".criteo.com/"]
 manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
 yandex.*##a[href^="https://yabs.yandex.ru/count/"]
 yandex.*##a[href^="https://yandex.ru/an/count/"]
+leroymerlin.*##aside[data-st-name="sponsored"]
 hookerhillstudios.com##div.items-center:has(> #articlead)
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(a[href*="/s/clickthrough.jsp?"])
@@ -86196,6 +86202,7 @@ wayfair.*##div[data-hb-id="Grid.Item"]:has(a[href*="&sponsoredid="])
 wayfair.*##div[data-name="DisplayAd"]
 wayfair.*##div[data-node-id^="SponsoredListingCollectionItem"]
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[data-resultid$="-sponsored"]
+leroymerlin.*##div[data-st-name="sponsored"]
 costco.*##div[data-testid="AdSet-all-sponsored_products"]
 walmart.*##div[data-testid="sp-item"]
 walmart.*##div[data-testid="sp-search-middle"]
