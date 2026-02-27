@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9oBrcyqqnYenKnBIitCgPQ
-! Version: 202602271421
+! Checksum: wm6ka4GAAmRi1b/vpig+1Q
+! Version: 202602271431
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 27 Feb 2026 14:21 UTC
+! Last modified: 27 Feb 2026 14:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -63664,6 +63664,7 @@ browsershots.org#@#.advert_area
 ||sbwwjnlkxmlrto.xyz^
 ||sbxlwnacdqvxksc.xyz^
 ||sbxpltvuqwfxp.space^
+||scabbedcoaches.com^
 ||scagsacrary.shop^
 ||scakuvap.com^
 ||scalaebeworms.qpon^
@@ -74698,6 +74699,7 @@ browsershots.org#@#.advert_area
 ||xqfpgwarzkecj.website^
 ||xqgvzvaneizyb.online^
 ||xqjasiudpfzsi.website^
+||xqjfylqpjryru.space^
 ||xqkqqtzljvwaj.space^
 ||xqkyaeyjigb.com^
 ||xqqmcnphocpku.website^
@@ -94033,6 +94035,7 @@ momondo.*##.WTQR-ad-card
 momondo.*##.YnaR:has([class$="ProviderAdBanner"])
 yandex.*##._view_advertisement
 bier-universum.*##.abc-wrapper
+leroymerlin.*##.arm-dss-content-sponsored
 flashscore.*,flashscoreusa.com,livescore.*,soccer24.com##.banner
 yts.*##.bbj:has-text(Warning)
 yandex.*##.business-card-title-view__advert
@@ -94081,6 +94084,7 @@ walmart.*##a[href*=".criteo.com/"]
 manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
 yandex.*##a[href^="https://yabs.yandex.ru/count/"]
 yandex.*##a[href^="https://yandex.ru/an/count/"]
+leroymerlin.*##aside[data-st-name="sponsored"]
 hookerhillstudios.com##div.items-center:has(> #articlead)
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(a[href*="/s/clickthrough.jsp?"])
@@ -94441,6 +94445,7 @@ abcnews.go.com##div[data-container="band"]:has(> div > div[data-box-type="fitt-a
 flipkart.com##div[data-id][style]:has([width][height][fill])
 bjs.com##div[data-index]:has(.sponsored-badge)
 etherscan.io##div[data-nosnippet]:has(> ins[id])
+rakuten.com##div[data-productid]:has(a[href*="&fbbaid="])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 mail.aol.com##div[data-test-id="virtual-list"] > ul[role="list"][aria-label] > li[style]:has(a[href^="https://api.taboola.com/"][href*="/yahoo-aol-mail/"])
 priceline.com##div[data-testid="HTL_NEW_LISTING_CARD_RESP"]:has(a[aria-label*=" Promoted"])
