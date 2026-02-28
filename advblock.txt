@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6gPFm9PbiJy3R3qH/QINtg
-! Version: 202602280951
+! Checksum: 6TNDuTXnRIQT9iGPhsh70Q
+! Version: 202602281001
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Feb 2026 09:51 UTC
+! Last modified: 28 Feb 2026 10:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7255,6 +7255,7 @@ _tizers.
 ||kunleen.online^$third-party
 ||kurberi.ru^$third-party
 ||kuretr.ru^$third-party
+||kurwa-bober.ninja^$third-party
 ||kuseless.ru^$third-party
 ||kutabi.info^$third-party
 ||kuveres.com^$third-party
@@ -8032,6 +8033,7 @@ _tizers.
 ||na-zdor2.ru^$third-party
 ||na0z0thlap.com^$third-party
 ||nacdn.info^$third-party
+||nackhui.com^$third-party
 ||nadajotum.com^$third-party
 ||naiton.ru^*/lookbanner/
 ||nalabutenahah.com^$third-party
@@ -20494,6 +20496,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /api*iframe$subdocument,domain=get-tune.cc|intermusic.name|iplayer.info|ipleer.fm|mp3iq.com
 /api/*/ads-banners$domain=limehd.tv|litehd.tv|pervyi-tv.online|russia-tv.online
 /api/*/ainfo/*$domain=igromania.ru|kanobu.ru
+/api/ad/*$domain=lampa.mx
 /api/branding/*$domain=lalafo.az|lalafo.kg
 /app.js|$script,domain=vesti.ru
 /arscode-ninja-popups/*$domain=animalreader.ru|mensgen.ru|vovetnam.su
