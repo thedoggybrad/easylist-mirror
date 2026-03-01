@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QBgj6W4v1DLCQw2cXOJXow
-! Version: 202603011542
+! Checksum: PuOGLaVdCd6KUKE+8wIOmg
+! Version: 202603011551
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Mar 2026 15:42 UTC
+! Last modified: 01 Mar 2026 15:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -677,7 +677,6 @@ tele-sport.ru##.-social
 tele-sport.ru##.-social-with-counter
 blog.domclick.ru##.A1lqP
 kaktus.kg,kaktus.media##.Article--tg-block
-mail.google.com##.Bu + .Bu.yM + .Bu.y3
 delfi.ee##.C-article-social
 delfi.ee##.C-block-type-social
 delfi.ee##.C-headline-title__share
@@ -6470,11 +6469,13 @@ banki.ru##[data-name^="clip_mpcard"]
 esports.ru##[data-name^="steam/balance-top-up"]
 economistua.com##[data-owo-type]
 ozon.ru##[data-paginator-loader]
+mail.google.com##[data-pep-id="global-pep-gmail"]
 poltavawave.com.ua##[data-platform]
 my.ua##[data-policy-wrapper]
 5ka.ru##[data-qa="cookies"]
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[data-react-rcm-block]
 ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget="island"]:-abp-has(> div > [data-widget="seasonWidget"])
+mail.google.com##[data-rp-onramp-input]
 anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
 fosshub.com##[data-section-content-type="donate"]
 remanga.org##[data-sentry-source-file="reader-ad.tsx"]
@@ -6868,6 +6869,7 @@ interfax-russia.ru##div[itemtype="http://schema.org/NewsArticle"] > .pb-30.d-non
 livejournal.com##div[lj-widget-promo]
 livejournal.com##div[ng-if="popupCtrl.shouldShow"]
 silver.ru##div[role="alert"]
+mail.google.com##div[role="banner"][aria-labelledby]
 avtorambler.com,rambler.ru#?#div[style*="300px"]:-abp-has(> div > [data-quiz-id])
 muz.ru##div[style*="400px;"][style$="240px;"]
 sil.media##div[style*="max-width"][style*="728px"][style*="height:"]
