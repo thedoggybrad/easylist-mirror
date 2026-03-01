@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uHFuXVRfUBX16IciNsj3Hg
-! Version: 202603010802
+! Checksum: kaZ3cF07aYnELUFNfd2cmg
+! Version: 202603010811
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Mar 2026 08:02 UTC
+! Last modified: 01 Mar 2026 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -22513,6 +22513,9 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##topadblock
 ##zeus-ad
+! various popups
+###modal[doskip][prclck]
+##in-page-message[doskip]
 ! katv.com/cbs12.com/abergavennychronicle.com/tenby-today.co.uk
 ##.DisplayAd_Native__XCll3
 ##.MPUstyled__MPUWrapper-sc-100o0l7-0
@@ -32863,6 +32866,7 @@ browsershots.org#@#.advert_area
 ||confinementroguerecital.com^
 ||confirmationbiscuitdescriptive.com^
 ||conflabbegan.com^
+||conformityexpertgrounds.com^
 ||confrontation2.fun^
 ||confrontationdrunk.com^
 ||confrontationquizmastertrifle.com^
@@ -47971,6 +47975,7 @@ browsershots.org#@#.advert_area
 ||kbe4ugg1vkb7w9.cyou^
 ||kbex72oiu2ycl1c3.cfd^
 ||kbfizeskyyfkt.store^
+||kbfsrlnmhtgas.space^
 ||kbfsvytxe.com^
 ||kbhgnyiogmrcl.store^
 ||kbhskcsiawspn.store^
