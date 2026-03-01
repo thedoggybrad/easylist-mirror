@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603010259
+! Version: 202603010309
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Mar 2026 02:59 UTC
+! Last modified: 01 Mar 2026 03:09 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 88a79c6ec6e66f3b797b36e60fb8c9502d4d27fd
+! Commit: 8afa73a4a775d996067cc92f8c5419fa9b22eab5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -39279,7 +39279,6 @@ meest-shop.com##.cookie-consent-banner_root__M9V7x
 aerolopa.com##.cookie-consent-modern
 developers.turing.com##.cookie-consent-overlay
 buying.expert##.cookie-consent-popover
-cos.com,expireddomains.com,hm.com##.cookie-consent-popup
 fling2night.com##.cookie-consent-root
 samsungknox.com##.cookie-consent-v3
 springbok-puzzles.com,tinyurl.com,visitworld.today##.cookie-consent-wrapper
@@ -40813,7 +40812,7 @@ wayfair.*##div[data-hb-id="Modal"] > div > [data-test-id="CookiePreferenceNotifi
 ! ! #cookiePopup
 betway.*,easyinsights.ai,hito.xyz,reklama5.com,visitseoul.net###cookiePopup
 ! ! .cookie-popup
-athenaeumscheltema.nl,campfimfo.com,championat.ru,evraz.com,hampers.com,icmarkets.eu,kinoflex.ru,lovereading4kids.co.uk,mediathek.lfv-bayern.de,mts.ru,mysky.com.ph,nobliecustomknives.com,rsna.org,superrichthailand.com,supersport.hr,taxsummaries.pwc.com,teemill.com,trt.net.tr,uwa.edu.au,zamnesia.com##.cookie-popup
+athenaeumscheltema.nl,campfimfo.com,championat.ru,evraz.com,ewines.co.il,hampers.com,icmarkets.eu,kinoflex.ru,lovereading4kids.co.uk,mediathek.lfv-bayern.de,mts.ru,mysky.com.ph,nobliecustomknives.com,rsna.org,superrichthailand.com,supersport.hr,taxsummaries.pwc.com,teemill.com,trt.net.tr,uwa.edu.au,zamnesia.com##.cookie-popup
 ! ! #cookieNotice
 ac-mejerimaskiner.dk,amazingfoodmadeeasy.com,bradyunited.org,chetak.com,dks.at,dochas.ie,ecuavisa.com,growbrothers-ev.de,knifecenter.com,langendorf.de,luxorcrystal.com,theluxuryhut.com,wsg-fussball.at###cookieNotice
 ! ! .overlay-gdpr-consent/.overlay-wrapper
@@ -40897,7 +40896,11 @@ calvinklein.ca,calvinklein.us###__tealiumModalParent
 ! ! __tealiumGDPRcpPrefs
 austrian.com,comparethemarket.com,gsk.com,pepperl-fuchs.com###__tealiumGDPRcpPrefs
 ! ! .cookie-consent-banner
-agados.cz,concert.ua,delfortgroup.com,githubstatus.com,morfix.co.il,puffy.com,splice-cad.com,wincatalog.com##.cookie-consent-banner
+agados.cz,concert.ua,delfortgroup.com,githubstatus.com,goldaglida.co.il,morfix.co.il,puffy.com,splice-cad.com,wincatalog.com##.cookie-consent-banner
+! ! .cookie-consent-popup
+015.co.il,almaviva.it,cos.com,expireddomains.com,gcli.li,hm.com##.cookie-consent-popup
+! ! #cookie-consent-popup
+finam.ru,halalit.co.il,pccenter.co.il,rsm.co.il###cookie-consent-popup
 ! ! .cookiebar
 ammeraalbeltech.com,asst-lecco.it,community.dyson.com,mahle-aftermarket.com,mega-monheim.de,nautadutilh.com,purejingles.com,sigmanet.lv,trtcocuk.net.tr,um.edu.mt##.cookiebar
 ! ! #cliSettingsPopup
@@ -44577,7 +44580,6 @@ planet-beruf.de##.coo-con
 webcountdown.de##.cooBubble
 der-ersatzteile-profi.de##.coockie_poliy
 dreieich.de,koenigstein.de##.cookie-consent-dialogue
-gcli.li##.cookie-consent-popup
 horeca-hero.com##.cookie-consent-root
 boesendorfer.com##.cookie-consent-wrapper
 crossnative.com##.cookie-consent_overlay__SIXMM
@@ -45734,7 +45736,6 @@ maccabi4u.co.il###ZA_CAMP_MOBILE_CONTAINER
 foodsdictionary.co.il###cookie-consent
 tambour.co.il###cookie-consent-acf-backdrop
 tambour.co.il###cookie-consent-acf-modal
-halalit.co.il,pccenter.co.il,rsm.co.il###cookie-consent-popup
 zinger-organic.com###cookie-consent-wrapper
 019mobile.co.il###cookie-except-banner
 madlan.co.il###cookie-root
@@ -45764,11 +45765,13 @@ cinema-city.co.il,peamitstore.co.il##.gdpr-module
 ksp.co.il##.ltr-1075xo6
 mdyo.co.il##.mdyo-cookie
 diners.co.il##.message-container
+pizzangel.co.il##.mishloha-gdpr-popup
 ksp.co.il##.mui-b13abt.MuiBox-root
 bankhapoalim.co.il##.muirtl-1cwm7gt
 ksp.co.il##.muirtl-b13abt.MuiBox-root
 super-pharm.co.il##.phcBlockCookiesWrap
 colmobil.co.il##.popup-privacy
+comedyclub.co.il##.ppb-banner
 ksp.co.il##.rtl-1075xo6
 letlive.org.il##.site-consent-banner
 cts.co.il##.upnext-cookie-notice
@@ -46009,7 +46012,6 @@ ebible.it##.clm
 bontempi.it##.colaw-div
 centrogamma.com##.contPopup
 unirc.it##.content
-almaviva.it##.cookie-consent-popup
 automercatoavenoso.it##.cookieBox-Main
 bioinsuedtirol.it,esselungajob.it##.cookiePolicy
 parmacalcio1913.com##.cookie_window
@@ -46871,7 +46873,6 @@ solgarvitamin.ru###consent-modal
 gorodperm.ru###cookb
 gazprombank.ru###cookie-accept
 cardiovascular.elpub.ru###cookie-banner-wrapper
-finam.ru###cookie-consent-popup
 ria-m.tv###cookie-msg
 companies.rbc.ru###cookie-popup
 aeroflot.ru###cookieInfo
