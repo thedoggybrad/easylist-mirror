@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ui3CPfndWmR8US31JRfVfQ
-! Version: 202603011001
+! Checksum: 2KUFdWTAcyk9LKkUVDEQWw
+! Version: 202603011011
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Mar 2026 10:01 UTC
+! Last modified: 01 Mar 2026 10:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3412,6 +3412,8 @@ superjob.ru#?#ul:-abp-has(> li > [role="button"][class^="f-test-clickable-"] svg
 politrussia.com##ul[class*=" social-"]
 dnepr.info##ul[class="foot-nav f-right"]
 zr.ru#?#ul[class^="styled__StoryList-"]:-abp-has(> li > b > i > [target="_blank"])
+wildberries.ru,wildberries.*##.footer-social__list
+wildberries.ru,wildberries.*##.footer__social-wrap
 pogodairadar.com.ua##wo-share-button
 tvzvezda.ru##z-share-links
 !
@@ -5756,8 +5758,6 @@ cont.ws##.main-click-banner
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##.main-footer__apps
 sports.ru##.main-footer__top-position
 myfin.by##.main-nav_sub-link--app
-wildberries.by,wildberries.kg,wildberries.ru##.main-page__banner
-wildberries.by,wildberries.kg,wildberries.ru##.main-page__banner-info
 inoriginal.net##.main-sub-slider
 banker.ua,myjane.ru##.main-subscribe
 investpay.ru##.main-user-consent-request
@@ -5808,7 +5808,6 @@ youhack.vip##.mobyaza > a[target="_blank"]
 youhack.vip##.mobyaza > div:not([class])
 slavyanskaya-kultura.ru##.mod_inshop_front
 answear.ua##.modal
-wildberries.ru##.modal--cookie
 regfile.ru##.modal-backdrop
 texterra.ru##.modal-cookie
 interfax.ru##.modal__but_subscribe
