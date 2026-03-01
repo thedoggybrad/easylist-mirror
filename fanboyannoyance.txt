@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603010351
+! Version: 202603010405
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Mar 2026 03:51 UTC
+! Last modified: 01 Mar 2026 04:05 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7eed093ac9055bc26f1c1bf5aa2a6c18a12ee634
+! Commit: 7528cd987e6f0fa48814b8fd9bddbe188a038cb9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -32770,6 +32770,7 @@ instagram.com##._acc8
 m.webtoons.com##._appDownloadPopup
 smartfren.com##.alert-download
 skysports.com##.android-banner
+genius.com##.android_banner
 coincodex.com##.app
 washingtonpost.com##.app-adoption-banner
 flypgs.com##.app-b
@@ -33114,7 +33115,6 @@ cvs.com##cvs-smart-app-banner
 trademe.co.nz##div.responsive-wrapper[aria-label="App promotion banner"]
 web.nhk##div[class*=" _"][role="region"][aria-labelledby="_r_1_"]
 m.bilibili.com##div[class*="-openapp"]
-genius.com##div[class*="AndroidBannermobile_"]
 thescore.com##div[class*="GetTheAppModal_"]
 giphy.com##div[class*="OpenInAppContainer-"]
 thescore.com##div[class^="GetTheApp__fullScreenContainerScrolldown--"]
@@ -36245,7 +36245,6 @@ whatcar.com##.ReviewSocialSection_reviewSocialSection__qzV0o
 abc.net.au##.ShareBanner_container__OX63I
 aleteia.org##.ShareBar_link__3gR4V
 manofmany.com##.ShareBar_listItem__6t0E_
-genius.com##.ShareButtons__Root-sc-8c8eaea4-0
 thescore.com##.ShareLinks__container--3C8C4
 meduza.io##.SharePanel-module-root
 hoorayteams.com##.Share_share__FQTKw
@@ -37658,6 +37657,7 @@ theguardian.com##div > gu-island[name="ShareButton"]
 photorumors.com##div[align="RIGHT"]
 fifa.com##div[class*="article-section_shareButton_"]
 theatlantic.com##div[class^="ArticleShare_"]
+genius.com##div[class^="ShareButtons_"]
 kcrw.com##div[class^="SocialLinks_"]
 cnbc.com##div[class^="SocialShare-"]
 kcrw.com##div[class^="SocialShare_"]
