@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4JlhsoU1v6wvFwAWHc5sSg
-! Version: 202603011341
+! Checksum: gGOwFJl8L14hgPxvko9xug
+! Version: 202603011351
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Mar 2026 13:41 UTC
+! Last modified: 01 Mar 2026 13:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7058,6 +7058,7 @@ wildberries.ru,wildberries.*##.fixed-block__cookies
 ! Kinopoisk
 www.kinopoisk.ru###editorial-format-block + div[style^="min-width:"][style*="1px"]
 www.kinopoisk.ru###person-filmography-graph ~ div a[class*="style_buttonPlus"]
+www.kinopoisk.ru###popover-root > div > [class*=" styles_withChevronOn"]
 www.kinopoisk.ru###streaming-promo-block + [style^="min-width:"][style*="1px"]
 www.kinopoisk.ru###trailer-promo-block + [style^="min-width:"][style*="1px"]
 www.kinopoisk.ru##.film-object-card__offer-text
