@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dvg5afJF6ENlJpPVOR4NEA
-! Version: 202603021341
+! Checksum: zRKF2tNkDcsXx9ZJXSOZZw
+! Version: 202603021351
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 02 Mar 2026 13:41 UTC
+! Last modified: 02 Mar 2026 13:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3016,6 +3016,7 @@ aniu.ru##body > a[href*="://vk.com/"]
 ura.news##body > div > ul + button
 forums.rusmedserv.com##body noindex > table[align="center"]
 api.rstprgapipt.com#?#button:-abp-has(> .icon-share)
+dzen.ru##button[aria-label="Поделиться"]
 auto.ru##button[class*="ShareButton"]
 56orb.ru,atas.info,bel.ru,gorod55.ru,inkazan.ru,karelinform.ru,kubanpress.ru,kursdela.biz,mkset.ru,muksun.fm,nashgorod.ru,newizv.ru,newkhakasiya.online,newsnn.ru,newstracker.ru,novostivolgograda.ru,prmira.ru,properm.ru,rosbalt.ru,rostovgazeta.ru,tagilcity.ru,transsibinfo.com,udm-info.ru,vostokmedia.com,zr.media##button[class^="LeftcolSocials"]
 frontend.vh.yandex.ru##button[data-control-name="share"]
@@ -3190,7 +3191,6 @@ citilink.ru##div[data-meta-name="IconLinks__socials"]
 newizv.ru##div[data-slug="matter_before_sharing"] + div
 adme.media##div[data-test-id^="share-button-"]
 ivi.ru##div[data-test="share_button"]
-dzen.ru##div[data-testid="share-popup"]
 anticollector.biz.ua##div[data-widget-key="xfi_sidebar_social_block_widget"]
 ozon.ru##div[data-widget="webSharingButton"]
 rebenok.by##div[id$="FacebookBlock"]
