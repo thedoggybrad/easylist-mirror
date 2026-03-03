@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603030951
+! Version: 202603031005
 ! Title: Fanboy's Annoyance List
-! Last modified: 03 Mar 2026 09:51 UTC
+! Last modified: 03 Mar 2026 10:05 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4bda887c4a7149d4dc2ada68029a6d04bc2f355b
+! Commit: 6ec11a482d1bb6767f6de45fee5a47d852f3d8b6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -40773,6 +40773,8 @@ wirexapp.com##wx-cookie-policy-notification
 ! history.com
 history.com,yunexpress.com##.p11s5o4
 history.com##[data-sentry-component="Box"]:has-text(Legal Terms and Privacy)
+! wildcard
+wildberries.*##.fixed-block__cookies
 ! Interest-Based Ads Notice
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.ie,amazon.pl###sp-cc-wrapper
 ! 
@@ -47011,6 +47013,7 @@ lk-new.vtbnpf.ru##.cookie-layout
 rutube.ru##.cookie-message-module__cookie-consent
 1cbit.ru##.cookie-panel
 sponsr.ru##.cookie-site-alert
+fc-baltika.ru##.cookie-wrap
 korusconsulting.ru##.cookieConfirm
 rusnano.com##.cookie__in
 gostest.com##.cookie__open
