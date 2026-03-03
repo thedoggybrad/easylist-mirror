@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603031119
+! Version: 202603031142
 ! Title: Fanboy's Annoyance List
-! Last modified: 03 Mar 2026 11:19 UTC
+! Last modified: 03 Mar 2026 11:42 UTC
 ! Expires: 4 days (update frequency)
-! Commit: de5d28fec88a9a2563fb29932dd4a7f6641aa3a3
+! Commit: a0dffe613d3360cab5c61f3daa3e592d38c360d0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -31973,7 +31973,7 @@ google.com##.Ryrdad:has-text(Please help us improve)
 developer.android.com##.devsite-snackbar-snack:has-text(Please help us)
 www.google.com##[aria-describedby="promo_desc_id"]:has-text(/Time for a new laptop|Gemini, |Choose Chrome|built by Google|Search differently|Cherchez différemment|Search just got easier|Try more ways|Switch to Chrome|Keep things dark/)
 chromewebstore.google.com##[aria-label="Info"]:has-text(Switch to Chrome)
-google.com##[jscontroller="HCSvae"]:has-text(Sign in to Google)
+google.com##[jscontroller="HCSvae"]:has-text(/Sign in to Google|Build Android apps faster/)
 chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
 google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
 ! Paid overlay nag
