@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: un2KRhXrZusHV/UQM9swIw
-! Version: 202603051301
+! Checksum: V/Q2gc8YYjhklM/YUyWRdA
+! Version: 202603051311
 ! Title: ABP filters
-! Last modified: 05 Mar 2026 13:01 UTC
+! Last modified: 05 Mar 2026 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -648,21 +648,21 @@ issuya.com##iframe[src*="report.error-report.com/modal"]
 motorbikecatalog.com#$#override-property-read window.navigator.connection.rtt 1001
 ||*/loader.min.js|$script,domain=flatpanelshd.com
 ||error-report.com^$domain=flatpanelshd.com
-flatpanelshd.com#$#replace-outbound-value 'atob''c3RyaW5n''false'
+flatpanelshd.com#$#replace-outbound-value 'atob' 'c3RyaW5n' 'false'
 flatpanelshd.com#$#override-property-read Element.prototype.remove noopFunc
 flatpanelshd.com#$#abort-on-property-write window.confirm
 flatpanelshd.com#$#abort-on-property-write window.alert
 flatpanelshd.com##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=cool-style.com.tw
 ||error-report.com^$domain=cool-style.com.tw
-cool-style.com.tw#$#replace-outbound-value 'atob''c3RyaW5n''false'
+cool-style.com.tw#$#replace-outbound-value 'atob' 'c3RyaW5n' 'false'
 cool-style.com.tw#$#override-property-read Element.prototype.remove noopFunc
 cool-style.com.tw#$#abort-on-property-write window.confirm
 cool-style.com.tw#$#abort-on-property-write window.alert
 cool-style.com.tw##iframe[src*="report.error-report.com/modal"]
 ||*/loader.min.js|$script,domain=pressian.com
 ||error-report.com^$domain=pressian.com
-pressian.com#$#replace-outbound-value 'atob''c3RyaW5n''false'
+pressian.com#$#replace-outbound-value 'atob' 'c3RyaW5n' 'false'
 pressian.com#$#override-property-read Element.prototype.remove noopFunc
 pressian.com#$#abort-on-property-write window.confirm
 pressian.com#$#abort-on-property-write window.alert
