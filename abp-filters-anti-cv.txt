@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: /anbjuZ71IHfmwpjgFz/gw
-! Version: 202603051731
+! Checksum: ofe8GcdaXCNFVryJo6OwFw
+! Version: 202603051741
 ! Title: ABP filters
-! Last modified: 05 Mar 2026 17:31 UTC
+! Last modified: 05 Mar 2026 17:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -63,7 +63,6 @@ nivod5.tv,nivod9.tv#$#override-property-read detailParams.is_ad_play false
 hdzone.org#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:czech.txt ***
 ! #CV-655
-iprima.cz,www.seznam.cz,novinky.cz,super.cz,ahaonline.cz,kinobox.cz,horoskopy.cz#$#json-override ads ''
 kinobox.cz,novinky.cz,fights.cz,hudebniskupiny.cz,ahaonline.cz,super.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
 sauto.cz#$#override-property-read sssp undefined
 super.cz#$#override-property-read sspPositions null
@@ -2316,9 +2315,9 @@ sameday.costco.*#$#abort-current-inline-script setTimeout ic-detect-ad-block; ov
 ||tpc.googlesyndication.com/sodar/$domain=golfgalaxy.com|dickssportinggoods.com
 ||securepubads.g.doubleclick.net/pagead/$domain=golfgalaxy.com|dickssportinggoods.com
 ||securepubads.g.doubleclick.net/gampad/ads?$domain=golfgalaxy.com|dickssportinggoods.com
-||securepubads.g.doubleclick.net/static/topics/topics_frame.html$subdocument,document,domain=golfgalaxy.com|dickssportinggoods.com
+||securepubads.g.doubleclick.net/static/topics/topics_frame.html$subdocument,domain=golfgalaxy.com|dickssportinggoods.com
 ||pagead2.googlesyndication.com^$subdocument,other,image,xmlhttprequest,domain=golfgalaxy.com|dickssportinggoods.com
-||googlesyndication.com/safeframe^$subdocument,document,domain=golfgalaxy.com|dickssportinggoods.com
+||googlesyndication.com/safeframe^$subdocument,domain=golfgalaxy.com|dickssportinggoods.com
 ||ads.nextdoor.com/public/pixel/ndp.js$domain=golfgalaxy.com|dickssportinggoods.com
 golfgalaxy.com,dickssportinggoods.com##.google-ad-container
 dickssportinggoods.com##div[id*="dickssportinggoods/stores/top_banner_"]
