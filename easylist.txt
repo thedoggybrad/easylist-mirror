@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603052044
+! Version: 202603052053
 ! Title: EasyList
-! Last modified: 05 Mar 2026 20:44 UTC
+! Last modified: 05 Mar 2026 20:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a5e64c778d8f5c47839661453f7c19da8b5765d8
+! Commit: f3ee030c42aade98a4a59dff7f22ebad94b63fda
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -64979,6 +64979,7 @@ browsershots.org#@#.advert_area
 ||yfxfasbecsqsb.site^
 ||yfxkedinghbze.space^
 ||yfypfpfmcfvmi.top^
+||ygaeklqwfmtsl.website^
 ||ygcbqnceieyqy.website^
 ||ygdgikwoyzgbw.site^
 ||ygdvundpxjbbn.online^
@@ -82630,6 +82631,7 @@ uniladtech.com##[class^="advert-placeholder_advertPlaceholder"]
 nasdaq.com##[class^="btf_"]
 weather.us##[class^="dkpw"]
 dallasnews.com##[class^="dmnc_features-ads-"]
+pixabay.com##[class^="gettySponsoredImagesContainer"]
 romhustler.org##[class^="leaderboard_ad"]
 filmibeat.com##[class^="oiad"]
 nofilmschool.com##[class^="rblad-nfs_content"]
@@ -85018,6 +85020,7 @@ nordstrom.com#?#ul[style^="padding: 0px; position: relative;"] > li[class]:-abp-
 nzherald.co.nz#?#section.section-chain--triple-image:has-text(Property news from OneRoof)
 nzherald.co.nz#?#section:has-text(Partner content)
 perplexity.ai#?#.py-sm.group:-abp-contains(Sponsored)
+pexels.com#?#[data-testid="column"] [data-testid="item"]:-abp-contains(Sponsored)
 producthunt.com#?#.text-12:-abp-contains(Promoted)
 property24.com#?#.p24_tileContainer:-abp-contains(Sponsored)
 psprices.com#?#.creative:has-text(remove advertising)
