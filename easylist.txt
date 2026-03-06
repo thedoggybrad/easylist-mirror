@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603062220
+! Version: 202603062232
 ! Title: EasyList
-! Last modified: 06 Mar 2026 22:20 UTC
+! Last modified: 06 Mar 2026 22:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5430b088368e360ade4a1e8bc72f5c33a1b46332
+! Commit: 200770c8806aa2dc65bd8a9648540d2f5f1dc597
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -79605,7 +79605,7 @@ yaledailynews.com##.border-gray-200
 standardmedia.co.ke##.border-thick-branding
 myanimelist.net##.border_top
 appleinsider.com##.bottom
-downforeveryoneorjustme.com,health.clevelandclinic.org,technomusicworld.com##.bottom-0.fixed
+capwages.com,downforeveryoneorjustme.com,health.clevelandclinic.org,technomusicworld.com##.bottom-0.fixed
 theblock.co##.bottom-5
 indiatimes.com##.bottom-ad-height
 agar.live##.bottom-banner
@@ -84304,6 +84304,7 @@ morrisons.com##.fops-item:has([title="Advertisement"])
 pigglywigglystores.com##.fp-item:has(.fp-tag-ad)
 slickdeals.net##.frontpageGrid__feedItem:has(.dealCardBadge--promoted)
 alibaba.com##.gallery-card:has(.searchx-card-e-ad)
+capwages.com##.gap-1.items-center.flex-col.flex:has-text(Remove Ads)
 detectiveconanworld.com##.generated-sidebar[style="background: #ffffff;"]
 bestbuy.com##.generic-morpher:has(.spns-label)
 sainsburys.co.uk##.gridItem:has(.citrusAdproduct)
