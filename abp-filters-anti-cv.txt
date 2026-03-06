@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: S+meA/7kVpHWbrEdX5EOag
-! Version: 202603061751
+! Checksum: mzEXiLE9nVNEeUnlCoRY9w
+! Version: 202603061801
 ! Title: ABP filters
-! Last modified: 06 Mar 2026 17:51 UTC
+! Last modified: 06 Mar 2026 18:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2271,7 +2271,6 @@ tokopedia.com#$#hide-if-contains /^Ad$/ 'div[class$="carousel"]>div[class][style
 ! #RM-176
 ! sp
 aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]'
-aboutyou.*#$#hide-if-canvas-contains /(Sponsored|Gesponsert|Gesponsord|Спонсорирано|Sponsoreret|Sponsoreeritud|Χορηγούμενο|Patrocinado|Sponzorirano|Sponsoroitu|Szponzorált|Sponsorisé|Sponsorizzato|Sponsorēts|Remiama|Sponsorowane|Sponzorováno|Sponzorované|Sponsorizat)/ 'li[data-testid*="productTileTracker"]' 'button[class^="w1app11q"][tabindex="-1"]'
 ! pp
 aboutyou.*#$#hide-if-matches-xpath './/span[@data-testid][contains(text(),"Sponsored") or contains(text(),"Gesponsert") or contains(text(),"Gesponsord") or contains(text(),"Спонсорирано") or contains(text(),"Sponsoreret") or contains(text(),"Sponsoreeritud") or contains(text(),"Χορηγούμενο") or contains(text(),"Patrocinado") or contains(text(),"Sponzorirano") or contains(text(),"Sponsoroitu") or contains(text(),"Szponzorált") or contains(text(),"Sponsorisé") or contains(text(),"Sponsorizzato") or contains(text(),"Sponsorēts") or contains(text(),"Remiama") or contains(text(),"Sponsorowane") or contains(text(),"Sponzorováno") or contains(text(),"Sponzorované") or contains(text(),"Sponsorizat")]/ancestor::section[@style][@data-testid][1]'
 ! #RM-180
