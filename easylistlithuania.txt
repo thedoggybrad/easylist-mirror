@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: z/YlkA2A+ra8KYqnIDxYIg
-! Version: 202603060731
+! Checksum: G9PEY8ctnfIpR1WQas9/0w
+! Version: 202603060741
 ! Title: EasyList Lithuania
-! Last modified: 06 Mar 2026 07:31 UTC
+! Last modified: 06 Mar 2026 07:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/EasyList-Lithuania/easylist_lithuania
 !
@@ -611,6 +611,8 @@ grokiskis.lt##.widget_custom_html
 zemelapis.lt##._0x0
 lrytas.lt##.LAdvert
 lrytas.lt##div[style^="min-height:"]:has(>.LAdvert)
+www.alfa.lt##.sidebar
+www.alfa.lt##.leadas + div[style^="width:100%;"][style$=":center"]
 ! ——— Broad blocking rules ———
 -baneris-
 .altero-banner-2_top
