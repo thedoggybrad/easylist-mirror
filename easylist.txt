@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603072147
+! Version: 202603072153
 ! Title: EasyList
-! Last modified: 07 Mar 2026 21:47 UTC
+! Last modified: 07 Mar 2026 21:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: aae3567a82c94f58d6f8df30e450335485cf7e08
+! Commit: 90859a29507e605e83ee4a485227db992e4e09b3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -31565,6 +31565,7 @@ browsershots.org#@#.advert_area
 ||frodo.space^
 ||froeblunges.cyou^
 ||froecyuihrykr.online^
+||froglegturio.qpon^
 ||frogletutopism.com^
 ||frogmenewerernuchale.cyou^
 ||frohddwovyjno.online^
@@ -84601,6 +84602,7 @@ bestbuy.com##.atwa-ninja-carousel:has(div[data-testid="sponsored-sbb"])
 bjs.com##.banner-cta-wrap:has([src="//retailmedia-static.criteo.com/"])
 bjs.com##.banner-cta-wrap:has(img[src*="criteo.com"])
 outsports.com##.bg-gray-100:has(.adb-os-lb-incontent)
+weather.com##.bg-gray-100:has-text(Advertisement)
 magazine.raspberrypi.com##.bg-rpi-grey-100:has-text(Advertisement)
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.block-wrapper:has(.element-header__sponsoredLabel)
 loblaws.ca##.block-wrapper:has([data-track-product-component="carousel||rmp_sponsored"])
