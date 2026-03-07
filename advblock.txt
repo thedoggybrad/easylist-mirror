@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MVQagugdsnhFqVIfDeXyaw
-! Version: 202603071121
+! Checksum: VkEYjQgjCSTUbvFxTMtgLA
+! Version: 202603071131
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Mar 2026 11:21 UTC
+! Last modified: 07 Mar 2026 11:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -9401,6 +9401,7 @@ _tizers.
 ||scr-tz.com^$third-party
 ||screen-model.ru^$third-party
 ||screenpix.ru^$third-party
+||scriptapi.dev^$third-party
 ||scriter.ru^$third-party
 ||scrooge-uncle.services^$third-party
 ||scsjpefk.info^$third-party
@@ -26952,6 +26953,7 @@ pronetblog.by##div[class^="adsensepost"]
 2baksa.ws##div[class^="ant"][class*="block"]
 hitsovet.ru,mod-wot.ru##div[class^="chp_ads_block"]
 sport-express.net,sport-express.ru##div[class^="se-bn"][class*="-notice"]
+pulsesync.dev##div[class^="warnNotification-module-"]
 afrowesh.org,fcportables.com##div[id][class^="popup"][class$="wrap"]
 informator.ua#?#div[id^="brid-player"] ~ p:-abp-contains(AdBlock)
 chaynikam.info##div[id^="mdl_ctnr_"]
