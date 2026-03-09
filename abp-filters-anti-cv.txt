@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: H393j2Ct/x4R+6AMLVUkyw
-! Version: 202603091512
+! Checksum: KF8YEKELrauwBTyMbDRqQA
+! Version: 202603091521
 ! Title: ABP filters
-! Last modified: 09 Mar 2026 15:12 UTC
+! Last modified: 09 Mar 2026 15:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1414,8 +1414,6 @@ www.facebook.com,web.facebook.com#$#override-property-read Env.nxghljssj false; 
 @@||web.facebook.com^$generichide
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 ! *** abp-filters-anti-cv:french.txt ***
-! #CV-691
-! #CV-761
 ! #CV-663
 aupetitparieur.com,meilleurpronostic.fr,mamieastuce.com##div[class] > div[id] > main[class][id]
 ! #CV-170
@@ -1485,7 +1483,6 @@ wawacity.*,zone-telechargement.*#$#abort-current-inline-script JSON.stringify
 oxtorrent.*#$#abort-on-property-read window.open
 extreme-down.*,zone-telechargement.*#$#abort-on-property-read decodeURIComponent
 ! *** abp-filters-anti-cv:german.txt ***
-! #CV-761
 ! #CV-691
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ! Popup/Popunder/Clickunder
@@ -1836,8 +1833,6 @@ empireg.ru#$#abort-current-inline-script Math zfgloaded
 ! CV-1364
 eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
 ! *** abp-filters-anti-cv:spanish.txt ***
-! #CV-691
-! #CV-761
 ! #CV-667
 envivotv.net,lucenpop.com.es,topflix.tv#$#abort-current-inline-script Math zfgloaded
 ! #9272
