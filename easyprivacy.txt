@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603090237
+! Version: 202603090236
 ! Title: EasyPrivacy
-! Last modified: 09 Mar 2026 02:37 UTC
+! Last modified: 09 Mar 2026 02:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c9eba93a7eed6b4046d3014e92c5c7b5bb41c524
+! Commit: cd9645c7a03072821f56e47d4d823756b51dc704
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1468,6 +1468,7 @@
 /logger.ashx?
 /logger.dll/*
 /logger/?referer=
+/logging/ClientEvent
 /logging/log.do
 /logging/logjs
 /logging/pageView
@@ -55298,6 +55299,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||tm.regions.com/tags.js$~third-party
 @@||tms.oracle.com/main/prod/utag.sync.js$~third-party
 @@||tntdrama.com/modules/custom/ten_video/js/analytics_v2.js$~third-party
+@@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
 @@||tools.pinpoll.com^$script,subdocument,domain=iframely.net
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||traceparts.com/lib/piano-analytics/piano-analytics.js$script,~third-party
