@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +5xSXodcbbjINpbGsCUpgg
-! Version: 202603091451
+! Checksum: hXLcpbUtEKyjM0HvBF9wJg
+! Version: 202603091501
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Mar 2026 14:51 UTC
+! Last modified: 09 Mar 2026 15:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16291,7 +16291,7 @@ move.ru##.specs-near
 xxx-russian.ru##.speedbar ~ .rad5
 www.obozrevatel.com#?#.splide__list > .splide__slide:-abp-has(> article > .banner)
 gsett.ru##.spnc-right a[target="_blank"]
-alexua.tv,anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtovzglyad.ru,fco.com.ua,filmozavr.com,filmozavr.net,forexsystemsru.com,itc.ua,medkrug.ru,must-see.top,womanhit.ru##.sponsor
+alexua.tv,anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtovzglyad.ru,fco.com.ua,filmozavr.com,filmozavr.net,forexsystemsru.com,itc.ua,itweek.ru,medkrug.ru,must-see.top,womanhit.ru##.sponsor
 radioshanson.fm##.sponsor a[href][target="_blank"]
 fbu.ua,stroimdom.com.ua##.sponsors
 zi.ua##.sponsors-holder
@@ -16388,6 +16388,7 @@ winitpro.ru##.targetHolder
 kurer-sreda.ru##.tax
 n71.ru##.tb-container
 kafanews.com##.tban-content
+itweek.ru##.tbl-interesno
 finance.tut.by##.tbl-lite > tbody > tr.clickable ~ tr:not(.clickable)
 finance.tut.by##.tbl-lite > tbody > tr[onclick] ~ tr:not([onclick])
 glav.su#?#.tbl:-abp-has(> tbody > tr > td > div[id^="js-y-rtb"])
@@ -17262,6 +17263,7 @@ mobiset.ru##[href="http://www.ivlim.ru/"]
 allboxing.ru##[href="https://allboxing.ru/rejting-kapperov"]
 fishki.net##[href="https://servers.ru"]
 allbest.ru##[href="union/advert.htm"]
+itweek.ru##[href^="/ad/rd/"]
 lifehacker.ru##[href^="/tag/rasprodazha"]
 phpbbguru.net##[href^="go.php?to="]
 nntt.org##[href^="http://numbuster.com"]
@@ -17362,6 +17364,7 @@ allboxing.ru##[onmouseenter="onClickPbButton()"]
 penzainform.ru##[pnz-ads]:not(eto-dlya-mob-ver)
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
 radiokot.ru##[src*="//radiokot.ru/adv/"]
+itweek.ru##[src*="/ad/banners/"]
 fixygen.ua##[src*="/assets/banner_"]
 ozersk74.ru##[src*="/banner"]
 vprognoze.ru##[src*="/banners/"]
@@ -21775,6 +21778,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||islam-today.ru/static/banner$image
 ||istorikonline.ru/cpa/
 ||itvcom.ru/images/*sape
+||itweek.ru/ad/banners/
 ||ivanovonews.ru/local/templates/*/js/custom.js
 ||ivbb.ru/domain_dependent/ivbb.ru/banners/
 ||ivi.ru/branding/
