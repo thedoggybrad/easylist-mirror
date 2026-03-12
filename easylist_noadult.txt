@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RK5cP6EMU885/UrWT7FSwg
-! Version: 202603122331
+! Checksum: Y+OXjwchbQVkpLWkO2ipBQ
+! Version: 202603122341
 ! Title: EasyList without rules for adult sites
-! Last modified: 12 Mar 2026 23:31 UTC
+! Last modified: 12 Mar 2026 23:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -85419,6 +85419,7 @@ www.google.*##div.sh-sr__shop-result-group[data-hveid]:has(g-scrolling-carousel)
 www.google.*##div[class="Nv2PK THOPZb CpccDe "]:has(.OcdnDb)
 www.google.*##div[class="YNk70c CuvrIe"]
 www.google.*##div[data-ads-title="1"]
+www.google.*##div[data-async-context] [style]:has(a[href^="/aclk?sa="])
 www.google.*##div[data-attrid="kc:/local:promotions"]
 www.google.*##div[data-crl="true"][data-id^="CarouselPLA-"]
 www.google.*##div[data-is-ad="1"]
