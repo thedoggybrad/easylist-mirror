@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7StWBgsZXSnsJoGY4Th9kQ
-! Version: 202603121402
+! Checksum: bJDMWQO6Aa5D57OxS4NVwQ
+! Version: 202603121412
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Mar 2026 14:02 UTC
+! Last modified: 12 Mar 2026 14:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17459,7 +17459,7 @@ good73.net##a[\;] > img
 ren.tv##a[class*=" ya_"]
 solverbook.com##a[class*="-banner-"]
 siliconrus.com##a[class*="b-menu__li__a-"]
-dtf.ru##a[class*="bar"][href^="/store"]
+dtf.ru,vc.ru##a[class*="bar"][href^="/store"]
 prm.ru##a[class*="http"] > img[width="240"]
 amurpress.ru##a[class*="rekl"][target="_blank"]:not([href^="http://amurpress.ru/"])
 economistua.com##a[class="gofollow"] > img
