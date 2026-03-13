@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3xP8VYsw2bQXjh8sexQ0Dg
-! Version: 202603130831
+! Checksum: DPxGUJWgBjBQAmqxdtFSXg
+! Version: 202603130851
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 13 Mar 2026 08:31 UTC
+! Last modified: 13 Mar 2026 08:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -634,6 +634,7 @@ pl.com.ua,vesti.uz###telegram
 autonews.co.ua,informpskov.ru###telegramButton
 agents.media###telegramModal
 sibnet.ru###telegram_push
+od-news.com###telegram_subscribe
 evtifeev.com###text-14
 te4h.ru###text-4
 serveradmin.ru###text-html-widget-4
@@ -1077,6 +1078,8 @@ ukrsport.pro##.cs-follow
 ukrsport.pro##.cs-social
 banker.ua##.cs_telegram-container
 topgir.com.ua##.custom-html-widget > blockquote
+informator.ua#?#.custom-widget:-abp-has([href^="https://invite.viber.com/"])
+informator.ua#?#.custom-widget:-abp-has([href^="https://t.me/"])
 xn--80aesfpebagmfblc0a.xn--p1ai##.cv-header__social-item
 mil-lnr.su##.darkart-social-links
 cameralabs.org##.data-social
@@ -1282,7 +1285,6 @@ iphones.ru##.footer__line-menu_social
 onlinetrade.ru##.footer__linksline__smo
 praca.by#?#.footer__menu > .menu__items:-abp-has(> .social-networks-portal)
 vtimes.io#?#.footer__menu > ul > li:-abp-has(> ul > li > .share-icons)
-usionline.com#?#.footer__nav_item:-abp-has(> .menu-socialnye-seti-container )
 career.habr.com##.footer__section--social
 epravda.com.ua##.footer__social
 mydiv.net##.footer__social-buttons
@@ -1673,6 +1675,7 @@ allbasketball.org##.navbar-nav-social
 cq.ru##.navbar__socials
 cta.ru##.navbar_top_smm
 the-cinema.online##.navi > li > a[href*="://vk.com/thecinema"]
+rbc.ua##.navi-share
 harpersbazaar.com.ua##.navi_sub_item
 vesti.ru##.navigation__social
 mobile-review.com##.navmenu__social
@@ -1880,6 +1883,7 @@ football24.ru##.rb_banner
 inscience.news##.rd-navbar-social-list
 obozrevatel.com##.reaction > .reaction_item ~ .reaction_item
 koroldanylo.com.ua##.read-in-social
+rbc.ua##.read-in-socials
 fakty.com.ua##.read-more-in-social
 odessamedia.net##.read-or-share
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.read-outside-site
@@ -2205,7 +2209,7 @@ wincore.ru##.socc
 vgtimes.ru##.soci
 overclockers.ru##.soci-link
 provce.ck.ua##.socia-share-wrap
-appleinsider.ru,hentaiz.org,nevasport.ru,podrobnosti.ua,spartak.ru##.social
+appleinsider.ru,hentaiz.org,intent.press,nevasport.ru,podrobnosti.ua,spartak.ru##.social
 goha.ru##.social > *
 akniga.org##.social--link
 nashe.ru,radiojazzfm.ru,radioultra.ru,rockfm.ru##.social-additional
@@ -2345,7 +2349,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,1news.az,acmc.ua,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,infox.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,virtualbrest.ru,womanhit.ru##.socials
+101.ru,1news.az,acmc.ua,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,infox.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -5296,6 +5300,7 @@ gizchina.net#?#.btn-box:-abp-has(> span:-abp-contains(Google News))
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.btn-danger
 hevcclub.com##.btn-outline-hevc
 bigmir.net,isport.ua,kolobok.ua##.btn-warning
+intent.press##.btn[href="/patreon/"]
 habr.com##.burger-button-wrapper > .hint-trigger-button
 vgoru.org##.button--head-support
 nashaniva.com##.button-donate
