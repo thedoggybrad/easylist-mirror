@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 3dPbWIqh26NAJvZzC7gysg
-! Version: 202603131702
+! Checksum: zkKh/O/8SNjV8MFmKDD7LQ
+! Version: 202603131711
 ! Title: ABP filters
-! Last modified: 13 Mar 2026 17:02 UTC
+! Last modified: 13 Mar 2026 17:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1767,7 +1767,6 @@ liveball.*#$#abort-on-property-read ABNS
 zab.ru#$#abort-on-property-read document.body.style
 players.com.ua#$#abort-on-property-read localStorage
 inforesist.org#$#abort-on-property-read alert
-dzen.ru,lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 dzen.ru#$#override-property-read Object.prototype.adFoxParameters null
 gencit.info#$#abort-on-property-read Radish
 bb.lv#$#abort-on-property-read adjustBackground false
