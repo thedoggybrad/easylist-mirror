@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603142235
+! Version: 202603142245
 ! Title: EasyList
-! Last modified: 14 Mar 2026 22:35 UTC
+! Last modified: 14 Mar 2026 22:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e7e023dfd771d24cc5d44e9e30968ea5af15416e
+! Commit: 373ed510f925643484007002fdc4ece65f849d0c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -501,7 +501,7 @@
 /mads.php$subdocument
 /mai-publisher-ads.js$script
 /maven/am.js$script
-/media/ads/*$image
+/media/ads/*$image,domain=~puzzler.com
 /media_ads/*$image
 /microad.js$script
 /mnpw3.js$script
@@ -15711,6 +15711,7 @@ browsershots.org#@#.advert_area
 ||1zfocgbctug6kuol46c7n.cfd^
 ||1zphutb1bjbc9qebct.cfd^
 ||2-05.com^
+||20002permission.net^
 ||2020mustang.com^
 ||2022welcome.com^
 ||2024jphatomenesys35.top^
@@ -43587,6 +43588,7 @@ browsershots.org#@#.advert_area
 ||mb2xjk686o94wnm2ekv.cfd^
 ||mb38.com^
 ||mb57.com^
+||mbacufxdxoqso.site^
 ||mbbealsnuskoe.space^
 ||mbbgbxpvaymmw.store^
 ||mbbvkzojqxojs.site^
