@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603141722
+! Version: 202603141738
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Mar 2026 17:22 UTC
+! Last modified: 14 Mar 2026 17:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 552906a578c609d8ea5f4080426ab7e0a20b32ec
+! Commit: 02917a573efd6e227f95a03d35759dc683202f7e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -31931,7 +31931,6 @@ softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
 msn.com##views-right-rail
 ! :has
-twitter.com,x.com###layers[style="z-index: 1;"]:has(div[role="dialog"] a[href="/i/premium_sign_up"][style])
 deviantart.com##.ReactModalPortal + div[class]:has(> iframe[title="DealerAdIframe"])
 thenation.com##.btn.footer__cta:has(a[href^="/donate-website/"])
 eventbrite.com##.event-card:has([class*="EventCardPromoted-module"])
