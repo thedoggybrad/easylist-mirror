@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603142357
+! Version: 202603150006
 ! Title: EasyList
-! Last modified: 14 Mar 2026 23:57 UTC
+! Last modified: 15 Mar 2026 00:06 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f27421eced055f6fb4377f5ccdf0af661ec4282c
+! Commit: e2ea7c0a3682a4e75b063f09b1d5177e49b7ac21
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14723,6 +14723,7 @@ _800x80_
 ! dailypost.co.uk/dailystar.co.uk  https://github.com/easylist/easylist/issues/9657
 ##.click-track.partner
 ##.click-track.shop-window-affiliate
+##.click-track.teaser
 ! local12.com/bakersfieldnow.com/katv.com
 ##.index-module_adBeforeContent__UYZT
 ##.interstory_first_mobile
@@ -16212,6 +16213,7 @@ browsershots.org#@#.advert_area
 ||510a62f1a2.com^
 ||5134d63209.com^
 ||514d937233.com^
+||514df5b14c.com^
 ||5170064c2d.com^
 ||519fa5be1d.com^
 ||51e3337e65.com^
@@ -16287,6 +16289,7 @@ browsershots.org#@#.advert_area
 ||5f6dmzflgqso.com^
 ||5fbc7e29cd.com^
 ||5fet4fni.de^
+||5ghymyiqz6pqrv8.rest^
 ||5guzry88i8jufkwe.rest^
 ||5h3oyhv838.com^
 ||5icim50.de^
@@ -16763,6 +16766,7 @@ browsershots.org#@#.advert_area
 ||9eebf015a5.com^
 ||9ej32pfi7vbz6xi63hromuxh3or.rest^
 ||9f0e7c5370.com^
+||9f3x3xf64ltk1zx.cfd^
 ||9f850daa38.com^
 ||9f91b59591.com^
 ||9fcd0e3ecc.com^
@@ -53592,6 +53596,7 @@ browsershots.org#@#.advert_area
 ||rdzowfkoykkkq.site^
 ||rdzretjctqkcn.site^
 ||reachankusha.cyou^
+||reachedresinerprilled.cfd^
 ||reacheffecti.work^
 ||reachmode.com^
 ||readiong.net^
@@ -56986,6 +56991,7 @@ browsershots.org#@#.advert_area
 ||sillorangesladen.com^
 ||sillyrun.pro^
 ||sillyscene.pro^
+||siltacetla.cyou^
 ||silverangleshookup.com^
 ||silverforestpath.com^
 ||silverleafroad.com^
@@ -59519,6 +59525,7 @@ browsershots.org#@#.advert_area
 ||tanygkdowyekf.online^
 ||taobwwjmaps.com^
 ||taoiyazoarite.cfd^
+||taoxcdfb.com^
 ||taoyinbiacid.com^
 ||tapasidlinslicking.cfd^
 ||tapchibitcoin.care^
@@ -63250,6 +63257,7 @@ browsershots.org#@#.advert_area
 ||vaccineverifyweaker.com^
 ||vachoumpuh.net^
 ||vacoamarita.qpon^
+||vacqujolw.in^
 ||vacruwsug.com^
 ||vacscefagjky.in^
 ||vacuatearardebord.cyou^
@@ -79749,7 +79757,7 @@ solution-hub.com###bfix2
 shellshock.io###big-house-ad
 dailyregister.com,dailyrepublicannews.com###billBoardATF
 versus.com###bill_bottom
-cricketnetwork.co.uk,f1network.net,pop.inquirer.net,rugbynetwork.net,thefootballnetwork.net###billboard
+cricketnetwork.co.uk,f1network.net,pop.inquirer.net,rugbynetwork.net,the-scientist.com,thefootballnetwork.net###billboard
 canberratimes.com.au,examiner.com.au,theland.com.au,whoscored.com###billboard-container
 thegazette.com###billboard-wrap
 independent.co.uk,the-independent.com###billboard-wrapper
@@ -79795,6 +79803,7 @@ enca.com###block-views-block-sponsored-block-1
 mbauniverse.com###block-views-home-page-banner-block
 bmwblog.com###bmwbl-mobileArticleLeaderboardBeforeFirstParagraph
 smbc-comics.com###boardleader
+the-scientist.com###boombox-top
 forum.wordreference.com###botSupp
 coinarbitragebot.com###botfix
 pymnts.com###bottom-ad
@@ -79884,6 +79893,7 @@ coinhub.wiki###container_coinhub_sidead
 scanboat.com###content > .margin-tb-25
 allnewspipeline.com###content > [href]
 outputter.io###content > section.html
+the-scientist.com###content-74192-boombox-top
 fextralife.com###content-add-a
 blastingnews.com###content-banner-dx1-p1
 classicreload.com###content-top
@@ -80219,10 +80229,12 @@ whdh.com,wsvn.com###leader_1
 open.spotify.com###leaderboard-ad-element
 vocm.com###leaderboard-area
 bbc.com###leaderboard-aside-content
+the-scientist.com###leaderboard-below-magazine-widget
 abbynews.com,biv.com,kelownacapnews.com,lakelandtoday.ca,orilliamatters.com,reddeeradvocate.com,revelstokereview.com,sootoday.com,surreynowleader.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com,vicnews.com###leaderboard-container
 farooqkperogi.com###leaderboard-content
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
+the-scientist.com###leaderboard-top
 foodnetwork.com###leaderboard-wrap
 washingtonpost.com###leaderboard-wrapper
 babycenter.com,fixya.com###leaderboardContainer
@@ -80715,7 +80727,7 @@ savingcountrymusic.com###top-goog
 breakingdefense.com###top-header
 openspeedtest.com###top-lb
 capetownmagazine.com###top-leader-wrapper
-austinchronicle.com,carmag.co.za,fleetnews.co.uk,shawlocal.com,thegazette.com,vodacomsoccer.com###top-leaderboard
+austinchronicle.com,carmag.co.za,fleetnews.co.uk,shawlocal.com,the-scientist.com,thegazette.com,vodacomsoccer.com###top-leaderboard
 softexia.com###top-line
 gogetaroomie.com,snafu-comics.com###top-space
 progameguides.com###top-sticky-sidebar-container
@@ -80749,6 +80761,7 @@ privacywall.org###topse
 semiconductor-today.com###topsection
 oxfordlearnersdictionaries.com###topslot_container
 atomic-robo.com###topspace
+the-scientist.com###torpedo
 autodoc.co.uk###traffic_banner_wrapper_interstitial
 bmj.com###trendmd-suggestions
 devast.io###trevda
