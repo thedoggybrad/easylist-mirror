@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603142351
+! Version: 202603150003
 ! Title: EasyPrivacy
-! Last modified: 14 Mar 2026 23:51 UTC
+! Last modified: 15 Mar 2026 00:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3f784742503c4d0799b5e4975caef03d679c6103
+! Commit: cbf05a22650a984ea0632aa10133bb17b1171ce8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1370,6 +1370,7 @@
 /li.lms-analytics/insight.min.js
 /lib/analytics.js
 /library/svy/broker.js
+/libs/sentry/*/sentry.js
 /libs/tracker.js
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
@@ -11086,6 +11087,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||genesis.malwarebytes.com^
 ||geni.us/snippet.js
 ||geni.us/snippet.min.js
+||geniusplus.ai/v1/lre-events?
 ||geo.bdg.com^
 ||geo.ertya.com^
 ||geo.gorillanation.com^
@@ -11942,6 +11944,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quora.com/qevents.js
 ||qzzr.com/_uid.gif
 ||r.mail.ru^$script
+||r.sdiapi.net^
 ||r.skimresources.com^
 ||r.stripe.com^$ping,script,xmlhttprequest
 ||r.wdfl.co/rw.js
