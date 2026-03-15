@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603150011
+! Version: 202603150019
 ! Title: EasyPrivacy
-! Last modified: 15 Mar 2026 00:11 UTC
+! Last modified: 15 Mar 2026 00:19 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3cebaf62ec14ae63ae7d36b2e913ec3500aca5f0
+! Commit: 5d92a656067a8039d75ce0f7ba9cafd38805f049
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12020,6 +12020,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rtc.hibuwebsites.com/feature/metrics
 ||rtc.multiscreensite.com^
 ||rtxpx-a.akamaihd.net^
+||rudder-server-prd.arena.im/v1/track
 ||rudder-tracking.rudderstack.com^
 ||rum-collector.leaderint.workers.dev^
 ||rum.azion.com^
@@ -15227,6 +15228,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||grabify.link/api/js
 ||graylog.prod.cams.run^
 ||grgnsht.nzxt.com^
+||grokipedia.com/api/analytics
+||grokipedia.com/api/ev
 ||groove.so/unlocker.js
 ||groupon.com/analytic/
 ||groupondata.com/tracky
