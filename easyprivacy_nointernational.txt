@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: EZQk1gNAM2aUVYeqNNkjmA
-! Version: 202603150001
+! Checksum: 7ILcQuEeMbIfPeVJ8eYdiw
+! Version: 202603150011
 ! Title: EasyPrivacy without international filters
-! Last modified: 15 Mar 2026 00:01 UTC
+! Last modified: 15 Mar 2026 00:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1366,6 +1366,7 @@
 /li.lms-analytics/insight.min.js
 /lib/analytics.js
 /library/svy/broker.js
+/libs/sentry/*/sentry.js
 /libs/tracker.js
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
