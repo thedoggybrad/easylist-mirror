@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8oQ2qL3zUdbCUjyitY9CFw
-! Version: 202603161322
+! Checksum: KXQoKtSZzF5h6a/aWJEigA
+! Version: 202603161331
 ! Title: EasyList without rules for adult sites
-! Last modified: 16 Mar 2026 13:22 UTC
+! Last modified: 16 Mar 2026 13:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -56106,6 +56106,7 @@ browsershots.org#@#.advert_area
 ||savagersem.cyou^
 ||savagesmulatta.cyou^
 ||save-apps.monster^
+||saverlionism.cyou^
 ||saveryblind.cyou^
 ||saveterracehangnail.com^
 ||saveunstable.com^
@@ -82934,7 +82935,6 @@ breakingnews.ie,canberratimes.com.au,theland.com.au##.py-2.bg-gray-100
 fastcompany.com##.py-8
 onlyinyourstate.com##.py-8.md\:flex
 pymnts.com##.pymnt_ads
-quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]
 euronews.com##.qa-dfpLeaderBoard
 infoq.com##.qcon_banner
 thegatewaypundit.com##.qh1aqgd
@@ -85549,6 +85549,7 @@ maxi.ca##.product-tile-group__list__item:has([data-track-products-array*="sponso
 pbs.org##.production-and-funding:has(.sponsor-info-link)
 sainsburys.co.uk##.pt__swiper--grid-item:has(.product-header--citrus[data-testid="product-header"])
 theblock.co##.py-4.my-6:has-text(Advertisement)
+quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]:has(.qu-flexDirection--column[style*="min-height:"] > .dom_annotate_google_ad)
 ksl.com##.queue:has(.sponsored)
 businessinsider.com##.rail-container:has(> .ad-label)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
