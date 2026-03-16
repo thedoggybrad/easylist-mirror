@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zZqWYuBHgpUXBU4ecsor4Q
-! Version: 202603160402
+! Checksum: 2btohpHR2hMQ7vHM1/QOxQ
+! Version: 202603160411
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Mar 2026 04:02 UTC
+! Last modified: 16 Mar 2026 04:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7846,6 +7846,7 @@ prom.ua#@#img[alt="facebook"]
 /amp-user-notification-
 /amp-web-push-0.1.js
 /assets/www/notification.
+/bildirimtr-sw.js
 /build/push.js
 /checkPush.js
 /content/js/push.js
@@ -8228,6 +8229,7 @@ prom.ua#@#img[alt="facebook"]
 ! ||staq-cdn.com/grow/$third-party
 ||api-push.com^$third-party
 ||azureedge.net/js/cookie_notificacao.min.js
+||bildirim.com.tr^$third-party
 ||bildirimat.com^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
