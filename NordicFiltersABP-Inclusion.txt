@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pvSvPlkqnK+q+WWR/Bw4RA
-! Version: 202603161311
+! Checksum: x+h2TtDIIydxskusK1v6rQ
+! Version: 202603161322
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Mar 2026 13:11 UTC
+! Last modified: 16 Mar 2026 13:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -61708,6 +61708,7 @@ browsershots.org#@#.advert_area
 ||rbejwzfebcxaz.world^
 ||rbhraahxxsllp.online^
 ||rbjbzldugzqns.website^
+||rbjixtnbjdcnd.online^
 ||rbjnkwiufc.xyz^
 ||rbjnuporihrye.store^
 ||rbkedsxtvsdsd.space^
@@ -92479,6 +92480,7 @@ breakingnews.ie,canberratimes.com.au,theland.com.au##.py-2.bg-gray-100
 fastcompany.com##.py-8
 onlyinyourstate.com##.py-8.md\:flex
 pymnts.com##.pymnt_ads
+quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]
 euronews.com##.qa-dfpLeaderBoard
 infoq.com##.qcon_banner
 thegatewaypundit.com##.qh1aqgd
@@ -96092,7 +96094,6 @@ producthunt.com#?#.text-12:-abp-contains(Promoted)
 property24.com#?#.p24_tileContainer:-abp-contains(Sponsored)
 psprices.com#?#.creative:has-text(remove advertising)
 pushsquare.com#?#span:has-text(or Subscribe)
-quora.com#?#.q-sticky[style*="box-sizing: border-box; position: sticky;"]:has-text(Advertisement)
 qvc.com#?#.qModule:-abp-contains(Sponsored)
 qz.com#?#div[class^="sc-"]:-abp-has(> div[class="ad-unit"])
 qz.com#?#div[class^="sc-"]:-abp-has(> div[is="bulbs-dfp"])
