@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603161349
+! Version: 202603161352
 ! Title: EasyList
-! Last modified: 16 Mar 2026 13:49 UTC
+! Last modified: 16 Mar 2026 13:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 32108e305a83fc9a8b4b064e8a63984232fc7286
+! Commit: 152da7b0a9c79173e495c8e8c2423ba3cc44f10c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -26147,6 +26147,7 @@ browsershots.org#@#.advert_area
 ||daailynews.com^
 ||daazdmhqdmpdq.online^
 ||dabbharked.cyou^
+||dabbyreboast.cyou^
 ||dabletdustier.help^
 ||daboovip.xyz^
 ||dabuhlips.cfd^
@@ -88037,7 +88038,7 @@ loblaws.ca#?#[data-testid="product-grid"]>div:-abp-contains(Sponsored)
 loblaws.ca,provigo.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.chakra-container:-abp-contains(Featured Items)
 lovenovels.net#?#center:-abp-contains(Advertisement)
 lyngsat.com#?#font > [href] > font:has-text(Advertisements)
-magazine.raspberrypi.com##.bg-rpi-grey-100:has-text(Advertisement)
+magazine.raspberrypi.com#?#.bg-rpi-grey-100:has-text(Advertisement)
 mapchart.net#?#.row:-abp-contains(Advertisement)
 mapquest.co.uk#?#.z-10.justify-center:has-text(Advertisement)
 mobalytics.gg#?#aside > [class]:has-text(Advertisement)
