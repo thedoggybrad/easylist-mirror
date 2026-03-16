@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603160351
+! Version: 202603160402
 ! Title: Fanboy's Annoyance List
-! Last modified: 16 Mar 2026 03:51 UTC
+! Last modified: 16 Mar 2026 04:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 14b9a4bd79b85739a23199503d8f15d4e335cb70
+! Commit: b7376ead29f63db3f00a9af8d1fc4f8871229ebc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -171,6 +171,7 @@ _backToTop.
 /amp-user-notification-
 /amp-web-push-0.1.js
 /assets/www/notification.
+/bildirimtr-sw.js
 /build/push.js
 /checkPush.js
 /content/js/push.js
@@ -29668,6 +29669,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ! ||staq-cdn.com/grow/$third-party
 ||api-push.com^$third-party
 ||azureedge.net/js/cookie_notificacao.min.js
+||bildirim.com.tr^$third-party
 ||bildirimat.com^$third-party
 ||bildirnet.com^$third-party
 ||braze.com^$third-party
