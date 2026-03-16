@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603161309
+! Version: 202603161329
 ! Title: EasyList
-! Last modified: 16 Mar 2026 13:09 UTC
+! Last modified: 16 Mar 2026 13:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0e3a1914a6725892d169a8620f6d74048b4a2cd7
+! Commit: a40bedd607df398b946375d0e60675a0916c42b8
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -53688,6 +53688,7 @@ browsershots.org#@#.advert_area
 ||rbejwzfebcxaz.world^
 ||rbhraahxxsllp.online^
 ||rbjbzldugzqns.website^
+||rbjixtnbjdcnd.online^
 ||rbjnkwiufc.xyz^
 ||rbjnuporihrye.store^
 ||rbkedsxtvsdsd.space^
@@ -56109,6 +56110,7 @@ browsershots.org#@#.advert_area
 ||savagersem.cyou^
 ||savagesmulatta.cyou^
 ||save-apps.monster^
+||saverlionism.cyou^
 ||saveryblind.cyou^
 ||saveterracehangnail.com^
 ||saveunstable.com^
@@ -87073,6 +87075,7 @@ maxi.ca##.product-tile-group__list__item:has([data-track-products-array*="sponso
 pbs.org##.production-and-funding:has(.sponsor-info-link)
 sainsburys.co.uk##.pt__swiper--grid-item:has(.product-header--citrus[data-testid="product-header"])
 theblock.co##.py-4.my-6:has-text(Advertisement)
+quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]:has(.qu-flexDirection--column[style*="min-height:"] > .dom_annotate_google_ad)
 ksl.com##.queue:has(.sponsored)
 businessinsider.com##.rail-container:has(> .ad-label)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
@@ -88072,7 +88075,6 @@ producthunt.com#?#.text-12:-abp-contains(Promoted)
 property24.com#?#.p24_tileContainer:-abp-contains(Sponsored)
 psprices.com#?#.creative:has-text(remove advertising)
 pushsquare.com#?#span:has-text(or Subscribe)
-quora.com#?#.q-sticky[style*="box-sizing: border-box; position: sticky;"]:has-text(Advertisement)
 qvc.com#?#.qModule:-abp-contains(Sponsored)
 qz.com#?#div[class^="sc-"]:-abp-has(> div[class="ad-unit"])
 qz.com#?#div[class^="sc-"]:-abp-has(> div[is="bulbs-dfp"])
