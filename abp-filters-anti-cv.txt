@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: XSpCKf3oxdwIt756Kuk4yQ
-! Version: 202603160841
+! Checksum: AsfbL0h67oqFfSahhWg5/A
+! Version: 202603160851
 ! Title: ABP filters
-! Last modified: 16 Mar 2026 08:41 UTC
+! Last modified: 16 Mar 2026 08:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2362,7 +2362,6 @@ www.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/d
 www.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="player"]//div[contains(@class,"ad-interrupting")]';
 www.youtube.com,youtube-nocookie.com#$#event-override click trusted; simulate-mouse-event 'button.ytp-skip-ad-button.ytp-ad-component--clickable$delay=0'; simulate-mouse-event 'button.ytp-skip-ad-button$delay=0';
 www.youtube.com#$#map-override set /AD_PLACEMENT_KIND_/ '' value.kind
-www.youtube.com#$#replace-outbound-value JSON.stringify '"clientName":"WEB"' '"clientName":"WEB","clientScreen":"CHANNEL"'
 www.youtube.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adSlots emptyArray; override-property-read ytInitialPlayerResponse.adPlacements emptyArray; override-property-read ytInitialPlayerResponse.playerAds emptyArray;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
@@ -2373,8 +2372,8 @@ m.youtube.com#$#json-prune 'playerResponse.adPlacements playerResponse.playerAds
 m.youtube.com,music.youtube.com#$#override-property-read ytInitialPlayerResponse.playerConfig.ssapConfig undefined
 m.youtube.com,music.youtube.com#$#override-property-read playerResponse.adSlots undefined
 m.youtube.com,music.youtube.com#$#override-property-read playerResponse.playerAds undefined
-m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.getId_ undefined
-m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.lastId_ undefined
+youtube.com#$#override-property-read yt.ads.biscotti.getId_ undefined
+youtube.com#$#override-property-read yt.ads.biscotti.lastId_ undefined
 m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
 www.youtube.com#$#override-property-read ytplayer.config.args.raw_player_response.adPlacements emptyArray; override-property-read ytplayer.config.args.raw_player_response.adSlots emptyArray; override-property-read ytplayer.config.args.raw_player_response.playerAds emptyArray;
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
