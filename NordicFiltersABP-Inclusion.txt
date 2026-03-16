@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x+h2TtDIIydxskusK1v6rQ
-! Version: 202603161322
+! Checksum: 3WkaFO7Y3gQUTr5S3JUNZg
+! Version: 202603161331
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Mar 2026 13:22 UTC
+! Last modified: 16 Mar 2026 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -64130,6 +64130,7 @@ browsershots.org#@#.advert_area
 ||savagersem.cyou^
 ||savagesmulatta.cyou^
 ||save-apps.monster^
+||saverlionism.cyou^
 ||saveryblind.cyou^
 ||saveterracehangnail.com^
 ||saveunstable.com^
@@ -92480,7 +92481,6 @@ breakingnews.ie,canberratimes.com.au,theland.com.au##.py-2.bg-gray-100
 fastcompany.com##.py-8
 onlyinyourstate.com##.py-8.md\:flex
 pymnts.com##.pymnt_ads
-quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]
 euronews.com##.qa-dfpLeaderBoard
 infoq.com##.qcon_banner
 thegatewaypundit.com##.qh1aqgd
@@ -95095,6 +95095,7 @@ maxi.ca##.product-tile-group__list__item:has([data-track-products-array*="sponso
 pbs.org##.production-and-funding:has(.sponsor-info-link)
 sainsburys.co.uk##.pt__swiper--grid-item:has(.product-header--citrus[data-testid="product-header"])
 theblock.co##.py-4.my-6:has-text(Advertisement)
+quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]:has(.qu-flexDirection--column[style*="min-height:"] > .dom_annotate_google_ad)
 ksl.com##.queue:has(.sponsored)
 businessinsider.com##.rail-container:has(> .ad-label)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
