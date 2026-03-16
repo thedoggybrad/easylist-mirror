@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603160414
+! Version: 202603160425
 ! Title: EasyPrivacy
-! Last modified: 16 Mar 2026 04:14 UTC
+! Last modified: 16 Mar 2026 04:25 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b3c4e322c7fbf1528ffc08fd8f26a6c0c886067e
+! Commit: 6ed635802ea47b82afaf787b90a5ca4e3cb4da0d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15343,8 +15343,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||intent.pcworld.idg.com.au^
 ||intent.techadvisor.com^
 ||internal-analytics.odoo.com^
-||internal-e.posthog.com^
-||internal-t.posthog.com^
 ||internetslang.com/jass/
 ||intg.snapchat.com^
 ||intuit.com/static/scripts/cookie-sync/cookiesync-pixel.js
@@ -15764,6 +15762,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pornbox.com/stats/
 ||porzo.com/js/analytics
 ||poshmark.com/trck/
+||posthog.com/*/?ip=$xmlhttprequest
+||posthog.com/*/logs?$xmlhttprequest
+||posthog.com/api/homepage-hits
+||posthog.com/api/signup-count
 ||prairiedog.hashnode.com^
 ||pravda.com.ua/counter/
 ||prescouter.com/pd.js
