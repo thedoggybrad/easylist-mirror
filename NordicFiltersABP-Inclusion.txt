@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +nSEBxH0x13wZNZYxseZIg
-! Version: 202603171921
+! Checksum: J0BHVNVQ4vd1Rg9vTJiY7g
+! Version: 202603171931
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 17 Mar 2026 19:21 UTC
+! Last modified: 17 Mar 2026 19:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -95272,6 +95272,7 @@ autoscout24.*##img[referrerpolicy="unsafe-url"]
 sameday.costco.*##li:has([aria-label="Product"]):has([data-fp-eligible]):not(:has(h2))
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 leroymerlin.*##li[data-product-list-id*="sponsored"]
+walmart.*##section[data-dca-type="module"]:has(img[src^="https://i5.walmartimages.ca/dfw/8822aef6-854b/k2-_cb5cd2e8-b2ce-4ab7-b954-e86bea1e7648.v1.jpg"])
 ! :has()
 etherscan.io###ContentPlaceHolder1_maintable > .card > .row:has(a[href="/contactusadvertise"])
 windowscentral.com###article-body > .hawk-nest[data-widget-id]:has(a[class^="hawk-affiliate-link-"][class$="-button"])
