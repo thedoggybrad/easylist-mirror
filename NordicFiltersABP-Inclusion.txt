@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: y6Qd9M81q92EYeJudlXe3Q
-! Version: 202603171702
+! Checksum: LKWzquIo4fhkJFNxIqKaQA
+! Version: 202603171711
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 17 Mar 2026 17:02 UTC
+! Last modified: 17 Mar 2026 17:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8429,6 +8429,7 @@ srk.fi#@##CookielawBanner
 /exonb/*$script
 /exonob/*$script
 /exowb/froload.js$script
+/exowb/fronload.js$script
 /exowb/frontload.js$script
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
@@ -70202,6 +70203,7 @@ browsershots.org#@#.advert_area
 ||tyilygslda.com^
 ||tyingtastevolleyball.com^
 ||tyjhppeycigsm.space^
+||tykgdewf.com^
 ||tykhcihsletwx.space^
 ||tylerfinlike.cyou^
 ||tyloseundosedarren.cyou^
@@ -94833,6 +94835,7 @@ ecosia.org##div[data-test-id="mainline-result-productAds"]
 debenhams.com##div[data-test-id^="sponsored-product-card"]
 investing.com##div[data-test="ad-slot-visible"]
 symbaloo.com##div[data-test="homepageBanner"]
+producthunt.com##div[data-test^="ad-slot-"]
 startribune.com##div[data-testid$="-ad"]
 costco.com##div[data-testid="AdSet-all-sponsored_products_-_search_bottom"]
 costco.com##div[data-testid="AdSet-all-sponsored_products_-_search_top"]
@@ -95535,6 +95538,7 @@ qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
 pixabay.com##div[class="cell--UMz-x"]:has(button[aria-label="About this advertiser"])
 samsclub.com##div[class="mb0 ph0-xl pt0-xl bb b--near-white w-20 pb3-m ph1"]:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 walmart.*##div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])
+producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(a[href="/sponsor"])
 openalternative.co##div[class="relative flex max-md:order-3"]:has(a[href="/advertise"])
 openalternative.co##div[class="relative flex"]:has(a[href="/advertise"])
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##div[class] > div[class]:has(> div[class] > div[id^="RAD_D_"])
@@ -96383,6 +96387,7 @@ nzherald.co.nz#?#section:has-text(Partner content)
 perplexity.ai#?#.py-sm.group:-abp-contains(Sponsored)
 pexels.com#?#[data-testid="column"] [data-testid="item"]:-abp-contains(Sponsored)
 producthunt.com#?#.text-12:-abp-contains(Promoted)
+producthunt.com#?#div[class="flex cursor-pointer items-start gap-4 rounded-lg bg-gray-50 p-4"]:has-text(Promoted)
 property24.com#?#.p24_tileContainer:-abp-contains(Sponsored)
 provigo.ca#?#.css-1nhzth8:-abp-contains(/sponsorisé|sponsored/)
 psprices.com#?#.creative:has-text(remove advertising)
