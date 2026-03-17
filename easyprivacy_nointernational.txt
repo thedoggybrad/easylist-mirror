@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: yRE/JCAURxLKGihlbycTPw
-! Version: 202603170242
+! Checksum: 4mVWaNovo6fH++ZjEGR0Tg
+! Version: 202603170251
 ! Title: EasyPrivacy without international filters
-! Last modified: 17 Mar 2026 02:42 UTC
+! Last modified: 17 Mar 2026 02:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6887,6 +6887,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consent.trustarc.com/bannermsg?
 ||consent.trustarc.com/noticemsg?
 ||console-telemetry.oci.oraclecloud.com^
+||console.deno.com/_fresh/js/*/Posthog.js
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
 ||contentpass.net/error-tunnel
@@ -7601,6 +7602,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mtg.macpaw.com^
 ||mtm.bondagevalley.cc^
 ||musescore.com/components/data?
+||musescore.com/components/log/$ping
 ||musescore.com/score/stats/
 ||mx.eneba.com^
 ||myanimelist.net/static/logging.html
