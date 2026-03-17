@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qi+4yM4Nrn+R4UQypITx1Q
-! Version: 202603171511
+! Checksum: TEVkriXpr2phSdvcP/53xQ
+! Version: 202603171521
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Mar 2026 15:11 UTC
+! Last modified: 17 Mar 2026 15:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -752,6 +752,7 @@ gazeta.ua##.article-footer .pull-right
 tvoymalysh.com.ua##.article-footer-instagram
 tvoymalysh.com.ua##.article-footer-share-title
 championat.com,championat.ru##.article-footer__title
+ngzt.ru##.article-footer__wrap-social
 arbatmedia.kz##.article-info > .angry-grid > div[id^="item"] ~ div[id^="item"]
 studopedia.ru##.article-info-share-wrapper > .icons
 arbatmedia.kz#?#.article-info:-abp-has(> .angry-grid > div[id^="item"]:first-child > .article__button_soc)
@@ -2780,7 +2781,7 @@ stopgame.ru##[class*="_sg-socials--footer"] > li > *
 7days.ru##[class*="button-social_telegramm"]
 www.kinopoisk.ru##[class*="footer"] > [class*="social-"]
 gorodche.ru##[class*="footer-bottom-social"]
-pg11.ru,pg12.ru,pg13.ru,pg21.ru,pgn21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##[class*="footer_ftrSocialList"]
+pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod59.ru,progorod62.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##[class*="footer_ftrSocialList"]
 manutd.ru##[class*="new_graphic soc_"]
 ohotniki.ru##[class*="preview__social"]
 jpgazeta.ru##[class*="share_save_widget"]
@@ -3144,7 +3145,7 @@ tribuna.com##div[class^="_footer__social-media"]
 tribuna.com##div[class^="_shared-socia-buttons"]
 t-j.ru##div[class^="_sharer_"]
 stopgame.ru##div[class^="_youtube-promo_"]
-hightech.plus,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pgn21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="article-social"]
+hightech.plus,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-social"]
 yamal-media.ru##div[class^="article_ShareBlockWrapper"]
 greenpost.ua##div[class^="article_share_side_"]
 unn.ua##div[class^="button-plate_wrap_"]
@@ -3181,7 +3182,7 @@ iz.ru##div[class^="share_bottom"]
 glavagronom.ru##div[class^="socIcons"]
 buzulukday.ru,cybersport.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##div[class^="social"]
 hightech.plus##div[class^="social-buttons"]
-pg11.ru,pg12.ru,pg13.ru,pg21.ru,pgn21.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru##div[class^="social-list-subscribe"]
+pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
 sovsport.ru##div[class^="social-media-buttons-module"]
 nn.ru##div[class^="social-widget"]
 timeweb.cloud##div[class^="socialBlock-"]
@@ -3319,8 +3320,8 @@ sud.ua#?#li > .b-news-item:-abp-has(> .b-news-item-info > h3 > a[href*="://t.me/
 prochepetsk.ru,progorod43.ru##li > a[class^="nav_"][href*="https://max.ru/"]
 prochepetsk.ru,progorod43.ru##li > a[class^="nav_"][href*="https://t.me/"]
 pg12.ru,pg21.ru,prodzer.ru,progorod33.ru,progorodnn.ru##li > a[class^="sub-menu_"][href*="https://max.ru/"]
-pg12.ru,pg21.ru,pgn21.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru##li > a[class^="sub-menu_"][href*="https://t.me/"]
-pg12.ru,pg21.ru,pgn21.ru,prodzer.ru,progorod33.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru##li > a[class^="sub-menu_"][href*="https://vk.com/"]
+pg12.ru,pg21.ru,pgn21.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://t.me/"]
+pg12.ru,pg21.ru,pgn21.ru,prodzer.ru,progorod33.ru,progorod58.ru,progorodnn.ru,progoroduhta.ru,usolie.info##li > a[class^="sub-menu_"][href*="https://vk.com/"]
 argumenti.ru#?#li:-abp-has(> a[href^="https://t.me/"])
 ctc.ru##li[class="hsi-item"]
 78.ru##li[class^="social-block_"]
@@ -6721,7 +6722,7 @@ postimees.ee##div.cookie-container
 agents.media#?#div:-abp-has(> #trigger_donate)
 korsars.pro#?#div:-abp-has(> .med > [src*="://yoomoney.ru/"])
 dailystorm.ru#?#div:-abp-has(> .notice)
-dnpr.com.ua,gorodovoy.ru,mc.today,mir24.tv,nashemisto.dp.ua,shuba.life,teknoblog.ru#?#div:-abp-has(> a[href^="https://news.google.com/publications/"])
+dnpr.com.ua,gorodovoy.ru,kirov.online,mc.today,mir24.tv,nashemisto.dp.ua,shuba.life,teknoblog.ru#?#div:-abp-has(> a[href^="https://news.google.com/publications/"])
 fontanka.ru#?#div:-abp-has(> div > [href^="https://news.google.com/publications/"])
 ampercar.com#?#div:-abp-has(> em > a[href^="https://news.google.com/publications/"])
 tvrain.tv##div[app-widget="usersection"]
