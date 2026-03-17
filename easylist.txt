@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603171919
+! Version: 202603171924
 ! Title: EasyList
-! Last modified: 17 Mar 2026 19:19 UTC
+! Last modified: 17 Mar 2026 19:24 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6b7434d02b53b85e9e71f811735de4a37dfb691c
+! Commit: ce10f65ab8a38a7eceeb1ee64c2fcaeb7d6ecaae
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -87252,6 +87252,7 @@ autoscout24.*##img[referrerpolicy="unsafe-url"]
 sameday.costco.*##li:has([aria-label="Product"]):has([data-fp-eligible]):not(:has(h2))
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 leroymerlin.*##li[data-product-list-id*="sponsored"]
+walmart.*##section[data-dca-type="module"]:has(img[src^="https://i5.walmartimages.ca/dfw/8822aef6-854b/k2-_cb5cd2e8-b2ce-4ab7-b954-e86bea1e7648.v1.jpg"])
 ! :has()
 etherscan.io###ContentPlaceHolder1_maintable > .card > .row:has(a[href="/contactusadvertise"])
 windowscentral.com###article-body > .hawk-nest[data-widget-id]:has(a[class^="hawk-affiliate-link-"][class$="-button"])
