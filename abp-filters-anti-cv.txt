@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 3e4m0Ee8cCzwEIur1Dl/Vw
-! Version: 202603171111
+! Checksum: k6pVrjyCm5MA29sRaFN2/w
+! Version: 202603171122
 ! Title: ABP filters
-! Last modified: 17 Mar 2026 11:11 UTC
+! Last modified: 17 Mar 2026 11:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1483,6 +1483,7 @@ cnews.fr#$#hide-if-matches-xpath './/div[contains(@class,"-ads")]/parent::div[1]
 mairesdefrance.com##div>a[href*="smartadserver.com"]
 fs-miroir6.lol##div[style^="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"] {remove:true;}
 journaldugeek.com#$#hide-if-matches-xpath './/div[contains(@class,"bg-neutral-100")]/following::div[contains(@id,"adslot")][@style]/ancestor::div[contains(@class,"text-center")]'
+fs14.lol,fss.lol#$#abort-current-inline-script String.fromCharCode 2147483647
 ! Popup/Popunder
 jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
@@ -1498,6 +1499,7 @@ tirexo.day#$#abort-on-property-read window.open
 wawacity.*,zone-telechargement.*#$#abort-current-inline-script JSON.stringify
 oxtorrent.*#$#abort-on-property-read window.open
 extreme-down.*,zone-telechargement.*#$#abort-on-property-read decodeURIComponent
+f75s.com,fs14.lol#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window'
 ! *** abp-filters-anti-cv:german.txt ***
 ! Popup/Popunder/Clickunder
 frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
