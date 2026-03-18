@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: dg+ArijPEve0H5qqA0RsGw
-! Version: 202603182121
+! Checksum: yRQpFkDhxOz9WeTDbrxepw
+! Version: 202603182131
 ! Title: EasyPrivacy without international filters
-! Last modified: 18 Mar 2026 21:21 UTC
+! Last modified: 18 Mar 2026 21:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -44681,7 +44681,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||addthis.com/js/*/addthis_widget.js$script,domain=stagecoachbus.com
 @@||admin.corrata.com/console/dcconsolews/event-log?$~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
-@@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
+@@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com|westjet.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/s-code-$script
