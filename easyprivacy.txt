@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603181135
+! Version: 202603181150
 ! Title: EasyPrivacy
-! Last modified: 18 Mar 2026 11:35 UTC
+! Last modified: 18 Mar 2026 11:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8134a009e9fe18dc699bc8431d8f30ab8fac9456
+! Commit: ab4aad704d182c0fdba6f1fde783da3afb8ff7c7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16959,6 +16959,7 @@ nicovideo.jp##+js(no-xhr-if, stella)
 ! abema.tv
 ! #if cap_html_filtering
 abema.tv##^script:has-text(NREUM)
+airbnb.de#?#section:has-text(Winter-Update):upward(1)
 ! #else
 abema.tv##+js(rmnt, script, NREUM)
 ! #endif
