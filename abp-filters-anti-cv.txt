@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Z0oProXwWNG5WvMzHzGi8A
-! Version: 202603191101
+! Checksum: 2E08e/JHVZbntc5ie0ok4A
+! Version: 202603191111
 ! Title: ABP filters
-! Last modified: 19 Mar 2026 11:01 UTC
+! Last modified: 19 Mar 2026 11:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1684,8 +1684,7 @@ gorodrabot.ru#$#abort-on-property-read Object.prototype.storeBlockSettings
 ||doramatv.live^$header=x-yandex-req-id
 drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 ! #CV-659
-gagadget.com,ringside24.com#$#abort-on-property-read localStorage
-newsyou.info#$#abort-on-property-read localStorage
+gagadget.com,ringside24.com,newsyou.info#$#abort-on-property-read localStorage
 24tv.ua##.b_reklama
 azov-sea.info##[valign="middle"]
 azov-sea.info##td[width="330"]
@@ -1711,7 +1710,6 @@ astrakhan.ru,myjane.ru,omskpress.ru,tambovnet.org#$#abort-on-property-read kav_c
 krolik.biz#$#abort-current-inline-script document.createElement
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
 agroportal.ua#$#abort-on-property-read abn
-kaztorka.org#$#abort-current-inline-script document.createElement Math.random
 naruto-base.su#$#abort-on-property-read njranu
 animekun.ru,doramakun.ru,nnmclub.to#$#abort-current-inline-script document.createElement Math.random; abort-current-inline-script setInterval Math.random
 nnmclub.ro,nnmclub.to#$#abort-on-property-read _0x1ece false
@@ -1754,11 +1752,10 @@ hardwareluxx.ru#$#abort-current-inline-script jQuery backgroundImage
 igromania.ru,kanobu.ru#$#json-prune results.fixed
 motorpage.ru#$#json-prune '0.BannerId 1.BannerId 2.BannerId 3.BannerId 4.BannerId 5.BannerId 6.BannerId'
 nsportal.ru#$#abort-on-property-read addDownloadPrefixToLinks false
-bombardir.ru#$#abort-on-property-read alert
 www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock; abort-on-property-read Ya; cookie-remover jtnews_adblock;
 biqle.org,biqle.ru#$#prevent-listener /click|mousedown/ 'popunder'
 relax-fm.ru,rg.ru#$#abort-on-property-read AdFox_getCodeScript
-ontivi.net#$#abort-current-inline-script document.createElement Math.random
+kaztorka.org,ontivi.net#$#abort-current-inline-script document.createElement Math.random
 bstudy.net#$#abort-on-property-read _0xddc4
 studbooks.net#$#abort-on-property-read _0x8336
 studme.org#$#abort-on-property-read _0x5443
@@ -1780,7 +1777,7 @@ vgtimes.ru#$#json-prune 'data.0.attributes.bannerId'
 liveball.*#$#abort-on-property-read ABNS
 zab.ru#$#abort-on-property-read document.body.style
 players.com.ua#$#abort-on-property-read localStorage
-inforesist.org#$#abort-on-property-read alert
+bombardir.ru,inforesist.org#$#abort-on-property-read alert
 dzen.ru#$#override-property-read Object.prototype.adFoxParameters null
 gencit.info#$#abort-on-property-read Radish
 bb.lv#$#abort-on-property-read adjustBackground false
