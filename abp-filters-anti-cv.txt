@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 7Haz11ohrD/Y2mGg8w1WWQ
-! Version: 202603191051
+! Checksum: Z0oProXwWNG5WvMzHzGi8A
+! Version: 202603191101
 ! Title: ABP filters
-! Last modified: 19 Mar 2026 10:51 UTC
+! Last modified: 19 Mar 2026 11:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -46,13 +46,12 @@ torrentkitty.tv#$#abort-on-property-read _fupfgk; abort-on-property-read _nyjdy
 178.com,nga.cn#$#abort-on-property-write __LOAD_BBS_ADS_12
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 2345.com#$#abort-current-inline-script setDefaultTheme
-ahri8.top#$#abort-current-inline-script document.querySelectorAll popMagic
 ifenpaidy.com#$#abort-on-property-read localStorage
 939394.xyz#$#abort-on-property-read atob
 movieffm.net#$#abort-on-property-read window.open
 ! Popups & Popunders
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
-madouqu.com#$#abort-current-inline-script document.querySelectorAll popMagic
+ahri8.top,madouqu.com#$#abort-current-inline-script document.querySelectorAll popMagic
 editcode.net#$#abort-current-inline-script setTimeout openAd
 69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
 ! Video ads
@@ -1871,7 +1870,6 @@ futbollatam.com#$#abort-on-property-read attr; abort-on-property-read mm
 gnula.cc#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
 latinblog.tv,peladas69.com#$#abort-on-property-read __formatsGetters
-animefenix.org,animeonline.ninja,audaciousdefaulthouse.com#$#abort-on-property-read window.open
 monoschinos2.com#$#abort-on-property-read _0x24d7; abort-on-property-read _0x41ed; abort-on-property-read _0xf59bf3; abort-on-property-read a3klsam
 cuevana.*,cuevana3.*,cuevana4.*#$#hide-if-matches-xpath './/a[contains(@rel,"sponsored")]/parent::div[@style][@class="cont"]'
 ||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
@@ -1900,7 +1898,7 @@ seriesyonkis.cx#$#abort-on-property-read window.atob; abort-on-property-read ope
 cuevana3.*,pelisflixhd.*#$#abort-on-property-read decodeURI; abort-current-inline-script Math /break;case \$/; abort-on-property-write popUpUrl
 ||cuevana3.eu/edgeSystemV1.js^$domain=cuevana3.eu
 animeonline.ninja#$#override-property-read custom_ads_time null; abort-current-inline-script document.createElement script;
-pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
+animefenix.org,animeonline.ninja,audaciousdefaulthouse.com,pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
 cuevana.*,cuevana3.*,cuevana4.*,pelisflixhd.art#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
 zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
 series24.*,tvporinternet2.com#$#abort-on-property-read aclib.runPop
@@ -1920,7 +1918,7 @@ blog.abit.vn#$#simulate-mouse-event '#ads_popup .close$continue,delay=500'
 phimhdplus.com#$#json-prune ads; abort-current-inline-script setTimeout click_time
 aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
-tusachmanga99.com#$#abort-current-inline-script $ window.open
+teamlanhlungday.store,tusachmanga99.com#$#abort-current-inline-script $ window.open
 motchillk.soy#$#abort-on-property-read sessionStorage
 rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.life,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
@@ -1989,22 +1987,19 @@ hhvsub1.com,sextop1.uno#$#abort-current-inline-script WebAssembly globalThis
 hh3dhay.*#$#abort-current-inline-script Symbol /break|case/
 gocmod.com#$#abort-current-inline-script jQuery popup
 animevietsub9.com#$#abort-on-property-read _0x3f9b
-trumtruyen.xyz,www.motchill51.com#$#abort-current-inline-script setTimeout Aff
 vlmupsex.net#$#abort-on-property-read Cookies
 childish2x1.fun,childish2x2.fun,lottedira.store,tekora.fun,tekora.space#$#abort-current-inline-script $ aff
 javhd.shop#$#abort-current-inline-script document.addEventListener Click
 ios.codevn.net#$#abort-current-inline-script jQuery Popup
 cdn4.tiptoe34x1.fun,economic45882.shop,cdn.codexa.fun#$#abort-current-inline-script $ arrDirectLink
 laophatgia.net#$#abort-current-inline-script document.getElementsByClassName reading-content
-teamlanhlungday.store#$#abort-current-inline-script $ window.open
-teamlanhlungday.store#$#abort-current-inline-script setTimeout aff
 www.sieutamphim.pro#$#abort-on-property-write _$_d52e
 quatvn.my#$#abort-current-inline-script window.addEventListene localStorage
 checkscam.vn#$#abort-current-inline-script document.addEventListener open
 haysexvn.lol#$#abort-current-inline-script document.addEventListener adx
 clipphot.vip,lodgesincheshire.co.uk#$#abort-current-inline-script document.addEventListener POP
 audiotruyenfull.com#$#abort-current-inline-script document.addEventListener ai_run
-audiotruyenfull.com#$#abort-current-inline-script setTimeout Aff
+audiotruyenfull.com,teamlanhlungday.store,trumtruyen.xyz,www.motchill51.com#$#abort-current-inline-script setTimeout Aff
 pheclip.love,phim18vip.top,sieudam.sh#$#abort-current-inline-script $ pop
 vozer.io#$#abort-current-inline-script document.addEventListener atob
 thiendia1.vip#$#abort-current-inline-script document.addEventListener adState
