@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: fx5JmYy4dwnTJnqpTc1rdQ
-! Version: 202603191221
+! Checksum: SvF1FCF9iqxdZ+bSdbdYJg
+! Version: 202603191241
 ! Title: ABP filters
-! Last modified: 19 Mar 2026 12:21 UTC
+! Last modified: 19 Mar 2026 12:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -100,10 +100,8 @@ ahaonline.czinfo.cz,onetv.cz##iframe[id^="iframeWrapper-"]
 ahaonline.czinfo.cz,onetv.cz##[class^="ad "]
 ahaonline.czinfo.cz,onetv.cz##a[href*="Banner"]
 ahaonline.czinfo.cz,onetv.cz##a[href*="pubsrcid="]
-ahaonline.czinfo.cz,onetv.cz##.ads
 ahaonline.czinfo.cz,onetv.cz##a[href*="banner"]
 ahaonline.czinfo.cz,onetv.cz##.sticky-content
-ahaonline.czinfo.cz,onetv.cz##.SC_TBlock
 ahaonline.czinfo.cz,onetv.cz###leader_board
 ahaonline.czinfo.cz,onetv.cz##.ad-skyscrapper
 ahaonline.czinfo.cz,onetv.cz###Moitor-1
@@ -145,12 +143,12 @@ kinobox.cz,nasepenize.cz##a[target="_blank"]>img[class*="-click-"]
 kinobox.cz,nasepenize.cz##.sticky[stickystop]
 kinobox.cz,nasepenize.cz##[class$=" sticky"]
 kinobox.cz,nasepenize.cz##div[class$="-rightcJ"]
-fights.cz,kinobox.cz,nasepenize.cz,spisovatele.cz##.SC_TBlock
+fights.cz,kinobox.cz,nasepenize.cz,onetv.cz,spisovatele.cz##.SC_TBlock
 fights.cz,kinobox.cz,nasepenize.cz##.pe-link
 fights.cz,kinobox.cz,nasepenize.cz##.wrap-advert
 fights.cz,kinobox.cz,nasepenize.cz##.quaquaquakva
 fights.cz,kinobox.cz,nasepenize.cz##[href*=";cdata="]
-fights.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
+fights.cz,tiscali.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
 fights.cz##.banner-add
 nasepenize.cz###side-offer-wrap
 nasepenize.cz#?#:-abp-has(>[class$="selfpromo"])
@@ -172,7 +170,7 @@ horoskopy.cz,novinky.cz,seznamzpravy.cz,sport.cz,super.cz#?#div:-abp-has(>p:-abp
 horoskopy.cz,novinky.cz,seznamzpravy.cz,sport.cz,super.cz#$#abort-on-property-write sssp
 kupi.cz,novinky.cz,seznamzpravy.cz,sport.cz,super.cz##[data-e2e-zoneid]
 kupi.cz,novinky.cz,sport.cz,super.cz###adCommercialBackground
-kupi.cz,novinky.cz,sport.cz,super.cz##.ads
+kupi.cz,novinky.cz,onetv.cz,sport.cz,super.cz##.ads
 kupi.cz,novinky.cz,sport.cz,super.cz##.Rggheysn
 kupi.cz,novinky.cz,sport.cz,super.cz##.combi__ad
 kupi.cz,novinky.cz,sport.cz,super.cz##.dynamic_Rggheysn
@@ -348,7 +346,6 @@ search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"
 ||seznam.cz/*/*/js/*?nocache=1^$domain=www.seznam.cz
 www.seznam.cz#$#cookie-remover pubmatic
 www.seznam.cz#$#cookie-remover adform
-www.seznam.cz#$#override-property-read sssp emptyObj
 www.seznam.cz#$#replace-fetch-response '/adType/' {}; hide-if-matches-xpath '//a[@rel][contains(translate(translate(text(), "ĂÂÎȘȚăâîșțR̆", "AAISTaaistR"), "REKLAMA", "reklama"), "reklama")][contains(@class,"color-neutral-2")]/parent::div/parent::div/parent::div/parent::div[@style][1]'
 ! #CV-3922
 www.idnes.cz#$#override-property-read Unidata.reklama false
@@ -383,37 +380,6 @@ zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-len
 hnonline.sk,info.cz,lupa.cz#$#abort-current-inline-script Math.random adb
 expres.cz,osobnosti.cz,tiscali.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
 blesk.cz,expres.cz#$#cookie-remover /^adb$|adb\.key|^[a-z]{5,11}$/
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.inserted_rtb
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[id^="ad-"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[data-track-ad]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##leaderBoard
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.movingAd
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###brandingCreativeWrapper
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[data-google-container-id], .is_stuck
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*=";adfibeg="]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz#?#div:-abp-has(>[class$="selfpromo"])
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[class^="stickyContentBottom_"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.ad__in
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.ad-skywrapper
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##iframe[id^="iframeWrapper-"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[class^="ad "]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*="Banner"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*="pubsrcid="]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.ads
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*="banner"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.sticky-content
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.SC_TBlock
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###leader_board
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.ad-skyscrapper
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###Moitor-1
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[style*="_banner_branding_cnc_"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###banner_id
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###banner
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###creativelink
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.rollWrapper
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz###ValRageBottom
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*="branding"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz#?#div:-abp-has(>a[href$="/personalizovana-reklama/"])
 blesk.cz##.gam-wrapper
 expres.cz##div[data-redistribute="ad"]
 /partnerJsApi/v3?previousZHashes=&hash=*&clbk=sklik$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
@@ -442,7 +408,6 @@ blesk.cz##div[class^="sticky-wrapper"]
 expres.cz##[class^="r-main"]
 expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-rsize]
 dama.cz##[class*="ads-"]
-auto.cz,zeny.cz##[data-track-ad]
 reflex.cz##img[title$=".cz"][src^="https://www.reflex.cz/"]
 auto.cz##.halfpageAd, [class*="wrapperH-prapper"], [class*="billboard-bottom"], img[width='970'][height="310"], [data-io-article-url] a[target='_top'], video[id^="video-"][preload="auto"][webkit-playsinline="webkit-playsinline"], [class*="ads-leader"], #KoqisAoAce
 www.blesk.cz##[class*="-wrapperf-prapper"], [class*="pikyTentBot_"], #stickyBottomRightAbsolute, [class="lol__out"], img[width='970'][height="310"], a[style*="blewid: 970px; height: 310px"], div[id*="-hor"]
@@ -451,54 +416,14 @@ maminka.cz##div[class*="bx-sky "]
 dama.cz##div[class^="sky-wrap"]
 blesk.cz,e15.cz,maminka.cz,reflex.cz##a[class*="-combined"]
 blesk.cz#$#abort-current-inline-script  adbDetect; prevent-listener beforeunload (); override-property-read adBlockerFound undefined;
-karaoketexty.cz,osobnosti.cz,tiscali.cz###stickyBanner
 tiscali.cz##a[target="_blank"][href*="tiscali.cz"]>img[src*="tiscali.cz"]
-karaoketexty.cz,osobnosti.cz,tiscali.cz##.btitle-right
-karaoketexty.cz,osobnosti.cz,tiscali.cz##a[href*="IdBnrP="][href*="IdCamp="]
-karaoketexty.cz,osobnosti.cz,tiscali.cz##[id^="pxBanner"]
 karaoketexty.cz,osobnosti.cz,tiscali.cz###clickLayer
-karaoketexty.cz###stickyWrap
 karaoketexty.cz##.ad_large_square
-karaoketexty.cz,osobnosti.cz,tiscali.cz##a[target="_blank"]>img[class*="-click-"]
-karaoketexty.cz,osobnosti.cz,tiscali.cz##.sticky[stickystop]
-karaoketexty.cz,osobnosti.cz,tiscali.cz##[class$=" sticky"]
 karaoketexty.cz##[class$="_rightcolumn"]
 karaoketexty.cz###sky_right_col
 osobnosti.cz##.hide-screenbot
-karaoketexty.cz,osobnosti.cz,tiscali.cz##div[class$="-rightcJ"]
-karaoketexty.cz,osobnosti.cz,tiscali.cz##.SC_TBlock
-karaoketexty.cz,osobnosti.cz,tiscali.cz##.pe-link
-karaoketexty.cz,osobnosti.cz,tiscali.cz##.wrap-advert
-karaoketexty.cz,osobnosti.cz,tiscali.cz##.quaquaquakva
-karaoketexty.cz,osobnosti.cz,tiscali.cz##[href*=";cdata="]
 tiscali.cz##.bs-hp
-tiscali.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
 tiscali.cz##[class*="-ld-top"]
-karaoketexty.cz,osobnosti.cz,tiscali.cz##[id*="tmAdVideo"], [class=" pe-banner"]
-expres.cz##.barMan
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href*="verdsi="][href*="&ip="]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##[href*="&token="][target="_blank"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##a[href^="//api.mgid.com/"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[style*='background-image: url("https://www.']
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.ad-skycrapper
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##[id*="Adform"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[style*="background-image"][style*="branding"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##.article-advertisement
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[id^="cnc-"][class^="cnc-"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[class$="-banner"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##div[id$="horiz"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##iframe[src*=" javascript: window"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##.pe-banner
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##.advert
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a[href*="?action=ppl&cid="]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz##div[style*="background-image: url("][style*="background-repeat: no-repeat;"]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a.tracked-event[data-tid]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a.tracked-event[href*="&tcid="]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz###ads-leader, #ads-leader-board
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##.foto-iframe-ads
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,maminka.cz,mojezdravi.cz,reflex.cz,zeny.cz,zive.cz#?#div:-abp-has(>small:-abp-contains(Reklama))
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a[href*="?adurl="]
-auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a[href*="mondor_hopToSeti"]
 ||d49-a.sdn.cz^$image,domain=auto.cz|autorevue.cz|blesk.cz|dama.cz|e15.cz|expres.cz|karaoketexty.cz|kinobox.cz|kupi.cz|lidovky.cz|maminka.cz|mojezdravi.cz|nasepenize.cz|novinky.cz|osobnosti.cz|reflex.cz|sport.cz|super.cz|tiscali.cz|zeny.cz|zive.cz
 ||userscontent.com^$image,domain=auto.cz|autorevue.cz|blesk.cz|dama.cz|e15.cz|expres.cz|karaoketexty.cz|kinobox.cz|kupi.cz|lidovky.cz|maminka.cz|mojezdravi.cz|nasepenize.cz|novinky.cz|osobnosti.cz|reflex.cz|sport.cz|super.cz|tiscali.cz|zeny.cz|zive.cz
 karaoketexty.cz#$#hide-if-matches-xpath './/a[string-length(@href) >120][@target="_blank"]/ancestor-or-self::a[@href]'
@@ -841,9 +766,8 @@ businessinsider.in#?#li[class*="display-"]:-abp-has(div > h3 + p:-abp-contains(A
 indiatimes.com#?#div:-abp-has(> a p:-abp-has(> span:-abp-properties(content: "Ad")))
 indiatimes.com#?#div:-abp-has(> a p:-abp-has(> span:-abp-properties(content: " Ad ")))
 bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
-indiatimes.com##a[onclick][rel*="nofollow"]
+indiatimes.com,mensxp.com##a[onclick][rel*="nofollow"]
 businessinsider.in#?#div:-abp-has(> a[target="_self"][rel="nofollow,noindex"])
-mensxp.com##a[onclick][rel*="nofollow"]
 tamil.samayam.com#?#div:-abp-has(> h2 span:-abp-contains(Colombia))
 ! #CV-170
 audiofanzine.com#$#abort-on-property-read TextDecoder; abort-on-property-read require; abort-current-inline-script _audiofanzineProductStack
@@ -948,12 +872,10 @@ xhamster.*#$#abort-on-property-read wig-popunder; abort-on-property-write wit-po
 marketrealist.com#$#abort-on-property-read adHandler.cmd.push
 vev.red,vidup.io#$#abort-current-inline-script window.__INITIAL_STATE__
 pornj.com,realgfporn.com,upornia.com#$#abort-on-property-read encodeURI
-abcvideo.cc,dlapk4all.com,europixhd.com,europixhd.net,extramovies.*,file-up.org,gledajonline.net,gounlimited.to,hdeuropix.io,hdvid.*,hxfile.co,loadsubs.net,pandamovies.pw,pstream.net,rexdlfile.com,topeuropix.net,vidlo.us,zippyshare.com#$#abort-on-property-read decodeURIComponent
+abcvideo.cc,dlapk4all.com,europixhd.com,europixhd.net,extramovies.*,file-up.org,freeomovie.co.in,gledajonline.net,gounlimited.to,hdeuropix.io,hdvid.*,hxfile.co,loadsubs.net,pandamovies.pw,pstream.net,rexdlfile.com,topeuropix.net,vidlo.us,zippyshare.com#$#abort-on-property-read decodeURIComponent
 mult34.com#$#abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent
 hdvid.*#$#abort-on-property-read Fingerprint2; abort-on-property-read atob
-actvid.com,cineb.*,hdtoday.*,hdtodayz.*,solarmovie.*,upload4earn.org,uploadbyte.com,vidbem.com,watchseries.*,yts-official.*,yts.*,zoechip.*#$#abort-on-property-read localStorage
 dood.*,doods.*,doodstream.*,dooodster.*,dooood.*,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; override-property-read cRAds trueFunc; abort-on-property-write xRds; abort-on-property-write xPoPAdS
-1377x.*,1flix.*,cucuflix.*,doood.*,dooodster.*,igetintopc.com,jasminetesttry.com,l1afav.*,miraculous.to,moviesapi.*,myflixerzz.*,primewire.*,seaporn.org,sfile.mobi,usersdrive.com,vid2faf.*,vidfast.*,vidlink.*,vidsrc.*,watchflix.*#$#abort-on-property-read window.open
 vudeo.co,vudeo.io,vudeo.net,youdbox.com#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 filecrypt.*,yifysubtitles.*#$#override-property-read isAdblock false; abort-current-inline-script EventTarget.prototype.addEventListener /key/; abort-on-property-read aclib; abort-on-property-read Adcash; override-property-read isAdblock2 false;
 hclips.com,upornia.com#$#abort-on-property-read adver
@@ -987,7 +909,6 @@ eztv.tf,eztv.yt,unblockit.boo#$#abort-current-inline-script s2ss45
 cocostream.org,idope.cyou,playmods.net,youtube4kdownloader.com,yts-official.*,yts2.*#$#abort-on-property-read JSON.stringify
 latinblog.tv#$#abort-on-property-write _cpp
 camsstream.com#$#abort-current-inline-script onload;
-buzzheavier.com,extratorrent.st,flashbang.sh,hdtube.porn,hentaihaven.icu,hentaikai.com,leaktape.*,trashbytes.net,yts-official.*,yts.*,ytstv.me#$#abort-on-property-read atob
 newser.com#$#prevent-listener load object
 masahub.net,sbanh.com,sbembed.com,sblona.com,sblongvu.com,sbrapid.com,streamsb.com,streamsb.net#$#abort-on-property-read decodeURI; abort-on-property-read mm
 ||*.com/*b8121.js^$script,domain=mult34.com
@@ -999,7 +920,6 @@ masahub.net,sbanh.com,sbembed.com,sblona.com,sblongvu.com,sbrapid.com,streamsb.c
 /s/js/ssu.v2.js?v=*^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com
 ##[href^="//x4pollyxxpush.com/"]
 ||a.streamoupload.*^$script
-freeomovie.co.in#$#abort-on-property-read decodeURIComponent
 fastconverter.net#?#:xpath(//div[contains(@style,"fixed") and contains(@style,"z-index")]/ancestor-or-self::div[@style][1])
 vardembed.xyz,videovard.sx#$#json-prune ads_mode
 vardembed.xyz,videovard.sx###NotReallyYouHaveSmallOne
@@ -1025,7 +945,7 @@ gaytxxx.com,transtxxx.com,txxx.com#$#abort-on-property-read jwplayer.utils.Timer
 ||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
 9hentai.*#$#prevent-listener click saveLastEvent
 sendspace.com#$#abort-on-property-read runad false
-engvideo.net,hianime.*,hollymoviehd.cc,ling-online.net,ups2up.*#$#abort-current-inline-script document.documentElement /break|case/
+engvideo.net,hianime.*,hollymoviehd.cc,mangago.*,ling-online.net,ups2up.*#$#abort-current-inline-script document.documentElement /break|case/
 eporner.com#$#override-property-read exo99HL3903jjdxtrnLoad null; abort-on-property-read window.location.replace.getadb; cookie-remover ADBp
 freshsexvideos.com,ixxx.onl,sexvideos.rodeo,xmxx.live,xvideosx.one,xxxpor.org,xxxvideo.link#$#cookie-remover tgpOut; abort-current-inline-script document.querySelectorAll popMagic; override-property-read setTimeout noopFunc;
 porntrex.com#$#abort-on-property-write preventDefault
@@ -1055,7 +975,7 @@ coflix.*,dhtpre.com,fmovies.*,swatchseries.*,vidhidepro.com,vidply.com,watchflix
 9n8o.com,abstream.to,advertape.*,asnwish.com,bflix.*,bigwarp.*,cdn1.site,cloudnestra.com,dlhd.*,dudestream2.com,f16px.com,freestreams-live1.*,g9r6.com,gamehub.cam,hianime.*,ico3c.com,livecamrips.*,m1xdrop.net,magasavor.net,movielair.cc,moviesjoy.*,pkembed.*,rmaxfinishseveral.com,s1p1cd.com,savefiles.com,seeflix.*,seriesonline.*,stellarthread.com,streamingcommunityz.*,streamtape.*,strmup.*,ups2up.*,uqload.*,vide0.net,vidnest.fun,vidup.to,vidzy.*,vixcloud.*,voe.sx,watchug.*,xpornium.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sexvid.*#$#abort-on-property-read atob; abort-current-inline-script document.write /promo/; override-property-read window.diptr undefined; abort-on-property-read window.pu; abort-current-inline-script document.write iframe;
-bigclatterhomesguideservice.com,dramacool.sr,gogoanimes.*,hltv.org,japscan.me,maxfinishseveral.com,movies-watch.com.pk,nosteam.ro,readcomiconline.li,reputationsheriffkennethsand.com,root-nation.com,soap2day.*,solarmovie.*,toongod.com,watchseriestv.*,yomovies.*#$#abort-on-property-read window.open
+1377x.*,1flix.*,bigclatterhomesguideservice.com,cucuflix.*,doood.*,dooodster.*,dramacool.sr,gogoanimes.*,hltv.org,igetintopc.com,japscan.me,jasminetesttry.com,l1afav.*,maxfinishseveral.com,miraculous.to,movies-watch.com.pk,moviesapi.*,myflixerzz.*,nosteam.ro,primewire.*,readcomiconline.li,reputationsheriffkennethsand.com,root-nation.com,seaporn.org,sfile.mobi,soap2day.*,solarmovie.*,toongod.com,usersdrive.com,vid2faf.*,vidfast.*,vidlink.*,vidsrc.*,watchflix.*,watchseriestv.*,yomovies.*#$#abort-on-property-read window.open
 advertape.*,bigwarp.*,jilliandescribecompany.com,lauradaydo.com,luluvid.com,mangakakalot.gg,rule34.*,savefiles.com,vide0.net,voe.sx,walterprettytheir.com#$#abort-current-inline-script WebAssembly atob;
 torkitty.*#$#prevent-listener click handlePopunder
 /api/users/*&ev=*$script,domain=supjav.com
@@ -1095,7 +1015,6 @@ streamingcommunityz.*,watchflix.*#$#abort-on-property-read dispatchEvent; hide-i
 smashyplayer.*#$#abort-on-property-write cache_loader
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
-baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
 bagas31.info#$#abort-on-property-write atob
 gogoanimes.*,rarbg.to,rarbg2019.org,rarbgaccess.org,rarbgdata.org,rarbgget.org,rarbggo.org,rarbgmirror.com,rarbgmirror.org,rarbgmirrored.org,rarbgproxy.org,rarbgprx.org,rarbgto.org,rarbgunblock.com#$#abort-on-property-read LieDetector
 toon69.com#$#abort-on-property-read adConfig
@@ -1113,7 +1032,7 @@ vivo.sx#$#abort-current-inline-script Math
 hclips.com,hdzog.com,hotmovs.com,inporn.com,pornhits.com,porntop.com,senzuri.tube,thegay.com,thegay.tube,txxx.com,upornia.com,vjav.com,voyeurhit.com#$#abort-current-inline-script mz
 google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.*,strip2.co,usersporn.com#$#abort-on-property-read Object.prototype.initOnPlay; abort-current-inline-script __require /clickunder/; override-property-read Object.prototype.ads/mobiads undefined
 mrpornx.com,myyouporn.com#$#abort-current-inline-script eval String.fromCharCode
-gounlimited.to#$#abort-on-property-read atob
+baytorrent.eu.org,buzzheavier.com,europixhd.com,europixhd.net,extratorrent.st,file-up.org,flashbang.sh,force-download.com,force-download.es,force-download.net,gledajonline.net,gounlimited.to,hdeuropix.io,hdtube.porn,hentaihaven.icu,hentaikai.com,leaktape.*,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,trashbytes.net,uploadproper.com,uploadproper.net,yts-official.*,yts.*,ytstv.me#$#abort-on-property-read atob
 0xxx.ws,cdn1.site,sxyprn.*#$#abort-current-inline-script decodeURI decodeURIComponent
 ianimes.co,ianimes.top#$#abort-on-property-read _0x522e
 ianimes.co,ianimes.top,upload.ee#$#abort-on-property-read adcashMacros
@@ -1160,7 +1079,7 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 boyjackpot.com,letsjerk.tv#$#abort-current-inline-script asgPopScript
-123movies-official.net,1film.to,animefrenzy.net,apkmody.io,atomohd.app,atomtt.com,d123movies.to,dsvplay.com,f2movies.to,fc2stream.tv,filmlinks4u.online,flemmix.*,gogoanime.*,goyabu.com,hentai20.com,kimcartoon.*,kisstvshow.to,lalamanga.com,mangadna.com,mangahere.onl,manganato.com,manhwax.com,mdfx9dc8n.net,movies123.sbs,movies123.studio,moviesjoy.*,oneupload.*,prmovies.*,readmanganato.com,soap2day.*,socialmediagirls.com,supremejav.com,tinyzonetv.to,tipfly.xyz,turbovidhls.com,udvl.com,ups2up.*,wiflix-max.site,wiflix.*,yomovies1.online#$#abort-on-property-read localStorage;
+123movies-official.net,1film.to,actvid.com,animefrenzy.net,apkmody.io,atomohd.app,atomtt.com,cineb.*,d123movies.to,dsvplay.com,f2movies.to,fc2stream.tv,filmlinks4u.online,flemmix.*,gogoanime.*,goyabu.com,hdtoday.*,hdtodayz.*,hentai20.com,kimcartoon.*,kisstvshow.to,lalamanga.com,mangadna.com,mangahere.onl,manganato.com,manhwax.com,mdfx9dc8n.net,movies123.sbs,movies123.studio,moviesjoy.*,oneupload.*,prmovies.*,readmanganato.com,soap2day.*,socialmediagirls.com,solarmovie.*,supremejav.com,tinyzonetv.to,tipfly.xyz,turbovidhls.com,udvl.com,upload4earn.org,uploadbyte.com,ups2up.*,vidbem.com,watchseries.*,wiflix-max.site,wiflix.*,yomovies1.online,yts-official.*,yts.*,zoechip.*#$#abort-on-property-read localStorage;
 fastconverter.net#$#abort-on-property-read afScript
 tpbay.*#$#abort-on-property-read _wm_settings
 footfetishvid.com,manga21plus.com,povaddict.com#$#abort-on-property-read a3klsam
@@ -1316,7 +1235,6 @@ showboxmovies.net,up4stream.*,uqload.*,xprime.tv#$#abort-current-inline-script d
 perezhilton.com##.lazy-ad-parent
 1flix.*#$#abort-current-inline-script Array.prototype.reduce;
 theflixertv.*#$#hide-if-matches-xpath './/div[@dir][@style][attribute::*[starts-with(name(), "data-")]]/ancestor-or-self::*[1]'
-mangago.*#$#abort-current-inline-script document.documentElement /break|case/
 /embed-1/e-1/banners|$xmlhttprequest,domain=actvid.rs|myflixerzz.tube
 streamcloud.my#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1839px; height: 1815px; z-index: 2147483647;"]/self::*[1]'
 /player/html.php?aid=*&video_id=*&referer=https*kissjav*^$domain=kissjav.li|kissjav.com
