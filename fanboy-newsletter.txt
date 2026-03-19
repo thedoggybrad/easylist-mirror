@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603190307
+! Version: 202603190339
 ! Title: Fanboy's Anti-Newsletter List
-! Last modified: 19 Mar 2026 03:07 UTC
+! Last modified: 19 Mar 2026 03:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 128fec895cc768bf2996cb47551ba075dd6d9559
+! Commit: b94044b74e0a4e076a6a9519e36e1fa6cf4f2aee
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3731,7 +3731,6 @@ railmarket.com##.w-md-100
 revolvermag.com##.w-newsletter-form
 backyardboss.net,givemesport.com,pocket-lint.com,thethings.com##.w-newsletter-in_article
 revolvermag.com##.w-newsletter-right-rail
-thegamer.com##.w-promotion-offer
 bodybuilding.com##.w21_middle-bar__newsletter
 elpais.com##.w_tx
 kyivindependent.com##.war-notes-banner
@@ -3958,6 +3957,7 @@ polygon.com,theverge.com##.duet--cta--newsletter
 ! :has
 spin.com##.border-backgrounds.flex.flex-wrap.border-t:has(form-container)
 emobilityplus.com##.sharedaddy
+androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hotcars.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.w-promotion-offer:has(.newsletter-promotion-large)
 polygon.com##[class]:has(> .duet--cta--newsletter)
 aarp.org#?#.recommendationSection:has-text(Newsletter)
 advancedsciencenews.com#?#.et_pb_row_1_tb_body:has-text(Sign up for our weekly newsletter)
