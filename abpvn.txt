@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ur7Au/WaHc80z4hcUxZehQ
-! Version: 202603191111
+! Checksum: A/p3w0n9TGEXuJnrDVqbrg
+! Version: 202603191121
 ! Title: ABPVN List
-! Last modified: 19 Mar 2026 11:11 UTC
+! Last modified: 19 Mar 2026 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 19 Mar 2026 16:21:12 UTC+7
-! Diff-Path: patches/20260319162112425.patch#abpvn
+! Last modified: 19 Mar 2026 18:16:20 UTC+7
+! Diff-Path: patches/20260319181620828.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1093,6 +1093,7 @@ vozer.io#@#[class^="div-gpt-ad"]
 @@||www.vipads.live/vn/c-1911-25.js$domain=lxmanga.space
 docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||26efp.com/js/dulak2.js$script,~third-party
+||activitiestourstravel.com^*.gif$image
 ||anhgaixinh.online^*.webp$image
 ||blogger.googleusercontent.com^*.gif$image,domain=www.gvnvh18z.com
 ||buomtv.media/palivn/ad/$image,~third-party
@@ -1120,7 +1121,6 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||javtopxx2.com^*.gif$image
 ||l1.stream4k.online^*.gif$image,domain=genzsex.blog
 ||laalmirchitakeaway.co.uk^*.gif
-||littlebasilco.com^*.gif$image
 ||lodgesincheshire.co.uk^*.gif$image
 ||lxmanga.space/storage/images/banners
 ||mangadm.cc$csp=script-src 'self' 'unsafe-inline' http
