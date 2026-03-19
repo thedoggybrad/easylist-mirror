@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 2E08e/JHVZbntc5ie0ok4A
-! Version: 202603191111
+! Checksum: NLuGRDvdYgGZ0VY2Bvp1lA
+! Version: 202603191121
 ! Title: ABP filters
-! Last modified: 19 Mar 2026 11:11 UTC
+! Last modified: 19 Mar 2026 11:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1599,7 +1599,6 @@ kuchnia.wp.pl#$#abort-on-property-read pbjs.libLoaded
 turystyka.wp.pl#$#abort-on-property-read pbjsChunk
 dom.wp.pl,facet.wp.pl#?#.view-first:-abp-has(a[onclick*="var img = document.createElement('img');"])
 o2.pl,wp.pl#?#div:-abp-has(> script:-abp-contains(adsFirstRegisterSlot))
-money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 money.pl,pudelek.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 parenting.pl#$#abort-on-property-read slot
 dom.wp.pl,facet.wp.pl,film.wp.pl,finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,kuchnia.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,teleshow.wp.pl,turystyka.wp.pl,wawalove.wp.pl,wiadomosci.wp.pl#$#abort-on-property-write window.INITIAL_STATE.ui
