@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WTyr0zrdusCe9sWWKQMCbQ
-! Version: 202603190001
+! Checksum: P0OxCUt1eAs9WEbqAXL9Ow
+! Version: 202603190011
 ! Title: EasyList China
-! Last modified: 19 Mar 2026 00:01 UTC
+! Last modified: 19 Mar 2026 00:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10985,7 +10985,7 @@ meijutt.*/js/pcjs/
 ||mwka.cc/static/gg.
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
-baidu.com##div[data-key="ad__0"]
+baidu.com##div[data-key^="ad__"]
 4hu.tv##.kkm-content
 vpstop.cn##a[href*="/ClickAd"]
 joyacg.top##a[href^="http"] > .img-fluid
