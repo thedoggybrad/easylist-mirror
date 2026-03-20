@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603202251
+! Version: 202603202307
 ! Title: EasyPrivacy
-! Last modified: 20 Mar 2026 22:51 UTC
+! Last modified: 20 Mar 2026 23:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: cc73ac1bb42f0fb3da79167f72f327b8c181bc23
+! Commit: c0eb757c40fc897bed4272fee659cf62a61d638a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1584,6 +1584,7 @@
 /mpulse.min.js
 /ms-widgets/tracking-cookies/*
 /ms.analytics-web-3.min.js
+/msq.tracker.min.js
 /mtc.js
 /mtifonttracker.js
 /mtiFontTrackingCode.js
@@ -2784,6 +2785,7 @@
 /whisper?event=
 /white_pixel.gif?
 /wildfire/i/CIMP.gif?
+/wix-code-telemetry-collector/*
 /wix-engage-visitors-
 /wlexpert_tracker.js
 /wmxtracker.js
@@ -15638,6 +15640,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nid.thetimes.com^
 ||nike.com/assets/measure/data-capture/
 ||nimbusweb.me/gtlytics.js
+||nixie.starlightnet.work^
 ||no9pldds1lmn3.soundcloud.com^
 ||noblocktape.com/stat/
 ||noodle.backmarket.io^
