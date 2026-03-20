@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RnX69v6BZ+mJXkKciPnS4g
-! Version: 202603201711
+! Checksum: KxKSjiDBT5SB5xddIxnnBQ
+! Version: 202603201721
 ! Title: EasyList without rules for adult sites
-! Last modified: 20 Mar 2026 17:11 UTC
+! Last modified: 20 Mar 2026 17:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -561,7 +561,7 @@
 /plugins/adrotate/*$script
 /plugins/ads/*$~xmlhttprequest
 /plugins/adsanity-$stylesheet
-/plugins/advanced-ads/*$domain=~transinfo.pl|~wordpress.org
+/plugins/advanced-ads/public/*$domain=~transinfo.pl|~wordpress.org
 /plugins/ane-banners-entre-links/*$script,stylesheet
 /plugins/ane-preroll$~xmlhttprequest
 /plugins/cactus-ads/*$script,stylesheet
@@ -23973,6 +23973,7 @@ browsershots.org#@#.advert_area
 ||cheestalto.net^
 ||cheesydrinks.com^
 ||cheesyreinsplanets.com^
+||cheetereringos.cyou^
 ||cheetieaha.com^
 ||cheetieautoecy.cyou^
 ||cheexatauss.net^
@@ -60520,6 +60521,7 @@ browsershots.org#@#.advert_area
 ||taperlyiuds.com^
 ||taperprague.cfd^
 ||tapingferocitymadeira.com^
+||tapingsbespice.cfd^
 ||tapioni.com^
 ||tapirmercerykiddush.cyou^
 ||tapistleech.cfd^
