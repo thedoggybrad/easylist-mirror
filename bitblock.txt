@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bGflvbrO6+F0Wj8nBQfr+w
-! Version: 202603211141
+! Checksum: dviGrqiYWUp4MJTpNCNO6A
+! Version: 202603211152
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Mar 2026 11:41 UTC
+! Last modified: 21 Mar 2026 11:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -485,6 +485,7 @@ useron.ru###jc > div[align="center"]
 i-ua.tv,lviv.ua###jursssocial
 vsebasni.ru###kn-podel
 argumenti.ru###left_social
+libertycity.net,libertycity.ru###lg-share
 google.com###lhn-friends
 google.com###lhn-recommendations
 beholder.pro###likeSocialNetworks
@@ -1102,6 +1103,7 @@ newformat.info##.dpsp-share-text
 2x2.su##.dropdown
 ag.ru##.dropdown_sharing
 starhit.ru##.ds-footer__social-icons
+libertycity.net,libertycity.ru##.dsc
 khl.ru##.e-header_social
 crowdrepublic.ru##.e-nets
 e1.ru##.e1-footer2__social
@@ -1536,7 +1538,7 @@ kg-portal.ru##.like_container
 echomsk.spb.ru##.like_wrp
 glavpost.com##.likebox-slider
 discover24.ru##.likebtn_container
-bolshoyvopros.ru,libertycity.net,libertycity.ru##.likes
+bolshoyvopros.ru##.likes
 paperpaper.ru##.likes--expanded
 imenie-home.ru,vamrecipes.ru##.likes-block_center
 autosiga.ru##.likes-block_right
@@ -2308,7 +2310,7 @@ cursorinfo.co.il,flacmor.ru,inoriginal.net##.social_block
 myslo.ru##.social_block_item
 sudostroenie.info##.social_btn_top
 sovsekretno.ru##.social_button
-kinogo.la##.social_buttons
+kinogo.la,libertycity.net,libertycity.ru##.social_buttons
 the-flow.ru##.social_counters
 newsauto.com.ua##.social_desc_item
 siteua.org##.social_groups
@@ -3273,7 +3275,6 @@ av.by#?#h4:-abp-has(> strong > noindex > a[href^="https://t.me/"])
 tverlife.ru#?#h5:-abp-contains(/поделись/i)
 mignews.com#?#h6:-abp-contains(/мы на facebook|поделиться/i)
 zenit-fk.ru##h6[class="posts__title text-center mb-4"]
-libertycity.net,libertycity.ru##header > div[class^="fon"]
 ura.news##header a[href^="https://max.ru/"]
 tvc.ru##header nav > a[class*=" bg-icon-"][target="_blank"]
 armeniasputnik.am,sputnik-abkhazia.info,sputnik-abkhazia.ru,sputnik-georgia.com,sputnik-georgia.ru,sputnik-news.ee,sputnik-ossetia.com,sputnik-ossetia.ru,sputnik-tj.com,sputnik.az,sputnik.by,sputnik.kg,sputnik.kz,sputnik.md,sputniknews-uz.com,sputniknews.cn,sputniknews.com,sputniknews.gr##iframe[src*="/files/tgparser/"]
@@ -5304,7 +5305,6 @@ board.if.ua##.cookieslayer
 kniazha.ua##.cookietxt
 the-village-kz.com,the-village.me,the-village.ru,village.com.ua##.copyright.cookie
 primamedia.ru##.countdown
-libertycity.net,libertycity.ru##.create_acc
 nikopolnews.net##.crestaPostsBox
 ukrsport.pro##.cs-subscribe
 erotix-tv.com##.cssload-loader
@@ -6056,7 +6056,6 @@ ppt.ru##.sub-tg
 finam.ru##.subScribeModal
 detector.media##.subformem
 detector.media##.submailchimp
-libertycity.net,libertycity.ru##.subr
 cta.ru,harpersbazaar.com.ua,mos-holidays.ru##.subs
 fn-volga.ru##.subs-block
 rockstargame.su##.subs-form
