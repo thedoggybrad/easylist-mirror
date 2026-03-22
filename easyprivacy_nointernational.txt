@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: XcqQ1A//FsLwYygRtX5SSw
-! Version: 202603221851
+! Checksum: Me6XUm8Q1qt+JZHLcpzMPA
+! Version: 202603221902
 ! Title: EasyPrivacy without international filters
-! Last modified: 22 Mar 2026 18:51 UTC
+! Last modified: 22 Mar 2026 19:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3005,7 +3005,7 @@ _WebVitalsReporter_
 /unagi.amazon.
 /usage/Clickstream?
 /usage/ReportEvent?
-! hellofresh / greenchef / everyplate
+! hellofresh / greenchef / everyplate / grok
 /otlp/traces
 ! Pinterest
 /_/_/logClientError/*
@@ -6055,6 +6055,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webgames.io/imp/
 ||webmasters.ksalsocial.online/pixel/
 ||websdk.appsflyer.com^
+||wa.appsflyersdk.com^
+||websdk.appsflyersdk.com^
+||banner.appsflyersdk.com^
+||fvalid.appsflyersdk.com^
+||onelinksmartscript.appsflyersdk.com^
 ||webservices.websitepros.com^
 ||webstats.thaindian.com^
 ||websuccess-data.com/tracker.js
@@ -7261,6 +7266,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||grabify.link/api/js
 ||graylog.prod.cams.run^
 ||grgnsht.nzxt.com^
+||grok.com/_data/v1/a/
+||grok.com/_data/v1/experiment/exposure
+||grok.com/_data/v1/events
+||grok.com/api/log_metric
 ||grokipedia.com/api/analytics
 ||grokipedia.com/api/ev
 ||grokipedia.com/api/stats
