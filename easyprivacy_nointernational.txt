@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WJdHgWLFrdhCsthO1qDFkA
-! Version: 202603230511
+! Checksum: hixmx6Pf284hi1YsZftHAQ
+! Version: 202603230522
 ! Title: EasyPrivacy without international filters
-! Last modified: 23 Mar 2026 05:11 UTC
+! Last modified: 23 Mar 2026 05:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -507,6 +507,7 @@
 /boomerang.js
 /boomerang/beacon
 /boomr.js
+/boost-pfs-analytics-custom.js
 /boost-sd-analytic.js
 /boost_stats.php
 /bootstrap/metrics.js
@@ -1495,6 +1496,7 @@
 /logviewedpage?
 /ls.gif?
 /lst/universal-script?ph=
+/lti-analytics-$script
 /lunametrics-
 /m.gif?
 /madAnalytics.js
@@ -5593,6 +5595,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.id.net/log
 ||t.irtyc.com^
 ||t.jobsyn.org^
+||t.ltiquery.com^
 ||t.mail.sony-europe.com/r/?
 ||t.menepe.com^
 ||t.metrilo.com^
