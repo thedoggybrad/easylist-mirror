@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DkSurBOKeKj3NiM4982PnQ
-! Version: 202603232021
+! Checksum: jsJ8eAXM89f3JVLdM1AISg
+! Version: 202603232031
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 23 Mar 2026 20:21 UTC
+! Last modified: 23 Mar 2026 20:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -26579,10 +26579,12 @@ browsershots.org#@#.advert_area
 ||avkauywgzdxlx.online^
 ||avlmy.com^
 ||avmmsekplixsk.space^
+||avohgtghfsery.space^
 ||avouchuramil.com^
 ||avpjihtkjsnfe.space^
 ||avpztadpi.in^
 ||avqovczcoanp.com^
+||avsubuialyavu.online^
 ||avthelkp.net^
 ||avuibxulygfyx.online^
 ||avvcaqgfiqaf.in^
@@ -92394,7 +92396,7 @@ uniladtech.com##[class^="advert-placeholder_advertPlaceholder"]
 nasdaq.com##[class^="btf_"]
 weather.us##[class^="dkpw"]
 dallasnews.com##[class^="dmnc_features-ads-"]
-pixabay.com##[class^="gettySponsoredImagesContainer"]
+pixabay.com##[class^="gettySponsored"]
 romhustler.org##[class^="leaderboard_ad"]
 filmibeat.com##[class^="oiad"]
 nofilmschool.com##[class^="rblad-nfs_content"]
@@ -93892,6 +93894,7 @@ etsy.com##[data-page-type="listing_page_similar_listings_row"]:has([id^="ad-list
 etsy.com##[data-page-type="market"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
+pexels.com##[data-testid="column"] [data-testid="item"]:has([data-text="Sponsored Photos"])
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
 samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
