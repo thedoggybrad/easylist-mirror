@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603232118
+! Version: 202603232120
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Mar 2026 21:18 UTC
+! Last modified: 23 Mar 2026 21:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 224a2c2a44e5fa1631dbb4624c907390c47c7cca
+! Commit: 869e54a4280ad7f7cbf6c8e935b55b4b170c4bd9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -40843,8 +40843,6 @@ wirexapp.com##wx-cookie-policy-notification
 ! history.com
 history.com,yunexpress.com##.p11s5o4
 history.com#?#[data-sentry-component="Box"]:has-text(Legal Terms and Privacy)
-! wildcard
-wildberries.*##.fixed-block__cookies
 ! Interest-Based Ads Notice
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.ie,amazon.pl###sp-cc-wrapper
 ! 
@@ -40883,6 +40881,7 @@ chapelle.co.uk,mtis.by,museum.nl,pyszne.pl##.cookie-overlay
 cam4.*##.EEoPD
 evertiq.*##.cc-container
 alza.*##.cookies-info
+wildberries.*##.fixed-block__cookies
 track.amazon.*##.wfbHK2
 ripley.*##div[class^="cookiesMessage_"]
 wayfair.*##div[data-hb-id="Modal"] > div > [data-test-id="CookiePreferenceNotification"]
