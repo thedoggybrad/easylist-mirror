@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: kyYX56wvJyRmTvpeHMovgg
-! Version: 202603231532
+! Checksum: xzY6JoDdwGh+JVULfwGOoQ
+! Version: 202603231542
 ! Title: ABP filters
-! Last modified: 23 Mar 2026 15:32 UTC
+! Last modified: 23 Mar 2026 15:42 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1278,6 +1278,7 @@ streamingcommunityz.*#$#abort-on-property-read document.head.append
 myflixerz.*#$#hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]';
 miraculous.to#$#prevent-listener hashchange; prevent-listener popstate
 calculator.taxadda.com#$#hide-if-matches-xpath './/img[contains(@src,"ad-images")]/parent::a[@target][@rel]/ancestor::div[@id]'
+virginiatech.sportswar.com#$#hide-if-matches-xpath './/a[contains(@href,"bit.ly")]/ancestor::div[contains(@id,"ad_")][1]'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1315,7 +1316,6 @@ suzusoku.blog.jp#$#abort-current-inline-script jQuery floatingAd; hide-if-matche
 onecall2ch.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad") or contains(@class,"2ad")]/self::div[1]'
 ||a8.net^$third-party,domain=suzusoku.blog.jp
 ||spiritednow.xyz/ad^$subdocument,domain=pressian.com
-@@||*/abd.js^$domain=simply-delicious-food.com
 appmedia.jp#$#hide-if-matches-xpath './/div[contains(@id,"ad_")]/parent::div[1]'
 ||i2ad.jp^$third-party,domain=appmedia.jp
 ! Korean sites
