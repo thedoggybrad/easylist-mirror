@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Kufq2ONAkcmQaYRCzURY6Q
-! Version: 202603240521
+! Checksum: Behs4AI3OAiebfk/34sHGw
+! Version: 202603240532
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 24 Mar 2026 05:21 UTC
+! Last modified: 24 Mar 2026 05:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -27779,6 +27779,7 @@ browsershots.org#@#.advert_area
 ||bnrslks.com^
 ||bnserving.com^
 ||bnsirwpidbpao.online^
+||bnwhvweqqnisa.online^
 ||bnwqxlwbfyeho.online^
 ||bnynihjbciywe.online^
 ||boannre.com^
@@ -28194,6 +28195,7 @@ browsershots.org#@#.advert_area
 ||bruteportrait.com^
 ||brutishlylifevoicing.com^
 ||brutuzzzymudq.world^
+||bruzzexacter.com^
 ||brygella.com^
 ||brzbrjycauqcf.site^
 ||brzjthsubtlwj.site^
@@ -94942,6 +94944,7 @@ pushsquare.com#?#span:has-text(or Subscribe)
 qvc.com#?#.qModule:has-text(Sponsored)
 rclone.org#?#.card:has(.card-header:has-text(Sponsor))
 regex101.com#?#div > header + div > div + div:has-text(Sponsors)
+rome2rio.com#?#[data-testid="hotel-list-item"]:has-text(Ad)
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:has-text(Ad)
 sainsburys.co.uk#?#.pt-grid-item:has([data-testid="citrus-label"]:has-text(Sponsored))
 sainsburys.co.uk#?#section header[data-test="c006-container-wrapper"]:has-text(Sponsored)
