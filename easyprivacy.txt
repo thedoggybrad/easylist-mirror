@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603232352
+! Version: 202603232357
 ! Title: EasyPrivacy
-! Last modified: 23 Mar 2026 23:52 UTC
+! Last modified: 23 Mar 2026 23:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b7cb0c3f5f419571bd88b93163057703560784e5
+! Commit: a2d07258b7c7605ba90882afdb8811656ab1ba6f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1094,6 +1094,7 @@
 /geoip_cc
 /geoLocationData/v1/*
 /geov2.js
+/get/live/web/_/*$script,~third-party
 /get_geoip?
 /get_site_data?requestUUID=
 /getbglog.js
