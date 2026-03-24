@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nsuirx7pm7Pg7J12qp3xkA
-! Version: 202603241121
+! Checksum: qDbHEqTMZSu7kxH5pjn9Gw
+! Version: 202603241132
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 24 Mar 2026 11:21 UTC
+! Last modified: 24 Mar 2026 11:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -28839,6 +28839,7 @@ browsershots.org#@#.advert_area
 ||ccc9c93083.com^
 ||cccc5a2b7f.com^
 ||cceotabubmypm.online^
+||ccfffmfxhiopu.site^
 ||ccfvhquaynxcp.space^
 ||ccgateway.net^
 ||ccjfxvnyiqcfv.space^
@@ -28848,6 +28849,7 @@ browsershots.org#@#.advert_area
 ||ccoyaballots.com^
 ||ccpdaindrmyyx.online^
 ||ccresqutyc.com^
+||ccrjgfkrpeifj.space^
 ||ccshymxkbepsl.online^
 ||ccsopjyfopbtv.website^
 ||cctpyneuuiuwn.site^
@@ -97002,7 +97004,7 @@ gamcore.com##li.d-md-block > a[rel]
 !! pubads.g.doubleclick.net/ondemand/hls/
 @@||pubads.g.doubleclick.net/ondemand/hls/$domain=history.com
 !! ||imasdk.googleapis.com/js/core/bridge
-@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~airtelxstream.in|~danet.vn|~spotify.com
 !! ||imasdk.googleapis.com/pal/sdkloader/pal.js
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv|stirr.com|tunein.com
 !! imasdk.googleapis.com/js/sdkloader/ima3_debug.js
