@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603241121
+! Version: 202603241128
 ! Title: EasyList
-! Last modified: 24 Mar 2026 11:21 UTC
+! Last modified: 24 Mar 2026 11:28 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8bb0c807fb4f5afce3f409b83185ffba2fe6b074
+! Commit: a7996023b53ab27a0b7b6efc3b520c1886bd5abd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -20829,6 +20829,7 @@ browsershots.org#@#.advert_area
 ||ccoyaballots.com^
 ||ccpdaindrmyyx.online^
 ||ccresqutyc.com^
+||ccrjgfkrpeifj.space^
 ||ccshymxkbepsl.online^
 ||ccsopjyfopbtv.website^
 ||cctpyneuuiuwn.site^
@@ -88983,7 +88984,7 @@ gamcore.com##li.d-md-block > a[rel]
 ! ! pubads.g.doubleclick.net/ondemand/hls/
 @@||pubads.g.doubleclick.net/ondemand/hls/$domain=history.com
 ! ! ||imasdk.googleapis.com/js/core/bridge
-@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~airtelxstream.in|~danet.vn|~spotify.com
 ! ! ||imasdk.googleapis.com/pal/sdkloader/pal.js
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv|stirr.com|tunein.com
 ! ! imasdk.googleapis.com/js/sdkloader/ima3_debug.js
