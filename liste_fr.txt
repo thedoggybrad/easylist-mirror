@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w5Tp3nl96iRHz0e/DL3Rdw
-! Version: 202603240622
+! Checksum: p8FzOe8xiPQM/x40YzE5bA
+! Version: 202603240632
 ! Title: Liste FR
-! Last modified: 24 Mar 2026 06:22 UTC
+! Last modified: 24 Mar 2026 06:32 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -14821,6 +14821,7 @@ carrefour.fr##.ds-carousel-refonte__slide:has([id*="data-advertising-sponsored-p
 planetegrandesecoles.com##.elementor-element:has(picture.attachment-full.size-full)
 auchan.fr##.hp-banner:has(.hp-banner__message-sponsored)
 frandroid.com##.is-hidden-mobile:has([class^="Billboard"])
+carrefour.fr##.lc-banner:has([src*="ressources.luckycart.com"])
 radio-canada.ca##.max-w-150:has(.srcPubZone)
 leroymerlin.fr##.ml-container:has(> [data-st-type*="sponsored caroussel"])
 zebulon.fr##.penci-feed:has(a[href*="/sponso-"])
@@ -14831,6 +14832,7 @@ e.leclerc##.product-container:has(.ad-product)
 nocibe.fr##.product-grid-column:has(.product-tile__sponsored)
 carrefour.fr##.product-list-grid__item:has(.product-list-card-plp-grid__sponsored)
 carrefour.fr##.product-list-grid__item:has([id*="data-advertising-sponsored-products"])
+boulanger.com##.product-list__item:has(.product-list__product-sponsored)
 frandroid.com##.sticky-content:has([class^="HalfpageAd"])
 1337x.cz,cpasbien4.com,extreme-down.party,mega-torrent1.com,mega-torrent6.com,nextorrent4.com,nortorrent.com,nortorrent4.com,nortorrent6.com,oxtorrent2.com,rantop.cc,torrent-p2p.my,torrent-site.com,ultimate-torrent1.com,yggtorrent3.com,yggtorrents.top,zetorrents1.com,zktorrent.support,zktorrent3.com,zone-torrent2.com#?#a:-abp-contains(/ANONYME|Anonyme|anonyme|gratuits|PREMIUM|Premium|premium|RAPIDE|Rapide|Usenet|VPN|Vpn/)
 1337x.cz,cpasbien4.com,mega-torrent1.com,mega-torrent6.com,nextorrent4.com,nortorrent.com,nortorrent4.com,nortorrent6.com,oxtorrent2.com,rantop.cc,torrent-p2p.my,torrent-site.com,ultimate-torrent1.com,yggtorrent3.com,yggtorrents.top,zetorrents1.com,zktorrent.support,zktorrent3.com,zone-torrent2.com#?#div[style]:-abp-contains(/adsby|ANONYME|Anonyme|anonyme|gratuits|premium|Usenet|VPN|Vpn/)
