@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: m3rX1VvPZawG+7CNg7PYkw
-! Version: 202603241011
+! Checksum: 2+5YYPTL97K0H6OJJAFeeg
+! Version: 202603241021
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 24 Mar 2026 10:11 UTC
+! Last modified: 24 Mar 2026 10:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5628,6 +5628,7 @@ lib.rus.ec##.lsp-overlay
 tribuna.kr.ua##.ltteleg-overlay
 psm7.com##.m-cookies
 premier.one##.m-notifications-container
+gazeta.press,gazeta.ru##.m_articles
 marieclaire.ru,maximonline.ru,vokrugsveta.ru##.magazine__links
 psychologies.ru##.magazine__links-block
 zorbasmedia.ru##.mail
@@ -6791,6 +6792,7 @@ amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskm
 auto.ru##li[class^="PersonalizedFeedUgcLogbookItem-"]
 thetruestory.news#?#main > div:-abp-has(> div > a[href="/cookies"])
 novayagazeta.ru#?#main > div:-abp-has(> svg[height][width="10000"])
+fontanka.ru#?#main div:-abp-has(> a[href] > div[class^="number_"])
 bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"])
 bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"]) + div
 bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"]) + div + figure
