@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: g6pD1P5JtVzDPDd3wakKfQ
-! Version: 202603241222
+! Checksum: 9VQXGu4KI0XClwaKjpIq1w
+! Version: 202603241232
 ! Title: ABP filters
-! Last modified: 24 Mar 2026 12:22 UTC
+! Last modified: 24 Mar 2026 12:32 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -84,35 +84,35 @@ iprima.cz#$#hide-if-matches-xpath '//p[@class="appendix"][text()="Reklama"]/pare
 ?v127|$script,domain=iprima.cz
 /area=halfpagead$xmlhttprequest,domain=iprima.cz
 /area=branding$xmlhttprequest,domain=iprima.cz
-ahaonline.czinfo.cz,onetv.cz##.inserted_rtb
-ahaonline.czinfo.cz,onetv.cz##[id^="ad-"]
-ahaonline.czinfo.cz,onetv.cz##[data-track-ad]
-ahaonline.czinfo.cz,onetv.cz##leaderBoard
-ahaonline.czinfo.cz,onetv.cz##.movingAd
-ahaonline.czinfo.cz,onetv.cz###brandingCreativeWrapper
-ahaonline.czinfo.cz,onetv.cz##[data-google-container-id], .is_stuck
-ahaonline.czinfo.cz,onetv.cz##a[href*=";adfibeg="]
-ahaonline.czinfo.cz,onetv.cz#?#div:-abp-has(>[class$="selfpromo"])
-ahaonline.czinfo.cz,onetv.cz##[class^="stickyContentBottom_"]
-ahaonline.czinfo.cz,onetv.cz##.ad__in
-ahaonline.czinfo.cz,onetv.cz##.ad-skywrapper
-ahaonline.czinfo.cz,onetv.cz##iframe[id^="iframeWrapper-"]
-ahaonline.czinfo.cz,onetv.cz##[class^="ad "]
-ahaonline.czinfo.cz,onetv.cz##a[href*="Banner"]
-ahaonline.czinfo.cz,onetv.cz##a[href*="pubsrcid="]
-ahaonline.czinfo.cz,onetv.cz##a[href*="banner"]
-ahaonline.czinfo.cz,onetv.cz##.sticky-content
-ahaonline.czinfo.cz,onetv.cz###leader_board
-ahaonline.czinfo.cz,onetv.cz##.ad-skyscrapper
-ahaonline.czinfo.cz,onetv.cz###Moitor-1
-ahaonline.czinfo.cz,onetv.cz##div[style*="_banner_branding_cnc_"]
-ahaonline.czinfo.cz,onetv.cz###banner_id
-ahaonline.czinfo.cz,onetv.cz###banner
-ahaonline.czinfo.cz,onetv.cz###creativelink
-ahaonline.czinfo.cz,onetv.cz##.rollWrapper
-ahaonline.czinfo.cz,onetv.cz###ValRageBottom
-ahaonline.czinfo.cz,onetv.cz##a[href*="branding"]
-ahaonline.czinfo.cz,onetv.cz#?#div:-abp-has(>a[href$="/personalizovana-reklama/"])
+onetv.cz##.inserted_rtb
+onetv.cz##[id^="ad-"]
+onetv.cz##[data-track-ad]
+onetv.cz##leaderBoard
+onetv.cz##.movingAd
+onetv.cz###brandingCreativeWrapper
+onetv.cz##[data-google-container-id], .is_stuck
+onetv.cz##a[href*=";adfibeg="]
+onetv.cz#?#div:-abp-has(>[class$="selfpromo"])
+onetv.cz##[class^="stickyContentBottom_"]
+onetv.cz##.ad__in
+onetv.cz##.ad-skywrapper
+onetv.cz##iframe[id^="iframeWrapper-"]
+onetv.cz##[class^="ad "]
+onetv.cz##a[href*="Banner"]
+onetv.cz##a[href*="pubsrcid="]
+onetv.cz##a[href*="banner"]
+onetv.cz##.sticky-content
+onetv.cz###leader_board
+onetv.cz##.ad-skyscrapper
+onetv.cz###Moitor-1
+onetv.cz##div[style*="_banner_branding_cnc_"]
+onetv.cz###banner_id
+onetv.cz###banner
+onetv.cz###creativelink
+onetv.cz##.rollWrapper
+onetv.cz###ValRageBottom
+onetv.cz##a[href*="branding"]
+onetv.cz#?#div:-abp-has(>a[href$="/personalizovana-reklama/"])
 ||domnovrek.com^$third-party
 /partnerJsApi/v3?previousZHashes=&hash=*&clbk=sklik$script,domain=ahaonline.cz|info.cz|onetv.cz
 &uid=ssp-$script,domain=ahaonline.cz|info.cz|onetv.cz
@@ -254,29 +254,29 @@ novinky.cz##img[src*="1T4PK70hS2C"]
 novinky.cz,sport.cz,super.cz##.barMan
 novinky.cz,seznamzpravy.cz,sport.cz##div[data-adtrackingtemporaryurl]
 novinky.cz,seznamzpravy.cz,sport.cz##div[style="background-color: rgb(255, 255, 255);"] > a[href][target="_blank"]
-ahaonline.czinfo.cz,onetv.cz##a[href*="verdsi="][href*="&ip="]
-ahaonline.czinfo.cz,onetv.cz##[href*="&token="][target="_blank"]
-ahaonline.czinfo.cz,onetv.cz##a[href^="//api.mgid.com/"]
-ahaonline.czinfo.cz,onetv.cz##div[style*='background-image: url("https://www.']
-ahaonline.czinfo.cz,onetv.cz##.ad-skycrapper
-ahaonline.czinfo.cz,kinobox.cz,onetv.cz##[id*="Adform"]
-ahaonline.czinfo.cz,onetv.cz##div[style*="background-image"][style*="branding"]
-ahaonline.czinfo.cz,onetv.cz##.article-advertisement
-ahaonline.czinfo.cz,onetv.cz##div[id^="cnc-"][class^="cnc-"]
-ahaonline.czinfo.cz,onetv.cz##div[class$="-banner"]
+onetv.cz##a[href*="verdsi="][href*="&ip="]
+onetv.cz##[href*="&token="][target="_blank"]
+onetv.cz##a[href^="//api.mgid.com/"]
+onetv.cz##div[style*='background-image: url("https://www.']
+onetv.cz##.ad-skycrapper
+kinobox.cz,onetv.cz##[id*="Adform"]
+onetv.cz##div[style*="background-image"][style*="branding"]
+onetv.cz##.article-advertisement
+onetv.cz##div[id^="cnc-"][class^="cnc-"]
+onetv.cz##div[class$="-banner"]
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##div[id$="horiz"]
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##iframe[src*=" javascript: window"]
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##.pe-banner
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##.advert
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="?action=ppl&cid="]
-ahaonline.czinfo.cz,onetv.cz##div[style*="background-image: url("][style*="background-repeat: no-repeat;"]
+onetv.cz##div[style*="background-image: url("][style*="background-repeat: no-repeat;"]
 ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,onetv.cz##a.tracked-event[data-tid]
 ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,onetv.cz##a.tracked-event[href*="&tcid="]
 ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz###ads-leader, #ads-leader-board
 ahaonline.cz,info.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##.foto-iframe-ads
-ahaonline.czinfo.cz,onetv.cz#?#div:-abp-has(>small:-abp-contains(Reklama))
-ahaonline.czinfo.cz,fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="?adurl="]
-ahaonline.czinfo.cz,fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="mondor_hopToSeti"]
+onetv.cz#?#div:-abp-has(>small:-abp-contains(Reklama))
+fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="?adurl="]
+fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="mondor_hopToSeti"]
 ||d49-a.sdn.cz^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
 ||userscontent.com^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
 horoskopy.cz,seznamzpravy.cz#$#hide-if-matches-xpath '//iframe[@src][@id]/parent::div[@class]/ancestor-or-self::div[@class][1][not(starts-with(@class,"twitter"))]'
