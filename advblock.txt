@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7Mc8cOsIV5ZL3g3LPIjlpA
-! Version: 202603251611
+! Checksum: SqlJpwS5aCS7c71MNXZtAQ
+! Version: 202603251622
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Mar 2026 16:11 UTC
+! Last modified: 25 Mar 2026 16:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23637,8 +23637,8 @@ flightsim.su###tie-popup-adblock {remove:true;}
 freesoft.ru###downloadAdModal {remove:true;}
 freesoft.ru###error.modal {remove:true;}
 growhow.in.ua###custom-background-css {remove:true;}
-ixbt.*###branding-ssr-style {remove:true;}
 ixbt.*##.clickable_zone {remove:true;}
+ixbt.*##style[id^="branding-"] {remove:true;}
 lenta.*##.topic-body__content> .box-external-video:last-child {remove:true;}
 lenta.*##.topic-footer > div[class^="box-"][class$="-video"] {remove:true;}
 lenta.*##.vk-video-popup {remove:true;}
