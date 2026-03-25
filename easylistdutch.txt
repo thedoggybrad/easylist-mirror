@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tARR3C4SpNs0dk72KowfQQ
-! Version: 202603251822
+! Checksum: ooZjHnwTayrPTXGju2nPbA
+! Version: 202603251831
 ! Title: EasyList Dutch
-! Last modified: 25 Mar 2026 18:22 UTC
+! Last modified: 25 Mar 2026 18:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -1511,6 +1511,7 @@ ah.nl##.product-card-portrait_root__ZiRpZ:has(.promotion_root__pAAlu)
 tvgids.nl##.square-item:has( > .banner)
 plus.nl##a[data-link]:has(.sponsored-product)
 agconnect.nl#?#.c-teaser:has(.c-pill--partner)
+mediamarkt.*##aside[class="sc-a2fcee8-0 fmYGst"]:has(button[aria-label="Lees meer over productsponsoring"])
 delhaize.be#?#.product-item:has-text(Gesponsord)
 androidplanet.nl##div[data-name="post"]:has(div[data-name="sponsor-logo"])
 krefel.be#?#div[class^="Flex-styled__StyledFlex-"]:has(h3:has-text(Gesponsorde producten))
