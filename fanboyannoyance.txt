@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603260053
+! Version: 202603260057
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 Mar 2026 00:53 UTC
+! Last modified: 26 Mar 2026 00:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 81598d73e2691619ab6ef1a02a48de1600d240d4
+! Commit: 9cd037f9b55d92f4cfa0ec1477c59db077dfda95
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1551,6 +1551,7 @@ _social_footer_
 /plugins/ct-ultimate-gdpr/assets/*
 /plugins/easy-wp-cookie-popup/*
 /plugins/gdpr/dist/js/public.js
+/plugins/humanoid-didomi/build/*$script
 /plugins/responsive-cookie-consent/*$script
 /plugins/uncode-privacy/*$script
 /plugins/webtoffee-gdpr-cookie-consent/*$script
@@ -41137,7 +41138,7 @@ freshcart.se,ninelife.no,store.pw.live##.FeatureBar_root___INU8
 ! ! .v-overlay
 abnt.org.br,adressen.schober.de,andyguitar.co.uk,bimedis.ru,ichbindeinauto.de,order.fiveguys.fr,promotionbasis.de,rypsv.scot,trustpid.com##.v-overlay
 ! ! Cookie_
-10x.co.za,appmetrica.yandex.com,sook.space##[class^="Cookie_"]
+10x.co.za,afpintegra.pe,appmetrica.yandex.com,sook.space##[class^="Cookie_"]
 ! ! .tws-accept-cookies--wrapper
 antiquebike.se,davidsonsskomakeri.com,rocksmineral.se,smallgarden.hu,talkymode.com##.tws-accept-cookies--wrapper
 ! ! .cookie123-popup
@@ -47167,7 +47168,7 @@ supersamsev.ru##.cookie-consent-container-wrap
 lk-new.vtbnpf.ru##.cookie-layout
 rutube.ru##.cookie-message-module__cookie-consent
 sponsr.ru##.cookie-site-alert
-fc-baltika.ru##.cookie-wrap
+fc-baltika.ru,sterlegrad.ru##.cookie-wrap
 korusconsulting.ru##.cookieConfirm
 rusnano.com##.cookie__in
 gostest.com##.cookie__open
