@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603260057
+! Version: 202603260104
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 Mar 2026 00:57 UTC
+! Last modified: 26 Mar 2026 01:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9cd037f9b55d92f4cfa0ec1477c59db077dfda95
+! Commit: 1efedcdeb25f4ba24392d9629acab136b3a9583e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -39212,6 +39212,7 @@ currencyrate.today##.cc-alert
 citymapia.com##.cc-backdrop
 viralnova.com##.cc-banner
 coopsleepgoods.com,dirdirect.com,koodous.com,nuts.com,rotapanel.com##.cc-bottom
+speedof.me##.cc-consent-toast
 cambridgeinternational.org,cattoiauto.com,myo.it,trafficengland.com##.cc-cookies
 wallpapershome.com##.cc-dialog
 download.pixelexperience.org##.cc-dismiss.cc-btn
@@ -41031,7 +41032,7 @@ arionbanki.is,betfair.com.au###cookie-holder
 ! ! .page-wrap--cookie-permission
 artx.at,battlemerchant.com,bienen-voigt.de,blitzhandel24.it,boschettileo.com,furnster.de,gartenteiche-fockenberg.de,hardwarebro.de,heilkraft.online,hiq24.de,hupfer.com,kdvisual.it,kellereikaltern.com,messerworld.de,mm-aquaristik.de,office-partner.de,originalteilemarkt.de,reifen-felgen.de,sixpack-racing.com,tangaland24.de,tiefenbach-it.com,tomodachi-koifutter.de,woodpower.company##.page-wrap--cookie-permission
 ! ! #ensNotifyBanner
-beerwulf.com,bhphotovideo.com,binekarac.vw.com.tr,cheq.ai,distrelec.de,experianidentityservice.co.uk,fidelity.de,jal.co.jp,jrhotelgroup.com,kornferry.com,latimes.com,nisshin-seifun-welna.com,norton.com,rac.co.uk,rs-online.com,scotsman.com,surfeasy.com,theworks.co.uk,volkswagen.ch,vueling.com,vw.com,vw.com.br###ensNotifyBanner
+beerwulf.com,bhphotovideo.com,binekarac.vw.com.tr,cheq.ai,distrelec.de,experianidentityservice.co.uk,fidelity.de,jal.co.jp,jrhotelgroup.com,kornferry.com,latimes.com,nisshin-seifun-welna.com,norton.com,rac.co.uk,rs-online.com,scotsman.com,surfeasy.com,theworks.co.uk,volkswagen.ch,vueling.com,vw.com,vw.com.br,worldmarket.com###ensNotifyBanner
 ! ! #ensBannerBG
 experianidentityservice.co.uk###ensBannerBG
 ! ! #ensConsentWidget
@@ -41195,6 +41196,8 @@ brightree.com,cgtrader.com,configserverfirewall.com,delo.si,dialight.com,evgo.co
 cambash.com,massivecams.com,nordforme.org,nordvpn.com,streamate.com##[class^="GDPRConsent"]
 ! ! .modal-overlay
 delfi.ee,maxict.nl,mook.com.tw,paposertanejo.com,plus.pl,plushbezlimitu.pl,rolfsbuss.se,solresor.se,starcar.de,tandfonline.com##.modal-overlay
+! ! .cookie-wrap
+cht.com.tw,fc-baltika.ru,sterlegrad.ru##.cookie-wrap
 ! ! .cookie-wrapper
 azzas2154.com.br,bisecthosting.com,pickmypostcode.com##.cookie-wrapper
 ! ! .cc
@@ -45291,7 +45294,6 @@ news.pts.org.tw##.cookie-flex
 sf-express.com##.cookie-policy_cookiePolicyWrapper__cwbwV
 bewildcard.com##.cookie-policy_cookiePolicy__iVL65
 hozonauto.com##.cookie-tips
-cht.com.tw##.cookie-wrap
 hkbu.edu.hk##.cookies-consent-banner
 unity.cn##.cookies-permission_2kEyTVGb
 news.tvb.com##.cookiesAgreeContainer
@@ -47168,7 +47170,6 @@ supersamsev.ru##.cookie-consent-container-wrap
 lk-new.vtbnpf.ru##.cookie-layout
 rutube.ru##.cookie-message-module__cookie-consent
 sponsr.ru##.cookie-site-alert
-fc-baltika.ru,sterlegrad.ru##.cookie-wrap
 korusconsulting.ru##.cookieConfirm
 rusnano.com##.cookie__in
 gostest.com##.cookie__open
@@ -47532,6 +47533,7 @@ lacentral.com###page-overlay
 scherzo.es###pdcc-modal-bg
 compartamos.com.mx###polCook
 palma.es###popupConsent
+portal.edu.gva.es###portaledu-policy-banner
 tusclasesparticulares.com###pp
 esenviseu.net###qLtempOverlay
 montepiedad.com.mx###static-cover
