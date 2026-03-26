@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603260152
+! Version: 202603260204
 ! Title: EasyList
-! Last modified: 26 Mar 2026 01:52 UTC
+! Last modified: 26 Mar 2026 02:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 50066c73dac1cac9d4070a14047e3c29ee071774
+! Commit: be3269c11f77a942f104cd7f67016c7c03ea41cf
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -811,7 +811,6 @@
 ://s.*.com/venor.php$third-party
 ://sli.*/imp?s=$image
 ://uads.$third-party,xmlhttprequest
-?ab=1&zoneid=
 ?adl=1*&id=$script,subdocument,~third-party
 ?adspot_$domain=~sponichi.co.jp
 ?advertiser_id=$domain=~ads.pinterest.com
@@ -15677,6 +15676,7 @@ browsershots.org#@#.advert_area
 ||215a043303.com^
 ||218emo1t.de^
 ||21a3ff363a.com^
+||21f5f01ad3.com^
 ||21h7irg8zepr5klm1g.rest^
 ||21hn4b64m.de^
 ||21sexturycash.com^
@@ -28259,6 +28259,7 @@ browsershots.org#@#.advert_area
 ||f1dzpr7j.xyz^
 ||f1vp3m3exxhjq9vy.cfd^
 ||f24xu8blr9m2znr9eieghg7c8rgvqqviwv.cfd^
+||f270fefbd3.com^
 ||f29c4af968.com^
 ||f308e80f54.com^
 ||f31ymhnvg47fk7wf59gf3nw.cfd^
@@ -29945,6 +29946,7 @@ browsershots.org#@#.advert_area
 ||fresh-kind.com^
 ||fresh-watch.pro^
 ||fresh8.co^
+||freshesunwarp.com^
 ||freshideasflow.com^
 ||freshpops.net^
 ||fresnelraggery.cyou^
@@ -54043,6 +54045,7 @@ browsershots.org#@#.advert_area
 ||rqitcbzevctjq.space^
 ||rqkrzjtqpbdmr.store^
 ||rqlehijuiaoff.website^
+||rqmgessslopfy.online^
 ||rqmgmnvtcrkpf.website^
 ||rqmiihxww.com^
 ||rqoozzoatosaf.website^
@@ -86998,7 +87001,6 @@ thepinknews.com##.video-player__container
 tasty.co##.video-wrap
 miamiherald.com##.videoInstance
 dpreview.com##.videoWrapper
-consequence.net##.video_container
 gbnews.com,marketscreener.com##.vsly-player
 destructoid.com,wegotthiscovered.com##.wp-block-gamurs-ad
 f1oversteer.com##.wp-block-grvmedia-grv-video
