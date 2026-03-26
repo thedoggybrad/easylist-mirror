@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ZV3JYeNkQlqGnE07bZPSUQ
-! Version: 202603261342
+! Checksum: vEWvb/WrAxXlTGyB50pS5Q
+! Version: 202603261352
 ! Title: ABP filters
-! Last modified: 26 Mar 2026 13:42 UTC
+! Last modified: 26 Mar 2026 13:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1282,6 +1282,7 @@ virginiatech.sportswar.com#$#hide-if-matches-xpath './/a[contains(@href,"bit.ly"
 hqq.to###thispays {remove:true;}
 hqq.to##iframe[class="ppxls_awersd"] {remove:true;}
 hqq.to###bigplaybutxt {remove:true;}
+thegatewaypundit.com#$#abort-on-property-read navigator.userAgent false; abort-current-inline-script JSON.parse /decodeURI/
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1828,6 +1829,7 @@ animefenix.org,animeonline.ninja,audaciousdefaulthouse.com,pelisplushd.*,soap2da
 cuevana.*,cuevana3.*,cuevana4.*,pelisflixhd.art#$#abort-on-property-read window.open; override-property-read WebSocket undefined; abort-on-property-read BetterJsPop
 zonatmo.com#$#abort-current-inline-script String.fromCharCode 2147483647
 series24.*,tvporinternet2.com#$#abort-on-property-read aclib.runPop
+mundoperfecto.net#$#prevent-listener click preventDefault
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! *** abp-filters-anti-cv:turkish.txt ***
