@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603270754
+! Version: 202603270806
 ! Title: Fanboy's Annoyance List
-! Last modified: 27 Mar 2026 07:54 UTC
+! Last modified: 27 Mar 2026 08:06 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 97b07d57cc22b63019d8d87306c659cb4a158bf8
+! Commit: 18490e0287f41ba2aead8a32b67360a148ea6559
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -30713,6 +30713,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||storage-mart.com/sm-policy-banner.js
 ||stromnetz-hamburg.de/matomo/js/
 ||synology.com/js/syno/syno_cookie_element.js
+||t.soundcloudmp3.org/cs/consent.js
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|lavazzausa.com|santander.pl|swisscom.ch
 ||teamsimmer.com/wp-content/uploads/klaro/klaro.js
 ||technomedia.com/*/cookies.js$script,~third-party
@@ -32711,6 +32712,7 @@ bmwc.marv.jp###footer_badge-fixed
 m.economictimes.com###footer_banner
 imgur.com###getAppButton
 mercari.com###getTheAppFooter
+gsma.com###gsma-app-bottom-bar
 patreon.com###half-sheet-app-banner
 ventusky.com###header > .ii[href]
 aliexpress.com,aliexpress.us###header-float-banner
