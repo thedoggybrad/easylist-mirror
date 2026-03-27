@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: cTomg8mij2NW76BdMuDHBA
-! Version: 202603271522
+! Checksum: kJjgjibHUmYutjpAg5XXuA
+! Version: 202603271512
 ! Title: ABP filters
-! Last modified: 27 Mar 2026 15:22 UTC
+! Last modified: 27 Mar 2026 15:12 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1057,7 +1057,7 @@ vidmoly.*#$#override-property-read HTMLAnchorElement.prototype.click noopFunc; p
 apnetv.xys#$#abort-on-property-write adScript.src; abort-current-inline-script document.createElement loadScript
 krakenfiles.com#$#prevent-listener DOMContentLoaded window.location.href; override-property-read redirectUrls.length 0;
 abtranny.com#$#abort-current-inline-script document.createElement popunder_ssp_url; abort-current-inline-script document.createElement vast_url; override-property-read _834t32miib undefined
-seriesonline.*,vsembed.*,vidup.to,watchseries.*#$#abort-current-inline-script addEventListener HTMLAllCollection;
+seriesonline.*,vidup.to,watchseries.*#$#abort-current-inline-script addEventListener HTMLAllCollection;
 streamingcommunityz.*,watchflix.*#$#abort-on-property-read dispatchEvent; hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]';
 smashyplayer.*#$#abort-on-property-write cache_loader
 4anime.*#$#abort-current-inline-script eval /break;case \$\./
