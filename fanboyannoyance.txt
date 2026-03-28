@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603280332
+! Version: 202603280349
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Mar 2026 03:32 UTC
+! Last modified: 28 Mar 2026 03:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f50ea33bc09adf7b145df0d0530e0da1798bcb00
+! Commit: 2a7796d113509047089ea04fb338c6cb9686de42
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -37691,6 +37691,7 @@ breakingnews.ie##[aria-label="Instagram"]
 sfgate.com##[aria-label="Share from Email"]
 thejc.com##[aria-label="Share this article"]
 sfgate.com##[aria-label="Share to Twitter"]
+news.yahoo.com##[aria-label="Share"]
 breakingnews.ie##[aria-label="Twitter"]
 cyprus-mail.com##[class^="_googleNewsContainer_"]
 indiewire.com##[class^="_socialMedia_"]
@@ -37705,6 +37706,7 @@ sundayworld.com##[data-testid="article-share"]
 nytimes.com##[data-testid="social-group"]
 dw.com##[data-tracking-name="footer-section-social-media"]
 dw.com##[data-tracking-name^="sharing-icons-"]
+news.yahoo.com##[data-ylk="elm:partnercta;itc:0;sec:google-pub;"]
 mothership.sg##[height="73"]
 eteknix.com##[href="https://bit.ly/39WhWFF"]
 mothership.sg##[href="https://bit.ly/3KjTj94"]
@@ -39203,7 +39205,7 @@ moment.co##.c-hUKRYQ
 sigma-global.com##.c-info-pane__container
 okdo.com##.c-notification-bar
 loveholidays.com,loveholidays.ie##.c-o--
-shein.com##.c-onetrust-backup
+shein.co.uk,shein.com,shein.com.co,shein.com.mx##.c-onetrust-backup
 wehi.edu.au##.c-popup-alert
 rimowa.com##.c-rimpopin-wrapper--privacy
 hiltonheadisland.org##.c-site-alerts
@@ -41673,7 +41675,7 @@ haberturk.com##.bottom-14
 ! ! .bottom-16
 app.erevie.pl,fikfap.com,tweetdeleter.com##.bottom-16
 ! ! .bottom
-joom.com,labyrinthos.co,rshb.ru,travelbags.nl##.bottom
+joom.com,labyrinthos.co,rshb.ru,seattlepi.com,timesunion.com,travelbags.nl##.bottom
 ! ! .py-2 (mobile inapp uses .bottom-0.fixed)
 newsbreak.com##.py-2.px-2
 ! ! spoke
@@ -47292,6 +47294,7 @@ kamkabel.ru##.panel_152_wp
 pegast.ru##.pgs-top
 v3.ketogo.app##.pipe-cookie-consent
 finuslugi.ru##.plate___P4Xog
+reg.ru##.policy-info
 b-kontur.ru,kontur.ru##.policy-notification
 delo-vcusa.ru,izpn.ru##.policy-popup
 netlab.ru##.policy-warning
