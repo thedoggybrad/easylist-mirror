@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AMitFO6R9s0fjCb2CeTwuA
-! Version: 202603301031
+! Checksum: c+KdslGec4y/6fuMM6d75w
+! Version: 202603301041
 ! Title: EasyList without rules for adult sites
-! Last modified: 30 Mar 2026 10:31 UTC
+! Last modified: 30 Mar 2026 10:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -37388,6 +37388,7 @@ browsershots.org#@#.advert_area
 ||jayqbgfkdypmw.website^
 ||jaznthphugfwz.online^
 ||jaztjvsdxqxsu.website^
+||jazuoujihigip.site^
 ||jazzestyrosyl.cfd^
 ||jazzistagallop.com^
 ||jbalnemwgxsbp.space^
@@ -78932,6 +78933,7 @@ browsershots.org#@#.advert_area
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
 ||g.ibtimes.sg/sys/js/minified-video.js
+||gannett-player.ex.co^$domain=play.usatoday.com
 ||geo.dailymotion.com^$script,domain=wol.gg
 ||go.trvdp.com^$domain=~canaltech.com.br|~ig.com.br|~monitordomercado.com.br|~noataque.com.br|~oantagonista.com.br|~olhardigital.com.br|~omelete.com.br
 ||imgix.video^$domain=inverse.com
@@ -80551,7 +80553,7 @@ realityblurb.com##.Desktop-Sticky
 tweaktown.com##.DesktopRightBA
 dormtherapy.com##.DesktopStickyBanner
 yandex.com##.DirectFeature
-games.mashable.com,games.washingtonpost.com##.DisplayAd__container___lyvUfeBN
+games.mashable.com,games.usatoday.com,games.washingtonpost.com##.DisplayAd__container___lyvUfeBN
 additivemanufacturing.media,compositesworld.com,ptonline.com##.DisplayBar
 icodrops.com##.Feature-Line
 thedailybeast.com##.Footer__coupons-wrapper
@@ -80631,6 +80633,7 @@ forum.ragezone.com##.RZBannerUnit
 barrons.com##.RenderBlock__AdWrapper-sc-1vrmc5r-0
 whatcar.com##.ReviewHero_mastheadStyle__Bv8X0
 newser.com##.RightRailAds
+games.usatoday.com##.RightRailDeprecated__displayAdRight___byqVgMD_
 games.mashable.com##.RightRail__displayAdRight___PjhV3mIW
 clutchpoints.com##.RzKEf
 toonstream.co##.SH-Ads
@@ -86597,6 +86600,7 @@ kohls.com##astro-island[component-export="KmnMarqueeBannerWrapper"]:has(img[alt=
 boatnews.com#?#div.p:has-text(Advertising)
 creepypasta.com##center:has(+ #ad-container-1)
 hashrate.no##center:has(.sevioads)
+majorgeeks.com##div > [style]:has([style]:has([href*="&utm"]))
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div > div:has([data-testid="banner-spr-label"])
 inverse.com##div > p + div:has(amp-ad)
 outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
@@ -87005,6 +87009,7 @@ thecooldown.com##.wp-block-tcd-multipurpose-gutenberg-block
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
 global.espreso.tv##.ym-video--wrapper
+play.usatoday.com##.zdFVI1__zdFVI1
 canucksarmy.com##[data-injection="stn-video"]
 totalprosports.com##[data-stn-player="n2psbctm"]
 wired.com##[data-testid="cne-interlude-container"]
