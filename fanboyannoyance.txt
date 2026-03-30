@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603301035
+! Version: 202603301042
 ! Title: Fanboy's Annoyance List
-! Last modified: 30 Mar 2026 10:35 UTC
+! Last modified: 30 Mar 2026 10:42 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8d19fe4d865a2940694a08073b4e3ae99be731de
+! Commit: 845d8116a0bcfc95a73ec3fc4c4863fc41aa036f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -41129,7 +41129,7 @@ bodyrelax.day,chefseasons.com,eurozet.pl,eyezy.com,idnes.cz,tidal.com,tuhh.de##.
 ! ! #headband
 maidenfrance.fr,plurielmedia.com###headband
 ! ! .lawcookie
-kaluga-poisk.ru,vologda-poisk.ru##.lawcookie
+cher-poisk.ru,kaluga-poisk.ru,vologda-poisk.ru##.lawcookie
 ! ! PrivacyBanner_
 holidayinnclub.com,payloadcms.com##[class^="PrivacyBanner_"]
 ! ! #pandectes-banner
@@ -41871,6 +41871,7 @@ givefreely.com##div:has(.CookieConsent)
 yogainternational.com##div[class^="elements__Banner-"]:has(> div > a[href$="-privacy-policy"])
 eda.ru#?#.ejn6mx64.emotion-8zds09:has-text(cookies)
 elle.com,elledecor.com,esquire.com,goodhousekeeping.com,harpersbazaar.com,housebeautiful.com,menshealth.com,popularmechanics.com,prevention.com,redbookmag.com,roadandtrack.com,runnersworld.com,seventeen.com,townandcountrymag.com,veranda.com,womansday.com,womenshealthmag.com#?#.e91i7z92.css-c9oklo:has-text(We use technologies that provide information)
+etherpad.org#?#[role="dialog"]:has-text(This page uses)
 ev-mallorca.com#?#.bottom-0.fixed:has-text(This website uses cookies)
 fairwinds.org#?#.bg-white.flex-col.flex.fixed:has-text(Your Privacy is Important to Us)
 help.semmelweis.hu#?#.modal:has(h3:has-text(Sütik használata)):has(button:has-text(Elfogadás))
@@ -45077,6 +45078,7 @@ revmed.ch###ng-cc
 giappo.com###normativa
 altaprofits.com###notification
 store-opart.fr###ocw_conteneur
+vie-publique.fr###orejime
 ameliconnect.ameli.fr###pageConsentement
 cleasite.fr###panel-user-info
 pharmasimple.com###pharmabiscuit-popin
