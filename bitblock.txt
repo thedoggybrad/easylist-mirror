@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sxFuSgedvQ+VXnim6uExYQ
-! Version: 202603301542
+! Checksum: C07DRYVGTngoPkwf5A6p1g
+! Version: 202603301552
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 30 Mar 2026 15:42 UTC
+! Last modified: 30 Mar 2026 15:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2783,6 +2783,7 @@ cn.ru##[class*="socnets"]
 mash.ru##[class*="styles_shares_"]
 hromadske.radio##[class^="FollowBanner"]
 ainews.kz,hromadske.radio,rodina-history.ru##[class^="Footer_socials"]
+mir24.tv,newizv.ru##[class^="Socials_socials"]
 meduza.io##[class^="Toolbar-module_list"] > [class^="Toolbar-module_item"]:nth-child(-n+3)
 rg.ru##[class^="UmbrellaSocial_root_"]
 t-j.ru##[class^="_socials_"]
@@ -3106,7 +3107,7 @@ news.finance.ua##div[class^="ArticleShares"]
 auto.ru##div[class^="CardActions-"] > .HoveredTooltip__trigger:nth-child(2)
 igromania.ru,kanobu.ru##div[class^="CommonInnerHeader_header_pagetitle_right"] > [class] ~ div
 kanobu.ru##div[class^="Copyright_social_"] > a[target="_blank"]
-mir24.tv##div[class^="FooterTopSection_actions__subscribe"]
+mir24.tv##div[class^="FooterTopSection_TopSection__actions"]
 daily.afisha.ru##div[class^="Footer_Social"]
 uchi.ru##div[class^="Footer_footer__social"]
 tribuna.com##div[class^="Footer_footer__social-media"]
@@ -3131,7 +3132,6 @@ tribuna.com##div[class^="SharedSocialButtons"]
 tass.ru##div[class^="SocialLinks_wrapper"]
 daily.afisha.ru##div[class^="SocialPlate_Container"]
 atas.info,bel.ru##div[class^="Socials"]
-newizv.ru##div[class^="Socials_socials"]
 rg.ru##div[class^="StoryContentMainShare_root_"]
 start.rt.ru##div[class^="StyledFooterInfoBlockSocialIcons-"]
 atas.info,bel.ru##div[class^="Subscribe_subscribe"]
@@ -6448,7 +6448,6 @@ lifeha.ru##a[href="https://lifeha.ru/kursi-pro"]
 lifehacker.ru##a[href="https://redirect.appmetrica.yandex.com/serve/892107163701433566"]
 fastpic.org##a[href="https://static.fastpic.ru/FastPicUploader.apk"]
 ua-electro.com##a[href="https://ua-electro.com/podpiska/"]
-mir24.tv##a[href="https://www.tiktok.com/@mir24tv"] > img
 www.ukr.net##a[href][id$="op"][style]
 mk.ru##a[href][style*="/banners/subscribe-banner"]
 torrentfx.ru##a[href^="/go"][target="_blank"]
@@ -6605,7 +6604,6 @@ lockobank.ru##div[class^="CookiesBanner"]
 kuper.ru##div[class^="CookiesConcent_"]
 meduza.io##div[class^="EmailSubscription-module-root"]
 meduza.io##div[class^="Footer"][class*="form"]
-mir24.tv##div[class^="FooterTopSection_actions__download"]
 daily.afisha.ru##div[class^="Footer_App"]
 www.afisha.ru##div[class^="Footer_apps"]
 www.afisha.ru##div[class^="Footer_aside"]
