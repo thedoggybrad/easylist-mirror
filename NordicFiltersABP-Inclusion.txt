@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Rdo1aFpbgLWo6+Hsx32X1A
-! Version: 202603300732
+! Checksum: s/BHLP95u2zw6n86VzT52A
+! Version: 202603300742
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 30 Mar 2026 07:32 UTC
+! Last modified: 30 Mar 2026 07:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -60312,6 +60312,7 @@ browsershots.org#@#.advert_area
 ||qfqaybobravyc.website^
 ||qfqbznmeuztgs.website^
 ||qfqdbkxmovpli.xyz^
+||qfqgzbbjjutfs.site^
 ||qfuylknxlzlpv.online^
 ||qfvwrmnluepss.site^
 ||qfwwhelkdjaeu.buzz^
@@ -97203,7 +97204,7 @@ walmart.*#?#div > div[io-id]:has-text(Sponsored)
 walmart.*#?#div[role="group"]:has(div:has-text(/Sponsored|Commandité/))
 yelp.*#?#main[class^="searchResultsContainer"] li h2:has-text(Sponsored)
 yts.*#?#.bbj:has-text(Warning)
-yts.*#?#.col-lg-12:has-text(Please enable)
+yts.*#?#.col-lg-12:has-text(/Please enable|indirirken/)
 ! ABP CSS injection filters
 benzinga.com##.cUDaEv {margin-top:162px !important;}
 benzinga.com##.gZyLpV .mobile-header {margin-top:0 !important;}
