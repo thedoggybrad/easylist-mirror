@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Jxm07yjEhQFJ1ClVkV0jBQ
-! Version: 202603301241
+! Checksum: jq3R00aH4KtBr0wDyKG17Q
+! Version: 202603301252
 ! Title: ABP filters
-! Last modified: 30 Mar 2026 12:41 UTC
+! Last modified: 30 Mar 2026 12:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1061,6 +1061,7 @@ seriesonline.*,vsembed.*,vidup.to,watchseries.*#$#abort-current-inline-script ad
 streamingcommunityz.*,watchflix.*#$#abort-on-property-read dispatchEvent; hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]';
 smashyplayer.*#$#abort-on-property-write cache_loader
 4anime.*#$#abort-current-inline-script eval /break;case \$\./
+mov2day.*#$#abort-on-property-read LieDetector; abort-on-property-read window.open; abort-current-inline-script String.fromCharCode 2147483647
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -1325,6 +1326,7 @@ hqq.to###thispays {remove:true;}
 hqq.to##iframe[class="ppxls_awersd"] {remove:true;}
 hqq.to###bigplaybutxt {remove:true;}
 thegatewaypundit.com#$#abort-on-property-read navigator.userAgent false; abort-current-inline-script JSON.parse /decodeURI/
+updown.link#$#timer-override 1 offsetHeight noop timeout
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -2710,6 +2712,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||nitrogencloudelevationsystems.com^
 ||noemisnakier.com^
 ||nosydorymen.com^
+||nopahaes.com^
 ||novaleelds.com^
 ||nplaf.com^
 ||nubbycoolly.com^
