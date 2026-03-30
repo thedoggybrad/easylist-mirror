@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603300734
+! Version: 202603300739
 ! Title: EasyList
-! Last modified: 30 Mar 2026 07:34 UTC
+! Last modified: 30 Mar 2026 07:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d9e174af70edc736efd788de61a4a608b6f2353c
+! Commit: 21c7f1e51980369038269d384390100578eb1576
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -89069,7 +89069,7 @@ walmart.*#?#div > div[io-id]:has-text(Sponsored)
 walmart.*#?#div[role="group"]:has(div:has-text(/Sponsored|Commandité/))
 yelp.*#?#main[class^="searchResultsContainer"] li h2:has-text(Sponsored)
 yts.*#?#.bbj:has-text(Warning)
-yts.*#?#.col-lg-12:has-text(Please enable)
+yts.*#?#.col-lg-12:has-text(/Please enable|indirirken/)
 ! ABP CSS injection filters
 benzinga.com##.cUDaEv {margin-top:162px !important;}
 benzinga.com##.gZyLpV .mobile-header {margin-top:0 !important;}
