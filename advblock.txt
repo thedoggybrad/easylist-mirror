@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iw3fMqHjRIkJklK3ADfk9w
-! Version: 202603301102
+! Checksum: jE7kACYuzjlO6qd5P736AA
+! Version: 202603301111
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Mar 2026 11:02 UTC
+! Last modified: 30 Mar 2026 11:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24934,7 +24934,8 @@ www.ukr.net##iframe[src*="safemore.ukr.net/"]
 ||safemore.ukr.net^$subdocument
 ||safeview.ukr.net^$subdocument
 ! мобильная версия
-ukr.net##.lazy-load-banner
+www.ukr.net##[data-bn]
+www.ukr.net##[data-report-ad-id]
 !
 ! VK
 ! Паразиты (встраивают свою рекламу во вконтакт)
