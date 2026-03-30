@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 1zUhHGXxIMtT83nVSNEclw
-! Version: 202603301342
+! Checksum: oskJfBJWN7Vu3j+wqqK7TQ
+! Version: 202603301401
 ! Title: ABP filters
-! Last modified: 30 Mar 2026 13:42 UTC
+! Last modified: 30 Mar 2026 14:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1459,6 +1459,7 @@ mairesdefrance.com##div>a[href*="smartadserver.com"]
 fs-miroir6.lol##div[style^="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"] {remove:true;}
 journaldugeek.com#$#hide-if-matches-xpath './/div[contains(@class,"bg-neutral-100")]/following::div[contains(@id,"adslot")][@style]/ancestor::div[contains(@class,"text-center")]'
 fs14.lol,fss.lol#$#abort-current-inline-script String.fromCharCode 2147483647
+ledemondujeu.com#$#prevent-element-src-loading script player.fabster.com
 ! Popup/Popunder
 french-streams.com,down-paradise.com,mega-p2p.net,jetanimes.*,voirseries.*#$#abort-on-property-read open
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
