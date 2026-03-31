@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 24pljQYKmbnkWu9XjLAnZA
-! Version: 202603311031
+! Checksum: Xk+dRKkqtygA4Ep0d1AkGw
+! Version: 202603311041
 ! Title: ABP filters
-! Last modified: 31 Mar 2026 10:31 UTC
+! Last modified: 31 Mar 2026 10:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2028,6 +2028,8 @@ mercadolibre.*,mercadolivre.com.br#$#hide-if-matches-xpath './/span[@class="ui-s
 ! pp
 mercadolibre.*,mercadolivre.com.br#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
 mercadolibre.*,mercadolivre.com.br#$#hide-if-matches-xpath './/span[contains(@class,"ui-recommendations-font-color--GRAY")][text()]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
+mercadolivre.com.br#$#hide-if-has-and-matches-style 'div[id]>[data-component^="adn"]>*' 'div[id]>[data-component="adn"]>adn-banner-vertical-square-image ^^sh^^ a[class^="content-target"]>div[class^="adn-container-square"]'
+mercadolivre.com.br#$#hide-if-has-and-matches-style 'div[class^="adn-container-square"]' 'div[id]>[data-component="adn"]' 'div[id]>[data-component="adn"]>adn-banner-vertical-square-image ^^sh^^ a[class^="content-target"]'
 ! tb
 mercadolibre.*,mercadolivre.com.br#$#hide-if-matches-xpath '//h2[contains(@class,"hero__right-section-text-promoted-typography")][text()]/ancestor-or-self::div[contains(@class,"andes-card")][@id]'
 ! ba
@@ -2913,6 +2915,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||yb28b.com^
 ||yield70.net^
 ||yogisgeishas.com^
+||zapasizzard.com^
 ||zorbklqyoabvj.top^
 ||zunyiteeleidin.com^
 ||zygousgauby.com^
