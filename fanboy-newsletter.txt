@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603311103
+! Version: 202603311119
 ! Title: Fanboy's Anti-Newsletter List
-! Last modified: 31 Mar 2026 11:03 UTC
+! Last modified: 31 Mar 2026 11:19 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a792e5846d2cc5e1991daea01c8247cadc299d48
+! Commit: 4d0b9a2ef9a9ffb58783908ad02996d35ae6de78
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4640,6 +4640,7 @@ ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.n
 ! Japanese
 bluetti.jp###dynamic-react-root + div:has(> div.needsclick input[id^="email_"])
 hotokami.jp###half-fixed-modal-visibled
+lifehacker.jp###piano-esp-subscribe-form--article
 honichi.com###popup
 hotokami.jp##.bg-teal-500[href^="/subscription/landing_page/benefit"][onclick]
 product.minebeamitsumi.com##.bottom-popup
