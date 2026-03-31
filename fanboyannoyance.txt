@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603310433
+! Version: 202603310443
 ! Title: Fanboy's Annoyance List
-! Last modified: 31 Mar 2026 04:33 UTC
+! Last modified: 31 Mar 2026 04:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6729fdfc92537e3bb0106ee1de5ba81397ef8571
+! Commit: c64f0ca1a6913ea6459522c385c8d317b2f33a68
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -44271,6 +44271,7 @@ ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.n
 ! Japanese
 bluetti.jp###dynamic-react-root + div:has(> div.needsclick input[id^="email_"])
 hotokami.jp###half-fixed-modal-visibled
+honichi.com###popup
 hotokami.jp##.bg-teal-500[href^="/subscription/landing_page/benefit"][onclick]
 product.minebeamitsumi.com##.bottom-popup
 rocket-boys.co.jp##.fixed-bottom
