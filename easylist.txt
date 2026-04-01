@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604011547
+! Version: 202604011603
 ! Title: EasyList
-! Last modified: 01 Apr 2026 15:47 UTC
+! Last modified: 01 Apr 2026 16:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 50bb54d0199f7dff933d0205de2d395e2d3405ec
+! Commit: 715a9841a0550f757cd4ad1fc40adc6b8962592e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -32052,6 +32052,7 @@ browsershots.org#@#.advert_area
 ||gkbpmrtixkzui.one^
 ||gkdfpquua.com^
 ||gkeaaauospljg.site^
+||gkhgeopbukphq.com^
 ||gkhkmodocwnzu.site^
 ||gkihrlitlfndl.space^
 ||gkijdvpfpcjy.xyz^
@@ -38903,6 +38904,7 @@ browsershots.org#@#.advert_area
 ||jzgvhunxniksz.online^
 ||jzhfwtvoeppmq.space^
 ||jzhkmgdeesljp.online^
+||jzhnqycanbvsn.space^
 ||jziweafbssqyj.store^
 ||jzjhzczxaglwj.online^
 ||jzlqxbrjmrznl.website^
@@ -69031,6 +69033,7 @@ browsershots.org#@#.advert_area
 ||yachtedoxymel.help^
 ||yachtermolders.cyou^
 ||yachternautica.qpon^
+||yackedvodumszambac.qpon^
 ||yacnbvkmpxerf.com^
 ||yacsvdpiqyrza.site^
 ||yadmarmizuogr.website^
@@ -80136,6 +80139,8 @@ browsershots.org#@#.advert_area
 ||pelisfree.site/js/script_
 ||petrolplaza.net/AdServer/
 ||pexels.com^*/sponsored-media/
+||ph-files.imgix.net/381feabc-7331-4b7e-a5be-1d606cf38c06.png$domain=producthunt.com
+||ph-files.imgix.net/c160f39d-096a-4679-a8ef-eb68c537359c.png$domain=producthunt.com
 ||phonearena.com/js/ops/taina.js
 ||picrew.me/vol/ads/
 ||pimpandhost.com/mikakoki/
@@ -88794,6 +88799,7 @@ pixabay.com##div[class="cell--UMz-x"]:has(button[aria-label="About this advertis
 samsclub.com##div[class="mb0 ph0-xl pt0-xl bb b--near-white w-20 pb3-m ph1"]:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 walmart.*##div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])
 producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(a[href="/sponsor"])
+producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(img[src="/i/33b26ee8f2668842e38841253cfde42aa203585e395ff731f21aebffbb38c8e5"])
 openalternative.co##div[class="relative flex max-md:order-3"]:has(a[href="/advertise"])
 openalternative.co##div[class="relative flex"]:has(a[href="/advertise"])
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##div[class] > div[class]:has(> div[class] > div[id^="RAD_D_"])
@@ -88818,6 +88824,7 @@ etherscan.io##div[data-nosnippet]:has(> ins[id])
 rakuten.com##div[data-productid]:has(a[href*="&fbbaid="])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 mail.aol.com##div[data-test-id="virtual-list"] > ul[role="list"][aria-label] > li[style]:has(a[href^="https://api.taboola.com/"][href*="/yahoo-aol-mail/"])
+producthunt.com##div[data-test] > section:has(a[href^="/r/ad/"])
 priceline.com##div[data-testid="HTL_NEW_LISTING_CARD_RESP"]:has(a[aria-label*=" Promoted"])
 twitter.com,x.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com,x.com##div[data-testid="eventHero"]:has(path[d$="10H8.996V8h7v7z"])
