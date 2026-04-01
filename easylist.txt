@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604011913
+! Version: 202604011934
 ! Title: EasyList
-! Last modified: 01 Apr 2026 19:13 UTC
+! Last modified: 01 Apr 2026 19:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c7c37ceff005e5007c4205ab5a013828f81bcf22
+! Commit: 926d7fa01db35524315d69977e2070277284129c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -61536,6 +61536,7 @@ browsershots.org#@#.advert_area
 ||tnmdthuefllhf.site^
 ||tnmxfktoctctv.net^
 ||tnnfecqadqzck.online^
+||tnogmsodkvqwz.online^
 ||tnomtrfvxvlza.space^
 ||tnoxsetvyobzu.space^
 ||tnpads.xyz^
@@ -88594,6 +88595,7 @@ haveibeenpwned.com##.bodyGradient > :has(.why1Password)
 nexusmods.com##.border-b:has(> div[data-testid^="ad-container"])
 politico.com##.border-gray-vulcan-92:has(> #banner-wrap)
 thenewdaily.com.au##.border-grey-300:has(> [data-ad-id])
+chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])
 chosun.com##.box--bg-grey-20:has(.dfpAd)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
 gpro.net##.boxy:has(#blockblockA)
