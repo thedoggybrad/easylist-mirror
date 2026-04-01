@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604010359
+! Version: 202604010409
 ! Title: Fanboy's Annoyance List
-! Last modified: 01 Apr 2026 03:59 UTC
+! Last modified: 01 Apr 2026 04:09 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 130dee84c127f869988e4dd83cfc785197b4fe73
+! Commit: d0a621af534756fb0799c6bea551fb17e2ca41c3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -40344,6 +40344,7 @@ silicon-power.com,teamgroupinc.com##.privacyArea
 kingspec.com##.privacyBox
 intelligentinsurer.com##.privacyLaw
 visitstore.bio##.privacyPolicyPopupContainer__3MOs3
+sobot.io##.privacyPolicyWrap
 modernatx.com##.privacy__content
 modernatx.com##.privacy__overlay
 mitu.tv##.privacy_check
@@ -41861,10 +41862,9 @@ bcgame.lu#?#.bottom-16.fixed:has-text(We use cookies)
 beaumontenterprise.com,chron.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,theintelligencer.com#?#.bg-white.b-gray600.tpa:has-text(We use technologies that provide information)
 betsson.com#?#.cdk-overlay-pane:has-text(We use cookies)
 bing.com#?#.b_hPanel:has-text(Terms of Use)
-bitbucket.org,chat.mistral.ai#?#[role="dialog"]:has-text(cookies)
+bitbucket.org,canva.com,chat.mistral.ai#?#[role="dialog"]:has-text(/cookie/i)
 moebelix.at##body > div > div:has(#jentis_consent)
 boomlify.com#?#div > div:has-text(We use cookies to improve your experience.)
-canva.com#?#[role="dialog"]:has-text(/cookie/i)
 capcut.com#?#.box-PQtsNf:has-text(Privacy Policy)
 capcut.com#?#.box-beCrD2:has-text(cookies)
 chatgpt.com#?#.md\:px-\[60px\]:has-text(By messaging ChatGPT)
@@ -47250,7 +47250,6 @@ life-webmaster.ru##.div152
 love.mail.ru##.dnQAZn.sc-iFMAoI
 bbcrussian.com##.e1nbsi9l0
 rutube.ru##.eu-cookie-popup-module__eu_cookie_popup
-v1.yaoilib.net##.ey_ez:has-text(cookie)
 7d.ru,bisexual.ru,datingspace.ru,idating.ru,love-tomsk.ru,love.am,lovegio.ru,mamba.ru,missingheart.ru,znakomstvagood.ru,znakomstve.ru##.fTqTJk
 ru.4game.ru##.fcw-wrap-ru
 wildberries.ru##.fixed-block__cookies
@@ -47421,6 +47420,7 @@ mvideo.ru##mvid-cookie-notification
 postnauka.ru##notifications
 remontnik.ru##rtk-cookies-notice
 kion.ru##ui-web-alert
+v1.yaoilib.net#?#.ey_ez:has-text(cookie)
 ! 
 ! ---------- Serbian ----------
 ! 
@@ -47987,6 +47987,7 @@ myorbit.id##[style="align-items: center; background-color: rgb(237, 245, 252); p
 ! 
 ! ---------- Vietnamese ----------
 ! 
+batdongsan.com.vn###dataProtectionPopupWrapper
 vdes.vn##.cookieBanner_show__1E8Dj
 ants.vn##.sg-popup-content
 fptshop.com.vn##[data-cookie-consent-modal="true"]
