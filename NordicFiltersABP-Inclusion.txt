@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xTd5pRx69N2BtUhqn6Tlbg
-! Version: 202604011931
+! Checksum: v6tPyB8o5b3bJ5c43yZzQw
+! Version: 202604011941
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Apr 2026 19:31 UTC
+! Last modified: 01 Apr 2026 19:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -96718,6 +96718,7 @@ haveibeenpwned.com##.bodyGradient > :has(.why1Password)
 nexusmods.com##.border-b:has(> div[data-testid^="ad-container"])
 politico.com##.border-gray-vulcan-92:has(> #banner-wrap)
 thenewdaily.com.au##.border-grey-300:has(> [data-ad-id])
+chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])
 chosun.com##.box--bg-grey-20:has(.dfpAd)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
 gpro.net##.boxy:has(#blockblockA)
@@ -97814,6 +97815,7 @@ nerdwallet.com#?#._3JhNDX:has-text(Advertisement)
 netflixjunkie.com#?#[style="text-align:center"]:has-text(ADVERTISEMENT)
 newegg.com#?#.product-banner:has-text(Sponsored)
 news.yahoo.com#?#div.md\:block:has-text(Advertisement)
+nextdoor.com#?#[data-v3-view-type="V3Wrapper"]:has(> [data-testid="feed-item-visibility-tracker"]:has-text(Sponsored))
 noelleeming.co.nz#?#div.product-tile:has(span:has-text(Sponsored))
 noon.com#?#.swiper-slide:has-text(Sponsored)
 noon.com#?#span[class*="productContaine"]:has(div:has-text(Sponsored))
