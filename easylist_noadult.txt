@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wgTRn9zShv/AfD+N0OQOjA
-! Version: 202604011931
+! Checksum: 5jx4LkCMwfxEtiVFxkghFQ
+! Version: 202604011941
 ! Title: EasyList without rules for adult sites
-! Last modified: 01 Apr 2026 19:31 UTC
+! Last modified: 01 Apr 2026 19:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -87062,6 +87062,7 @@ haveibeenpwned.com##.bodyGradient > :has(.why1Password)
 nexusmods.com##.border-b:has(> div[data-testid^="ad-container"])
 politico.com##.border-gray-vulcan-92:has(> #banner-wrap)
 thenewdaily.com.au##.border-grey-300:has(> [data-ad-id])
+chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])
 chosun.com##.box--bg-grey-20:has(.dfpAd)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
 gpro.net##.boxy:has(#blockblockA)
