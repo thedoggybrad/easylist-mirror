@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fPDgRuoDaTfofZT3x06YlQ
-! Version: 202604010852
+! Checksum: AS2A+2kkzEbkyreMb9nA2w
+! Version: 202604010902
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Apr 2026 08:52 UTC
+! Last modified: 01 Apr 2026 09:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7044,6 +7044,7 @@ mail.ru,~media-golos.mail.ru,sportmail.ru##[data-logger="AudioPlayer"]
 ~e.mail.ru,mail.ru##[data-module="Subscription"]
 news.mail.ru,sportmail.ru##[data-module="TrackBlocks"] table > tbody > tr > td:nth-child(3):last-child
 cloud.mail.ru##[data-qa-tooltip="goto-attaches-promo-tip"]
+cloud.mail.ru##[data-qa-tooltip][class*="_closable-"]
 news.mail.ru##[data-reactroot] [data-qa^="MoreList"] > div > div:first-child:not(:only-child)
 e.mail.ru,octavius.mail.ru##[id^="octavius-notify-"]
 news.mail.ru#?#aside div[style^="min-height:"]:-abp-has([data-logger="SubscribeButton"])
@@ -7239,6 +7240,7 @@ dzen.ru#?#div[id] > div[id]:-abp-has(> div[style="visibility: visible;"])
 yandex.by,yandex.kz,yandex.ru,yandex.uz##div[id^="BlogPost"][data-state*="/promo/popup/"]
 dzen.ru##div[popup-getfocusable-id]
 yandex.by,yandex.kz,yandex.ru,yandex.uz#?#header:-abp-has(.serp-user__registration-link) ~ .Modal .ImagesViewer-Container .Share-Item ~ [class]
+mail.yandex.ru,mail.yandex.*###js-neuroexpert-button
 mail.yandex.ru,mail.yandex.*##.mail-Done-Promo-Container
 mail.yandex.ru,mail.yandex.*##.mail-YandexPlus-Renderer
 mail.yandex.ru,mail.yandex.*##.promoPanel
