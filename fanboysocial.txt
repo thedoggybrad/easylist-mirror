@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604020333
+! Version: 202604020345
 ! Title: Fanboy's Social Blocking List
-! Last modified: 02 Apr 2026 03:33 UTC
+! Last modified: 02 Apr 2026 03:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9f607a0886b8c5fb18cadfff9fbdd1e3c3d3746c
+! Commit: 39739ed98d35a429f29a9c88b5bf3d9bb80b4b8b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10216,6 +10216,8 @@ _social_footer_
 ##share-action
 ##span[title="Condividi"]
 ##span[title="Share this article"]
+! future plc
+###utility-bar__google-button
 ! malayalam.indiatoday.in,aajtak.in,bangla.aajtak.in
 ##.rhs-fixwhtsapp
 ! https://www.sbnation.com/blogs
@@ -10552,7 +10554,6 @@ baystatebanner.com###top-soc-icon-wrap
 hexus.net###topicons
 dansingerman.com,fark.com,radioguide.fm,rare.us,thetvaddict.com###twitter
 pcgamer.com,tomshardware.com###utility-bar
-gamesradar.com,techradar.com###utility-bar__google-button
 mansionglobal.com###webui-save-and-share
 videocardz.com###welcome-modal
 walesonline.co.uk###whatsapp-community
