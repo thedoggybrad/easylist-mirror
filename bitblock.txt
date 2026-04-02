@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /fJjdUWOQ2Hx+soFAZeSbg
-! Version: 202604021802
+! Checksum: bpxd0Sc7URT7h1lnU3Jx9Q
+! Version: 202604021811
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 02 Apr 2026 18:02 UTC
+! Last modified: 02 Apr 2026 18:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4248,7 +4248,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||doramalive.news/images/app.
 ||doroga.ua/Handlers/BannerObjectHandler.
 ||drive2.ru/assets/_*/widget.js|$script,domain=drive2.com|drive2.ru
-||dsp-rambler.ru/tpl/Branding/$domain=kinoteatr.ru
 ||eagleplatform.com/api/filters/*/suggest.json
 ||effect.habr.com/a
 ||egida.by/js/snow/
@@ -4308,6 +4307,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||kidstaff.com.ua/ajax/kid_informers.
 ||kino-sayt.net/Frame.swf
 ||kinogo.*/kinogo.prm*.js
+||kinoteatr.ru/application/views/special_banners/
 ||kinoteatr.ru/cgi-bin/banner
 ||kinoteatr.ru/upload/*branding
 ||kp.*/adaptive/push/
@@ -6775,6 +6775,7 @@ computer76.ru##iframe[data-src^="https://forms.yandex.ru/"]
 forums.ati.su,loads.ati.su,tm.ati.su,trucks.ati.su##iframe[src*="//news.ati.su/external/last-news/"]
 currenttime.tv##iframe[src*="/a/signup-sidebar-widget/"]
 epochtimes.com.ua##iframe[src*="/sinoptik.html"]
+kinoteatr.ru##iframe[src*="/special_banners/"]
 ntop.tv##iframe[src*="://banner.ntop.tv/"]
 ipic.su##iframe[src*="://discordapp.com/widget?id="]
 2baksa.ws,adventuretime.ru,anime-free.ru,hardwareluxx.ru,internet-technologies.ru,kisameev.ru,nowa.cc,podolyaka.ru,trymobile.ru##iframe[src*="://yoomoney.ru/"]
