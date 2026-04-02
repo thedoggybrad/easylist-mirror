@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604020913
+! Version: 202604020920
 ! Title: EasyList
-! Last modified: 02 Apr 2026 09:13 UTC
+! Last modified: 02 Apr 2026 09:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2080011fd7057e43d9567eb9fedb60bbd8e21278
+! Commit: b69c9cb98d5a0f2871f3b7096745c66e40ec6848
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -18378,6 +18378,7 @@ browsershots.org#@#.advert_area
 ||armvxuhtqlaln.site^
 ||army.delivery^
 ||arnedtolethi.com^
+||arnicasscotic.cyou^
 ||arnimalconeer.com^
 ||aroeirarunletsmosaist.cfd^
 ||aromaticdiscount.pro^
@@ -57082,6 +57083,7 @@ browsershots.org#@#.advert_area
 ||semicolondriverelevated.com^
 ||semihsodamidwear.cfd^
 ||semilogoutdoor.cfd^
+||seminaabying.qpon^
 ||semiprotylari.qpon^
 ||semitacense.cfd^
 ||semmetamharic.qpon^
@@ -66903,6 +66905,7 @@ browsershots.org#@#.advert_area
 ||wgeavrbe.com^
 ||wgerhfypjlycg.site^
 ||wgexsktozbmrx.online^
+||wgfgigbwpxfcq.online^
 ||wgfkgiytlywlt.online^
 ||wgfqayocqadzp.space^
 ||wggmcqucgyggh.site^
@@ -91658,7 +91661,6 @@ gamcore.com##li.d-md-block > a[rel]
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
 ! Webcompat fixes (Avoid any potential filters being applied to non-ad domains)
 @@||challenges.cloudflare.com/turnstile/$script
-@@||gmail.com^$generichide
 @@||google.com/recaptcha/$csp,subdocument
 @@||google.com/recaptcha/api.js
 @@||google.com/recaptcha/api2/
@@ -91682,6 +91684,7 @@ gamcore.com##li.d-md-block > a[rel]
 @@||adsmanager.facebook.com^$generichide
 @@||apple.com^$generichide
 @@||atlassian.net^$generichide
+@@||bing.com^$generichide
 @@||bitbucket.org^$generichide
 @@||browserbench.org^$generichide
 @@||builder.io^$generichide
@@ -91714,6 +91717,7 @@ gamcore.com##li.d-md-block > a[rel]
 @@||github.com^$generichide
 @@||github.io^$generichide
 @@||gitlab.com^$generichide
+@@||gmail.com^$generichide
 @@||icloud.com^$generichide
 @@||instagram.com^$generichide
 @@||instapundit.com^$generichide
