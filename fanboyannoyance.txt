@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604030725
+! Version: 202604030732
 ! Title: Fanboy's Annoyance List
-! Last modified: 03 Apr 2026 07:25 UTC
+! Last modified: 03 Apr 2026 07:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 951aa435dfff1aa3a282c1223ae13f2508d88cfb
+! Commit: 8e9c98005e4c8c7c29e848cf17ed17598fe8f91a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -33283,6 +33283,7 @@ film-news.co.uk,game-news.co.uk,music-news.com,theatre-news.com###buy-tickets
 dreambigtravelfarblog.com,englandexplore.com,founderreports.com,interacnetwork.com,iowagirleats.com,unexpectedlydomestic.com###cbox
 gatestoneinstitute.org,globalvoices.org,ibtimes.com.au,sinya.com.tw,westhawaiitoday.com###cboxOverlay
 gatestoneinstitute.org###cboxWrapper
+cultofmac.com###center-modal-popup
 neon.com###changelog-form
 holdthecarbs.ca###chated-iframe
 holdthecarbs.ca###chated-overlay
@@ -36065,9 +36066,6 @@ camtsuku.com,comnico.jp,jns.org,kumanichi.com,news.cuanschutz.edu,pagamentidigit
 carnegieendowment.org,iranwire.com,lifesitenews.com,payloadspace.com,proofpoint.com,sciencetimes.com,techtimes.com##.subscribe-block
 ! ! .widget-newsletter
 breakingdefense.com,colombiapress.co,deadline.com,deghi.it,insideevs.com,mlbtraderumors.com,motor1.com,notibolivia.bo,notichile.cl,noticiargentina.com.ar,notiecuador.com.ec,notimexico.com.mx,notipanama.com.pa,notiparaguay.com.py,notiperu.com.pe,notiuruguay.uy,order-order.com##.widget-newsletter
-! Advanced element hiding rules for Adblock Plus
-androidauthority.com#?#div[class^="-_"] > form:has-text(newsletters)
-cultofmac.com#?#.section > .wrapper:has-text(Newsletters)
 ! Generichide
 calgaryherald.com,edmontonjournal.com,montrealgazette.com,ottawacitizen.com,thestarphoenix.com###pn-newsletter-signup
 merriam-webster.com##.footer-subscribe-block
@@ -36823,6 +36821,7 @@ phonearena.com,quiverquant.com##.google-news-follow
 bleedingcool.com##.google-news-source
 ringsidenews.com,tmz.com##.google-preferred-btn
 sammobile.com##.google-preferred-news-source-cta
+cultofmac.com##.google-preferred-source
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,spaceexplored.com##.google-preferred-source-badge
 restofworld.org##.google-preferred-v1
 bolde.com##.google-source-button
