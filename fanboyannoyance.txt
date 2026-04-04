@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604040905
+! Version: 202604040917
 ! Title: Fanboy's Annoyance List
-! Last modified: 04 Apr 2026 09:05 UTC
+! Last modified: 04 Apr 2026 09:17 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 38b95636247963db26102e8d91511414677b46fd
+! Commit: b25a623b34baa27d3ec25894d6f6cec6974b2dbf
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -36810,6 +36810,7 @@ alarabiya.net##.google-news-callout
 dailygalaxy.com,glassalmanac.com##.google-news-card
 cybernews.com,sammobile.com##.google-news-cta
 phonearena.com,quiverquant.com##.google-news-follow
+kyivpost.com##.google-news-preffer-button
 bleedingcool.com##.google-news-source
 ringsidenews.com,tmz.com##.google-preferred-btn
 sammobile.com##.google-preferred-news-source-cta
@@ -47389,7 +47390,7 @@ online.sberbank.ru##[data-testid="cookie-policy"]
 detmir.ru##[data-testid="cookieNotificationText"]
 matchtv.ru##[data-testid="w-accept-cookie-notification"]
 sportmk.ru##[style^="position: fixed; left: 50%; bottom:"]
-sdamgia.ru##[style^="text-align: left; position: fixed;"]
+reshuent.ru,sdamgia.ru##[style^="text-align: left; position: fixed;"]
 fastvps.ru##app-cookies-accept
 authedu.mosreg.ru,myschool.mos.ru,school.mos.ru,uchebnik.mos.ru##body > div[style^="position: fixed; overflow: visible; top: 0px; left: 0px; transform: translate("]
 vmeste.mosreg.ru##dd-cookie-accept-banner
