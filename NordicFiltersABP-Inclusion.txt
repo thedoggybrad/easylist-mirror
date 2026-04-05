@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vF2WvzcaakJTyAW7OOd7ag
-! Version: 202604050031
+! Checksum: nHl5qHuP3HXsMRuQ2S21VQ
+! Version: 202604050042
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 05 Apr 2026 00:31 UTC
+! Last modified: 05 Apr 2026 00:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -95582,6 +95582,7 @@ thisday.app##div[style="min-height: 340px;"]:has(div.ad)
 robtex.com##div[style]:has(> ins.adsbygoogle[data-ad-slot])
 dribbble.com##drb-infinite-scroll div[data-username]:has(drb-tooltip[data-promoted-badge])
 english.mathrubhumi.com#?#.psd\:px-0.px-\[10px\]:has-text(To advertise here)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#div[role="feed"] > div:has(div[role="article"] a[attributionsrc^="/privacy_sandbox/comet/register/source/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
 streeteasy.com##li [class^="ListingCard-module"]:has([class*="sponsoredTag"])
