@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604050005
+! Version: 202604050038
 ! Title: EasyList
-! Last modified: 05 Apr 2026 00:05 UTC
+! Last modified: 05 Apr 2026 00:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: afcc18af585994ec9f835703a6e763046858f483
+! Commit: 742e3a24caed31bda3bcc0eb5c6933a339361e12
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -87460,6 +87460,7 @@ thisday.app##div[style="min-height: 340px;"]:has(div.ad)
 robtex.com##div[style]:has(> ins.adsbygoogle[data-ad-slot])
 dribbble.com##drb-infinite-scroll div[data-username]:has(drb-tooltip[data-promoted-badge])
 english.mathrubhumi.com#?#.psd\:px-0.px-\[10px\]:has-text(To advertise here)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#div[role="feed"] > div:has(div[role="article"] a[attributionsrc^="/privacy_sandbox/comet/register/source/"])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
 streeteasy.com##li [class^="ListingCard-module"]:has([class*="sponsoredTag"])
