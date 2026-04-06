@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Bx+awVY4jawWuE7DfDuVWA
-! Version: 202604061011
+! Checksum: fii8b+3LCM0FkG80RW48/w
+! Version: 202604061021
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 06 Apr 2026 10:11 UTC
+! Last modified: 06 Apr 2026 10:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7319,8 +7319,6 @@ dzen.ru##.video-card-ads
 e.mail.ru,octavius.mail.ru#?#.vkuiPopoutRoot:-abp-has(a[href^="https://vk.cc/"])
 mail.ru##.widget-uber-wrapper
 dzen.ru##.zen-page .content div[class*="__bannerMain"]
-/^https?:\/\/dzen\.ru\/[^\s]{2100,}$/$script,domain=dzen.ru
-/^https?:\/\/strm\.yandex\.ru\/get\/[^\s]{1300,}$/$xmlhttprequest,domain=dzen.ru|naydex.net
 @@||ad.mail.ru/adp/*=resplash&$xmlhttprequest,domain=mail.ru
 @@||an.yandex.ru/mapuid/yandex/|$image,domain=auto.ru
 @@||shedevrum.ai^$generichide
@@ -7357,6 +7355,7 @@ vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 ||translate.yandex.*/_crpd/
 ||ya.ru/portal/feed?
 ||yandex-realty.naydex.net^$script
+||yandex-tv.naydex.net^$script
 ||yandex.*/maps/_crpd/$xmlhttprequest
 !#endif
 !
