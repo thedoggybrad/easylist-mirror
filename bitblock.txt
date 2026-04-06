@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lN8Wu/+Fu4Fz3qkNyj5aTQ
-! Version: 202604060822
+! Checksum: BtuJUlJpkNf3VfwMndQ/Kg
+! Version: 202604060832
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 06 Apr 2026 08:22 UTC
+! Last modified: 06 Apr 2026 08:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -198,7 +198,7 @@ ru##[data-ns-portal] button[aria-label="Добавить в закладки"]
 ru##[data-ns-portal] div[class*=" uiArticleBlockLinks_"]
 ru##[data-ns-portal] div[class^="blockSocial_"]
 ru##[data-ns-portal] div[class^="contactBlock_"][class*=" socialBlock_"]
-com,ru##[data-rambler-share]
+com,ru,ua##[data-rambler-share]
 ##[data-rd-type="rd-post-view-social"]
 ##[data-test-id="share-button-copyLink"]
 ##[data-test-id="share-button-odnoklassniki"]
@@ -2807,7 +2807,7 @@ xn--80aaae1cn1aw5e.xn--p1ai##[data-bazooka]
 teleport2001.ru##[data-block-plugin-id="system_menu_block:social"]
 newsland.com##[data-block-type="social-card"]
 yandex.ru##[data-c^="click.social/pageName="]
-avtorambler.com,rambler.ru##[data-cerber^="footer::social_button"]
+avtorambler.com,rambler.ru,rambler.ua##[data-cerber^="footer::social_button"]
 comments.rambler.ru##[data-comments*="share_popup"]
 ctc.ru##[data-cy="social-links"]
 gdetraffic.com##[data-gcat="social_link"]
