@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vqJ98Z/KiZr1ZZo6KysAyw
-! Version: 202604070451
+! Checksum: VywXyAkgtRZPYDi6gxvyVA
+! Version: 202604070501
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Apr 2026 04:51 UTC
+! Last modified: 07 Apr 2026 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -9529,8 +9529,6 @@ _800x80_
 ###AD_160
 ###AD_300
 ###AD_468x60
-###AD_G
-###AD_L
 ###AD_ROW
 ###AD_Top
 ###AD_text
@@ -18289,8 +18287,6 @@ _800x80_
 ##.banner-468x60
 ##.banner-728
 ##.banner-728x90
-##.banner-ad
-##.banner-ad-b
 ##.banner-ad-below
 ##.banner-ad-block
 ##.banner-ad-bottom-fixed
@@ -18866,7 +18862,6 @@ _800x80_
 ##.contains-ad
 ##.contains-advertisment
 ##.content--right-ads
-##.content-ad
 ##.content-ad-article
 ##.content-ad-box
 ##.content-ad-container
@@ -18908,7 +18903,6 @@ _800x80_
 ##.contentTopAds
 ##.content__ad
 ##.content__ad__content
-##.content_ad
 ##.content_ad_728
 ##.content_ad_head
 ##.content_ad_side
@@ -22199,7 +22193,6 @@ _800x80_
 ##.well-ad
 ##.werbungAd
 ##.wfb-ad
-##.wg-ad-square
 ##.wh-advert
 ##.wh_ad
 ##.wh_ad_inner
@@ -90705,7 +90698,7 @@ puzzlegarage.com##.banner--inside
 dayspedia.com##.banner--main
 onlineradiobox.com##.banner--vertical
 euroweeklynews.com##.banner-970
-kingmods.net##.banner-ad
+kingmods.net,tappedout.net##.banner-ad
 img2go.com,online-convert.com##.banner-ad-size
 headlineintime.com##.banner-add
 freepik.com##.banner-adobe
