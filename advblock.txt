@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3l/V6JKGoqu93acBQJ7k1w
-! Version: 202604070741
+! Checksum: +bZq7+uv9PhYnuNcWqUGIg
+! Version: 202604070752
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 Apr 2026 07:41 UTC
+! Last modified: 07 Apr 2026 07:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2010,7 +2010,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /load-xml/?id=*&roll=$third-party,xmlhttprequest
 /marketgid_$domain=~marketgid.com
 /marketplace.asp?
-/media/banners/*
+/media/banners/*$domain=~altex.ro|~furaffinity.net
 /mediaget-$domain=~mediaget-download.ru
 /mgid_automatically_creating_
 /mirmaek/*$image
@@ -24726,6 +24726,7 @@ rbc.ru#?#body.free div[class="central-publisher-item"]:nth-child(-n+2):-abp-has(
 rbc.ru##body.free div[class^="MainNewsComponent_wrapper_"] [href^="https://pro.rbc.ru/"]
 rbc.ru##body.free div[class^="style_promo_"]
 rbc.ru##body.free div[data-name^="SpecialBlockPro"]
+rbc.ru#?#div[class="central-publisher-item"]:-abp-has(.commercial-slider p:-abp-contains(Реклама))
 rbc.ru#?#div[class="central-publisher-item"]:-abp-has(div[class*="styles_word-break"]:-abp-contains(Реклама,))
 rbc.ru##div[class^="BsideBanner"]
 rbc.ru,sportrbc.ru##div[class^="bet-block"]
@@ -26036,7 +26037,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@/images/star_share.png|$image,domain=animevost.org|animevost.top|vost.pw
 @@/informer.php$image,domain=day-x.narod.ru
 @@/jquery.min.js$script,domain=cars.mail.ru
-@@/media/banners/*$domain=furaffinity.net|zakaz.ua|zapals.com
 @@/modernizr.js$script,domain=cars.mail.ru
 @@/reklama.$domain=my.reklama.lv|reklama.marat.ua|reklama.rambler.ru
 @@/reklama/*$domain=velosumka.com
@@ -26167,7 +26167,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||bash.im/webmaster|$elemhide
 @@||bbc.co.uk/modules/branding/css/$stylesheet,domain=bbc.co.uk
 @@||beeline.ru/ban/$domain=beeline.ru
-@@||beeline.ru/media/banners/$domain=beeline.ru
 @@||begun.ru/video.jsp?$domain=vidin.ru
 @@||begun.ru/vpaid_lib.swf|$domain=vidin.ru
 @@||beseed.ru/advertiser$domain=beseed.ru
@@ -26268,7 +26267,6 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||gt-advertise.ru^$domain=gt-advertise.ru
 @@||gvideo.io/videos/$subdocument,domain=u-tv.ru
 @@||hamalia.ua/tools/banner/site/banner.php?$domain=hamalia.ua
-@@||hawk.ru/media/banners/$domain=hawk.ru
 @@||hcsibir.ru/uploads/advert/$image,domain=hcsibir.ru
 @@||holder.com.ua^$media,xmlhttprequest,domain=i.ua
 @@||home-club.*.ua/content/images/other/468x60-white.png|$image,~third-party,domain=home-club.co.ua|home-club.com.ua
