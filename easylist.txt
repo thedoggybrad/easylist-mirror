@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604070436
+! Version: 202604070459
 ! Title: EasyList
-! Last modified: 07 Apr 2026 04:36 UTC
+! Last modified: 07 Apr 2026 04:59 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2e28552bce63d96c00df493944509b88f1cb87fc
+! Commit: dd88fd3a334bf9bbf11eb765f3358d2c135f6432
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1400,8 +1400,6 @@ _800x80_
 ###AD_160
 ###AD_300
 ###AD_468x60
-###AD_G
-###AD_L
 ###AD_ROW
 ###AD_Top
 ###AD_text
@@ -10160,8 +10158,6 @@ _800x80_
 ##.banner-468x60
 ##.banner-728
 ##.banner-728x90
-##.banner-ad
-##.banner-ad-b
 ##.banner-ad-below
 ##.banner-ad-block
 ##.banner-ad-bottom-fixed
@@ -10737,7 +10733,6 @@ _800x80_
 ##.contains-ad
 ##.contains-advertisment
 ##.content--right-ads
-##.content-ad
 ##.content-ad-article
 ##.content-ad-box
 ##.content-ad-container
@@ -10779,7 +10774,6 @@ _800x80_
 ##.contentTopAds
 ##.content__ad
 ##.content__ad__content
-##.content_ad
 ##.content_ad_728
 ##.content_ad_head
 ##.content_ad_side
@@ -14070,7 +14064,6 @@ _800x80_
 ##.well-ad
 ##.werbungAd
 ##.wfb-ad
-##.wg-ad-square
 ##.wh-advert
 ##.wh_ad
 ##.wh_ad_inner
@@ -82582,7 +82575,7 @@ puzzlegarage.com##.banner--inside
 dayspedia.com##.banner--main
 onlineradiobox.com##.banner--vertical
 euroweeklynews.com##.banner-970
-kingmods.net##.banner-ad
+kingmods.net,tappedout.net##.banner-ad
 img2go.com,online-convert.com##.banner-ad-size
 headlineintime.com##.banner-add
 freepik.com##.banner-adobe
