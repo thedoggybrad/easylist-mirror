@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604081111
+! Version: 202604081125
 ! Title: EasyList
-! Last modified: 08 Apr 2026 11:11 UTC
+! Last modified: 08 Apr 2026 11:25 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 00ed034ed10a086704c439df3d524a5aeca69bd8
+! Commit: 9f2951295d93444b45a2fde30fba736b762ecb7d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -80790,6 +80790,7 @@ huffpost.com##.bottom-right-sticky-container
 crn.com##.bottom-section
 gamingdeputy.com##.bottom-sticky-offset
 coincodex.com##.bottom9
+cpstest.org##.bottomAdsection
 openguessr.com##.bottomFooterAds
 auto.hindustantimes.com##.bottomSticky
 softicons.com##.bottom_125_block
@@ -85369,6 +85370,7 @@ douglas.*##.cms-container:has([data-testid="CriteoAdFormatCategoryView"])
 douglas.*##.criteo-product-carousel
 kaufland.*##.exp-vision__ext-wrapper--spad
 yts.*##.home-content > div:has(.blue ~ a img[src*="/images/download"])
+streamsports99.*##.min-h-\[70px\]
 yandex.*##.mini-suggest__item[data-suggest-counter*="/yandex.ru/clck/safeclick/"]
 flashscore.*##.outrightWidget
 lazada.*##.pdp-block__product-ads
