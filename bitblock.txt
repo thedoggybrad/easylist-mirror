@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BE+J7Kpkf+uDyTMmpgtpsg
-! Version: 202604080951
+! Checksum: mbyc0gcI/e4etoXwSGfzKA
+! Version: 202604081002
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 08 Apr 2026 09:51 UTC
+! Last modified: 08 Apr 2026 10:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1603,6 +1603,7 @@ s13.ru##.megasocial
 freetp.org,freetp.ru##.menu > a[title*="FreeTP"]
 football-ukraine.com##.menu > li > noindex
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.menu > li ~ li[class*="top_menu  "]
+babyblog.ru##.menu-footer > a[href^="https:"]:not([href*="babyblog.ru/"])
 processer.media##.menu-icon-fb
 processer.media##.menu-icon-insta
 processer.media##.menu-icon-tw
