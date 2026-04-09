@@ -54,7 +54,7 @@ if ($httpCode === 200) {
         $currentTimestamp = time();
         $timeDiffMinutes = round(($currentTimestamp - $lastCommitTimestamp) / 60);
 
-        if ($timeDiffMinutes >= 1) {
+        if ($timeDiffMinutes >= 2) {
             // Safeguard to prevent accidental failures
             $payload = json_encode([
                 'ref' => 'main', // Replace with the desired branch or commit reference
