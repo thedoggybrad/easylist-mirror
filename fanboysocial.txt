@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604101105
+! Version: 202604101116
 ! Title: Fanboy's Social Blocking List
-! Last modified: 10 Apr 2026 11:05 UTC
+! Last modified: 10 Apr 2026 11:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bb91d6bd5c435f0736bf483d23b6c4aba7b2798f
+! Commit: 8249a5be96020c6c31e63a9bcd534059d68bf239
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12126,6 +12126,7 @@ tvblackbox.com.au#?#.tdm-descr:has-text(Share)
 twitch.tv#?#.tw-balloon:has-text(Share To)
 ! ! top-level domain wildcard
 royalqueenseeds.*##.social-media-icons-footer
+miruro.*##section[class^="_noticeSection_"]
 ! ! .socialmedia
 agfk-bw.de,clara.es,hcb.net,travel.state.gov##.socialmedia
 ! ! .social-sharing
