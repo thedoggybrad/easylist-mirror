@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TgFqQPL43rakBeYZQLtxRA
-! Version: 202604100932
+! Checksum: 72aUVyxZPOo3cxEARLluGw
+! Version: 202604100942
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Apr 2026 09:32 UTC
+! Last modified: 10 Apr 2026 09:42 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1138,6 +1138,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##[href*="://track.leadbazaar.co/click?"]
 ##[href*="driftawayforfun.com"]
 ##[href*="driverpack.io/"]
+~dzen.ru,~sportsdzen.ru##[href*="dzen.ru%2F"]
 ~media.hubfiles.gdn##[href*="media.hubfiles.gdn"]
 ##[href*="pigiuqproxy.com"]
 ##[href*="postlnk.com"]
@@ -12964,7 +12965,7 @@ delfi.ee##.C-banner
 myshows.me##.CommentBanner
 meduza.io##.DFPBanner-module-root
 meduza.io##.DFPBanner-root
-comedy-radio.ru,radioromantika.ru,relax-fm.ru,veseloeradio.ru##.D_Top
+comedy-radio.ru,energyfm.ru,radioromantika.ru,relax-fm.ru,veseloeradio.ru##.D_Top
 euro2016.cc##.DmWidget
 forbes.ru##.Er4We
 nulled.cc##.EstBS-bnContent
@@ -13000,6 +13001,7 @@ google.by,google.com,google.com.ua,google.kz,google.ru#?#.VkpGBb:-abp-has(.gghBu
 i.ua##.Wrap > .anons
 bmwclub.ru##.XenAdvShop
 cameralabs.org##.Yreklama
+360.ru##._1lm4gq66
 2gis.by,2gis.kz,2gis.ru##._1xza2sg
 yap.ru,yaplakal.com##.__axcode__
 gamestar.ru##.__b-popup1__
@@ -14686,6 +14688,8 @@ gazeta-severny.ru##.header-widget
 cont.ws##.header2
 xvatit.com##.header2 > .header
 obozrevatel.com##.headerBiding
+bst.bratsk.ru##.headerMainInlineLi > .adv-overlay
+bst.bratsk.ru##.headerMainInlineLi > .adv-overlay + .item-link
 city-n.ru##.header__adv
 1tv.ru##.header__advertising-block
 024.by,kp.ua,loveradio.ru,ural56.ru##.header__banner
@@ -15965,6 +15969,7 @@ rubukkit.org##.rubadv-top-in
 tut.by##.rubric-brand
 kommersant.ru##.rubric_branding
 medside.ru##.rusfond-block
+livejournal.com##.s-header-item__link--interesting
 stroy.ykt.ru##.s-slider
 map.cn.ua##.sModuleContent
 latifundist.com##.sa_widget
