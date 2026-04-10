@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OJUxel0lbVzg1KQXPf23kw
-! Version: 202604100932
+! Checksum: EUZE/iFsF5rocM2weBW9dw
+! Version: 202604100942
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 10 Apr 2026 09:32 UTC
+! Last modified: 10 Apr 2026 09:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1071,6 +1071,7 @@ anilove.tv,animechan.tv##.content_player ~ .content_block_pc
 football.kulichki.net##.content_top_line > a[href]
 nv.ua#?#.content_wrapper > p:-abp-has(> a[href^="https://t.me/"])
 comments.ua#?#.conteres > p:-abp-has(> a[href^="https://t.me/"])
+##.controls-entryunit__item--share
 coub.com##.coub__sharing__list > [data-img]
 economistua.com##.cp-slidein-popup-container
 ukrsport.pro##.cs-follow
@@ -1583,6 +1584,7 @@ vedomosti-ua.com#?#.main-sidebar > .row > div:-abp-has(#vk_groups)
 3mv.ru##.mainMenu > [name="searchform"] ~ *
 mobile-review.com##.mainmenu__item--social
 sportarena.ua##.margin-bottom-20 ~ hr
+7days.ru##.material-7days__button-max
 overclockers.ru##.material-comments ~ div .blue.message
 gol.ru##.material-content-header-sharing
 gol.ru##.material-content-socials
@@ -1592,6 +1594,7 @@ neva.today##.material_vk_comments
 tagilcity.ru##.matter-after > .typo-class
 atas.info,bel.ru##.matter-after > div > .font-bold
 56orb.ru,atas.info,bel.ru,gorod55.ru,inkazan.ru,karelinform.ru,kubanpress.ru,kursdela.biz,mkset.ru,muksun.fm,nashgorod.ru,newizv.ru,newkhakasiya.online,newsnn.ru,newstracker.ru,novostivolgograda.ru,prmira.ru,properm.ru,rosbalt.ru,rostovgazeta.ru,tagilcity.ru,transsibinfo.com,udm-info.ru,vostokmedia.com,zr.media#?#.matter-after > div:-abp-has(> div[class^="Subscribe_subscribe_"])
+bfm.ru##.max
 softline.ru##.max-btn
 regnum.ru##.max-promo-link
 volodymyrets.city##.mc-burger-social
@@ -3368,13 +3371,13 @@ blitz.if.ua#?#p:-abp-has(> a[href^="https://web.telegram.org/"])
 agroxxi.ru,championat.com,championat.ru#?#p:-abp-has(> b > [href^="https://t.me/"])
 obozrevatel.com#?#p:-abp-has(> b > em > a[href*="://t.me/"])
 obozrevatel.com#?#p:-abp-has(> b ~ a[href*="://t.me/"])
-iz.ru,mk.ru#?#p:-abp-has(> em > a[href*="://max.ru/"])
 agents.media,aif.ua,bigmir.net,gx.net.ua,informator.ua,korrespondent.net,moslenta.ru,smotrim.ru,tsargrad.tv,zemliak.com#?#p:-abp-has(> em > a[href*="://t.me/"])
 tsargrad.tv#?#p:-abp-has(> em > a[href*="://web.telegram.org/"])
 firtka.if.ua#?#p:-abp-has(> em > a[href*="facebook.com/"])
 obozrevatel.com,uaportal.com#?#p:-abp-has(> em > b > a[href*="://t.me/"])
 informator.ua,sportkp.ru#?#p:-abp-has(> em > strong > a[href*="://t.me/"])
 mk.ru,vedomosti.ru#?#p:-abp-has(> em > strong > a[target="_blank"])
+5-tv.ru,iz.ru,mk.ru#?#p:-abp-has(> em a[href*="://max.ru/"])
 eurointegration.com.ua,tass.ru,tsargrad.tv#?#p:-abp-has(> em ~ a[href^="https://t.me/"])
 agronom.com.ua,hsl.com.ua#?#p:-abp-has(> i > a[href*="//t.me/"])
 m24.ru#?#p:-abp-has(> i > a[href*="://t.me/"])
