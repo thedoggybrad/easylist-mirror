@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JZGxdP4DcZ62JbvuBsDcLw
-! Version: 202604111151
+! Checksum: d93NDPz7r1PIbI5a8KMG7Q
+! Version: 202604111202
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Apr 2026 11:51 UTC
+! Last modified: 11 Apr 2026 12:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1981,7 +1981,7 @@ filmstvclub.net##.serial-socials
 chudesniesovetiki.site##.sgwindow_socialicons
 online-mult.net##.sh_pt
 zi.ua##.shar-title
-024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,goha.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,hitfm.ru,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,maximum.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,reshuent.ru,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tele.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.com,vgtimes.ru,vlast.kz,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,yakutiamedia.ru##.share
+024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,goha.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,hitfm.ru,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,maximum.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,reshuent.ru,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,speedtest.net.ua,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tele.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.com,vgtimes.ru,vlast.kz,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,yakutiamedia.ru##.share
 my.kaspersky.com##.share > :not(.share-link)
 liwihelp.com##.share > a[onclick*="sharer"]
 milknews.ru##.share-aside
@@ -2894,6 +2894,7 @@ ura.news##[title^="Подписаться на "]
 dom2line.ru##a.fa[href^="http"]:not([href*="://dom2line.ru/"])
 zab.ru,zab.tv##a.header-e[target="_blank"]
 orelgrad.ru##a.mmb-floating-button[href^="https://max.ru/"]
+dzen.ru##a.news-story-block__link ~ div > div:not([class])
 peterburg2.ru##a.rl__btn[target="_blank"]
 uazmi.org##a.tgch-card-footer
 mgazeta.com##a.topline-item[href^="https:"][target="_blank"]
@@ -3087,7 +3088,6 @@ rg.ru##div[class*="EditorialHeader_contact"]
 mir24.tv##div[class*="InfoRowSocials"]
 igromania.ru,kanobu.ru##div[class*="ShareLinks_share"]
 ati.su##div[class*="SocialButtons"]
-dzen.ru##div[class*="StoryHead-desktop__controls"] > div:first-child:not([class])
 rg.ru##div[class*="Video"][class*="_share"]
 matchtv.ru##div[class*="WidgetArticle__share"]
 mir24.tv##div[class*="__share__"]
