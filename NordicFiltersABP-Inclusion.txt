@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OqHugD7VJ/nNTMmMgGSZ1w
-! Version: 202604111312
+! Checksum: Tw7KAXfCGR3dvnkrZ5E9pA
+! Version: 202604111321
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Apr 2026 13:12 UTC
+! Last modified: 11 Apr 2026 13:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -51345,6 +51345,7 @@ browsershots.org#@#.advert_area
 ||npfnnmbcuotel.website^
 ||nphtobtduorrz.website^
 ||npikafhu.in^
+||npismiad.in^
 ||npiwgxfpugdsc.site^
 ||npjdvywxsbtbz.online^
 ||npjodjkzmjnbp.website^
@@ -94770,6 +94771,7 @@ rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 mail.aol.com##div[data-test-id="virtual-list"] > ul[role="list"][aria-label] > li[style]:has(a[href^="https://api.taboola.com/"][href*="/yahoo-aol-mail/"])
 producthunt.com##div[data-test] > section:has(a[href^="/r/ad/"])
 producthunt.com##div[data-test] > section:has(img[src="/i/299a62819c7092e196f7fc2c331cc11ef4f93a0f32c3b3069c4fd974cda0cb4c"])
+producthunt.com##div[data-test]:not([data-test^="homepage-section-"]) > section[data-test^="post-item-"]
 priceline.com##div[data-testid="HTL_NEW_LISTING_CARD_RESP"]:has(a[aria-label*=" Promoted"])
 twitter.com,x.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com,x.com##div[data-testid="eventHero"]:has(path[d$="10H8.996V8h7v7z"])
