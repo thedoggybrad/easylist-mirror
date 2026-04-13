@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cNeIZa8oQ48XazWXAcXBPg
-! Version: 202604131411
+! Checksum: R0WVPpM9bQmhF/OzdfkCFg
+! Version: 202604131422
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 13 Apr 2026 14:11 UTC
+! Last modified: 13 Apr 2026 14:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -30004,6 +30004,7 @@ browsershots.org#@#.advert_area
 ||cheaplyregainthrift.com^
 ||cheapmachinerywail.com^
 ||cheatingagricultural.com^
+||chebecdalles.com^
 ||chebelviciousyellowy.cfd^
 ||chebfqsmfwovu.online^
 ||check-tl-ver-294-2.com^
@@ -38176,6 +38177,7 @@ browsershots.org#@#.advert_area
 ||gwithearama.org^
 ||gwithearamajo.org^
 ||gwjmfxgdooxdd.website^
+||gwlfwqyxrxrou.online^
 ||gwlrbbtxmguuz.today^
 ||gwotxytfckfor.store^
 ||gwpifpeauhhwk.online^
@@ -95257,7 +95259,6 @@ thetimes.com##article[id="article-main"] > div:has(#ad-header)
 costco.com##article[id][class]:has(img[alt*="Sponsored"])
 psychcentral.com##aside:has([data-empty])
 kohls.com##astro-island[component-export="KmnMarqueeBannerWrapper"]:has(img[alt="Sponsored Banner"])
-boatnews.com#?#div.p:has-text(Advertising)
 creepypasta.com##center:has(+ #ad-container-1)
 hashrate.no##center:has(.sevioads)
 majorgeeks.com##div > [style]:has([style]:has([href*="&utm"]))
@@ -95339,9 +95340,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div
 flipkart.com##div[style="max-width:1200px;width:100%"]:has(source[srcset^="https://rukminim1.flixcart.com/fk-p-flap/1570/520/image/eb2033142a4a8eab.png"])
 thisday.app##div[style="min-height: 340px;"]:has(div.ad)
 robtex.com##div[style]:has(> ins.adsbygoogle[data-ad-slot])
-downornot.net#?#.border-blue-500\/20:has-text(Special offer)
 dribbble.com##drb-infinite-scroll div[data-username]:has(drb-tooltip[data-promoted-badge])
-english.mathrubhumi.com#?#.psd\:px-0.px-\[10px\]:has-text(To advertise here)
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 unsplash.com##figure[itemprop="image"]:has(div[class*="sponsorLabelContainer-"])
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
@@ -95368,7 +95367,6 @@ canadiantire.ca##li[data-testid="product-grids"]:has(.nl-product-card__sponsored
 aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"])
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
 classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.com"]))
-winaero.com#?##qcihrbv5 > p:has-text(Tip)
 duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
@@ -95376,8 +95374,6 @@ thehansindia.com##section:has(> .to-be-async-loaded-ad)
 thehansindia.com##section:has(> [class*="level_ad"])
 tripadvisor.*##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
-slashdot.org#?#.grid_24:has-text(Featured Content)
-sourceforge.net#?#aside.m-sidebar-widget > .as-header:has-text(Featured)
 mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirrored.to/templates/mirrored/images/hosts/FilesDL.png"])
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])
@@ -96021,7 +96017,6 @@ checkfelix.com,kayak.*,swoodoo.com##div[class*="-adInner"]
 checkfelix.com,kayak.*,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
-thesaurus.com#@#.SZjJlj7dd7R6mDTODwIT
 dev.to##.crayons-card:has(.sponsorship-dropdown)
 2fa.live#?#p:has-text(Advertising)
 404media.co#?#.post__content > p:has-text(This segment is a paid ad)
@@ -96057,6 +96052,7 @@ bjs.com#?#[data-cnstrc-recommendations]:has-text(Sponsored Products)
 bleepingcomputer.com#?#.post_wrap:has-text(AdBot)
 bleepingcomputer.com#?#ul#bc-home-news-main-wrap > li:has-text(Sponsored)
 blockchair.com#?#.fs-sm.flow:has-text(Sponsored)
+boatnews.com#?#div.p:has-text(Advertising)
 bolnews.com#?#[style*="center"]:has-text(Ad)
 booking.com#?#div[data-testid="property-card"]:has(span:has-text(Promoted))
 boots.com#?#.oct-listers-hits__item:has-text(Sponsored)
@@ -96086,6 +96082,7 @@ dexscreener.com#?#.chakra-link:has-text(Advertise)
 dictionary.com,thesaurus.com#?#[class] > p:has-text(Advertisement)
 digg.com#?#article.relative:has(div:has-text(SPONSORED))
 deccanherald.com##div:has(> div > .ad-background)
+downornot.net#?#.border-blue-500\/20:has-text(Special offer)
 qz.com##div[class^="sc-"]:has(> div[class="ad-unit"])
 qz.com##div[class^="sc-"]:has(> div[is="bulbs-dfp"])
 deccanherald.com##div[style^="min-height"]:has(> div > div[id*="-ad-separator"])
@@ -96096,6 +96093,7 @@ downforeveryoneorjustme.com#?#.relative.bg-white:has-text(PolyBuzz)
 dropstab.com#?#.bg-slate-100:has-text(Ad)
 dropstab.com#?#.bottom-0.gap-2:has-text(/Stake Now|Invest Now/)
 engadget.com#?#.justify-center:has-text(Advertisement)
+english.mathrubhumi.com#?#.psd\:px-0.px-\[10px\]:has-text(To advertise here)
 etherscan.io#?#section.container-xxl > .py-4:has-text(Sponsored)
 euronews.com#?#.m-object:has(.m-object__quote:has-text(/In partnership with|En partenariat avec|Mit Unterstützung von|In collaborazione con|En colaboración con|Em parceria com|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|بالمشاركة مع/))
 euronews.com#?#.the-media-object--has-sponsored:has-text(/In partnership with|In collaborazione con|En partenariat avec|Mit Unterstützung von|En colaboración con|Em parceria com|We współpracy z|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|با همکاری/)
@@ -96195,7 +96193,9 @@ shopee.sg#?#.shopee-header-section:has(> .shopee-header-section__content:has-tex
 shopee.sg#?#div[class="N_YeYe"]:has(> .shopee_ic:has-text(Ad))
 shopee.sg#?#div[class="oMSmr0"]:has(> .shopee_ic:has-text(Ad))
 slashdot.org#?#.fhitem-story.fhitem:has-text(Sponsored Content)
+slashdot.org#?#.grid_24:has-text(Featured Content)
 songbpm.com#?#div.mb-6:has-text(Advertisement)
+sourceforge.net#?#aside.m-sidebar-widget > .as-header:has-text(Featured)
 spigotmc.org#?#[style="text-align: center"]:has-text(sponsored)
 sprouts.com#?#li.product-wrapper:has(span:has-text(Sponsored))
 staples.com#?#.side-by-side-carousel__carousel_container:has-text(Sponsored Products)
@@ -96231,6 +96231,7 @@ twitter.com,x.com#?#h2[role="heading"]:has-text(/Promoted|Gesponsert|Promocionad
 ulta.com#?#li.ProductListingResults__productCard:has(.ProductCard__badge:has-text(Sponsored))
 vpforums.org#?#.ipsSideBlock.clearfix:has-text(Affiliates)
 weather.com#?#.bg-gray-100:has-text(Advertisement)
+winaero.com#?##qcihrbv5 > p:has-text(Tip)
 wings.io#?#.form-group center:has-text(Advertisement)
 wltreport.com#?#.code-block:has-text(ADVERTISEMENT)
 wolt.com#?#button:has(> div > div > div > span:has-text(Sponsored))
