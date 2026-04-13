@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 785IDmAggsPhIMMHC/8ClA
-! Version: 202604130841
+! Checksum: Z6282aGKj4uLOyJmQUzy2w
+! Version: 202604130852
 ! Title: ABPVN List
-! Last modified: 13 Apr 2026 08:41 UTC
+! Last modified: 13 Apr 2026 08:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 13 Apr 2026 10:10:29 UTC+7
-! Diff-Path: patches/20260413101029394.patch#abpvn
+! Last modified: 13 Apr 2026 15:47:19 UTC+7
+! Diff-Path: patches/20260413154719692.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -99,7 +99,6 @@ $popup,domain=truyenfull.vision
 ||ax.mpcdn.top^*.gif$domain=motchillzl.id
 ||baomoi.com$csp=script-src data: blob: * 'self' 'unsafe-inline'
 ||baonga.com/FileUpload/Images/*banner
-||bf.333xbet.com^$media,third-party
 ||blog.abit.vn/wp-content/uploads/2020/05/abit_$image
 ||blogger.googleusercontent.com^$image,domain=hhninja30.tv|hhtm.net|yanhh3d.app
 ||blvtap.com^*.gif$image,domain=vietsub.help
@@ -231,7 +230,6 @@ $popup,domain=truyenfull.vision
 ||sv2.xaycon1.live/banners/$image
 ||tailieuvnu.com/wp-content/uploads/2022/12/28/shopee-2*.png$image
 ||taoanhdep.com$csp=script-src 'self' 'unsafe-inline' data: https:
-||telendos.net/OK9_FINAL_1202.mp4$domain=thungphim.us
 ||telendos.net^*.gif$domain=thungphim.us
 ||tepbac.com/upload/advertiment/$image
 ||thapcamtvz.org^*.gif$image,domain=thapcamtvz.org
