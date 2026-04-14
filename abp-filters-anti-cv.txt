@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: iZsY+qiQXsEMMtMHyP6P8A
-! Version: 202604140931
+! Checksum: J9qp4ZF0C7jkeY4cBW5VMA
+! Version: 202604140942
 ! Title: ABP filters
-! Last modified: 14 Apr 2026 09:31 UTC
+! Last modified: 14 Apr 2026 09:42 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -989,7 +989,7 @@ socialmediagirls.com#$#abort-on-property-read ExoVideoSlider.init
 xxxtik.com#$#abort-on-property-read decodeURI; abort-on-property-read fromCharCode;
 opvid.co,opvid.net,opvid.org#$#abort-on-property-read setInterval; abort-on-property-read setTimeout; abort-on-property-read Math.random
 9anime.to,gogoanime.*#$#abort-current-inline-script setTimeout String.fromCharCode
-scatch176duplicities.com#$#abort-current-inline-script Math.random
+marissasharecareer.com,scatch176duplicities.com#$#abort-current-inline-script Math.random
 hclips.com#$#abort-on-property-write adLoaded
 gaytxxx.com,transtxxx.com,txxx.com#$#abort-current-inline-script setTimeout hommy.mutation.mutation
 gaytxxx.com,transtxxx.com,txxx.com#$#abort-on-property-read jwplayer.utils.Timer
@@ -1012,7 +1012,7 @@ flixhq.*,sflix.*,sflix2.*#$#abort-current-inline-script parseInt /break;case \$/
 aniwave.*,wallpaperflare.com#$#abort-current-inline-script document.write; abort-on-property-read window.open;
 tvsportslive.*#$#abort-current-inline-script document.createElement /script/; hide-if-matches-xpath './/div[@class][contains(@style, "pointer-events: none;")]/self::div[1]';
 datanodes.to##body > form[method="POST"][target="_blank"] {remove:true;}
-abstream.to,advertape.*,bunkr.*,easyvidplayer.com,livecamrips.*,pandamovies.org#$#abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
+abstream.to,advertape.*,bunkr.*,easyvidplayer.com,marissasharecareer.com,livecamrips.*,pandamovies.org#$#abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
 easyvidplayer.com#$#prevent-listener click /(popunder)|(openPopunder)|(adId)/; abort-on-property-read window.open; abort-on-property-read cache_loader;
 cineb.*#$#prevent-listener mousedown shown_at; abort-on-property-read window.open;
 animeonline.ninja,filemooon.*,gomovies.*,harimanga.*,maxstream.video,myflixer.*,myflixerz.*#$#abort-current-inline-script document.documentElement /break;case \$/; abort-on-property-read window.open;
@@ -1075,6 +1075,7 @@ vidara.*#$#abort-on-property-read popundersPerIP; abort-current-inline-script St
 1337x.*#$#abort-on-property-write window.onload false
 younetu.*#$#abort-on-property-read doSecondPop
 netu.ac#$#abort-on-property-read BetterJsPop; abort-on-property-read PopURL; abort-on-property-write window.open; abort-current-inline-script document.createElement 'delete window'; override-property-read adblockcheck false;
+marissasharecareer.com#$#override-property-read window.sk false; abort-current-inline-script encodeURIComponent;
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2567,6 +2568,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||cyberspace92.net^
 ||dabblespaver.com^
 ||dalkawe.com^
+||dagrtenihca.in^
 ||damnercold.help^
 ||defectstratic.com^
 ||degreeeruptionpredator.com^
@@ -2813,6 +2815,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||rapid-university.com^
 ||rebopsmurly.com^
 ||redcapsunlime.com^
+||reedunpack.com^
 ||reforgefuhrer.com^
 ||regodipylon.com^
 ||renderstreamshuttleanalytics.net^
@@ -2864,6 +2867,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||sonic2plugins.com^
 ||spiritedprefer.com^
 ||stanzytkyx.com^
+||starsallowyear.com^
 ||sterolsawaited.com^
 ||stibilpirra.com^
 ||stimespatroon.com^
