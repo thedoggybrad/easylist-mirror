@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 9UiSpIFxzw6EVyn16VQ+7w
-! Version: 202604151151
+! Checksum: dKRAGsEOpb/AXyNz1xNW8Q
+! Version: 202604151201
 ! Title: ABP filters
-! Last modified: 15 Apr 2026 11:51 UTC
+! Last modified: 15 Apr 2026 12:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -897,6 +897,7 @@ youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-rende
 youtube.com##div #player-ads.style-scope.ytd-watch-flexy
 youtube.com##.video-ads .ytp-ad-player-overlay, .video-ads .ytp-ad-player-overlay-layout
 m.youtube.com##.video-ads.ytp-ad-module
+www.youtube.com#$#hide-if-matches-xpath '//ytd-rich-item-renderer[./div[@id="content"]/ytd-ad-slot-renderer/div[@id="fulfilled-layout"]/ytd-in-feed-ad-layout-renderer/div[@id="rendering-content"]/video-display-full-layout-view-model//feed-ad-metadata-view-model[.//ad-badge-view-model[following-sibling::ad-details-line-view-model]]]'
 ! yt/tv
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
