@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RB9/FMINKgRJWk2j8Lf6dw
-! Version: 202604160411
+! Checksum: boevsZp/wF/R/Y5o2Ep8Bw
+! Version: 202604160421
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Apr 2026 04:11 UTC
+! Last modified: 16 Apr 2026 04:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -29112,6 +29112,7 @@ browsershots.org#@#.advert_area
 ||btnspihedggvk.website^
 ||btoetwervetat.space^
 ||btowerexkphfu.site^
+||btpopoogrnqvj.site^
 ||btprmnav.com^
 ||btqigbjmutmyw.website^
 ||btrlvukwtlqyc.site^
@@ -44980,6 +44981,7 @@ browsershots.org#@#.advert_area
 ||kneelspunkahpelt.cyou^
 ||kneesstrictforthcoming.com^
 ||kneestolerableadulthood.com^
+||kneexbabmm.com^
 ||knellspinrail.cyou^
 ||kneoumuxotvax.online^
 ||kneovsyrwrcub.online^
@@ -95981,7 +95983,9 @@ etsy.com##[data-page-type="listing_page_similar_listings_row"]:has([id^="ad-list
 etsy.com##[data-page-type="market"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
+pexels.com##[data-testid="column"] [data-testid="item"]:has([class*="AIGCAdShared"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-text="Sponsored Photos"])
+pexels.com##[data-testid="column"] [data-testid="item"]:has([data-title*="Sponsored"])
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
 samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
