@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604161143
+! Version: 202604161151
 ! Title: EasyPrivacy
-! Last modified: 16 Apr 2026 11:43 UTC
+! Last modified: 16 Apr 2026 11:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2ec1f452a7f0bef0443e86a47162966c4b1862e5
+! Commit: 944b1819f47c643624220299bfb089dea3317663
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6817,7 +6817,7 @@ omni.soundestlink.com$image
 ||bluenest.net^
 ||bluevinebooks.com^
 ||blushingbeast.com^
-||blushingbread.com^$~script
+||blushingbread.com^
 ||boatcodeapp.com^
 ||boatpaper.com^
 ||boatsbuilding.com^
@@ -8821,6 +8821,9 @@ omni.soundestlink.com$image
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
+! noopjson
+||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
+||kindhush.com^$redirect=noopjson,xmlhttprequest
 ! *** easylist:easyprivacy/easyprivacy_trackingservers_notifications.txt ***
 ! easyprivacy_trackingservers_notifications.txt
 ||actirinius.com^$third-party
