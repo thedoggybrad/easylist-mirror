@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604160848
+! Version: 202604160903
 ! Title: EasyPrivacy
-! Last modified: 16 Apr 2026 08:48 UTC
+! Last modified: 16 Apr 2026 09:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 112dd27ee85d6fafd317ba87fbdab61018ab0119
+! Commit: c769f05441d82094b21decc565052439a042f320
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7627,7 +7627,7 @@ omni.soundestlink.com$image
 ||kernellife.com^
 ||kidpowers.com^
 ||kindasingle.com^
-||kindhush.com^
+||kindhush.com^$~xmlhttprequest
 ||kindlereunion.com^
 ||kitetuning.com^
 ||kittentacos.com^
