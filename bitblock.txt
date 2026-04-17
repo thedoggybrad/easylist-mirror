@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kVT4WqwUby0nmzmwNrHqQQ
-! Version: 202604171112
+! Checksum: nrzUVtvOlnSTLEvM7ccmZA
+! Version: 202604171121
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Apr 2026 11:12 UTC
+! Last modified: 17 Apr 2026 11:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3227,6 +3227,7 @@ cheezu.ru##div[jello-component="sharer"]
 novafilm.tv##div[style*="40px;"]:last-child
 my-calend.ru##div[style="background: #f6f6f6; padding: 12px; margin: 0 0 12px;"]
 newsmsk.com##div[style="height: 120px; width: 240px;"]
+yap.ru,yaplakal.com##div[style="padding:6px;font-weight: 600;"][align="center"]
 stratege.ru##div[style="text-align: center;"] > a[href="https://vk.com/strategeru"]
 stratege.ru##div[style="text-align: center;"] > a[href^="https://t.me/"]
 samelectric.ru#?#div[style="text-align: center;"]:-abp-has(> a[href="https://vk.com/samelectric"])
@@ -3275,7 +3276,6 @@ theins.ru##footer div > nav ~ ul
 obukhiv.info#?#footer div:-abp-has(> a[href*="://t.me/"])
 eda.ru#?#footer div:-abp-has(> div > [title="vkontakte"])
 fontanka.ru#?#footer div:nth-child(5):-abp-has([href^="https://vk.com/fontanka"])
-yap.ru,yaplakal.com##form[method="POST"] + .row4[style="padding:6px;"][align="center"]
 google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com##.js-share_buttons
 om1.ru#?#h1:-abp-contains(/в соцсетях/)
 format.kr.ua#?#h2:-abp-contains(/Под.литися|П.дпишись/)
@@ -4575,6 +4575,7 @@ ficbook.net###adultCoverWarning
 bancaintesa.ru###agreement
 videovegas.ru###agreement_cookie
 naruto-brand.ru#?##allEntries > div[id^="entryID"]:-abp-has(a[href][target="_blank"])
+yap.ru,yaplakal.com###android-app
 ok.ru###anonymPageContent > div[data-promo]
 enthub.it###app > .bottom-20:last-child
 mamba.ru#?##app section:-abp-has(> div[class] > form#closeCookieBanner)
