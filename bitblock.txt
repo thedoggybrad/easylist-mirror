@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mxtwUbm7TZXBIXZrepxdAQ
-! Version: 202604181412
+! Checksum: 0HqUVJ/bO7krWOp4WTugvQ
+! Version: 202604181421
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 18 Apr 2026 14:12 UTC
+! Last modified: 18 Apr 2026 14:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1292,7 +1292,6 @@ fx.co##.footer__social-network
 dailystorm.ru##.footer__social-shares
 banki.ru##.footer__socials-list
 odessa.online##.footer__tg
-kod.ru##.footer__top > .row > div ~ div[class] > h5
 sova.live##.footer__top-link
 iz.ru##.footer__top__inside__left__social
 calltouch.ru##.footer__top__social
@@ -1816,7 +1815,6 @@ lelang.su##.popular2
 theins.ru##.popup > div > nav ~ ul
 highload.tech##.popup-bottom
 vtomske.ru##.portal-foot-social
-kod.ru##.post > .subscribe + .section__title
 cxid.media##.post-banner
 radojuva.com.ua##.post-bodycopy > .bottomcontainerBox
 radiotrek.rv.ua##.post-caption-social
@@ -2069,7 +2067,6 @@ allkey.org#?#.sidebar .widget_custom_html:-abp-has([href^="https://t.me/"])
 afisha.ykt.ru#?#.sidebar > .block:-abp-has(> .block-body > .socials)
 alllyr.ru##.sidebar > .menu ~ *
 ukrmir.info##.sidebar > .module-social > .module-inner > .module-title
-kod.ru#?#.sidebar > .sidebar__section:-abp-has(> .social-links)
 turkcinema.org##.sidebar > .widget-wrap > .widget_text
 defence-ua.com##.sidebar > div:first-child + h2
 1jazz.ru#?#.sidebar aside:-abp-has(> .textwidget > .ya-share2)
@@ -2787,6 +2784,7 @@ ohotniki.ru##[class*="preview__social"]
 jpgazeta.ru##[class*="share_save_widget"]
 cn.ru##[class*="socnets"]
 mash.ru##[class*="styles_shares_"]
+kod.ru##[class^="Aside_soc_"]
 hromadske.radio##[class^="FollowBanner"]
 ainews.kz,hromadske.radio,rodina-history.ru##[class^="Footer_socials"]
 mir24.tv,newizv.ru##[class^="Socials_socials"]
@@ -2911,6 +2909,7 @@ rg.ru##a[class*="_socialItem"]
 avito.ru##a[class*="styles-module-root_shape_"]
 lenta.ru##a[class*="telegram-"]
 1tv.ru##a[class^="ButtonWithGradient_"][href^="https://max.ru/"]
+kod.ru##a[class^="Tg"]
 ukrs.com.ua##a[class^="finewp-social-icon-"][target="_blank"]
 vgorodekirove.ru##a[class^="soc_"]
 motor.ru##a[href$="/motorru"][target="_blank"][class]
@@ -3126,12 +3125,14 @@ tribuna.com##div[class^="Footer_footer__social-media"]
 afisha.ru##div[class^="Footer_social"]
 hd.kinopoisk.ru##div[class^="Footer_social-networks"]
 360tv.ru##div[class^="Footer_socialBox"]
+kod.ru##div[class^="Footer_social_"]
 diletant.media##div[class^="Footer_social__media"]
 ctc.ru##div[class^="HeaderVerticalNav_socialLinkSet"]
 hromadske.radio##div[class^="Header_socials"]
 images.rambler.ru##div[class^="ImageBig__share"]
 auto.ru##div[class^="LogbookListingSnippetActions-"] > [class^="ModalMenu-"] > [role="button"]:first-child
 tass.ru##div[class^="MaterialPageTitle_wrapper"] > h1 ~ div
+kod.ru##div[class^="NewsDetail_shareRow_"]
 afisha.ru##div[class^="NewsItem_social"]
 rg.ru##div[class^="Share"][class*="Content"]
 my.ua##div[class^="ShareButtons_"]
@@ -5896,7 +5897,7 @@ dns-shop.ru##.products-list__banner
 moya-planeta.ru##.products_list_full
 www.onliner.by##.project-navigation
 friday.ru##.project-slide__footer
-kod.ru,matchtv.ru,tochka.net,vgtimes.com,vgtimes.ru##.promo
+matchtv.ru,tochka.net,vgtimes.com,vgtimes.ru##.promo
 funpay.com##.promo-abc > .cd-container
 habr.com##.promo-block
 womo.ua##.promo-block-subscribe
@@ -6091,7 +6092,7 @@ www.sport.ru##.subs-link-block
 real-vin.com##.subs_block
 diakov.net##.subscr-lazydev
 nv.ua##.subscrb_form_wrap
-anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtonovostidnya.ru,belretail.by,blog.eva.ua,censor.net,doc-tv.ru,dynamomania.com,femmie.ru,glas.ru,inforeactor.ru,it-tehnik.ru,izhlife.ru,kod.ru,kp.kg,kp.kz,kp.md,kp.ru,kp.ua,liga.net,livelib.ru,marieclaire.ru,maximonline.ru,mcmaison.ru,naukatv.ru,newinform.com,novostivl.ru,oboz.ua,obozrevatel.com,ohotniki.ru,parents.ru,polit.info,psychologies.ru,riafan.ru,rockstargame.su,rueconomics.ru,slovodel.com,spartak.ru,texty.org.ua,the-day.ru,thegirl.ru,twizz.ru,v-variant.com.ua,vokrugsveta.ru,woman.ru##.subscribe
+anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv,avtonovostidnya.ru,belretail.by,blog.eva.ua,censor.net,doc-tv.ru,dynamomania.com,femmie.ru,glas.ru,inforeactor.ru,it-tehnik.ru,izhlife.ru,kp.kg,kp.kz,kp.md,kp.ru,kp.ua,liga.net,livelib.ru,marieclaire.ru,maximonline.ru,mcmaison.ru,naukatv.ru,newinform.com,novostivl.ru,oboz.ua,obozrevatel.com,ohotniki.ru,parents.ru,polit.info,psychologies.ru,riafan.ru,rockstargame.su,rueconomics.ru,slovodel.com,spartak.ru,texty.org.ua,the-day.ru,thegirl.ru,twizz.ru,v-variant.com.ua,vokrugsveta.ru,woman.ru##.subscribe
 bnb.by,kinometro.ru,vokrug.tv##.subscribe-block
 texterra.ru##.subscribe-block-form
 news.ati.su,zen.ati.su##.subscribe-block-place
