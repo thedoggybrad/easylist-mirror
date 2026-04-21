@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604210623
+! Version: 202604210629
 ! Title: EasyList
-! Last modified: 21 Apr 2026 06:23 UTC
+! Last modified: 21 Apr 2026 06:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2fe54cba7cef83228b1c61ea1c5b0602adb3d69c
+! Commit: 36096590625f7afd7f10595b60932b13e1b4079f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -77667,6 +77667,7 @@ tumblr.com##.XJ7bf
 tumblr.com##.Yc2Sp
 desmoinesregister.com##.ZJBvMP__ZJBvMP
 natlawreview.com##.\#div\.block-native_bf
+complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 greatandhra.com##._201223_
 greatandhra.com##._201223_2
 carexpert.com.au##._26wjo85
@@ -80105,6 +80106,7 @@ axios.com##.lg\:min-h-\[200px\]
 dexerto.com##.lg\:min-h-\[290px\]
 gizmodo.com,kotaku.com##.lg\:min-h-\[300px\]
 stomp.sg##.lg\:py-xl.pt-md
+complex.com##.lg\:top-\[var\(--sticky-top\)\]
 mumsnet.com##.lg\:w-billboard
 dailyo.in##.lhsAdvertisement300
 latestly.com##.lhs_adv_970x90_div
@@ -83533,6 +83535,7 @@ troyhunt.com##.sidebar-featured:has(a[href^="https://pluralsight.pxf.io/"])
 bitcointalk.org##.signature:has(a[href]:not([href*="bitcointalk.org"]))
 bestbuy.com##.slContainer:has(> .sponsored)
 bing.com##.slide:has(.rtb_ad_caritem_mvtr)
+complex.com##.sm\:min-h-\[100px\]:has(#catalyst_ad_top)
 fastcompany.com##.sticky:has(.ad-container)
 carwow.co.uk##.stock-cars-v2__card-wrapper:has(> [data-controller="spdeal"])
 scamwarners.com##.subheader:has(> ins.adsbygoogle)
