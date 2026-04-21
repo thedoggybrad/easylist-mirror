@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: FpYMgLmCqCjukZv5ssFwWQ
-! Version: 202604211052
+! Checksum: 4WmVDPDkjJKrDoiJYC3idw
+! Version: 202604211102
 ! Title: ABP filters
-! Last modified: 21 Apr 2026 10:52 UTC
+! Last modified: 21 Apr 2026 11:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1930,7 +1930,7 @@ afamily.vn,cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,thanhnien.vn,tuoitre.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-jurasudfoot.com#$#override-property-read adsPlayer ''; override-property-read adsTvcs ''
+reenergizexom.com#$#override-property-read adsPlayer ''; override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 mphim.cc#$#override-property-read urlAds ''
@@ -1938,7 +1938,7 @@ n.thapcam53.pro#$#simulate-mouse-event '#modalasd$continue,delay=300'
 animet.org,motchillzz.site,xemphim.site#$#override-property-read maxAds 0
 www.iosviet.com#$#override-property-read timer 0
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
-jurasudfoot.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
+reenergizexom.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem16.net#$#json-prune props.children.[].props.tvc
 hh2d.top#$#abort-current-inline-script $ adblock
@@ -1961,10 +1961,10 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 seltzerland.com#$#abort-on-property-read adsRedirectPopups
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.media,phimech.net,animehay.today,cliphot69.hair,genz3x.com,damconuong.ceo,demo.14412882.com,doctruyen3qhubz.net,dualeotruyendb.com,goctruyentranhvui19.com,hentaizvn.net,hhtq5.vip,ihentai.network,javtiful.com,luottruyen5.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,mupsexphim.net,newtruyentranh10.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.sh,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.mu,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+buomtv.media,sexvc.net,animehay.today,cliphot69.hair,genz3x.com,damconuong.ceo,demo.14412882.com,doctruyen3qhubz.net,dualeotruyendb.com,goctruyentranhvui19.com,hentaizvn.net,hhtq5.vip,ihentai.network,javtiful.com,luottruyen5.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,mupsexphim.net,newtruyentranh10.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.sh,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.mu,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 teamlanhlung8.shop,javgiga.wordpress.com,www.motchill55.com#$#abort-on-property-read localStorage
 xnhau.fan#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
-animevietsub.id,animevietsub.id,hh3dhay.life,tram3d.online#$#abort-current-inline-script eval $._Eu
+animevietsub.bz,animevietsub.bz,hh3dhay.life,tram3d.online#$#abort-current-inline-script eval $._Eu
 phimlongtieng.net#$#abort-current-inline-script document.createElement script
 dualeotruyendb.com#$#abort-current-inline-script document.addEventListener popunder
 lxmanga.space#$#abort-current-inline-script $ PopUnder
@@ -2006,8 +2006,8 @@ audiotruyenfull.com,teamlanhlungday.store,trumtruyen.xyz,www.motchill55.com#$#ab
 pheclip.site,phim18vip.top,sieudam.sh#$#abort-current-inline-script $ pop
 quykhu.com#$#abort-current-inline-script document.addEventListener atob
 thiendia3.com#$#abort-current-inline-script document.addEventListener adState
-jurasudfoot.com#$#abort-current-inline-script jQuery open
-michorussellweekend.ie,onflix.me,eile.ie#$#prevent-listener click ads
+reenergizexom.com#$#abort-current-inline-script jQuery open
+motchillu.sh,onflix.me,eile.ie#$#prevent-listener click ads
 www.asu.baby#$#abort-on-property-read initialAdURLs
 miendich-ahcc.com#$#abort-current-inline-script window.addEventListener Ads
 cap3.cyou#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
