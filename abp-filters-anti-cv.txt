@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: svJzdJNgrPk53reVGt/nAA
-! Version: 202604211132
+! Checksum: raJrMUeM4Qw/FxU+v6OdFA
+! Version: 202604211141
 ! Title: ABP filters
-! Last modified: 21 Apr 2026 11:32 UTC
+! Last modified: 21 Apr 2026 11:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -688,6 +688,8 @@ billboard.com#$#override-property-read d3d3LmJpbGxib2FyZC5jb21fb25sb2Fk undefine
 ||error-report.com^$domain=geoguessr.com
 geoguessr.com#$#override-property-read window.navigator.connection.rtt 2000
 ||*/loader.min.js|$script,domain=geoguessr.com
+invoice-generator.com#$#abort-on-property-write adngin
+nationalpost.com#$#hide-if-matches-xpath './/section[contains(@aria-describedby,"advertisment")]/ancestor-or-self::*[1]'
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
