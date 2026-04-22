@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604220435
+! Version: 202604220444
 ! Title: EasyList
-! Last modified: 22 Apr 2026 04:35 UTC
+! Last modified: 22 Apr 2026 04:44 UTC
 ! Expires: 4 days (update frequency)
-! Commit: aeb5ef860656207e1d84424c23665a2a4b61c279
+! Commit: 1b32dc9958b9c2884fa57c95fc150cd2ead84d77
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -64495,6 +64495,7 @@ browsershots.org#@#.advert_area
 ||ynilaagfrdkek.online^
 ||ynjryqkgtlixu.space^
 ||ynlnsrmjpwscl.space^
+||ynlodkuuacugx.site^
 ||ynlucjumrddkg.website^
 ||ynndhckfadq.com^
 ||ynossspikirow.online^
@@ -83846,6 +83847,7 @@ inverse.com##div > p + div:has(amp-ad)
 outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
 golfgalaxy.com##div.hmf-position-relative:has(.sponsored)
 flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airplane:empty)
+tvguide.co.uk##div.mx-auto:has(> .flex.justify-center:empty)
 costco.ca##div.product:has(.criteo-sponsored)
 thebay.com##div.product:has(div.citrus-sponsored)
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##div.result[style="margin-bottom: 10px;"]:has(path[d^="m6.07067"])
