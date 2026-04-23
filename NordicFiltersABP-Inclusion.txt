@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Od4DoGkk1J6gXff5rlbAIA
-! Version: 202604230141
+! Checksum: 75xl1D10ZLn5OX37bhDWFA
+! Version: 202604230151
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 23 Apr 2026 01:41 UTC
+! Last modified: 23 Apr 2026 01:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -92296,6 +92296,7 @@ cars.com##li[data-phx-id]:has([phx-value-source="sponsored_trending_search_card"
 canadiantire.ca##li[data-testid="product-grids"]:has(.nl-product-card__sponsored)
 aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"])
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
+livpost.co.uk#?#.kg-cta-link-accent:has-text(SPONSORED)
 classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.com"]))
 duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
