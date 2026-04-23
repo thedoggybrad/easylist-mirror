@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uAazI38mkDwpGzt0pNvpFg
-! Version: 202604231751
+! Checksum: Tvx3VS1yWC8gaI16PLn7/Q
+! Version: 202604231801
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Apr 2026 17:51 UTC
+! Last modified: 23 Apr 2026 18:01 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20261,8 +20261,7 @@ repost.uz##video[src*="/storage/uploads/"][src$=".mp4"]
 vc.ru##vue[name="booster"]
 wasd.tv##wasd-banner
 wasd.tv##wasd-player-overlay-banner
-wildberries.ru,wildberries.*##div.banner
-wildberries.ru,wildberries.*##div.j-banners-block
+wildberries.ru,wildberries.*##div[class*="billboard"]
 mivmeste.info##wix-iframe
 pogodairadar.com.ua##wo-ad
 101xp.com##xp-banner-sidebar
