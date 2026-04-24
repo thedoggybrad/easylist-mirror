@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JgvyD288Vw60tiBOGNziWg
-! Version: 202604240351
+! Checksum: W0FYCTxTqh+h8iV0rp65zQ
+! Version: 202604240402
 ! Title: EasyList without rules for adult sites
-! Last modified: 24 Apr 2026 03:51 UTC
+! Last modified: 24 Apr 2026 04:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -82967,6 +82967,8 @@ thehansindia.com##section:has(> .to-be-async-loaded-ad)
 thehansindia.com##section:has(> [class*="level_ad"])
 tripadvisor.*##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
+startuphub.ai#?#.p-4.rounded-xl:has-text(Sponsored)
+startuphub.ai#?#a.block.group:has-text(Sponsored)
 mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirrored.to/templates/mirrored/images/hosts/FilesDL.png"])
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 opensubtitles.org##tr[style]:has([src*="php"])
