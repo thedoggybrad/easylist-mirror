@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: PlrIDECJrBJdz+mfAJBohQ
-! Version: 202604241531
+! Checksum: ynBZqqLokIXqbk1/CWAumw
+! Version: 202604241541
 ! Title: ABP filters
-! Last modified: 24 Apr 2026 15:31 UTC
+! Last modified: 24 Apr 2026 15:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1464,9 +1464,9 @@ lephoceen.fr##div[class*="ad_ad__"]
 ||mssjxgfk.gos.autoplus.fr^$script
 ||ovtyvnei.g00.closermag.fr^$script
 ! #CV-368
-extreme-down.*,extreme-download.*,voiranime.com#$#abort-on-property-read NativeAd
+extreme-down.*,extreme-download.*,voiranime.*#$#abort-on-property-read NativeAd
 ! #CV-667
-voiranime.com#$#abort-current-inline-script document.createElement String.fromCharCode
+voiranime.*#$#abort-current-inline-script document.createElement String.fromCharCode
 extreme-down.*,extreme-download.*,filmtelecharger.net,libertyvf.co,libertyvf.com,libertyvf.tv,streaming-one.com#$#abort-current-inline-script Math zfgloaded
 ! MISC
 hqq.*,netu.tv#$#abort-on-property-read ownerid
