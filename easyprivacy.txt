@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604241129
+! Version: 202604241158
 ! Title: EasyPrivacy
-! Last modified: 24 Apr 2026 11:29 UTC
+! Last modified: 24 Apr 2026 11:58 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bcd95054cac57e54eef8bfe512af35a4a72973bc
+! Commit: 44966b3adb38de10b00623f1c9b63c1bb6d9fc49
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16367,6 +16367,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||terabox.app/issue/terabox/ts_ad/
 ||terabox.com/abdr?
 ||terabox.com/nodeapi/reporterror?
+||terminaltrove.com/_t/
 ||termsfeed.com/track/
 ||tgt.maep.ibm.com^
 ||theblock.co/api/analytics
@@ -55227,6 +55228,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
+@@||cdn.deviceinf.com^$domain=etail.market
 @@||cdn.evgnet.com/beacon/homedepotofcainc/engage/scripts/evergage.min.js$script,domain=homedepot.ca
 @@||cdn.facil-iti.app/tags/faciliti-tag.min.js$script,domain=apec.fr|kyoto.travel
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
