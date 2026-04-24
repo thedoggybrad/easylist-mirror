@@ -280,10 +280,42 @@ jobs:
           git push
         continue-on-error: true
 
-      - name: Update bitblock.txt RU AdList (BitBlock + Fanboy's General)
+      - name: Update bitblock.txt (RU AdList: BitBlock + Fanboy's General)
         run: |
           curl -sSfL https://easylist-downloads.adblockplus.org/bitblock.txt > bitblock.txt
           git add bitblock.txt
           git diff-index --quiet HEAD || git commit -m "Updated bitblock.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+
+      - name: Update easylist-ai.txt (EasyList – Anti AI Suggestions)
+        run: |
+          curl -sSfL https://ublockorigin.github.io/uAssetsCDN/thirdparties/easylist-ai.txt > easylist-ai.txt
+          git add easylist-ai.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylist-ai.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+
+      - name: Update easylist-chat.txt (EasyList – Chat Widgets)
+        run: |
+          curl -sSfL https://ublockorigin.github.io/uAssetsCDN/thirdparties/easylist-chat.txt > easylist-chat.txt
+          git add easylist-chat.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylist-chat.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+
+      - name: Update easylist-notifications.txt (EasyList – Notifications)
+        run: |
+          curl -sSfL https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist-notifications.txt > easylist-notifications.txt
+          git add easylist-notifications.txt
+          git diff-index --quiet HEAD || git commit -m "Updated easylist-notifications.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
+          git push
+        continue-on-error: true
+
+      - name: Update fanboy-antifacebook.txt (Anti-Facebook List)
+        run: |
+          curl -sSfL https://secure.fanboy.co.nz/fanboy-antifacebook.txt > fanboy-antifacebook.txt
+          git add fanboy-antifacebook.txt
+          git diff-index --quiet HEAD || git commit -m "Updated fanboy-antifacebook.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
           git push
         continue-on-error: true
