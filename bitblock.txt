@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KbPIJkrV5JM93YSchCEK0w
-! Version: 202604241252
+! Checksum: HWBz/y7sT9FbdqR117cqcA
+! Version: 202604241301
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 24 Apr 2026 12:52 UTC
+! Last modified: 24 Apr 2026 13:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3093,6 +3093,8 @@ traktorist.ua#?#div:not([id]):not([class]):-abp-has(> a[href="https://t.me/trakt
 stalker-mods.clan.su,stalker-mods.su#?#div[align="center"]:-abp-contains(Поделиться в социальных сетях)
 paparazzi.ru#?#div[align="center"]:-abp-has(> .ya-share2)
 teenslang.su#?#div[align="center"]:-abp-has(> a[href*="://t.me/"])
+sport24.ru##div[aria-expanded="false"] > span
+sport24.ru##div[aria-expanded="false"] > span + svg
 ictv.ua##div[class$="menu-support-social"]
 rublacklist.net##div[class$="right_social_links_item"] > a[href][target="_blank"]
 the-village.ru##div[class*="-ShareBlock-"]
