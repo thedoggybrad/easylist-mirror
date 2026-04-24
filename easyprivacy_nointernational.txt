@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: jeKKBeaMbtRxMxwtygGJKQ
-! Version: 202604241152
+! Checksum: /CDgjYNzL2RggfZtLJCY2w
+! Version: 202604241201
 ! Title: EasyPrivacy without international filters
-! Last modified: 24 Apr 2026 11:52 UTC
+! Last modified: 24 Apr 2026 12:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8312,6 +8312,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||terabox.app/issue/terabox/ts_ad/
 ||terabox.com/abdr?
 ||terabox.com/nodeapi/reporterror?
+||terminaltrove.com/_t/
 ||termsfeed.com/track/
 ||tgt.maep.ibm.com^
 ||theblock.co/api/analytics
@@ -44835,6 +44836,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
+@@||cdn.deviceinf.com^$domain=etail.market
 @@||cdn.evgnet.com/beacon/homedepotofcainc/engage/scripts/evergage.min.js$script,domain=homedepot.ca
 @@||cdn.facil-iti.app/tags/faciliti-tag.min.js$script,domain=apec.fr|kyoto.travel
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
