@@ -1,0 +1,207 @@
+[Adblock Plus 2.0]
+! Title: EasyList – Anti AI Suggestions
+! Expires: 9 days
+! Last modified: Thu, 16 Apr 2026 14:24:01 +0000
+! *** easylist:template_header.txt ***
+!
+! Please report any unblocked adverts or problems
+! in the forums (https://forums.lanik.us/)
+! or via e-mail (easylist@protonmail.com).
+!
+! Homepage: https://easylist.to/
+! Licence: https://easylist.to/pages/licence.html
+! GitHub issues: https://github.com/easylist/easylist/issues
+! GitHub pull requests: https://github.com/easylist/easylist/pulls
+!
+! *** easylist:fanboy-addon/fanboy_ai_suggestions.txt ***
+###gist-answers-widget
+###kapa-widget-container
+! Specific Cosmetics
+outlook.office.com###BottomBar > div:has(> div > #copilot-dab-main-button)
+agoda.com###QuickAnswersContainer
+develop.sentry.dev###ai-list-entry
+forums.redflagdeals.com###ai_summary
+www.yahoo.co.jp###aichat
+reddit.com###answers-nav-button
+reddit.com###answers-suggested-queries-m3
+docs.github.com###ask-ai-result-container
+learn.microsoft.com###ask-learn-flyout
+collinsdictionary.com###assistant-link
+bing.com###b-scopeListItem-conv > [href^="https://www.bing.com/ck/a"]
+bing.com###b_copilot_search
+cloud.boldbi.com###bold-ai
+docs.kits.ai###chat-assistant-textarea
+bing.com###chat_upsell_bubble_icon
+ttlc.intuit.com###chip-wrapper
+geneticliteracyproject.org###chtl-open-chat-icon
+baidu.com###con-ar > [tpl="ai_accompanies"]
+baidu.com###content_left > .c-group-wrapper:has([tpl="ai_ask"])
+baidu.com###csaitab
+docs.google.com###docs-sidekick-gen-ai-promo-button-container
+amazon.com###dpx-rex-nice-widget-container
+acrobat.adobe.com###genai-assistant-button
+consumerreports.org###gnav__mt-alert-wrapper
+mail.google.com###google-hats-survey
+healio.com###healio-ai-banner
+langfuse.com###inkeep-shadowradix-\:r2\:
+studio.youtube.com###inspiration-tab
+airlinegeeks.com,avweb.com,flyingmag.com,planeandpilotmag.com###key-take-aways
+homedepot.com###magic-apron-loader
+amazon.com###nile-inline_feature_div
+indianstartupnews.com###nudgeai-widget
+homedepot.com###product-section-magic-apron-qa-bot
+rekono.si###rekono-chatbot-root
+baidu.com###s_tab_inner > a[href*="chat.baidu.com"]
+time.com###scale-agent-overlay-container
+trip.com##.A9zea:has([aria-label*="Hi! TripGenie"])
+ndtv.com##.ASum_wr
+search.yahoo.co.jp##.AiAssistant
+search.yahoo.co.jp##.AnswerAiNavigation
+github.blog##.Button[href="https://github.com/features/copilot"]
+coinmarketcap.com##.FloatingAiChat_floatingAiChatContainer__YJK16
+search.yahoo.co.jp##.Unit__naturalText
+sciencedirect.com##._pendo-guide-walkthrough_
+dictionary.cambridge.org##.ai-bar-button
+baidu.com##.ai-create-wrapper_2oI56
+androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hotcars.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.ai-features
+dictionary.cambridge.org##.ai-header-button
+healio.com##.ai-link-desktop
+gitlab.com##.ai-nav-icon
+ecosia.org##.ai-search-button
+straitstimes.com##.ai-summary
+businessinsider.com##.ai-summary-questions
+fresnobee.com##.ai-summary-wrapper
+economictimes.indiatimes.com##.ai_podcast_030825
+baidu.com##.aisearch-btn_1yI-K
+blog.google##.article-summary__content
+nutraingredients.com##.ask-ia-widget
+docs.redhat.com##.ask-red-hat-button-container
+investopedia.com##.askmiso-ask-query
+dictionary.cambridge.org##.assistant-pwa-bar
+collinsdictionary.com##.assistantIcon
+bing.com##.b_insights
+cloud.boldbi.com##.bbi-dbrd-dashboard-banner-summary
+cloud.boldbi.com##.bbi-dbrd-designer-chat-icon
+digg.com##.bg-background-ai-tertiary
+news.yahoo.co.jp##.bjevXT.sc-c89yjt-3
+learn.microsoft.com##.border-color-ask-learn
+rule34video.com##.button_fav.ai
+britannica.com##.category-link-CHATBOT
+bing.com##.cdxCopilotIconBg
+docs.kits.ai##.chat-assistant-floating-input
+duckduckgo.com##.chip-select_option__Gh6br:has(> span[title="Duck.ai"])
+bing.com##.copans_container
+github.com##.copilotPreview__container
+nutraingredients.com##.explore-more-widget
+flyscoot.com##.flight-recommender-container
+singaporeair.com##.flr-link
+trip.com##.gotop.mod-back-top-item
+britannica.com##.header-topic-britannica-ai-module
+healio.com##.healio-ai-component
+healio.com##.healio-ai-component-inline
+androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hotcars.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.i-sensa
+develop.sentry.dev,docs.sentry.io##.kapa-ai-class
+mojeek.com##.llm-btn
+amazon.com##.nav-rufus-disco
+www.notion.so##.notion-assistant-corner-origin-container
+olivela.com##.oli-chat-bubble-popup
+olivela.com##.oli_popup_button
+ecosia.org##.omnibox-search-form__ai-search
+vercel.com##.right-section-module__J7WNxW__nonPrimaryContent > button[data-cdp-track*="\"header_ask_ai_clicked\""]
+op.gg##.rounded.size-\[40px\]
+amazon.com##.rufus-panel-container
+amazon.com##.s-ask-rufus-mshop-suggestion-container
+amazon.com##.s-suggestion-nile-desktop-container
+docs.sentry.io##.search_sgs-ai-button__sUsjD
+www.ebay.com##.srp-river-answer--FAQ_KW_SRP_MODULE
+economictimes.indiatimes.com##.styles_podcast-widget__LKtPP
+mathrubhumi.com##.summary-wrapper
+techedt.com##.teqr-quick-read
+britannica.com##.toc-sticky-header-ai-container
+www.google.com#?##Odp5De:has-text(/AI Overview|Übersicht mit KI/)
+vercel.com##[aria-label="Ask AI"]
+meyka.com##[aria-label="Get AI Summary"]
+support.spotify.com##[data-encore-id="box"]
+support.github.com##[data-fs="copilot_chat_nav"]
+duckduckgo.com##[data-hide-untill-css-vars-polyfilled="true"][data-react-module-id="wikinlp"]
+baidu.com##[data-module="creation-cell"]
+duckduckgo.com##[data-react-module-id="duckDuckGoHelp"]
+baidu.com##[data-spy-count="panel-btn-click"]
+duckduckgo.com##[data-ssg-id="ask-duck-ai-submit"]
+ecosia.org##[data-test-id="search-form-ai-suggestion"]
+duckduckgo.com##[data-testid="aichat-button"]
+mail.google.com##[data-tooltip*="Help me write"]
+www.notion.so##[href="/ai"] > div
+www.google.com##[role="listitem"]:has(a[href*="aep=1&ntc=1"])
+yandex.com##a.HeaderNav-Tab[href$="&promo=force_neuro"]
+www.yahoo.co.jp##a.yMWCYupQNdgppL-NV6sMi._3sAlKGsIBCxTUbNi86oSjt:has(svg[aria-label="AIアシスタント"])
+www.yahoo.co.jp##a.ygDfdPUPK5OPiqKG4UtuU[aria-label="AIアシスタントで検索"]
+duckduckgo.com##a[class][href*="ia=chat"]
+bing.com##a[href="/chat?FORM=hpcodx"]
+duckduckgo.com##a[href^="/?ia=chat&"]
+search.brave.com##a[href^="/ask?q="]
+duckduckgo.com##a[href^="https://duckduckgo.com/?ia=chat"]
+app.slack.com#?#.autoSummaryCard__UEStF:has-text(AI thread summaries)
+businesstimes.com.sg#?#.tracking-\[0\.02em\].\!text-gray-850:has-text(Summarise)
+www.yahoo.co.jp##button#aichat
+search.brave.com##button#submit-llm-button
+kagi.com##button.quick-answer-trigger-link
+www.google.com##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])
+bunnings.com.au##button[aria-label="Ask Bunnings AI"]
+search.brave.com##button[aria-label="Ask"]
+duckduckgo.com##button[title="Ask Duck.ai"][data-ssg-id="ai-searchbox-chat-submit"]
+msn.com##codex-bing-chat[instance-id="CodexBingChat"]
+copycatcafe.com#?#.from-emerald-500:has-text(Ask ChatGPT)
+outlook.office.com##div#CopilotCommandCenterButton
+search.yahoo.co.jp##div.AiAssistant
+search.brave.com##div.ai-digest
+www.reddit.com##div.label-container > hr.trailing-divider
+www.reddit.com##div.label-container > span.trailing-content-container.has-trailing-content
+studio.youtube.com##div.screen-banners-container.yta-screen:has(button[aria-label="Go to Inspiration"])
+studio.youtube.com##div.suggestion-chips-container:has(> ytcp-creator-chat-entrypoint-chips)
+bloomberg.com##div[class^="SummaryOnlyTakeaways_takeaways__"]
+google.com##div[data-rp-placement-id="gemkick-pep-icon-callout-id"]
+docs.github.com#?#.prc-ActionList-GroupHeadingWrap-pfbd9:has-text(Ask Copilot)
+docs.posit.co#?#.nav-item:has-text(Ask AI)
+duckduckgo.com#?#.chip-select_isSelected__RpaRr:has-text(Duck.ai)
+ecosia.org#?#.tab--icon:has-text(AI Search)
+www.youtube.com#?##flexible-item-buttons > .ytd-menu-renderer > .ytd-menu-renderer:has-text("Ask")
+www.youtube.com#?##header > .ytd-expandable-metadata-renderer:has-text("Summary")
+new.express.adobe.com##label#switch-label.assistant-switch-label
+search.yahoo.co.jp##li.VerticalTab__aiAssistButton
+duckduckgo.com##li:first-child:has([data-testid="duckassist-answer-content"])
+www.google.com##li[data-attrid$="Prediction"]:has([aria-description="AI Mode"])
+yandex.com##li[data-fast-name="neuro_answer"]
+homedepot.ca##magic-apron-bot-wrapper-component
+www.google.com#?##main > [data-ved]:has-text(AI Overview)
+op.gg#?#section:has-text("AI Chatbot")
+pcmag.com#?#.w-\[110vw\]:has-text(Hello!)
+duckduckgo.com#?##react-duckbar li:has-text(Search Assist)
+republicworld.com#?#.desktop\:my-4:has-text(Show Quick Read)
+search.yahoo.com#?#.disclaimerBadge:has-text(Summaries)
+stackoverflow.com#?#.as-start.fd-column:has-text(Get instant answers)
+stackoverflow.com#?#.bg-white.wmx7:has-text(AI Assist)
+studio.youtube.com#?#ytcp-menu-service-item-renderer:has-text("Brainstorm video ideas")
+search.brave.com#?##submit-llm-button:has-text(Ask)
+support.google.com#?#.helpPanelContainerRoot:has-text(Help guide)
+vercel.com#?#.mt-3 button:has-text("Ask AI")
+vercel.com#?#.mt-3 div:has(+ button:has-text("Ask AI"))
+www.google.com#?#.VwJg8d:has-text(AI Shopping)
+www.google.com#?#.X8zPMb:has-text(flight deals with AI)
+www.google.com#?#[data-hveid="CAIQAQ"]:has-text(Gemini, an AI assistant)
+www.reddit.com#?#.search-answers-preview-section:has-text(Answers)
+www.yahoo.com#?#.dark\:bg-\[\#1d2228\].leading-5:has-text(See a mistake?)
+www.youtube.com##yt-video-description-youchat-section-view-model
+studio.youtube.com##ytcp-creator-chat-trigger
+www.youtube.com##ytd-talk-to-recs-flow-renderer
+! Network items
+||askmiso.com^$third-party
+||asus-brand-assistant.asus.com/brand-assistant.js
+||azurefd.net/cdns/copilot_v3.min.js$script,domain=nus.edu.sg
+||cdn.gist.ai^$third-party
+||chat.g4media.org^
+||embed.chatnode.ai^
+||gotolstoy.com^$third-party
+||mfgpt.milanofinanza.it/widget/widget.js
+||widget.kapa.ai^$third-party
+||widget.prod.equally.ai^$third-party
