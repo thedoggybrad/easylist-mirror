@@ -42,6 +42,26 @@ Blocks social media content and widgets on a non-social media site.<br>
 •Raw: [https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/fanboysocial.txt](https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/fanboysocial.txt) <br>
 •Subscribe: [https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/fanboysocial.txt](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/fanboysocial.txt)
 
+### EasyList – Anti AI Suggestions
+Blocks AI-suggestions, mainly on search engines.<br>
+•Raw: [https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-ai.txt](https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-ai.txt) <br>
+•Subscribe: [https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-ai.txt](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-ai.txt)
+
+### EasyList – Chat Widgets
+Blocks chat widgets on websites, which can sometimes be annoying.<br>
+•Raw: [https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-chat.txt](https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-chat.txt) <br>
+•Subscribe: [https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-chat.txt](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-chat.txt)
+
+### EasyList – Notifications
+Blocks notifications from websites, which can sometimes be annoying.<br>
+•Raw: [https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-notifications.txt](https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-notifications.txt) <br>
+•Subscribe: [https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-notifications.txt](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/easylist-notifications.txt)
+
+### Anti-Facebook List
+Blocks Facebook outside of the Facebook site.<br>
+•Raw: [https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/fanboy-antifacebook.txt](https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/fanboy-antifacebook.txt) <br>
+•Subscribe: [https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/fanboy-antifacebook.txt](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/fanboy-antifacebook.txt)
+
 ### EasyList Anti-AdBlock
 Removes popups and notices that are targeting AdBlockers.<br>
 •Raw: [https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/antiadblock.txt](https://raw.githubusercontent.com/thedoggybrad/easylist-mirror/main/antiadblock.txt) <br>
