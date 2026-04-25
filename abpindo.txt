@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7Q60gkumn6z9H/R4bewLkA
-! Version: 202604252051
+! Checksum: E1BSMmR58PeGgU/e113fnA
+! Version: 202604252101
 ! Title: ABPindo
-! Last modified: 25 Apr 2026 20:51 UTC
+! Last modified: 25 Apr 2026 21:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 18 Apr 2026 21:04 UTC
+! Last modified: 25 Apr 2026 20:52 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -9487,6 +9487,9 @@ videocrot.*##.ads-720
 javsubid.com##.ads-jav
 lkprd.fun,lkprd.site##.adshu
 pascol.*,sintube.*##.ays-pb-modals
+podjav.tv##.banner-ads
+podjav.tv##.banner-card
+podjav.tv##.banner-card-inner
 ceritaseksindo.org##.banner-float-bottom
 bokepvir.*##.banner-place-footer
 bokepvir.*##.banner-place-top
@@ -9512,6 +9515,7 @@ drbokep.*##.loaded.ads-50
 manadobaswara.com##.manado-widget
 kingbokep.*##.md\:flex-row.flex-col.gap-3.flex.mt-3
 javdesu.tv##.overflow-hidden.w-full.aspect-\[728\/90\].relative
+podjav.tv##.player-banner-ads-top
 agenbokep.*##.popbox
 lendirqu.*##.popup-banner
 buahmangga.com,gocrot.me,gocrot.org,semprot.com##.popup-cr7
@@ -9523,6 +9527,7 @@ sebokep.com##.sg-popup-builder-content
 dicrotin.*,nokephub.*##.sgpb-popup-dialog-main-div-wrapper
 dicrotin.*,nokephub.*##.sgpb-popup-overlay
 nomat.site##.show.popup
+podjav.tv##.sidebar-box:has(> div[data-banner-id])
 kiyowo.sbs,lendirpedia.*,pascol.*,pascol.com,sintube.icu##.teaser3
 komikdewasa.*##.teaser4
 artisbokep.online##.top-banner
