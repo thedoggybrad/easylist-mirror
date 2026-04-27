@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Yel2v71Xag/pJwTLW/Yqqg
-! Version: 202604270031
+! Checksum: cE6wmvy13u8zOOJA5HBBrg
+! Version: 202604270042
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 27 Apr 2026 00:31 UTC
+! Last modified: 27 Apr 2026 00:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -43569,6 +43569,7 @@ browsershots.org#@#.advert_area
 ||kaougnoklpzjb.space^
 ||kaozemnizhheg.website^
 ||kaqbxsgdzuazk.website^
+||kaqootniqwkfp.space^
 ||karafutem.com^
 ||karaismagacant.com^
 ||karlukslavey.qpon^
@@ -93292,6 +93293,7 @@ majorgeeks.com##div > [style]:has([style]:has([href*="&utm"]))
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div > div:has([data-testid="banner-spr-label"])
 inverse.com##div > p + div:has(amp-ad)
 outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
+downornot.net##div.grid > div.flex.flex-col:has([href*="aff_c?"])
 golfgalaxy.com##div.hmf-position-relative:has(.sponsored)
 flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airplane:empty)
 tvguide.co.uk##div.mx-auto:has(> .flex.justify-center:empty)
