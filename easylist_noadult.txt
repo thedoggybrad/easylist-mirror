@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: V9wc7MjzHKZGSv3sQeWoNA
-! Version: 202604282021
+! Checksum: mMjAJyw3owSPk5Q2rDMjNw
+! Version: 202604282031
 ! Title: EasyList without rules for adult sites
-! Last modified: 28 Apr 2026 20:21 UTC
+! Last modified: 28 Apr 2026 20:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -84064,6 +84064,7 @@ samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclu
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 bestbuy.com##[data-testid="story-wrapper-row"] div:has(> [data-story-name="sponsored_grid"])
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
+alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
 kayak.com##[role="button"]:has([class*="ad-marking"])
 kayak.com##[role="tab"]:has([class*="sponsored"])
 unknowncheats.me##[style*="justify-content"]:has([rel^="sponsored"]) + [style]
