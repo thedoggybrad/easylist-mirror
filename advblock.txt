@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: P4xFcPb3DBtDoy0vrvHrgg
-! Version: 202604281312
+! Checksum: vdHSm08PQbfhOIgb1ucQCQ
+! Version: 202604281321
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Apr 2026 13:12 UTC
+! Last modified: 28 Apr 2026 13:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16017,6 +16017,7 @@ rupier.com##.sb > a > img[src^="http://rupier.com/forum/"]
 beauty.ua,viva.ua##.sb-partners
 edyna.media#?#.sb__column > .sb__section:-abp-has(> .sb-partners)
 agroinfo.kz##.sbanner
+pikabu.ru##.sber-smile
 uaspectr.com##.sbr-slider > .pst-block > .pst-block-head
 tagilcity.ru##.sbs_p
 eva.ru##.scroll-smooth
@@ -18327,7 +18328,7 @@ glavpost.com##article div[style*="#EFEFEF"]
 domodedovoriamo.ru,korolevriamo.ru,krasnogorskriamo.ru,lubertsyriamo.ru,mytischiriamo.ru,podolskriamo.ru,reutovriamo.ru,riamo.ru,riamobalashiha.ru,schelkovoriamo.ru,sergposadriamo.ru##article ul > li > button
 4pda.to#?#article ~ article:-abp-has(> [class] > div:only-child > img:first-child)
 point.md#?#article:-abp-has(> div[id^="article-"] > .business)
-pikabu.ru##article[data-author-id="6"]
+pikabu.ru##article[data-author-id="7"]
 qip.ru##article[data-type="advert"]
 mi100.info##article[id^="post-"] > .entry-meta + div[style^="padding-bottom:"]
 sport-tv.pro##aside .HTML > .widget-content > a > img
@@ -23718,6 +23719,7 @@ lenta.ru##.topic-body__content> .box-external-video:last-child {remove:true;}
 lenta.ru##.topic-footer > div[class^="box-"][class$="-video"] {remove:true;}
 lenta.ru##.vk-video-popup {remove:true;}
 playground.ru###dfpPrerollDelay {remove:true;}
+stratege.ru##html[xmlns] > body > script + script + style {remove:true;}
 tapochek.net##body:has(#register_link) > canvas
 tapochek.net##body:has(#register_link) > canvas {remove:true;}
 the-geek.ru###wp-custom-css {remove:true;}
