@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: J8xkOn1a/TL9SQ+2MkQK0w
-! Version: 202604281141
+! Checksum: N5WXjmw8fVRS8+PGSksPWA
+! Version: 202604281152
 ! Title: ABP filters
-! Last modified: 28 Apr 2026 11:41 UTC
+! Last modified: 28 Apr 2026 11:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -516,7 +516,7 @@ bab.la##iframe[src^="data:text/html;base64,"][style*="z-index:2147483647"] {remo
 ||polarbyte.com/*/pb.min.js^$script,domain=games.bab.la
 ||polarbyte.com/*/iaw.min.js^$script,domain=games.bab.la
 ||content-loader.com^$script,rewrite=abp-resource:blank-js,domain=bab.la
-||*/loader.min.js|$script
+||*/loader.min.js|$script,domain=games.bab.la
 @@||error-report.com^$xmlhttprequest,domain=bab.la
 bab.la#$#prevent-element-src-loading iframe /report\.error-report\.com/
 bab.la#$#replace-fetch-response '"antiAdBlockEnabled":true' '"antiAdBlockEnabled":false'
