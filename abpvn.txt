@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BWx/aSYuDzzsjfdShkmvIQ
-! Version: 202604280311
+! Checksum: hKDxNYltwPMJUYjFK9wKfg
+! Version: 202604280321
 ! Title: ABPVN List
-! Last modified: 28 Apr 2026 03:11 UTC
+! Last modified: 28 Apr 2026 03:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 28 Apr 2026 09:10:32 UTC+7
-! Diff-Path: patches/20260428091032238.patch#abpvn
+! Last modified: 28 Apr 2026 10:11:23 UTC+7
+! Diff-Path: patches/20260428101123007.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -282,7 +282,6 @@ $popup,domain=truyenfull.vision
 ||adpia.vn^$third-party
 ||ads-cdn.fptplay.net^
 ||ads.mxhnkn.pro^
-||ads.starzd.com^
 ||adtima-static.zadn.vn^$script
 ||adtima-static.zascdn.me^
 ||adtima.vn^$third-party
@@ -621,7 +620,6 @@ ketqua04.net##.baloon
 ketqua04.net##.col-sm-10.kqcenter
 ketqua04.net##.kqbackground.vien ~ a[target="_blank"]
 ketqua04.net,nghean24h.vn,xem.tructiepnba.me,xemtivi4k.com,bongdainfox.tv,90phuttv.link,www.motchill56.com,thapcam73.live,thapcam73.life,thapcam84.info,thapcam84.life##a[rel="nofollow"]
-khiphach.net###qc-kpgame
 kickass.sx##.dssdffds
 kickass.sx##.novertpad.clearleft.downloadButtonGroup.buttonsline
 kienthuc.net.vn##.sponsor-zone
@@ -872,7 +870,6 @@ tuoitre.vn##.box-qad
 tuoitre.vn##.content-amuasam
 tuoitre.vn##.section__r-vietlot
 tuoitre.vn,vnexpress.net###admbackground
-tvhayd.org##[src^="https://ads.starzd.com/"]
 tvhayd.org,www.motchill56.com,misseschloe.co.za,vn-motchill.com##.catfish-bottom
 v4u.vn##.Flagrow-Ads-under-header
 vebo8.fun##.for-mobile
