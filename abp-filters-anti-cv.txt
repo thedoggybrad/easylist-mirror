@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 1n79j3dG/qe83eNd8canTg
-! Version: 202604281012
+! Checksum: JbCIqSwy3NRStx4PsoLKXQ
+! Version: 202604281022
 ! Title: ABP filters
-! Last modified: 28 Apr 2026 10:12 UTC
+! Last modified: 28 Apr 2026 10:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1770,7 +1770,7 @@ animekun.ru,doramakun.ru,nnmclub.to#$#abort-current-inline-script document.creat
 nnmclub.ro,nnmclub.to#$#abort-on-property-read _0x1ece false
 vestivrn.ru#$#abort-on-property-read video.preroll
 dota2.ru#$#abort-on-property-read helpUsImproveSite
-fastpic.org,~new.fastpic.org#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-current-inline-script document.createElement Math.random; prevent-listener /click|load/ popMagic; prevent-listener getexoloader; abort-on-property-read ExoSupport
+fastpic.org,~new.fastpic.org#$#prevent-listener /click|load/ /exopop|popMagic/; prevent-listener DOMContentLoaded /0x|popMagic/
 softportal.com#$#abort-on-property-read popupShowInterval; abort-on-property-read Object.prototype.str_replace
 www.ixbt.com#$#abort-on-property-read adv_obj; abort-current-inline-script document.getElementById branding
 city.ogo.ua#$#abort-on-property-read myatu_bgm
