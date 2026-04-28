@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tYI2SPVY0mdTCMA1dRBfrg
-! Version: 202604281851
+! Checksum: I2hPO7vi4f9m4Dqtxw5CMA
+! Version: 202604281902
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Apr 2026 18:51 UTC
+! Last modified: 28 Apr 2026 19:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12419,6 +12419,7 @@ kino-teatr.ua###ourBranding
 vashdom.ru###out_banner
 electricalschool.info###outer > #third
 woman.ru###outside-col
+cdncontent.top###overlay
 kinogo.fm###overlay_u
 promodj.com###overlaybranding
 1plus1.video###ovva-player .o-pp
@@ -20310,7 +20311,6 @@ $csp=script-src-attr 'none',domain=volyn.com.ua
 ||azbne.net^$csp=sandbox allow-same-origin;
 ||betnetmed.advertserve.com^$csp=sandbox allow-same-origin;
 ||cdncontent.top/img_full/$csp=script-src
-||cdncontent.top/opentorrent/$csp=script-src
 ||cosplay-porn.$csp=connect-src 'self' blob: data:
 ||crossout.net/*free?*&r=$csp=sandbox allow-same-origin;
 ||drive.google.com/file/d/1VmzdhLB_-DcnBtUbKfQPnNvsEp_2gnsy/$csp=script-src
