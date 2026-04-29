@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Hv2ihzOK41zYo/mklNKTLw
-! Version: 202604292322
+! Checksum: xQANOVIPv/6+wrL2UPmUkw
+! Version: 202604292331
 ! Title: EasyList China
-! Last modified: 29 Apr 2026 23:22 UTC
+! Last modified: 29 Apr 2026 23:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1664,7 +1664,6 @@ newduba.cn###jq_youxi
 ##div[onclick*=".open"][onclick*="leyu"]
 ##div[onclick*="/ky"][onclick*="open"]
 ##div[onclick*="?i_code="]
-##div[role="listitem"] > div > div > .bannerliststyle
 ##body > div[style=" max-width:990px; margin:0 auto;"]:first-child > a[target="_blank"]
 ##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
@@ -11432,7 +11431,6 @@ jin10.com##.quoted-price__pro
 fhxy-a.top##.sd_recpic
 2345.com##.search-right-swiper-news
 2345.com##._isFirstAd
-2345.com##.part-banner > .part-ppt
 2345.com##.lian-meng-box
 6parknews.com##.ad-view
 appinn.com#?#.featured-section > .test:-abp-has(>.post-img>a[href^="http"]:not([href*="appinn."]))
