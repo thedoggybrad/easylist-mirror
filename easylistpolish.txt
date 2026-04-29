@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oJ5rqoJUnyz5mZtHWGN+Tg
-! Version: 202604290922
+! Checksum: gFsZfihcP86Zty/ZVmRACQ
+! Version: 202604290932
 ! Title: EasyList Polish
-! Last modified: 29 Apr 2026 09:22 UTC
+! Last modified: 29 Apr 2026 09:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2362,6 +2362,7 @@ perspektywy.pl##a:not([href^="https://perspektywy.pl"]) > img[src*="/banners/"]
 noweinfo.pl##a:not([href^="https://www.noweinfo.pl"]) > img[class*="wp-image-"]
 truckeronroad.com##a[aria-label*="banner"]
 lokalnyreporter.pl##a[aria-label="WSAP_001"]
+nowosci.com.pl##a[class*="Banner"]
 instalacjebudowlane.pl##a[class*="banner"]
 domyseniora.pl,przedszkola.edu.pl##a[class^="js-banery-"]
 tvwalbrzych.pl##a[class^="single_ad_"]
