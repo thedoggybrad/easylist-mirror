@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: JJjqrjxDNzpmFPzK/vmLrw
-! Version: 202604301341
+! Checksum: A0nI+OWeLuNk/TNCxBJwOw
+! Version: 202604301351
 ! Title: ABP filters
-! Last modified: 30 Apr 2026 13:41 UTC
+! Last modified: 30 Apr 2026 13:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2373,8 +2373,12 @@ tokopedia.com#$#hide-if-contains /^Ad$/ 'div[class$="carousel"]>div[class][style
 ! #RM-176
 ! sp
 aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]'
+aboutyou.*#$#hide-if-canvas-contains '/Sponsored|Gesponsert|Gesponsord|Sponsorisé|Спонсориран|Χορηγούμενο|Sponsoreret|Patrocinado|Sponzorirano|Sponzorováno|Sponsoreeritud|Remiama|Sponsorēts|Sponsorizzato|Sponsorizat|Sponzorované|Sponsrad|Szponzorált/' 'li[class][data-testid][style]'
 ! pp
 aboutyou.*#$#hide-if-matches-xpath './/span[@data-testid][contains(text(),"Sponsored") or contains(text(),"Gesponsert") or contains(text(),"Gesponsord") or contains(text(),"Спонсорирано") or contains(text(),"Sponsoreret") or contains(text(),"Sponsoreeritud") or contains(text(),"Χορηγούμενο") or contains(text(),"Patrocinado") or contains(text(),"Sponzorirano") or contains(text(),"Sponsoroitu") or contains(text(),"Szponzorált") or contains(text(),"Sponsorisé") or contains(text(),"Sponsorizzato") or contains(text(),"Sponsorēts") or contains(text(),"Remiama") or contains(text(),"Sponsorowane") or contains(text(),"Sponzorováno") or contains(text(),"Sponzorované") or contains(text(),"Sponsorizat")]/ancestor::section[@style][@data-testid][1]'
+! ca & ba
+aboutyou.*#$#hide-if-canvas-contains /Sponsored|Gesponsert|Gesponsord|Sponsorisé|Спонсориран|Χορηγούμενο|Sponsoreret|Patrocinado|Sponzorirano|Sponzorováno|Sponsoreeritud|Remiama|Sponsorēts|Sponsorizzato|Sponsorizat|Sponzorované|Sponsrad|Szponzorált/ 'li>a[data-content-alignment="end"]'
+aboutyou.*#$#hide-if-canvas-contains /Sponsored|Gesponsert|Gesponsord|Sponsorisé|Спонсориран|Χορηγούμενο|Sponsoreret|Patrocinado|Sponzorirano|Sponzorováno|Sponsoreeritud|Remiama|Sponsorēts|Sponsorizzato|Sponsorizat|Sponzorované|Sponsrad|Szponzorált/ 'div[data-slide-index][data-active][class][style]>div'
 ! #RM-180
 ! HP & SA
 knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(., "Gesponsert")]/ancestor::a[@aria-label]/ancestor::*[ (self::div[count(ancestor::div) = 8] and not(./div[contains(@data-test, "product")])) or (self::div[count(ancestor::div) = 7] and ./div[contains(@data-test, "product")]) ]'
@@ -2385,7 +2389,7 @@ knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(.
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]/ancestor::div[.//div[@role="listitem"]][1]'
 ! #RM-194
 ! SP
-fiverr.com##div.gig-card-layout:has(img[src*="opM43AzGsWWTwR1A.png"], img[src*="sXLMgYHdkojXZ7Yi.png"], img[src*="RyuGyi9N5Ol0s1uL.png"], img[src*="lp6P4TSxphP5sZ0b.png"], img[src*="iUCjxSUjgvAIWh2o.png"], img[src*="yqSR41S6qMYMJmfF.png"], img[src*="NPLdDkz7EJlkXVFj.png"], img[src*="tTprVzHpXWf0Och5.png"], img[src*="nDwKh3k9138TJPKC.png"], img[src*="j9BnFKlSY07sYjUP.png"], img[src*="RkHqQD0XlIznOYnJ.png"], img[src*="2hrZKNfeYySZ2p4z.png"], img[src*="QZAsJHehvn1uaAB1.png"], img[src*="Jt89J0fyXWt78Ncp.png"], img[src*="ZXAOKcnm8vZu4BAs.png"], img[src*="6RNOgs1fHAVAWyaE.png"], img[src*="6rxM1qIT4uxW6Nro.png"], img[src*="BLDCYVWtumQxauKK.png"], img[src*="YgZMxH3Ke4mfDch1.png"], img[src*="eCrfao92kos5yqxs.png"], img[src*="SLuieNfGmeubmzlN.png"], img[src*="IVInJxcqHO1hIIB9.png"], img[src*="T93Zrt3HOmxzKxb3.png"], img[src*="kAamynKgrdzo0Mkq.png"], img[src*="FyLe7Eu2LoD5GmfL.png"], img[src*="hEcVv3Lw4x7zK9Xc.png"], img[src*="nbQy7CDHgo252EqS.png"], img[src*="eFLvPA5ZuWbdk6O9.png"], img[src*="YCw37VaqOsDn78nt.png"], img[src*="FU0Lk7k7Q2wOSYNA.png"])
+fiverr.com##div.gig-card-layout:has(img[src*="ssW9FScESw1qcWo9.png"], img[src*="j2UZtgDmo3mCECkN.png"], img[src*="TqHvuDd95vjRwvqi.png"], img[src*="3yuuixQweXvQFqF4.png"], img[src*="Ss3AV7JHIZUGYwcR.png"], img[src*="tz6W6pk1KVxU7BS0.png"], img[src*="Jw3UzK1ZV5d9YjKG.png"], img[src*="axtPvwgf3AwJhbyO.png"], img[src*="xDURa8fN4l6D1SLh.png"], img[src*="SbQ22H3G6CxqVlKF.png"], img[src*="4u1SYs3DzMnxIqPe.png"], img[src*="7YtmNgmfWeJgfMxZ.png"], img[src*="WG2sZ2BLtZhO9skU.png"], img[src*="F2TzTk8X1TKQk9eH.png"], img[src*="APWKgbzBrtnuSCbc.png"], img[src*="PjQ4v2bVjswTYqha.png"], img[src*="4wEVeh3jElCioUVP.png"], img[src*="ua3KHvMdFsvUclNb.png"], img[src*="vZm8H92LktsntIrq.png"], img[src*="CPQVxZRCFcP5KPxL.png"], img[src*="aNYUzBP6RRWZLONg.png"], img[src*="ILWcQyqALW9d6jlc.png"], img[src*="GGYrnZUSxFXjGS1b.png"], img[src*="IXaVHO8OEQ0LjtYl.png"], img[src*="7bRx6L3tTNVfAYfO.png"], img[src*="BUd20YQjXvPZmUdw.png"], img[src*="VMZ8SiR56oN4Z64d.png"], img[src*="xLj4CcSY7Z41Vv30.png"], img[src*="5Ubng9dLOI3Y2OY9.png"], img[src*="w1pxjRGYqvUxWiYb.png"], img[src*="4JC5fIOxrVyo1on8.png"])
 ! CP
 fiverr.com#?#div.slide:has(span[data-track-tag^="typography"]:-abp-contains(/Anzeige|Ad|Anuncio|Publicité|Anúncio|Annuncio|Advertentie/))
 ! #RM-146
