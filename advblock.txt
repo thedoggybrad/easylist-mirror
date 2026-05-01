@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RUGnevqIRcDf1N9qFOxBMw
-! Version: 202605011831
+! Checksum: CHbHIrtgpk6vN9VichNO5Q
+! Version: 202605011841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 May 2026 18:31 UTC
+! Last modified: 01 May 2026 18:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1726,7 +1726,9 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 .braun634.com^
 .com/next.html?$third-party,script
 .com/resources/draw_script.js$third-party,script
+.com/services/?fx=$third-party,script
 .com/services/?id=$third-party,script
+.com/services/?rt=$third-party,script
 .com/vinos.js?$third-party,script
 .gold/next.html?$third-party,script
 .htm?href=*&tm_mode=
@@ -25620,6 +25622,7 @@ inforeactor.ru##.yandex-widget
 tass.ru##[class*="Layout_bottom_fixed_"]
 tass.ru##[data-no-mourning="true"][class^="DesktopLayout_above"]
 pasy.media##[data-remodal-id]
+okko.sport,okko.tv##[data-testid="player_osd"] > div[style*="--duration-"] > div:first-child::after
 9111.ru##[id^="site-welcome"]
 novoruskino.net##[src$="/social.gif"]
 24tv.ua##app-age-popup
