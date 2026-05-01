@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LENf5O3WULTentmsW3B8rw
-! Version: 202605011042
+! Checksum: rqC3ftwq5fpvn8I8gLBC4A
+! Version: 202605011052
 ! Title: EasyList without rules for adult sites
-! Last modified: 01 May 2026 10:42 UTC
+! Last modified: 01 May 2026 10:52 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -77114,6 +77114,7 @@ livemint.com###adfreeDeskSpace
 oisd.nl###adgb
 seowebstat.com###adhead-block
 freepik.com###adobe-pagination-mkt-copy
+tribuna.com##div[class$="_ads-container"]
 onworks.net###adonworksbot
 favouriteus.uk###adop_bfd
 tutorialspoint.com###adp_top_ads
@@ -78937,6 +78938,7 @@ immoweb.be##.adfocus
 nesabamedia.com##.adfullwrap
 advocate.com##.adgrid
 fastcompany.com##.adhesive-banner
+bettycrocker.com##.adhesiveAdSpacing
 aish.com##.adholder-sidebar
 auto-data.net##.adin
 ping0.cc##.aditems
@@ -82890,6 +82892,7 @@ livability.com##.wp-block-jci-ad-area-two
 hot97.com##.wp-block-mediaco-ione-ad
 bangordailynews.com,michigandaily.com##.wp-block-newspack-blocks-wp-block-newspack-ads-blocks-ad-unit
 crikey.com.au##.wp-block-pm-ad-placeholder-block
+popculture.com##.wp-block-savage-platform-primis-video
 popculture.com##.wp-block-savage-platform-raptive-ad
 hyperallergic.com,steamdeckhq.com##.wp-block-spacer
 thewrap.com##.wp-block-the-wrap-ad
@@ -83852,6 +83855,8 @@ esmmagazine.com##div[data-dfp]
 thestudentroom.co.uk##div[data-freestar-ad]
 my.clevelandclinic.org##div[data-identity*="board-ad"]
 briskoda.net##div[data-ips-ad]
+popculture.com##div[data-lx-claimed="zone-desktop-incontent"]
+popculture.com##div[data-lx-claimed="zone-desktop-index-leaderboard"]
 softonic.com##div[data-meta="placeholder-slot"]
 lightnovelworld.co##div[data-mobid]
 yandex.com##div[data-name="adWrapper"]
@@ -84389,6 +84394,7 @@ wsj.com##.e1vnmyci0:has(> .adWrapper)
 protrumpnews.com##.enhanced-text-widget:has(span.pre-announcement)
 upfivedown.com##.entry > hr.wp-block-separator:has(+ .has-text-align-center)
 morrisons.com##.featured-items:has(.js-productCarouselFops)
+top.gg##.flex-col.items-center.justify-center:has(#desktop-aside-video-ad)
 staples.com##.flexible-banner-configurator__flexibleBannerWrapper:has(a[aria-label*="Sponsored by"])
 fontspace.com##.font-container:has(> [width="728"])
 morrisons.com##.fops-item:has([title="Advertisement"])
@@ -84563,6 +84569,7 @@ manomano.*##a[href]:has(> .c4iHiiE)
 mangadex.org##a[href^="https://www.runoperagx.com/"]
 yandex.com##a[href^="https://yandex.ru/an/count/"]
 healthline.com##article > [class] > [class^="css"]:has([data-ad="true"])
+top.gg##article.items-start:has(a[rel="sponsored"])
 9gag.com##article:has(.promoted)
 mg.co.za##article:has(.sponsored-single)
 tympanus.net##article:has(header:has(.ct-sponsored))
