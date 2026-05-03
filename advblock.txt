@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: L1Eh8evNAM45vnYZAPN4Kg
-! Version: 202605031122
+! Checksum: JAGt6oan3k3PMVqOU34wYg
+! Version: 202605031132
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 May 2026 11:22 UTC
+! Last modified: 03 May 2026 11:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16252,7 +16252,6 @@ grodno24.com##.similar
 podillyanews.com##.similar-news
 novostiua.net##.simple-banner
 kurs.if.ua##.simple-top-block
-lifehacker.ru##.single-article > .widgets-renderer
 lifehacker.ru##.single-article__content article > .core-buttons
 lifehacker.ru##.single-article__content article a[target="_blank"][rel*="sponsored"] > img
 lifehacker.ru##.single-article__content article a[target="_blank"][rel*="sponsored"] ~ .wp-element-caption[style]
@@ -17167,6 +17166,7 @@ kinohit.uz##[class^="reklama-ads-"]
 sovetromantica.com##[class^="sbrand--"]
 fishki.net##[class^="side"][class*="right"] div[class*="promo"]
 neg.by##[class^="side-banner"]
+lifehacker.ru##[class^="single-article"] > .widgets-renderer
 1kr.ua##[class^="spec-block-"]
 sports.kz##[class^="sponsor_"]
 sims3pack.ru##[class^="st-br"] > *
