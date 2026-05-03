@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Pjknh4JYMHF3IFU/KW9zRg
-! Version: 202605031122
+! Checksum: E8l+J49nr47WHKuwlK4DAQ
+! Version: 202605031132
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 May 2026 11:22 UTC
+! Last modified: 03 May 2026 11:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4827,7 +4827,6 @@ kurs.com.ua###popupConsent
 kurs.com.ua###popupConsent ~ .background-popup
 sovetromantica.com###popup_elem
 finuslugi.ru###portal-root > div[class*="plate_"]
-lifehacker.ru###post-content > .widgets-renderer
 telegraf.news###post-content > div.content-vis-auto
 nsn.net.ua###post-contrek
 unews.pro###privacy-policy
@@ -5065,6 +5064,7 @@ abw.by##.article-banner
 360tv.news#?#.article-body > div:-abp-has(> [href^="https://news.google.com/publications/"])
 androidinsider.ru##.article-body > p > code.large-text
 5.ua#?#.article-body > ul:-abp-has(> li > a[href^="https://www.patreon.com/"])
+lifehacker.ru##.article-card-container > .container > .widgets-renderer.parsed-html
 championat.com,championat.ru##.article-content > .external-article
 itorrents-igruha.net,itorrents-igruha.org#?#.article-film:-abp-has(> center > div > a:-abp-contains(/зарабатывай|предложени|рандом/i))
 nn.by##.article-footer-cell .btn
