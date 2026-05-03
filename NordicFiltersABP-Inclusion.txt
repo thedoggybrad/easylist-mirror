@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FooN4ppXRinbnnVrI8L5JA
-! Version: 202605031842
+! Checksum: C5Odb6t1g6gH38jTDAggDg
+! Version: 202605031851
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 03 May 2026 18:42 UTC
+! Last modified: 03 May 2026 18:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -88752,12 +88752,14 @@ nameberry.com##.Pagination-ad
 ask.com##.PartialKelkooResults
 hbr.org##.PartnerCenter-module_container__w6Ige
 hulu.com##.PauseAdCreative-wrap
+noon.com##.PdpRecommendations-module-scss-module__e4nPqG__recosWrapper
 cubbyathome.com,thekitchn.com##.PostDesktopStickyFooter
 cubbyathome.com##.Post__ad
 thekitchn.com##.Post__inPostVideoAdDesktop
 hbr.org##.PrimaryAd_ad-container__YHDwJ
 stocktwits.com##.Primis_container__OlMHR
 tech.hindustantimes.com##.ProductAffilateWrapper
+noon.com##.ProductDetailsDesktop-module-scss-module__AYN9Ya__topSlotWrapper
 yandex.com##.ProductGallery
 atlasobscura.com##.ProgrammaticMembershipCallout--taboola-member-article-container
 citybeat.com,clevescene.com,cltampa.com##.PromoTopBar
@@ -94557,6 +94559,7 @@ klz9.com###list-imga center:has(a[href^="https://olimposcans.com/"])
 ratehub.ca###main-content > div > section:has([class^="Ad__Container-sc-"])
 noon.com###modules-renderer:has([class*="sponsored"])
 noon.com###noon-modules:has([class*="AdBrandVideo"])
+noon.com###noon-modules:has(div[data-qa="widget_AdMultiProductSide"])
 wsj.com###other-buckets > div > div:has(> .uds-ad-container)
 momondo.com###resultWrapper [role="group"]:has(> [class*="-adInner"])
 euobserver.com###root > div > div:has(#dfp-billboard)
