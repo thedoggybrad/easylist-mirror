@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605061604
+! Version: 202605061616
 ! Title: EasyList
-! Last modified: 06 May 2026 16:04 UTC
+! Last modified: 06 May 2026 16:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ebce224d9d97bab69b17c7a17cdbdaef55d046ef
+! Commit: cdda15ae7bfd285e70bbddfd190c6c18c297a860
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -242,7 +242,7 @@
 /adsdelivery/*$subdocument
 /adserv.$script
 /adserve/*$script
-/adserver.$~stylesheet,~xmlhttprequest
+/adserver.$~stylesheet,~xmlhttprequest,domain=~konograma.com
 /adserver3.$image,script
 /adsforwp-front.min.css$stylesheet
 /adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
@@ -20586,6 +20586,7 @@ browsershots.org#@#.advert_area
 ||biodegradablegrand.com^
 ||biodegradableyellow.pro^
 ||biolw.cloud^
+||biopsypainless.com^
 ||biotahanburygaen.cfd^
 ||biotasjumby.cfd^
 ||biotechcive.cyou^
@@ -34091,6 +34092,7 @@ browsershots.org#@#.advert_area
 ||ilhtossuwjwcg.online^
 ||iliqdfncivkkp.online^
 ||iljcnkfiowzqw.site^
+||iljszcvonewca.online^
 ||ilkjcufgzpjwd.online^
 ||illamonclouted.qpon^
 ||illblame.pro^
