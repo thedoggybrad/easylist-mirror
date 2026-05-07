@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gPUqvumLnFWR+/LoagjKhA
-! Version: 202605071811
+! Checksum: n2nhZ4ttXQEekMb7rHHS0Q
+! Version: 202605071821
 ! Title: RU, UA, UZ, KZ
-! Last modified: 07 May 2026 18:11 UTC
+! Last modified: 07 May 2026 18:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25067,7 +25067,7 @@ ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="-cekktion-items-count:"]
+ya.ru##section[style*="ekktion-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.layout__banner
@@ -25228,6 +25228,7 @@ tv.yandex.ru,tv.yandex.*##script[nonce] + script[nonce] + div[class]
 ! Дзен Yandex-edition
 dzen.ru###branded-banner
 dzen.ru##.adv-skeleton___main
+dzen.ru##.mini-suggest__popup-extra
 dzen.ru##[aria-label^="Peкл"]
 dzen.ru##[aria-label^="Карточк"][aria-label*=" p"][aria-label*="кл"]
 dzen.ru##[aria-label^="Карточк"][aria-label*=" рекл"]
