@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605100231
+! Version: 202605100248
 ! Title: EasyList
-! Last modified: 10 May 2026 02:31 UTC
+! Last modified: 10 May 2026 02:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f4374559f3dab5f159be915ead30d2574328f8f5
+! Commit: 6294e45eaae9566dbacbe5b92a6c65774659c4bc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -82740,6 +82740,7 @@ independent.ie##.slot1
 independent.ie##.slot4
 boxofficemojo.com,imdb.com##.slot_wrapper
 drivereasy.com##.sls_pop
+sltrib.com##.sltrib_medrec_sidebar_atf
 skinnyms.com##.sm-above-header
 dermatologytimes.com##.sm\:w-\[728px\]
 bikeexif.com##.small
@@ -85050,6 +85051,7 @@ trip.com##.with-decorator-wrap-v8:has(span.ad_tag)
 celebmafia.com##.wp-caption > [class]:has([width="300"])
 navyamedia.com##.wpb_text_column:has(> .wpb_wrapper > p >ins.adsbygoogle)
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
+beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,theintelligencer.com##.y100:has([data-block-type="ad"])
 cars.com##[aria-label="Listings"] li:has(card-gallery[card-link*="?attribution_type"])
 priceline.com##[class*="ListingCardWrapper"]:has([class*="PromoText"])
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
