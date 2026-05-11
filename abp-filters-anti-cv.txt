@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 7+SnioJ6lFwokkSGCvzVXQ
-! Version: 202605110751
+! Checksum: SXuuwu06P27z6+OXn1ARJA
+! Version: 202605110802
 ! Title: ABP filters
-! Last modified: 11 May 2026 07:51 UTC
+! Last modified: 11 May 2026 08:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1830,7 +1830,7 @@ animekun.ru,doramakun.ru,nnmclub.to#$#abort-current-inline-script document.creat
 nnmclub.ro,nnmclub.to#$#abort-on-property-read _0x1ece false
 vestivrn.ru#$#abort-on-property-read video.preroll
 dota2.ru#$#abort-on-property-read helpUsImproveSite
-fastpic.org,~new.fastpic.org#$#prevent-listener /click|load/ /exopop|popMagic/; prevent-listener DOMContentLoaded /0x|popMagic/; abort-on-property-read Element.prototype.attachShadow
+fastpic.org,~new.fastpic.org#$#prevent-listener /click|load/ /exopop|popMagic|Math.floor/; prevent-listener DOMContentLoaded /0x|popMagic/; abort-on-property-read Element.prototype.attachShadow
 softportal.com#$#abort-on-property-read popupShowInterval; abort-on-property-read Object.prototype.str_replace
 www.ixbt.com#$#abort-on-property-read adv_obj; abort-current-inline-script document.getElementById branding
 city.ogo.ua#$#abort-on-property-read myatu_bgm
@@ -1902,8 +1902,7 @@ ukr.net#$#replace-xhr-response 'banners'
 dtf.ru#$#override-property-read Object.prototype.detectAdblock undefined
 rg.ru#$#prevent-listener error '()=>{t(!1)}'
 kriminal.net.ua#$#abort-on-property-read screen.width
-uakinogo.ec#$#abort-on-property-read startAdAngle
-uakinogo.ec##div[class*="zplata"] {remove:true;}
+ex-fs.net,uakinogo.ec#$#abort-on-property-read startAdAngle
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,f1ua.org.ua,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
