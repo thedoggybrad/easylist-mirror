@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CZWpzpuh2C11sKHvZ3azrg
-! Version: 202605120751
+! Checksum: cmj4dz+dqao/qc2no48qSw
+! Version: 202605120802
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 May 2026 07:51 UTC
+! Last modified: 12 May 2026 08:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23181,6 +23181,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||telekomza.ru/wp-content/uploads/$object
 ||telik.top^*randomator.js
 ||temptcdn.com/*.xml?$xmlhttprequest
+||temptcdn.com/api-integration/
 ||tengrinews.kz/js/loader.js
 ||teremok.org.ua/partner/images/
 ||ternopillive.com/wp-content/uploads/*.mp4|
@@ -23700,7 +23701,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?pwX1U=$xmlhttprequest
+||pikabu.ru/ajax/*?o45Tr=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
