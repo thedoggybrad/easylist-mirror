@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: PJEqs5A6uSuJELtaflPYhQ
-! Version: 202605131511
+! Checksum: EjmqIMo6szFcRTpJc5npIg
+! Version: 202605131522
 ! Title: ABP filters
-! Last modified: 13 May 2026 15:11 UTC
+! Last modified: 13 May 2026 15:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1504,6 +1504,7 @@ onecall2ch.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad") or contain
 appmedia.jp#$#hide-if-matches-xpath './/div[contains(@id,"ad_")]/parent::div[1]'
 ||i2ad.jp^$third-party,domain=appmedia.jp
 chichi-pui.com#$#hide-if-matches-xpath './/*[@class]/ancestor::aside[contains(@class,"advertisement")]'
+kimochi.info#$#abort-current-inline-script decodeURI /,18,22/
 ! Korean sites
 style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
@@ -2636,6 +2637,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||alvanhaybox.com^
 ||amselragman.com^
 ||amucresol.com^
+||amusingstablegills.com^
 ||amyrinbitume.com^
 ||anciliaoat.com^
 ||anihazels.com^
@@ -2809,6 +2811,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||fitsamongst.com^
 ||fixuresrethink.cfd^
 ||flakespunishmentscythe.com^
+||floppybyes.com^
 ||flossedmoiled.com^
 ||fogramcolcine.com^
 ||fondleaegipan.shop^
@@ -2908,6 +2911,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||kolhozclarain.com^
 ||kosseanmudpack.com^
 ||kueunpick.com^
+||labrosehomburg.com^
 ||lakeletbothria.com^
 ||lanceyatigan.com^
 ||languestweezed.com^
@@ -3012,7 +3016,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||profitable-grocery.com^
 ||publicretia.com^
 ||pucaanova.com^
-||pvixgcirbpcrm.com^
 ||pyxisdewrot.com^
 ||qs251.com^
 ||query50.com^
@@ -3038,6 +3041,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||richeryawp.com^
 ||rilletsshivoo.com^
 ||rodlikemortal.com^
+||ruderalweiring.com^
 ||runtime8000.com^
 ||sableviolet.com^
 ||sansaradivulse.com^
@@ -3185,6 +3189,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||yogisgeishas.com^
 ||zakahbldr.com^
 ||zapasizzard.com^
+||zavatzxhi.in^
 ||zoeacaring.com^
 ||zorbklqyoabvj.top^
 ||zunyiteeleidin.com^
