@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wS9C3RbutQxga8E15s3PTQ
-! Version: 202605141121
+! Checksum: oSwMOk01+gQCnf4r5pHPmA
+! Version: 202605141141
 ! Title: ABPVN List
-! Last modified: 14 May 2026 11:21 UTC
+! Last modified: 14 May 2026 11:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 13 May 2026 21:23:21 UTC+7
-! Diff-Path: patches/20260513212321805.patch#abpvn
+! Last modified: 14 May 2026 18:37:26 UTC+7
+! Diff-Path: patches/20260514183726397.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -576,7 +576,7 @@ googleapiscdn.com###avs-banner-overlay
 googleapiscdn.com###avs-pause-ad
 hh3dhay.gg,hhtq.boats###top_addd
 hhdragon.site##.catfish-img
-hhninja30.tv,hhtq13.vip,hhtq.today,hhtq.today,animehay02.site,hhtq3d.net,hhvsub1.com,phimdacap.tv,motchillk.bid,hhdragon.site,hh2d.top###catfish
+hhninja30.tv,hhtq13.vip,hhtq.today,animehay02.site,hhtq3d.net,hhvsub1.com,phimdacap.tv,motchillk.bid,hhdragon.site,hh2d.top###catfish
 hhtq.boats###xs-addd0
 hhtq.boats##.btn-fanpage.btn-default.btn-block.btn
 hhtq.boats##.underplayer_btn
@@ -1141,6 +1141,7 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||truyenvn.sbs^*banner$image
 ||umisushivacaville.com^*.gif$image
 ||video.qmh.cat/uploads/banners/$image,domain=cap3.sbs|qmh.cat
+||video.viphubss.shop/uploads/banners/$image,domain=qmh.cat
 ||www.hentaivnx.com/js/cla/2064711.js$script
 ||www.hentaivnx.com/js/modscript.js$script
 ||www.hentaivnx.com/js/random-click-opener.js$script
@@ -1258,6 +1259,7 @@ vlxx.rip,trangsexdam.net##.hd-tube-desktop
 vlxx.rip,trangsexdam.net##.hd-tube-mobile
 vlxxhot.net,phimxxx.ac##.adx1
 vlxxhot.net,vailonxx.me###ab_ctl
+www.qmh.cat##.global-sticky-ads
 xamvn.homes##.js-notices
 xfast.sbs###overlay
 xiuren.org###bannerIn
