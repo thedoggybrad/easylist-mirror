@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605140121
+! Version: 202605140147
 ! Title: EasyList
-! Last modified: 14 May 2026 01:21 UTC
+! Last modified: 14 May 2026 01:47 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9bd60b0ef1214292068c57f81f4266475f935234
+! Commit: 6683890cd1c10b08ceb80acb2bfb26f92cb64e69
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11198,6 +11198,7 @@ _800x80_
 ##.floating-advert
 ##.floatingAds
 ##.fly-ad
+##.fly-ads-chapter-page
 ##.fm-badge-ad
 ##.fnadvert
 ##.fns_td_wrap
@@ -60074,6 +60075,7 @@ browsershots.org#@#.advert_area
 ||uxyqugxmogylb.online^
 ||uxyudvnbaagag.website^
 ||uxzkvkzxhxxjv.space^
+||uxzybqtqlauaa.space^
 ||uy4el5xhwpy85z.rest^
 ||uy9t65npflytgp.cfd^
 ||uyavpjjxtzslk.com^
@@ -76653,7 +76655,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||amazonaws.com/cdn.mobverify.com
 ||amazonaws.com/dazeddigital.com/Ads-main.js$domain=dazeddigital.com
 ||amazonaws.com/jsstore/$domain=babylonbee.com
-||amazonaws.com^$domain=megaup.net|uploadhaven.com
+||amazonaws.com^$domain=mangakakalot.gg|nelomanga.net|uploadhaven.com
 ||ams.naturalnews.com^
 ||ams.naturalnewsblogs.com^
 ||ams.newstarget.com^
@@ -81630,7 +81632,6 @@ bdnews24.com##.floating-ad-bottom
 chaseyoursport.com##.floating-adv
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com,wsls.com##.floatingWrapper
 thehindu.com##.flooting-ad
-nelomanga.net##.fly-ads-chapter-page
 airlinegeeks.com,avweb.com,flyingmag.com,planeandpilotmag.com##.flyin-article-above-headline
 flyingmag.com##.flyin-before-content
 flyingmag.com##.flyin-target
