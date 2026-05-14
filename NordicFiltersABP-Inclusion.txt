@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rzMQfwIRPVTG7sO9V9wmVg
-! Version: 202605141621
+! Checksum: VSzVpmBt3QrEWB4lp5lGkA
+! Version: 202605141632
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 14 May 2026 16:21 UTC
+! Last modified: 14 May 2026 16:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -95196,7 +95196,7 @@ dailystar.co.uk##[data-testid="commercial-above-header-box-1"] {remove:true;}
 datanodes.to##.bg-white\/50.border.p-8 {visibility:hidden !important;}
 distrowatch.com##.TablesTitle > div:not([style="padding"]) {width:100%;}
 euronews.com###o-site-hr__leaderboard-wallpaper.u-show-for-xlarge {remove:true;}
-hentaihere.com,hindustantimes.com##body {padding-top:0;}
+hindustantimes.com##body {padding-top:0;}
 iflscience.com###Billboard {height:0px;}
 ilmeteo.it###banner-mnz-topleft {height:80px;}
 metoffice.gov.uk##.header {top:0;}
@@ -96587,6 +96587,7 @@ pornhub.com#?#.noBottom:has-text(Remove Ads)
 reddxxx.com#?#.items-center:has-text(/^ad$/)
 reddxxx.com#?#[role="gridcell"]:has-text(/^AD$/)
 ! ABP CSS injection filters
+hentaihere.com##body {padding-top:0;}
 hitomi.la##.content > div[class]:not([class*="-"]) {min-height:40px !important;}
 hitomi.la##.top-content > div[class]:not([class*="-"]) {min-height:40px !important;}
 myhentaicomics.com##.featured-manga, .header-spot, .pagination-image {min-height:0 !important;}
