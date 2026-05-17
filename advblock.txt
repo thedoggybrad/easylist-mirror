@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vbD7Z+opBHOPjac34J9Opw
-! Version: 202605170832
+! Checksum: er/6w6J3lJ2Qz9vzHFlbZg
+! Version: 202605170841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 17 May 2026 08:32 UTC
+! Last modified: 17 May 2026 08:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12277,7 +12277,6 @@ kloomba.com###kl-o-gallery-ad
 price.ru###kontainer-top
 compulenta.ru###kph0
 clubtk.ru###kplus-popup-banner
-moviki.ru###kt_player > iframe[src]
 forum.vingrad.ru###kupitraff
 kurs.com.ua###kurs_pixel
 batpic.com###l0ZKuGa775
@@ -16364,7 +16363,7 @@ stroimdom.com.ua##.sponsors_big
 sr-week.ru##.sponsorslist
 sport.tut.by#?#.sport-table tr > th ~ th:-abp-contains(Ставка)
 sport-interfax.ru##.sport__champcom
-erocadr.com##.spot
+erocadr.net##.spot
 porn0sex.online##.spots-side
 pornopodborka.com##.spots-wrap
 skatay.com##.sprite-14 + * > hr + table[align="center"]
@@ -19965,7 +19964,7 @@ trychatgpt.ru##nav.sticky ~ div:not([class]) > span
 glamour.ru,gq.ru##ng-banner
 glamour.ru##ng-teasers
 salex.ru##nobr > div > table
-adiabet.ru,astrosfera.ru,delovoymir.biz,limon-tv.org,mgnovenie.net,modewomen.ru,moviki.ru,porno4you.org,primenimudrost.ru,relasko.ru,sexytal.com,sexytales.ru,skolkovarim.com,sportobzor.ru,superhumor.ru,vlasti.net,voffka.com##noindex
+adiabet.ru,astrosfera.ru,delovoymir.biz,limon-tv.org,mgnovenie.net,modewomen.ru,porno4you.org,primenimudrost.ru,relasko.ru,sexytal.com,sexytales.ru,skolkovarim.com,sportobzor.ru,superhumor.ru,vlasti.net,voffka.com##noindex
 westudents.com.ua##noindex #ban
 nnov.org##noindex > .banner
 freetp.org,freetp.ru##noindex > .boxlinks
@@ -20648,7 +20647,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|mschist
 /img/yandex$domain=ebooks.skin
 /index.php?*=rstbox&$xmlhttprequest,domain=imenie-home.ru|news-tape.ru|vamrecipes.ru
 /init.js$third-party,script,domain=3rebenka.ru|info-zhilish.ru|libok.net|planetatain.ru|sovets.net|xn----ctbhcnewrrow6gsa.xn--p1ai
-/inoe/player/*.mp4$domain=erocadr.com
 /ioimedia-app-banner/*$domain=androidinsider.ru|appleinsider.ru|hi-news.ru
 /jquery.cookie.min.js|$script,domain=buzulukday.ru|nsday.ru|orenday.ru|perevolockday.ru|saltday.ru|sorochinskday.ru
 /jquerymin*.js|$domain=5.45.79.91|cdnstreamfree.com|cdnstreamlive.com|cdntelesee.com|cdntvnet.com|erotixtv.com|ok-tv.org|only-tv.org|potokcdn.com|tivix.co|tvforfamily.net|tvizorcdn.ru
@@ -26810,7 +26808,6 @@ gbsmp.ru#@#img[width="728"][height="90"]
 @@||mastergrad.com/public/js/ads.min.js$script,domain=mastergrad.com
 @@||mc.yandex.ru/metrika/watch.js$script,domain=101.ru|auto.ru|doska.tamboff.ru|oformi-foto.ru|sherlock.store|shok102.ru
 @@||mover.uz/www/serving/adb.js|$script,domain=mover.uz
-@@||moviki.ru/embed/$elemhide
 @@||mtrcss.com/*/v|$xmlhttprequest,domain=worldvideo.site
 @@||musicnews1.org^*.js|$script,domain=musicnews1.org
 @@||muzlan.top^$xmlhttprequest,domain=muzlan.top
