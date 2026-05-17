@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gP/tctlztdLMdxQLEunB/Q
-! Version: 202605170821
+! Checksum: /W0FEW7kaXLJNiBoYtO2cQ
+! Version: 202605170832
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 May 2026 08:21 UTC
+! Last modified: 17 May 2026 08:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2690,6 +2690,7 @@ myseldon.com##.widget-telegram
 49000.com.ua##.widget-under-menu
 ecm-journal.ru##.widget.network
 gx.net.ua#?#.widget:-abp-has(> .tabs-list > .active > a:-abp-contains(/Facebook|Погода/i))
+bigmir.net#?#.widget:-abp-has(> .widget-socials)
 kubikus.top#?#.widget:-abp-has(> .ya-share2)
 liveresult.ru#?#.widget:-abp-has(> a[href^="https://vk.com/"])
 topgir.com.ua##.widget_bam_social_list_widget
@@ -3293,7 +3294,6 @@ fontanka.ru#?#footer div:nth-child(5):-abp-has([href^="https://vk.com/fontanka"]
 google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com##.js-share_buttons
 om1.ru#?#h1:-abp-contains(/в соцсетях/)
 format.kr.ua#?#h2:-abp-contains(/Под.литися|П.дпишись/)
-bigmir.net#?#h2:-abp-contains(Мы в соцсетях)
 footballtransfer.com.ua#?#h3:-abp-contains(Вконтакте)
 tehnowar.ru#?#h3:-abp-contains(Подпишись:)
 tehnowar.ru#?#h3:-abp-contains(Подпишись:) + div[id]
