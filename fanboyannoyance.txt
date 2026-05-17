@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605172336
+! Version: 202605172344
 ! Title: Fanboy's Annoyance List
-! Last modified: 17 May 2026 23:36 UTC
+! Last modified: 17 May 2026 23:44 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4c349c567467af6d2f3f12542d17c071c402b950
+! Commit: e05f77bc3247576882236d62ca534a372234a757
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -34240,6 +34240,7 @@ bigbearrealestateagent.com##.cta-container
 digitimes.com##.cta-link
 morningstar.com.au,saturdayeveningpost.com##.cta-newsletter
 audiofilemagazine.com##.cta-small
+thestateofbrand.com##.cta2-trail
 carsauce.com##.cta46_component
 trak.in##.cta_49
 itsfoss.com##.cta__inner
@@ -37605,6 +37606,7 @@ spacebar.news##.spacebar-auto-notice
 nordest24.it,portalpuentealto.cl,upinthesky.nl,watchinamerica.com##.spc-social
 energy-reporters.com##.spc-social-block
 douglasnow.com##.spc-social-follow
+thestateofbrand.com##.sponsored_by-wrapper
 republicworld.com##.sponsors-container
 visionguinee.info##.spu-bg
 visionguinee.info##.spu-box
@@ -49358,6 +49360,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||sourcepoint.mgr.consensu.org^$domain=t3n.de
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@||spacecentre.co.uk^*/uk-cookie-consent-js
+@@||spidgateway.regione.campania.it/staticResources/scripts/cookieconsent.min.js$~third-party
 @@||st.getsitecontrol.com/main/runtime/$script,domain=beaconclimbing.com
 @@||stabila.com/bundles/marketingsuite/css/cookie-bar.css
 @@||starhotels.com^*/cookiesdisclaimer.js$script
