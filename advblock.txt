@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cfrtSCCtmcYW5wTUXP6hqg
-! Version: 202605180841
+! Checksum: PcNXxGE86G9MfDRx1fSkCg
+! Version: 202605180851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 May 2026 08:41 UTC
+! Last modified: 18 May 2026 08:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -19693,6 +19693,7 @@ megaimg.ru##form[name="show_image"] > center
 arbatmedia.kz,day.kyiv.ua#?#h2:-abp-contains(/^новости партн|^новини партн/i)
 dokumental.ru,infox.ru,radiorecord.fm,ria-m.tv#?#h2:-abp-contains(/^реклама/i)
 sovsport.ru#?#h2:-abp-contains(/получайте бонусы| ставки на/i)
+respawn.media#?#h2:-abp-contains(Где купить модель из топа)
 apostrophe.ua,fishki.net,hvylya.net,novorosinform.org,sharknews.ru,tehnowar.ru,tochka.net,topdaynews.ru,wworld.com.ua#?#h3:-abp-contains(/^нов.+партн.+р.в$/i)
 sovsport.ru#?#h3:-abp-contains(/получайте бонусы| ставки на/i)
 fit4power.ru#?#h3:-abp-has(> span:-abp-contains(/реклама/i))
