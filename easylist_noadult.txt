@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Vruqs84YAvbvZcbM5xVWGQ
-! Version: 202605181611
+! Checksum: Tuw1gcURjjr0p5Liv78gdw
+! Version: 202605181622
 ! Title: EasyList without rules for adult sites
-! Last modified: 18 May 2026 16:11 UTC
+! Last modified: 18 May 2026 16:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -410,6 +410,7 @@
 /exowb/fromload.js$script
 /exowb/fronload.js$script
 /exowb/frontload.js$script
+/exowb/frosload.js$script
 /exowb/frotload.js$script
 /exports/tour/*$third-party
 /exports/tour_20/*$subdocument
@@ -75019,6 +75020,8 @@ browsershots.org#@#.advert_area
 ||increaserev4.static-cloudflare.workers.dev^
 ||increaserev5.static-cloudflare.workers.dev^
 ||incrementxplay.com/api/adserver/
+||increv*.static-cloudflare.workers.dev^
+||increv1.static-cloudflare.workers.dev^
 ||indeed.fr/ads/
 ||infibeam.com/affiliate/
 ||inrdeals.com^$third-party
