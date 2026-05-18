@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605180816
+! Version: 202605180826
 ! Title: EasyList
-! Last modified: 18 May 2026 08:16 UTC
+! Last modified: 18 May 2026 08:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5d8e62ebf74dffc2d2165314e0166f26cf342af8
+! Commit: e1df5433ca4424d3663192cf064c06321ff2b581
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -85855,6 +85855,7 @@ yugatech.com##a[href^="https://yugatech.ph/"]
 taiyangnews.info##a[href^="javascript:clickTrach('"]
 kitguru.net##a[id^="href-ad-"]
 home-barista.com,washingtontimes.com##a[onclick]
+zeroupload.com##a[onclick][href^="javascript"]
 dailytruthreport.com##a[onclick^="javascript:window.open('https://bit.ly/"]
 amishamerica.com##a[rel="nofollow"] > img
 gab.com##a[rel="noopener"][target="_blank"][href^="https://grow.gab.com/go/"]
