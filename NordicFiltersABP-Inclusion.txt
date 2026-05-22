@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r4Jp7UF42UMMMPazS4vRbg
-! Version: 202605221931
+! Checksum: V+4xY0aZVoO04IMJ857xxg
+! Version: 202605221942
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 22 May 2026 19:31 UTC
+! Last modified: 22 May 2026 19:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -81041,6 +81041,7 @@ browsershots.org#@#.advert_area
 ||ddownload.com/images/promo/$third-party
 ||dealextreme.com/affiliate_upload/
 ||desperateseller.co.uk/affiliates/
+||dev-adblocker.workers.dev^
 ||digitaloceanspaces.com/advertise/$domain=unb.com.bd
 ||digitaloceanspaces.com/advertisements/$domain=thefinancialexpress.com.bd
 ||digitaloceanspaces.com/woohoo/
@@ -93462,6 +93463,7 @@ nzherald.co.nz#?#section.section-chain--triple-image:has-text(Property news from
 nzherald.co.nz#?#section:has-text(Partner content)
 perplexity.ai#?#.py-sm.group:has-text(Sponsored)
 pexels.com#?#[data-testid="column"] [data-testid="item"]:has-text(Sponsored)
+producthunt.com#?#.cursor-pointer:has-text(Promoted)
 producthunt.com#?#.text-12:has-text(Promoted)
 producthunt.com#?#div[class="flex cursor-pointer items-start gap-4 rounded-lg bg-gray-50 p-4"]:has-text(Promoted)
 property24.com#?#.p24_tileContainer:has-text(Sponsored)
