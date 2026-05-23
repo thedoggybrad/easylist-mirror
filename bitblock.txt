@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8cTzOdgpRKyrgyuEv9bVrA
-! Version: 202605231012
+! Checksum: 6FIXqyAv08D//DWBmva+lw
+! Version: 202605231021
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 May 2026 10:12 UTC
+! Last modified: 23 May 2026 10:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3779,6 +3779,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ##[href*="gismeteo.ua"] ~ .gsInformer
 ~getpocket.com##a[href*="//getpocket.com/edit?"]
 ~prytulafoundation.org##a[href*="://prytulafoundation.org/"] > img
+##a[href*="google.com/preferences/source?q="][class^="google-"][target="_blank"]
 ~whatsapp.com##a[href^="https://api.whatsapp.com/send?text="]
 ~bank.gov.ua##a[href^="https://bank.gov.ua/"][href*="-arm"][style*="background-image:"]
 ~bank.gov.ua##a[href^="https://bank.gov.ua/"][href*="na-potrebi-armiyi"] > img
