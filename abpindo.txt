@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2kJQb4YGQ+RW6z3Ufg0RYQ
-! Version: 202605241102
+! Checksum: AUMGTsTqUKQCeVyWdRcjsg
+! Version: 202605241111
 ! Title: ABPindo
-! Last modified: 24 May 2026 11:02 UTC
+! Last modified: 24 May 2026 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 23 May 2026 23:40 UTC
+! Last modified: 24 May 2026 11:07 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -2051,6 +2051,7 @@ cnbcindonesia.com##div.undefined
 jakartaglobe.id##div.w-100.d-flex
 kompas.com##div:has( > #gpt-passback)
 katadata.co.id##div:has( > [id^="div-gpt-ad"][class^="paralax"])
+blokbojonegoro.com##div:has( > img[alt="Space Iklan"])
 beritasatu.com,investor.id,jakartaglobe.id##div:matches-css(text-align: center):has-text(/adv/i)
 detik.com##div:nth-of-type(7)
 kiryuu03.com##div[class*="ads-header"]
