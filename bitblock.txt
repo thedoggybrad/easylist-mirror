@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vBN4fmh9RAcvQhIEBWkGAQ
-! Version: 202605251931
+! Checksum: W4Fy1kiMzFd7kf0O5p322g
+! Version: 202605251942
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 May 2026 19:31 UTC
+! Last modified: 25 May 2026 19:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2566,7 +2566,6 @@ habr.com#?#.tm-company-widgets > .tm-block:-abp-has(> div > div[id^="widget-soci
 habr.com#?#.tm-company-widgets > .tm-block:-abp-has(> div > iframe[src*="facebook.com/"])
 budport.com.ua##.tm-follow-us
 habr.com##.tm-footer__social
-ixbt.market,www.ixbt.com##.tm-menu-top-single a[target] > [class^="icon-"]
 habr.com##.tm-sharing
 www.ixbt.com##.tm-wr-market ~ section #sidebar > .block-type-blog ~ section:last-of-type
 intex-press.by##.to-share
@@ -3368,6 +3367,8 @@ metarating.com.ua,meta-ratings.kz,metaratings.ru,metaratings.*##div[class^="Subs
 proxima.net.ua##nav .text-center .dropdown-toggle
 ixbt.com##nav > .grid > .lg\:inline-flex
 kp.ru##nav > [href^="https://max.ru/"]
+ixbt.market##nav [id^="icon/social/"]
+ixbt.market#?#nav a:-abp-has([id^="icon/social/"])
 www.ixbt.com##nav div[class^="menu-"] ~ div.hidden
 uznayvse.ru##nav[aria-label="Социальные сети"]
 prichernomorie.com.ua##nobr
