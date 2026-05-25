@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ySVnbE315dLEt65T0VYUtQ
-! Version: 202605251211
+! Checksum: lHAosDhP1STbspMSgrMHfw
+! Version: 202605251221
 ! Title: IndianList
-! Last modified: 25 May 2026 12:11 UTC
+! Last modified: 25 May 2026 12:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1186,6 +1186,10 @@ perfection-ias-upsc$domain=nextbihar.com
 ||barabankiexpress.in/wp-content/uploads/2024/03/IMG-20251026-WA0003
 ||barabankiexpress.in/wp-content/uploads/2024/03/IMG-20251026-WA0004
 ||barabankiexpress.in/wp-content/uploads/2024/03/IMG-20251102-WA0000
+||barabankiexpress.in/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-15-at-12.02.25
+||barabankiexpress.in/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-15-at-12.02.26
+||barabankiexpress.in/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-03-at-11.24.42
+||barabankiexpress.in/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-03-at-11.24.43
 ||barabankiexpress.in^*/IMG-20250312-WA0013
 ||barahiradio.com/uploads/bigyaapan/
 ||barisalbani.com/wp-content/uploads/2021/01/adsumon.png
@@ -6282,7 +6286,7 @@ blastkhabar.com##.adRightSideBar
 odhikar.news##.adSlides
 lokaantar.com##.ad__section
 news18.com##.ad_cntainer
-bhilwarahalchal.com##.ad_level_1_before_heading
+bhilwarahalchal.com,npg.news##.ad_level_1_before_heading
 nation1voice.com##.ad_responsive
 aswamedham.com##.ad_sec
 banglanewsus.com,dailyprovatbela.com,newskarobar.com##.ad_section
@@ -6677,6 +6681,7 @@ nabaz-e-punjab.com,nalandalive.com##.bdaia-widget-e3
 seemanchallive.com##.bdaia-widget:not(#bdaia-widget-e3-4)
 bdsomoy24.com##.bdsom-content
 lionexpress.in##.before-banner-ad
+npg.news##.before_story_ad
 gautamsandesh.com##.beforeheader_728
 belagavisuddi.com##.belag-content
 nwnews24.com##.below-content.widget_text
@@ -9135,6 +9140,7 @@ amadersundarban24.com,attariyaonline.com,ebikalpadainik.com,setohimalnews.com,te
 ctgpratidin.com,gurukulnews.com,infosamachar.com,nepaljanakhabar.com,newsnepalhd.com##[data-adid] img
 positiveindia.net.in##[data-adid]:has(> img)
 khabaram.com##[data-adid][data-type="image"]
+npg.news##[data-category="banner_ad"]
 tamilmurasu.com.sg##[data-testid="advertisement-element"]
 sharechat.com##[href*="whistleloop.com"] img
 kannurnewsonline.in##[id$="-ad"]
@@ -9144,6 +9150,7 @@ instanews.city##[id*="_level_"]:not([data-mixin]):not(#right_level_2_1)
 morbiupdate.com##[id*="cat-a-"]
 oneindia.com##[id^="are-slot"]
 dhankutakhabar.com##[id^="banner_"]
+barabankiexpress.in##[id^="barab-"]
 bikaner24x7news.com##[id^="bikan-"]
 chhattisgarhvaibhav.com##[id^="chhat-"]
 currentnewsdainik.com##[id^="curre-"]
@@ -9459,7 +9466,7 @@ zeenews.india.com##div:has(> [id*="-ad-"])
 raftaar.in##div:has(> [id^="div-ad-"])
 lokmatnews.in##div:has(> [id^="div-gpt-ad"])
 shortheadlines.com##div:has(> [id^="div-gpt-ad"]:only-child)
-lokmat.com##div:has(> [id^="div-gpt-ad-"])
+lokmat.com,npg.news##div:has(> [id^="div-gpt-ad-"])
 spokesmanhindi.com##div:has(> [style="color:gray; text-align:center;"] ~ ins.adsbygoogle)
 samayduniya.com##div:has(> a > div > .pd_title)
 banijjoprotidin.com##div:has(> a >img.size-full)
