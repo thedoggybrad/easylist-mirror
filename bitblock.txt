@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IhGQrC7tu1PaQf6fek7UjQ
-! Version: 202605260812
+! Checksum: KQ19hCpZx/A+hP/cfMw6yQ
+! Version: 202605260822
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 May 2026 08:12 UTC
+! Last modified: 26 May 2026 08:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1392,6 +1392,7 @@ tulapressa.ru##.header-left_space-link
 gordonua.com#?#.header-menu > .header-menu__item:-abp-has(> nav > ul > li > .telegram-h)
 tv-gubernia.ru##.header-mlinks
 uazmi.org##.header-nav-bottom
+apostrophe.ua##.header-right-soc
 penza-press.ru##.header-row__social
 pravdatutnews.com##.header-sma
 tulapressa.ru##.header-soc
@@ -1869,6 +1870,7 @@ psm7.com##.psm-social-container
 filmhd1080.me##.psoc
 sc2tv.ru##.publication-shares
 diletant.media##.publication__sidebar-inner_socials
+apostrophe.ua##.publication__social-text
 infoselection.ru##.pull-right.brands
 sibnet.ru##.push
 xn--90aivcdt6dxbc.xn--p1ai##.push-social
@@ -3651,7 +3653,6 @@ _userbar_$image
 ||mytopf.com^$third-party
 ||nash-sait.su^$third-party
 ||net/lines/$image
-||news.google.com/swg/js/*/swg-basic.js$third-party
 ||oauth.mail.ru^$third-party,domain=~mail.ru|~sportmail.ru
 ||popmechanic.ru^$third-party
 ||push.esputnik.com.ua^$third-party
@@ -6024,6 +6025,7 @@ anime777.ru##.shop-items
 slavyanskaya-kultura.ru##.shop-latest
 komersant.ua##.short_yt
 uakino.best##.side-register
+ain.ua##.side-widget--accent-widget
 pleer.ru##.side_banner
 nashvancouver.com,sharkgame.ru##.sidebar
 habr.com##.sidebar > .js-sidebar_right > div[class="default-block default-block_sidebar"]:first-child
