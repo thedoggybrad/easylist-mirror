@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605260449
+! Version: 202605260456
 ! Title: EasyList
-! Last modified: 26 May 2026 04:49 UTC
+! Last modified: 26 May 2026 04:56 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 35b50a18d172c56335ad7dbc8b118cacc186a43f
+! Commit: c7534d59b1fd116afbef7904950f801b2bd5c1a3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -83581,6 +83581,7 @@ newspointapp.com##[ctn-style]
 flatpanelshd.com##[data-aa-adunit]
 dribbble.com##[data-ad-data*="ad_link"]
 nytimes.com##[data-ad-element="outer_ad_container"]
+investing.com##[data-ad-label="Advertisement"]
 usnews.com##[data-ad-props]
 androidauthority.com,soundguys.com##[data-ad-type]
 dexerto.com##[data-ad-unit-id]
@@ -83654,6 +83655,7 @@ extremetech.com##[data-pogo="sidebar"]
 mashable.com##[data-pogo="top"]
 scmp.com##[data-qa="AppBar-renderLayout-AdSlotContainer"]
 scmp.com##[data-qa="ArticleContentRightSection-AdSlot"]
+scmp.com##[data-qa="OutstreamAdSlot-Container"]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 ginx.tv##[data-ref]
