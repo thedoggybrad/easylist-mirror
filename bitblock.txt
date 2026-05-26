@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YShpx9o1dMcgdr0hM0TH+A
-! Version: 202605260832
+! Checksum: btHPIdOGhHuzFN14hd9gtg
+! Version: 202605260851
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 May 2026 08:32 UTC
+! Last modified: 26 May 2026 08:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4253,6 +4253,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||business-gazeta.ru/js/components/has-cookie.js
 ||calc.ru/include/check_subscription.php
 ||calltouch.ru/*/static/img/sklogo.
+||cdn-cabinet.ua.news/uploads/images/talents.mp4
 ||cdn.eapteka.ru/local/react/build/static/*/loyaltyProgramm.
 ||cdn.jsdelivr.net/npm/sweetalert$script,domain=220vk.com
 ||cdn.tnt-online.ru/masha_layer/index.html
@@ -6091,6 +6092,7 @@ postimees.ee##.sticky-cookie
 7dniv.rv.ua##.sticky-sidebar > .widget_custom_html:not(:last-child)
 village.com.ua#?#.stk-post > .stk-grid:-abp-has([href*="donate"])
 101.ru##.store-banner-wrapper
+ua.news##.store-mobile-app-block
 gdz.ru##.store:not(.store-hosting)
 vesti.az##.stores
 livejournal.com##.stories__promo
@@ -6435,6 +6437,7 @@ youhack.vip##[onclick]:not([onclick^="window.open('https://youhack.vip/posts/"])
 diets.ru##[onclick^="closeDailyRecipesPopup"],form[class^="dayrecipes"]
 rshb.ru#?#[role="dialog"]:-abp-has(> div > div > p > [href="/pd-policy#cookie"])
 village.com.ua##[role="subscribe"]
+ua.news##[src="https://cdn-cabinet.ua.news/uploads/images/talents.mp4"]
 probiv.in,probiv.one##[style="max-width:936px;"]
 au-ok.com##[style^="background: rgb(245, 245, 245) none repeat scroll 0% 50%;"]
 authedu.mosreg.ru,myschool.mos.ru,school.mos.ru,uchebnik.mos.ru##[style^="position: fixed; overflow: visible; top: 0px; left: 0px; transform: translate(0px"]
