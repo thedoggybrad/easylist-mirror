@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605260449
+! Version: 202605260456
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 May 2026 04:49 UTC
+! Last modified: 26 May 2026 04:56 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 35b50a18d172c56335ad7dbc8b118cacc186a43f
+! Commit: c7534d59b1fd116afbef7904950f801b2bd5c1a3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -31947,6 +31947,7 @@ theverge.com##.zephr-zone-footer
 picsart.com##[class^="hintWrapper"]
 picsart.com##[class^="pa-monetization"]
 discussions.apple.com##[data-action="welcome-toast"]
+investing.com##[data-article-pro-hook="CTA button"]
 psyche.co##[data-ga-view-prompt="psyche_cta_article_end_donate"]
 pngtree.com##[data-huejs="couponside-nologin-click"]
 theintercept.com##[data-module="DynamicSupportButton"]
@@ -36435,6 +36436,7 @@ manofmany.com##.ShareBar_listItem__6t0E_
 birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,dailystar.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,stokesentinel.co.uk,themirror.com,walesonline.co.uk##.ShareBar_sharebar-inner-wrapper__D0YTf
 thescore.com##.ShareLinks__container--3C8C4
 meduza.io##.SharePanel-module-root
+wbur.org##.Share_shareContainer__ZHMXj
 hoorayteams.com##.Share_share__FQTKw
 ynet.co.il,ynetnews.com##.SiteArticleSocialShareNew1280
 futurework.org.au##.SiteFooter_socials
@@ -37901,6 +37903,7 @@ news.sky.com##[data-component-name="sdc-article-strapline"]
 lifehacker.com##[data-ga-element="social-link"]
 cnet.com##[data-meta="footer-section-social"]
 cnet.com##[data-meta="footer-section-social"] + ul
+scmp.com##[data-qa="ArticleGoogleNewsButton-Container"]
 newstalkzb.co.nz##[data-test-ui="social-connect"]
 sundayworld.com##[data-testid="article-share"]
 stuff.co.nz##[data-testid="body-cta"]
