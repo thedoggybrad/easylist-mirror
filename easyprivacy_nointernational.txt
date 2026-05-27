@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: jkBXckxu9gwC0L9TuFIymw
-! Version: 202605272311
+! Checksum: hSKyUdPAuo+cLAOcaym0Qg
+! Version: 202605272321
 ! Title: EasyPrivacy without international filters
-! Last modified: 27 May 2026 23:11 UTC
+! Last modified: 27 May 2026 23:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3481,6 +3481,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.abralytics.com/assets/tracker/index.js
 ||app.adjust.com^$third-party
 ||app.carnow.com/dealers/track_visitor
+||app.clickfunnels.com/assets/pushcrew.js
+||app.clickfunnels.com/assets/userevents/application.js
+||app.clickfunnels.com/cf.js
 ||app.link/_r?$script,third-party
 ||app.octaneai.com/get_analytics_engine/
 ||app.opmnstr.com/v2/geolocate/
@@ -5790,6 +5793,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track-dark-bz.b-cdn.net^
 ||track.360playvid.info^
 ||track.91app.io^
+||track.addevent.com^
 ||track.aimroas.com^
 ||track.atgstores.com^$third-party
 ||track.bannedcelebs.com^
@@ -6871,6 +6875,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdapi.collegedunia.com^
 ||cdn.eaec.fpfis.tech.ec.europa.eu^
 ||cdn.gov.cfigroup.com/webmon/s/source/webmon/$domain=weather.gov
+||cdn.jsdelivr.net/gh/bmhtech07/adTorch/js/collect.min.js$script,domain=propanefitness.com
 ||cdn.jsdelivr.net/npm/@adshield/
 ||cdn.reverso.net/rumjs/
 ||cdp.howtotrade.com^
