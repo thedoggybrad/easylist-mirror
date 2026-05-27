@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OnIUdDfL00F5K7RKeg3hVg
-! Version: 202605270821
+! Checksum: YO/1mcOwk3SyYAMVHCfcow
+! Version: 202605270832
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 May 2026 08:21 UTC
+! Last modified: 27 May 2026 08:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6988,6 +6988,7 @@ www.kinopoisk.ru##div[class*="styles_promoPopover"]
 www.kinopoisk.ru##div[class^="promo"][style^="bottom:"]
 www.kinopoisk.ru##div[class^="styles_contentSlot_"] [class*="style_buttonPlus"]
 www.kinopoisk.ru##div[class^="styles_header"] > div[class^="styles_root"] > div[class^="styles_progress"]
+www.kinopoisk.ru##div[class^="styles_header_"] div[data-tid="ab7930e0"]
 www.kinopoisk.ru##div[class^="styles_main"] div[class^="styles_header"] > div[class*=" styles_withPosters_"]
 www.kinopoisk.ru##div[class^="styles_onlineCaption"]
 www.kinopoisk.ru##div[class^="styles_overlaySlot"] > span > a[href*="/watch/"]
@@ -6997,6 +6998,7 @@ www.kinopoisk.ru##div[class^="styles_posterWrapper"] > [class^="styles_overlaySl
 www.kinopoisk.ru##div[class^="styles_posterWrapper"] > [class^="styles_overlaySlot"] > span[class^="styles_nameplate"]
 www.kinopoisk.ru##div[class^="styles_root__"] > div[style^="min-width:"] ~ div[class^="styles_blockClassName"]
 www.kinopoisk.ru##div[class^="styles_sidebarContainer"] a[href^="https://www.kinopoisk.ru/special/"]
+www.kinopoisk.ru##div[class^="styles_streamingShowcaseBlock_"]
 www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div:not([class])
 www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div[class=""]
 www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div[class^="styles_subscription"]
