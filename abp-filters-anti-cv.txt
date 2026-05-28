@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: SwDs1HfBCtHNQix1SEs1nQ
-! Version: 202605280751
+! Checksum: z5Aul3zAcnt5Xqbi19ZCTA
+! Version: 202605280801
 ! Title: ABP filters
-! Last modified: 28 May 2026 07:51 UTC
+! Last modified: 28 May 2026 08:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1197,8 +1197,8 @@ multiup.io#$#abort-current-inline-script decodeURI decodeURIComponent; abort-cur
 m1xdrop.*#$#abort-current-inline-script document.createElement; abort-on-property-read window.open;
 flixcdn.*,moviesapi.*#$#abort-on-property-write cache_loader.init; abort-on-property-read window.open
 vidora.*#$#override-property-read cRAds false
-myflixerfree.com#$#abort-on-property-write _showApk
-korean18x.com,movies2watch.*,youtubetoany.com#$#abort-current-inline-script atob popundersPerIP
+myflixerfree.com,streamm4u.*#$#abort-on-property-write _showApk
+hypnoporn.net,korean18x.com,movies2watch.*,youtubetoany.com#$#abort-current-inline-script atob popundersPerIP
 fbox.art,youtubetoany.com#$#abort-on-property-write zfgformats; abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 attackertv.vip,movies2watch.*#$#abort-on-property-write zfgformats;
 putlocker.best#$#abort-current-inline-script Math.random _yyvciulw; abort-on-property-read aclib false;
@@ -1209,6 +1209,7 @@ player.videasy.net,vidfast.*,embdmstrplayer.com#$#abort-on-iframe-property-read 
 noodlemagazine.com,ukdevilz.com#$#override-property-read zfgcodeloadedonclick 1
 stravers.live#$#json-prune list
 hentaipins.com,tube18.*#$#abort-current-inline-script pop_init; abort-on-property-read popundrCheck;
+vidzy.*#$#abort-on-property-write cRAds
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
