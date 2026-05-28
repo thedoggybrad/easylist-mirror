@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605281446
+! Version: 202605281456
 ! Title: EasyList
-! Last modified: 28 May 2026 14:46 UTC
+! Last modified: 28 May 2026 14:56 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6e54ba6e62e2362b8d00312e015a997457343f9f
+! Commit: e0bc81d48ca14dd984627091e2b88fcfa34a373b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -74349,6 +74349,7 @@ browsershots.org#@#.advert_area
 ||get.thisisvegas.com^
 ||gg.caixin.com^
 ||giftandgamecentral.com^
+||github.io/*/invoke.js$third-party
 ||glam.com/app/
 ||glam.com/gad/
 ||go.affiliatesleague.com^
@@ -76629,6 +76630,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||discover.hubpages.com/runtime/webads.js
 ||djpunjab.*/ads/
 ||dlhd.link/rs4k-adbanner.html
+||dlhd.pk/rs4k-adbanner.html
 ||dnslytics.com/images/ads/
 ||domaintyper.com/Images/dotsitehead.png
 ||dominicantoday.com/wp-content/themes/dominicantoday/banners/
