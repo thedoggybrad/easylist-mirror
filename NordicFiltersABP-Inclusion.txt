@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vy55vE8JLddr2dWV3FX9hw
-! Version: 202605281452
+! Checksum: 0Nh1si1e3nPf3UlyvdXu+g
+! Version: 202605281501
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 28 May 2026 14:52 UTC
+! Last modified: 28 May 2026 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -82473,6 +82473,7 @@ browsershots.org#@#.advert_area
 ||get.thisisvegas.com^
 ||gg.caixin.com^
 ||giftandgamecentral.com^
+||github.io/*/invoke.js$third-party
 ||glam.com/app/
 ||glam.com/gad/
 ||go.affiliatesleague.com^
@@ -82532,8 +82533,6 @@ browsershots.org#@#.advert_area
 ||jobs.sciencecareers.org^$subdocument,third-party
 ||jobtarget.com/distrib_pages/
 ||join.megaphonetv.com^$third-party
-||jokiyo.github.io/stera2/$script,third-party
-||jokiyo.github.io/stera4/$script,third-party
 ||js.gov.cfd^
 ||js.kakuyomu.in^
 ||js.kkraw.com^
@@ -84753,6 +84752,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||discover.hubpages.com/runtime/webads.js
 ||djpunjab.*/ads/
 ||dlhd.link/rs4k-adbanner.html
+||dlhd.pk/rs4k-adbanner.html
 ||dnslytics.com/images/ads/
 ||domaintyper.com/Images/dotsitehead.png
 ||dominicantoday.com/wp-content/themes/dominicantoday/banners/
