@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PuWCttbwtno6B8cfZkKGeg
-! Version: 202605281452
+! Checksum: K9vwEzlW2dgreKPecanKSQ
+! Version: 202605281501
 ! Title: EasyList without element hiding rules
-! Last modified: 28 May 2026 14:52 UTC
+! Last modified: 28 May 2026 15:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -60282,6 +60282,7 @@ _800x80_
 ||get.thisisvegas.com^
 ||gg.caixin.com^
 ||giftandgamecentral.com^
+||github.io/*/invoke.js$third-party
 ||glam.com/app/
 ||glam.com/gad/
 ||go.affiliatesleague.com^
@@ -60341,8 +60342,6 @@ _800x80_
 ||jobs.sciencecareers.org^$subdocument,third-party
 ||jobtarget.com/distrib_pages/
 ||join.megaphonetv.com^$third-party
-||jokiyo.github.io/stera2/$script,third-party
-||jokiyo.github.io/stera4/$script,third-party
 ||js.gov.cfd^
 ||js.kakuyomu.in^
 ||js.kkraw.com^
@@ -62562,6 +62561,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||discover.hubpages.com/runtime/webads.js
 ||djpunjab.*/ads/
 ||dlhd.link/rs4k-adbanner.html
+||dlhd.pk/rs4k-adbanner.html
 ||dnslytics.com/images/ads/
 ||domaintyper.com/Images/dotsitehead.png
 ||dominicantoday.com/wp-content/themes/dominicantoday/banners/
