@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ybqNrGfjUgRK44gWamP0kQ
-! Version: 202605291411
+! Checksum: dg7Bes7c2cztri/IKTSQCg
+! Version: 202605291421
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 29 May 2026 14:11 UTC
+! Last modified: 29 May 2026 14:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -27708,6 +27708,7 @@ browsershots.org#@#.advert_area
 ||atsidhelookin.org^
 ||atsnisdwrubdu.space^
 ||atswfbonkmkrw.website^
+||attaccocalusarspaces.cfd^
 ||attacheatableoverlabor.com^
 ||attached-clock.pro^
 ||attachedglorysticks.com^
@@ -66638,6 +66639,7 @@ browsershots.org#@#.advert_area
 ||tuckerclassesjackal.com^
 ||tuckergrass.com^
 ||tuckytalefulclauber.cyou^
+||tudhcopneuxnm.online^
 ||tueborpercurmargot.cfd^
 ||tuedianclients.qpon^
 ||tueqwaij.com^
@@ -93842,6 +93844,7 @@ tripadvisor.*##div[class="ui_container dSjaD _S"]
 skyscanner.*##div[class^="InlineAd_container_"]
 zoohit.*,zooplus.*##div[class^="SearchSuggestion-module_suggestionItem_"]:has(.z-sponsored-tag)
 walmart.*##div[data-automation^="HookLogicCarouses"]
+skyscanner.*##div[data-backpack-ds-component]:has(#inline-ad-button)
 tripadvisor.*##div[data-curated-shelf-id]:has(a[rel="sponsored"])
 wayfair.*##div[data-enzyme-id="WssBannerContainer"]
 pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
