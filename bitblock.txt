@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ix+ZojUYsPm5sgAVkS1JQA
-! Version: 202605291711
+! Checksum: 67S/wt/1/V0w4iszRpbGyA
+! Version: 202605291721
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 May 2026 17:11 UTC
+! Last modified: 29 May 2026 17:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -869,7 +869,6 @@ sobaka.ru##.b-sidebar-widget--social
 anekdot.ru,lifeha.ru,takiedela.ru##.b-soc
 esetnod32.ru##.b-soc_icons
 www.vashsad.ua##.b-social + .new_section:empty
-unn.com.ua##.b-social-links
 tutu.ru##.b-social__join
 buhgalter911.com##.b-social__link
 factor.ua##.b-social__media
@@ -3176,7 +3175,6 @@ stopgame.ru##div[class^="_youtube-promo_"]
 hightech.plus,lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="article-social"]
 yamal-media.ru##div[class^="article_ShareBlockWrapper"]
 greenpost.ua##div[class^="article_share_side_"]
-unn.ua##div[class^="button-plate_wrap_"]
 mayaksbor.ru##div[class^="d-news-comments-share"]
 trashbox.mobi,trashbox.ru##div[class^="div_social_"]
 btu.org.ua##div[class^="dle_b_telegram"]
@@ -3187,7 +3185,6 @@ rutube.ru##div[class^="freyja_char-share-url__buttons"]
 domclick.ru##div[class^="ftr-styles-socialNetworks-"]
 liveresult.ru##div[class^="iconblock"]
 planet-today.ru##div[class^="icosoc"]
-unn.ua##div[class^="informer_"]
 newsru.co.il##div[class^="main--single--article--content--links"]
 noworries.news##div[class^="main-box"][class*="-teleg"]
 e-news.pro,e-news.su,lektsii.org,studepedia.org,studopedia.com.ua,studopedia.org,studopedia.ru,studopedia.su##div[class^="mb-share"]
@@ -3211,11 +3208,11 @@ buzulukday.ru,cybersport.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,soro
 hightech.plus##div[class^="social-buttons"]
 lipetsknews.ru,myliski.ru,newskrasnodar.ru,newtambov.ru,pg02.ru,pg11.ru,pg12.ru,pg13.ru,pg21.ru,pg37.ru,pg46.ru,pgn21.ru,pgr76.ru,prochepetsk.ru,prodzer.ru,progorod33.ru,progorod43.ru,progorod58.ru,progorod76.ru,progorodnn.ru,progoroduhta.ru,prosaratov.ru,usolie.info,vladivostoktimes.ru,youtvnews.com##div[class^="social-list-subscribe"]
 sovsport.ru##div[class^="social-media-buttons-module"]
+unn.ua##div[class^="social-module_"]
 nn.ru##div[class^="social-widget"]
 timeweb.cloud##div[class^="socialBlock-"]
 sportsdaily.ru##div[class^="socialList_social_"]
 360tv.ru##div[class^="socialSnackbar"]
-unn.ua##div[class^="social_root_"]
 zarplata.ru##div[class^="socialbuttons"]
 dostfilms.org##div[class^="socnet"]
 zr.ru##div[class^="styled__SubscribeSocial"]
@@ -5131,7 +5128,6 @@ gagadget.com##.b-magicblock
 temaretik.com##.b-modal-aligner
 levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,vadimrazumov.ru##.b-msgsystem-wrapper
 tolknews.ru##.b-news_aggr
-unn.com.ua##.b-notice-msg
 allsoft.ru##.b-popup-overlay_subscription
 takiedela.ru##.b-post__help
 podolyaka.ru##.b-r > .commentsin ~ *
@@ -6566,8 +6562,6 @@ jo-jo.ru##body > #vk
 animebesst.org##body > .app-hidden
 comss.ru##body > .container[style="padding:15px;"] > .row:not([id])
 povarenok.ru##body > .dr
-unn.com.ua##body > .fancybox-opened
-unn.com.ua##body > .fancybox-overlay:not(.fancybox-overlay-fixed)
 www.aviasales.by,www.aviasales.kg,www.aviasales.kz,www.aviasales.md,www.aviasales.ru,www.aviasales.ua,www.aviasales.uz##body > .footer ~ [src^="https://pay.google.com/"] + div[class]
 megaserial.net##body > .lenta
 texterra.ru##body > .mfp-bg
@@ -7707,7 +7701,6 @@ myshared.ru#@#.ya-share2_inited
 @@||static1.1tv.ru/resources/jquery.smartbanner.js$script,domain=1tv.ru
 @@||talon.by/squeeze/$domain=talon.by
 @@||trinixy.ru/engine/classes/min/index.php$script,domain=trinixy.ru
-@@||unn.com.ua/images/social/*.gif$domain=unn.com.ua
 @@||vk.com/images/btns.png$domain=app.tbn.ru
 @@||vk.com/images/icons/video_play_$third-party,image
 @@||vk.com/share.php?$third-party,domain=postila.ru
