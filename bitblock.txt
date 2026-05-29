@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TelZomPhyvmwy3gVCtPdwA
-! Version: 202605291731
+! Checksum: ubcDc6NCfJtUosK5e9xT/g
+! Version: 202605291741
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 May 2026 17:31 UTC
+! Last modified: 29 May 2026 17:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -989,6 +989,7 @@ stroyobzor.ua##.buttons-holder > li > a[href="#profile"]
 aldebaran.ru#?#.bwrap > .item_info:-abp-has(> div[class*="share"])
 tsn.ua#?#.c-article__body div > p:-abp-has(> a[href*="://t.me/"])
 dsnews.ua,telegraf.com.ua,thepharma.media##.c-banner__social
+focus.ua##.c-banner__socials
 thepharma.media##.c-block-social
 allboxing.ru##.c-box-comment-menu > li:nth-child(2)
 delo.ua##.c-btn-shadow
@@ -1506,7 +1507,6 @@ xcom-shop.ru##.js-footer-social-link
 livemaster.ru##.js-item-toggle-share-menu
 nn.ru##.js-ngs-share-button
 drive2.ru##.js-page .offer .c-share__label
-focus.ua##.js-post-share
 interesnoevmire.ru,ladyclub.org##.js-share-link
 pdalife.com.ua,pdalife.to##.js-sharing
 xcom-shop.ru##.js-sidebar-social-link
@@ -3788,12 +3788,12 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ##[href*="gismeteo.ua"] ~ .gsInformer
 ~getpocket.com##a[href*="//getpocket.com/edit?"]
 ~prytulafoundation.org##a[href*="://prytulafoundation.org/"] > img
-##a[href*="google.com/preferences/source?q="][class^="google-"][target="_blank"]
+~google.com##a[href*="google.com/preferences/source?q="][class][target="_blank"]
 ~whatsapp.com##a[href^="https://api.whatsapp.com/send?text="]
 ~bank.gov.ua##a[href^="https://bank.gov.ua/"][href*="-arm"][style*="background-image:"]
 ~bank.gov.ua##a[href^="https://bank.gov.ua/"][href*="na-potrebi-armiyi"] > img
 ~bank.gov.ua##a[href^="https://bank.gov.ua/"][href*="na-potrebi-armiyi"][style*="stop"]
-##a[href^="https://profile.google.com/"][class^="google-"][target="_blank"]
+~google.com##a[href^="https://profile.google.com/"][class][target="_blank"]
 ~whatsapp.com##a[href^="whatsapp://send"]
 ##app-cookie-consent-popup
 ##body #cookie-policy
@@ -5243,7 +5243,6 @@ shuba.life##.c-header-banner
 forbes.ua##.c-header-subscribe
 usmall.ru##.c-kuki-bar
 hromadske.ua##.c-menu__support
-focus.ua##.c-post__channel
 sports.ru##.c-read-also
 delo.ua##.c-special-list
 shuba.life##.c-subs
