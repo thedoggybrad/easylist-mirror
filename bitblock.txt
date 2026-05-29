@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8j/VqaDD2/6CJjVO/+8c4g
-! Version: 202605291701
+! Checksum: ix+ZojUYsPm5sgAVkS1JQA
+! Version: 202605291711
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 May 2026 17:01 UTC
+! Last modified: 29 May 2026 17:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1389,7 +1389,6 @@ vgoru.org##.header a[target="_blank"][aria-label] > svg
 kyivvlada.com.ua##.header-custom-button
 uazmi.org##.header-inner > nav ~ .fx-mq-md
 tulapressa.ru##.header-left_space-link
-gordonua.com#?#.header-menu > .header-menu__item:-abp-has(> nav > ul > li > .telegram-h)
 tv-gubernia.ru##.header-mlinks
 uazmi.org##.header-nav-bottom
 apostrophe.ua##.header-right-soc
@@ -1993,7 +1992,7 @@ cross.expert##.share-auth
 povarenok.ru##.share-bl
 replyua.net##.share-blc
 app2top.ru##.share-block
-animedub.ru,gordonua.com##.share-box
+animedub.ru##.share-box
 drukarnia.com.ua,grazia.ru,mentoday.ru,pravilamag.ru,techinsider.ru,thevoicemag.ru##.share-button
 lifehacker.ru##.share-button__container
 mel.fm##.share-button__link
@@ -2821,6 +2820,7 @@ stolicaonego.ru##[class^="telegram-wid"][class*="-mobile"]
 tengrinews.kz##[class^="tn-social-"]
 drive2.ru##[data-action="share.share"]:not([data-target="drive"])
 bryansknovosti.ru,novozybkov.su##[data-alias="Справа"] .textwidget > [align="center"] > [href*="?p="] ~ a
+gordonua.com##[data-area="social"]
 psychologies.ru##[data-autogoal-click*="PROMO"]
 xn--80aaae1cn1aw5e.xn--p1ai##[data-bazooka]
 teleport2001.ru##[data-block-plugin-id="system_menu_block:social"]
@@ -5486,7 +5486,6 @@ vesti.kz##.footer-bigver > div > .align > .h1
 domato.ru##.footer-content > div[style^="position: fixed;"]
 cryptonewsua.com##.footer-cookie-bar
 grad.ua##.footer-g-play
-gordonua.com##.footer-hide-tablet
 championat.com,championat.ru##.footer-icons
 teleportal.ua##.footer-links > a[href*="/app"]
 metro-cc.ru##.footer-main__contacts-block:nth-of-type(2) ~ .footer-main__contacts-block
@@ -5565,7 +5564,6 @@ sil.media##.header-help-container
 radojuva.com.ua##.header-image-container
 besplatnyeprogrammy.net##.header-inner > .pull-right
 hi-tech.ua##.header-login
-gordonua.com##.header-menu > .header-menu__item:last-child > nav ~ *
 meestposhta.com.ua##.header-promo
 officelife.media##.header-top__subs
 stopcor.org##.headerMobileMenu_donate
