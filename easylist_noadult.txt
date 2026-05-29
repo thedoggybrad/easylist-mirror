@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: T0chsPKhA2RDHt8ycMEfaA
-! Version: 202605291411
+! Checksum: TjnTTQuV/G/bnFVESthZgQ
+! Version: 202605291421
 ! Title: EasyList without rules for adult sites
-! Last modified: 29 May 2026 14:11 UTC
+! Last modified: 29 May 2026 14:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -19574,6 +19574,7 @@ browsershots.org#@#.advert_area
 ||atsidhelookin.org^
 ||atsnisdwrubdu.space^
 ||atswfbonkmkrw.website^
+||attaccocalusarspaces.cfd^
 ||attacheatableoverlabor.com^
 ||attached-clock.pro^
 ||attachedglorysticks.com^
@@ -58504,6 +58505,7 @@ browsershots.org#@#.advert_area
 ||tuckerclassesjackal.com^
 ||tuckergrass.com^
 ||tuckytalefulclauber.cyou^
+||tudhcopneuxnm.online^
 ||tueborpercurmargot.cfd^
 ||tuedianclients.qpon^
 ||tueqwaij.com^
@@ -84171,6 +84173,7 @@ tripadvisor.*##div[class="ui_container dSjaD _S"]
 skyscanner.*##div[class^="InlineAd_container_"]
 zoohit.*,zooplus.*##div[class^="SearchSuggestion-module_suggestionItem_"]:has(.z-sponsored-tag)
 walmart.*##div[data-automation^="HookLogicCarouses"]
+skyscanner.*##div[data-backpack-ds-component]:has(#inline-ad-button)
 tripadvisor.*##div[data-curated-shelf-id]:has(a[rel="sponsored"])
 wayfair.*##div[data-enzyme-id="WssBannerContainer"]
 pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
