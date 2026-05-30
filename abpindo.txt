@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Gn/bG91dXR/axekGfvG+/Q
-! Version: 202605302241
+! Checksum: wNb6lrA8+R5Cmn54wPpU6A
+! Version: 202605302252
 ! Title: ABPindo
-! Last modified: 30 May 2026 22:41 UTC
+! Last modified: 30 May 2026 22:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 30 May 2026 20:58 UTC
+! Last modified: 30 May 2026 22:42 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -9238,6 +9238,7 @@ totojitu.gif|$image
 ##img[alt^="agentoto88" i]
 ##img[alt^="akanhoki" i]
 ##img[alt^="apitogel" i]
+##img[alt^="arwanagaming" i]
 ##img[alt^="asiaroyal88" i]
 ##img[alt^="badoQQ" i]
 ##img[alt^="baliqq" i]
@@ -9524,7 +9525,7 @@ hencop.com###teaser7
 artisbokep.site###top-floating-banner-inner
 sange.link##.Dvr-B
 sange.link##.DvrCn
-artisbokep.online,artisbokep.site##.ab-top-video-banners
+artisbokep.*,artisbokep.online,artisbokep.site##.ab-top-video-banners
 sangetods.net##.active.adde_modal-overlay
 pemersatu.top##.ad
 pemersatu.*##.ad-container
@@ -9542,7 +9543,7 @@ podjav.tv##.banner-card-inner
 ceritaseksindo.org##.banner-float-bottom
 bokepvir.*##.banner-place-footer
 bokepvir.*##.banner-place-top
-artisbokep.online,artisbokep.site##.banner-slide
+artisbokep.*,artisbokep.online,artisbokep.site##.banner-slide
 theasianparent.com##.bottom-sticky-ad
 dicrotin.fun##.bulletinwp-bulletin-item
 4play.to##.davwheat-ad
@@ -9571,6 +9572,8 @@ agenbokep.*##.popbox
 lendirqu.*##.popup-banner
 buahmangga.com,gocrot.me,gocrot.org,semprot.com##.popup-cr7
 tantecentil.fans##.popup-overlay
+bokepindo.*##.pos-bottom.widget-float
+bokepindo.*##.pos-top.widget-float
 sangevip.com##.promo-banner
 indo18plus.com##.promo-videos
 18subindo.com##.request-warning-bubble
@@ -9581,7 +9584,7 @@ nomat.site##.show.popup
 podjav.tv##.sidebar-box:has(> div[data-banner-id])
 kiyowo.sbs,lendirpedia.*,pascol.*,pascol.com,sintube.icu##.teaser3
 komikdewasa.*##.teaser4
-artisbokep.online,artisbokep.site##.top-banner
+artisbokep.*,artisbokep.online,artisbokep.site##.top-banner
 dicrotin.fun,indoxes.wisatabkpindo.com##.video-block-happy
 dicrotin.fun##.video-block-happy-absolute
 realthaisluts.com##.video-list-ads
@@ -9755,6 +9758,7 @@ semprot.com##semprotnenenmontok_f
 ||rumahtaruhan88.com^$third-party
 ||semarangtogel.com^$third-party
 ||sharkpokertour.com^$third-party
+||shopnoit.com^$popup
 ||situsagenjudi.com^$third-party
 ||situstogelonline.com^$third-party
 ||sunpoker.com^$third-party
