@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mPVVS8oRDB5ZMEzBFGxzoQ
-! Version: 202606011041
+! Checksum: 1hBBVN5PRvOr1oFS+EK3Gg
+! Version: 202606011051
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Jun 2026 10:41 UTC
+! Last modified: 01 Jun 2026 10:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -592,6 +592,7 @@ materinstvo.ru###soc_icons_top
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,novostirostov.ru,omskmedia.su,peterburgmedia.ru,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru###soc_invites_block
 1000.menu###soc_share_bt
 kisameev.ru###soc_title
+newsarmenia.am###soc_widget
 siver.com.ua###socfoot
 ktonanovenkogo.ru###soci
 primpogoda.ru###social-buttons
@@ -7377,6 +7378,7 @@ dzen.ru##div[class*="column_myTarget"]
 e.mail.ru,octavius.mail.ru##div[class*="layout"] .letter-list-item-adv
 www.kinopoisk.ru#?#div[class][style][id]:-abp-has(> iframe[src*="kinopoisk-ru.clstorage.net/"])
 dzen.ru##div[class^="article-"][class*="-placeholder__root"]
+ya.ru##div[class^="body_"][class$="_feed_yes"]
 www.kinopoisk.ru##div[class^="styles_pending_"][class*=" styles_height250_"]
 mail.ru##div[class^="tg"][class*="-wrapper "]
 www.kinopoisk.ru##div[class^="toaster-container"]
@@ -7396,6 +7398,7 @@ vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 ||mail.yandex.*/u2709/$script,~third-party
 ||ok.ru/web-api/*/hobby/getMailRuHobbyFeedScriptSrc$domain=mail.ru
 ||translate.yandex.*/_crpd/
+||ya.ru/portal/_crpd/$xmlhttprequest
 ||ya.ru/portal/feed?
 ||yandex-realty.naydex.net^$script
 ||yandex-tv.naydex.net^$script
