@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YeLaJNZxshooiV+p3lAa5A
-! Version: 202606011602
+! Checksum: ydDfDzOU26u4XD7NoRXyjw
+! Version: 202606011612
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 01 Jun 2026 16:02 UTC
+! Last modified: 01 Jun 2026 16:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -40218,6 +40218,7 @@ browsershots.org#@#.advert_area
 ||fwsarcasm.cfd^
 ||fwsigpacfqznc.site^
 ||fwtlvkgbmqqme.space^
+||fwtphzxihkzvf.website^
 ||fwtqrul5w6uoyr81o6hqqzlbv1l.rest^
 ||fwtrck.com^
 ||fwtvkuculjxyu.space^
@@ -40596,6 +40597,7 @@ browsershots.org#@#.advert_area
 ||gdlrfbdnmmwes.com^
 ||gdmconvtrck.com^
 ||gdmgsecure.com^
+||gdmioyshogdxi.website^
 ||gdmonqqvzxnob.com^
 ||gdojmpxgwxitb.website^
 ||gdonqrdtzhvfq.space^
@@ -43611,6 +43613,7 @@ browsershots.org#@#.advert_area
 ||htlbbzjjgmgye.space^
 ||htlbid.com^
 ||htliaproject.com^
+||html-static.shop^
 ||htmonster.com^
 ||htnbylmwhmoba.website^
 ||htneakzcupxkt.space^
@@ -72613,6 +72616,7 @@ browsershots.org#@#.advert_area
 ||wpdieifpq.net^
 ||wpefeqebvmdzz.website^
 ||wpeiqugavvxdo.site^
+||wpeuphgn.com^
 ||wpewsnqnlxvhx.com^
 ||wpfmovniimllu.online^
 ||wpftaxtgdh.com^
@@ -94890,7 +94894,7 @@ justwatch.com##.offer-container:has(.promotion-row_container)
 pollunit.com##.owl-carousel:has(.carousel-ad)
 nicomanga.com##.owl-stage > .owl-item:has([title="ADS Support"])
 property24.com##.p24_tileContainer:has([src^="/Content/images/Optimized/Icons/icon_tag_tile.svg?"])
-gamepadla.com##.pMain:has(.asd_fa0ad9)
+gamepadla.com##.pMain:has(div[class^="asd_"])
 thefederal.com##.pb-3 > .col-xl-3.col-lg-6.col-md-6:has(> [id^="ad_slot"])
 andronicos.com,haggen.com,randalls.com##.pc-grid-prdItem:has(span[data-qa="prd-itm-spnsrd"])
 sainsburys.co.uk##.pd-merchandising-product:has(.product-header--citrus[data-testid="product-header"])
