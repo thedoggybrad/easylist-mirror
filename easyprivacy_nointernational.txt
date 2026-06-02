@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LpCkFKnunXrdRij53GMW3A
-! Version: 202606020442
+! Checksum: C9n1Xmdt1Gy6Ym27ZoyIaQ
+! Version: 202606020451
 ! Title: EasyPrivacy without international filters
-! Last modified: 02 Jun 2026 04:42 UTC
+! Last modified: 02 Jun 2026 04:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -22,6 +22,7 @@
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &refer=http$script
+&sst.gcsub=
 &t=pageview&
 -adobe-analytics/
 -adobeDatalayer_bridge.js
@@ -4190,6 +4191,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eventlog.chatlead.com^
 ||eventlog.inspsearchapi.com^
 ||events-endpoint.pointandplace.com^
+||events-ingestion-helpcenter.services.gorgias.help^
 ||events-ocu.zipify.com^
 ||events-proxy.mintlify.com
 ||events.air.tv^
