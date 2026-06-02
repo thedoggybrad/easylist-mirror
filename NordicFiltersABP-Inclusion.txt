@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LSEAlrSeDqgkeOUOdTsctg
-! Version: 202606020252
+! Checksum: VmfmRMhBXPEETbAzsGnC5A
+! Version: 202606020301
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 02 Jun 2026 02:52 UTC
+! Last modified: 02 Jun 2026 03:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -18439,6 +18439,7 @@ _800x80_
 ##.bigbox.ad
 ##.bigbox_ad
 ##.bigboxad
+##.bigcrunch-unit
 ##.bigsponsor
 ##.billboard-ad
 ##.billboard-ad-one
@@ -28029,6 +28030,7 @@ browsershots.org#@#.advert_area
 ||avuibxulygfyx.online^
 ||avvcaqgfiqaf.in^
 ||avvobqwi.in^
+||avvoxsruukcbt.space^
 ||avxskbxkmtawx.space^
 ||avytybblrvweh.space^
 ||avzaqmaoryehd.website^
@@ -47235,6 +47237,7 @@ browsershots.org#@#.advert_area
 ||ketar.xyz^
 ||ketchupdesignfeminist.com^
 ||ketenemerrily.qpon^
+||ketenhayz.qpon^
 ||ketoleuncubic.shop^
 ||ketoneaccruer.shop^
 ||ketoo.com^
@@ -50368,6 +50371,7 @@ browsershots.org#@#.advert_area
 ||marketdeathly.com^
 ||marketgid.com^
 ||marketjavgg124.fun^
+||markkakiwai.cyou^
 ||markreptiloid.com^
 ||markshospitalitymoist.com^
 ||markswaitingrouge.com^
@@ -85855,6 +85859,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||arbiscan.io/images/gen/*_StylusBlitz_Arbiscan_Ad.png
 ||armyrecognition.com/images/stories/customer/
 ||artdaily.cc/banners/
+||as-api.whitecoatinvestor.com^
 ||asgg.ghostbin.me^
 ||assets.hearstapps.com/moapt/moapt-hdm.latest.js
 ||assets.presearch.com/backgrounds/
@@ -93440,7 +93445,7 @@ guitaradvise.com##.wp-block-affiliate-plugin-lasso
 thechainsaw.com##.wp-block-create-block-pedestrian-gam-ad-block
 gamepur.com##.wp-block-dotesports-affiliate-button
 alltechnerd.com##.wp-block-foxiz-elements-affiliate-product
-dotesports.com,gameskinny.com,primagames.com,twinfinite.net##.wp-block-gamurs-ad
+dotesports.com,gameskinny.com,primagames.com,themarysue.com,twinfinite.net##.wp-block-gamurs-ad
 gearpatrol.com##.wp-block-gearpatrol-ad-slot
 gearpatrol.com##.wp-block-gearpatrol-from-our-partners
 club386.com##.wp-block-group
@@ -93562,6 +93567,7 @@ gamezop.com##[class*="_ad_container"]
 crazygames.*##[class*="_leaderboardContainer_"]
 onlymyhealth.com##[class*="_omh_banner_"]
 cointelegraph.com,doodle.com##[class*="ad-slot"]
+whitecoatinvestor.com##[class*="blog-"][class*="-as"]
 bmwblog.com##[class*="bmwbl-300x250"]
 bmwblog.com##[class*="bmwbl-300x600"]
 bitcoinist.com,captainaltcoin.com,coinpaprika.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,gameshub.com,insidebitcoins.com,news.bitcoin.com,newsbtc.com,philnews.ph,watcher.guru##[class*="clickout-"]
@@ -95079,6 +95085,7 @@ independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad
 trademe.co.nz##.tm-display-s-listing__cards-flex:has(tm-sponsored-listings-tag)
 trademe.co.nz##.tm-stripe__SL-card-container:has([class^="tm-sponsored-"])
 deccanchronicle.com##.to-be-async-loaded-ad:has(> [style*="center"])
+forums.redflagdeals.com##.topic-card:has(> .sponsored-offer)
 twitter.com,x.com##.tweet:has(.promo)
 wowcher.co.uk##.two-by-two-deal:has(a[href*="src=sponsored_search_"])
 news.sky.com##.ui-box:has(.ui-advert)
