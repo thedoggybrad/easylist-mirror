@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606020439
+! Version: 202606020451
 ! Title: EasyPrivacy
-! Last modified: 02 Jun 2026 04:39 UTC
+! Last modified: 02 Jun 2026 04:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 012b24adfb7cd34e55c8758d68f0a249a85fa8af
+! Commit: 36664d326f1c85eff20b195975c6011fa0a299dc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -26,6 +26,7 @@
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &refer=http$script
+&sst.gcsub=
 &t=pageview&
 -adobe-analytics/
 -adobeDatalayer_bridge.js
@@ -10954,6 +10955,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eventlog.chatlead.com^
 ||eventlog.inspsearchapi.com^
 ||events-endpoint.pointandplace.com^
+||events-ingestion-helpcenter.services.gorgias.help^
 ||events-ocu.zipify.com^
 ||events-proxy.mintlify.com
 ||events.air.tv^
