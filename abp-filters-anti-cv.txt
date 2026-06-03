@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 3z3whsNX+AYfByAUdRqBnQ
-! Version: 202606031441
+! Checksum: ghthCPr8hV9+kQ7Rp2wVyQ
+! Version: 202606031451
 ! Title: ABP filters
-! Last modified: 03 Jun 2026 14:41 UTC
+! Last modified: 03 Jun 2026 14:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1216,7 +1216,7 @@ attackertv.vip,movies2watch.*#$#abort-on-property-write zfgformats;
 putlocker.best#$#abort-current-inline-script Math.random _yyvciulw; abort-on-property-read aclib false;
 streamex.sh#$#prevent-element-src-loading script /\/pop\.js/
 tranny.one#$#abort-on-property-read trAdLibLoaded
-attackertv.vip,cataz.stream#$#abort-on-iframe-property-read open
+topcinemaa.com,movies2watch.biz,fbox.art,attackertv.vip,cataz.stream#$#abort-on-iframe-property-read open
 player.videasy.net,vidfast.*,embdmstrplayer.com#$#abort-on-iframe-property-read open
 noodlemagazine.com,ukdevilz.com#$#override-property-read zfgcodeloadedonclick 1
 stravers.live#$#json-prune list
