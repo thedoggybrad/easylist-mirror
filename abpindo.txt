@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ceoGkTG878RAte/vb1UtfA
-! Version: 202606042021
+! Checksum: ChUn+khWSWYBhSQhMmD6GQ
+! Version: 202606042031
 ! Title: ABPindo
-! Last modified: 04 Jun 2026 20:21 UTC
+! Last modified: 04 Jun 2026 20:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 30 May 2026 22:42 UTC
+! Last modified: 04 Jun 2026 20:28 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -435,7 +435,7 @@ asalunik.com,bokepgemoy.com##+js(nobab)
 193.142.147.230,5.253.86.213,ainzscans.net,jenismac.com##+js(noeval-if, /chp_?ad/)
 netq.me##+js(nostif, console)
 moviekhhd.biz##+js(nostif, location.href, 3000)
-anichin.top,animekompi.vip,igodesu.tv,indobo.com,jurnalistekno.id,kimcilonly.site,kiryuu.id,kiryuu.org,kiryuu01.com,kiryuu02.*,kisahterlarang.site,komikcast02.com,nimegami.*,njavtv.com,sukasex.net,sukasex.tv,westmanga.*##+js(nowoif)
+anichin.top,animekompi.vip,igodesu.tv,indobo.com,jurnalistekno.id,kimcilonly.site,kiryuu.id,kiryuu.org,kiryuu01.com,kiryuu02.*,kisahterlarang.site,komikcast02.com,ngicstream.site,nimegami.*,njavtv.com,sukasex.net,sukasex.tv,westmanga.*##+js(nowoif)
 okezone.com##+js(rc, content-wrap)
 inews.id##+js(rc, content-wrap|wrap-all)
 sindonews.com##+js(rc, t480)
@@ -9478,6 +9478,7 @@ totojitu.gif|$image
 ##img[alt^="ws138" i]
 ##img[alt^="yoda4d" i]
 ! *** abpindo:src/adult/adult_specific_block.txt ***
+$popup,domain=skripsitesisdisertasi.biz.id
 ||blogger.googleusercontent.com/img/$image,domain=igodesu.tv
 ||ceritanakal.com/wp-content/uploads/2025/06/GIF-*.gif$image
 ||gambar123.com/js/arv_24.js
