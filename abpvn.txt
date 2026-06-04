@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Z8DnfO2pz/4JxUH5N+VtYQ
-! Version: 202606040421
+! Checksum: 9HhnJUncpEWJoTZfo6e2tg
+! Version: 202606040432
 ! Title: ABPVN List
-! Last modified: 04 Jun 2026 04:21 UTC
+! Last modified: 04 Jun 2026 04:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 04 Jun 2026 10:15:11 UTC+7
-! Diff-Path: patches/20260604101511680.patch#abpvn
+! Last modified: 04 Jun 2026 11:21:23 UTC+7
+! Diff-Path: patches/20260604112123792.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -578,6 +578,8 @@ home5.mannhan22.pro##.bn-popup-bottom-sdwdwxw
 home5.mannhan22.pro##[href="/top-nha-cai.html"]
 home5.mannhan22.pro##li.for-desktop-2>[href]
 home5.mannhan22.pro##li.for-mobile-2>[href]
+hopphim.online##.items-end.flex-col.flex.z-\[9998\].right-4.fixed
+hopphim.online##.max-\[1023px\]\:pb-\[5rem\].gap-2.flex-col.flex.z-50.right-4.left-4.bottom-4.fixed
 hsctvn.com##.advertTop
 hsctvn.com##.hsdn>li:has(.adsbygoogle)
 hsctvn.com##.module_plugins
@@ -951,6 +953,7 @@ znews.vn##.znews-banner
 @@||anime47.best/ads/v/8.26.9/translations
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.0.0/videojs-contrib-ads.js$script,domain=sctvonline.vn
 @@||googleads.g.doubleclick.net/pagead/$domain=cungthi.online
+@@||hopphim.online/adpartner.min.js$script,~third-party
 @@||imasdk.googleapis.com^$script,xmlhttprequest,domain=vieon.vn|fptplay.vn|24h.com.vn|game24h.vn|sctvonline.vn|danet.vn|vtvgo.vn|toku.strp2p.com
 @@||js.aiservice.vn/rec/tto_home_stream1.js$domain=tuoitre.vn
 @@||jsc.adskeeper.co.uk^$script,domain=ios.codevn.net
