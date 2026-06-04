@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Fet9DPOlS72IbKH4+KMFWQ
-! Version: 202606040751
+! Checksum: 5qeyKaPXlTrEWrkIRGuGpQ
+! Version: 202606040802
 ! Title: EasyPrivacy without international filters
-! Last modified: 04 Jun 2026 07:51 UTC
+! Last modified: 04 Jun 2026 08:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3755,7 +3755,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.tds.bid/bid.js
 ||cdn.tolt.io/tolt.js
 ||cdn.usefathom.com^
-||cdn.zg-api.com^*/analytics.js
+||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdnjs.work/metrics.js
 ||cdnma.com/apps/capture.js
 ||cdnplanet.com/static/rum/rum.js
@@ -4125,6 +4125,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||e.ebidtech.com/cv/
 ||e.revenue.cat^
 ||e.usesneakpeek.com^
+||e.zg-api.com^
 ||e045f561.b-cdn.net^
 ||ea-mct-live.com/revsdk.kes.KinesisEvent/
 ||ea.youmaker.com^
@@ -7119,7 +7120,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dynatrace.att.com^
 ||e.quizlet.com^
 ||e.used.ca/event
-||e.zg-api.com/event$domain=zillow.com
 ||e2ma.net/track/
 ||ea.epochbase.com^
 ||ebay.com/delstats/
