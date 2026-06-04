@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 62NAMap/5Trp381v3FXlVw
-! Version: 202606041942
+! Checksum: aC4vfAU3aTrKoik1n29YQQ
+! Version: 202606041951
 ! Title: Liste FR
-! Last modified: 04 Jun 2026 19:42 UTC
+! Last modified: 04 Jun 2026 19:51 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -11960,6 +11960,7 @@ frandroid.com##.post-card:has(a[href^="https://native.humanoid.fr/"])
 fr.shopping.rakuten.com##.prd_side:has(.gtm_ads_caption)
 carrefour.fr##.product-banner__slide:has(.product-banner__advertising-item)
 e.leclerc##.product-container:has(.ad-product)
+decathlon.fr##.product-grid li:has(.sponsored-header-tag)
 nocibe.fr##.product-grid-column:has(.product-tile__sponsored)
 carrefour.fr##.product-list-grid__item:has(.product-list-card-plp-grid__sponsored)
 carrefour.fr##.product-list-grid__item:has([id*="data-advertising-sponsored-products"])
