@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606061210
+! Version: 202606061225
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Jun 2026 12:10 UTC
+! Last modified: 06 Jun 2026 12:25 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f04bad07e0e7f0135c08cc5702f0c0479e350ed5
+! Commit: 71574c75096b3f30b28c00c53294d48e229ce48d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2446,7 +2446,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.scroll-up-button-wrapper
 ##.scroll-up-cta
 ##.scroll2top
-##.scrollToTop
+##.scrollToTop:not(.dropdown-content-wrapper)
 ##.scrollToTopBtn
 ##.scrollToTopButton
 ##.scrollToTopLink
@@ -30655,6 +30655,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||duotonesports.com^*/public/ccm
 ||emerse.com/consent.js
 ||famobi.com/assets/js/consent.js
+||filmpalast.net/wp-content/*/borlabs-cookie/
 ||flaine.com/build/js/tarteaucitron/
 ||freedoflondon.com/Styles/dialog-popup/jquery-ui.js
 ||freetls.fastly.net/main/sd-cmp-$domain=spanishdict.com
@@ -31099,6 +31100,7 @@ m.youtube.com,www.youtube.com,youtube-nocookie.com##.ytp-ce-playlist
 m.youtube.com,www.youtube.com,youtube-nocookie.com##.ytp-pause-overlay
 portableapps.com##[alt="RSS"]
 xhaccess.com,xhamster.com,xhamster.desi##[class*="cam-wgt"]
+mail.google.com##div[data-is-inner-content-recommendation]
 twitter.com,x.com##div[data-testid="profileAnalyticsUpsell"]
 twitter.com,x.com##div[data-testid="verified_profile_upsell"]
 privacywall.org##div[style="top:0;right:0;position:absolute"]
@@ -34198,6 +34200,7 @@ childrenshealthdefense.org##.chd-defender-article__signup
 childrenshealthdefense.org##.chd-defender-widget--sms-alerts
 childrenshealthdefense.org##.chd-defender__sign-up
 childrenshealthdefense.org##.chd-shortcode-news-tips
+etsy.com##.chrome-footer__etsy-finds
 androidpcreview.com,raptitude.com,thelittlekitchen.net##.ck_form_container
 iliketomakestuff.com##.ck_vertical_subscription_form
 aseannow.com##.cl-dialog
@@ -37778,6 +37781,8 @@ carnewschina.com##.telegram-scrolling
 asiaone.com##.telegram-share-wrapper
 insidebitcoins.com##.telegrame_cta_content
 decrypt.co##.text-neutral-700
+streamzy.to##.tg-banner
+streamzy.to##.tg-popup
 bitcoinsensus.com,cnio.es,dailyveganmeal.com##.the_champ_sharing_container
 twitchy.com##.thm-sc
 chinadaily.com.cn##.three-right
@@ -38363,7 +38368,7 @@ ubs.com###cboxContent
 armorgames.com###cc-alert
 sdaa-france.com,yellow.place###cc-bar
 smart-home-fox.co.uk###cc-card
-consoleconnect.com,pccwglobal.com,sorianatural.es###cc-overlay
+consoleconnect.com,olvacourier.com,pccwglobal.com,sorianatural.es###cc-overlay
 aam-us.org,rodavigo.net###cc-window
 avosound.com###cc_b
 warwickstudentpad.co.uk###cc_cookie_banner
@@ -41372,7 +41377,7 @@ agados.cz,allmyfaves.com,charlesandcolvard.com,concert.ua,crowdwork.com,curvo.eu
 ! ! #cookie-consent-popup
 bagina.co.il,coffeeman.co.il,finam.ru,halalit.co.il,pccenter.co.il,rsm.co.il,shop-now14.co.il,vero-cafe.co.il,zulacasino.com###cookie-consent-popup
 ! ! .cookiebar
-ammeraalbeltech.com,asst-lecco.it,community.dyson.com,community.jamf.com,mahle-aftermarket.com,mega-monheim.de,nautadutilh.com,purejingles.com,sigmanet.lv,trtcocuk.net.tr,um.edu.mt##.cookiebar
+ammeraalbeltech.com,asst-lecco.it,community.dyson.com,community.jamf.com,fortinet.com,mahle-aftermarket.com,mega-monheim.de,nautadutilh.com,purejingles.com,sigmanet.lv,trtcocuk.net.tr,um.edu.mt##.cookiebar
 ! ! #cliSettingsPopup
 shv.nl,wornandwound.com###cliSettingsPopup
 ! ! #cookie-holder
@@ -48754,7 +48759,6 @@ skadden.com#@#.back-to-top:not(body):not(html)
 realme.com#@#.btn-back-to-top
 skadden.com#@#.js-back-to-top
 midori-japan.co.jp#@#.js-scroll-top:not(html):not(body)
-sagepub.com#@#.scrollToTop
 skadden.com#@#a[href="#back-to-top"]
 ! *** easylist:fanboy-addon/fanboy_notifications_allowlist_general_hide.txt ***
 ! fanboy_notifications_allowlist_general_hide.txt
