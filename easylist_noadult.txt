@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LaA33SfkOgVNDlko7lJUXw
-! Version: 202606060341
+! Checksum: nM1sJFnytCp8da3SMALqEA
+! Version: 202606060351
 ! Title: EasyList without rules for adult sites
-! Last modified: 06 Jun 2026 03:41 UTC
+! Last modified: 06 Jun 2026 03:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -81136,6 +81136,7 @@ unsplash.com##figure[itemprop="image"]:has(div[class*="sponsorLabelContainer-"])
 findagrave.com#?#.rounded-pill:has-text(Remove Ads)
 gamepadla.com#?#.sliderBlock:has-text(ADS)
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
+inc.com#?#.pr-\[25px\].py-\[27px\]:has-text(Apply Now)
 streeteasy.com##li [class^="ListingCard-module"]:has([class*="sponsoredTag"])
 ulta.com##li.ProductListingResults__productCard:has(.pal-c-ProductCardFooter__sponsored)
 bloomingdales.com##li.featured-item:has(.bottom-overlay-label)
