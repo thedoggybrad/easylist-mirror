@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8WIdV2sgDW9C2RqLDTVduQ
-! Version: 202606081532
+! Checksum: Sfz4U0mCwwyvKpFWQGnXrQ
+! Version: 202606081541
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Jun 2026 15:32 UTC
+! Last modified: 08 Jun 2026 15:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17260,7 +17260,6 @@ progrib.ru##[data-href*="adbl"]
 softonic.ru##[data-href*="offer_id="]
 tulapressa.ru##[data-href*="yandex."][data-href*="news"][data-href*="favid"]
 dltv.org##[data-id]
-smi2.ru##[data-id^="exAd_"]
 app2top.ru##[data-information]
 forbes.ru##[data-interval] > li div[style="min-height: 64px;"]
 om1.ru##[data-io-article-url] .content-block
@@ -17291,6 +17290,8 @@ goldsrc.ru##[data-role="primaryNavBar"] a[href^="https://gamecms.ru/"]
 zoneofgames.ru##[data-role="sidebarAd"]
 malenkiy.ru##[data-role="sidebarAd"] > center
 anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[target="_blank"]:not([href="https://app.lib.social/app2.html"])
+smi2.ru##[data-sentry-component="Finam"] a
+smi2.ru##[data-sentry-component="PartnersBlock"]
 remanga.org##[data-sentry-source-file="promobanners.tsx"]
 tgstat.com,tgstat.ru##[data-slick*="autoplay"]
 zr.ru##[data-slot-name]
@@ -17356,6 +17357,7 @@ phpbbguru.net##[href^="go.php?to="]
 nntt.org##[href^="http://numbuster.com"]
 nntt.org##[href^="http://www.cenam.net"]
 game2day.ru##[href^="https://p2d.ru/"]
+smi2.ru##[href^="https://smi2.ru/newdata/adpreview?ad="]
 divxplayer.ml,haes.tech,hcdn.online,hqq.tv,metaverseid.tk,player.cvary.org##[href^="https://t.me/"]
 forum.ru-board.com##[href^="postings.cgi?action=edit&forum=5&topic=51666"]:not([href$="postno=1"]) ~ .post img:not([src*="://forum.ru-board.com/board/"])
 zernotorg.ua##[hx-get*="/advert/placements/"]
@@ -18872,9 +18874,6 @@ bitcryptonews.ru,forum.materinstvo.ru,vse-shutochki.ru#?#div[class]:-abp-has(> [
 point.md#?#div[class]:-abp-has(> a[href*="://sales.simpals.com/"][href*="banner"])
 spafilms.me#?#div[class]:-abp-has(> a[title] > div[class])
 drive2.ru#?#div[class]:-abp-has(> div > .drom-logo)
-smi2.ru#?#div[class]:-abp-has(> div > [data-id^="adfox-"])
-smi2.ru#?#div[class]:-abp-has(> div > [data-id^="exAd_"])
-smi2.ru#?#div[class]:-abp-has(> div[font-size] > span:-abp-contains(/опрос/i))
 searchengines.guru#?#div[class]:-abp-has(> div[id][align="center"])
 www.kinopoisk.ru##div[class]:first-child > div[class*=" "] > div:first-child + :not(div) + div[class*=" "]:last-child
 ytvideo.ru##div[class][data-aid]
