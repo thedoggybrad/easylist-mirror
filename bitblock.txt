@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xafwe6kEBekZM11rbcOQow
-! Version: 202606081522
+! Checksum: Z/2K6pPNqrtZStM+DGiOGw
+! Version: 202606081532
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 08 Jun 2026 15:22 UTC
+! Last modified: 08 Jun 2026 15:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -910,6 +910,7 @@ liveresult.ru#?#.bg-light:-abp-has(.icon-favorite-on)
 kosht.media##.bg-mint
 woman.ua##.bl-share
 ruwest.ru##.blk-socials
+habinfo.ru##.block-external
 avtoradio.ru##.block-menu-snet > .icon-set
 autosport.com.ru,lgoty-vsem.ru,tehnikoved.ru##.block-share
 censor.net##.block-share-link
@@ -1517,6 +1518,7 @@ uaserial.com##.js-tiktok
 kurs.if.ua##.js_post-content > .has-text-align-center
 aniliberty.top,anilibria.top##.justify-md-end > a.v-btn[target="_blank"]
 jut-su.net##.jutsu-page__share
+habinfo.ru##.k-box-share
 cinema-24.tv##.kikadz
 km.ru##.km-shares
 igromania.ru#?#.knb-footer-links:-abp-has([target="_blank"])
@@ -1764,7 +1766,7 @@ depo.ua#?#.openPost-more:-abp-has(> p > a[href*="facebook.com"])
 depo.ua##.openPost-social
 politikus.ru##.order-first .nav-link
 kulturologia.ru##.other-channel
-moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,prokuzbass.ru##.other-channels
+habinfo.ru,moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru,prokuzbass.ru##.other-channels
 2day.kh.ua##.our-soc-network
 cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,uanews.org.ua##.our-social-box-show
 traveller-eu.ru##.our_groups
@@ -2317,6 +2319,7 @@ nevnov.ru##.social1
 ogolosha.ua##.socialAbuse-box .h3__heading
 obozrevatel.com##.socialBlockSubscribe
 newkaliningrad.ru##.socialComments
+todaykhv.ru##.socialGrpoupWrap
 forbes.kz##.socialLink__block
 founder.ua##.socialNetworks-2
 kuban24.tv##.socialShareNew
@@ -2434,6 +2437,8 @@ pikabu.ru##.story-block_type_text > p > a[href^="https://t.me/"]
 newsvl.ru##.story__outside-comments-link
 autosaratov.ru##.story__rating-share
 pikabu.ru##.story__share
+dvnovosti.ru##.story__telegram-link
+dvnovosti.ru##.story__vk-link
 cikavosti.com##.stream-item-above-post-content
 zn.ua##.stream-page-show > .blue_stream
 utorrentfilmi.fun,utorrentfilmi.ru,utorrentmusic.ru#?#.string:-abp-has(> .ya-share2)
@@ -2991,6 +2996,7 @@ www.ukr.net##article > .im > .im-tl-bk:first-child[style]
 anidubpro.ru,anilibriadub.ru,animesvosts.ru,anistarfan.ru,softbox.life,studiobandoz.ru,yummybest.ru##article > .page__player ~ center a
 newstula.ru##article > .post-content + div[style^="border:"]
 gta-gaming.ru#?#article > .publMain:-abp-has(.ya-share2)
+khabara.ru##article > .short2
 coop-land.ru##article > .social ~ .center
 coop-land.ru##article > .social ~ .text-center
 coop-land.ru##article > .social ~ center
