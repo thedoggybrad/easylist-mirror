@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Z/2K6pPNqrtZStM+DGiOGw
-! Version: 202606081532
+! Checksum: 92ZNW72aqLZRy/+1fp0FAA
+! Version: 202606081541
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 08 Jun 2026 15:32 UTC
+! Last modified: 08 Jun 2026 15:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2855,6 +2855,8 @@ sheensay.ru##[data-pr^="Поделиться"]
 yoomoney.ru##[data-qa="social-icons"]
 livejournal.com##[data-rd-type="rd-post-view-social"]
 ozon.ru##[data-replace-layout-path] > [data-replace-layout-path]:first-child ~ div:last-child > div:only-child > button.undefined
+smi2.ru##[data-sentry-component="MaxWidget"]
+smi2.ru##[data-sentry-component="SocialBlock"]
 dfm.ru,hitfm.ru,maximum.ru,montecarlo.ru,rusradio.ru##[data-sentry-element="ShareImage"]
 tsn.ua##[data-share-container]
 mediazona.ca,zona.media##[data-share-id]
@@ -2871,6 +2873,7 @@ kp.kg,kp.kz,kp.ru,md.kp.media##[data-test-id="Menu_MenuSocials"]
 adme.media##[data-test-id="join-us"]
 banki.ru##[data-test="flexbox"] > div[data-test="tooltip"]:nth-child(2)
 fontanka.ru##[data-test="report-news"] > div > div > ul
+smi2.ru##[data-testid*="share-btn"]
 sportsdzen.ru##[data-testid="share-button"]
 eurosport.ru##[data-testid="share-icons"]
 maanimo.com##[data-text-after="Мы в социальных сетях"]
@@ -6394,6 +6397,7 @@ ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget=
 mail.google.com##[data-rp-onramp-input]
 anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
 fosshub.com##[data-section-content-type="donate"]
+smi2.ru##[data-sentry-component="Upload"]
 remanga.org##[data-sentry-source-file="reader-ad.tsx"]
 trychatgpt.ru##[data-sidebar="footer"]
 ictvukraine.tv,obozrevatel.com,zahid-sad.com##[data-storage-item*="cookiename_"]
