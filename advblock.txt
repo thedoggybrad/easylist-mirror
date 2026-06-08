@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1pYISM6uuXORtTCcsGrFhQ
-! Version: 202606081552
+! Checksum: fr18VpCCjbUw9gmSifMsbg
+! Version: 202606081602
 ! Title: RU, UA, UZ, KZ
-! Last modified: 08 Jun 2026 15:52 UTC
+! Last modified: 08 Jun 2026 16:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16320,6 +16320,7 @@ dnepr.info##.slideshowbg
 planet-today.ru##.slideshowck
 felomena.com##.sliding-block
 real-vin.com##.sm-widget
+m24.ru##.sm24-floor-ad
 queen-time.ru#?#.small-fancy-sheet:-abp-has(> .adv_banner)
 queen-time.ru#?#.small-fancy-sheet:-abp-has(> script)
 hi-news.ru#?#.small-text:-abp-has(> a[href^="https://dzen.ru/"])
@@ -22917,6 +22918,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||s*.website^$third-party,script
 ||s-info.ru/local/templates/*/clientbanner/
 ||s-platoon.ru/forfon/$subdocument
+||s.m24.ru/
 ||s13.ru/icontent/$subdocument
 ||s1block.com^$third-party
 ||sailor.rutracker21.ru/
