@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: X/1Rw9EZ5LILxAev0UVq9Q
-! Version: 202606091602
+! Checksum: nd00W7RkMdwk1KCS/XAHlg
+! Version: 202606091611
 ! Title: RU, UA, UZ, KZ
-! Last modified: 09 Jun 2026 16:02 UTC
+! Last modified: 09 Jun 2026 16:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20055,6 +20055,7 @@ skmash.ru##p > script[src*="wmrfast.com"] ~ *
 benzin-price.ru#?#p > strong:-abp-contains(реклама)
 onfoto.ru##p > table[cellspacing="5"][cellpadding="0"][width="100%"] > tbody > tr > td[width="50%"][style="border: 1px solid #000;"]
 vc.ru##p a[href^="https://market.yandex.ru/"]
+sport.ua##p.accent-block
 cameleo.xyz#?#p.main:-abp-has([href*="bit.ly"])
 thg.ru#?#p:-abp-contains(Erid:)
 respawn.media#?#p:-abp-contains(Где купить)
