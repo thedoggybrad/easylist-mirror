@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c9wq2gV9whi7OWqphOzGHQ
-! Version: 202606090911
+! Checksum: ocQAzXfy5cOFAXtNfPCYQA
+! Version: 202606090921
 ! Title: ABPVN List
-! Last modified: 09 Jun 2026 09:11 UTC
+! Last modified: 09 Jun 2026 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 09 Jun 2026 13:25:32 UTC+7
-! Diff-Path: patches/20260609132532153.patch#abpvn
+! Last modified: 09 Jun 2026 16:14:04 UTC+7
+! Diff-Path: patches/20260609161404970.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -93,7 +93,6 @@ $popup,domain=truyenfull.today
 ||api.anime3s.com^*.gif$image,domain=xemphim.site|anime14.site
 ||api.onflix.xyz/api/ads/$xmlhttprequest
 ||api.ybox.vn/graphql?query=*Ads
-||apiv2-gw.phogatv2.com/ads$xmlhttprequest,domain=cbox-prd.phogatv2.com
 ||astons-online.co.uk/images/banners/$image
 ||baomoi.com$csp=script-src data: blob: * 'self' 'unsafe-inline'
 ||baonga.com/FileUpload/Images/*banner
@@ -441,8 +440,6 @@ cafef.vn###wrapper>[id^="adm-slot"]
 cafef.vn##.bannertop
 cafef.vn##.box-adm
 cafef.vn##[class^="ads_"]
-cbox-prd.phogatv2.com##.chat_textAds__qULlh
-cbox-prd.phogatv2.com##.styles_textAds___TLwW
 chap.vn##.my_responsive_add
 chap.vn##.titleBar + *
 chap.vn##[class1="my_responsive_add"]
