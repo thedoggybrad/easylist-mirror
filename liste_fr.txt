@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M3CdMXPoVbggEA1q05WgLg
-! Version: 202606092141
+! Checksum: EmYJNFUXlHSxWmJ5GG3WSQ
+! Version: 202606092151
 ! Title: Liste FR
-! Last modified: 09 Jun 2026 21:41 UTC
+! Last modified: 09 Jun 2026 21:51 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -6528,7 +6528,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|allviid.xyz|all
 ||promo.streaming-illimite.ma^$popup
 ||promonautes.com/publicite.$popup
 ||promovacances.com/?cid=$popup
-||promovacances.com^$popup,domain=l-eaualabouche.com|rueducommerce.fr
+||promovacances.com^$popup,domain=rueducommerce.fr
 ||realnswag.fr^$popup,domain=rapghetto.com
 ||redtube.com^*?utm_source=paid$popup
 ||referer.us/?*&placement=$popup
@@ -9375,6 +9375,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|allviid.xyz|all
 ###zone_pub
 ###zone_pub1
 ###zone_pub2
+##.Ad--970x90
 ##.MIXADVERT_NET
 ##.Middle-Ad
 ##.ad--desk
@@ -9672,6 +9673,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|allviid.xyz|all
 ##.in_up_ad-area
 ##.inpage-adspace
 ##.inplayer_banners
+##.inread_ads-wrapper
 ##.insertPadList
 ##.insert_pub_center
 ##.inside-pub-container
