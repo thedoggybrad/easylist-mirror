@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: NjjUotIxXxYtGI9SJX4SaA
-! Version: 202606091001
+! Checksum: 1cq0M9bWTr8NhB9v62xMgQ
+! Version: 202606091011
 ! Title: ABP filters
-! Last modified: 09 Jun 2026 10:01 UTC
+! Last modified: 09 Jun 2026 10:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2375,27 +2375,22 @@ aliexpress.*#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama
 aliexpress.*#$#hide-if-matches-xpath './/div[(text()="AD" or text()="Annonce" or text()="Anuncio" or text()="Anzeige" or text()="Reklama" or text()="Advertentie" or text()="Ad" or text()="Pub" or text()="Publicidad" or text()="Werbeanzeige" or text()="Rekl" or text()="ad" or text()="Reklam" or text()="Anúncio" or text()="광고" or text()="Ann" or text()="إعلان" or text()="מودعה") and not(.//h3)]/ancestor::div[contains(@class,"card-out-wrapper")]/parent::div/parent::div[1]'
 ! #RM-19
 ! TB
-allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]/ancestor::div[contains(@data-analytics-tags,"content-advertising")]'
 allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[@data-box-name="allegro.ads.dss.banner"][1]'
 allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/../../div/ancestor::div[@data-role="showcase"]'
 allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/parent::span/ancestor::div[1]/parent::div[@data-box-name]/../../../parent::div[@data-item]'
 ! SA
 allegro.*#$#hide-if-matches-xpath './/*[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[1]/ancestor-or-self::article[@class]'
-allegro.*##div[data-box-name^="car0usels.base"][data-analytics-groups*="sponsored_offers_ppc_ads"]
-! PL
-allegro.*#$#hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване|Sponzorované|Szponzorált/ 'article' 'div[class]>div ^^sh^^ div>*';
 ! PP
-allegro.*##div[data-box-name^="ads"]
-allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno" or .="Sponzorované" or .="Szponzorált"]//ancestor::div[contains(@data-analytics-groups,"ads")]/ancestor::div[contains(@class, "opbox-sheet") and @data-item]/parent::div[@*[starts-with(name(), "data-")] and count(@*[starts-with(name(), "data-")]) = 1]'; hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno" or .="Sponzorované" or .="Szponzorált"]/ancestor::div[contains(@class, "opbox-sheet") and @data-item]/parent::div[@*[starts-with(name(), "data-")] and count(@*[starts-with(name(), "data-")]) = 1]';
-allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
-allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";|"Szponzorált";/))
-allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";|"Szponzorált";/))
-allegro.*##div[data-box-name][data-analytics-groups*="allegro.ads"]
+allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno" or .="Sponzorované" or .="Szponzorált"]/ancestor::div[contains(@class, "opbox-sheet") and @data-item]/parent::div[@*[starts-with(name(), "data-")] and count(@*[starts-with(name(), "data-")]) = 1]'
 ! HP
-allegro.*#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::a/ancestor::li[1]' '' complete
-allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Sponzorované"]/../../parent::div/ancestor::div[@data-box-id][1]/../../../parent::div[@style]' '' complete
-allegro.hu#$#hide-if-matches-xpath '//div[@data-box-name="structure-container"][@data-analytics-category="layout.container"][.//span[text()="Szponzorált"]]'
+allegro.*#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::a/ancestor::li[1]' '' complete;
+allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Sponzorované"]/../../parent::div/ancestor::div[@data-box-id][1]/../../../parent::div[@style]' '' complete;
 allegro.pl#$#hide-if-matches-xpath '//div[@data-box-name="structure-container"][@data-analytics-category="layout.container"]//div[contains(@class,"mj7a_0")][.//span[text()="Sponsorowane"] or .//span[text()="Szponzorált"]]'
+allegro.hu#$#hide-if-matches-xpath '//div[@data-box-name="structure-container"][@data-analytics-category="layout.container"][.//span[text()="Szponzorált"]]';
+allegro.pl#$#hide-if-contains Sponsorowane 'div[data-box-name="structure-container"][data-analytics-tags*="adsRecoCarousel"]' 'span'
+allegro.pl#$#hide-if-matches-xpath '//div[@data-box-name="Carousel without Image"][.//span[normalize-space(.)="Sponsorowane"]][ancestor::div[@data-box-name="structure-container"][contains(@data-analytics-tags,"offerCarousel")]]'
+allegro.*#$#hide-if-matches-xpath '//div[@data-box-name="structure-container"][contains(@data-analytics-tags,"BrandedShop")][contains(@data-analytics-tags,"content-advertising")][.//span[normalize-space(.)="Sponsorowane" or normalize-space(.)="Sponzorované"]]'
+allegro.*#$#hide-if-contains /Sponsorowane|Sponzorované/ 'div[data-box-name="structure-container"][data-analytics-tags*="campaignStructure"][data-analytics-tags*="content-editorial"]' 'span'
 ! MISC
 allegro.*#$#override-property-read adblockEnabledPreferenceUpdated true
 ! #RM-42
