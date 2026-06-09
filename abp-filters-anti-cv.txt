@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 4yDdVrA6FVNhtg1HZizWwg
-! Version: 202606091441
+! Checksum: 8BWeUJfZk5u7eAXg0sC0rQ
+! Version: 202606091452
 ! Title: ABP filters
-! Last modified: 09 Jun 2026 14:41 UTC
+! Last modified: 09 Jun 2026 14:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -509,11 +509,11 @@ pons.com#$#override-property-read performance.getEntriesByType noopFunc; overrid
 ||0.loader.gutefrage.net/article^$script,domain=gutefrage.net
 ||0.as.sourceforge.net/article^$script,domain=sourceforge.net
 ||0.content-loader.com/article^$script,third-party,domain=timesofindia.indiatimes.com|sankei.com|dictionary.cambridge.org|bab.la|pons.com|loawa.com|gazetaprawna.pl|winfuture.de|collinsdictionary.com|malaymail.com|tz.de
-||fb.html-load.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|wetter.com|winfuture.de
-||content-loader.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|wetter.com|winfuture.de
+||fb.html-load.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|winfuture.de
+||content-loader.com^$script,domain=gutefrage.net|timesofindia.indiatimes.com|tz.de|winfuture.de
 timesofindia.indiatimes.com,winfuture.de#$#override-property-read Date.now noopFunc
-gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.confirm
-gutefrage.net,timesofindia.indiatimes.com,tz.de,wetter.com,winfuture.de#$#abort-on-property-write window.alert
+gutefrage.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#abort-on-property-write window.confirm
+gutefrage.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#abort-on-property-write window.alert
 timesofindia.indiatimes.com,tz.de,winfuture.de#$#override-property-read Element.prototype.remove noopFunc
 gutefrage.net#$#override-property-read window.navigator.connection.rtt 1001
 bab.la##[data-iaw="container"]
@@ -641,9 +641,7 @@ maketecheasier.com##*[id^="img_"]:not([data-ad-client]):is([data-google-containe
 maketecheasier.com##iframe[id^="img_"][data-google-container-id]:not([data-ad-client])
 slashdot.org#$#abort-current-inline-script Element.prototype.setAttribute /asload/;
 slashdot.org#$#abort-on-property-write EventTarget.prototype.addEventListener;
-wetter.com#$#override-property-read wcomAdBlock noopFunc false
 spendwithpennies.com#$#abort-current-inline-script document.createElement /html-load/
-wetter.com#$#override-property-read wcomBlock noopFunc false; override-property-read wcomAdFrameworkInit noopFunc false; override-property-read hasDisplayAds false;
 acouplecooks.com,alexandracooks.com,amazingribs.com,amybakesbread.com,budgetbytes.com,cafedelites.com,cookieandkate.com,cookilicious.com,cookingclassy.com,craftsbyamanda.com,culinaryhill.com,damndelicious.net,dinneratthezoo.com,disneydining.com,disneyfoodblog.com,disneytouristblog.com,downshiftology.com,easydessertrecipes.com,eatingbirdfood.com,eatingonadime.com,feastingathome.com,feelgoodfoodie.net,gimmesomeoven.com,growforagecookferment.com,halfbakedharvest.com,healthyrecipesblogs.com,homemaking.com,hot-thai-kitchen.com,howsweeteats.com,indianhealthyrecipes.com,inspiredtaste.net,justonecookbook.com,krollskorner.com,lifeloveandsugar.com,maangchi.com,minimalistbaker.com,momontimeout.com,mygolfspy.com,natashaskitchen.com,onceuponachef.com,pinchofyum.com,preppykitchen.com,rainbowplantlife.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,stylebyemilyhenderson.com,sugarspunrun.com,tastesbetterfromscratch.com,thebigmansworld.com,thecountrycook.net,theloopywhisk.com,themediterraneandish.com,therecipecritic.com,thereciperebel.com,therecipewell.com,thewholecook.com,thewoksoflife.com,titlecaseconverter.com,twopeasandtheirpod.com,wellplated.com,whec.com,wholesomeyum.com,yummytoddlerfood.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
 acouplecooks.com,alexandracooks.com,amazingribs.com,amybakesbread.com,budgetbytes.com,cafedelites.com,cookieandkate.com,cookilicious.com,cookingclassy.com,craftsbyamanda.com,culinaryhill.com,damndelicious.net,dinneratthezoo.com,disneydining.com,disneyfoodblog.com,disneytouristblog.com,downshiftology.com,easydessertrecipes.com,eatingbirdfood.com,eatingonadime.com,feastingathome.com,feelgoodfoodie.net,gimmesomeoven.com,growforagecookferment.com,halfbakedharvest.com,healthyrecipesblogs.com,homemaking.com,hot-thai-kitchen.com,howsweeteats.com,indianhealthyrecipes.com,inspiredtaste.net,justonecookbook.com,krollskorner.com,lifeloveandsugar.com,maangchi.com,minimalistbaker.com,momontimeout.com,mygolfspy.com,natashaskitchen.com,onceuponachef.com,pinchofyum.com,preppykitchen.com,rainbowplantlife.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,stylebyemilyhenderson.com,sugarspunrun.com,tastesbetterfromscratch.com,thebigmansworld.com,thecountrycook.net,theloopywhisk.com,themediterraneandish.com,therecipecritic.com,thereciperebel.com,therecipewell.com,thewholecook.com,thewoksoflife.com,titlecaseconverter.com,twopeasandtheirpod.com,wellplated.com,whec.com,wholesomeyum.com,yummytoddlerfood.com#$#abort-on-property-read Intl.DateTimeFormat false
 @@||*/abd.js^$domain=acouplecooks.com|alexandracooks.com|amazingribs.com|amybakesbread.com|budgetbytes.com|cafedelites.com|cookieandkate.com|cookilicious.com|cookingclassy.com|craftsbyamanda.com|culinaryhill.com|damndelicious.net|dinneratthezoo.com|disneydining.com|disneyfoodblog.com|disneytouristblog.com|downshiftology.com|easydessertrecipes.com|eatingbirdfood.com|eatingonadime.com|feastingathome.com|feelgoodfoodie.net|gimmesomeoven.com|growforagecookferment.com|halfbakedharvest.com|healthyrecipesblogs.com|homemaking.com|hot-thai-kitchen.com|howsweeteats.com|indianhealthyrecipes.com|inspiredtaste.net|justonecookbook.com|krollskorner.com|lifeloveandsugar.com|maangchi.com|minimalistbaker.com|momontimeout.com|mygolfspy.com|natashaskitchen.com|onceuponachef.com|pinchofyum.com|preppykitchen.com|rainbowplantlife.com|recipetineats.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|stylebyemilyhenderson.com|sugarspunrun.com|tastesbetterfromscratch.com|thebigmansworld.com|thecountrycook.net|theloopywhisk.com|themediterraneandish.com|therecipecritic.com|thereciperebel.com|therecipewell.com|thewholecook.com|thewoksoflife.com|titlecaseconverter.com|twopeasandtheirpod.com|wellplated.com|whec.com|wholesomeyum.com|yummytoddlerfood.com
@@ -828,6 +826,8 @@ trilltrill.jp#$#override-property-read document.write noopFunc
 euronews.com#$#override-property-read as_1155195780 true; override-property-read as_279146697 true; override-property-read as_242250477 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_0-1060912359 true; override-property-read as_9-1833899436 true; override-property-read as_1-889137453 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
 ||html-load.com^$script,domain=namemc.com
 namemc.com#$#override-property-read as_2073418414 true; override-property-read as_-1320722721 true; override-property-read as_-1188240253 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_01828408771 true; override-property-read as_91055421694 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
+fandom.com#$#prevent-element-src-loading script /lib\.js/
+||*/lib.js^$script,third-party,domain=fandom.com
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
@@ -1061,7 +1061,7 @@ instagram.com#$#json-prune data.xdt_injected_story_units.ad_media_items
 factfeed.com,mdrntoday.com,travelroo.com###vidazooAd
 factfeed.com,mdrntoday.com,travelroo.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-lines") and contains(text(),"ADVERTISEMENT")]/parent::div[@class="ad-text-box"]/ancestor::div[@class][@style]'
 ! Popup/Popunder/Clickunder
-0123movies.*,123freemovies.net,123movies.*,123movieshub.tc,adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,animepahe.*,anitube.*,bigtitsxxxfree.com,cineby.*,configspc.com,dood.*,doods.*,doodstream.*,dooodster.*,fastream.to,govid.*,hclips.com,hd-analporn.com,hentai2w.com,hotmovs.com,hxfile.co,komikcast.com,mavavid.com,mstream.fun,mstream.icu,mstream.tech,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.*,porn.com,porndollz.com,pornhat.com,prmovies.*,realgfporn.com,rule34hentai.net,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.me,tapewithadblock.org,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
+0123movies.*,123freemovies.net,123movies.*,123movieshub.tc,adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,animepahe.*,anitube.*,bigtitsxxxfree.com,cineby.*,cinevo.nl,configspc.com,dood.*,doods.*,doodstream.*,dooodster.*,fastream.to,govid.*,hclips.com,hd-analporn.com,hentai2w.com,hotmovs.com,hxfile.co,komikcast.com,mavavid.com,mstream.fun,mstream.icu,mstream.tech,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.*,porn.com,porndollz.com,pornhat.com,prmovies.*,realgfporn.com,rule34hentai.net,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.me,tapewithadblock.org,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
 adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,adblockstrtape.link,baytorrent.eu.org,dood.*,doods.*,doodstream.*,dooodster.*,europixhd.com,europixhd.net,fileflares.com,gledajonline.net,govid.*,hdeuropix.io,hxfile.co,isohunt.lol,isohuntz.net,javjunkies.com,javmost.com,latinblog.tv,limetorrents.info,loadsubs.net,mixdrop.*,mypiratebay.*,myyouporn.com,openpirate.org,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.earth,pirateproxy.live,pirateproxy.surf,pirateproxy.us,proxyninja.org,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.*,strtape.*,strtapeadblock.me,tapewithadblock.org,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,topeuropix.net,tpb.party,tpb.red,vidoz8.com,vidshare.tv,voe.sx,youdbox.com#$#abort-on-property-write _pop
 adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,mixdrop.*,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.*,strtape.*,strtapeadblock.me,tapewithadblock.org#$#abort-on-property-write _pao
 1tamilmv.cloud,9anime.to,incestflix.com,masahub.net,pastemytxt.com,uploadproper.com,ytmp3eu.com,zippyshare.com#$#abort-on-property-read _pop
@@ -1236,8 +1236,7 @@ attackertv.vip,movies2watch.*#$#abort-on-property-write zfgformats;
 putlocker.best#$#abort-current-inline-script Math.random _yyvciulw; abort-on-property-read aclib false;
 streamex.sh#$#prevent-element-src-loading script /\/pop\.js/
 tranny.one#$#abort-on-property-read trAdLibLoaded
-topcinemaa.com,movies2watch.biz,fbox.art,attackertv.vip,cataz.stream#$#abort-on-iframe-property-read open
-player.videasy.net,vidfast.*,embdmstrplayer.com#$#abort-on-iframe-property-read open
+topcinemaa.com,movies2watch.biz,fbox.art,attackertv.vip,cataz.stream,player.videasy.net,vidfast.*,embdmstrplayer.com#$#abort-on-iframe-property-read open
 noodlemagazine.com,ukdevilz.com#$#override-property-read zfgcodeloadedonclick 1
 stravers.live#$#json-prune list
 hentaipins.com,tube18.*#$#abort-current-inline-script pop_init; abort-on-property-read popundrCheck;
