@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4r/W3OxGtdO/ZMSTgQ1b1A
-! Version: 202606101722
+! Checksum: Yu1Q/aEdlsAySSG6ne6o1g
+! Version: 202606101731
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jun 2026 17:22 UTC
+! Last modified: 10 Jun 2026 17:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2237,6 +2237,7 @@ www.kinopoisk.ru##body[class*="body"][class*="_"] {overflow:auto;}
 ?frm=script&se_referrer=$third-party,script
 ?p_id=*&hold=*&subid_*sitescript&$third-party,script
 ?teaser_
+?token=eyJhbGciOiJIUzI1NiJ9.$third-party,xmlhttprequest
 ^clickunder-
 _baner.$domain=~gemotest.ru|~torrentpharma.ru|~xn----8sblrkq3eyc.xn--p1ai
 _baner_$domain=~5ka.ru|~biotorg.com|~canon.ru|~gemotest.ru|~gmk.center|~igrushki7.ua|~ikea.com|~laolavka.ru|~ortovm.ru|~videoigr.net
@@ -3651,6 +3652,7 @@ _tizers.
 ||telderi.ru/img/banners/$third-party
 ||telderi.ru/uploads/promote/
 ||telepark.ua/tpb.php?code=
+||temptcdn.com^$third-party,xmlhttprequest
 ||teren.in.ua^$third-party,subdocument
 ||terthoreper.ru^$third-party
 ||testosteroid.com^$third-party
