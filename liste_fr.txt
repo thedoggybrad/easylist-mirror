@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YOyMajYNIzwmqARYHNpjjg
-! Version: 202606102202
+! Checksum: WIWm8aawvJWRGYoxWy6fYw
+! Version: 202606102211
 ! Title: Liste FR
-! Last modified: 10 Jun 2026 22:02 UTC
+! Last modified: 10 Jun 2026 22:11 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -7246,6 +7246,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|allviid.xyz|all
 ||forumconstruire.com/img/pubs/
 ||forumconstruire.com/img/sicked/
 ||forumconstruire.com/letsgo/
+||forumconstruire.com/pubs/
 ||forumdz.com/pub/
 ||forzamotorsport.fr/img/pub/
 ||framapad.org/static/img/bearstech_hosted.png
@@ -7353,6 +7354,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|allviid.xyz|all
 ||guide-hebergeur.fr/img/lwssuper
 ||guide-hebergeur.fr/pub/
 ||guide-lavage.com/image/guide-lavage/pub/
+||guide-piscine.fr/medias/emc/
 ||guinee7.com/wp-content/uploads/*-460x68-
 ||guinee7.com/wp-content/uploads/*-800x120-
 ||guinee7.com/wp-content/uploads/*/baniere-
@@ -10585,6 +10587,7 @@ lesmobiles.com###ctn_top2
 edcom.fr###decouvrirActu
 amazon.fr###desktop-rhs-carousels_click_within_right
 papvacances.fr###details-services
+guide-piscine.fr###devis-lien-popup
 japscan.vip###dlinkc
 fluvore.com###download
 boulistenaute.com###dropin
@@ -11266,6 +11269,7 @@ voir-films.com##.links-bottom
 voir-films.com##.links-top
 mavieencouleurs.fr##.list-brands-carousel
 team-aaa.com##.list-sponsors
+guide-piscine.fr##.liste-produits
 lequipement.fr##.listepartenairecomplete
 frandroid.com##.listplans-shortcode-container
 lesnumeriques.com##.ln__a-dc
@@ -11277,7 +11281,6 @@ cdiscount.com##.lpMBan
 ma-reduc.com##.m-coveringIab
 cuisineactuelle.fr##.magazineBlock
 allocine.fr##.main-banner
-parlonspiscine.com##.margin_bottom[style="padding:5px;border:1px solid #8F8F8F;border-radius:5px 0px 5px 0px;box-shadow: 0px 0px 10px #000000;"]
 leparisien.fr##.marketingParisien
 driverscloud.com##.mcdescresumepub
 driverscloud.com##.mcdescresumepubnews
@@ -11661,8 +11664,7 @@ fnac.com##[class^="f-kamino-"]
 forumconstruire.com##[class^="habillage"]
 igen.fr,macg.co,orange.fr,watchgeneration.fr##[class^="lig_"]
 voyageforum.com##[class^="offers"]
-ambiance-noel.fr,guide-piscine.fr##[class^="pub_"]
-guide-piscine.fr##[class^="regie_"]
+ambiance-noel.fr##[class^="pub_"]
 dl-protect.link##[class^="trust"]
 reverso.net##[class^="vda-"]
 korben.info##[data-cfpa]
@@ -11821,7 +11823,6 @@ alsacreations.com##a[href^="http://www.amazon.fr/gp/product/"]
 djelfa.info##a[href^="http://www.djelfa.info/ar/click/"]
 dzsat.org##a[href^="http://www.dzsat.org/forum/rbs_banner.php?"]
 notre-siecle.com,perelafouine.com##a[href^="http://www.fredbaroussechacunsonstyle.com/"] > img
-guide-piscine.fr##a[href^="http://www.guide-piscine.fr/scripts/gp_div_clic.php?"]
 cowcotland.com##a[href^="http://www.ldlc.com#aff"] > img
 lyonmag.com##a[href^="http://www.lyonmag.com/home/habillage/"]
 meetmuslima.net##a[href^="http://www.meetmuslima.net/go/"]
@@ -11947,6 +11948,7 @@ zonebourse.com##div[id^="zpp"]
 gamalive.com##div[style$="width:300px;height:250px;"]
 ma-reduc.com##div[style*="/ads/"]
 impotsurlerevenu.org##div[style*="float:right;width:300px;"]
+androidpit.fr,forumpiscine.com##div[style*="min-height:90px;"]
 oxtorrent.my##div[style*="opacity:"]
 superphysique.org##div[style*="text-align: center"][style*="width:250px"]
 gamalive.com##div[style*="width:160px;height:600px;"]
@@ -11956,7 +11958,6 @@ livehost.fr##div[style*="width:728px"]
 tayo.fr##div[style*="width:728px;"]
 avito.ma##div[style="display: block; margin-bottom: 10px;"] > ._LaI0D
 voyageforum.com##div[style="display: block; margin-top: 0px; width: 836px; margin-bottom: -7px; height: 285px;"]
-androidpit.fr##div[style="float:left; width:976px; line-height:0; min-height:90px; margin-bottom:5px; text-align:center;"]
 forum.gsmhosting.com##div[style="float:right; width:336px; height:560px; margin-left:10px"]
 1fichier.fr##div[style="float:right;width:300px;height:600px"]
 futura-sciences.com##div[style="height:250px; width:300px;"]
