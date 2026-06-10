@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606101110
+! Version: 202606101121
 ! Title: EasyPrivacy
-! Last modified: 10 Jun 2026 11:10 UTC
+! Last modified: 10 Jun 2026 11:21 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 757b346a45559d7e2f37d0ff134143f2fa343909
+! Commit: 170f9f29085a675c0bb84ffb2f3348a8aa4d62d5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1124,6 +1124,7 @@
 /global_analytics/s_code.js
 /global_tracking.js
 /goAnalytics.js
+/google-listings-and-ads/js/build/gtag-events.js
 /google-nielsen-analytics.js
 /google/analytics.js
 /google_analitycs.js
@@ -15296,6 +15297,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gadgets360.com/analytics.js
 ||gaiaonline.com/internal/mkt_t.php?
 ||gak.webtoons.com^
+||galaxus.ch/api/public/sbm/v1/fp
 ||gamedistribution.com/collect?
 ||gamejolt.com/tick/
 ||gamemonetize.com/account/event.php?
@@ -16542,6 +16544,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ubuyanalytics.ubuy.com^
 ||ucoz.com/stat/
 ||ucweb.com/collect/
+||ud.galaxus.ch^
 ||udc.yahoo.com/v2/public/yql?
 ||udemy.com/api-2.0/ecl
 ||ugprod.geeksforgeeks.org/post/api/usertracking/
