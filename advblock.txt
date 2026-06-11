@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Pt0eNaOzxxt/wqD0N8Kxgg
-! Version: 202606111851
+! Checksum: K9miscZMWD9ah3QGh3uCUg
+! Version: 202606111902
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Jun 2026 18:51 UTC
+! Last modified: 11 Jun 2026 19:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18607,6 +18607,7 @@ hi-fi.ru##body[data-pageid] #ipsLayout_sidebar
 2gis.by,2gis.kz,2gis.ru##button > div[style^="width: 136px; height: 100%;"] ~ div[style*="pointer-events: auto"]
 novayagazeta.eu#?#button:-abp-has(> [src^="/vpnovaya_"])
 360.ru,riamo.ru#?#button:-abp-has(> svg > [clip-path*="dzen"])
+rutube.sport##button[aria-label*="баннер"]
 www.kinopoisk.ru##button[class*=" styles_adButton_"]
 flamp.ru##cat-banner
 exnews.org##center + noindex
