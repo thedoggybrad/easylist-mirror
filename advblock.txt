@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: y1R/fWx5ScnXvXsc+RUt7A
-! Version: 202606111403
+! Checksum: RHlhISz8wNzwWEJX97fBRA
+! Version: 202606111411
 ! Title: RU, UA, UZ, KZ
-! Last modified: 11 Jun 2026 14:03 UTC
+! Last modified: 11 Jun 2026 14:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2035,6 +2035,7 @@ www.kinopoisk.ru##body[class*="body"][class*="_"] {overflow:auto;}
 /js/slider.php?id=$third-party
 /js/v1.2/script.min.js|$third-party,script
 /js/vk.php?id=$script
+/json/?*=*-*&*=13389&*=*%$third-party,xmlhttprequest
 /json/?user_id=*&site_id=*&blocks=$third-party
 /jstbt.js|$third-party
 /kmabiz/*
@@ -25016,6 +25017,7 @@ sports.ru##a[href^="https://zen.yandex.ru/"]
 sports.ru##ad-slot
 sports.ru##article.material-list__item[data-link^="https://sirena.world/"]
 sports.ru##body > div[class^="br-lt"] > :not(.page-layout):not(.pageLayout)
+tribuna.com#?#div:-abp-has(> div > [style="display: flex;"] > div[id*="_Inread"])
 sports.ru##div[class*="SALES"] > .accordion__handle
 tribuna.com##div[class*="main_layout__empty_block"]
 tribuna.com##div[class^="BookmakerGift"]
@@ -25126,7 +25128,7 @@ ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="sektilon-items-count:"]
+ya.ru##section[style*="sektillon-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.layout__banner
