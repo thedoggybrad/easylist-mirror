@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: tP9Erf2c/CA+k+Nwj3fQHA
-! Version: 202606111601
+! Checksum: QZV/P1QZ9x/ilFY8N+XBvQ
+! Version: 202606111612
 ! Title: ABP filters
-! Last modified: 11 Jun 2026 16:01 UTC
+! Last modified: 11 Jun 2026 16:12 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -828,6 +828,13 @@ euronews.com#$#override-property-read as_1155195780 true; override-property-read
 namemc.com#$#override-property-read as_2073418414 true; override-property-read as_-1320722721 true; override-property-read as_-1188240253 true; override-property-read as_1177859557 true; override-property-read as_-1027524288 true; override-property-read as_2022485055 true; override-property-read as_01828408771 true; override-property-read as_91055421694 true; override-property-read as_856308330 true; override-property-read as_-1349075515 true; override-property-read as_1700933828 true; override-property-read as_1212759660 true; override-property-read as_-992624185 true; override-property-read as_2057385158 true;
 fandom.com#$#prevent-element-src-loading script /lib\.js/
 ||*/lib.js^$script,third-party,domain=fandom.com
+||html-load.com^$script,domain=kuruma-news.jp
+||rewardingfill.com^$domain=kuruma-news.jp
+kuruma-news.jp#$#prevent-element-src-loading script /\/feed\//
+||content-loader.com^$script,domain=www.wetter.com
+||html-load.com^$script,domain=www.wetter.com
+www.wetter.com#$#abort-on-property-write window.alert
+www.wetter.com#$#override-property-read wcomBlock noopFunc false; override-property-read wcomAdFrameworkInit noopFunc false; override-property-read hasDisplayAds false;
 ! #CV-1935
 ##.jag8CityBio212023
 reddit.com##.jag8CityBio212023
