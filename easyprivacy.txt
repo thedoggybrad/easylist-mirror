@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606121005
+! Version: 202606121013
 ! Title: EasyPrivacy
-! Last modified: 12 Jun 2026 10:05 UTC
+! Last modified: 12 Jun 2026 10:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 42e7b070cb9b6a1e3cc9658e876f9c6f28a837e2
+! Commit: bf585add3940a7f3e1024155ec76d56d0c1bd8f9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16743,7 +16743,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/ads?
 ||zed.dev/docs/theme/analytics.js
-||zoom.us/*/telemetry
+||zoom.us/*/app-telemetry.
+||zoom.us/*/fingerprintjs-
+||zoom.us/user/anonymous/telemetry
 ! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&
 ||youtube.com/get_video?
@@ -48926,6 +48928,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ||t.vrbo.io^
 ! ||join.tlon.io^
 ! ||cdl.booksy.com^
+! ||links.thriveglobal.com^
+! ||staging-links.thriveglobal.com^
 ! 
 ! Company name: Branch.io
 ! 
@@ -52181,7 +52185,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||links.thedyrt.com^
 ||links.theinfatuation.com^
 ||links.thephoenix.org^
-||links.thriveglobal.com^
 ||links.tlc.com^
 ||links.travelchannel.com^
 ||links.tribe.fitness^
@@ -52821,7 +52824,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||staging-link-ccontact.focuscura.com^
 ||staging-link.docyt.com^
 ||staging-link.kol.store^
-||staging-links.thriveglobal.com^
 ||staging-refer.rooam.co^
 ||staging.findeck.link^
 ||staging.link.findeck.de^
