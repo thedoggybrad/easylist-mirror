@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606120315
+! Version: 202606120324
 ! Title: EasyPrivacy
-! Last modified: 12 Jun 2026 03:15 UTC
+! Last modified: 12 Jun 2026 03:24 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f806be1099f0e1fb330e919f5a1567a835ef893a
+! Commit: dfc668f3b4d61e1c6e4224d6223501e69d640d02
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -28,6 +28,7 @@
 &refer=http$script
 &sst.gcsub=
 &t=pageview&
+&ui-instrumentation-components-beacon.InstrumentationBeacon.sendData=1
 -adobe-analytics/
 -adobeDatalayer_bridge.js
 -click-tracker.
