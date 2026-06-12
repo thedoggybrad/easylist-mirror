@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2kPiuHW1p8uXM+D9yBNk/A
-! Version: 202606121141
+! Checksum: VDRp/q07UF4A+yQ29W8UxQ
+! Version: 202606121151
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Jun 2026 11:41 UTC
+! Last modified: 12 Jun 2026 11:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25031,6 +25031,7 @@ sports.ru##[data-type="reklama"]
 sports.ru##[id*="ScriptRoot"]
 sports.ru##[id^="dfp-fullscreen-"]
 sports.ru##[id^="unit_"]
+sports.ru##[type="bookmaker-bonus"]
 sports.ru##a#sitewrapper[href][target="_blank"][style*="cursor"]
 tribuna.com##a[href*="/bet/"]
 tribuna.com##a[href*="/betting/"]
