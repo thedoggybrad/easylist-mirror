@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hivmSN1YUUEIL8AP+M7xng
-! Version: 202606121432
+! Checksum: 3FocctG2B/hgB3shvHpEpQ
+! Version: 202606121441
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Jun 2026 14:32 UTC
+! Last modified: 12 Jun 2026 14:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23808,7 +23808,7 @@ howdyho.net#@#div[id^="yandex_rtb"]
 ||yandex.$domain=howdyho.net
 ||yastatic.$domain=howdyho.net
 !
-championat.com,lenta.ru##[class*="scroll-to-site"] {remove:true;}
+championat.com,championat.ru,lenta.ru##[class*="scroll-to-site"] {remove:true;}
 cq.ru##[class*="grid"] > a:has(.p-item__button-sponsored) {remove:true;}
 flightsim.su###tie-popup-adblock {remove:true;}
 freesoft.ru###downloadAdModal {remove:true;}
@@ -24691,6 +24691,7 @@ lenta.ru##.custom-banner
 finance.rambler.ru##.finance__partners
 horoscopes.rambler.ru##.fzwuC
 championat.com,championat.ru##.game-of-day
+championat.com,championat.ru##.gift-banner
 championat.com,championat.ru##.header-bottom__adv
 championat.com,championat.ru##.infographic-countdown
 championat.com,championat.ru##.infographic-duel
