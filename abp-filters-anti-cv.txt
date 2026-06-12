@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: hD/C79s91LEX8hKLINPTRg
-! Version: 202606121641
+! Checksum: P5iLeqjR3KQC/LBlvmTt4A
+! Version: 202606121652
 ! Title: ABP filters
-! Last modified: 12 Jun 2026 16:41 UTC
+! Last modified: 12 Jun 2026 16:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1266,6 +1266,8 @@ stravers.live#$#json-prune list
 hentaipins.com,tube18.*#$#abort-current-inline-script pop_init; abort-on-property-read popundrCheck;
 vidzy.*#$#abort-on-property-write cRAds
 cataz.stream,movies2watch.*#$#abort-on-property-write zfgdlpopup
+||fmoviess.org/sw.js^$domain=fmoviess.org
+||cloudfront.net/?tzfzd=$script,domain=fmoviess.org
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2812,6 +2814,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||capmaneleazar.com^
 ||caromedlusk.com^
 ||cathinunquit.com^
+||caudalenfonce.cyou^
 ||cautelaunsent.com^
 ||cautiousfloor.com^
 ||ceyxnepeta.com^
@@ -2974,6 +2977,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||heliobedlamp.com^
 ||henryslyceal.com^
 ||hexingteeting.com^
+||hhysnzwzyvjht.online^
 ||highathel.com^
 ||hogtiesturret.com^
 ||hondauntinctseggard.cfd^
@@ -3154,6 +3158,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||randeriridium.com^
 ||rapid-university.com^
 ||rayanbordel.com^
+||reavershollowarpath.cyou^
 ||rebopsmurly.com^
 ||redcapsunlime.com^
 ||redsearoblates.com^
@@ -3292,6 +3297,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||usrpubtrk.com^
 ||utensilpousse.com^
 ||uttergleeks.com^
+||vawpbjphsvpdh.space^
 ||vd.7vid.net^
 ||vector26060.com^
 ||versinehopper.com^
