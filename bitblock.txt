@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fb/LfuEfLWXz3yTl1TuKwQ
-! Version: 202606121052
+! Checksum: tFaZYVgGyODgFG2xsoGmVQ
+! Version: 202606121102
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Jun 2026 10:52 UTC
+! Last modified: 12 Jun 2026 11:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3800,7 +3800,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ##[href*="gismeteo.ua"] ~ .gsInformer
 ~getpocket.com##a[href*="//getpocket.com/edit?"]
 ~prytulafoundation.org##a[href*="://prytulafoundation.org/"] > img
-~google.com##a[href*="google.com/preferences/source?q="][class][target="_blank"]
+~google.com##a[href*="google.com/preferences/source?"][class][target="_blank"]
 ~whatsapp.com##a[href^="https://api.whatsapp.com/send?text="]
 ~bank.gov.ua##a[href^="https://bank.gov.ua/"][href*="-arm"][style*="background-image:"]
 ~bank.gov.ua##a[href^="https://bank.gov.ua/"][href*="na-potrebi-armiyi"] > img
@@ -5544,6 +5544,7 @@ iz.ru##.get_news_link
 itorrents-igruha.net,itorrents-igruha.org##.global-container > .content-right-column > div[style^="display:"]
 armeniasputnik.am,sputnik-abkhazia.info,sputnik-abkhazia.ru,sputnik-georgia.com,sputnik-georgia.ru,sputnik-news.ee,sputnik-ossetia.com,sputnik-ossetia.ru,sputnik-tj.com,sputnik.az,sputnik.by,sputnik.kg,sputnik.kz,sputnik.md,sputniknews-uz.com,sputniknews.cn,sputniknews.com,sputniknews.gr##.global-fade
 1kr.ua##.global-support
+ua-football.com##.gn-subscribe-wrapper
 facenews.ua##.gnews
 fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,filmpotok.ru,kinomuch.ru,nebeda.net,pickfilm.ru,veleto.ru,vixim.ru##.go_to_bug
 24tv.ua,comments.ua,enovosty.com,expert.in.ua,kyiv.media,proshokino.com.ua##.google-news
