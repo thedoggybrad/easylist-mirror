@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xRdWVhyFDor9OQ53zt54JA
-! Version: 202606161521
+! Checksum: VmIe8mWqNNoKrA2dAk4Qyw
+! Version: 202606161532
 ! Title: EasyList without rules for adult sites
-! Last modified: 16 Jun 2026 15:21 UTC
+! Last modified: 16 Jun 2026 15:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -34803,6 +34803,7 @@ browsershots.org#@#.advert_area
 ||jcerqxksfqyqc.com^
 ||jcfocrpceqtwa.site^
 ||jcgklkxkrltcy.store^
+||jchnourjtrbiw.space^
 ||jcimdpqfp.com^
 ||jcnqpuregmpkqy.com^
 ||jconceoormurg.online^
@@ -75844,6 +75845,7 @@ amazon.*##.AdsCard_container__K6vmo
 amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
 amazon.*##.amzn-safe-frame-container
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
+amazon.*##.s-result-item:has(.puis-sponsored-label-text)
 amazon.*##.s-result-item:has([data-ad-feedback-label-id])
 amazon.*##.s-result-item:has([data-ad-feedback])
 amazon.*##.s-result-list > .a-section:has(.sbv-ad-content-container)
