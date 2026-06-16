@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /fcx1G881OSfQbmzkmv+Qw
-! Version: 202606160621
+! Checksum: XbO77FhtjGBQj8WXuukDiA
+! Version: 202606160651
 ! Title: RU, UA, UZ, KZ
-! Last modified: 16 Jun 2026 06:21 UTC
+! Last modified: 16 Jun 2026 06:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12563,6 +12563,7 @@ duster-clubs.ru###r-colonka > .f-block ~ .f-block ~ .f-block
 mundolatino.org.ua#?##r-colonka > .f-block:-abp-has(.b-topa:-abp-contains(/интересные блоки|еклама/i))
 duster-clubs.ru###r-colonka > a[target="_blank"]
 duster-clubs.ru###r-colonka > center
+pravo.by###r_banner
 netall.ru###r_detail_bottom
 volna.top###radiorek
 documentalnye.ru###rbc
@@ -25754,6 +25755,7 @@ povar.ru##.vk.soc-banner
 blogspot.ru##.widget-content > #overlay
 inforeactor.ru##.yandex-widget
 tass.ru##[class*="Layout_bottom_fixed_"]
+videobel.by##[class*="player-skin-holder-uicomponent__Holder-sc-"]::before
 tass.ru##[data-no-mourning="true"][class^="DesktopLayout_above"]
 pasy.media##[data-remodal-id]
 okko.sport,okko.tv##[data-testid="player_osd"] > div[style*="--duration-"] > div:first-child::after
