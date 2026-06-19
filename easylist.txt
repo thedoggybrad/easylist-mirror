@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606191641
+! Version: 202606191702
 ! Title: EasyList
-! Last modified: 19 Jun 2026 16:41 UTC
+! Last modified: 19 Jun 2026 17:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 90e46a71ace343647f7f6c91367d489aee7c0577
+! Commit: 782b5f4423b16053d01e4f424f53d15123883cf6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -33182,6 +33182,7 @@ browsershots.org#@#.advert_area
 ||hrawfoyklhfmg.website^
 ||hrbaal0z.xyz^
 ||hrdekhozxnoyf.online^
+||hrdnmymmeh.com^
 ||hrfokuusjun.com^
 ||hrfvjmmvlevt.com^
 ||hrheke2bjuc818n7tkvbpczui9b.cfd^
@@ -40875,6 +40876,7 @@ browsershots.org#@#.advert_area
 ||nasikfvzxdpda.website^
 ||naskhizeroingmeissa.qpon^
 ||nasodresser.com^
+||nasprgpucbdnv.space^
 ||nasrolrt.com^
 ||nasty-technology.pro^
 ||nastylayer.com^
@@ -77334,6 +77336,7 @@ crictracker.com##div[class^="ad-block-"]
 fodors.com,thehulltruth.com##div[class^="ad-placeholder"]
 gamingdeputy.com##div[class^="ad-wrapper-"]
 goodrx.com##div[class^="adContainer"]
+pixabay.com##div[class^="adSponsoredMediaContainer-"]
 statsroyale.com##div[class^="adUnit_"]
 goodrx.com##div[class^="adWrapper-"]
 90min.com,investing.com,newsday.com##div[class^="ad_"]
@@ -77374,6 +77377,7 @@ windowsreport.com##div[class^="refmedprd"]
 windowsreport.com##div[class^="refmedprod"]
 geekchamp.com##div[class^="rk-"]
 kijiji.ca##div[class^="sponsored-"]
+pixabay.com##div[class^="sponsoredSection-"]
 target.com##div[class^="styles__PubAd"]
 semafor.com##div[class^="styles_ad"]
 unmineablesbest.com##div[class^="uk-visible@"]
@@ -77457,6 +77461,7 @@ cults3d.com##div[data-zone-bsa]
 miaminewtimes.com,westword.com##div[gpt-slot-config-id]
 miaminewtimes.com,westword.com##div[gpt-slot-div-id-base]
 serververify.com##div[hx-get="https://serververify.com/advertisement/load"]
+noon.com##div[id*="-adProductsListBanner-"]
 spin.com##div[id*="-promo-lead-"]
 spin.com##div[id*="-promo-mrec-"]
 chrome-stats.com##div[id*="billboard_responsive"]
@@ -78117,6 +78122,7 @@ pexels.com##[data-testid="column"] [data-testid="item"]:has([class*="AIGCAdShare
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-heading*="Sponsored"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-text="Sponsored Photos"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-title*="Sponsored"])
+pexels.com##[data-testid="column"] [data-testid="item"]:has(a[rel*="sponsored"])
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
 samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
