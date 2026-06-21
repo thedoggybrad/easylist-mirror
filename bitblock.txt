@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DpO6N+5UQvl9zQq7FwttGQ
-! Version: 202606210841
+! Checksum: LbYp04wJLAdqgiJH3kw7zQ
+! Version: 202606210851
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Jun 2026 08:41 UTC
+! Last modified: 21 Jun 2026 08:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7156,7 +7156,6 @@ cloud.mail.ru##iframe[src^="https://o2.mail.ru/"] ~ div [data-qa-id="publish"]
 !
 ! - Yandex -
 yandex.by,yandex.kz,yandex.ru,yandex.uz###bk-container
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz###distr-pcode-container
 yandex.by,yandex.kz,yandex.ru,yandex.uz###search-result > [data-fast-name="multiusurveys"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz###yabro-strip-element
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.AdvOffers
@@ -7164,10 +7163,6 @@ ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.AliceFabButton
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.AliceFabContainer
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.AliceFabPromo
 yandex.by,yandex.com,yandex.kz,yandex.ru,yandex.uz##.CbirPanel-OboardingDrag
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.DistrNav
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.DistrPopup
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.Distribution
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.Distribution-Popup
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.HeaderDecoration
 yandex.by,yandex.com,yandex.kz,yandex.ru,yandex.uz##.MMUnauthPopup
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.NewYearCursors
@@ -7186,21 +7181,10 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.card-layer-channel-footer-with-sharing
 ya.ru##.complex-feed
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.cyber-promo
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.default-search
-yandex.by,yandex.kz,yandex.ru,yandex.uz##.dist-popup
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.dist-stripe
-yandex.by,yandex.kz,yandex.ru,yandex.uz##.dist_action_extension
-yandex.by,yandex.kz,yandex.ru,yandex.uz##.distr-default-search
-yandex.by,yandex.kz,yandex.ru,yandex.uz##.distr-default-search-header
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.distr-nav
-yandex.by,yandex.kz,yandex.ru,yandex.uz##.distr-popup
-translate.goog,yandex.by,yandex.kz,yandex.ru,yandex.uz##.distr-popup_js_inited
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##.distr-splashscreen
 ya.ru##.doodle[style*="doodle-img"]
 yandex.by,yandex.com,yandex.kz,yandex.ru,yandex.uz##.footer > .themes-promo
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.footer-stripe
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.head-stripe
-yandex.by,yandex.kz,yandex.ru,yandex.uz##.i-bem.distro
-yandex.by,yandex.kz,yandex.ru,yandex.uz##.i-bem.footer_distro_yes
 ya.ru##.i-mini-bem.message-promo
 ya.ru##.i-mini-bem.survey
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.internal-stripe
@@ -7254,7 +7238,6 @@ yandex.by,yandex.kz,yandex.ru,yandex.uz##.z-default-search
 translate.goog,yandex.by,yandex.kz,yandex.ru,yandex.uz##.zalogin-smart
 dzen.ru##.zen-page .content > div[class*="__container"] > div:not(:last-child) > div[id]:first-child
 dzen.ru##[aria-label="Опрос подписчиков"]
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##[class*="Distr"][class*="Splash"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##[class*="desk-notif-card"] > [data-statlog*="plus"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##[class*="desk-notif-card"] > a[href*="/plus.yandex"]
 ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##[class*="header"] > .yaplus
@@ -7300,7 +7283,6 @@ dzen.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class*="desktop-interview-m
 dzen.ru##div[class*="linkBro-"]
 dzen.ru,sportsdzen.ru##div[class*="snackbar-context-provider"]
 dzen.ru##div[class*="web2app-advert-qr-banner__container"]
-ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class^="DistrSmartbanner"]
 360.yandex.ru##div[class^="TopLine_wrapper_"]
 dzen.ru##div[class^="card-actual-desktop__actualGrid"]
 dzen.ru##div[class^="content--trap-popup__container"]
@@ -7323,7 +7305,6 @@ mail.yandex.ru,mail.yandex.*##.promoPanel
 mail.yandex.ru,mail.yandex.*##.search-result__item_type_neuro-promo
 mail.yandex.ru,mail.yandex.*##div[class*="MobileAppPromo-"]
 mail.yandex.ru,mail.yandex.*##div[class^="Banner-m__root"]
-yandex.by,yandex.kz,yandex.ru,yandex.uz##main.serp > .Root > div[class*="_layout_flat"]:not(.DistrPopup)
 market.yandex.ru,market.yandex.*##.main > noindex:first-of-type
 market.yandex.ru,market.yandex.*##.n-entrypoint-carousel
 market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="/RecomMediaAdv"]
@@ -7346,13 +7327,32 @@ meteum.ai,yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:la
 metrika.yandex.ru,metrika.yandex.*##body > .metrika-app
 taxi.yandex.ru,taxi.yandex.*##.BannerGo__wrap
 taxi.yandex.ru,taxi.yandex.*##.Promotion
+translate.goog,ya.ru,yandex.ru,yandex.*##.distr-popup_js_inited
 translate.yandex.ru,translate.yandex.*##.footer-line_promo
 tv.yandex.ru,tv.yandex.*##.recommended-ott
 tv.yandex.ru,tv.yandex.*##.tv-teaser
-ya.ru,yandex.*#?#.dist-overlay__popup
-ya.ru,yandex.*#?#.simple-popup__overlay_shown
-ya.ru,yandex.*#?#.simple-popup__overlay_shown_true
+ya.ru,yandex.ru,yandex.*###distr-pcode-container
+ya.ru,yandex.ru,yandex.*##.DistrNav
+ya.ru,yandex.ru,yandex.*##.DistrPopup
+ya.ru,yandex.ru,yandex.*##.Distribution
+ya.ru,yandex.ru,yandex.*##.Distribution-Popup
 ya.ru,yandex.ru,yandex.*##.HeaderFormSearchThemesSection
+ya.ru,yandex.ru,yandex.*##.dist-popup
+ya.ru,yandex.ru,yandex.*##.dist-stripe
+ya.ru,yandex.ru,yandex.*##.dist_action_extension
+ya.ru,yandex.ru,yandex.*##.distr-default-search
+ya.ru,yandex.ru,yandex.*##.distr-default-search-header
+ya.ru,yandex.ru,yandex.*##.distr-nav
+ya.ru,yandex.ru,yandex.*##.distr-popup
+ya.ru,yandex.ru,yandex.*##.distr-splashscreen
+ya.ru,yandex.ru,yandex.*##.i-bem.distro
+ya.ru,yandex.ru,yandex.*##.i-bem.footer_distro_yes
+ya.ru,yandex.ru,yandex.*##[class*="Distr"][class*="Splash"]
+ya.ru,yandex.ru,yandex.*##div[class^="DistrSmartbanner"]
+ya.ru,yandex.ru,yandex.*##main.serp > .Root > div[class*="_layout_flat"]:not(.DistrPopup)
+ya.ru,yandex.ru,yandex.*#?#.dist-overlay__popup
+ya.ru,yandex.ru,yandex.*#?#.simple-popup__overlay_shown
+ya.ru,yandex.ru,yandex.*#?#.simple-popup__overlay_shown_true
 yandex.ru,yandex.*##.discovery-home-component
 yandex.ru,yandex.*##.map-controls__additional-button a[href^="https://yandex."][style*="-promo-button-"]
 yandex.ru,yandex.*##.map-controls__bottom-extension-slot
