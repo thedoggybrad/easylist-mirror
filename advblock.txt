@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yB1ZbS74VczgPkgdGkpsfQ
-! Version: 202606211222
+! Checksum: P0WuB130wh7e+o0aNAeEqg
+! Version: 202606211231
 ! Title: RU, UA, UZ, KZ
-! Last modified: 21 Jun 2026 12:22 UTC
+! Last modified: 21 Jun 2026 12:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24970,6 +24970,7 @@ sports.ru###media-promo-mount-point a[href*="://sirena.world/"]
 sports.ru###top-ad
 sports.ru###top-banner-place
 sports.ru##.ad
+sports.ru##.ad-banner
 sports.ru##.ad-banner-layout
 sports.ru##.app-ratings
 sports.ru#?#.aside-news-list__item:-abp-has(> a[href^="https://sirena.world/"])
@@ -25103,6 +25104,7 @@ sports.ru##style:first-child ~ [class^="gift__"]
 ||senoval.cdn.sports.ru/cross-recommender/
 ||senoval.cdn.sports.ru/news-renderer/public/SparrowRecommendations-
 ||senoval.cdn.sports.ru/s-presence/sblock-presence.min.js
+||senoval.cdn.sports.ru/tagchester/*/actual-matches-widget/
 ||sports.ru/special/supertop-iframe/
 ||sports.ru^*/banners/
 ||static.*.tribuna.com/_next/static/chunks/3340.a9e1afb602402a44.js
