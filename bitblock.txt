@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Dv2ZUsim1BDRxgUg25WErA
-! Version: 202606222131
+! Checksum: /XWK65N0kPo15hiUWjPMjA
+! Version: 202606222141
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Jun 2026 21:31 UTC
+! Last modified: 22 Jun 2026 21:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -296,7 +296,6 @@ com,ru,ua##[data-rambler-share]
 ||mystatus.skype.com^
 ||odnaknopka.ru^$third-party
 ||online.mirabilis.com^
-||pikabu.ru^$third-party,~image,~media,domain=~pikabu.ru
 ||pip.qip.ru^$domain=~pip.qip.ru
 ||postila.ru/js/widgets/$third-party
 ||robocat.me/assets/widgets/likegenerator/
@@ -7512,10 +7511,6 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Данные правила относятся к категории "медленных" и потенциально слишком
 ! общих, а потому либо вовсе не подходят для основной подписки, либо требуют
 ! некоторой предварительной обкатки.
-! Что-то ещё. MediaRich?
-/^[a-z]+://[a-z-]{10,}\.[a-z]{2,4}/[a-zA-Z0-9/-]{10,16}/$/$third-party,script
-! http://consultsystems.ru/script/10726/
-@@||consultsystems.ru/script/
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
