@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: oh2IROayN33b6FfXpijKrw
-! Version: 202606221341
+! Checksum: 9eNRhaIcP6F1Mx8SW3o22Q
+! Version: 202606221351
 ! Title: EasyList Polish
-! Last modified: 22 Jun 2026 13:41 UTC
+! Last modified: 22 Jun 2026 13:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3228,6 +3228,8 @@ wirtualnemedia.pl#?#.wp-bg-layer > .wp-bg-layer-inner > div > div > a > div
 wirtualnemedia.pl#?#div:-abp-has(> a[href^="https://adinfo.wp.pl/"][target="_blank"] > img)
 wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wp.pl#?#IMG:-abp-properties(position: relative;)
+blaskonline.pl##.banner-wrapper:has(a[href]:not([href^="/"], [href*="blaskonline.pl"]))
+blaskonline.pl##.banner-wrapper:has(> a[target="_blank"] > img.banner-image)
 ! *** easylistpolish:easylistpolish_adult/adult_specific_hide.txt ***
 sexrura.pl###bottom-right-container
 filmyporno.net###dvr-3x2
