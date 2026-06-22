@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fRd1mHASVcws4pH5QGYNPA
-! Version: 202606221931
+! Checksum: 7M3hiHxmjPQlrMFCLMzpNQ
+! Version: 202606221851
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Jun 2026 19:31 UTC
+! Last modified: 22 Jun 2026 18:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3661,7 +3661,6 @@ _tizers.
 ||telderi.ru/img/banners/$third-party
 ||telderi.ru/uploads/promote/
 ||telepark.ua/tpb.php?code=
-||temp2cdn.link^$third-party,xmlhttprequest
 ||temptcdn.com^$third-party,xmlhttprequest
 ||teren.in.ua^$third-party,subdocument
 ||terthoreper.ru^$third-party
@@ -23289,8 +23288,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||telegraf.in.ua/uploads/projects/
 ||telekomza.ru/wp-content/uploads/$object
 ||telik.top^*randomator.js
-||temp2cdn.link/*.xml?$xmlhttprequest
-||temp2cdn.link/api-integration/
 ||temptcdn.com/*.xml?$xmlhttprequest
 ||temptcdn.com/api-integration/
 ||tengrinews.kz/js/loader.js
