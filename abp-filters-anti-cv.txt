@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: EWWV3NmsTIFyNnZ4XaXEcA
-! Version: 202606221551
+! Checksum: Pq/LQjfe3VGVrdH+KSsQDA
+! Version: 202606221601
 ! Title: ABP filters
-! Last modified: 22 Jun 2026 15:51 UTC
+! Last modified: 22 Jun 2026 16:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1355,6 +1355,7 @@ cataz.stream,movies2watch.*#$#abort-on-property-write zfgdlpopup
 vidzy.cc#$#abort-on-property-read aclib.runPop
 stre4mpay.*,straemplay.org,stre4mplay.*#$#abort-on-property-read puOverlay
 mycloudz.*#$#override-property-read window.open noopFunc
+cineby.*#$#override-property-read window.atOptions1 undefined; override-property-read window.atOptions2 undefined
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
