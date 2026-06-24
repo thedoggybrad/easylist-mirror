@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ma4ZLwcQdO0LXzRVCtrBcg
-! Version: 202606241802
+! Checksum: YNyta+qAdXFA+rCuZtYx2A
+! Version: 202606241832
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 24 Jun 2026 18:02 UTC
+! Last modified: 24 Jun 2026 18:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1393,6 +1393,7 @@ glavpost.ua##.head_social
 facenews.ua##.header .icon
 vgoru.org##.header a[target="_blank"][aria-label] > svg
 kyivvlada.com.ua##.header-custom-button
+nv86.ru##.header-dropdown__social
 uazmi.org##.header-inner > nav ~ .fx-mq-md
 tulapressa.ru##.header-left_space-link
 tv-gubernia.ru##.header-mlinks
@@ -4962,7 +4963,6 @@ korsars.pro###upbutton
 24tv.ua,football24.ua,zaxid.net###user-vote-trigger
 moscatalogue.net###user_disclaimer
 zismo.biz###vk_popup_popup
-diary.ru###w18p
 ipost.ua###w5
 kurs.com.ua###weatherInformer
 diets.ru,kabluki.ru,povarenok.ru###web-push-sub
@@ -5508,6 +5508,7 @@ teleportal.ua##.footer-links > a[href*="/app"]
 metro-cc.ru##.footer-main__contacts-block:nth-of-type(2) ~ .footer-main__contacts-block
 domashniy.ru##.footer-media-app
 unian.info,unian.net,unian.ua##.footer-menu__app
+nv86.ru##.footer-middle
 liveresult.ru##.footer-nav > .container-fluid > .row a[href*="apps"]
 footboom1.com##.footer-seo
 gastronom.ru,officelife.media##.footer-subscribe
@@ -5920,7 +5921,7 @@ thebell.io##.post_content.newsletter > .break-wrapper:nth-last-of-type(-n+2)
 thebell.io#?#.post_content.newsletter > h4:-abp-contains(ПАРТНЕРЫ THE BELL)
 thebell.io#?#.post_content.newsletter > h4:-abp-contains(ПАРТНЕРЫ THE BELL) ~ [class]
 pravda.com.ua##.post_news_body > .advtext1
-fbc.ua##.post_subscribe
+fbc.ua,nv86.ru##.post_subscribe
 cont.ws##.post_toolbar__meta
 cont.ws##.post_toolbar__promo
 korsars.pro##.post_wrap > center > font[size="14pt"]
