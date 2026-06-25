@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UWcZG2k6pQ+9Js7V5MA6AQ
-! Version: 202606251721
+! Checksum: 5rF0FdVfYk7W6gtKkN67gA
+! Version: 202606251732
 ! Title: RU, UA, UZ, KZ
-! Last modified: 25 Jun 2026 17:21 UTC
+! Last modified: 25 Jun 2026 17:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1865,6 +1865,7 @@ www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 /afisha_banner/*
 /aika.swf
 /amcu_$script
+/api-integration/assets/*.txt?*=$third-party,xmlhttprequest
 /api/content/jsonp?offerid=$third-party,script
 /api/getslug*?partner_apikey=$third-party,xmlhttprequest
 /api/outreach/vast/*$xmlhttprequest
@@ -2334,7 +2335,6 @@ _tizers.
 ||v.adfox.ru^$object,xmlhttprequest
 ||vip/?pu=$third-party,script
 ||vst.videolink.$third-party
-||vvcat.*/api-integration/assets/*.txt?*=$third-party,xmlhttprequest
 ||work/?pu=$third-party,script
 ||xn--p1ai/banner/
 ||xyz/*?mobile=null&tablet=null&os=null&site=*&rand=$third-party,xmlhttprequest
@@ -10567,6 +10567,7 @@ _tizers.
 ||vengovision.ru^$third-party
 ||venova.ru^$third-party
 ||ventite.com^
+||veoapi.net^$third-party
 ||veretiggoo.com^$third-party
 ||vergilimus.com^$third-party
 ||verhedttot.pro^$third-party
