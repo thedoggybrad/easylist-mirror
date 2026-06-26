@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606260341
+! Version: 202606260353
 ! Title: EasyList
-! Last modified: 26 Jun 2026 03:41 UTC
+! Last modified: 26 Jun 2026 03:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2016bb31ab1af3a7064a94505bfef43c756c2b59
+! Commit: 76c0123183c3647d5f36daa78ba7d787f4087c9e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -25840,6 +25840,7 @@ browsershots.org#@#.advert_area
 ||dimorganization.pro^
 ||dimpsychology.pro^
 ||dimqtugkwxzrq.site^
+||dimryaikxp.com^
 ||dinaricitylus.qpon^
 ||dindonnaoibernese.qpon^
 ||dineproteinhamlet.com^
@@ -54277,6 +54278,7 @@ browsershots.org#@#.advert_area
 ||tiyuotenjidgv.site^
 ||tizadgwa.in^
 ||tjajxvdaqaywp.online^
+||tjcgzjovllhtr.com^
 ||tjcuivicvvcmps.com^
 ||tjepekenkccqi.online^
 ||tjfxxsegfdjt.com^
@@ -79384,6 +79386,7 @@ pexels.com##[data-testid="column"] [data-testid="item"]:has(a[rel*="sponsored"])
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
 samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
+bestbuy.com##[data-testid="sponsored-listing"]
 bestbuy.com##[data-testid="story-wrapper-row"] div:has(> [data-story-name="sponsored_grid"])
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
 alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
@@ -79763,6 +79766,7 @@ wral.com##.exco-wrapper
 goal.com##.fco-fc-video-player
 accuweather.com##.feature-tag
 pagesix.com##.featured-image__wrapper > .nyp-video-player
+fandom.com##.featured-video-player-container
 ibtimes.sg##.featured_video
 pedestrian.tv##.find-dream-job
 foodbible.com,gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
