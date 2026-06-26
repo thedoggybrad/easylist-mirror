@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: gPV8uElmSdbolw3f1lfh3w
-! Version: 202606261351
+! Checksum: 3xQ+ZEl040NHb2CZGE+n8A
+! Version: 202606261431
 ! Title: ABP filters
-! Last modified: 26 Jun 2026 13:51 UTC
+! Last modified: 26 Jun 2026 14:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -814,13 +814,11 @@ kuruma-news.jp#$#override-property-read adshield.isAdBlockerDetected false
 ||content-loader.com^$script,rewrite=abp-resource:blank-js,domain=kuruma-news.jp
 kuruma-news.jp^$csp=script-src-attr 'none'
 scribd.com#$#prevent-element-src-loading script /lib\.js/
-||*/lib.js^|$script,domain=scribd.com
 ||scribd.com/_fs-ch-*^$script
 ||html-load.com/loader.min.js^$script,domain=scribd.com
 ||*/loader.min.js^$script,domain=scribd.com
 ||whoeverbeyond.com^$script,domain=scribd.com
 scribd.com#$#override-property-read as_-390371468 true; override-property-read as_-128107517 true; override-property-read as_1588632892 true; override-property-read as_1249684672 true; override-property-read as_-462196583 true; override-property-read as_-801144803 true;
-||*/sdk.js^$script,domain=scribd.com
 scribd.com$csp=script-src-attr 'none'
 scribd.com#$#abort-current-inline-script eval /xz8ei73yz0sn/
 scribd.com#$#override-property-read xz8ei73yz0sn true; override-property-read xeilgl2yq60f true
