@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606260619
+! Version: 202606260627
 ! Title: EasyPrivacy
-! Last modified: 26 Jun 2026 06:19 UTC
+! Last modified: 26 Jun 2026 06:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d30424c5b332b8924327cee4816fa1b9e77e64e8
+! Commit: a204ddb786411174b1944eeeb63805405ae7ae83
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1167,6 +1167,7 @@
 /GTag/general_tracker.js
 /gtag/js?
 /gtagv4.js
+/gtgcore/?id=
 /gtm-data-layer-$script
 /gtm-listeners.js
 /gtm-suite.js
