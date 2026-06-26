@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606260226
+! Version: 202606260239
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 Jun 2026 02:26 UTC
+! Last modified: 26 Jun 2026 02:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2c40eb0a9ad52e2423ce8ed4eb75265a7707d360
+! Commit: 4995023d7ebc22606f48321eaacf5657d97aed5b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -31006,7 +31006,7 @@ cheknews.ca##.mailchimp-form
 rogerebert.com##.mailing-list
 amazon.*##.maple-banner
 fandom.com##.marketing-notifications
-motherless.com##.media-action-networks
+motherless.xxx##.media-action-networks
 hotklix.com##.menu
 amazon.com##.mini-atf
 time.com##.mobile-anchor-container
@@ -35937,6 +35937,7 @@ polygon.com,theverge.com##.duet--cta--newsletter
 ! :has
 goodrx.com##.\[\&_\[data-qa\=searchbar\]\>button\]\:md\:mt-4:has([data-qa="newsletter-form"])
 spin.com##.border-backgrounds.flex.flex-wrap.border-t:has(form-container)
+eposaudio.com##.grid__item:has(> .newsletter-sign-up)
 tryterra.co##.lg\:px-24:has(#email-container)
 emobilityplus.com##.sharedaddy
 hyrax.dev##.w-full.lg\:max-w-sm.lg\:text-right:has(#newsletter-email-hero)
@@ -38130,6 +38131,7 @@ heritagedaily.com#?#.tds-button:has-text(FOLLOW ON GOOGLE NEWS)
 houstonchronicle.com,nhregister.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com#?#.deep:has-text(Google)
 ign.com#?#.promo-card:has-text(Follow us!)
 jacobin.com#?#.po-fr__heading:has-text(Share this article)
+rule34.xxx##li:has(> [href="https://x.com/slayerduckie"])
 lifenews.com#?#.post_style_zk > p:has-text(Please subscribe)
 livpost.co.uk#?#.kg-align-center.kg-button-card:has-text(Share this story)
 nbcsports.com#?#p.cms-textAlign-center:has-text(follow NBC Sports)
@@ -38522,6 +38524,7 @@ krunker.io,moomoo.io###consentBlock
 oryx-embedded.com###consentBox
 daryo.uz,kun.uz###consentModal
 mandisremotes.com###consentPopup
+erotic24.ro###consentPopupBackground
 mandisremotes.com###consentPopupBg
 pendleton-usa.com###consentTracking
 wedely.com###consent_cont
@@ -40534,7 +40537,7 @@ newdayspharmacy.com##.modal_terms
 fruitfulyield.com,lovestoriesintimates.com##.modals-wrapper
 sekwens.com##.module-abovebox
 compress-or-die.com##.module_global-cookie-consent
-motherless.com##.motherless-cookie-wrapper
+motherless.xxx##.motherless-cookie-wrapper
 arcade1up.com##.mount
 unityj.com##.mpp-container-position-bottom-bar
 takasago-fluidics.com##.mrc_gdpr_banner
