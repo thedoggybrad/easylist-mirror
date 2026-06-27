@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +cy+K7lPR6/ShKUDHIhmSg
-! Version: 202606272122
+! Checksum: mWFL0ZPAUyv5xMrziMLK2Q
+! Version: 202606272132
 ! Title: ABPindo
-! Last modified: 27 Jun 2026 21:22 UTC
+! Last modified: 27 Jun 2026 21:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 27 Jun 2026 20:29 UTC
+! Last modified: 27 Jun 2026 21:23 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -119,6 +119,7 @@
 ||doathair.com^$third-party
 ||edomz.com^$third-party
 ||filebanner.com^$third-party
+||fj.fatsoeslandmil.com^$script
 ||flexterkita.com^$third-party
 ||fnasmpygwa.com^$third-party
 ||gaslah.my.id^$third-party
@@ -134,6 +135,7 @@
 ||shqbsdjatunl.com^$popup,third-party
 ||sumberiklan.com^$third-party
 ||vkwaeo.com^$third-party
+||wk.locatiocorms.com^$script
 ||yllix.com^$popup,third-party
 ! *** abpindo:src/advert/thirdparty.txt ***
 ||c-stat.eu^$third-party
@@ -5741,6 +5743,7 @@ totojitu.gif|$image
 ##[href$="/ibetwinasia" i]
 ##[href$="/idncash" i]
 ##[href$="/idxtube" i]
+##[href$="/iklandesu"]
 ##[href$="/iklanheader" i]
 ##[href$="/indocabe" i]
 ##[href$="/indolk21" i]
@@ -7473,6 +7476,7 @@ totojitu.gif|$image
 ##[href^="https://dominowalet99.com"]
 ##[href^="https://duniaslot.biz/"]
 ##[href^="https://duniaslot77.co"]
+##[href^="https://dw.zeus.fun/"]
 ##[href^="https://elangqq."]
 ##[href^="https://enakbet.vip"]
 ##[href^="https://enakbetbig.com"]
@@ -9652,6 +9656,7 @@ ceritaseksindo.org##.banner-float-bottom
 bokepvir.*##.banner-place-footer
 bokepvir.*##.banner-place-top
 artisbokep.*,artisbokep.online,artisbokep.site##.banner-slide
+igo.desu.xxx##.blox.mlb.kln
 theasianparent.com##.bottom-sticky-ad
 dicrotin.fun##.bulletinwp-bulletin-item
 4play.to##.davwheat-ad
@@ -9700,7 +9705,10 @@ bokepvir.*##.widget_block.widget
 komikdewasa.art##.wp-image-80765.size-full.alignnone
 kingbokep.*##[data-dgazzbdbfcbzagfz]
 bokepvir.*##[href="https://bkpv.online/reffbokepvir"]
+doujin.desu.xxx##[href^="https://klik.best/"]
+doujin.desu.xxx,igo.desu.xxx##[href^="https://klik.top/"]
 nekopoi.*##[href^="https://monetag.com/"]
+igo.desu.xxx##[href^="https://tinig22.com/"]
 pemersatu.*##[role="advertisement"]
 kingbokep.*##[style^="height:"]:has(> img)
 doujindesu.tv##a[href][target="_blank"] > img
@@ -9717,7 +9725,10 @@ asiasizzle.com##div.popup-banner-grid
 nekopoi.care##div[class^="adsgen"] iframe
 nekopoi.care##div[class^="mobileads"]
 semprot.com##img[data-ad]
+igo.desu.xxx##overplay
+igo.desu.xxx##overplay .chain
 semprot.com##semprotnenenmontok_f
+igo.desu.xxx##uads_300x250
 ! *** abpindo:src/adult/adult_thirdparty.txt ***
 ||172.105.216.174^$popup
 ||32redpoker.com^$third-party
