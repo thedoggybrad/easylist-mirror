@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Kv4MvJ6p8cmEy5lfRh/3JA
-! Version: 202606281452
+! Checksum: iLnwJMQanpzsTWn9DFq7vw
+! Version: 202606281502
 ! Title: EasyList without rules for adult sites
-! Last modified: 28 Jun 2026 14:52 UTC
+! Last modified: 28 Jun 2026 15:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -176,7 +176,6 @@
 /adrecover.js$script
 /adright.$~xmlhttprequest,domain=~aaahaltontaxi.ca|~adright.com
 /ads-250.$image
-/ads-async.$script
 /ads-common.$image,script
 /ads-front.min.js$script
 /ads-frontend.min.js$script
@@ -1013,8 +1012,8 @@ _prebid.js$script
 ! Anti-Adblock
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
+/ad-blocking-detector/assets/js/adblock-detector.min.js
 /adblock-detect.$script
-/adblock-detector.min.js$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock_detector2.$script
 /adblock_logger.$script
@@ -59832,6 +59831,7 @@ browsershots.org#@#.advert_area
 ||wmndlomarcydl.site^
 ||wmnessvlcys.com^
 ||wmnfqywhoauuo.website^
+||wmnhyyanrkwae.website^
 ||wmnxcxftfbpbr.space^
 ||wmober.com^
 ||wmoylynifuain.space^
