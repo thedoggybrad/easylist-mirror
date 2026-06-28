@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606281433
+! Version: 202606281443
 ! Title: EasyList
-! Last modified: 28 Jun 2026 14:33 UTC
+! Last modified: 28 Jun 2026 14:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 07faeca02d04918a8477e180e0a49d7578621910
+! Commit: 7cac220771e67755aa8555b5e9b9133c5c86782a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -368,7 +368,6 @@
 /campaigns-ad/js/*$script
 /cgi-bin/ad/*$~xmlhttprequest
 /click?adv=
-/cms_ads.js$script
 /code/https-v2.js?uid=
 /code/native.js?h=$script
 /code/pops.js?h=$script
@@ -702,7 +701,6 @@
 /sr/*/SAFEFRAME.html?ule=$subdocument,third-party
 /sticky_ads.js$script
 /stickyad.js$script
-/stickyads.js$script
 /storage/js/videojs.sda.js$script
 /style_ad.css$stylesheet
 /suurl4.php?$third-party
@@ -57911,6 +57909,7 @@ browsershots.org#@#.advert_area
 ||vgfasfrttxhrc.site^
 ||vggvzeedluadp.com^
 ||vgiulgnctn.com^
+||vgiutzmosczwl.online^
 ||vgjzcwkkyzldp.store^
 ||vgkaszpddsetc.online^
 ||vgnniagmx.com^
