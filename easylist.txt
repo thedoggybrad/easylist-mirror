@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606281524
+! Version: 202606281530
 ! Title: EasyList
-! Last modified: 28 Jun 2026 15:24 UTC
+! Last modified: 28 Jun 2026 15:30 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 33599db01b66645670b7829af44d23dc09ce4896
+! Commit: e567daee31be8ad94d4145655d07dcea4656a714
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -82,6 +82,7 @@
 .cz/bannery/$image
 .fuse-cloud.com/$~xmlhttprequest
 .html?clicktag=
+.in/js/footer_ad.js
 .jp/ads/$third-party,domain=~hs-exp.jp
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
@@ -421,7 +422,6 @@
 /floating-ad-rotator-$script,stylesheet
 /floatingad.js$script
 /floatingads.js$script
-/footer_ad.js$script,domain=~streamruby.com
 /footer_ads.php$subdocument
 /footerads.php$script
 /fro_lo.js$script
@@ -462,7 +462,6 @@
 /infinity.js.aspx?$script
 /inhouse_ads/*$image
 /inlineads.aspx$subdocument
-/insertads.js$script
 /internAds.css$stylesheet
 /istripper.gif$image
 /jquery.adi.js
@@ -679,7 +678,6 @@
 /skin/adv/*$~xmlhttprequest
 /skyscraperad.$image
 /slide_in_ads_close.gif$image
-/slider_ad.js$script
 /sliderad.js$script
 /small_ad.$image,domain=~eh-ic.com
 /sp/delivery/*$script
@@ -49565,6 +49563,7 @@ browsershots.org#@#.advert_area
 ||rhizoteoutings.cfd^
 ||rhjmlgrv.com^
 ||rhjuemstwodrh.space^
+||rhkgkhqn.com^
 ||rhllmitjfxcvg.website^
 ||rhnrzqbydtuxc.space^
 ||rho3ihhlouug529z8eneu.rest^
@@ -50543,6 +50542,7 @@ browsershots.org#@#.advert_area
 ||rzeso.com^
 ||rzeuizwtvteer.online^
 ||rzewgczctigqx.online^
+||rzh5u3vtfke4l7t.rest^
 ||rzlszgljghrwq.site^
 ||rzneekilff.com^
 ||rzojvqmbqhigv.website^
@@ -59888,6 +59888,7 @@ browsershots.org#@#.advert_area
 ||wnkqnowvrpfat.online^
 ||wnlabbsupkwuu.space^
 ||wnlnufsbeepus.site^
+||wnlptmgjgbdju.website^
 ||wnmejreldlzcu.online^
 ||wnmtwgjtoozaq.space^
 ||wnnatyfziksqt.website^
