@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BCrAH0EmK7D0MJ1OYfMGXw
-! Version: 202606280752
+! Checksum: V0CUSuYTte6jC8vf5ee81Q
+! Version: 202606280802
 ! Title: EasyPrivacy without international filters
-! Last modified: 28 Jun 2026 07:52 UTC
+! Last modified: 28 Jun 2026 08:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -971,6 +971,7 @@
 /fingerprint3.min.js
 /Fingerprintjs2/fpt2.js
 /firebase-performance-compat.js
+/firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
 /firestats/js/fs.js.php
 /firm_tracking.js
@@ -6675,6 +6676,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazon.com/1/events/$domain=~aws.amazon.com
 ||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
+||amazonaws.com/telemetry.bydata/
 ||amboss.com/analytics/
 ||americanexpress.com/beacon
 ||amethyst.6pm.com^
