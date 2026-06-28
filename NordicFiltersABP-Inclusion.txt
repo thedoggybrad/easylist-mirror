@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: S5+bJxnhti0SiOoR8QvHHg
-! Version: 202606281512
+! Checksum: sNtloWqasKx6pdbqGK6q3A
+! Version: 202606281521
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 28 Jun 2026 15:12 UTC
+! Last modified: 28 Jun 2026 15:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -8536,9 +8536,7 @@ srk.fi#@##CookielawBanner
 /code/silent.js?h=$script
 /common/ad.js$script
 /concert_ads-$script
-/content-ads.js$script
 /content/ads/*$~xmlhttprequest
-/cpmbanners.js$script
 /css/ads-$stylesheet
 /css/adsense.$stylesheet
 /css/adv.$stylesheet
@@ -62182,6 +62180,7 @@ browsershots.org#@#.advert_area
 ||tactualanhima.cyou^
 ||tactzsatkuylg.online^
 ||tadopccsmyx.com^
+||taegcqtf.com^
 ||tafdiywfnavss.site^
 ||taffiasmarxian.com^
 ||tagecgtffwkqy.online^
@@ -79188,6 +79187,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||imp.pixiv.net^
 ||impressivetimes.com/wp-content/uploads/2024/07/primary-plus-advt.jpg
 ||independent.co.uk/internal-api/indy100
+||indexclix.com/js/cpmbanners.js
 ||indiadesire.com/bbd/
 ||indiansinkuwait.com/Campaign/
 ||indiatimes.com/ads_
@@ -87080,6 +87080,7 @@ eatthis.com##[id^="gm_karmaadunit_widget"]
 vice.com##[id^="htlad-"]
 designtaxi.com##[id^="in-news-link-"]
 komando.com##[id^="leaderboardAdDiv"]
+indexclix.com##[id^="promo"]
 prydwen.gg##[id^="pw-header-ad"]
 dailydooh.com##[id^="rectdiv"]
 gizchina.com##[id^="slot"]
