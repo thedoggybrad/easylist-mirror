@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: n84IF1RkC2TD/128TyLTdg
-! Version: 202606281521
+! Checksum: CcEiqRwgyJEsc2HQ9yorVA
+! Version: 202606281531
 ! Title: EasyList without element hiding rules
-! Last modified: 28 Jun 2026 15:21 UTC
+! Last modified: 28 Jun 2026 15:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -78,6 +78,7 @@
 .cz/bannery/$image
 .fuse-cloud.com/$~xmlhttprequest
 .html?clicktag=
+.in/js/footer_ad.js
 .jp/ads/$third-party,domain=~hs-exp.jp
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
@@ -389,7 +390,6 @@
 /discourse-adplugin-$script
 /dist/adscript.js$script
 /dmcads_$script
-/doubleclick.min$script
 /drsup-admanager-ajax.js$script
 /ec5bcb7487ff.js$script
 /exitpop.js$script
@@ -418,7 +418,6 @@
 /floating-ad-rotator-$script,stylesheet
 /floatingad.js$script
 /floatingads.js$script
-/footer_ad.js$script,domain=~streamruby.com
 /footer_ads.php$subdocument
 /footerads.php$script
 /fro_lo.js$script
@@ -459,7 +458,6 @@
 /infinity.js.aspx?$script
 /inhouse_ads/*$image
 /inlineads.aspx$subdocument
-/insertads.js$script
 /internAds.css$stylesheet
 /istripper.gif$image
 /jquery.adi.js
@@ -475,6 +473,7 @@
 /js/ad_common.js$script
 /js/advRotator.js$script
 /js/dfp.js$script
+/js/doubleclick.min.js?v=
 /js/flyad.js
 /js/frontend_loader.js
 /js/popunder.js$third-party
@@ -675,7 +674,6 @@
 /skin/adv/*$~xmlhttprequest
 /skyscraperad.$image
 /slide_in_ads_close.gif$image
-/slider_ad.js$script
 /sliderad.js$script
 /small_ad.$image,domain=~eh-ic.com
 /sp/delivery/*$script
@@ -723,6 +721,7 @@
 /vast.php?idzone=$xmlhttprequest
 /vast/?zid=
 /velvet_stack_cmp.js$script
+/vendor/doubleclick.min.js
 /vendors~ads.
 /video_ads.$script
 /videoad.$~xmlhttprequest,domain=~videoad.in
@@ -30723,6 +30722,7 @@ _800x80_
 ||ovnwwuohwxis.in^
 ||ovoloencodecarity.qpon^
 ||ovologysnoops.com^
+||ovonicscalumetdiquat.cyou^
 ||ovozxiftkxwtg.online^
 ||ovpukbvfluhnw.site^
 ||ovrkurxc.in^
