@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cKsIeC2EVl4ze3quDdoHbA
-! Version: 202606291622
+! Checksum: Hve/nU5fWEBkq98nhWMmTg
+! Version: 202606291632
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Jun 2026 16:22 UTC
+! Last modified: 29 Jun 2026 16:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7499,6 +7499,7 @@ market.yandex.*##div[data-zone-name="morda_context"] > div > div:nth-child(-n+2)
 vk.*##body.anonym > #box_layer_bg:style(display: none !important)
 vk.*##body.anonym > #box_layer_wrap.scroll_fix_wrap:has(> #box_layer [aria-modal="true"][role="dialog"] .vkuiButton__in):style(display: none !important)
 vk.*##body.anonym[style*="overflow:"]:style(overflow-y: auto !important)
+www.kinopoisk.*##a[href^="https://books.yandex.ru/"][href*="=selfpromo_bookmate"]:style(pointer-events: none !important)
 www.kinopoisk.*##div[class^="styles_sidebarContainer_"] > div[style^="position: sticky; top:"]:style(top: 0 !important)
 www.kinopoisk.*##header[style*="--header-height:"][style*="px"] > .header-navigation:style(margin-top: 0 !important)
 www.kinopoisk.*##header[style*="--header-height:"][style*="px"] > div > img:style(display: none !important)
