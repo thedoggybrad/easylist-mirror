@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zWJm8mLw0kZupchKxs+E1A
-! Version: 202606302042
+! Checksum: A9dHqwE/H45uptILgEEaHw
+! Version: 202606302052
 ! Title: RU, UA, UZ, KZ
-! Last modified: 30 Jun 2026 20:42 UTC
+! Last modified: 30 Jun 2026 20:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2085,6 +2085,8 @@ www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 /oyy.js
 /partner/banner/*
 /partner/images/banners/*
+/pipipi/files/episodes/*-RU.mp4|$third-party,media
+/pipipi/files/episodes/*bet.mp4|$third-party,media
 /pixel2/video?$third-party,script
 /play/?ref=*/play/*$third-party,subdocument
 /player/ads.php?cp.host=$xmlhttprequest
@@ -2524,6 +2526,7 @@ _tizers.
 ||amazonaws.com/widget-bucket-files$third-party
 ||amh.ru^
 ||amigo-browser.ml^$third-party
+||amisogwagn.link^$third-party,media
 ||amssoft.ru^*/banner$third-party
 ||analitycs.net^$third-party
 ||anews.cc^$third-party
