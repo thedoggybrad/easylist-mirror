@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607011518
+! Version: 202607011531
 ! Title: EasyList
-! Last modified: 01 Jul 2026 15:18 UTC
+! Last modified: 01 Jul 2026 15:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4c9094ad8fd4463423e67e49a30bbbcf971edc67
+! Commit: b105596fad10d3eee62358b08af6a75367ca5898
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -23340,6 +23340,7 @@ browsershots.org#@#.advert_area
 ||countersuspiciousdiverse.com^
 ||countlessdispleased.com^
 ||countyauthority.com^
+||couperfoeman.qpon^
 ||couphaithuph.net^
 ||coupscontra.cyou^
 ||coupstrangers.com^
@@ -38096,6 +38097,7 @@ browsershots.org#@#.advert_area
 ||monardapretend.shop^
 ||monasteryabolishment.com^
 ||monastydru.org^
+||moncatfgtgdul.website^
 ||mondayrecalled.com^
 ||moneey.christmas^
 ||moneralsramana.shop^
@@ -73702,6 +73704,7 @@ manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
 yandex.*##a[href^="https://yabs.yandex.ru/count/"]
 yandex.*##a[href^="https://yandex.ru/an/count/"]
 leroymerlin.*##aside[data-st-name="sponsored"]
+deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
 hookerhillstudios.com##div.items-center:has(> #articlead)
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(a[href*="/s/clickthrough.jsp?"])
