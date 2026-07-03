@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: tgvn1cH07dc7KGumfsYw4A
-! Version: 202607031332
+! Checksum: /lGqAvpnaLrn4vFvvWNE0w
+! Version: 202607031341
 ! Title: ABP filters
-! Last modified: 03 Jul 2026 13:32 UTC
+! Last modified: 03 Jul 2026 13:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1375,7 +1375,7 @@ cataz.stream,movies2watch.*#$#abort-on-property-write zfgdlpopup
 streamingnow.mov,vidzy.cc#$#abort-on-property-read aclib.runPop
 stre4mpay.*,straemplay.org,stre4mplay.*#$#abort-on-property-read puOverlay
 mycloudz.*#$#override-property-read window.open noopFunc
-cineby.*#$#override-property-read window.atOptions1 undefined; override-property-read window.atOptions2 undefined
+cineby.*#$#override-property-read window.atOptions1 undefined; override-property-read window.atOptions2 undefined; abort-current-inline-script document.addEventListener /adNetworks/; abort-current-inline-script document.getElementById
 vidwish.*#$#abort-current-inline-script Math.random parseInt
 steamplay.*#$#abort-on-property-read btoa; abort-on-property-write adcashMacros
 vids.*#$#abort-current-inline-script document.createElement pop_tag
@@ -1668,7 +1668,7 @@ camwhores.*,camslib.com#$#override-property-read flashvars.video_click_url undef
 myabandonware.com#$#hide-if-matches-xpath './/a[contains(@rel,"nofollow") and contains(@rel,"noreferrer")][@style]/parent::div[contains(@class,"adm-")]/ancestor::div[contains(@style,"background") or contains(@class,"abox")]|.//a[contains(@rel,"nofollow") and contains(@rel,"noreferrer")][@style]'
 lookmovie2.*#$#prevent-listener initPrePlaybackCounter-event
 movies2watch.*#$#hide-if-matches-xpath './/a[@href][@target="_blank"][@rel="noopener"]/img[@loading][@style]/ancestor::div[contains(@style,"width:100%")][1]'
-/scripts/os.js^$script,domain=cineby.sc
+/scripts/os.js^$script,domain=cineby.sc|cineby.cc
 bootyexpo.net#$#abort-on-property-read adsBlocked; hide-if-matches-xpath './/img[contains(@src,"gif")][@width][@border]/parent::a[@target="_blank"]'
 javsub.*#$#abort-on-property-read juicy_tags
 toongod.*#$#hide-if-matches-xpath '//div[div/iframe[contains(@src, "?iframeId=")]]'
