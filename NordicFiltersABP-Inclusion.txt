@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SNLiOYQLaScJIGpK0JRtGA
-! Version: 202607040402
+! Checksum: qn1GwK8tKqBnuh/1Itoj2g
+! Version: 202607040411
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 04 Jul 2026 04:02 UTC
+! Last modified: 04 Jul 2026 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -2593,7 +2593,7 @@ soefart.dk##div[class*=mowgli]
 sofabold.dk##div[class^=sidebanner]
 vg.no##aside.grouped > section:not([class]):has(> div[class^=_container] > astro-island[component-export=GiftHelperPymFrame])
 xn--bredbnd-ixa.dk##div[class^=speedtest-bg] > a > img
-||vgc.no/cdn/js/libs/homad-config.json$xmlhttprequest,rewrite=abp-resource:blank-json
+||vgc.no/cdn/js/libs/homad-config.json$xmlhttprequest,rewrite=abp-resource:blank-js
 ! jyllands-postenDK (09/07/2020)
 ###topBanners
 ! specificTXT
@@ -45974,6 +45974,7 @@ browsershots.org#@#.advert_area
 ||meletinbyworks.cfd^
 ||melgeminid.cfd^
 ||mellodur.net^
+||mellow-habit.com^
 ||melodic-mess.com^
 ||melodramaticquery.com^
 ||melongatesdexterity.com^
