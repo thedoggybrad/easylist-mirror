@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6ZO9MD7tY3kR7NL2BJq25A
-! Version: 202607041012
+! Checksum: 9carx0ENcy5WU6B/hRjMdw
+! Version: 202607041022
 ! Title: RU, UA, UZ, KZ
-! Last modified: 04 Jul 2026 10:12 UTC
+! Last modified: 04 Jul 2026 10:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17122,6 +17122,7 @@ ilenta.com##[alt="Ads"]
 taxifm.ru##[alt="LoveProd"]
 chipmaker.ru,goldsrc.ru##[alt="advertisement_alt"]
 gzt-sv.ru##[alt^="Реклама"]
+gordonua.com##[aria-label="advertisement"]
 uznayvse.ru##[aria-label="areaAdvertise"]
 livesport.ru##[aria-label="Партнёрское объявление"]
 uznayvse.ru##[aria-label="Реклама"]
@@ -18459,7 +18460,6 @@ ironfriends.ru#?#aside .widget:-abp-has(> .widget-container [class^="nadavi"])
 ironfriends.ru#?#aside .widget:-abp-has(> .widget-container [id^="ya_"])
 gzt-sv.ru,iptv.org.ua,muz-teoretik.ru,profootball.ua,telik.top,tva.org.ua##aside .widget_custom_html
 office-guru.ru,orelgrad.ru##aside .widget_text
-businessua.com##aside > #vedomosti_block:nth-child(-n+9)
 showgid.tv##aside > .banner + .title
 motogon.ru##aside > .block .banner
 winitpro.ru##aside > .block-search + .block-search + .block-search
@@ -18679,7 +18679,7 @@ samlab.ws##center > .box-shadow + table:last-child
 maanimo.com##center > a[href*="goo.gl"] > img
 anypictures.ru,pixcloud.ru##center > a[href]:not([href="//www.liveinternet.ru/click"]) > img[src]
 mehanik.games,tes-game.ru##center > a[href][rel="nofollow"] > img
-aggromusic.ru,fullpcgame.ru,gidonline.fun,gig-games.net,megosales.com,torrent-song.ru,torrents-soft.net,yaebus.net##center > a[href][target="_blank"] > img
+aggromusic.ru,businessua.com,fullpcgame.ru,gidonline.fun,gig-games.net,megosales.com,torrent-song.ru,torrents-soft.net,yaebus.net##center > a[href][target="_blank"] > img
 root-nation.com##center > a[href][target="_blank"] img
 molchun.ru##center > a[rel="nofollow"][target="_blank"] > img
 nnm-club.me,nnmclub.ro,nnmclub.to##center > a[style="color: green; font-size: 16px; font-weight: bold"]
@@ -18841,7 +18841,6 @@ eda.ru,firtka.if.ua,sevastopol.su,wot-news.com##div[class*="advert"]
 peopletalk.ru,znaj.ua##div[class*="advertising"]
 odessa-life.od.ua##div[class*="ai-viewport-"]
 thequestion.ru##div[class*="annonser"]
-gordonua.com##div[class*="ba"][class*="nner"]
 gorodvitebsk.by,kursktv.ru,open.ua,penza-press.ru##div[class*="baner"]
 1777.ru,19rus.info,19rusinfo.ru,1ul.ru,20minut.ua,2goroda.ru,365info.kz,3ys.ru,73online.ru,9tv.co.il,advis.ru,agronews.ua,agropolit.com,agroreview.com,agrotimes.net,autodmir.ru,avtodispetcher.ru,bakemono.ru,bel.ru,bezformata.com,bhub.com.ua,bon.ua,budport.com.ua,car.ru,cbonds.ru,champion.com.ua,codernet.ru,comments.ua,con-med.ru,cryptonewsua.com,cybersport.ru,echosevera.ru,elevatorist.com,epravda.com.ua,fatalgame.com,fbu.ua,filmz.ru,fishingsib.ru,flamp.ru,food.ru,footballua.tv,forum-profit.ru,gameguru.ru,gecid.com,goodfon.ru,gorodvitebsk.by,gp.by,growhow.in.ua,haqqin.az,hunting.ru,industry-hunter.com,infpol.ru,investfunds.ru,ircity.ru,islam-today.ru,iz.ru,joborgame.ru,jut.su,k1news.ru,klavogonki.ru,knijky.ru,kt.kz,kurkul.com,kursktv.ru,laradiofm.ru,latifundist.com,lifehacker.ru,livesport.ws,locals.md,medialeaks.ru,megatyumen.ru,menportal.info,myslo.ru,neboleem.net,news.ru,nmedic.info,nv-online.info,obyava.ua,okna.ua,penza-press.ru,povarenok.ru,ppt4web.ru,pravda.com.ua,pravoved.ru,primemusic.cc,profibeer.ru,prostatitanet.com,redfm.ru,relax-fm.ru,rg.ru,roscontrol.com,sibnet.ru,skachat-kino.fun,smolensk-i.ru,sovsport.ru,spanishrestaurant.ru,sport5.by,sportanalytic.com,sportguide.kiev.ua,start33.ru,superagronom.com,syzran-small.ru,tele.ru,tengriauto.kz,tengrinews.kz,tengrisport.kz,tengritravel.kz,the-flow.ru,thequestion.ru,thg.ru,tveda.ru,twentysix.ru,ufanotes.ru,valverus.info,vashurok.ru,veterinargid.ru,vikka.ua,vinnitsa.info,vklasse.online,vovka.su,vringe.com,vshkole.com,woman.ru,wonderzine.com,wowjp.net,xsport.ua,zagorod.spb.ru,zaim-profi.ru,zaryad.me,zebra-tv.ru,zemliak.com,zoohoz.ru,zorbasmedia.ru##div[class*="banner"]
 dressupmix.ru##div[class*="banner"]:not(.banner-vk)
@@ -21885,7 +21884,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||hrk.aero/wp-content/themes/hrk-new/*banners/
 ||hromadske.radio/assets/banners/
 ||hsl.com.ua/*parimatch$image
-||html-load.com/loader.min.js$domain=eurointegration.com.ua|news.zerkalo.io|newsyou.info|notebookcheck-ru.com|pravda.com.ua|sportanalytic.com
+||html-load.com/loader.min.js$domain=businessua.com|eurointegration.com.ua|news.zerkalo.io|newsyou.info|notebookcheck-ru.com|pravda.com.ua|sportanalytic.com
 ||html-template.ru/images/banners/
 ||htmlbook.ru/files/$object
 ||htmlbook.ru/sites/default/files/$object
@@ -23818,7 +23817,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||dzen.ru/pogoda/$script
 ||static.dzeninfra.ru/s3/zen-apps/*/*/*/$script
 !
-$csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com
+$csp=script-src-attr 'none',domain=eurointegration.com.ua|sportanalytic.com|notebookcheck-ru.com|businessua.com
 /^https?://24smi\.org/*[/]*[/][^\s]{8,}/$xmlhttprequest,domain=24smi.org
 ://mail.ru$csp=img-src 'self' https:
 ://pikabu.ru/$csp=connect-src https://pikabu.ru/ajax/ https://pikabu.ru/ajax.php https://pikabu.ru/ajax?route= *.pikabu.ru/ data: https://pikabu.ru/.well-known/ wss://pikabu.ru/.well-known/ wss://ws.pikabu.ru/
@@ -25716,14 +25715,14 @@ cluber.com.ua,dictat.net,fithacker.ru,megatest.online,storyfox.ru###popup_bg
 funnymir.net,intersnoznat.ru###popupwindow
 peers.tv###prompt-form-container-phone
 psm7.com###psm-messenger-subscribe-popup
-bilshe.com,businessua.com,multikino.com###reachMedia
+bilshe.com###reachMedia
 kote.ws###register_popup
 maam.ru###registr
 trychatgpt.ru###root > div > div.fixed:not(:empty)
 bvedomosti.ru###sbox-overlay
 bvedomosti.ru###sbox-window
 sport-express.net,sport-express.ru###se-cookie-popup
-bilshe.com,businessua.com,multikino.com###shadowMedia
+bilshe.com###shadowMedia
 wildo.ru###shadow_vk
 top.thepo.st###share-popup
 radiojazzfm.ru###sidebar > a[href="#"][onclick]
