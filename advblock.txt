@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Wh7/7HekuFz/S97d+GTMWg
-! Version: 202607061323
+! Checksum: TGXr5vi1o1UMNUf4i13yPg
+! Version: 202607061332
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Jul 2026 13:23 UTC
+! Last modified: 06 Jul 2026 13:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1245,6 +1245,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href*="//utimg.ru/"]
 ##a[href*="//viruniversal.com/"]
 ##a[href*="//webbrowser.club/"]
+##a[href*="//yandex.ru/adfox/"]
 ##a[href*="//yojlf.com"]
 ##a[href*="//zen.yandex.ru/"]
 ##a[href*="/advertisesimple.info"]
@@ -1596,7 +1597,6 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href^="https://wcm"][href*="weborama"][href*="/fcgi-bin/dispatch.fcgi?"]
 ##a[href^="https://www.juicer.io?referrer="]
 ~litres.ru##a[href^="https://www.litres.ru/"][href$="#buy_now_noreg"]
-##a[href^="https://yandex.ru/adfox/"]
 ##a[onclick*="/link-fes.ru"]
 ##a[onclick*="https://dzen.ru/news/?favid="]
 ~media-rotate.com##a[onclick*="media-rotate.com"]
@@ -14604,6 +14604,7 @@ kinoafisha.info##.footer_apps
 forum.fonarevka.ru##.footer_banners
 tverigrad.ru##.footer_contact > div > .row > .hidden-xs:nth-child(3)
 comments.ua##.footer_link_bottom_main
+kommersant.ru##.footer_section--brands
 mhl.khl.ru##.footer_sponsors
 moybrauzer.ru##.footr
 yarnews.net#?#.for-article > .js-switch-blocks-center > .news-feed-wrapper:-abp-has(> .news-feed > .for-banner)
