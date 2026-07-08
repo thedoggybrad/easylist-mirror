@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: kSCtofw46qjt3JaCnoWewg
-! Version: 202607081251
+! Checksum: uRpyxvVEXSa/zOMimY+D8A
+! Version: 202607081301
 ! Title: ABP filters
-! Last modified: 08 Jul 2026 12:51 UTC
+! Last modified: 08 Jul 2026 13:01 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1904,6 +1904,9 @@ french-stream.*#$#abort-on-property-write _vrhxb; abort-on-property-write _uhkee
 euautopieces.fr#$#hide-if-matches-xpath './/div[contains(@class,"popup-overflow")]/parent::div[contains(@id,"traffic_banner_wrapper")]'
 orange.fr#$#hide-if-matches-xpath './/div[.="Annonce"]/parent::div[@id="in8-skyscraper-display"]'
 orange.fr#$#hide-if-matches-xpath '//div[contains(@class,"media-advert-rm-center")][.//div[@class="position-relative"]//div[starts-with(@id,"oan_ora_")]]'; hide-if-matches-xpath '//div[@id="totemColumn"][.//div[contains(@class,"tag-rm")]]'
+jeanmarcmorandini.com#$#hide-if-matches-xpath './/div/div[contains(@class,"jmm_ads") and contains(@id,"jmm_ads")]/ancestor::div[@class="ban-bottom-desktop"]'
+jeanmarcmorandini.com##div[class*="jmm_ads"][id*="jmm_ads"]
+jeanmarcmorandini.com##div[class*="jmm-ads"][id*="jmm-ads"]
 ! Popup/Popunder
 french-streams.com,down-paradise.com,mega-p2p.net,jetanimes.*,voirseries.*#$#abort-on-property-read open
 supersexeamateur.com,manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
