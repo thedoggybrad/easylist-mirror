@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607091037
+! Version: 202607091056
 ! Title: EasyList
-! Last modified: 09 Jul 2026 10:37 UTC
+! Last modified: 09 Jul 2026 10:56 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e98356086e08629a39ed73d6eb0032076e3bde79
+! Commit: 90ee76e706582a99cad40e8f0466b88ed643f008
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -22696,6 +22696,7 @@ browsershots.org#@#.advert_area
 ||ciewpsfxnt.com^
 ||cigaladoldrum.qpon^
 ||ciikcnesctcup.space^
+||ciikzbupnjyjd.online^
 ||cijoyfhiacneg.online^
 ||cikorloimlxct.website^
 ||ciksolre.net^
@@ -26623,6 +26624,7 @@ browsershots.org#@#.advert_area
 ||ecmlevzhgcdwh.online^
 ||ecnikbpb2gy8zo3u1.cfd^
 ||ecntpxvcdvmsn.website^
+||ecologystoter.com^
 ||econventa.com^
 ||ecorchreliner.cfd^
 ||ecpipouvmimkr.site^
@@ -75718,6 +75720,7 @@ aads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.com,adspyglass.com,adsupp
 ##.ad.reform-top
 ##.reform-top-container
 ! Amazon
+amazon.*###desktop-ad-btf
 amazon.*###faceoutContainer:has(> [class$="sponsored-label"])
 amazon.*###nav-swmslot
 amazon.*###sc-rec-bottom
@@ -75729,7 +75732,9 @@ amazon.*###typ-recommendations-stripe-1
 amazon.*###typ-recommendations-stripe-2
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
+amazon.*##.ad-center
 amazon.*##.amzn-safe-frame-container
+amazon.*##.celwidget[data-ref_$="displayAds"]
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
 amazon.*##.s-result-item:has(.puis-sponsored-label-text)
 amazon.*##.s-result-item:has([data-ad-feedback-label-id])
