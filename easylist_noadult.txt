@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lYPeFik3RqQyCxwvVgvp8w
-! Version: 202607091212
+! Checksum: FgUye9Lr5Bp5lzKpNEHZUw
+! Version: 202607091232
 ! Title: EasyList without rules for adult sites
-! Last modified: 09 Jul 2026 12:12 UTC
+! Last modified: 09 Jul 2026 12:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -28016,6 +28016,7 @@ browsershots.org#@#.advert_area
 ||ezgbwivfmqbgl.website^
 ||ezjmloikdudsf.online^
 ||ezliqxvrpuwds.site^
+||ezmhybnwlhaac.online^
 ||ezmob.com^
 ||ezmynhelkwhph.online^
 ||ezpweunhdhtri.site^
@@ -70232,6 +70233,7 @@ ubergizmo.com##.label_advertising_text
 letssingit.com##.lai_all_special
 letssingit.com##.lai_desktop_header
 letssingit.com##.lai_desktop_inline
+predb.net##.lambo-wrapper
 purewow.com##.lander-interstital-ad
 wzstats.gg##.landscape-ad-container
 3dprint.com##.lap-block-items
@@ -73570,6 +73572,7 @@ automobile-catalog.com,car.com,silentera.com##table[height="90"]
 automobile-catalog.com,itnewsonline.com##table[width="300"]
 worldtimezone.com##table[width="472"]
 pcstats.com##table[width="866"]
+play.typeracer.com##td:has(> .newEastWidget)
 vpforums.org##td[align="center"][style="padding: 0px;"]
 schlockmercenary.com##td[colspan="3"]
 geekzone.co.nz##td[colspan="3"].forumRow[style="border-right:solid 1px #fff;"]
@@ -73719,6 +73722,7 @@ kohls.com###kmncarousel-add_buy_carousel-anchor:has(.KMNProductSlider__sponsored
 kohls.com###kmncarousel-page-anchor:has(.KMNProductSlider__sponsored)
 klz9.com###list-imga center:has(> a[id^="adLink"])
 klz9.com###list-imga center:has(a[href^="https://olimposcans.com/"])
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion###main > div:not([class], [id]):has(> div[class^="css-"] > .pa-amp)
 ratehub.ca###main-content > div > section:has([class^="Ad__Container-sc-"])
 noon.com###modules-renderer:has([class*="sponsored"])
 noon.com###noon-modules:has([class*="AdBrandVideo"])
@@ -74017,6 +74021,7 @@ flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airpla
 tvguide.co.uk##div.mx-auto:has(> .flex.justify-center:empty)
 costco.ca##div.product:has(.criteo-sponsored)
 thebay.com##div.product:has(div.citrus-sponsored)
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##div.result[style="margin-bottom: 10px;"]:has(path[d^="M2.31179"])
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##div.result[style="margin-bottom: 10px;"]:has(path[d^="m6.07067"])
 meijer.com##div.slick-slide:has(.product-tile__sponsored)
 healthyrex.com##div.textwidget:has(a[rel="nofollow sponsored"])
