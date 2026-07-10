@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YPaPdKv8G7TNHE6qDQad2g
-! Version: 202607101341
+! Checksum: +Wk4JWYUJnqSMKN/iW4qBw
+! Version: 202607101351
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 10 Jul 2026 13:41 UTC
+! Last modified: 10 Jul 2026 13:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -84041,6 +84041,7 @@ downornot.net##div.grid > div.flex.flex-col:has([href*="aff_c?"])
 golfgalaxy.com##div.hmf-position-relative:has(.sponsored)
 flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airplane:empty)
 tvguide.co.uk##div.mx-auto:has(> .flex.justify-center:empty)
+chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="Sponsored options"], button[aria-label="Ad options"])
 costco.ca##div.product:has(.criteo-sponsored)
 thebay.com##div.product:has(div.citrus-sponsored)
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##div.result[style="margin-bottom: 10px;"]:has(path[d^="M2.31179"])
