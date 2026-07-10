@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: LCyooqdw2NohdxHYh3/Lmw
-! Version: 202607101402
+! Checksum: UKKSpxo4kWTS17UQLp2aPA
+! Version: 202607101411
 ! Title: ABP filters
-! Last modified: 10 Jul 2026 14:02 UTC
+! Last modified: 10 Jul 2026 14:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1223,7 +1223,7 @@ wco.*,wcostream.*#$#abort-current-inline-script document.createElement adsbox; o
 3movierulz.tv,7-up.net,7deadlysins.tv,abcvideo.cc,avimobilemovies.co,aznewhomes4u.com,batimovie.com,canonprinterdownload.com,celebritiesempire.com,dailyuploads.net,dood.*,doods.*,doodstream.*,dooodster.*,downloadgamexbox.com,dragonballsuperdub.com,dramacool.movie,dramacool.video,fanproj.net,filmovi.co,fullasianmovies.com,gamepc18.net,giaoxudaiphu.com,haqqinda.az,hot-chicks.website,hotshotgamers.net,hunstulovers.net,indishare.org,isohunt.lol,isohuntz.net,kshows.to,livecricket.is,mobilemovies.info,movies123.xyz,mybet.tips,myrightspot.com,naijal.com,pornlibrary.net,premiumkeyesetnod32.blogspot.com,prostream.to,putlocker68.com,putlockers.fm,putlockertv.ist,sandup.co,thevideobee.to,uqload.*,vidbem.com,vidbm.com,videojinni.com,vidfast.*,vidlox.me,vidshar.tv,vidshare.tv,vidstreaming.io,vostfrserie.biz,watchblackclover.com,watchdbzsuper.tv,watchmha2dub.com,watchshokugeki.com,youdbox.com#$#abort-current-inline-script Math zfgloaded
 ! #CV-685
 cloudvideo.tv,flashx.tv,gomovies.*,gostream.nu,govid.*,hdvid.tv,openloadmovies.*,vidshare.tv#$#abort-on-property-write Fingerprint2
-advertape,bunkr-albums.io,bunkr.*,charlessheimprove.com,game3rb.com,jefferycontrolmodel.com,jennifereconomicgive.com,kissjav.*,lauradaydo.com,myvidplay.com,richardquestionbuilding.com,streamtape.*#$#abort-on-property-read window.open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
+advertape,bunkr-albums.io,bunkr.*,charlessheimprove.com,game3rb.com,jefferycontrolmodel.com,jennifereconomicgive.com,kissjav.*,lauradaydo.com,myvidplay.com,richardquestionbuilding.com,pamelachangemission.com,streamtape.*#$#abort-on-property-read window.open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
 123putlocker.club#$#abort-current-inline-script _0xbc13
 ! #CV-692
 biter.tv,flashx.tv,thevid.net,yuudrive.me#$#abort-on-property-read _pop
@@ -2085,6 +2085,7 @@ wykop.pl#$#hide-if-matches-xpath './/section[starts-with(@data-label, "ad: ")]/s
 ! video ads
 ||g.cda.pl/player*?ads&vi*^$xmlhttprequest,domain=cda.pl
 ! Popup/Popunder/Clickunder
+ebd.cda.pl#$#abort-on-property-write window.open
 filmy69.pl,oglaszamy24.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 oglaszamy24.pl#$#abort-on-property-write onload
 ! *** abp-filters-anti-cv:portuguese.txt ***
