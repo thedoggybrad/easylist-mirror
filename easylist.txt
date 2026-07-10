@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607101339
+! Version: 202607101357
 ! Title: EasyList
-! Last modified: 10 Jul 2026 13:39 UTC
+! Last modified: 10 Jul 2026 13:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c0e3907bda23d1b516c3d045ba667c023159b0e2
+! Commit: 20c06d644952de20b44f578503e5a348afe69d57
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -21495,6 +21495,7 @@ browsershots.org#@#.advert_area
 ||btvnamzxzbjce.online^
 ||btwpgvvevgssm.site^
 ||btwqllmeezmjn.online^
+||btxxsuuazhhps.website^
 ||btxxxnav.com^
 ||bty92u1epuwr71pk7ywf7fcljke5mpt6m8ih.cfd^
 ||btyevdkgvcndp.website^
@@ -64223,6 +64224,7 @@ browsershots.org#@#.advert_area
 ||cpmstar.com/view.aspx
 ||crazygolfdeals.com.au/widget$subdocument
 ||creatives.inmotionhosting.com^
+||criteo.com/delivery/retailmedia?
 ||criteo.net/banners/
 ||criteo.net/design/
 ||crunchyroll.com/awidget/
@@ -75105,6 +75107,7 @@ nationalmemo.com,spectrum.ieee.org,theodysseyonline.com##div[class^="rblad-"]
 windowsreport.com##div[class^="refmedprd"]
 windowsreport.com##div[class^="refmedprod"]
 geekchamp.com##div[class^="rk-"]
+pixabay.com##div[class^="sponsorMediaContainer"]
 kijiji.ca##div[class^="sponsored-"]
 pixabay.com##div[class^="sponsoredSection-"]
 target.com##div[class^="styles__PubAd"]
@@ -75773,6 +75776,7 @@ builtbybit.com##.resourceSidebar-belowContent > div > .block:has(.block-containe
 metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 metager.org##.result:has(a[href^="https://r.search.yahoo.com/"])
 qwant.com##.result__ext > div:has([data-testid="adResult"])
+dribbble.com##.resume-user-card:has(.user-card-profile__highlighted-trigger)
 appleinsider.com##.river-article:has(.sponsor-notice)
 petco.com##.rmn-container:has([class*="SponsoredText"])
 samsclub.com##.sc-carousel-slide:has(.sc-sponsored-simple)
@@ -75784,6 +75788,7 @@ playpilot.com##.search-preview .side:has(> .provider)
 tempest.com##.search-result-item:has(.search-result-item__title--ad)
 yandex.com##.search-snippet-view:has(span.search-advert-badge__advert)
 shipt.com##.searchPageStaticBanner:has([href*="/shop/featured-promotions"])
+dribbble.com##.service-result:has(.service-result__highlighted-trigger)
 dribbble.com##.service-result:has([data-promoted-badge])
 troyhunt.com##.sidebar-featured:has(a[href^="https://pluralsight.pxf.io/"])
 bitcointalk.org##.signature:has(a[href]:not([href*="bitcointalk.org"]))
@@ -75909,6 +75914,7 @@ downornot.net##div.grid > div.flex.flex-col:has([href*="aff_c?"])
 golfgalaxy.com##div.hmf-position-relative:has(.sponsored)
 flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airplane:empty)
 tvguide.co.uk##div.mx-auto:has(> .flex.justify-center:empty)
+chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="Sponsored options"], button[aria-label="Ad options"])
 costco.ca##div.product:has(.criteo-sponsored)
 thebay.com##div.product:has(div.citrus-sponsored)
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##div.result[style="margin-bottom: 10px;"]:has(path[d^="M2.31179"])
