@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: THqOePWzwWxZhrAA3MQ1yA
-! Version: 202607101341
+! Checksum: VpFoTDNM+8byW6ip4cdWDA
+! Version: 202607101351
 ! Title: EasyList without rules for adult sites
-! Last modified: 10 Jul 2026 13:41 UTC
+! Last modified: 10 Jul 2026 13:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -74357,6 +74357,7 @@ downornot.net##div.grid > div.flex.flex-col:has([href*="aff_c?"])
 golfgalaxy.com##div.hmf-position-relative:has(.sponsored)
 flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airplane:empty)
 tvguide.co.uk##div.mx-auto:has(> .flex.justify-center:empty)
+chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="Sponsored options"], button[aria-label="Ad options"])
 costco.ca##div.product:has(.criteo-sponsored)
 thebay.com##div.product:has(div.citrus-sponsored)
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##div.result[style="margin-bottom: 10px;"]:has(path[d^="M2.31179"])
