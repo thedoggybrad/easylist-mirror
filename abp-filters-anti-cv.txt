@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: DQW2XJoIxJuRRf/W43sR0w
-! Version: 202607101431
+! Checksum: b5AFQXhSY11IS5BAAzfFvQ
+! Version: 202607101441
 ! Title: ABP filters
-! Last modified: 10 Jul 2026 14:31 UTC
+! Last modified: 10 Jul 2026 14:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -994,6 +994,7 @@ trafficnews.jp#$#abort-current-inline-script eval /xekqfk1c60a/
 calculatorsoup.com^$csp=script-src-attr 'none'
 ||stg.html-load.com^$script,domain=calculatorsoup.com
 ||error-report.com^$domain=calculatorsoup.com
+||duhquietly.com^$domain=calculatorsoup.com
 calculatorsoup.com#$#override-property-read as_-1377875130 emptyObj; override-property-read as_-936640185 emptyObj; override-property-read as_-643962645 true; override-property-read as_-1878905411 emptyObj; override-property-read as_711290288 emptyObj; override-property-read as_169284756 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 calculatorsoup.com#$#override-property-read isAdShieldTurn false
 hk01.com^$csp=script-src-attr 'none'
@@ -1036,6 +1037,18 @@ omnicalculator.com#$#override-property-read as_1336353459 true; override-propert
 ||stg.html-load.com/session$domain=omnicalculator.com
 ||error-report.com^$domain=omnicalculator.com
 ||omnicalculator.com^$csp=script-src-attr 'none'
+||doviz.com$csp=script-src-attr 'none'
+||stg.html-load.com^$script,domain=doviz.com
+||duhquietly.com^$script,domain=doviz.com
+||error-report.com^$domain=doviz.com
+doviz.com#$#override-property-read as_2025345168 emptyObj; override-property-read as_1100318047 emptyObj; override-property-read as_221087453 true; override-property-read as_-1763784112 emptyObj; override-property-read as_-1565483035 emptyObj; override-property-read as_-1244322961 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
+doviz.com#$#override-property-read isAdShieldTurn false
+||nemzetisport.hu$csp=script-src-attr 'none'
+||stg.html-load.com^$script,domain=nemzetisport.hu
+||duhquietly.com^$script,domain=nemzetisport.hu
+||error-report.com^$domain=nemzetisport.hu
+nemzetisport.hu#$#override-property-read as_-1056586001 emptyObj; override-property-read as_77491024 emptyObj; override-property-read as_1259647322 true; override-property-read as_-1760847712 emptyObj; override-property-read as_76111661 emptyObj; override-property-read as_240537169 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
+nemzetisport.hu#$#override-property-read isAdShieldTurn false
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
