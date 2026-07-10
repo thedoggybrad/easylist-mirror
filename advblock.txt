@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0Wvom8E6Yjcf4c1J9JTyDQ
-! Version: 202607101701
+! Checksum: 6CSf6KB+2mPj4dp2cwN9NA
+! Version: 202607101711
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Jul 2026 17:01 UTC
+! Last modified: 10 Jul 2026 17:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1343,7 +1343,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href*="://gonewfiles.ru/"]
 ##a[href*="://gopremiumsoft.com/"]
 ##a[href*="://gridsiali.com/"]
-~hoster.ru##a[href*="://hoster.ru"][target="_blank"]:not(thanks-opennet.ru)
+com,~hoster.ru,me,net,org,ru##a[href*="://hoster.ru"][target="_blank"]:not(thanks-opennet.ru)
 ##a[href*="://hypmag.ru/search/pereh.php"]
 ##a[href*="://installpack.ru"]
 ##a[href*="://kinobud.site/"]
@@ -1588,7 +1588,7 @@ by,~mail.ru,ru,ua##.banner_box
 ~dtpchp.ru##a[href^="https://dtpchp.ru/"]
 ~fukaka.ru##a[href^="https://fukaka.ru/"]
 ##a[href^="https://homyanus.com"]
-~ishosting.com##a[href^="https://ishosting.com"][target="_blank"]:not(thanks-opennet.ru)
+com,~ishosting.com,me,net,org,ru##a[href^="https://ishosting.com"][target="_blank"]:not(thanks-opennet.ru)
 ##a[href^="https://kshop"][href*=".com/"]
 ##a[href^="https://kshop"][href*=".pro/"]
 ##a[href^="https://msetup.pro"]
@@ -1600,7 +1600,7 @@ by,~mail.ru,ru,ua##.banner_box
 ##a[href^="https://wcm"][href*="weborama"][href*="/fcgi-bin/dispatch.fcgi?"]
 ##a[href^="https://www.juicer.io?referrer="]
 ~litres.ru##a[href^="https://www.litres.ru/"][href$="#buy_now_noreg"]
-~postgrespro.ru##a[href^="https://www.postgrespro.ru"][target="_blank"]:not(thanks-opennet.ru)
+com,me,net,org,~postgrespro.ru,ru##a[href^="https://www.postgrespro.ru"][target="_blank"]:not(thanks-opennet.ru)
 ##a[onclick*="/link-fes.ru"]
 ##a[onclick*="https://dzen.ru/news/?favid="]
 ~media-rotate.com##a[onclick*="media-rotate.com"]
