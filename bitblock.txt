@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Z78JF9GbevuMI0oEgJ+B/Q
-! Version: 202607111241
+! Checksum: ire+5ZLuAETLFk4/uQAQhg
+! Version: 202607111252
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Jul 2026 12:41 UTC
+! Last modified: 11 Jul 2026 12:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -369,6 +369,7 @@ ru##[title="Выбрать соцсеть для шаринга"]
 ||obninsk.name/script/sosal.
 ||om1.ru/localStorage/custom_upload/soc_icons/
 ||opennet.*/facebook.gif
+||opennet.*/img/mastodon.png
 ||opennet.*/img/telegram2.png
 ||opennet.*/img/vkontakte.gif
 ||opennet.*/twitter.png
@@ -3362,6 +3363,7 @@ kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai##img[src*="/vk_gr
 dontimes.news##img[src*="/wp-content/uploads/sb/"]
 shazoo.ru##img[src*="_shazoo-telegram.png"]
 opennet.me,opennet.ru##img[src="/img/facebook.gif"]
+opennet.me,opennet.ru##img[src="/img/mastodon.png"]
 opennet.me,opennet.ru##img[src="/img/telegram2.png"]
 opennet.me,opennet.ru##img[src="/img/vkontakte.gif"]
 opennet.me,opennet.ru##img[src="/twitter.png"]
@@ -4437,6 +4439,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||on.od.ua/balls.
 ||ont.by/tv/js/*fancybox$script,stylesheet
 ||onvix.tv/beta/promo$third-party
+||opennet.*/img/rss.png
 ||overclockers.ru/static/img/bg_early.gif
 ||overclockers.ru/webservice/getPipPlace?
 ||ozone.ru/assets/*/cms-cookie-bubble.
@@ -6580,6 +6583,7 @@ livejournal.com##article[id^="b-friendstimes-item-ad-"]
 app2top.ru##aside > [class^="vacancies"]
 zarlit.com##aside > nav ~ div
 kino-teatr.ua##aside a[href^="https://play.google.com/"]
+opennet.me,opennet.ru##aside small > [href="https://wiki.opennet.ru/RSS"]
 vcrti.com.ua##aside#gkSidebar
 vedomosti.ru##aside.article__sidebar
 disgustingmen.com##aside.widget
@@ -6869,6 +6873,7 @@ chastnik-m.ru##img[alt="баннер"]
 habr.com##img[src*="habrastorage.org/getpro/habr/branding/"]
 tapochek.net##img[src*="images/rss_"]
 fakty.ua##img[src="/images/korabl-idi-hahuy.jpg"]
+opennet.me,opennet.ru##img[src="/img/rss.png"]
 rz.com.ua##img[src="/sites/default/files/baneri/samolechenie.jpg"]
 flightsim.su##li > [title="Поддержать FlightSim"]
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,novostirostov.ru,omskmedia.su,peterburgmedia.ru,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##li.wsapp
