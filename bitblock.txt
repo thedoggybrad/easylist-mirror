@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zeK7w37cTYB6lZMotcW29g
-! Version: 202607111232
+! Checksum: Z78JF9GbevuMI0oEgJ+B/Q
+! Version: 202607111241
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Jul 2026 12:32 UTC
+! Last modified: 11 Jul 2026 12:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -216,7 +216,7 @@ com,ru,ua##[data-rambler-share]
 ##[onclick^="Share."]
 ##[onclick^="window.open('http://ok.ru/dk?st.cmd=addShare"]
 ##[onclick^="window.open('http://www.facebook.com/share.php?"]
-##[title="Выбрать соцсеть для шаринга"]
+ru##[title="Выбрать соцсеть для шаринга"]
 ~ok##a[href*="connect.ok.ru/dk?st.cmd="][href*="share"]
 ~twitter.com##a[href*="http://twitter.com/share"]
 ~livejournal.com##a[href*="livejournal.com/update.bml"]
