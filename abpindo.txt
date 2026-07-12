@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1jjgg0eA0mLGL/Ql7xOuBQ
-! Version: 202607121001
+! Checksum: PepPad4Ng/app0yf6CmQNg
+! Version: 202607121021
 ! Title: ABPindo
-! Last modified: 12 Jul 2026 10:01 UTC
+! Last modified: 12 Jul 2026 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 12 Jul 2026 09:48 UTC
+! Last modified: 12 Jul 2026 10:15 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -435,7 +435,7 @@ asalunik.com,bokepgemoy.com##+js(nobab)
 193.142.147.230,5.253.86.213,ainzscans.net,jenismac.com##+js(noeval-if, /chp_?ad/)
 netq.me##+js(nostif, console)
 moviekhhd.biz##+js(nostif, location.href, 3000)
-anichin.top,animekompi.vip,bokepindo69.*,cosmicscans.*,igodesu.tv,indobo.com,jurnalistekno.id,kimcilonly.site,kiryuu.id,kiryuu.org,kiryuu01.com,kiryuu02.*,kisahterlarang.site,komikcast02.com,ngicstream.site,nimegami.*,njavtv.com,sukasex.net,sukasex.tv,westmanga.*##+js(nowoif)
+anichin.top,animekompi.vip,bokepindo69.*,cosmicscans.*,igodesu.tv,indobo.com,jurnalistekno.id,kimcilonly.site,kiryuu.id,kiryuu.org,kiryuu01.com,kiryuu02.*,kisahterlarang.site,komikcast02.com,ngicstream.site,nimegami.*,njavtv.com,sukasex.net,sukasex.tv,tantecentil.fans,westmanga.*##+js(nowoif)
 okezone.com##+js(rc, content-wrap)
 inews.id##+js(rc, content-wrap|wrap-all)
 sindonews.com##+js(rc, t480)
@@ -9737,6 +9737,7 @@ nekopoi.*##[href^="https://monetag.com/"]
 igo.desu.xxx##[href^="https://tinig22.com/"]
 pemersatu.*##[role="advertisement"]
 kingbokep.*##[style^="height:"]:has(> img)
+bokep360.*##a[href*="gamdom"]
 kayatan.vip##a[href="/network"]
 doujindesu.tv##a[href][target="_blank"] > img
 semprot.com,semprotku.com##a[href^="http://bit.ly/"]
@@ -9752,6 +9753,7 @@ asiasizzle.com##div.popup-banner-content
 asiasizzle.com##div.popup-banner-grid
 nekopoi.care##div[class^="adsgen"] iframe
 nekopoi.care##div[class^="mobileads"]
+tantecentil.fans##div[style*="z-index: 999999"]
 semprot.com##img[data-ad]
 igo.desu.xxx##overplay
 semprot.com##semprotnenenmontok_f
@@ -9800,6 +9802,7 @@ igo.desu.xxx##uads_300x250
 ||casinoclubpoker.com^$third-party
 ||cdpoker.com^$third-party
 ||celebpoker.com^$third-party
+||chaseherbalpasty.com^$third-party
 ||chilipoker.com^$third-party
 ||clickadu.com^$popup
 ||coolhandpoker.com^$third-party
