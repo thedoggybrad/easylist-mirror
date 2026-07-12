@@ -114,7 +114,7 @@ jobs:
         
       - name: Update adblock_bg.txt (Bulgarian)
         run: |
-          curl -sSfL http://stanev.org/abp/adblock_bg.txt > adblock_bg.txt
+          curl -sSfL https://easylist-downloads.adblockplus.org/bulgarian_list.txt > adblock_bg.txt
           git add adblock_bg.txt
           git diff-index --quiet HEAD || git commit -m "Updated adblock_bg.txt on $(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S') - UTC+8" || true
           git push
