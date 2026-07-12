@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: klBdELjrkYxVtck8Il6tvw
-! Version: 202607122211
+! Checksum: 2hDy7W6MXnbKKIvNGII95w
+! Version: 202607122222
 ! Title: Liste FR
-! Last modified: 12 Jul 2026 22:11 UTC
+! Last modified: 12 Jul 2026 22:22 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -12816,6 +12816,7 @@ frandroid.com##.is-hidden-mobile:has([class^="Billboard"])
 carrefour.fr##.lc-banner:has([src*="ressources.luckycart.com"])
 radio-canada.ca##.max-w-150:has(.srcPubZone)
 leroymerlin.fr##.ml-container:has(> [data-st-type*="sponsored caroussel"])
+frandroid.com##.ops-next-mobile:has(.sponsored-label)
 zebulon.fr##.penci-feed:has(a[href*="/sponso-"])
 laredoute.fr##.pl-product:has(.sponsoredContent_label)
 frandroid.com##.post-card:has(a[href^="https://native.humanoid.fr/"])
