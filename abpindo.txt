@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PepPad4Ng/app0yf6CmQNg
-! Version: 202607121021
+! Checksum: xRrA3rEOAacStovf5lnI7A
+! Version: 202607121031
 ! Title: ABPindo
-! Last modified: 12 Jul 2026 10:21 UTC
+! Last modified: 12 Jul 2026 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 12 Jul 2026 10:15 UTC
+! Last modified: 12 Jul 2026 10:28 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -417,6 +417,7 @@ $popup,domain=animekompi.*|kiryuu.id|kiryuu.org|kiryuu03.*|komikstation.co|manga
 semprot.com##+js(abort-current-script, Math.random, arv_24)
 dicrotin.*##+js(abort-on-property-read, SGPB_POPUP_PARAMS)
 animekompi.*##+js(abort-on-property-write, MutationObserver)
+kingbokep.*##+js(acis, checkAdsStatus)
 lk21semi.*##+js(acs, chp_ads_blocker_detector)
 kuyhaa.me##+js(acs, document.addEventListener, window.open)
 doroni.me##+js(acs, getComputedStyle, , cpm)
@@ -435,7 +436,7 @@ asalunik.com,bokepgemoy.com##+js(nobab)
 193.142.147.230,5.253.86.213,ainzscans.net,jenismac.com##+js(noeval-if, /chp_?ad/)
 netq.me##+js(nostif, console)
 moviekhhd.biz##+js(nostif, location.href, 3000)
-anichin.top,animekompi.vip,bokepindo69.*,cosmicscans.*,igodesu.tv,indobo.com,jurnalistekno.id,kimcilonly.site,kiryuu.id,kiryuu.org,kiryuu01.com,kiryuu02.*,kisahterlarang.site,komikcast02.com,ngicstream.site,nimegami.*,njavtv.com,sukasex.net,sukasex.tv,tantecentil.fans,westmanga.*##+js(nowoif)
+anichin.top,animekompi.vip,bokepindo69.*,cosmicscans.*,igodesu.tv,indobo.com,jurnalistekno.id,kimcilonly.site,kingbokep.*,kiryuu.id,kiryuu.org,kiryuu01.com,kiryuu02.*,kisahterlarang.site,komikcast02.com,ngicstream.site,nimegami.*,njavtv.com,sukasex.net,sukasex.tv,tantecentil.fans,westmanga.*##+js(nowoif)
 okezone.com##+js(rc, content-wrap)
 inews.id##+js(rc, content-wrap|wrap-all)
 sindonews.com##+js(rc, t480)
@@ -9793,6 +9794,7 @@ igo.desu.xxx##uads_300x250
 ||blindbetpoker.com^$third-party
 ||blogjudi.com^$third-party
 ||bobsleddomesticglandular.com^$third-party
+||bojo.rajatravel.online^$third-party
 ||bolakami-banner-tracker.bolakami.workers.dev^$third-party
 ||bursajudibola.com^$third-party
 ||c.adsco.re^$third-party
@@ -9925,6 +9927,7 @@ igo.desu.xxx##uads_300x250
 ||shopnoit.com^$popup
 ||situsagenjudi.com^$third-party
 ||situstogelonline.com^$third-party
+||speedcount.co^$third-party
 ||sunpoker.com^$third-party
 ||surgajudi.com^$third-party
 ||switchpoker.com^$third-party
@@ -9961,6 +9964,7 @@ igo.desu.xxx##uads_300x250
 ||vivodemisrentas.net^$third-party
 ||warungjudi.com^$third-party
 ||warungpoker.com^$third-party
+||wcikamgamzc.com^$third-party
 ||webjudionline.com^$third-party
 ||webjuditerpercaya.com^$third-party
 ||websitejudi.com^$third-party
