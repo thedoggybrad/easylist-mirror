@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0erJE7UswMIQC7G+ViF19Q
-! Version: 202607120612
+! Checksum: 3DwPksxKrjQAto0bsi0goQ
+! Version: 202607120621
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Jul 2026 06:12 UTC
+! Last modified: 12 Jul 2026 06:21 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13104,6 +13104,7 @@ bmwclub.ru##.XenAdvShop
 cameralabs.org##.Yreklama
 sravni.ru##._12siume
 360.ru##._1lm4gq66
+sravni.ru##._1p39i0c
 2gis.by,2gis.kz,2gis.ru##._1xza2sg
 yap.ru,yaplakal.com##.__axcode__
 gamestar.ru##.__b-popup1__
@@ -25276,6 +25277,7 @@ ya.ru##section[class^="reaso"]
 ya.ru##section[style*="sectillion-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
+ya.ru,yandex.ru,yandex.*##.ImagesApp .AdvPremium-List
 ya.ru,yandex.ru,yandex.*##.layout__banner
 ya.ru,yandex.ru,yandex.*##.main-home-banner
 ya.ru,yandex.ru,yandex.*##.main__block-banner
@@ -25305,6 +25307,8 @@ yandex.ru,yandex.*##.i-bem.tv-sortable-item.tv-sortable-item_sortable_no
 yandex.ru,yandex.*##.masonry .incut_banner
 yandex.ru,yandex.*##.org.i-bem.org_js_inited > div[style^="border-bottom"]
 yandex.ru,yandex.*##.org__sidebar > .org__links + div[style^="margin-top"]
+yandex.ru,yandex.*##.RealtyListing-AdfoxBanner
+yandex.ru,yandex.*##.RealtyListing-AdvItem
 yandex.ru,yandex.*##.search-results__guadeloupe
 yandex.ru,yandex.*##.serp-adv__add
 yandex.ru,yandex.*##.serp-adv__all
@@ -25319,6 +25323,7 @@ yandex.ru,yandex.*##div[class^="advert-card--content-feed-"]
 yandex.ru,yandex.*##div[class^="AreYouGoodPromo_"]
 yandex.ru,yandex.*##img[src*="yandex.net/get-direct"]
 yandex.ru,yandex.*#?##search-result > .serp-list__card:-abp-has(> div .organic__subtitle > span:-abp-contains(/[РPeекламa]{6,7}/))
+yandex.ru,yandex.*#?#.RealtySnippetCard:-abp-has(.AdvCaption_variant_promo)
 yandex.ru,yandex.*#?#.scroller__wrap > .showcase__item:-abp-has(.product-card__direct)
 yandex.ru,yandex.*#?#.scroller__wrap > div[class^="minibadge"]:-abp-has(.serp-item .label:-abp-contains(реклама))
 yandex.ru,yandex.*#?#[class^="feed__row--content-feed-"]:-abp-has(> div[class^="advert-card--content-feed-"])
