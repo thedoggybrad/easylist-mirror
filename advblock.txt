@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zjGBpEOVxpM5adBNzGFcQQ
-! Version: 202607121802
+! Checksum: Fx+RLvBD+B7p2MDIt5L01Q
+! Version: 202607121811
 ! Title: RU, UA, UZ, KZ
-! Last modified: 12 Jul 2026 18:02 UTC
+! Last modified: 12 Jul 2026 18:11 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -12036,7 +12036,6 @@ forum.byw.ru###byw_top_banner
 prankota.com###c7b82880e
 prankota.com###cab741974
 copypast.ru###calcs1
-sportnet.live###carouselPrintstok
 btu.org.ua###catfish-banner
 kurs.com.ua###catfishWrap
 bereza.by###cb-logo-box > .cb-block
@@ -12071,8 +12070,11 @@ rutube.ru###communicationBanner
 stocktime.ru###cont_right_240
 doska.fi###container + center
 kirovnet.ru###container > #top
+oc.kg###container > .hidden-xs
 nnovosti.info###container > .row > div + div > .w-100
+oc.kg###container > .visible-xs-block
 fapreactor.com,pornreactor.cc###container > :not(#page) a[target^="_"]
+oc.kg###container > a[target="_blank"]
 otzyvua.net###container > div.otzyv_box_float[id^="review_"] ~ .otzyv_box_float:not([id^="review_"] )
 oper.ru###container > div[style]
 sql-tutorial.ru###container > div[style] > script + style ~ ul
@@ -13996,7 +13998,7 @@ whl.khl.ru##.bottom-partners
 android-club.ws,noddb.ru##.bottom-rkl
 calend.ru,shkolazhizni.ru##.bottomFixedBlock
 obrkarta.ru##.bottom_abs_info
-forum.finance.ua,moscow-post.com##.bottom_banner
+forum.finance.ua,moscow-post.com,oc.kg##.bottom_banner
 delovoigorod.ru##.bottom_bun
 tehno-rating.ru##.bottom_rekl
 anekdot.ru##.bottombanner
@@ -15966,7 +15968,7 @@ okaygorod.com##.rek_ban a[href]:not([href^="https://okaygorod.com/"])
 cxem.net##.rek_plashka
 tabletka.by##.rekblockr
 mipped.com##.rekblok
-3iks.pw,lenfilm.tv,russian7.ru,sex-comics.mobi,youblogs.ru##.rekl
+3iks.pw,lenfilm.tv,russian7.ru,sex-comics.mobi,sportnet.live,youblogs.ru##.rekl
 minecraft-mod.su##.rekl_ad
 pogoda7.ru##.rekla_down_block
 asn.in.ua##.reklam_in_text
@@ -16245,6 +16247,7 @@ the-geek.ru##.side-text
 transkarpatia.net##.side-widget > a[href][target="_blank"] > img:not([alt*="elegra"])
 siteua.org#?#.sideBlock:-abp-has(> .adsbygoogle)
 siteua.org#?#.sideBlock:-abp-has(> [id^="CNM"])
+oc.kg##.side_banner
 smartpress.by##.side_banners
 gorockop.ru##.side_block
 compromat.group#?#.side_block > .side_header:-abp-contains(Новости партнеров)
@@ -22591,6 +22594,11 @@ igdz1.ru^$script,domain=igdz.ru
 ||obnimau.ru/img-ba/
 ||obozrevatel.com^$domain=104.ua
 ||obrazovaka.ru/serviceworker.js
+||oc.kg/background/$~media
+||oc.kg/js/click.js
+||oc.kg/outsidead.php
+||oc.kg/preroll.php
+||oc.kg/sidebanner.php
 ||oclab.ru/flash/
 ||odds.ru/api/advert/
 ||odessa-daily.com.ua/images/stories/banners/
@@ -23218,7 +23226,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||sportarena.com/branding/
 ||sportbox.ru/_*/rexona$image
 ||sportnet.live/branding/
-||sportnet.live/GD/printstok/
 ||sportobzor.ru/templates/site/banners/$image
 ||sportobzor.ru/uploads/articles_
 ||sports.kz/frontend/bannersnew/
@@ -23841,6 +23848,7 @@ igdz1.ru^$script,domain=igdz.ru
 !#if ext_abp
 ||myfootball.pw/*/betking/$media,rewrite=abp-resource:blank-mp4,domain=myfootball.pw
 ||myfootball.ws/*/betking/$media,rewrite=abp-resource:blank-mp4,domain=myfootball.ws
+||oc.kg/background/*.mp4$rewrite=abp-resource:blank-mp4,domain=oc.kg
 ||s-cdn.org/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||s-club.tv/promo/*.mp4$rewrite=abp-resource:blank-mp4,domain=player-films.online
 ||ts.kg/olol*.mp4$rewrite=abp-resource:blank-mp4,domain=ts.kg
@@ -26692,6 +26700,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||numbers.md/static/$script,domain=999.md
 @@||objavlenija.respublika.cz/templates/jrespublika*_clr_ads/$stylesheet,domain=objavlenija.respublika.cz
 @@||oboi-pmr.ru^*.300x250.$image,domain=oboi-pmr.ru
+@@||oc.kg/js/videojs.ga.js|$script,~third-party
 @@||ojin.tv/templates/kino/images/adv.png$image,domain=ojin.tv
 @@||ojs3.ideafix.co/index.php/adsv/$domain=ojs3.ideafix.co
 @@||olx.*/ajax/misc/contact/phone/$xmlhttprequest,domain=olx.kz|olx.ua|olx.uz
