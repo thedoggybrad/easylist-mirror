@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hFr0AGmUtQVUnCytEma7Xg
-! Version: 202607131641
+! Checksum: vF/ilwJqOxe4OacFXs/B8Q
+! Version: 202607131652
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Jul 2026 16:41 UTC
+! Last modified: 13 Jul 2026 16:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1772,6 +1772,7 @@ www.kinopoisk.ru##body[class*="body"] {overflow:auto;}
 .htm?href=*&tm_mode=
 .info/next.html?$third-party,script
 .json?fre=$third-party,xmlhttprequest
+.json?unique=$third-party,xmlhttprequest
 .mail.ru/pixel/$image
 .marketgid.com^$domain=~marketgid.com
 .md/ads/
@@ -7445,6 +7446,7 @@ _tizers.
 ||leofur.ru^$third-party
 ||leokross.com^$third-party
 ||leplena.ru^$third-party
+||leproletsu.link^$third-party
 ||lepubs.com^
 ||lequ6.ru^
 ||lerester.com^$third-party
@@ -24358,7 +24360,6 @@ horo.mail.ru##[data-logger-parent="sidebarRight"]
 auto.mail.ru##.grid > .grid__row_table > [name] ~ div:not([name])
 auto.mail.ru##.spring_adb
 auto.mail.ru##.wrapper > .cols > .cols__wrapper > :not([class*="cols"])
-auto.mail.ru##div[data-closewrap-container]
 ! Кино
 kino.mail.ru##.adv-marker_hover
 kino.mail.ru##.align_left > a[aria-label="Смотреть онлайн"]
