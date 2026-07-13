@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ult4uZwdUBzic7tgbZiyYQ
-! Version: 202607131411
+! Checksum: 258DuXyFMGa+zC4VAPLjLA
+! Version: 202607131421
 ! Title: ABP filters
-! Last modified: 13 Jul 2026 14:11 UTC
+! Last modified: 13 Jul 2026 14:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -760,6 +760,12 @@ billboard.com#$#override-property-read d3d3LmJpbGxib2FyZC5jb21fb25sb2Fk undefine
 geoguessr.com#$#override-property-read window.navigator.connection.rtt 2000
 ||*/loader.min.js|$script,domain=geoguessr.com
 invoice-generator.com#$#abort-on-property-write adngin
+||invoice-generator.com$csp=script-src-attr 'none'
+||html-load.com^$script,domain=invoice-generator.com
+||content-loader.com^$script,domain=invoice-generator.com
+||error-report.com^$domain=invoice-generator.com
+invoice-generator.com#$#override-property-read isAdShieldTurn false
+invoice-generator.com#$#override-property-read as_525622783 true; override-property-read as_-1078548891 true; override-property-read as_-965980156 true
 nationalpost.com#$#hide-if-matches-xpath './/section[contains(@aria-describedby,"advertisment")]/ancestor-or-self::*[1]'
 mr2oc.com#$#abort-on-property-read window.confirm
 mr2oc.com#$#override-property-read window.navigator.connection.rtt 2000
@@ -872,6 +878,7 @@ index.hr#$#override-property-read as_971745573 true; override-property-read as_6
 ||content-loader.com/session/$domain=index.hr
 ||html-load.com/session/$domain=index.hr
 ||html-load.com^$script,domain=vimm.net
+||content-loader.com^$script,domain=vimm.net
 ||error-report.com^$domain=vimm.net
 vimm.net#$#override-property-read Navigator.prototype.onLine false
 ||html-load.cc^$script,domain=worldofsolitaire.com
@@ -1049,6 +1056,18 @@ doviz.com#$#override-property-read isAdShieldTurn false
 ||error-report.com^$domain=nemzetisport.hu
 nemzetisport.hu#$#override-property-read as_-1056586001 emptyObj; override-property-read as_77491024 emptyObj; override-property-read as_1259647322 true; override-property-read as_-1760847712 emptyObj; override-property-read as_76111661 emptyObj; override-property-read as_240537169 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 nemzetisport.hu#$#override-property-read isAdShieldTurn false
+||tunebat.com$csp=script-src-attr 'none'
+||html-load.com^$script,domain=tunebat.com
+||content-loader.com^$script,domain=tunebat.com
+||error-report.com^$domain=tunebat.com
+tunebat.com#$#override-property-read isAdShieldTurn false
+tunebat.com#$#override-property-read as_1304145770 emptyObj; override-property-read as_601629091 emptyObj; override-property-read as_336432199 true; override-property-read as_1150850259 emptyObj; override-property-read as_144435546 emptyObj; override-property-read as_1184513214 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true; override-property-read as_525622783 true; override-property-read as_-1078548891 true
+||onlineradiobox.com$csp=script-src-attr 'none'
+||html-load.com^$script,domain=onlineradiobox.com
+||content-loader.com^$script,domain=onlineradiobox.com
+||error-report.com^$domain=onlineradiobox.com
+onlineradiobox.com#$#override-property-read isAdShieldTurn false
+onlineradiobox.com#$#override-property-read as_525622783 true; override-property-read as_-1078548891 true
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
