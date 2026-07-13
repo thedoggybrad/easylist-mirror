@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: gWTVyS2qVyWyXVv3AMHpHQ
-! Version: 202607131521
+! Checksum: 7qM7RvDUZFfT7/hlM1uVLA
+! Version: 202607131531
 ! Title: ABP filters
-! Last modified: 13 Jul 2026 15:21 UTC
+! Last modified: 13 Jul 2026 15:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1068,6 +1068,15 @@ tunebat.com#$#override-property-read as_1304145770 emptyObj; override-property-r
 ||error-report.com^$domain=onlineradiobox.com
 onlineradiobox.com#$#override-property-read isAdShieldTurn false
 onlineradiobox.com#$#override-property-read as_525622783 true; override-property-read as_-1078548891 true
+puckpedia.com#$#override-property-read as_6157826194 true; override-property-read as_81102588177 true; override-property-read as_1-1474630059 true; override-property-read as_4243119001 true; override-property-read as_7-876391118 true; override-property-read as_0841357942 true; override-property-read as_31957894831 true; override-property-read as_6-619323405 true; override-property-read as_91098425655 true; override-property-read as_2-1478792581 true; override-property-read as_51696664596 true; override-property-read as_8-1481765811 true; override-property-read as_1235983249 true; override-property-read as_41953732309 true
+||html-load.com^$script,domain=puckpedia.com
+||content-loader.com^$script,domain=puckpedia.com
+||gadzooksrudely.com^$script,domain=puckpedia.com
+||error-report.com^$domain=puckpedia.com
+puckpedia.com$csp=script-src-attr 'none'
+puckpedia.com#$#override-property-read xanwv22ooiwm true
+puckpedia.com#$#override-property-read isAdShieldTurn false
+puckpedia.com#$#abort-current-inline-script eval /xanwv22ooiwm/
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
