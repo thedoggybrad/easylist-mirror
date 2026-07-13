@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FNa4g1CWhC0QUkbMZQsLRA
-! Version: 202607130842
+! Checksum: ijavoaEgMIey56A9VAXG6A
+! Version: 202607130852
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Jul 2026 08:42 UTC
+! Last modified: 13 Jul 2026 08:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25341,6 +25341,7 @@ yandex.ru,yandex.*##div[class^="advert-card--content-feed-"]
 yandex.ru,yandex.*##div[class^="AreYouGoodPromo_"]
 yandex.ru,yandex.*##img[src*="yandex.net/get-direct"]
 yandex.ru,yandex.*#?##search-result > .serp-list__card:-abp-has(> div .organic__subtitle > span:-abp-contains(/[РPeекламa]{6,7}/))
+yandex.ru,yandex.*#?#.RealtyListing-SnippetsListSidebarWrapperSidebar:-abp-has(> .AdfoxBanner )
 yandex.ru,yandex.*#?#.RealtySnippetCard:-abp-has(.AdvCaption_variant_promo)
 yandex.ru,yandex.*#?#.scroller__wrap > .showcase__item:-abp-has(.product-card__direct)
 yandex.ru,yandex.*#?#.scroller__wrap > div[class^="minibadge"]:-abp-has(.serp-item .label:-abp-contains(реклама))
