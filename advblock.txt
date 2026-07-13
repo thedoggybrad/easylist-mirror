@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PV4zUyX4KyfXSl4CT0JsBg
-! Version: 202607131621
+! Checksum: bMKcpNXrCDwdybU3Ufe6iw
+! Version: 202607131631
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Jul 2026 16:21 UTC
+! Last modified: 13 Jul 2026 16:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16681,6 +16681,7 @@ gidonline.fun##.tiznews
 rusdemotivator.ru##.tizz
 asienda.ru,diets.ru,mycharm.ru,myjane.ru,povarenok.ru,relook.ru,stranamam.ru##.tl-house
 habr.com##.tm-article-presenter__banner
+habr.com##.tm-articles-list__after-article [class*="special "]
 habr.com##.tm-company-card__branding
 newformat.info##.tm-content ~ .tm-main-bottom .widget_custom_html:not([style])
 habr.com##.tm-layout-sidebar__banner
