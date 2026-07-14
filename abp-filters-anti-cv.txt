@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: kUf8XiFF6hmYZF2qRaoq+g
-! Version: 202607141302
+! Checksum: hUi7ff9TBDubiy0IRamP8w
+! Version: 202607141311
 ! Title: ABP filters
-! Last modified: 14 Jul 2026 13:02 UTC
+! Last modified: 14 Jul 2026 13:11 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1077,6 +1077,8 @@ puckpedia.com$csp=script-src-attr 'none'
 puckpedia.com#$#override-property-read xanwv22ooiwm true
 puckpedia.com#$#override-property-read isAdShieldTurn false
 puckpedia.com#$#abort-current-inline-script eval /xanwv22ooiwm/
+puckpedia.com#$#prevent-element-src-loading script /html-load\.com|content-loader\.com|gadzooksrudely\.com/
+||helpers.publisherdesk.com/main.js^$script,domain=puckpedia.com
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
