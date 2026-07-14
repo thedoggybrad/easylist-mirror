@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: WHzM3j84sdppmkRaGD/j1Q
-! Version: 202607141322
+! Checksum: ZZrlbE1Ra0DoaufEoMJELA
+! Version: 202607141331
 ! Title: ABP filters
-! Last modified: 14 Jul 2026 13:22 UTC
+! Last modified: 14 Jul 2026 13:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1512,10 +1512,11 @@ vids.*#$#abort-current-inline-script document.createElement pop_tag
 streamvid.*#$#abort-current-inline-script setTimeout _0x
 primewire.*#$#abort-on-property-write window.onclick
 abyssplayer.com#$#abort-on-property-write document.onclick; abort-on-property-write document.ontouchend
-vidsrc.*#$#timer-override 3600000 /0x|sandCheck/ noop interval
+vidsrc.*#$#timer-override 3600000 /0x|sandCheck/ noop interval; prevent-element-src-loading script /afjpd=/;
 bysebuho.com,bysesayeveum.com#$#timer-override 1000000 readyWait
 peachify.top#$#prevent-listener click /atob|_blank/
 vidnest.fun#$#timer-override 1 window.location.replace noop timeout
+vidrock.ru#$#prevent-element-src-loading script /acscdn\.com|aclib/
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -1793,7 +1794,7 @@ pastpapers.papacambridge.com#$#hide-if-matches-xpath './/a//following-sibling::i
 dailyworld.com##div[class][style^="height"], div[class="secondary"] {remove:true;}
 animetsu.net#$#hide-if-matches-xpath './/iframe[@sandbox][@srcdoc]/parent::div[@style]/ancestor::div[@dir="ltr"][style]'
 vixsrc.*#$#abort-on-property-read dispatchEvent; hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]'; abort-on-property-read window.open; abort-current-inline-script String.fromCharCode 2147483647;
-vsembed.ru#$#override-property-read sb_test true
+vsembed.ru#$#override-property-read sb_test true; prevent-element-src-loading script /\/\/[a-z0-9]+\.[a-z0-9]{14,}\.[a-z]{2,12}\//; prevent-listener mousedown /shown_at/
 brittanyaheadnew.com,maryspecialwatch.com#$#abort-on-property-read open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob; abort-on-property-read BetterJsPop; abort-current-inline-script encodeURIComponent;
 bysesukior.com,bysewihe.com,bysebuho.com,398fitus.com#$#abort-current-inline-script EventTarget.prototype.addEventListener 'delete window'; abort-on-property-read open; timer-override setTimeout readyWait; override-property-read window.ZorDon false
 javsek.net#$#abort-current-inline-script screen /shocked-failure/
