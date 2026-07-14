@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: AhMBtI9rdeqBkO4hNUzumg
-! Version: 202607141352
+! Checksum: EQdVadIWOUbZ8DeemJlVDQ
+! Version: 202607141402
 ! Title: ABP filters
-! Last modified: 14 Jul 2026 13:52 UTC
+! Last modified: 14 Jul 2026 14:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1079,6 +1079,13 @@ puckpedia.com#$#override-property-read isAdShieldTurn false
 puckpedia.com#$#abort-current-inline-script eval /xanwv22ooiwm/
 puckpedia.com#$#prevent-element-src-loading script /html-load\.com|content-loader\.com|gadzooksrudely\.com/
 ||helpers.publisherdesk.com/main.js^$script,domain=puckpedia.com
+||html-load.com^$script,domain=movie-locations.com
+||fb.html-load.com^$script,domain=movie-locations.com
+||content-loader.com^$script,domain=movie-locations.com
+||fb.content-loader.com^$script,domain=movie-locations.com
+||stg.html-load.com^$script,domain=movie-locations.com
+||error-report.com^$domain=movie-locations.com
+movie-locations.com#$#override-property-read as_-1078548891 true; override-property-read as_1336353459 true; override-property-read as_997405239 true; override-property-read as_-979609477 true
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
