@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JN1UpMKFGMgPvHB5fxtq9Q
-! Version: 202607141652
+! Checksum: owTnXlTRIsXRojO0flQCfQ
+! Version: 202607141701
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 14 Jul 2026 16:52 UTC
+! Last modified: 14 Jul 2026 17:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1297,6 +1297,7 @@ soft2u.ru##.footer__link--vk
 onlinetrade.ru##.footer__linksline__smo
 praca.by#?#.footer__menu > .menu__items:-abp-has(> .social-networks-portal)
 vtimes.io#?#.footer__menu > ul > li:-abp-has(> ul > li > .share-icons)
+dyvys.info#?#.footer__part:-abp-has(> .rounded-socials)
 career.habr.com##.footer__section--social
 rayon.in.ua##.footer__soc-list
 epravda.com.ua##.footer__social
@@ -2025,7 +2026,7 @@ uteka.ru##.share-link
 livemaster.ru##.share-link-list *
 smartpress.by##.share-links
 matematika-doma.org##.share-links-module
-risu.ua##.share-news
+defence-ua.com,risu.ua##.share-news
 24tv.ua##.share-news-block
 kinokrad.my##.share-on-player
 kino-fs.ucoz.net##.share-player
@@ -2127,6 +2128,7 @@ btu.org.ua#?#.sideblock > .hblock:-abp-has(.twitter-timeline)
 krolmen.ru#?#.sidebox:-abp-has(#vk_groups)
 modsgaming.ru#?#.sidebox:-abp-has(> .inner .soc-atd)
 grodno24.com##.similar-social
+dyvys.info##.simple-socials > li
 v-variant.com.ua##.single-bottom__socials-title
 armyinform.com.ua##.single-content ~ a[href] > [style*="background: linear-gradient"]
 rubryka.com##.single-page__info-inner > div[style^="padding:"]
@@ -2242,6 +2244,7 @@ appleinsider.ru,hentaiz.org,intent.press,nevasport.ru,podrobnosti.ua,spartak.ru#
 goha.ru##.social > *
 akniga.org##.social--link
 nashe.ru,radiojazzfm.ru,radioultra.ru,rockfm.ru##.social-additional
+defence-ua.com##.social-bar
 expert.ru##.social-bl
 abw.by,defence-ua.com,football24.ua,info24.ru,oxu.az,sport24.ua##.social-block
 fireman.club##.social-block-bottom
@@ -2503,7 +2506,6 @@ golos.ua##.tags-social-links
 lifehacker.ru#?#.taxonomy-posts__container:-abp-has(> .slider > div > div a[name^="Лайфхакер в"])
 uaspectr.com##.tb-social-list
 infox.ru##.tct_share_desc
-dyvys.info##.td-banner-bg
 gzt-sv.ru##.td-header__social
 potokmedia.ru##.td-is-sticky + .td-is-sticky > .wpb_wrapper > .td_block_wrap:first-child
 potokmedia.ru##.td-is-sticky + .td-is-sticky > .wpb_wrapper > .td_block_wrap:first-child + .wpb_wrapper
@@ -6469,7 +6471,7 @@ kp.kg,kp.kz,kp.ru,md.kp.media##[data-without-height] + div
 nv.ua##[data-youtube-promo-for-remove]
 sxnarod.com##[href$="?act=acquaintance"] > img[src^="/image/"]
 versia.ru##[href*="//news.google.com/publications/"]
-agents.media,gsett.ru##[href*="/donate"]
+agents.media,dyvys.info,gsett.ru##[href*="/donate"]
 tv2.today##[href*="://donate.tv2.today/"]
 112.ua,24smi.org,360tv.news,asn.in.ua,bfm.ru,bigmir.net,bizua.org,brestcity.com,dengi.ua,dumka.media,euromd.com.ua,fontanka.ru,freezmi.io,gsminfo.com.ua,hromadske.radio,incrypted.com,inforesist.org,inkorr.com,ivona.ua,izvestia.kiev.ua,korrespondent.net,lhealth.info,lviv.ua,media.az,mir24.tv,molbuk.ua,nnews.com.ua,pixelinform.com,psm7.com,radioroks.ua,realist.online,regionews.ua,ringside24.com,root-nation.com,sportarena.ua,tenews.org.ua,ternopillive.com,trmzk.ru,tv.ua,u-news.com.ua,ukrhealth.net,unian.info,unian.net,unian.ua,vesti-ua.net,yesasia.ru,ytronews.ru##[href^="https://news.google.com/publications/"]
 rutube.ru,rutube.sport##[id*="Player"] div[class*="disclaimer"]
