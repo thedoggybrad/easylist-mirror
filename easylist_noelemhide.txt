@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k494FOEnQ0EWpnlbTIPAhg
-! Version: 202607141721
+! Checksum: UQuQ6e6pKOtvYiUUrDv7JA
+! Version: 202607141732
 ! Title: EasyList without element hiding rules
-! Last modified: 14 Jul 2026 17:21 UTC
+! Last modified: 14 Jul 2026 17:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -80,6 +80,8 @@
 .html?clicktag=
 .in/js/footer_ad.js
 .jp/ads/$third-party,domain=~hs-exp.jp
+.js?i=*&referrer_url=
+.js?rh=*&bh=
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
 .net/ad2/$~xmlhttprequest
@@ -38333,6 +38335,7 @@ _800x80_
 ||tgmbxplmlsclp.space^
 ||tgowvecdkon.com^
 ||tgpfyjvaaijan.site^
+||tgrhjblmlpjcp.website^
 ||tguyxzkrxgzqt.online^
 ||thackedmacaca.cyou^
 ||thackuprise.cyou^
