@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3d3snfbzN+YrI3/qscCGhA
-! Version: 202607171152
+! Checksum: EeV9iKK5ogATIQAeHeTLqA
+! Version: 202607171201
 ! Title: ABPindo
-! Last modified: 17 Jul 2026 11:52 UTC
+! Last modified: 17 Jul 2026 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 16 Jul 2026 12:51 UTC
+! Last modified: 17 Jul 2026 11:56 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -162,6 +162,7 @@
 ||sbobet.host^$third-party
 ||sv.sleeklyyallaer.com^$third-party
 ||tambakbet.vip^$third-party
+||tantegacor88.link^-party
 ||track.aptitudemedia.co^$popup,third-party
 ||track.zerofriend.com^$popup,third-party
 ||tracker.lazada.co.id^$third-party
@@ -1861,7 +1862,7 @@ hrv.okestream365.xyz##.player-button-ad
 play.youvid.org##.player-overlay
 juragan.film##.pop-overlay
 hrv.okestream365.xyz,juragan.film##.popbox
-nomat.top##.popup.show
+nomat.shop,nomat.top##.popup.show
 kompasiana.com,tribunnews.com##.popupbb-overlay
 viva.co.id##.portlet.sideskycrapper
 koransulindo.com##.post-banner
@@ -9864,6 +9865,7 @@ kingbokep.*##video[src*=".webm"]:not(div[class*="video"] > img)
 ||agentogel4d.com^$third-party
 ||ajar-poet.com^$popup
 ||allvegaspoker.com^$third-party
+||alxvgs.pro^$third-party
 ||anaktogel.com^$popup
 ||antiadblocksystems.com^$third-party
 ||aosbobet.com^$popup
@@ -9911,6 +9913,7 @@ kingbokep.*##video[src*=".webm"]:not(div[class*="video"] > img)
 ||driverhugoverblown.com^$third-party
 ||dtscout.com^$third-party
 ||dutatoto.com^$third-party
+||dwagg.me^$third-party
 ||emputogel.com^$third-party
 ||europoker.com^$third-party
 ||everypoker.com^$third-party
@@ -9960,6 +9963,7 @@ kingbokep.*##video[src*=".webm"]:not(div[class*="video"] > img)
 ||mitrapoker.com^$third-party
 ||mobilepokerclub.com^$third-party
 ||muchospoker.com^$third-party
+||nag303.xyz^$third-party
 ||naga-poker.com^$third-party
 ||nagapoker.biz^$third-party
 ||nagapoker.com^$third-party
@@ -10027,6 +10031,7 @@ kingbokep.*##video[src*=".webm"]:not(div[class*="video"] > img)
 ||speedcount.co^$third-party
 ||sunpoker.com^$third-party
 ||surgajudi.com^$third-party
+||suvtub.id^$third-party
 ||switchpoker.com^$third-party
 ||tangkas99.com^$third-party
 ||taruhanbetting.com^$third-party
