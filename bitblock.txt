@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LFVoTTGl4NiZNny6/dj3Zw
-! Version: 202607181251
+! Checksum: EugG9v4P8M1yYj1ApE/gmg
+! Version: 202607181302
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 18 Jul 2026 12:51 UTC
+! Last modified: 18 Jul 2026 13:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1731,7 +1731,6 @@ penzainform.ru##.news-foother
 media.az##.news-inner__follow
 galka.if.ua##.news-links-social
 anistar.org,astar.bz,online-star.org,online-stars.org##.news-list-vk
-armyinform.com.ua##.news-section_items > li.link[style*="background:"]
 mirf.ru##.news-share-btn
 1istochnik.ru##.news-sidebar-social
 1kr.ua,trueua.info##.news-social
@@ -2131,7 +2130,6 @@ modsgaming.ru#?#.sidebox:-abp-has(> .inner .soc-atd)
 grodno24.com##.similar-social
 dyvys.info##.simple-socials > li
 v-variant.com.ua##.single-bottom__socials-title
-armyinform.com.ua##.single-content ~ a[href] > [style*="background: linear-gradient"]
 rubryka.com##.single-page__info-inner > div[style^="padding:"]
 rubryka.com##.single-page__social
 nabat.news##.single-sharing
@@ -5781,6 +5779,7 @@ regfile.ru##.modal-backdrop
 texterra.ru##.modal-cookie
 interfax.ru##.modal__but_subscribe
 youtebem.com##.more-stories.right
+armyinform.com.ua##.mou
 detector.media##.msb_form
 ex-press.by##.msg-subscribe
 detector.media##.msg_cooky_blk
@@ -7458,6 +7457,7 @@ mail.yandex.ru,mail.yandex.*##[id^="js-mail-layout-content-header"] > .message-l
 mail.yandex.ru,mail.yandex.*##div#js-layout-inner[class^="PageLayout-m__main--"][id="js-layout-inner"] ~ div[style*="overscroll-behavior: none;"]
 translate.yandex.ru,translate.yandex.*##.side-block > div
 vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
+yandex.ru,yandex.*##[class*="Money_"] [class]:empty
 ||auto.ru/_crpd/$xmlhttprequest
 ||docviewer.yandex.*/*/*/$script,~third-party
 ||dzen.ru/zen-partner/$third-party
@@ -7468,9 +7468,11 @@ vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 ||translate.yandex.*/_crpd/
 ||ya.ru/portal/_crpd/$xmlhttprequest
 ||ya.ru/portal/feed?
+||yandex-pogoda.static-storage.net^$script
 ||yandex-realty.naydex.net^$script
 ||yandex-tv.naydex.net^$script
 ||yandex.*/maps/_crpd/$xmlhttprequest
+||yandex.*/weather/_cry/$xmlhttprequest
 !#endif
 !
 ! - Youtube -
