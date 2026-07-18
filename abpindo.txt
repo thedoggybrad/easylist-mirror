@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: G2gAcn+JTrwUyDOqn/xsFQ
-! Version: 202607180011
+! Checksum: rXsQ/2cRuodlTvpxYIqqpQ
+! Version: 202607180022
 ! Title: ABPindo
-! Last modified: 18 Jul 2026 00:11 UTC
+! Last modified: 18 Jul 2026 00:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 17 Jul 2026 12:55 UTC
+! Last modified: 18 Jul 2026 00:20 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -947,7 +947,9 @@ tokosatu.com#@#.popupflyin-clicks-area
 ###ad-link.visible
 ###adblock-modal
 ###ouibounce-modal
+###sidebar-header img[style="max-width: 100%; height: auto;"]
 ##.ays-pb-modals
+##.newsfeed-satu-container, .newsfeed-dua-container, .newsfeed-tiga-container
 ##.sgpb-popup-dialog-main-div-wrapper
 ##.sgpb-popup-overlay
 ! *** abpindo:src/advert/specific_hide.txt ***
