@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4ZHRrSgzdsDh82vXXcqr7Q
-! Version: 202607181022
+! Checksum: jSO2mNlQHik60ssK05BbWg
+! Version: 202607181041
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 18 Jul 2026 10:22 UTC
+! Last modified: 18 Jul 2026 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -28288,6 +28288,7 @@ browsershots.org#@#.advert_area
 ||bbofqpmhexpli.site^
 ||bbpaakofsfydc.online^
 ||bbppwgyzxftcx.online^
+||bbpsltrsagmmj.website^
 ||bbqlbbnokswsaud.com^
 ||bbrdbr.com^
 ||bbtuvgqhflajx.com^
@@ -66709,6 +66710,7 @@ browsershots.org#@#.advert_area
 ||wvtsnyncckesw.site^
 ||wvvmqsasndeup.space^
 ||wvvoousaenpzv.space^
+||wvwvymiretotqo.com^
 ||wvxhxwntusldrt.com^
 ||wvyrjaskgtuxx.online^
 ||ww2.imgadult.com^
@@ -86553,6 +86555,7 @@ amazon.*##div[data-csa-c-slot-id^="loom-mobile-brand-footer-slot_hsa-id-"]
 amazon.*##div[data-csa-c-slot-id^="loom-mobile-top-slot_hsa-id-"]
 amazon.*##div[id^="sims-simsContainer_feature_div_"]:has(.sp_info_link)
 amazon.*##div[id^="sp_detail"]
+amazon.*##div[id^="typ-recommendations-stripe-"]:has(div[data-is-sponsored-label-active="true"])
 amazon.*##li[role="listitem"]:has(.hybrid-widget-sponsored-label)
 amazon.*##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 amazon.*##span[cel_widget_id^="MAIN-loom-desktop-brand-footer-slot_hsa-id-CARDS-"]
