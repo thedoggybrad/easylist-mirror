@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LMH0gHtKPgXwgFSd77Zv1A
-! Version: 202607180911
+! Checksum: nAazfPo26DMhmJ9pdToVVw
+! Version: 202607180921
 ! Title: EasyList without rules for adult sites
-! Last modified: 18 Jul 2026 09:11 UTC
+! Last modified: 18 Jul 2026 09:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -24341,6 +24341,7 @@ browsershots.org#@#.advert_area
 ||crockerydestructivespoken.com^
 ||crockeryrepay.com^
 ||crockssneak.com^
+||crockyems.cyou^
 ||crocodail-dandy.com^
 ||croebpdubtqfy.website^
 ||croefyhjjkzhg.site^
@@ -36537,6 +36538,7 @@ browsershots.org#@#.advert_area
 ||kbhnhrkenrxcw.website^
 ||kbhskcsiawspn.store^
 ||kbimwfgxmmefa.site^
+||kbjgwaixnlrel.online^
 ||kbjuqbdplwpjm.online^
 ||kbkkvtmfvkozb.online^
 ||kblcxsoxssgds.online^
@@ -53810,6 +53812,7 @@ browsershots.org#@#.advert_area
 ||tosfeed.com^
 ||toshermarrons.cyou^
 ||tossfaceboother.cyou^
+||tossilyencomia.shop^
 ||tossingtankage.cyou^
 ||tossingvivid.com^
 ||tosswealthy.com^
@@ -72388,6 +72391,7 @@ topminecraftservers.org##.grey-section
 sltrib.com##.grid-ad-container-2
 teleboy.ch##.grid-col-content-leaderboard
 newsnow.co.uk##.grid-column__container
+pixiv.net##.grid-flow-dense > .aspect-square.overflow-hidden
 issuu.com##.grid-layout__ad-by-details
 issuu.com##.grid-layout__ad-by-reader
 issuu.com##.grid-layout__ad-in-shelf
@@ -75424,6 +75428,7 @@ bravoporn.com,gogoanime.co.in,harimanga.me,hurawatch.cc,instamod.co,leercapitulo
 bravoporn.com,gogoanime.co.in,harimanga.me,hurawatch.cc,instamod.co,leercapitulo.co,mangadna.com,messitv.net,miraculous.to,putlockers.li,sukidesuost.info,waploaded.com,yts-subs.com##[style*="z-index:"]
 shotcut.org##[style="background-color: #fff; padding: 6px; text-align: center"]
 realitytvworld.com##[style="background-color: white; background: white"]
+pixiv.net##[style="display: block; height: 345px; width: 500px;"]
 pixiv.net##[style="display: block; width: 100%; height: 520px;"]
 pixiv.net##[style="display: block; width: 300px; height: 250px;"]
 imgbox.com##[style="display: inline-block;width:300px;height:250px"]
@@ -76427,9 +76432,11 @@ slickdeals.net##.frontpageGrid__feedItem:has(.dealCardBadge--promoted)
 alibaba.com##.gallery-card:has(.searchx-card-e-ad)
 detectiveconanworld.com##.generated-sidebar[style="background: #ffffff;"]
 bestbuy.com##.generic-morpher:has(.spns-label)
+pixiv.net##.grid-flow-dense > div:has(> [style="display: block; width: 184px; height: 232px;"] > iframe)
 sainsburys.co.uk##.gridItem:has(.citrusAdproduct)
 pstream.org##.group > .border-buttons-purple:has(> button[aria-label="Dismiss ad"])
-pixiv.net##.gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [id^="adsdk-"])
+pixiv.net##.gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [style="display: block; width: 300px; height: 250px;"])
+pixiv.net##.gtm-toppage-thumbnail-manga-recommend-works-zone li:has(> [style="display: block; width: 184px; height: 232px;"])
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.hrHZYT:has([data-testid="popoverTriggersponsoredLabel"])
 dollargeneral.com##.image__desktop-container:has([data-track-image*="|P&G|Gain|"])
 1tamilmv.tax##.ipsWidget:has([href*="RajbetImage"])
@@ -76443,7 +76450,6 @@ bjs.com##.lazyload-wrapper:has(> #promoteIqContent)
 motortrend.com##.lg\:min-h-\[90px\]
 alibaba.com##.list-card:has([data-role="ad-area"])
 trip.com##.list-item:has(span.ad-info)
-pixiv.net##.list-none:has(> div > [id^="adsdk"])
 hotukdeals.com##.listLayout-box:has(> .bRad--a)
 pcgamer.com##.listingResult:has(> .sponsored-post)
 euronews.com##.m-object:has(.m-object__spons-quote)
@@ -76603,6 +76609,7 @@ alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
 kayak.com##[role="button"]:has([class*="ad-marking"])
 staples.com##[role="complementary"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)
 kayak.com##[role="tab"]:has([class*="sponsored"])
+pixiv.net##[span="1"]:has(> div > div > div[style="display: block; width: 100%; height: 434px;"])
 unknowncheats.me##[style*="justify-content"]:has([rel^="sponsored"]) + [style]
 pixiv.net##[style^="display: block; width: 100%; height"]:has(> iframe[data-uid])
 manomano.*##a[class]:has(> .UWP_c8)
@@ -76757,6 +76764,7 @@ windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
 thehansindia.com##section:has(> .to-be-async-loaded-ad)
 thehansindia.com##section:has(> [class*="level_ad"])
+pixiv.net##section:has(> div > div > iframe[name="illusttop_appeal"])
 tripadvisor.*##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
 mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirrored.to/templates/mirrored/images/hosts/FilesDL.png"])
