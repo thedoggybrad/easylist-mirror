@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OkHKPpiPklYopQ7lBM2JoQ
-! Version: 202607201451
+! Checksum: pMhBULfC0y/6hTuBoI68UA
+! Version: 202607201502
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Jul 2026 14:51 UTC
+! Last modified: 20 Jul 2026 15:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4231,6 +4231,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 /min/js/pages/push.js$script,~third-party,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-georgia.com|sputnik-news.ee|sputnik-ossetia.com|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.kz|sputniknews-uz.com
 /pum-site-styles-$stylesheet,domain=lhealth.info
 /push.js$script,domain=mail.ru
+/topics/all?limit=10&filter[type]=topic::news$domain=lenta.news|lenta.ru
 /wp-content/plugins*popup-builder/*$domain=blackwot.ru|shotam.info
 /wp-content/plugins/icegram/*$domain=mos-holidays.ru
 ://s*.*ezka.*/i/hdrezka_premium_
@@ -4256,7 +4257,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||androidphone.su/wp-content/themes/ribbon/game$object
 ||api.1plus1.video/*/recommendation_projects/
 ||api.acquisition-gwe.plus.kinopoisk.ru/api/*/offers$xmlhttprequest,domain=www.kinopoisk.ru
-||api.lenta.*/topics/all?limit=10&filter[type]=topic::news$domain=lenta.news|lenta.ru
 ||api.vp.rambler.ru/api/v*/records/byFilter|$xmlhttprequest
 ||apihost.ru/js/function.js|$script,domain=apihost.ru
 ||assets.teinon.net/assets/dist/5112.$domain=ficbook.net
