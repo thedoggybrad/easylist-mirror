@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VXg41NR0mYTHsUsJKGHVpA
-! Version: 202607201422
+! Checksum: OquTuq9tPdfUAYBBnZMhnQ
+! Version: 202607201432
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Jul 2026 14:22 UTC
+! Last modified: 20 Jul 2026 14:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -715,7 +715,6 @@ sv-scena.ru##.Youtube
 forbes.ru##._2Z8Sf
 gazeta.press,gazeta.ru##._icon-tg
 psychologies.ru##._invite-banner
-lenta.ru##._social-network
 holod.media##.a-our-social
 football-fun.ru##.a-social
 pixelinform.com,sysidka.com##.a-wrap
@@ -882,9 +881,6 @@ factor.ua##.b-social__media
 altapress.ru##.b-social_top
 1tv.od.ua##.b-socials-board
 kavkaz-uzel.eu##.b-socials-links
-lenta.ru##.b-socials-subscribe
-lenta.ru##.b-socials__email
-lenta.ru##.b-socials__sharing > :not(.b-socials__favorite)
 7days.ru##.b-stripe_content_footer-info > .b-stripe
 sobaka.ru##.b-telegram-promo
 3ivi.com,bestivi.com,ezhdrezka.com,freehdrezka.com,hdrezka.ag,hdrezka.buzz,hdrezka.by,hdrezka.city,hdrezka.club,hdrezka.co,hdrezka.in,hdrezka.ink,hdrezka.loan,hdrezka.me,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkapez.org,hdrezkapzm.org,hdrezkawer.org,kinopub.me,rezka-ua.tv,rezka.ag,rezkery.com,rezkify.com##.b-tg__wrapper
@@ -1644,7 +1640,7 @@ mogilev.online##.menu-social
 milknews.ru##.menu-top__social
 f1news.ru##.menu2-tg
 u24.ua##.menu__social
-lenta.ru##.menu__socials
+lenta.news,lenta.ru##.menu__socials
 mixed.news##.menu_item__share
 forum.ixbt.com##.menu_list > [onclick^="return open_social"],.menu_list > .separator
 bhub.com.ua##.menu_soc
@@ -1920,7 +1916,7 @@ inforeactor.ru##.read_telegram
 dyvys.info##.readmoreinchat
 mgazeta.com##.readus
 zn.ua##.recent-events
-lenta.ru##.redline
+lenta.news,lenta.ru##.redline
 dnl.com.ua#?#.region-before-comments > div:-abp-has(> div > .ya-share2)
 knijky.ru##.region-content > #block-system-main ~ .block
 rusvesna.su##.region-extra2 > .block > div > table
@@ -1984,7 +1980,6 @@ delfi.ua##.sbookmarks
 detector.media##.sc_links
 tokar.ua##.scl
 tokar.ua##.scl-sbsc
-lenta.ru##.scr-link
 sport-express.net,sport-express.ru##.se-authform__or
 sport-express.net,sport-express.ru##.se-authform__socials
 sport-express.net,sport-express.ru##.se-footer-icons__socials
@@ -2951,7 +2946,6 @@ progorod62.ru##a[aria-label="Вконтакте"]
 sportrg.ru##a[class*="ArticleContentBtn_tg_"]
 rg.ru##a[class*="_socialItem"]
 avito.ru##a[class*="styles-module-root_shape_"]
-lenta.ru##a[class*="telegram-"]
 1tv.ru##a[class^="ButtonWithGradient_"][href^="https://max.ru/"]
 kod.ru##a[class^="Tg"]
 ukrs.com.ua##a[class^="finewp-social-icon-"][target="_blank"]
@@ -4232,7 +4226,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 /jquery.arcticmodal$script,stylesheet,domain=allboxing.ru|bigpicture.ru
 /mailpoet/assets/*$domain=gameout.ru
 /manifest-ts.json$domain=rambler.ru
-/manifest.json$domain=championat.com|championat.ru|eapteka.ru|gazeta.press|gazeta.ru|hi-chef.ru|lenta.ru|mail.ru|my.mosenergosbyt.ru|rambler.ru|riafan.ru|sportmail.ru
+/manifest.json$domain=championat.com|championat.ru|eapteka.ru|gazeta.press|gazeta.ru|hi-chef.ru|lenta.news|lenta.ru|mail.ru|my.mosenergosbyt.ru|rambler.ru|riafan.ru|sportmail.ru
 /manifest.webmanifest$domain=otvet.mail.ru
 /min/js/pages/push.js$script,~third-party,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-georgia.com|sputnik-news.ee|sputnik-ossetia.com|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.kz|sputniknews-uz.com
 /pum-site-styles-$stylesheet,domain=lhealth.info
@@ -4262,7 +4256,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||androidphone.su/wp-content/themes/ribbon/game$object
 ||api.1plus1.video/*/recommendation_projects/
 ||api.acquisition-gwe.plus.kinopoisk.ru/api/*/offers$xmlhttprequest,domain=www.kinopoisk.ru
-||api.lenta.ru/*/topics/all?limit=10&filter[type]=Topic::News
+||api.lenta.*/topics/all?limit=10&filter[type]=topic::news$domain=lenta.news|lenta.ru
 ||api.vp.rambler.ru/api/v*/records/byFilter|$xmlhttprequest
 ||apihost.ru/js/function.js|$script,domain=apihost.ru
 ||assets.teinon.net/assets/dist/5112.$domain=ficbook.net
@@ -4974,7 +4968,6 @@ kriminal.tv###tvfooter
 tv-gubernia.ru###tvgnote
 twitch.tv###twilight-sticky-footer-root
 anti-malware.ru###unisender-subscribe-form
-lenta.ru###up
 korsars.pro###upbutton
 24tv.ua,football24.ua,zaxid.net###user-vote-trigger
 moscatalogue.net###user_disclaimer
@@ -5027,7 +5020,7 @@ instagram.com##.ZUqME.N9d2H
 2gis.by,2gis.kz,2gis.ru##._1jefphjl
 alfadirect.ru##._2QU59
 superjob.ru##._2hVB_
-lenta.ru##._branded.emoji-bar
+lenta.news,lenta.ru##._branded.emoji-bar
 doctorpiter.ru,marieclaire.ru,maximonline.ru,mcmaison.ru,parents.ru,psychologies.ru,the-day.ru,thegirl.ru,vokrugsveta.ru,woman.ru##._hb-promo
 2gis.by,2gis.kz,2gis.ru##._nlniiu
 abw.by##.a100-widget
@@ -7770,7 +7763,7 @@ myshared.ru#@#.ya-share2_inited
 @@||rublacklist.net/wp-content/themes/rublacklist/images/$domain=rublacklist.net
 @@||savevideo.me/images/services/$image,domain=savevideo.me
 @@||sberometer.ru/images/google-play.$image,domain=sberometer.ru
-@@||st.top100.ru/top100/top100.js|$script,domain=comments.rambler.ru|ferra.ru|gazeta.press|gazeta.ru|indicator.ru|lenta.ru|letidor.ru|moslenta.ru|motor.ru|passion.ru|quto.ru|secretmag.ru|wmj.ru
+@@||st.top100.ru/top100/top100.js|$script,domain=comments.rambler.ru|ferra.ru|gazeta.press|gazeta.ru|indicator.ru|lenta.news|lenta.ru|letidor.ru|moslenta.ru|motor.ru|passion.ru|quto.ru|secretmag.ru|wmj.ru
 @@||stat.radar.imgsmail.ru/*=honeypot_fake_$image,domain=e.mail.ru
 @@||static.tacdn.com/components/dist/social.share-cta.*.js|$script,domain=tripadvisor.ru
 @@||static1.1tv.ru/resources/jquery.smartbanner.js$script,domain=1tv.ru
