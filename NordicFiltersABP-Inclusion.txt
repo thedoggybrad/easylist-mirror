@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: A7dDuIJx5SCTMJorj1VwDA
-! Version: 202607210952
+! Checksum: GaH5FqLpzHHR8Gw2Gfk/PQ
+! Version: 202607211002
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 Jul 2026 09:52 UTC
+! Last modified: 21 Jul 2026 10:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -29074,6 +29074,7 @@ browsershots.org#@#.advert_area
 ||bkbhaestxgkor.online^
 ||bkezgkhgnqcpb.online^
 ||bkfhvpacslvjh.site^
+||bkgclwupffqez.site^
 ||bkgljnppwxjat.icu^
 ||bkgzynoggdslv.website^
 ||bkhhmyjvmfgxg.online^
@@ -48916,6 +48917,7 @@ browsershots.org#@#.advert_area
 ||mohardinomys.cyou^
 ||mohdzwdqjdfvn.online^
 ||mohicangutting.cyou^
+||mohoprana.qpon^
 ||moidoregrasser.qpon^
 ||moiernonpaid.com^
 ||moiestibidine.shop^
@@ -87249,6 +87251,7 @@ wikiwand.com##div[class^="wrapper_wrapper"]:has(> div[id^="ezoic-pub-ad"])
 outlook.live.com##div[data-app-section="MessageList"] div[class][id*="-"]:has(> div:not([class]) > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] + .ms-Button--hasMenu.ms-Button--icon)
 flipkart.com##div[data-id][style]:has([width][height][fill])
 bjs.com##div[data-index]:has(.sponsored-badge)
+chatgpt.com##div[data-message-supplement]:has(aside[data-partial-island="assistant-ads"])
 etherscan.io##div[data-nosnippet]:has(> ins[id])
 rakuten.com##div[data-productid]:has(a[href*="&fbbaid="])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
