@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: hufL/iv3UXyZ4yOwocy9/Q
-! Version: 202607211552
+! Checksum: 5QY2d3bT/O0PNispyVTIBA
+! Version: 202607211642
 ! Title: ABP filters
-! Last modified: 21 Jul 2026 15:52 UTC
+! Last modified: 21 Jul 2026 16:42 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1056,7 +1056,7 @@ hk01.com#$#override-property-read isAdShieldTurn false
 ||html-load.com/session$domain=seriouseats.com
 ||error-report.com^$domain=seriouseats.com
 ||seriouseats.com^$csp=script-src-attr 'none'
-seriouseats.com#$#override-property-read as_-400652451 true; override-property-read as_-739600671 true; override-property-read as_-1078548891 true; override-property-read as_1336353459 true
+seriouseats.com#$#override-property-read as_-945714655 true; override-property-read as_-979609477 true;override-property-read as_-1318557697 true; override-property-read as_-959343976 true; override-property-read as_-700311684 true
 ||content-loader.com^$script,domain=kurir.rs
 ||html-load.com^$script,domain=kurir.rs
 ||dxniuftypzlky.cloudfront.net^$script,domain=kurir.rs
@@ -1104,7 +1104,7 @@ nemzetisport.hu#$#override-property-read isAdShieldTurn false
 ||content-loader.com^$script,domain=tunebat.com
 ||error-report.com^$domain=tunebat.com
 tunebat.com#$#override-property-read isAdShieldTurn false
-tunebat.com#$#override-property-read as_1304145770 emptyObj; override-property-read as_601629091 emptyObj; override-property-read as_336432199 true; override-property-read as_1150850259 emptyObj; override-property-read as_144435546 emptyObj; override-property-read as_1184513214 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true; override-property-read as_525622783 true; override-property-read as_-1078548891 true
+tunebat.com#$#override-property-read as_-979609477 true; override-property-read as_-833145920 true; override-property-read as_771025754 true; override-property-read as_-1318557697 true; override-property-read as_-1172094140 true; override-property-read as_1731451646 true; override-property-read as_-959343976 true
 ||onlineradiobox.com$csp=script-src-attr 'none'
 ||html-load.com^$script,domain=onlineradiobox.com
 ||content-loader.com^$script,domain=onlineradiobox.com
