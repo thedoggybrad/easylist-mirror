@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 6JR8q93RG2103P/1bQnq0Q
-! Version: 202607211521
+! Checksum: 8WVXtrp8e0dHfacuF9jNvQ
+! Version: 202607211532
 ! Title: ABP filters
-! Last modified: 21 Jul 2026 15:21 UTC
+! Last modified: 21 Jul 2026 15:32 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1576,6 +1576,7 @@ bysebuho.com,bysesayeveum.com#$#timer-override 1000000 readyWait
 peachify.top#$#prevent-listener click /atob|_blank/
 vidnest.fun#$#timer-override 1 window.location.replace noop timeout
 vidrock.ru#$#prevent-element-src-loading script /acscdn\.com|aclib/
+zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestream_cnwpop
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -3348,6 +3349,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||foothotgoback.com^
 ||fordedcostaea.com^
 ||formulearchin.com^
+||franceswaps.com^
 ||fremtencycl.com^
 ||freshacceleronparalleldynamics.net^
 ||fretumlimpsey.com^
@@ -3822,6 +3824,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||uttergleeks.com^
 ||vd.7vid.net^
 ||vector26060.com^
+||verdedagon.com^
 ||versinehopper.com^
 ||vextslows.com^
 ||villagetraitgarret.com^
