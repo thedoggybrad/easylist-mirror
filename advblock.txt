@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yn2U4+iq5D2mkdxX5zj1WQ
-! Version: 202607220822
+! Checksum: Bsbe/EWwZLTErTBqdNr5zA
+! Version: 202607220832
 ! Title: RU, UA, UZ, KZ
-! Last modified: 22 Jul 2026 08:22 UTC
+! Last modified: 22 Jul 2026 08:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16192,6 +16192,7 @@ agroinfo.kz##.sbanner
 pikabu.ru##.sber-smile
 uaspectr.com##.sbr-slider > .pst-block > .pst-block-head
 tagilcity.ru##.sbs_p
+youla.ru##.sc-bzywxr
 eva.ru##.scroll-smooth
 klanwin.ru,pi-c.ru##.scrollable
 sovets.net##.scrolled-adv
@@ -23663,6 +23664,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||vk.com/dist/web/aliexpress_feed_recommendations_carousel.
 ||vk.com/dist/web/mrtarg.
 ||vk.com/js/al/aes_light.js$script,domain=~vk.com
+||vk.ru/*/left_menu_invite_promo_menu_item_onboarding.
 ||vkaznu.ru^*.php$script
 ||vkurske.com/banners/
 ||vkusvill.ru/upload/ext_assets/mail_ru_top_
@@ -27287,6 +27289,7 @@ spletnik.ru##.z-adblock-message
 magnit.ru##[class*="unit-yaslot-error-popup"]
 tvigle.ru##[class^="styles_removeAd"]
 pikabu.ru##[data-role="adb-warning"]
+youla.ru##[data-test-component="Notice"]
 channels247.net,goool7.ws,sport7.biz,sportbarchik88.com,sporting77.com#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv > img[src$="/adblock.png"])
 animedub.ru##a[href="https://animedub.ru/adblock.html"]
 sntch.com#?#article > p:-abp-contains(/отключите блокировку рекламы!$/)
