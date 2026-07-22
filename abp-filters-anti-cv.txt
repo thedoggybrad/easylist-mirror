@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: AT7EB9LATLYLeGMsa3nxZQ
-! Version: 202607221212
+! Checksum: TdhfKn7XMTaiNmWg4qYmkQ
+! Version: 202607221222
 ! Title: ABP filters
-! Last modified: 22 Jul 2026 12:12 UTC
+! Last modified: 22 Jul 2026 12:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2059,6 +2059,8 @@ cpasbien.*#$#hide-if-matches-xpath '//div[contains(@style,"z-index: 2147483647")
 ||horizontallyresearchpolar.com^$popup,domain=nakastream.tv
 nakastream.*#$#replace-fetch-response /("adsterraSmartLink[0-9]?":")[^"]+/ '$1' 'adsterraSmartLink'
 french-stream.*,fs15.lol,fs17.lol,fs21.lol#$#override-property-read aclib.runPop noopFunc
+french-stream.*#$#prevent-element-src-loading script /magasinpanda\.qpon/
+playmogo.com#$#prevent-element-src-loading script /doodcdn\.io\/ads\/ad\.js/
 ! *** abp-filters-anti-cv:german.txt ***
 ! Popup/Popunder/Clickunder
 deutschsex.com,frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
