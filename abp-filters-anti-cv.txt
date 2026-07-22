@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: R0ymQIpq8/62qGcEvdxWLw
-! Version: 202607221132
+! Checksum: UGke2cQr7+EanFatq8WZPQ
+! Version: 202607221141
 ! Title: ABP filters
-! Last modified: 22 Jul 2026 11:32 UTC
+! Last modified: 22 Jul 2026 11:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -871,6 +871,7 @@ kuruma-news.jp#$#override-property-read adshield.isAdBlockerDetected false
 ||finallymidwife.com^$domain=kuruma-news.jp
 ||drawbut.com^$domain=kuruma-news.jp
 ||gadzooksrudely.com^$domain=kuruma-news.jp
+||grubbytrain.com^$domain=kuruma-news.jp
 @@||error-report.com^$xmlhttprequest,domain=kuruma-news.jp
 ||content-loader.com^$script,rewrite=abp-resource:blank-js,domain=kuruma-news.jp
 kuruma-news.jp^$csp=script-src-attr 'none'
@@ -1043,6 +1044,7 @@ calculatorsoup.com^$csp=script-src-attr 'none'
 ||error-report.com^$domain=calculatorsoup.com
 ||duhquietly.com^$domain=calculatorsoup.com
 ||gadzooksrudely.com^$domain=calculatorsoup.com
+||grubbytrain.com^$domain=calculatorsoup.com
 calculatorsoup.com#$#override-property-read as_-1377875130 emptyObj; override-property-read as_-936640185 emptyObj; override-property-read as_-643962645 true; override-property-read as_-1878905411 emptyObj; override-property-read as_711290288 emptyObj; override-property-read as_169284756 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 calculatorsoup.com#$#override-property-read isAdShieldTurn false
 hk01.com^$csp=script-src-attr 'none'
@@ -1089,6 +1091,7 @@ omnicalculator.com#$#override-property-read as_-979609477 true; override-propert
 ||stg.html-load.com^$script,domain=doviz.com
 ||duhquietly.com^$script,domain=doviz.com
 ||gadzooksrudely.com^$domain=doviz.com
+||grubbytrain.com^$domain=doviz.com
 ||error-report.com^$domain=doviz.com
 doviz.com#$#override-property-read as_2025345168 emptyObj; override-property-read as_1100318047 emptyObj; override-property-read as_221087453 true; override-property-read as_-1763784112 emptyObj; override-property-read as_-1565483035 emptyObj; override-property-read as_-1244322961 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 doviz.com#$#override-property-read isAdShieldTurn false
@@ -1096,6 +1099,7 @@ doviz.com#$#override-property-read isAdShieldTurn false
 ||stg.html-load.com^$script,domain=nemzetisport.hu
 ||duhquietly.com^$script,domain=nemzetisport.hu
 ||gadzooksrudely.com^$script,domain=nemzetisport.hu
+||grubbytrain.com^$domain=nemzetisport.hu
 ||error-report.com^$domain=nemzetisport.hu
 nemzetisport.hu#$#override-property-read as_-1056586001 emptyObj; override-property-read as_77491024 emptyObj; override-property-read as_1259647322 true; override-property-read as_-1760847712 emptyObj; override-property-read as_76111661 emptyObj; override-property-read as_240537169 true; override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true
 nemzetisport.hu#$#override-property-read isAdShieldTurn false
@@ -1325,7 +1329,7 @@ wco.*,wcostream.*#$#abort-current-inline-script document.createElement adsbox; o
 3movierulz.tv,7-up.net,7deadlysins.tv,abcvideo.cc,avimobilemovies.co,aznewhomes4u.com,batimovie.com,canonprinterdownload.com,celebritiesempire.com,dailyuploads.net,dood.*,doods.*,doodstream.*,dooodster.*,downloadgamexbox.com,dragonballsuperdub.com,dramacool.movie,dramacool.video,fanproj.net,filmovi.co,fullasianmovies.com,gamepc18.net,giaoxudaiphu.com,haqqinda.az,hot-chicks.website,hotshotgamers.net,hunstulovers.net,indishare.org,isohunt.lol,isohuntz.net,kshows.to,livecricket.is,mobilemovies.info,movies123.xyz,mybet.tips,myrightspot.com,naijal.com,pornlibrary.net,premiumkeyesetnod32.blogspot.com,prostream.to,putlocker68.com,putlockers.fm,putlockertv.ist,sandup.co,thevideobee.to,uqload.*,vidbem.com,vidbm.com,videojinni.com,vidfast.*,vidlox.me,vidshar.tv,vidshare.tv,vidstreaming.io,vostfrserie.biz,watchblackclover.com,watchdbzsuper.tv,watchmha2dub.com,watchshokugeki.com,youdbox.com#$#abort-current-inline-script Math zfgloaded
 ! #CV-685
 cloudvideo.tv,flashx.tv,gomovies.*,gostream.nu,govid.*,hdvid.tv,openloadmovies.*,vidshare.tv#$#abort-on-property-write Fingerprint2
-advertape,bunkr-albums.io,bunkr.*,charlessheimprove.com,game3rb.com,jefferycontrolmodel.com,jennifereconomicgive.com,kissjav.*,lauradaydo.com,myvidplay.com,richardquestionbuilding.com,pamelachangemission.com,streamtape.*#$#abort-on-property-read window.open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
+advertape,bunkr-albums.io,bunkr.*,caseyimpactstation.com,charlessheimprove.com,game3rb.com,jefferycontrolmodel.com,jennifereconomicgive.com,kissjav.*,lauradaydo.com,myvidplay.com,richardquestionbuilding.com,pamelachangemission.com,streamtape.*#$#abort-on-property-read window.open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
 123putlocker.club#$#abort-current-inline-script _0xbc13
 ! #CV-692
 biter.tv,flashx.tv,thevid.net,yuudrive.me#$#abort-on-property-read _pop
@@ -1577,6 +1581,7 @@ peachify.top#$#prevent-listener click /atob|_blank/
 vidnest.fun#$#timer-override 1 window.location.replace noop timeout
 vidrock.ru#$#prevent-element-src-loading script /acscdn\.com|aclib/
 zorotv.com.ro#$#cookie-remover ts_animestream_cwpop; cookie-remover ts_animestream_cnwpop
+||users.videasy.to^$domain=vidking.net|player.videasy.to
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -1656,6 +1661,7 @@ receive-smss.com#$#abort-on-property-read adBlockEnabled
 afreesms.com#$#abort-current-inline-script document.getElementById window.open
 lookmovie.*,lookmovie2.*#$#abort-current-inline-script addEventListener
 lookmovie.*#$#prevent-element-src-loading script /push-sdk\.com/
+caseyimpactstation.com#$#abort-current-inline-script globalThis '/break;case/'
 smallseotools.com#$#abort-current-inline-script $ ga_pop
 ||smallseotools.com/webimages/garamar*.png^$image,domain=smallseotools.com
 duplichecker.com#$#hide-if-matches-xpath './/img[@class="img-responsive"][@src]/preceding::a[@target="blank"][@rel="nofollow"]/ancestor-or-self::div[1]'
@@ -1875,6 +1881,7 @@ zdnet.com#$#hide-if-matches-xpath './/video-js[@id][@playsinline][@aria-label]/v
 zdnet.com##.c-pageArticleSingle_player.c-avStickyVideo
 ||brightcove.com^$xmlhttprequest,domain=zdnet.com
 myflixerfree.*#$#override-property-read vastAdData undefined
+||cdn.staticmoly.me/*$domain=vidmoly.biz
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
