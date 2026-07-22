@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607221851
+! Version: 202607221910
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Jul 2026 18:51 UTC
+! Last modified: 22 Jul 2026 19:10 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 91f5a19a7afc01b36cb4ade88bc930394cfbb838
+! Commit: 07fa8c89c95b561606d35acbe06e3883e8798401
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -35980,6 +35980,7 @@ polygon.com,theverge.com##.duet--cta--newsletter
 ! :has
 goodrx.com##.\[\&_\[data-qa\=searchbar\]\>button\]\:md\:mt-4:has([data-qa="newsletter-form"])
 spin.com##.border-backgrounds.flex.flex-wrap.border-t:has(form-container)
+ign.com##.box-wrapper:has(> .promo-card)
 reactormag.com##.desktop\:mb-\[27px\]:has(> hubspot-newsletter)
 eposaudio.com##.grid__item:has(> .newsletter-sign-up)
 tryterra.co##.lg\:px-24:has(#email-container)
@@ -38642,7 +38643,7 @@ letsdothis.com###cookieAcceptanceModal
 511mt.net###cookieBannerHolder
 rsvp.withgoogle.com###cookieBarWrapper
 egamersworld.com###cookieBot
-e-hapi.com###cookieBox
+e-hapi.com,tomods-ap.com###cookieBox
 rewards.bing.com###cookieConsentContainer
 cambridgeparkandride.info###cookieConsentDialog
 investtech.com###cookieConsentDialogue
@@ -39571,6 +39572,7 @@ enen.eu##.basel-cookies-popup
 prestamarketing.com##.basicLightbox
 batchgeo.com##.batchgeo-cookie-notice
 bbc.com##.bbc-bmxm2b
+trendoby.net##.bcb3a172
 band.us##.bcm_bandCookieModuleWrap
 opentip.kaspersky.com##.bd80ac
 pushkin.institute##.beono-flashmessage
@@ -40087,7 +40089,7 @@ unitedpets.com##.cupjma
 greats.com##.custom-onetrust-banner
 princetonreview.com##.customer-cookie-container
 tannoy.com##.cv2-wrapper
-grassfeld.com,hockeystack.com,sogni.ai##.cw-cookies
+grassfeld.com,hockeystack.com,sogni.ai,thesignalgroup.com##.cw-cookies
 careerswales.gov.wales##.cw-cookies-policy-banner
 tonies.com##.cwJWme
 eoportal.org##.cy-cookie-popup
@@ -41524,7 +41526,7 @@ analyticsmania.com,athenaeumscheltema.nl,biz.chosun.com,campfimfo.com,championat
 ! ! #cookieNotice
 ac-mejerimaskiner.dk,amazingfoodmadeeasy.com,bradyunited.org,chetak.com,dks.at,dochas.ie,ecuavisa.com,growbrothers-ev.de,knifecenter.com,langendorf.de,luxorcrystal.com,theluxuryhut.com,wsg-fussball.at###cookieNotice
 ! ! #notice-cookie-block
-aescripts.com,all4running.nl,chillyhilversum.be,electroworld.nl,hakkousa.com,laurenbjewelry.com,lempiapteekki.fi###notice-cookie-block
+aescripts.com,all4running.nl,chillyhilversum.be,electroworld.nl,hakkousa.com,laurenbjewelry.com,lempiapteekki.fi,verkkoapteekit.fi###notice-cookie-block
 ! ! .overlay-gdpr-consent/.overlay-wrapper
 lsl.com,sexlivecam.co.uk,xxxcams.com##.overlay-gdpr-consent
 lsl.com,sexlivecam.co.uk,xxxcams.com##.overlay-wrapper
