@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: HOYiOrTGi2S8+1VG4lf0eg
-! Version: 202607231152
+! Checksum: /LkzrNO7/G0pUNRKUzltuw
+! Version: 202607231202
 ! Title: ABP filters
-! Last modified: 23 Jul 2026 11:52 UTC
+! Last modified: 23 Jul 2026 12:02 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2211,6 +2211,7 @@ wykop.pl#$#hide-if-matches-xpath './/section[starts-with(@data-label, "ad: ")]/s
 ! video ads
 ||g.cda.pl/player*?ads&vi*^$xmlhttprequest,domain=cda.pl
 ! Popup/Popunder/Clickunder
+strumyk.*#$#abort-on-property-read aclib;
 ebd.cda.pl#$#abort-on-property-write window.open
 filmy69.pl,oglaszamy24.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 oglaszamy24.pl#$#abort-on-property-write onload
