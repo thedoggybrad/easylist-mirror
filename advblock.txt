@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZHVeJPvaeJtSxhP/qIJFkA
-! Version: 202607240911
+! Checksum: un8wtP0iiFq0H8BTndhW6w
+! Version: 202607240922
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Jul 2026 09:11 UTC
+! Last modified: 24 Jul 2026 09:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24715,6 +24715,7 @@ fontanka.ru##div[style^="order:"] > a[href*="/?erid="]
 fontanka.ru##div[style^="order:"] > a[href*="/?erid="] ~ div
 e1.ru##li[class="e1-nav__item _auto"]
 116.ru,161.ru,164.ru,173.ru,26.ru,59.ru,63.ru,72.ru,74.ru,76.ru,93.ru,e1.ru,ngs.ru,ngs24.ru,ngs55.ru,sochi1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,www.nn.ru##noindex ul > li > [data-click-area]
+ngs.ru#?#section > div > section[class^="baseBlock_"]:-abp-has(> a[href*="utm_campaign"])
 fontanka.ru#?#section[class^="sliderWrap_"]:-abp-has(> div > [href="/pressrelease/"])
 59.ru,ngs.ru##ul > li > a[href*="/longread"]
 59.ru,ngs.ru##ul > li > a[href*="erid="]
