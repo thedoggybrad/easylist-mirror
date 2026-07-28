@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zoJA6qsb6Cfv3gXKSS2w3A
-! Version: 202607281041
+! Checksum: HlAVNGnhV0UsN4Npr3m8QA
+! Version: 202607281052
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 28 Jul 2026 10:41 UTC
+! Last modified: 28 Jul 2026 10:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2006,6 +2006,7 @@ zi.ua##.shar-title
 024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,goha.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ru,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,reshuent.ru,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,speedtest.net.ua,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tele.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.com,vgtimes.ru,vlast.kz,vm.ru,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,xv-ru.com,yakutiamedia.ru##.share
 my.kaspersky.com##.share > :not(.share-link)
 liwihelp.com##.share > a[onclick*="sharer"]
+krymr.com,radiosvoboda.org,svoboda.org##.share--box
 milknews.ru##.share-aside
 cross.expert##.share-auth
 povarenok.ru##.share-bl
@@ -2449,7 +2450,7 @@ tokar.ua##.stck-mn
 peoples.ru##.sticky > .widget:first-child
 shazoo.ru##.sticky > div > a[href="#"]
 konohatv.life##.sticky > div.w-full
-radiosvoboda.org##.sticky-share-container
+krymr.com,radiosvoboda.org,svoboda.org##.sticky-share-container
 tverigrad.ru##.sticky_cos
 www.kinopoisk.ru#?#.stk-grid:-abp-has(> .stk-grid-col_last > .stk-grid > .stk-grid-col > p > strong > a[href^="https://t.me/"])
 village.com.ua#?#.stk-post > .stk-grid:-abp-has([href*="://t.me/"])
@@ -4613,6 +4614,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 tadviser.ru###BottomSocial
 developers.sber.ru,giga.chat###GDPRBanner
 radiosvoboda.org###GR-1801
+krymr.com,svoboda.org###GR-COMBINED-BANNERS
 bigpicture.ru###GoTopX
 investing.com###PromoteSignUpPopUp
 drweb.ru###ShowIt
@@ -5722,6 +5724,7 @@ psychologies.ru##.magazine__links-block
 zorbasmedia.ru##.mail
 minfin.com.ua##.mail-subscribe-user
 kinoteatr.ru##.mail_form
+krymr.com,radiosvoboda.org,svoboda.org##.mailchimp-signup-form
 finzz.ru##.mailing
 peterburg2.ru##.main-announce > img[src*="/subscribe."]
 peterburg2.ru##.main-announce > img[src*="/subscribe."] ~ div
