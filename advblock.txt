@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: B5Rn2OoZRstV0RM6r4VoAQ
-! Version: 202607291412
+! Checksum: t50cEJpVl5mdINa0D9CdEg
+! Version: 202607291423
 ! Title: RU, UA, UZ, KZ
-! Last modified: 29 Jul 2026 14:12 UTC
+! Last modified: 29 Jul 2026 14:23 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18692,7 +18692,7 @@ raes.tech,sbfull.com,wigistream.to##body > div[style*="2147483647"]
 nagon.net##body > div[style*="cursor: pointer;"]
 pay-day.ru##body > div[style*="fixed"]:not([id]):not([class])
 ykt.ru##body > div[style*="height:"][style*="180px"]
-news.zerkalo.io##body > div[style*="height:250px"]
+news.zerkalo.io##body > div[style*="height:"][style*="250px"]
 biqle.org,biqle.ru##body > div[style*="position"][style*="background"]
 cakevita.ru,darevamed.ru##body > div[style*="width"][style*="z-index"][style*="position"]
 chelnyclub.ru##body > div[style*="width: 990px"]
@@ -19716,6 +19716,7 @@ reshak.ru##div[style*="height:325px;"]
 euro-football.ru,liveresult.ru##div[style*="height:400px;"]
 narutoplanet.ru##div[style*="margin-top: 9.5px;"]
 euro-football.ru,liveresult.ru##div[style*="min-height:"][style*="00px"]
+news.zerkalo.io##div[style*="min-height:"][style*="250px"]
 chipmaker.ru##div[style*="min-height:100px;"]
 glavred.info,glavred.net##div[style*="px;max-height:"][style*="overflow:"][style*="hidden"]
 glavred.info,glavred.net,unian.net,unian.ua##div[style*="px;max-height:"][style*="position:"]
@@ -21954,7 +21955,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||hrk.aero/wp-content/themes/hrk-new/*banners/
 ||hromadske.radio/assets/banners/
 ||hsl.com.ua/*parimatch$image
-||html-load.com/loader.min.js$domain=businessua.com|eurointegration.com.ua|news.zerkalo.io|newsyou.info|notebookcheck-ru.com|pravda.com.ua|sportanalytic.com
+||html-load.com/loader.min.js$domain=businessua.com|eurointegration.com.ua|newsyou.info|notebookcheck-ru.com|pravda.com.ua|sportanalytic.com
 ||html-template.ru/images/banners/
 ||htmlbook.ru/files/$object
 ||htmlbook.ru/sites/default/files/$object
