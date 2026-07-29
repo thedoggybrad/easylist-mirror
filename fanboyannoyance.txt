@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607292257
+! Version: 202607292317
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Jul 2026 22:57 UTC
+! Last modified: 29 Jul 2026 23:17 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 39a54bd8f3293843ba631716857653fddb34d7d0
+! Commit: 706d64bb4db507c844a9d6a4f14653735f46f989
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -35892,7 +35892,7 @@ driving.ca##[data-aqa="widget-breaking-banner"]
 cepa.org##[data-block="newsletter"]
 plantbasednews.org##[data-class="support-us__wrapper"]
 abc.net.au##[data-component="Newsletter"]
-endjin.com##[data-cta-id="fabric-weekly-newsletter"]
+endjin.com##[data-cta-id$="-weekly-newsletter"]
 digg.com##[data-cy="namespace-home-newsletter"]
 nationalpost.com##[data-evt-val*="author_newsletter"]
 psyche.co##[data-ga-view-prompt="psyche_cta_pop_up_subscribe"]
@@ -39804,7 +39804,7 @@ manulife.com##.cmp-ntfbanner
 polygon.technology##.cmp-overlay
 mediaportal.scania.com##.cmp-structure-cookie
 designboom.com,glashrvatske.hrt.hr,testerup.com##.cmpbox
-bluebrixx.com,gls-group.eu##.cmpwrapper
+bluebrixx.com,g2a.com,gls-group.eu##.cmpwrapper
 evoestate.com##.cnc-container
 cnn.com##.cnn-toast--tos
 courthousenews.com##.cns-cg-modal__overlay
