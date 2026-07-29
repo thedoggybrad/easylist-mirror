@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QTgspRV/49ZFkvpJ3SJWPA
-! Version: 202607291742
+! Checksum: zClA2R7IflNMaJseqXHOOA
+! Version: 202607291752
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 29 Jul 2026 17:42 UTC
+! Last modified: 29 Jul 2026 17:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -71325,6 +71325,7 @@ browsershots.org#@#.advert_area
 ||ywvnucjtczvhy.website^
 ||ywxanyoenzcoo.website^
 ||ywygrtyblmaxe.site^
+||ywzaoqstcifym.website^
 ||ywzehjepmwcbe.website^
 ||ywzyhljazdsrx.space^
 ||yx-ads6.com^
@@ -89320,6 +89321,7 @@ navyamedia.com##.wpb_text_column:has(> .wpb_wrapper > p >ins.adsbygoogle)
 bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,theintelligencer.com##.y100:has([data-block-type="ad"])
 cars.com##[aria-label="Listings"] li:has(card-gallery[card-link*="?attribution_type"])
+tiktok.com##[class*="DivCardWrapper"]:has([data-e2e="ad-tag"])
 priceline.com##[class*="ListingCardWrapper"]:has([class*="PromoText"])
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 petco.com##[class*="atapult-styled"]:has([data-ad-source])
