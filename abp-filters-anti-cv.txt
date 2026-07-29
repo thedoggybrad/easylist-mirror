@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: YFsFC1dY6zbkEap58sydKQ
-! Version: 202607291541
+! Checksum: b/MfvAjDzU3b6/XQj4TXMw
+! Version: 202607291551
 ! Title: ABP filters
-! Last modified: 29 Jul 2026 15:41 UTC
+! Last modified: 29 Jul 2026 15:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -912,6 +912,8 @@ euronews.com#$#replace-argument Element.prototype.setAttribute 1 '/error-report|
 ||cdn.caprofitx.com^$domain=oricon.co.jp
 oricon.co.jp#$#override-property-read Navigator.prototype.onLine false
 oricon.co.jp#$#replace-argument Element.prototype.setAttribute 1 ',11,4)' ''
+fandom.com#$#replace-fetch-response '/<!doctype html>.*/' '' '"/5441/'
+fandom.com#$#replace-fetch-response '/<script data-wrapper-id="ads-configuration-.*/' '' 'ads-configuration'
 fandom.com#$#prevent-element-src-loading script /lib\.js/
 ||*/lib.js^$script,third-party,domain=fandom.com
 fandom.com#$#abort-current-inline-script eval /ZnVuY3Rpb24/
