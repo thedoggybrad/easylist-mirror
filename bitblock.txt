@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mOW4b+wdGfU3HYphQW/T9Q
-! Version: 202607291841
+! Checksum: bgke6ZLNDxKbqXnVgZDW8w
+! Version: 202607291852
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Jul 2026 18:41 UTC
+! Last modified: 29 Jul 2026 18:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2842,6 +2842,7 @@ tengrinews.kz##[class^="tn-social-"]
 drive2.ru##[data-action="share.share"]:not([data-target="drive"])
 bryansknovosti.ru,novozybkov.su##[data-alias="Справа"] .textwidget > [align="center"] > [href*="?p="] ~ a
 gordonua.com##[data-area="social"]
+skillbox.ru#?#[data-article-text] .stk-grid:-abp-has(> .stk-mobile-hidden > [href^="https://t.me/skillbox_media_code"])
 psychologies.ru##[data-autogoal-click*="PROMO"]
 xn--80aaae1cn1aw5e.xn--p1ai##[data-bazooka]
 teleport2001.ru##[data-block-plugin-id="system_menu_block:social"]
@@ -4512,6 +4513,8 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||sichnews.ua/wp-content/plugins/userfeedback-lite/
 ||silver.ru/local/templates/index/img/12.png
 ||simpsonsua.tv/photos/1ban/
+||skillbox.pro/frontend-libs/promo-banner/
+||skillbox.ru/local/components/prmedia/new_article.banner/
 ||slavyanskaya-kultura.ru/images/banners/
 ||slavyanskaya-kultura.ru/images/rotator/
 ||slavyanskaya-kultura.ru^*/img/slider/
@@ -5654,6 +5657,7 @@ day.az##.join-channels-wrapper
 tonkosti.ru##.journal-subscribe
 zaycev.fm##.jquery-notify-bar
 habr.com##.js-ad_sticky_comments
+skillbox.ru##.js-article-banner
 e1.ru##.js-banner-right-fixed
 gastronom.ru##.js-bother
 focus.ua##.js-cat-required
@@ -6417,6 +6421,8 @@ podarkus.ru##[class^="styles-module_footer_"] > [class^="styles-module_right_"]
 livejournal.com##[cookies-alert]
 postimees.ee##[custom-classes^="structured-content__block--coma"]
 epicentrk.ua##[data-advertising-listing-list]
+skillbox.ru##[data-article-text] > div[style*="overflow:"]
+skillbox.ru##[data-banner]
 friday.ru##[data-block-closer-storage="cookie"]
 tretyakovgallery.ru##[data-block-closer-target="cookie"]
 sports.ru##[data-control="Common.WebpushSubscribe"]
