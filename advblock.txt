@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CtksMPHRLkk0eH4ibdscgg
-! Version: 202607311142
+! Checksum: 5kzTKtdSsoXtvbV1MtgoiQ
+! Version: 202607311151
 ! Title: RU, UA, UZ, KZ
-! Last modified: 31 Jul 2026 11:42 UTC
+! Last modified: 31 Jul 2026 11:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15148,7 +15148,7 @@ cubiq.ru##.lets-review-block__aff
 cwer.me,cwer.ru,cwer.su,cwer.ws##.like_hide
 homeporno.org##.line > a[href][target="_blank"] > *
 mmotop.ru##.link-1
-androidinsider.ru,appleinsider.ru##.link-alert
+androidinsider.ru,appleinsider.ru##.link-alert[rel*="sponsored"]
 androidinsider.ru,appleinsider.ru##.link-default[rel*="sponsored"]
 vinbazar.com##.link_image
 vinbazar.com##.link_img
