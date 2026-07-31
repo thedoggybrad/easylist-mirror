@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ouEizHjhn6Tcwls0pEl0bw
-! Version: 202607311351
+! Checksum: J36NgdKQnr2GgNe8pVXKwQ
+! Version: 202607311402
 ! Title: ABPindo
-! Last modified: 31 Jul 2026 13:51 UTC
+! Last modified: 31 Jul 2026 14:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 31 Jul 2026 12:58 UTC
+! Last modified: 31 Jul 2026 14:01 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -1726,6 +1726,7 @@ cantika.com##.h-noapps.bannerhead
 kompas.com##.hAds
 tempo.co##.head-banner
 bioskop90.com##.headborder:nth-of-type(5)
+moenime.com##.header-adss
 hrv.okestream365.xyz,okestream.*,riau86.com##.header-banner
 kaskus.co.id##.header__kasad
 malaysiakini.com##.hero_adslot
@@ -9917,6 +9918,7 @@ kingbokep.*##video[src*=".webm"]:not(div[class*="video"] > img)
 ||asiapoker777.com^$third-party
 ||astonwin.org^$popup
 ||auredzetw.com^$third-party
+||axes88.org^$third-party
 ||bandarjuditogel.com^$third-party
 ||baron777premium.com^$popup
 ||bbm88.org^$third-party
