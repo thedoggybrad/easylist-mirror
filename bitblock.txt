@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NMq8zg3N58EkSeKE1xPz+g
-! Version: 202607311131
+! Checksum: Du271IIsG/Fr6Xx7PcAoEg
+! Version: 202607311142
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 31 Jul 2026 11:31 UTC
+! Last modified: 31 Jul 2026 11:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1147,6 +1147,7 @@ kp.kg,kp.kz,kp.ru,md.kp.media##.externalBlock > .left > span.title
 navitel.su##.extra_append:last-child
 47news.ru##.f-menu
 best-soft.net,hentasis1.top,prog-top.net##.f-mov-soc
+gorod48.ru##.f-socia
 isport.ua##.f-social
 sports.kz##.f-social-div
 superjob.ru##.f-test-button-share
@@ -1681,6 +1682,7 @@ znaj.ua##.nav--social-links
 lipetskmedia.ru##.nav-bar .social-links
 gorvesti.ru##.nav-block-social
 rau.ua##.nav-block__socialmedia
+gorod48.ru##.nav-desk-soclist
 most-dnepr.info##.nav-item-socials
 bykvu.com##.nav-link-social
 anime-free.ru##.nav-link[title^="Мы в "]
@@ -1819,7 +1821,7 @@ telekritika.ua##.penci_social_widget
 gidonline.eu##.pf
 kyivvlada.com.ua##.pidp
 golbis.com##.pinc-share
-player.smotrim.ru,player.vgtrk.com##.pl-vid__share-icon:not(.pl-vid__share-icon_code)
+player.vgtrk.com##.pl-vid__share-icon:not(.pl-vid__share-icon_code)
 anibests.ru,anijutsu.ru,animegofans.ru,animesenpai.ru,anistars.ru,jutsubest.ru,timeserialz.ru##.player-section > .player-box ~ center
 amedias.ru,kinogo-net.la##.player-section > .player-box ~ div[style*="5px"]
 films-online.club##.pluso-text
@@ -2272,7 +2274,6 @@ uatv.ua##.social-entry
 politros.com##.social-foot-title
 tonkosti.ru##.social-friends
 ua.news##.social-group > a
-smotrim.ru##.social-groups
 zi.ua##.social-header-icos
 4eva.ru,darada.co##.social-header-wrap
 bragazeta.ru,hronikers.com##.social-icon
@@ -3434,7 +3435,7 @@ blitz.if.ua#?#p:-abp-has(> a[href^="https://web.telegram.org/"])
 agroxxi.ru,championat.com,championat.ru#?#p:-abp-has(> b > [href^="https://t.me/"])
 obozrevatel.com#?#p:-abp-has(> b > em > a[href*="://t.me/"])
 obozrevatel.com#?#p:-abp-has(> b ~ a[href*="://t.me/"])
-agents.media,aif.ua,bigmir.net,gx.net.ua,informator.ua,korrespondent.net,moslenta.ru,smotrim.ru,tsargrad.tv,zemliak.com#?#p:-abp-has(> em > a[href*="://t.me/"])
+agents.media,aif.ua,bigmir.net,gx.net.ua,informator.ua,korrespondent.net,moslenta.ru,tsargrad.tv,zemliak.com#?#p:-abp-has(> em > a[href*="://t.me/"])
 tsargrad.tv#?#p:-abp-has(> em > a[href*="://web.telegram.org/"])
 firtka.if.ua#?#p:-abp-has(> em > a[href*="facebook.com/"])
 obozrevatel.com,uaportal.com#?#p:-abp-has(> em > b > a[href*="://t.me/"])
