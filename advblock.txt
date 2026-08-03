@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 31JDzQIozP+j9W4ajMkGbg
-! Version: 202608031633
+! Checksum: SbrXdUzbIvNoteoApJXbOQ
+! Version: 202608031641
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Aug 2026 16:33 UTC
+! Last modified: 03 Aug 2026 16:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -24021,12 +24021,11 @@ $popup,domain=rstprgapipt.com|temp2cdn.link|temptcdn.com
 .json?fre=$third-party,xmlhttprequest
 .json?unique=$third-party,xmlhttprequest
 .link/*/*/*?*=*-*-*-$third-party,xmlhttprequest
+.link/*?*=*-*-*-*-$third-party,xmlhttprequest
 .link/*?fre=$third-party,xmlhttprequest
-.link/*?xJyqWI=$third-party,xmlhttprequest
-.link/stBeGraeBzBvfQItsbjwobxnoQUnPPyg?$third-party,xmlhttprequest
+.link/4ilxeli2d?$third-party,xmlhttprequest
 .txt?fre=$third-party,xmlhttprequest
 .txt?unique=$third-party,xmlhttprequest
-/\.link\/[a-zA-Z]{25,}.*\?(fre|xJyqWI)=/$third-party,xmlhttprequest
 /ad-rotator/ad-list.json
 /ad-rotator/vast.xml
 /api-integration/*?unique=$third-party,xmlhttprequest
