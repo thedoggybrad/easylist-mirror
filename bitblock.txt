@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BEI8Jbyihgd+y+9BQa/t+g
-! Version: 202608031712
+! Checksum: 4h8x4p1T4fpSh39XnCZmCg
+! Version: 202608031722
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Aug 2026 17:12 UTC
+! Last modified: 03 Aug 2026 17:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -731,7 +731,6 @@ animego.cv##.alert-primary
 topwar.ru#?#.alert_in:-abp-has(> div > p > strong > a[href^="https://t.me/"])
 inopressa.ru##.alignright .alignleft > div[style^="height: 120px"]
 life.ru##.amp-footer--wrapper > .amp-left-block ~ li
-filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone##.android-telegram-main
 kinoafisha.info##.anonsHeader_chat
 tv3.ru##.app-footer--social
 tv3.ru##.app-header--social
@@ -3302,6 +3301,7 @@ biqle.org,biqle.ru##div[title="Поделиться"]
 site.ua##div[x-data*="facebook"]
 autonews.ru,gsminfo.com.ua#?#em > strong:-abp-has(> a[href^="https://t.me/"])
 fanserial.*,fanserial.сс,1fanserials.ru,myfanserial.net##.novelty-banner
+filmix.*,filmix.gg,filmix.date,filmix.life,filmix.pub,filmix.tech##.android-telegram-main
 zmi.ck.ua##footer .b1
 zmi.ck.ua##footer .b2
 ctv7.ru##footer .btn_soc
@@ -4715,7 +4715,6 @@ rsload.net#?##dle-content > .short:-abp-has(> .short-top > h2 > a > .fa)
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href*="oleg-prognoz.html"])
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href^="https://rsload.net/news/"][href*="skidk"])
 rsload.net#?##dle-content > .short:-abp-has(> .short-top a[href^="https://rsload.net/soft/obzor/"])
-filmix.date,filmix.life,filmix.my,filmix.pub,filmix.tech,filmix.zone###dle-content > article ~ div a[href$="/pro.html"]
 anitube.in.ua###dle-content > noindex
 lols.ru###dle-content td[style="padding-left:20px;"] > noindex
 varianty.lviv.ua###donate-popup
@@ -6852,6 +6851,7 @@ kirov-portal.ru#?#div[style]:-abp-has(> div[style] > a[href="/news/akcii/"])
 outlook.live.com##div[tabindex][role="region"][aria-label] > div + div > div > .ms-FocusZone ~ div[class]:not([role]) > button
 youla.ru#?#div[width="0.25"]:-abp-has(> div > a[href*=".com/"][href*="/app"][title][target="_blank"])
 socportal.info##div[x-lazyload*="g-ytsubscribe"]
+filmix.*,filmix.gg,filmix.date,filmix.life,filmix.pub,filmix.tech###dle-content > article ~ div a[href$="/pro.html"]
 vinnitsa.info##footer + div[class] + div[class]
 nplus1.ru##footer > .fixed
 sport-tv.by##footer > .nav > .bottom > .right
