@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /l1AwznrWO2OXr2SH8FHRQ
-! Version: 202608031004
+! Checksum: d25vqhT0MhctC2RWMkm4eg
+! Version: 202608031012
 ! Title: EasyList Polish
-! Last modified: 03 Aug 2026 10:04 UTC
+! Last modified: 03 Aug 2026 10:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2367,6 +2367,7 @@ bielsko.info,tychy.info##[data-ads-id]
 allegro.pl##[data-analytics-view-custom-context="SPONSORED"]
 allegro.pl##[data-analytics-view-opbox-custom-destination-url*="reklama"]
 abczdrowie.pl##[data-bc]
+empik.com##[data-box-key="ReactCarouselBox"]:has([data-adinfo])
 allegro.pl##[data-box-name*="Advertisement"]
 allegro.pl##[data-box-name*="advertising"]
 allegro.pl##[data-box-name*="carousel"]:has([data-analytics-view-label="sponsored"])
@@ -2374,6 +2375,7 @@ allegro.pl##[data-box-name="Container PPC Offers"]
 allegro.pl##[data-box-name="layout.advertisement"]
 allegro.pl##[data-box-name^="Ads"]
 allegro.pl##[data-role="opbox-expandable-advertisement"]
+empik.com##[data-ta="product"]:has(.sponsored-info-title)
 otomoto.pl##[data-testid="underlying_banner"]
 chamsko.pl##[href="https://www.meczyki.pl/link/bukmacher/43/1"]
 24gliwice.pl##[href^="https://www.24gliwice.pl/r/"]
