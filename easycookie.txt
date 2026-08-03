@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: 9jNDSmaNrMFd8HwqjR2GgA
+! Checksum: MI7SsI/cLhJrEhqTI6OUsA
 ! Title: Easylist Cookie List
-! Last modified: 2026-08-02 17:25 UTC
+! Last modified: 2026-08-03 19:25 UTC
 ! Expires: 9 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -20952,6 +20952,8 @@ globalblue.com##.gbnew-cookie-bar
 ! easylist_cookie_specific_ABP.txt
 !#if ext_abp
 wildberries.ru###Portal-warning-cookies-modal
+vodafone.pt###cookieModalContainer
+app.privacy.com#?#.banner:has-text(We care about your privacy.)
 revolut.com#?#div[role="dialog"]:has-text(/Cookies|cookies/)
 minhaconexao.com.br##section[id][class]:has(:scope > div[class] > button[class][onclick^="onClickCookiesBannerWeb"])
 ! Scripts
