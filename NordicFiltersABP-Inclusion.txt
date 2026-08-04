@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h+GrqP0dJkurhTZO0Seg0g
-! Version: 202608041942
+! Checksum: 9y8GdiGUlDkJ8lap7DV3ww
+! Version: 202608041952
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 04 Aug 2026 19:42 UTC
+! Last modified: 04 Aug 2026 19:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -90732,6 +90732,7 @@ alphacoders.com##.item:has(.in-thumb-ad-mobile-desktop)
 herzindagi.com##.items-center:has(.ads)
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
 motortrend.com##.justify-center:has(.nativo-news)
+slickdeals.net##.kevelYouMightLikeDealCard:has(.dealCardBadge--promoted)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
 bjs.com##.lazyload-wrapper:has(> #promoteIqContent)
 motortrend.com##.lg\:min-h-\[90px\]
@@ -91838,6 +91839,7 @@ heb.com#?#div:has(> div > div[class^="Carousel_wrapper"]:has-text(Promoted))
 heb.com#?#div:has(> div > div[class^="ModuleSet_moduleSetContainer"]:has-text(Promoted))
 heb.com#?#div[class^="sc-"]:has(> div[data-qe-id="productCard"]:has-text(Promoted))
 historic-uk.com#?#.article-sidebar:has-text(Advertisement)
+rome2rio.com#?##hotel-list-wrapper li:has-text(Ad)
 inc.com#?#.pr-\[25px\].py-\[27px\]:has-text(Apply Now)
 infographicjournal.com#?#.et_pb_module:has-text(Partners)
 infographicjournal.com#?#.et_pb_module:has-text(Partners) + .et_pb_module
@@ -91878,6 +91880,7 @@ nerdwallet.com#?#._3JhNDX:has-text(Advertisement)
 netflixjunkie.com#?#[style="text-align:center"]:has-text(ADVERTISEMENT)
 newegg.com#?#.product-banner:has-text(Sponsored)
 news.yahoo.com#?#div.md\:block:has-text(Advertisement)
+nextdoor.com#?#[data-testid*="searchFeedItem"]:has-text(Sponsored by)
 nextdoor.com#?#[data-v3-view-type="V3Wrapper"]:has(> [data-testid="feed-item-visibility-tracker"]:has-text(Sponsored))
 nextdoor.com#?#div[data-testid="feed-item-card"]:has(span[class^="reset_"]:has-text(А⁠d))
 noelleeming.co.nz#?#div.product-tile:has(span:has-text(Sponsored))
