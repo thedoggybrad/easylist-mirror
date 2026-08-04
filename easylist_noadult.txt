@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tOZz+6s4/HMRxz/6cxSyPg
-! Version: 202608041942
+! Checksum: Ian+IoYwDtbv83fXU5EgvA
+! Version: 202608041952
 ! Title: EasyList without rules for adult sites
-! Last modified: 04 Aug 2026 19:42 UTC
+! Last modified: 04 Aug 2026 19:52 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -81039,6 +81039,7 @@ alphacoders.com##.item:has(.in-thumb-ad-mobile-desktop)
 herzindagi.com##.items-center:has(.ads)
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
 motortrend.com##.justify-center:has(.nativo-news)
+slickdeals.net##.kevelYouMightLikeDealCard:has(.dealCardBadge--promoted)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
 bjs.com##.lazyload-wrapper:has(> #promoteIqContent)
 motortrend.com##.lg\:min-h-\[90px\]
