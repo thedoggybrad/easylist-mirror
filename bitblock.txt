@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tG6s0Q42IX6iSi4Fzc1teg
-! Version: 202608041032
+! Checksum: btmGydijLLvU/d1HRGrKIg
+! Version: 202608041042
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 04 Aug 2026 10:32 UTC
+! Last modified: 04 Aug 2026 10:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7052,6 +7052,7 @@ www.kinopoisk.ru##a[href^="https://yandex.ru/alice/"][class*="banner"]
 www.kinopoisk.ru##body[class*="styles_body"] > .ReactModalPortal
 www.kinopoisk.ru##div[class*=" styles_rootPlus"] > div > div[class^="styles_upperFrame__"]
 www.kinopoisk.ru##div[class*=" styles_rootPlus"] > div[class^="styles_frameContainer__"]
+www.kinopoisk.ru##div[class*="style_presentationVisible_"]
 www.kinopoisk.ru##div[class*="styles_basicInfoSection"] div[class^="styles_header_"] > div[class^="styles_root_"] > div[class^="styles_blockTitle_"]
 www.kinopoisk.ru##div[class*="styles_basicInfoSection"] div[class^="styles_header_"] > div[class^="styles_root_"] > div[class^="styles_book_"]
 www.kinopoisk.ru##div[class*="styles_buyButtons"]
