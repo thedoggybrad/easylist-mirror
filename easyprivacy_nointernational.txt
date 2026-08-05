@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: KuI+smFc/1MWm7zUksSU8Q
-! Version: 202608051204
+! Checksum: oHA/MbhPUa9RRXoV1DnIGQ
+! Version: 202608051212
 ! Title: EasyPrivacy without international filters
-! Last modified: 05 Aug 2026 12:04 UTC
+! Last modified: 05 Aug 2026 12:12 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5090,6 +5090,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.typekit.net^
 ||p.yotpo.com^
 ||p0.com/1x1
+||pa.pinpoll.com^
 ||pac.talksport.com/track
 ||paddle.com^*/analytics.js
 ||page-events-ustats.udemy.com^
@@ -45502,6 +45503,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||curiositystream.com.first-party-js.datadome.co^$script,domain=curiositystream.com
 @@||datadome.garena.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=auth.garena.com
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
+@@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||dwt.soundcloud.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=soundcloud.com
