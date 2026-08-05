@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yqj0Tb+HDXunZzYaxr4xFw
-! Version: 202608050704
+! Checksum: ltWZfWYPTpdxCsJFj+IhNg
+! Version: 202608050711
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Aug 2026 07:04 UTC
+! Last modified: 05 Aug 2026 07:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6608,6 +6608,7 @@ www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.
 rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container-"])
 sports.ru#?#article.piwikTrackContent:-abp-has(a[href^="https://trbna.co/"])
 sports.ru#?#article.piwikTrackContent:-abp-has(span:-abp-contains(Спецпроект))
+pikabu.ru##article:not([data-author-name="PikabuGames"]) ~ article[data-author-name="PikabuGames"]
 livejournal.com##article[class*="entryunit--feedpromo"]
 rambler.ru#?#article[id][class] > div:first-child > div:first-child + div > div:only-child > div:first-child + div:last-child:-abp-has(> div > div:empty)
 livejournal.com##article[id^="b-friendstimes-item-ad-"]
