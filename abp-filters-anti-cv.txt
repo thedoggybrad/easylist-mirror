@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 0LVqvnpq9djz+8PD/aRmDQ
-! Version: 202608051353
+! Checksum: ldJCRaTYd9m5s5F5jRMo3Q
+! Version: 202608051405
 ! Title: ABP filters
-! Last modified: 05 Aug 2026 13:53 UTC
+! Last modified: 05 Aug 2026 14:05 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1125,12 +1125,6 @@ gamebanana.com$csp=script-src-attr 'none'
 ||*/core.js^$script,domain=gamebanana.com
 gamebanana.com#$#abort-current-inline-script eval /xx44zp0c391/
 gamebanana.com#$#override-property-read xx44zp0c391 true
-||stg.lox.legalendowmad.com^$script,domain=gamesradar.com
-||error-report.com^$domain=gamesradar.com
-||content-loader.com^$script,domain=gamesradar.com
-gamesradar.com#$#prevent-element-src-loading script /\/(feed|cache|article|media)\//
-||dkyerkk91s4fa.cloudfront.net^$script,domain=gamesradar.com
-gamesradar.com#$#override-property-read as_-1039259904 true; override-property-read as_1278692676 true; override-property-read as_1637906397 true; override-property-read as_1298958177 true
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
