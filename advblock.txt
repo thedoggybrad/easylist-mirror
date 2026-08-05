@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6+QCQaQ6MiS3zzpuYzPYNA
-! Version: 202608051612
+! Checksum: jwChrhpRg2LYHoWMVwWMuw
+! Version: 202608051623
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Aug 2026 16:12 UTC
+! Last modified: 05 Aug 2026 16:23 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -18781,6 +18781,7 @@ habr.com##div.tm-bordered-card:empty
 soundtimes.ru#?#div:-abp-has(> #kb)
 7themes.su,banker.ua,chudo-povar.com,cyberpedia.su,draug.ru,festima.ru,help-wifi.com,mods-fs.net,modsforwot.ru,mydiv.net,nikolaev-city.net,pingvin.pro,pixwords-help.info,point.md,readweb.org,sega-play.ru,slo.ru,vplate.ru,wotspeak.org#?#div:-abp-has(> .adsbygoogle)
 finversia.ru#?#div:-abp-has(> .banner-bdm )
+drive2.ru#?#div:-abp-has(> .drom-grid)
 versii.if.ua#?#div:-abp-has(> .indication-bor-rad)
 kgd.ru#?#div:-abp-has(> .modhead:-abp-contains(Реклама))
 salonav.com#?#div:-abp-has(> .mom-ads-wrap)
@@ -23995,7 +23996,6 @@ pikabu.ru#?#article:-abp-has(> .story__main > div:only-child)
 pikabu.ru#?#article:-abp-has(> .story__main:not(:-abp-has(*)))
 kp.kg,kp.kz,kp.ru,md.kp.media#?#body > #app div:-abp-properties(background-color: rgb(225, 231, 235))
 sdamgia.ru##center > div[id][style]
-drive2.ru#?#div:-abp-has(> .drom-grid)
 drive2.ru##div[class$="--w-label"][data-slot]
 pogoda.onliner.by,tech.onliner.by##div[class*="_fixed-height"]
 pikabu.ru#?#div[class*="page-story__"] div:-abp-properties(/min-height: [02345]{2}[0-9]{1}|min-height: calc.|min-height: .+.(cm|in|lh|mm|pt)|height: 250px/)
