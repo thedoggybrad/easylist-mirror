@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: CI33JwoD55pyb41tsL+SnQ
-! Version: 202608051335
+! Checksum: KOXTxPSBSH7n3Rwu2a0FDg
+! Version: 202608051345
 ! Title: ABP filters
-! Last modified: 05 Aug 2026 13:35 UTC
+! Last modified: 05 Aug 2026 13:45 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2245,7 +2245,7 @@ kinopoisk.ru#$#hide-if-contains-visible-text /./ 'div[id][class]>div[id][class]'
 24smi.org#$#abort-on-property-write document.cookie; cookie-remover /^/
 gorodrabot.ru#$#abort-on-property-read Object.prototype.storeBlockSettings
 doramatv.ru,mintmanga.com#$#abort-on-property-read rm_h.bb
-drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
+||drive2.ru^$script,header=x-yandex-req-id
 ! #CV-659
 gagadget.com,ringside24.com,newsyou.info#$#abort-on-property-read localStorage
 24tv.ua##.b_reklama
@@ -2278,7 +2278,7 @@ animekun.ru,doramakun.ru,nnmclub.to#$#abort-current-inline-script document.creat
 nnmclub.ro,nnmclub.to#$#abort-on-property-read _0x1ece false
 vestivrn.ru#$#abort-on-property-read video.preroll
 dota2.ru#$#abort-on-property-read helpUsImproveSite
-fastpic.org,~new.fastpic.org#$#prevent-listener /click|load/ /exopop|popMagic|preventDefault|Math.floor/; prevent-listener DOMContentLoaded /0x|popMagic/; abort-on-property-read Element.prototype.attachShadow
+fastpic.org,~new.fastpic.org#$#abort-on-property-read Element.prototype.attachShadow; prevent-listener click 0x; prevent-listener click preventDefault; prevent-listener click '(e)}'; prevent-listener DOMContentLoaded 0x
 softportal.com#$#abort-on-property-read popupShowInterval; abort-on-property-read Object.prototype.str_replace
 www.ixbt.com#$#abort-on-property-read adv_obj; abort-current-inline-script document.getElementById branding
 city.ogo.ua#$#abort-on-property-read myatu_bgm
