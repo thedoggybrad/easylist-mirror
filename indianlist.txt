@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hnSTWMJvQiSP0KDWfO1iGQ
-! Version: 202608061104
+! Checksum: LK/wIs19JF9OdcWB6pnO3g
+! Version: 202608061112
 ! Title: IndianList
-! Last modified: 06 Aug 2026 11:04 UTC
+! Last modified: 06 Aug 2026 11:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10269,6 +10269,7 @@ jankarido.com#?#.gb-container:-abp-contains(Advertisement)
 jankarijunction.com#?#div[class^="gb-element"]:-abp-properties(min-height)
 jansandeshonline.com#?#div[id^="AS_P_LHS_"] > div:-abp-has(> div > div > a>div > h5:-abp-contains(Ad |))
 jansandeshonline.com#?#div[id^="AS_P_LHS_"] > div:-abp-has(> div > div > a>div > p:-abp-contains(Ad |))
+jansewanews.com#?#div[class^="gb-element"]:-abp-properties(min-height)
 janwarta.com#?#.td_block_wrap:-abp-has(> div > h4 > span:-abp-contains(Ad))
 jharkhandvarta.com#?#div[class^="gb-element"]:-abp-properties(min-height)
 jujhartimes.in#?#.p-3 > h4:-abp-contains(Ads)
