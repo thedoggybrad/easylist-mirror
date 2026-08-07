@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608070923
+! Version: 202608070934
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Aug 2026 09:23 UTC
+! Last modified: 07 Aug 2026 09:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d74e13cffb10b25922ea8a26768705c305d67e34
+! Commit: be9792c7dc9fbab125ad641886e1470fd1d45d34
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -179,6 +179,7 @@ _backToTop.
 /fcmPush.js
 /FeedifySW.js
 /flying_push.js
+/gr-push-notifications/assets/js/push-front.js
 /ilabspush.min.js
 /inpl.webpush.js
 /jquery-notification.js
@@ -33859,6 +33860,7 @@ sourcegraph.com##.CustomHubspotForm_blogForm__6LtFv
 popsugar.com,thedodo.com##.EmailAcquisitonstyles__EmailAcquisitionOuterContainer-sc-1b9duud-0
 dailymemphian.com,thekitchn.com##.EmailSignup
 zazzle.com##.EmailSignupForm
+sbs.com.au##.EmbeddedNewsletter-module__0KEHPq__container
 theglobeandmail.com##.EndOfArticleNewsletterstyles__MessageContainer-sc-v27y1d-0
 2-spyware.com##.EsolEmailSubscribeWidget
 cbssports.com##.EventPromoInline
@@ -33902,6 +33904,7 @@ aleteia.org##.NewsletterForm_container__CWjyJ
 laist.com##.NewsletterModule
 newscientist.com##.NewsletterPromotion
 marketplace.org##.NewsletterPrompt_newsletterSidebar__tYOqr
+sbs.com.au##.NewsletterShelf-module__4zLG-G__newsletterSection
 cltampa.com##.NewsletterSignup
 gamedeveloper.com,iotworldtoday.com##.NewsletterSignupButton
 themirror.com##.NewsletterSignup_container__UINqe
@@ -36611,6 +36614,7 @@ abc.net.au##.ShareBanner_container__OX63I
 aleteia.org##.ShareBar_link__3gR4V
 manofmany.com##.ShareBar_listItem__6t0E_
 birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,dailystar.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,stokesentinel.co.uk,themirror.com,walesonline.co.uk##.ShareBar_sharebar-inner-wrapper__D0YTf
+sbs.com.au##.ShareButtons-module__yCNwyW__container
 thescore.com##.ShareLinks__container--3C8C4
 meduza.io##.SharePanel-module-root
 wbur.org##.Share_shareContainer__ZHMXj
@@ -37475,7 +37479,7 @@ discussingfilm.net,douglasnow.com,energy-reporters.com,rockstarintel.com,trusted
 churchpop.com##.post-share-section
 spiked-online.com##.post-sharing
 volexity.com##.post-single-social
-foodandwaterwatch.org,medcitynews.com,publicbooks.org,sqmagazine.co.uk##.post-social-share
+foodandwaterwatch.org,medcitynews.com,publicbooks.org,sqmagazine.co.uk,tribuna.com.mx##.post-social-share
 blockclubchicago.org##.post-social-sharing__list
 hakaimagazine.com##.post-story-social-sharing
 eurointegration.com.ua##.post__social
@@ -44444,6 +44448,7 @@ de10.com.mx##.pane-rate-widgetk
 vidaextra.com,xataka.com.mx##.post-comments-shortcut
 beteve.cat##.post-share-sms
 biobiochile.cl##.post-social-container
+quadratin.com.mx##.q-sharesocial
 qhubomedellin.com##.qh-social-icons-articulo
 noticiasfides.com##.qshare
 zocalo.com.mx##.red-social
