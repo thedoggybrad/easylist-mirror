@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iyvCTHYujl9DBZ+V2x1Cow
-! Version: 202608090802
+! Checksum: 4mVP+56dxEU8yhVYfayriA
+! Version: 202608090812
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Aug 2026 08:02 UTC
+! Last modified: 09 Aug 2026 08:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1285,6 +1285,7 @@ mmatoday.info##.footer-wrapper-social
 zakon.kz##.footerBottom .links
 kuban24.tv##.footerInfo .icons
 spot.uz#?#.footerNav:-abp-has(> .censor)
+eapteka.ru##.footerSocialList
 168.ru#?#.footer__block:-abp-has(> .footer__social)
 ren.tv##.footer__body__social
 openmedia.io##.footer__box > .footer__nav ~ .footer__nav
@@ -7162,15 +7163,19 @@ mail.ru,~media-golos.mail.ru,sportmail.ru##[data-logger="AudioPlayer"]
 ~e.mail.ru,mail.ru##[data-module="StickyPanel.TopButton"]
 ~e.mail.ru,mail.ru##[data-module="Subscription"]
 news.mail.ru,sportmail.ru##[data-module="TrackBlocks"] table > tbody > tr > td:nth-child(3):last-child
+cloud.mail.ru##[data-qa-id="ai-photo-generation-promo-banner"]
 cloud.mail.ru##[data-qa-tooltip="goto-attaches-promo-tip"]
 cloud.mail.ru##[data-qa-tooltip][class*="_closable-"]
 news.mail.ru##[data-reactroot] [data-qa^="MoreList"] > div > div:first-child:not(:only-child)
 e.mail.ru,octavius.mail.ru##[data-test-id="category-feedback-plate"]
 e.mail.ru,octavius.mail.ru##[id^="octavius-notify-"]
 news.mail.ru#?#aside div[style^="min-height:"]:-abp-has([data-logger="SubscribeButton"])
-cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="Offer"])
-cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="Quota"])
-cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="WhatsNewDialog"])
+cloud.mail.ru##body > #react-modals > div > [class*="Offer"]
+cloud.mail.ru##body > #react-modals > div > [class*="Quota"]
+cloud.mail.ru##body > #react-modals > div > [class*="WhatsNewDialog"]
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div:only-child > [class*="Offer"])
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div:only-child > [class*="Quota"])
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div:only-child > [class*="WhatsNewDialog"])
 ~e.mail.ru,mail.ru##body > .grid .logo__promo-tooltip
 ~e.mail.ru,mail.ru##body > .tooltip > .tooltip__box
 mail.ru##body > .zeropixel ~ * .balloon
