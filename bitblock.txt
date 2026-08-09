@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3TKFEGzZuUx1bPkE0Puofg
-! Version: 202608090751
+! Checksum: iyvCTHYujl9DBZ+V2x1Cow
+! Version: 202608090802
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Aug 2026 07:51 UTC
+! Last modified: 09 Aug 2026 08:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6418,7 +6418,6 @@ hromadske.radio##[class^="PatreonBanner"]
 meduza.io##[class^="SaveMeduza"]
 igromania.ru##[class^="SubscribeForm_subscribe_"]
 igromania.ru##[class^="YoutubeChannel_channel_"]
-stopgame.ru##[class^="_boosty_"]
 silver.ru##[class^="button-subscribe_news"]
 svoi.ru##[class^="component__StyledCookieBanner"]
 byxatab.com##[class^="donat_block"]
@@ -6746,6 +6745,7 @@ rg.ru##div[class^="Subscribe_formSub"]
 premium.mts.ru##div[class^="ToastRoot_wrapper_"]
 meduza.io##div[class^="TopBar-"][class*="root"]
 rg.ru##div[class^="Umbrella_newsletterSubscribe_"]
+stopgame.ru##div[class^="_boosty-and-patreon_"]
 stopgame.ru#?#div[class^="_content"] > p:-abp-has(> a[href*="boosty"])
 tribuna.com##div[class^="_footer__apps"]
 stopgame.ru##div[class^="_podcast-container_"]
