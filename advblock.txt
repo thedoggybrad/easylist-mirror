@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aWp4qStqnjDyGqF/vKIXVQ
-! Version: 202608100852
+! Checksum: L/1+Qxl8GP5rmARcKuX9dA
+! Version: 202608100902
 ! Title: RU, UA, UZ, KZ
-! Last modified: 10 Aug 2026 08:52 UTC
+! Last modified: 10 Aug 2026 09:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -23918,7 +23918,7 @@ https://*adtech_uid=$~third-party,xmlhttprequest,domain=levik.blog|livejournal.c
 ||newsyou.info/wp-content/plugins/gtranslate/
 ||newsyou.info^$csp=script-src-elem 'self' https:
 ||ng72.ru^$csp=script-src 'self' 'unsafe-eval' https:
-||pikabu.ru/ajax/*?pg4Pu=$xmlhttprequest
+||pikabu.ru/ajax/*?pg3Pu=$xmlhttprequest
 ||ritsatv.ru^$csp=script-src
 ||ritsatv.ru^$popup
 ||ritsatv.ru^$~document
