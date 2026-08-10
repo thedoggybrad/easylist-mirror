@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FIJ7PN0nAf94i+LiTsKq7w
-! Version: 202608100741
+! Checksum: sX6s1ow+jch07wT1jztnyA
+! Version: 202608100751
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 10 Aug 2026 07:41 UTC
+! Last modified: 10 Aug 2026 07:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1480,6 +1480,7 @@ byxatab.com##.icon-vk
 kinomania.kz##.icon_bar
 whl.khl.ru##.iconbar > .icons > a[href*="khl.ru/"] ~ a:not([href*="khl.ru/"] )
 autopilot.ru,kommersant.ru,myweekend.ru##.iconbox__item--share
+tv21.ru##.icons.justify-right > a[target="_blank"]
 mobiledevice.ru##.icons_bar_placeholder
 life.pravda.com.ua#?#.img-wrap:-abp-has(> div > [href^="https://bit.ly"])
 dizelyator.ru##.imgsoc
