@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608121242
+! Version: 202608121249
 ! Title: EasyPrivacy
-! Last modified: 12 Aug 2026 12:42 UTC
+! Last modified: 12 Aug 2026 12:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 454640caecfc8858166d88adb952e6c01320005c
+! Commit: c1227e5b9a72e9c731284d604b44988950c4636b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -55638,6 +55638,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 @@||datadome.monster.com.first-party-js.datadome.co^$script,domain=monster.com
 @@||dc.services.visualstudio.com/v2/track$xmlhttprequest,domain=aiskillsnavigator.microsoft.com
 @@||dd.auspost.com.au/tags.js$script,~third-party
+@@||dekra-akademie.de/resource/*/eCom_FrontendV3/assets/js/gtm.js$~third-party
 @@||delta.com/dlhome/ruxitagentjs$~third-party
 @@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 @@||docs.google.com/*/viewdata$~third-party
@@ -56047,6 +56048,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
+@@||dd.thetrainline.com.first-party-js.datadome.co^$domain=thetrainline.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||dwt.soundcloud.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=soundcloud.com
 @@||gva.et-gv.fr^$script,domain=culture.gouv.fr
