@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: uCSYDe7Z1DhxtDibWIY2HA
-! Version: 202608131612
+! Checksum: 8V3jlYLeIQ5kCiUUK/kyeQ
+! Version: 202608131621
 ! Title: ABP filters
-! Last modified: 13 Aug 2026 16:12 UTC
+! Last modified: 13 Aug 2026 16:21 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1143,6 +1143,7 @@ gamebanana.com$csp=script-src-attr 'none'
 gamebanana.com#$#abort-current-inline-script eval /xx44zp0c391/
 gamebanana.com#$#override-property-read xx44zp0c391 true
 spreadsheetpoint.com#$#abort-current-inline-script String.prototype.match __adblocker
+onlineradiobox.com,fandom.com,base64decode.org,9gag.com#$#override-property-read Navigator.prototype.userAgent 'AdsBot-Google'; override-property-read Navigator.prototype.userAgentData undefined
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
