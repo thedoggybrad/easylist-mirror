@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: M08HpFEOeNvOuGSkc0Kfcw
-! Version: 202608141631
+! Checksum: 9vU/eOfbLJzVjrMGtNMn/A
+! Version: 202608141641
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 14 Aug 2026 16:31 UTC
+! Last modified: 14 Aug 2026 16:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -64846,6 +64846,7 @@ browsershots.org#@#.advert_area
 ||ydjrmrsvrhkrb.site^
 ||ydkxuqwwpzivm.space^
 ||ydnrwntqtikfg.online^
+||ydobocbzftzhr.website^
 ||ydqajoosclord.site^
 ||ydsagcvrejuim.online^
 ||ydsdmtyuyyzsa.website^
@@ -84255,6 +84256,8 @@ checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:has-text(Sponsored)
 agoda.com#?#.PropertyCardItem:has(div:has-text(Promoted))
 alibaba.com#?#.J-offer-wrapper:has-text(Top sponsor listing)
+alibaba.com#?#.no-divider[style*="margin-bottom"]:has([data-state="closed"]:has-text(Ad))
+alibaba.com#?#div[data-search-floor] [data-supplier-card]:has-text(Ad)
 amusingplanet.com#?#.blockTitle:has-text(Advertisement)
 androidauthority.com#?#div[class="e_Qi"]:has-text(Trending Tech Deals)
 androidauthority.com#?#div[class="e_Rc e_d"]:has-text(Affiliate links on Android Authority may earn us a commission)
