@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608142325
+! Version: 202608142327
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Aug 2026 23:25 UTC
+! Last modified: 14 Aug 2026 23:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2175adbaf240b64ea50ab92a4736fbf198ee1374
+! Commit: 819644ca2f5ca9c7169ab1565a2b58803b2fdb02
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -35976,6 +35976,7 @@ time.com##a[href^="https://cloud.newsletters.time.com/signup?"]
 thomasnet.com##appcues-container
 newser.com##article > div > .NewsletterPromoBox
 refinery29.com##aside
+cfe.dev##aside.sticky.top-\[114px\].mt-12
 decisiondeskhq.com##astro-island[component-url*="/_astro/Newsletter."]
 cars.com##cars-newsletter-signup
 blockworks.co##div > .p-10.gap-4
@@ -41320,7 +41321,7 @@ kstp.com,lucidchart.com,scribd.com##[aria-label="Cookie Consent Banner"]
 1password.com,shirtspace.com##[aria-label="Cookie Consent"]
 dictionary.cambridge.org,lovable.dev##[aria-label="Cookie banner"]
 affiliates.kayak.com,europeantechmap.eu,milkeneducatorawards.org,readcomicsonline.lol##[aria-label="Cookie consent"]
-demilked.com##[aria-label="Cookie notice"]
+demilked.com,runtimewire.com##[aria-label="Cookie notice"]
 swig.com##[aria-label="Cookie policy banner"]
 mrbeastjobs.com,swapped.com,umbc.edu##[aria-label="Cookie preferences"]
 docs.nats.io##[aria-label="Cookies"]
