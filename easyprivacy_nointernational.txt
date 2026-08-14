@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 87Zan92MVLsNDTFHFCax/w
-! Version: 202608141702
+! Checksum: X+kGEktSuGDzMdJ3/cFfeQ
+! Version: 202608141712
 ! Title: EasyPrivacy without international filters
-! Last modified: 14 Aug 2026 17:02 UTC
+! Last modified: 14 Aug 2026 17:12 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1320,6 +1320,7 @@
 /jquery.google-analytics.js
 /jquery.iframetracker-
 /jquery.trackstar.js
+/js-cdn/scstats.js
 /js-responsive/minimal-analytics-$script
 /js-sdk-event.min.js
 /js/_analytics.js
@@ -2102,6 +2103,7 @@
 /scroll-analytics-
 /scroll-track.js
 /scroll-tracker.js
+/scstats/api/stat/*
 /SdaAnalytics.js
 /sdc.js|
 /sdc1.js
