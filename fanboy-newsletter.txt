@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608142309
+! Version: 202608142327
 ! Title: Fanboy's Anti-Newsletter List
-! Last modified: 14 Aug 2026 23:09 UTC
+! Last modified: 14 Aug 2026 23:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0c4c6d3a767b56193afd9dac01bf7f6ab1abf5e5
+! Commit: 819644ca2f5ca9c7169ab1565a2b58803b2fdb02
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4061,6 +4061,7 @@ time.com##a[href^="https://cloud.newsletters.time.com/signup?"]
 thomasnet.com##appcues-container
 newser.com##article > div > .NewsletterPromoBox
 refinery29.com##aside
+cfe.dev##aside.sticky.top-\[114px\].mt-12
 decisiondeskhq.com##astro-island[component-url*="/_astro/Newsletter."]
 cars.com##cars-newsletter-signup
 blockworks.co##div > .p-10.gap-4
