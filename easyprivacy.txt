@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608141006
+! Version: 202608141020
 ! Title: EasyPrivacy
-! Last modified: 14 Aug 2026 10:06 UTC
+! Last modified: 14 Aug 2026 10:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3fadf5180f61352c0f14c8b2e3be54e1ec6c6fbe
+! Commit: a82f4f4f5c6f697b2ff7a6f5e140604aacb33068
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8933,6 +8933,8 @@ omni.soundestlink.com$image
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
+! Generic
+/htdocs/js/admiral/init.js
 ! Specific
 ||autoblog.com/.api/admiral
 ||bikemag.com/.api/admiral
@@ -11477,6 +11479,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||informer.yandex.ru^
 ||infosniper.net/locate-ip-on-map.php
 ||infusionsoft.com^*/getTrackingCode?
+||ingest.in.signoz.cloud^
 ||ingest.make.rvapps.io^
 ||ingesteer.services-prod.nsvcs.net^
 ||ingress.rebelboost.com/_ingest-rbst-stats?
@@ -14833,6 +14836,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aljazeera.com/thirdparty/nr.js
 ||allaboutberlin.com/whoisthere.js
 ||allbbwcams.com/api/metrics
+||allenai.org/v5/event
 ||allevents.in/actracker/
 ||alljapanesepass.com/ascripts/gcu.js
 ||alljapanesepass.com/rstat
