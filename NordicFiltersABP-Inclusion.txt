@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LXWufWO1NgPvelAuahpBfg
-! Version: 202608161422
+! Checksum: NAjafTVaGa8SrwSvyB7HhA
+! Version: 202608161432
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Aug 2026 14:22 UTC
+! Last modified: 16 Aug 2026 14:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -76209,6 +76209,7 @@ bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation
 hulkshare.com###ad_user_banner_2
 coinarbitragebot.com###adathm
 webextension.org###adb
+whatismyip.com###adbannertop
 offidocs.com###adbottomoffidocs
 canadianlisted.com###adcsacl
 4qrcode.com###addContainer
@@ -80064,6 +80065,8 @@ dermstore.com,lookfantastic.com##.integration-sponsored-ads-pdp-container
 coincarp.com##.interact-mobileBox
 monochrome-watches.com##.interscroll
 mrctv.org,newsbusters.org##.intranet-mid-size
+whatismyip.com##.ip-ad-box
+whatismyip.com##.ip-leaderboard-ad
 daijiworld.com##.ipRightAdvt
 allnurses.com##.ipsAreaBackground
 briskoda.net##.ipsData__item--advertisement
@@ -84883,8 +84886,8 @@ businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:has-text(N
 capwages.com#?#.gap-1.items-center.flex-col.flex:has-text(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:has-text(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
-chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):has-text(Ad)
-chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):has-text(Sponsored)
+chatgpt.com#?##thread [class^="border-"]:not([class*="sidebar"]):has-text(Ad)
+chatgpt.com#?##thread [class^="border-"]:not([class*="sidebar"]):has-text(Sponsored)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:has-text(Advertisement))
 cleantechnica.com#?#.zox-side-widget:has-text(/^Advertis/)
 coincarp.com#?#.border-bottom:has-text(Sponsored)
@@ -85945,6 +85948,7 @@ tnaflix.com##.pspBanner
 javneon.tv##.pt-45 > .pb-3.pb-e-lg-40.text-center
 watchmygf.me##.publicity
 freemovies.tv##.publis-bottom
+xerotica.com##.pv-shelf
 pornpics.com##.r2-frame
 tokyonightstyle.com##.random-banner
 ice-gay.com##.random-block
