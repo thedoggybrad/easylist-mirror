@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pkiXvmafzG++A0LyOyb9dw
-! Version: 202608160852
+! Checksum: L+LR49QkJEkoBhxe+A3tzw
+! Version: 202608160902
 ! Title: EasyList without rules for adult sites
-! Last modified: 16 Aug 2026 08:52 UTC
+! Last modified: 16 Aug 2026 09:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -38404,6 +38404,7 @@ browsershots.org#@#.advert_area
 ||mhqxzzklfxqdt.website^
 ||mhslimakagrzq.space^
 ||mhtgouywqxrxa.online^
+||mhubhlushghex.site^
 ||mhvgfihuadasman.com^
 ||mhwnlmindermr.space^
 ||mhyacjinulgvu.store^
@@ -75028,7 +75029,7 @@ bing.com##div[class="ins_exp vsp"]
 ! bing.com##li.b_ans[data-partnertag][role="presentation"]
 bing.com##li[data-idx]:has(#mm-ebad)
 ! chatgpt
-chatgpt.com##[data-message-role="assistant"] > section[class] > aside[aria-label]:has(> div[role="list"] a[rel][target="_blank"] + span > button[aria-haspopup])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + span > button[aria-haspopup])
 ! kayak
 checkfelix.com,kayak.*,swoodoo.com###resultWrapper > div > div > [role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.*,swoodoo.com##.Dp1L
