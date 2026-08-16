@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608161337
+! Version: 202608161348
 ! Title: Fanboy's Annoyance List
-! Last modified: 16 Aug 2026 13:37 UTC
+! Last modified: 16 Aug 2026 13:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f6d8ec8fa605c6acdb095ed312ffe0b9e58d6c11
+! Commit: 42eb32fe7d46cc76858507c539224a136eba7a71
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -39288,7 +39288,7 @@ ergonbike.com###tracking-modal
 stingray.com###tracking-popup
 privacy.org.nz###trackingmessage
 tracxn.com###tracxn-cookie-consent-banner-root
-visionworks.com###transcend-consent-manager
+clay.com,visionworks.com###transcend-consent-manager
 undercurrentnews.com###ucn-gdpr-overlay
 uconn.edu###uconn-c-notice
 strikermanager.com###ue
@@ -41547,6 +41547,7 @@ deepl.com##div[data-testid="dl-cookieBanner"]
 ici.radio-canada.ca##div[data-testid="legalDisclaimer"]
 xero.com##div[data-xero-component="nav/cookie-notification"]
 deepdivedubai.com,thenode.gg##div[fs-consent-element]
+bbc.com##div[id="consent-banner"]
 armbian.com,companyweb.be,fatalfans.com,smythstoys.com,zencreator.pro##div[role="dialog"]
 reddit.com##div[style*="--Toaster-indicatorColor"]
 autodude.dk,autodude.fi,autodude.no,autodude.se,valostore.fi,valostore.no,valostore.se##div[style="background-color: rgb(240, 240, 240);"]
