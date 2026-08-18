@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ekpdBzjZuDnuhMISz+ihZw
-! Version: 202608180912
+! Checksum: Ph1SGKH7AXsfLe6tZynX0A
+! Version: 202608180922
 ! Title: EasyList without rules for adult sites
-! Last modified: 18 Aug 2026 09:12 UTC
+! Last modified: 18 Aug 2026 09:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -70449,7 +70449,6 @@ cricket365.com,football365.com,golf365.com,loverugbyleague.com,planetf1.com,plan
 indiabusinessjournal.com##.pt--20
 kathmandupost.com##.pt-0
 steamladder.com##.pt-large
-getyarn.io##.pt3p > div
 1980-games.com,coleka.com,gameslol.net,theportugalnews.com,tolonews.com##.pub
 starsinsider.com##.pub-container
 yabiladi.com##.pub2
@@ -73541,6 +73540,7 @@ dribbble.com##drb-infinite-scroll .service-result:has(drb-tooltip[data-featured-
 dribbble.com##drb-infinite-scroll div[data-username]:has(drb-tooltip[data-featured-badge])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 unsplash.com##figure[itemprop="image"]:has(div[class*="sponsorLabelContainer-"])
+getyarn.io#?#.pt3p > div > div:has-text(Advertisement)
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
 streeteasy.com##li [class^="ListingCard-module"]:has([class*="sponsoredTag"])
 ulta.com##li.ProductListingResults__productCard:has(.pal-c-ProductCardFooter__sponsored)
