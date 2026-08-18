@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VphGp7lTCiISoCXGhQgrdA
-! Version: 202608180851
+! Checksum: Qk2YhbU3cT+s/lrrkLkv3Q
+! Version: 202608180902
 ! Title: RU, UA, UZ, KZ
-! Last modified: 18 Aug 2026 08:51 UTC
+! Last modified: 18 Aug 2026 09:02 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16158,7 +16158,7 @@ cnc3018.ru,termoportal.ru,zerocoolpro.biz##.samCodeUnit
 forum-volgograd.ru##.samListItem
 news.ru##.samolet-ad
 uman24.org.ua##.sample-posts
-sho.org.ua#?#.sample-posts > h4:-abp-contains(/партнер/i)
+sho.org.ua#?#.sample-posts > h2:-abp-contains(/партнер/i)
 24.cv.ua#?#.sample-posts:-abp-has(> h4:-abp-contains(/^новини партн/i))
 materialscience.ru##.sape
 ladylib.net##.sape[style="width:500px;"]
