@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: O8247gvk1pjL35G68n2mBQ
-! Version: 202608191611
+! Checksum: fzlwrLPfzI2huq5T28kKzA
+! Version: 202608191621
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 19 Aug 2026 16:11 UTC
+! Last modified: 19 Aug 2026 16:21 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6492,7 +6492,6 @@ ozon.ru##[data-widget-disallow] > [data-widget="skuGrid"]
 ozon.ru#?#[data-widget="island"]:-abp-has(> div > [data-widget="objectBannerList"])
 ozon.ru##[data-widget="skuShelfGoods"] + [data-widget="skuShelfGoods"]
 www.ozon.ru##[data-widget="webFeedbackForm"]
-www.ozon.ru##[data-widget="webReviewTabs"] [data-widget="webListReviews"] ~ [data-widget="tileGridDesktop"]
 kp.kg,kp.kz,kp.ru,md.kp.media##[data-without-height] + div
 nv.ua##[data-youtube-promo-for-remove]
 sxnarod.com##[href$="?act=acquaintance"] > img[src^="/image/"]
@@ -6828,6 +6827,8 @@ olx.kz,olx.ua,olx.uz##div[data-testid="cookies-overlay__container"]
 cnc3018.ru##div[data-widget-key="donate"]
 ozon.ru##div[data-widget="objectBannerList"]
 ozon.ru##div[data-widget="skuBrandShelf"]
+www.ozon.ru##div[data-widget="webPdpGrid"] [data-widget^="tileGridDesktop"]
+www.ozon.ru##div[data-widget="webPdpGrid"] [data-widget^="tileScrollDesktop"]
 ozon.ru##div[data-widget^="bannerCarousel"]:not([style="height:500px;"])
 smolnarod.ru##div[id*="add_"][id*="_news"]
 semestr.online,semestr.ru#?#div[id^="Math"][id$="Block"] > div:-abp-has(> #closecookie)
