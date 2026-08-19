@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608190908
+! Version: 202608190921
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Aug 2026 09:08 UTC
+! Last modified: 19 Aug 2026 09:21 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4ffe1254177ee6fdeb27f0d0d383dd9dfaee1c92
+! Commit: f6463002e9ac285cfcff809b352f239a40b2c48c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -31979,6 +31979,7 @@ wpr.org##.wp-block-wpr-promotion
 desmog.com##.wp-image-2011
 zh.wikipedia.org##.wp25eastereggs-vector-sitenotice-landmark
 dailyevergreen.com,thewalrus.ca##.wppopups-whole
+realchems.net##.wps_wpr_wheel_icon
 wionews.com##.writeforwionbanner
 aptnnews.ca##.your-story
 youtube.com##.ytd-statement-banner-renderer
@@ -49078,6 +49079,7 @@ fptshop.com.vn##[data-cookie-consent-modal="true"]
 ! ---------- Croatian ----------
 ! 
 ||bajs.zagreb.hr/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie.min.js
+||cdn.consent.hr/delivery/customdata/$script,third-party,domain=konzum.hr
 ||katarina-line.hr^*/cookie-consent-$script,domain=katarina-line.com
 ||styria.hr^*/cookies.min.js
 ||vlada.gov.hr/Scripts/gd-cookie
