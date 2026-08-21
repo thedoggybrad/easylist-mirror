@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608211114
+! Version: 202608211120
 ! Title: Fanboy's Social Blocking List
-! Last modified: 21 Aug 2026 11:14 UTC
+! Last modified: 21 Aug 2026 11:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 781433b6144d16ea7cb82338ad20de35865591f9
+! Commit: 6c8f36d5a1ea0a6b9816fe624e780ce680550a6b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11061,6 +11061,7 @@ testbook.com##.fl-social
 thejc.com##.flex.gap-16.lg\:gap-8.items-center
 health.clevelandclinic.org##.flex.gap-rem24px
 freedomnews.tv##.flex.items-center.space-x-3
+tomshardware.com##.flexisites-social
 dailymail.co.uk##.flipboard
 techradar.com##.flipboard-icon
 thehackernews.com##.float-share
@@ -12252,6 +12253,7 @@ greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##hl-share-over
 icann.org##iti-share-icons
 newscenter.lbl.gov##lbl-icon-list
 discord.me##li.menu-link.d-xl-inline-block
+githubstatus.com##nav[aria-label="GitHub's Social Media Links"]
 gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##p:has(> a[href^="https://news.google.com/publications/"])
 cyprus-mail.com##social-share-links
 galaxystore.samsung.com##span[class^="SnsPlugin_items_"]
