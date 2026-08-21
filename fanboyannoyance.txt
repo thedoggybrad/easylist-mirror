@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608211106
+! Version: 202608211120
 ! Title: Fanboy's Annoyance List
-! Last modified: 21 Aug 2026 11:06 UTC
+! Last modified: 21 Aug 2026 11:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 781433b6144d16ea7cb82338ad20de35865591f9
+! Commit: 6c8f36d5a1ea0a6b9816fe624e780ce680550a6b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -33784,6 +33784,7 @@ usrtk.org###subscribe-modal
 thefabricator.com###subscribe-pop-wrapper
 crisisgroup.org,every.to###subscribe-popup
 californiawaterblog.com###subscribe-submit
+githubstatus.com###subscribe-to-newsletter
 intomore.com###subscribe-wide-side
 fivebooks.com###subscribeButton
 gamcore.com###subscribeForm
@@ -34229,6 +34230,7 @@ the-express.com##.breakout
 fabriziovanmarciano.com,liber-net.org##.brx-popup
 bigthink.com##.bt-block__inner
 patch.com##.btn--follow
+githubstatus.com##.btn[href="https://resources.github.com/newsletter/"]
 venturebanc.com##.btn_footer_get_listed
 whowhatwhy.org##.button-floating
 legalfutures.co.uk##.button-wrap-large
@@ -34525,6 +34527,7 @@ goldderby.com##.expert-newslater
 freethink.com##.f-block--form-text
 factinate.com##.f-ssw
 factinate.com##.f-ssw-subscribe-hook
+githubstatus.com##.f5.color-fg-muted.mb-3
 metro.co.uk##.factbox
 edition.cnn.com##.factbox_inline-small
 jerseyvindicator.org,zmescience.com##.fb-inst
@@ -36052,6 +36055,7 @@ medium.com##.am.j:has(> .e.bv)
 spin.com##.border-backgrounds.flex.flex-wrap.border-t:has(form-container)
 ign.com##.box-wrapper:has(> .promo-card)
 realpython.com##.card:has([action="/optins/process/"])
+404media.co##.col-xs-12.col-md-3:has(> .subscribe-form)
 reactormag.com##.desktop\:mb-\[27px\]:has(> hubspot-newsletter)
 ubuntu.com##.grid-col:has(> [data-ga-submit-category="Newsletter"])
 eposaudio.com##.grid__item:has(> .newsletter-sign-up)
@@ -37072,6 +37076,7 @@ testbook.com##.fl-social
 thejc.com##.flex.gap-16.lg\:gap-8.items-center
 health.clevelandclinic.org##.flex.gap-rem24px
 freedomnews.tv##.flex.items-center.space-x-3
+tomshardware.com##.flexisites-social
 dailymail.co.uk##.flipboard
 techradar.com##.flipboard-icon
 thehackernews.com##.float-share
@@ -38263,6 +38268,7 @@ greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##hl-share-over
 icann.org##iti-share-icons
 newscenter.lbl.gov##lbl-icon-list
 discord.me##li.menu-link.d-xl-inline-block
+githubstatus.com##nav[aria-label="GitHub's Social Media Links"]
 gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##p:has(> a[href^="https://news.google.com/publications/"])
 cyprus-mail.com##social-share-links
 galaxystore.samsung.com##span[class^="SnsPlugin_items_"]
