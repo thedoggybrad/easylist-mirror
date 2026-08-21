@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CKV10i3RsdAgIWITFl2N9w
-! Version: 202608210622
+! Checksum: 9npvLHI2sybJ4r1jof4FmQ
+! Version: 202608210632
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Aug 2026 06:22 UTC
+! Last modified: 21 Aug 2026 06:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6828,8 +6828,6 @@ olx.kz,olx.ua,olx.uz##div[data-testid="cookies-overlay__container"]
 cnc3018.ru##div[data-widget-key="donate"]
 ozon.ru##div[data-widget="objectBannerList"]
 ozon.ru##div[data-widget="skuBrandShelf"]
-www.ozon.ru##div[data-widget="webPdpGrid"] [data-widget^="tileGridDesktop"]
-www.ozon.ru##div[data-widget="webPdpGrid"] [data-widget^="tileScrollDesktop"]
 ozon.ru##div[data-widget^="bannerCarousel"]:not([style="height:500px;"])
 smolnarod.ru##div[id*="add_"][id*="_news"]
 semestr.online,semestr.ru#?#div[id^="Math"][id$="Block"] > div:-abp-has(> #closecookie)
@@ -6895,8 +6893,8 @@ ozon.ru##header + [data-replace-layout-path] [style="height:32px;"]
 elitesnooker.com##header > span[id]
 trychatgpt.ru##header button[class*="from-[#"]
 azbooki.ru,engisys.ru,zip1000.ru##html > div[style^="color: rgb"]
-ozon.ru##html:not([style*="overflow:"]) [data-widget="skuGrid"]
-ozon.ru##html:not([style*="overflow:"]) [data-widget="skuShelfGoods"]:not(:only-child)
+ozon.ru##html:not([style*="overflow:"]) div[data-widget="webPdpGrid"] [data-widget^="tileGridDesktop"]
+ozon.ru##html:not([style*="overflow:"]) div[data-widget="webPdpGrid"] [data-widget^="tileScrollDesktop"]
 computer76.ru##iframe[data-src^="https://forms.yandex.ru/"]
 forums.ati.su,loads.ati.su,tm.ati.su,trucks.ati.su##iframe[src*="//news.ati.su/external/last-news/"]
 currenttime.tv##iframe[src*="/a/signup-sidebar-widget/"]
