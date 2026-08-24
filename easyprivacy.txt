@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608240938
+! Version: 202608240946
 ! Title: EasyPrivacy
-! Last modified: 24 Aug 2026 09:38 UTC
+! Last modified: 24 Aug 2026 09:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f1ae309cf888d8e95c465d794f3c4cbb6507af3a
+! Commit: 3d3e8c73c2cc7eab19c63535507f4ed362b80d02
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2134,6 +2134,7 @@
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
+/sentinel-events-tracker.
 /sentry-browser.min.js
 /sentry-browser.tracing.es5.min.js
 /sentry-logger.js
@@ -17339,6 +17340,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||idstatus.sky.com^
 ||img2021.navyfederal.org^
 ||imgs.signifyd.com^
+||kaspersky.com/assets/logSender.
 ||log-185a61e7.bendigobank.com.au^
 ||log-2ffe60ee.westpac.com.au^
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
