@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608251232
+! Version: 202608251236
 ! Title: EasyPrivacy
-! Last modified: 25 Aug 2026 12:32 UTC
+! Last modified: 25 Aug 2026 12:36 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3a6724c452475ef99ab07e0d29d7dbea2de3fe1a
+! Commit: 20eda3683182671e5aa77245fd5bf79bc319048e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11958,6 +11958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mcjs.prd.a.intuit.com/assets/pixel-reporting-sdk/
 ||mcssl.com^*/track.ashx?
 ||mdxprod.io/analytics.js
+||meas.join-stories.com^
 ||measure.refinery89.com^
 ||media-imdb.com/twilight/?
 ||media-lab.ai/ana-sentry.js
@@ -12642,6 +12643,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||src.freshmarketer.in^
+||src.fwusercontent.com^
 ||srvmath.com^*/analytics.js
 ||ssa.stepstone.com^
 ||ssc.shopstyle.com/collective.min.js
