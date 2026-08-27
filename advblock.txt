@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: y2wZczQbZwdymyO5s34K4g
-! Version: 202608271732
+! Checksum: BrzYVv5FPVDE+d5YziVt4A
+! Version: 202608271752
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Aug 2026 17:32 UTC
+! Last modified: 27 Aug 2026 17:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17603,6 +17603,7 @@ browserss.ru##[onclick^="window."][onclick*="://"]
 allboxing.ru##[onmouseenter="onClickPbButton()"]
 penzainform.ru##[pnz-ads]:not(eto-dlya-mob-ver)
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
+vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [href*="utm_source=vk_ads"])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has([aria-label="Реклама от автора"])
 rozetka.com.ua#?#[rzadvertisingview]:-abp-has(> div > span > rz-advertising-info-btn)
 rozetka.com.ua#?#[rzscrollersliderbar] > div > .slide:-abp-has(> rz-product-tile [aria-label*=" про рекламу"])
