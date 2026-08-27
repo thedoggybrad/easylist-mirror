@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608271631
+! Version: 202608271647
 ! Title: EasyPrivacy
-! Last modified: 27 Aug 2026 16:31 UTC
+! Last modified: 27 Aug 2026 16:47 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7665587aae20a1d48753edaec6ed5fca28b277fe
+! Commit: 8485b79f5ecb2f8213552ad30ae6b1b13096420d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -56559,6 +56559,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 @@||matsukiyococokara-online.com/store/*/rtoaster.js
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp|nexon.com
+@@||navacom.info/count.php?$~third-party
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||onesignal.com/api/v1/sync/$domain=oshibuta.com
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
