@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3rfBaCyum4jTUFJ2jz7cnw
-! Version: 202608271003
+! Checksum: RLuQHOSVhYOsfjy4ZurJ+w
+! Version: 202608271012
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Aug 2026 10:03 UTC
+! Last modified: 27 Aug 2026 10:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1752,6 +1752,7 @@ mem-hub.ru##body.modal-open > .modal-backdrop {display:none;}
 mem-hub.ru##body.modal-open {overflow:auto;padding-right:0;}
 povarenok.ru##.page-width {margin-top:0;}
 povarenok.ru#?#.m-img:has(> [href*="?erid="]) {min-height:0;}
+profinance.ru##main > .content-grid {grid-template-columns:unset;}
 respawn.media#?#article:has(> div span:has-text(/РЕКЛАМА: ЕРИД/i)) a[href^="http"]:not([href*="respawn.media/"]) {pointer-events:none;border-bottom:none;color:inherit;}
 stranamam.ru##.n-main-branding-container {margin-top:0;}
 stratege.ru###globalcontent {margin-top:0;padding-top:0;}
@@ -20141,6 +20142,7 @@ lurkmore.*###n-Группа-в-Дискорде
 lurkmore.*###n-Канал-в-Телеграме
 old.myshows.me##main > .contAlt
 allcarz.ru#?#main > .container > .site-content:-abp-has(> .content-banner)
+profinance.ru##main > .content-grid > aside
 protanki.tv##main > .hidden
 mediaryazan.ru##main > .hide-on-mobiles > div[class="sideblock"]:first-child
 versii.if.ua#?#main > [class="brxe-section"]:-abp-has(.indication-bor-rad)
