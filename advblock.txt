@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Hr7k6l+LWvv4dJnq37j4Xw
-! Version: 202608271832
+! Checksum: 3NnsAVM4wJRRA4tpw9ldBA
+! Version: 202608271841
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Aug 2026 18:32 UTC
+! Last modified: 27 Aug 2026 18:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25124,6 +25124,7 @@ rbc.ru##div[class^="item-slider__partner"]
 utro.ru##div[class^="partners-block"]
 rbc.ru##div[class^="styles_aside-top_"]
 rbc.ru##div[class^="styles_okko"]
+rbc.ru#?#main > article > div:-abp-has(.commercial-slider)
 ||api.mindbox.ru/scripts/*/tracker.$domain=rbc.ru
 ||cnews.ru/inc/js/height_max_banner.js
 ||market.cnews.ru/widget$domain=www.cnews.ru
