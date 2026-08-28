@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: d+y4GYEk6vMg6UeWW4bA0w
-! Version: 202608281603
+! Checksum: QquA3YdMBUufbRNbu680mQ
+! Version: 202608281613
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 28 Aug 2026 16:03 UTC
+! Last modified: 28 Aug 2026 16:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -49100,6 +49100,7 @@ browsershots.org#@#.advert_area
 ||ocinzfdyslxja.online^
 ||ociurwibnklqw.online^
 ||ocivocakufslc.site^
+||ocjfmzafydzky.site^
 ||ockecpnnrbu.com^
 ||ockerflurn.qpon^
 ||ockremarkedon.com^
@@ -74609,6 +74610,7 @@ browsershots.org#@#.advert_area
 !----------------------Specific advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_specific_block.txt ***
 $third-party,xmlhttprequest,domain=mega4upload.net
+/advanced_placement/new-in-article/?type=placement^$domain=androidauthority.com
 /pmc-adm-v2/build/setup-ads.js$domain=bgr.com|deadline.com|rollingstone.com
 /resolver/api/resolve/v3/config/?expType=AppConfig&expInstance=default&apptype=weather&$domain=msn.com
 ||123movies.ai/sab_
@@ -75397,7 +75399,6 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||worthplaying.com/ad_left.html
 ||wowroms.com/images/Banner336x280.gif
 ||wowroms.com/images/Banner970x250.gif
-||wpengine.com/wp-json/api/advanced_placement/new-in-article/?type=placement^$domain=androidauthority.com
 ||wqah.com/images/banners/
 ||wsj.com/asset/ace/ace.min.js
 ||www.google.*/adsense/search/ads.js
