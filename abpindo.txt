@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: W4ZBBySIiDieWXYNP7ozPQ
-! Version: 202608282212
+! Checksum: nf9Zo055lmbOXdH4k9WuZA
+! Version: 202608282221
 ! Title: ABPindo
-! Last modified: 28 Aug 2026 22:12 UTC
+! Last modified: 28 Aug 2026 22:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 20 Aug 2026 11:15 UTC
+! Last modified: 28 Aug 2026 22:14 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -486,7 +486,7 @@ inews.id##+js(rc, content-wrap|wrap-all)
 sindonews.com##+js(rc, t480)
 tipskerja.com##+js(refresh-defuser)
 3gpterbaru.com,duniaseksi.com##+js(rmnt, script, /decodeURIComponent\(escape|fairAdblock/)
-almaftuchin.com,indokontraktor.com##+js(rmnt, script, adblock)
+almaftuchin.com,indokontraktor.com,niadi.net##+js(rmnt, script, adblock)
 wisatalova.com##+js(rmnt, script, hargamenu)
 katadata.co.id##+js(rmnt, script, modalAdsPopup)
 kisahterlarang.site,layarwibu.com,sukasex.net,sukasex.tv##+js(rmnt, script, popupUrl)
