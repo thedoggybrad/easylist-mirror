@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8OPIaCm+SxqPR1Zx0DK7ew
-! Version: 202608290021
+! Checksum: yK8brZcriCj7xcRfj3H0Qg
+! Version: 202608290032
 ! Title: ABPVN List
-! Last modified: 29 Aug 2026 00:21 UTC
+! Last modified: 29 Aug 2026 00:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 28 Aug 2026 16:46:18 UTC+7
-! Diff-Path: patches/20260828164618900.patch#abpvn
+! Last modified: 29 Aug 2026 07:26:34 UTC+7
+! Diff-Path: patches/20260829072634012.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -840,7 +840,7 @@ znews.vn##.znews-banner
 @@||alwingulla.com/88/tag.min.js$xmlhttprequest,script,domain=apkmoddone.com
 @@||anime47.best/ads/v/8.26.9/jw
 @@||anime47.best/ads/v/8.26.9/translations
-@@||bundlemoviepumice.com^$domain=streamc.xyz
+@@||bundlemoviepumice.com/on.js$script,domain=streamc.xyz
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.0.0/videojs-contrib-ads.js$script,domain=sctvonline.vn
 @@||hopphim.online/adpartner.min.js$script,~third-party
 @@||imasdk.googleapis.com^$script,xmlhttprequest,domain=vieon.vn|fptplay.vn|24h.com.vn|game24h.vn|sctvonline.vn|danet.vn|vtvgo.vn|toku.strp2p.com
