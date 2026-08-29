@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GnA3MGxUiG6JANB/qHBpPw
-! Version: 202608291803
+! Checksum: +RTgwZAahIvqKHJZcU+8pg
+! Version: 202608291811
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 29 Aug 2026 18:03 UTC
+! Last modified: 29 Aug 2026 18:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7603,9 +7603,9 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! - "Тяжёлая артиллерия" против хитрой рекламы --------------------------------
 ! *** ruadlist:bitblock/magic.txt ***
-! Данные правила относятся к категории "медленных" и потенциально слишком
-! общих, а потому либо вовсе не подходят для основной подписки, либо требуют
-! некоторой предварительной обкатки.
+! Эта секция содержит оперативные исправления
+! которые невозможно применить в uBOL до выхода новой версии
+@@||g.alicdn.com/AWSC/fireyejs/*/fireyejs.js|$script,domain=aliexpress.ru
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
