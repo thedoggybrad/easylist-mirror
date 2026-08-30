@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: clwmfOkQresbsHd17bkmkw
-! Version: 202608300021
+! Checksum: IXuCEGKiGQ2WyA+mrkOnxw
+! Version: 202608300032
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 30 Aug 2026 00:21 UTC
+! Last modified: 30 Aug 2026 00:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -23911,6 +23911,7 @@ browsershots.org#@#.advert_area
 ||5f6dmzflgqso.com^
 ||5fb4d91deb.com^
 ||5fet4fni.de^
+||5fyyre6mb5u24c.rest^
 ||5gvci.com^
 ||5h3oyhv838.com^
 ||5icim50.de^
@@ -24027,6 +24028,7 @@ browsershots.org#@#.advert_area
 ||6e29abca70.com^
 ||6e76b83826.com^
 ||6e8f64dd63.com^
+||6eba825f3a.com^
 ||6ec764402d.com^
 ||6f0247be0c.com^
 ||6f218410f7.com^
@@ -42274,6 +42276,7 @@ browsershots.org#@#.advert_area
 ||izitrckr.com^
 ||izjvndjendqdv.website^
 ||izkivydhiqfjx.store^
+||izngibxwtlvqg.site^
 ||izoga.xyz^
 ||izpvwgsjs.com^
 ||izrnvo.com^
@@ -84652,6 +84655,7 @@ stockx.com##[data-component="product-tile"]:has([data-testid="sponsored-tag"])
 maisonsdumonde.com##[data-el="product-card-grid"] article:has([data-el="product-card__sponsored"])
 pixiv.net##[data-gtm-recommend-zone="index"] li:has(> div > iframe[name$="rectangle"])
 avxhm.se##[data-localize]:has(a[href^="https://canv.ai/"])
+outlook.live.com##[data-message-ad-id="MessageAdKeyOutlookUpSell0"]
 target.com##[data-module-type="GlobalRecommendedProducts"]:has(> [data-test*="sponsored_items"])
 etsy.com##[data-page-type="listing_page_similar_listings_grid"]:has([id^="ad-listing-title-"])
 etsy.com##[data-page-type="listing_page_similar_listings_row"]:has([id^="ad-listing-title-"])
@@ -84766,7 +84770,6 @@ birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,irishstar.com,liverpool
 staples.com##div[class^="sku-configurator__banner"]:has([aria-label="Sponsored Products"])
 wikiwand.com##div[class^="wrapper_wrapper"]:has(> div[class^="wrapper_cta"])
 wikiwand.com##div[class^="wrapper_wrapper"]:has(> div[id^="ezoic-pub-ad"])
-outlook.live.com##div[data-app-section="MessageList"] div[class][id*="-"]:has(> div:not([class]) > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] + .ms-Button--hasMenu.ms-Button--icon)
 flipkart.com##div[data-id]:has(a > [data-tkid^="ADVIEW"])
 bjs.com##div[data-index]:has(.sponsored-badge)
 chatgpt.com##div[data-message-supplement]:has(aside[data-partial-island="assistant-ads"])
