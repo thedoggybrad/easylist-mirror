@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9bUXesjYDItn/nW1M/EJ8A
-! Version: 202609012032
+! Checksum: lxrCs4wsNlb8ESSv3yFttg
+! Version: 202609012041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Sep 2026 20:32 UTC
+! Last modified: 01 Sep 2026 20:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7616,10 +7616,12 @@ fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, onclick, inlineScript)
 liveinternet.ru##+js(prevent-addEventListener, load, AdvManager)
 fastpic.org,~new.fastpic.org##+js(remove-node-text, script, 'return;try')
 fastpic.org,~new.fastpic.org##+js(set-constant, HTMLHtmlElement.prototype.onclick, noopFunc)
+/splash.php?*fastpic$document
 @@||g.alicdn.com/AWSC/fireyejs/*/fireyejs.js|$script,domain=aliexpress.ru
 ||crmared.com^$document
 ||dsazfk.com^$document
 ||dteifi.com^$document
+||dttxqa.com^$document
 ||dtxelz.com^$document
 ||dtyvtj.com^$document
 ||epicgameshubham.com^$document
