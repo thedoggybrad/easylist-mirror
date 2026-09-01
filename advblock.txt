@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4jDKxtV1bDQNr5xc2nyiyQ
-! Version: 202609012032
+! Checksum: zN1QgK3RQfopnUqBrfnCpg
+! Version: 202609012041
 ! Title: RU, UA, UZ, KZ
-! Last modified: 01 Sep 2026 20:32 UTC
+! Last modified: 01 Sep 2026 20:41 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11440,9 +11440,11 @@ _vodkov.net
 ||kipfilms.ru^$third-party
 !
 ! FastPic-partners
+/splash.php?*fastpic$document
 ||crmared.com^$document
 ||dsazfk.com^$document
 ||dteifi.com^$document
+||dttxqa.com^$document
 ||dtxelz.com^$document
 ||dtyvtj.com^$document
 ||epicgameshubham.com^$document
