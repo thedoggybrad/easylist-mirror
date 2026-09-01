@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2aHbqFxa77fSZR6f2F+RtQ
-! Version: 202609011422
+! Checksum: EKTZ8h5aJh0LSNDuB70CWA
+! Version: 202609011433
 ! Title: Liste FR
-! Last modified: 01 Sep 2026 14:22 UTC
+! Last modified: 01 Sep 2026 14:33 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -7141,6 +7141,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|allviid.xyz|dai
 ||petite-garce.com/ban/$third-party
 ||philatelistes.net/liens/cptr/
 ||piazza.ch^$subdocument
+||pikiz.app/img/diffusion/$third-party
 ||pimpland.pl/images/$third-party
 ||pix-cdn.org/banners/
 ||placelibertine.com^$image,third-party
@@ -13079,6 +13080,7 @@ jeuxvideomoinschers.fr,tahiti-infos.com##[id^="pub_"]
 moneyvox.fr##[mam-campaign="Ban"]
 ouedkniss.com##[no-adsense]
 toutvendre.fr##[onclick*=".kelkoogroup.net/"]
+free-reseau.fr,lecoinduchasseur.net##[style^="width: 728px; height: 90px;"]
 lesoir.be##a > [width="300"][height="250"]
 basket-infos.com##a > img[alt^="Pub"]
 maligue2.fr##a > img[alt^="Sponsor"]
@@ -13350,7 +13352,6 @@ winamax.fr##div[style^="cursor: pointer; background:"]
 voyageforum.com##div[style^="display: table; float: left; height: 250px; width: 310px;"]
 echoroukonline.com##div[style^="display:inline-block;width:300px;height:250px;"]
 geny.com##div[style^="width: 300px; height: 250px;"]
-free-reseau.fr##div[style^="width: 728px; height: 90px;"]
 echoroukonline.com##div[style^="width:200px; padding:2px; border:#AAA 1px solid;"]
 copine-coquine.com##div[style^="width:300px;height:250px"]
 echoroukonline.com##div[style^="width:728px;height:90px;"]
