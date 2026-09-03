@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 25dn31GHD4rFvyaE6aXQGw
-! Version: 202609031651
+! Checksum: KA9ode+jEuRikXQ70vK9lg
+! Version: 202609031703
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Sep 2026 16:51 UTC
+! Last modified: 03 Sep 2026 17:03 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -84,7 +84,6 @@ _vkontakte.png
 ###recent-disqus-comments
 ###social
 ###socializ
-###telegram-hdrezka-channel-block
 ###utbMenuContainer
 ###vk_like
 ~vk.com###vk_subscribe
@@ -125,8 +124,6 @@ _vkontakte.png
 ##.g_plus
 ##.gen-socail-share
 ##.gplus_box
-##.has-brand .b-collection__blockinfo__social_holder_wrapper
-ac,ag,biz,buzz,by,city,club,co,com,fi,in,ink,kim,la,loan,me,name,net,org,pub,rest,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .vk-group
 ##.icon-vk
 ##.icon-ya
 ##.icon_vkontakte
@@ -391,7 +388,6 @@ ru##[title="Выбрать соцсеть для шаринга"]
 ||telegrafcom.api.oneall.com/socialize/
 ||telegram.org/js/telegram-widget.js$domain=app2top.ru|movieweb.ru
 ||thevista.ru/*/img/soc/
-||twitter.com/widgets.js$domain=hdrezka.tv
 ||tyt.by/i/socialBlock/
 ||uaserials.*/ask_modal.
 ||umovies.club/flowplayer/src/assets/bg*jpg|$image
@@ -862,7 +858,6 @@ podrobnosti.ua##.b-news-share
 om1.ru##.b-popup-auth-social-networks
 sobaka.ru##.b-post-view__section--social-groups
 sobaka.ru##.b-post-view__share
-hdrezka.ag,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.co,hdrezka.in,hdrezka.ink,hdrezka.loan,hdrezka.me,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkapez.org,hdrezkapzm.org,hdrezkawer.org,kinopub.me,rezka-ua.tv,rezka.ag,rezkery.com,rezkify.com##.b-post__social_holder > div
 kingisepp-today.ru,xn----etbbecbrbp5ahkja1ae7v.xn--p1ai#?#.b-projects > .b-projects__grid:-abp-has(> #fb-root)
 utro.ru##.b-repost
 sibdepo.ru##.b-section--comments
@@ -884,7 +879,6 @@ altapress.ru##.b-social_top
 kavkaz-uzel.eu##.b-socials-links
 7days.ru##.b-stripe_content_footer-info > .b-stripe
 sobaka.ru##.b-telegram-promo
-3ivi.com,bestivi.com,ezhdrezka.com,freehdrezka.com,hdrezka.ag,hdrezka.buzz,hdrezka.by,hdrezka.city,hdrezka.club,hdrezka.co,hdrezka.in,hdrezka.ink,hdrezka.loan,hdrezka.me,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkapez.org,hdrezkapzm.org,hdrezkawer.org,kinopub.me,rezka-ua.tv,rezka.ag,rezkery.com,rezkify.com##.b-tg__wrapper
 svpressa.ru##.b-top-header__socials
 gov-murman.ru##.b1t-soir-gdc-hl
 hvylya.net##.b__share--buttons
@@ -3022,6 +3016,10 @@ interfax.ru,sport-interfax.ru##a[title^="Интерфакс в "]
 forbes.ru##a[title^="Подпишитесь на нас"]
 baby.ru##a[title^="Телеграм"]
 360.ru##a[type="button"][style^="--icon-color:"]
+ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,org,pub,rest,rezka.*,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .b-collection__blockinfo__social_holder_wrapper
+ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,org,pub,rest,rezka.*,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .b-post__social_holder > div
+ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,org,pub,rest,rezka.*,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .b-tg__wrapper
+ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,org,pub,rest,rezka.*,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .vk-group
 afisha.yandex.ru,afisha.yandex.*##div[data-component="Footer_Socials"]
 allcarz.ru,gazeta.spb.ru,liveball.my,liveball.uno,liveball.*,repost.uz,runews24.ru,yarnews.net##.tg
 dp.ru##app-article-social-discussion
@@ -3811,10 +3809,6 @@ _userbar_$image
 ##.footer__apps
 ##.forum-user-signature img
 ##.fp-player .fp-min-age
-##.has-brand .b-content__main [style^="height: 250px;"][style*="width: 680px;"]
-##.has-brand .b-dwnapp
-##.has-brand .b-prem-button
-##.has-brand .b-tophead__subscribe-dropdown
 ##.js-cookie-bar
 ##.js-cookie-container
 ##.js-cookiemodal
@@ -4260,8 +4254,6 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 /web/vk_video_promo_block.$domain=vk.com|vk.ru
 /wp-content/plugins*popup-builder/*$domain=blackwot.ru|shotam.info
 /wp-content/plugins/icegram/*$domain=mos-holidays.ru
-://s*.*ezka.*/i/hdrezka_premium_
-://s*.*ezka.*/i/nrada_liars
 _app_promo$domain=7themes.su|wallscloud.net
 ||1cloud.ru/js/subscribe?
 ||1jazz.ru/wp-content/plugins/revslider/
@@ -4672,7 +4664,6 @@ disqus.com###badges-message__container
 tabloid.one###bakmagecme
 map.ukrainealarm.com###banner-coffee
 map.ukrainealarm.com###banner-parteon
-kinorezka.net###bar-video > #blocking
 torrent-soft.net###barchives
 bigpicture.ru###bigpicture-webpush-widget
 chelseablues.ru###blocchad
@@ -5620,7 +5611,6 @@ gamebomb.ru##.grid-100p-301-rc > .container[style^="background-color"]
 interfax.ru,sport-interfax.ru##.group-btns
 kommersant.ru##.gs_subscribe
 securitylab.ru##.hacker-banner
-hdrezka.ag,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.co,hdrezka.in,hdrezka.ink,hdrezka.loan,hdrezka.me,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkapez.org,hdrezkapzm.org,hdrezkawer.org,kinopub.me,rezka-ua.tv,rezka.ag,rezkery.com,rezkify.com##.has-brand div[class^="b-player-block-"]
 pushkinsdelal.ru##.has-pale-cyan-blue-background-color
 gmshospital.ru##.head-notification--cookie
 kurs.com.ua##.header > div:not([class]) > div:not([class])
@@ -6616,6 +6606,10 @@ holod.media##a[href^="https://youngandugly.com/"]
 nnm-club.me,nnmclub.ro,nnmclub.to##a[href^="rss.php"]
 nnm-club.me,nnmclub.ro,nnmclub.to##a[onclick="return toggle_new_year();"]
 chytomo.com##a[title="DONATE"]
+ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,org,pub,rest,rezka.*,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .b-content__main [style^="height: 250px;"][style*="width: 680px;"]
+ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,org,pub,rest,rezka.*,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .b-dwnapp
+ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,org,pub,rest,rezka.*,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .b-prem-button
+ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,org,pub,rest,rezka.*,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .b-tophead__subscribe-dropdown
 thebell.io##app-adfox-top
 dp.ru##app-article-signup-newsletters
 thebell.io##app-bottom-sticky-dialog
@@ -6906,8 +6900,6 @@ msfree.su##form[action^="https://msfree.su/donaties/"]
 google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com###apps_widget
 google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com###top_info_block
 itechua.com,uamotors.com.ua#?#h4:-abp-has(> span a[href^="https://news.google.com/publications/"])
-hdrezka.*,rezka.*##.b-dwnapp
-hdrezka.*,rezka.*##.b-tophead__subscribe-dropdown
 ozon.ru##header + [data-replace-layout-path] [style="height:32px;"]
 elitesnooker.com##header > span[id]
 trychatgpt.ru##header button[class*="from-[#"]
