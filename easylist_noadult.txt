@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tg29fj1HyZORErC3WEBioA
-! Version: 202609041601
+! Checksum: duu/DSYIsjEIkWtLRHy8Xw
+! Version: 202609041612
 ! Title: EasyList without rules for adult sites
-! Last modified: 04 Sep 2026 16:01 UTC
+! Last modified: 04 Sep 2026 16:12 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -28818,6 +28818,7 @@ browsershots.org#@#.advert_area
 ||fartsrainout.cyou^
 ||fascespro.com^
 ||fasciaesleave.qpon^
+||fascilisattiejereeds.cyou^
 ||fascismmuchly.shop^
 ||fascjusltedhecco.qpon^
 ||fascparbate.com^
@@ -45924,6 +45925,7 @@ browsershots.org#@#.advert_area
 ||puldhukelpmet.com^
 ||pulesbabblyrubying.cfd^
 ||pulexwakanda.cfd^
+||pulisavenage.cfd^
 ||pulldoocronel.cfd^
 ||pullenaventreamulae.qpon^
 ||pullerycozed.cfd^
@@ -65779,6 +65781,7 @@ browsershots.org#@#.advert_area
 ||ctent.povvverz.one^
 ||cts.tradepub.com^
 ||customer.heartinternet.co.uk^$third-party
+||cv1-ecf.workers.dev^
 ||cxad.cxense.com^
 ||dashboard.iproyal.com/img/b/
 ||datacluster.club^
@@ -68063,6 +68066,8 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||oklink.com/api/explorer/v2/index/text-advertisement?
 ||oldgamesdownload.com/wp-content/plugins/placement-manager/
 ||onlineshopping.co.za/expop/
+||openalternative.co/advertise?
+||openalternative.co^*/ads/
 ||opencart.com/application/view/image/banner/
 ||openstack.org/api/public/v1/sponsored-projects?
 ||optics.org/banners/
@@ -76380,7 +76385,7 @@ quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]:has(.qu
 ksl.com##.queue:has(.sponsored)
 businessinsider.com##.rail-container:has(> .ad-label)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
-openalternative.co##.relative.rounded-lg:has(a[href="/advertise"])
+openalternative.co##.relative.rounded-lg:has(a[href^="/advertise"])
 builtbybit.com##.resourceSidebar-belowContent > div > .block:has(.block-container a[href="https://tebex.io/"])
 metager.org##.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
 metager.org##.result:has(a[href^="https://r.search.yahoo.com/"])
