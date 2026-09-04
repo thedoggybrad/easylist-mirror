@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609040730
+! Version: 202609040743
 ! Title: Fanboy's Annoyance List
-! Last modified: 04 Sep 2026 07:30 UTC
+! Last modified: 04 Sep 2026 07:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: edc3e5dcf67a7109c9da4940c48971ae0ac58c0e
+! Commit: 0cf69e0c3ff1b57796cccec6bc34f392aaf634ec
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -33315,6 +33315,7 @@ gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
 m.iyf.tv##.container:has(> div.download-title)
 analyticsindiamag.com##.elementor-section-content-middle[data-settings="{\"background_background\":\"classic\"}"]:has(a[href^="https://play.google.com/store/apps"])
 mixch.tv##.modal.show:has(.move-app-title)
+axios.com##.mt-6:has(> [href="https://www.axios.com/newsletters"])
 sp.nicovideo.jp##div[style="height: 56px;"]:has(> a[href^="https://nicovideo.applink.nicovideo.jp/?link"])
 anglers.jp##nav.navbar-expand-sm:has(> a[href^="https://anglers.go.link?deep_link="][style="width: 100%;"])
 channel.rakuten.co.jp##rch-app > div[class]:has(> a[rel][href^="https://rchannel.onelink.me/"])
@@ -35635,7 +35636,7 @@ cafemom.com##.subscribe-enter-done
 punchline-gloucester.com##.subscribe-footer-container
 euroweeklynews.com##.subscribe-for-news
 memri.org##.subscribe-for-updates
-allthings.how,armageddonexpo.com,businesstech.co.za,buttondown.com,channelnews.com.au,dashbit.co,itsfoss.com,jurist.org,nobodyaskedforthis.lol,pandotrip.com,pissdaily.com,reasonstobecheerful.world,rigzone.com,sfist.com##.subscribe-form
+abhyrama.com,allthings.how,armageddonexpo.com,businesstech.co.za,buttondown.com,channelnews.com.au,dashbit.co,itsfoss.com,jurist.org,nobodyaskedforthis.lol,pandotrip.com,pissdaily.com,reasonstobecheerful.world,rigzone.com,sfist.com##.subscribe-form
 theanalyst.com##.subscribe-form-footer
 gwaramedia.com##.subscribe-form-holder
 theinspiredhome.com##.subscribe-form-wrap
@@ -36351,7 +36352,7 @@ techzine.eu,techzine.nl###mailsignup
 ! ! .suscribe
 debate.com.mx,eldiariony.com,elgrafico.com,laopinion.com,laprensagrafica.com,laraza.com,motor.com.co,thejakartapost.com,ultimominuto.news##.suscribe
 ! ! #newsletter-form
-altreconomia.it,coxautoinc.com,dezeen.com,discogs.com,sbs.com.au,soft112.com###newsletter-form
+altreconomia.it,coxautoinc.com,destructoid.com,dezeen.com,discogs.com,sbs.com.au,soft112.com###newsletter-form
 ! ! .NewsletterForm
 edweek.org,francebleu.fr,telegraaf.nl##.NewsletterForm
 ! ! .copyRight-div
@@ -38336,6 +38337,7 @@ dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
 netwerk24.com,news24.com,son.co.za##.article--top-bar-right:has(.social-sharing)
 foxnews.com##.article-meta-lower:has(.article-social)
 pubs.rsc.org##.fixpadb--xl.c--gap-xs.c:has(.btn--social)
+macys.com##.footer-section:has(> [aria-label="Social Media List"])
 arrow.apache.org##.nav-item:has(> [href="https://bsky.app/profile/arrow.apache.org"])
 arrow.apache.org##.nav-item:has(> [href="https://www.linkedin.com/company/apache-arrow/"])
 microsoft.com##.section-master:has(.socialfollow)
@@ -41454,6 +41456,7 @@ weedmaps.com##[class*="styles__BannerContainer-"]
 anthropic.com##[class^="ConsentBanner_"]
 donnabskitchen.com##[class^="CookieBanner_positionContainer"]
 sunmi.com##[class^="CookieCard_cookie-card"]
+kupujemprodajem.com##[class^="CookieConsent-module"]
 getunleash.io##[class^="CookieControl"]
 artist.mnetplus.world##[class^="CookieCustomBottomSheet"]
 marineserre.com##[class^="CookiePopin_"]
