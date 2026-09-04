@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w5KHJpcifr5G/MJTZ+U4RQ
-! Version: 202609040841
+! Checksum: 6K8Fyd0aghp2gBHA9TUz0w
+! Version: 202609040851
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 04 Sep 2026 08:41 UTC
+! Last modified: 04 Sep 2026 08:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1408,7 +1408,7 @@ pravdatutnews.com##.header-sma
 tulapressa.ru##.header-soc
 vg-news.ru##.header-soc-block
 livemaster.ru##.header-soc-icons
-fnvolga.ru,football.ua,golos.ua,hi-tech.ua,ixbt.games,liganews.net,likeni.ru,mediaryazan.ru,moirebenok.ua,ostro.org,smolensk-i.ru,tlt.ru,tulasmi.ru,tvoymalysh.com.ua,vladnews.ru##.header-social
+fnvolga.ru,football.ua,golos.ua,hi-tech.ua,ixbt.games,liganews.net,likeni.ru,mediaryazan.ru,moirebenok.ua,ostro.org,rosserialhd.ru,smolensk-i.ru,tlt.ru,tulasmi.ru,tvoymalysh.com.ua,vladnews.ru##.header-social
 smartpress.by##.header-social a[href][target="_blank"]
 dymka.com.ua##.header-social-network
 aspekty.net##.header-social-wrap
@@ -7606,7 +7606,7 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! ----
 .link/6p80h?$third-party,xmlhttprequest
 /splash.php?*fastpic$document
-=*=*fastpic$document
+=*=*fastpic*%$document
 fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, Event.prototype.preventDefault, inlineScript)
 ||crmared.com^$document
 ||epicgameshubham.com^$document
