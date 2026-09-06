@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WC6zJ1xdRgM+91zOkM/xXg
-! Version: 202609060922
+! Checksum: 3epgx+0Xhn6B+2QrwpfoJg
+! Version: 202609060932
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 06 Sep 2026 09:22 UTC
+! Last modified: 06 Sep 2026 09:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1294,7 +1294,6 @@ iphones.ru##.footer__line-menu_social
 soft2u.ru##.footer__link--vk
 onlinetrade.ru##.footer__linksline__smo
 praca.by#?#.footer__menu > .menu__items:-abp-has(> .social-networks-portal)
-vtimes.io#?#.footer__menu > ul > li:-abp-has(> ul > li > .share-icons)
 dyvys.info#?#.footer__part:-abp-has(> .rounded-socials)
 career.habr.com##.footer__section--social
 rayon.in.ua##.footer__soc-list
@@ -4841,7 +4840,6 @@ stulchik.net###myModal
 pcportal.org###n_ov
 ihavebook.org###navbar-donate
 2x2.su###news_score_form
-moscowtimes.eu,moscowtimes.ru###newsletter
 sberometer.ru###newslinebox
 mult-fan.tv###noVip
 fb.ru###notice-holder
@@ -5358,8 +5356,8 @@ vse42.ru#?#.content-switcher:-abp-has(> .content-switcher__title:-abp-contains(�
 softportal.com##.contentWrap > .st-browser__page ~ div[id][style]
 novyny.live##.content__subscribe
 kinoteatr.ru##.content_right_banner
-moscowtimes.eu,moscowtimes.ru,vtimes.io##.contribute-bar
-moscowtimes.eu,moscowtimes.ru##.contribute-teaser
+themoscowtimes.com##.contribute-bar
+themoscowtimes.com##.contribute-teaser
 doramalive.news##.control-disclaimer
 avk.ua##.coocie-pop
 informator.ua##.coockies
@@ -5554,8 +5552,9 @@ incrypted.com##.footer-top-part__col-2
 ridus.ru##.footerActions
 travelask.ru##.footer__app
 latifundist.com,zemliak.com##.footer__flex-wrap
+themoscowtimes.com##.footer__form
 holod.media##.footer__help
-moscowtimes.eu,moscowtimes.ru##.footer__menu > .row-flex > li ~ li
+themoscowtimes.com##.footer__menu > .row-flex > li ~ li
 lifehacker.ru##.footer__menu-list > :not(:first-child):not(:last-child)
 banki.ru##.footer__mobile-apps-block-wrapper
 mil.in.ua,tvmag.ru##.footer__subscribe
@@ -6124,7 +6123,7 @@ interface31.ru##.sidebar_inner > div[class="widget"]
 habr.com##.sidebar_right > #companies_rating
 ktonanovenkogo.ru##.sidebar_top
 siver.com.ua#?#.sidebox > .sidetitle:-abp-has(> span:-abp-contains(/погода/i))
-izhlife.ru,vtimes.io##.signup-form
+izhlife.ru##.signup-form
 teplica-exp.ru##.similar-info > .title_for_corousel
 gsminfo.com.ua##.single-body > .code-block
 newssky.com.ua##.single-content > .single-entry-summary ~ :not(:last-child)
