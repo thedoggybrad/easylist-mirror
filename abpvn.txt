@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: B5+nMpWZPAAtJSOd6sgP9Q
-! Version: 202609071941
+! Checksum: g6qkkOzTEBQXCl2bqSrDwQ
+! Version: 202609071952
 ! Title: ABPVN List
-! Last modified: 07 Sep 2026 19:41 UTC
+! Last modified: 07 Sep 2026 19:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 07 Sep 2026 21:10:54 UTC+7
-! Diff-Path: patches/20260907211054562.patch#abpvn
+! Last modified: 08 Sep 2026 02:49:09 UTC+7
+! Diff-Path: patches/20260908024908913.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -972,6 +972,7 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||truyensextv.com^*.gif
 ||truyenvn.sbs^*banner$image
 ||video.s3viphub.shop/uploads/banners$image,domain=cap3.lifestyle
+||vklstream.com/ads/$subdocument,domain=phim.xxxmeo.com
 ||www.hayvn.net^*.gif$image
 ||www.hentaivnx.com/js/cla/2064711.js$script
 ||www.hentaivnx.com/js/modscript.js$script
@@ -1030,6 +1031,8 @@ phe69.uk###phe-overlay-root
 pheclip.chat,phim18vip.site##.in.fade.modal-backdrop
 phim.haysex.asia###mp-preload-popup-overlay
 phim.haysex.asia##.banner-play
+phim.xxxmeo.com###divExoLayerWrapper
+phim.xxxmeo.com##.ldg-y-x-header
 phim18hd.site##.cash-fish
 phim18hd.site##.cash-fish-pc
 phim18hd.site##.preload-pc
