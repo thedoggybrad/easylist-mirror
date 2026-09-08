@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: X/yLOLp9UrtERIhZ2eKQVw
-! Version: 202609081222
+! Checksum: 4cciCuSaNZyxmUeOO2Y+bw
+! Version: 202609081232
 ! Title: ABPVN List
-! Last modified: 08 Sep 2026 12:22 UTC
+! Last modified: 08 Sep 2026 12:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 08 Sep 2026 14:10:13 UTC+7
-! Diff-Path: patches/20260908141013940.patch#abpvn
+! Last modified: 08 Sep 2026 19:31:24 UTC+7
+! Diff-Path: patches/20260908193123978.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -384,7 +384,6 @@ baonga.com##.monkey-content-duoicanbiet
 baonga.com##.monkey-section-tinnoibat
 baonga.com##div.monkey-qc
 baoquangninh.vn##.bottom-right-ads
-beta.asianbookie.org##a[href^="/cgi-bin/to.cgi"]
 bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
 blog.abit.vn##.button-dangkyngay
@@ -802,6 +801,7 @@ www.2banh.vn##.lb_overlay
 www.7mvn9.com###bottomFixedDiv
 www.7mvn9.com###js_pup_navigation
 www.7mvn9.com##tr[id^="word_"]
+www.asianbookie.org##a[href^="/cgi-bin/to.cgi"]
 www.asu.baby##.nhacai
 www.asu.baby##.nhacai2
 www.clbgamesvn.com##.bannerBox
