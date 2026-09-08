@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4MDZOecZvFMC3pq84k5/Vw
-! Version: 202609080802
+! Checksum: cQZn5LWqGVtjPrE2PFwZEA
+! Version: 202609080811
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 08 Sep 2026 08:02 UTC
+! Last modified: 08 Sep 2026 08:11 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1084,6 +1084,7 @@ economistua.com##.cp-slidein-popup-container
 ukrsport.pro##.cs-follow
 ukrsport.pro##.cs-social
 banker.ua##.cs_telegram-container
+rbc.ru##.cta-social-block
 topgir.com.ua##.custom-html-widget > blockquote
 informator.ua#?#.custom-widget:-abp-has([href^="https://invite.viber.com/"])
 informator.ua#?#.custom-widget:-abp-has([href^="https://t.me/"])
@@ -7603,38 +7604,6 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
-.link/6p80h?$third-party,xmlhttprequest
-/splash.php?*fastpic$document
-/splash.php?*fHBvcE1hZ2lj$document
-=*=*fastpic*%$document
-fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, Event.prototype.preventDefault, /blob|injectedScript|inlineScript/)
-fastpic.org,~new.fastpic.org##+js(prevent-navigation, /^(?!fastpic\.org)/)
-||crmared.com^$document
-||docviewer.yandex.*/*/*/$script,~third-party
-||epicgameshubham.com^$document
-||eprdl.online^$document
-||exoclocks.com^$document
-||goddess-game.com^$document
-||gptgirlfriend.online^$document
-||insta-cams.com^$document
-||lu-games.com^$document
-||lustgoddess.com^$document
-||metricaops.com^$document
-||myallz.com^$document
-||ouraidream.com^$document
-||ourdream.ai^$document
-||redirectthisclick.com^$document
-||rttrk.com^$document
-||sexselector.com^$document
-||singleflirt.com^$document
-||spxxxtube.com^$document
-||thtrck.com^$document
-||trackinginwtd.pro^$document
-||trytracklink.com^$document
-||unsightly-reserve.com^$document
-||vividkink.com^$document
-||vveu.*.link/$third-party,media
-||vvru.*.link/$third-party,media
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
