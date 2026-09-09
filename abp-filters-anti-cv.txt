@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ezrttA+EVFzMWEC3U3aCcw
-! Version: 202609091021
+! Checksum: OvB0fpHTaYBB0VP3L+0g0w
+! Version: 202609091032
 ! Title: ABP filters
-! Last modified: 09 Sep 2026 10:21 UTC
+! Last modified: 09 Sep 2026 10:32 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1199,6 +1199,7 @@ gamebanana.com$csp=script-src-attr 'none'
 ||*/core.js^$script,domain=gamebanana.com
 gamebanana.com#$#abort-current-inline-script eval /xx44zp0c391/
 gamebanana.com#$#override-property-read xx44zp0c391 true
+gamebanana.com#$#abort-current-inline-script sessionStorage ad_stack_split
 ||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=dict.cc
 dict.cc#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 weeronline.nl#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
@@ -1234,8 +1235,11 @@ gumtree.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=gumtree.com
 ||html-load.com^$script,xmlhttprequest,domain=weerplaza.nl
 weerplaza.nl#$#replace-argument Element.prototype.setAttribute 1 '/[\\s\\S]*(error-report|new Promise|;await new|:\\[?window|&&window,|void 0\\]|location\\.href|void 0\\|\\|window|,window,|void 0,window|,window\\]|\\)\\.join\\(String\\.fromCharCode|adShieldError)[\\s\\S]*/' ''
+worldjournal.com#$#override-property-read isAdShieldTurn false
 worldjournal.com#$#override-property-read Navigator.prototype.onLine false
 ||*/loader.min.js|$script,domain=worldjournal.com
+||stg.html-load.com^$script,domain=worldjournal.com
+worldjournal.com#$#override-property-read as_1070684987 true; override-property-read as_1104579809 true; override-property-read as_1217148544 true; override-property-read as_-1112451150 emptyObj; override-property-read as_-1298431397 emptyObj; override-property-read as_380891903 true; override-property-read as_692612073 emptyObj; override-property-read as_-1176046332 emptyObj; override-property-read as_-1146751768 true
 riftbound.gg#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=riftbound.gg
 motorsport.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
@@ -1248,6 +1252,8 @@ souvlakiforthesoul.com#$#event-override message rewrite /_as_res/ data /_as_req$
 thecafesucrefarine.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=mychemicalfreehouse.net
 mychemicalfreehouse.net#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||html-load.cc^$script
+cults3d.com#$#prevent-element-src-loading script /\/script\/[A-Za-z0-9_-]+/
 ||*/app.js|$script,rewrite=abp-resource:blank-js,domain=hna.de
 ||*/core.js|$script,rewrite=abp-resource:blank-js,domain=hna.de
 ||*/vendor.js|$script,rewrite=abp-resource:blank-js,domain=hna.de
@@ -1280,6 +1286,7 @@ liveworksheets.com#$#prevent-element-src-loading script /ad-shield/
 jetpunk.com#$#prevent-element-src-loading script /ad-shield/
 buzzfeed.com#$#prevent-element-src-loading script /ad-shield/
 time.is#$#prevent-element-src-loading script /ad-shield/
+openfront.io#$#prevent-element-src-loading script /ad-shield/
 drudgereport.com#$#prevent-element-src-loading script /html-load/
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
@@ -2125,8 +2132,8 @@ www.facebook.com,web.facebook.com#$#replace-xhr-response '/"instream_video_ad_br
 www.facebook.com,web.facebook.com#$#json-override 'jsonpath($.data.node)' null '' /SponsoredData/;
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?:[Aa][Dd]|Sponsored|esondSpored|.*Spored.*|(?=.*[sS])(?=.*[pP])(?=.*[oO])(?=.*[rR])(?=.*[dD])[a-zA-Z]+)$/ 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"] span:not([style*="top"])'
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^[^A-Za-z0-9]*(?:(?:[AaDd][^A-Za-z0-9]*){2,3}|(?:[SsPpOoNnRrIiEeDdÉé][^A-Za-z0-9]*){9,11}|(?:[CcOoMmAaNnDdIiTtÉéEe][^A-Za-z0-9]*){9,11}|(?:[PpAaTtRrOoCcIiNnDdEe][^A-Za-z0-9]*){10,12}|(?:[BbEeRrSsPpOoNn][^A-Za-z0-9]*){9,11}|(?:[SsPpOoNnRrIiZzAaTtEe][^A-Za-z0-9]*){12,14}|(?:[SsPpOoNnRrOoWwAaEe][^A-Za-z0-9]*){11,13}|(?:[ĐđƯưỢợCcTtÀàIiRr][^A-Za-z0-9]*){9,11})$/i 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"], div[aria-posinset] a[href="#"]'
-www.facebook.com,web.facebook.com#$#race start; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg^^use^^svg'; race stop;
-www.facebook.com,web.facebook.com#$#hide-if-contains '/^[^A-Za-z0-9]*(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)(?:$|[^A-Za-z0-9]*·)/' 'div[aria-posinset]' 'div[aria-posinset] div[role="button"][tabindex="0"]'
+www.facebook.com,web.facebook.com#$#race start; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg^^use^^svg'; race stop;
+www.facebook.com,web.facebook.com#$#hide-if-contains '/^[^A-Za-z0-9]*(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)(?:$|[^A-Za-z0-9]*·)/' 'div[aria-posinset]' 'div[aria-posinset] div[role="button"][tabindex="0"]'
 www.facebook.com,web.facebook.com##div[aria-posinset] a[href^="?"] span[style*="absolute"]
 www.facebook.com,web.facebook.com##div[aria-posinset] a[href="#"] span[style*="absolute"]
 ! rp
@@ -2138,7 +2145,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="main"]//
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/"node":\{(?:"__typename":"MarketplaceFeedAdStory"[^\\n]+?"sponsored_data":|[^\\n]*?"sponsored_data":\{"__typename":"SponsoredData")[^\\n]+\}(?=,"cursor":)/' '"node":null'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"juniperCairn")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"chalkPivot")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! det
@@ -2522,7 +2529,7 @@ terrikon.com#$#abort-on-property-read bdy
 sports.ru#$#abort-on-property-read Sports.pageData.browserTime
 sdamgia.ru#$#abort-on-property-read Object.prototype.getRenderToElement
 vgtimes.ru#$#json-prune 'data.0.attributes.bannerId'
-liveball.*#$#abort-on-property-read ABNS
+liveball.*#$#prevent-listener DOMContentLoaded start
 zab.ru#$#abort-on-property-read document.body.style
 players.com.ua#$#abort-on-property-read localStorage
 bombardir.ru,inforesist.org#$#abort-on-property-read alert
@@ -3194,6 +3201,8 @@ otomoto.*#?#[data-testid="financing-widget-simulator-entrypoint"]:has(span:has-t
 otomoto.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-property-read Baxter.targeting.ad_title; override-property-read Baxter.targeting emptyObj;
 ! #RM-117
 pinterest.*#?#div[data-grid-item]:has(div[title]:-abp-contains(/^(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)$/))
+! va
+pinterest.*##div[data-grid-item="true"]:has(div[data-test-id="pinrep-video"]):has(div[data-test-id="one-tap-desktop"] > a[rel="nofollow"])
 ! #RM-167
 ! HP&PP
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
