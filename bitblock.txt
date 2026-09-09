@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hbKMHATbd+gb8IpPBocNYg
-! Version: 202609090751
+! Checksum: tyXHUZDOP7N4T2OZUvl9tw
+! Version: 202609090802
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Sep 2026 07:51 UTC
+! Last modified: 09 Sep 2026 08:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7608,6 +7608,8 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! ----
 liveball.*##+js(prevent-addEventListener, DOMContentLoaded, start)
 liveball.*##[data-noclick]
+www.kinopoisk.ru##div[class^="app__"] > div:not([class*="media"]):not([class*="content"]):first-child > div:first-child:style(min-height: 0 !important)
+www.kinopoisk.ru##div[class^="app__"] > div:not([class*="media"]):not([class*="content"]):first-child:style(min-height: 0 !important)
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
