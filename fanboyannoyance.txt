@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609100517
+! Version: 202609100529
 ! Title: Fanboy's Annoyance List
-! Last modified: 10 Sep 2026 05:17 UTC
+! Last modified: 10 Sep 2026 05:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 91a799b745d2cfa01b7a60cae215b5980e400a92
+! Commit: 51ba34ed0eff4d268567e30956f9bb0a393c1f99
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -41143,6 +41143,7 @@ tartybikes.co.uk##.screen
 corporate.dow.com##.screenBlockOverlay
 snapchat.com##.sds-modal-overlay
 streamelements.com##.se-ds-c-eNMZSe
+northflank.com##.se:has(> [href="/legal/cookies"])
 worldbookday.com##.section--alert-panel
 showcasecinemas.co.uk##.section-prompt
 merkleinc.com##.security-policy
