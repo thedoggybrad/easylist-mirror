@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: /rr/NuvoaR11Sy96PCdkAg
-! Version: 202609100922
+! Checksum: Zu/ReA8RiaHxJtojpFgwiQ
+! Version: 202609100932
 ! Title: ABP filters
-! Last modified: 10 Sep 2026 09:22 UTC
+! Last modified: 10 Sep 2026 09:32 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -774,6 +774,11 @@ billboard.com#$#override-property-read confirm noopFunc
 billboard.com#$#override-property-read d3d3LmJpbGxib2FyZC5jb21fb25sb2Fk undefined
 ||html-load.com^$script,domain=9gag.com
 ||aroundsadly.com/session/$domain=9gag.com
+||*/p.js?$script,domain=9gag.com
+||*/app.js|$script,domain=9gag.com
+||*/core.js|$script,domain=9gag.com
+||*/main.js|$script,domain=9gag.com
+||error-report.com^$domain=9gag.com
 9gag.com#$#replace-argument Element.prototype.setAttribute 1 '/error-report|new Promise|;await new|:\\[?window|&&window,|void 0\\]|location\\.href|void 0\\|\\|window|,window,|void 0,window|\\[0,window\\]|\\)\\.join\\(String\\.fromCharCode|adShieldError/' ''
 ||error-report.com^$domain=geoguessr.com
 geoguessr.com#$#override-property-read window.navigator.connection.rtt 2000
@@ -2162,7 +2167,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="main"]//
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/"node":\{(?:"__typename":"MarketplaceFeedAdStory"[^\\n]+?"sponsored_data":|[^\\n]*?"sponsored_data":\{"__typename":"SponsoredData")[^\\n]+\}(?=,"cursor":)/' '"node":null'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"chalkPivot")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"tundraQuill")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! det
