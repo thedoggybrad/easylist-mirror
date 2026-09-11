@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UhKYG8dm+Ix2M1xT1NX7zA
-! Version: 202609111502
+! Checksum: sTT0EBl8Ep1Q56da8miEbw
+! Version: 202609111511
 ! Title: ABPVN List
-! Last modified: 11 Sep 2026 15:02 UTC
+! Last modified: 11 Sep 2026 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 11 Sep 2026 14:13:09 UTC+7
-! Diff-Path: patches/20260911141309010.patch#abpvn
+! Last modified: 11 Sep 2026 22:09:24 UTC+7
+! Diff-Path: patches/20260911220924338.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -185,7 +185,7 @@ $popup,domain=truyenfull.live
 ||qthang.net/js/blocker$script,~third-party
 ||quaivatdienanh.com/*banner$image
 ||quoracdn.net^$image,domain=www.1phim29.com|phimlongtieng.net
-||rophimss.uk^*.gif,~third-party
+||rophimss.tv^*.gif,~third-party
 ||run.vn/widget$script,~third-party
 ||s.lazada.vn^$popup,domain=chillphimmoizz.org
 ||s2.truyentot.com^*.gif$image,domain=hhtq13.vip|hhtq3d.net|hhtq5.vip|hhvsub1.com|hhvietsub.com
@@ -633,7 +633,7 @@ rakhoizaa.cc##.sk_balloon
 reatimes.vn##div[class^="adv-"]
 rophim10.dev##.adserver
 rophim10.dev##.mt-3.topics-line.topics-grid.topics-list
-rophimss.uk,mamphim.space##.sspp-area
+rophimss.tv,mamphim.space##.sspp-area
 sachmoi.net##.boxzilla-bottom-right-container
 sachmoi.net##[href^="https://gotrackecom.info"]
 saostar.vn###mobi-top
