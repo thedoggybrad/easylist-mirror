@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609111321
+! Version: 202609111331
 ! Title: EasyList
-! Last modified: 11 Sep 2026 13:21 UTC
+! Last modified: 11 Sep 2026 13:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 98dd6cbb68af165a0bfba0752441e4f60ef17cce
+! Commit: ed7fcfc763f83457ae68cfab4d032198aafa07be
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15076,6 +15076,7 @@ techymedies.com#@##ad-top
 afterdawn.com,download.fi,edukas.fi#@##ad-top-banner-placeholder
 ufoevidence.org#@##ad-wrapper
 ben54.jp#@##adModal
+netspeed.com.tr#@##adWrapper
 riderplanet-usa.com,sdf-event.sakura.ne.jp#@##ad_1
 sdf-event.sakura.ne.jp#@##ad_2
 sdf-event.sakura.ne.jp#@##ad_3
@@ -74129,9 +74130,11 @@ coinmarketcap.com##.trending-sponsored
 iflscience.com##.trendmd-container
 naturalblaze.com##.trfkye8nxr
 g2a.com##.trust_banner
+acronymfinder.com##.ts
 thumbsnap.com##.ts-blurb-wrap
 thesimsresource.com##.tsr-ad
 yidio.com##.tt
+telecomtalk.info##.tt-ad
 telegraphindia.com##.ttdadbox310
 roseindia.net##.tutorialsstaticdata
 tvtropes.org##.tvtropes-ad-unit
@@ -75773,6 +75776,7 @@ radiosurvivor.com##text-18
 telescopius.com##tlc-ad-banner
 trademe.co.nz##tm-display-ad
 titantv.com##tr.gridRow > td > [id] > div:first-child
+acronymfinder.com##tr:has(.ts)
 livetv.sx##tr[height] ~ tr > td[colspan][height][bgcolor="#000000"]
 justetf.com##tr[onclick^="gaW"]
 morningagclips.com##ul.logo-nav
