@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WgOXfiXLki41SA3y5bEBGQ
-! Version: 202609121021
+! Checksum: 0ktQyDMor/Qh6crjWbex9g
+! Version: 202609121032
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 12 Sep 2026 10:21 UTC
+! Last modified: 12 Sep 2026 10:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -84980,7 +84980,7 @@ bing.com##div[class="ins_exp vsp"]
 ! bing.com##li.b_ans[data-partnertag][role="presentation"]
 bing.com##li[data-idx]:has(#mm-ebad)
 ! chatgpt
-chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + span > button[aria-haspopup])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + [class] > button[aria-haspopup])
 ! kayak
 checkfelix.com,kayak.*,swoodoo.com###resultWrapper > div > div > [role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.*,swoodoo.com##.Dp1L
