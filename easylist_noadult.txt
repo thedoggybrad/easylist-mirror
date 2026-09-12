@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0cW1+PrCAevOfBmM2jOsPA
-! Version: 202609121021
+! Checksum: c4b1xtfGJLRWsbw+eKGDTw
+! Version: 202609121032
 ! Title: EasyList without rules for adult sites
-! Last modified: 12 Sep 2026 10:21 UTC
+! Last modified: 12 Sep 2026 10:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -75777,7 +75777,7 @@ bing.com##div[class="ins_exp vsp"]
 ! bing.com##li.b_ans[data-partnertag][role="presentation"]
 bing.com##li[data-idx]:has(#mm-ebad)
 ! chatgpt
-chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + span > button[aria-haspopup])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + [class] > button[aria-haspopup])
 ! kayak
 checkfelix.com,kayak.*,swoodoo.com###resultWrapper > div > div > [role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.*,swoodoo.com##.Dp1L
