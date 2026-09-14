@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fZWg3tVcJ3kp1Ca/G/vLKw
-! Version: 202609141442
+! Checksum: XCUTZTJ7rMlskxnuEh6h9g
+! Version: 202609141451
 ! Title: RU, UA, UZ, KZ
-! Last modified: 14 Sep 2026 14:42 UTC
+! Last modified: 14 Sep 2026 14:51 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16984,6 +16984,7 @@ sovetromantica.com##.vjs-overlay-background
 prgazeta.ru##.vk-group
 gdz-putina.fun##.vk_show
 vk.com,vk.ru##.vkuiBanner__host
+vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
 yapx.ru##.vlDxyyFUTdjDdXmIBPxWDa
 spletnik.ru##.vms_article_parent a[href*="utm_"]
