@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7mEdOWqibwEAuFgLUnhD+Q
-! Version: 202609141442
+! Checksum: zOU1Jol6JL23bISc75Bfog
+! Version: 202609141451
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 14 Sep 2026 14:42 UTC
+! Last modified: 14 Sep 2026 14:51 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7617,6 +7617,7 @@ fastpic.org,~new.fastpic.org##+js(abort-on-stack-trace, HTMLAnchorElement.protot
 2gis.by,2gis.kz,2gis.ru##._1nnq5pzj
 2gis.by,2gis.kz,2gis.ru##._fh8krf5
 .html$third-party,popup,domain=fastpic.org|~new.fastpic.org
+vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
 /splash.php?*fHBvcE1hZ2lj$document
 /splash.php?*fastpic$document
 =*=*fastpic*%$document
