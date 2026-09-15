@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609151957
+! Version: 202609152007
 ! Title: EasyPrivacy
-! Last modified: 15 Sep 2026 19:57 UTC
+! Last modified: 15 Sep 2026 20:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 940ac6ed465035399f3636725283eb5b4986ca20
+! Commit: 6db944504ebcb5cfc4221ce895b2af2183557ebc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7919,6 +7919,7 @@ omni.soundestlink.com$image
 ||lostwaxlab.com^
 ||loudlunch.com^
 ||lovelydrum.com^
+||lovesbooks.com^
 ||loveseashore.com^
 ||lowercases.com^
 ||lowerthewatts.net^
@@ -12680,6 +12681,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shrtfly.vip/js/tag.js
 ||sinajs.cn/open/analytics/
 ||sitebooster.com/sb/wix/p?$third-party
+||sitecorecloud.io/v1/events/
 ||sitefinity.com/collect/
 ||sitescdn.net/ytag/ytag.min.js
 ||skeepers.io/data/collect
@@ -56238,6 +56240,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
 @@||static.cloud.coveo.com/coveo.analytics.js/$domain=cabelas.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
+@@||static.klaviyo.com/onsite/js/event_adapter.$domain=gear.blizzard.com
 @@||static.knowledgehub.com/global/images/ping.gif?$~third-party
 @@||static.myfinance.com/widget/$domain=savingspro.org
 @@||static.pinpoll.com^$subdocument,domain=iframely.net
