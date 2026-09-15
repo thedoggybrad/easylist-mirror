@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BkD1Wjey0RbtnEJrWUaatA
-! Version: 202609151112
+! Checksum: NYMypiPFnLOi+ILkARM/Cw
+! Version: 202609151122
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Sep 2026 11:12 UTC
+! Last modified: 15 Sep 2026 11:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2712,8 +2712,7 @@ wikianimez.ru##.waplus
 megaresheba.ru##.warnBox
 podolyaka.com##.warning
 c-inform.info##.watch
-rutube.ru##.wdp-video-row-actions-button-module__item > .svg-icon--IconVideoToolbarShareVideo
-rutube.ru##.wdp-video-row-actions-button-module__item > .svg-icon--IconVideoToolbarShareVideo ~ span
+rutube.ru##.wdp-video-row-actions-breakpoints-module__row > button[aria-pressed] ~ button:not([aria-pressed]):nth-of-type(3):not(:last-child)
 informburo.kz##.web-share-button
 informburo.kz##.whatsapp-promo
 newsauto.com.ua##.whatsapp_footer
@@ -2886,6 +2885,7 @@ esports.ru##[data-name="footer/socials"]
 kufar.by##[data-name^="share-button"]
 stopgame.ru##[data-plugins="share"]
 sheensay.ru##[data-pr^="Поделиться"]
+rutube.sport##[data-qa-selector="share-button"]
 yoomoney.ru##[data-qa="social-icons"]
 livejournal.com##[data-rd-type="rd-post-view-social"]
 ozon.ru##[data-replace-layout-path] > [data-replace-layout-path]:first-child ~ div:last-child > div:only-child > button.undefined
