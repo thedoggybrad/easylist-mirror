@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ct5RBsF8YFNjtAKddnA1KQ
-! Version: 202609152001
+! Checksum: ZFjezJ10hFuvzSftFsl2ew
+! Version: 202609152011
 ! Title: EasyPrivacy without international filters
-! Last modified: 15 Sep 2026 20:01 UTC
+! Last modified: 15 Sep 2026 20:11 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5516,6 +5516,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shrtfly.vip/js/tag.js
 ||sinajs.cn/open/analytics/
 ||sitebooster.com/sb/wix/p?$third-party
+||sitecorecloud.io/v1/events/
 ||sitefinity.com/collect/
 ||sitescdn.net/ytag/ytag.min.js
 ||skeepers.io/data/collect
@@ -45428,6 +45429,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
 @@||static.cloud.coveo.com/coveo.analytics.js/$domain=cabelas.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
+@@||static.klaviyo.com/onsite/js/event_adapter.$domain=gear.blizzard.com
 @@||static.knowledgehub.com/global/images/ping.gif?$~third-party
 @@||static.myfinance.com/widget/$domain=savingspro.org
 @@||static.pinpoll.com^$subdocument,domain=iframely.net
