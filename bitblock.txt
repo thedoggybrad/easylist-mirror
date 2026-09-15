@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NF5vQV76vTFb4iccPCBQ+A
-! Version: 202609151532
+! Checksum: xCPNoTjZBxCQpscJp+NBeQ
+! Version: 202609151541
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 15 Sep 2026 15:32 UTC
+! Last modified: 15 Sep 2026 15:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -366,9 +366,9 @@ ru##[title="Выбрать соцсеть для шаринга"]
 ||nifiga-sebe.ru/znachki/
 ||obninsk.name/script/sosal.
 ||om1.ru/localStorage/custom_upload/soc_icons/
-||opennet.*/facebook.gif
-||opennet.*/img/mastodon.png
-||opennet.*/img/telegram2.png
+||opennet.*/facebook$image
+||opennet.*/img/mastodon$image
+||opennet.*/img/telegram$image
 ||opennet.*/img/vkontakte.gif
 ||opennet.*/twitter.png
 ||overclockers.ru/images/buttons/
@@ -3394,11 +3394,13 @@ sport5.by##img[src*="/upload/banner_telegram"]
 kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai##img[src*="/vk_group."]
 dontimes.news##img[src*="/wp-content/uploads/sb/"]
 shazoo.ru##img[src*="_shazoo-telegram.png"]
-opennet.me,opennet.ru##img[src="/img/facebook.gif"]
-opennet.me,opennet.ru##img[src="/img/mastodon.png"]
-opennet.me,opennet.ru##img[src="/img/telegram2.png"]
-opennet.me,opennet.ru##img[src="/img/vkontakte.gif"]
-opennet.me,opennet.ru##img[src="/twitter.png"]
+opennet.me,opennet.ru##img[src^="/img/facebook"]
+opennet.me,opennet.ru##img[src^="/img/mastodon"]
+opennet.me,opennet.ru##img[src^="/img/max"]
+opennet.me,opennet.ru##img[src^="/img/telegram"]
+opennet.me,opennet.ru##img[src^="/img/vk"]
+opennet.me,opennet.ru##img[src^="/img/x2"]
+opennet.me,opennet.ru##img[src^="/twitter"]
 expert.com.ua##img[title^="кнопка"][alt^="HiTech.Expert "]
 sud.ua#?#li > .b-news-item:-abp-has(> .b-news-item-info > h3 > a[href*="://t.me/"])
 prochepetsk.ru,progorod43.ru##li > a[class^="nav_"][href*="https://max.ru/"]
@@ -6639,8 +6641,8 @@ livejournal.com##article[id^="b-friendstimes-item-ad-"]
 100pdf.club##aside > .widget_search ~ .widget_text
 app2top.ru##aside > [class^="vacancies"]
 zarlit.com##aside > nav ~ div
+opennet.me,opennet.ru##aside [href="https://wiki.opennet.ru/RSS"]
 kino-teatr.ua##aside a[href^="https://play.google.com/"]
-opennet.me,opennet.ru##aside small > [href="https://wiki.opennet.ru/RSS"]
 vcrti.com.ua##aside#gkSidebar
 vedomosti.ru##aside.article__sidebar
 disgustingmen.com##aside.widget
