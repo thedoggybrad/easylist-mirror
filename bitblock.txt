@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SbsIRxdxcMXNBkCiJT0WVQ
-! Version: 202609161902
+! Checksum: QJ/jtz88mD/5JKjk0eoeXQ
+! Version: 202609161914
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Sep 2026 19:02 UTC
+! Last modified: 16 Sep 2026 19:14 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5724,6 +5724,7 @@ no-steamserv.ru##.lc_area
 dfm.ru,hitfm.ru,maximum.ru,montecarlo.ru,rusradio.ru##.leading-none > a
 mix.tn.kz##.left > .checker
 firepic.org##.left_news_col
+kinogo.my,kinogohd.im,kinogomy.net,kinogoua.net##.leftblok_contener a[href*="/app.html"]
 vsekino.su##.lenta
 gdetraffic.com##.lets-subscribe
 volynua.com##.letsFollow
@@ -7624,6 +7625,7 @@ agroreview.com,agroweek.com##.awb-slot
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
 /^https?:\/\/stratege\.ru\/misc\/[a-z0-9]{25,}/$image,domain=stratege.ru
+/tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 mt.today##a.background
 mt.today##div[class$="-only"][style]
 !
