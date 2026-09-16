@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AXlSi5amSZeKIW1e4QjEDw
-! Version: 202609161652
+! Checksum: Cu86oSUojWDWdf5gq1c4aQ
+! Version: 202609161702
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Sep 2026 16:52 UTC
+! Last modified: 16 Sep 2026 17:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7617,8 +7617,11 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! ----
 agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
 agroreview.com,agroweek.com##.awb-slot
+dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
 /^https?:\/\/stratege\.ru\/misc\/[a-z0-9]{25,}/$image,domain=stratege.ru
+mt.today##a.background
+mt.today##div[class$="-only"][style]
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
