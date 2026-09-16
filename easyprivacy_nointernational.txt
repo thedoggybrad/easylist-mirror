@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cOSg1PGK9zsBOCfFroKjHA
-! Version: 202609160431
+! Checksum: TDoCIwJSWIAKacjzbQTldA
+! Version: 202609160441
 ! Title: EasyPrivacy without international filters
-! Last modified: 16 Sep 2026 04:31 UTC
+! Last modified: 16 Sep 2026 04:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -272,6 +272,7 @@
 /analytics-reporter/*
 /analytics-sdk.
 /analytics-secure.js
+/analytics-talk-content-tracking.
 /analytics-tracker/*
 /analytics-tracking.js
 /analytics-worker.iife.js
@@ -1184,6 +1185,7 @@
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
+/gtm4wp-$script
 /gtmDataLayer.js
 /gtmTracking.js
 /gv-analytics/riveted.js
@@ -1874,7 +1876,6 @@
 /plugins/affiliate-wp/assets/js/tracking.min.js
 /plugins/catman/*
 /plugins/civic-science/js/pixel.js
-/plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
 /plugins/nimiq/*$script
 /plugins/nsmg-tracking/*
