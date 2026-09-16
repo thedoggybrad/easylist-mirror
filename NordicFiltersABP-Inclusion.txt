@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Aufmq8QhqRIc/q07eGY1qA
-! Version: 202609161122
+! Checksum: bDp8pJfUKBIX7LlH0BT8IA
+! Version: 202609161132
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Sep 2026 11:22 UTC
+! Last modified: 16 Sep 2026 11:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -64368,6 +64368,7 @@ browsershots.org#@#.advert_area
 ||vwsezpkqtgaez.site^
 ||vwshvtlrdkdwl.site^
 ||vwsyliuxjxlfm.online^
+||vwtscypakdekl.site^
 ||vwxyozrzwikcy.site^
 ||vwyiggzaqmnrb.space^
 ||vwzrmuzcjxpkh.space^
@@ -85802,6 +85803,7 @@ opensubtitles.org##tr[style]:has([src*="php"])
 oneindia.com##ul > li:has(> div[class^="adg_"])
 etsy.com##ul[data-results-grid-container] li:has([id^="ad-listing-title-"])
 wolt.com##ul[data-test-id="VenueVerticalListGrid"] > li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
+wolt.com#?#div:has(> div > div > div > div > div > div > p:has-text(Sponsored))
 ! taboola
 nme.com###taboola-below-article
 oneindia.com###taboola-mid-article-thumbnails
