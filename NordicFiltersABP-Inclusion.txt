@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vb1kHZlU+p2wQO6siaUvsA
-! Version: 202609170311
+! Checksum: NyX0tPSj9QiNWcI5s9ERIw
+! Version: 202609170321
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 17 Sep 2026 03:11 UTC
+! Last modified: 17 Sep 2026 03:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -27214,6 +27214,7 @@ browsershots.org#@#.advert_area
 ||ayjvwlrwraoqv.top^
 ||ayjxqgxvefyuv.space^
 ||aykntvkvdwtru.online^
+||aykqyjzoqveba.top^
 ||aykrmjijsikyx.space^
 ||aynaenowglesp.online^
 ||ayovkkyiaiyuk.online^
@@ -42534,6 +42535,7 @@ browsershots.org#@#.advert_area
 ||ivsuqzosbdrir.site^
 ||ivuaqimnwpvdc.space^
 ||ivuczbqiwdocn.online^
+||ivvcvaqifiovl.space^
 ||ivxbrwcdafjzr.site^
 ||ivxwdikrmtzfc.online^
 ||ivynjtsidwnqh.online^
@@ -57242,6 +57244,7 @@ browsershots.org#@#.advert_area
 ||secondarytower.pro^
 ||secondcallousnodding.com^
 ||secondfervidinvestor.com^
+||secondhandbrave.pro^
 ||secondlyspotlessedition.com^
 ||secondsshipway.cyou^
 ||secprf.com^
@@ -88410,8 +88413,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-a
 pornhub.com,youporn.com##:-abp-properties(float: right; margin-top: 30px; width: 50%;)
 pornhub.com##:-abp-properties(height: 300px; width: 315px;)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(image/)
-crocotube.com#?#.ct-related-videos-title:has-text(Advertisement)
-crocotube.com#?#.ct-related-videos-title:has-text(You may also like)
+crocotube.com#?#.ct-related-videos-title:has-text(/Advertisement|You may also like/)
 freeuseporn.com#?#section > div > div:has(h2:has-text(Friends))
 freeuseporn.com#?#section:has-text(Sponsor)
 hdpornpics.net#?#.money:has(.century:has-text(ADS))
