@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Bd/Bu2FXXcAgdU+ZC+1LRQ
-! Version: 202609172152
+! Checksum: pGdLpN4NPr2RNP7b4f4lHg
+! Version: 202609172202
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Sep 2026 21:52 UTC
+! Last modified: 17 Sep 2026 22:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7620,6 +7620,8 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
 agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
+fastpic.org,~new.fastpic.org##+js(abort-on-property-read, MouseEvent)
+fastpic.org,~new.fastpic.org##+js(abort-on-property-read, document.dispatchEvent)
 agroreview.com,agroweek.com##.awb-slot
 .link/jal559hv?$third-party,xmlhttprequest
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
