@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 84srWejOzsfrUlm327xSnQ
-! Version: 202609180912
+! Checksum: RxT1/2NxOBnVswhQMKUI9Q
+! Version: 202609180922
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 18 Sep 2026 09:12 UTC
+! Last modified: 18 Sep 2026 09:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7620,9 +7620,12 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
+fastpic.org#?##mainContainer:-abp-has(a[href*="/big/"] > img:not([src])) a[href*="html?info=1"]
+fastpic.org#?##mainContainer:-abp-has(a[href*="/fullview/"] > img:not([src])) a[href*="html?info=1"]
 agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
 fastpic.org,~new.fastpic.org##+js(abort-on-property-read, MouseEvent)
 fastpic.org,~new.fastpic.org##+js(abort-on-property-read, document.dispatchEvent)
+fastpic.org,~new.fastpic.org##+js(set-constant, Object.getOwnPropertyDescriptor, noopFunc)
 agroreview.com,agroweek.com##.awb-slot
 .link/jvp0461jga?$third-party,xmlhttprequest
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
@@ -7631,7 +7634,6 @@ vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-p
 /fastpic\.org\/(view|fullview|vie%77|fullvie%77)/$csp=img-src *.fastpic.org fastpic.org static.fastpic.ru
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 mt.today##a.background
-fastpic.org##a[href*="html?info=1"]
 mt.today##div[class$="-only"][style]
 ||gogo.*.org/$third-party,media
 ||ozzi.*.org/$third-party,media
