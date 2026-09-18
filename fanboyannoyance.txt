@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609182206
+! Version: 202609182215
 ! Title: Fanboy's Annoyance List
-! Last modified: 18 Sep 2026 22:06 UTC
+! Last modified: 18 Sep 2026 22:15 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d600225eb84d1b342ad9be7b4e5cdd33e2240b6f
+! Commit: 2bb5e81cee89f79677c4a6631e904c0e2cb4b038
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -33428,7 +33428,7 @@ conservativewoman.co.uk###custom_html-22
 nocamels.com###custom_html-23
 torontoguardian.com###custom_html-24
 securityboulevard.com,torontoguardian.com###custom_html-29
-codeur.com,palestinechronicle.com,techguide.com.au###custom_html-3
+codeur.com,palestinechronicle.com,snippet.finance,techguide.com.au###custom_html-3
 newsbtc.com###custom_html-30
 torontoguardian.com###custom_html-4
 eazypeazymealz.com###custom_html-56
@@ -50171,6 +50171,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||group.vig/assets/js/modules/cookieconsent/cookieconsent.js$~third-party
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/$script,domain=blog.google
 @@||gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js
+@@||gus.etsmtl.ca/c2atom/Scripts/Atom/Managers/CookiesManager.js$script,~third-party
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
 @@||help-center-cdn.oaistatic.com/assets/cookie-consent-banner-$script,domain=help.openai.com
 @@||herzum.com/node_modules/.vite/deps/react-cookie-consent.js$~third-party
