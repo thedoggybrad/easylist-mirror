@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609190827
+! Version: 202609190839
 ! Title: EasyPrivacy
-! Last modified: 19 Sep 2026 08:27 UTC
+! Last modified: 19 Sep 2026 08:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8564fbbfbca3a8cc8adaa0571684dc16489da2ea
+! Commit: 4a39a6810f75957972a41f1a58494fda743dd024
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14200,6 +14200,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.qvb.qcloud.com^
 ||log.tagtic.cn^
 ||mcs.zijieapi.com^
+||miao.baidu.com/abdr?
 ||mon.zijieapi.com^
 ||msg.71.am^
 ||netease.com/track/
@@ -54713,6 +54714,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||counter.people.cn^
 ||cstm.baidu.com^
 ||ctrmi.cn/t/
+||dap-cn.c.hihonor.com/dap/jssdk.js
 ||data.bilibili.com^
 ||dcard.tw/v1/events
 ||df.huya.com^
@@ -54798,6 +54800,8 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||netstat.yunnan.cn^
 ||nex.163.com^
 ||nmc.cn/static/nmclog/nmclog.js
+||omgup.xiaojukeji.com^
+||omgup1.xiaojukeji.com^
 ||p.data.cctv.com^
 ||pan.baidu.com/api/report/
 ||pan.baidu.com/pcloud/counter/refreshcount?
@@ -54833,6 +54837,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||qzonestyle.gtimg.cn/qzone/v8/ic/iframeReport.js
 ||rcgi.video.qq.com^
 ||reportsk.web.sdo.com^
+||retail.hihonor.com/survey/base/analysis/
 ||retcode.taobao.com^
 ||reurl.cc/javascripts/tagtoo.js
 ||rlogs.youdao.com^
@@ -54883,6 +54888,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||tianxun.com/ajax_website_statistics.
 ||titan24.com/scripts/stats.js
 ||tj.img4399.com^
+||tk.d.mi.com^
 ||tongji.mafengwo.cn^
 ||tongji.techweb.com.cn^
 ||tongji.xinmin.cn^
