@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: N9bqoEAGrvkoxwW+4eW1Ww
-! Version: 202609191232
+! Checksum: uELueUxATRiGCLgt8EvmfQ
+! Version: 202609191242
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 19 Sep 2026 12:32 UTC
+! Last modified: 19 Sep 2026 12:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2966,7 +2966,6 @@ video.matchtv.ru##a.vjs-link[href^="https://t.me/"]
 litvek.com##a.vs
 subota.online##a.w-btn[target="_blank"]
 progorod62.ru##a[aria-label="Вконтакте"]
-sportrg.ru##a[class*="ArticleContentBtn_tg_"]
 rg.ru##a[class*="_socialItem"]
 avito.ru##a[class*="styles-module-root_shape_"]
 1tv.ru##a[class^="ButtonWithGradient_"][href^="https://max.ru/"]
@@ -3210,6 +3209,7 @@ auto.ru##div[class^="LogbookListingSnippetActions-"] > [class^="ModalMenu-"] > [
 tass.ru##div[class^="MaterialPageTitle_wrapper"] > h1 ~ div
 kod.ru##div[class^="NewsDetail_shareRow_"]
 afisha.ru##div[class^="NewsItem_social"]
+rg.ru##div[class^="PageArticleRelationTabs_toolbar_"] > button:last-child
 rg.ru##div[class^="Share"][class*="Content"]
 my.ua##div[class^="ShareButtons_"]
 afisha.ru##div[class^="ShareFriends_Container"]
