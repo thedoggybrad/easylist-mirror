@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: XEDm+cnD5ZiK/xYdLStgmg
-! Version: 202609190852
+! Checksum: ucE8kpYazAtXZqX2Tdbetg
+! Version: 202609190903
 ! Title: EasyPrivacy without international filters
-! Last modified: 19 Sep 2026 08:52 UTC
+! Last modified: 19 Sep 2026 09:03 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6837,6 +6837,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.lightyear.com/v1/web-visit/pixel.png
 ||api.meetup.com/pico/v4/web-events
 ||api.narrativ.com/favicon.ico
+||api.oaistatsig.com/v1/sdk_exception^$xmlhttprequest,domain=chatgpt.com
 ||api.samsungfind.com/log-collector
 ||api.streamelements.com/science/
 ||api.takealot.com^$ping
@@ -7020,8 +7021,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chase.com/apps/services/clientBeacon.html
 ||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
+||chatgpt.com/backend-api/codex/app-download-signal^$xmlhttprequest
 ||chatgpt.com/backend-api/sentinel/ping
-||chatgpt.com/ces/v1/telemetry/
+||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
+||chatgpt.com/unauth-mweb/events/$ping,xmlhttprequest
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
 ||chickadvisor.com/js/detect.min.js
