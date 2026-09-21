@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PTRZUY798Pg6znxjcoEUrQ
-! Version: 202609211952
+! Checksum: L1+2DHehZlV2hc6mXarfCQ
+! Version: 202609212003
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Sep 2026 19:52 UTC
+! Last modified: 21 Sep 2026 20:03 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5171,7 +5171,6 @@ kinoafisha.info##.article_footer_more > .article_channels
 simhost.org##.article_subscrblock
 ostro.org#?#.articles > .action:-abp-has(> [href*="/donate"])
 kursk-izvestia.ru##.articles > article ~ noindex ~ p > strong
-pimpletv.me##.articles_i
 shazoo.ru##.aside > .grid
 sports.ru#?#.aside-news-list__item:-abp-has(a[href^="https://trbna.co/"])
 comments.ua##.atlanta
@@ -6263,7 +6262,6 @@ meta.ua##.subscriptions
 playmaker24.ru##.subscrite-widget-wrap
 recept.ua##.subsribe
 mk.ru##.suggest_push
-pimpletv.me,tribun.com.ua,ukrlib.com.ua##.support
 tribun.com.ua##.support-button-wrapper
 glavred.info,glavred.net##.support-gl-btn
 noob-club.ru##.support-nc
@@ -6986,6 +6984,8 @@ podillyanews.com#?#p:-abp-has(> i > a[href^="https://news.google.com/publication
 techblogua.com#?#p:-abp-has(> span > mark > a[href^="https://news.google.com/publications/"])
 benzin-price.ru##p:first-child + p > table[align="center"]
 pikabu.*##.snowflakes-container {remove:true;}
+pimpletv.ru,pimpletv.*##.articles_i
+pimpletv.ru,pimpletv.*,tribun.com.ua,ukrlib.com.ua##.support
 thebell.io##privacy-consent-widget
 rozetka.com.ua##rz-top-page-banner
 hardwareluxx.ru##section > aside ~ aside:nth-child(-n+4)
