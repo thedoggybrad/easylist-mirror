@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ZiKSbRRE8N8Mukz37mT4oA
-! Version: 202609212322
+! Checksum: 55Hm6PiIWTB3F6xF7ulzzw
+! Version: 202609212333
 ! Title: EasyPrivacy without international filters
-! Last modified: 21 Sep 2026 23:22 UTC
+! Last modified: 21 Sep 2026 23:33 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1608,6 +1608,7 @@
 /monitor?rtype=
 /monitor_analytic.js
 /monitor_browser/collect/*
+/monitor_web/settings/browser-settings?
 /monitoring?o=$xmlhttprequest
 /monitus.js
 /monsido.js
@@ -4580,6 +4581,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||iadvize.com/collector/
 ||ibmcloud.com/collector/
 ||icbdr.com/images/pixel.gif
+||ichnaea-web.netflix.com^
 ||icontact.com/icp/core/signup/tracking.gif?
 ||icu.newsroom.bi/ingest.php
 ||id.a-mx.com^
@@ -4933,6 +4935,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mochiads.com/clk/
 ||moderate.cleantalk.org/ct-bot-detector-wrapper.js
 ||modules.ooyala.com^*/analytics-
+||mon-sg.byteintlapi.com^
 ||mon.domdog.io^
 ||monitor-api.blackcrow.ai^
 ||monitor-frontend-collector.a.bybit-aws.com^
