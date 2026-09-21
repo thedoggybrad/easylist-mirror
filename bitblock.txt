@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wpUNqEnq/3QHlepkgiuo1A
-! Version: 202609211343
+! Checksum: 6VPvgfx6EEynLlszagEovA
+! Version: 202609211405
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Sep 2026 13:43 UTC
+! Last modified: 21 Sep 2026 14:05 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7638,6 +7638,7 @@ sportarena.ua##.category__advertisement
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span)
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
+tribuna.com##[data-menu-mainsections="casino"]
 mt.today##a.background
 livetvstream.pro,me,online##body > #localpp[onclick*="window.open"]
 livetvstream.pro,me,online##body[bgcolor] > #adbtm
@@ -7645,7 +7646,10 @@ livetvstream.pro,me,online##body[bgcolor] > div[id="ads"][style^="position: abso
 livetvstream.pro,me,online##body[bgcolor] > div[id^="iframe-container"]
 mt.today##div[class$="-only"][style]
 tribuna.com#?#div[class$="match_layout__left_column__main"] > div:-abp-has([href*="/betting/"])
+tribuna.com##div[class*="_match_page__chat_odds_wrapper"]
+tribuna.com##div[class*="_tournament-branding__empty-block"]
 tribuna.com#?#div[class^="MatchLayout-module__"][class$="__match_layout"] > [data-test]:-abp-has([href*="/betting/"])
+tribuna.com##div[class^="_tournaments-header__hero_"]
 livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
 ||eugeniy.org^$third-party
 ||fontmenice.com^$third-party
