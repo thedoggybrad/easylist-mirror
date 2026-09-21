@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: EF4SbIFGfL30CuQqK3qU6g
-! Version: 202609210652
+! Checksum: OZJx2lPTCSuv9H8BJIhkXw
+! Version: 202609210702
 ! Title: EasyPrivacy without international filters
-! Last modified: 21 Sep 2026 06:52 UTC
+! Last modified: 21 Sep 2026 07:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8484,6 +8484,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||support.google.com/apis/logjourney
 ||svcs.ebay.com/ufeservice/v1/metrics
 ||swarm.video/stats/
+||swasc.homedepot.com^$ping
 ||swissquote.com/SQB.Microsoft.Tracking/TrackPage.aspx?
 ||szrpr.raen.com^
 ||t-mobile.com/self-service-commerce/v1/logging
@@ -11916,6 +11917,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! ||target.microsoft.com^
 ! ||aamt.msnbc.com^
 ! ||visit.asb.co.nz^
+! ||swasc.homedepot.com^
 !
 ||0tfsd2rwwu3xjstb.edge41.testandtarget.omniture.com^
 ||1ps6e7sort397gy9.edge46.testandtarget.omniture.com^
@@ -20968,7 +20970,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||swa.vodafone.pt^
 ||swa.wowcher.co.uk^
 ||swasc.homedepot.ca^
-||swasc.homedepot.com^
 ||swasc.kaufland.bg^
 ||swasc.kaufland.com^
 ||swasc.kaufland.cz^
