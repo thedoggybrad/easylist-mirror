@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609222234
+! Version: 202609222246
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Sep 2026 22:34 UTC
+! Last modified: 22 Sep 2026 22:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: abcc8eb6ea626672066916724e37ca764ca327cd
+! Commit: 8cdea3f1bfbf59c99cbbbd121d0a321cfef78dd7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -33245,6 +33245,7 @@ reddit.com##[slot="use-app"]
 timesofindia.indiatimes.com##[text="Continue On App"]
 asahi.com##[x-component-name="SmartBanner"]
 snkrdunk.com##a.d-block[href="https://snkrdunkapp.page.link/ZwvZ"]
+yhteishyva.fi##a[href="http://go.yhteishyva.fi/app"]
 snkrdunk.com##app-banner
 ups.com##app-promotion-popup
 homes.co.jp##aside[aria-label="LIFULL HOME'S 無料アプリでもっと便利に"]
@@ -41520,7 +41521,7 @@ abc.net.au##[data-component="CookieBanner"]
 uidaho.edu##[data-component="CookieConsent"]
 jdslabs.com##[data-component="cookieBanner"]
 koenigsegg.com##[data-component="n3-cookie-notice"]
-fygonas.com##[data-cookie-banner="true"]
+fygonas.com,prohumandeclaration.com##[data-cookie-banner="true"]
 plasma.org##[data-cookie-consent-banner="true"]
 pixilart.com##[data-cookie-number]
 insider.razer.com##[data-css-anchor="cookie-banner"]
