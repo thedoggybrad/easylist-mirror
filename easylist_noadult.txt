@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YiRmZ64aOxBY5uLSyaui5A
-! Version: 202609230922
+! Checksum: LxAPfGmb/+7rb41cx0iPdQ
+! Version: 202609230932
 ! Title: EasyList without rules for adult sites
-! Last modified: 23 Sep 2026 09:22 UTC
+! Last modified: 23 Sep 2026 09:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -29918,6 +29918,7 @@ browsershots.org#@#.advert_area
 ||fistpoke.com^
 ||fitnesseternalsignificant.com^
 ||fitnessflashyhopeless.com^
+||fitrvgqe.com^
 ||fitsagitateacid.com^
 ||fitsamongst.com^
 ||fittestdrysne.cfd^
@@ -32355,6 +32356,7 @@ browsershots.org#@#.advert_area
 ||gripplerusines.qpon^
 ||gripspigyard.com^
 ||grisledchelate.shop^
+||grisonryked.qpon^
 ||grlekyict.com^
 ||grmtas.com^
 ||grnezkzjgcwvs.space^
@@ -32722,6 +32724,7 @@ browsershots.org#@#.advert_area
 ||gyvxiyeixsjfl.website^
 ||gywwzmejfzkrs.site^
 ||gyxhwdysotvbj.store^
+||gyxkbgdivvtqr.site^
 ||gyybyitnnqitf.online^
 ||gyymevyihyidk.website^
 ||gyyylfxjupsfj.website^
@@ -78941,10 +78944,12 @@ amazon.*###sc-rec-right
 amazon.*###similarities_feature_div:has(span.sponsored_label_tap_space)
 amazon.*###sponsoredProducts2_feature_div
 amazon.*###sponsoredProducts_feature_div
+amazon.*##.AdHolder
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
 amazon.*##.ad-center
 amazon.*##.amzn-safe-frame-container
+amazon.*##.ape-placement
 amazon.*##.celwidget[data-ref_$="displayAds"]
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
 amazon.*##.s-result-item:has(.puis-sponsored-label-text)
