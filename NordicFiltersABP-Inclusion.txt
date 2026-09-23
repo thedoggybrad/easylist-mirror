@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ktyr8viT1XIUhcxxjy4sCA
-! Version: 202609231052
+! Checksum: kvi3lFGplMYRVO8I5ry6ig
+! Version: 202609231103
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 23 Sep 2026 10:52 UTC
+! Last modified: 23 Sep 2026 11:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -57832,6 +57832,7 @@ browsershots.org#@#.advert_area
 ||rtbtrail.com^
 ||rtbzohtaqbqgw.site^
 ||rtcdupmicrfkp.site^
+||rtcnihqoywdil.online^
 ||rtdpfwzxfajfl.online^
 ||rteomxavwvnol.site^
 ||rtewxcbmcxbkc.website^
@@ -61104,6 +61105,7 @@ browsershots.org#@#.advert_area
 ||strodeintended.com^
 ||strokyhaemoid.cyou^
 ||stroldcho.cyou^
+||stroldvatting.cfd^
 ||strollthrillingmeltdown.com^
 ||strondemprentrupitic.cyou^
 ||stronemols.qpon^
@@ -78268,6 +78270,8 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||affiliates.flightconnections.com^
 ||afloat.ie/images/banners/
 ||ag.divcom.com^
+||alibaba.com/search/api/bottomWendingSearch?
+||alibaba.com/search/api/wendingSearch?
 ||amazon.com/aan/$subdocument
 ||amazonaws.com/cdn.mobverify.com
 ||amazonaws.com/dazeddigital.com/Ads-main.js$domain=dazeddigital.com
@@ -88015,6 +88019,7 @@ producthunt.com##div[class="my-4 flex flex-1 cursor-pointer items-center justify
 producthunt.com##div[class="my-4 flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-md border-2 border-gray-200"]:has(video[poster^="https://ph-files.imgix.net/"])
 openalternative.co##div[class="relative flex max-md:order-3"]:has(a[href="/advertise"])
 openalternative.co##div[class="relative flex"]:has(a[href="/advertise"])
+alibaba.com##div[class] > .fy26-product-card:has(> div > span:only-child)
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##div[class] > div[class]:has(> div[class] > div[id^="RAD_D_"])
 manomano.*##div[class]:has(> .c4iHiiE)
 androidauthority.com##div[class]:has(> .pw-incontent)
