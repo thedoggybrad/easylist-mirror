@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: u5dpJ5BoGKtuqTTeq2/MbQ
-! Version: 202609240922
+! Checksum: EIdSdA1vXeGI/YPhdxpQEg
+! Version: 202609240932
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 24 Sep 2026 09:22 UTC
+! Last modified: 24 Sep 2026 09:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7663,6 +7663,7 @@ tribuna.com##div[class^="_tournaments-header__hero_"]
 livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
 !
 ! запросы
+.link/$third-party,domain=tazaromikaz.link
 .link/y6jt3d?$third-party,xmlhttprequest
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 ||aj2663.bid^$third-party
