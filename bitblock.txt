@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vU2KvpwgMdnh3ToqQ+v1Ow
-! Version: 202609240752
+! Checksum: 9xny53++iX0MkkxrlafXkw
+! Version: 202609240803
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 24 Sep 2026 07:52 UTC
+! Last modified: 24 Sep 2026 08:03 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7663,15 +7663,17 @@ tribuna.com##div[class^="_tournaments-header__hero_"]
 livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
 !
 ! запросы
-.link/nyn3j9?$third-party,xmlhttprequest
+.link/y6jt3d?$third-party,xmlhttprequest
 /tmp-new/js/kgi.js$domain=kinogo.my|kinogohd.im|kinogomy.net|kinogoua.net
 ||aj2663.bid^$third-party
 ||eugeniy.org^$third-party
 ||evropidar.org^$third-party
 ||fontmenice.com^$third-party
+||greatekran.org^$third-party
 ||ii.apl*.me/js/pop.js|$script
 ||ii.apl*.online/js/pop.js|$script
 ||ii.apl*.pro/js/pop.js|$script
+||kinzazaza.org^$third-party
 ||krasnomaga.link^$third-party
 ||leningrib.org^$third-party
 ||morozovnya.link^$third-party
@@ -7679,6 +7681,7 @@ livetv.sx#?#table[bgcolor] > tbody > tr > td[bgcolor]:-abp-has(.odb)
 ||pizzahuizza.org^$third-party
 ||ritsatv.ru/PLAYER/antiblok.js
 ||rubakaka.org^$third-party
+||shaloburda.link^$third-party
 ||skovorodnya.link^$third-party
 ||strashnokrivo.org^$third-party
 ||vertiguzha.link^$third-party
