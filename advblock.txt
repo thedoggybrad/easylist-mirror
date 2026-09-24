@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: t/AvaMSXqj3jiBULL1wqag
-! Version: 202609240803
+! Checksum: 8nX6V8RJ/e4nVyWTV2YTJg
+! Version: 202609240812
 ! Title: RU, UA, UZ, KZ
-! Last modified: 24 Sep 2026 08:03 UTC
+! Last modified: 24 Sep 2026 08:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25013,6 +25013,7 @@ lenta.news,lenta.ru#?#.layout__content > .js-topic:-abp-has(.topic-header__erid)
 lenta.news,lenta.ru##.layout__content > [id^="newsBody_news-"] ~ [id^="articleBody_articles-"]
 ferra.ru,letidor.ru,moslenta.ru,motor.ru,passion.ru,quto.ru,secretmag.ru,wmj.ru##.lb-ad-visible
 moslenta.ru##.lb-ad-visible + div:not([data-qa="partner-wrapper"])
+news.rambler.ru##.linkitbe-content-container script + div:empty
 gazeta.press,gazeta.ru##.m_zen
 lenta.news,lenta.ru##.olympiad
 lenta.news,lenta.ru##.promo-block
