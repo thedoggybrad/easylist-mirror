@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: R6n4kGSEi6UOFlabqxwUJg
-! Version: 202609250552
+! Checksum: JqVGBvfqKCRK9JoifKv0nQ
+! Version: 202609250602
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Sep 2026 05:52 UTC
+! Last modified: 25 Sep 2026 06:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2956,6 +2956,7 @@ kino.video,tasix.me##[onclick^="OpenShareWindow"]
 www.eg.ru##[onclick^="sh1"]
 livelib.ru##[onclick^="ub_share"]
 quiz.rambler.ru#?#[role="radiogroup"][aria-activedescendant] ~ div[style]:-abp-has(> div > .rambler-share)
+mirf.ru##[share-ic]
 readovka.news##[src="https://readovka.news/wp-content/themes/rd/img/banner.png"]
 planetanovosti.com##[title="Vkontakte"]
 conversion.im##[title="facebook"]
@@ -6394,7 +6395,7 @@ videoculinary.ru#?#.widget:-abp-has(> [class^="youtube_banner"])
 andro-news.com#?#.widget:-abp-has(> div > .subscribe)
 andro-news.com##.widget__content .google-play
 newformat.info##.widget__subscribe
-gsett.ru##.widget_custom_html
+geekcity.ru,gsett.ru##.widget_custom_html
 125region.ru#?#.widget_custom_html:-abp-has(> .textwidget > [id*="meteonova"])
 volyninfa.com.ua#?#.widget_custom_html:-abp-has(> div > #SinoptikInformer)
 hackware.ru,kali.tool##.widget_email-subscribers-form
