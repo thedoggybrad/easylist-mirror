@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609250015
+! Version: 202609250027
 ! Title: Fanboy's Social Blocking List
-! Last modified: 25 Sep 2026 00:15 UTC
+! Last modified: 25 Sep 2026 00:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ff3bc0e3025718fff269afc027577e5bfff3135b
+! Commit: 61e0474225f1200cdbf57fdca304a53d9becbeee
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10105,6 +10105,7 @@ _social_footer_
 ##a[href^="https://facebook.com/share.php?u="]
 ##a[href^="https://facebook.com/sharer.php?"]
 ##a[href^="https://google.com/preferences/source?q="]
+##a[href^="https://mastodonshare.com/?text="]
 ##a[href^="https://news.ycombinator.com/submitlink?"]
 ##a[href^="https://nitter.poast.org/share?"]
 ##a[href^="https://open.sns.ymcart.com/mgr?"]
@@ -10981,6 +10982,7 @@ spectator.co.uk##.entry-meta__item--social
 alizila.com##.entry-meta__social
 wideopencountry.com##.entry-social
 arabnews.com##.entry-views
+watchhentai.net##.ep-share-toggle
 nrttv.com##.eshare
 relevantradio.com##.ess-buttons
 thegatewaypundit.com,wersm.com##.essb_links
