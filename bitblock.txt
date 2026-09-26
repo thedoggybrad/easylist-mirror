@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QEFyxq7rW19Y8m+jPaOYUg
-! Version: 202609261032
+! Checksum: doUdwEW3Sp3ixCYf1N+6Wg
+! Version: 202609261042
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Sep 2026 10:32 UTC
+! Last modified: 26 Sep 2026 10:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -624,7 +624,6 @@ omskregion.info###socs
 rossaprimavera.ru###socwidget
 igra-prestoloff.cx#?##sp-right > .sp-inner > .module:-abp-has(#vk_groups)
 igra-prestoloff.cx#?##sp-right > .sp-inner > .module:-abp-has(.ya-share2)
-kinofilm.co###sped_lf_so
 muzland.es,muzland.info,muzland.ru###srart
 ua-electro.com###ssocial
 mirsexy.com###stickers
@@ -2453,7 +2452,6 @@ slavinfo.dn.ua#?#.sp-column > .sp-module.white:-abp-has(.sppb-addon-social-media
 armflot.ru#?#.sp-column > .sp-module:-abp-has(#vk_groups)
 broadcast.net.ua##.sp-column > footer
 fakty.com.ua##.sp-read-social
-kinofilm.co##.sp_insta
 3m2.ua,blitzfoxhub.com,portaltele.com.ua,ukrhealth.net,weukraine.tv##.spc-social
 pixelinform.com,sysidka.com##.spc-social-block
 5.ua##.spec-block
@@ -2905,6 +2903,7 @@ smi2.ru##[data-sentry-component="SocialBlock"]
 dfm.ru,hitfm.ru,maximum.ru,montecarlo.ru,rusradio.ru##[data-sentry-element="ShareImage"]
 tsn.ua##[data-share-container]
 mediazona.ca,zona.media##[data-share-id]
+kinofilm.io##[data-share-open]
 ivanovonews.ru,uazmi.org##[data-share-url]
 kp.kg,kp.kz,kp.ru,livejournal.com,md.kp.media,stopgame.ru,vp.rambler.ru##[data-share]
 www.drive2.ru#?#[data-slot="share.root"]:-abp-has(> .c-share__label + button:not([data-target="drive"]))
@@ -6042,7 +6041,7 @@ www.sport.ru##.push-subscribe-notice
 mk.ru##.push-suggest
 tsargrad.tv##.push-suggest__popup
 ukr.media##.push_btn
-24tv.ua##.pwa-install-banner
+24tv.ua,kinofilm.io##.pwa-install-banner
 aeza.net##.qHRoC
 boxrec.com##.qc-cmp2-container
 cash.rbc.ru##.quote__notice
@@ -7640,6 +7639,7 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! ----
 sportarena.ua###page > .nomobile:empty
 agroreview.com,agroweek.com##+js(abort-on-property-read, AWB)
+kinofilm.io##+js(prevent-setTimeout, baitHidden)
 xsport.ua#?#.MuiBox-root:-abp-has(> .MuiStack-root + .MuiStack-root [rel*="sponsored"])
 agroreview.com,agroweek.com##.awb-slot
 sportarena.ua##.category__advertisement
