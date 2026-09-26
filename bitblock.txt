@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: D+u5lsyFHOjLhvUIu6l4fw
-! Version: 202609261102
+! Checksum: JQpYqXhAE8LnaIzVmas6oQ
+! Version: 202609261112
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Sep 2026 11:02 UTC
+! Last modified: 26 Sep 2026 11:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1823,7 +1823,7 @@ ladys.media##.page-single__follow
 novate.ru##.pageNoFollow_hilite
 kulturomania.ru##.page__detail-panel
 animego.zone,polissia.news##.page__share
-2ip.io,2ip.ru##.page_speed_result__share > h3
+2ip.io##.page_speed_result__share > h3
 1777.ru##.pages_sf_right_block > table[style*="min-height:"] ~ .news_column_block
 inkorr.com##.pane-menu-menu-social-menu
 electric-house.ru#?#.panel-body > div:-abp-contains(Поделитесь в соц.сетях:)
@@ -2547,7 +2547,7 @@ informburo.kz##.telegram-card
 online-knigi.com##.telegram-chanel
 1kr.ua##.telegram-chat
 new-magazine.ru##.telegram-feed
-2ip.io,2ip.ru##.telegram-float-banner
+2ip.io##.telegram-float-banner
 htmlweb.ru##.telegram-groupe
 championat.asia,meteovesti.ru##.telegram-link
 1tv.od.ua##.telegram-link-block
@@ -4062,8 +4062,6 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 ! - Прочее --------------------------------------------------------------------
 ||101widgets.com^$third-party
 ||2142-stats.com^$third-party
-||2ip.ru/bar/
-||2ip.ru/member_photo/
 ||4put.ru/pictures/*.gif|
 ||7pisem.ru^$third-party
 ||agrank.com/dimg/
@@ -5420,7 +5418,7 @@ t2.ru##.cookies-confirmation-popover
 sipnet.net##.cookies-message-panel
 online-samsung.ru##.cookies-message-wrap
 poltava.ua##.cookies-notice
-2ip.io,2ip.ru##.cookies-notification
+2ip.io##.cookies-notification
 3ona51.com##.cookiesAccept
 rt.com##.cookies__banner
 ren.tv##.cookies__panel
