@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: doUdwEW3Sp3ixCYf1N+6Wg
-! Version: 202609261042
+! Checksum: yJlE2sNqQCMtZkOn9FvpGg
+! Version: 202609261052
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Sep 2026 10:42 UTC
+! Last modified: 26 Sep 2026 10:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3195,6 +3195,7 @@ pravda.if.ua##div[class*="social-container"]
 direct.farm#?#div[class*="social-info_action"][class*="wrapper"]:-abp-has([class*="share-button"])
 stratege.ru##div[class*="social_box"]
 novy.tv##div[class*="social_links"]
+life.ru#?#div[class*="styles_prettyFooter_"]:-abp-has(> [class^="styles_socials_"])
 www.kinopoisk.ru##div[class*="styles_sidebar"] > a[href][target="_blank"] > img
 takprosto.cc##div[class*="widget_essbsocial"]
 pnz.ru##div[class*="widget_social_links"]
@@ -3293,6 +3294,7 @@ life.ru##div[class^="styles_shareWrapper_"]
 poltavawave.com.ua,sil.media##div[class^="styles_sharing_"]
 super.ru##div[class^="styles_socials"] > a
 kufar.by##div[class^="styles_socials-container_"]
+life.ru##div[class^="styles_socials_"]
 fontanka.ru#?#div[class^="uiArticleBlockText"]:last-of-type:-abp-has(> p a[href^="https://t.me/"])
 photar.ru##div[class^="wp-block-wptelegram-widget"]
 yandex.ru##div[class^="ya-share"]
@@ -5959,7 +5961,6 @@ evribiont.xyz##.pop18
 gdz.ru,megaresheba.ru,spishi.fun##.popUp-subscribe
 calltouch.ru##.poppup-blocked
 vgoru.org##.popup--support
-mirf.ru##.popup-accept-policy
 forum.awd.ru##.popup-bg-wrapp
 pikabu.ru##.popup-button-promo
 svscompany.ru##.popup-policy
