@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 78e1Xw1foJmbUqU01HX1CA
-! Version: 202609270832
+! Checksum: Ysrtjbbt7mhV7eEqlBIenA
+! Version: 202609270842
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 Sep 2026 08:32 UTC
+! Last modified: 27 Sep 2026 08:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1767,7 +1767,6 @@ unian.net##.newsfeed__list > .newsfeed__item.align-items-center
 kursk-izvestia.ru##.newsimg_soc
 overclockers.ru#?#.newsline > .newsline-item ~ div[class="ui grid"]:-abp-has(> div > .blue.message )
 shostka.info##.ni-share
-minsknews.by##.nk_soc_links
 cn.ru##.nn-like
 ngs.ru##.nn-nav-socials
 nn.by##.nn-share-info-telegram
@@ -2309,7 +2308,8 @@ mybrazz.club,prokazan.ru##.social-lines
 overclockers.ru,waifucards.app##.social-link
 polissia.news##.social-link a[rel="nofollow"]
 nv.ua##.social-link-circle
-animelayer.ru,astera.ru,autostadt.su,b-glife.ru,babla.ru,belkagomel.by,bidbaits.ru,bigkyiv.com.ua,bio-lessons.ru,cyberscore.live,delfi.lt,delfi.lv,dostyp.com.ua,energyfm.ru,glavnoe.in.ua,gmk.center,gtavicecity.ru,interfax.com.ua,intermedia.ru,kulturologia.ru,lada.kz,likefm.ru,minprom.ua,mukachevo.net,news24.in.ua,novadoba.com.ua,odessamedia.net,podolyaka.com,podolyaka.ru,poebuilds.ru,radiozenit.ru,recept.ua,reporter64.ru,retrofm.ru,ruwiki.ru,snob.ru,sportarena.ua,sportkp.ru,sports.ru,sq.com.ua,te.ua,the-geek.ru,theageoffootball.com,theblueprint.ru,tvcenter.ru,tvr.by,utyug.info,varianty.lviv.ua,varta1.com.ua,vashsad.ua,vesti.ru,vsezdorovo.com,warhead.su,wotpack.ru,zakarpatpost.net,zazloo.ru##.social-links
+animelayer.ru,astera.ru,autostadt.su,b-glife.ru,babla.ru,belkagomel.by,bidbaits.ru,bigkyiv.com.ua,bio-lessons.ru,cyberscore.live,delfi.lt,delfi.lv,dostyp.com.ua,energyfm.ru,glavnoe.in.ua,gmk.center,gtavicecity.ru,interfax.com.ua,intermedia.ru,kulturologia.ru,lada.kz,likefm.ru,minprom.ua,minsknews.by,mukachevo.net,news24.in.ua,novadoba.com.ua,odessamedia.net,podolyaka.com,podolyaka.ru,poebuilds.ru,radiozenit.ru,recept.ua,reporter64.ru,retrofm.ru,ruwiki.ru,snob.ru,sportarena.ua,sportkp.ru,sports.ru,sq.com.ua,te.ua,the-geek.ru,theageoffootball.com,theblueprint.ru,tvcenter.ru,tvr.by,utyug.info,varianty.lviv.ua,varta1.com.ua,vashsad.ua,vesti.ru,vsezdorovo.com,warhead.su,wotpack.ru,zakarpatpost.net,zazloo.ru##.social-links
+minsknews.by##.social-links-custom
 mybrazz.club##.social-links-left
 matematika-doma.org##.social-links-module
 azbyka.ru##.social-links__tg
@@ -2340,7 +2340,6 @@ azbyka.ru##.social-share__wrap
 nevnov.ru##.social-share_block
 agroweek.com##.social-sharing
 www.kolesa.ru##.social-sharing-block
-minsknews.by##.social-sharing-nk
 grazia.ru,mentoday.ru,novochag.ru,pravilamag.ru,robb.report,techinsider.ru,thesymbol.ru,thevoicemag.ru##.social-sharing_sticky
 nevnov.ru##.social-sidebar-container
 coop-land.ru##.social-sidebar-links
@@ -6205,6 +6204,7 @@ hdd.by##.su-box
 hdd.by##.su-note
 hdd.by##.su-row
 gamemag.ru##.sub-alphabet
+minsknews.by##.sub-block
 seonews.ru##.sub-mailing-wrapper
 ppt.ru##.sub-tg
 finam.ru##.subScribeModal
@@ -7648,6 +7648,7 @@ agroreview.com,agroweek.com##.awb-slot
 sportarena.ua##.category__advertisement
 dtf.ru,vc.ru##.sidebar__section-content > a[href^="https://edu.vc.ru/"]
 vk.com,vk.ru#?#.vkuiGroup__modeCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
+minsknews.by##.widget_wp_ad_widget
 shelter.in.ua##[data-ad-pushed]
 tribuna.com##[data-menu-mainsections="casino"]
 shelter.in.ua##[style="height: 250px; opacity: 0;"]
