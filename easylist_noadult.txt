@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qHyUSGlosQBLdlomMmB0cA
-! Version: 202609270152
+! Checksum: 6Dd+kFOkG2XAN2Nw2lgQ8A
+! Version: 202609270203
 ! Title: EasyList without rules for adult sites
-! Last modified: 27 Sep 2026 01:52 UTC
+! Last modified: 27 Sep 2026 02:03 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -60849,6 +60849,7 @@ browsershots.org#@#.advert_area
 ||wjpmizqbscjxx.online^
 ||wjqernneeknag.space^
 ||wjqpyvulryxtg.site^
+||wjsbbqinjvvqx.space^
 ||wjtckivks.com^
 ||wjtgwtedzibzu.online^
 ||wjualftrzhelu.site^
@@ -77240,6 +77241,7 @@ hepper.com##.sidebar__placement
 abovethelaw.com,breakingdefense.com,medcitynews.com##.sidebar__top-sticky
 snopes.com##.sidebar_ad
 pcgamesn.com##.sidebar_affiliate_disclaimer
+lightspeedmagazine.com##.sidebar_box:has(.adtext)
 bxr.com##.sidebar_promo
 alternet.org##.sidebar_sticky_container
 macrumors.com##.sidebarblock
@@ -78677,7 +78679,7 @@ myfitnesspal.com##[title*="Ad"]
 balls.ie##[type="doubleclick"]
 wordcount.im##[value="DIRECT DOWNLOAD"]
 kiryuu.id##[width="1280"]
-fansshare.com##[width="300"]
+fansshare.com,lightspeedmagazine.com##[width="300"]
 igg-games.co,igg-games.com,pcgamestorrents.com,pcgamestorrents.org##[width="300"][height^="25"]
 cdmediaworld.com,flashx.cc,flashx.co,forum.gsmhosting.com,gametarget.net,jeepforum.com,lnkworld.com,themediaonline.co.za,transdict.com##[width="468"]
 americanfreepress.net,namepros.com,readneverland.com##[width="600"]
