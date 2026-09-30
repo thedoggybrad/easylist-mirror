@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: z73i1J3pCELCxpF2VRJJXw
-! Version: 202609301822
+! Checksum: T3UlpZ+HgI78cbOCsf/Qrw
+! Version: 202609301824
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 30 Sep 2026 18:22 UTC
+! Last modified: 30 Sep 2026 18:24 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7108,6 +7108,8 @@ www.kinopoisk.ru##a[href^="https://yandex.ru/alice/"][class*="banner"]
 www.kinopoisk.ru##body[class*="styles_body"] > .ReactModalPortal
 www.kinopoisk.ru##div[class*=" styles_rootPlus"] > div > div[class^="styles_upperFrame__"]
 www.kinopoisk.ru##div[class*=" styles_rootPlus"] > div[class^="styles_frameContainer__"]
+www.kinopoisk.ru##div[class*="-special-banner"]
+www.kinopoisk.ru##div[class*="_adfoxSpecialPopup_"]
 www.kinopoisk.ru##div[class*="style_presentationVisible_"]
 www.kinopoisk.ru##div[class*="styles_basicInfoSection"] div[class^="styles_header_"] > div[class^="styles_root_"] > div[class^="styles_blockTitle_"]
 www.kinopoisk.ru##div[class*="styles_basicInfoSection"] div[class^="styles_header_"] > div[class^="styles_root_"] > div[class^="styles_book_"]
@@ -7132,7 +7134,6 @@ www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div:not([class])
 www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div[class=""]
 www.kinopoisk.ru##div[class^="styles_watchOnlineBlock"] > div[class^="styles_subscription"]
 www.kinopoisk.ru##div[class^="styles_watchOnlineDescription"]
-www.kinopoisk.ru##div[id] > .banner-fullscreen
 www.kinopoisk.ru##footer > div[class][data-tid]
 www.kinopoisk.ru##footer[class*="styles_withPromotionBlock"] > div[class]:first-child
 www.kinopoisk.ru##header a[href*="utm_campai"]
