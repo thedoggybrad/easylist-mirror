@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZCZGvoSA0pWHTE+wU0mHqw
-! Version: 202609301402
+! Checksum: HmZ7Xua5SdoqS8fCctHmMA
+! Version: 202609301412
 ! Title: ABPVN List
-! Last modified: 30 Sep 2026 14:02 UTC
+! Last modified: 30 Sep 2026 14:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 30 Sep 2026 15:17:55 UTC+7
-! Diff-Path: patches/20260930151755308.patch#abpvn
+! Last modified: 30 Sep 2026 21:06:53 UTC+7
+! Diff-Path: patches/20260930210653635.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -109,6 +109,7 @@ $popup,domain=truyenfull.live
 ||checkscam.vn/wp-content/uploads/2025/10/2.png$image
 ||checkscam.vn^*.gif$image
 ||chodansinh.net^*.gif
+||chophim.fun/ads/$media,~third-party,rewrite=abp-resource:blank-mp3
 ||chotlo3s.com^*gif
 ||client.rigelink.com/delivery/$xmlhttprequest
 ||coiphim.show/client_assets/js/dataview/adsview.js$script,~third-party
@@ -412,6 +413,8 @@ chodansinh.net##.link-gold
 chodansinh.net##[id^="banner"]
 chophim.app##.p-4.bg-black\/65.justify-center.items-center.flex.z-\[90\].inset-0.fixed
 chophim.app##.pointer-events-none.justify-center.flex.z-\[80\].bottom-0.inset-x-0.fixed
+chophim.fun##.p-4.bg-black\/65.justify-center.items-center.flex.z-\[90\].inset-0.fixed
+chophim.fun##.pointer-events-none.justify-center.flex.z-\[80\].bottom-0.inset-x-0.fixed
 chophimviet.top###scriptDiv:has(.adsbygoogle)
 chotlo3s.com##div[id^="float"]
 chotlo3s.com##div[id^="hide_float"]
