@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610010057
+! Version: 202610010108
 ! Title: EasyPrivacy
-! Last modified: 01 Oct 2026 00:57 UTC
+! Last modified: 01 Oct 2026 01:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a0e531ae4a7becf717f36b70c8d99a472091fec4
+! Commit: 32d85023f61628d4feab853fe2b747ccc744d811
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11052,6 +11052,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.tds.bid/bid.js
 ||cdn.tolt.io/tolt.js
 ||cdn.usefathom.com^
+||cdn.zeroclick.io/scripts/badge.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdnjs.work/metrics.js
 ||cdnma.com/apps/capture.js
@@ -15668,6 +15669,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cpt.itv.com^
 ||creately.com/static/js/creately-analytics-
 ||creator-spring.com/ngjj/
+||crta.dailymail.com^
 ||crta.metro.co.uk^
 ||crumbs.robinhood.com^
 ||crunchyroll.com/tracker?
@@ -15689,6 +15691,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailydevstatus.com/embed/script.js
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
+||dailymail.com/zephr/features
 ||dailymotion.com/logger/
 ||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||dap.hindustantimes.com^
@@ -17087,6 +17090,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tccd.douglas.
 ||td.airdroid.com^
 ||tealium-proxy.libertex.org^
+||ted.dailymail.co.uk^
 ||telegraph.prd.api.max.com^
 ||telem.sre.gopuff.com^
 ||telemetry.adobe.io^
