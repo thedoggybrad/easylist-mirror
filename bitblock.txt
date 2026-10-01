@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ffkeUeCsDnF57rJ1q3OL9g
-! Version: 202610011232
+! Checksum: nnjboRBYW7xtoykh9YmU3Q
+! Version: 202610011243
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 01 Oct 2026 12:32 UTC
+! Last modified: 01 Oct 2026 12:43 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3819,9 +3819,7 @@ _userbar_$image
 ##.cookiepolicy
 ##.cookies-banner
 ##.cookies-eu-banner
-##.cookies-info:not(html):not(body)
 ##.cookies-message
-##.cookies-popup
 ##.cookiesBanner
 ##.cookiesBlock
 ##.cookies__container
@@ -7647,6 +7645,7 @@ epscape.*##+js(prevent-setTimeout, shouldShowPrompt)
 epscape.*##.fixed.backdrop-blur-sm
 epscape.*##.otk-slot
 minsknews.by##.widget_wp_ad_widget
+tabor.ru##+js(set-cookie-reload, cookie_accepted, 1)
 !
 ! запросы
 .link/$third-party,domain=gorodyshka.link|perepolokha.link|player.temptcdn.com|tazaromikaz.link
