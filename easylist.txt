@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610010744
+! Version: 202610010753
 ! Title: EasyList
-! Last modified: 01 Oct 2026 07:44 UTC
+! Last modified: 01 Oct 2026 07:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: fac958e036923b147b4de814ffe4c2b30d3787d4
+! Commit: 6047dc358a08b2e4058b657061b0a48c75f8bee9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -63411,6 +63411,7 @@ browsershots.org#@#.advert_area
 ||saveit.us/img/$third-party
 ||sbitany.com^*/affiliate/$third-party
 ||screen13.com/publishers/
+||script.wikia.nocookie.net/fandom-ae-assets/odyssey/ad-engine/production/main.js
 ||sdk.apester.com/*.adsbygoogle.min.js
 ||sdk.apester.com/*.Monetization.min.js
 ||sdk.k-words.io/script.js
@@ -70384,7 +70385,7 @@ guessthe.game,guessthe.house,guesstheangle.wtf,guesstheaudio.com,guessthebook.ap
 guessthe.game,guessthe.house,guesstheangle.wtf,guesstheaudio.com,guessthebook.app,guessthegrid.xyz,guessthelogo.wtf,guessthemovie.name,guessthephrase.xyz##.fallback-side-ad
 tokyvideo.com##.fan--related-videos.fan
 steamgifts.com##.fanatical_container
-metacritic.com##.fandom-ad-placeholder
+metacritic.com,tvguide.com##.fandom-ad-placeholder
 fandom.com,gamespot.com,metacritic.com##.fandom-ad-wrapper
 channelnewsasia.com##.fast-ads-wrapper
 imgur.com##.fast-grid-ad
@@ -72607,6 +72608,7 @@ tampafp.com##.sticky-inside-pad
 leaf.tv,sciencing.com##.sticky-leaderboard-container
 fastcompany.com##.sticky-outer-wrapper
 niagarathisweek.com##.sticky-parent
+fandom.com##.sticky-placement-top
 foxweather.com##.sticky-pre-content
 foxnews.com##.sticky-pre-header
 foxnews.com##.sticky-pre-header-inner
