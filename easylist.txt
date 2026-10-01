@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610011715
+! Version: 202610011728
 ! Title: EasyList
-! Last modified: 01 Oct 2026 17:15 UTC
+! Last modified: 01 Oct 2026 17:28 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 210ff738ba1aeb7e8ac60516ee79a052e0d6e1cd
+! Commit: aefdedfd1c289455061b1c8663aa5f43ba6b2ba2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -30843,6 +30843,7 @@ browsershots.org#@#.advert_area
 ||gys5.com^
 ||gysqsokhnysqp.space^
 ||gyunqnwvqvooi.online^
+||gyvedtryms.com^
 ||gyvxiyeixsjfl.website^
 ||gywtahttfsegu.online^
 ||gywwzmejfzkrs.site^
@@ -36829,6 +36830,7 @@ browsershots.org#@#.advert_area
 ||loveeraymond.shop^
 ||loveflirt-haven.com^
 ||loveintension.com^
+||lovepotmorinel.com^
 ||loverevenue.com^
 ||loverypilies.shop^
 ||lovgykwxrsnqn.site^
@@ -38033,6 +38035,7 @@ browsershots.org#@#.advert_area
 ||mingleassertiveregard.com^
 ||mingorestake.cfd^
 ||minhahbahmanislite.cfd^
+||minhahchicky.com^
 ||minikenfiercen.com^
 ||minimumomnipotentintern.com^
 ||minimumshortest.com^
@@ -41627,6 +41630,7 @@ browsershots.org#@#.advert_area
 ||ozasiskoddhmk.online^
 ||ozbtkhflawdnt.online^
 ||ozdijmiuwzfee.space^
+||ozfejflhimwls.online^
 ||ozfisiodlybdi.site^
 ||ozfxwlyarvwzy.site^
 ||ozihlzpeabppp.online^
@@ -74814,6 +74818,7 @@ momondo.*##div[role="button"][tabindex="0"]:has(div.c_3eP-badge-content)
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="link"]:has(.c_3eP-badge-content)
 autoscout24.*##img[referrerpolicy="unsafe-url"]
 sameday.costco.*##li:has([aria-label="Product"]):has([data-fp-eligible]):not(:has(h2))
+deliveroo.*##li:not(:has(li)):has([data-testid="promotional-sponsor-label"])
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])
 deliveroo.*##li[class^="Slide-"]:has(div[data-testid="sponsored-tag"] > p[data-testid="label"])
 deliveroo.*##li[class^="Slide-"]:has(div[data-testid="sponsored-tag"] > p[data-testid="sponsored-tag-label"])
@@ -75105,6 +75110,7 @@ etsy.com##[data-page-type="similar-listing-page"]:has([id^="ad-listing-title-"])
 noon.com##[data-qa="plp-grid"] [data-qa="plp-product-box"]:has(svg[width="20"] > path[d])
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 noon.com##[data-qa="widget_recommendedProducts"]:has(svg[width="20"] > path[d])
+wolt.com##[data-test-id="MainDiscoveryContent"] > div:has([data-test-id="AdvertisingLabel"])
 wolt.com##[data-test-id="MainDiscoveryContent"] li[draggable]:has(a[aria-label*="Sponsored"])
 stockx.com##[data-testid="banner-collage"] .chakra-aspect-ratio:has(a[title*="Promo"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([class*="AIGCAdShared"])
@@ -75288,6 +75294,7 @@ aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
 classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.com"]))
 duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
+argos.co.uk##section.ds-c-carousel:has(span[class*="sponsoredBadge"])
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
 thehansindia.com##section:has(> .to-be-async-loaded-ad)
