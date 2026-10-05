@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RKG1tPfuSdqVgdLTTEZxKw
-! Version: 202610052032
+! Checksum: bgzQXKZQvlVbXNot4YNuWw
+! Version: 202610052052
 ! Title: EasyList without rules for adult sites
-! Last modified: 05 Oct 2026 20:32 UTC
+! Last modified: 05 Oct 2026 20:52 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -24394,6 +24394,7 @@ browsershots.org#@#.advert_area
 ||daily-datehere.com^
 ||dailyc24.com^
 ||dailyexcessivestocks.com^
+||daimielwarmly.qpon^
 ||daimiosdisturnrecants.cfd^
 ||daimonclamour.cyou^
 ||daintynotice.com^
@@ -25553,6 +25554,7 @@ browsershots.org#@#.advert_area
 ||dnzidbqslnyjx.space^
 ||dnzqmyegpjkih.online^
 ||dnzsyouiexcar.space^
+||doakzcovnlibh.space^
 ||doaltariaer.com^
 ||doankhqxgwbui.site^
 ||doariumunarray.cfd^
@@ -42896,6 +42898,7 @@ browsershots.org#@#.advert_area
 ||peer39.net^
 ||peeragelevyne.com^
 ||peerlessqueensuccessfully.com^
+||peevedtomines.cyou^
 ||peevesbookshelfallocation.com^
 ||peevesfellafraid.com^
 ||peevukpzk.com^
@@ -45726,6 +45729,7 @@ browsershots.org#@#.advert_area
 ||rafterrowport.qpon^
 ||ragakxzz.in^
 ||ragapa.com^
+||ragckcvjwcgos.com^
 ||rageagainstthesoap.com^
 ||ragerpelikaivoltes.cyou^
 ||rageruvanite.com^
@@ -53506,6 +53510,7 @@ browsershots.org#@#.advert_area
 ||uoydzaom.xyz^
 ||uozbwocqypahe.site^
 ||upaitqexpunnz.online^
+||upaktpkntpvhz.online^
 ||upandsawhwh.com^
 ||uparceuson.com^
 ||upasesrehung.cyou^
@@ -54960,6 +54965,7 @@ browsershots.org#@#.advert_area
 ||vustaq.com^
 ||vutipseethu.net^
 ||vutyilceqbbdd.online^
+||vuvqsctm.com^
 ||vuwgityuhrcvf.online^
 ||vuwofoeszqiby.store^
 ||vuwrjobyhwbjn.site^
@@ -74898,6 +74904,7 @@ manomano.*##div[class]:has(> .c4iHiiE)
 androidauthority.com##div[class]:has(> .pw-incontent)
 pixabay.com##div[class]:has(> [class^="title--"] a[href*="sponsored"])
 scribd.com##div[class]:has(> [data-e2e="dismissible-ad-header-scribd_adhesion"])
+pixabay.com##div[class]:has(> div > div > a[aria-label="Sponsored Images"])
 pixabay.com##div[class]:has(> div > span + a + button[aria-label="About this advertiser"])
 dearbornmarket.com,fairwaymarket.com,gourmetgarage.com,priceritemarketplace.com,shoprite.com,thefreshgrocer.com##div[class^="ColListing"]:has(div[data-testid^="Sponsored"])
 pexels.com##div[class^="FullWidth_container_"]:has(a[rel="sponsored noopener"])
@@ -74919,8 +74926,8 @@ etherscan.io##div[data-nosnippet]:has(> ins[id])
 rakuten.com##div[data-productid]:has(a[href*="&fbbaid="])
 rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
 noon.com##div[data-qa="plp-product-box"]:has(div[class^="STag-module-"])
-wolt.com##div[data-test-id="MainDiscoveryContent"] li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
-wolt.com##div[data-test-id="SearchResultVenueSection"] li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
+wolt.com##div[data-test-id="MainDiscoveryContent"] li:has(> div.cb-elevated:has(button[data-test-id="AdvertisingLabel"]))
+wolt.com##div[data-test-id="SearchResultVenueSection"] li:has(> div.cb-elevated button[data-test-id="AdvertisingLabel"])
 mail.aol.com##div[data-test-id="virtual-list"] > ul[role="list"][aria-label] > li[style]:has(a[href^="https://api.taboola.com/"][href*="/yahoo-aol-mail/"])
 producthunt.com##div[data-test] > section:has(a[href^="/r/ad/"])
 producthunt.com##div[data-test] > section:has(img[src="/i/299a62819c7092e196f7fc2c331cc11ef4f93a0f32c3b3069c4fd974cda0cb4c"])
@@ -74928,6 +74935,7 @@ producthunt.com##div[data-test]:not([data-test^="homepage-section-"]) > section[
 priceline.com##div[data-testid="HTL_NEW_LISTING_CARD_RESP"]:has(a[aria-label*=" Promoted"])
 twitter.com,x.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com,x.com##div[data-testid="eventHero"]:has(path[d$="10H8.996V8h7v7z"])
+pexels.com##div[data-testid="item"]:has(a[href*="/r/"][rel~="nofollow"][target="_blank"])
 pexels.com##div[data-testid="item"]:has(a[href^="https://www.pexels.com/g/"])
 pexels.com##div[data-testid="item"]:has(h4[data-heading][class*="inlineTitleText"])
 pexels.com##div[data-testid="item"]:has(h4[data-heading^="S\00200cp\00200co\00200cn\00200cs\00200co\00200cr\00200ce\00200cd"])
@@ -74996,7 +75004,7 @@ titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC
 opensubtitles.org##tr[style]:has([src*="php"])
 oneindia.com##ul > li:has(> div[class^="adg_"])
 etsy.com##ul[data-results-grid-container] li:has([id^="ad-listing-title-"])
-wolt.com##ul[data-test-id="VenueVerticalListGrid"] > li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
+wolt.com##ul[data-test-id="VenueVerticalListGrid"] > li:has( > div.cb-elevated button[data-test-id="AdvertisingLabel"]))
 ! taboola
 nme.com###taboola-below-article
 oneindia.com###taboola-mid-article-thumbnails
