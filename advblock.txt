@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CBpJkoV8ffdq3U0756Orbw
-! Version: 202610051552
+! Checksum: FFwA2ZxEBYbfmYSoPHfHyQ
+! Version: 202610051605
 ! Title: RU, UA, UZ, KZ
-! Last modified: 05 Oct 2026 15:52 UTC
+! Last modified: 05 Oct 2026 16:05 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -21152,7 +21152,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||admin.tenews.te.ua/plugins/galleryadvert/
 ||ado.delfi.ee^
 ||ads-u.depositfiles.com/
-||ads.prod.vdsprts.ru/
 ||adult-images.ru^*.php$script
 ||adultphotosets.net^$script
 ||adverman.*/banners/
@@ -25415,6 +25414,7 @@ sports.ru##p > a[rel="nofollow"] > img[height][width]
 sports.ru#?#p:-abp-has(> a[href]:-abp-contains(М.Видео))
 tribuna.com##span[class^="_comments__loader"][class*="_spinner_"]
 sports.ru##style:first-child ~ [class^="gift__"]
+||ads.prod.vdsprts.ru/
 ||dumpster.cdn.sports.ru/*.png|$image
 ||dumpster.cdn.sports.ru/*.webp|$image
 ||s5o.ru/build/_desktop/split_testing_init.js
@@ -25423,6 +25423,7 @@ sports.ru##style:first-child ~ [class^="gift__"]
 ||senoval.cdn.sports.ru/news-renderer/public/SparrowRecommendations-
 ||senoval.cdn.sports.ru/s-presence/sblock-presence.min.js
 ||senoval.cdn.sports.ru/tagchester/*/actual-matches-widget/
+||sp.prod.vdsprts.ru/
 ||sports.ru/special/supertop-iframe/
 ||sports.ru^*/banners/
 ||static.*.tribuna.com/_next/static/chunks/3340.a9e1afb602402a44.js
