@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +oGpPHf37t6Mq7e2LayX4g
-! Version: 202610050952
+! Checksum: cyA45yAHM/WbYNufJ5pKCA
+! Version: 202610051002
 ! Title: EasyList without element hiding rules
-! Last modified: 05 Oct 2026 09:52 UTC
+! Last modified: 05 Oct 2026 10:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -46941,6 +46941,7 @@ _800x80_
 ||punctualbut.com^
 ||puzzledrally.com^
 ||quietlythough.com^
+||quitcertify.com^
 ||rampfat.com^
 ||referwhen.com^
 ||scientificfor.com^
@@ -53366,9 +53367,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||zype.com^$third-party,domain=bossip.com|hiphopwired.com|madamenoire.com
 ! Test (Webkit Mobile/Desktop for Youtube)
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
-||m.youtube.com/get_midroll_$domain=youtube.com
 ! temp disabled, affecting some extensions/browsers
-||www.youtube.com/get_midroll_$domain=youtube.com
 ||youtube.com/get_video_info?*adunit$~third-party
 ! jetzt.de
 @@||jetzt.de^$generichide
