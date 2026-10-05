@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Kkpss/hoj8fd82hRsPIVEg
-! Version: 202610051422
+! Checksum: gNIQBoaZAN2ZqNiZ22EPCA
+! Version: 202610051443
 ! Title: ABP filters
-! Last modified: 05 Oct 2026 14:22 UTC
+! Last modified: 05 Oct 2026 14:43 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2188,6 +2188,11 @@ arakpop.net#$#hide-if-matches-xpath './/div[@id="smart-overlay" and contains(@st
 arakpop.net#$#abort-current-inline-script btoa /replace|last_click_/
 ! Thai sites
 animetaro.com#$#abort-on-property-read window.open
+nungxthai.me,xxxnung.tv,i69xx.me#$#abort-on-property-write customTargeting
+pornnungxxx2.me,nungxthai.me,xxxdee.me,xxxnung.tv,i69xx.me,nungxxx.net,nungxxx2.com#$#prevent-window-open utm_medium=banner
+pornnungxxx2.me,nungxthai.me,xxxdee.me,xxxnung.tv,i69xx.me,nungxxx.net,nungxxx2.com#$#timer-override 0 playlistNext '' timeout
+pornnungxxx2.me,nungxthai.me,xxxdee.me,xxxnung.tv,i69xx.me,nungxxx.net,nungxxx2.com#$#hide-if-matches-xpath '//div[contains(concat(" ",normalize-space(@class)," ")," custom-wp-ad-grid-box ") or contains(concat(" ",normalize-space(@class)," ")," float-ad ") or starts-with(@id,"ads-") or @id="player-ad-ui"]'
+||flswa.watermelogic.com/assets/*.mp4$media,domain=pornnungxxx2.me|nungxthai.me|xxxdee.me|xxxnung.tv|i69xx.me|nungxxx.net|nungxxx2.com
 ! Croatian sites
 filmoviplex.com#$#hide-if-matches-xpath './/div[@id]/a[contains(@href,"vivadice")][@style]/picture[@style]/ancestor::div[@id][1]'; abort-on-property-read runPop; abort-on-property-read BetterJsPop; abort-on-property-read doSecondPop; abort-on-property-write window.open
 ! *** abp-filters-anti-cv:fb_non-graph.txt ***
@@ -2908,7 +2913,7 @@ samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/follow
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 ! #RM-9
 ! sl, sc
-instacart.*#$#hide-if-matches-xpath './/ic-rp-tag/ancestor::li[1]';
+instacart.*#$#hide-if-matches-xpath './/ic-ms-tag/ancestor::li[1]';
 ! ta
 instacart.*##div[id][class]:has(> span[aria-hidden="true"]:first-child):has(> section > span > a > picture > img[src*="display.instacart.com"][alt*="Sponsored"])
 ! tc
@@ -3308,7 +3313,7 @@ fiverr.com#?#div.slide:has(span[data-track-tag^="typography"]:-abp-contains(/Anz
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
 ! #RM-112
 ! SP
-sameday.costco.*#$#race start; hide-if-matches-xpath './/ic-rp-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-rp-tag]/ancestor::li[1]'; race stop;
+sameday.costco.*#$#race start; hide-if-matches-xpath './/ic-ms-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-ms-tag]/ancestor::li[1]'; race stop;
 ! ca
 sameday.costco.*##div[id]:has(> div[id] > a img[src*="display.instacart.com"]):has(> div[id] li img[src*="display.instacart.com"])
 sameday.costco.*##div[id]:has(> div > div > div > a img[src*="display.instacart.com"]):has(> div > div > div > a h2)
