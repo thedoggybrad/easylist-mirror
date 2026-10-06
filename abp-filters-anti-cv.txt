@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: gCg2bwJyLeANLZA6sGhO+w
-! Version: 202610061533
+! Checksum: CQftWEx+579bLcp0hDoULg
+! Version: 202610061552
 ! Title: ABP filters
-! Last modified: 06 Oct 2026 15:33 UTC
+! Last modified: 06 Oct 2026 15:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1270,12 +1270,6 @@ leagueofgraphs.com#$#override-property-read __as_e true
 last.fm#$#override-property-read __as_e true
 game8.co#$#override-property-read __as_e true
 game8.jp#$#override-property-read __as_e true
-||error-report.com^$domain=gamebanana.com
-gamebanana.com$csp=script-src-attr 'none'
-||*/core.js^$script,domain=gamebanana.com
-gamebanana.com#$#abort-current-inline-script eval /xx44zp0c391/
-gamebanana.com#$#override-property-read xx44zp0c391 true
-gamebanana.com#$#abort-current-inline-script sessionStorage ad_stack_split
 ||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=dict.cc
 dict.cc#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 weeronline.nl#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
@@ -1356,7 +1350,8 @@ fragrantica.com#$#abort-current-inline-script Object.getOwnPropertyDescriptor /H
 dogdrip.net#$#json-override isActive false hasActiveAutoRecovery
 dogdrip.net#$#json-override isActive false eventSampleRatio
 spreadsheetpoint.com#$#abort-current-inline-script String.prototype.match __adblocker
-namemc.com,idokep.hu,gamesradar.com,weatherzone.com.au,onlineradiobox.com,fandom.com,base64decode.org,9gag.com,bab.la,base64encode.org,billboard.com,calculatorsoup.com,caminteresse.fr,collinsdictionary.com,convertcase.net,cool-style.com.tw,crosswordsolver.com,daily.co.jp,deadline.com,dictionary.cambridge.org,doviz.com,dreadcentral.com,ecouter-en-direct.com,eurointegration.com.ua,euronews.com,fansided.com,femmeactuelle.fr,flatpanelshd.com,freeconvert.com,game8.co,game8.jp,gamebanana.com,gamewith.jp,gazetaprawna.pl,goldderby.com,golf-live.at,golfmonthly.com,guitarworld.com,gutefrage.net,hfboards.com,hk01.com,hochi.news,hollywoodreporter.com,huffpost.com,index.hr,indiewire.com,inven.co.kr,invoice-generator.com,issuya.com,kurir.rs,kuruma-news.jp,laleggepertutti.it,leagueofgraphs.com,loawa.com,malaymail.com,mentalfloss.com,movie-locations.com,mr2oc.com,nationalpost.com,nemzetisport.hu,nikkansports.com,omnicalculator.com,oraridiapertura24.it,oricon.co.jp,oxfordlearnersdictionaries.com,pcgamer.com,pcgamesn.com,percentagecalculator.net,picrew.me,pons.com,pressian.com,programme-tv.net,programme.tv,puckpedia.com,rollingstone.com,sankei.com,scribd.com,seriouseats.com,sourceforge.net,space.com,spreadsheetpoint.com,stocktwits.com,text-compare.com,the-crossword-solver.com,timesofindia.indiatimes.com,tomsguide.com,tomshardware.com,trafficnews.jp,trilltrill.jp,tunebat.com,tz.de,variety.com,verkaufsoffener-sonntag.com,vimm.net,voici.fr,vwvortex.com,watchuseek.com,wenxuecity.com,wfmz.com,winfuture.de,wordhippo.com,worldofsolitaire.com,woxikon.de,www.wetter.com#$#override-property-read Navigator.prototype.userAgent 'AdsBot-Google'; override-property-read Navigator.prototype.userAgentData undefined
+/^https:\/\/[a-z]{3,}\.[a-z]{7,}\.com\/[a-z]{3,}\/[a-f0-9]{8}\.js$/$script,third-party,match-case,domain=base64decode.org|deadline.com|euronews.com|fandom.com|goldderby.com|index.hr|indiewire.com|rollingstone.com
+namemc.com,idokep.hu,gamesradar.com,weatherzone.com.au,onlineradiobox.com,fandom.com,base64decode.org,9gag.com,bab.la,base64encode.org,billboard.com,calculatorsoup.com,caminteresse.fr,collinsdictionary.com,convertcase.net,cool-style.com.tw,crosswordsolver.com,daily.co.jp,deadline.com,dictionary.cambridge.org,doviz.com,dreadcentral.com,ecouter-en-direct.com,eurointegration.com.ua,euronews.com,fansided.com,femmeactuelle.fr,flatpanelshd.com,freeconvert.com,game8.co,game8.jp,gamewith.jp,gazetaprawna.pl,goldderby.com,golf-live.at,golfmonthly.com,guitarworld.com,gutefrage.net,hfboards.com,hk01.com,hochi.news,hollywoodreporter.com,huffpost.com,index.hr,indiewire.com,inven.co.kr,invoice-generator.com,issuya.com,kurir.rs,kuruma-news.jp,laleggepertutti.it,leagueofgraphs.com,loawa.com,malaymail.com,mentalfloss.com,movie-locations.com,mr2oc.com,nationalpost.com,nemzetisport.hu,nikkansports.com,omnicalculator.com,oraridiapertura24.it,oricon.co.jp,oxfordlearnersdictionaries.com,pcgamer.com,pcgamesn.com,percentagecalculator.net,picrew.me,pons.com,pressian.com,programme-tv.net,programme.tv,puckpedia.com,rollingstone.com,sankei.com,scribd.com,seriouseats.com,sourceforge.net,space.com,spreadsheetpoint.com,stocktwits.com,text-compare.com,the-crossword-solver.com,timesofindia.indiatimes.com,tomsguide.com,tomshardware.com,trafficnews.jp,trilltrill.jp,tunebat.com,tz.de,variety.com,verkaufsoffener-sonntag.com,vimm.net,voici.fr,vwvortex.com,watchuseek.com,wenxuecity.com,wfmz.com,winfuture.de,wordhippo.com,worldofsolitaire.com,woxikon.de,www.wetter.com#$#override-property-read Navigator.prototype.userAgent 'AdsBot-Google'; override-property-read Navigator.prototype.userAgentData undefined
 puzzle-nonograms.com#$#prevent-element-src-loading script /ad-shield/
 urbandictionary.com#$#prevent-element-src-loading script /ad-shield/
 asahi.com#$#prevent-element-src-loading script /ad-shield/
@@ -1869,6 +1864,7 @@ missav.*,missav123.com,missav888.com,njavtv.com#$#prevent-window-open '/pop?url=
 hdtube.porn,pornid.xxx,rat.xxx,sexvid.xxx,zbporn.com#$#abort-on-property-read pu
 cinemove.cc#$#override-property-read __cmAdOpening true
 cinemove.cc#$#replace-fetch-response '"enabled":true' '"enabled":false' iptvInterstitial
+movy.sx#$#prevent-element-src-loading script /^(https:)?\/\/[a-z]{2}\\.[a-z]+\\.com\/[A-Za-z0-9_-]{10,16}\/[A-Za-z0-9]+$/
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
