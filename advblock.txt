@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MaieS6ZoYfzLkZwQYMneKA
-! Version: 202610061803
+! Checksum: TkIr22PM2PHnNOhr0l3wFQ
+! Version: 202610061812
 ! Title: RU, UA, UZ, KZ
-! Last modified: 06 Oct 2026 18:03 UTC
+! Last modified: 06 Oct 2026 18:12 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13096,6 +13096,7 @@ f1analytic.com,f1ua.org.ua##.BoxVideo.clear ~ .BoxVideo.clear
 delfi.ee##.C-banner
 myshows.me##.CommentBanner
 vk.com,vk.ru##.ConversationsBar
+vk.com,vk.ru##.ConvoList__conversationsBar
 meduza.io##.DFPBanner-module-root
 meduza.io##.DFPBanner-root
 comedy-radio.ru,energyfm.ru,radioromantika.ru,relax-fm.ru,veseloeradio.ru##.D_Top
@@ -17503,6 +17504,7 @@ russia-tv.online#?#[data-test="channel-name-link"] ~ div:-abp-has(> div > div[id
 dom.ru#?#[data-test="custom-wrapper"]:-abp-has(> div > [href*="movix.ru/"])
 scores24.live##[data-testid="ExpressCouponBookmakers"]
 t-j.ru##[data-testid="banner"]
+vk.com,vk.ru##[data-testid="feed_main_container"] > div > section
 vk.com,vk.ru##[data-testid="leftmenu"] [id^="l_invite_"][id*="_promo"]
 telegraf.com.ua,telegraf.ua##[data-text^="Новини партнер"]
 uazmi.org##[data-text^="Рекламн"]
