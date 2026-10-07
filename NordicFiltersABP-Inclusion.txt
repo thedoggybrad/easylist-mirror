@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LdxLe5k+kH6nDxU5j+R9hg
-! Version: 202610071403
+! Checksum: 3HPOOH/b/hpnjgW9NIBLyw
+! Version: 202610071413
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Oct 2026 14:03 UTC
+! Last modified: 07 Oct 2026 14:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7931,7 +7931,7 @@ golfpiste.com##html { scrollbar-gutter: stable !important; scrollbar-width: thin
 /adv-banner-$image
 /adv-scroll-sidebar.js$script
 /adv-scroll.$script
-/adv_out.js$third-party
+/adv_out.js$third-party,~xmlhttprequest
 /adv_vert.js$script
 /AdvAdsV3/*$script,stylesheet
 /advanced-ads-layer/public/assets/js/layer.js
