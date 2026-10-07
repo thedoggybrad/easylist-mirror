@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610071203
+! Version: 202610071217
 ! Title: Fanboy's Annoyance List
-! Last modified: 07 Oct 2026 12:03 UTC
+! Last modified: 07 Oct 2026 12:17 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8b9b39e21c6d3a53872cdc5a3aefffb8da334068
+! Commit: 595364fef2bf6f434d4046843482e61f7db3b405
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -49826,6 +49826,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 @@||lumingerie.com/min/$script,~third-party
 @@||pico.tools/load/build.js$script,domain=escapistmagazine.com
 @@||tedox.de/*/js/footer.js$script,~third-party
+@@||washingtonpost.com/newsletters/api/v1/newsletters/$~third-party
 ! *** easylist:fanboy-addon/fanboy_newsletter_allowlist_general_hide.txt ***
 ! fanboy_newsletter_allowlist_general_hide.txt
 onepercentclub.co.uk#@#.et_pb_newsletter
