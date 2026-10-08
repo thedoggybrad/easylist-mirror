@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: tDJUUN4O/vGR68fwTKo82g
-! Version: 202610080912
+! Checksum: 9penIbqJ2svsK5QSmilW1g
+! Version: 202610080922
 ! Title: ABP filters
-! Last modified: 08 Oct 2026 09:12 UTC
+! Last modified: 08 Oct 2026 09:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -3306,7 +3306,7 @@ otomoto.*#?#[data-testid="financing-widget-simulator-entrypoint"]:has(span:has-t
 otomoto.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-property-read Baxter.targeting.ad_title; override-property-read Baxter.targeting emptyObj;
 ! #RM-117
 pinterest.*#?#div[data-grid-item]:has(div[title]:-abp-contains(/^(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)$/))
-pinterest.com#$#json-prune 'resource_response.data.[-].promoter resource_response.data.results.[-].promoter'
+pinterest.com#$#json-prune 'resource_response.data.[-].ad_data resource_response.data.results.[-].ad_data'
 ! #RM-167
 ! HP&PP
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
