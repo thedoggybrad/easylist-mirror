@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: TLQzivYIvtXIDVBlVQmqYw
-! Version: 202610081542
+! Checksum: O0jcaKqcxfoWqprGYBywtg
+! Version: 202610081552
 ! Title: ABP filters
-! Last modified: 08 Oct 2026 15:42 UTC
+! Last modified: 08 Oct 2026 15:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1826,7 +1826,9 @@ xvideos-full.com#$#prevent-window-open /overloadenjoy/ 2 iframe
 flashmovies.xyz,flixmomo.*,mumu.*,vidcore.*,vidbolt.*,pornx.to#$#prevent-window-open /./ 1000 iframe
 mumu.*#$#simulate-mouse-event '.video-link$delay=0'
 comix.to#$#prevent-window-open /./ 2000 iframe
-pdftoshokan.com#$#prevent-window-open ok_ 1000 iframe
+pdftoshokan.com#$#prevent-window-open ok_ 1000 iframe; abort-on-property-write doAdRedirect; prevent-window-open !/^(https:\\/\\/pdftoshokan\\.com)?\\/(manga\\/|decode\\.php)/;
+pdftoshokan.com#$#replace-outbound-value atob /^https?:\\/\\/[^\\/]+\\/v1\\/link\\.php\\?.*idzone=.*$/ '#'
+pdftoshokan.com#$#replace-argument window.open 1 /^_blank$/ _self
 mlsbd.co,streamvid.*,voyeur-house.org,reallifecams.net#$#prevent-window-open /.*/ 1000 iframe
 kawaii-anime.com#$#prevent-window-open _blank 1000 iframe
 /rollbar.min.css$script,domain=streamingnow.mov
@@ -1848,6 +1850,9 @@ cinemove.cc#$#override-property-read __cmAdOpening true
 cinemove.cc#$#replace-fetch-response '"enabled":true' '"enabled":false' iptvInterstitial
 movy.sx#$#prevent-element-src-loading script /^(https:)?\/\/[a-z]{2}\\.[a-z]+\\.com\/[A-Za-z0-9_-]{10,16}\/[A-Za-z0-9]+$/
 vidsrc.*,vidy.*#$#prevent-element-src-loading script /^https:\/\/[a-z0-9]+\\.[a-z0-9]+\\.[a-z]+\/k[A-Za-z0-9]{8,}\/[A-Za-z]{5}$/
+filthyhero.com##base[target="_blank"] {remove:true;}
+filthyhero.com#$#override-property-read opener null
+||filthyhero.com/bounce-test.js^$script,domain=filthyhero.com
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
@@ -2242,7 +2247,7 @@ www.facebook.com,web.facebook.com#$#hide-if-shadow-contains '/^[^A-Za-z0-9]*(?:S
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(., "Ad") or contains(., "Patrocinado") or contains(., "Patrocinat") or contains(., "Bersponsor") or contains(., "Commandité") or contains(., "Ditaja") or contains(., "Gesponsert") or contains(., "Gesponsord") or contains(., "Sponsras") or contains(., "Publicidad") or contains(., "Sponsoreret") or contains(., "Sponsoreeritud") or contains(., "Sponset") or contains(., "Sponsored") or contains(., "Sponsorisé") or contains(., "Sponsorizat") or contains(., "Sponsorizzato") or contains(., "Anzeige") or contains(., "Sponsorlu") or contains(., "Sponsorowane") or contains(., "Реклама") or contains(., "ממומן") or contains(., "مُموَّلة") or contains(., "دارای پشتیبانی مالی") or contains(., "سپانسرڈ") or contains(., "مُموَّل") or contains(., "प्रায়োজিত") or contains(., "সৌজন্যে") or contains(., "ได้รับการสนับสนุน") or contains(., "内容") or contains(., "贊助") or contains(., "Sponsoroitu") or contains(., "May Sponsor") or contains(., "Được tài trợ") or contains(., "ಪ್ರಾಯೋಜಿತ") or contains(., "स्पॉन्सर्ड") or contains(., "広告") or contains(., "赞助内容") or contains(., "Рэклама") or contains(., "Sponzorirano") or contains(., "La maalgeliyey") or contains(., "Geborg") or contains(., "Reklam") or contains(., "Plaćeni oglas") or contains(., "광고") or contains(., "Χορηγούμενη") or contains(., "স্পনসর্ড") or contains(., "প্রায়োজিত") or contains(., "സ്പോൺസർ ചെയ്തത്") or contains(., "സ്പോൺസർചെയ്തത്") or contains(., "ਸਰਪ੍ਰਸਤੀ ਪ੍ਰาਪਤ") or contains(., "ਸਰਪ੍ਰਸਤੀਪ੍ਰਾਪਤ") or contains(., "මුදල් ගෙවා ප්රචාරය කරන ลදි") or contains(., "විළ]") or contains(., "Спонсорирано") or contains(., "Спонзорисано") or contains(., "ܒܘܕܩܐ ܡܡܘܘܢܐ") or contains(., "Reklamo") or contains(., "Hirdetés") or contains(., "Sponsitud") or contains(., "Sponzorováno") or contains(., "Apmaksāta reklāma") or contains(., "Urraithe") or contains(., "Kostað")][not(ancestor::div[@role="listitem"])]/ancestor::a[@href][@role="link"][@tabindex][1]/ancestor::div[2]/../parent::div/span' '//div[@role="main"]'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 ! sb
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"basaltWren")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"copperSedge")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 ! sp
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; race stop;
 ! det
@@ -2943,7 +2948,7 @@ samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/follow
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 ! #RM-9
 ! sl, sc
-instacart.*#$#hide-if-matches-xpath './/ic-ms-tag/ancestor::li[1]';
+instacart.*#$#hide-if-matches-xpath './/ic-cn-tag/ancestor::li[1]';
 ! ta
 instacart.*##div[id][class]:has(> span[aria-hidden="true"]:first-child):has(> section > span > a > picture > img[src*="display.instacart.com"][alt*="Sponsored"])
 ! tc
@@ -3342,7 +3347,7 @@ fiverr.com#?#div.slide:has(span[data-track-tag^="typography"]:-abp-contains(/Anz
 mundi.com.br#$#hide-if-contains-visible-text /Anúncio/ 'div[role][tabindex^="0"]' 'div[class]>div'
 ! #RM-112
 ! SP
-sameday.costco.*#$#race start; hide-if-matches-xpath './/ic-ms-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-ms-tag]/ancestor::li[1]'; race stop;
+sameday.costco.*#$#race start; hide-if-matches-xpath './/ic-ms-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-ms-tag]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-cn-tag]/ancestor::li[1]'; race stop;
 ! ca
 sameday.costco.*##div[id]:has(> div[id] > a img[src*="display.instacart.com"]):has(> div[id] li img[src*="display.instacart.com"])
 sameday.costco.*##div[id]:has(> div > div > div > a img[src*="display.instacart.com"]):has(> div > div > div > a h2)
@@ -3400,7 +3405,7 @@ kroger.com##.AutoGrid-cell:has(> .CuratedCarousel > [data-testid="carousel-featu
 kroger.com#$#hide-if-matches-xpath './/div[@class="flex"]/span[contains(text(),"Sponsored")]/ancestor::div[@class="ProductCard-tags"]/../parent::li'
 ! cb
 kroger.com##.kac-product-grid-cell:has(.kac-product-badge--sponsored)
-! #RM-232
+! #RM-188
 ! sp
 dribbble.com#$#hide-if-contains /Promoted/ 'article' 'article drb-tooltip > div'
 dribbble.com##article:has([data-track-cta="Learn more about Promoted Services"])
