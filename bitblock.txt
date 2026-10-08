@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dCGg7Kx/rnmBlMA6B7dg4A
-! Version: 202610081303
+! Checksum: f9O+3tNrD32t6BeJQ+nneA
+! Version: 202610081313
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 08 Oct 2026 13:03 UTC
+! Last modified: 08 Oct 2026 13:13 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3504,7 +3504,7 @@ epravda.com.ua,pravda.com.ua,sportkp.ru,sud.ua,uaprom.info#?#p:-abp-has(> strong
 growhow.in.ua#?#p:-abp-has(> strong > span a[href^="https://t.me/"])
 kanalukraina.tv#?#p:-abp-has(> strong ~ a[href*="tg://resolve"])
 bst.bratsk.ru,prm.ua#?#p:-abp-has(> strong ~ a[href^="https://t.me/"])
-mobile-review.com#?#p:-abp-has(> strong:-abp-contains(/Мы в социальных сетях|Поделиться/))
+mobile-review.com,snookerist.ru#?#p:-abp-has(> strong:-abp-contains(/Мы в социальных сетях|Поделиться/))
 sud.ua#?#p:-abp-has(span a[href*="://t"][href*=".me/"])
 acmc.ua#?#p[style="text-align: justify;"]:-abp-has(> span ~ span)
 winreviewer.com##p[style="text-align:center; padding 30px; background-color: #1A1A1A; color: #FFFFFF"]
@@ -7650,6 +7650,7 @@ vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data
 minsknews.by##.widget_wp_ad_widget
 vk.com,vk.ru##[class*="onversationsBar"]
 vk.com,vk.ru##[data-testid="feed_main_container"] > div > section
+snookerist.ru##div[style*="max-height:"][style*="min-height:"]
 epscape.*##+js(prevent-setTimeout, shouldShowPrompt)
 epscape.*##.fixed.backdrop-blur-sm
 epscape.*##.otk-slot
