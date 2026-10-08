@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CELliTzxvIHC9Sz5d4kagw
-! Version: 202610081123
+! Checksum: miKRzfFDnpjX/CHhrrR9yg
+! Version: 202610081132
 ! Title: EasyList without rules for adult sites
-! Last modified: 08 Oct 2026 11:23 UTC
+! Last modified: 08 Oct 2026 11:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -49042,6 +49042,7 @@ browsershots.org#@#.advert_area
 ||shbihdhotyxzj.space^
 ||shbnnjesjisqi.site^
 ||shcaolauiimik.website^
+||shchcyrbeuhgx.site^
 ||shcnohorrazqn.store^
 ||she-want-fuck.com^
 ||shealapish.com^
@@ -68721,6 +68722,7 @@ macys.com###sponsored-items-container
 cnn.com###sponsored-outbrain-1
 golfgalaxy.com###sponsored-product
 hiphopkit.com###sponsored-sidebar
+staples.com###sponsored-sku
 philstar.com###sponsored_posts
 techmeme.com###sponsorposts
 fastseduction.com,fieggen.com,geekwire.com,landreport.com,semiengineering.com,vuejs.org,whenitdrops.com###sponsors
@@ -74794,6 +74796,7 @@ alibaba.com##div[data-search-floor^="area=wending&"]
 costco.com##div[data-source="sponsored"]
 aliexpress.com,aliexpress.us##div[data-spm="seoads"]
 alibaba.com##div[data-spm="wending-bottom"]
+stockx.com##div[data-sponsored-listing="true"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
 ecosia.org##div[data-test-id="mainline-result-productAds"]
 debenhams.com##div[data-test-id^="sponsored-product-card"]
@@ -75619,6 +75622,7 @@ doordash.com##div:has(> a[data-anchor-id="SponsoredStoreCard"])
 regex101.com##div:has(> div > a > div[style*="/static/assets/sponsors/"])
 tripadvisor.*##div:has(> div > div[class="ui_column ovNFo is-3"])
 openalternative.co##div:has(> div > h2 > a[href="/advertise"])
+staples.com##div:has(> div[class*="configurator-container__"] .topsort-video-configurator__monetizationContainer)
 tripadvisor.*##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 news12.com##div[alignitems="normal"]:has(> div[sizes*="object"])
