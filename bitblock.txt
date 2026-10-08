@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ldWw/znJqzXD2QW0oS5JEg
-! Version: 202610080031
+! Checksum: NsVSv8u1aJKKmOxJP7lFCA
+! Version: 202610080041
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 08 Oct 2026 00:31 UTC
+! Last modified: 08 Oct 2026 00:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7644,6 +7644,8 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
 tabor.ru##+js(set-cookie-reload, cookie_accepted, 1)
+vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
+vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
 minsknews.by##.widget_wp_ad_widget
 vk.com,vk.ru##[class*="onversationsBar"]
 vk.com,vk.ru##[data-testid="feed_main_container"] > div > section
