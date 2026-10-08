@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: x3XK9kuMSPxWVhPhtMCJ4g
-! Version: 202610081012
+! Checksum: GMg1ZTC/xkYFe0Mw8bTDCw
+! Version: 202610081022
 ! Title: ABP filters
-! Last modified: 08 Oct 2026 10:12 UTC
+! Last modified: 08 Oct 2026 10:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -3407,6 +3407,7 @@ chatgpt.com#$#hide-if-matches-xpath 'id("thread")//h3[normalize-space(text())="S
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//*[contains(concat(" ",normalize-space(@class)," ")," bg-token-bg-tertiary ") and contains(concat(" ",normalize-space(@class)," ")," rounded-full ") and normalize-space(text())="Ad"]/ancestor::div[contains(concat(" ",normalize-space(@class)," ")," border-t ")][1]'
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Ad")]'
 chatgpt.com#$#hide-if-matches-xpath 'id("thread")//div[starts-with(@class,"border-") and not(contains(@class,"sidebar")) and contains(.,"Sponsored")]'
+chatgpt.com#$#replace-argument JSON.parse 0 /"type":"ads","visibility"/ '"type":"x_ads","visibility"'
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2994
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
