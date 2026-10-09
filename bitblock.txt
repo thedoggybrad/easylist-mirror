@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6R6HVG4O2hXc6yW30oNsPw
-! Version: 202610091432
+! Checksum: SF1uyhkYXRG/KiixarGp5Q
+! Version: 202610091442
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Oct 2026 14:32 UTC
+! Last modified: 09 Oct 2026 14:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1519,6 +1519,7 @@ agro-business.com.ua##.itemSocialBlock
 kgd.ru##.itemView > .itemAuthorDetails ~ div:not([class])
 kyiv-independent.com,wallnews.org##.itemfull_sharetop
 ivi.ru,ivi.tv##.iviFooter__community
+www.ixbt.com##.ixc-hd-social
 blog.domclick.ru##.jMulq
 goal-time.net##.jbzoo-likes
 vgolos.ua##.join
@@ -2381,8 +2382,6 @@ belta.by,vesti.az##.social_icons
 pravda.com.ua##.social_item
 www.film.ru##.social_likes > strong
 jut-su.skin,jut.su,jutsu202.ru,ufatime.ru##.social_links
-www.ixbt.com##.social_links.menu__right > li > :not(#cse-search-box)
-www.ixbt.com##.social_links:not(.menu__right)
 irecommend.ru##.social_links_table
 news.sportbox.ru##.social_main
 compromat.group,glavcom.ua,promin.cv.ua,prostotech.com,vesti-ua.net,x-true.info##.social_menu
@@ -6655,7 +6654,7 @@ it-actual.ru##article > footer > div[class]:not(.post-ratings)
 anitube.in.ua##article > noindex
 www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.com/"])
 rambler.ru#?#article div:-abp-has(> div > [id^="rcmw-container-"])
-ixbt.com#?#article footer > div:-abp-has(> [class] a[href*="google.com/preferences/source?"][class][target="_blank"])
+ixbt.com#?#article p:-abp-has(> span > a[href*="google.com/preferences/source?"][class][target="_blank"])
 sports.ru#?#article.piwikTrackContent:-abp-has(a[href^="https://trbna.co/"])
 sports.ru#?#article.piwikTrackContent:-abp-has(span:-abp-contains(Спецпроект))
 pikabu.ru##article:not([data-author-name="PikabuGames"]) ~ article[data-author-name="PikabuGames"]
