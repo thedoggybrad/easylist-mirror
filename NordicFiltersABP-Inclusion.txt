@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zoGPOxPOLUlQjsu9GM/99g
-! Version: 202610091552
+! Checksum: +2RaFJ6u5L2KjSeKrJhy0Q
+! Version: 202610091604
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Oct 2026 15:52 UTC
+! Last modified: 09 Oct 2026 16:04 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -44111,6 +44111,7 @@ browsershots.org#@#.advert_area
 ||kq4uzt8nx9ewll6olc9q6yp.rest^
 ||kqauptdrdiyyp.space^
 ||kqawipdwetqqd.space^
+||kqbdwsglqapzu.com^
 ||kqbgqbylklejl.online^
 ||kqbxjkzsyuygg.site^
 ||kqcktrxmhvgu.com^
@@ -84175,6 +84176,7 @@ petmd.com##aside[aria-label="advertisement"]
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com##bam-inline-promotion
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com##bam-inline-promotion-block
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com##bam-promotion-list
+openalternative.co##body > div:has(> img):has(a[target="_blank"])
 nbcsports.com##bsp-reverse-scroll-ad
 dustinabbott.net##center > a > img
 sailingmagazine.net##center > font
@@ -84201,6 +84203,10 @@ forward.com##div.sticky-container:first-child
 newegg.com##div.swiper-slide[data-sponsored-catalyst]
 investing.com##div.text-\[\#5b616e\]
 inverse.com##div.zz
+openalternative.co##div:has(> a[target="_blank"][rel="noopener"]):has(button):not(:has(h1, h2, h3))
+openalternative.co##div:has(> div > h2 > a[href="/advertise"])
+openalternative.co##div:has(> p + a[target="_blank"]:last-child)
+openalternative.co##div:has(> span[class*="group/button"]):has(button)
 presearch.com##div[\:class*="AdClass"]
 boxing-social.com##div[ad-slot]
 liverpoolway.co.uk##div[align="center"] > a[href]
