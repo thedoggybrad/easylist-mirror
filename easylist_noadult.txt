@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RLaGOm5boTv5B6RvgLASMw
-! Version: 202610091622
+! Checksum: aPd9pLD8TNo0XWfEJ1hqXw
+! Version: 202610091632
 ! Title: EasyList without rules for adult sites
-! Last modified: 09 Oct 2026 16:22 UTC
+! Last modified: 09 Oct 2026 16:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -74363,6 +74363,7 @@ target.com##[data-test="featuredProducts"]
 target.com##[data-test="recommended_products_placement_adaptpdp_sponsored_items"]
 target.com##[data-test="sponsored-text"]
 engadget.com##[data-test="top-ad"]
+producthunt.com##[data-test^="homepage-section-"] > section:not([class])
 costco.com##[data-testid="AdSet-all-pdp_criteo_-_sponsored_products"]
 costco.com##[data-testid="AdSet-all-sponsored_products_-_search_commerce"]
 reuters.com##[data-testid="CnxPlayer"]
@@ -75976,6 +75977,7 @@ cjleo.com#?#.alt-widget-title:has-text(advertisement)
 majorgeeks.com##div > [style]:has([style]:has([href*="&utm"]))
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div > div:has([data-testid="banner-spr-label"])
 inverse.com##div > p + div:has(amp-ad)
+producthunt.com##div.cursor-pointer.overflow-hidden:has(> img.object-contain)
 downornot.net##div.grid > div.flex.flex-col:has([href*="aff_c?"])
 openalternative.co##div.group:has(> a[target="_blank"])
 golfgalaxy.com##div.hmf-position-relative:has(.sponsored)
