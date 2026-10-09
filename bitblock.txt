@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: boCibNER+2xVbU3FMoQdsw
-! Version: 202610091732
+! Checksum: RyDQRjrngUnqyt7ithf2zA
+! Version: 202610091742
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Oct 2026 17:32 UTC
+! Last modified: 09 Oct 2026 17:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1942,6 +1942,7 @@ lenta.news,lenta.ru##.redline
 dnl.com.ua#?#.region-before-comments > div:-abp-has(> div > .ya-share2)
 knijky.ru##.region-content > #block-system-main ~ .block
 rusvesna.su##.region-extra2 > .block > div > table
+anti-malware.ru##.region-footer .social
 rusvesna.su##.region-footer-message > .block > table
 rt.ru##.region-footer-social
 rz.com.ua##.region-social-top
@@ -6351,6 +6352,7 @@ fightnews.info##.ui-widget-overlay
 3dnews.ru##.uni_subscribtion_form
 coub.com##.unlogged-bottom-line
 backingtrackx.com##.up-top1
+anti-malware.ru##.us-hform
 sfr.gov.ru##.user-data-processing-wrapper
 aniliberty.top##.v-carousel
 aniliberty.top##.v-carousel + div.d-flex
@@ -6991,6 +6993,7 @@ relizua.com##noindex > center > a[href][target="_blank"]
 freetp.org,freetp.ru##noindex > div[style^="background: #f5f5f5"]
 freetp.org,freetp.ru##noindex > div[style^="background: #f5f5f5"] ~ a
 online-kassa.ru##ok-callback
+anti-malware.ru##p > [href="/news/feed"]
 7info.ru#?#p:-abp-has(> a[href^="https://news.google.com/publications/"])
 prsport.net#?#p:-abp-has(> em > strong > a[href^="https://news.google.com/publications/"])
 podillyanews.com#?#p:-abp-has(> i > a[href^="https://news.google.com/publications/"])
@@ -7647,6 +7650,7 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! которые невозможно применить в uBOL до выхода новой версии
 ! ----
 tabor.ru##+js(set-cookie-reload, cookie_accepted, 1)
+anti-malware.ru##.block-footer-message
 vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
 vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
 minsknews.by##.widget_wp_ad_widget
