@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: K9KUjvYkM6GAkLaeu3dKog
-! Version: 202610101003
+! Checksum: E0D3WTMoEHLeFyaRia5Shg
+! Version: 202610101012
 ! Title: EasyList without rules for adult sites
-! Last modified: 10 Oct 2026 10:03 UTC
+! Last modified: 10 Oct 2026 10:12 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -23593,6 +23593,7 @@ browsershots.org#@#.advert_area
 ||contributorshaveangry.com^
 ||contriveddisparage.com^
 ||controlslaverystuffing.com^
+||conuseeplannersludder.cfd^
 ||convenienceshooting.com^
 ||conveniencesloot.com^
 ||convenientlypoverty.com^
@@ -41456,6 +41457,7 @@ browsershots.org#@#.advert_area
 ||nrvqlwhrwgzfu.site^
 ||nrwunwdxsvcct.online^
 ||nryfifdmpeotb.site^
+||nrzufrlalmvak.site^
 ||nsbihtjcnyujz.online^
 ||nscgizlofgvnr.online^
 ||nsdsvc.com^
@@ -75881,6 +75883,7 @@ bleepingcomputer.com##.articleBody > div:has(a[href^="https://www.wiz.io/"])
 hackernoon.com##.articles-wrapper > div:not([class]):has(a[href^="https://ad.doubleclick.net/"])
 blitz.gg##.aside-content-column:has(.display-ad)
 bestbuy.com##.atwa-ninja-carousel:has(div[data-testid="sponsored-sbb"])
+temu.com##.autoFitGoodsList > div:has([role="text"][aria-label="AD"])
 bjs.com##.banner-cta-wrap:has([src="//retailmedia-static.criteo.com/"])
 bjs.com##.banner-cta-wrap:has(img[src*="criteo.com"])
 outsports.com##.bg-gray-100:has(.adb-os-lb-incontent)
@@ -76111,6 +76114,7 @@ noon.com##[data-qa="plp-grid"] [data-qa="plp-product-box"]:has(svg[width="20"] >
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 noon.com##[data-qa="widget_recommendedProducts"]:has(svg[width="20"] > path[d])
 wolt.com##[data-test-id="MainDiscoveryContent"] li[draggable]:has(a[aria-label*="Sponsored"])
+producthunt.com##[data-test="launch"] > section:has(span.rounded-b-xl.bg-brand-500)
 stockx.com##[data-testid="banner-collage"] .chakra-aspect-ratio:has(a[title*="Promo"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([class*="AIGCAdShared"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-heading*="Sponsored"])
@@ -76280,6 +76284,7 @@ walgreens.com##li.owned-brands:has(figure.sponsored)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
 kohls.com##li.products_grid:has(p.piq-sponsored)
 streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
+temu.com##li.splide__slide:has([role="text"][aria-label="AD"])
 cars.com##li:has(> fuse-card[data-listing-id] .spr)
 aboutyou.de##li:has([data-testid="spons"])
 classcentral.com##li:has(iframe[src^="/catalog-iframe?"])
