@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HDYPpBWbJZkyAjOKqkV1Nw
-! Version: 202610100252
+! Checksum: wKiNn7IvkWifCppn89lXpg
+! Version: 202610100302
 ! Title: EasyList China
-! Last modified: 10 Oct 2026 02:52 UTC
+! Last modified: 10 Oct 2026 03:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10819,7 +10819,6 @@ meijutt.*/js/pcjs/
 ||sphdigital.com.sg/_plat/$domain=zaobao.com.sg
 ||douyucdn.cn/adxdsp/
 ||711dm.com/color.
-||wnacg.com/game/
 ||bad.news/scripts?
 ||bad.news/images/ad/
 ||gliacloud.com^$domain=thisiscm.com|twword.com
@@ -18441,6 +18440,8 @@ webkaka.com##td[id$="_SPONSOR"]
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
 !#wnacg.com
+##a[href^="/link-index-aid-"] > img[src*=".wnimg2.cfd"]
+||wnacg.com/game/
 ||wnimg2.cfd/data/t/*.gif
 wnacg.com#@#.pcgg
 wnacg.com#@##adsbox
