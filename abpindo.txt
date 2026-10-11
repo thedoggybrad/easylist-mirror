@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mAzxsSwxVBtvbAw4PzWQig
-! Version: 202610111422
+! Checksum: uqZ4KDDlebqUIrKzXkKc3A
+! Version: 202610111432
 ! Title: ABPindo
-! Last modified: 11 Oct 2026 14:22 UTC
+! Last modified: 11 Oct 2026 14:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 11 Oct 2026 11:27 UTC
+! Last modified: 11 Oct 2026 14:21 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -126,6 +126,7 @@
 ! *** abpindo:src/advert/thirdparty.txt ***
 ||access.kaiko.cam^$third-party
 ||archivehub.com.ng^$third-party
+||atgroup-link.id^$third-party
 ||bandarxl.bio^$third-party
 ||bergurukecina.fun^$third-party
 ||bisnis4d.bio^$third-party
@@ -137,10 +138,12 @@
 ||gaza-88.com^$third-party
 ||goid.space^$third-party
 ||goratu.site^$third-party
+||huntfishbrag.store^$third-party
 ||injd.site^$third-party
 ||inshorturl.com^$third-party
 ||klik.zeus.fun^$third-party
 ||klik4.me^$third-party
+||layarotaku.id^$third-party
 ||moneyfree.co^$third-party
 ||nf.diamberproetid.com^$third-party
 ||orangarab.fun^$third-party
@@ -157,7 +160,7 @@
 ||statics1.tceru134gsur.ru^$third-party
 ||sv.sleeklyyallaer.com^$third-party
 ||tambakbet.vip^$third-party
-||tantegacor88.link^-party
+||tantegacor88.link^$third-party
 ||terbit21.gdn^$third-party
 ||track.aptitudemedia.co^$popup,third-party
 ||track.zerofriend.com^$popup,third-party
@@ -1850,6 +1853,7 @@ inilah.com##.mui-style-1q8992d.MuiList-padding.MuiList-root > div.mui-style-0.Mu
 inilah.com##.mui-style-za8aav
 inibaru.id##.mx-auto.h-\[250px\].w-\[300px\].dark\:bg-ib-dark-800.bg-slate-100
 tempo.co##.mx-auto.lg\:w-\[728px\]
+sumselindependen.com,timesindonesia.co.id##.my-4.overflow-hidden:has(.relative.z-10.w-full.h-full.flex.items-center.justify-center)
 kompas.com##.native-wrap
 dream.co.id##.nativescrollingKLYsticky-inner-video-iframe
 indomerdeka.com##.navbar-main-ads
@@ -2146,6 +2150,7 @@ awsubs.id,bioskop45.com,drakorindo.tv,idbioskop.com,nonton33.net##a[href^="https
 komikindo.co##a[href^="https://shope.ee/"]
 thebalitimes.com##a[href^="https://www.amazon.com/s"]
 otakudesu.pro##a[rel^="nofollow noopener"] > img[src$=".gif"]
+reborn.layarwibu.com##a[rel~="sponsored"]
 republika.co.id##a[style="width: 100%; height: 100%; display: block; position: fixed; z-index: 1"]
 gudangmovies21.chat,juragan.film,kawanfilm21.co##a[target*="blank"]:has(> img)
 tempo.co##article .w-\[300px\].overflow-hidden
@@ -10029,7 +10034,6 @@ kingbokep.media##video[src*=".webm"]:not(div[class*="video"] > img)
 ||blindbetpoker.com^$third-party
 ||bojo.rajatravel.online^$third-party
 ||bokep.work/*.gif
-||bolakami-banner-tracker.bolakami.workers.dev^$third-party
 ||breedsmuteexams.com^$third-party
 ||bursajudibola.com^$third-party
 ||caramenangtogel.com^$third-party
@@ -10163,7 +10167,6 @@ kingbokep.media##video[src*=".webm"]:not(div[class*="video"] > img)
 ||promosi.mwn7.com^$third-party
 ||promosi.snsa7.com^$third-party
 ||promosi.wfgg7.com^$third-party
-||pub-ee3a5bccda2d49c7bbc62bd60d648707.r2.dev^$third-party
 ||pusatjudibola.com^$third-party
 ||pvpmetavip.com^$third-party
 ||rajapoker88.com^$third-party
