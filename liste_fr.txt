@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Z+wAK/qzaWKkYQmW6xn9tQ
-! Version: 202610112132
+! Checksum: IwFLjC+5MqQzryFeorPYuA
+! Version: 202610112142
 ! Title: Liste FR
-! Last modified: 11 Oct 2026 21:32 UTC
+! Last modified: 11 Oct 2026 21:42 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -13854,6 +13854,7 @@ lesnumeriques.com#?#.l-section:has(.tops__items)
 lesnumeriques.com#?#.l-section:has(a[href*="/contenus-partenaires"])
 lesnumeriques.com#?#.m-grid__item:has(.c-icon--star)
 lessentiel.lu#?#aside:has(div + span:has-text(Publicité))
+futura-sciences.com##li[class*="article-"]:has(.tag-sponsorise)
 farmaline.be,redcare-apotheke.ch,redcare-pharmacie.fr##li[data-qa-id="result-list-entry"]:has(a[href^="https://api.sae.systems/"])
 libhunt.com#?#.boxed:has(.tag:has-text(Sponsored))
 libhunt.com#?#.repo-component:has(label:has-text(sponsored))
