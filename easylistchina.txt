@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZcmE6lZv4NevdcT75CKE0w
-! Version: 202610110752
+! Checksum: 5SIGMgp4r/bqPAcrMhapkw
+! Version: 202610110803
 ! Title: EasyList China
-! Last modified: 11 Oct 2026 07:52 UTC
+! Last modified: 11 Oct 2026 08:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -10828,6 +10828,7 @@ meijutt.*/js/pcjs/
 ||jinbaodm.com/public/system
 !------------------------Specific element hiding rules------------------------!
 xc6b.com##.cHeadImg
+xfastest.com###xfastestWide385
 dzdu.com###mv_box
 redircdn.com##.al
 gh-proxy.com#?#.w-full:-abp-has(>a[rel$="sponsored"])
@@ -11444,6 +11445,8 @@ chinanews.com,chinanews.com.cn###dingtong
 3boys2girls.com###displayadbu3
 3boys2girls.com###div3_display3
 findprice.com.tw###divBestBuy
+findprice.com.tw##.fsa__promo
+findprice.com.tw##.divAD2
 splaybow.com###divPrevious:last-child
 rfidworld.com.cn###divTopContainer
 nmgnews.com.cn###div_ad4
