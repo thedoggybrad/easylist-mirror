@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 51IvteLWSvOaVGX1LOggOQ
-! Version: 202610120932
+! Checksum: aK27oTZ2xZDVl0UyXAIHbA
+! Version: 202610120942
 ! Title: ABP filters
-! Last modified: 12 Oct 2026 09:32 UTC
+! Last modified: 12 Oct 2026 09:42 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -3362,8 +3362,8 @@ olx.pl,olx.ro,olx.bg,olx.pt,olx.ua,olx.kz,olx.uz#$#json-prune 'listing.listing'
 otomoto.*#?#[data-testid="financing-widget-simulator-entrypoint"]:has(span:has-text(reklama))
 otomoto.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-property-read Baxter.targeting.ad_title; override-property-read Baxter.targeting emptyObj;
 ! #RM-117
-pinterest.*#?#div[data-grid-item]:has(div[title]:-abp-contains(/^(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)$/))
-pinterest.com#$#json-prune 'resource_response.data.[-].ad_data resource_response.data.results.[-].ad_data'
+pinterest.*#?#div[data-grid-item]:has(a:has-text(/(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)$/))
+pinterest.*#$#json-prune 'resource_response.data.[-].ad_data resource_response.data.results.[-].ad_data initialReduxState.resources.UserHomefeedResource.{}.data.[-].ad_data'
 ! #RM-167
 ! HP&PP
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
@@ -3503,9 +3503,6 @@ mail.ru#@#.tgb-wrapper
 mail.ru#@#[href^="https://dzen.ru"]
 @@://mail.ru/$csp=connect-src 'self' *.imgsmail.ru *.mail.ru ok.ru vk.com data: blob:
 mail.ru#@#[href*="https://dzen.ru"]
-! pinterest on hover issue
-pinterest.com#@#div[data-grid-item]:has(a[rel="nofollow"][href^="http"])
-pinterest.com#@#div[data-grid-item]:has(div[data-test-id="pinrep-video"]):has(a[rel="nofollow"][href^="http"])
 ! *** abp-filters-anti-cv:distribution/abp-filters-partners.txt ***
 ! Filters to be used by distribution partners
 ! #CV-782
