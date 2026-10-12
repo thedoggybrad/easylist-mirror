@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NUskAJE5XgsfSS2XQureLg
-! Version: 202610121112
+! Checksum: aW/JUeR/KyR6mxVm1hGU7A
+! Version: 202610121122
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Oct 2026 11:12 UTC
+! Last modified: 12 Oct 2026 11:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -889,7 +889,6 @@ gazeta.press,gazeta.ru##.b_header-social
 actualcomment.ru##.b_top__sitename_socnet
 reporter.ua##.banner > a[href^="https://t.me/"]
 vgoru.org##.banner--telegram
-ostro.org##.banner-block a[href^="https://t.me/"]
 unian.info,unian.net,unian.ua##.banner-fb
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.banner-lip-tg
 dorama.land,doramaland.plus##.banner-march-no-rf
@@ -5182,7 +5181,6 @@ radiosputnik.ru#?#.article__text:-abp-has(> em > a[href*="t.me/"])
 www.ogorod.ru##.article_bottom_divider
 kinoafisha.info##.article_footer_more > .article_channels
 simhost.org##.article_subscrblock
-ostro.org#?#.articles > .action:-abp-has(> [href*="/donate"])
 kursk-izvestia.ru##.articles > article ~ noindex ~ p > strong
 shazoo.ru##.aside > .grid
 sports.ru#?#.aside-news-list__item:-abp-has(a[href^="https://trbna.co/"])
@@ -5925,6 +5923,7 @@ probiv.in,probiv.one##.p-body-inner > [class*="notice"]
 cnc3018.ru#?#.p-body-sidebar > .block:-abp-has(> .block-container > .block-body > iframe[src*="://yoomoney.ru"])
 cabinet.tax.gov.ua##.p-toast-top-right [role="alert"]
 online.metro-cc.ru##.padding-from-footer.overflow-hidden:empty
+ostro.org#?#.page-content > .action:-abp-has(> a[href="/donate"])
 hightech.fm##.page-content__news-links
 ficbook.net##.page-footer-apps
 kp.kg,kp.kz,kp.ru,md.kp.media##.page-footer_subscribe
@@ -5938,6 +5937,7 @@ bus.vse42.ru##.panel.news-block
 mult-fan.tv##.panel_vipka
 overclockers.ua##.patreon
 bykvu.com##.patreon-box
+ostro.org##.payment-buttons-header
 todotech20.com##.penci-wrap-gprd-law
 home.bank,homecredit.ru,viva64.com##.personal-data-confirm
 sberbank.ru##.personal-data-warning
