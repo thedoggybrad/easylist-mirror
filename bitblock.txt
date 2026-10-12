@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lzim+6VDr7CdcgH+WU4r1Q
-! Version: 202610121942
+! Checksum: Fgu5hEqlmemYt6ubUmHd0Q
+! Version: 202610121952
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Oct 2026 19:42 UTC
+! Last modified: 12 Oct 2026 19:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7650,37 +7650,12 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! *** ruadlist:bitblock/magic.txt ***
 ! Эта секция содержит оперативные исправления
 ! которые невозможно применить в uBOL до выхода новой версии
-! ----
-tabor.ru##+js(set-cookie-reload, cookie_accepted, 1)
-anti-malware.ru##.block-footer-message
-kommersant.ru##.doc-company-news [class] [class] [class] [class] [class] [class] [class]
-kommersant.ru##.main > aside[aria-label]
-kommersant.ru##.top-banners
-vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header"] > div:nth-child(2) > div + div > div span[data-role])
-vk.com,vk.ru#?#.vkitInternalGroupCard > [role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(vk.cc/))
-minsknews.by##.widget_wp_ad_widget
-vk.com,vk.ru##[class*="onversationsBar"]
-vk.com,vk.ru##[data-testid="feed_main_container"] > div > section
-snookerist.ru##div[style*="max-height:"][style*="min-height:"]
-epscape.*##+js(prevent-setTimeout, shouldShowPrompt)
-epscape.*##.fixed.backdrop-blur-sm
-epscape.*##.otk-slot
-wildberries.ru,wildberries.*##.bnr
-wildberries.ru,wildberries.*##div[class*="-bnrs"]
 !
-! запросы
-.link/$third-party,domain=gorodyshka.link|perepolokha.link|player.temptcdn.com|tazaromikaz.link
-||geobasket.ru/*/crm-bnrs/
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=ani5.top|ani7.top|jut-su.online
-||imgkcdn.com^$third-party
-||myagkotela.link^$third-party
-||pepyakanew.link^$third-party
-||pizhmagod.org^$third-party
-||veselchaga.link^$third-party
-||viieqcjw.com^$third-party
-||yandex.ru./$third-party
-||yankimanki.org^$third-party
-||yaropolka.link^$third-party
+! косметические правила
+esports.ru##aside a[target="_blank"][rel="noindex nofollow"]
+!
+! сетевые правила
+||sparksvale.com^$popup
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
@@ -19813,7 +19788,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.go-to-top-button
 ##.go-to-top-desktop
 ##.go-to-top-page
-##.go-top
 ##.go-top-button
 ##.go-top-footer-btn
 ##.go-top-wrapper
