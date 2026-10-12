@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2iKJgGXmI3ISoNIux10zag
-! Version: 202610120622
+! Checksum: M2ivDQodsATW/tFN2Sz5RQ
+! Version: 202610120632
 ! Title: EasyList China
-! Last modified: 12 Oct 2026 06:22 UTC
+! Last modified: 12 Oct 2026 06:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -18422,6 +18422,8 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 !#u
 !#vikacg.com
+vikacg.com##div[role="link"] > img[src*="/assets/moonlight/"]
+vikacg.com##a[href^="http"] > img[src*="/assets/moonlight/"]
 vikacg.com,vikacg.cc##a.w-full[data-ad-index]
 !#webkaka.com
 webkaka.com##.pNavigateAd
@@ -18434,6 +18436,7 @@ webkaka.com##td[id$="_SPONSOR"]
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
 !#wnacg.com
+.in^$domain=wnacg.com|wn001.cfd|wn002.cfd
 ##a[href^="/link-index-aid-"] > img[src*=".wnimg2.cfd"]
 ||wnacg.com/game/
 ||wnimg2.cfd/data/t/*.gif
