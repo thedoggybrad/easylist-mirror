@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610131011
+! Version: 202610131007
 ! Title: EasyList
-! Last modified: 13 Oct 2026 10:11 UTC
+! Last modified: 13 Oct 2026 10:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 53189bfd699e3c843ddae2607e3d6fbbc00720e0
+! Commit: a8fc39291b9333e97861fd8c43129636887d2a33
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -19665,7 +19665,6 @@ browsershots.org#@#.advert_area
 ||azfpkrxjbsduf.space^
 ||azgftoymwpszx.online^
 ||azghddpyjgdss.website^
-||azhcqodrtqmri.space^
 ||azhhrdxzehqez.site^
 ||azhobfzcwtxvj.website^
 ||aziqhpijhudvv.online^
@@ -78807,6 +78806,8 @@ amazon.*###nav-swmslot
 amazon.*###sc-rec-bottom
 amazon.*###sc-rec-right
 amazon.*###similarities_feature_div:has(span.sponsored_label_tap_space)
+amazon.*###sponsoredProducts2_feature_div
+amazon.*###sponsoredProducts_feature_div
 amazon.*##.AdHolder
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
@@ -78822,7 +78823,6 @@ amazon.*##.s-result-item:has([data-ad-feedback])
 amazon.*##.s-result-list > .a-section:has(.sbv-ad-content-container)
 amazon.*##.sbv-video-single-product
 amazon.*##[cel_widget_id*="-creative-desktop_loom-desktop-"]
-amazon.*##[id^="sponsoredProducts"][id$="_feature_div"]
 amazon.*##div.s-inner-result-item > div.sg-col-inner:has(a.puis-sponsored-label-text)
 amazon.*##div[cel_widget_id*="Deals3Ads"]
 amazon.*##div[cel_widget_id*="_ad-placements-"]
