@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610142037
+! Version: 202610142051
 ! Title: EasyList
-! Last modified: 14 Oct 2026 20:37 UTC
+! Last modified: 14 Oct 2026 20:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a7956e10b6e7b7c5845a751db51eaed71418e35d
+! Commit: 5fb33bd624ded42f921a93a9f8b6ea8d0f181bd3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -35599,6 +35599,7 @@ browsershots.org#@#.advert_area
 ||jibbashacked.qpon^
 ||jibberspeelingowd.cfd^
 ||jibcjrikkqjmc.online^
+||jibhowso.qpon^
 ||jibmanbludger.com^
 ||jibsneeannnlz.site^
 ||jibwelcnme.com^
@@ -42275,6 +42276,7 @@ browsershots.org#@#.advert_area
 ||nsvzqoxdgwjlv.space^
 ||nsxfqbfzcx.com^
 ||nsxgiktugixhz.online^
+||ntcdeciihzoog.online^
 ||ntcfrzpzmeite.site^
 ||ntcpsljddomwh.online^
 ||ntepadkozezji.online^
@@ -49974,6 +49976,7 @@ browsershots.org#@#.advert_area
 ||scrollsgarlics.cyou^
 ||scrubriding.com^
 ||scrupulousencodebrother.com^
+||scsgvsjujnuxp.space^
 ||scubaseverely.com^
 ||scucptxepxtre.site^
 ||scuddlenudnik.com^
@@ -78682,6 +78685,7 @@ yandex.*##.business-card-title-view__advert
 douglas.*##.cms-container:has([data-testid="CriteoAdFormatCategoryView"])
 douglas.*##.criteo-product-carousel
 kaufland.*##.exp-vision__ext-wrapper--spad
+makemytrip.*##.flights-adtech-desktop
 yts.*##.home-content > div:has(.blue ~ a img[src*="/images/download"])
 makemytrip.*##.listingRowOuter:has(.pc__sponsored)
 streamsports99.*##.min-h-\[70px\]
@@ -78733,6 +78737,7 @@ deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
 hookerhillstudios.com##div.items-center:has(> #articlead)
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
+makemytrip.*##div:has(> .adBanner__img)
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(a[href*="/s/clickthrough.jsp?"])
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(div[class$="-ad-badge"])
 kayak.*##div[class*="-sponsored-result"]
