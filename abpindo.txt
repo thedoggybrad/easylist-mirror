@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Jq8Nb3ExeNxgCv2Sx+LblA
-! Version: 202610141422
+! Checksum: SK//kaQ8wlyb1vqa4xPEIA
+! Version: 202610141433
 ! Title: ABPindo
-! Last modified: 14 Oct 2026 14:22 UTC
+! Last modified: 14 Oct 2026 14:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 14 Oct 2026 12:34 UTC
+! Last modified: 14 Oct 2026 14:29 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -100,6 +100,7 @@
 ||yesads.com^$third-party
 ! Potential ad servers
 ||9eb10b7a3d04a.com^$popup,third-party
+||ads.mssb.cloud^$third-party
 ||afbcashidr.com^$popup,third-party
 ||bondeddarkenedswerve.com^$popup
 ||brand.ad^$third-party
