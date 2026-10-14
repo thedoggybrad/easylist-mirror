@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8ne1s5aFoa0UGgLAP4UOSw
-! Version: 202610141251
+! Checksum: jt6irX3y5K3wlWPp/+Gb9Q
+! Version: 202610141302
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 14 Oct 2026 12:51 UTC
+! Last modified: 14 Oct 2026 13:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -24570,6 +24570,7 @@ browsershots.org#@#.advert_area
 ||abendaimed.com^
 ||abergkxsuhitc.website^
 ||abethow.com^
+||abgztrwbtcduz.website^
 ||abh.jp^
 ||abhorsdemulce.cfd^
 ||abideantiquarianinflict.com^
@@ -52643,6 +52644,7 @@ browsershots.org#@#.advert_area
 ||pipetmosette.com^
 ||pipeycashibo.com^
 ||pipitsrupiah.cyou^
+||pippiermagas.qpon^
 ||pipsol.net^
 ||pirategailycauldron.com^
 ||piratryctrl.qpon^
@@ -66965,6 +66967,7 @@ browsershots.org#@#.advert_area
 ||xilflksioan.net^
 ||xilpcschzrgnp.site^
 ||ximtfhywwwwbs.online^
+||ximtmikqubrlo.space^
 ||ximybkpxwu.com^
 ||xintndhlggczz.space^
 ||xinwfssmakoxq.online^
@@ -87712,6 +87715,9 @@ target.com#?#div[data-test="ListingPageProductListing"]:has(span:has-text(Sponso
 target.com#?#div[data-test="addToCartSuccessModalRecommendationsTile"]:has(p.h-text-xs:has-text(Sponsored))
 techonthenet.com#?#div[class] > p:has-text(Advertisements)
 telugupeople.com#?#table:has(> tbody > tr > td > a:has-text(Advertisements))
+temu.com#?#.autoFitGoodsList > div:has(._2QlTgZaA:has-text(/^AD$/))
+temu.com#?#.mainContent div:has(> .goods-container ._2QlTgZaA:has-text(/^AD$/))
+temu.com#?#li.splide__slide:has(._2QlTgZaA:has-text(/^AD$/))
 theblock.co#?#.py-4.my-6:has-text(Advertisement)
 thedailywtf.com#?#.article-body > div:has-text([Advertisement])
 thingiverse.com#?#.item-card-container:has-text(/^Ad$/)
