@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AWh2vHw9CDjjXNJZHtpmnQ
-! Version: 202610142052
+! Checksum: Vsl7kw0Dj/sF7QS5eyNIAA
+! Version: 202610142103
 ! Title: EasyList without rules for adult sites
-! Last modified: 14 Oct 2026 20:52 UTC
+! Last modified: 14 Oct 2026 21:03 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -77173,6 +77173,7 @@ deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
 hookerhillstudios.com##div.items-center:has(> #articlead)
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
+makemytrip.*##div:has(> .adBanner__img)
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(a[href*="/s/clickthrough.jsp?"])
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(div[class$="-ad-badge"])
 kayak.*##div[class*="-sponsored-result"]
