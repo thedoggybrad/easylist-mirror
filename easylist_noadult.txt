@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TuhdWYrZVFYA61w4nQQ4xg
-! Version: 202610151112
+! Checksum: gadOb6H27OQgIYQsuJF+EA
+! Version: 202610151121
 ! Title: EasyList without rules for adult sites
-! Last modified: 15 Oct 2026 11:12 UTC
+! Last modified: 15 Oct 2026 11:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16840,6 +16840,7 @@ browsershots.org#@#.advert_area
 ||aaepddlontgge.online^
 ||aafdcq.com^
 ||aagemuwuyfhqz.site^
+||aaglpqhchibmm.site^
 ||aagm.link^
 ||aagprboumamaz.space^
 ||aahcnrijhuwhq.space^
@@ -60138,6 +60139,7 @@ browsershots.org#@#.advert_area
 ||xyhjflxkhqchl.online^
 ||xyicgmkbjemlh.website^
 ||xyioldjjxezhe.site^
+||xyivtaictjnhh.website^
 ||xyjezjqetukyk.online^
 ||xykjsfmeqwrnp.site^
 ||xylemtushie.cyou^
@@ -77938,8 +77940,11 @@ aads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.com,adspyglass.com,adsupp
 ##.ad.reform-top
 ##.reform-top-container
 ! Amazon
+amazon.*###cm_cr-rvw_summary-ads
 amazon.*###desktop-ad-btf
 amazon.*###faceoutContainer:has(> [class$="sponsored-label"])
+amazon.*###mobile-ads-bottom-dramabot_feature_div
+amazon.*###mobile-ads-middle-dramabot_feature_div
 amazon.*###nav-swmslot
 amazon.*###sc-rec-bottom
 amazon.*###sc-rec-right
@@ -77953,6 +77958,7 @@ amazon.*##.ape-placement
 amazon.*##.celwidget[data-ref_$="displayAds"]
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
 amazon.*##.gwm-window-wrapper:has(> [data-ref_$="_displayAds"])
+amazon.*##.p13n-uf:has(> #faceoutContainer > [class$="sponsored-label"])
 amazon.*##.s-result-item:has(.puis-sponsored-label-text)
 amazon.*##.s-result-item:has([data-ad-feedback-label-id])
 amazon.*##.s-result-item:has([data-ad-feedback])
