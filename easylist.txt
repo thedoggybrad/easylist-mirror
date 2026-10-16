@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610160624
+! Version: 202610160631
 ! Title: EasyList
-! Last modified: 16 Oct 2026 06:24 UTC
+! Last modified: 16 Oct 2026 06:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e8b1502b3242740106471a86442223a1baaaefe9
+! Commit: 83c708f6c36e15478c85a21ff9aa01936b70c876
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -48162,6 +48162,7 @@ browsershots.org#@#.advert_area
 ||rcqeeybtrarwv.online^
 ||rcqeuzctbselw.site^
 ||rcqpzvrgrnlta.website^
+||rcratvqkvwowh.site^
 ||rctwvizgssraz.store^
 ||rcvbtrhsuweuj.online^
 ||rcvfvkgglbvya.website^
@@ -77158,6 +77159,7 @@ oilcity.news##.sticky-sponsors-large
 jpost.com##.sticky-top-banner
 litecoin-faucet.com##.sticky-top1
 modelviewer.lol##.sticky.top-5.p-3.min-h-0.mr-4
+csrep.gg##.sticky:has(> div.w-full > a[target="_blank"] img)
 economictimes.indiatimes.com##.stickyAd
 theblock.co##.stickyFooter
 everythingrf.com##.stickyRHSAds
