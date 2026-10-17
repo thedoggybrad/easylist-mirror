@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610170614
+! Version: 202610170616
 ! Title: EasyList
-! Last modified: 17 Oct 2026 06:14 UTC
+! Last modified: 17 Oct 2026 06:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 621d3d0425ee485132fc96faee26f81d0ed1af5e
+! Commit: 8d853830339542192049d3c6dcd69b5d8cabf100
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -60420,6 +60420,7 @@ browsershots.org#@#.advert_area
 ||xpglvruebmgj.com^
 ||xphmbeda.com^
 ||xphrpolxrhqqf.website^
+||xphxfeasigxcj.website^
 ||xpjfvzoqznrpg.site^
 ||xpjtjsfbnxorq.site^
 ||xplfnxefkrhxp.space^
@@ -79806,6 +79807,8 @@ bitcointalk.org##.signature:has(a[href]:not([href*="bitcointalk.org"]))
 bestbuy.com##.slContainer:has(> .sponsored)
 bing.com##.slide:has(.rtb_ad_caritem_mvtr)
 complex.com##.sm\:min-h-\[100px\]:has(#catalyst_ad_top)
+codex-resets.com##.sponsor-mobile
+codex-resets.com##.sponsor-rail
 fastcompany.com##.sticky:has(.ad-container)
 carwow.co.uk##.stock-cars-v2__card-wrapper:has(> [data-controller="spdeal"])
 scamwarners.com##.subheader:has(> ins.adsbygoogle)
