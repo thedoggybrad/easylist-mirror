@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JXG26siH0DUqIK91oQAA0g
-! Version: 202610180952
+! Checksum: q1HOzX4kwi5GABb7bpYzNw
+! Version: 202610181001
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 18 Oct 2026 09:52 UTC
+! Last modified: 18 Oct 2026 10:01 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7662,6 +7662,7 @@ $third-party,media,domain=player.cdnvideohub.com
 ||bidderstack.com^$third-party
 ||bringads.com^$third-party
 ||eykek.com^$popup
+||imasdk.googleapis.com/js/sdkloader/ima3.js$important,script,redirect=google-ima.js,domain=ani5.top|ani6.top|ani7.top|jut-su.online
 ||linkssp.ru^$third-party
 ||plusani.me^$third-party
 ||radikal.host/aq*.js
