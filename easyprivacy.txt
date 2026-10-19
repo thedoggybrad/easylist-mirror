@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610190740
+! Version: 202610190745
 ! Title: EasyPrivacy
-! Last modified: 19 Oct 2026 07:40 UTC
+! Last modified: 19 Oct 2026 07:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8ff0ac5e41f72f6338dc52e5e7f804892aaf8cb2
+! Commit: 5d7aba43572adff156ad61cbde7ae512804e3a84
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12981,6 +12981,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.slashed.cloud^
 ||stats.smartclip.net^
 ||stats.spreadsimple.com^
+||stats.techinate.com^
 ||stats.topofblogs.com^
 ||stats.traffective.cloud^
 ||stats.uscreen.io^
@@ -15435,6 +15436,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api-visitor-analytics.intercom.com^
 ||api.audio.com/analytics/event
 ||api.channel.io/*/events
+||api.deepai.org/log_stat
 ||api.doodle.com/data-layer/track
 ||api.ffm.to/sl/e/$image
 ||api.headliner.link/api/v1/b/receive
@@ -15890,6 +15892,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||elements.video/tr/
 ||elevenlabs.io/hog/e/
 ||elitesingles.com/cs/tp.png?
+||emailtemporario.com.br/*/trackevents
+||emailtemporario.com.br/~api/analytics
 ||embed.reddit.com/svc/shreddit
 ||embedme.top/embed/extra
 ||engagefront.meteomedia.com^
