@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: G225/McxLpyJF4KJeEvOsQ
-! Version: 202610190622
+! Checksum: SimW64yBBRRJUuoJ13NijQ
+! Version: 202610190632
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 19 Oct 2026 06:22 UTC
+! Last modified: 19 Oct 2026 06:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2305,7 +2305,7 @@ ua.news##.social-group > a
 zi.ua##.social-header-icos
 4eva.ru,darada.co##.social-header-wrap
 bragazeta.ru,hronikers.com##.social-icon
-2ip.ua,365days.ru,4pda.to,autosport.com.ru,broadcast.net.ua,cheline.com.ua,dorognoe.ru,fight.ru,footballtransfer.com.ua,inforesist.org,keenetic.ru,kravira.by,kuhnyatv.ru,mac.org.ua,mymusictv.ru,regnum.ru,rivnenews.com.ua,serveradmin.ru,spbit.ru,study.ru,sumy.ua,tvhdl.ru,vechirniy.kyiv.ua##.social-icons
+2ip.ua,365days.ru,4pda.to,autosport.com.ru,broadcast.net.ua,cheline.com.ua,dorognoe.ru,fight.ru,footballtransfer.com.ua,golossokal.com.ua,inforesist.org,keenetic.ru,kravira.by,kuhnyatv.ru,mac.org.ua,mymusictv.ru,regnum.ru,rivnenews.com.ua,serveradmin.ru,spbit.ru,study.ru,sumy.ua,tvhdl.ru,vechirniy.kyiv.ua##.social-icons
 deita.ru##.social-icons-bar > a
 sports.ru##.social-icons-big.likes
 1news.com.ua,d1.ua,flightsim.su,newxboxone.ru##.social-icons-item
@@ -6538,7 +6538,7 @@ sxnarod.com##[href$="?act=acquaintance"] > img[src^="/image/"]
 versia.ru##[href*="//news.google.com/publications/"]
 agents.media,dyvys.info,gsett.ru##[href*="/donate"]
 tv2.today##[href*="://donate.tv2.today/"]
-112.ua,24smi.org,360tv.news,asn.in.ua,bfm.ru,bigmir.net,bizua.org,brestcity.com,dengi.ua,dumka.media,euromd.com.ua,fontanka.ru,freezmi.io,gsminfo.com.ua,hromadske.radio,incrypted.com,inforesist.org,inkorr.com,ivona.ua,izvestia.kiev.ua,korrespondent.net,lhealth.info,lviv.ua,media.az,mir24.tv,molbuk.ua,nnews.com.ua,pixelinform.com,psm7.com,radioroks.ua,realist.online,regionews.ua,ringside24.com,root-nation.com,sho.org.ua,sportarena.ua,tenews.org.ua,ternopillive.com,trmzk.ru,tsn.ua,tv.ua,u-news.com.ua,ukrhealth.net,unian.info,unian.net,unian.ua,vesti-ua.net,vidomo.media,yesasia.ru,ytronews.ru##[href^="https://news.google.com/publications/"]
+112.ua,24smi.org,360tv.news,asn.in.ua,bfm.ru,bigmir.net,bizua.org,brestcity.com,dengi.ua,dumka.media,euromd.com.ua,fontanka.ru,freezmi.io,golossokal.com.ua,gsminfo.com.ua,hromadske.radio,incrypted.com,inforesist.org,inkorr.com,ivona.ua,izvestia.kiev.ua,korrespondent.net,lhealth.info,lviv.ua,media.az,mir24.tv,molbuk.ua,nnews.com.ua,pixelinform.com,psm7.com,radioroks.ua,realist.online,regionews.ua,ringside24.com,root-nation.com,sho.org.ua,sportarena.ua,tenews.org.ua,ternopillive.com,trmzk.ru,tsn.ua,tv.ua,u-news.com.ua,ukrhealth.net,unian.info,unian.net,unian.ua,vesti-ua.net,vidomo.media,yesasia.ru,ytronews.ru##[href^="https://news.google.com/publications/"]
 rutube.ru,rutube.sport##[id*="Player"] div[class*="disclaimer"]
 nashaplaneta.net##[id^="flowblock"]
 gidonline.eu##[id^="iivk"]
@@ -7653,24 +7653,16 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! которые невозможно применить в uBOL до выхода новой версии
 !
 ! косметические правила и скриплеты
-game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib###bugagah
-game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib###page_header > br
-fishki.net##+js(cookie-remover, video_autoplay_off)
-esports.ru##aside a[target="_blank"][rel="noindex nofollow"]
+gk-press.if.ua###more-articles > .auto-load
+sn.by##.banner-list
+gk-press.if.ua##.site-content .some-widgets > a
+golossokal.com.ua##.stream-item-below-post-content > .stream-title
+sn.by##.upper-top-head
+golossokal.com.ua#?#.widget_block:-abp-has(> [id*="ScriptRoot"])
+golossokal.com.ua##.widget_text
 !
 ! сетевые правила
-$third-party,media,domain=player.cdnvideohub.com
-||adsensei.ai^$third-party
-||bidderstack.com^$third-party
-||bringads.com^$third-party
-||eykek.com^$popup
-||imasdk.googleapis.com/js/sdkloader/ima3.js$important,script,redirect=google-ima.js,domain=ani5.top|ani6.top|ani7.top|jut-su.online
-||linkssp.ru^$third-party
-||plusani.me^$third-party
-||radikal.host/aq*.js
-||sparksvale.com^$popup
-||wbbasket.ru/*/FullscreenBannerOnboardingViewModel.
-||yandex.*/ads/adfox/$third-party
+/vast.js$domain=fenixplay.xyz|noodlemagazine.com|ukdevilz.com
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
