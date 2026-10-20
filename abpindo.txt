@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b7+nModfzH9ZuT6qZIg6Qg
-! Version: 202610201203
+! Checksum: hIx5L2XfqEayj4alKy8dCA
+! Version: 202610201212
 ! Title: ABPindo
-! Last modified: 20 Oct 2026 12:03 UTC
+! Last modified: 20 Oct 2026 12:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/ABPindo/indonesianadblockrules/
 !
@@ -10,7 +10,7 @@
 !
 ! *** indonesianadblockrules:subscriptions/abpindo.txt ***
 ! Description: Filter tambahan untuk EasyList memblokir iklan berbahasa Indonesia dan Malaysia.
-! Last modified: 20 Oct 2026 11:35 UTC
+! Last modified: 20 Oct 2026 12:09 UTC
 ! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
 !
 ! Please report any unblocked adverts or problems:
@@ -574,6 +574,15 @@ juragan.film#@#.idmuvi-topbanner
 tokosatu.com#@#.popupflyin-clicks-area
 ! ----------------------- element hiding rules ------------------------!
 ! *** abpindo:src/advert/general_hide.txt ***
+! International ads
+###ad-link.visible
+###ad_box
+###adblock-modal
+###ouibounce-modal
+##.ays-pb-modals
+##.sgpb-popup-dialog-main-div-wrapper
+##.sgpb-popup-overlay
+!
 ###Area_Iklan_Atas
 ###Area_Iklan_Bawah
 ###Area_Iklan_Tengah
@@ -998,18 +1007,6 @@ tokosatu.com#@#.popupflyin-clicks-area
 ##[href^="https://promosi."]
 ##div[aria-label="Iklan"]
 ##img[data-ai-hint="advertisement banner"]
-! International ads
-###ad-link.visible
-###ad_box
-###adblock-modal
-###ouibounce-modal
-###sidebar-header img[style="max-width: 100%; height: auto;"]
-##.ays-pb-modals
-##.newsfeed-satu-container, .newsfeed-dua-container, .newsfeed-tiga-container
-##.sgpb-popup-dialog-main-div-wrapper
-##.sgpb-popup-overlay
-##a[href^="https://source.com.ng/r/?t="]
-##div[class*="ads-header"]
 ! *** abpindo:src/advert/specific_hide.txt ***
 ! ABP-specific filters
 cari.com.my#?#center:has-text(ADVERTISEMENT)
