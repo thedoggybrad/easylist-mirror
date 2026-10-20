@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cOt9ChoHsAK39sN0YdjXkA
-! Version: 202610200702
+! Checksum: 99A2BStmrEhja5cpZRZkBw
+! Version: 202610200712
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Oct 2026 07:02 UTC
+! Last modified: 20 Oct 2026 07:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7653,6 +7653,7 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 gk-press.if.ua###more-articles > .auto-load
+radar-map.ru##+js(abort-on-property-read, __adfinityLaunch)
 sn.by##.banner-list
 gk-press.if.ua##.site-content .some-widgets > a
 golossokal.com.ua##.stream-item-below-post-content > .stream-title
@@ -7669,6 +7670,7 @@ cfd##body > .wrapper > div[class^="topAd"]
 /vast.js$domain=fenixplay.xyz|noodlemagazine.com|ukdevilz.com
 ||khitrozya.link^$third-party
 ||pustobrya.link^$third-party
+||radar-map.ru/static/vendor/adfinity.js
 ||samograyka.link^$third-party
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
