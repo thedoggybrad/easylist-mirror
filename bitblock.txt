@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2InGshzmhyYJU0aS6ePJ6w
-! Version: 202610202012
+! Checksum: 4pawlOcjnD3K60b5lp5emg
+! Version: 202610202022
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Oct 2026 20:12 UTC
+! Last modified: 20 Oct 2026 20:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7669,6 +7669,7 @@ id.vk.ru##div[class^="AccidentResearchCell-"] section.vkuiBanner__host:style(dis
 ! сетевые правила
 .link/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|shortener2.link|tazaromikaz.link
 /vast.js$domain=fenixplay.xyz|noodlemagazine.com|ukdevilz.com
+||beloboka.link^$third-party
 ||khitrozya.link^$third-party
 ||pustobrya.link^$third-party
 ||radar-map.ru/static/vendor/adfinity.js
