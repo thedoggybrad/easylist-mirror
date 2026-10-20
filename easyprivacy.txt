@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610200957
+! Version: 202610201009
 ! Title: EasyPrivacy
-! Last modified: 20 Oct 2026 09:57 UTC
+! Last modified: 20 Oct 2026 10:09 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 411be50fbf0f49718500fb4acc9e34b87593aca5
+! Commit: b588ba7753c6d1ba0787c5f13cb929088503bfa4
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -13037,6 +13037,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sulia.com/papi/sulia_partner.js/$third-party
 ||sunlightmetrics.b-cdn.net^
 ||sunset.com/tia/
+||supabase.co/*/track-visitor
 ||surfshark.events^
 ||surfside.io/event/
 ||survey.interquest.com^
@@ -15455,6 +15456,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.samsungfind.com/log-collector
 ||api.streamelements.com/science/
 ||api.takealot.com^$ping
+||api.tempmailvip.io.vn/api/track
 ||api.thefantazy.com/web-vitals
 ||api.tsc.ca/Tracking/v1/events/
 ||api.vk.com/method/statEvents.
@@ -16042,6 +16044,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||foxsports.com.au/akam/
 ||fp.bizjournals.com^
 ||fp.measure.office.com^
+||fp.uncensored.com^
 ||fpa-cdn.adweek.com^
 ||fpa-cdn.arstechnica.com^
 ||fpc.fingerprint.com^
@@ -16821,6 +16824,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||relay-prod.typeracer.com/flags/
 ||relay.fiverr.com^
 ||remarkable.com/api/proxy/marker
+||report.senzia.cc^
 ||reports.tunein.com^
 ||researchgate.net/beacon/
 ||researchgate.net/track/
@@ -17145,6 +17149,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.prageru.com^
 ||t.producthunt.com^
 ||t.regionsjob.com^
+||t.venice.ai^
 ||t.wayfair.ca^
 ||t.wayfair.co.uk^
 ||t.wayfair.com^
@@ -17391,6 +17396,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||umami.spencerdevs.xyz^
 ||umami.vidfast.pro^
 ||umami.wakarimasen.moe^
+||uncensored.ai/*/trackevents
 ||unity3d.com/v1/events
 ||unl1zvy2zuyn.franchiseplus.nl^
 ||unleash.zenchef.com/api/frontend/client/metrics
