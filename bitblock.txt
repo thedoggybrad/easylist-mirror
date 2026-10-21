@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BrVx5EwWoY/S8ZY94OmpqQ
-! Version: 202610210722
+! Checksum: JsOIDgT19FLvrGe1eKYWyg
+! Version: 202610210732
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Oct 2026 07:22 UTC
+! Last modified: 21 Oct 2026 07:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1975,6 +1975,7 @@ lostfilm.info#?#.right:-abp-contains(Поделиться)
 mult-fan.tv##.rightBody a[href][title^="Наш"]
 fitfan.ru##.right_bar > a[href*="com/fitfan"][onclick]
 sibnet.ru#?#.right_column div[class^="block"]:-abp-has(> .bl_content > h3:-abp-contains(Мы Вконтакте))
+knigavuhe.org##.right_panel > .index_social_block ~ .index_social_block
 qrz.ru##.right_sidebar
 2mm.ru##.rightblock > .tabs
 mir-ved.ru##.rightcol
