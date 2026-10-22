@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vJX+cpGOyvOlrDJBgm4JVA
-! Version: 202610222052
+! Checksum: U6L/0GJU5VwP3W1EjCRUYg
+! Version: 202610222103
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 22 Oct 2026 20:52 UTC
+! Last modified: 22 Oct 2026 21:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -28889,6 +28889,7 @@ browsershots.org#@#.advert_area
 ||bloopromaika.cfd^
 ||blotecardthumb.com^
 ||bloteshapes.cyou^
+||blottomolassy.cfd^
 ||blowingwind.xyz^
 ||blpigisjqbykc.site^
 ||blqxmqf4jj6f6ggl7tlzfwvuwrby.rest^
@@ -42391,6 +42392,7 @@ browsershots.org#@#.advert_area
 ||hymenicunfiery.cyou^
 ||hymenssnarled.qpon^
 ||hymnxxeqbnrjy.site^
+||hynpvkrwdyyaj.website^
 ||hynvvtkmdvjdv.website^
 ||hynycrgzzevgb.space^
 ||hyoidalbedder.cyou^
@@ -60091,6 +60093,7 @@ browsershots.org#@#.advert_area
 ||sggumsnmiuuar.site^
 ||sghbvhktcomrn.online^
 ||sgjobzsseszke.site^
+||sgldbctiiqnaa.online^
 ||sgllpsstmvgns.site^
 ||sgotdkbdykwld.space^
 ||sgpniarijjbzt.online^
@@ -89568,6 +89571,8 @@ myutils.me##div[aria-label="Advertisement"]
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 livejournal.com##div[class*="-close"]:has(a[href*="tired=ads"])
 qz.com##div[class*=":block"]:has(> .ay-ad-slot)
+pixabay.com##div[class*="SectionGroup"] > div:has(a[href*="sponsored_"])
+pixabay.com##div[class*="container--"] > div:not([class*="--"]):has(a[href*="sponsored_"])
 qz.com##div[class*="my-"]:has(> .ay-ad-slot)
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
