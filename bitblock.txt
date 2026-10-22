@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1bqDiq6AVvzG6qLkHzug0g
-! Version: 202610221242
+! Checksum: fgwRosGbK1dkmwXh2xx5Uw
+! Version: 202610221252
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Oct 2026 12:42 UTC
+! Last modified: 22 Oct 2026 12:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -823,6 +823,7 @@ sharij.net#?#.aside > aside:-abp-has(> .textwidget > .fb-page)
 dorama.land,doramaland.plus##.aside-episode-banner
 autocentre.ua##.aside-shares
 psychologies.ru##.aside-widget > .top-articles ~ .mt-3
+vsthemes.org##.asideAnnounceFiles
 enovosty.com##.asp-widget-social
 androeed.ru##.atelegram
 site-of-thrones.com##.auth-description
@@ -1032,6 +1033,7 @@ rbc.ru,rbclifemedia.ru#?#.card-wrapper:has(> p a[href^="https://t.me/"])
 dltv.org#?#.card:-abp-has(> .card__body > .socials)
 softportal.com#?#.cardPageLinks > .Menu2ETd:-abp-has(> a[onclick^="showShare"])
 dltv.org##.card__title-social
+vsthemes.org#?#.catalog > .shorty:-abp-has(> div [data-clickgoal^="social"])
 femmie.ru##.category__subscribe
 bestmuzon.me##.cb_socials
 itzine.ru##.ceris-share-socials
@@ -1124,6 +1126,7 @@ newformat.info##.dpsp-share-text
 2x2.su##.dropdown
 starhit.ru##.ds-footer__social-icons
 libertycity.net,libertycity.ru##.dsc
+vsthemes.org##.dubidubi-list
 khl.ru##.e-header_social
 crowdrepublic.ru##.e-nets
 e1.ru##.e1-footer2__social
@@ -3093,6 +3096,7 @@ yummy-ani.me,yummy-anime.ru,yummyani.me##aside .ban_ner
 sichnews.ua##aside .is-layout-flow > h2:first-child
 kriminal.net.ua#?#aside .widget:-abp-has(> .body > .widget_html_block > [src*="facebook"])
 yummy-ani.me,yummy-anime.ru,yummyani.me##aside > #recommends
+vsthemes.org#?#aside > .aside-block:-abp-has([data-clickgoal*="social"])
 fakty.com.ua##aside > .aside-title:first-child
 winitpro.ru##aside > .block-search
 motogon.ru##aside > .block:nth-child(2)
@@ -3391,6 +3395,7 @@ obukhiv.info#?#footer div:-abp-has(> a[href*="://t.me/"])
 eda.ru#?#footer div:-abp-has(> div > [title="vkontakte"])
 fontanka.ru#?#footer div:nth-child(5):-abp-has([href^="https://vk.com/fontanka"])
 google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com##.js-share_buttons
+google.ru,google.*##form[role="search"] + div > [role="button"][aria-label]
 om1.ru#?#h1:-abp-contains(/в соцсетях/)
 komersant.ua#?#h2:-abp-contains(/^Соц.альн. мереж|Социальные сети|Social networks/)
 format.kr.ua#?#h2:-abp-contains(/Под.литися|П.дпишись/)
