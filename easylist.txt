@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610222048
+! Version: 202610222053
 ! Title: EasyList
-! Last modified: 22 Oct 2026 20:48 UTC
+! Last modified: 22 Oct 2026 20:53 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 71c18a493cd1411da9d7615ea6b4a918d9b0fed4
+! Commit: 7c0a3d827afe3c0b9609c7104ef5de67e6913b46
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -34678,6 +34678,7 @@ browsershots.org#@#.advert_area
 ||hymenicunfiery.cyou^
 ||hymenssnarled.qpon^
 ||hymnxxeqbnrjy.site^
+||hynpvkrwdyyaj.website^
 ||hynvvtkmdvjdv.website^
 ||hynycrgzzevgb.space^
 ||hyoidalbedder.cyou^
@@ -81857,6 +81858,8 @@ myutils.me##div[aria-label="Advertisement"]
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 livejournal.com##div[class*="-close"]:has(a[href*="tired=ads"])
 qz.com##div[class*=":block"]:has(> .ay-ad-slot)
+pixabay.com##div[class*="SectionGroup"] > div:has(a[href*="sponsored_"])
+pixabay.com##div[class*="container--"] > div:not([class*="--"]):has(a[href*="sponsored_"])
 qz.com##div[class*="my-"]:has(> .ay-ad-slot)
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
