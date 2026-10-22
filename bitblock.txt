@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fgwRosGbK1dkmwXh2xx5Uw
-! Version: 202610221252
+! Checksum: iIKON2QdQT5nM6ptXcHX7g
+! Version: 202610221302
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Oct 2026 12:52 UTC
+! Last modified: 22 Oct 2026 13:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1095,6 +1095,7 @@ ukrsport.pro##.cs-follow
 ukrsport.pro##.cs-social
 banker.ua##.cs_telegram-container
 rbc.ru##.cta-social-block
+bzh.life##.cta-subscribe
 topgir.com.ua##.custom-html-widget > blockquote
 informator.ua#?#.custom-widget:-abp-has([href^="https://invite.viber.com/"])
 informator.ua#?#.custom-widget:-abp-has([href^="https://t.me/"])
@@ -2418,7 +2419,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,1news.az,5koleso.ru,acmc.ua,agents.media,agrotimes.ua,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,hdrezka.inc,infox.ru,kanaldim.tv,kiprinform.com,komersant.ua,korrespondent.net,ku66.ru,kurs.if.ua,kyivpost.com,lifehacker.ru,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,pravo.by,radioromantika.ru,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
+101.ru,1news.az,5koleso.ru,acmc.ua,agents.media,agrotimes.ua,avtovzglyad.ru,bitcoinmagazine.ua,bzh.life,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,hdrezka.inc,infox.ru,kanaldim.tv,kiprinform.com,komersant.ua,korrespondent.net,ku66.ru,kurs.if.ua,kyivpost.com,lifehacker.ru,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,pravo.by,radioromantika.ru,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,usionline.com,virtualbrest.ru,womanhit.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -2506,6 +2507,8 @@ allgoodmood.ru,gdeichto.ru,kulturologia.ru,stopcor.org##.subscribe
 news.ru,risu.ua,rivne1.tv,rozetked.me,today.ua##.subscribe-block
 crimea-news.com##.subscribe-email
 sports.ru##.subscribe-feed
+bzh.life##.subscribe-icons
+bzh.life##.subscribe-promo
 oxu.az##.subscribe-single-block
 ntv.ru##.subscribe-socials
 starhit.ru##.subscribe-us
@@ -7664,37 +7667,14 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! которые невозможно применить в uBOL до выхода новой версии
 !
 ! косметические правила и скриплеты
-gk-press.if.ua###more-articles > .auto-load
-radar-map.ru##+js(abort-on-property-read, __adfinityLaunch)
 vsthemes.org##+js(prevent-addEventListener, copy, preventDefault)
-sn.by##.banner-list
-gk-press.if.ua##.site-content .some-widgets > a
-golossokal.com.ua##.stream-item-below-post-content > .stream-title
-sn.by##.upper-top-head
-rutube.ru##.wdp-wrapper-module__wdp-common-wrapper > .wdp-carousel-module__carouselWrapper
-golossokal.com.ua#?#.widget_block:-abp-has(> [id*="ScriptRoot"])
-golossokal.com.ua##.widget_text
 rutube.ru##a[href*="erid="][target="_blank"]
-cfd##body > .wrapper > #TopAdMb
-cfd##body > .wrapper > #tgWrapper
-cfd##body > .wrapper > .brand
-cfd##body > .wrapper > div[class^="topAd"]
-id.vk.ru##div[class^="AccidentResearchCell-"] section.vkuiBanner__host:style(display: block !important)
 !
 ! сетевые правила
-.link/$third-party,domain=gorodyshka.link|kurolesya.link|perepolokha.link|player.temptcdn.com|shortener2.link|tazaromikaz.link
-/vast.js$domain=fenixplay.xyz|noodlemagazine.com|ukdevilz.com
-||beloboka.link^$third-party
 ||dolgoruka.link^$third-party
-||khitrozya.link^$third-party
 ||kruglyashka.link^$third-party
 ||mudrobasa.link^$third-party
-||pustobrya.link^$third-party
-||radar-map.ru/static/vendor/adfinity.js
-||samograyka.link^$third-party
 ||skorobeyka.link^$third-party
-||sosilapu.org^$third-party
-||tikhomira.link^$third-party
 ||zhenivalka.link^$third-party
 ||zlatobryuga.link^$third-party
 !
