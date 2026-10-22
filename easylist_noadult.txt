@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: x4qxgYOv5j5GqROHARUbZQ
-! Version: 202610222052
+! Checksum: h8T9fKgBfBw2LQhreIgBlQ
+! Version: 202610222103
 ! Title: EasyList without rules for adult sites
-! Last modified: 22 Oct 2026 20:52 UTC
+! Last modified: 22 Oct 2026 21:03 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -21167,6 +21167,7 @@ browsershots.org#@#.advert_area
 ||bloopromaika.cfd^
 ||blotecardthumb.com^
 ||bloteshapes.cyou^
+||blottomolassy.cfd^
 ||blowingwind.xyz^
 ||blpigisjqbykc.site^
 ||blqxmqf4jj6f6ggl7tlzfwvuwrby.rest^
@@ -34669,6 +34670,7 @@ browsershots.org#@#.advert_area
 ||hymenicunfiery.cyou^
 ||hymenssnarled.qpon^
 ||hymnxxeqbnrjy.site^
+||hynpvkrwdyyaj.website^
 ||hynvvtkmdvjdv.website^
 ||hynycrgzzevgb.space^
 ||hyoidalbedder.cyou^
@@ -52369,6 +52371,7 @@ browsershots.org#@#.advert_area
 ||sggumsnmiuuar.site^
 ||sghbvhktcomrn.online^
 ||sgjobzsseszke.site^
+||sgldbctiiqnaa.online^
 ||sgllpsstmvgns.site^
 ||sgotdkbdykwld.space^
 ||sgpniarijjbzt.online^
@@ -80293,6 +80296,8 @@ myutils.me##div[aria-label="Advertisement"]
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 livejournal.com##div[class*="-close"]:has(a[href*="tired=ads"])
 qz.com##div[class*=":block"]:has(> .ay-ad-slot)
+pixabay.com##div[class*="SectionGroup"] > div:has(a[href*="sponsored_"])
+pixabay.com##div[class*="container--"] > div:not([class*="--"]):has(a[href*="sponsored_"])
 qz.com##div[class*="my-"]:has(> .ay-ad-slot)
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
