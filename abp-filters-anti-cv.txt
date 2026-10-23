@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 8zM5hEnfHY8eQCJ1y+GI0w
-! Version: 202610231202
+! Checksum: +S0QrbLx+ohAKvbDHvGnBQ
+! Version: 202610231212
 ! Title: ABP filters
-! Last modified: 23 Oct 2026 12:02 UTC
+! Last modified: 23 Oct 2026 12:12 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2958,7 +2958,7 @@ blog.abit.vn#$#simulate-mouse-event '#ads_popup .close$continue,delay=500'
 phimhdplus.com#$#json-prune ads; abort-current-inline-script setTimeout click_time
 aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
-teamlanhlungday.store,moontruyen.com#$#abort-current-inline-script $ window.open
+moontruyen.com#$#abort-current-inline-script $ window.open
 rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
 afamily.vn,cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,thanhnien.vn,tuoitre.vn#$#override-property-read ADMStorageFileCDN noopFunc
@@ -2966,14 +2966,10 @@ afamily.vn,cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,thanhnien.vn,tuoitre.vn#$
 bongda365f.com#$#override-property-read isSkipAds true
 znews.vn#$#abort-on-property-read adtimaConfig
 baomoi.com#$#abort-on-property-write AdtimaRender
-xoilaczkkz.tv#$#override-property-read adsPlayer ''; override-property-read adsTvcs ''
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
-mphimtv.my#$#override-property-read urlAds ''
 animet.org,motchillzz.site,xemphim.site#$#override-property-read maxAds 0
 www.iosviet.com#$#override-property-read timer 0
-saigon24.net#$#abort-current-inline-script document.getElementById myModal
-xoilaczkkz.tv#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 www.diendancauduong.com#$#abort-on-property-read antiAdBlockerHandler
 xem20.net#$#json-prune props.children.[].props.tvc
 hh2d.top#$#abort-current-inline-script $ adblock
@@ -2996,12 +2992,12 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.page,xphimsex.org,animehay15.site,cliphot69.cloud,phimsexsuong3x.net,damconuong.win,demo.14412882.com,doctruyen3qhub.fit,dualeotruyenbet.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen20.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,www.8phimz.com,hotphimxxxhay.com,quatvn.garden,sayhentai.cx,ftscontent.com,sexdiary.club,sexviet88z.vip,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88z.vip,www.sieutamphim.top,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+buomtv.page,xphimsex.org,animehay15.site,cliphot69.cloud,phimsexsuong3x.net,damconuong.win,demo.14412882.com,doctruyen3qhub.fit,dualeotruyenday.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen20.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,www.8phimz.com,hotphimxxxhay.com,quatvn.garden,sayhentai.cx,ftscontent.com,sexdiary.club,sexviet88z.vip,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,sexviet88z.vip,www.sieutamphim.top,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 javgiga.wordpress.com,www.8phimz.com#$#abort-on-property-read localStorage
 xnhau.pub#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 animevietsub.sale,animevietsub.sale,tram3d.my#$#abort-current-inline-script eval $._Eu
 www.8phimz.com#$#abort-current-inline-script document.createElement script
-dualeotruyenbet.com#$#abort-current-inline-script document.addEventListener popunder
+dualeotruyenday.com#$#abort-current-inline-script document.addEventListener popunder
 lxmanga.space#$#abort-current-inline-script $ PopUnder
 www.toptruyenzone13.com#$#abort-current-inline-script Promise instance
 animehay15.site#$#abort-current-inline-script document.addEventListener window.open; override-property-read list_link_popup emptyArray
@@ -3015,7 +3011,7 @@ truyensextv.com,yanhh3d.chat,z1.chinav.sex#$#abort-current-inline-script documen
 imail.edu.vn#$#abort-current-inline-script setTimeout Aff; abort-current-inline-script setTimeout ad_block
 www.toptruyenzone13.com#$#abort-current-inline-script setTimeout open
 www.curvegrad.com#$#abort-current-inline-script addEvent popu
-www.sieutamphim.top,freeplayervideo.com,player-cdn.com,playhydrax.com,www.bachnguyetquang.online,cap3.lifesty,hopphim.online,streamc.xyz,qmhv3.biz,qmh.garden#$#override-property-read open noopFunc
+www.sieutamphim.top,freeplayervideo.com,player-cdn.com,playhydrax.com,cap3.lifesty,hopphim.online,streamc.xyz,qmhv3.biz,qmh.garden#$#override-property-read open noopFunc
 abysscdn.com,freeplayervideo.com,player-cdn.com,playhydrax.com#$#abort-current-inline-script document.getElementById openPop
 nettruyenar.com#$#abort-on-property-read links
 hhvsub1.com#$#abort-current-inline-script WebAssembly globalThis
@@ -3038,9 +3034,8 @@ audiotruyenfull.com,trumtruyen.xyz,www.8phimz.com#$#abort-current-inline-script 
 sieudam.fit,subnhanh.plus#$#abort-current-inline-script $ pop
 quykhu.com#$#abort-current-inline-script document.addEventListener atob
 thiendia3.com#$#abort-current-inline-script document.addEventListener adState
-xoilaczkkz.tv#$#abort-current-inline-script jQuery open
 www.asu.baby#$#abort-on-property-read initialAdURLs
-cap3.lifesty#$#prevent-listener click /setTimeout|e\\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
+cap3.video#$#prevent-listener click /setTimeout|e\\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 animehay15.site#$#prevent-listener click popup
 rophimz.sh,motphimc.mx,phimmoic.id#$#prevent-listener click ads
 laodong.vn#$#abort-current-inline-script window.addEventListener AdBlock
