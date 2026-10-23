@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ImRGsDccywBWYYJh7rZZFg
-! Version: 202610231542
+! Checksum: 0fj47XUhiUUoelB3f2IMUA
+! Version: 202610231553
 ! Title: ABP filters
-! Last modified: 23 Oct 2026 15:42 UTC
+! Last modified: 23 Oct 2026 15:53 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1476,6 +1476,27 @@ drudgereport.com#$#prevent-element-src-loading script /html-load/
 people.com#$#json-override isActive false isUnregistered
 urbandictionary.com#$#json-override isUnregistered true isUnregistered
 yahoo.com#$#json-override isActive false autoRecovery
+||html-load.com^$script,domain=fourfourtwo.com|t3.com|womanandhome.com|moneyweek.com|laptopmag.com|guitarplayer.com|marieclaire.co.uk|idealhome.co.uk|whattowatch.com|countrylife.co.uk|itpro.com|imore.com|livingetc.com|fitandwell.com|homebuilding.co.uk
+||content-loader.com^$script,domain=fourfourtwo.com|t3.com|womanandhome.com|moneyweek.com|laptopmag.com|guitarplayer.com|marieclaire.co.uk|idealhome.co.uk|whattowatch.com|countrylife.co.uk|itpro.com|imore.com|livingetc.com|fitandwell.com|homebuilding.co.uk
+||d3ltremmfnj4zh.cloudfront.net^$script,domain=fourfourtwo.com|t3.com|womanandhome.com|moneyweek.com|laptopmag.com|guitarplayer.com|marieclaire.co.uk|idealhome.co.uk|whattowatch.com|countrylife.co.uk|itpro.com|imore.com|livingetc.com|fitandwell.com|homebuilding.co.uk
+||error-report.com^$domain=fourfourtwo.com|t3.com|womanandhome.com|moneyweek.com|laptopmag.com|guitarplayer.com|marieclaire.co.uk|idealhome.co.uk|whattowatch.com|countrylife.co.uk|itpro.com|imore.com|livingetc.com|fitandwell.com|homebuilding.co.uk
+||fourfourtwo.com^$csp=script-src-attr 'none'
+||t3.com^$csp=script-src-attr 'none'
+||womanandhome.com^$csp=script-src-attr 'none'
+||moneyweek.com^$csp=script-src-attr 'none'
+||laptopmag.com^$csp=script-src-attr 'none'
+||guitarplayer.com^$csp=script-src-attr 'none'
+||marieclaire.co.uk^$csp=script-src-attr 'none'
+||idealhome.co.uk^$csp=script-src-attr 'none'
+||whattowatch.com^$csp=script-src-attr 'none'
+||countrylife.co.uk^$csp=script-src-attr 'none'
+||itpro.com^$csp=script-src-attr 'none'
+||imore.com^$csp=script-src-attr 'none'
+||livingetc.com^$csp=script-src-attr 'none'
+||fitandwell.com^$csp=script-src-attr 'none'
+||homebuilding.co.uk^$csp=script-src-attr 'none'
+fourfourtwo.com,t3.com,womanandhome.com,moneyweek.com,laptopmag.com,guitarplayer.com,marieclaire.co.uk,idealhome.co.uk,whattowatch.com,countrylife.co.uk,itpro.com,imore.com,livingetc.com,fitandwell.com,homebuilding.co.uk#$#replace-argument document.querySelector 0 DUrYulQrRTJOTA nonexistent; override-property-read as_loader_version true
+fourfourtwo.com,t3.com,womanandhome.com,moneyweek.com,laptopmag.com,guitarplayer.com,marieclaire.co.uk,idealhome.co.uk,whattowatch.com,countrylife.co.uk,itpro.com,imore.com,livingetc.com,fitandwell.com,homebuilding.co.uk#$#abort-current-inline-script ffte bordeaux; override-property-read window.disableBordeaux true
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
@@ -1828,7 +1849,7 @@ freshsexvideos.com,ixxx.onl,sexvideos.*,xmxx.live,xvideosx.one,xxxpor.org,xxxvid
 porntrex.com#$#abort-on-property-write preventDefault
 lscomic.com#$#abort-on-property-read window.advanced_ads_ready; abort-on-property-write window.advanced_ads_ready_queue;
 aniwatchtv.*,kunmanga.com#$#abort-current-inline-script document.createElement /break|case/
-andyday-tv.lol,andyday.*,andydayz.*,freemovies.*,kickassanime.*,myflixerz.*,putlocker.*,seriesonline.*,soaper.tv,streamcloud.*,theflixertv.*,vidco.pro,topcartoons.tv,hdtoday.*,japscan.*#$#abort-current-inline-script document.documentElement '/break;case \\$/'
+andyday-tv.lol,andyday.*,andydayz.*,clipconverter.cc,freemovies.*,kickassanime.*,myflixerz.*,putlocker.*,seriesonline.*,soaper.tv,streamcloud.*,theflixertv.*,vidco.pro,veplay.top,topcartoons.tv,hdtoday.*,japscan.*#$#abort-current-inline-script document.documentElement '/break;case \\$/'
 kickassanime.*,vidco.pro#$#override-property-read ifmax true
 skidrowreloaded.*,vidsrc.*#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
 videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-read window.open
@@ -2399,6 +2420,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="feed"]/
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//span//div[@class][@role][contains(., "Anzeige") or contains(., "Sponsored") or contains(., "Sponsorlu") or contains(., "Gesponsert") or contains(., "Patrocinado") or contains(., "Sponsorisé") or contains(., "Commandité") or contains(., "Gesponsord") or contains(., "Sponsorowane") or contains(., "Publicidad") or contains(., "Sponsrad") or contains(., "Sponsoreret") or contains(., "Sponsoroitu") or contains(., "Sponsa") or contains(., "Sponset") or contains(., "Sponsorizat") or contains(., "Bersponsor") or contains(., "Ditaja") or contains(., "Sponsorizzato") or contains(., "May Sponsor") or contains(., "Реклама") or contains(., "贊助") or contains(., "赞助内容") or contains(., "ได้รับการสนับสนุน") or contains(., "Được tài trợ") or contains(., "प्रायोजित") or contains(., "دارای پشتیبانی مالی") or contains(., "تمويل شوي") or contains(., "সৌজন্যে") or contains(., "مُموَّل") or contains(., "سپانسرڈ") or contains(., "ממומן") or contains(., "Hirdetés") or contains(., "ಪ್ರಾಯೋಜಿತ")]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node require.0.3.0.__bbox.require.[-].3.1.__bbox.result.data.node.story.sponsored_data.ad_id'
 www.facebook.com,web.facebook.com#$#json-override 'jsonpath($.data.node)' null '' /SponsoredData/;
+www.facebook.com,web.facebook.com#$#json-override 'jsonpath($.*.data.node)' null '' /CometStorySponsoredLabelStrategy|"th_dat_spo":\{/
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?:[Aa][Dd]|Sponsored|esondSpored|.*Spored.*|(?=.*[sS])(?=.*[pP])(?=.*[oO])(?=.*[rR])(?=.*[dD])[a-zA-Z]+)$/ 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"] span:not([style*="top"])'
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^[^A-Za-z0-9]*(?:(?:[AaDd][^A-Za-z0-9]*){2,3}|(?:[SsPpOoNnRrIiEeDdÉé][^A-Za-z0-9]*){9,11}|(?:[CcOoMmAaNnDdIiTtÉéEe][^A-Za-z0-9]*){9,11}|(?:[PpAaTtRrOoCcIiNnDdEe][^A-Za-z0-9]*){10,12}|(?:[BbEeRrSsPpOoNn][^A-Za-z0-9]*){9,11}|(?:[SsPpOoNnRrIiZzAaTtEe][^A-Za-z0-9]*){12,14}|(?:[SsPpOoNnRrOoWwAaEe][^A-Za-z0-9]*){11,13}|(?:[ĐđƯưỢợCcTtÀàIiRr][^A-Za-z0-9]*){9,11})$/i 'div[aria-posinset]' 'div[aria-posinset] a[href^="?"], div[aria-posinset] a[href="#"]'
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg^^use^^svg'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Hirdetés|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg^^use^^svg^^use^^svg'; race stop;
@@ -2414,6 +2436,7 @@ www.facebook.com,web.facebook.com#$#hide-if-contains '/^[^A-Za-z0-9]*(?:Sponsore
 ! mp
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[contains(., "Ad") or contains(., "Patrocinado") or contains(., "Patrocinat") or contains(., "Bersponsor") or contains(., "Commandité") or contains(., "Ditaja") or contains(., "Gesponsert") or contains(., "Gesponsord") or contains(., "Sponsras") or contains(., "Publicidad") or contains(., "Sponsoreret") or contains(., "Sponsoreeritud") or contains(., "Sponset") or contains(., "Sponsored") or contains(., "Sponsorisé") or contains(., "Sponsorizat") or contains(., "Sponsorizzato") or contains(., "Anzeige") or contains(., "Sponsorlu") or contains(., "Sponsorowane") or contains(., "Реклама") or contains(., "ממומן") or contains(., "مُموَّلة") or contains(., "دارای پشتیبانی مالی") or contains(., "سپانسرڈ") or contains(., "مُموَّل") or contains(., "प्रায়োজিত") or contains(., "সৌজন্যে") or contains(., "ได้รับการสนับสนุน") or contains(., "内容") or contains(., "贊助") or contains(., "Sponsoroitu") or contains(., "May Sponsor") or contains(., "Được tài trợ") or contains(., "ಪ್ರಾಯೋಜಿತ") or contains(., "स्पॉन्सर्ड") or contains(., "広告") or contains(., "赞助内容") or contains(., "Рэклама") or contains(., "Sponzorirano") or contains(., "La maalgeliyey") or contains(., "Geborg") or contains(., "Reklam") or contains(., "Plaćeni oglas") or contains(., "광고") or contains(., "Χορηγούμενη") or contains(., "স্পনসর্ড") or contains(., "প্রায়োজিত") or contains(., "സ്പോൺസർ ചെയ്തത്") or contains(., "സ്പോൺസർചെയ്തത്") or contains(., "ਸਰਪ੍ਰਸਤੀ ਪ੍ਰาਪਤ") or contains(., "ਸਰਪ੍ਰਸਤੀਪ੍ਰਾਪਤ") or contains(., "මුදල් ගෙවා ප්රචාරය කරන ลදි") or contains(., "විළ]") or contains(., "Спонсорирано") or contains(., "Спонзорисано") or contains(., "ܒܘܕܩܐ ܡܡܘܘܢܐ") or contains(., "Reklamo") or contains(., "Hirdetés") or contains(., "Sponsitud") or contains(., "Sponzorováno") or contains(., "Apmaksāta reklāma") or contains(., "Urraithe") or contains(., "Kostað")][not(ancestor::div[@role="listitem"])]/ancestor::a[@href][@role="link"][@tabindex][1]/ancestor::div[2]/../parent::div/span' '//div[@role="main"]'
 www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
+www.facebook.com#$#json-override 'jsonpath($..[?(@.node.__typename=="MarketplaceFeedAdStory")].node)' null '' /MarketplaceFeedAdStory/
 ! sb
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"gneissBrattice")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 www.facebook.com,web.facebook.com#$#json-override 'jsonpath($..auxColumnUnits.nodes)' emptyArray '' /AdsSideFeedUnit/
