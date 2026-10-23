@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dOjQUGnsx1A+DPQZB42SMQ
-! Version: 202610230923
+! Checksum: wmgHSJCjl45kg5tFDb6o8A
+! Version: 202610230932
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Oct 2026 09:23 UTC
+! Last modified: 23 Oct 2026 09:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6129,6 +6129,8 @@ sport-express.net,sport-express.ru##.se-footer-icons__youtube
 sport-express.net,sport-express.ru##.se-footer-mailing
 car.ru##.search-example
 lk.rt.ru##.season_theme_after_mobile
+pravda.com.ua#?#.section_news_list_wrapper > .article_news_list:-abp-has(> .section_ranok)
+pravda.com.ua##.section_ranok
 flashscore.com.ua,flashscore.ua,flashscorekz.com,livescore.in##.selfPromo__box--apps
 nv.ua##.selfpromo_new
 prufy.ru##.send_news
@@ -7683,6 +7685,7 @@ ixbt.com#?#div[class]:-abp-has(> [data-testid="yandex-id-button"])
 ||mudrobasa.link^$third-party
 ||sinebryuga.link^$third-party
 ||skorobeyka.link^$third-party
+||velogonshik.org^$third-party
 ||zhenivalka.link^$third-party
 ||zlatobryuga.link^$third-party
 !
