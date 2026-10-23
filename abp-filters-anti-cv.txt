@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 0fj47XUhiUUoelB3f2IMUA
-! Version: 202610231553
+! Checksum: FKyC5zAi/4YzpEmbGy9Wbw
+! Version: 202610231603
 ! Title: ABP filters
-! Last modified: 23 Oct 2026 15:53 UTC
+! Last modified: 23 Oct 2026 16:03 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1497,6 +1497,12 @@ yahoo.com#$#json-override isActive false autoRecovery
 ||homebuilding.co.uk^$csp=script-src-attr 'none'
 fourfourtwo.com,t3.com,womanandhome.com,moneyweek.com,laptopmag.com,guitarplayer.com,marieclaire.co.uk,idealhome.co.uk,whattowatch.com,countrylife.co.uk,itpro.com,imore.com,livingetc.com,fitandwell.com,homebuilding.co.uk#$#replace-argument document.querySelector 0 DUrYulQrRTJOTA nonexistent; override-property-read as_loader_version true
 fourfourtwo.com,t3.com,womanandhome.com,moneyweek.com,laptopmag.com,guitarplayer.com,marieclaire.co.uk,idealhome.co.uk,whattowatch.com,countrylife.co.uk,itpro.com,imore.com,livingetc.com,fitandwell.com,homebuilding.co.uk#$#abort-current-inline-script ffte bordeaux; override-property-read window.disableBordeaux true
+||html-load.com^$script,domain=aternos.org
+||content-loader.com^$script,domain=aternos.org
+||d3pvyaesnv3jy6.cloudfront.net^$script,domain=aternos.org
+||error-report.com^$domain=aternos.org
+||aternos.org^$csp=script-src-attr 'none'
+aternos.org#$#replace-argument document.querySelector 0 JhDBwAcDYbiVU nonexistent; override-property-read as_loader_version true
 ! #CV-4780
 theisleofthanetnews.com#$#hide-if-matches-xpath './/a[contains(@href,"communityjournalism") or contains(@href,"academyfmthanet") or contains(@href,"impress.press") or contains(@href,"cookeandco") or contains(@href,"rsp.co.uk") or contains(@href,"ekctraining.ac.uk") or contains(@href,"com.cab.despatch") or contains(@href,"thepalacecinema.co") or contains(@href,"javessecurity.com") or contains(@href,"medixishealthcare.co") or contains(@href,"foodanddrinkshop") or contains(@href,"unionchurchmargate.org/food-for-thought") or contains(@href,"hbthanet.com") or contains(@href,"johnston-marketing.co") or contains(@href,"thanet.domestics")]/img[@data-ll-status]/ancestor::div[2]'
 ! #CV-1935
