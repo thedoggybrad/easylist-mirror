@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XXmlYKbfaTjVv0E1JVXmQA
-! Version: 202610240722
+! Checksum: p0X6hwKvWtmxnZxjIUPqUQ
+! Version: 202610240732
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 24 Oct 2026 07:22 UTC
+! Last modified: 24 Oct 2026 07:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7682,6 +7682,7 @@ rutube.ru##a[href*="erid="][target="_blank"]
 ixbt.com#?#div[class]:-abp-has(> [data-testid="yandex-id-button"])
 !
 ! сетевые правила
+||bystroglaza.link^$third-party
 ||dolgoruka.link^$third-party
 ||kruglyashka.link^$third-party
 ||kudroshapka.link^$third-party
@@ -7690,6 +7691,7 @@ ixbt.com#?#div[class]:-abp-has(> [data-testid="yandex-id-button"])
 ||ryabokoshka.link^$third-party
 ||sinebryuga.link^$third-party
 ||skorobeyka.link^$third-party
+||smertotmikrotikov.org^$third-party
 ||velogonshik.org^$third-party
 ||zhenivalka.link^$third-party
 ||zlatobryuga.link^$third-party
