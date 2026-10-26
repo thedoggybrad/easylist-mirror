@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MqIBEC4fzg9w2HnTx4C4VQ
-! Version: 202610261903
+! Checksum: HJxif6+GQ+i1pyhGhoLDxQ
+! Version: 202610261922
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Oct 2026 19:03 UTC
+! Last modified: 26 Oct 2026 19:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7667,7 +7667,7 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib###gogfilmsfuck
-rutube.ru##+js(json-prune-fetch-response, appearance.auto_start, '', stackToMatch, !.ru/video/)
+rutube.ru##+js(json-prune-fetch-response, appearance.auto_start, '', stackToMatch, !/video/)
 vsthemes.org##+js(prevent-addEventListener, copy, preventDefault)
 sdamgia.ru##.ege-adv-container
 appstorrent.ru##.plati-block
