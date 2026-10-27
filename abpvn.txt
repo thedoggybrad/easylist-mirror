@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eG0Je/9UWBwEl7n4JE/PPQ
-! Version: 202610271252
+! Checksum: dh3bG63Je+QxKf85rPpShA
+! Version: 202610271303
 ! Title: ABPVN List
-! Last modified: 27 Oct 2026 12:52 UTC
+! Last modified: 27 Oct 2026 13:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 27 Oct 2026 19:00:37 UTC+7
-! Diff-Path: patches/20261027190037803.patch#abpvn
+! Last modified: 27 Oct 2026 19:51:47 UTC+7
+! Diff-Path: patches/20261027195147197.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -226,7 +226,7 @@ $popup,domain=truyenfull.live
 ||tinmoi.vn/?mod=ajax&act=getAds
 ||tinxe.vn/Banner/LoadBanner$xmlhttprequest
 ||tinxe.vn/bn-campaign-for-iframe$subdocument,~third-party
-||tophim.vip^*.gif$image,~third-party
+||tophim.pro^*.gif$image,~third-party
 ||traderviet.tv/data/siropu/am/user/$image
 ||tructiep.vn/website/adv/
 ||tudomuaban.com/public/upload/ad/
