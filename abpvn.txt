@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SK10lpXL2oYKeqBN2O1I1Q
-! Version: 202610280402
+! Checksum: TcUrZel++65UnCrhfJU+kQ
+! Version: 202610280411
 ! Title: ABPVN List
-! Last modified: 28 Oct 2026 04:02 UTC
+! Last modified: 28 Oct 2026 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 27 Oct 2026 19:51:47 UTC+7
-! Diff-Path: patches/20261027195147197.patch#abpvn
+! Last modified: 28 Oct 2026 11:06:35 UTC+7
+! Diff-Path: patches/20261028110635703.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -226,7 +226,7 @@ $popup,domain=truyenfull.live
 ||tinmoi.vn/?mod=ajax&act=getAds
 ||tinxe.vn/Banner/LoadBanner$xmlhttprequest
 ||tinxe.vn/bn-campaign-for-iframe$subdocument,~third-party
-||tophim.pro^*.gif$image,~third-party
+||tophim.vip^*.gif$image,~third-party
 ||traderviet.tv/data/siropu/am/user/$image
 ||tructiep.vn/website/adv/
 ||tudomuaban.com/public/upload/ad/
@@ -1033,7 +1033,6 @@ cliphot69.cloud###custom_html-42
 cliphotvn69.com,dynadot.rsocdomains.com,cliphot69.cloud,www.gvnvh18z.com,phimsexhayvne.com,sayhentai.cx,xamvn.yachts,sexviet69.cc##.float-ck-center-lt
 damconuong.win##.catfish-ad
 damconuong.win##a[rel="nofollow"]
-dualeotruyenday.com##[id$="bnr"]
 fullcliphot.org##div#recent-content:nth-of-type(1)
 fullcliphot.org,fulllivehot.us,clipphot.co##.cashfish
 fullcliphot.org,fulllivehot.us,clipphot.co##.mini-player
@@ -1046,6 +1045,7 @@ grupoalfoz.com##.banner-ad
 haysexvn.shop###vl-header-adx
 haysexvn.shop##.castfish-wrappe
 haysexvn.shop,viet69hayz.cfd##.popup
+hentaibox.top##[id$="bnr"]
 javgiga.wordpress.com##.pum-overlay
 javtiful.com###latest-censored-videos>.row>div.pb-3.col:nth-of-type(1)
 javtopxx2.com###fbox-background
