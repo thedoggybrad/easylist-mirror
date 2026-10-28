@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vvpM4ZrVQAGSgq2DZLFXAg
-! Version: 202610281912
+! Checksum: fILxo7ZoSOUFTYSdtQGVmA
+! Version: 202610281922
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Oct 2026 19:12 UTC
+! Last modified: 28 Oct 2026 19:22 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -17724,6 +17724,7 @@ allboxing.ru##[onmouseenter="onClickPbButton()"]
 penzainform.ru##[pnz-ads]:not(eto-dlya-mob-ver)
 apteki.su##[poster^="http://static.apteki.su/img/banners/"]
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-promo-post-hash])
+vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header-coowners-title"])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [href*="utm_source=vk_ads"])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel]:-abp-contains(onelink.me/))
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] a[rel][href*="utm_campaign"])
