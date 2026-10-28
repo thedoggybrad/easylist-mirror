@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ogQaDBN6QvYFaHP/bJZygA
-! Version: 202610281841
+! Checksum: W990jz2feJnND3pV6upuEg
+! Version: 202610281852
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 28 Oct 2026 18:41 UTC
+! Last modified: 28 Oct 2026 18:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -502,7 +502,8 @@ memesmix.net#?##main-area .module-body:-abp-has(> div > #vk_comments)
 orelgrad.ru###main-content > article ~ [role="navigation"] ~ *
 yap.ru,yaplakal.com###main-menu > a[href="https://telegram.me/yaplakal/"]
 yap.ru,yaplakal.com###main-menu > a[href^="https://max.ru/"]
-hlamer.ru,ru###main-menu[style*="krasview"] ~ div #video-counters > .visible-desktop + .counter
+hlamer.ru,ru###main-menu[style*="krasview"] ~ div #video-counters > .counter > .visible-desktop
+hlamer.ru,ru###main-menu[style*="krasview"] ~ div #video-counters > .counter > .visible-desktop + div
 pogoda.com###mapa-loc-shared
 thepage.ua###material-content > .w-full[class*="bg-grey-"]
 nim.ru###mc-login
@@ -4867,6 +4868,7 @@ smdoctors.ru###logo_box
 uainfo.org###logo_help
 forums.warforge.ru###logostrip
 fullgames.ru###main > noindex
+hlamer.ru,ru###main-menu[style*="krasview"] ~ div #vip-offer-short
 novayagazeta.ru###mainHeader a[target="_blank"]
 uniondht.org###main_content_wrap > div[id*="new"] tr > td:empty + td
 libst.ru###main_slider
@@ -7674,6 +7676,7 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! косметические правила и скриплеты
 russiatoday.ru###offers
 russiatoday.ru###today-media-article
+hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##+js(abort-on-property-read, adOnClick)
 russiatoday.ru##.Mirtesen-root
 nikvesti.com##.adfree-strip
 24tv.ua##.banner-slot
@@ -7695,11 +7698,13 @@ niknews.mk.ua##.top-add
 24tv.ua##[app-article-ita]
 24tv.ua##[app-article-partner-ad]
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-promo-post-hash])
+hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##body:style(background-color: #596c84 !important; background-image: none !important)
 novosti-n.org,russiatoday.ru##div[class*="banner"]
 russiatoday.ru##div[class^="Popup-"]
 !
 ! сетевые правила
 ||cdn.russiatoday.com/scripts/adfox/
+||ru/content/stargate/*.gif$image,~third-party
 ||russiatoday.ru/nbc/
 ||russiatoday.ru/static/views/wMainBannerTop.
 !
