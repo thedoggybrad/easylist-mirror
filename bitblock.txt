@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hz/UdH8dQFjQ7kP+GPtBFg
-! Version: 202610281312
+! Checksum: 1wn/8/oxL7MHS4l2Ig/ugA
+! Version: 202610281322
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 28 Oct 2026 13:12 UTC
+! Last modified: 28 Oct 2026 13:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2851,6 +2851,7 @@ uznayvse.ru##[aria-label="Поделиться в социальных сетя�
 rutube.ru##[aria-label="Присоединяйтесь в социальных сетях"]
 afisha.ru##[aria-label="Социальные сети"]
 limehd.tv##[aria-label^="social-"]
+24tv.ua##[aria-label^="Под"][aria-label$="ся"]
 mos.ru##[aria-label^="Поделиться ссылкой"]
 bbc.com#?#[aria-labelledby^="normal-collection-"]:-abp-has(> h2:-abp-contains(Мы в соцсетях))
 bbc.com##[aria-labelledby^="social-links-"]
@@ -7675,6 +7676,7 @@ russiatoday.ru###offers
 russiatoday.ru###today-media-article
 russiatoday.ru##.Mirtesen-root
 nikvesti.com##.adfree-strip
+24tv.ua##.banner-slot
 russiatoday.ru#?#.column__row_article-page_right:-abp-has(> .hide--partner--block)
 russiatoday.ru#?#.column__row_article-page_right:-abp-has(> [id])
 russiatoday.ru#?#.column__row_article-page_right:-abp-has(> div:empty)
@@ -7683,9 +7685,16 @@ russiatoday.ru##.external-widget
 russiatoday.ru##.follows-channel_djen
 russiatoday.ru##.hide--partner--block
 nikvesti.com##.nv-ad
+24tv.ua##.revive-block
 russiatoday.ru#?#.right-column > .aside-block:-abp-has(script)
 russiatoday.ru##.socials__link_yandex-zen
 niknews.mk.ua##.top-add
+24tv.ua##[app-ad]
+24tv.ua##[app-age-gate-card]
+24tv.ua##[app-article-fuel]
+24tv.ua##[app-article-ita]
+24tv.ua##[app-article-partner-ad]
+vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-promo-post-hash])
 novosti-n.org,russiatoday.ru##div[class*="banner"]
 russiatoday.ru##div[class^="Popup-"]
 !
