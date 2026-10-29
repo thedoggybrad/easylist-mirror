@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YF0lCY2akd+dxbe6dWuy6Q
-! Version: 202610290511
+! Checksum: ljaXTt6hZ97yQZoi0Fj++g
+! Version: 202610290522
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 29 Oct 2026 05:11 UTC
+! Last modified: 29 Oct 2026 05:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -45693,6 +45693,7 @@ browsershots.org#@#.advert_area
 ||nllzvzafpfodg.space^
 ||nlmhhgvljqktf.website^
 ||nlodtzqlcmbqn.online^
+||nlogizcmjvlnv.space^
 ||nlsgostuanbpy.website^
 ||nlsmhyylwozop.site^
 ||nltlotgpuggsj.site^
@@ -80306,6 +80307,7 @@ amazon.*##.s-result-item:has([data-ad-feedback])
 amazon.*##.s-result-list > .a-section:has(.sbv-ad-content-container)
 amazon.*##.sbv-video-single-product
 amazon.*##[cel_widget_id*="-creative-desktop_loom-desktop-"]
+amazon.*##[data-card-metrics-id^="universal-detail-ilm-card_"]
 amazon.*##[id^="sponsoredProducts"][id$="_feature_div"]
 amazon.*##div.s-inner-result-item > div.sg-col-inner:has(a.puis-sponsored-label-text)
 amazon.*##div[cel_widget_id*="Deals3Ads"]
