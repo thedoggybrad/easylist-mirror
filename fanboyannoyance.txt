@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610301451
+! Version: 202610301503
 ! Title: Fanboy's Annoyance List
-! Last modified: 30 Oct 2026 14:51 UTC
+! Last modified: 30 Oct 2026 15:03 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c4ce21140b5f3f3f1345adf975ebdac69cab75db
+! Commit: 8cda2ce18161979d2c372630150265fbadf74d40
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -32065,9 +32065,9 @@ yalereview.org#?#.lg\:border-b-2:has-text(Support Our Commitment to Print)
 chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
 chromewebstore.google.com#?#[aria-label="Info"]:has-text(Switch to Chrome)
 developer.android.com#?#.devsite-snackbar-snack:has-text(Please help us)
+www.google.*##div[jsname="wA2P2b"][data-li=""]
 google.com#?#.Ryrdad:has-text(Please help us improve)
 google.com#?#[jscontroller="HCSvae"]:has-text(/Sign in to Google|Build Android apps faster/)
-google.com#?#div[jsname="wA2P2b"]:has-text(How helpful were the results)
 www.google.com#?#[aria-describedby="promo_desc_id"]:has-text(/Time for a new laptop|Gemini, |Choose Chrome|built by Google|Search differently|Cherchez différemment|Search just got easier|Try more ways|Switch to Chrome|Keep things dark/)
 ! Paid overlay nag
 youtube.com##.ytp-paid-content-overlay
