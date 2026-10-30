@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aR8ZmoH+aq8MIZmPySodSw
-! Version: 202610301832
+! Checksum: ZzuF/Tzrg2ciizY1Yaleww
+! Version: 202610301842
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 30 Oct 2026 18:32 UTC
+! Last modified: 30 Oct 2026 18:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1802,6 +1802,7 @@ dracon-zet.ru##.nv-html-content
 news.online.ua##.o-card__share
 1plus1.video##.o-share-control
 1plus1.video##.o-share-table-cell-right
+kino-teatr.ru##.object_tool_share
 city-n.ru##.odnoklassniki
 obyava.ua##.offer__top-btn
 onliner.by##.offers-social
@@ -7703,6 +7704,8 @@ vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-testid="p
 hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##body:style(background-color: #596c84 !important; background-image: none !important)
 novosti-n.org,russiatoday.ru##div[class*="banner"]
 russiatoday.ru##div[class^="Popup-"]
+game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id*="gagah"]
+game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id^="page_"] > br
 !
 ! сетевые правила
 ||cdn.russiatoday.com/scripts/adfox/
