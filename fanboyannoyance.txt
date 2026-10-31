@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610311113
+! Version: 202610311124
 ! Title: Fanboy's Annoyance List
-! Last modified: 31 Oct 2026 11:13 UTC
+! Last modified: 31 Oct 2026 11:24 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3739ceee0e138b2b8e43447b105812f7d21263a9
+! Commit: c200bf8164628b28bcafe55275ad5203c0a8e3a6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -30513,7 +30513,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||app.viralsweep.com^$domain=insidethemagic.net
 ||arsenalinsider.com/subscribe/
 ||artdaily.cc/subscribe.html
-||beehiiv.com^$domain=marktechpost.com
+||beehiiv.com^$domain=marktechpost.com|washingtonexaminer.com
 ||chan.sankakucomplex.com/javascripts/sp/s-new.js
 ||chemistwarehouse.com.au/edm_collector.html
 ||chimpstatic.com/mcjs-connected/$script,domain=stilldrinking.org
@@ -31936,6 +31936,7 @@ reason.com##.webathon-meter
 reason.com##.webathon-meter-widget
 thehackernews.com##.webinar-con
 themarshallproject.org##.welcome-mat
+washingtonexaminer.com##.wex-ad-wrap
 thurrott.com##.widget > [href="https://www.thurrott.com/thurrott-premium"]
 nationalpost.com##.widget--local-ads
 cpuid.com##.widget-advert-300-sticky
