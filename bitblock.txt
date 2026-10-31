@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8DwtV3gtB3180piUMh76dA
-! Version: 202610310942
+! Checksum: jDvNhK6LrSf/e1yNLxMg/Q
+! Version: 202610310952
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 31 Oct 2026 09:42 UTC
+! Last modified: 31 Oct 2026 09:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1449,6 +1449,7 @@ stopcor.org##.headerMain_socialList
 5-tv.ru##.headerSide ._links
 avtoblog.ua##.headerSoc
 tourdom.ru##.headerSoc a[target="_blank"]
+obozrevatel.com##.headerSocial
 ridlife.ru,ridus.ru##.headerSocials
 obozrevatel.com##.headerTopLine_socialItem > a:not([href*="obozrevatel.com/"])
 obozrevatel.com##.headerTopLine_socialItem > a:not([href*="obozrevatel.com/"]) ~ *
@@ -1503,6 +1504,7 @@ ilenta.com##.icon-social
 byxatab.com##.icon-telegram-plane
 byxatab.com##.icon-vk
 kinomania.kz##.icon_bar
+kino-teatr.ru##.icon_share
 whl.khl.ru##.iconbar > .icons > a[href*="khl.ru/"] ~ a:not([href*="khl.ru/"] )
 autopilot.ru,myweekend.ru##.iconbox__item--share
 tv21.ru##.icons.justify-right > a[target="_blank"]
@@ -1608,6 +1610,7 @@ newkaliningrad.ru##.links > li[style="padding: 0 12px"]
 imtw.ru##.links_coc
 inforuss.info,lentaruss.ru##.links_tel
 car.ru##.list-car-social-gray
+kommersant.ru##.list-grid__social
 dumatv.ru##.live-card--social
 cont.ws##.live-channel-notification
 championat.ru##.livejournal
@@ -1773,6 +1776,8 @@ mirf.ru##.news-share-btn
 censor.net##.news-social-wrapp
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.news-story__share
 obozrevatel.com##.newsFull_share
+obozrevatel.com##.newsFull_subscribe
+obozrevatel.com##.newsShare
 svoboda.te.ua##.newsSingle-share
 svoboda.te.ua##.newsSingle-soc
 inoprosport.ru##.news__block_social_wrap
@@ -3172,7 +3177,7 @@ glavpahar.ru##div > a[href="//www.facebook.com/GlavPahar"] ~ a
 glavagronom.ru##div > a[href="https://www.facebook.com/GlavAgronom/"]
 glavagronom.ru##div > a[href="https://www.facebook.com/GlavAgronom/"] ~ a
 censor.net##div.footer-social
-bloknot-astrakhan.ru,bloknot-gelendzhik.ru,bloknot-kamyshin.ru,bloknot-krasnodar.ru,bloknot-krymska.ru,bloknot-moldova.ru,bloknot-morozovsk.ru,bloknot-novorossiysk.ru,bloknot-rossosh.ru,bloknot-rostov.ru,bloknot-samara.ru,bloknot-shakhty.ru,bloknot-stavropol.ru,bloknot-taganrog.ru,bloknot-volgodonsk.ru,bloknot-volgograd.ru,bloknot-volzhsky.ru,bloknot-voronezh.ru,bloknot.ru,bloknotanapa.ru,bloknotlipetsk.ru,bloknotsaratov.ru,bloknotsochi.ru,bloknottambov.ru##div.socialblock
+bloknot-astrakhan.ru,bloknot-donetsk.ru,bloknot-gelendzhik.ru,bloknot-herson.ru,bloknot-kamyshin.ru,bloknot-krasnodar.ru,bloknot-krymska.ru,bloknot-lugansk.ru,bloknot-moldova.ru,bloknot-morozovsk.ru,bloknot-novorossiysk.ru,bloknot-odessa.ru,bloknot-rostov.ru,bloknot-shakhty.ru,bloknot-stavropol.ru,bloknot-taganrog.ru,bloknot-volgodonsk.ru,bloknot-volgograd.ru,bloknot-volzhsky.ru,bloknot-voronezh.ru,bloknot-zaporozhie.ru,bloknot.ru,bloknotanapa.ru,bloknotanna.ru,bloknotborisoglebsk.ru,bloknotsaratov.ru,bloknottambov.ru,sochi-bloknot.ru##div.socialblock
 tengrinews.kz##div.tn-shared
 hostingkartinok.com#?#div:-abp-has(> #vk_comments)
 gorod24.online,hostingkartinok.com,kinovidos.com,print-post.com,softbesplatno.net#?#div:-abp-has(> #vk_groups)
@@ -4408,7 +4413,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||forum.ixbt.com/rc_data.js
 ||forumkiev.com/flesh/
 ||forums.overclockers.ru^*/logo_forum.gif
-||fotki.yandex.ru/get/*/wind-hide.
 ||fotoinform.net/userfiles/images/donat.
 ||freekassa.com/banners/$domain=nnm-club.me|nnmclub.ro|nnmclub.to
 ||friday.ru/friday/js/adm_r.js
@@ -7777,8 +7781,6 @@ ekabu.ru#@#.icon-odnoklassniki
 ekabu.ru#@#.icon-twitter
 app2top.ru,tut.by#@#.icon-vk
 comunicart.ru,ekabu.ru#@#.icon-vkontakte
-bloknot-astrakhan.ru,bloknot-gelendzhik.ru,bloknot-kamyshin.ru,bloknot-krasnodar.ru,bloknot-krymska.ru,bloknot-moldova.ru,bloknot-morozovsk.ru,bloknot-novorossiysk.ru,bloknot-rossosh.ru,bloknot-rostov.ru,bloknot-samara.ru,bloknot-shakhty.ru,bloknot-stavropol.ru,bloknot-taganrog.ru,bloknot-volgodonsk.ru,bloknot-volgograd.ru,bloknot-volzhsky.ru,bloknot-voronezh.ru,bloknot.ru,bloknotanapa.ru,bloknotlipetsk.ru,bloknotsaratov.ru,bloknotsochi.ru,bloknottambov.ru,fotki.yandex.ru,music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz#@#.icon_share
-fotki.yandex.ru#@#.js-share
 sports.ru#@#.link-fb
 sports.ru#@#.link-instagram
 sports.ru#@#.link-tumblr
