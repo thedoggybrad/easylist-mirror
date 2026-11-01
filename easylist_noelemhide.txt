@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Xj5AAUWznM6tN2bMKdm0Sg
-! Version: 202611012012
+! Checksum: wFv4AuHnccOgJGmFvLAKxQ
+! Version: 202611012022
 ! Title: EasyList without element hiding rules
-! Last modified: 01 Nov 2026 20:12 UTC
+! Last modified: 01 Nov 2026 20:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -522,7 +522,7 @@
 /p?zoneId=
 /page-peel$~xmlhttprequest
 /pagead/1p-user-list/*$image
-/pagead/conversion.js$script
+/pagead/conversion.js|$script
 /pageear.js$script
 /pageear/*$script
 /pagepeel.$~xmlhttprequest
@@ -1092,7 +1092,7 @@ _prebid.js$script
 /120-600-
 /120-600.
 /120_600_
-/120x600-
+/120x600-$image
 /120x600.
 /120x600_
 /125x600-
@@ -8353,6 +8353,7 @@ _800x80_
 ||cn846.com^
 ||cnabusictviht.site^
 ||cnaqflcgqohiw.site^
+||cncxovfqdsnzg.site^
 ||cndhzrfxylfkj.site^
 ||cndkpvokgivtq.website^
 ||cndtwrowrxgpr.space^
