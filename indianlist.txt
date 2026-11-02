@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8rag1nivtABAkl5yy0jVYw
-! Version: 202611021712
+! Checksum: bw1wCQgmkf94erEKQrvErg
+! Version: 202611021722
 ! Title: IndianList
-! Last modified: 02 Nov 2026 17:12 UTC
+! Last modified: 02 Nov 2026 17:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10641,6 +10641,7 @@ theonlinepost.in#?#.inside-right-sidebar > .gb-container:-abp-contains(Advertise
 theonlinepost.in#?#div[id*="_O_"] div:-abp-has(> div > div > a> div *:-abp-contains(Ad |) )
 theonlinepost.in#?#div[id*="_O_"] div:-abp-has(> div > div > a> div *:-abp-contains(Ad:) )
 thesigmanews.com#?#div.wrapper-sticky div:-abp-has(> div.section-heading > span:-abp-contains(Advertisement))
+timesofbangla.in#?#div[class^="gb-element"]:-abp-properties(min-height)
 todaynewshindi.in#?#.sidebar-widget:-abp-has(h4:-abp-contains(Ads))
 topbihar.com#?#figure[class*="gb-block-image-ad"] + .gb-container:-abp-contains(Advertisement)
 topgulfnews.com#?#div[class^="gb-element"]:-abp-properties(min-height)
