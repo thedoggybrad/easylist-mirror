@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OmC0TUbn1GZmyckr2t19Eg
-! Version: 202611021302
+! Checksum: uNj3h+NRwHLGl3PB7sAN3A
+! Version: 202611021312
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 02 Nov 2026 13:02 UTC
+! Last modified: 02 Nov 2026 13:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7684,6 +7684,7 @@ russiatoday.ru###offers
 vk.com,vk.ru#?##spa_layout_content > div[style*="--vkui--z_index_popout"]:-abp-has([data-testid="feed_replaced_item_notify_modal"])
 russiatoday.ru###today-media-article
 hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##+js(abort-on-property-read, adOnClick)
+gamemag.ru##+js(abort-on-property-write, keepAdblock)
 russiatoday.ru##.Mirtesen-root
 2ip.io##.ad-container
 nikvesti.com##.adfree-strip
@@ -7694,6 +7695,7 @@ russiatoday.ru#?#.column__row_article-page_right:-abp-has(> div:empty)
 russiatoday.ru##.column__row_article-page_right:empty
 russiatoday.ru##.external-widget
 russiatoday.ru##.follows-channel_djen
+gamemag.ru##.gm-install
 russiatoday.ru##.hide--partner--block
 nikvesti.com##.nv-ad
 24tv.ua##.revive-block
