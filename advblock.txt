@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nq2pgtvaakQpV4G+cCLE6g
-! Version: 202611032142
+! Checksum: W5J5MRksI1z/VeDODBBPbw
+! Version: 202611032152
 ! Title: RU, UA, UZ, KZ
-! Last modified: 03 Nov 2026 21:42 UTC
+! Last modified: 03 Nov 2026 21:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25134,6 +25134,7 @@ championat.com,championat.ru,gazeta.press,gazeta.ru,lenta.news,lenta.ru##.banner
 lenta.news,lenta.ru##.banner + div[class][id]
 championat.com,championat.ru##.banner-announce
 championat.com,championat.ru##.banner-parallax
+championat.com,championat.ru##.banner-twz
 lenta.news,lenta.ru##.board__item._fonbet
 rambler.ru##.commercial-branding [id^="rambler-currency-converter-container:"] + div[class]
 rambler.ru##.commercial-branding article > div:only-child > div:first-child + div + div:last-child
@@ -25255,6 +25256,7 @@ rambler.ru##div[style^="order:"][style*="-1"]
 rambler.ru##rambler-info-banner
 nova.rambler.ru##section > article[class*=" Serp__item"]:not([class^=" Serp__item"])
 ||championat.*/embeds/custom.css
+||championat.*/fenwick/
 ||cpa-elements.rambler.ru/*/sdk.js
 ||embeds.rambler.ru/cpa-elements/
 ||embeds.rambler.ru/widgets/car-loan-calculator/sdk.js
