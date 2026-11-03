@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sScyzb8gMILUWKd93/ROSQ
-! Version: 202611031112
+! Checksum: wwZ+7Zi5GnzORkyIPG8vvg
+! Version: 202611031122
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Nov 2026 11:12 UTC
+! Last modified: 03 Nov 2026 11:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7688,7 +7688,6 @@ russiatoday.ru###offers
 vk.com,vk.ru#?##spa_layout_content > div[style*="--vkui--z_index_popout"]:-abp-has([data-testid="feed_replaced_item_notify_modal"])
 russiatoday.ru###today-media-article
 hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##+js(abort-on-property-read, adOnClick)
-gamemag.ru##+js(abort-on-property-write, keepAdblock)
 fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
 russiatoday.ru##.Mirtesen-root
 2ip.io##.ad-container
@@ -7714,6 +7713,7 @@ vk.com,vk.ru#?#.vkuiInternalGroup--mode-card > [role="feed"] > article:-abp-has(
 24tv.ua##[app-article-fuel]
 24tv.ua##[app-article-ita]
 24tv.ua##[app-article-partner-ad]
+respawn.media##[aria-label="Реклама"]
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-promo-post-hash])
 vk.com,vk.ru#?#[role="feed"] > article:-abp-has(> [data-post-id] [data-testid="post-header-coowners-title"])
 hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##body:style(background-color: #596c84 !important; background-image: none !important)
@@ -7727,6 +7727,7 @@ myfin.by##html,body:style(overflow: auto !important; padding-right: 0 !important
 ! сетевые правила
 ||b.myfin.by/x/?id=
 ||cdn.russiatoday.com/scripts/adfox/
+||gamemag.ru/assets/*/js/branding-fade.js
 ||myfin.by/ajax-communication/get-active-communication
 ||ru/content/stargate/*.gif$image,~third-party
 ||russiatoday.ru/nbc/
