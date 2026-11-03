@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vmN2zB4PBLqa+9R0z1iR0g
-! Version: 202611031042
+! Checksum: juX/QmtlT4RxWUB/py7BOA
+! Version: 202611031052
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Nov 2026 10:42 UTC
+! Last modified: 03 Nov 2026 10:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -241,6 +241,7 @@ ru##[title="Выбрать соцсеть для шаринга"]
 ##a[href^="https://connect.mail.ru/share"]
 ~ok.ru##a[href^="https://connect.ok.ru/offer?"]
 ~getpocket.com##a[href^="https://getpocket.com/save?url="]
+~max.ru##a[href^="https://max.ru/:share?text="]
 ~plus.google.com##a[href^="https://plus.google.com/share"]
 ~telegram.me,~telegram.org##a[href^="https://telegram.me/share/"]
 ~twitter.com##a[href^="https://twitter.com/home/?"]
@@ -2852,11 +2853,13 @@ shadowcore.ru##[aria-label="VK"]
 theuk.one##[aria-label="facebook"]
 xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##[aria-label="Баннер соцсети"]
 rg.ru##[aria-label="Наш Telegram"]
+dzen.ru,sportsdzen.ru##[aria-label="Нравится"] ~ [aria-label="Комментарии"] ~ div > button
 mivmeste.info##[aria-label="Панель соцсетей"]
 uznayvse.ru##[aria-label="Поделиться в социальных сетях"]
 2gis.by,2gis.kz,2gis.ru,domclick.ru,kanobu.ru,kommersant.ru,tass.ru,video.sports.ru,wink.ru##[aria-label="Поделиться"]
 rutube.ru##[aria-label="Присоединяйтесь в социальных сетях"]
 afisha.ru##[aria-label="Социальные сети"]
+dzen.ru,sportsdzen.ru##[aria-label] > a[href*=":share?text="]
 limehd.tv##[aria-label^="social-"]
 24tv.ua##[aria-label^="Под"][aria-label$="ся"]
 mos.ru##[aria-label^="Поделиться ссылкой"]
@@ -7686,6 +7689,7 @@ vk.com,vk.ru#?##spa_layout_content > div[style*="--vkui--z_index_popout"]:-abp-h
 russiatoday.ru###today-media-article
 hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##+js(abort-on-property-read, adOnClick)
 gamemag.ru##+js(abort-on-property-write, keepAdblock)
+fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
 russiatoday.ru##.Mirtesen-root
 2ip.io##.ad-container
 nikvesti.com##.adfree-strip
