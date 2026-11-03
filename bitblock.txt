@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Czq5IX8uo4ZlNjZBRxRBsw
-! Version: 202611031242
+! Checksum: 1wvuJpfiXBAAODLDrZEoZA
+! Version: 202611031252
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Nov 2026 12:42 UTC
+! Last modified: 03 Nov 2026 12:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7720,11 +7720,13 @@ hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##body:style(background-colo
 igra.evroopt.by##body:style(overflow: auto !important)
 novosti-n.org,russiatoday.ru##div[class*="banner"]
 russiatoday.ru##div[class^="Popup-"]
+sportnews.com.ua##div[class^="si"][class*="e-branding-"]
 game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id*="gagah"]
 game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorkacom.lib##div[id^="page_"] > br
 myfin.by##html,body:style(overflow: auto !important; padding-right: 0 !important)
 !
 ! сетевые правила
+/wp-content/uploads/*_1920x1080$image,domain=agronews.ua|agroreview.com|agroweek.com|growhow.in.ua|sportnews.com.ua
 ||b.myfin.by/x/?id=
 ||cdn.russiatoday.com/scripts/adfox/
 ||gamemag.ru/assets/*/js/branding-fade.js
