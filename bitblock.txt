@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vvFjNdvE4NTE8qFeHJTLKw
-! Version: 202611032132
+! Checksum: WviJAvR6v7kbi2Kk9ZZ0/A
+! Version: 202611032142
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 03 Nov 2026 21:32 UTC
+! Last modified: 03 Nov 2026 21:42 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5652,6 +5652,7 @@ armeniasputnik.am,sputnik-abkhazia.info,sputnik-abkhazia.ru,sputnik-georgia.com,
 ua-football.com##.gn-subscribe-wrapper
 facenews.ua##.gnews
 fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,filmpotok.ru,kinomuch.ru,nebeda.net,pickfilm.ru,veleto.ru,vixim.ru##.go_to_bug
+sport.ua##.google-cta-preferred
 24tv.ua,comments.ua,enovosty.com,expert.in.ua,kyiv.media,proshokino.com.ua##.google-news
 bigkyiv.com.ua,bykvu.com##.google-news-block
 24.cv.ua,sho.org.ua##.google-news-feed
@@ -7684,11 +7685,16 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! которые невозможно применить в uBOL до выхода новой версии
 !
 ! косметические правила и скриплеты
+! news
+fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
+lenta.news,lenta.ru##.board__item._fonbet
+lenta.news,lenta.ru##.fonbetTopStickyBarWidget
+lenta.news,lenta.ru##.giveaway-banner
+! ---
 russiatoday.ru###offers
 vk.com,vk.ru#?##spa_layout_content > div[style*="--vkui--z_index_popout"]:-abp-has([data-testid="feed_replaced_item_notify_modal"])
 russiatoday.ru###today-media-article
 hlamer.ru,qanime.ru,sersoap.ru,smartkino.ru,zseek.ru##+js(abort-on-property-read, adOnClick)
-fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
 russiatoday.ru##.Mirtesen-root
 2ip.io##.ad-container
 nikvesti.com##.adfree-strip
@@ -7726,6 +7732,9 @@ game4you.top,innal.top,naylo.top,rustorka.com,rustorka.net,rustorka.top,rustorka
 myfin.by##html,body:style(overflow: auto !important; padding-right: 0 !important)
 !
 ! сетевые правила
+! news
+||lenta.*/assets/webpack/images/giveaway/$domain=lenta.news|lenta.ru
+! ---
 /wp-content/uploads/*_1920x1080$image,domain=agronews.ua|agroreview.com|agroweek.com|growhow.in.ua|sportnews.com.ua
 ||b.myfin.by/x/?id=
 ||cdn.russiatoday.com/scripts/adfox/
