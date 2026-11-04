@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611041912
+! Version: 202611041917
 ! Title: EasyPrivacy
-! Last modified: 04 Nov 2026 19:12 UTC
+! Last modified: 04 Nov 2026 19:17 UTC
 ! Expires: 4 days (update frequency)
-! Commit: fd9f51a7b44c287524696f7cadff761506dafa93
+! Commit: 3398e071978674b1cea2dddfbfa22f6c443928f3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14930,6 +14930,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dco.coupang.com^
 ||dtr-onsite-feed.datarize.ai^
 ||event.hackle.io^
+||js-error-tracer-api.cafe24.com^
 ||log.adplex.co.kr^
 ||log.cizion.com^
 ||log.mofa.go.kr^
@@ -14941,6 +14942,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mtag.mman.kr^
 ||naver.com/mcollector/
 ||ngc1.nsm-corp.com^
+||ntm.pstatic.net/ex/nlog-v2.js
+||ntm.pstatic.net/ex/nlog.js
 ||performanceplay.co.kr^
 ||realtime-profiling.datarize.ai^
 ||recobell.io/rest/logs?
