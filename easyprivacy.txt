@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611040458
+! Version: 202611040511
 ! Title: EasyPrivacy
-! Last modified: 04 Nov 2026 04:58 UTC
+! Last modified: 04 Nov 2026 05:11 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 522a29baf2b50ce8010f78a0af4ffc93fd1db086
+! Commit: dd18d2f95f8e7b6a2ad12525d2021c676eba6c78
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -55281,6 +55281,8 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||analytics.rambla.be^
 ||api.beleggersbelangen.nl//api/statistics/
 ||api.rtl.nl/monitoring/
+||araba.nl/__l5e/events.$script
+||araba.nl/~api/analytics
 ||azerty.nl/ambannerslider/analytic/
 ||bc34.wijnvoordeel.nl^
 ||bol.com/tracking/
