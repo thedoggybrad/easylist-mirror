@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611041856
+! Version: 202611041912
 ! Title: EasyPrivacy
-! Last modified: 04 Nov 2026 18:56 UTC
+! Last modified: 04 Nov 2026 19:12 UTC
 ! Expires: 4 days (update frequency)
-! Commit: cb2001a7fe53b404dcf96c5d0c412eea38144239
+! Commit: fd9f51a7b44c287524696f7cadff761506dafa93
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -228,6 +228,7 @@
 /alog.min.js
 /alog/dp.min.js
 /amazon_linker.min.js
+/amc.gif?
 /amp-access/cta/*
 /amp-access/cta?
 /amp-access/ping?
@@ -2712,6 +2713,7 @@
 /v1/stats/track
 /v1/tracker.js
 /v1/viewport_events
+/v1/vitals?
 /v2/pv-data?
 /v4/analytics/*$~xmlhttprequest
 /v4/metrics
@@ -10250,6 +10252,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adpick.co.kr^$third-party
 ||adtive.com^$third-party
 ||aicontents.net^$third-party
+||alphwidget.com^$third-party
 ||contentsfeed.com^$third-party
 ||dawin.tv^$third-party
 ||logger.co.kr^$third-party
@@ -14919,6 +14922,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adlc-exchange.toast.com^
 ||applog.ssgdfs.com^
 ||assets.datarize.ai^
+||assets.poxo.com/jet/jet.js
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cm-exchange.toast.com^
