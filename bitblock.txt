@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jY4lJFo+OamN8BcaJ9afHA
-! Version: 202611040752
+! Checksum: zFcfNjZN2FsefiC31FvqBg
+! Version: 202611040803
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 04 Nov 2026 07:52 UTC
+! Last modified: 04 Nov 2026 08:03 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1662,7 +1662,6 @@ www.kinopoisk.ru##.media-page-layout__content > div[class*="body-wrapper"] > div
 kinomania.ru##.media-page-share
 kinomania.ru##.media-page-telegram
 s13.ru##.megasocial
-freetp.org,freetp.ru##.menu > a[title*="FreeTP"]
 football-ukraine.com##.menu > li > noindex
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.menu > li ~ li[class*="top_menu  "]
 babyblog.ru##.menu-footer > a[href^="https:"]:not([href*="babyblog.ru/"])
@@ -5629,6 +5628,8 @@ mind.ua##.footer_new-support
 olx.kz,olx.ua,olx.uz##.footerapps
 trudbox.com.ua##.form-group > .popover-yellow > .popover
 zefix.online,zeflix.online,zetfix.online,zetflix-online.link##.fpage > noindex
+freetp.org,freetp.ru##.ftp-dl-donate
+freetp.org,freetp.ru##.ftp-donate-strip
 ritsatv.ru##.full-kino-info
 onlinetrade.ru##.fullWidth_bnr
 moya-planeta.ru##.full_object_shop_article_recommend
@@ -7024,8 +7025,6 @@ zoom.cnews.ru##noindex > .article_insert
 cnews.ru##noindex > .event_list
 compromat.group##noindex > a[href="/antizapret.html"]
 relizua.com##noindex > center > a[href][target="_blank"]
-freetp.org,freetp.ru##noindex > div[style^="background: #f5f5f5"]
-freetp.org,freetp.ru##noindex > div[style^="background: #f5f5f5"] ~ a
 online-kassa.ru##ok-callback
 anti-malware.ru##p > [href="/news/feed"]
 7info.ru#?#p:-abp-has(> a[href^="https://news.google.com/publications/"])
