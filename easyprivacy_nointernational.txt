@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: lMwmu6l7X819oYmBuNhVkQ
-! Version: 202611040522
+! Checksum: pFOPj/Gx7JyjystySPvkfw
+! Version: 202611040532
 ! Title: EasyPrivacy without international filters
-! Last modified: 04 Nov 2026 05:22 UTC
+! Last modified: 04 Nov 2026 05:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6886,6 +6886,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api-visitor-analytics.intercom.com^
 ||api.audio.com/analytics/event
 ||api.channel.io/*/events
+||api.community.fox.com/*/metrics
 ||api.deepai.org/log_stat
 ||api.doodle.com/data-layer/track
 ||api.ffm.to/sl/e/$image
@@ -7839,6 +7840,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logs.netflix.com^
 ||logx-experimentation.iherb.com^
 ||logx.optimizely.com^
+||loki-ingest.fox.com^
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lookawoman.com/t/
 ||lookfantastic.ie/track
@@ -8193,6 +8195,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||privacypolicies.com/track/
 ||private.wccftech.com^
 ||prod-events.nykaa.com^
+||prod-foxkit.kts.fox^
 ||progressive.com/Log/
 ||projectmultatuli.org/analytics/
 ||promos.investing.com/*/digibox.gif?
