@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Gv3KQEXq1yaReUw2yhMKnQ
-! Version: 202611050511
+! Checksum: Q/zhfMFO6Di0eYv0YjKCZQ
+! Version: 202611050521
 ! Title: EasyList without rules for adult sites
-! Last modified: 05 Nov 2026 05:11 UTC
+! Last modified: 05 Nov 2026 05:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -65625,6 +65625,7 @@ variety.com###jwplayer_xH3PjHXT_plsZnDJi_div
 jigzone.com###jz
 ceoexpress.com###kalamazooDiv
 msguides.com###kknbnpcv
+kohls.com###kmn-brand-spotlight
 kohls.com###kmn-featured-carousel
 kohls.com###kmn-more-to-consider
 kohls.com###kmnbanner-pencil_bottom-anchor
@@ -73127,6 +73128,7 @@ walmart.*##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 engadget.com##li.min-h-\[88px\]:has(> [data-test="streamad"])
 pixiv.net##li.overflow-hidden:has(> .pt-0 > [style$="width: 300px; height: 250px;"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
+walgreens.com##li.product-grid-item:has(.sponsored-badge)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
 kohls.com##li.products_grid:has(p.piq-sponsored)
 streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
