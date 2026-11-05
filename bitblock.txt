@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vSRae1XeJ5xq20BZqzDR4Q
-! Version: 202611050912
+! Checksum: P7efYsH/viwKuDXZFLk6Cw
+! Version: 202611050922
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 05 Nov 2026 09:12 UTC
+! Last modified: 05 Nov 2026 09:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -5396,7 +5396,6 @@ so-wiki.ru##.cn-Premium
 canyon.ua##.cn-cookies
 terabit.biz##.cnt2l
 nv.ua##.collection_form__container
-rbc.ru#?#.column-central-plus-side > div[id^="article-block-"] ~ div[id^="article-block-"] article > [class*="stroke"]:-abp-has(> [data-name] [href^="https://events.rbc.ru/"])
 silver.ru#?#.column:-abp-has(> div[class^="banner"]:first-child)
 sports.ru#?#.columns-layout__left > .aside-news-block:-abp-has(> h3 > [href*="/news/bet/"])
 prostotech.com##.comments > .content_adv
@@ -6688,6 +6687,7 @@ bet.ua##app-subscribe-form
 sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://specials.sports.ru/"])
 sports.ru#?#article > .news-item__content > p:-abp-has(a[href^="https://trbna.co/"])
 animaunt.org##article > .sub-info > .button
+rbc.ru#?#article > [class*="stroke"]:-abp-has(> [data-name="VideoShowcase"])
 it-actual.ru##article > footer > div[class]:not(.post-ratings)
 anitube.in.ua##article > noindex
 www.ukr.net#?#article > section:-abp-has(> div > div > a[href*="://drive.google.com/"])
