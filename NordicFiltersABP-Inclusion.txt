@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ehx7uUNxZS+EsHD2nN1ebw
-! Version: 202611050511
+! Checksum: 0H6Ce12u28j7p1dV+4SVgw
+! Version: 202611050521
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 05 Nov 2026 05:11 UTC
+! Last modified: 05 Nov 2026 05:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -74903,6 +74903,7 @@ variety.com###jwplayer_xH3PjHXT_plsZnDJi_div
 jigzone.com###jz
 ceoexpress.com###kalamazooDiv
 msguides.com###kknbnpcv
+kohls.com###kmn-brand-spotlight
 kohls.com###kmn-featured-carousel
 kohls.com###kmn-more-to-consider
 kohls.com###kmnbanner-pencil_bottom-anchor
@@ -82405,6 +82406,7 @@ walmart.*##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 engadget.com##li.min-h-\[88px\]:has(> [data-test="streamad"])
 pixiv.net##li.overflow-hidden:has(> .pt-0 > [style$="width: 300px; height: 250px;"])
 walgreens.com##li.owned-brands:has(figure.sponsored)
+walgreens.com##li.product-grid-item:has(.sponsored-badge)
 macys.com##li.productThumbnailItem:has(.sponsored-items-label)
 kohls.com##li.products_grid:has(p.piq-sponsored)
 streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
@@ -83312,6 +83314,7 @@ noon.com#?#.swiper-slide:has-text(Sponsored)
 noon.com#?#span[class*="productContaine"]:has(div:has-text(Sponsored))
 nordstrom.com#?#article:has(.Yw5es:has-text(Sponsored))
 nordstrom.com#?#ul[style^="padding: 0px; position: relative;"] > li[class]:has-text(Sponsored)
+nordstromrack.com#?#[data-container-type="product-grid"] article:has-text(Sponsored)
 nzherald.co.nz#?#section.section-chain--triple-image:has-text(Property news from OneRoof)
 nzherald.co.nz#?#section:has-text(Partner content)
 perplexity.ai#?#.py-sm.group:has-text(Sponsored)
