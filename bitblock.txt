@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5Rjwn+5ogiWHdJQXiv18tA
-! Version: 202611061652
+! Checksum: UfMg+t16aBA/o6+v/mvbmw
+! Version: 202611061702
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 06 Nov 2026 16:52 UTC
+! Last modified: 06 Nov 2026 17:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4290,6 +4290,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 /_parallax.js$script,domain=news.mail.ru
 /alert.js$script,domain=news.mail.ru
 /api/*/feedback/nps/check$xmlhttprequest,domain=mail.ru
+/api/related/*?limit=$xmlhttprequest,domain=ixbt.com|ixbt.games
 /bootstrap.min.js$domain=cvnews.cv.ua|ifnews.org.ua|lvnews.org.ua|rvnews.rv.ua|tenews.org.ua|uanews.org.ua
 /control?path=_Common/PayWall&aid=$domain=gd.ru
 /controls/_common/paywall.js$domain=hr-director.ru|kdelo.ru|law.ru|normobr.ru|sekretaria.ru|spravkadrovika.ru
@@ -6536,6 +6537,7 @@ my.ua##[data-policy-wrapper]
 5ka.ru##[data-qa="cookies"]
 livejournal.com,periskop.su,shakko.ru##[data-react-mark-10k-subscribers]
 livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[data-react-rcm-block]
+ixbt.com,ixbt.games##[data-related-block][class*="data-adv-component"]
 ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget="island"]:-abp-has(> div > [data-widget="seasonWidget"])
 mail.google.com##[data-rp-onramp-input]
 anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
