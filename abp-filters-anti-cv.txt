@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: dv1rIo1e84IPM4jpKy7xdA
-! Version: 202611061702
+! Checksum: HxEGPilt6ziQ+CtkRMyl8Q
+! Version: 202611061712
 ! Title: ABP filters
-! Last modified: 06 Nov 2026 17:02 UTC
+! Last modified: 06 Nov 2026 17:12 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1360,6 +1360,7 @@ hk01.com#$#abort-on-property-write YXNfZXNzZW50aWFsaGswMS5jb20; abort-on-propert
 ||seriouseats.com^$csp=script-src-attr 'none'
 seriouseats.com#$#json-override isActive false applyRatio
 seriouseats.com#$#json-override isActive false isUnregistered
+seriouseats.com#$#replace-outbound-value Array.prototype.join '/([[]"is",[a-zA-Z0-9_$]+[(][0-9]+[)]][[][a-zA-Z0-9_$]+[(][0-9]+[)]][(]""[)];if[(]![a-zA-Z0-9_$.]+[[][a-zA-Z0-9_$]+[(][0-9]+[)]]&&!1)===(?=[a-zA-Z0-9_$]+[(][a-zA-Z0-9_$]+,[a-zA-Z0-9_$]+[)][)]return )/' '$1!=='
 ||content-loader.com^$script,domain=kurir.rs
 ||html-load.com^$script,domain=kurir.rs
 ||dxniuftypzlky.cloudfront.net^$script,domain=kurir.rs
@@ -2074,7 +2075,7 @@ player.videasy.*,vidy.*#$#prevent-element-src-loading script /\/scripts\/ab\\.js
 ||vidsuper.net/api/script.js^$script,third-party,domain=cinevibe.to
 epicplayplay.*#$#abort-current-inline-script document.createElement /fakeelement/
 watchserieshd.*#$#abort-current-inline-script JSON.parse '/break;case \\$/'
-cinemove.cc,cloudnestra.com,embdmstrplayer.com,thedaddy.pk,knaben.*,moviepire.*,myflixerfree.com,lurvian.space,seeflix.*,stellarthread.com,tvsportslive.*,viprow.*#$#abort-on-property-read aclib false
+cinemove.cc,cloudnestra.com,embdmstrplayer.com,thedaddy.*,knaben.*,moviepire.*,myflixerfree.com,lurvian.space,seeflix.*,stellarthread.com,tvsportslive.*,viprow.*,strcsh.xyz,audioz.download,savefiles.com,missflight.net,grandemx.org,bembed.sbs,uqload.*,desicinema.se,dramavideo.se,torupload.com,stellar.rip,streame.center,totalsporteki.st,totalsportekhd.st,cricwatch.*,tennisonline.*,posamari.me,sportfusion.me,nbabox.*,dartsstreams.me,soccerbox.*,thetvapp.plus,fbstream.*,dollardescent.net,mappl.tv,lightflix.app,mapple.*,embed.st,executeandship.com,embedindia.st,strikeout.*,boxingbox.*,rugbybox.*,nflbox.*,f1live.*,ninguno.cc,mmabox.*,olympiclive.me,olympicweb.*,sportsonlinee.*,sportsonline.*,4k.beer,streamcash.to,anime.uniquestream.net,cine.su,nepu.*,vidzy.cc,fs16.lol,porneec.com,asiaflix.*,streamtape.com,yts.*,filecrypt.*,strumyk.*,powwideo.*,hornysimp.com,futemax.at,pahe.ink,foulembeds.live,smksports.*,fileditchfiles.me,dorawatch.one,streamingworld.xyz,streami.su,streamed.*,visualnewshub.com,cloudfam.io,thepibay.*,bypass.city,eztvx.to,ext.to,vidsrc.cc,sanet.st,yifysubtitles.ch,vinovo.to,livesporthub.shop,dstelemundo.site,7fractals.icu,epicplayplay.cfd,goalstreamer.shop,streameast7.com,buffztreamz.shop,rippleplay.shop,shd247.click,antenasport.top,gamestrend.net,exposestrat.com,embedsports.top,seir-sanduk.com,embedtv-5.icu,daddylive3.com,sterham.net,animeunity.*,vixcloud.*,buffsports.io,soccerstreams7.com,loadvid.com,telewizjada.top,ogladaj.in,istreameast.app,streamingnow.mov,watchug.to,primewire.tf,worldsports.si,veplay.top,colegialasdeverdad.*,cuttyy.com,puffytr.com,anizm.*,anizle.*#$#abort-on-property-read aclib false
 10short.com,16bit.pl,adslink.pw,afroditscans.com,androidonepro.com,atglinks.com,bitcomarket.net,boost.ink,caroloportunidades.com.br,charexempire.com,cinemitas.org,cineplus123.org,clipconverter.cc,cool-etv.net,downarchive.org,elnovelerovariadito.com,embedsports.me,exe-links.com,fakedetail.com,file-upload.org,flexyhit.com,forum.release-apk.com,getintopcm.com,gidplayer.online,intereseducation.com,itopmusics.com,jockantv.com,kick4ss.com,lilymanga.net,lookmovie2.to,lrepacks.net,lulustream.com,luluvdo.com,luluvdoo.com,luluvid.*,manhwa68.com,milfzr.com,miraculous.to,mp3.pm,nhlbox.me,niadd.com,noromax.my.id,nxbrew.net,ogladajanime.pl,oii.la,onepiecepower.com,pahe.plus,playertv.net,rahim-soft.com,rawkuma.com,savefiles.com,serielatinobobesponja.com,shahiid-anime.net,ssyoutube.com,stfly.biz,streamlord.com,tapewithadblock.org,topcartoons.tv,torrentmac.net,tpi.li,turkish123.com,tvserieslatino.com,up-4ever.net,upload-4ever.com,uzaymanga.com,veev.to,waploaded.com,wmovies.org,yeppuu.com,youtubevanced.com,animeblkom.net,cety.app,comando.la,dattebayo-br.com,hinatasoul.com,kimoitv.com,limpaso.com,mywatchseries.cyou,ouo.press,telepisodes.org,shinden.pl,arbitrarydecisions.com,bysevepoin.com,doodstream.com,cuty.io,exe.io,akwam.ss,animeunity.co,apkmody.mobi,godamh.com,drkegylive.xyz,animejara.com,hexload.com,komikindo.ch,leercapitulo.co,mega4upload.net,nbabox.im,nflbox.sx,ridomovie.to,ruyamanga2.com,emucodes7.blogspot.com,torrentdosfilmes-v2.xyz,witanime.net,filmoviplex.net,sflix.*,720pstream.*,hianimez.*,uqload.*,vidsrc2.*,movies4u.*,faselhds.*,mlwbd.*,olympicstreams.*,filecrypt.*,hianime.*,tranimaci.*,streamcloud.*,crackstreams.*,daddylivehd.*,cuevana3.*,streamsport.*,animesup.*,mangarawjp.*,9tsu.*,123moviesfree.*,putlockers.*,gdplayer.*,atomohd.*,buffstreams.*,gdtot.*,2embed.*,cima4u.*,shrink.*,filma24.*,moviesjoy.*,hhdmovies.*,hindilinks4u.*,topflix.*,watchmovie.*,watchseries.*,superflix.*,losmovies.*,123movieshub.*,gogoanime.*,anime4up.*,myflixer.*,filmyzilla.*#$#abort-current-inline-script document.createElement '/break;case \\$/'; abort-on-property-read open
 tabootube.to#$#prevent-listener click popMaigc
 /money.js$domain=cinemora.ru
