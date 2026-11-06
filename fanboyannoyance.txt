@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611061210
+! Version: 202611061215
 ! Title: Fanboy's Annoyance List
-! Last modified: 06 Nov 2026 12:10 UTC
+! Last modified: 06 Nov 2026 12:15 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c207fdeaf5d51d5adae36631ecdff6c5386aa72d
+! Commit: 1688841bfcf86e0612609d37dfbeea5883fbbc18
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -47056,6 +47056,7 @@ ertflix.gr##div[data-test="cookie-policy"]
 ! 
 ! ---------- Hebrew ----------
 ! 
+photonics.com###BOX_CookiePolicy
 alfaromeo.co.il,hongqi.co.il###C_popup
 beitberl.ac.il,malamteam.com,shimur.org###MavilixCookiesBox
 calendar.2net.co.il###UseCookies
@@ -47149,6 +47150,7 @@ guidestar.org.il##.app-cookies-disclaimer-container
 infiniti-cars.co.il##.c_128
 erez-stern.co.il##.cadre_alert_cookies
 aloni-alum.co.il,iballoon.co.il,solar-click.co.il,sorag.co.il##.cbox-wrap
+cruiseit.co.il##.cc-backdrop
 ladaat.co##.ck-cookie-banner
 nooa.co.il##.cmplz-cookiebanner
 israelpost.co.il##.cookie-agreement
@@ -47158,6 +47160,7 @@ deasy.co.il,easygo.co.il##.cookieMessage
 icomp.co.il##.cookieagry
 novelsat.com##.cookiepopup
 gesher-theatre.co.il##.cookies-approval-strip-wrapper
+maariv.co.il##.cookies-notice-container
 bug.co.il##.cookies-policy-modal-container
 pazgas.co.il##.cookies-popup-overlay
 ackerstein.co.il,adkan.org.il,eliasi.co.il,frid.co.il,hayeruka-ks.co.il,industry.org.il,lovenroses.co.il,mashkar.co.il,millenniumac.co.il,paradive.co.il,simply-smart.com,yamitspark.co.il##.cookies13wrap
@@ -50641,6 +50644,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||vps2day.com/wp-content/plugins/complianz-gdpr/core/assets/js/cookieconsent.min.js$~third-party
 @@||washingtonpost.com/gdpr-consent/$subdocument,xmlhttprequest
 @@||wasing.co.uk/global/cookie/$~third-party
+@@||websight.co.il^*/cookieBanner.js$script,~third-party
 @@||webtic.it/js/cookieconsent-init.js
 @@||wefashion.com/on/demandware.static/*/cookieBanner.js
 @@||wesendit.com/lib/cookieconsent.min.js$~third-party
