@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r83fG22zYWNE8qK7bRj+BA
-! Version: 202611061352
+! Checksum: 2Z1nAb1P3u0EwTfeOU/W1Q
+! Version: 202611061403
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 06 Nov 2026 13:52 UTC
+! Last modified: 06 Nov 2026 14:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -36213,6 +36213,7 @@ browsershots.org#@#.advert_area
 ||fqiaizkfzuqgs.online^
 ||fqigelecyvfdx.online^
 ||fqikownbkcti.com^
+||fqiouceqvfjpa.website^
 ||fqiwqjppxejkk.space^
 ||fqkbodkrmldxs.online^
 ||fqkrlarigtylp.site^
@@ -55945,6 +55946,7 @@ browsershots.org#@#.advert_area
 ||spitefulmotor.com^
 ||spjrfcogai.com^
 ||spjtlgxmhogip.space^
+||spkeokimt.com^
 ||spklmis.com^
 ||spkvmszihgzei.space^
 ||splashfailed.com^
@@ -72961,6 +72963,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||cript.to/dlm.png
 ||cript.to/z-
 ||crn.com.au/scripts/js_$script
+||cvs.com/*?q=get*ButterflyProducts
 ||cybernews.com/images/tools/*/banner/
 ||cyberscoop.com/advertising/
 ||daily-sun.com/assets/images/banner/
@@ -82299,6 +82302,7 @@ walmart.*##div[id*="SponsoredProductCarousel"]
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="button"]:has(.c_3eP-badge-content)
 momondo.*##div[role="button"][tabindex="0"]:has(div.c_3eP-badge-content)
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="link"]:has(.c_3eP-badge-content)
+skyscanner.*##div[role="listitem"]:has(button[data-testid="adInfoBtn"])
 autoscout24.*##img[referrerpolicy="unsafe-url"]
 deliveroo.*##li:has(> [class^="MenuItemCard"] [data-testid="sponsored-ad-tag"])
 sameday.costco.*##li:has([aria-label="Product"]):has([data-fp-eligible]):not(:has(h2))
@@ -83574,6 +83578,7 @@ costco.com#?#[data-testid="shoppable-list-container"]:has-text(Spons)
 cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:has-text(Sponsored)
 cruisecritic.com#?#.block:has(a[data-tracking]:has-text(Sponsored))
 cvs.com#?#div[class*="flex-col"]:has(>h2:has-text(Sponsored))
+cvs.com#?#div[id^="product-tile-"]:has(div[dir="auto"]:has-text(Sponsored))
 deccanherald.com#?#div#container-text:has-text(ADVERTISEMENT)
 deccanherald.com#?#span.container-text:has-text(ADVERTISEMENT)
 decrypt.co#?#span:has-text(AD)
