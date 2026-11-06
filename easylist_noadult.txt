@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SIGLyE5tAX0JkkX54CF1rA
-! Version: 202611061352
+! Checksum: qY7ELtwLebhS2fTuuxTAjA
+! Version: 202611061402
 ! Title: EasyList without rules for adult sites
-! Last modified: 06 Nov 2026 13:52 UTC
+! Last modified: 06 Nov 2026 14:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -28491,6 +28491,7 @@ browsershots.org#@#.advert_area
 ||fqiaizkfzuqgs.online^
 ||fqigelecyvfdx.online^
 ||fqikownbkcti.com^
+||fqiouceqvfjpa.website^
 ||fqiwqjppxejkk.space^
 ||fqkbodkrmldxs.online^
 ||fqkrlarigtylp.site^
@@ -48223,6 +48224,7 @@ browsershots.org#@#.advert_area
 ||spitefulmotor.com^
 ||spjrfcogai.com^
 ||spjtlgxmhogip.space^
+||spkeokimt.com^
 ||spklmis.com^
 ||spkvmszihgzei.space^
 ||splashfailed.com^
@@ -64393,6 +64395,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||cript.to/dlm.png
 ||cript.to/z-
 ||crn.com.au/scripts/js_$script
+||cvs.com/*?q=get*ButterflyProducts
 ||cybernews.com/images/tools/*/banner/
 ||cyberscoop.com/advertising/
 ||daily-sun.com/assets/images/banner/
@@ -73019,6 +73022,7 @@ walmart.*##div[id*="SponsoredProductCarousel"]
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="button"]:has(.c_3eP-badge-content)
 momondo.*##div[role="button"][tabindex="0"]:has(div.c_3eP-badge-content)
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="link"]:has(.c_3eP-badge-content)
+skyscanner.*##div[role="listitem"]:has(button[data-testid="adInfoBtn"])
 autoscout24.*##img[referrerpolicy="unsafe-url"]
 deliveroo.*##li:has(> [class^="MenuItemCard"] [data-testid="sponsored-ad-tag"])
 sameday.costco.*##li:has([aria-label="Product"]):has([data-fp-eligible]):not(:has(h2))
