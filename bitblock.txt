@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jxtQIKMtML6+3XOnqkTVrA
-! Version: 202611071212
+! Checksum: a0NxL9NShIt9GsVmhRU4ag
+! Version: 202611071222
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Nov 2026 12:12 UTC
+! Last modified: 07 Nov 2026 12:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4404,6 +4404,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||effect.habr.com/a
 ||egida.by/js/snow/
 ||elektrikii.ru/.s/wid/
+||embeds.rambler.ru/ai-chat/sdk.js
 ||europaplustv.com^*/background/main/
 ||experts-exchange.com^*/scripts/
 ||fabulae.ru/js/jsbat.js
@@ -7697,6 +7698,7 @@ dp.ua##.ad
 championat.com,championat.ru##.banner-twz
 byrutgame.org##.game-window__open
 lenta.news,lenta.ru##.giveaway-banner
+rambler.ru#?#.slider-list > .slide:-abp-has(> div > div > [id^="capirs-"])
 oper.ru##.vip-banner
 lenta.news,lenta.ru##[class*="fonbet"]
 igra.evroopt.by##body:style(overflow: auto !important)
