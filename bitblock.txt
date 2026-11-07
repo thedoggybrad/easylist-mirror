@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JZYmCtPfX5H6FrgYbsvw0Q
-! Version: 202611071202
+! Checksum: jxtQIKMtML6+3XOnqkTVrA
+! Version: 202611071212
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 07 Nov 2026 12:02 UTC
+! Last modified: 07 Nov 2026 12:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7695,11 +7695,10 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
 dp.ua##.ad
 championat.com,championat.ru##.banner-twz
-lenta.news,lenta.ru##.board__item._fonbet
-lenta.news,lenta.ru##.fonbetTopStickyBarWidget
 byrutgame.org##.game-window__open
 lenta.news,lenta.ru##.giveaway-banner
 oper.ru##.vip-banner
+lenta.news,lenta.ru##[class*="fonbet"]
 igra.evroopt.by##body:style(overflow: auto !important)
 myfin.by##html,body:style(overflow: auto !important; padding-right: 0 !important)
 !
@@ -7708,6 +7707,7 @@ myfin.by##html,body:style(overflow: auto !important; padding-right: 0 !important
 /yi5n0iht7?$third-party,xmlhttprequest
 ||byrutgame.org/templates/byrut_upd/modules/game-window/
 ||championat.*/fenwick/
+||factors.championat.com/api/*/banners/
 ||lenta.*/assets/webpack/images/giveaway/$domain=lenta.news|lenta.ru
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
