@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CpL4yapCcbJqiWMfyUfZfQ
-! Version: 202611072241
+! Checksum: dV4/vP6cvDIw2nDSs/3+5w
+! Version: 202611072252
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 07 Nov 2026 22:41 UTC
+! Last modified: 07 Nov 2026 22:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -57692,6 +57692,7 @@ browsershots.org#@#.advert_area
 ||tfb7jc.de^
 ||tfbwbzmzisbif.online^
 ||tfcjednruptmp.site^
+||tfcnxspcpgorn.site^
 ||tfepsjmtyqaln.website^
 ||tfflrmlygarjj.online^
 ||tfhfrwaiwjbrb.space^
@@ -63686,6 +63687,7 @@ browsershots.org#@#.advert_area
 ||xtkdqvzjgggkz.site^
 ||xtlixnkiasbrs.space^
 ||xtmhzidqppsit.online^
+||xtmnvwyoeurbg.site^
 ||xtmwxdibqcgzh.site^
 ||xtnltaiulkhid.site^
 ||xtntsaqdlflhb.space^
@@ -82086,7 +82088,9 @@ web.telegram.org##div.bubbles > div.scrollable > div.bubbles-inner > div.is-spon
 gearspace.com##div.deal__unit
 easypet.com##div.kt-inside-inner-col > div.wp-block-kadence-rowlayout
 baking-forums.com,windows10forums.com##div.message--post.message
+producthunt.com##div.my-4.flex-1.rounded-md.border-2.border-gray-200
 thehackernews.com##div.rocking
+producthunt.com##div.rounded-lg.bg-gray-50.p-3
 tld-list.com##div.row > .text-center > .ib
 ccvaults.com##div.sidebar-slide-in.md\:block.hidden
 home.cricketwireless.com##div.skeleton.block-item
@@ -83225,6 +83229,7 @@ cars.com##li[data-phx-id]:has([phx-value-source="sponsored_trending_search_card"
 canadiantire.ca##li[data-testid="product-grids"]:has(.nl-product-card__sponsored)
 aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"])
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
+producthunt.com##main > div:has(> div.-mt-px.justify-end.pr-4)
 classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.com"]))
 duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
 argos.co.uk##section.ds-c-carousel:has(span[class*="sponsoredBadge"])
@@ -84249,6 +84254,8 @@ w3schools.com###tryitLeaderboard ~ #container {top:48px;}
 w3schools.com##.trytopnav {top:0;}
 wunderground.com##.content-wrap #inner-wrap {height:100vh;}
 yourdictionary.com##.header {top:0;}
+! :xpath
+producthunt.com#?#[data-test^="homepage-section-"] > section[data-container]:xpath(self::*[not(contains("0123456789", substring(normalize-space(.),1,1)))])
 ! *** easylist:easylist_adult/adult_specific_hide.txt ***
 amateur8.com###A8-Under-Video
 virtuagirlgirls.com###DynamicBackgroundWrapper
