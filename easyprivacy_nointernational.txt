@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 709yxs7gwKVA8F0TomUBGg
-! Version: 202611081912
+! Checksum: 1hzoizZFpDgsj8Pav2RUEQ
+! Version: 202611081921
 ! Title: EasyPrivacy without international filters
-! Last modified: 08 Nov 2026 19:12 UTC
+! Last modified: 08 Nov 2026 19:21 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -382,6 +382,7 @@
 /api/sentry/tunnel$xmlhttprequest
 /api/stat?
 /api/stn/audience|$xmlhttprequest
+/api/t/gtm/*
 /api/track?guid
 /api/trk?
 /api/v1/EndpointTracker
@@ -1576,6 +1577,7 @@
 /metrics/bambuser.min.js
 /metrics/event?
 /metrics/ga.js
+/metrics/ga/*
 /metrics/init?
 /metrics/onload
 /metrics/ping?
@@ -2180,6 +2182,7 @@
 /sfCounter/*
 /sfdc/networktracking.js
 /sftouch?branchId=
+/sgtm/g/*
 /sgtracker.js
 /shared/sentry/*
 /sherlock.gif?
@@ -2417,6 +2420,7 @@
 /tagging?env=
 /tagmanager/event?
 /tagmanager/pptm.js
+/tagmetrics/*
 /tags.js?org_id=
 /tailtarget.js
 /talpa-analytics-pro/*
@@ -3555,6 +3559,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.clickfunnels.com/assets/pushcrew.js
 ||app.clickfunnels.com/assets/userevents/application.js
 ||app.clickfunnels.com/cf.js
+||app.factori.ai/personica.js
+||app.lifesight.io/personica.js
 ||app.link/_r?$script,third-party
 ||app.octaneai.com/get_analytics_engine/
 ||app.opmnstr.com/v2/geolocate/
@@ -5239,6 +5245,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
 ||pixel.nudgify.com^
+||pixel.profound.click^
 ||pixel.propublica.org^
 ||pixel.pub.lilyai.net^
 ||pixel.quantserve.com^
