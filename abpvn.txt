@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WxJ8mJovGWs6l5074yOzQQ
-! Version: 202611081451
+! Checksum: 0v3lJBD+YVzQT7mI3flM0A
+! Version: 202611081502
 ! Title: ABPVN List
-! Last modified: 08 Nov 2026 14:51 UTC
+! Last modified: 08 Nov 2026 15:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 08 Nov 2026 10:12:18 UTC+7
-! Diff-Path: patches/20261108101218393.patch#abpvn
+! Last modified: 08 Nov 2026 22:00:40 UTC+7
+! Diff-Path: patches/20261108220040477.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -1070,8 +1070,11 @@ quatvn.best##body>div[style^="position: fixed;"]
 rphang.show###aboveFirstPost
 rphang.show##.bbMediaWrapper-inner>.samCodeUnit
 rphang.show##.js-replyNewMessageContainer.block-body>div.samCodeUnit>.samItem
+rphang.show##.p-body-pageContent>.samCodeUnit
 rphang.show##.p-footer
 rphang.show##.samVideoOverlay
+rphang.show##.topmobileads
+rphang.show##body>.samCodeUnit
 rphang.show##div.samCodeUnit[data-position="footer_fixed"]
 rphang.show##div.samItem:has(video.topmobileads)
 sayhentai.cx#@#.c-ads
