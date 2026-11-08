@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: yFFYp3ls/N9DA+vr8VFkYw
-! Version: 202611082112
+! Checksum: BHQ0yVQVpolRGHQOqZtW1w
+! Version: 202611082122
 ! Title: EasyPrivacy without international filters
-! Last modified: 08 Nov 2026 21:12 UTC
+! Last modified: 08 Nov 2026 21:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -853,6 +853,7 @@
 /dynamicyield/*
 /dynaTraceMonitor?
 /e.gif?
+/e?k=*&v=$image
 /e_stat?g_id=
 /eatms.js
 /ecanalytics.js
@@ -2714,6 +2715,7 @@
 /v.gif?
 /v1/adn/visit|
 /v1/events/publish|
+/v1/external/visitor|
 /v1/log/web-vitals$xmlhttprequest
 /v1/pixel.js
 /v1/pixel?
@@ -3139,7 +3141,7 @@ _WebVitalsReporter_
 /tag/proxy?id=G-
 ://gtm.*.js?st=
 ://load.*.js?st=$~third-party
-://sgtm.*.js?
+://sgtm.
 ://tagging.*.js?aw=
 ://tagging.*/settings.js
 ! Taggrs.io
