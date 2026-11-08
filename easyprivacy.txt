@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611082221
+! Version: 202611082238
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 22:21 UTC
+! Last modified: 08 Nov 2026 22:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 89cc610835aef627ddb4605592dbb6a6d853aec6
+! Commit: cb41de35af8d9408fb02d6fae40493270e90fd0b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10966,6 +10966,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.optibase.io^
 ||app.partnerboost.com/brand/track.2.0.min.js
 ||app.pendo.io/data/$image
+||app.planhat.com/analytics/plantrack.min.js
 ||app.posthog.com/e/?compression=
 ||app.posthog.com/e/?ip=
 ||app.posthog.com/static/array.js
@@ -12367,6 +12368,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mfilterit.net^$third-party
 ||mgmlcdn.com/stats/
 ||minutemediacdn.com/campaign-manager-client/
+||mirakl.net/mtag.min.js
 ||mixpanel.com/track?
 ||mj-snowplow-static-js.s3.amazonaws.com^
 ||mkcms.com/stats.js
@@ -14217,6 +14219,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||orbidder.otto.de^
 ||ottogroup.media/ogm.nitro.
 ||owen.prolitteris.ch^
+||p.marktplaats.net^
 ||pixel.poptok.com^
 ||plausible.ams.to^
 ||plista.com/getuid?
