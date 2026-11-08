@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611082332
+! Version: 202611082345
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 23:32 UTC
+! Last modified: 08 Nov 2026 23:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4534abcfa69e305f88f3d7090a3c852778d17d43
+! Commit: 5df818513206325519977a41c71f50b3beffae77
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4463,6 +4463,7 @@ omni.soundestlink.com$image
 ||cbtrk.net^$third-party
 ||cccpmo.com^$third-party
 ||ccgateway.net^$third-party
+||ccmbg.com^$third-party
 ||ccscserver.com^$third-party
 ||cdn-net.com^$third-party
 ||cdnlibjs.com^$third-party
@@ -4697,6 +4698,7 @@ omni.soundestlink.com$image
 ||dmpprof.com^$third-party
 ||dmtracker.com^$third-party
 ||dmxleo.com^$third-party
+||dn-analytics.alketech.eu^
 ||dnsdelegation.io^$third-party
 ||doceree.com^$third-party
 ||doclix.com^$third-party
@@ -11227,6 +11229,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.cuty.io/fps.js
 ||cdn.debugbear.com^$third-party
 ||cdn.dfsdk.com^
+||cdn.drda.io/scripts/analytics/
 ||cdn.fonts.net/t/1.css?
 ||cdn.lr-hv-in.com/logger.min.js
 ||cdn.ltba.io^
