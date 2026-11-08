@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611082233
+! Version: 202611082245
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2026 22:33 UTC
+! Last modified: 08 Nov 2026 22:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f789afc25f923c2f1fdf120ca33fdadd8c2de0e6
+! Commit: d836902c1c756e9c650c8b750c8d9bde3fb8c41c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2986,6 +2986,7 @@
 ://l.*/counter.php?id=$script,~third-party
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
+://load.sgtm.
 ://matomo.$domain=~matomo.dhjensen.dk|~matomo.org
 ://metrics-collector.
 ://mint.*/?js
@@ -10738,6 +10739,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-fe.digital-cloud-prem.medallia.eu^
 ||analytics-fe.digital-cloud.medallia.ca^
 ||analytics-fe.digital-cloud.medallia.com^
+||analytics-fe.digital-cloud.medallia.eu^
 ||analytics-ipv6.tiktokw.us^
 ||analytics-prd.aws.wehaa.net^
 ||analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com^
@@ -10966,6 +10968,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.optibase.io^
 ||app.partnerboost.com/brand/track.2.0.min.js
 ||app.pendo.io/data/$image
+||app.planhat.com/analytics/plantrack.min.js
 ||app.posthog.com/e/?compression=
 ||app.posthog.com/e/?ip=
 ||app.posthog.com/static/array.js
@@ -16573,6 +16576,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||massivecams.com/api/metrics
 ||masterclass.com/qz6s/
 ||mat6tube.com/api/stats?
+||matalan.co.uk/track
 ||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||mcc-tags.cisco.com^
 ||mcdonalds.com/tags/js/*/mparticle.js
