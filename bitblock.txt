@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rPMiwi7CMg37nMeB3L4pyQ
-! Version: 202611081314
+! Checksum: /dz+qQmb8b3rGvKzrs9pFA
+! Version: 202611081322
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 08 Nov 2026 13:14 UTC
+! Last modified: 08 Nov 2026 13:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -732,8 +732,10 @@ topwar.ru#?#.alert_in:-abp-has(> div > p > strong > a[href^="https://t.me/"])
 inopressa.ru##.alignright .alignleft > div[style^="height: 120px"]
 life.ru##.amp-footer--wrapper > .amp-left-block ~ li
 kinoafisha.info##.anonsHeader_chat
+usm.media##.app-blog__widgets-content > .app-widget ~ .app-widget
 tv3.ru##.app-footer--social
 tv3.ru##.app-header--social
+usm.media#?#.app-widget:-abp-has(> .app-widget__soc-link)
 mirtesen.ru##.app.blog-post-page .blog-post__share
 russia.ru##.append-other-applecations
 lk.rt.ru##.application-footer_superfooter_social
@@ -1551,6 +1553,7 @@ svoboda.org##.js-btn-sharing-overlay
 xcom-shop.ru##.js-footer-social-link
 livemaster.ru##.js-item-toggle-share-menu
 nn.ru##.js-ngs-share-button
+usm.media##.js-open-sharing
 drive2.ru##.js-page .offer .c-share__label
 interesnoevmire.ru,ladyclub.org##.js-share-link
 pdalife.com.ua,pdalife.to##.js-sharing
@@ -2761,6 +2764,7 @@ informburo.kz##.whatsapp-promo
 newsauto.com.ua##.whatsapp_footer
 newsauto.com.ua##.whatsapp_head
 kaifolog.ru##.whitesocial
+tass.ru##.widge_opened
 incrypted.com##.widget-area
 animaunt.org##.widget-btn-container
 ukrmilitary.com##.widget-content > table > tbody > tr > td[align="right"]
@@ -6770,6 +6774,7 @@ autonews.ru,rbcautonews.ru##div.app-link
 agents.media#?#div:-abp-has(> #trigger_donate)
 korsars.pro#?#div:-abp-has(> .med > [src*="://yoomoney.ru/"])
 dailystorm.ru#?#div:-abp-has(> .notice)
+shuba.life#?#div:-abp-has(> [src^="https://shuba.life/static/build/img/google-news."])
 dnpr.com.ua,gorodovoy.ru,kirov.online,mc.today,mir24.tv,nashemisto.dp.ua,shuba.life,teknoblog.ru#?#div:-abp-has(> a[href^="https://news.google.com/publications/"])
 fontanka.ru#?#div:-abp-has(> div > [href^="https://news.google.com/publications/"])
 ampercar.com#?#div:-abp-has(> em > a[href^="https://news.google.com/publications/"])
