@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611090402
+! Version: 202611090415
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2026 04:02 UTC
+! Last modified: 09 Nov 2026 04:15 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 02e7552bee91ecd55d4518c0d9ad79a83174ab89
+! Commit: 375f4cceb99b14184d250f5ce0363637588495da
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2732,6 +2732,7 @@
 /uutils.fcg?
 /v.gif?
 /v1/adn/visit|
+/v1/care/engagement/ux/bundle.js?
 /v1/events/publish|
 /v1/external/visitor|
 /v1/log/web-vitals$xmlhttprequest
@@ -2988,6 +2989,7 @@
 ://elqtrk.
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.services|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtm-server.
 ://gtm-tagging.
 ://gtm.prd.
 ://gtm.prod.
