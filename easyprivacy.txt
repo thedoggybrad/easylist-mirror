@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611090253
+! Version: 202611090302
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2026 02:53 UTC
+! Last modified: 09 Nov 2026 03:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a65a30080db66459f792a03f0f33c323ec4cb7ce
+! Commit: 0d18fa0043d81569d2f525066d663fb35c46320c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2986,6 +2986,7 @@
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.services|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm-tagging.
+://gtm.prd.
 ://gtm.prod.
 ://gtrack.*/dye
 ://insights-collector.
@@ -15646,6 +15647,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arttrk.com/pixel/
 ||as.coinbase.com/metrics
 ||asanalytics.booking.com^
+||asaptickets.com/tracker/
 ||asb.co.nz/analytics/
 ||asset.d5techs.com/script/track.min.js
 ||asset.d5techs.com/script/utm.min.js
@@ -17044,6 +17046,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.wayfair.com^
 ||s.yimg.com/rx/ev/*/pframe.html$domain=aol.com
 ||s.yimg.com/ss/analytics-$script,domain=yahoo.com
+||s4vrsde.www.arturia.com^
 ||sa.uswitch.com^
 ||saa.insideedition.com^
 ||samsung.com/us/web/internal/logger
