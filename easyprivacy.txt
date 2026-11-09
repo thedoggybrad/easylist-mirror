@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611090018
+! Version: 202611090026
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2026 00:18 UTC
+! Last modified: 09 Nov 2026 00:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6927e2a98605e415474af4998a634b364ff0d885
+! Commit: 2e45e0b05260a73b011e50144bf07946f7dd44a1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2191,6 +2191,7 @@
 /SessionHit.aspx?
 /set-cookie.gif?
 /set_cookie.php?
+/set_cookie?val=
 /set_optimizely_cookie.js
 /set_tracking.js
 /sf-recommendations-events-listener.js
@@ -2407,6 +2408,7 @@
 /svs.gif?
 /sw.js?origin=
 /sw/analytics.js
+/sw_iframe.html?origin=
 /swa_t.gif?
 /swatag.js
 /swell-ct-ad-data
