@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zqcm+qk5oOHN+sxKEzaeIA
-! Version: 202611091822
+! Checksum: z5VFhXVFcwXQIVDcmhkAgw
+! Version: 202611091832
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 09 Nov 2026 18:22 UTC
+! Last modified: 09 Nov 2026 18:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -44692,6 +44692,7 @@ browsershots.org#@#.advert_area
 ||mmjpvdrhgjfyj.space^
 ||mmjytuhyxkcje.space^
 ||mmkhhxfkjkcgt.online^
+||mmksracaonlsd.site^
 ||mmm5l.com^
 ||mmmcatalyst.com^
 ||mmmdn.net^
@@ -80240,6 +80241,7 @@ bier-universum.*##.abc-wrapper
 leroymerlin.*##.arm-dss-content-sponsored
 flashscore.*,flashscoreusa.com,livescore.*,soccer24.com##.banner
 yandex.*##.business-card-title-view__advert
+emag.*##.card-item[data-aid]
 emag.*##.card-item[data-url="ref=sponsored_"]
 douglas.*##.cms-container:has([data-testid="CriteoAdFormatCategoryView"])
 douglas.*##.criteo-product-carousel
@@ -80590,10 +80592,12 @@ beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenw
 realnarrativenews.com##[aria-label="Advertisement"]
 cars.com##[aria-label="Listings"] li:has(card-gallery[card-link*="?attribution_type"])
 tiktok.com##[class*="ArticleItemContainer"]:has([data-e2e="ad-tag"])
+pexels.com##[class*="GridLayout_item"]:has(img[src*="media.istockphoto.com/"])
 priceline.com##[class*="ListingCardWrapper"]:has([class*="PromoText"])
 freshdirect.com##[class*="ProductsGrid_grid_item"]:has([data-testid="marketing tag"])
 petco.com##[class*="atapult-styled"]:has([data-ad-source])
 livejournal.com##[class*="categories"] + div[class]:has(> [class*="-commercial"])
+pixabay.com##[class*="cell--"]:has([role="link"]:not(a))
 noon.com##[class*="container"]:has(> [class*="adModuleWrapper"])
 noon.com##[class*="container"]:has([data-qa="widget_adBannerModule"])
 petco.com##[class*="rmn-banner"]:has([class*="SponsoredText"])
@@ -80706,6 +80710,7 @@ fandomwire.com##div:has(> [data-openweb-ad])
 doordash.com##div:has(> a[data-anchor-id="SponsoredStoreCard"])
 regex101.com##div:has(> div > a > div[style*="/static/assets/sponsors/"])
 openalternative.co##div:has(> div > a[href^="/advertise"]):has(> a[target="_blank"])
+pixabay.com##div:has(> div > button):has(> div > div > [role="link"] > img)
 tripadvisor.*##div:has(> div > div[class="ui_column ovNFo is-3"])
 openalternative.co##div:has(> div > h2 > a[href="/advertise"])
 producthunt.com##div:has(> div.-mt-px.justify-end.pr-4)
@@ -82236,6 +82241,7 @@ hdtube.porn##.below-player-wrapper > noindex > a[target="_blank"]
 porndoe.com##.below-video
 cockdude.com##.beside-video-ver2
 wapbold.com,wapbold.net##.bhor-box
+directstripper.com##.big-spot
 hqporner.com##.black_friday
 babestare.com##.block
 alphaporno.com,tubewolf.com##.block-banner
@@ -82431,6 +82437,7 @@ xpics.me##.future
 hdtube.porn##.g-col-banners
 teenextrem.com##.g-link
 nightdreambabe.com##.g-owner-banner
+directstripper.com##.gallery-button
 youx.xxx##.gallery-link
 xxxonxxx.com,youtubelike.com##.gallery-thumbs
 porngamesverse.com##.game-aaa
@@ -82786,7 +82793,7 @@ drtuber.com##.spot_button_m
 3movs.com,japan-whores.com##.spot_large
 momvids.com##.spot_panel
 pornmeka.com##.spot_wrapper
-drtuber.com,thisvid.com,vivatube.com,xxbrits.com##.spots
+directstripper.com,drtuber.com,thisvid.com,vivatube.com,xxbrits.com##.spots
 pornid.name,pornid.xxx##.spots-bottom
 rat.xxx##.spots-title
 sexvid.xxx##.spots_field
@@ -82958,6 +82965,7 @@ pornid.xxx##.wrap-cs
 playporn.xxx,videosdemadurasx.com##.wrap-spot
 pornrabbit.com##.wrap-spots
 xjav.tube##.wrapper > article
+directstripper.com##.wrapper > center > a[href*="/go/"]
 abjav.com,aniporn.com,bdsmx.tube,upornia.tube##.wrapper > section
 porn300.com##.wrapper__related-sites
 upornia.com,upornia.tube##.wssvkvkyyee
