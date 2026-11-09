@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611090302
+! Version: 202611090318
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2026 03:02 UTC
+! Last modified: 09 Nov 2026 03:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0d18fa0043d81569d2f525066d663fb35c46320c
+! Commit: 8da6f04a03be8f19919db46be1451ef196ff19a3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -107,6 +107,7 @@
 /?compression=*&ip=
 /?dm=*&blogid=$script
 /?essb_counter_
+/?l=gtmDataLayer
 /?livehit=
 /?log=experiment&
 /?log=performance-
@@ -2179,6 +2180,8 @@
 /server.php?request=track&output=
 /server/detect.php?
 /service/track?
+/service_worker/6al0/sw.js
+/service_worker/6al0/sw_iframe.html
 /services/pixel.html?
 /services/t/l?referrer=
 /servlet/Cookie?
@@ -5782,6 +5785,7 @@ omni.soundestlink.com$image
 ||pushauction.com^$third-party
 ||pushspring.com^$third-party
 ||pvd.to^$third-party
+||pvdpix.com^$third-party
 ||pxaction.com^$third-party
 ||pxf.io^$image,script,third-party
 ||pxi.pub^$third-party
