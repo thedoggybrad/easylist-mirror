@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: yNGp52dvkhe5rcCOzw5WRA
-! Version: 202611082351
+! Checksum: gvm7Pe9Vb7UeYqj1OmTa+Q
+! Version: 202611090002
 ! Title: EasyPrivacy without international filters
-! Last modified: 08 Nov 2026 23:51 UTC
+! Last modified: 09 Nov 2026 00:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -375,6 +375,7 @@
 /api/metrics/collect
 /api/metrics/event
 /api/notify-track$ping
+/api/otlp/trace
 /api/pageactivity
 /api/pageview/*$ping
 /api/pageview?
@@ -384,6 +385,7 @@
 /api/sentry/tunnel$xmlhttprequest
 /api/stat?
 /api/stn/audience|$xmlhttprequest
+/api/t/c|
 /api/t/gtm/*
 /api/track?guid
 /api/trk?
@@ -3637,6 +3639,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.jimstatic.com/at.js
 ||assets.minutemediacdn.com/mm-cwv-tracker/
 ||assets.moneymade.io/js/fp.min.js
+||assets.sprocket.bz/trackers/
 ||assets.trendii.com/pixel/main.js
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
@@ -5883,6 +5886,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tag.rmp.rakuten.com^
 ||tag.statshop.fr^
 ||tag.unifyintent.com^
+||tag.web.onesdata.com^
 ||tagger.opecloud.com^
 ||tagging.conde.digital^
 ||tagging.shiftdigitalapps.io^
