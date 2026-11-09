@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611090433
+! Version: 202611090448
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2026 04:33 UTC
+! Last modified: 09 Nov 2026 04:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c2c2c598a47be48999829d8d1da5d0dbf01d915d
+! Commit: 2b1d8bb6035962a06eba676945d2d7494c943098
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -15248,6 +15248,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.rum.cdnvideo.ru^
 ||stat.sputnik.ru^
 ||stat.tvigle.ru^
+||statad.ru/tracker.js
 ||statistics.fppressa.ru^
 ||stats-*.p2pnow.ru^
 ||stats.tazeros.com^
@@ -55753,6 +55754,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||j1.ax.xrea.com^
 ||k-crm.jp/tracking.js
 ||kabu-sokuhou.com/js/cpv/
+||knshow.com/ab?
 ||kojima.net/excludes/KPC/js/kjm_gtm.js
 ||korewaeroi.com/fukugan_$subdocument
 ||link.tv-asahi.co.jp/tver/cookiesync?
