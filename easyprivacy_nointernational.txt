@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: PU2VFNwd8Kmx2QoAwXhOzg
-! Version: 202611090332
+! Checksum: 4Y9D1rqa0wmXWO56MAoocg
+! Version: 202611090342
 ! Title: EasyPrivacy without international filters
-! Last modified: 09 Nov 2026 03:32 UTC
+! Last modified: 09 Nov 2026 03:42 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4075,6 +4075,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contentdriver.com/api/impression
 ||contently.com/xdomain/
 ||control.cityofcairns.com^$third-party
+||conversions.flowcode.com/pixel-tracker/
 ||conversions.genieventures.co.uk^
 ||convertflow.co^*/visitors/
 ||convertkit.com^*/visit
@@ -4752,6 +4753,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jotform.io/getReferrer/$third-party
 ||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
 ||js.dashfi.net/dashfinet-analytics.js
+||js.eruptr.io/epd.js
 ||js.go2sdk.com/v2/tune.js
 ||js.verisoul.ai^
 ||jscache.com/static/page_moniker/
@@ -5187,6 +5189,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.jmlp.app^
 ||p.metrilo.com^
 ||p.placed.com^
+||p.relay-t.io/wh.js
 ||p.sa7eer.com^
 ||p.skimresources.com^
 ||p.tryretool.com^
@@ -5354,6 +5357,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||privacy.outdoorsg.com^
 ||processor.asccommunications.com^
 ||prod.benchmarkemail.com/tracker.bundle.js
+||prod.empathy.co/public/visit
 ||prod.ew.srp.navigacloud.com^
 ||prod.fennec.atp.fox^
 ||prod.tahoe-analytics.publishers.advertising.a2z.com^
@@ -5367,6 +5371,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pt.crossmediaservices.com^
 ||pt.dwcdn.net^
 ||pt.ispot.tv^
+||pt.wisernotify.com^
 ||ptsc.shoplocal.com^
 ||pub.pixels.ai/metrics-lib.js
 ||pub.sheknows.com^
@@ -5433,6 +5438,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||raygun.io/ping?
 ||rayn.io/contextual_targeting
 ||rbl.ms/res/users/tracking/
+||rcdn.kervinteractive.com/pixels/
 ||reach-id.orbit.tm-awx.com^
 ||readcube.com/assets/track_
 ||realm.hearst3pcc.com^
@@ -6984,6 +6990,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||asanalytics.booking.com^
 ||asaptickets.com/tracker/
 ||asb.co.nz/analytics/
+||assemblymag.com/4f8s/
 ||asset.d5techs.com/script/track.min.js
 ||asset.d5techs.com/script/utm.min.js
 ||assets.aliexpress-media.com/g/AWSC/*/collina.js$script,domain=aliexpress.com|aliexpress.us
@@ -6992,6 +6999,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.engoo-static.com/tracking.js
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.s-bol.com/AppMeasurement-
+||astroved.com/avdatavault/
 ||ats.alot.com^
 ||att.com/scripts/adobe/prod/marketing.min.js
 ||audacy.com/data-events/
@@ -8210,6 +8218,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plausible.omgapi.org^
 ||plausible.safing.io^
 ||plausible.tubemagic.com^
+||play.astrogame.org/qw4d/
 ||player-cdn.com/cdn-cgi/trace
 ||player-telemetry.vimeo.com^
 ||player.instaread.co/js/inarticle-metrics.js
