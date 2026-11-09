@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: eiZ9kuhZl9lAV+w4lYQkhw
-! Version: 202611090022
+! Checksum: GB+tnVPmoCNDvTe/QmvrMA
+! Version: 202611090032
 ! Title: EasyPrivacy without international filters
-! Last modified: 09 Nov 2026 00:22 UTC
+! Last modified: 09 Nov 2026 00:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2187,6 +2187,7 @@
 /SessionHit.aspx?
 /set-cookie.gif?
 /set_cookie.php?
+/set_cookie?val=
 /set_optimizely_cookie.js
 /set_tracking.js
 /sf-recommendations-events-listener.js
@@ -2403,6 +2404,7 @@
 /svs.gif?
 /sw.js?origin=
 /sw/analytics.js
+/sw_iframe.html?origin=
 /swa_t.gif?
 /swatag.js
 /swell-ct-ad-data
