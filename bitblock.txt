@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: C0HESkM/z+HO/ewYvmZvmw
-! Version: 202611100952
+! Checksum: 4PJx7zAeGQiFyoH30atV4w
+! Version: 202611101003
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 10 Nov 2026 09:52 UTC
+! Last modified: 10 Nov 2026 10:03 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -784,7 +784,7 @@ volodymyrets.city##.article-slider-img-gallery-social
 4mama.ua##.article-social-header
 www.sport.ru##.article-social-imgs
 vedomosti.ru##.article-tools__tool--social
-1prime.ru##.article__aggr
+1prime.ru,ria.ru##.article__aggr
 mk.ru#?#.article__body p:-abp-has(> a[href^="https://max.ru/"])
 progroshi.news,proukraine.news##.article__btn
 kherson.net.ua##.article__btn[data-soc]
@@ -3079,7 +3079,6 @@ ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,o
 ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,org,pub,rest,rezka.*,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .b-tg__wrapper
 ac,ag,biz,buzz,by,city,club,co,com,fi,hdrezka.*,in,ink,kim,la,loan,me,name,net,org,pub,rest,rezka.*,run,sh,si,so,space,su,today,tv,vip,website,win##.has-brand .vk-group
 afisha.yandex.ru,afisha.yandex.*##div[data-component="Footer_Socials"]
-allcarz.ru,gazeta.spb.ru,liveball.my,liveball.uno,liveball.*,repost.uz,runews24.ru,yarnews.net##.tg
 dp.ru##app-article-social-discussion
 bet.ua##app-follow-us
 football24.ua##app-news-share
@@ -3422,6 +3421,7 @@ voshod-solnca.ru#?#footer div:-abp-has(> .footer__column-header ~ #vk-footer)
 obukhiv.info#?#footer div:-abp-has(> a[href*="://t.me/"])
 eda.ru#?#footer div:-abp-has(> div > [title="vkontakte"])
 fontanka.ru#?#footer div:nth-child(5):-abp-has([href^="https://vk.com/fontanka"])
+gazeta.spb.ru,liveball.my,liveball.uno,liveball.*,repost.uz,runews24.ru,yarnews.net##.tg
 google-cloud.services,spac.me,spaces.im,spcs.bio,strip2.co,strip2.*,usersporn.com##.js-share_buttons
 google.ru,google.*##form[role="search"] + div > [role="button"][aria-label]
 om1.ru#?#h1:-abp-contains(/в соцсетях/)
@@ -5086,6 +5086,7 @@ meduza.io##.Footer-module-app
 myshows.me##.Footer__apps
 meduza.io##.InfoPanel-informer
 sinoptik.ua##.ItOHEpcj
+meduza.io##.LayoutSwitch-module-informer
 vkvideo.ru##.LeftMenuAppPromo
 vkvideo.ru##.MenuList__item--recommendation
 lunda.ru##.MessagePopupView
