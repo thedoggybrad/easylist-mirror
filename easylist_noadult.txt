@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7ExBNBU90B8rFusm4M+0ow
-! Version: 202611101720
+! Checksum: d+fVWT+rD+Pkx4e+0Z//eg
+! Version: 202611101728
 ! Title: EasyList without rules for adult sites
-! Last modified: 10 Nov 2026 17:20 UTC
+! Last modified: 10 Nov 2026 17:28 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -54418,6 +54418,7 @@ browsershots.org#@#.advert_area
 ||ycxxulehaukaw.website^
 ||ycyxddmy.com^
 ||yczpwjtvggloo.online^
+||ydbglhqwywrns.site^
 ||ydcjrqvjveneo.online^
 ||ydduszefhnscz.website^
 ||ydiiowyprhnyz.online^
@@ -70691,7 +70692,6 @@ vnkb.com##a[href^="https://vnkb.com/e/"]
 1280wnam.com##a[href^="https://wistatefair.com/fair/tickets/"]
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##a[href^="https://ww44.affinity.net/"]
 ancient-origins.net,anisearch.com,catholicculture.org,lewrockwell.com,ssbcrack.com##a[href^="https://www.amazon."][href*="tag="]
-gamepadla.com##a[href^="https://www.amazon.com/"] + div + picture
 wjbc.com##a[href^="https://www.farmweeknow.com/rfd_radio/"]
 magic1069.com##a[href^="https://www.fetchahouse.com/"]
 coachhuey.com##a[href^="https://www.hudl.com"]
@@ -71585,10 +71585,6 @@ justwatch.com##.offer-container:has(.promotion-row_container)
 pollunit.com##.owl-carousel:has(.carousel-ad)
 nicomanga.com##.owl-stage > .owl-item:has([title="ADS Support"])
 property24.com##.p24_tileContainer:has([src^="/Content/images/Optimized/Icons/icon_tag_tile.svg?"])
-gamepadla.com##.pMain:has(a[href^="/go/"])
-gamepadla.com##.pMain:has(div[class^="asd_"])
-gamepadla.com##.pMain:has(div[title="Partner placement"])
-gamepadla.com##.panel-container:has(.media-header-row-item)
 thefederal.com##.pb-3 > .col-xl-3.col-lg-6.col-md-6:has(> [id^="ad_slot"])
 andronicos.com,haggen.com,randalls.com##.pc-grid-prdItem:has(span[data-qa="prd-itm-spnsrd"])
 sainsburys.co.uk##.pd-merchandising-product:has(.product-header--citrus[data-testid="product-header"])
@@ -71793,6 +71789,7 @@ doordash.com##div:has(> a[data-anchor-id="SponsoredStoreCard"])
 regex101.com##div:has(> div > a > div[style*="/static/assets/sponsors/"])
 openalternative.co##div:has(> div > a[href^="/advertise"]):has(> a[target="_blank"])
 pixabay.com##div:has(> div > button):has(> div > div > [role="link"] > img)
+gamepadla.com##div:has(> div > div > a[href^="/visit/"][href*="cmp=slider"])
 tripadvisor.*##div:has(> div > div[class="ui_column ovNFo is-3"])
 openalternative.co##div:has(> div > h2 > a[href="/advertise"])
 producthunt.com##div:has(> div.-mt-px.justify-end.pr-4)
