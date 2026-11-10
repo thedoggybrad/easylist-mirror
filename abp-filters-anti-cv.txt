@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: 8ddMch40rBzIvny/SKoJrA
-! Version: 202611102122
+! Checksum: wB0UiWRL5tojgP9zs4QZoQ
+! Version: 202611102132
 ! Title: ABP filters
-! Last modified: 10 Nov 2026 21:22 UTC
+! Last modified: 10 Nov 2026 21:32 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2089,8 +2089,6 @@ m.youtube.com##.video-ads.ytp-ad-module
 www.youtube.com#$#hide-if-matches-xpath '//ytd-rich-item-renderer[./div[@id="content"]/ytd-ad-slot-renderer/div[@id="fulfilled-layout"]/ytd-in-feed-ad-layout-renderer/div[@id="rendering-content"]/video-display-full-layout-view-model//feed-ad-metadata-view-model[.//ad-badge-view-model[following-sibling::ad-details-line-view-model]]]'
 youtube.com#@##sticker-layer
 www.youtube.com#$#hide-if-matches-xpath './/img[@alt][@style]/parent::div[@class="ytImageStickerHost"]/ancestor::yt-overlay-sticker/parent::div'; hide-if-matches-xpath './/img[@alt][@style]/parent::div[@class="ytImageStickerHost"]/ancestor::yt-overlay-sticker'
-www.youtube.com#$#hide-if-matches-xpath '//a[@rel="nofollow"][starts-with(@href,"https://")][not(contains(@href,"youtube.com"))]/ancestor::node()[.//video][1][count(.//a[starts-with(@href,"/watch")]) < 5]/ancestor-or-self::node()[preceding-sibling::node()[name()] or following-sibling::node()[name()]][1][count(.//a[starts-with(@href,"/watch")]) < 5]'
-www.youtube.com#$#hide-if-matches-xpath '//a[@rel="nofollow"][starts-with(@href,"https://")][not(contains(@href,"youtube.com"))]/ancestor::node()[.//a[starts-with(@href,"/watch")]][1]/ancestor-or-self::node()[preceding-sibling::node()[.//a[starts-with(@href,"/watch")]//img] or following-sibling::node()[.//a[starts-with(@href,"/watch")]//img]][1][count(.//a[starts-with(@href,"/watch")]) < 5]'
 ! yt/tv
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
