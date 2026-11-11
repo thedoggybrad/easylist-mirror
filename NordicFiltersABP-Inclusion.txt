@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ATYc9wyZYfpI14P20sEqoQ
-! Version: 202611112233
+! Checksum: W0AV2HULWQO9BvlqqIM1wA
+! Version: 202611112242
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 11 Nov 2026 22:33 UTC
+! Last modified: 11 Nov 2026 22:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -45600,6 +45600,7 @@ browsershots.org#@#.advert_area
 ||mttkrmejmzbpu.space^
 ||mtueecezoqlmx.site^
 ||mtwataveihajz.space^
+||mtwfocbhbulit.online^
 ||mtwsraeaglikg.online^
 ||mtxjnuslfrkgs.website^
 ||mtxuhmtkyqpte.site^
@@ -66133,6 +66134,8 @@ browsershots.org#@#.advert_area
 ||samsungacr.com^
 ! anime47.com / nettruyen.com
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
+! Rotating gTLD media endpoints (random alpha label, /digits/digits/letter)
+/^https?:\/\/[a-z]{10,}\.(cfd|click|cyou|online|pro|qpon|rest|shop|site|space|store|top|website|xyz)\/\d{6,}\/\d{6,}\/[a-z]$/$media,third-party
 ! IP addresses
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
