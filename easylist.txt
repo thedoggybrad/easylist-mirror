@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611112225
+! Version: 202611112234
 ! Title: EasyList
-! Last modified: 11 Nov 2026 22:25 UTC
+! Last modified: 11 Nov 2026 22:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6e7d8daeb44495d63e3d0433097393cb344159b7
+! Commit: 3d0acfe6f26bc3b44beeccffe780c9eaede13a06
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -25535,6 +25535,7 @@ browsershots.org#@#.advert_area
 ||dwgppgbwrmqzs.site^
 ||dwightcherrykings.com^
 ||dwiiugjfzvsgj.site^
+||dwjdzygbmnrdr.website^
 ||dwjmmeepcsyut.website^
 ||dwjzffrltrzxo.space^
 ||dwkfdahogaipo.website^
@@ -37886,6 +37887,7 @@ browsershots.org#@#.advert_area
 ||mttkrmejmzbpu.space^
 ||mtueecezoqlmx.site^
 ||mtwataveihajz.space^
+||mtwfocbhbulit.online^
 ||mtwsraeaglikg.online^
 ||mtxjnuslfrkgs.website^
 ||mtxuhmtkyqpte.site^
@@ -58420,6 +58422,8 @@ browsershots.org#@#.advert_area
 ||samsungacr.com^
 ! anime47.com / nettruyen.com
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
+! Rotating gTLD media endpoints (random alpha label, /digits/digits/letter)
+/^https?:\/\/[a-z]{10,}\.(cfd|click|cyou|online|pro|qpon|rest|shop|site|space|store|top|website|xyz)\/\d{6,}\/\d{6,}\/[a-z]$/$media,third-party
 ! IP addresses
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
