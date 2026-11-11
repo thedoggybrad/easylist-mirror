@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XlbX9ERtiyCBPrWIO/EB7A
-! Version: 202611112143
+! Checksum: wTTdeZKbL8ByX3wvVYlubA
+! Version: 202611112152
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 11 Nov 2026 21:43 UTC
+! Last modified: 11 Nov 2026 21:52 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7702,9 +7702,13 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 ! news
+www.onliner.by###js-pm > header [class]
 fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
+catalog.onliner.by##.catalog-banner
 nv.ua##.main-wrapper .container > .row > a[target="_blank"] > picture
 sports.ru##[data-control="Common.RbPromo"]
+onliner.by##[data-placement]
+onliner.by##a[href*="betera-promo.by"]
 rg.ru##div[class*="_"][class*="piegel"][class*="rapper"]:style(padding-top: 0 !important)
 !
 ! сетевые правила
