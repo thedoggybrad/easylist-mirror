@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: v4BJhjD8x/BetvnLwmY8TA
-! Version: 202611122032
+! Checksum: jNJNKUieXKW4y6lB042PCQ
+! Version: 202611122043
 ! Title: EasyList without rules for adult sites
-! Last modified: 12 Nov 2026 20:32 UTC
+! Last modified: 12 Nov 2026 20:43 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -21825,6 +21825,7 @@ browsershots.org#@#.advert_area
 ||cfcezivxdpevd.online^
 ||cfcwqpwvdtwux.online^
 ||cfdfasdvrrfnj.online^
+||cfdoulhmrvytg.space^
 ||cfgjchwhixigr.online^
 ||cfgqshboimq.com^
 ||cfgr1.com^
@@ -63505,6 +63506,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||artdaily.cc/banners/
 ||as-api.whitecoatinvestor.com^
 ||asgg.ghostbin.me^
+||askai.glarity.app/img/ads/
 ||assets.hearstapps.com/moapt/moapt-hdm.latest.js
 ||assets.presearch.com/backgrounds/
 ||assets.systemrequirementslabs.net/srl/wwwroot/js/stake-takeover.js
@@ -72526,7 +72528,6 @@ popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
 independent.co.uk,standard.co.uk,the-independent.com##[class] > :has(> [data-mpu])
 androidauthority.com##[class] > [class] > [class]:has(div[data-ad-type="leaderboard_atf"])
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > [class]:has(> [data-testid="ad"])
-timesofindia.indiatimes.com##[class]:has(> .wdt-taboola)
 vox.com##[class]:has(> [data-concert])
 standard.co.uk##[class]:has(> [data-fluid-zoneid])
 independent.co.uk,standard.co.uk,the-independent.com##[class]:has(> [data-mpu])
@@ -72596,6 +72597,7 @@ bedbathandbeyond.com##article[data-e2e="productTile"]:has(a[rel*="sponsored"])
 thetimes.com##article[id="article-main"] > div:has(#ad-header)
 costco.com##article[id][class]:has(img[alt*="Sponsored"])
 psychcentral.com##aside:has([data-empty])
+askai.glarity.app##aside[aria-label="Advertisement"]
 kohls.com##astro-island[component-export="KmnMarqueeBannerWrapper"]:has(img[alt="Sponsored Banner"])
 openalternative.co##body > div:has(> div > a[href^="/advertise"])
 creepypasta.com##center:has(+ #ad-container-1)
@@ -72633,6 +72635,7 @@ tripadvisor.*##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 news12.com##div[alignitems="normal"]:has(> div[sizes*="object"])
 myutils.me##div[aria-label="Advertisement"]
+askai.glarity.app##div[aria-label="Sponsored"]
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 livejournal.com##div[class*="-close"]:has(a[href*="tired=ads"])
 qz.com##div[class*=":block"]:has(> .ay-ad-slot)
