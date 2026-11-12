@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611120101
+! Version: 202611120108
 ! Title: EasyPrivacy
-! Last modified: 12 Nov 2026 01:01 UTC
+! Last modified: 12 Nov 2026 01:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 845ea8f2c91178fa11bbf398a37c473e42d020a0
+! Commit: d43c2c51032ff9b0d236449c98a621847197b75a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16077,8 +16077,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dubz.live/analytics/
 ||duckduckgo.com/t/
 ||dumpster.cam4.com^
-||duolingo.com/2017-06-30/tracking-status
+||duolingo.com/api/1/sync/batch
 ||dynatrace.att.com^
+||e.muckrack.com^
 ||e.quizlet.com^
 ||e.used.ca/event
 ||e2ma.net/track/
@@ -16171,7 +16172,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||everywatch.com/ingest/
 ||evs.icy-lake.kickstarter.com^
 ||evs.sgmt.loom.com^$script
-||excess.duolingo.com/batch
 ||exp.notion.so^
 ||expedia.*/cl/
 ||experiences.wyng.com/api/*/event-api/events
