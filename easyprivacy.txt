@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611120145
+! Version: 202611120202
 ! Title: EasyPrivacy
-! Last modified: 12 Nov 2026 01:45 UTC
+! Last modified: 12 Nov 2026 02:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e647e5570b9c49afa7e256178a591e6dc34e952d
+! Commit: 0d9e0f73041d009c36c8f5e4184b8c1acf2df83e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11867,10 +11867,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fp-cdn.azureedge.net^
 ||fp-flame.vercel.app^
 ||fp-it-acc.portal101.cn/deviceprofile/
+||fpkph.cdnpk.net^
 ||fraud.blockifyapp.com/s/api/block/update-time
 ||freecurrencyrates.com/statgif.
-||freedom.com^*/analytic/
-||freedom.com^*/analytics/
 ||freehostedscripts.net^*.php?site=*&s=*&h=$third-party
 ||fresh.inlinkz.com^$third-party
 ||frog.editorx.com^
@@ -16254,8 +16253,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fpt.microsoft.com^
 ||freedownloadmanager.org/ajax/th_hit.php
 ||freedownloadmanager.org/ajax/th_view.php
-||freepik.*/download.gif?
-||freepik.com/_ga?
 ||freeplayervideo.com/cdn-cgi/trace
 ||freeprivacypolicy.com/track/
 ||fresnel-events.vimeocdn.com^
