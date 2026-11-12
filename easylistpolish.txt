@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: AE6CN4RAOah6PxT9T7TG1Q
-! Version: 202611121112
+! Checksum: XblK1WIg8Q9VElyAM4zGpg
+! Version: 202611121124
 ! Title: EasyList Polish
-! Last modified: 12 Nov 2026 11:12 UTC
+! Last modified: 12 Nov 2026 11:24 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -735,6 +735,7 @@ src="https://podhaleregion.pl/wp-content/uploads/2025/01/BANER-3-PODHALE-REGION-
 ||ziemialimanowska.pl^*.hutekprojekty.
 ||zyciezamoscia.pl^*^niewygodne2.
 ||zyciezamoscia.pl^*^niezalezna.
+||imasdk.googleapis.com^$script,domain=ebd.cda.pl|cda.pl
 ! *** easylistpolish:easylistpolish/easylistpolish_specific_block_popup.txt ***
 |http:$popup,third-party,domain=animezone.pl|cda-hd.cc|devil-torrents.pl
 ! *** easylistpolish:easylistpolish_adult/adult_specific_block.txt ***
