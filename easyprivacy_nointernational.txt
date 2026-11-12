@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: eviWomCD5acfhXD8fbUmXw
-! Version: 202611120402
+! Checksum: gByKQQmmEmuIjpHvIGWcLQ
+! Version: 202611120412
 ! Title: EasyPrivacy without international filters
-! Last modified: 12 Nov 2026 04:02 UTC
+! Last modified: 12 Nov 2026 04:12 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5397,6 +5397,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushpro.io/api/logging/
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
+||pv-track.pxtrkapp.com^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
 ||px-cloud.net/b/c/beacon
@@ -7494,7 +7495,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||extendoffice.com/analytics.js
 ||extremetech.com/js/ga.js
 ||ezoicanalytics.com/analytics.js
-||f.cdngeek.com^$domain=edugeek.net
 ||f.pie.org^
 ||f362.nola.com^
 ||facebook.com/a/bz?
@@ -7577,6 +7577,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||futureparty.com/nectar_analytics
 ||futureparty.com/page_view
 ||g-scale.org/scripts/EventLog.js
+||g.cdngeek.com^$domain=edugeek.net
 ||g.ign.com^
 ||g.mashable.com^
 ||g.newtimes.com^
@@ -8579,6 +8580,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats2.helpmonks.com^
 ||stats2.mytuner.mobi^
 ||statsegg.cdngeek.com^
+||statseggs.cdngeek.com^$domain=edugeek.net
 ||stayforlong.com/api/kafka/tracking
 ||stayz.com.au/cl/data/omgpixel.json
 ||stirr.com/api/stats
