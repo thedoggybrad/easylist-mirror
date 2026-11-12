@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 14wiKcGenKxcn8kbpe9/oA
-! Version: 202611122013
+! Checksum: 4elj7JWSFQZrrXUdYrvuWg
+! Version: 202611122022
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 12 Nov 2026 20:13 UTC
+! Last modified: 12 Nov 2026 20:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1166,7 +1166,7 @@ vashdosug.ru##.evt-sharing__share
 kp.kg,kp.kz,kp.ru,md.kp.media##.externalBlock > .left > span.title
 navitel.su##.extra_append:last-child
 47news.ru##.f-menu
-best-soft.net,hentasis1.top,prog-top.net##.f-mov-soc
+best-soft.net,hentasis.me,hentasis1.top,prog-top.net##.f-mov-soc
 gorod48.ru##.f-socia
 isport.ua##.f-social
 sports.kz##.f-social-div
@@ -2623,7 +2623,7 @@ liga.net##.tg-block
 inkorr.com##.tg-box
 08sportbar.online,777sportba.com,777sportba.org,barsportbar.com,channels247.net,file-mods.ru,goool7.ws,mangabuff.ru,modss1.com,newinform.com,s7yours.com,sbautumn.com,sport365hd.net,sport7.biz,sportbarchik88.com,sporting7.pw,sporting77.com,spotless365.net##.tg-button
 kiprinform.com##.tg-cta
-anifap.com,anifap.xyz##.tg-group
+anifap.com,anifap.xyz,hentasis.me##.tg-group
 moika78.ru##.tg-info-text
 click-or-die.ru##.tg-news-banner
 animeone.cc##.tg-popup-overlay
@@ -7707,12 +7707,15 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! косметические правила и скриплеты
 ! news
 www.onliner.by###js-pm > header [class]
+hentasis.me##+js(abort-on-property-read, ClickUndercookie)
 fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
 catalog.onliner.by##.catalog-banner
 nv.ua##.main-wrapper .container > .row > a[target="_blank"] > picture
+hcdn.online,hencdn.top##.video-js > [class][role="status"][aria-live="polite"]
 sports.ru##[data-control="Common.RbPromo"]
 onliner.by##[data-placement]
 onliner.by##a[href*="betera-promo.by"]
+hentasis.me##body.playerCode > div[style^="position: absolute;"][onclick]
 rg.ru##div[class*="_"][class*="piegel"][class*="rapper"]:style(padding-top: 0 !important)
 !
 ! сетевые правила
