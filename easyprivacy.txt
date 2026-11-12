@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611120136
+! Version: 202611120151
 ! Title: EasyPrivacy
-! Last modified: 12 Nov 2026 01:36 UTC
+! Last modified: 12 Nov 2026 01:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2fd3ffe2f22d0a283fb5c9dbd9ca6dea205c8110
+! Commit: 0f0166577ac31af51dbec14def3bbd82f5753747
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11867,6 +11867,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fp-cdn.azureedge.net^
 ||fp-flame.vercel.app^
 ||fp-it-acc.portal101.cn/deviceprofile/
+||fpkph.cdnpk.net^
 ||fraud.blockifyapp.com/s/api/block/update-time
 ||freecurrencyrates.com/statgif.
 ||freedom.com^*/analytic/
@@ -16254,8 +16255,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fpt.microsoft.com^
 ||freedownloadmanager.org/ajax/th_hit.php
 ||freedownloadmanager.org/ajax/th_view.php
-||freepik.*/download.gif?
-||freepik.com/_ga?
 ||freeplayervideo.com/cdn-cgi/trace
 ||freeprivacypolicy.com/track/
 ||fresnel-events.vimeocdn.com^
