@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: g14498Poy1gm3GJQPlGSkA
-! Version: 202611131342
+! Checksum: groUCsacJi999YIC+fhCyg
+! Version: 202611131355
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 13 Nov 2026 13:42 UTC
+! Last modified: 13 Nov 2026 13:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -37552,6 +37552,7 @@ browsershots.org#@#.advert_area
 ||govtannul.cyou^
 ||govzzpzvfwctr.site^
 ||gowofhdmdtdhi.online^
+||gowwtsfqlwyfxn.com^
 ||goxsvozfwjktk.space^
 ||goylecalmy.com^
 ||gpawrschgrqzb.space^
@@ -48056,6 +48057,7 @@ browsershots.org#@#.advert_area
 ||ojwkmgtrygxra.space^
 ||ojxdcxgkozqw.com^
 ||ojxtxmaivsavq.site^
+||ojyktbviwfbqx.site^
 ||ojyneijlxlekv.site^
 ||ojzgnfxidbjur.space^
 ||ojzpcvipynqhw.online^
@@ -59534,6 +59536,7 @@ browsershots.org#@#.advert_area
 ||uvzvirtpncyai.space^
 ||uwdqokjwmnfxu.site^
 ||uwhjnwdepwrpd.site^
+||uwivaqwwmlpgx.website^
 ||uwkxicztqhntk.space^
 ||uwlgobzldxdun.space^
 ||uwltvzdjmanin.space^
@@ -80398,8 +80401,10 @@ fotmob.com##[class*="TopBannerWrapper"]
 jagranjosh.com##[class*="_AdColl_"]
 jagranjosh.com##[class*="_BodyAd_"]
 top.gg##[class*="__AdContainer-"]
+wallapop.com##[class*="__adSlot"]
 everydaykoala.com,playjunkie.com##[class*="__adspot-title-container"]
 everydaykoala.com,playjunkie.com##[class*="__adv-block"]
+wallapop.com##[class*="__topSky"]
 gamezop.com##[class*="_ad_container"]
 crazygames.*##[class*="_leaderboardContainer_"]
 onlymyhealth.com##[class*="_omh_banner_"]
@@ -82207,6 +82212,7 @@ timesnownews.com,zoomtventertainment.com##div:has(> .bggrayAd)
 newsfirst.lk##div:has(> [class*="hide_ad"])
 fandomwire.com##div:has(> [data-openweb-ad])
 doordash.com##div:has(> a[data-anchor-id="SponsoredStoreCard"])
+wallapop.com##div:has(> article[class*="RetrievalItemCard"] [class*="RetrievalItemCard__highlighted"])
 regex101.com##div:has(> div > a > div[style*="/static/assets/sponsors/"])
 openalternative.co##div:has(> div > a[href^="/advertise"]):has(> a[target="_blank"])
 pixabay.com##div:has(> div > button):has(> div > div > [role="link"] > img)
