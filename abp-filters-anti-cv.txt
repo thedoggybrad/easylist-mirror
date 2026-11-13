@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Jdm5xWRNWyt45wf/3/i3yA
-! Version: 202611131513
+! Checksum: fhh+ckoQoSfQDRV8NDJZLA
+! Version: 202611131522
 ! Title: ABP filters
-! Last modified: 13 Nov 2026 15:13 UTC
+! Last modified: 13 Nov 2026 15:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2987,6 +2987,7 @@ celleheute.de#$#hide-if-matches-xpath '//*[@data-image-info]/img[contains(@style
 freenet.de#$#hide-if-matches-xpath '//div[@class]/img[@referrerpolicy]/ancestor::div[@class][1]'
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
 onvista.de#$#hide-if-contains /^Werbung$/ div.rounded-2xl 'div.rounded-2xl span ^^sh^^ span'; hide-if-contains /^Werbung$/ .ov-carousel__item '.ov-carousel__item span ^^sh^^ span'
+onvista.de#$#replace-fetch-response '"scopeCode":"DISPLAY"' '"scopeCode":"X"'
 ||xnxx-sexfilme.com/*==/^$domain=xnxx-sexfilme.com
 ||xnxx-sexfilme.com/*froload.js?v=2^$domain=xnxx-sexfilme.com
 ||pushpad.xyz^$third-party,domain=xnxx-sexfilme.com
@@ -3291,7 +3292,6 @@ ex-fs.net,kinogo.*,uakinogo.ec#$#abort-on-property-read startAdAngle
 dynamo.kiev.ua#$#abort-current-inline-script document.getElementById document.body.style.overflow
 football.konkurent.ua#$#timer-override 1000000 popup_age
 radar-map.ru#$#abort-on-property-read __adfinityLaunch
-hentasis.me#$#abort-on-property-read ClickUndercookie
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,f1ua.org.ua,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
@@ -3305,7 +3305,7 @@ aces.gg#$#abort-current-inline-script $ window.open
 penzainform.ru#$#abort-current-inline-script $ divWrapper
 drlink.online#$#abort-current-inline-script Math.random toString
 freehat.cc#$#abort-on-property-read advFirstClickOpenNewTab
-anifap.com,anifap.xyz,anipoisk.org,anitokyo.org,anitokyo.tv,hcdn.online,kinofilm.co#$#abort-on-property-read ClickUndercookie
+anifap.com,anifap.xyz,anipoisk.org,anitokyo.org,anitokyo.tv,hcdn.online,hentasis.me,kinofilm.co#$#abort-on-property-read ClickUndercookie
 cosplay-porn.one#$#abort-on-property-read biads
 mag.relax.by#$#abort-on-property-read Object.prototype.branding_url
 conversion.im#$#abort-current-inline-script $ mainContainer
