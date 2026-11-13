@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FBinaJSfN6GC4UUZ0dQEAQ
-! Version: 202611130103
+! Checksum: qD0RwCePlHvpvXPEsOQrqQ
+! Version: 202611130112
 ! Title: EasyList China
-! Last modified: 13 Nov 2026 01:03 UTC
+! Last modified: 13 Nov 2026 01:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1323,6 +1323,7 @@ newduba.cn###jq_youxi
 !
 ||intercede77.com^
 ||lzcr41vbp.com^
+||pfh01c50p.com^
 ||3pq0vah1e0.com^
 ||eraf2uzhji.com^
 ||multiplicator98.com^
@@ -16243,10 +16244,10 @@ guailie.com#@#.google-ad
 ##body > meta[name="robots"] + script + #__nuxt + #teleports ~ div[class] > span[aria-hidden="true"] + div[class] + div[class]
 ##body > meta[name="robots"] + script + #__nuxt + #teleports ~ div[class] > span[aria-hidden="true"] + div[class]
 ##body > meta[name="robots"] + script + #__nuxt > div > .container > div[class^="menu-"] + div + div[class^="pg-v-sec-"][style*="important"]
-##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
 ##body > #__nuxt:first-child > div > .container > div[class^="pg-"] > div[style*="important"]
-##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 ##body > #__nuxt:first-child ~ div[class] > div > div > button[aria-label] + div[class]
+##body > meta[name="robots"] + script + #__nuxt > div > .container > .top-menu + div[class]
+##body > meta[name="robots"] + script + #__nuxt > div > .footer > .floatWindow + div[data-tag]
 ||cszpra.com^*.gif
 !#58.com
 58.com###rightRetui
