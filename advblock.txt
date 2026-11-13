@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XAdCnBN/laBxWDNj2HyMwA
-! Version: 202611131522
+! Checksum: 3lAezQnPKAqe7grXZ6341g
+! Version: 202611131532
 ! Title: RU, UA, UZ, KZ
-! Last modified: 13 Nov 2026 15:22 UTC
+! Last modified: 13 Nov 2026 15:32 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -15494,7 +15494,6 @@ hd-720.biz##.movie-full > noindex
 emu-land.net##.mreklama
 ru.motorsport.com##.ms-article-content > div[style^="overflow: hidden; padding-top:"]
 ru.motorsport.com##.ms-side-items--with-banner
-www.ixbt.com##.mt-2:empty
 aniliberty.top#?#.mt-8:-abp-has(> .commercial-banner)
 multitest.ua##.mt_adv_block
 bigmir.net##.mtbottom_priceua
@@ -25695,9 +25694,9 @@ ya.ru##.i-mini-bem[class*="banner"]
 ya.ru##[style*="feed"][style*="min-height:"]
 ya.ru##body > div[data-hydration-id] > [href^="https://yabs.yandex.ru/count/"] + div
 ya.ru##body > div[data-hydration-id] > div > [src^="https://yabs.yandex.ru/count/"] + div
-ya.ru##html[class*="secctslan_top"] main > div[class*="__"] ~ div[class*="__"] ~ div[class*="__"] > div
+ya.ru##html[class*="secctslon_top"] main > div[class*="__"] ~ div[class*="__"] ~ div[class*="__"] > div
 ya.ru##section[class^="reaso"]
-ya.ru##section[style*="secctslan-items-count:"]
+ya.ru##section[style*="secctslon-items-count:"]
 ya.ru##ul[class*="-section__list"]
 ya.ru,yandex.ru,yandex.*##.AdvProductGallery
 ya.ru,yandex.ru,yandex.*##.Bno_isPromoSnippet
