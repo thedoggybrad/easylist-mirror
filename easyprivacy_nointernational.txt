@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Pja55hFL/EqzGWZSi47xxw
-! Version: 202611140112
+! Checksum: nRRPWjnhphMKQvQ+/hpLOQ
+! Version: 202611140122
 ! Title: EasyPrivacy without international filters
-! Last modified: 14 Nov 2026 01:12 UTC
+! Last modified: 14 Nov 2026 01:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3561,6 +3561,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.config-security.com/first
 ||api.country.is^$third-party
 ||api.croct.io^
+||api.firecrown.com/v1/events
 ||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
 ||api.helloextend.com/mintsight
@@ -5101,6 +5102,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newsletters.nationalgeographic.com^$image,third-party
 ||newton.pm/events/track_bulk
 ||nexstardigital.net/segment.js
+||nexus.firecrown.com^
 ||nfcube.com/assets/img/pixel.gif
 ||ngpvan.com/v1/Track/
 ||nice264.com/data?$third-party
@@ -5532,6 +5534,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||run.app/metrics/
 ||run.app/track.js
 ||rw.marchex.io^
+||rybbit-analytics.livecounts.io^
 ||rybbit.sg-app.com^
 ||s-microsoft.com/mscc/$~stylesheet
 ||s.autopilotapp.com^
