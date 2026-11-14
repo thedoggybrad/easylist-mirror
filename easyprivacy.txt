@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611140113
+! Version: 202611140121
 ! Title: EasyPrivacy
-! Last modified: 14 Nov 2026 01:13 UTC
+! Last modified: 14 Nov 2026 01:21 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a18acdf5dee9e0f18c33d3b7a93a41c9729f56a1
+! Commit: 40514a5dfe4efe5d7c79dc11dd4c698d9f97425e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10979,6 +10979,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.config-security.com/first
 ||api.country.is^$third-party
 ||api.croct.io^
+||api.firecrown.com/v1/events
 ||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
 ||api.helloextend.com/mintsight
@@ -12519,6 +12520,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newsletters.nationalgeographic.com^$image,third-party
 ||newton.pm/events/track_bulk
 ||nexstardigital.net/segment.js
+||nexus.firecrown.com^
 ||nfcube.com/assets/img/pixel.gif
 ||ngpvan.com/v1/Track/
 ||nice264.com/data?$third-party
@@ -12950,6 +12952,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||run.app/metrics/
 ||run.app/track.js
 ||rw.marchex.io^
+||rybbit-analytics.livecounts.io^
 ||rybbit.sg-app.com^
 ||s-microsoft.com/mscc/$~stylesheet
 ||s.autopilotapp.com^
