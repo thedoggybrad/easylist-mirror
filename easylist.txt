@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611140118
+! Version: 202611140126
 ! Title: EasyList
-! Last modified: 14 Nov 2026 01:18 UTC
+! Last modified: 14 Nov 2026 01:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ac6aaaef165ba0629a462000eae910fb08d7e63a
+! Commit: f44ccd5e26e1cbe550edb12555890bc6cf83977a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -55544,6 +55544,7 @@ browsershots.org#@#.advert_area
 ||xzoxfwmmnnnjfv.com^
 ||xzqpz.com^
 ||xzumxlpjeasmc.website^
+||xzuwlxhnaswmy.website^
 ||xzzcqmzxuxhue.site^
 ||xzzgndpecxrwj.online^
 ||xzzoiprvfobyw.space^
@@ -74469,6 +74470,7 @@ slickdeals.net##.kevelYouMightLikeDealCard:has(.dealCardBadge--promoted)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
 bjs.com##.lazyload-wrapper:has(> #promoteIqContent)
 motortrend.com##.lg\:min-h-\[90px\]
+motortrend.com##.lg\:top-16
 alibaba.com##.list-card:has([data-role="ad-area"])
 trip.com##.list-item:has(span.ad-info)
 hotukdeals.com##.listLayout-box:has(> .bRad--a)
@@ -74813,6 +74815,7 @@ cars.com##li[data-phx-id]:has([phx-value-source="sponsored_trending_search_card"
 canadiantire.ca##li[data-testid="product-grids"]:has(.nl-product-card__sponsored)
 aboutyou.de##li[data-testid^="productTileTracker-"]:has([data-testid="sponsored"])
 aboutyou.de##li[data-testid^="productTileTracker-"]:has(button[data-testid="spo"])
+motortrend.com#?#.max-lg\:hidden:has-text(ADVERTISEMENT)
 classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.com"]))
 duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
 argos.co.uk##section.ds-c-carousel:has(span[class*="sponsoredBadge"])
