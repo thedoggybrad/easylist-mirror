@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7BDahIcDLi87Tu6ECwWzcg
-! Version: 202611141222
+! Checksum: JxxrwN620NuK+tcYSUHL0Q
+! Version: 202611141232
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 14 Nov 2026 12:22 UTC
+! Last modified: 14 Nov 2026 12:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1816,6 +1816,7 @@ obyava.ua##.offer__top-btn
 onliner.by##.offers-social
 forum.onliner.by##.ofm-social-forum
 ogo.ua##.ogo-share-bar
+mediamaniya.site##.okgruppa
 onlinemschool.com##.oms_calc_group ~ div[class^="oms_defin"]
 onlinemschool.com##.oms_social_group
 downradar.ru##.one-half > #rating ~ div[style]
@@ -2631,6 +2632,7 @@ lada.kz##.tg-subscribe
 agroportal.ua##.tgBlock
 aspi.com.ua##.tg_subscribe
 profinance.ru##.tgcblock
+mediamaniya.site##.tgkanal
 sostav.ua##.tgzen
 sostav.ru##.tgzen--tg
 vedomosti.ru##.the-footer__social
@@ -7712,6 +7714,7 @@ fastpic.org,~new.fastpic.org##+js(set-cookie-reload, s68f416a, 32767)
 catalog.onliner.by##.catalog-banner
 nv.ua##.main-wrapper .container > .row > a[target="_blank"] > picture
 hcdn.online,hencdn.top##.video-js > [class][role="status"][aria-live="polite"]
+kingp2p.top##.wrap-overlay
 sports.ru##[data-control="Common.RbPromo"]
 onliner.by##[data-placement]
 onliner.by##a[href*="betera-promo.by"]
@@ -7727,6 +7730,8 @@ mydash.ru##div[class^="_boticaArea_"]
 @@||src.zakaz.atbmarket.com/cache/banners/banner_big_$image,domain=www.atbmarket.com
 ||fly.codes^$third-party
 ||gc.onliner.by/js/growthbook-*.js
+||rapp.su/assets/js/player/counter.js
+||site/rtr/$script
 ||strm.yandex.*/vh-adfo*-converted/$media
 ||ya.ru/adfox/
 !
