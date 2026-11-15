@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611151404
+! Version: 202611151418
 ! Title: EasyList
-! Last modified: 15 Nov 2026 14:04 UTC
+! Last modified: 15 Nov 2026 14:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4b47debfb5178f73e03b8b42759a8d53e56dae54
+! Commit: 857b331104ed0b7a627082792c3ab4934e7bfe19
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -33541,6 +33541,7 @@ browsershots.org#@#.advert_area
 ||jawyabhdlbtub.space^
 ||jaydpfcoftijl.space^
 ||jayexfpeiwyka.space^
+||jaymguxbzomra.site^
 ||jaypietombic.com^
 ||jayprhordoqsv.site^
 ||jayqbgfkdypmw.website^
@@ -44696,6 +44697,7 @@ browsershots.org#@#.advert_area
 ||qunskbadgzcdx.site^
 ||quodvmljwdqec.site^
 ||quohogssopping.com^
+||quojugvrafzuj.online^
 ||quokkacheeks.com^
 ||quokkasgraf.com^
 ||quotationgambling.com^
@@ -75203,7 +75205,7 @@ linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
 freightwaves.com##[href^="https://academy.freightwaves.com/"]
 pahe.ink##[href^="https://theshorten.net/"]
 alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
-x.com##[id^="urt"]>ul>li:has([class*="data-ad-disclosure"])
+x.com##[id^="urt"] > ul > li:has([class^="group-has-\[\[data-ad-disclosure"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 staples.com##[role="complementary"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)
 mail.aol.com##[role="presentation"]:has(> div[data-ad-row-id])
