@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iWZePMSxuwrLnwFM4wYelw
-! Version: 202611150942
+! Checksum: rO3bAkzQwz74WbVYYaurGg
+! Version: 202611150952
 ! Title: RU, UA, UZ, KZ
-! Last modified: 15 Nov 2026 09:42 UTC
+! Last modified: 15 Nov 2026 09:52 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13290,7 +13290,6 @@ nikvesti.com##.adfree-strip
 libertycity.net,libertycity.ru,vgtimes.com,vgtimes.ru##.adfshift
 wintech.net.ru##.adgoogle
 onlinetestpad.com##.adleft
-rutv.pw,sportcsat.ru##.adlook-pc-wrapper
 ua.today##.admix
 promigren.ru##.adp-block
 asiaplustj.info,news.tj##.adredirector
@@ -19246,6 +19245,7 @@ cameralabs.org##div[class^="adaptivgoogle"]
 e-ink-reader.ru##div[class^="adb"]
 hibiny.ru##div[class^="adfox_"]
 rknweb.ru##div[class^="adlook-"]
+rutv.pw,sportcsat.ru##div[class^="adlook-"][class*="-wrapper"]
 vlasti.net,winnote.ru##div[class^="adrotate"]
 chernomorets.odessa.ua,moei.ru,shaiba.kz,sports.kz,x-kuzov.ru##div[class^="ads"]
 amoledo.com##div[class^="adsbanner"]
