@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rnXnoAB1FUciBh81OUIuoA
-! Version: 202611161012
+! Checksum: ahRAZ17sm+5FAN8ROVu0/Q
+! Version: 202611161023
 ! Title: EasyList Polish
-! Last modified: 16 Nov 2026 10:12 UTC
+! Last modified: 16 Nov 2026 10:23 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2441,6 +2441,11 @@ wykop.pl##[data-label^="ad:"]
 allegro.pl##[data-role="opbox-expandable-advertisement"]
 empik.com##[data-ta="product"]:has(.sponsored-info-title)
 otomoto.pl##[data-testid="underlying_banner"]
+mediamarkt.pl##[data-test="mms-search-main"] > aside[aria-label*="spons"]
+mediamarkt.pl##[data-test="mms-search-srp-productlist"] li:has(> aside[aria-label*="spons"])
+mediamarkt.pl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] button[aria-label*="spons"])
+mediamarkt.pl##[data-test="mms-search-srp-productlist"] li:has(> div:only-child:empty)
+mediamarkt.pl#?#div[data-test="mms-home-carousel"]:-abp-has(span:-abp-contains(/^Sponsorowany$/))
 chamsko.pl##[href="https://www.meczyki.pl/link/bukmacher/43/1"]
 24gliwice.pl##[href^="https://www.24gliwice.pl/r/"]
 resetoff.pl##[id$="reklamy"]:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(b):not(strong)
@@ -2972,6 +2977,7 @@ jaslo4u.pl##a[title="reklama"]
 medonet.pl##ad-default[class*="ads"]
 tvn24.pl##ad-placeholder
 allegro.pl#?#[data-variants-visible]:-abp-contains(Sponsorowane)
+mediamarkt.pl#?#[data-test="mms-search-srp-productlist"] ul > li:-abp-has(div[data-test="mms-base-teaser"] span:-abp-contains(/^Sponsorowany$/))
 fm.tuba.pl##app-advert
 medycyna24.pl##article > .insert--top-offer
 dziennikzachodni.pl,nowiny24.pl##article.contentStream
