@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ufl4TlFOL9sjTgdo3O8Vew
-! Version: 202611161506
+! Checksum: 1q51075L9r1URHbl9oUvbg
+! Version: 202611161513
 ! Title: ABPVN List
-! Last modified: 16 Nov 2026 15:06 UTC
+! Last modified: 16 Nov 2026 15:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://abpvn.com/
 !
@@ -10,8 +10,8 @@
 !
 ! *** abpvn:filter/abpvn.txt ***
 ! id: D4028CDD-3D39-4624-ACC7-8140F4EC3888
-! Last modified: 16 Nov 2026 20:32:15 UTC+7
-! Diff-Path: patches/20261116203215370.patch#abpvn
+! Last modified: 16 Nov 2026 22:03:47 UTC+7
+! Diff-Path: patches/20261116220347474.patch#abpvn
 ! Diff-Expires: 60 minutes
 !
 ! ABPVN List filter
@@ -984,7 +984,7 @@ docufind.org.uk/wp-content/themes/vlxx/js/*-adx.js$script
 ||qmhv3.lol/api/ads$xmlhttprequest
 ||qmhv3.lol/uploads/banners/$image,domain=qmhv3.lol
 ||quatvn.stream^*.gif$image
-||rphang.show^*.gif
+||rphang.bike^*.gif
 ||sayhentai.cx/assets/js/ads.js
 ||sayhentai.cx/storage/images/banner/$image
 ||seccc.jasjas.xyz^
@@ -1068,16 +1068,16 @@ quatvn.stream###popupBanner
 quatvn.stream###popupOverlay
 quatvn.stream###stickyFooterAds
 quatvn.stream###topBannerAds
-rphang.show###aboveFirstPost
-rphang.show##.bbMediaWrapper-inner>.samCodeUnit
-rphang.show##.js-replyNewMessageContainer.block-body>div.samCodeUnit>.samItem
-rphang.show##.p-body-pageContent>.samCodeUnit
-rphang.show##.p-footer
-rphang.show##.samVideoOverlay
-rphang.show##.topmobileads
-rphang.show##body>.samCodeUnit
-rphang.show##div.samCodeUnit[data-position="footer_fixed"]
-rphang.show##div.samItem:has(video.topmobileads)
+rphang.bike###aboveFirstPost
+rphang.bike##.bbMediaWrapper-inner>.samCodeUnit
+rphang.bike##.js-replyNewMessageContainer.block-body>div.samCodeUnit>.samItem
+rphang.bike##.p-body-pageContent>.samCodeUnit
+rphang.bike##.p-footer
+rphang.bike##.samVideoOverlay
+rphang.bike##.topmobileads
+rphang.bike##body>.samCodeUnit
+rphang.bike##div.samCodeUnit[data-position="footer_fixed"]
+rphang.bike##div.samItem:has(video.topmobileads)
 sayhentai.cx#@#.c-ads
 sexmupxinh.net##.catfix
 sexmupxinh.net,haysexhihi.me,laalmirchitakeaway.co.uk##.catfish-top
