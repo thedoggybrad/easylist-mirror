@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yQ3aesmaYCcvrH39oATf8w
-! Version: 202611160956
+! Checksum: SXHvDfo0Im/jBg06i+wNVw
+! Version: 202611161012
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Nov 2026 09:56 UTC
+! Last modified: 16 Nov 2026 10:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7746,7 +7746,7 @@ sovsport.ru#?#div[class*="_mainPageContent"]:-abp-has(a[href*="/bookmaker"])
 sovsport.ru##div[class*="_notice"]
 sovsport.ru##div[class*="_predictions"]
 sovsport.ru##div[class*="_seoBlock"]
-sovsport.ru##div[class*="_widget"]
+sovsport.ru##div[class*="_widget"]:not([class*="_widgetNews"])
 sia.ru##div[class*="banana"]
 c-o-k.ru,sia.ru##div[class*="banner"]
 sovsport.ru##div[class*="coefficient"]
