@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /k33m0IrhsygcK7wf29RuA
-! Version: 202611161856
+! Checksum: bsMaJv9M7Gdqu/to7itXZQ
+! Version: 202611161904
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 16 Nov 2026 18:56 UTC
+! Last modified: 16 Nov 2026 19:04 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -26696,6 +26696,7 @@ browsershots.org#@#.advert_area
 ||awepsljan.com^
 ||awept.com^
 ||awesome-blocker.com^
+||awesomeoval.info^
 ||awesomeststuff.com^
 ||awestatic.com^
 ||awfsukzkitwhp.site^
@@ -48382,6 +48383,7 @@ browsershots.org#@#.advert_area
 ||ovalitysepultplenism.cfd^
 ||ovardu.com^
 ||ovarinheat.cyou^
+||ovbcyqldigduu.site^
 ||ovejpmwpnlqxp.space^
 ||ovekrdngtazex.space^
 ||ovenbifaces.cam^
@@ -49222,6 +49224,7 @@ browsershots.org#@#.advert_area
 ||pezrqwvweqvrp.site^
 ||pezwjfoozrpiv.online^
 ||pf34zdjoeycr.com^
+||pfadviqifnwfe.online^
 ||pfanuvwzaf.in^
 ||pfautxkmfmrbu.space^
 ||pfbiforocldba.site^
@@ -81509,6 +81512,7 @@ webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 livejournal.com##div[class*="-close"]:has(a[href*="tired=ads"])
 qz.com##div[class*=":block"]:has(> .ay-ad-slot)
 pixabay.com##div[class*="SectionGroup"] > div:has(a[href*="sponsored_"])
+noon.com##div[class*="_emblaSlide_"]:has(div[class*="_labelContainer_"])
 pixabay.com##div[class*="container--"] > div:not([class*="--"]):has(a[href*="sponsored_"])
 qz.com##div[class*="my-"]:has(> .ay-ad-slot)
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
@@ -81567,6 +81571,8 @@ jigsawplanet.com##div[id]:has(> [style="height: 100%; display: flex; flex-direct
 priceline.com##div[id^="listing-"]:has(span[class*="Promoted"])
 advocate.com,out.com,pride.com##div[id^="sPost_Layout_Default_"]:has(> .ad_leaderboard_wrap)
 justetf.com##div[id^="shadow-teaser-"]:has(div[class="disclaimer mb-1"])
+noon.com##div[id^="v-sensor-component-"]:has(> div[class*="_dynamicBannerWrapper_"] > div[class*="_dynamicBannerContainer_"] > div[class*="_labelContainer_"])
+noon.com##div[id^="v-sensor-component-"]:has(> div[class*="_labelContainer_"])
 truthsocial.com##div[item="[object Object]"]:has(path[d="M17 7l-10 10"])
 truthsocial.com##div[item="[object Object]"]:has(path[d="M9.83333 1.83398H16.5M16.5 1.83398V8.50065M16.5 1.83398L9.83333 8.50065L6.5 5.16732L1.5 10.1673"])
 outlook.live.com##div[role="complementary"][data-skip-link-name][id] div[id*="-"]:has(> div:not([class]) > div[class] img[src$="/images/ads-olk-icon.png"])
