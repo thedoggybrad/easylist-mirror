@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: yr8BGTaNTCgyTNLBeRFwTA
-! Version: 202611160942
+! Checksum: +6kUpdWzIg9f1KYoVTQKdg
+! Version: 202611160956
 ! Title: EasyPrivacy without international filters
-! Last modified: 16 Nov 2026 09:42 UTC
+! Last modified: 16 Nov 2026 09:56 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -420,6 +420,7 @@
 /AppMeasurement2.js
 /AppMeasurement_Module_ActivityMap.min.js
 /AppMeasurementCustom.min.js
+/apps/awin/*
 /apps/ba-rev/app_metrics
 /aptrk.js
 /ard.png?
@@ -1864,6 +1865,7 @@
 /pixel/view?
 /pixel/visit?
 /pixel2.gif?
+/pixel?clientId=
 /pixel?tag=
 /pixel_identifier.js
 /pixel_iframe.php
@@ -2207,6 +2209,7 @@
 /shopify-boomerang-
 /shopify-datalayer-minified.js
 /shopify-event.gif?
+/shopify/fec/produce|
 /shopify/track.js
 /shopify_stats.js
 /shopifycloud/shopify/assets/shop_events_listener-$script
@@ -4171,6 +4174,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dash.getsitecontrol.com^
 ||dash.kryon.one^
 ||dashboard.nowdialogue.com/api/events/
+||data.cdnbasket.net^
 ||data.circulate.com^
 ||data.debugbear.com^$third-party
 ||data.digitalks.az^
@@ -5224,6 +5228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pac.talksport.com/track
 ||paddle.com^*/analytics.js
 ||page-events-ustats.udemy.com^
+||page.cdnbasket.net^
 ||pagecloud.com/event
 ||pagefly.io/pagefly/core/analytics.js
 ||pages-stats.rbl.ms^
@@ -6303,6 +6308,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vidible.tv/trk/
 ||vidstream.pro/log/
 ||vidstream.pro/ping/
+||view.cdnbasket.net^
 ||viglink.com/api/ping$third-party
 ||vimeocdn.com/add/player-stats?
 ||vimeocdn.com/ga/
