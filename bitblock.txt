@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f2Z5vdeGLZnqkiWpmZ+1Iw
-! Version: 202611161544
+! Checksum: coTIra7FcTteSOR6F7EccA
+! Version: 202611161553
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 16 Nov 2026 15:44 UTC
+! Last modified: 16 Nov 2026 15:53 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7663,7 +7663,7 @@ google.by,google.com,google.com.ua,google.kz,google.ru##.chr-cookie-banner
 translate.google.by,translate.google.com,translate.google.com.ua,translate.google.kz,translate.google.ru,translate.google.se,translate.google.uz##.cp-promo
 google.by,google.com,google.com.ua,google.kz,google.ru##.ctr-p #prm
 translate.google.by,translate.google.com,translate.google.com.ua,translate.google.kz,translate.google.ru,translate.google.se,translate.google.uz##.notification-area
-chrome.google.com,chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
+chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
 google.com##div[aria-labelledby="promo_label_id"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class$="__middle-slot-promo"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class][jsaction^="dismiss_warmup"]
@@ -7672,6 +7672,7 @@ google.by,google.com,google.com.ua,google.kz,google.ru##div[class^="gb_"] > div[
 google.by,google.com,google.com.ua,google.kz,google.ru##div[class^="gb_"][data-ogsr-up] > div[style*="overflow: hidden;"][style*="position: absolute;"][style*="z-index: "][style*="overflow: hidden;"][style*="margin-right: 25px;"]
 google.by,google.com,google.com.ua,google.kz,google.ru##div[jscontroller] [href*="?utm_source=googlehpfooter"]
 google.com##g-bottom-sheet[aria-labelledby="promo_label_id"]
+chromewebstore.google.com##iframe[role="presentation"][name="callout"][src="about:blank"]
 google.by,google.com,google.com.ua,google.kz,google.ru##mobile-promo
 www.google.*##html[itemtype="http://schema.org/SearchResultsPage"][style^="top: "] #main > #cnt > #lb:has(update-location):style(display: none !important)
 www.google.*##html[itemtype="http://schema.org/SearchResultsPage"][style^="top: "]:style(overflow: auto !important; position: relative !important)
