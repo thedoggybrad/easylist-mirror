@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: D4gMyOInlv6AYpu4jXPkfA
-! Version: 202611171458
+! Checksum: NhJkbO08OGw9q/TGeYrOAw
+! Version: 202611171506
 ! Title: EasyList without rules for adult sites
-! Last modified: 17 Nov 2026 14:58 UTC
+! Last modified: 17 Nov 2026 15:06 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25083,6 +25083,7 @@ browsershots.org#@#.advert_area
 ||dsbdyr.com^
 ||dsbexk.com^
 ||dsbhmq.com^
+||dsbiwx.com^
 ||dsbixe.com^
 ||dsbjdf.com^
 ||dsbktckfycinl.online^
@@ -55940,6 +55941,7 @@ browsershots.org#@#.advert_area
 ||zaritxkltkkmm.online^
 ||zarpop.com^
 ||zasitzzpxecon.site^
+||zasodvwrvfyul.space^
 ||zasqpmhvxuikt.space^
 ||zaswcaapdwzi.in^
 ||zatnoh.com^
@@ -72570,6 +72572,7 @@ flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
 pixabay.com##div[class^="mrxz"]:has(button[aria-label="About this advertiser"])
 pixiv.net##div[class^="sc-"]:has(> [style^="display"][style*="468px;"][style*="60px"])
 birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,stokesentinel.co.uk,walesonline.co.uk##div[class^="sc-"]:has(> span[aria-live="polite"] > .react-loading-skeleton)
+chatgpt.com##div[class^="scope-"]:has(button[aria-haspopup="menu"][aria-labelledby]):has(div[role="link"]):has(img[inert][src^="data:image/"], img[inert][src^="https://bzrcdn.openai.com/"])
 staples.com##div[class^="sku-configurator__banner"]:has([aria-label="Sponsored Products"])
 wikiwand.com##div[class^="wrapper_wrapper"]:has(> div[class^="wrapper_cta"])
 wikiwand.com##div[class^="wrapper_wrapper"]:has(> div[id^="ezoic-pub-ad"])
