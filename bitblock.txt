@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CvLJwo69YYnHhSsWHbEeBw
-! Version: 202611170951
+! Checksum: kTH8TqsA1MOPu3IifuBkbQ
+! Version: 202611171005
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Nov 2026 09:51 UTC
+! Last modified: 17 Nov 2026 10:05 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3489,6 +3489,9 @@ ctc.ru##li[class="hsi-item"]
 78.ru##li[class^="social-block_"]
 4pda.to##li[id$="share"]
 liveball.my,liveball.uno,liveball.*##.free
+liveball.sx,liveball.*###tg_header_link
+liveball.sx,liveball.*##.home-cta
+liveball.sx,liveball.*##.lb-share
 mail.yandex.ru,mail.yandex.*##.b-mail-domik__social
 www1.ru#?#main > .relative:nth-child(-n+3):-abp-has(> div > [href^="https://t.me/"])
 site.ua##main > .w-full + .container + .container > div:only-child
@@ -7724,6 +7727,8 @@ sovsport.ru#?#div[class$="_grid"] > div[class*="_cell "]:-abp-has(> div:empty)
 sdelanounas.ru##div[class^="banner_"]
 www1.ru##div[id*="banner"]
 sdelanounas.ru##html:style(overflow-x: auto !important; position: initial !important)
+liveball.sx,liveball.*##.home-hero__odds
+liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> [data-noclick])
 ~yandex.net,ya.*,yandex.*##+js(abort-on-property-read, AdFox_getCodeScript)
 !
 ! сетевые правила
