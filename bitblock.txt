@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qBqr9Qm6obRkJ3q1sWQuAA
-! Version: 202611171752
+! Checksum: q/S8MqKKSHkpvLl4Ct1w6g
+! Version: 202611171807
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Nov 2026 17:52 UTC
+! Last modified: 17 Nov 2026 18:07 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7727,6 +7727,10 @@ belgee.by,geelyautomobile.by##+js(set-cookie, hide-cookie-message, true)
 neoseeker.com##.raptive-inline-support
 sdelanounas.ru##body:style(overflow-x: auto !important; position: initial !important)
 sovsport.ru#?#div[class$="_grid"] > div[class*="_cell "]:-abp-has(> div:empty)
+sovsport.ru##div[class*="_matches"] > div[class*="_eventMatch"]
+sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [class*="_advertisement"])
+sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [href*="/bonuses"])
+sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [href*="/predictions"])
 1tv.ru##div[class^="Branding_container_"]
 sdelanounas.ru##div[class^="banner_"]
 www1.ru##div[id*="banner"]
