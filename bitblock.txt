@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cPZ/9DC2svWv7XOFeY0h2g
-! Version: 202611172152
+! Checksum: Cz8YWr1gvOjq6RifzBZG/Q
+! Version: 202611172204
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Nov 2026 21:52 UTC
+! Last modified: 17 Nov 2026 22:04 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7721,10 +7721,12 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 sdelanounas.ru###SocialWelcome
 sdelanounas.ru###modalOverlay
 neoseeker.com###raptive-support-message
+vk.com,vk.ru#?##spa_layout_content > div[style*="--vkui--z_index_popout"]:-abp-has([aria-label^="Вам видны"])
 neoseeker.com###walkthrough-support-rail
 sovsport.ru##+js(prevent-fetch, _rsc=)
 belgee.by,geelyautomobile.by##+js(set-cookie, hide-cookie-message, true)
 neoseeker.com##.raptive-inline-support
+vk.com,vk.ru##[id^="l_invite_"][id$="_promo"]
 sdelanounas.ru##body:style(overflow-x: auto !important; position: initial !important)
 sovsport.ru#?#div[class$="_grid"] > div[class*="_cell "]:-abp-has(> div:empty)
 sovsport.ru##div[class*="_matches"] > div[class*="_eventMatch"]
@@ -7734,6 +7736,7 @@ sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="
 1tv.ru##div[class^="Branding_container_"]
 sdelanounas.ru##div[class^="banner_"]
 www1.ru##div[id*="banner"]
+vk.com,vk.ru##div[role="main"] [data-feed-fpc-exclude]:not(:empty)
 sdelanounas.ru##html:style(overflow-x: auto !important; position: initial !important)
 liveball.sx,liveball.*##.home-hero__odds
 liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> [data-noclick])
