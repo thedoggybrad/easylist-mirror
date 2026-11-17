@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PsB1pVO/MaXq0jlWLUkDVw
-! Version: 202611171111
+! Checksum: mVDxsAwAkS4uuhGprFhlSQ
+! Version: 202611171124
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 17 Nov 2026 11:11 UTC
+! Last modified: 17 Nov 2026 11:24 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7720,7 +7720,10 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! news
 sdelanounas.ru###SocialWelcome
 sdelanounas.ru###modalOverlay
+neoseeker.com###raptive-support-message
+neoseeker.com###walkthrough-support-rail
 sovsport.ru##+js(prevent-fetch, _rsc=)
+neoseeker.com##.raptive-inline-support
 sdelanounas.ru##body:style(overflow-x: auto !important; position: initial !important)
 sovsport.ru#?#div[class$="_grid"] > div[class*="_cell "]:-abp-has(> div:empty)
 1tv.ru##div[class^="Branding_container_"]
