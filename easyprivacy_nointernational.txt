@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xrNa7RKTWIlMCRPS0Gq6Ew
-! Version: 202611182322
+! Checksum: 5IVODbhRtfg/ulDKyiPW0w
+! Version: 202611182332
 ! Title: EasyPrivacy without international filters
-! Last modified: 18 Nov 2026 23:22 UTC
+! Last modified: 18 Nov 2026 23:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1270,6 +1270,7 @@
 /i.php?i=
 /i.png?id=
 /i/api/kn/afterclick/*$~third-party,xmlhttprequest
+/i/v0/e/*
 /i2a.js
 /i2yesCounter.js
 /i?e=pv&url=
@@ -1741,6 +1742,9 @@
 /orichipixel.min.js
 /ot_e404.gif?
 /OtAutoBlock.js
+/otel/v1/logs
+/otel/v1/metrics
+/otel/v1/traces
 /ouibounce.min.js
 /outbrain.js$~xmlhttprequest
 /outbrainAd.
@@ -8171,6 +8175,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ocular.hotukdeals.com^
 ||ocular.pepperdeals.com^
 ||odysee.com/reports/
+||offloop.org/_vid/v1/collect
 ||ohm-dot-hackster-io.appspot.com^
 ||oklink.com/jsstat/
 ||okx.com/jsstat/sb?
@@ -8448,6 +8453,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.gofile.io^
 ||s.infogram.com^
 ||s.joinhoney.com/evs
+||s.sintra.ai^
 ||s.smallpdf.com/static/track-js-
 ||s.sofoot.com/script.js
 ||s.wayfair.com^
@@ -8682,7 +8688,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strtapewithadblock.xyz/stat/
 ||strtpe.link/stat/
 ||stubhub.com/a/icph
-||stuff.co.nz/otel/
 ||stytch.com/sdk/v1/events
 ||suaurl.com/adblock/js/smarttag.js
 ||substrate.office.com/search/api/v1/events
@@ -8844,7 +8849,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tms.hft.greenchef.com^
 ||tms.hft.hellofresh.com^
 ||tnaflix.com/stats.php
-||together.ai/otel/v1/traces
 ||toms.com/*/FacebookCAPI-Event
 ||toms.com/*/PinterestCAPI-Event
 ||tongji-res.meizu.com^
