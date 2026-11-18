@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iIX7PEKifCdQ6QBstVDJLA
-! Version: 202611180913
+! Checksum: EzQ1pRprzYrhTr2pSZjrHA
+! Version: 202611180923
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 18 Nov 2026 09:13 UTC
+! Last modified: 18 Nov 2026 09:23 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4306,7 +4306,7 @@ ru##[data-ns-portal] div[class^="mobileApps_"]
 /_parallax.js$script,domain=news.mail.ru
 /alert.js$script,domain=news.mail.ru
 /api/*/feedback/nps/check$xmlhttprequest,domain=mail.ru
-/api/related/*?limit=$xmlhttprequest,domain=ixbt.com|ixbt.games
+/api/related/*?limit=$xmlhttprequest,domain=ixbt.com|ixbt.games|www1.ru
 /bootstrap.min.js$domain=cvnews.cv.ua|ifnews.org.ua|lvnews.org.ua|rvnews.rv.ua|tenews.org.ua|uanews.org.ua
 /control?path=_Common/PayWall&aid=$domain=gd.ru
 /controls/_common/paywall.js$domain=hr-director.ru|kdelo.ru|law.ru|normobr.ru|sekretaria.ru|spravkadrovika.ru
@@ -6562,7 +6562,7 @@ my.ua##[data-policy-wrapper]
 5ka.ru##[data-qa="cookies"]
 livejournal.com,periskop.su,shakko.ru##[data-react-mark-10k-subscribers]
 livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[data-react-rcm-block]
-ixbt.com,ixbt.games##[data-related-block][class*="data-adv-component"]
+ixbt.com,ixbt.games,www1.ru##[data-related-block][class*="data-adv-component"]
 ozon.ru#?#[data-replace-layout-path] > [data-widget="container"] > [data-widget="island"]:-abp-has(> div > [data-widget="seasonWidget"])
 mail.google.com##[data-rp-onramp-input]
 anilib.me,animelib.org,hentailib.me,hentailib.org,mangalib.me,mangalib.org,ranobelib.me,shlib.life,yaoilib.net##[data-scroll-content] > a[href="https://app.lib.social/app2.html"]
