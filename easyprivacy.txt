@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611182313
+! Version: 202611182321
 ! Title: EasyPrivacy
-! Last modified: 18 Nov 2026 23:13 UTC
+! Last modified: 18 Nov 2026 23:21 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 34677a0bbab35da8827350b13d939e6fdda69954
+! Commit: 0105900cf7bc8fa02d2ab9f8af1be18184b8a135
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2889,6 +2889,7 @@
 /wix-engage-visitors-
 /wlexpert_tracker.js
 /wmxtracker.js
+/woocommerce-analytics/*
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /wp-analytify-forms/assets/js/tracking.js
@@ -17173,6 +17174,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.gofile.io^
 ||s.infogram.com^
 ||s.joinhoney.com/evs
+||s.sintra.ai^
 ||s.smallpdf.com/static/track-js-
 ||s.sofoot.com/script.js
 ||s.wayfair.com^
