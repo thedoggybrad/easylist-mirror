@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: kr1rBqpeuEv/d7b4tLTWMg
-! Version: 202611181418
+! Checksum: dYt+714MsY7Fk1Mn1phggQ
+! Version: 202611181430
 ! Title: ABP filters
-! Last modified: 18 Nov 2026 14:18 UTC
+! Last modified: 18 Nov 2026 14:30 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1021,6 +1021,7 @@ leboncoin.fr#$#prevent-element-src-loading script /[^A-Za-z0-9]script[^A-Za-z0-9
 dictionary.cambridge.org#$#prevent-element-src-loading script /sdk\\.js/
 ||*/cdn.js^$script,rewrite=abp-resource:blank-js,domain=dictionary.cambridge.org
 dictionary.cambridge.org#$#prevent-listener message /data===[a-z]&&[a-z_$]/
+/^https:\/\/[a-z0-9.-]+\/[a-z]+\/[a-z]+\/[a-z]+\/[A-Za-z0-9_-]+\.[0-9a-f]{8}\.js$/$script,third-party,match-case,domain=dictionary.cambridge.org
 ||*/loader.min.js|$script,domain=issuya.com
 ||error-report.com^$domain=issuya.com
 issuya.com#$#override-property-read Element.prototype.remove noopFunc
