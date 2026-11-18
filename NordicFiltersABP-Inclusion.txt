@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Wzu/7GKsC285ZvfoBQ3rCg
-! Version: 202611181404
+! Checksum: W93CX0cNnKZCP/WxHPL5wA
+! Version: 202611181418
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 18 Nov 2026 14:04 UTC
+! Last modified: 18 Nov 2026 14:18 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -7873,7 +7873,7 @@ srk.fi#@##CookielawBanner
 /adasync.js$script
 /adasync.min.js$script
 /adbanners/*$image
-/adblock/frontend_loader.js
+/adblock/frontend_loader.js$~xmlhttprequest
 /adchoice.png$image
 /adcount.js$script
 /addyn|*;adtech;
@@ -8729,7 +8729,7 @@ _prebid.js$script
 ! Anti-Adblock
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
-/ad-blocking-detector/assets/js/adblock-detector.min.js
+/ad-blocking-detector/assets/js/adblock-detector.min.js$~xmlhttprequest
 /adblock-detect.$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock_detector2.$script
@@ -10178,7 +10178,6 @@ _800x80_
 ###adb_bottom
 ###adbackground
 ###adbanner-container
-###adbanner1
 ###adbannerbox
 ###adbannerdiv
 ###adbannerleft
@@ -10191,9 +10190,6 @@ _800x80_
 ###adblock-big
 ###adblock-leaderboard
 ###adblock-small
-###adblock1
-###adblock2
-###adblock4
 ###adblockbottom
 ###adbn
 ###adbnr
@@ -41936,6 +41932,7 @@ browsershots.org#@#.advert_area
 ||jxcuocswkavpi.site^
 ||jxelkzydvftdn.space^
 ||jxfbaoovzzgres.com^
+||jxhaohxzsrvch.space^
 ||jxhikyldhuqsz.site^
 ||jxiiwldewtdql.online^
 ||jxiqoaszcfxve.website^
