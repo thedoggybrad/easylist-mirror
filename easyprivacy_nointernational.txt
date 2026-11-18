@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: H85ipiGIO7MgbETSWwap9A
-! Version: 202611180422
+! Checksum: dpJG/WF8H2ujG7d1JXKxEA
+! Version: 202611180432
 ! Title: EasyPrivacy without international filters
-! Last modified: 18 Nov 2026 04:22 UTC
+! Last modified: 18 Nov 2026 04:32 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9185,6 +9185,19 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zion-telemetry.api.cnn.io^
 ||zoosk.com/cs/tp.png?
 ||zumper.com/events
+! expedia media
+||abritel.fr/tagging-client
+||carrentals.com/tagging-client
+||cheaptickets.com/tagging-client
+||expedia.*/tagging-client
+||fewo-direkt.de/tagging-client
+||hotels.com/tagging-client
+||hotwire.com/tagging-client
+||orbitz.com/tagging-client
+||stayz.*/tagging-client
+||travelocity.com/tagging-client
+||vrbo.com/tagging-client
+||wotif.*/tagging-client
 ! Email trackers(for long urls, 9000+ chars not being filtered)
 ||googleusercontent.com/*/wf/open?upn=$image
 ! OpenTable
