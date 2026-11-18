@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 5IVODbhRtfg/ulDKyiPW0w
-! Version: 202611182332
+! Checksum: GRmX0AwUJhsosjh0hBlZng
+! Version: 202611182342
 ! Title: EasyPrivacy without international filters
-! Last modified: 18 Nov 2026 23:32 UTC
+! Last modified: 18 Nov 2026 23:42 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -696,6 +696,7 @@
 /collect/view_count?
 /collect?appName
 /collect?callback=
+/collect?configId=
 /collect?d=
 /collect?data=
 /collect?eid=
@@ -7822,6 +7823,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||inq.com/tagserver/logging/logline
 ||insideevs.com/analytics.js
 ||insights-mxp-cdn.coursecareers.com^
+||insights.builderprofile.aws.dev^
 ||instagram.com/ajax/bz
 ||instagram.com/ajax/qm/?
 ||instructables.com/counter
@@ -8097,6 +8099,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mtg.macpaw.com^
 ||mtm.bondagevalley.cc^
 ||mtrics.cdc.gov^
+||muse.ai/api/auth/caa-events
 ||musescore.com/components/data?
 ||musescore.com/components/log/$ping
 ||musescore.com/score/stats/
