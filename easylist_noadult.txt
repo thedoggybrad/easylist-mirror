@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IwG/hlkF+FLkVAwQ/HvZ9A
-! Version: 202611181403
+! Checksum: CzPncC5URCkfXHEtYj/JCw
+! Version: 202611181418
 ! Title: EasyList without rules for adult sites
-! Last modified: 18 Nov 2026 14:03 UTC
+! Last modified: 18 Nov 2026 14:18 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -151,7 +151,7 @@
 /adasync.js$script
 /adasync.min.js$script
 /adbanners/*$image
-/adblock/frontend_loader.js
+/adblock/frontend_loader.js$~xmlhttprequest
 /adchoice.png$image
 /adcount.js$script
 /addyn|*;adtech;
@@ -1007,7 +1007,7 @@ _prebid.js$script
 ! Anti-Adblock
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
-/ad-blocking-detector/assets/js/adblock-detector.min.js
+/ad-blocking-detector/assets/js/adblock-detector.min.js$~xmlhttprequest
 /adblock-detect.$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock_detector2.$script
@@ -2456,7 +2456,6 @@ _800x80_
 ###adb_bottom
 ###adbackground
 ###adbanner-container
-###adbanner1
 ###adbannerbox
 ###adbannerdiv
 ###adbannerleft
@@ -2469,9 +2468,6 @@ _800x80_
 ###adblock-big
 ###adblock-leaderboard
 ###adblock-small
-###adblock1
-###adblock2
-###adblock4
 ###adblockbottom
 ###adbn
 ###adbnr
@@ -34214,6 +34210,7 @@ browsershots.org#@#.advert_area
 ||jxcuocswkavpi.site^
 ||jxelkzydvftdn.space^
 ||jxfbaoovzzgres.com^
+||jxhaohxzsrvch.space^
 ||jxhikyldhuqsz.site^
 ||jxiiwldewtdql.online^
 ||jxiqoaszcfxve.website^
