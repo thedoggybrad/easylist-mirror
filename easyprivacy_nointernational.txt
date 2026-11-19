@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ZlIuywncP+LupforPuXyWQ
-! Version: 202611192042
+! Checksum: B+ZFDyoLOR8AJdlxZ30E6Q
+! Version: 202611192102
 ! Title: EasyPrivacy without international filters
-! Last modified: 19 Nov 2026 20:42 UTC
+! Last modified: 19 Nov 2026 21:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3583,6 +3583,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.config-security.com/first
 ||api.country.is^$third-party
 ||api.croct.io^
+||api.dappier.com/app/widget/logwidgetevent
 ||api.firecrown.com/v1/events
 ||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
@@ -4362,6 +4363,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eventgateway.soundcloud.com^
 ||eventlog.chatlead.com^
 ||eventlog.inspsearchapi.com^
+||eventpiper.vlcapi.net^
 ||events-endpoint.pointandplace.com^
 ||events-ingestion-helpcenter.services.gorgias.help^
 ||events-ocu.zipify.com^
@@ -4633,6 +4635,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gubagoo.com/modules/tracking/
 ||gubagoo.io/c/$image
 ||gw.conversionsapigateway.com^
+||gw.vlcapi.net/geo
+||gw.vlcapi.net/init
 ||h-bid.com^$third-party
 ||h2porn.com/new-hit/?
 ||hadrianpaywall.com/views
