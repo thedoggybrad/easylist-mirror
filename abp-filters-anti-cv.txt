@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: SekUBjRFKE4k8oiBNyq2Pg
-! Version: 202611191714
+! Checksum: Thjt/2ED9DAakr1eVr+2UQ
+! Version: 202611191722
 ! Title: ABP filters
-! Last modified: 19 Nov 2026 17:14 UTC
+! Last modified: 19 Nov 2026 17:22 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -3247,6 +3247,7 @@ chip.de,focus.de,golem.de#$#replace-xhr-response 'jsonpath($.enabled)' false /fo
 ||n-tv.de/videoPlayer/homadClientConfig.json$xmlhttprequest,rewrite=abp-resource:blank-text,domain=n-tv.de
 ||smartclip.net/select$xmlhttprequest,rewrite=abp-resource:blank-html,domain=n-tv.de|gala.de|essen-und-trinken.de|brigitte.de|eltern.de
 */__assets/homad/$xmlhttprequest,rewrite=abp-resource:blank-text,domain=gala.de|essen-und-trinken.de|eltern.de
+familie.de#$#prevent-listener mp_requestAds; timer-override 1 videoAd.loading '' timeout
 ! MISC
 winfuture.de#$#hide-if-matches-xpath './/span[.="ANZEIGE"]/ancestor::div[contains(@class,"news210") or contains(@class,"news330")]'
 celleheute.de#$#hide-if-matches-xpath '//*[@data-image-info]/img[contains(@style,"440")]/ancestor::div[@id][@class][1]//parent::div[@data-hook]/parent::div[@id and @class]'; hide-if-matches-xpath './/a[@data-testid]/*[@data-image-info]/img[contains(@style,"300")]/ancestor::a[@target]/parent::div[@id][@class][1]'; hide-if-contains-visible-text /Anzeige/ 'p>span[class][style]';
