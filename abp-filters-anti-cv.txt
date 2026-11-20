@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: +5lT5H35N+9ELe4AFmdQWw
-! Version: 202611201142
+! Checksum: Ry5cwAjJHvCBgIuUYBl+WQ
+! Version: 202611201152
 ! Title: ABP filters
-! Last modified: 20 Nov 2026 11:42 UTC
+! Last modified: 20 Nov 2026 11:52 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -4223,8 +4223,8 @@ otomoto.*,otodom.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-
 otodom.*#$#hide-if-matches-xpath './/div[style[contains(text(), "Reklama")]]'
 otodom.*#$#hide-if-matches-xpath './/div[@*[starts-with(name(), "data-") and contains(., "baxter-slot")]]/parent::div[@*[starts-with(name(), "data-") and contains(.,"AdUnit") or contains(.,"SidebarAdContainer")]]'
 ! #RM-117
-pinterest.*#?#div[data-grid-item]:has(a:has-text(/(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)$/))
-pinterest.*#$#json-prune 'resource_response.data.[-].ad_data resource_response.data.results.[-].ad_data initialReduxState.resources.UserHomefeedResource.{}.data.[-].ad_data'
+pinterest.*#?#div[data-grid-item]:has(a:-abp-contains(/(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)[\u200B-\u200D\uFEFF]*$/))
+pinterest.*#$#json-prune 'resource_response.data.[-].ad_destination_url resource_response.data.results.[-].ad_destination_url initialReduxState.resources.{}.{}.data.[-].ad_destination_url initialReduxState.resources.{}.{}.data.results.[-].ad_destination_url'
 ! #RM-167
 ! HP&PP
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[data-testid^="divProductGrid"], div[data-testid^="divProduct"]>div' 'div>div[class][data-testid][data-action]>div[data-testid] a span[data-testid]'
