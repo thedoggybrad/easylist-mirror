@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FTPcENH6DveE5jR0PatKhA
-! Version: 202611200812
+! Checksum: K+e3t8D2f+3wzesgzSzFsg
+! Version: 202611200822
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 20 Nov 2026 08:12 UTC
+! Last modified: 20 Nov 2026 08:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7475,6 +7475,7 @@ dzen.ru##div[class^="content--trap-popup__container"]
 dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > [id][data-itemid]:nth-child(-n+7) > [data-type="article"]
 dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > div:empty:nth-child(2) + [id][data-itemid]
 dzen.ru##div[class^="dzen-desktop--flash-modal"]
+dzen.ru##div[class^="dzen-desktop--predictions-push_"]
 dzen.ru##div[class^="dzen-desktop--trends-entry-"]
 dzen.ru##div[class^="feed-scrolling-snackbar__container"]
 dzen.ru##div[class^="float-interview__float-"]
