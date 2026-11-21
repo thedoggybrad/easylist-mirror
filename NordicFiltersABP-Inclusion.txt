@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DzxfqPT9lcAsoa0dN1xSCw
-! Version: 202611211703
+! Checksum: pwJwl2YrwRdurnakHmj7YQ
+! Version: 202611211712
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 Nov 2026 17:03 UTC
+! Last modified: 21 Nov 2026 17:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -41821,6 +41821,7 @@ browsershots.org#@#.advert_area
 ||jjbyyelpd.com^
 ||jjeiraiaxnvbw.online^
 ||jjgscmamptmer.site^
+||jjhlqnxekuzzj.space^
 ||jjhqlyesuecsb.site^
 ||jjinvxrbfixvu.space^
 ||jjjgqtzlslhzi.online^
@@ -82943,8 +82944,7 @@ cars.com###branded-canvas-click-wrapper:has(> #native-ad-html)
 mytempsms.com###container-ad > .col-sm-12[style]:has(> .adsbygoogle)
 news.mydramalist.com###content > .app-body > div:has(.htlad-header_top)
 producthunt.com###content > div:has(> img):not(:has(a))
-igorslab.de###extras > div:has(> [data-igorslab-trackid])
-igorslab.de###extras > div:has(> img[width="980"][height="125"])
+igorslab.de###extras > #single-sticky + div:has(img)
 familytreenow.com###ftn_detail_left_side_organic
 gocomics.com###header-content-start:has([data-testid="advertising-unit"])
 radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se###headerTopBar ~ div > div:has(div#RAD_D_station_top)
