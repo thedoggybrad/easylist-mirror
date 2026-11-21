@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RDBjPdH8To4eDV6KmkhJ0w
-! Version: 202611211122
+! Checksum: Ch7lU14NjaBth40Z1w2Zyw
+! Version: 202611211132
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 21 Nov 2026 11:22 UTC
+! Last modified: 21 Nov 2026 11:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3013,6 +3013,7 @@ sportrecs.com##[title^="Sportrecs в"]
 sportrecs.com##[title^="Поделиться в"]
 ura.news##[title^="Подписаться на "]
 dom2line.ru##a.fa[href^="http"]:not([href*="://dom2line.ru/"])
+sib.fm##a.form-inline[target="_blank"]
 zab.ru,zab.tv##a.header-e[target="_blank"]
 orelgrad.ru##a.mmb-floating-button[href^="https://max.ru/"]
 dzen.ru,sportsdzen.ru##a.news-story-block__link ~ div > div:not([class])
@@ -4361,6 +4362,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||asus.com^*/banner/
 ||aum.news/themes/default/inc/t3-assets/
 ||auth-ac.vkplay.ru/api/*/autologin/
+||author.today/api/*/placements
 ||auto.mail.ru^*/typescript/block-audio-desktop.js
 ||auto.ru/-/ajax/desktop/getPromoPopup/
 ||avito.st/s/avito/components/banners/
@@ -7735,11 +7737,15 @@ shedevrum.ai##+js(abort-on-property-read, Object.prototype.isAutoPlacementUnit)
 drive2.ru,shedevrum.ai##+js(addEventListener-defuser, beforeunload, /setCookies|srcElement|this/)
 sovsport.ru##+js(prevent-fetch, _rsc=)
 belgee.by,geelyautomobile.by##+js(set-cookie, hide-cookie-message, true)
+sib.fm##.block-sticky div[style^="min-height:"]
+sib.fm##.container > div[style^="min-height:"]
+sib.fm##.footer-article__more
 neoseeker.com##.raptive-inline-support
 vk.com,vk.ru##[id^="l_invite_"][id$="_promo"]
 comedy-radio.ru##body > .container[style*="height:"]
 sdelanounas.ru##body:style(overflow-x: auto !important; position: initial !important)
 sovsport.ru#?#div[class$="_grid"] > div[class*="_cell "]:-abp-has(> div:empty)
+sovsport.ru##div[class$="_space"]:empty
 sovsport.ru##div[class*="_matches"] > div[class*="_eventMatch"]
 sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [class*="_advertisement"])
 sovsport.ru#?#div[class*="_menuWrapper"] div[class*="_container"] > div[class*="_item"]:-abp-has(> [href*="/bets/"])
@@ -7751,6 +7757,7 @@ igromania.ru##div[class^="HeaderPromo_"]
 sdelanounas.ru##div[class^="banner_"]
 www1.ru##div[id*="banner"]
 vk.com,vk.ru##div[role="main"] [data-feed-fpc-exclude]:not(:empty)
+sib.fm#?#div[style^="min-height:"]:-abp-has(.banner)
 sdelanounas.ru##html:style(overflow-x: auto !important; position: initial !important)
 liveball.sx,liveball.*##.home-hero__odds
 liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> [data-noclick])
@@ -7760,6 +7767,7 @@ byxatab.com#?#section.sect.sect--bdt:nth-of-type(2) #dle-content > a:-abp-has(> 
 ! сетевые правила
 ! news
 ||rusradio.ru/static/heart-widget.js
+||sib.fm/storage/banner/
 ||sovsport.ru/api/bonus-rating
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
