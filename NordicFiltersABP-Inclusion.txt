@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pwJwl2YrwRdurnakHmj7YQ
-! Version: 202611211712
+! Checksum: EhlI8KPLPfPILwRFQDwZog
+! Version: 202611211722
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 21 Nov 2026 17:12 UTC
+! Last modified: 21 Nov 2026 17:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -31329,6 +31329,7 @@ browsershots.org#@#.advert_area
 ||curiarawolfkin.com^
 ||curiodaedal.shop^
 ||curiousbirch.mobi^
+||curiousjeans.com^
 ||curiouslyplanning.com^
 ||curjclpfbyand.online^
 ||curledpastpatty.com^
@@ -83313,8 +83314,7 @@ tripadvisor.*##div:has(> div > div[class="ui_column ovNFo is-3"])
 openalternative.co##div:has(> div > h2 > a[href="/advertise"])
 staples.com##div:has(> div[class*="configurator-container__"] .topsort-video-configurator__monetizationContainer)
 tripadvisor.*##div:has(> div[class="ui_columns is-multiline "])
-indiatimes.com##div:has(> div[id^="div-gpt-ad-"][id$="-atf"])
-indiatimes.com##div:has(> div[id^="div-gpt-ad-atf-"])
+indiatimes.com##div:has(> div[id^="div-gpt-ad-"][id*="-atf"])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 news12.com##div[alignitems="normal"]:has(> div[sizes*="object"])
 myutils.me##div[aria-label="Advertisement"]
