@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Tk9L3TgHUSg/tL+n5C/hmw
-! Version: 202611211712
+! Checksum: 0Am/VrDElZVKOv5wDctq4A
+! Version: 202611211722
 ! Title: EasyList without rules for adult sites
-! Last modified: 21 Nov 2026 17:12 UTC
+! Last modified: 21 Nov 2026 17:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -23607,6 +23607,7 @@ browsershots.org#@#.advert_area
 ||curiarawolfkin.com^
 ||curiodaedal.shop^
 ||curiousbirch.mobi^
+||curiousjeans.com^
 ||curiouslyplanning.com^
 ||curjclpfbyand.online^
 ||curledpastpatty.com^
@@ -74019,8 +74020,7 @@ tripadvisor.*##div:has(> div > div[class="ui_column ovNFo is-3"])
 openalternative.co##div:has(> div > h2 > a[href="/advertise"])
 staples.com##div:has(> div[class*="configurator-container__"] .topsort-video-configurator__monetizationContainer)
 tripadvisor.*##div:has(> div[class="ui_columns is-multiline "])
-indiatimes.com##div:has(> div[id^="div-gpt-ad-"][id$="-atf"])
-indiatimes.com##div:has(> div[id^="div-gpt-ad-atf-"])
+indiatimes.com##div:has(> div[id^="div-gpt-ad-"][id*="-atf"])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 news12.com##div[alignitems="normal"]:has(> div[sizes*="object"])
 myutils.me##div[aria-label="Advertisement"]
