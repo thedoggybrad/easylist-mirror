@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VF/liih1DhkBqAtVc/lheA
-! Version: 202611221102
+! Checksum: pHxTWccbNs148XMu40z+Nw
+! Version: 202611221112
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Nov 2026 11:02 UTC
+! Last modified: 22 Nov 2026 11:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7745,6 +7745,7 @@ neoseeker.com##.raptive-inline-support
 vk.com,vk.ru##[id^="l_invite_"][id$="_promo"]
 shazoo.ru##a[href*="banner"][target="_blank"]
 comedy-radio.ru##body > .container[style*="height:"]
+t-j.ru##body > div[class^="_popup_"][aria-modal]
 sdelanounas.ru##body:style(overflow-x: auto !important; position: initial !important)
 ixbt.games#?#div:-abp-has(> [href*="utm_campaign"] ~ button)
 sovsport.ru#?#div[class$="_grid"] > div[class*="_cell "]:-abp-has(> div:empty)
