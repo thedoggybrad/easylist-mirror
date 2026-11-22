@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ljIoc5gu0Hh9oamXzQxnPQ
-! Version: 202611221522
+! Checksum: hUinau51T6kePPtO0sQjXg
+! Version: 202611221532
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Nov 2026 15:22 UTC
+! Last modified: 22 Nov 2026 15:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -4625,6 +4625,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||static-mon.yandex.net/static/main.js?pid=yandex_mail$xmlhttprequest
 ||static.1tv.ru/uploads/promo_position/video_brand/*.webm|$media
 ||static.fastpic.ru/android.png
+||static.gazeta.ru/*/js/agui_agent_
 ||static.hotjar.com^$domain=kopilkasovetov.com
 ||static.media-golos.mail.ru^$domain=mail.ru|~media-golos.mail.ru|sportmail.ru
 ||static.newsru.*/img/bg.gif
@@ -4724,6 +4725,7 @@ culture.ru#?##__next > div > main > div > div:-abp-has(span:-abp-contains(Под
 eldorado.ru#?##__next > div[class]:-abp-has(> div[class] > a[href*="Cookie_Policy"])
 aeza.net###__next > section + div:nth-last-child(2)
 ovk.to###_groupListPinnedGroups
+gazeta.press,gazeta.ru###_id_agui_chat
 ixbt.com,ixbt.market###accept_cookie_policy_wrapper
 mlyn.by###acceptСookie
 vk.com,vk.ru###achievement_game.page_block
