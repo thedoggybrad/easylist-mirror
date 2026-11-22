@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611222333
+! Version: 202611222348
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Nov 2026 23:33 UTC
+! Last modified: 22 Nov 2026 23:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d6c3e62714e003655255d381e7216245fa99e84c
+! Commit: c22146fa44791a9c35ef9b82a5727a860c05509b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -30394,6 +30394,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ! fanboy_annoyance_specific_block.txt
 ||answers.sg^$domain=mustsharenews.com
 ||api.qwant.com/*/homepage/trends?
+||catbox.moe/*/pic.js
 ||civilbeat.org/wp-content/themes/becivil/widgets/slp-widgets/donate.html
 ||cm.usatoday.com^
 ||cp.thetab.com^
@@ -39372,6 +39373,7 @@ careers.smh.com###pixel-consent-container
 themilitarystore.co.uk###pixelpop
 amazon.com###pldn-deep-link
 windy.com###plugin-consent
+ascopost.com###pm-consent-host
 holidayfactory.co.za###polgpr
 simsdom.com###policies
 you.dj###policy
@@ -41673,6 +41675,7 @@ mrbeastjobs.com,swapped.com,umbc.edu##[aria-label="Cookie preferences"]
 kalkulatory.marciniwuc.com##[aria-label="Cookies i prywatność"]
 docs.nats.io,ideal.house##[aria-label="Cookies"]
 khanacademy.org##[aria-label="Notification Banner"]
+goldenglobes.com,popsugar.com,punchdrink.com,thedodo.com,thrillist.com##[aria-label="Terms of Use/Your Privacy Rights"]
 stocktwits.com##[aria-label="We Care About Your Privacy"]
 itesco.sk,tesco.*##[aria-label="consent-banner"]
 perlego.com##[aria-label="cookie banner"]
