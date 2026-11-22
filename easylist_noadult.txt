@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HXdQmCa7PQdWdiMzQspTCA
-! Version: 202611221942
+! Checksum: zcQQu92plw2W2sWvOL3ZVA
+! Version: 202611221953
 ! Title: EasyList without rules for adult sites
-! Last modified: 22 Nov 2026 19:42 UTC
+! Last modified: 22 Nov 2026 19:53 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25319,6 +25319,7 @@ browsershots.org#@#.advert_area
 ||dqeozccymwpqw.online^
 ||dqgxcjyrfawra.online^
 ||dqhepocpcwspj.space^
+||dqkmqfecjcjcm.site^
 ||dqlnwrulga.com^
 ||dqlrjkhbgtncp.space^
 ||dqmgvcgaghhww.online^
@@ -43205,6 +43206,7 @@ browsershots.org#@#.advert_area
 ||pkcnrmnkwknx.com^
 ||pkcqlfxxbbobu.online^
 ||pkdanfftxztum.space^
+||pkfgxpgftniet.online^
 ||pkfvfrnzcposg.online^
 ||pkiagqasgbgqx.online^
 ||pkiigvaxvcsqe.online^
@@ -73416,6 +73418,7 @@ pricespy.co.nz,pricespy.co.uk##div[class^="AdPlacement"]
 lataco.com##div[class^="AdUnit_"]
 usnews.com##div[class^="Ad__Container-"]
 i24news.tv##div[class^="Advert_"]
+pexels.com##div[class^="AfterDownloadModal_adContainer"]
 sportinglife.com##div[class^="Article__FlashTalkingWrapper-"]
 barrons.com##div[class^="BarronsTheme--adWrapper"]
 someecards.com##div[class^="BaseAdSlot_adContainer_"]
@@ -74335,12 +74338,14 @@ noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 noon.com##[data-qa="widget_recommendedProducts"]:has(svg[width="20"] > path[d])
 producthunt.com##[data-test^="homepage-section-"] > section[data-container]:has(a[href="#"])
 stockx.com##[data-testid="banner-collage"] .chakra-aspect-ratio:has(a[title*="Promo"])
+pexels.com##[data-testid="cell"]:has(a[href*="/k/eyJ"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([class*="AIGCAdShared"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-heading*="Sponsored"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-text="Sponsored Photos"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-title*="Sponsored"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has(a[rel*="sponsored"])
 farfetch.com##[data-testid="featured"]:has([data-ffref*="sponsoredBy"])
+pexels.com##[data-testid="item"]:has(a[href*="utm_campaign=aigc_pexelscampaign"])
 samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 petco.com##[data-testid="product-buy-box"]:has([class*="SponsoredText"])
 bestbuy.com##[data-testid="sponsored-listing"]
