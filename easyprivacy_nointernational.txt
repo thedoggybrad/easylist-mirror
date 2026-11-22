@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: XcsQ9d+vE4pK0eAcL7TaRA
-! Version: 202611220212
+! Checksum: SVg94CxR6BKj92dp4qw4HA
+! Version: 202611220222
 ! Title: EasyPrivacy without international filters
-! Last modified: 22 Nov 2026 02:12 UTC
+! Last modified: 22 Nov 2026 02:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2519,6 +2519,7 @@
 /track.v2.js
 /track/?*&event=
 /track/?data=
+/track/?evt=
 /track/?verbose=
 /track/aggregate?
 /track/batch?
@@ -7503,9 +7504,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||errorreports.couponcabin.com^
 ||errors.darkreader.app^
 ||espy.boehs.org^
-||essentiallysports.com/api/track/
-||essentiallysports.com/api/v1/counts
-||essentiallysports.com/growth/engagement/
 ||et.nytimes.com^
 ||et.tidal.com^
 ||eta.animenewsnetwork.com^
@@ -8016,7 +8014,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||masterclass.com/qz6s/
 ||mat6tube.com/api/stats?
 ||matalan.co.uk/track
-||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||mcc-tags.cisco.com^
 ||mcdonalds.com/tags/js/*/mparticle.js
 ||mcdonalds.com/webevents/
