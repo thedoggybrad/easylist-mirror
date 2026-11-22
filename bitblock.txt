@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +tDOh0JlMFTAgaMQ+25C4g
-! Version: 202611221052
+! Checksum: VF/liih1DhkBqAtVc/lheA
+! Version: 202611221102
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 22 Nov 2026 10:52 UTC
+! Last modified: 22 Nov 2026 11:02 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7737,6 +7737,7 @@ shedevrum.ai##+js(abort-on-property-read, Object.prototype.isAutoPlacementUnit)
 drive2.ru,shedevrum.ai##+js(addEventListener-defuser, beforeunload, /setCookies|srcElement|this/)
 sovsport.ru##+js(prevent-fetch, _rsc=)
 belgee.by,geelyautomobile.by##+js(set-cookie, hide-cookie-message, true)
+championat.com,championat.ru#?#.article-preview-list > .article-preview:-abp-has(a[href^="https://gglead.org/"])
 sib.fm##.block-sticky div[style^="min-height:"]
 sib.fm##.container > div[style^="min-height:"]
 sib.fm##.footer-article__more
