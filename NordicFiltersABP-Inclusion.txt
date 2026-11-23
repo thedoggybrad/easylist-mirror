@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OxeGMepfIMtAulPCRE/cVg
-! Version: 202611231723
+! Checksum: wAvklrAybOIkykxMDH9/Bw
+! Version: 202611231733
 ! Title: Dandelion Sprout's Nordic Filters+EasyList
-! Last modified: 23 Nov 2026 17:23 UTC
+! Last modified: 23 Nov 2026 17:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
 !
@@ -26562,6 +26562,7 @@ browsershots.org#@#.advert_area
 ||atraff.com^
 ||atrailshriftsarridge.cyou^
 ||atrgprhdzfhfb.online^
+||atriumsomegoid.click^
 ||atrmlvulftzkr.space^
 ||atroblxac.in^
 ||atrophychumpreentry.com^
@@ -33483,6 +33484,7 @@ browsershots.org#@#.advert_area
 ||dxwawocqoeofo.online^
 ||dxxfhszhmacqm.online^
 ||dxynbmrkwrvbj.space^
+||dxyxyrailduzp.space^
 ||dyascrypta.qpon^
 ||dyblpgaiomtdv.online^
 ||dybutryvnbsxc.website^
@@ -50350,6 +50352,7 @@ browsershots.org#@#.advert_area
 ||pomponshedersmark.cyou^
 ||pomxd.com^
 ||pon-prairie.com^
+||poncesuncoyly.cyou^
 ||ponebrandon.com^
 ||ponesjaw.cyou^
 ||poneytinosa.rest^
@@ -60890,6 +60893,7 @@ browsershots.org#@#.advert_area
 ||wabewxwoytqpi.website^
 ||wabgqrrsvdqza.space^
 ||wabsyederly.com^
+||waceggtwvsqoz.online^
 ||wacimltzklfmg.online^
 ||wackercuir.cyou^
 ||wackpaysage.cfd^
@@ -61292,6 +61296,7 @@ browsershots.org#@#.advert_area
 ||weqpnxhywvtfd.com^
 ||weqwljotntvxq.online^
 ||werefilledwit.org^
+||wergildshortie.cyou^
 ||wervelalexis.cfd^
 ||wesicuros.com^
 ||westanice.qpon^
@@ -82185,7 +82190,8 @@ linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
 freightwaves.com##[href^="https://academy.freightwaves.com/"]
 pahe.ink##[href^="https://theshorten.net/"]
 alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
-x.com##[id^="urt"]>ul>li:has([class*="data-ad-disclosure"])
+x.com##[id^="urt"] > ul > li:has([class*="data-ad-disclosure"])
+x.com##[id^="urt"] > ul > li:has([target="_blank"][href*="?twclid="])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 staples.com##[role="complementary"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)
 mail.aol.com##[role="presentation"]:has(> div[data-ad-row-id])
