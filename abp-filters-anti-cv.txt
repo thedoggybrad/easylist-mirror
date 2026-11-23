@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: XW4AFgnTUnfy/GlNJKPDMQ
-! Version: 202611231033
+! Checksum: FrlytE5GuWKWAqDDfhTnIw
+! Version: 202611231042
 ! Title: ABP filters
-! Last modified: 23 Nov 2026 10:33 UTC
+! Last modified: 23 Nov 2026 10:42 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2676,6 +2676,7 @@ luxuretv.com#$#abort-current-inline-script $ /ltvClicksBeforeActivation|loadIM/
 1337x.*,pornsub.cc#$#prevent-listener /click|blur/ handlePopunder
 gayforfans.com,otubex.com#$#abort-current-inline-script document.createElement coverTags
 datavaults.co,fuckingfast.*,uploadrar.com,multiup.io#$#abort-current-inline-script document.defaultView.atob ''
+boyfriendtv.com,ashemaletube.com,fetishpapa.com#$#override-property-read CookieManager.getBannerDisplayed trueFunc
 ! MISC
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 bagas31.info#$#abort-on-property-write atob
