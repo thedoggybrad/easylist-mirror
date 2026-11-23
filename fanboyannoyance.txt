@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611230012
+! Version: 202611230019
 ! Title: Fanboy's Annoyance List
-! Last modified: 23 Nov 2026 00:12 UTC
+! Last modified: 23 Nov 2026 00:19 UTC
 ! Expires: 4 days (update frequency)
-! Commit: fce5790da46aea51f6eef0a48a08e0a466dfc1ba
+! Commit: 2d4daacadb92058765032340a208d34fba787446
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -44084,6 +44084,8 @@ enternity.gr###enternity_social_dialog
 capital.gr##.controls
 tilestwra.com##.post-google-news-link
 rik.cy##.single-article__share-options
+poiein.gr##.widget_custom_html:has(.facebook-like-box)
+poiein.gr##.widget_custom_html:has(.widget-social-follow)
 ! 
 ! ---------- Hebrew Site Specific Hiding Rules ----------
 ! 
@@ -49552,6 +49554,7 @@ danamas.co.id##div[aria-label="Persetujuan cookie"]
 ! 
 batdongsan.com.vn###dataProtectionPopupWrapper
 misa.vn###misa-cc-bar
+chongluadao.vn##._banner_1mcvy_1
 topcv.vn##.banner-setting-cookie
 vdes.vn##.cookieBanner_show__1E8Dj
 ants.vn##.sg-popup-content
