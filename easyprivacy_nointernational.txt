@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: mfsgB0Ysj9C+ZPPLpGRqLg
-! Version: 202611230033
+! Checksum: NQ58Pdio51u9dBMYdSiYnw
+! Version: 202611230042
 ! Title: EasyPrivacy without international filters
-! Last modified: 23 Nov 2026 00:33 UTC
+! Last modified: 23 Nov 2026 00:42 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -371,6 +371,7 @@
 /api/datafast/*
 /api/drpStats
 /api/event-rfkj/*
+/api/event/collect|
 /api/front/v2/observability$ping
 /api/internal/pixel?
 /api/log-visit
@@ -4475,6 +4476,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||filament-stats.herokuapp.com^
 ||files.envoke.com^*_nvk_tracking.js
 ||filesonic.com/referral/$third-party
+||fingerprint.blockifyapp.com^
 ||fingerprinter-production.herokuapp.com^
 ||firebaselogging-pa.googleapis.com^
 ||firecrux.com/track/$xmlhttprequest
@@ -5742,6 +5744,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
+||sr-cdn.shiprocket.in/sr-promise/static/iframe.html
+||sr-cdn.shiprocket.in/sr-promise/static/uc.js
 ||src.freshmarketer.in^
 ||src.fwusercontent.com^
 ||srvmath.com^*/analytics.js
