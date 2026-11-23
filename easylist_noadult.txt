@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PzE8LRSe15oS1e8avRIBbw
-! Version: 202611231723
+! Checksum: uDjP9/E/N8HAleZr7QyPnA
+! Version: 202611231733
 ! Title: EasyList without rules for adult sites
-! Last modified: 23 Nov 2026 17:23 UTC
+! Last modified: 23 Nov 2026 17:33 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18840,6 +18840,7 @@ browsershots.org#@#.advert_area
 ||atraff.com^
 ||atrailshriftsarridge.cyou^
 ||atrgprhdzfhfb.online^
+||atriumsomegoid.click^
 ||atrmlvulftzkr.space^
 ||atroblxac.in^
 ||atrophychumpreentry.com^
@@ -25761,6 +25762,7 @@ browsershots.org#@#.advert_area
 ||dxwawocqoeofo.online^
 ||dxxfhszhmacqm.online^
 ||dxynbmrkwrvbj.space^
+||dxyxyrailduzp.space^
 ||dyascrypta.qpon^
 ||dyblpgaiomtdv.online^
 ||dybutryvnbsxc.website^
@@ -42628,6 +42630,7 @@ browsershots.org#@#.advert_area
 ||pomponshedersmark.cyou^
 ||pomxd.com^
 ||pon-prairie.com^
+||poncesuncoyly.cyou^
 ||ponebrandon.com^
 ||ponesjaw.cyou^
 ||poneytinosa.rest^
@@ -53168,6 +53171,7 @@ browsershots.org#@#.advert_area
 ||wabewxwoytqpi.website^
 ||wabgqrrsvdqza.space^
 ||wabsyederly.com^
+||waceggtwvsqoz.online^
 ||wacimltzklfmg.online^
 ||wackercuir.cyou^
 ||wackpaysage.cfd^
@@ -53570,6 +53574,7 @@ browsershots.org#@#.advert_area
 ||weqpnxhywvtfd.com^
 ||weqwljotntvxq.online^
 ||werefilledwit.org^
+||wergildshortie.cyou^
 ||wervelalexis.cfd^
 ||wesicuros.com^
 ||westanice.qpon^
@@ -72891,7 +72896,8 @@ linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
 freightwaves.com##[href^="https://academy.freightwaves.com/"]
 pahe.ink##[href^="https://theshorten.net/"]
 alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
-x.com##[id^="urt"]>ul>li:has([class*="data-ad-disclosure"])
+x.com##[id^="urt"] > ul > li:has([class*="data-ad-disclosure"])
+x.com##[id^="urt"] > ul > li:has([target="_blank"][href*="?twclid="])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 staples.com##[role="complementary"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)
 mail.aol.com##[role="presentation"]:has(> div[data-ad-row-id])
