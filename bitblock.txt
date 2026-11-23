@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: J9bcSSRZSrUT+CRf3i1KKg
-! Version: 202611231024
+! Checksum: HKn+EUY8+wUTciNb4VxBbw
+! Version: 202611231033
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 23 Nov 2026 10:24 UTC
+! Last modified: 23 Nov 2026 10:33 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7731,6 +7731,8 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 ! news
+esports.ru#?#div:-abp-has(> img ~ a[href*="melbet.ru/"])
+!
 sdelanounas.ru###SocialWelcome
 kanobu.ru###__next > div > .bg-background > section[aria-label]
 shedevrum.ai###app > [class*="center"] > div[class]:style(height: unset !important)
