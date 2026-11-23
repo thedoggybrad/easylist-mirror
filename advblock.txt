@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k5g8X2qm/9G/ULv9VOGrTQ
-! Version: 202611231622
+! Checksum: QbL6K83bHvtcB0ULps/+gQ
+! Version: 202611231634
 ! Title: RU, UA, UZ, KZ
-! Last modified: 23 Nov 2026 16:22 UTC
+! Last modified: 23 Nov 2026 16:34 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -25457,6 +25457,7 @@ sovsport.ru#?#h3:-abp-contains(/бонусы| ставки | ставок | ст
 sovsport.ru##section[class*="_advPlayer"]
 sovsport.ru#?#ul[class*="_mediaList"] > li:-abp-has(a[href*="bonus"])
 sovsport.ru#?#ul[class*="_mediaList"] > li:-abp-has(a[href*="bookmaker"])
+sovsport.ru#?#ul[class*="_mediaList"] > li:-abp-has(a[href*="dzen.ru/"])
 ||sovsport.ru/api/bonus-rating
 ||sovsport.ru/api/proxy/api/promolink/
 !
