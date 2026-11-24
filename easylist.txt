@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611241018
+! Version: 202611241024
 ! Title: EasyList
-! Last modified: 24 Nov 2026 10:18 UTC
+! Last modified: 24 Nov 2026 10:24 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0ba0c4afc072ce764e2644bf3536cf465fc1eab9
+! Commit: b687e6e6e78d6d428c62f77ff253bdeca3785f56
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -47747,6 +47747,7 @@ browsershots.org#@#.advert_area
 ||slrvvtjvdbwuf.space^
 ||slthavjtoxjoi.site^
 ||sltkvfghleuui.online^
+||sltnjszvfppha.online^
 ||sltoyacczmxip.online^
 ||sltraffic.com^
 ||sludgedskipper.cyou^
@@ -74753,6 +74754,7 @@ pahe.ink##[href^="https://theshorten.net/"]
 alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
 x.com##[id^="urt"] > ul > li:has([class*="data-ad-disclosure"])
 x.com##[id^="urt"] > ul > li:has([target="_blank"][href*="?twclid="])
+x.com##[id^="urt"] > ul > li[data-index]:has(.x-link+button [href="#icon-more-dots-hor"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 staples.com##[role="complementary"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)
 mail.aol.com##[role="presentation"]:has(> div[data-ad-row-id])
