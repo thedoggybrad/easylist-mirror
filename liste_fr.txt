@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gr//8kd05iO+jxxA1MGOXA
-! Version: 202611240332
+! Checksum: FccYMVYzsEzalagV/SHnPw
+! Version: 202611240342
 ! Title: Liste FR
-! Last modified: 24 Nov 2026 03:32 UTC
+! Last modified: 24 Nov 2026 03:42 UTC
 ! Expires: 1 days (fréquence des mises a jour automatiques)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=91
 !
@@ -753,6 +753,7 @@ _werbebanner_
 ||affilae.com^$third-party
 ||affiliatable.io^$third-party
 ||affiliaweb.fr^$third-party
+||affilinks.com^$third-party
 ||affilinks.fr^$third-party
 ||affilipub.com^$third-party
 ||affility.com^$third-party
@@ -11638,6 +11639,9 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|allviid.xyz|dai
 ##.desktop-ff-ads__main
 ##.desktop-mobile-ads
 ##.desktop-mobile-ads__desktop
+##.device-desktop.ads
+##.device-mobile.ads
+##.device-tablet.ads
 ##.dfp-ads
 ##.dfp-slot-bas-banniere
 ##.dfp-slot-habillage
@@ -13951,6 +13955,7 @@ forexmt4indicators.com##a[target="_blank"] > img[width="300"][height="250"]
 forexmt4indicators.com##a[target="_blank"] > img[width="300"][height="385"]
 forexmt4indicators.com##a[target="_blank"] > img[width="728"][height="90"]
 commentseduire.net##a[target="blank"] > img
+maison-travaux.fr##a[target="blank"] > img[width^="300"][height="160"]
 footpy.fr##a[target^="_blank"] > [style="width:303px"]
 footpy.fr##a[target^="_blank"] > [style="width:584px"]
 gamergen.com,generation-nt.com##article .product
