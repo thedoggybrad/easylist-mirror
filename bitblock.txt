@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: i7x+n8EdQqdeRkkIoIgAQw
-! Version: 202611252124
+! Checksum: 5ksfWYptOFPujb0jalUwJw
+! Version: 202611252134
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Nov 2026 21:24 UTC
+! Last modified: 25 Nov 2026 21:34 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7734,21 +7734,28 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 !
 ! косметические правила и скриплеты
 ! news
-rutube.ru##.cookie-snackbar-module__snackbar
-popcornnews.ru##.horizontal-banner
-rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
-popcornnews.ru##.vertical-banner
-rutube.ru##.wdp-system-notifications-toaster-module__root
 igromania.ru#?#div[class^="Sidebar_sidebar_list_"] > .knb-card:-abp-has(> .knb-card--footer [class*="CategoryLabel_partner_"])
+liveball.*##+js(prevent-addEventListener, click, excluded)
 liveball.sx,liveball.*##.home-hero__chips
+liveball.sx,liveball.*##.home-seo
 liveball.sx,liveball.*##a[onclick][target="_blank"]
+liveball.sx,liveball.*##body > a[href][target="_blank"]
+liveball.sx,liveball.*##body > div[id]:not([class]):not([style])
 liveball.sx,liveball.*##body > div[id][class][style^="display:"][style*="block"]
 liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> a[target="_blank"])
+liveball.sx,liveball.*#?#.sm-card:-abp-has(> a[target="_blank"])
+popcornnews.ru##.horizontal-banner
+popcornnews.ru##.vertical-banner
+rutube.ru##.cookie-snackbar-module__snackbar
+rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
+rutube.ru##.wdp-system-notifications-toaster-module__root
 !
 ! сетевые правила
 ! news
+?source=liveball.$popup,domain=liveball.im|liveball.sx
 ||cdn.lbs.pw/st/
 ||lbs.pw/liveball/img/bc/
+||lbs.pw/liveball/img/brand
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
