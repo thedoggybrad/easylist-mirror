@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: l5vG4TW8EM2Exv5QkQF9ng
-! Version: 202611251212
+! Checksum: u1vxj/URvp08kC58U5BNWg
+! Version: 202611251223
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 25 Nov 2026 12:12 UTC
+! Last modified: 25 Nov 2026 12:23 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2736,7 +2736,7 @@ api-video.khl.ru##.vjs-cola_vote-control
 api-video.khl.ru##.vjs-like-button-control
 ntv.ru##.vjs-share-screen__social
 ria.ru##.vjs-toppane-share-more
-apihost.ru,calend.ru,waiset.su,xn--c1acj.xn--p1ai##.vk
+apihost.ru,calend.ru,popcornnews.ru,waiset.su,xn--c1acj.xn--p1ai##.vk
 mysimpsons.ru##.vk-block
 dovidka.biz.ua##.vk-group
 energyfm.ru##.vk-index
@@ -7734,7 +7734,9 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! косметические правила и скриплеты
 ! news
 rutube.ru##.cookie-snackbar-module__snackbar
+popcornnews.ru##.horizontal-banner
 rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
+popcornnews.ru##.vertical-banner
 rutube.ru##.wdp-system-notifications-toaster-module__root
 !
 ! сетевые правила
