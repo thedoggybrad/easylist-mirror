@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eeKEsuRH9VDVGnPfaxq+yA
-! Version: 202611251647
+! Checksum: 8llr0mLZ5LoPImjC/qxhgw
+! Version: 202611251652
 ! Title: IndianList
-! Last modified: 25 Nov 2026 16:47 UTC
+! Last modified: 25 Nov 2026 16:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5460,6 +5460,21 @@ perfection-ias-upsc$domain=nextbihar.com
 ||zoftcdn.com^*/vesta.jpg
 ||zoombangla.com/jamuna/
 ||zoombangla.com/wp-content/themes/zoombangla-home-news-3/assets/ads/
+||mithilajanjankiaawaj.com/uploads/images/202306/image_750x_648b3ba75b65e.jpg
+||mithilajanjankiaawaj.com/uploads/images/202301/image_750x_63c040ebe12a5.jpg
+||mithilajanjankiaawaj.com/uploads/images/202308/image_750x_64db646bb8e37.jpg
+mithilajanjankiaawaj.com#?#em:-abp-contains(ADVERTISEMENT)
+||mithilajanjankiaawaj.com/uploads/images/202403/image_750x_6604e7fd59345.jpg
+||mithilajanjankiaawaj.com/uploads/images/202404/image_750x_6610c2b74f568.jpg
+||mithilajanjankiaawaj.com/uploads/images/202410/image_750x_670e83e0cfe7e.jpg
+||mithilajanjankiaawaj.com/uploads/images/202501/image_750x_6790bff6a9f49.jpg
+||mithilajanjankiaawaj.com/uploads/images/202303/image_750x_641575970ca00.jpg
+||mithilajanjankiaawaj.com/uploads/images/202303/image_750x_6419dd8b12417.jpg
+||mithilajanjankiaawaj.com/uploads/images/202304/image_750x_643d6ff23992d.jpg
+||mithilajanjankiaawaj.com/upl.tdm-ii-wrap>imgoads/images/202212/image_750x_6396122d7f4d6.jpg
+||mithilajanjankiaawaj.com/uploads/images/202212/image_750x_638b5eda8b6a0.jpg
+||mithilajanjankiaawaj.com/uploads/images/202602/image_750x_6983748c74d61.jpg
+||mithilajanjankiaawaj.com/uploads/images/202608/image_750x_6a87103b5e1b2.jpg
 !------------------------Specific element hiding rules------------------------!
 ! *** indianlist:IndianList/specific_hide.txt ***
 livebihar24news.com###AD_FLOAT
@@ -10744,4 +10759,5 @@ wayanadvision.in#?#.sidebar-widget:-abp-has(> h3:-abp-contains(Ad))
 yugvartanews.com#?#center:-abp-contains(ADVERTISEMENT)
 yuvaharyana.com#?#div[id^="AS_O_LHS"] > div:-abp-has(> div > a>div > h5:-abp-contains(Ad |))
 yuvakrantinews.in#?#.gb-container:-abp-properties(min-height)
+mithilajanjankiaawaj.com#?#span:-abp-contains(Advertisement)
 !-----------------------Whitelists to fix broken sites------------------------!
