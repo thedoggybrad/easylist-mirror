@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bOwTFTp8s02EKYFb71GL0g
-! Version: 202611251703
+! Checksum: rR0GEhJ55dRI4AEZBwba+A
+! Version: 202611251713
 ! Title: EasyList without element hiding rules
-! Last modified: 25 Nov 2026 17:03 UTC
+! Last modified: 25 Nov 2026 17:13 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -196,7 +196,6 @@
 /ads/cbr.js$script
 /ads/custom_ads.js$script
 /ads/footer.$~xmlhttprequest
-/ads/gam_prebid-$script
 /ads/get-ads-by-zones/?zones%
 /ads/image/*$image
 /ads/images/*$image,domain=~eoffcn.com
@@ -581,7 +580,6 @@
 /popup_code.php$script
 /popupads.js$script
 /prbt/v1/ads/?_=
-/prebid-library.js
 /prism_ad/*$script
 /processing/impressions.asp?$image
 /production/ad-$script
@@ -964,13 +962,16 @@ wss://www.*.xyz/ws^$third-party
 .prebid-bundle.js$script
 .prebid.$domain=~prebid.org
 /ad/postbid_handler1.$script
+/ads/gam_prebid-$script
 /ads/prebid8-$script
 /dist/adsPrebid.js$script
 /gpt-prebid.js$script
+/lib/prebid-$script
 /pbjsandwichdirecta9-$script
 /plugins/prebidjs/*$script
 /porpoiseant/*$script
 /prebid-js-$script
+/prebid-library.js
 /prebid-load.js$script
 /prebid-min-$script
 /prebid-wrapper.js$script,third-party
@@ -6746,6 +6747,7 @@ _800x80_
 ||bracesstot.cfd^
 ||bracketauthorizedportray.com^
 ||braconamphion.click^
+||bragerserrano.cyou^
 ||brahuimiswendgranat.cfd^
 ||braillehungry.click^
 ||brainient.com^
@@ -11466,6 +11468,7 @@ _800x80_
 ||dsimnq.com^
 ||dsincy.com^
 ||dsivor.com^
+||dsixon.com^
 ||dsixzz.com^
 ||dsiyow.com^
 ||dsjdnjdwsmofh.space^
@@ -14437,6 +14440,7 @@ _800x80_
 ||foetail.com^
 ||fofauctddfpfo.website^
 ||foflf.com^
+||fofwpusk.com^
 ||fogegtcddjlsi.site^
 ||foghorndash.com^
 ||foghug.site^
@@ -16846,6 +16850,7 @@ _800x80_
 ||harthindthrough.com^
 ||hartinquiesce.com^
 ||hasaeblmtcadr.website^
+||hasardpirana.cyou^
 ||hashabvervel.rest^
 ||hashtloftman.com^
 ||hasidiccudaboled.qpon^
@@ -20549,6 +20554,7 @@ _800x80_
 ||jxawcxgxuerba.online^
 ||jxbwzfgggttme.site^
 ||jxcuocswkavpi.site^
+||jxdnvnwibhdmx.online^
 ||jxelkzydvftdn.space^
 ||jxfbaoovzzgres.com^
 ||jxhikyldhuqsz.site^
@@ -21832,6 +21838,7 @@ _800x80_
 ||lakzzeog.in^
 ||lalapush.com^
 ||lambergliffs.cfd^
+||lambertincordkerchoo.cfd^
 ||lambmotorabash.com^
 ||lambrhccdjkx.com^
 ||lambyreteach.cyou^
@@ -22855,6 +22862,7 @@ _800x80_
 ||lownthecia.cfd^
 ||loworiginatepalette.com^
 ||lowrietackled.cyou^
+||lowshoer.click^
 ||lowtrainer.com^
 ||lowwoodtanner.cfd^
 ||loxitdat.com^
@@ -25117,6 +25125,7 @@ _800x80_
 ||nasrollully.cfd^
 ||nastelul.com^
 ||nastieruprivetrolls.cfd^
+||nastyantonym.click^
 ||nasutearawa.com^
 ||natalesivers.com^
 ||natdisplacehereafter.com^
@@ -42127,6 +42136,7 @@ _800x80_
 ||yavli.com^
 ||yavsmataemray.online^
 ||yavurxepklnzm.space^
+||yawalqbosnsyf.site^
 ||yawlalgae.click^
 ||yawlsheared.com^
 ||yawmarqmnbndi.website^
@@ -49196,6 +49206,7 @@ _800x80_
 ||js.rev.iq^
 ||js.surecart.com/v1/affiliates?
 ||jsdelivr.net/gh/InteractiveAdvertisingBureau/
+||jsdelivr.net/gh/prebid/
 ||jsdelivr.net/gh/qxomer/reklam@master/reklam.js
 ||jsdelivr.net/npm/as-essential
 ||jsdelivr.net/npm/prebid-
@@ -52167,7 +52178,7 @@ testpages.eyeo.com*js/test-script.js
 ! ABP for Safari on iOS
 ||ads.google.com^$xmlhttprequest,domain=ynet.co.il
 ! filecrypt
-$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.filecrypt.to/js/prototype.js https://static.filecrypt.to/js/container.js https://static.filecrypt.to/js/container_utils.js https://static.filecrypt.to/js/scriptaculous/ https://static.filecrypt.to/js/container/ https://*.cutcaptcha.net https://challenges.cloudflare.com http://127.0.0.1:9666 http://cnl.filecrypt.cc:9666; connect-src 'self' https://*.cutcaptcha.net; worker-src 'self' blob:,domain=filecrypt.cc|filecrypt.co|filecrypt.to,~third-party
+$csp=script-src 'unsafe-inline' 'unsafe-eval' https://static.filecrypt.to/js/prototype.js https://static.filecrypt.to/js/container.js https://static.filecrypt.to/js/container_utils.js https://static.filecrypt.to/js/scriptaculous/ https://static.filecrypt.to/js/container/ https://*.cutcaptcha.net https://challenges.cloudflare.com http://127.0.0.1:9666 http://cnl.filecrypt.cc:9666 https://filecrypt.cc/cdn-cgi/ https://filecrypt.co/cdn-cgi/ https://filecrypt.to/cdn-cgi/ https://filecrypt.cc/this-is-not-tracking.php https://filecrypt.co/this-is-not-tracking.php https://filecrypt.to/this-is-not-tracking.php; connect-src 'self' https://*.cutcaptcha.net; worker-src 'self' blob:,domain=filecrypt.cc|filecrypt.co|filecrypt.to,~third-party
 ! *** easylist:easylist/easylist_specific_block_popup.txt ***
 $popup,third-party,domain=1337x.buzz|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.com|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|advertisertape.com|animeworld.biz|antiadtape.com|atrocidades18.net|cloudemb.com|cloudvideo.tv|d000d.com|databasegdriveplayer.xyz|datanodes.to|dembed1.com|diampokusy.com|dirproxy.info|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|ds2play.com|embedsito.com|fembed-hd.com|file-upload.com|filemoon.sx|geoip.redirect-ads.com|gettapeads.com|gogoanime.lol|gogoanime.nl|haes.tech|hubfiles.ws|hydrax.xyz|katfile.com|kissanime.lol|livetv498.me|loader.to|luluvdo.com|mega4upload.net|mixdroop.co|mixdrop.ag|mixdrop.bz|mixdrop.click|mixdrop.club|mixdrop.nu|mixdrop.ps|mixdrop.si|mixdrop.sx|mixdrop.to|mixdrp.co|mixdrp.to|noblocktape.com|okru.link|oneproxy.org|piracyproxy.biz|piraproxy.info|pixroute.com|playtube.ws|sbfast.com|sbplay2.xyz|sbthe.com|scloud.online|shavetape.cash|slmaxed.com|ssbstream.net|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stape.me|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.cc|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamlare.com|streamnoads.com|streamta.pe|streamtape.cc|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|strtape.cloud|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|strtpe.link|supervideo.tv|suzihaza.com|tapeadsenjoyer.com|tapeadvertisement.com|tapeantiads.com|tapeblocker.com|tapelovesads.org|tapenoads.com|tapepops.com|tapewithadblock.com|tapewithadblock.org|theproxy.ws|trafficdepot.xyz|tubeload.co|un-block-voe.net|uproxy.co|upstream.to|upvid.biz|userload.co|vanfem.com|vgfplay.com|vidcloud9.com|vidlox.me|viewsb.com|vivo.sx|voe-unblock.com|voe-unblock.net|voe.sx|voeunblock1.com|voeunblock2.com|voiranime.com|watchsb.com|wiztube.xyz|wootly.ch|y2mate.is|ytmp3.sh
 /&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
@@ -52232,7 +52243,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 /b4b8.js$domain=homeporn.cc|pornenot.com|pornocase.net
 /frontend_loader.js$domain=eveknows.com|hardcoreluv.com|hentairider.com|iluvtoons.com|older-mature.net|pezporn.com|pornstarsluv.com|tongabonga.com|youramateurtube.com
 /nozomi4.js$domain=nozomi.la
-/player-extras.$domain=ashemaletube.com|boyfriendtv.com|fetishpapa.com
+/player-extras.$domain=ashemaletube.com|boyfriendtv.com|fetishpapa.com|pornoxo.com
 /zv3/b/*$domain=ashemaletube.com|boyfriendtv.com|fetishpapa.com
 ://*.justthegays.com/$script,~third-party
 ||1069jp.com/js/script_
@@ -52303,6 +52314,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||ar.transhero.com^
 ||as.hobby.porn^
 ||asg.faperoni.com^
+||ashemaletube.com/ast/bbb/
 ||asiandolls.co.uk/images/banners/
 ||atube.xxx/static/js/abb.js
 ||aucdn.net/library/*.mp4$rewrite=abp-resource:blank-mp4,domain=txnhh.com|xnxx.com|xvideos.com|xvv1deos.com
@@ -52335,6 +52347,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||boyfriendtv.com/bftv/b/
 ||boyfriendtv.com/bftv/bb/
 ||boyfriendtv.com/bftv/bbb/img/
+||boyfriendtv.com/bftv/bgg/
 ||boyfriendtv.com/bftv/paysite/
 ||boyfriendtv.com/bftv/www/js/*.min.js?url=
 ||boyfriendtv.com/link/out/b/
@@ -52926,6 +52939,7 @@ $csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval',domai
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
 .com./$popup,domain=pornhub.com
 |http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
+||ashemaletube.com/o7x/$popup
 ||boyfriend.tv/out/bg-$popup
 ||boyfriendtv.com/o7x/$popup
 ||boyfriendtv.com/out/bg-$popup
