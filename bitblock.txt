@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 38uASjnCQB3rOWHZz6GKvQ
-! Version: 202611260852
+! Checksum: KG5xdfKTUwdbm5aJp4aYLw
+! Version: 202611260903
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Nov 2026 08:52 UTC
+! Last modified: 26 Nov 2026 09:03 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7735,6 +7735,7 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! косметические правила и скриплеты
 ! news
 igromania.ru#?#div[class^="Sidebar_sidebar_list_"] > .knb-card:-abp-has(> .knb-card--footer [class*="CategoryLabel_partner_"])
+kinozal.cloudns.nz##div[style="position: absolute; z-index: 99999"]
 liveball.*##+js(prevent-addEventListener, click, excluded)
 liveball.sx,liveball.*##.home-hero__chips
 liveball.sx,liveball.*##.home-seo
@@ -7746,6 +7747,7 @@ liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> a[target="_blank"])
 liveball.sx,liveball.*#?#.sm-card:-abp-has(> a[target="_blank"])
 popcornnews.ru##.horizontal-banner
 popcornnews.ru##.vertical-banner
+profinance.ru##a[href*="?erid="]
 rutube.ru##.cookie-snackbar-module__snackbar
 rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
 rutube.ru##.wdp-system-notifications-toaster-module__root
@@ -7756,6 +7758,9 @@ rutube.ru##.wdp-system-notifications-toaster-module__root
 ||cdn.lbs.pw/st/
 ||lbs.pw/liveball/img/bc/
 ||lbs.pw/liveball/img/brand
+||profinance.ru/adv/
+||profinance.ru/andromeda/embed.js
+||profinance.ru/js/tgbnr.js
 !
 ! - Филиал Adblock Warning Removal List ---------------------------------------
 ! Сюда попадают аккуратно оформленные и не выбивающиеся из общего оформления
