@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZOI2jLlv3hCiC5WxQ4lUZg
-! Version: 202611262023
+! Checksum: 7p72aLyhyd2SME6DJ9z4zw
+! Version: 202611262032
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Nov 2026 20:23 UTC
+! Last modified: 26 Nov 2026 20:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1924,6 +1924,7 @@ fbc.biz.ua##.post_subscribe
 winreview.ru##.postmeta + noindex
 iphones.ru##.postpage_telega
 kraj.by##.preheader-social
+profinance.ru##.press-subscriptions
 kurkul.com##.prices-widget
 planetazdorovo.ru##.product-detail-share
 metro-cc.ru##.product-page-social
@@ -7738,6 +7739,8 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 7kanal.co.il##.banner-top
 rutube.ru##.cookie-snackbar-module__snackbar
 popcornnews.ru##.horizontal-banner
+profinance.ru##.middle > .right
+profinance.ru##.press-inline-ad
 rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
 7kanal.co.il##.taboola
 popcornnews.ru##.vertical-banner
