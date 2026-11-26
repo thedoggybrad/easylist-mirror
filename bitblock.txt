@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qMVp8BZ6NJ3cTugnRBE5QA
-! Version: 202611261922
+! Checksum: vPwHubUFEgBg6r4V2X6uIg
+! Version: 202611261932
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 26 Nov 2026 19:22 UTC
+! Last modified: 26 Nov 2026 19:32 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -7736,7 +7736,23 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! косметические правила и скриплеты
 ! news
 7kanal.co.il##.banner-top
+rutube.ru##.cookie-snackbar-module__snackbar
+popcornnews.ru##.horizontal-banner
+rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
 7kanal.co.il##.taboola
+popcornnews.ru##.vertical-banner
+rutube.ru##.wdp-system-notifications-toaster-module__root
+gamegpu.com,overclockers.ua##a[href*="://allo.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://citrus.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://click.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://comfy.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://elmir.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://epicentrk.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://ktc.ua/"]:style(pointer-events: none !important; color: inherit !important)
+gamegpu.com,overclockers.ua##a[href*="://microtron.ua/"]:style(pointer-events: none !important; color: inherit !important)
+profinance.ru##a[href*="?erid="]
+gamegpu.com,overclockers.ua##a[href*="foxtrot.com.ua/"]:style(pointer-events: none !important; color: inherit !important)
+radio.yandex.ru##div[class^="DefaultLayout-module-scss-module_"][class$="_bottomBar"] > aside
 igromania.ru#?#div[class^="Sidebar_sidebar_list_"] > .knb-card:-abp-has(> .knb-card--footer [class*="CategoryLabel_partner_"])
 kinozal.cloudns.nz##div[style="position: absolute; z-index: 99999"]
 liveball.*##+js(prevent-addEventListener, click, excluded)
@@ -7748,13 +7764,6 @@ liveball.sx,liveball.*##body > div[id]:not([class]):not([style])
 liveball.sx,liveball.*##body > div[id][class][style^="display:"][style*="block"]
 liveball.sx,liveball.*#?#.mt-panel-card:-abp-has(> a[target="_blank"])
 liveball.sx,liveball.*#?#.sm-card:-abp-has(> a[target="_blank"])
-popcornnews.ru##.horizontal-banner
-popcornnews.ru##.vertical-banner
-profinance.ru##a[href*="?erid="]
-radio.yandex.ru##div[class^="DefaultLayout-module-scss-module_"][class$="_bottomBar"] > aside
-rutube.ru##.cookie-snackbar-module__snackbar
-rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
-rutube.ru##.wdp-system-notifications-toaster-module__root
 !
 ! сетевые правила
 ! news
