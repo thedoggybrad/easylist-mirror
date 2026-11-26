@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: Sa88SR7Ejq97Fg3GPwbVUQ
-! Version: 202611261333
+! Checksum: FNSA8AK+XF18xSYFwP7LNQ
+! Version: 202611261343
 ! Title: ABP filters
-! Last modified: 26 Nov 2026 13:33 UTC
+! Last modified: 26 Nov 2026 13:43 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1434,6 +1434,8 @@ scribd.com#$#override-property-read x633x2pdvurd true
 ||*/main.js|$script,rewrite=abp-resource:blank-js,domain=scribd.com
 scribd.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 scribd.com#$#replace-outbound-value Array.prototype.join '/Array[.]of[(]!1[)](?=[[][a-zA-Z0-9_$]+[(][0-9]+[)]][(][a-zA-Z0-9_$]+[[][a-zA-Z0-9_$]+[+][a-zA-Z0-9_$]+][)][)]return)/' 'Array.of(!0)'
+||html-load.com^$domain=scribd.com
+scribd.com#$#timer-override 1 /^12[0-9][0-9]$|^1300$/ noop timeout
 ||html-load.com/api.js$script,rewrite=abp-resource:blank-js,domain=funandnews.de
 funandnews.de#$#prevent-listener message /data===/; abort-current-inline-script eval /xqp7dne8x60q/; override-property-read xqp7dne8x60q true
 funandnews.de#$#replace-outbound-value String.prototype.replaceAll '/if[(](![^;&{}]+&&!1===[A-Za-z_$][(][^)]*[)])[)]return/' 'if(!0||$1)return'
