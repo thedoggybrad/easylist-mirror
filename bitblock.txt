@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2cdLa4A2T1+8IiGa9OKguQ
-! Version: 202611271013
+! Checksum: p91p5Ow+e8K1vxAmvP2inQ
+! Version: 202611271022
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 27 Nov 2026 10:13 UTC
+! Last modified: 27 Nov 2026 10:22 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6085,6 +6085,7 @@ womo.ua##.promo-block-subscribe
 habr.com##.promo-block_vacancies
 shazoo.ru##.promo-button
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.promo-carousel
+euroauto.ru##.promo-container
 hotline.ua##.promo-list-item
 cont.ws##.promo-posts
 smotrim.ru##.promo-registration
@@ -7015,6 +7016,7 @@ trychatgpt.ru##header button[class*="from-[#"]
 azbooki.ru,engisys.ru,zip1000.ru##html > div[style^="color: rgb"]
 ozon.ru##html:not([style*="overflow:"]) div[data-widget="webPdpGrid"] [data-widget^="tileGridDesktop"]
 ozon.ru##html:not([style*="overflow:"]) div[data-widget="webPdpGrid"] [data-widget^="tileScrollDesktop"]
+oil-club.ru##i-announcement-banner
 computer76.ru##iframe[data-src^="https://forms.yandex.ru/"]
 forums.ati.su,loads.ati.su,tm.ati.su,trucks.ati.su##iframe[src*="//news.ati.su/external/last-news/"]
 currenttime.tv##iframe[src*="/a/signup-sidebar-widget/"]
@@ -7732,6 +7734,8 @@ tass.ru##div[class^="DesktopLayout_sticky_in_column_"]
 ! news
 7kanal.co.il##.banner-top
 rutube.ru##.cookie-snackbar-module__snackbar
+oil-club.ru##.extendedAd
+oil-club.ru##.extendedAdRow
 popcornnews.ru##.horizontal-banner
 profinance.ru##.middle > .right
 profinance.ru##.press-inline-ad
@@ -7739,6 +7743,8 @@ rutube.ru##.promocode-disable-ad-24hours-topline-banner-module__wrapper
 7kanal.co.il##.taboola
 popcornnews.ru##.vertical-banner
 rutube.ru##.wdp-system-notifications-toaster-module__root
+oil-club.ru##[data-blocktitle^="Реклама"]
+oil-club.ru##[data-ips-ad]
 gamegpu.com,overclockers.ua##a[href*="://allo.ua/"]:style(pointer-events: none !important; color: inherit !important)
 gamegpu.com,overclockers.ua##a[href*="://citrus.ua/"]:style(pointer-events: none !important; color: inherit !important)
 gamegpu.com,overclockers.ua##a[href*="://click.ua/"]:style(pointer-events: none !important; color: inherit !important)
@@ -7753,6 +7759,7 @@ profinance.ru##aside[aria-label="Реклама"]
 radio.yandex.ru##div[class^="DefaultLayout-module-scss-module_"][class$="_bottomBar"] > aside
 igromania.ru#?#div[class^="Sidebar_sidebar_list_"] > .knb-card:-abp-has(> .knb-card--footer [class*="CategoryLabel_partner_"])
 kinozal.cloudns.nz##div[style="position: absolute; z-index: 99999"]
+igromania.ru##html.is-mobile div[class^="InTextTableOfContents_floatingButtonWrapper_"]
 liveball.*##+js(prevent-addEventListener, click, excluded)
 liveball.sx,liveball.*##.home-hero__chips
 liveball.sx,liveball.*##.home-seo
