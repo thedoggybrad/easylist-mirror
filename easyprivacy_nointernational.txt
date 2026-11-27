@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1AHG+gM5OpG5DQV85jyw8g
-! Version: 202611270903
+! Checksum: BpRA+pEBRiXHPJ03CwLypw
+! Version: 202611270913
 ! Title: EasyPrivacy without international filters
-! Last modified: 27 Nov 2026 09:03 UTC
+! Last modified: 27 Nov 2026 09:13 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5497,6 +5497,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quora.com/_/ad/
 ||quora.com/qevents.js
 ||qzzr.com/_uid.gif
+||r.lr-hv-in.com^
 ||r.mail.ru^$script
 ||r.sdiapi.net^
 ||r.skimresources.com^
@@ -6308,7 +6309,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
 ||unifyintent.com/analytics/
 ||units.knotch.it^
-||unpkg.com/web-vitals?
+||unpkg.com/web-vitals
 ||upsell-app.logbase.io/metrics
 ||uptime.com/static/rum/$third-party
 ||uptime.fastrr.com^
@@ -6465,6 +6466,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||widgetserver.com^*/image.gif?
 ||win.staticstuff.net^
 ||witbee.com^*/collect
+||wkbrs1.tingyun.com^
 ||wl-pixel.index.digital^
 ||wn.com/count.js
 ||wogaa.sg/scripts/wogaa.js
