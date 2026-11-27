@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 24GBUPSQVZh1hJpyz4PLWA
-! Version: 202611271003
+! Checksum: WhUkwpssApB9VGpoHc+/cg
+! Version: 202611271013
 ! Title: RU, UA, UZ, KZ
-! Last modified: 27 Nov 2026 10:03 UTC
+! Last modified: 27 Nov 2026 10:13 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -26405,6 +26405,7 @@ htmlacademy.ru##div[style^="margin-left:"][style*="margin-bottom:"][style*="posi
 epscape.*##.fixed.backdrop-blur-sm
 drukarnia.com.ua##header ~ section[role="dialog"]
 bbc.com#?#header[role="banner"] > div > div:has(> div > div > p > [href*="/cookies/"])
+igromania.ru##html.is-mobile div[class^="InTextTableOfContents_floatingButtonWrapper_"]
 surl.*##.card-body > .row > div:first-child:not(:only-child)
 surl.*#?#.text-center:-abp-has(> form > .disabled) > p ~ *
 ! --- Блокировки
