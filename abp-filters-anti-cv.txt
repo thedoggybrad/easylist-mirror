@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: kLsf9KhpbEJ0Fya/k/cOvQ
-! Version: 202611271003
+! Checksum: NRaVsV0J1O4WPLNqib1BAw
+! Version: 202611271013
 ! Title: ABP filters
-! Last modified: 27 Nov 2026 10:03 UTC
+! Last modified: 27 Nov 2026 10:13 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -2674,7 +2674,7 @@ filthyhero.com##base[target="_blank"] {remove:true;}
 filthyhero.com#$#override-property-read opener null
 ||filthyhero.com/bounce-test.js^$script,domain=filthyhero.com
 allpornflix.com#$#json-prune '[].props.videoPlayerAds [].props.postButtonAds'
-adultclips.xyz,allpornflix.com,allpornstream.com,armcomix.com,aznocomics.com,bellezashot.com,cine.su,comicsz.com,czzbgnw.com,favcomics.com,iceporn.net,jamespatterncamera.com,muchohentai.com,oisauh.com,onionplay.*,porn4days.*,pornbusy.com,primepages.sbs,richpopup.com,rule34porno.cc,shannoncoldalready.com,stellarconductornexus.com,streamhls.to,tubeon.com,tubeon.net,vid-snap-player.com,xvideos.com,yomovies.*#$#prevent-window-open /./
+adultclips.xyz,allpornflix.com,allpornstream.com,armcomix.com,aznocomics.com,bellezashot.com,cine.su,comicsz.com,czzbgnw.com,favcomics.com,iceporn.net,jamespatterncamera.com,muchohentai.com,oisauh.com,onionplay.*,porn4days.*,pornbusy.com,primepages.sbs,richpopup.com,rule34porno.cc,shannoncoldalready.com,stellarconductornexus.com,streamhls.to,smplace.com,slaughtergays.com,sexiestpicture.com,sassytube.com,xh.video,tubeon.com,tubeon.net,vid-snap-player.com,vipergirls.to,xvideos.com,yomovies.*#$#prevent-window-open /./
 onionplay.*#$#override-property-read scds 0
 streamingnow.mov,stellarconductornexus.com,youperv.com#$#override-property-read AtcshAltNm noopFunc
 xxxcinema.tube,hianimes.se,supernatural-spn.com,plplayer.online,kalarona.orgzokoanime.video#$#prevent-window-open /./ 1000
@@ -4305,8 +4305,7 @@ knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(.
 staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]/ancestor::div[.//div[@role="listitem"]][1]'
 ! #RM-194
 ! SP
-fiverr.com##.gig-card-layout [data-track-tag="box"] > img[src*="/generic_asset/"]
-fiverr.com#$#hide-if-matches-computed-xpath '//div[@class="gig-card-layout"][contains(substring-before(concat(substring-after(\'{{}}\',concat(\'"uuid":"\',@data-impression-item,\'"\')),\'"uuid"\'),\'"uuid"\'),\'"auction"\')]' '//script[@id="perseus-initial-props"]' '/"rawListingData":(.*?),"knownCrawler"/'
+fiverr.com##div.gig-card-layout:has(img[src*="YzEFzlaaSMVP3pyV.png"], img[src*="PlHPg0VAMUq3k8MO.png"], img[src*="7cTIsjUSgkdgK0Bk.png"], img[src*="vrOgqsutoVxdvHBv.png"], img[src*="xsojvfNqty1OkhG3.png"], img[src*="VAfFjdh3MxARiP5v.png"], img[src*="bvO47Pjgkz8Bdn6e.png"], img[src*="GDeZgjIiDRZ3ucrV.png"], img[src*="EZwiIAQw1NgqcseU.png"], img[src*="pLT0Pd51b8LTiWz2.png"], img[src*="gzZORX9VpAAD1ahS.png"], img[src*="yQ4DaDqdmaRjSa09.png"], img[src*="d44vopPlztJelgkF.png"], img[src*="f4BuMrQhCQhhQmpa.png"], img[src*="Wmv6Sa53TAtLCICr.png"], img[src*="ltY96aP0ZMeqw5af.png"], img[src*="Jw6jfEMxvLeztpCV.png"], img[src*="05n8VpFiXq4WJtdZ.png"], img[src*="3TbSg1UdeicA2y8o.png"], img[src*="vGwTpczOcjMLD4iV.png"], img[src*="WK5DffG4uQmdAikk.png"], img[src*="qHjzx1kxZSeDoHRY.png"], img[src*="6ZLuYEtJpZQUkFIx.png"], img[src*="Cu3zWzDeW6V5RSiu.png"], img[src*="afc8OddHw15GHxy1.png"], img[src*="EbV5eKvUO3lwc2Ag.png"], img[src*="P38ZQ66Hf6XUIIPu.png"], img[src*="t3Du5C6Chm0N0zPt.png"])
 ! CP
 fiverr.com#?#div.slide:has(span[data-track-tag^="typography"]:-abp-contains(/Anzeige|Ad|Anuncio|Publicité|Anúncio|Annuncio|Advertentie/))
 ! #RM-146
