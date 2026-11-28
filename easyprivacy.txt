@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611282203
+! Version: 202611282205
 ! Title: EasyPrivacy
-! Last modified: 28 Nov 2026 22:03 UTC
+! Last modified: 28 Nov 2026 22:05 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9f5665e6345685fcb798744e727356e3a075f030
+! Commit: c56c89fe938822130c086dc8090eda78f987954b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -59,6 +59,7 @@
 .file-downloads.outbound-links.js
 .gatracking.js
 .gif?Log=
+.gif?puid=
 .hash.outbound-links.js
 .jp/pv?
 .jp/static/js/track.js
@@ -5310,6 +5311,7 @@ omni.soundestlink.com$image
 ||kokos.click^$third-party
 ||komtrack.com^$third-party
 ||kopsil.com^$third-party
+||krushmedia.com^$third-party
 ||ksyrium0014.com^$third-party
 ||l2.io^$third-party
 ||landingpg.com^$third-party
