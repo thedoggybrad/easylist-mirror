@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611280034
+! Version: 202611280045
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Nov 2026 00:34 UTC
+! Last modified: 28 Nov 2026 00:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a2fc6126e1ba878370d522cbd65314580bd83fac
+! Commit: a1b97a6837a242bf76092ae5d80956c1fb76a8dd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -36094,6 +36094,7 @@ houseofsaud.com##[style*="margin:2em 0;background:#0f0f14;border:1px solid rgba(
 middleeasteye.net##[style^="display: flex; align-items: center; justify-content: center;"]
 takimag.com##[style^="width: 100vw; height: 100vh; background-image: linear-gradient"]
 foxsports.com.au##[title="Newsletter"]
+dansinker.com##[x-data="newsletter"]
 factcheck.org##a[href*="/subscribe/"]
 quantamagazine.org##a[href="#newsletter"]
 time.com##a[href^="https://cloud.newsletters.time.com/signup?"]
@@ -36103,6 +36104,7 @@ refinery29.com##aside
 cfe.dev##aside.sticky.top-\[114px\].mt-12
 decisiondeskhq.com##astro-island[component-url*="/_astro/Newsletter."]
 cars.com##cars-newsletter-signup
+dansinker.com#?#.bg-orange-200:has-text(I write about)
 blockworks.co##div > .p-10.gap-4
 nature.com##div.c-site-messages
 bustle.com##div.lqj:last-child
@@ -39621,7 +39623,7 @@ wyze.com###wyze-cookie-banner
 xhorsetool.com###xri_GoogConsent
 hydramatics.co.za###zcb-banner
 spiceworks.com###zdprivacy-content-new
-1kosmos.com,avaloniaui.net,brside.com,buildship.com,bunq.com,coworker.ai,daytona.io,enhanced.com,etfbook.com,fitanalytics.com,framer.com,gitbook.com,iverify.io,juliahub.com,localculture.org,luckyorange.com,meetkevin.com,neon-free.ch,netcraft.com,podspace.com,rollbar.com,site.trasti.pl,snoutcover.com,splx.ai,stirling.com,strongcloud.online,syncly.app,walllet.com##.--framer-cookie-banner-container
+1kosmos.com,avaloniaui.net,bereal.com,brside.com,buildship.com,bunq.com,coworker.ai,daytona.io,enhanced.com,etfbook.com,fitanalytics.com,framer.com,gitbook.com,iverify.io,juliahub.com,localculture.org,luckyorange.com,meetkevin.com,neon-free.ch,netcraft.com,podspace.com,rollbar.com,site.trasti.pl,snoutcover.com,splx.ai,stirling.com,strongcloud.online,syncly.app,walllet.com##.--framer-cookie-banner-container
 dublininquirer.com##.-alert.-fixed.notice
 pastebin.com##.-cookies
 alpari.com,alpariforex.org##.-footer__notice
