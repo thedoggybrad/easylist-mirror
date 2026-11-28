@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VrwVRW8JcVUfsPxpr6LW3Q
-! Version: 202611281753
+! Checksum: ddOdjLWQ/7siCiT4HLYnuA
+! Version: 202611281803
 ! Title: RU, UA, UZ, KZ
-! Last modified: 28 Nov 2026 17:53 UTC
+! Last modified: 28 Nov 2026 18:03 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -20066,6 +20066,7 @@ minfin.com.ua##header.mfz-container::after
 sims3pack.ru##header.st-flex
 sims3pack.ru##header.st-flex ~ *
 tr.anidub.com##header::after
+igromania.ru##html.is-mobile [class^="MaterialsManufacturerPage_infiniteWrap"] > div[class^="InfiniteScrollWrap_content"] > div[style^="margin-bottom:"] ~ div[style^="margin-bottom:"]
 comss.ru##html:not([style]) > body getsitecontrol-widget:not(#getsitecontrol-7665)
 4pda.to##html[style] > body[style=";background-color:#E6E7E9!important"] .advanced-area .post[itemid] ~ .post:not([itemid]):nth-child(-n+3)
 4pda.to#?#html[style] > body[style=";background-color:#E6E7E9!important"] .article > div[style^="background-color:"]:-abp-has(> span + a[id][href][target="_blank"])
